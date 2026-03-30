@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Polymarket Trading Intelligence — shaunpatrickstewart.com</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0 }
+    body { background: #080808; color: #eee; font-family: 'Courier New', monospace; padding: 24px 16px }
+    header { border-bottom: 1px solid #1a1a1a; padding-bottom: 16px; margin-bottom: 24px }
+    header h1 { color: #00ff88; font-size: 1.2em; letter-spacing: 2px }
+    header p { color: #444; font-size: 0.75em; margin-top: 4px }
+    #pm-updated { color: #333; font-size: 0.72em; margin-top: 4px }
+    .stats { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 28px }
+    .stat { background: #0f0f0f; border: 1px solid #1e1e1e; padding: 12px 20px; border-radius: 6px; min-width: 110px }
+    .stat .val { font-size: 1.6em; color: #00ff88 }
+    .stat .lbl { font-size: 0.68em; color: #555; margin-top: 3px; text-transform: uppercase; letter-spacing: 1px }
+    section { margin-bottom: 32px }
+    section h2 { color: #88aaff; font-size: 0.82em; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 12px; padding-bottom: 6px; border-bottom: 1px solid #111 }
+    table { width: 100%; border-collapse: collapse; font-size: 0.78em }
+    th { background: #0d0d0d; color: #444; padding: 8px 10px; text-align: left; border-bottom: 1px solid #1a1a1a; letter-spacing: 1px; font-size: 0.9em }
+    td { padding: 7px 10px; border-bottom: 1px solid #0f0f0f; vertical-align: top }
+    tr:hover td { background: #0c0c0c }
+    .yes { color: #00ff88 } .no { color: #ff6666 }
+    .loader { color: #333; padding: 30px; text-align: center; font-size: 0.8em }
+    .error { color: #ff4444; padding: 16px; font-size: 0.8em }
+    footer { margin-top: 40px; border-top: 1px solid #111; padding-top: 16px; color: #222; font-size: 0.7em }
+    footer a { color: #333; text-decoration: none }
+    @media(max-width: 600px) {
+      body { padding: 16px 10px }
+      table { font-size: 0.72em }
+      th, td { padding: 6px 6px }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>POLYMARKET TRADING INTELLIGENCE</h1>
+  <p>Live copy-trade analysis — top wallet tracking &amp; short-term crypto markets</p>
+  <div id="pm-updated">Loading...</div>
+</header>
+
+<div class="stats" id="pm-stats"><div class="loader">Fetching stats...</div></div>
+
+<section>
+  <h2>Top Performing Wallets &amp; Current Positions</h2>
+  <div id="pm-wallets"><div class="loader">Fetching wallets...</div></div>
+</section>
+
+<section>
+  <h2>Short-Term Crypto Opportunities (resolving within 7 days)</h2>
+  <div id="pm-markets"><div class="loader">Fetching markets...</div></div>
+</section>
+
+<footer>
+  <p>Data sourced from <a href="https://polymarket.com" target="_blank">Polymarket</a> public API &mdash; auto-refreshes every 90 seconds &mdash; <a href="https://shaunpatrickstewart.com" target="_blank">shaunpatrickstewart.com</a></p>
+</footer>
+
+<script>
+(function() {
+  const DATA_API  = 'https://data-api.polymarket.com';
+  const GAMMA_API = 'https://gamma-api.polymarket.com';
+  const PROXY     = 'https://api.allorigins.win/raw?url=';
+  const REFRESH   = 90000;
+
+  async function apiFetch(url) {
+    const r = await fetch(PROXY + encodeURIComponent(url));
+    if (!r.ok) throw new Error('Proxy error ' + r.status);
+    return r.json();
+  }
+
+  function fmt(n) {
+    if (n >= 1000000) return '$' + (n/1000000).toFixed(1) + 'M';
+    if (n >= 1000)    return '$' + (n/1000).toFixed(0) + 'K';
+    return '$' + Math.abs(n).toFixed(0);
+  }
+
+  async function fetchLeaderboard() {
+    return apiFetch(DATA_API + '/v1/leaderboard?timePeriod=ALL&orderBy=PNL&limit=15&category=CRYPTO');
+  }
+
+  async function fetchMarkets() {
+    const all = await apiFetch(GAMMA_API + '/markets?active=true&closed=false&tag=crypto&limit=200');
+    const now = new Date();
+    const cutoff = new Date(now.getTime() + 7*24*60*60*1000);
+    return all.filter(m => {
+      const end = m.endDateIso || m.endDate || '';
+      if (!end) return false;
+      const endDt = new Date(end);
+      if (endDt <= now || endDt > cutoff) return false;
+      const vol = parseFloat(m.volumeNum || m.volume || 0);
+      if (vol < 50000) return false;
+      let prices = [];
+      try { prices = JSON.parse(m.outcomePrices || '[]').map(Number); } catch(e){}
+      return prices.some(p => p >= 0.25 && p <= 0.75);
+    }).sort((a,b) => parseFloat(b.volumeNum||0) - parseFloat(a.volumeNum||0)).slice(0,8);
+  }
+
+  async function fetchPositions(wallet) {
+    return apiFetch(DATA_API + '/positions?user=' + wallet + '&sizeThreshold=0&sortBy=CASHPNL&sortDirection=DESC&limit=5');
+  }
+
+  function renderStats(leaders) {
+    const totalPnl = leaders.reduce((s,l) => s + parseFloat(l.pnl||0), 0);
+    document.getElementById('pm-stats').innerHTML =
+      '<div class="stat"><div class="val">' + leaders.length + '</div><div class="lbl">Wallets Tracked</div></div>' +
+      '<div class="stat"><div class="val">' + fmt(totalPnl) + '</div><div class="lbl">Combined PnL</div></div>' +
+      '<div class="stat"><div class="val" style="color:#00ff88">LIVE</div><div class="lbl">Data Feed</div></div>';
+  }
+
+  async function renderWallets(leaders) {
+    let html = '<table><tr><th>#</th><th>Wallet</th><th>All-Time PnL</th><th>ROI</th><th>Current Positions</th></tr>';
+    for (let i = 0; i < Math.min(leaders.length, 8); i++) {
+      const l    = leaders[i];
+      const name = (l.userName || (l.proxyWallet||'').slice(0,10) || 'anon').slice(0,16);
+      const pnl  = parseFloat(l.pnl || 0);
+      const roi  = parseFloat(l.roi || 0);
+      const addr = l.proxyWallet || l.address || '';
+      let posHtml = '<span style="color:#222">—</span>';
+      try {
+        const positions = await fetchPositions(addr);
+        const uncertain = positions.filter(p => {
+          const pr = parseFloat(p.curPrice || p.price || 0);
+          return pr >= 0.25 && pr <= 0.75;
+        }).slice(0, 2);
+        if (uncertain.length) {
+          posHtml = uncertain.map(p => {
+            const pr  = parseFloat(p.curPrice || p.price || 0);
+            const oc  = (p.outcome || '').toUpperCase();
+            const cls = oc === 'YES' ? 'yes' : 'no';
+            return '<span class="' + cls + '">[' + oc + ']</span> ' +
+                   (p.title || '').slice(0, 38) +
+                   ' <span style="color:#444">@ ' + pr.toFixed(3) + '</span>';
+          }).join('<br>');
+        }
+      } catch(e) {}
+      html +=
+        '<tr>' +
+        '<td style="color:#333">' + (i+1) + '</td>' +
+        '<td>' + name + '</td>' +
+        '<td class="yes">' + fmt(pnl) + '</td>' +
+        '<td style="color:' + (roi >= 0 ? '#00ff88' : '#ff6666') + '">' + roi.toFixed(1) + '%</td>' +
+        '<td style="line-height:1.8">' + posHtml + '</td>' +
+        '</tr>';
+    }
+    html += '</table>';
+    document.getElementById('pm-wallets').innerHTML = html;
+  }
+
+  function renderMarkets(markets) {
+    if (!markets.length) {
+      document.getElementById('pm-markets').innerHTML = '<div style="color:#333;padding:16px">No short-term crypto markets found right now — check back soon.</div>';
+      return;
+    }
+    let html = '<table><tr><th>Market</th><th>Best Side</th><th>Price</th><th>Volume</th><th>Expires</th></tr>';
+    markets.forEach(m => {
+      let prices = [], outcomes = [];
+      try { prices   = JSON.parse(m.outcomePrices || '[]').map(Number); } catch(e){}
+      try { outcomes = JSON.parse(m.outcomes || '["Yes","No"]'); } catch(e){}
+      let bestIdx = 0, bestDist = 1;
+      prices.forEach((p, i) => {
+        const d = Math.abs(p - 0.5);
+        if (p >= 0.25 && p <= 0.75 && d < bestDist) { bestDist = d; bestIdx = i; }
+      });
+      const price    = prices[bestIdx] || 0;
+      const outcome  = (outcomes[bestIdx] || 'Yes').toUpperCase();
+      const vol      = parseFloat(m.volumeNum || m.volume || 0);
+      const end      = (m.endDateIso || m.endDate || '').slice(0, 10);
+      const daysLeft = Math.ceil((new Date(end) - new Date()) / 86400000);
+      const cls      = outcome === 'YES' ? 'yes' : 'no';
+      html +=
+        '<tr>' +
+        '<td style="max-width:220px">' + (m.question || m.title || '').slice(0, 55) + '</td>' +
+        '<td class="' + cls + '">' + outcome + '</td>' +
+        '<td>' + price.toFixed(3) + ' <span style="color:#444">(' + (price*100).toFixed(0) + '%)</span></td>' +
+        '<td style="color:#88aaff">' + fmt(vol) + '</td>' +
+        '<td style="color:' + (daysLeft <= 2 ? '#ffaa00' : '#555') + '">' + daysLeft + 'd &mdash; ' + end + '</td>' +
+        '</tr>';
+    });
+    html += '</table>';
+    document.getElementById('pm-markets').innerHTML = html;
+  }
+
+  async function refresh() {
+    document.getElementById('pm-updated').textContent =
+      'Last updated: ' + new Date().toLocaleString() + ' — auto-refreshes every 90s';
+    try {
+      const [leaders, markets] = await Promise.all([fetchLeaderboard(), fetchMarkets()]);
+      renderStats(leaders);
+      await renderWallets(leaders);
+      renderMarkets(markets);
+    } catch(e) {
+      document.getElementById('pm-wallets').innerHTML =
+        '<div class="error">Error loading data: ' + e.message + '</div>';
+    }
+  }
+
+  refresh();
+  setInterval(refresh, REFRESH);
+})();
+</script>
+
+</body>
+</html>
