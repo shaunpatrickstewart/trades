@@ -62,59 +62,59 @@
 
 <header>
   <h1><span class="live-dot"></span>POLYMARKET TRADING INTELLIGENCE</h1>
-  <p>Live copy-trade signals — daily income + swing positions — crypto prediction markets</p>
+  <p>Copy-trading top wallets on uncertain markets — all categories — highest upside signals first</p>
   <div id="pm-updated">Initializing...</div>
 </header>
 
 <div class="stats" id="pm-stats"><div class="loader">Loading...</div></div>
 
-<!-- COPY SIGNALS -->
+<!-- COPY SIGNALS — PRIMARY SECTION -->
 <section>
-  <h2><span class="yes">&#9679;</span> COPY SIGNALS — What Top Wallets Are Betting Right Now <span class="count" id="sig-count"></span></h2>
-  <div class="section-note">These are live positions held by the highest-earning wallets. Copy these bets on Polymarket.</div>
+  <h2><span class="yes">&#9679;</span> COPY SIGNALS — Top Wallet Uncertain Positions <span class="count" id="sig-count"></span></h2>
+  <div class="section-note">Uncertain markets (25-75¢) where elite wallets have real positions. Closest to 50/50 listed first — highest upside. These are the trades that compound fast.</div>
   <div id="pm-signals"><div class="loader">Pulling top wallet positions...</div></div>
 </section>
 
-<!-- DAILY INCOME — near-certain quick resolution -->
+<!-- UNCERTAIN MARKETS THIS WEEK -->
 <section>
-  <h2><span class="warn">&#9889;</span> DAILY INCOME — High Confidence, Resolving Within 7 Days <span class="count" id="dc-count"></span></h2>
-  <div class="section-note">Markets where probability is already >82% — buy the near-certain side for quick low-risk returns. Small bets, fast resolution.</div>
-  <div id="pm-daily"><div class="loader">Scanning for near-certain outcomes...</div></div>
-</section>
-
-<!-- DAY TRADES — ALL MARKETS -->
-<section>
-  <h2><span class="warn">&#9889;</span> DAY TRADES — All Markets Resolving Within 48 Hours <span class="count" id="dt-count"></span></h2>
-  <div class="section-note">Sports, politics, news, crypto — ANY high-volume market closing within 48 hours. This is where daily income happens.</div>
-  <div id="pm-day"><div class="loader">Scanning all markets...</div></div>
-</section>
-
-<!-- 7-DAY TRADES -->
-<section>
-  <h2><span class="warn">&#9650;</span> THIS WEEK — All Markets Resolving Within 7 Days <span class="count" id="wk-count"></span></h2>
-  <div class="section-note">All categories, high volume only — the real active trading markets.</div>
+  <h2><span class="warn">&#9650;</span> UNCERTAIN MARKETS — All Categories, This Week <span class="count" id="wk-count"></span></h2>
+  <div class="section-note">ALL Polymarket categories — sports, politics, news, crypto — resolving within 7 days. High volume, genuine uncertainty. Best upside.</div>
   <div id="pm-week"><div class="loader">Scanning...</div></div>
 </section>
 
-<!-- FOREX / CURRENCY -->
+<!-- 48H DAY TRADES -->
 <section>
-  <h2><span style="color:#ffdd66">&#36;</span> FOREX &amp; CURRENCY MARKETS <span class="count" id="fx-count"></span></h2>
-  <div class="section-note">Polymarket currency prediction markets — copy the same top wallets into currency bets. Run alongside eToro copy trading.</div>
-  <div id="pm-forex"><div class="loader">Scanning currency markets...</div></div>
+  <h2><span class="warn">&#9889;</span> DAY TRADES — Resolving Within 48 Hours <span class="count" id="dt-count"></span></h2>
+  <div class="section-note">Fast resolution across all categories — get in and out same day or next.</div>
+  <div id="pm-day"><div class="loader">Scanning all markets...</div></div>
 </section>
 
 <!-- SWING POSITIONS -->
 <section>
   <h2><span class="blue">&#9670;</span> SWING POSITIONS — 7 to 30 Days <span class="count" id="sw-count"></span></h2>
-  <div class="section-note">Hold these alongside daily trades — top wallet picks, higher volume markets, medium-term resolution.</div>
+  <div class="section-note">Longer holds — high volume, uncertain markets worth sitting on.</div>
   <div id="pm-swing"><div class="loader">Scanning...</div></div>
+</section>
+
+<!-- FOREX / CURRENCY -->
+<section>
+  <h2><span style="color:#ffdd66">&#36;</span> FOREX &amp; CURRENCY MARKETS <span class="count" id="fx-count"></span></h2>
+  <div class="section-note">Polymarket currency prediction markets.</div>
+  <div id="pm-forex"><div class="loader">Scanning currency markets...</div></div>
 </section>
 
 <!-- TOP WALLETS -->
 <section>
   <h2>Top Performing Wallets — Leaderboard <span class="count" id="wallet-count"></span></h2>
-  <div class="section-note">Combined ALL-TIME, 30-DAY and 7-DAY leaderboards — deduplicated, ranked by profit. ROI = PnL ÷ Volume.</div>
+  <div class="section-note">ALL-TIME, 30-DAY and 7-DAY combined. ROI = PnL ÷ Volume. These are the wallets the bot copies.</div>
   <div id="pm-wallets"><div class="loader">Pulling wallets...</div></div>
+</section>
+
+<!-- NEAR-CERTAIN — LOW PRIORITY -->
+<section>
+  <h2>Near-Certain Markets — Low Priority <span class="count" id="dc-count"></span></h2>
+  <div class="section-note">85%+ confidence, resolving within 7 days. Small returns but low risk. Secondary strategy only.</div>
+  <div id="pm-daily"><div class="loader">Scanning...</div></div>
 </section>
 
 <!-- PAPER TRADES -->
@@ -217,9 +217,9 @@
 
   async function fetchAllWallets() {
     const [all, month, week] = await Promise.all([
-      pf(DATA + '/v1/leaderboard?timePeriod=ALL&orderBy=PNL&limit=50&category=CRYPTO'),
-      pf(DATA + '/v1/leaderboard?timePeriod=1M&orderBy=PNL&limit=50&category=CRYPTO'),
-      pf(DATA + '/v1/leaderboard?timePeriod=1W&orderBy=PNL&limit=50&category=CRYPTO'),
+      pf(DATA + '/v1/leaderboard?timePeriod=ALL&orderBy=PNL&limit=50'),
+      pf(DATA + '/v1/leaderboard?timePeriod=1M&orderBy=PNL&limit=50'),
+      pf(DATA + '/v1/leaderboard?timePeriod=1W&orderBy=PNL&limit=50'),
     ]);
     const map = new Map();
     [...toArr(all), ...toArr(month), ...toArr(week)].forEach(w => {
@@ -321,7 +321,7 @@
         const pnl = parseFloat(w.pnl||0);
         pos.filter(p => {
           const pr = parseFloat(p.curPrice||p.price||0);
-          return pr >= 0.12 && pr <= 0.88;
+          return pr >= 0.25 && pr <= 0.75; // uncertain markets only — real upside
         }).slice(0,2).forEach(p => {
           const pr  = parseFloat(p.curPrice||p.price||0);
           const oc  = (p.outcome||'').toUpperCase();
@@ -331,26 +331,32 @@
       } catch(e) {}
     }
 
+    // Sort by most uncertain first (closest to 50/50 = highest upside)
+    signals.sort((a, b) => Math.abs(a.price - 0.5) - Math.abs(b.price - 0.5));
+
     document.getElementById('sig-count').textContent = '(' + signals.length + ')';
     if (!signals.length) {
-      document.getElementById('pm-signals').innerHTML = '<div class="dim" style="padding:12px">No open positions found on top wallets right now — check back soon.</div>';
+      document.getElementById('pm-signals').innerHTML = '<div class="dim" style="padding:12px">No uncertain positions found on top wallets right now — check back soon.</div>';
       return;
     }
 
-    let html = '<table><tr><th>#</th><th>Market</th><th>Action</th><th>Price</th><th>Confidence</th><th>Wallet PnL</th><th>Copied From</th></tr>';
+    let html = '<table><tr><th>#</th><th>Market</th><th>Action</th><th>Price</th><th>Uncertainty</th><th>Wallet PnL</th><th>Copied From</th></tr>';
     signals.slice(0, 15).forEach((s, i) => {
       const cls = s.outcome === 'YES' ? 'by' : 'bn';
       const pnlS = s.cashPnl >= 0
         ? '<span class="yes">+' + fmt(s.cashPnl) + '</span>'
         : '<span class="no">-' + fmt(Math.abs(s.cashPnl)) + '</span>';
-      const conf = s.price >= 0.65 ? 'conf-high' : s.price >= 0.45 ? 'conf-med' : 'conf-low';
+      // Uncertainty score: how close to 50/50 (0 = perfect coin flip, 0.25 = 75/25 edge)
+      const unc = (0.5 - Math.abs(s.price - 0.5));
+      const uncPct = (unc / 0.5 * 100).toFixed(0);
+      const uncCls = unc >= 0.4 ? 'conf-high' : unc >= 0.2 ? 'conf-med' : 'conf-low';
       html +=
         '<tr class="signal-row">' +
         '<td class="dim">' + (i+1) + '</td>' +
         '<td style="max-width:280px">' + s.title.slice(0,68) + '</td>' +
         '<td><span class="badge ' + cls + '">BET ' + s.outcome + '</span></td>' +
         '<td>' + s.price.toFixed(3) + '</td>' +
-        '<td><span class="confidence ' + conf + '">' + (s.price*100).toFixed(0) + '%</span></td>' +
+        '<td><span class="confidence ' + uncCls + '">' + uncPct + '% UNCERTAIN</span></td>' +
         '<td class="yes">' + fmt(s.walletPnl) + '</td>' +
         '<td class="dim">' + s.name.slice(0,14) + '</td>' +
         '</tr>';
