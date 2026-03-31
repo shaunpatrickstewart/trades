@@ -151,6 +151,13 @@
     return { price: prices[bi]||0, outcome: (outcomes[bi]||'Yes').toUpperCase() };
   }
 
+  function toArr(r) {
+    if (Array.isArray(r)) return r;
+    if (r && Array.isArray(r.data))    return r.data;
+    if (r && Array.isArray(r.results)) return r.results;
+    return [];
+  }
+
   // Fetch all leaderboards in parallel — ALL time, 1 month, 1 week, then deduplicate
   async function fetchAllWallets() {
     const [all, month, week] = await Promise.all([
@@ -160,7 +167,7 @@
     ]);
     // Deduplicate by proxyWallet address, keep highest PNL entry
     const map = new Map();
-    [...all, ...month, ...week].forEach(w => {
+    [...toArr(all), ...toArr(month), ...toArr(week)].forEach(w => {
       const key = w.proxyWallet || w.address || w.userName;
       if (!key) return;
       const existing = map.get(key);
@@ -173,12 +180,14 @@
   }
 
   async function fetchMarkets() {
-    return pf(GAMMA + '/markets?active=true&closed=false&tag=crypto&limit=500');
+    const r = await pf(GAMMA + '/markets?active=true&closed=false&tag=crypto&limit=500');
+    return toArr(r);
   }
 
   async function fetchPositions(addr) {
     try {
-      return await pf(DATA + '/positions?user=' + addr + '&sizeThreshold=0&sortBy=CASHPNL&sortDirection=DESC&limit=5');
+      const r = await pf(DATA + '/positions?user=' + addr + '&sizeThreshold=0&sortBy=CASHPNL&sortDirection=DESC&limit=5');
+      return toArr(r);
     } catch(e) { return []; }
   }
 
