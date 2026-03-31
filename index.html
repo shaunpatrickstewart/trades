@@ -6,193 +6,313 @@
   <title>Polymarket Trading Intelligence — shaunpatrickstewart.com</title>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0 }
-    body { background: #080808; color: #eee; font-family: 'Courier New', monospace; padding: 24px 16px }
+    body { background: #060606; color: #ddd; font-family: 'Courier New', monospace; padding: 20px 16px; max-width: 1200px; margin: 0 auto }
     header { border-bottom: 1px solid #1a1a1a; padding-bottom: 16px; margin-bottom: 24px }
     header h1 { color: #00ff88; font-size: 1.2em; letter-spacing: 2px }
-    header p { color: #444; font-size: 0.75em; margin-top: 4px }
-    #pm-updated { color: #333; font-size: 0.72em; margin-top: 4px }
+    header p { color: #333; font-size: 0.72em; margin-top: 4px }
+    #pm-updated { color: #252525; font-size: 0.68em; margin-top: 6px }
+    .live-dot { display: inline-block; width: 7px; height: 7px; background: #00ff88; border-radius: 50%; margin-right: 6px; animation: pulse 2s infinite }
+    @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.2} }
     .stats { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 28px }
-    .stat { background: #0f0f0f; border: 1px solid #1e1e1e; padding: 12px 20px; border-radius: 6px; min-width: 110px }
-    .stat .val { font-size: 1.6em; color: #00ff88 }
-    .stat .lbl { font-size: 0.68em; color: #555; margin-top: 3px; text-transform: uppercase; letter-spacing: 1px }
-    section { margin-bottom: 32px }
-    section h2 { color: #88aaff; font-size: 0.82em; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 12px; padding-bottom: 6px; border-bottom: 1px solid #111 }
-    table { width: 100%; border-collapse: collapse; font-size: 0.78em }
-    th { background: #0d0d0d; color: #444; padding: 8px 10px; text-align: left; border-bottom: 1px solid #1a1a1a; letter-spacing: 1px; font-size: 0.9em }
-    td { padding: 7px 10px; border-bottom: 1px solid #0f0f0f; vertical-align: top }
-    tr:hover td { background: #0c0c0c }
-    .yes { color: #00ff88 } .no { color: #ff6666 }
-    .loader { color: #333; padding: 30px; text-align: center; font-size: 0.8em }
-    .error { color: #ff4444; padding: 16px; font-size: 0.8em }
-    footer { margin-top: 40px; border-top: 1px solid #111; padding-top: 16px; color: #222; font-size: 0.7em }
-    footer a { color: #333; text-decoration: none }
-    @media(max-width: 600px) {
-      body { padding: 16px 10px }
-      table { font-size: 0.72em }
-      th, td { padding: 6px 6px }
+    .stat { background: #0c0c0c; border: 1px solid #1a1a1a; padding: 12px 18px; border-radius: 6px; min-width: 100px }
+    .stat .val { font-size: 1.4em; color: #00ff88 }
+    .stat .lbl { font-size: 0.63em; color: #444; margin-top: 3px; text-transform: uppercase; letter-spacing: 1px }
+    section { margin-bottom: 36px }
+    section h2 { color: #88aaff; font-size: 0.78em; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 12px; padding-bottom: 6px; border-bottom: 1px solid #111 }
+    section h2 .count { color: #333; font-size: 0.85em; margin-left: 8px }
+    table { width: 100%; border-collapse: collapse; font-size: 0.75em }
+    th { background: #090909; color: #333; padding: 8px 10px; text-align: left; border-bottom: 1px solid #161616; letter-spacing: 1px; font-size: 0.85em; white-space: nowrap }
+    td { padding: 7px 10px; border-bottom: 1px solid #0d0d0d; vertical-align: middle }
+    tr:hover td { background: #0b0b0b }
+    .yes { color: #00ff88 }
+    .no  { color: #ff5050 }
+    .warn { color: #ffaa00 }
+    .dim  { color: #2e2e2e }
+    .blue { color: #88aaff }
+    .badge { display: inline-block; padding: 1px 7px; border-radius: 3px; font-size: 0.82em; font-weight: bold; white-space: nowrap }
+    .by  { background: #001a0d; color: #00ff88; border: 1px solid #003d1a }
+    .bn  { background: #1a0000; color: #ff5050; border: 1px solid #3d0000 }
+    .loader { color: #252525; padding: 20px; text-align: center; font-size: 0.78em }
+    .err { color: #ff4444; padding: 14px; font-size: 0.78em; background: #110000; border-radius: 4px; margin: 4px 0 }
+    .day-trade-row td { border-left: 3px solid #ffaa00 }
+    .paper-row td { border-left: 3px solid #1a3a1a }
+    .section-note { color: #2a2a2a; font-size: 0.68em; margin-bottom: 10px; font-style: italic }
+    footer { margin-top: 40px; border-top: 1px solid #0f0f0f; padding-top: 14px; color: #1e1e1e; font-size: 0.68em }
+    footer a { color: #252525; text-decoration: none }
+    footer a:hover { color: #555 }
+    @media(max-width:700px){
+      body { padding: 10px 8px }
+      table { font-size: 0.68em }
+      th, td { padding: 5px 5px }
+      .hm { display: none }
     }
   </style>
 </head>
 <body>
 
 <header>
-  <h1>POLYMARKET TRADING INTELLIGENCE</h1>
-  <p>Live copy-trade analysis — top wallet tracking &amp; short-term crypto markets</p>
-  <div id="pm-updated">Loading...</div>
+  <h1><span class="live-dot"></span>POLYMARKET TRADING INTELLIGENCE</h1>
+  <p>Live wallet copy-trading analysis &mdash; day trades, short-term &amp; long-term crypto prediction markets</p>
+  <div id="pm-updated">Initializing data feeds...</div>
 </header>
 
-<div class="stats" id="pm-stats"><div class="loader">Fetching stats...</div></div>
+<div class="stats" id="pm-stats"><div class="loader">Loading stats...</div></div>
 
+<!-- DAY TRADES -->
 <section>
-  <h2>Top Performing Wallets &amp; Current Positions</h2>
-  <div id="pm-wallets"><div class="loader">Fetching wallets...</div></div>
+  <h2><span class="warn">&#9889;</span> DAY TRADES &mdash; Resolving Within 48 Hours <span class="count" id="dt-count"></span></h2>
+  <div class="section-note">Highest urgency — markets closing soon, fast resolution, quick flip opportunities</div>
+  <div id="pm-day"><div class="loader">Scanning for day trades...</div></div>
 </section>
 
+<!-- PAPER TRADES -->
 <section>
-  <h2>Short-Term Crypto Opportunities (resolving within 7 days)</h2>
-  <div id="pm-markets"><div class="loader">Fetching markets...</div></div>
+  <h2>Paper Trade Tracker &mdash; Open Positions</h2>
+  <div class="section-note">Logged by bot — tracking performance before going live with real money</div>
+  <table>
+    <tr><th>#</th><th>Market</th><th>Side</th><th>Entry Price</th><th>Paper Bet</th><th>Pot. Profit</th><th>Copied From</th><th>Status</th></tr>
+    <tr class="paper-row"><td class="dim">1</td><td>Will Ethereum reach $3,500 by Dec 31?</td><td><span class="badge bn">NO</span></td><td>0.685</td><td>$5</td><td class="yes">+$2.30</td><td class="dim">0xf705fa</td><td><span class="warn">OPEN</span></td></tr>
+    <tr class="paper-row"><td class="dim">2</td><td>Will Ethereum dip to $1,500 by Dec 31?</td><td><span class="badge by">YES</span></td><td>0.720</td><td>$5</td><td class="yes">+$1.94</td><td class="dim">0xf705fa</td><td><span class="warn">OPEN</span></td></tr>
+    <tr class="paper-row"><td class="dim">3</td><td>Will Dogecoin reach $0.16 by Dec 31?</td><td><span class="badge bn">NO</span></td><td>0.607</td><td>$5</td><td class="yes">+$3.24</td><td class="dim">0xf705fa</td><td><span class="warn">OPEN</span></td></tr>
+    <tr class="paper-row"><td class="dim">4</td><td>Will Bitcoin dip to $65,000 in March?</td><td><span class="badge by">YES</span></td><td>0.9995</td><td>$5</td><td class="dim">+$0.00</td><td class="dim">0xf705fa</td><td><span class="warn">OPEN</span></td></tr>
+    <tr class="paper-row"><td class="dim">5</td><td>Will Dogecoin reach $0.15 in March?</td><td><span class="badge bn">NO</span></td><td>0.996</td><td>$5</td><td class="yes">+$0.02</td><td class="dim">0xf705fa</td><td><span class="warn">OPEN</span></td></tr>
+    <tr class="paper-row"><td class="dim">6</td><td>Will Solana dip to $80 in March?</td><td><span class="badge by">YES</span></td><td>0.9995</td><td>$5</td><td class="dim">+$0.00</td><td class="dim">0xf705fa</td><td><span class="warn">OPEN</span></td></tr>
+  </table>
+</section>
+
+<!-- TOP WALLETS -->
+<section>
+  <h2>Top Performing Wallets &amp; Live Positions <span class="count" id="wallet-count"></span></h2>
+  <div class="section-note">Combined ALL-TIME, 30-DAY and 7-DAY leaderboards — deduplicated, ranked by profit</div>
+  <div id="pm-wallets"><div class="loader">Pulling wallets across all time periods...</div></div>
+</section>
+
+<!-- SHORT TERM -->
+<section>
+  <h2>Short-Term Opportunities &mdash; 2 to 7 Days <span class="count" id="st-count"></span></h2>
+  <div id="pm-short"><div class="loader">Scanning...</div></div>
+</section>
+
+<!-- MEDIUM TERM -->
+<section>
+  <h2>Medium-Term Opportunities &mdash; 7 to 30 Days <span class="count" id="mt-count"></span></h2>
+  <div id="pm-med"><div class="loader">Scanning...</div></div>
+</section>
+
+<!-- ALL ACTIVE -->
+<section>
+  <h2>All Active Crypto Markets by Volume <span class="count" id="all-count"></span></h2>
+  <div id="pm-all"><div class="loader">Loading...</div></div>
 </section>
 
 <footer>
-  <p>Data sourced from <a href="https://polymarket.com" target="_blank">Polymarket</a> public API &mdash; auto-refreshes every 90 seconds &mdash; <a href="https://shaunpatrickstewart.com" target="_blank">shaunpatrickstewart.com</a></p>
+  <p>Data sourced live from <a href="https://polymarket.com" target="_blank">Polymarket</a> public API via Cloudflare Worker &mdash; auto-refreshes every 90s &mdash; <a href="https://shaunpatrickstewart.com" target="_blank">shaunpatrickstewart.com</a></p>
 </footer>
 
 <script>
 (function() {
-  const DATA_API  = 'https://data-api.polymarket.com';
-  const GAMMA_API = 'https://gamma-api.polymarket.com';
-  const PROXY     = 'https://florida.shaunpatrickstewart.workers.dev/?url=';
-  const REFRESH   = 90000;
+  const DATA  = 'https://data-api.polymarket.com';
+  const GAMMA = 'https://gamma-api.polymarket.com';
+  const P     = 'https://florida.shaunpatrickstewart.workers.dev/?url=';
+  const REFRESH = 90000;
 
-  async function apiFetch(url) {
-    const r = await fetch(PROXY + encodeURIComponent(url));
-    if (!r.ok) throw new Error('Proxy error ' + r.status);
+  async function pf(url) {
+    const r = await fetch(P + encodeURIComponent(url));
+    if (!r.ok) throw new Error('HTTP ' + r.status);
     return r.json();
   }
 
   function fmt(n) {
-    if (n >= 1000000) return '$' + (n/1000000).toFixed(1) + 'M';
-    if (n >= 1000)    return '$' + (n/1000).toFixed(0) + 'K';
+    n = parseFloat(n) || 0;
+    if (Math.abs(n) >= 1000000) return '$' + (n/1000000).toFixed(2) + 'M';
+    if (Math.abs(n) >= 1000)    return '$' + (n/1000).toFixed(1) + 'K';
     return '$' + Math.abs(n).toFixed(0);
   }
 
-  async function fetchLeaderboard() {
-    return apiFetch(DATA_API + '/v1/leaderboard?timePeriod=ALL&orderBy=PNL&limit=15&category=CRYPTO');
+  function days(str) {
+    if (!str) return 9999;
+    return Math.ceil((new Date(str) - new Date()) / 86400000);
+  }
+
+  function hours(str) {
+    if (!str) return 9999;
+    return Math.ceil((new Date(str) - new Date()) / 3600000);
+  }
+
+  function getBest(m) {
+    let prices = [], outcomes = [];
+    try { prices   = JSON.parse(m.outcomePrices || '[]').map(Number); } catch(e){}
+    try { outcomes = JSON.parse(m.outcomes || '["Yes","No"]'); } catch(e){}
+    let bi = 0, bd = 1;
+    prices.forEach((p, i) => {
+      const d = Math.abs(p - 0.5);
+      if (p >= 0.10 && p <= 0.90 && d < bd) { bd = d; bi = i; }
+    });
+    return { price: prices[bi]||0, outcome: (outcomes[bi]||'Yes').toUpperCase() };
+  }
+
+  // Fetch all leaderboards in parallel — ALL time, 1 month, 1 week, then deduplicate
+  async function fetchAllWallets() {
+    const [all, month, week] = await Promise.all([
+      pf(DATA + '/v1/leaderboard?timePeriod=ALL&orderBy=PNL&limit=50&category=CRYPTO'),
+      pf(DATA + '/v1/leaderboard?timePeriod=1M&orderBy=PNL&limit=50&category=CRYPTO'),
+      pf(DATA + '/v1/leaderboard?timePeriod=1W&orderBy=PNL&limit=50&category=CRYPTO'),
+    ]);
+    // Deduplicate by proxyWallet address, keep highest PNL entry
+    const map = new Map();
+    [...all, ...month, ...week].forEach(w => {
+      const key = w.proxyWallet || w.address || w.userName;
+      if (!key) return;
+      const existing = map.get(key);
+      if (!existing || parseFloat(w.pnl||0) > parseFloat(existing.pnl||0)) {
+        map.set(key, w);
+      }
+    });
+    // Sort by PNL descending
+    return [...map.values()].sort((a,b) => parseFloat(b.pnl||0) - parseFloat(a.pnl||0));
   }
 
   async function fetchMarkets() {
-    const all = await apiFetch(GAMMA_API + '/markets?active=true&closed=false&tag=crypto&limit=200');
-    const now = new Date();
-    const cutoff = new Date(now.getTime() + 7*24*60*60*1000);
-    return all.filter(m => {
-      const end = m.endDateIso || m.endDate || '';
-      if (!end) return false;
-      const endDt = new Date(end);
-      if (endDt <= now || endDt > cutoff) return false;
-      const vol = parseFloat(m.volumeNum || m.volume || 0);
-      if (vol < 50000) return false;
-      let prices = [];
-      try { prices = JSON.parse(m.outcomePrices || '[]').map(Number); } catch(e){}
-      return prices.some(p => p >= 0.25 && p <= 0.75);
-    }).sort((a,b) => parseFloat(b.volumeNum||0) - parseFloat(a.volumeNum||0)).slice(0,8);
+    return pf(GAMMA + '/markets?active=true&closed=false&tag=crypto&limit=500');
   }
 
-  async function fetchPositions(wallet) {
-    return apiFetch(DATA_API + '/positions?user=' + wallet + '&sizeThreshold=0&sortBy=CASHPNL&sortDirection=DESC&limit=5');
+  async function fetchPositions(addr) {
+    try {
+      return await pf(DATA + '/positions?user=' + addr + '&sizeThreshold=0&sortBy=CASHPNL&sortDirection=DESC&limit=5');
+    } catch(e) { return []; }
   }
 
-  function renderStats(leaders) {
-    const totalPnl = leaders.reduce((s,l) => s + parseFloat(l.pnl||0), 0);
-    document.getElementById('pm-stats').innerHTML =
-      '<div class="stat"><div class="val">' + leaders.length + '</div><div class="lbl">Wallets Tracked</div></div>' +
-      '<div class="stat"><div class="val">' + fmt(totalPnl) + '</div><div class="lbl">Combined PnL</div></div>' +
-      '<div class="stat"><div class="val" style="color:#00ff88">LIVE</div><div class="lbl">Data Feed</div></div>';
+  function renderStats(wallets, markets) {
+    const totalPnl = wallets.reduce((s,w) => s + parseFloat(w.pnl||0), 0);
+    const top = parseFloat(wallets[0]?.pnl||0);
+    const dayMkts = markets.filter(m => hours(m.endDateIso||m.endDate) <= 48).length;
+    document.getElementById('pm-stats').innerHTML = [
+      ['Wallets Tracked', wallets.length],
+      ['Combined PnL', fmt(totalPnl)],
+      ['Top Wallet', fmt(top)],
+      ['Active Markets', markets.length],
+      ['Day Trades Now', '<span class="warn">' + dayMkts + '</span>'],
+      ['<span class="live-dot"></span>Feed', 'LIVE'],
+    ].map(([lbl, val]) =>
+      '<div class="stat"><div class="val">' + val + '</div><div class="lbl">' + lbl + '</div></div>'
+    ).join('');
   }
 
-  async function renderWallets(leaders) {
-    let html = '<table><tr><th>#</th><th>Wallet</th><th>All-Time PnL</th><th>ROI</th><th>Current Positions</th></tr>';
-    for (let i = 0; i < Math.min(leaders.length, 8); i++) {
-      const l    = leaders[i];
-      const name = (l.userName || (l.proxyWallet||'').slice(0,10) || 'anon').slice(0,16);
-      const pnl  = parseFloat(l.pnl || 0);
-      const roi  = parseFloat(l.roi || 0);
-      const addr = l.proxyWallet || l.address || '';
-      let posHtml = '<span style="color:#222">—</span>';
+  function mktTable(markets, elId, countId, isDayTrade) {
+    if (countId) document.getElementById(countId).textContent = '(' + markets.length + ')';
+    if (!markets.length) {
+      document.getElementById(elId).innerHTML = '<div class="dim" style="padding:12px">No markets in this window right now.</div>';
+      return;
+    }
+    let html = '<table><tr><th>#</th><th>Market</th><th>Best Side</th><th>Price</th><th>Implied %</th><th>Volume</th><th class="hm">Liquidity</th><th>Expires</th></tr>';
+    markets.forEach((m, i) => {
+      const { price, outcome } = getBest(m);
+      const vol = parseFloat(m.volumeNum||m.volume||0);
+      const liq = parseFloat(m.liquidityNum||m.liquidity||0);
+      const end = (m.endDateIso||m.endDate||'').slice(0,10);
+      const d   = days(m.endDateIso||m.endDate);
+      const h   = hours(m.endDateIso||m.endDate);
+      const cls = outcome === 'YES' ? 'by' : 'bn';
+      const timeStr = d <= 1 ? '<span class="warn">' + h + 'h</span>' : '<span style="color:' + (d<=7?'#ffdd66':'#444') + '">' + d + 'd &mdash; ' + end + '</span>';
+      const rowCls = isDayTrade ? 'day-trade-row' : '';
+      html +=
+        '<tr class="' + rowCls + '">' +
+        '<td class="dim">' + (i+1) + '</td>' +
+        '<td style="max-width:260px">' + (m.question||m.title||'').slice(0,65) + '</td>' +
+        '<td><span class="badge ' + cls + '">' + outcome + '</span></td>' +
+        '<td>' + price.toFixed(3) + '</td>' +
+        '<td style="color:' + (price>=0.5?'#00ff88':'#88aaff') + '">' + (price*100).toFixed(0) + '%</td>' +
+        '<td class="blue">' + fmt(vol) + '</td>' +
+        '<td class="hm dim">' + fmt(liq) + '</td>' +
+        '<td>' + timeStr + '</td>' +
+        '</tr>';
+    });
+    html += '</table>';
+    document.getElementById(elId).innerHTML = html;
+  }
+
+  async function renderWallets(wallets) {
+    document.getElementById('wallet-count').textContent = '(' + wallets.length + ')';
+    let html = '<table><tr><th>#</th><th>Wallet</th><th>All-Time PnL</th><th>ROI</th><th class="hm">Volume</th><th>Live Positions (copying these)</th></tr>';
+    for (let i = 0; i < wallets.length; i++) {
+      const w    = wallets[i];
+      const name = (w.userName || (w.proxyWallet||'').slice(0,12) || 'anon').slice(0,20);
+      const pnl  = parseFloat(w.pnl||0);
+      const roi  = parseFloat(w.roi||0);
+      const vol  = parseFloat(w.vol||0);
+      const addr = w.proxyWallet || w.address || '';
+      let posHtml = '<span class="dim">No uncertain positions</span>';
       try {
-        const positions = await fetchPositions(addr);
-        const uncertain = positions.filter(p => {
-          const pr = parseFloat(p.curPrice || p.price || 0);
-          return pr >= 0.25 && pr <= 0.75;
-        }).slice(0, 2);
-        if (uncertain.length) {
-          posHtml = uncertain.map(p => {
-            const pr  = parseFloat(p.curPrice || p.price || 0);
-            const oc  = (p.outcome || '').toUpperCase();
-            const cls = oc === 'YES' ? 'yes' : 'no';
-            return '<span class="' + cls + '">[' + oc + ']</span> ' +
-                   (p.title || '').slice(0, 38) +
-                   ' <span style="color:#444">@ ' + pr.toFixed(3) + '</span>';
+        const pos = await fetchPositions(addr);
+        const unc = pos.filter(p => {
+          const pr = parseFloat(p.curPrice||p.price||0);
+          return pr >= 0.15 && pr <= 0.85;
+        }).slice(0,3);
+        if (unc.length) {
+          posHtml = unc.map(p => {
+            const pr  = parseFloat(p.curPrice||p.price||0);
+            const oc  = (p.outcome||'').toUpperCase();
+            const cls = oc === 'YES' ? 'by' : 'bn';
+            const pnlV = parseFloat(p.cashPnl||0);
+            const pnlS = pnlV >= 0
+              ? '<span class="yes">+$'+pnlV.toFixed(2)+'</span>'
+              : '<span class="no">-$'+Math.abs(pnlV).toFixed(2)+'</span>';
+            return '<span class="badge ' + cls + '">' + oc + '</span> ' +
+                   (p.title||'').slice(0,42) +
+                   ' <span class="dim">@' + pr.toFixed(3) + '</span> ' + pnlS;
           }).join('<br>');
         }
       } catch(e) {}
       html +=
         '<tr>' +
-        '<td style="color:#333">' + (i+1) + '</td>' +
+        '<td class="dim">' + (i+1) + '</td>' +
         '<td>' + name + '</td>' +
         '<td class="yes">' + fmt(pnl) + '</td>' +
-        '<td style="color:' + (roi >= 0 ? '#00ff88' : '#ff6666') + '">' + roi.toFixed(1) + '%</td>' +
-        '<td style="line-height:1.8">' + posHtml + '</td>' +
+        '<td style="color:' + (roi>=0?'#00ff88':'#ff5050') + '">' + roi.toFixed(1) + '%</td>' +
+        '<td class="hm dim">' + fmt(vol) + '</td>' +
+        '<td style="line-height:2;font-size:0.88em">' + posHtml + '</td>' +
         '</tr>';
     }
     html += '</table>';
     document.getElementById('pm-wallets').innerHTML = html;
   }
 
-  function renderMarkets(markets) {
-    if (!markets.length) {
-      document.getElementById('pm-markets').innerHTML = '<div style="color:#333;padding:16px">No short-term crypto markets found right now — check back soon.</div>';
-      return;
-    }
-    let html = '<table><tr><th>Market</th><th>Best Side</th><th>Price</th><th>Volume</th><th>Expires</th></tr>';
-    markets.forEach(m => {
-      let prices = [], outcomes = [];
-      try { prices   = JSON.parse(m.outcomePrices || '[]').map(Number); } catch(e){}
-      try { outcomes = JSON.parse(m.outcomes || '["Yes","No"]'); } catch(e){}
-      let bestIdx = 0, bestDist = 1;
-      prices.forEach((p, i) => {
-        const d = Math.abs(p - 0.5);
-        if (p >= 0.25 && p <= 0.75 && d < bestDist) { bestDist = d; bestIdx = i; }
-      });
-      const price    = prices[bestIdx] || 0;
-      const outcome  = (outcomes[bestIdx] || 'Yes').toUpperCase();
-      const vol      = parseFloat(m.volumeNum || m.volume || 0);
-      const end      = (m.endDateIso || m.endDate || '').slice(0, 10);
-      const daysLeft = Math.ceil((new Date(end) - new Date()) / 86400000);
-      const cls      = outcome === 'YES' ? 'yes' : 'no';
-      html +=
-        '<tr>' +
-        '<td style="max-width:220px">' + (m.question || m.title || '').slice(0, 55) + '</td>' +
-        '<td class="' + cls + '">' + outcome + '</td>' +
-        '<td>' + price.toFixed(3) + ' <span style="color:#444">(' + (price*100).toFixed(0) + '%)</span></td>' +
-        '<td style="color:#88aaff">' + fmt(vol) + '</td>' +
-        '<td style="color:' + (daysLeft <= 2 ? '#ffaa00' : '#555') + '">' + daysLeft + 'd &mdash; ' + end + '</td>' +
-        '</tr>';
-    });
-    html += '</table>';
-    document.getElementById('pm-markets').innerHTML = html;
+  function filterM(all, minH, maxH, minVol) {
+    return all.filter(m => {
+      const h   = hours(m.endDateIso||m.endDate);
+      const vol = parseFloat(m.volumeNum||m.volume||0);
+      if (h < minH || h > maxH) return false;
+      if (vol < minVol) return false;
+      let prices = [];
+      try { prices = JSON.parse(m.outcomePrices||'[]').map(Number); } catch(e){}
+      return prices.some(p => p >= 0.10 && p <= 0.90);
+    }).sort((a,b) => parseFloat(b.volumeNum||0) - parseFloat(a.volumeNum||0));
   }
 
   async function refresh() {
     document.getElementById('pm-updated').textContent =
       'Last updated: ' + new Date().toLocaleString() + ' — auto-refreshes every 90s';
     try {
-      const [leaders, markets] = await Promise.all([fetchLeaderboard(), fetchMarkets()]);
-      renderStats(leaders);
-      await renderWallets(leaders);
-      renderMarkets(markets);
+      const [wallets, markets] = await Promise.all([fetchAllWallets(), fetchMarkets()]);
+
+      renderStats(wallets, markets);
+
+      const dayTrades  = filterM(markets, 0,   48,  5000).slice(0, 20);
+      const shortTerm  = filterM(markets, 48,  168, 10000).slice(0, 15);
+      const medTerm    = filterM(markets, 168, 720, 25000).slice(0, 15);
+      const allCrypto  = filterM(markets, 0,   8760,50000).slice(0, 20);
+
+      mktTable(dayTrades, 'pm-day',   'dt-count', true);
+      mktTable(shortTerm, 'pm-short', 'st-count', false);
+      mktTable(medTerm,   'pm-med',   'mt-count', false);
+      mktTable(allCrypto, 'pm-all',   'all-count', false);
+
+      await renderWallets(wallets);
+
     } catch(e) {
-      document.getElementById('pm-wallets').innerHTML =
-        '<div class="error">Error loading data: ' + e.message + '</div>';
+      ['pm-day','pm-wallets','pm-short','pm-med','pm-all'].forEach(id => {
+        document.getElementById(id).innerHTML = '<div class="err">Error: ' + e.message + '</div>';
+      });
     }
   }
 
