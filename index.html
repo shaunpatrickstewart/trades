@@ -247,8 +247,8 @@
       const w    = wallets[i];
       const name = (w.userName || (w.proxyWallet||'').slice(0,12) || 'anon').slice(0,20);
       const pnl  = parseFloat(w.pnl||0);
-      const roi  = parseFloat(w.roi||0);
       const vol  = parseFloat(w.vol||0);
+      const roi  = vol > 0 ? (pnl / vol) * 100 : 0;
       const addr = w.proxyWallet || w.address || '';
       let posHtml = '<span class="dim">No uncertain positions</span>';
       try {
