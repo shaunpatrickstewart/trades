@@ -591,7 +591,7 @@
   async function renderPaperTrades() {
     const el = document.getElementById('paper-trades');
     try {
-      const PAPER_URL = 'https://shaunpatrickstewart.github.io/Trades/paper_trades.jsonl?v=' + Date.now();
+      const PAPER_URL = 'https://shaunpatrickstewart.github.io/trades/paper_trades.jsonl?v=' + Date.now();
       const r = await fetch(P + encodeURIComponent(PAPER_URL));
       if (!r.ok) throw new Error('HTTP ' + r.status);
       const raw = await r.text();
