@@ -234,6 +234,8 @@
     return toArr(r);
   }
 
+  const FOREX_KEYWORDS = /\b(usd|eur|gbp|jpy|cny|cad|aud|nzd|chf|mxn|brl|inr|krw|dollar|euro|pound|yen|yuan|franc|peso|rupee|ruble|riel|won|exchange.?rate|forex|fx\b|currency|devaluat|xau|gold.price|silver.price|oil.price|bitcoin|ethereum|btc|eth|crypto.price|\busd\/|\beur\/|\bgbp\/|\/usd\b|\/eur\b)/i;
+
   async function fetchForexMarkets() {
     const [fx, curr] = await Promise.all([
       pf(GAMMA + '/markets?active=true&closed=false&tag=forex&limit=200').then(toArr).catch(()=>[]),
@@ -241,7 +243,9 @@
     ]);
     const map = new Map();
     [...fx, ...curr].forEach(m => { if (m.id) map.set(m.id, m); });
-    return [...map.values()].sort((a,b) => parseFloat(b.volumeNum||0) - parseFloat(a.volumeNum||0));
+    return [...map.values()]
+      .filter(m => FOREX_KEYWORDS.test(m.question || m.title || m.slug || ''))
+      .sort((a,b) => parseFloat(b.volumeNum||0) - parseFloat(a.volumeNum||0));
   }
 
   function renderForex(markets) {
@@ -301,7 +305,7 @@
 
   // Render copy signals — top wallet positions as actionable cards
   async function renderSignals(wallets) {
-    const top = wallets.slice(0, 10);
+    const top = wallets.slice(0, 20);
     const results = await Promise.allSettled(top.map(w => {
       const addr = w.proxyWallet || w.address || '';
       if (!addr) return Promise.resolve([]);
