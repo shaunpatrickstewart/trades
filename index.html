@@ -87,15 +87,8 @@
     .stat .lbl { font-size: 0.62em; color: #444; margin-top: 2px; text-transform: uppercase; letter-spacing: 1px }
 
     /* ── GRID LAYOUT ────────────────────────────────────────── */
+    /* Single unified grid — all 4 panels share one column context so edges align perfectly */
     .grid {
-      display: grid;
-      grid-template-columns: 3fr 2fr;
-      grid-template-rows: auto auto;
-      gap: 10px;
-      margin-bottom: 10px;
-    }
-    /* row 2 uses same column widths as row 1 so edges line up perfectly */
-    .grid-row2 {
       display: grid;
       grid-template-columns: 3fr 2fr;
       gap: 10px;
@@ -318,10 +311,6 @@
       <div id="tab-forex" class="tab-pane"><div class="loader">Scanning...</div></div>
     </div>
   </div>
-</div>
-
-<!-- MAIN GRID ROW 2: Near Certain + Wallet Leaderboard -->
-<div class="grid-row2">
 
   <!-- NEAR CERTAIN INCOME -->
   <div class="panel">
@@ -344,6 +333,7 @@
       <div class="loader">Pulling wallets...</div>
     </div>
   </div>
+
 </div>
 
 <!-- PAPER TRADE TRACKER — full width -->
