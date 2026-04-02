@@ -3,139 +3,392 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Polymarket Trading Intelligence — shaunpatrickstewart.com</title>
+  <title>WALLET HUNTER — Polymarket Intelligence</title>
   <style>
-    * { box-sizing: border-box; margin: 0; padding: 0 }
-    body { background: #060606; color: #ddd; font-family: 'Courier New', monospace; padding: 20px 16px; max-width: 1200px; margin: 0 auto }
-    header { border-bottom: 1px solid #1a1a1a; padding-bottom: 16px; margin-bottom: 24px }
-    header h1 { color: #00ff88; font-size: 1.2em; letter-spacing: 2px }
-    header p { color: #333; font-size: 0.72em; margin-top: 4px }
-    #pm-updated { color: #252525; font-size: 0.68em; margin-top: 6px }
-    .live-dot { display: inline-block; width: 7px; height: 7px; background: #00ff88; border-radius: 50%; margin-right: 6px; animation: pulse 2s infinite }
-    @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.2} }
-    .stats { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 28px }
-    .stat { background: #0c0c0c; border: 1px solid #1a1a1a; padding: 12px 18px; border-radius: 6px; min-width: 100px }
-    .stat .val { font-size: 1.4em; color: #00ff88 }
-    .stat .lbl { font-size: 0.63em; color: #444; margin-top: 3px; text-transform: uppercase; letter-spacing: 1px }
-    section { margin-bottom: 36px }
-    section h2 { color: #88aaff; font-size: 0.78em; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 6px; padding-bottom: 6px; border-bottom: 1px solid #111 }
-    section h2 .count { color: #333; font-size: 0.85em; margin-left: 8px }
-    .section-note { color: #2a2a2a; font-size: 0.68em; margin-bottom: 10px; font-style: italic }
-    table { width: 100%; border-collapse: collapse; font-size: 0.75em }
-    th { background: #090909; color: #333; padding: 8px 10px; text-align: left; border-bottom: 1px solid #161616; letter-spacing: 1px; font-size: 0.85em; white-space: nowrap }
-    td { padding: 7px 10px; border-bottom: 1px solid #0d0d0d; vertical-align: middle }
-    tr:hover td { background: #0b0b0b }
-    .yes { color: #00ff88 }
-    .no  { color: #ff5050 }
-    .warn { color: #ffaa00 }
-    .dim  { color: #2e2e2e }
-    .blue { color: #88aaff }
-    .badge { display: inline-block; padding: 1px 7px; border-radius: 3px; font-size: 0.82em; font-weight: bold; white-space: nowrap }
-    .by  { background: #001a0d; color: #00ff88; border: 1px solid #003d1a }
-    .bn  { background: #1a0000; color: #ff5050; border: 1px solid #3d0000 }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0 }
+    :root {
+      --green:   #00ff88;
+      --red:     #ff4455;
+      --blue:    #88aaff;
+      --yellow:  #ffcc44;
+      --dim:     #2a2a2a;
+      --dimmer:  #1a1a1a;
+      --panel:   #0c0c0c;
+      --border:  #1c1c1c;
+      --bg:      #070707;
+      --text:    #cccccc;
+    }
+    html { font-size: 13px }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Courier New', monospace;
+      padding: 10px 12px;
+      max-width: 1400px;
+      margin: 0 auto;
+      min-height: 100vh;
+    }
+
+    /* ── HEADER ─────────────────────────────────────────────── */
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 10px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 10px;
+    }
+    .hdr-left { display: flex; align-items: center; gap: 14px }
+    .logo {
+      color: var(--green);
+      font-size: 1.3em;
+      font-weight: bold;
+      letter-spacing: 3px;
+    }
+    .live-badge {
+      color: var(--green);
+      font-size: 0.72em;
+      border: 1px solid #003d1a;
+      background: #001a0d;
+      padding: 2px 8px;
+      border-radius: 3px;
+      animation: pulse 2s infinite;
+    }
+    @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.4} }
+    .hdr-right { text-align: right }
+    #pnl-counter {
+      font-size: 1.6em;
+      font-weight: bold;
+      color: var(--green);
+      letter-spacing: 1px;
+      transition: color 0.3s;
+    }
+    #pnl-counter.loss { color: var(--red) }
+    .pnl-label { color: #444; font-size: 0.68em; letter-spacing: 1px; display: block; margin-top: 1px }
+    #hdr-updated { color: #333; font-size: 0.68em; margin-top: 3px }
+
+    /* ── TOP STATS BAR ──────────────────────────────────────── */
+    .stats-bar {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin-bottom: 10px;
+    }
+    .stat {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      padding: 8px 14px;
+      border-radius: 5px;
+      min-width: 90px;
+    }
+    .stat .val { font-size: 1.2em; color: var(--green) }
+    .stat .lbl { font-size: 0.62em; color: #444; margin-top: 2px; text-transform: uppercase; letter-spacing: 1px }
+
+    /* ── GRID LAYOUT ────────────────────────────────────────── */
+    .grid {
+      display: grid;
+      grid-template-columns: 3fr 2fr;
+      grid-template-rows: auto auto;
+      gap: 10px;
+      margin-bottom: 10px;
+    }
+    .grid-row2 {
+      display: grid;
+      grid-template-columns: 2fr 3fr;
+      gap: 10px;
+      margin-bottom: 10px;
+    }
+    .full-width { margin-bottom: 10px }
+
+    /* ── PANEL ──────────────────────────────────────────────── */
+    .panel {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+    }
+    .panel-hdr {
+      background: #0a0a0a;
+      border-bottom: 1px solid var(--border);
+      padding: 8px 12px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-shrink: 0;
+    }
+    .panel-title {
+      font-size: 0.68em;
+      letter-spacing: 2px;
+      color: var(--blue);
+      font-weight: bold;
+    }
+    .panel-title.green  { color: var(--green) }
+    .panel-title.yellow { color: var(--yellow) }
+    .panel-title.red    { color: var(--red) }
+    .panel-count { color: #333; font-size: 0.78em }
+    .panel-body {
+      overflow-y: auto;
+      flex: 1;
+      max-height: 400px;
+    }
+    .panel-body.tall { max-height: 500px }
+
+    /* Tabs inside panels */
+    .tabs {
+      display: flex;
+      border-bottom: 1px solid var(--border);
+      background: #0a0a0a;
+      flex-shrink: 0;
+    }
+    .tab {
+      padding: 6px 14px;
+      font-size: 0.65em;
+      letter-spacing: 1px;
+      cursor: pointer;
+      color: #444;
+      border: none;
+      background: none;
+      font-family: 'Courier New', monospace;
+      border-bottom: 2px solid transparent;
+      transition: color 0.15s;
+    }
+    .tab:hover { color: #888 }
+    .tab.active { color: var(--blue); border-bottom-color: var(--blue) }
+    .tab-pane { display: none }
+    .tab-pane.active { display: block }
+
+    /* ── TABLES ─────────────────────────────────────────────── */
+    table { width: 100%; border-collapse: collapse; font-size: 0.76em }
+    th {
+      background: #0a0a0a;
+      color: #333;
+      padding: 6px 9px;
+      text-align: left;
+      border-bottom: 1px solid var(--border);
+      font-size: 0.82em;
+      letter-spacing: 1px;
+      white-space: nowrap;
+      position: sticky;
+      top: 0;
+      z-index: 1;
+    }
+    td { padding: 5px 9px; border-bottom: 1px solid #0f0f0f; vertical-align: middle }
+    tr:hover td { background: #0e0e0e }
+
+    /* ── SIGNAL CARDS ──────────────────────────────────────── */
+    .signal-card {
+      border-bottom: 1px solid #0f0f0f;
+      padding: 9px 12px;
+      transition: background 0.1s;
+    }
+    .signal-card:hover { background: #0e0e0e }
+    .signal-card:last-child { border-bottom: none }
+    .sig-top { display: flex; justify-content: space-between; align-items: flex-start; gap: 8px; margin-bottom: 4px }
+    .sig-title { color: var(--text); font-size: 0.84em; flex: 1; line-height: 1.35 }
+    .sig-action { flex-shrink: 0 }
+    .sig-meta { display: flex; gap: 12px; flex-wrap: wrap; color: #444; font-size: 0.72em }
+    .sig-meta span { color: #555 }
+    .sig-meta .green { color: var(--green) }
+    .sig-meta .red   { color: var(--red) }
+    .sig-meta .blue  { color: var(--blue) }
+    .sig-meta .yellow { color: var(--yellow) }
+
+    /* ── BADGES ─────────────────────────────────────────────── */
+    .badge {
+      display: inline-block;
+      padding: 1px 7px;
+      border-radius: 3px;
+      font-size: 0.78em;
+      font-weight: bold;
+      white-space: nowrap;
+      letter-spacing: 0.5px;
+    }
+    .by  { background: #001a0d; color: var(--green); border: 1px solid #003d1a }
+    .bn  { background: #1a0000; color: var(--red);   border: 1px solid #3d0000 }
+    .bb  { background: #000a1a; color: var(--blue);  border: 1px solid #001a3d }
+    .by2 { background: #1a1000; color: var(--yellow); border: 1px solid #3d2800 }
+
+    /* EV badge */
+    .ev-pos { color: var(--green); font-size: 0.72em; padding: 1px 5px; border: 1px solid #003d1a; border-radius: 3px; background: #001a0d }
+    .ev-neg { color: var(--red);   font-size: 0.72em; padding: 1px 5px; border: 1px solid #3d0000; border-radius: 3px; background: #1a0000 }
+
+    /* Sharpe badge */
+    .sharpe-hi  { color: var(--green);  font-size: 0.7em }
+    .sharpe-mid { color: var(--yellow); font-size: 0.7em }
+    .sharpe-lo  { color: #666;          font-size: 0.7em }
+
+    /* Category tag */
+    .cat { color: #555; font-size: 0.7em; padding: 0 4px }
+
+    /* Uncertainty bar */
+    .unc-bar { display: inline-block; height: 6px; border-radius: 3px; vertical-align: middle; margin-left: 4px }
+
+    /* ── COLORS ─────────────────────────────────────────────── */
+    .green  { color: var(--green) }
+    .red    { color: var(--red) }
+    .blue   { color: var(--blue) }
+    .yellow { color: var(--yellow) }
+    .dim    { color: var(--dim) }
+    .dimmer { color: #1e1e1e }
+
+    /* ── MISC ───────────────────────────────────────────────── */
     .loader { color: #252525; padding: 20px; text-align: center; font-size: 0.78em }
-    .err { color: #ff4444; padding: 14px; font-size: 0.78em; background: #110000; border-radius: 4px; margin: 4px 0 }
-    .signal-row td { border-left: 3px solid #00ff88 }
-    .day-row td    { border-left: 3px solid #ffaa00 }
-    .swing-row td  { border-left: 3px solid #88aaff }
-    .paper-row td  { border-left: 3px solid #1a3a1a }
-    .signal-box { background: #001a0d; border: 1px solid #00ff88; border-radius: 6px; padding: 12px 16px; margin-bottom: 8px; font-size: 0.8em }
-    .signal-box .sig-title { color: #00ff88; font-size: 0.9em; margin-bottom: 6px; font-weight: bold }
-    .signal-box .sig-action { color: #ddd; margin-bottom: 4px }
-    .signal-box .sig-meta { color: #444; font-size: 0.85em }
-    .confidence { font-size: 0.75em; padding: 2px 6px; border-radius: 3px; font-weight: bold }
-    .conf-high   { background: #001a0d; color: #00ff88; border: 1px solid #00ff88 }
-    .conf-med    { background: #1a1000; color: #ffaa00; border: 1px solid #ffaa00 }
-    .conf-low    { background: #0a0a1a; color: #88aaff; border: 1px solid #88aaff }
-    footer { margin-top: 40px; border-top: 1px solid #0f0f0f; padding-top: 14px; color: #1e1e1e; font-size: 0.68em }
+    .err    { color: var(--red); padding: 12px; font-size: 0.78em; background: #110000; border-radius: 4px; margin: 8px }
+    .empty  { color: #2a2a2a; padding: 16px 12px; font-size: 0.76em; font-style: italic }
+    .inline-dot { width: 6px; height: 6px; background: currentColor; border-radius: 50%; display: inline-block; margin-right: 4px }
+
+    /* paper trade row */
+    .paper-row td { border-left: 2px solid #1a3a1a }
+    .exit-row  td { border-left: 2px solid var(--green) }
+    .sl-row    td { border-left: 2px solid var(--red) }
+
+    /* ── FOOTER ─────────────────────────────────────────────── */
+    footer {
+      margin-top: 16px;
+      border-top: 1px solid #0f0f0f;
+      padding-top: 10px;
+      color: #1e1e1e;
+      font-size: 0.66em;
+    }
     footer a { color: #252525; text-decoration: none }
     footer a:hover { color: #555 }
-    @media(max-width:700px){
-      body { padding: 10px 8px }
-      table { font-size: 0.68em }
-      th, td { padding: 5px 5px }
+
+    /* ── RESPONSIVE ─────────────────────────────────────────── */
+    @media (max-width: 900px) {
+      .grid, .grid-row2 { grid-template-columns: 1fr }
+      .panel-body { max-height: 320px }
+      body { padding: 8px }
       .hm { display: none }
     }
   </style>
 </head>
 <body>
 
+<!-- HEADER -->
 <header>
-  <h1><span class="live-dot"></span>POLYMARKET TRADING INTELLIGENCE</h1>
-  <p>Copy-trading top wallets on uncertain markets — all categories — highest upside signals first</p>
-  <div id="pm-updated">Initializing...</div>
+  <div class="hdr-left">
+    <span class="logo">WALLET HUNTER</span>
+    <span class="live-badge">&#9679; LIVE</span>
+  </div>
+  <div id="hdr-stats" class="stats-bar" style="margin:0;flex:1;padding:0 20px;justify-content:center">
+    <div class="loader" style="padding:4px">Loading...</div>
+  </div>
+  <div class="hdr-right">
+    <div id="pnl-counter">+$0.00</div>
+    <span class="pnl-label">PAPER P&amp;L</span>
+    <div id="hdr-updated" style="margin-top:4px">Initializing...</div>
+  </div>
 </header>
 
-<div class="stats" id="pm-stats"><div class="loader">Loading...</div></div>
+<!-- MAIN GRID ROW 1: Copy Signals + Market Scanner -->
+<div class="grid">
 
-<!-- COPY SIGNALS — PRIMARY SECTION -->
-<section>
-  <h2><span class="yes">&#9679;</span> COPY SIGNALS — Top Wallet Uncertain Positions <span class="count" id="sig-count"></span></h2>
-  <div class="section-note">Uncertain markets (25-75¢) where elite wallets have real positions. Closest to 50/50 listed first — highest upside. These are the trades that compound fast.</div>
-  <div id="pm-signals"><div class="loader">Pulling top wallet positions...</div></div>
-</section>
+  <!-- COPY SIGNALS -->
+  <div class="panel">
+    <div class="panel-hdr">
+      <span class="panel-title green">&#9679; COPY SIGNALS</span>
+      <span class="panel-count" id="sig-count">—</span>
+    </div>
+    <div class="panel-body tall" id="pm-signals">
+      <div class="loader">Fetching top wallet positions...</div>
+    </div>
+  </div>
 
-<!-- UNCERTAIN MARKETS THIS WEEK -->
-<section>
-  <h2><span class="warn">&#9650;</span> UNCERTAIN MARKETS — All Categories, This Week <span class="count" id="wk-count"></span></h2>
-  <div class="section-note">ALL Polymarket categories — sports, politics, news, crypto — resolving within 7 days. High volume, genuine uncertainty. Best upside.</div>
-  <div id="pm-week"><div class="loader">Scanning...</div></div>
-</section>
+  <!-- MARKET SCANNER with tabs -->
+  <div class="panel">
+    <div class="panel-hdr">
+      <span class="panel-title">&#9650; MARKET SCANNER</span>
+      <span class="panel-count" id="scanner-count">—</span>
+    </div>
+    <div class="tabs">
+      <button class="tab active" onclick="switchTab('week','wk')">7 DAY</button>
+      <button class="tab" onclick="switchTab('day48','d48')">48H</button>
+      <button class="tab" onclick="switchTab('swing','sw')">SWING</button>
+      <button class="tab" onclick="switchTab('forex','fx')">FOREX</button>
+    </div>
+    <div class="panel-body tall">
+      <div id="tab-week"  class="tab-pane active"><div class="loader">Scanning...</div></div>
+      <div id="tab-day48" class="tab-pane"><div class="loader">Scanning...</div></div>
+      <div id="tab-swing" class="tab-pane"><div class="loader">Scanning...</div></div>
+      <div id="tab-forex" class="tab-pane"><div class="loader">Scanning...</div></div>
+    </div>
+  </div>
+</div>
 
-<!-- 48H DAY TRADES -->
-<section>
-  <h2><span class="warn">&#9889;</span> DAY TRADES — Resolving Within 48 Hours <span class="count" id="dt-count"></span></h2>
-  <div class="section-note">Fast resolution across all categories — get in and out same day or next.</div>
-  <div id="pm-day"><div class="loader">Scanning all markets...</div></div>
-</section>
+<!-- MAIN GRID ROW 2: Near Certain + Wallet Leaderboard -->
+<div class="grid-row2">
 
-<!-- SWING POSITIONS -->
-<section>
-  <h2><span class="blue">&#9670;</span> SWING POSITIONS — 7 to 30 Days <span class="count" id="sw-count"></span></h2>
-  <div class="section-note">Longer holds — high volume, uncertain markets worth sitting on.</div>
-  <div id="pm-swing"><div class="loader">Scanning...</div></div>
-</section>
+  <!-- NEAR CERTAIN INCOME -->
+  <div class="panel">
+    <div class="panel-hdr">
+      <span class="panel-title yellow">&#9670; NEAR-CERTAIN INCOME</span>
+      <span class="panel-count" id="dc-count">—</span>
+    </div>
+    <div class="panel-body" id="pm-daily">
+      <div class="loader">Scanning...</div>
+    </div>
+  </div>
 
-<!-- FOREX / CURRENCY -->
-<section>
-  <h2><span style="color:#ffdd66">&#36;</span> FOREX &amp; CURRENCY MARKETS <span class="count" id="fx-count"></span></h2>
-  <div class="section-note">Polymarket currency prediction markets.</div>
-  <div id="pm-forex"><div class="loader">Scanning currency markets...</div></div>
-</section>
+  <!-- TOP WALLETS LEADERBOARD -->
+  <div class="panel">
+    <div class="panel-hdr">
+      <span class="panel-title">&#9733; TOP WALLETS — LEADERBOARD</span>
+      <span class="panel-count" id="wallet-count">—</span>
+    </div>
+    <div class="panel-body" id="pm-wallets">
+      <div class="loader">Pulling wallets...</div>
+    </div>
+  </div>
+</div>
 
-<!-- TOP WALLETS -->
-<section>
-  <h2>Top Performing Wallets — Leaderboard <span class="count" id="wallet-count"></span></h2>
-  <div class="section-note">ALL-TIME, 30-DAY and 7-DAY combined. Ranked by ROI (PnL ÷ Volume) — not raw PnL. These are the wallets the bot copies.</div>
-  <div id="pm-wallets"><div class="loader">Pulling wallets...</div></div>
-</section>
-
-<!-- NEAR-CERTAIN — LOW PRIORITY -->
-<section>
-  <h2>Near-Certain Markets — Low Priority <span class="count" id="dc-count"></span></h2>
-  <div class="section-note">85%+ confidence, resolving within 7 days. Small returns but low risk. Secondary strategy only.</div>
-  <div id="pm-daily"><div class="loader">Scanning...</div></div>
-</section>
-
-<!-- PAPER TRADES -->
-<section>
-  <h2>Paper Trade Tracker — Open Positions</h2>
-  <div class="section-note">Logged by bot — tracking performance before going live. Auto-updates every 30 min.</div>
-  <div id="paper-trades"><div class="loader">Loading...</div></div>
-</section>
+<!-- PAPER TRADE TRACKER — full width -->
+<div class="full-width">
+  <div class="panel">
+    <div class="panel-hdr">
+      <span class="panel-title">&#9632; PAPER TRADE TRACKER</span>
+      <span id="paper-summary" style="font-size:0.72em;color:#555">Loading...</span>
+    </div>
+    <div class="panel-body" style="max-height:300px" id="paper-trades">
+      <div class="loader">Loading...</div>
+    </div>
+  </div>
+</div>
 
 <footer>
-  <p>Data sourced live from <a href="https://polymarket.com" target="_blank">Polymarket</a> public API via Cloudflare Worker &mdash; auto-refreshes every 90s &mdash; <a href="https://shaunpatrickstewart.com" target="_blank">shaunpatrickstewart.com</a></p>
-  <p style="margin-top:6px;color:#1a1a1a">Not financial advice. Prediction markets carry full loss risk on every position.</p>
+  <p>
+    Live data: <a href="https://polymarket.com" target="_blank">Polymarket</a> public API via Cloudflare Worker proxy &mdash;
+    auto-refreshes every 30s &mdash;
+    <a href="https://shaunpatrickstewart.com" target="_blank">shaunpatrickstewart.com</a>
+  </p>
+  <p style="margin-top:4px;color:#1a1a1a">Not financial advice. Prediction markets carry full loss risk on every position.</p>
 </footer>
 
 <script>
 (function() {
+  'use strict';
   const DATA  = 'https://data-api.polymarket.com';
   const GAMMA = 'https://gamma-api.polymarket.com';
   const P     = 'https://florida.shaunpatrickstewart.workers.dev/?url=';
-  const REFRESH = 90000;
+  const REFRESH = 30000;   // 30 second refresh
 
+  // ── Active tab state
+  const _tabState = { week: true, day48: false, swing: false, forex: false };
+
+  window.switchTab = function(pane, countId) {
+    document.querySelectorAll('.tab-pane').forEach(el => el.classList.remove('active'));
+    document.querySelectorAll('.tab').forEach(el => el.classList.remove('active'));
+    document.getElementById('tab-' + pane).classList.add('active');
+    event.target.classList.add('active');
+    // Update scanner count to current tab
+    const countEl = document.getElementById('count-' + pane);
+    if (countEl) document.getElementById('scanner-count').textContent = countEl.textContent;
+  };
+
+  // ── Proxy fetch → JSON
   async function pf(url) {
     const r = await fetch(P + encodeURIComponent(url));
     if (!r.ok) throw new Error('HTTP ' + r.status);
@@ -143,70 +396,87 @@
   }
 
   function toArr(r) {
-    if (Array.isArray(r)) return r;
+    if (Array.isArray(r))              return r;
     if (r && Array.isArray(r.data))    return r.data;
     if (r && Array.isArray(r.results)) return r.results;
     return [];
   }
 
+  // ── Formatting helpers
   function fmt(n) {
     n = parseFloat(n) || 0;
-    if (Math.abs(n) >= 1000000) return '$' + (n/1000000).toFixed(2) + 'M';
-    if (Math.abs(n) >= 1000)    return '$' + (n/1000).toFixed(1) + 'K';
+    if (Math.abs(n) >= 1000000) return '$' + (n / 1000000).toFixed(2) + 'M';
+    if (Math.abs(n) >= 1000)    return '$' + (n / 1000).toFixed(1) + 'K';
     return '$' + Math.abs(n).toFixed(0);
   }
-
+  function fmtSigned(n) {
+    const s = fmt(n);
+    return n >= 0 ? '<span class="green">+' + s + '</span>' : '<span class="red">-' + s + '</span>';
+  }
   function days(str) {
     if (!str) return 9999;
     return Math.ceil((new Date(str) - new Date()) / 86400000);
   }
-
   function hours(str) {
     if (!str) return 9999;
     return Math.ceil((new Date(str) - new Date()) / 3600000);
   }
+  function timeLabel(m) {
+    const d = days(m.endDateIso || m.endDate);
+    const h = hours(m.endDateIso || m.endDate);
+    if (h <= 0)  return '<span class="red">EXPIRED</span>';
+    if (h <= 24) return '<span class="red">' + h + 'h</span>';
+    if (d <= 3)  return '<span class="yellow">' + d + 'd</span>';
+    if (d <= 7)  return '<span style="color:#ccaa44">' + d + 'd</span>';
+    return '<span class="dim">' + d + 'd</span>';
+  }
+  function pctColor(p) {
+    if (p >= 0.5) return '#00ff88';
+    if (p >= 0.35) return '#ffcc44';
+    return '#88aaff';
+  }
+  function sharpeHtml(sharpe) {
+    if (!sharpe && sharpe !== 0) return '<span class="dim">—</span>';
+    const s = parseFloat(sharpe).toFixed(2);
+    if (sharpe >= 2.0) return '<span class="sharpe-hi">▲ ' + s + '</span>';
+    if (sharpe >= 1.0) return '<span class="sharpe-mid">◆ ' + s + '</span>';
+    return '<span class="sharpe-lo">▼ ' + s + '</span>';
+  }
+  function catBadge(cat) {
+    const colors = { crypto: '#88aaff', politics: '#ff9944', sports: '#44dd88', news: '#aaaaff', other: '#555' };
+    const c = (cat || 'other').toLowerCase();
+    return '<span class="cat" style="color:' + (colors[c] || '#555') + '">' + c.toUpperCase() + '</span>';
+  }
 
+  // ── Parse market best side (closest to 50/50)
   function getBest(m) {
     let prices = [], outcomes = [];
-    try { prices   = JSON.parse(m.outcomePrices || '[]').map(Number); } catch(e){}
-    try { outcomes = JSON.parse(m.outcomes || '["Yes","No"]'); } catch(e){}
+    try { prices   = JSON.parse(m.outcomePrices || '[]').map(Number); } catch(e) {}
+    try { outcomes = JSON.parse(m.outcomes || '["Yes","No"]'); }        catch(e) {}
     let bi = 0, bd = 1;
     prices.forEach((p, i) => {
       const d = Math.abs(p - 0.5);
       if (p >= 0.05 && p <= 0.95 && d < bd) { bd = d; bi = i; }
     });
-    return { price: prices[bi]||0, outcome: (outcomes[bi]||'Yes').toUpperCase(), prices, outcomes };
+    return { price: prices[bi] || 0, outcome: (outcomes[bi] || 'Yes').toUpperCase() };
   }
 
+  // High-confidence side (>82%)
   function getHighConf(m) {
-    // Returns the near-certain side if any outcome is >82%
     let prices = [], outcomes = [];
-    try { prices   = JSON.parse(m.outcomePrices || '[]').map(Number); } catch(e){}
-    try { outcomes = JSON.parse(m.outcomes || '["Yes","No"]'); } catch(e){}
+    try { prices   = JSON.parse(m.outcomePrices || '[]').map(Number); } catch(e) {}
+    try { outcomes = JSON.parse(m.outcomes || '["Yes","No"]'); }        catch(e) {}
     for (let i = 0; i < prices.length; i++) {
-      if (prices[i] >= 0.82 && prices[i] <= 0.97) {
-        return { price: prices[i], outcome: (outcomes[i]||'Yes').toUpperCase() };
-      }
+      if (prices[i] >= 0.82 && prices[i] <= 0.97)
+        return { price: prices[i], outcome: (outcomes[i] || 'Yes').toUpperCase() };
     }
     return null;
   }
 
-  function confLabel(price) {
-    if (price >= 0.92) return '<span class="confidence conf-high">VERY HIGH ' + (price*100).toFixed(0) + '%</span>';
-    if (price >= 0.87) return '<span class="confidence conf-high">HIGH ' + (price*100).toFixed(0) + '%</span>';
-    return '<span class="confidence conf-med">MODERATE ' + (price*100).toFixed(0) + '%</span>';
-  }
+  // ── FOREX keyword filter
+  const FOREX_RE = /\b(usd|eur|gbp|jpy|cny|cad|aud|nzd|chf|mxn|brl|inr|krw|dollar|euro|pound|yen|yuan|franc|peso|rupee|ruble|riel|won|exchange.?rate|forex|fx\b|currency|devaluat|xau|gold.price|silver.price|oil.price|bitcoin|ethereum|btc|eth|crypto.price|\busd\/|\beur\/|\bgbp\/|\/usd\b|\/eur\b)/i;
 
-  function timeStr(m) {
-    const d = days(m.endDateIso||m.endDate);
-    const h = hours(m.endDateIso||m.endDate);
-    const end = (m.endDateIso||m.endDate||'').slice(0,10);
-    if (h <= 24)  return '<span class="warn">' + h + 'h left</span>';
-    if (d <= 3)   return '<span class="warn">' + d + 'd — ' + end + '</span>';
-    if (d <= 7)   return '<span style="color:#ffdd66">' + d + 'd — ' + end + '</span>';
-    return '<span class="dim">' + d + 'd — ' + end + '</span>';
-  }
-
+  // ── DATA FETCHERS
   async function fetchAllWallets() {
     const [all, month, week] = await Promise.all([
       pf(DATA + '/v1/leaderboard?timePeriod=ALL&orderBy=PNL&limit=50'),
@@ -218,66 +488,31 @@
       const key = w.proxyWallet || w.address || w.userName;
       if (!key) return;
       const existing = map.get(key);
-      if (!existing || parseFloat(w.pnl||0) > parseFloat(existing.pnl||0)) map.set(key, w);
+      if (!existing || parseFloat(w.pnl || 0) > parseFloat(existing.pnl || 0))
+        map.set(key, w);
     });
-    return [...map.values()].sort((a,b) => {
-      const roiA = parseFloat(a.vol||0) > 0 ? parseFloat(a.pnl||0) / parseFloat(a.vol||0) : 0;
-      const roiB = parseFloat(b.vol||0) > 0 ? parseFloat(b.pnl||0) / parseFloat(b.vol||0) : 0;
-      return roiB - roiA;
+    return [...map.values()].sort((a, b) => {
+      const ra = parseFloat(a.vol || 0) > 0 ? parseFloat(a.pnl || 0) / parseFloat(a.vol || 0) : 0;
+      const rb = parseFloat(b.vol || 0) > 0 ? parseFloat(b.pnl || 0) / parseFloat(b.vol || 0) : 0;
+      return rb - ra;
     });
-  }
-
-  async function fetchMarkets() {
-    const r = await pf(GAMMA + '/markets?active=true&closed=false&tag=crypto&limit=500');
-    return toArr(r);
   }
 
   async function fetchAllMarkets() {
-    // Pull ALL categories for day trading — sports, politics, news, crypto, everything
     const r = await pf(GAMMA + '/markets?active=true&closed=false&limit=500&order=volume&ascending=false');
     return toArr(r);
   }
 
-  const FOREX_KEYWORDS = /\b(usd|eur|gbp|jpy|cny|cad|aud|nzd|chf|mxn|brl|inr|krw|dollar|euro|pound|yen|yuan|franc|peso|rupee|ruble|riel|won|exchange.?rate|forex|fx\b|currency|devaluat|xau|gold.price|silver.price|oil.price|bitcoin|ethereum|btc|eth|crypto.price|\busd\/|\beur\/|\bgbp\/|\/usd\b|\/eur\b)/i;
-
-  async function fetchForexMarkets() {
+  async function fetchForex() {
     const [fx, curr] = await Promise.all([
-      pf(GAMMA + '/markets?active=true&closed=false&tag=forex&limit=200').then(toArr).catch(()=>[]),
-      pf(GAMMA + '/markets?active=true&closed=false&tag=currencies&limit=200').then(toArr).catch(()=>[]),
+      pf(GAMMA + '/markets?active=true&closed=false&tag=forex&limit=200').then(toArr).catch(() => []),
+      pf(GAMMA + '/markets?active=true&closed=false&tag=currencies&limit=200').then(toArr).catch(() => []),
     ]);
     const map = new Map();
     [...fx, ...curr].forEach(m => { if (m.id) map.set(m.id, m); });
     return [...map.values()]
-      .filter(m => FOREX_KEYWORDS.test(m.question || m.title || m.slug || ''))
-      .sort((a,b) => parseFloat(b.volumeNum||0) - parseFloat(a.volumeNum||0));
-  }
-
-  function renderForex(markets) {
-    document.getElementById('fx-count').textContent = '(' + markets.length + ')';
-    if (!markets.length) {
-      document.getElementById('pm-forex').innerHTML = '<div class="dim" style="padding:12px">No active currency markets found right now.</div>';
-      return;
-    }
-    let html = '<table><tr><th>#</th><th>Market</th><th>Best Side</th><th>Price</th><th>Confidence</th><th>Volume</th><th>Expires</th></tr>';
-    markets.slice(0,20).forEach((m, i) => {
-      const { price, outcome } = getBest(m);
-      const vol = parseFloat(m.volumeNum||m.volume||0);
-      const cls = outcome === 'YES' ? 'by' : 'bn';
-      const hc  = getHighConf(m);
-      const confHtml = hc ? confLabel(hc.price) : '<span class="dim">uncertain</span>';
-      html +=
-        '<tr class="swing-row">' +
-        '<td class="dim">' + (i+1) + '</td>' +
-        '<td style="max-width:260px">' + (m.question||m.title||'').slice(0,65) + '</td>' +
-        '<td><span class="badge ' + cls + '">' + outcome + '</span></td>' +
-        '<td>' + price.toFixed(3) + '</td>' +
-        '<td>' + confHtml + '</td>' +
-        '<td class="blue">' + fmt(vol) + '</td>' +
-        '<td>' + timeStr(m) + '</td>' +
-        '</tr>';
-    });
-    html += '</table>';
-    document.getElementById('pm-forex').innerHTML = html;
+      .filter(m => FOREX_RE.test(m.question || m.title || m.slug || ''))
+      .sort((a, b) => parseFloat(b.volumeNum || 0) - parseFloat(a.volumeNum || 0));
   }
 
   async function fetchPositions(addr) {
@@ -287,315 +522,254 @@
     } catch(e) { return []; }
   }
 
-  function renderStats(wallets, markets) {
-    const totalPnl = wallets.reduce((s,w) => s + parseFloat(w.pnl||0), 0);
-    const top = parseFloat(wallets[0]?.pnl||0);
-    const highConf = markets.filter(m => {
-      const hc = getHighConf(m);
-      const h = hours(m.endDateIso||m.endDate);
-      return hc && h <= 168;
+  // ── RENDER: Header stats
+  function renderHeaderStats(wallets, allMarkets) {
+    const totalPnl = wallets.reduce((s, w) => s + parseFloat(w.pnl || 0), 0);
+    const topPnl   = parseFloat(wallets[0]?.pnl || 0);
+    const uncertain = allMarkets.filter(m => {
+      let prices = [];
+      try { prices = JSON.parse(m.outcomePrices || '[]').map(Number); } catch(e) {}
+      return prices.some(p => p >= 0.25 && p <= 0.75) && parseFloat(m.volumeNum || 0) > 25000;
     }).length;
-    document.getElementById('pm-stats').innerHTML = [
-      ['Wallets Tracked', wallets.length],
-      ['Combined PnL', fmt(totalPnl)],
-      ['Top Wallet', fmt(top)],
-      ['Active Markets', markets.length],
-      ['Daily Income Signals', '<span class="yes">' + highConf + '</span>'],
-      ['<span class="live-dot"></span>Feed', 'LIVE'],
+
+    document.getElementById('hdr-stats').innerHTML = [
+      ['Wallets', wallets.length],
+      ['Combined PnL', '<span class="green">' + fmt(totalPnl) + '</span>'],
+      ['Top Wallet', '<span class="green">' + fmt(topPnl) + '</span>'],
+      ['Active Markets', allMarkets.length],
+      ['Uncertain Plays', '<span class="yellow">' + uncertain + '</span>'],
     ].map(([lbl, val]) =>
       '<div class="stat"><div class="val">' + val + '</div><div class="lbl">' + lbl + '</div></div>'
     ).join('');
   }
 
-  // Render copy signals — top wallet positions as actionable cards
+  // ── RENDER: Copy Signals (wallet positions as actionable cards)
   async function renderSignals(wallets) {
     const top = wallets.slice(0, 20);
     const results = await Promise.allSettled(top.map(w => {
       const addr = w.proxyWallet || w.address || '';
-      if (!addr) return Promise.resolve([]);
+      if (!addr) return Promise.resolve(null);
       return fetchPositions(addr).then(pos => ({ w, pos })).catch(() => null);
     }));
+
     let signals = [];
     results.forEach(r => {
       if (r.status !== 'fulfilled' || !r.value) return;
       const { w, pos } = r.value;
       const addr = w.proxyWallet || w.address || '';
-      const name = (w.userName || addr.slice(0,10) || 'anon').slice(0,20);
-      const pnl = parseFloat(w.pnl||0);
+      const name = (w.userName || addr.slice(0, 10) || 'anon').slice(0, 20);
+      const walletPnl = parseFloat(w.pnl || 0);
+      const walletRoi = parseFloat(w.vol || 0) > 0 ? (walletPnl / parseFloat(w.vol)) * 100 : 0;
+
       pos.filter(p => {
-        const pr = parseFloat(p.curPrice||p.price||0);
-        return pr >= 0.25 && pr <= 0.75;
-      }).slice(0,2).forEach(p => {
-        const pr  = parseFloat(p.curPrice||p.price||0);
-        const oc  = (p.outcome||'').toUpperCase();
-        const pnlV = parseFloat(p.cashPnl||0);
-        signals.push({ name, walletPnl: pnl, title: p.title||'', outcome: oc, price: pr, cashPnl: pnlV, addr });
+        const pr = parseFloat(p.curPrice || p.price || 0);
+        return pr >= 0.20 && pr <= 0.80;
+      }).slice(0, 2).forEach(p => {
+        const pr    = parseFloat(p.curPrice || p.price || 0);
+        const oc    = (p.outcome || '').toUpperCase();
+        const posEv = parseFloat(w.winRate || 50) / 100;
+        const ev    = posEv * (1 - pr) - (1 - posEv) * pr;
+        signals.push({
+          name, walletPnl, walletRoi,
+          title: p.title || '',
+          outcome: oc,
+          price: pr,
+          cashPnl: parseFloat(p.cashPnl || 0),
+          ev: ev,
+          addr
+        });
       });
     });
 
-    // Sort by most uncertain first (closest to 50/50 = highest upside)
     signals.sort((a, b) => Math.abs(a.price - 0.5) - Math.abs(b.price - 0.5));
-
     document.getElementById('sig-count').textContent = '(' + signals.length + ')';
+
     if (!signals.length) {
-      document.getElementById('pm-signals').innerHTML = '<div class="dim" style="padding:12px">No uncertain positions found on top wallets right now — check back soon.</div>';
+      document.getElementById('pm-signals').innerHTML =
+        '<div class="empty">No uncertain positions on top wallets right now — check back soon.</div>';
       return;
     }
 
-    let html = '<table><tr><th>#</th><th>Market</th><th>Action</th><th>Price</th><th>Uncertainty</th><th>Wallet PnL</th><th>Copied From</th></tr>';
-    signals.slice(0, 15).forEach((s, i) => {
-      const cls = s.outcome === 'YES' ? 'by' : 'bn';
-      const pnlS = s.cashPnl >= 0
-        ? '<span class="yes">+' + fmt(s.cashPnl) + '</span>'
-        : '<span class="no">-' + fmt(Math.abs(s.cashPnl)) + '</span>';
-      // Uncertainty score: how close to 50/50 (0 = perfect coin flip, 0.25 = 75/25 edge)
-      const unc = (0.5 - Math.abs(s.price - 0.5));
-      const uncPct = (unc / 0.5 * 100).toFixed(0);
-      const uncCls = unc >= 0.4 ? 'conf-high' : unc >= 0.2 ? 'conf-med' : 'conf-low';
-      html +=
-        '<tr class="signal-row">' +
-        '<td class="dim">' + (i+1) + '</td>' +
-        '<td style="max-width:280px">' + s.title.slice(0,68) + '</td>' +
-        '<td><span class="badge ' + cls + '">BET ' + s.outcome + '</span></td>' +
-        '<td>' + s.price.toFixed(3) + '</td>' +
-        '<td><span class="confidence ' + uncCls + '">' + uncPct + '% UNCERTAIN</span></td>' +
-        '<td class="yes">' + fmt(s.walletPnl) + '</td>' +
-        '<td class="dim">' + s.name.slice(0,14) + '</td>' +
-        '</tr>';
-    });
-    html += '</table>';
+    const html = signals.slice(0, 18).map((s, i) => {
+      const cls   = s.outcome === 'YES' ? 'by' : 'bn';
+      const unc   = (0.5 - Math.abs(s.price - 0.5)) / 0.5 * 100;
+      const uncW  = Math.round(unc * 0.6) + 40;
+      const evHtml = s.ev >= 0
+        ? '<span class="ev-pos">EV+' + s.ev.toFixed(3) + '</span>'
+        : '<span class="ev-neg">EV' + s.ev.toFixed(3) + '</span>';
+      const roiStr = s.walletRoi >= 0
+        ? '<span class="green">+' + s.walletRoi.toFixed(1) + '% ROI</span>'
+        : '<span class="red">' + s.walletRoi.toFixed(1) + '% ROI</span>';
+      return (
+        '<div class="signal-card">' +
+          '<div class="sig-top">' +
+            '<div class="sig-title">' + s.title.slice(0, 72) + '</div>' +
+            '<div class="sig-action"><span class="badge ' + cls + '">BET ' + s.outcome + '</span></div>' +
+          '</div>' +
+          '<div class="sig-meta">' +
+            '<span class="blue">' + s.price.toFixed(3) + '</span>' +
+            '<span>' + Math.round(unc) + '% uncertain</span>' +
+            evHtml +
+            '<span class="dim">from</span> <span class="blue">' + s.name.slice(0, 14) + '</span>' +
+            '<span>' + roiStr + '</span>' +
+          '</div>' +
+        '</div>'
+      );
+    }).join('');
     document.getElementById('pm-signals').innerHTML = html;
   }
 
-  // Daily income: near-certain outcomes resolving within 7 days
-  function renderDailyIncome(markets) {
-    const hits = markets.filter(m => {
-      const h = hours(m.endDateIso||m.endDate);
+  // ── RENDER: Market Scanner tab content
+  function marketTable(markets, limit) {
+    if (!markets.length) return '<div class="empty">No markets found right now.</div>';
+    let html = '<table><tr><th>#</th><th>Market</th><th>Side</th><th>Price</th><th class="hm">Vol</th><th>Expires</th></tr>';
+    markets.slice(0, limit || 25).forEach((m, i) => {
+      const { price, outcome } = getBest(m);
+      const cls = outcome === 'YES' ? 'by' : 'bn';
+      const vol = parseFloat(m.volumeNum || m.volume || 0);
+      html +=
+        '<tr>' +
+        '<td class="dim">' + (i + 1) + '</td>' +
+        '<td style="max-width:260px">' + (m.question || m.title || '').slice(0, 62) + '</td>' +
+        '<td><span class="badge ' + cls + '">' + outcome + '</span></td>' +
+        '<td style="color:' + pctColor(price) + '">' + (price * 100).toFixed(0) + '%</td>' +
+        '<td class="blue hm">' + fmt(vol) + '</td>' +
+        '<td>' + timeLabel(m) + '</td>' +
+        '</tr>';
+    });
+    return html + '</table>';
+  }
+
+  function renderScanner(allMarkets, forexMarkets) {
+    // 7-day uncertain
+    const week = allMarkets.filter(m => {
+      const h = hours(m.endDateIso || m.endDate);
+      const vol = parseFloat(m.volumeNum || 0);
+      if (h < 0 || h > 168 || vol < 20000) return false;
+      let prices = [];
+      try { prices = JSON.parse(m.outcomePrices || '[]').map(Number); } catch(e) {}
+      return prices.some(p => p >= 0.15 && p <= 0.85);
+    }).sort((a, b) => parseFloat(b.volumeNum || 0) - parseFloat(a.volumeNum || 0));
+
+    // 48h
+    const day48 = allMarkets.filter(m => {
+      const h = hours(m.endDateIso || m.endDate);
+      const vol = parseFloat(m.volumeNum || 0);
+      if (h < 0 || h > 48 || vol < 10000) return false;
+      let prices = [];
+      try { prices = JSON.parse(m.outcomePrices || '[]').map(Number); } catch(e) {}
+      return prices.some(p => p >= 0.10 && p <= 0.90);
+    }).sort((a, b) => parseFloat(b.volumeNum || 0) - parseFloat(a.volumeNum || 0));
+
+    // swing 7-30d
+    const swing = allMarkets.filter(m => {
+      const h = hours(m.endDateIso || m.endDate);
+      const vol = parseFloat(m.volumeNum || 0);
+      if (h < 168 || h > 720 || vol < 15000) return false;
+      let prices = [];
+      try { prices = JSON.parse(m.outcomePrices || '[]').map(Number); } catch(e) {}
+      return prices.some(p => p >= 0.15 && p <= 0.85);
+    }).sort((a, b) => parseFloat(b.volumeNum || 0) - parseFloat(a.volumeNum || 0));
+
+    document.getElementById('tab-week').innerHTML  = marketTable(week, 20);
+    document.getElementById('tab-day48').innerHTML = marketTable(day48, 20);
+    document.getElementById('tab-swing').innerHTML = marketTable(swing, 15);
+    document.getElementById('tab-forex').innerHTML = marketTable(forexMarkets, 20);
+
+    // Hidden count spans for tab switching
+    ['week', 'day48', 'swing', 'forex'].forEach((k, i) => {
+      const counts = [week.length, day48.length, swing.length, forexMarkets.length];
+      const span = document.createElement('span');
+      span.id = 'count-' + k;
+      span.style.display = 'none';
+      span.textContent = '(' + counts[i] + ')';
+      document.getElementById('tab-' + k).appendChild(span);
+    });
+    document.getElementById('scanner-count').textContent = '(' + week.length + ')';
+  }
+
+  // ── RENDER: Near-Certain Income
+  function renderDailyIncome(allMarkets) {
+    const hits = allMarkets.filter(m => {
+      const h = hours(m.endDateIso || m.endDate);
       if (h < 0 || h > 168) return false;
-      const vol = parseFloat(m.volumeNum||m.volume||0);
-      if (vol < 2000) return false;
+      if (parseFloat(m.volumeNum || 0) < 2000) return false;
       return getHighConf(m) !== null;
-    }).sort((a,b) => {
-      const ha = hours(a.endDateIso||a.endDate);
-      const hb = hours(b.endDateIso||b.endDate);
-      return ha - hb; // soonest first
-    }).slice(0, 20);
+    }).sort((a, b) => hours(a.endDateIso || a.endDate) - hours(b.endDateIso || b.endDate));
 
     document.getElementById('dc-count').textContent = '(' + hits.length + ')';
     if (!hits.length) {
-      document.getElementById('pm-daily').innerHTML = '<div class="dim" style="padding:12px">No near-certain markets this week — all outcomes too uncertain right now.</div>';
+      document.getElementById('pm-daily').innerHTML = '<div class="empty">No near-certain markets this week.</div>';
       return;
     }
-
-    let html = '<table><tr><th>#</th><th>Market</th><th>Bet This Side</th><th>Confidence</th><th>Profit Per $1</th><th>Volume</th><th>Expires</th></tr>';
-    hits.forEach((m, i) => {
+    let html = '<table><tr><th>#</th><th>Market</th><th>Side</th><th>Conf</th><th>Profit/$</th><th>Expires</th></tr>';
+    hits.slice(0, 20).forEach((m, i) => {
       const hc  = getHighConf(m);
       const cls = hc.outcome === 'YES' ? 'by' : 'bn';
-      const vol = parseFloat(m.volumeNum||m.volume||0);
       const profit = ((1 - hc.price) / hc.price).toFixed(3);
       html +=
-        '<tr class="day-row">' +
-        '<td class="dim">' + (i+1) + '</td>' +
-        '<td style="max-width:260px">' + (m.question||m.title||'').slice(0,65) + '</td>' +
+        '<tr>' +
+        '<td class="dim">' + (i + 1) + '</td>' +
+        '<td style="max-width:200px">' + (m.question || m.title || '').slice(0, 55) + '</td>' +
         '<td><span class="badge ' + cls + '">' + hc.outcome + '</span></td>' +
-        '<td>' + confLabel(hc.price) + '</td>' +
-        '<td class="yes">+$' + profit + '</td>' +
-        '<td class="blue">' + fmt(vol) + '</td>' +
-        '<td>' + timeStr(m) + '</td>' +
+        '<td class="green">' + (hc.price * 100).toFixed(0) + '%</td>' +
+        '<td class="green">+$' + profit + '</td>' +
+        '<td>' + timeLabel(m) + '</td>' +
         '</tr>';
     });
-    html += '</table>';
-    document.getElementById('pm-daily').innerHTML = html;
+    document.getElementById('pm-daily').innerHTML = html + '</table>';
   }
 
-  // 48-hour day trades — ALL categories, high volume, uncertain enough to trade
-  function renderDayTrades(markets) {
-    const hits = markets.filter(m => {
-      const h   = hours(m.endDateIso||m.endDate);
-      const vol = parseFloat(m.volumeNum||m.volume||0);
-      if (h < 0 || h > 48) return false;
-      if (vol < 10000) return false;
-      let prices = [];
-      try { prices = JSON.parse(m.outcomePrices||'[]').map(Number); } catch(e){}
-      return prices.some(p => p >= 0.10 && p <= 0.90);
-    }).sort((a,b) => parseFloat(b.volumeNum||0) - parseFloat(a.volumeNum||0)).slice(0, 25);
-
-    document.getElementById('dt-count').textContent = '(' + hits.length + ')';
-    if (!hits.length) {
-      document.getElementById('pm-day').innerHTML = '<div class="dim" style="padding:12px">No high-volume markets closing within 48 hours right now. Check back soon — sports events and news markets appear here.</div>';
-      return;
-    }
-    let html = '<table><tr><th>#</th><th>Market</th><th>Best Side</th><th>Price</th><th>Implied %</th><th>Volume</th><th>Expires</th></tr>';
-    hits.forEach((m, i) => {
-      const { price, outcome } = getBest(m);
-      const vol = parseFloat(m.volumeNum||m.volume||0);
-      const cls = outcome === 'YES' ? 'by' : 'bn';
-      html +=
-        '<tr class="day-row">' +
-        '<td class="dim">' + (i+1) + '</td>' +
-        '<td style="max-width:260px">' + (m.question||m.title||'').slice(0,65) + '</td>' +
-        '<td><span class="badge ' + cls + '">' + outcome + '</span></td>' +
-        '<td>' + price.toFixed(3) + '</td>' +
-        '<td style="color:' + (price>=0.5?'#00ff88':'#88aaff') + '">' + (price*100).toFixed(0) + '%</td>' +
-        '<td class="blue">' + fmt(vol) + '</td>' +
-        '<td>' + timeStr(m) + '</td>' +
-        '</tr>';
-    });
-    html += '</table>';
-    document.getElementById('pm-day').innerHTML = html;
-  }
-
-  // 7-day active trades — uncertain markets with good volume, ALL categories
-  function render7Day(markets) {
-    const hits = markets.filter(m => {
-      const h   = hours(m.endDateIso||m.endDate);
-      const vol = parseFloat(m.volumeNum||m.volume||0);
-      if (h < 0 || h > 168) return false;
-      if (vol < 25000) return false; // higher volume = real markets, filters out celebrity junk
-      let prices = [];
-      try { prices = JSON.parse(m.outcomePrices||'[]').map(Number); } catch(e){}
-      return prices.some(p => p >= 0.15 && p <= 0.85);
-    }).sort((a,b) => parseFloat(b.volumeNum||0) - parseFloat(a.volumeNum||0)).slice(0, 20);
-
-    document.getElementById('wk-count').textContent = '(' + hits.length + ')';
-    if (!hits.length) {
-      document.getElementById('pm-week').innerHTML = '<div class="dim" style="padding:12px">No active 7-day markets right now.</div>';
-      return;
-    }
-
-    let html = '<table><tr><th>#</th><th>Market</th><th>Best Side</th><th>Price</th><th>Implied %</th><th>Volume</th><th>Expires</th></tr>';
-    hits.forEach((m, i) => {
-      const { price, outcome } = getBest(m);
-      const vol = parseFloat(m.volumeNum||m.volume||0);
-      const cls = outcome === 'YES' ? 'by' : 'bn';
-      html +=
-        '<tr class="day-row">' +
-        '<td class="dim">' + (i+1) + '</td>' +
-        '<td style="max-width:260px">' + (m.question||m.title||'').slice(0,65) + '</td>' +
-        '<td><span class="badge ' + cls + '">' + outcome + '</span></td>' +
-        '<td>' + price.toFixed(3) + '</td>' +
-        '<td style="color:' + (price>=0.5?'#00ff88':'#88aaff') + '">' + (price*100).toFixed(0) + '%</td>' +
-        '<td class="blue">' + fmt(vol) + '</td>' +
-        '<td>' + timeStr(m) + '</td>' +
-        '</tr>';
-    });
-    html += '</table>';
-    document.getElementById('pm-week').innerHTML = html;
-  }
-
-  // Swing: 7-30 days
-  function renderSwing(markets) {
-    const hits = markets.filter(m => {
-      const h   = hours(m.endDateIso||m.endDate);
-      const vol = parseFloat(m.volumeNum||m.volume||0);
-      if (h < 168 || h > 720) return false;
-      if (vol < 15000) return false;
-      let prices = [];
-      try { prices = JSON.parse(m.outcomePrices||'[]').map(Number); } catch(e){}
-      return prices.some(p => p >= 0.15 && p <= 0.85);
-    }).sort((a,b) => parseFloat(b.volumeNum||0) - parseFloat(a.volumeNum||0)).slice(0, 15);
-
-    document.getElementById('sw-count').textContent = '(' + hits.length + ')';
-    if (!hits.length) {
-      document.getElementById('pm-swing').innerHTML = '<div class="dim" style="padding:12px">No swing markets right now.</div>';
-      return;
-    }
-
-    let html = '<table><tr><th>#</th><th>Market</th><th>Best Side</th><th>Price</th><th>Implied %</th><th>Volume</th><th>Expires</th></tr>';
-    hits.forEach((m, i) => {
-      const { price, outcome } = getBest(m);
-      const vol = parseFloat(m.volumeNum||m.volume||0);
-      const cls = outcome === 'YES' ? 'by' : 'bn';
-      html +=
-        '<tr class="swing-row">' +
-        '<td class="dim">' + (i+1) + '</td>' +
-        '<td style="max-width:260px">' + (m.question||m.title||'').slice(0,65) + '</td>' +
-        '<td><span class="badge ' + cls + '">' + outcome + '</span></td>' +
-        '<td>' + price.toFixed(3) + '</td>' +
-        '<td style="color:' + (price>=0.5?'#00ff88':'#88aaff') + '">' + (price*100).toFixed(0) + '%</td>' +
-        '<td class="blue">' + fmt(vol) + '</td>' +
-        '<td>' + timeStr(m) + '</td>' +
-        '</tr>';
-    });
-    html += '</table>';
-    document.getElementById('pm-swing').innerHTML = html;
-  }
-
+  // ── RENDER: Wallet Leaderboard
   async function renderWallets(wallets) {
     document.getElementById('wallet-count').textContent = '(' + wallets.length + ')';
     const el = document.getElementById('pm-wallets');
-    let html = '<table><tr><th>#</th><th>Wallet</th><th>All-Time PnL</th><th>ROI</th><th class="hm">Volume</th><th>Current Positions</th></tr>';
-    el.innerHTML = html + '</table>';
+    el.innerHTML = '<div class="loader">Loading positions...</div>';
 
-    const rows = await Promise.allSettled(wallets.map((w, i) => {
+    const rows = await Promise.allSettled(wallets.slice(0, 25).map((w, i) => {
       const addr = w.proxyWallet || w.address || '';
-      const name = (w.userName || (w.proxyWallet||'').slice(0,12) || 'anon').slice(0,20);
-      const pnl  = parseFloat(w.pnl||0);
-      const vol  = parseFloat(w.vol||0);
+      const name = (w.userName || (w.proxyWallet || '').slice(0, 12) || 'anon').slice(0, 20);
+      const pnl  = parseFloat(w.pnl || 0);
+      const vol  = parseFloat(w.vol || 0);
       const roi  = vol > 0 ? (pnl / vol) * 100 : 0;
       return fetchPositions(addr).then(pos => {
         const unc = pos.filter(p => {
-          const pr = parseFloat(p.curPrice||p.price||0);
+          const pr = parseFloat(p.curPrice || p.price || 0);
           return pr >= 0.15 && pr <= 0.85;
-        }).slice(0,3);
-        const posHtml = unc.length ? unc.map(p => {
-          const pr  = parseFloat(p.curPrice||p.price||0);
-          const oc  = (p.outcome||'').toUpperCase();
-          const cls = oc === 'YES' ? 'by' : 'bn';
-          const pnlV = parseFloat(p.cashPnl||0);
-          const pnlS = pnlV >= 0
-            ? '<span class="yes">+$'+pnlV.toFixed(2)+'</span>'
-            : '<span class="no">-$'+Math.abs(pnlV).toFixed(2)+'</span>';
-          return '<span class="badge ' + cls + '">' + oc + '</span> ' +
-                 (p.title||'').slice(0,42) +
-                 ' <span class="dim">@' + pr.toFixed(3) + '</span> ' + pnlS;
-        }).join('<br>') : '<span class="dim">—</span>';
+        }).slice(0, 2);
+        const posHtml = unc.length
+          ? unc.map(p => {
+              const pr  = parseFloat(p.curPrice || p.price || 0);
+              const oc  = (p.outcome || '').toUpperCase();
+              const cls = oc === 'YES' ? 'by' : 'bn';
+              return '<span class="badge ' + cls + '">' + oc + '</span> ' +
+                     (p.title || '').slice(0, 36) +
+                     ' <span class="dim">@' + pr.toFixed(2) + '</span>';
+            }).join('<br>')
+          : '<span class="dim">—</span>';
         return { i, name, pnl, roi, vol, posHtml };
       }).catch(() => ({ i, name, pnl, roi, vol, posHtml: '<span class="dim">—</span>' }));
     }));
 
+    let html = '<table><tr><th>#</th><th>Wallet</th><th>PnL</th><th>ROI</th><th class="hm">Vol</th><th>Open Positions</th></tr>';
     html += rows
       .filter(r => r.status === 'fulfilled')
       .map(r => r.value)
-      .sort((a,b) => a.i - b.i)
-      .map(({i, name, pnl, roi, vol, posHtml}) =>
+      .sort((a, b) => a.i - b.i)
+      .map(({ i, name, pnl, roi, vol, posHtml }) =>
         '<tr>' +
-        '<td class="dim">' + (i+1) + '</td>' +
+        '<td class="dim">' + (i + 1) + '</td>' +
         '<td>' + name + '</td>' +
-        '<td class="yes">' + fmt(pnl) + '</td>' +
-        '<td style="color:' + (roi>=0?'#00ff88':'#ff5050') + '">' + roi.toFixed(1) + '%</td>' +
-        '<td class="hm dim">' + fmt(vol) + '</td>' +
-        '<td style="line-height:2;font-size:0.88em">' + posHtml + '</td>' +
+        '<td class="green">' + fmt(pnl) + '</td>' +
+        '<td style="color:' + (roi >= 0 ? '#00ff88' : '#ff4455') + '">' + roi.toFixed(1) + '%</td>' +
+        '<td class="dim hm">' + fmt(vol) + '</td>' +
+        '<td style="line-height:1.9;font-size:0.85em">' + posHtml + '</td>' +
         '</tr>'
       ).join('');
-    html += '</table>';
-    el.innerHTML = html;
+    el.innerHTML = html + '</table>';
   }
 
-  async function refresh() {
-    document.getElementById('pm-updated').textContent =
-      'Last updated: ' + new Date().toLocaleString() + ' — auto-refreshes every 90s';
-    try {
-      const [wallets, markets, allMarkets, forexMarkets] = await Promise.all([fetchAllWallets(), fetchMarkets(), fetchAllMarkets(), fetchForexMarkets()]);
-
-      renderStats(wallets, allMarkets);
-      renderDailyIncome(allMarkets);
-      renderDayTrades(allMarkets);
-      render7Day(allMarkets);
-      renderForex(forexMarkets);
-      renderSwing(markets);
-
-      // These hit many wallet APIs so run after the fast sections
-      await renderSignals(wallets);
-      await renderWallets(wallets);
-
-    } catch(e) {
-      ['pm-signals','pm-daily','pm-day','pm-swing','pm-wallets'].forEach(id => {
-        document.getElementById(id).innerHTML = '<div class="err">Error: ' + e.message + '</div>';
-      });
-    }
-  }
-
+  // ── RENDER: Paper Trade Tracker
   async function renderPaperTrades() {
     const el = document.getElementById('paper-trades');
     try {
@@ -603,67 +777,107 @@
       const r = await fetch(P + encodeURIComponent(PAPER_URL));
       if (!r.ok) throw new Error('HTTP ' + r.status);
       const raw = await r.text();
-      // Handle case where proxy wraps response in JSON
       let text = raw;
       if (raw.trim().startsWith('{') && !raw.trim().startsWith('{"timestamp"')) {
         try { const w = JSON.parse(raw); text = w.body || w.content || w.data || raw; } catch(e) {}
       }
-      const lines = text.trim().split('\n').filter(l => l.trim() && l.trim().startsWith('{'));
-      const trades = lines.map(l => JSON.parse(l));
+      const lines  = text.trim().split('\n').filter(l => l.trim().startsWith('{'));
+      const trades = lines.map(l => { try { return JSON.parse(l); } catch(e) { return null; } }).filter(Boolean);
 
-      // Deduplicate — keep latest entry per market+outcome
       const seen = new Map();
       trades.forEach(t => {
         const key = t.market + '|' + t.outcome;
         if (!seen.has(key) || t.timestamp > seen.get(key).timestamp) seen.set(key, t);
       });
-      const deduped = Array.from(seen.values()).sort((a,b) => b.timestamp.localeCompare(a.timestamp));
+      const deduped = Array.from(seen.values()).sort((a, b) => b.timestamp.localeCompare(a.timestamp));
 
-      if (!deduped.length) { el.innerHTML = '<div class="dim">No paper trades logged yet.</div>'; return; }
+      if (!deduped.length) {
+        el.innerHTML = '<div class="empty">No paper trades logged yet.</div>';
+        document.getElementById('paper-summary').textContent = '0 trades';
+        return;
+      }
 
-      let totalBet = 0, totalPotProfit = 0;
-      let rows = deduped.map((t, i) => {
-        totalBet += t.paper_bet || 0;
-        totalPotProfit += t.potential_profit || 0;
-        const side = t.outcome === 'Yes'
-          ? '<span class="badge by">YES</span>'
-          : '<span class="badge bn">NO</span>';
-        const profit = t.potential_profit > 0
-          ? `<td class="yes">+$${t.potential_profit.toFixed(2)}</td>`
-          : `<td class="dim">+$0.00</td>`;
-        const wallet = t.wallet ? t.wallet.slice(0,8) : '—';
-        const statusCls = t.status === 'OPEN' ? 'warn' : (t.status === 'WON' ? 'yes' : 'no');
-        return `<tr class="paper-row">
-          <td class="dim">${i+1}</td>
-          <td>${t.market}</td>
-          <td>${side}</td>
-          <td>${t.entry_price}</td>
-          <td>$${t.paper_bet}</td>
-          ${profit}
-          <td class="dim">${wallet}</td>
-          <td><span class="${statusCls}">${t.status}</span></td>
-        </tr>`;
+      // Update header P&L counter
+      const open   = deduped.filter(t => t.status === 'OPEN');
+      const closed = deduped.filter(t => t.status !== 'OPEN');
+      const wins   = closed.filter(t => t.status === 'WON').length;
+      const totalBet  = deduped.reduce((s, t) => s + (t.paper_bet || 0), 0);
+      const totalPot  = deduped.reduce((s, t) => s + (t.potential_profit || 0), 0);
+      const netPnl    = closed.reduce((s, t) => s + (t.pnl || 0), 0);
+
+      const pnlEl = document.getElementById('pnl-counter');
+      const pnlTarget = totalPot;
+      pnlEl.textContent = (pnlTarget >= 0 ? '+' : '') + '$' + Math.abs(pnlTarget).toFixed(2);
+      pnlEl.className   = pnlTarget >= 0 ? '' : 'loss';
+
+      document.getElementById('paper-summary').innerHTML =
+        '<span class="green">' + open.length + ' open</span> &nbsp;|&nbsp; ' +
+        closed.length + ' settled &nbsp;|&nbsp; ' +
+        '<span class="green">$' + totalBet.toFixed(0) + ' deployed</span> &nbsp;|&nbsp; ' +
+        '<span class="yellow">+$' + totalPot.toFixed(2) + ' potential</span>';
+
+      let html = '<table><tr><th>#</th><th>Market</th><th>Side</th><th>Entry</th><th>Bet</th><th>Potential</th><th class="hm">EV</th><th>Status</th></tr>';
+      html += deduped.map((t, i) => {
+        const side   = t.outcome === 'Yes' ? '<span class="badge by">YES</span>' : '<span class="badge bn">NO</span>';
+        const pot    = t.potential_profit > 0 ? '<span class="green">+$' + t.potential_profit.toFixed(2) + '</span>' : '<span class="dim">—</span>';
+        const evHtml = t.ev != null
+          ? (t.ev >= 0 ? '<span class="ev-pos">EV+' + parseFloat(t.ev).toFixed(3) + '</span>'
+                       : '<span class="ev-neg">EV' + parseFloat(t.ev).toFixed(3) + '</span>')
+          : '<span class="dim">—</span>';
+        const stCls  = t.status === 'OPEN' ? 'yellow' : (t.status === 'WON' ? 'green' : 'red');
+        return '<tr class="paper-row">' +
+          '<td class="dim">' + (i + 1) + '</td>' +
+          '<td>' + (t.market || '').slice(0, 58) + '</td>' +
+          '<td>' + side + '</td>' +
+          '<td class="dim">' + (t.entry_price || 0).toFixed(3) + '</td>' +
+          '<td>$' + (t.paper_bet || 0).toFixed(0) + '</td>' +
+          '<td>' + pot + '</td>' +
+          '<td class="hm">' + evHtml + '</td>' +
+          '<td><span class="' + stCls + '">' + t.status + '</span></td>' +
+          '</tr>';
       }).join('');
-
-      el.innerHTML = `<table>
-        <tr><th>#</th><th>Market</th><th>Side</th><th>Entry</th><th>Bet</th><th>Pot. Profit</th><th>Copied From</th><th>Status</th></tr>
-        ${rows}
-        <tr style="border-top:1px solid #1a3a1a;font-weight:bold">
-          <td colspan="4" class="dim">TOTAL</td>
-          <td>$${totalBet.toFixed(0)}</td>
-          <td class="yes">+$${totalPotProfit.toFixed(2)}</td>
-          <td colspan="2"></td>
-        </tr>
-      </table>`;
+      html += '<tr style="border-top:1px solid #1a3a1a;background:#0a0a0a">' +
+        '<td colspan="4" class="dim" style="font-size:0.75em">TOTAL</td>' +
+        '<td style="color:#ccc">$' + totalBet.toFixed(0) + '</td>' +
+        '<td class="green">+$' + totalPot.toFixed(2) + '</td>' +
+        '<td colspan="2"></td></tr>';
+      el.innerHTML = html + '</table>';
     } catch(e) {
       el.innerHTML = '<div class="err">Paper trades unavailable: ' + e.message + '</div>';
     }
   }
 
+  // ── MAIN REFRESH
+  async function refresh() {
+    document.getElementById('hdr-updated').textContent =
+      'Updated ' + new Date().toLocaleTimeString() + ' — next in 30s';
+    try {
+      const [wallets, allMarkets, forexMarkets] = await Promise.all([
+        fetchAllWallets(),
+        fetchAllMarkets(),
+        fetchForex(),
+      ]);
+
+      renderHeaderStats(wallets, allMarkets);
+      renderScanner(allMarkets, forexMarkets);
+      renderDailyIncome(allMarkets);
+
+      // Wallet fetches are heavier — run after fast sections
+      renderSignals(wallets);
+      renderWallets(wallets);
+
+    } catch(e) {
+      console.error('Refresh error:', e);
+      document.getElementById('hdr-updated').textContent = 'Error: ' + e.message;
+    }
+  }
+
+  // Initial load
   refresh();
   renderPaperTrades();
   setInterval(refresh, REFRESH);
-  setInterval(renderPaperTrades, 1800000); // re-fetch every 30 min
+  setInterval(renderPaperTrades, 1800000);
+
 })();
 </script>
 
