@@ -1,41 +1,51 @@
 {
-  "generated_at": "2026-04-03T11:46:14.021453+00:00",
+  "generated_at": "2026-04-03T12:32:07.166461+00:00",
   "bot_running": true,
   "trade_summary": {
-    "total": 5,
-    "open": 4,
+    "total": 8,
+    "open": 7,
     "won": 0,
     "lost": 1,
     "realized_pnl": -5.0,
-    "unrealized_potential": 11.8
+    "unrealized_potential": 44.34
+  },
+  "scanner_counts": {
+    "site_7day": 7,
+    "site_48h": 37,
+    "bot_near_certain": 15,
+    "bot_short_term": 7
   },
   "engine_summary": [
     {
-      "engine": "UNKNOWN",
-      "total_trades": 5,
-      "open": 0,
+      "engine": "LONG_TERM",
+      "total_trades": 8,
+      "open": 7,
       "realized_pnl": -5.0
     }
   ],
   "engine_last_run": {
-    "MONITOR": -2.0,
-    "LONG_TERM": -1.1
+    "LONG_TERM": -2.0,
+    "MONITOR": -1.9
   },
   "ok": [
-    "Realized P&L = $-5.00 from 0 wins / 1 losses",
-    "Engine MONITOR: last ran -2.0h ago \u2014 active",
-    "Engine LONG_TERM: last ran -1.1h ago \u2014 active",
+    "bot.py is running",
+    "Engine LONG_TERM: last ran -2.0h ago",
+    "Engine MONITOR: last ran -1.9h ago",
+    "Polymarket API reachable \u2014 500 markets fetched",
+    "7-Day scanner tab: 7 live markets available \u2713",
+    "48H scanner tab: 37 live markets available \u2713",
+    "Near-certain engine (bot): 15 live markets available \u2713",
+    "Short-term engine (bot): 7 live markets available \u2713",
+    "Realized P&L = $-5.00 (0W / 1L)",
     "No duplicate open positions",
-    "No open trades past their resolution date",
-    "bot.py process is running"
+    "No open trades past resolution date"
   ],
   "warnings": [],
   "issues": [
-    "Engine NEAR_CERTAIN: no activity found in log \u2014 may not have run yet",
-    "Engine SHORT_TERM: no activity found in log \u2014 may not have run yet",
-    "NEAR_CERTAIN engine has logged 0 trades. It runs every 30 min but finds no 82-97% confidence markets resolving within 7 days. Either: (a) no qualifying markets exist right now, or (b) the engine is always hitting the cap before it runs."
+    "Engine NEAR_CERTAIN: no recent activity in log",
+    "Engine SHORT_TERM: no recent activity in log"
   ],
   "suggestions": [
-    "NEAR_CERTAIN engine producing 0 trades: lower NEAR_CERTAIN_MIN from 0.85 to 0.80 or expand SHORT_TERM_DAYS from 7 to 14 to catch more qualifying markets."
+    "NEAR_CERTAIN engine has 0 logged trades \u2014 check if live markets exist (audit now verifies this daily via live API check above)."
   ]
 }
