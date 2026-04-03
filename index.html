@@ -613,8 +613,8 @@
   async function fetchAllWallets() {
     const [all, month, week] = await Promise.all([
       pf(DATA+'/v1/leaderboard?timePeriod=ALL&orderBy=PNL&limit=50'),
-      pf(DATA+'/v1/leaderboard?timePeriod=1M&orderBy=PNL&limit=50'),
-      pf(DATA+'/v1/leaderboard?timePeriod=1W&orderBy=PNL&limit=50'),
+      pf(DATA+'/v1/leaderboard?timePeriod=month&orderBy=PNL&limit=50'),
+      pf(DATA+'/v1/leaderboard?timePeriod=week&orderBy=PNL&limit=50'),
     ]);
     const map = new Map();
     [...toArr(all),...toArr(month),...toArr(week)].forEach(w=>{
