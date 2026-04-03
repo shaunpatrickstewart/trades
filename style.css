@@ -203,28 +203,63 @@
 }
 #pm-root .tab {
   flex: 1;
-  padding: 8px 4px 6px;
+  padding: 10px 4px 8px;
   font-size: 0.67em;
-  letter-spacing: 1px;
+  letter-spacing: 1.5px;
   cursor: pointer;
-  color: #383838;
+  color: #555;
   border: none;
   background: transparent;
-  border-bottom: 2px solid transparent;
-  transition: all 0.15s;
+  border-bottom: 3px solid transparent;
+  transition: all 0.18s;
   text-align: center;
   text-transform: uppercase;
   font-family: 'Courier New', monospace;
   position: relative;
 }
-#pm-root .tab:hover { color: #888; background: #0c0c0c }
-#pm-root .tab.active {
-  color: var(--b);
-  border-bottom: 2px solid var(--b);
-  background: #0c0c0c;
+#pm-root .tab:hover {
+  background: #0e0e0e;
+  color: #ccc;
 }
-#pm-root .tab-icon { font-size: 1.2em; display: block; margin-bottom: 1px }
-#pm-root .tab-label { font-size: 0.95em }
+#pm-root .tab.active {
+  border-bottom: 3px solid var(--b);
+  background: #0c0c0c;
+  color: #fff;
+}
+
+/* ── Per-tab icon colors ── */
+#pm-root .tab-icon {
+  font-size: 1.5em;
+  display: block;
+  margin-bottom: 3px;
+  transition: all 0.18s;
+}
+/* 7 DAY — blue */
+#pm-root .tabs .tab:nth-child(1) .tab-icon { color: #2244aa; }
+#pm-root .tabs .tab:nth-child(1):hover .tab-icon,
+#pm-root .tabs .tab:nth-child(1).active .tab-icon { color: #4488ff; filter: drop-shadow(0 0 5px #4488ff88); }
+/* 48H — yellow / lightning */
+#pm-root .tabs .tab:nth-child(2) .tab-icon { color: #887700; }
+#pm-root .tabs .tab:nth-child(2):hover .tab-icon,
+#pm-root .tabs .tab:nth-child(2).active .tab-icon { color: #ffdd22; filter: drop-shadow(0 0 5px #ffdd2288); }
+/* SWING — green */
+#pm-root .tabs .tab:nth-child(3) .tab-icon { color: #0a6633; }
+#pm-root .tabs .tab:nth-child(3):hover .tab-icon,
+#pm-root .tabs .tab:nth-child(3).active .tab-icon { color: #00ff88; filter: drop-shadow(0 0 5px #00ff8888); }
+/* FOREX — orange / dollar */
+#pm-root .tabs .tab:nth-child(4) .tab-icon { color: #884400; }
+#pm-root .tabs .tab:nth-child(4):hover .tab-icon,
+#pm-root .tabs .tab:nth-child(4).active .tab-icon { color: #ff9933; filter: drop-shadow(0 0 5px #ff993388); }
+
+/* ── Tab label ── */
+#pm-root .tab-label {
+  font-size: 0.95em;
+  font-weight: 700;
+  color: #888;
+  transition: color 0.18s;
+}
+#pm-root .tab:hover .tab-label { color: #ddd; }
+#pm-root .tab.active .tab-label { color: #fff; letter-spacing: 2px; }
 #pm-root .tab-subdesc {
   border-top: 1px solid var(--border);
   padding: 5px 12px;
