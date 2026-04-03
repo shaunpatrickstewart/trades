@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-04-03T14:28:28.574297+00:00",
+  "generated_at": "2026-04-03T14:57:00.941775+00:00",
   "bot_running": true,
   "trade_summary": {
-    "total": 16,
-    "open": 13,
-    "won": 2,
+    "total": 18,
+    "open": 14,
+    "won": 3,
     "lost": 1,
-    "realized_pnl": -4.41,
-    "unrealized_potential": 142.56
+    "realized_pnl": -4.12,
+    "unrealized_potential": 162.48
   },
   "scanner_counts": {
-    "site_7day": 9,
-    "site_48h": 29,
-    "bot_near_certain": 20,
-    "bot_short_term": 6
+    "site_7day": 12,
+    "site_48h": 30,
+    "bot_near_certain": 18,
+    "bot_short_term": 8
   },
   "engine_summary": [
     {
@@ -31,25 +31,25 @@
     },
     {
       "engine": "NEAR_CERTAIN",
-      "total_trades": 4,
+      "total_trades": 5,
       "open": 2,
-      "won": 2,
+      "won": 3,
       "lost": 0,
-      "resolved": 2,
-      "total_bet": 20.0,
-      "realized_pnl": 0.59,
-      "roi_pct": 2.9,
+      "resolved": 3,
+      "total_bet": 26.01,
+      "realized_pnl": 0.88,
+      "roi_pct": 3.4,
       "win_rate_pct": 100.0,
       "data_sufficient": false
     },
     {
       "engine": "SHORT_TERM",
-      "total_trades": 4,
-      "open": 4,
+      "total_trades": 5,
+      "open": 5,
       "won": 0,
       "lost": 0,
       "resolved": 0,
-      "total_bet": 80.0,
+      "total_bet": 101.02,
       "realized_pnl": 0,
       "roi_pct": null,
       "win_rate_pct": null,
@@ -57,49 +57,49 @@
     }
   ],
   "engine_last_run": {
+    "SHORT_TERM": -2.0,
+    "NEAR_CERTAIN": -2.0,
     "MONITOR": -1.9,
-    "SHORT_TERM": -1.9,
-    "NEAR_CERTAIN": -1.4,
-    "LONG_TERM": -1.0
+    "LONG_TERM": -1.6
   },
   "allocation_rec": {
     "status": "insufficient_data",
-    "message": "Need 10+ resolved trades per engine before recommending reallocation. LONG_TERM: 9 more needed | NEAR_CERTAIN: 8 more needed | SHORT_TERM: 10 more needed",
+    "message": "Need 10+ resolved trades per engine before recommending reallocation. LONG_TERM: 9 more needed | NEAR_CERTAIN: 7 more needed | SHORT_TERM: 10 more needed",
     "allocations": {}
   },
   "bankroll": {
-    "current_bankroll": 300.0,
+    "current_bankroll": 300.29,
     "initial_bankroll": 300.0,
-    "total_growth": 0.0,
+    "total_growth": 0.29,
     "target_daily_profit": 300.0,
-    "days_of_data": 0,
-    "avg_daily_pnl_7d": 0.0,
-    "daily_roi_pct": 0.0,
-    "min_bankroll_for_target": null,
-    "days_to_target": null,
+    "days_of_data": 1,
+    "avg_daily_pnl_7d": 0.29,
+    "daily_roi_pct": 0.097,
+    "min_bankroll_for_target": 310344.83,
+    "days_to_target": 0,
     "withdrawable_today": 0.0,
     "on_track": false
   },
   "ok": [
     "bot.py is running",
-    "Engine NEAR_CERTAIN: last ran -1.4h ago",
-    "Engine SHORT_TERM: last ran -1.9h ago",
-    "Engine LONG_TERM: last ran -1.0h ago",
+    "Engine NEAR_CERTAIN: last ran -2.0h ago",
+    "Engine SHORT_TERM: last ran -2.0h ago",
+    "Engine LONG_TERM: last ran -1.6h ago",
     "Engine MONITOR: last ran -1.9h ago",
     "Polymarket API reachable \u2014 500 markets fetched",
-    "7-Day scanner tab: 9 live markets available \u2713",
-    "48H scanner tab: 29 live markets available \u2713",
-    "Near-certain engine (bot): 20 live markets available \u2713",
-    "Short-term engine (bot): 6 live markets available \u2713",
-    "Realized P&L = $-4.41 (2W / 1L)",
+    "7-Day scanner tab: 12 live markets available \u2713",
+    "48H scanner tab: 30 live markets available \u2713",
+    "Near-certain engine (bot): 18 live markets available \u2713",
+    "Short-term engine (bot): 8 live markets available \u2713",
+    "Realized P&L = $-4.12 (3W / 1L)",
     "No duplicate open positions"
   ],
   "warnings": [],
   "issues": [
-    "Stale OPEN trade past end_date by 0d: 'Will the price of Bitcoin be between $66,000 and $'",
     "Stale OPEN trade past end_date by 0d: 'Will Elon Musk post 280-299 tweets from March 27 t'",
     "Stale OPEN trade past end_date by 0d: 'Will West Bromwich Albion FC win on 2026-04-03?'",
-    "Stale OPEN trade past end_date by 0d: 'Exact Score: Paris Saint-Germain FC 3 - 1 Toulouse'"
+    "Stale OPEN trade past end_date by 0d: 'Exact Score: Paris Saint-Germain FC 3 - 1 Toulouse'",
+    "Stale OPEN trade past end_date by 0d: 'Ethereum Up or Down - April 3, 8:00AM-12:00PM ET'"
   ],
   "suggestions": []
 }
