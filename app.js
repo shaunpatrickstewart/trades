@@ -567,6 +567,35 @@
 
       let html = '<div style="font-size:0.75em;color:#555;margin-bottom:8px">Last audit: '+ts+' &nbsp;|&nbsp; Bot: '+botSt+'</div>';
 
+      // Bankroll + $300/day target
+      if (a.bankroll) {
+        const br = a.bankroll;
+        const onTrack = br.on_track;
+        const growth = br.total_growth >= 0
+          ? '<span style="color:#00ff88">+$'+br.total_growth.toFixed(2)+'</span>'
+          : '<span style="color:#ff4444">-$'+Math.abs(br.total_growth).toFixed(2)+'</span>';
+        html += '<div style="background:#0a0a0a;border:1px solid #333;border-left:3px solid '+(onTrack?'#00ff88':'#ffaa44')+';padding:8px 12px;margin-bottom:10px;border-radius:4px">';
+        html += '<div style="font-weight:700;color:'+(onTrack?'#00ff88':'#ffaa44')+';margin-bottom:4px">$300/DAY TARGET '+(onTrack?'✓ HIT':'— IN PROGRESS')+'</div>';
+        html += '<div style="font-size:0.82em;display:flex;gap:20px;flex-wrap:wrap">';
+        html += '<span>Bankroll: <b style="color:#fff">$'+br.current_bankroll.toFixed(2)+'</b></span>';
+        html += '<span>Started: $'+br.initial_bankroll.toFixed(2)+'</span>';
+        html += '<span>Growth: '+growth+'</span>';
+        if (br.days_of_data >= 1) {
+          html += '<span>7-day avg: <b style="color:'+(br.avg_daily_pnl_7d>=0?'#00ff88':'#ff4444')+'">'+(br.avg_daily_pnl_7d>=0?'+':'')+'$'+br.avg_daily_pnl_7d.toFixed(2)+'/day</b></span>';
+          html += '<span>Daily ROI: '+br.daily_roi_pct.toFixed(3)+'%</span>';
+          if (!onTrack && br.days_to_target) {
+            html += '<span>Est. days to target: <b style="color:#ffaa44">'+br.days_to_target+'d</b></span>';
+            html += '<span>Need bankroll: $'+(br.min_bankroll_for_target||'?')+'</span>';
+          }
+          if (onTrack && br.withdrawable_today > 0) {
+            html += '<span>Withdrawable: <b style="color:#00ff88">$'+br.withdrawable_today.toFixed(2)+'</b></span>';
+          }
+        } else {
+          html += '<span style="color:#555">Collecting data — trades need to resolve first</span>';
+        }
+        html += '</div></div>';
+      }
+
       // Strategy ROI + allocation recommendation
       if (a.engine_summary && a.engine_summary.length) {
         html += '<div style="color:#ffaa44;font-weight:700;margin-bottom:6px">Strategy Performance</div>';
