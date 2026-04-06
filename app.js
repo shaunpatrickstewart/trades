@@ -315,8 +315,8 @@
 
       html += '<div style="font-size:0.72em;color:#555;margin-bottom:6px;font-weight:600">ACTIVE ENGINES</div>';
       html += '<div style="display:flex;gap:6px;margin-bottom:10px">';
-      html += '<span style="background:#e6f9f0;color:#007a44;padding:3px 8px;border-radius:3px;font-size:0.75em;font-weight:600">&#9679; SHORT_TERM</span>';
-      html += '<span style="background:#eef0ff;color:#3344cc;padding:3px 8px;border-radius:3px;font-size:0.75em;font-weight:600">&#9679; LONG_TERM</span>';
+      html += '<span style="background:#e6f9f0;color:#007a44;padding:3px 8px;border-radius:3px;font-size:0.75em;font-weight:600">&#9679; WALLET COPY SHORT</span>';
+      html += '<span style="background:#eef0ff;color:#3344cc;padding:3px 8px;border-radius:3px;font-size:0.75em;font-weight:600">&#9679; WALLET COPY LONG</span>';
       html += '</div>';
 
       // Recent settled trades
@@ -483,7 +483,7 @@
       let engHtml = '<div style="display:flex;gap:10px;flex-wrap:wrap;margin-bottom:10px;padding:8px 0;border-bottom:1px solid #1a2a1a">';
       Object.entries(byEngine).forEach(([eng,d])=>{
         const c = engColors[eng]||'#888';
-        const label = eng==='LONG_TERM'?'WALLET COPY':eng.replace('_',' ');
+        const label = eng==='LONG_TERM'?'WALLET COPY LONG':eng==='SHORT_TERM'?'WALLET COPY SHORT':eng.replace('_',' ');
         const resolved = d.won + d.lost;
         const totalEngBet = deduped.filter(t=>(t.type||'UNKNOWN')===eng).reduce((s,t)=>s+(t.paper_bet||0),0);
         const roi = resolved > 0 && totalEngBet > 0 ? (d.realPnl / totalEngBet * 100) : null;
@@ -512,7 +512,7 @@
         const s = t.source||t.type||'';
         if (s.startsWith('copy:')) return '<span style="color:#88aaff;font-size:0.75em">COPY: '+s.slice(5).slice(0,14)+'</span>';
         if (t.type==='NEAR_CERTAIN') return '<span style="color:#aaa;font-size:0.75em">NEAR-CERTAIN</span>';
-        if (t.type==='SHORT_TERM')   return '<span style="color:#00ff88;font-size:0.75em">SHORT-TERM</span>';
+        if (t.type==='SHORT_TERM')   return '<span style="color:#00ff88;font-size:0.75em">COPY SHORT</span>';
         return '<span style="color:#888;font-size:0.75em">'+(t.type||'—')+'</span>';
       };
 
@@ -642,7 +642,7 @@
           const wrStr = e.win_rate_pct !== null && e.win_rate_pct !== undefined
             ? ' &nbsp;<span style="color:#aaa">'+e.win_rate_pct+'% WR</span>' : '';
           html += '<div style="background:#0d0d0d;border-left:2px solid '+c+';padding:4px 8px;font-size:0.78em">'+
-            '<div style="color:'+c+';font-weight:700">'+(e.engine==='LONG_TERM'?'WALLET COPY':e.engine.replace('_',' '))+'</div>'+
+            '<div style="color:'+c+';font-weight:700">'+(e.engine==='LONG_TERM'?'WALLET COPY LONG':e.engine==='SHORT_TERM'?'WALLET COPY SHORT':e.engine.replace('_',' '))+'</div>'+
             '<div>'+e.resolved+' resolved | ROI '+roiStr+wrStr+'</div>'+
             '<div>P&amp;L: '+(e.realized_pnl>=0?'<span style="color:#00ff88">+':'<span style="color:#ff4444">')+
             '$'+Math.abs(e.realized_pnl).toFixed(2)+'</span></div>'+
