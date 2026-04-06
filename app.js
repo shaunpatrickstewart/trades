@@ -300,6 +300,8 @@
       const pnlColor = totalPnl >= 0 ? '#00cc66' : '#ee3344';
       let html = '<div style="display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin-bottom:10px">';
       const stat = (lbl,val,color) => '<div style="background:#f0f0f0;border-radius:4px;padding:6px 8px;text-align:center"><div style="font-size:1.1em;font-weight:700;color:'+(color||'#222')+'">'+val+'</div><div style="font-size:0.68em;color:#888;margin-top:2px">'+lbl+'</div></div>';
+      const totalBet = trades.reduce((s,t)=>s+(parseFloat(t.paper_bet||0)),0);
+      const overallRoi = totalBet > 0 ? (totalPnl / totalBet * 100) : 0;
       html += stat('BANKROLL','$'+bankroll.toFixed(2),'#222');
       html += stat('TOTAL P&L', (totalPnl>=0?'+':'')+fmt(totalPnl), pnlColor);
       html += stat('WIN RATE', winRate+'%', parseFloat(winRate)>=60?'#00cc66':'#ee3344');
@@ -307,6 +309,8 @@
       html += stat('AVG WIN', '+$'+avgWin, '#00cc66');
       html += stat('AVG LOSS', '$'+avgLoss, '#ee3344');
       html += stat('OPEN', open.length, '#888');
+      html += stat('TOTAL BET', '$'+totalBet.toFixed(0), '#555');
+      html += stat('OVERALL ROI', (overallRoi>=0?'+':'')+overallRoi.toFixed(1)+'%', overallRoi>=0?'#00cc66':'#ee3344');
       html += '</div>';
 
       html += '<div style="font-size:0.72em;color:#555;margin-bottom:6px;font-weight:600">ACTIVE ENGINES</div>';
