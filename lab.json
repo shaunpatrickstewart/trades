@@ -4,21 +4,457 @@
     {
       "id": "arb_detection",
       "name": "Yes+No Arbitrage Scanner",
-      "status": "MONITORING",
+      "status": "LIVE",
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "Scanned 0 events at 2026-04-08 07:04 UTC \u2014 no categorical arb opportunities (sum < 0.97) found. Checked 0 multi-outcome events. NOTE: Binary YES+NO always sums to 1.0 by AMM design. Cross-platform Kalshi arb: BLOCKED (needs account).",
+      "result": "LIVE \u2014 119 categorical arb opportunities found\nScanned 3000 events (1842 multi-outcome) at 2026-04-08 11:11 UTC\nBest: 10.0% profit on 'Iran leadership change by...?' \u2014 buy YES on all 5 outcomes (sum=0.9)\nStrategy: Buy YES on all 5 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 10.0% on 'Will Exponent launch a token by ___?'",
       "priority": "HIGH",
-      "last_scan": "2026-04-08 07:04 UTC",
-      "opportunities": [],
+      "last_scan": "2026-04-08 11:11 UTC",
+      "opportunities": [
+        {
+          "event_title": "Iran leadership change by...?",
+          "event_slug": "iran-leadership-change-by",
+          "yes_sum": 0.9,
+          "profit_pct": 10.0,
+          "profit_per_dollar_pct": 11.11,
+          "num_outcomes": 5,
+          "outcomes": [
+            {
+              "market_id": "1535973",
+              "slug": "iran-leadership-change-by-december-31-974-976-658-482-568",
+              "question": "Iran leadership change by December 31?",
+              "yes_price": 0.385,
+              "volume": 1417430
+            },
+            {
+              "market_id": "1708133",
+              "slug": "iran-leadership-change-by-june-30-689-922",
+              "question": "Iran leadership change by June 30?",
+              "yes_price": 0.23,
+              "volume": 285639
+            },
+            {
+              "market_id": "1708132",
+              "slug": "iran-leadership-change-by-may-31-593-194-829",
+              "question": "Iran leadership change by May 31?",
+              "yes_price": 0.185,
+              "volume": 314365
+            },
+            {
+              "market_id": "1535972",
+              "slug": "iran-leadership-change-by-april-30",
+              "question": "Iran leadership change by April 30?",
+              "yes_price": 0.1,
+              "volume": 2585578
+            },
+            {
+              "market_id": "1535971",
+              "slug": "iran-leadership-change-by-march-31",
+              "question": "Iran leadership change by March 31?",
+              "yes_price": 0.0,
+              "volume": 3230922
+            }
+          ],
+          "url": "https://polymarket.com/event/iran-leadership-change-by",
+          "strategy": "Buy YES on all 5 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
+        },
+        {
+          "event_title": "Will Exponent launch a token by ___?",
+          "event_slug": "will-exponent-launch-a-token-by",
+          "yes_sum": 0.9,
+          "profit_pct": 10.0,
+          "profit_per_dollar_pct": 11.11,
+          "num_outcomes": 4,
+          "outcomes": [
+            {
+              "market_id": "1038880",
+              "slug": "will-exponent-launch-a-token-by-december-31-2026",
+              "question": "Will Exponent launch a token by December 31, 2026?",
+              "yes_price": 0.455,
+              "volume": 348364
+            },
+            {
+              "market_id": "1038877",
+              "slug": "will-exponent-launch-a-token-by-september-30-2026",
+              "question": "Will Exponent launch a token by September 30, 2026?",
+              "yes_price": 0.28,
+              "volume": 28151
+            },
+            {
+              "market_id": "1038876",
+              "slug": "will-exponent-launch-a-token-by-june-30-2026",
+              "question": "Will Exponent launch a token by June 30, 2026?",
+              "yes_price": 0.165,
+              "volume": 20878
+            },
+            {
+              "market_id": "1038874",
+              "slug": "will-exponent-launch-a-token-by-march-31-2026",
+              "question": "Will Exponent launch a token by March 31, 2026?",
+              "yes_price": 0.0,
+              "volume": 57085
+            }
+          ],
+          "url": "https://polymarket.com/event/will-exponent-launch-a-token-by",
+          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
+        },
+        {
+          "event_title": "Kansas Governor Election Winner",
+          "event_slug": "kansas-governor-winner-2026",
+          "yes_sum": 0.9,
+          "profit_pct": 10.0,
+          "profit_per_dollar_pct": 11.11,
+          "num_outcomes": 2,
+          "outcomes": [
+            {
+              "market_id": "629413",
+              "slug": "will-the-republicans-win-the-kansas-governor-race-in-2026",
+              "question": "Will the Republicans win the Kansas governor race in 2026?",
+              "yes_price": 0.62,
+              "volume": 1703
+            },
+            {
+              "market_id": "629412",
+              "slug": "will-the-democrats-win-the-kansas-governor-race-in-2026",
+              "question": "Will the Democrats win the Kansas governor race in 2026?",
+              "yes_price": 0.28,
+              "volume": 3394
+            }
+          ],
+          "url": "https://polymarket.com/event/kansas-governor-winner-2026",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
+        },
+        {
+          "event_title": "Perplexity IPO Closing Market Cap",
+          "event_slug": "perplexity-ipo-closing-market-cap",
+          "yes_sum": 0.9005,
+          "profit_pct": 9.95,
+          "profit_per_dollar_pct": 11.05,
+          "num_outcomes": 6,
+          "outcomes": [
+            {
+              "market_id": "1115936",
+              "slug": "will-perplexity-not-ipo-by-december-31-2027",
+              "question": "Will Perplexity not IPO by December 31, 2027?",
+              "yes_price": 0.595,
+              "volume": 104958
+            },
+            {
+              "market_id": "1115933",
+              "slug": "will-perplexitys-market-cap-be-between-80b-and-100b-at-market-close-on-ipo-day",
+              "question": "Will Perplexity\u2019s market cap be between $50B and $75B at market close on IPO day",
+              "yes_price": 0.138,
+              "volume": 6171
+            },
+            {
+              "market_id": "1115935",
+              "slug": "will-perplexitys-market-cap-be-greater-than-150b-at-market-close-on-ipo-day",
+              "question": "Will Perplexity\u2019s market cap be greater than $100B at market close on IPO day?",
+              "yes_price": 0.055,
+              "volume": 4468
+            },
+            {
+              "market_id": "1115934",
+              "slug": "will-perplexitys-market-cap-be-between-100b-and-150b-at-market-close-on-ipo-day",
+              "question": "Will Perplexity\u2019s market cap be between $75B and $100B at market close on IPO da",
+              "yes_price": 0.0445,
+              "volume": 3197
+            },
+            {
+              "market_id": "1115930",
+              "slug": "will-perplexitys-market-cap-be-between-20b-and-40b-at-market-close-on-ipo-day",
+              "question": "Will Perplexity\u2019s market cap be between $20B and $30B at market close on IPO day",
+              "yes_price": 0.035,
+              "volume": 5845
+            },
+            {
+              "market_id": "1115929",
+              "slug": "will-perplexitys-market-cap-be-less-than-20b-at-market-close-on-ipo-day",
+              "question": "Will Perplexity\u2019s market cap be less than $20B at market close on IPO day?",
+              "yes_price": 0.033,
+              "volume": 4411
+            }
+          ],
+          "url": "https://polymarket.com/event/perplexity-ipo-closing-market-cap",
+          "strategy": "Buy YES on all 6 outcomes. Total cost: $0.9005. One wins $1.00. Profit: $0.0995 (9.95%)"
+        },
+        {
+          "event_title": "Montana Democratic Senate Primary Winner",
+          "event_slug": "montana-democratic-senate-primary-winner",
+          "yes_sum": 0.9025,
+          "profit_pct": 9.75,
+          "profit_per_dollar_pct": 10.8,
+          "num_outcomes": 2,
+          "outcomes": [
+            {
+              "market_id": "801938",
+              "slug": "will-reilly-neill-be-the-democratic-nominee-for-senate-in-montana",
+              "question": "Will Reilly Neill be the Democratic nominee for Senate in Montana?",
+              "yes_price": 0.86,
+              "volume": 4343
+            },
+            {
+              "market_id": "801937",
+              "slug": "will-michael-hummert-be-the-democratic-nominee-for-senate-in-montana",
+              "question": "Will Michael Hummert be the Democratic nominee for Senate in Montana?",
+              "yes_price": 0.0425,
+              "volume": 2029
+            }
+          ],
+          "url": "https://polymarket.com/event/montana-democratic-senate-primary-winner",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9025. One wins $1.00. Profit: $0.0975 (9.75%)"
+        },
+        {
+          "event_title": "How many 7.0 or above earthquakes in 2026?",
+          "event_slug": "how-many-7pt0-or-above-earthquakes-in-2026",
+          "yes_sum": 0.9035,
+          "profit_pct": 9.65,
+          "profit_per_dollar_pct": 10.68,
+          "num_outcomes": 7,
+          "outcomes": [
+            {
+              "market_id": "1073792",
+              "slug": "will-there-be-between-14-and-16-earthquakes-of-magnitude-7pt0-or-higher-worldwide-in-2026",
+              "question": "Will there be between 14 and 16 earthquakes of magnitude 7.0 or higher worldwide",
+              "yes_price": 0.275,
+              "volume": 153006
+            },
+            {
+              "market_id": "1073791",
+              "slug": "will-there-be-between-11-and-13-earthquakes-of-magnitude-7pt0-or-higher-worldwide-in-2026",
+              "question": "Will there be between 11 and 13 earthquakes of magnitude 7.0 or higher worldwide",
+              "yes_price": 0.235,
+              "volume": 381965
+            },
+            {
+              "market_id": "1073793",
+              "slug": "will-there-be-between-17-and-19-earthquakes-of-magnitude-7pt0-or-higher-worldwide-in-2026",
+              "question": "Will there be between 17 and 19 earthquakes of magnitude 7.0 or higher worldwide",
+              "yes_price": 0.195,
+              "volume": 199364
+            },
+            {
+              "market_id": "1073794",
+              "slug": "will-there-be-20-or-more-earthquakes-of-magnitude-7pt0-or-higher-worldwide-in-2026",
+              "question": "Will there be 20 or more earthquakes of magnitude 7.0 or higher worldwide in 202",
+              "yes_price": 0.131,
+              "volume": 54972
+            },
+            {
+              "market_id": "1073790",
+              "slug": "will-there-be-between-8-and-10-earthquakes-of-magnitude-7pt0-or-higher-worldwide-in-2026",
+              "question": "Will there be between 8 and 10 earthquakes of magnitude 7.0 or higher worldwide ",
+              "yes_price": 0.0525,
+              "volume": 123696
+            },
+            {
+              "market_id": "1073789",
+              "slug": "will-there-be-between-5-and-7-earthquakes-of-magnitude-7pt0-or-higher-worldwide-in-2026",
+              "question": "Will there be between 5 and 7 earthquakes of magnitude 7.0 or higher worldwide i",
+              "yes_price": 0.0105,
+              "volume": 66381
+            },
+            {
+              "market_id": "1073788",
+              "slug": "will-there-be-fewer-than-5-earthquakes-of-magnitude-7pt0-or-higher-worldwide-in-2026",
+              "question": "Will there be fewer than 5 earthquakes of magnitude 7.0 or higher worldwide in 2",
+              "yes_price": 0.0045,
+              "volume": 167959
+            }
+          ],
+          "url": "https://polymarket.com/event/how-many-7pt0-or-above-earthquakes-in-2026",
+          "strategy": "Buy YES on all 7 outcomes. Total cost: $0.9035. One wins $1.00. Profit: $0.0965 (9.65%)"
+        },
+        {
+          "event_title": "Highest temperature in Dallas on April 8?",
+          "event_slug": "highest-temperature-in-dallas-on-april-8-2026",
+          "yes_sum": 0.9035,
+          "profit_pct": 9.65,
+          "profit_per_dollar_pct": 10.68,
+          "num_outcomes": 11,
+          "outcomes": [
+            {
+              "market_id": "1854537",
+              "slug": "highest-temperature-in-dallas-on-april-8-2026-78-79f",
+              "question": "Will the highest temperature in Dallas be between 78-79\u00b0F on April 8?",
+              "yes_price": 0.47,
+              "volume": 7798
+            },
+            {
+              "market_id": "1854536",
+              "slug": "highest-temperature-in-dallas-on-april-8-2026-76-77f",
+              "question": "Will the highest temperature in Dallas be between 76-77\u00b0F on April 8?",
+              "yes_price": 0.245,
+              "volume": 4384
+            },
+            {
+              "market_id": "1854538",
+              "slug": "highest-temperature-in-dallas-on-april-8-2026-80-81f",
+              "question": "Will the highest temperature in Dallas be between 80-81\u00b0F on April 8?",
+              "yes_price": 0.13,
+              "volume": 6317
+            },
+            {
+              "market_id": "1854539",
+              "slug": "highest-temperature-in-dallas-on-april-8-2026-82-83f",
+              "question": "Will the highest temperature in Dallas be between 82-83\u00b0F on April 8?",
+              "yes_price": 0.0235,
+              "volume": 4413
+            },
+            {
+              "market_id": "1854535",
+              "slug": "highest-temperature-in-dallas-on-april-8-2026-74-75f",
+              "question": "Will the highest temperature in Dallas be between 74-75\u00b0F on April 8?",
+              "yes_price": 0.0155,
+              "volume": 8044
+            },
+            {
+              "market_id": "1854540",
+              "slug": "highest-temperature-in-dallas-on-april-8-2026-84-85f",
+              "question": "Will the highest temperature in Dallas be between 84-85\u00b0F on April 8?",
+              "yes_price": 0.0085,
+              "volume": 3149
+            },
+            {
+              "market_id": "1854534",
+              "slug": "highest-temperature-in-dallas-on-april-8-2026-72-73f",
+              "question": "Will the highest temperature in Dallas be between 72-73\u00b0F on April 8?",
+              "yes_price": 0.003,
+              "volume": 5675
+            },
+            {
+              "market_id": "1854541",
+              "slug": "highest-temperature-in-dallas-on-april-8-2026-86-87f",
+              "question": "Will the highest temperature in Dallas be between 86-87\u00b0F on April 8?",
+              "yes_price": 0.003,
+              "volume": 3071
+            },
+            {
+              "market_id": "1854532",
+              "slug": "highest-temperature-in-dallas-on-april-8-2026-69forbelow",
+              "question": "Will the highest temperature in Dallas be 69\u00b0F or below on April 8?",
+              "yes_price": 0.0025,
+              "volume": 13580
+            },
+            {
+              "market_id": "1854542",
+              "slug": "highest-temperature-in-dallas-on-april-8-2026-88forhigher",
+              "question": "Will the highest temperature in Dallas be 88\u00b0F or higher on April 8?",
+              "yes_price": 0.002,
+              "volume": 2667
+            },
+            {
+              "market_id": "1854533",
+              "slug": "highest-temperature-in-dallas-on-april-8-2026-70-71f",
+              "question": "Will the highest temperature in Dallas be between 70-71\u00b0F on April 8?",
+              "yes_price": 0.0005,
+              "volume": 5507
+            }
+          ],
+          "url": "https://polymarket.com/event/highest-temperature-in-dallas-on-april-8-2026",
+          "strategy": "Buy YES on all 11 outcomes. Total cost: $0.9035. One wins $1.00. Profit: $0.0965 (9.65%)"
+        },
+        {
+          "event_title": "CO-08 Democratic Primary Winner",
+          "event_slug": "co-08-democratic-primary-winner",
+          "yes_sum": 0.905,
+          "profit_pct": 9.5,
+          "profit_per_dollar_pct": 10.5,
+          "num_outcomes": 2,
+          "outcomes": [
+            {
+              "market_id": "704026",
+              "slug": "will-manny-rutinel-be-the-democratic-nominee-for-co-08",
+              "question": "Will Manny Rutinel be the Democratic nominee for CO-08?",
+              "yes_price": 0.835,
+              "volume": 7483
+            },
+            {
+              "market_id": "704025",
+              "slug": "will-shannon-bird-be-the-democratic-nominee-for-co-08",
+              "question": "Will Shannon Bird be the Democratic nominee for CO-08?",
+              "yes_price": 0.07,
+              "volume": 1104
+            }
+          ],
+          "url": "https://polymarket.com/event/co-08-democratic-primary-winner",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
+        },
+        {
+          "event_title": "Tennessee Governor Democratic Primary Winner",
+          "event_slug": "tennessee-governor-democratic-primary-winner",
+          "yes_sum": 0.907,
+          "profit_pct": 9.3,
+          "profit_per_dollar_pct": 10.25,
+          "num_outcomes": 3,
+          "outcomes": [
+            {
+              "market_id": "907122",
+              "slug": "will-jerri-green-win-the-2026-tennessee-governor-democratic-primary-election",
+              "question": "Will Jerri Green win the 2026 Tennessee Governor Democratic primary election?",
+              "yes_price": 0.825,
+              "volume": 26419
+            },
+            {
+              "market_id": "907123",
+              "slug": "will-adam-kurtz-win-the-2026-tennessee-governor-democratic-primary-election",
+              "question": "Will Adam Kurtz win the 2026 Tennessee Governor Democratic primary election?",
+              "yes_price": 0.047,
+              "volume": 4321
+            },
+            {
+              "market_id": "907121",
+              "slug": "will-tim-cyr-win-the-2026-tennessee-governor-democratic-primary-election",
+              "question": "Will Tim Cyr win the 2026 Tennessee Governor Democratic primary election?",
+              "yes_price": 0.035,
+              "volume": 11548
+            }
+          ],
+          "url": "https://polymarket.com/event/tennessee-governor-democratic-primary-winner",
+          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9070. One wins $1.00. Profit: $0.0930 (9.30%)"
+        },
+        {
+          "event_title": "GA-13 Democratic Primary Winner",
+          "event_slug": "ga-13-democratic-primary-winner",
+          "yes_sum": 0.91,
+          "profit_pct": 9.0,
+          "profit_per_dollar_pct": 9.89,
+          "num_outcomes": 3,
+          "outcomes": [
+            {
+              "market_id": "1653178",
+              "slug": "will-david-scott-be-the-democratic-nominee-for-ga-13",
+              "question": "Will David Scott be the Democratic nominee for GA-13?",
+              "yes_price": 0.365,
+              "volume": 1163
+            },
+            {
+              "market_id": "1653180",
+              "slug": "will-jasmine-clark-be-the-democratic-nominee-for-ga-13",
+              "question": "Will Jasmine Clark be the Democratic nominee for GA-13?",
+              "yes_price": 0.335,
+              "volume": 1571
+            },
+            {
+              "market_id": "1653179",
+              "slug": "will-everton-blair-jr-be-the-democratic-nominee-for-ga-13",
+              "question": "Will Everton Blair Jr. be the Democratic nominee for GA-13?",
+              "yes_price": 0.21,
+              "volume": 1313
+            }
+          ],
+          "url": "https://polymarket.com/event/ga-13-democratic-primary-winner",
+          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9100. One wins $1.00. Profit: $0.0900 (9.00%)"
+        }
+      ],
       "stats": {
-        "total_events": 0,
-        "checked_multi_outcome": 0,
-        "skipped_single_outcome": 0,
-        "opportunities_found": 0,
-        "best_profit_pct": 0,
-        "scanned_at": "2026-04-08 07:04 UTC"
+        "total_events": 3000,
+        "checked_multi_outcome": 1842,
+        "skipped_single_outcome": 589,
+        "opportunities_found": 119,
+        "best_profit_pct": 10.0,
+        "scanned_at": "2026-04-08 11:11 UTC"
       }
     },
     {
