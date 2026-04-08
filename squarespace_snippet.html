@@ -1,4 +1,4 @@
-<!-- PASTE THIS INTO SQUARESPACE CODE BLOCK — never needs updating again -->
+<!-- PASTE THIS INTO SQUARESPACE CODE BLOCK — updated 2026-04-08 -->
 <link rel="stylesheet" href="https://shaunpatrickstewart.github.io/trades/style.css">
 
 <div id="pm-root">
@@ -22,15 +22,18 @@
 </header>
 
 <div class="pm-grid">
+
   <div class="panel accent-green">
     <div class="panel-hdr">
       <div class="panel-hdr-top">
         <span class="panel-title c-green">&#9679; Copy Signals — Top Wallet Positions</span>
         <span class="panel-count" id="sig-count">—</span>
       </div>
-      <div class="panel-desc">Uncertain markets (20–80¢) where elite wallets hold real positions. Closest to 50/50 listed first — highest upside, fastest compounding. These are the trades the bot copies.</div>
+      <div class="panel-desc">Markets at 30–70¢ where elite wallets hold real positions. Closest to 50/50 listed first — highest upside, genuine uncertainty. These are the trades the bot copies.</div>
     </div>
-    <div class="panel-body tall" id="pm-signals"><div class="loader">Fetching top wallet positions</div></div>
+    <div class="panel-body tall" id="pm-signals">
+      <div class="loader">Fetching top wallet positions</div>
+    </div>
   </div>
 
   <div class="panel accent-blue">
@@ -39,7 +42,7 @@
         <span class="panel-title c-blue">&#9650; Market Scanner</span>
         <span class="panel-count" id="scanner-count">—</span>
       </div>
-      <div class="panel-desc">All Polymarket categories — crypto, politics, sports, news, forex. High-volume markets with real uncertainty and real upside.</div>
+      <div class="panel-desc">Short-term markets (30–70¢) resolving within 14 days. Real uncertainty, real upside.</div>
     </div>
     <div class="tabs">
       <button class="tab active" onclick="pmSwitchTab('week',this)"><span class="tab-icon">◈</span><span class="tab-label">7 DAY</span></button>
@@ -47,24 +50,26 @@
       <button class="tab" onclick="pmSwitchTab('swing',this)"><span class="tab-icon">◆</span><span class="tab-label">SWING</span></button>
       <button class="tab" onclick="pmSwitchTab('forex',this)"><span class="tab-icon">$</span><span class="tab-label">FOREX</span></button>
     </div>
-    <div id="pm-tab-desc" class="tab-subdesc">Uncertain markets resolving this week — all categories, volume &gt;$20K. Best short-term plays.</div>
+    <div id="pm-tab-desc" class="tab-subdesc">Uncertain markets resolving this week — 30–70¢ range, volume &gt;$2K. Best short-term plays.</div>
     <div class="panel-body tall">
       <div id="tab-week"  class="tab-pane active"><div class="loader">Scanning</div></div>
-      <div id="tab-day48" class="tab-pane"><div class="loader">Scanning</div></div>
-      <div id="tab-swing" class="tab-pane"><div class="loader">Scanning</div></div>
-      <div id="tab-forex" class="tab-pane"><div class="loader">Scanning</div></div>
+      <div id="tab-day48" class="tab-pane"></div>
+      <div id="tab-swing" class="tab-pane"></div>
+      <div id="tab-forex" class="tab-pane"></div>
     </div>
   </div>
 
   <div class="panel accent-yellow">
     <div class="panel-hdr">
       <div class="panel-hdr-top">
-        <span class="panel-title c-yellow">&#9670; Near-Certain Income</span>
-        <span class="panel-count" id="dc-count">—</span>
+        <span class="panel-title c-yellow">&#9670; Bot Performance — Paper Trading Results</span>
+        <span class="panel-count" id="perf-count">—</span>
       </div>
-      <div class="panel-desc">82–97% confidence markets resolving within 7 days across all categories. Low risk, fast resolution. Buy the obvious side for a quick return — the safest play in the system.</div>
+      <div class="panel-desc">Live paper trade results. Engines: NEAR-CERTAIN (97.5%+ confidence markets) + WALLET COPY SHORT (elite wallets ≤14d) + WALLET COPY LONG (longer holds).</div>
     </div>
-    <div class="panel-body" id="pm-daily"><div class="loader">Scanning</div></div>
+    <div class="panel-body" id="pm-performance">
+      <div class="loader">Loading results</div>
+    </div>
   </div>
 
   <div class="panel accent-purple">
@@ -73,30 +78,71 @@
         <span class="panel-title c-purple">&#9733; Top Wallets — Leaderboard</span>
         <span class="panel-count" id="wallet-count">—</span>
       </div>
-      <div class="panel-desc">ALL-TIME, 30-DAY and 7-DAY combined. Ranked by ROI (PnL ÷ Volume traded) — not raw PnL. Consistent performers, not one-time winners. These are the wallets the bot mirrors.</div>
+      <div class="panel-desc">Ranked by ROI (PnL ÷ Volume) — consistent performers, not one-time winners. These are the wallets the LONG_TERM engine mirrors.</div>
     </div>
-    <div class="panel-body" id="pm-wallets"><div class="loader">Pulling wallets</div></div>
+    <div class="panel-body" id="pm-wallets">
+      <div class="loader">Pulling wallets</div>
+    </div>
   </div>
+
 </div>
 
 <div class="pm-full">
   <div class="panel accent-paper">
     <div class="panel-hdr">
       <div class="panel-hdr-top">
-        <span class="panel-title c-paper">&#9632; Paper Trade Tracker — Open Positions</span>
+        <span class="panel-title c-paper">&#9632; Open Positions — Live Bot Trades</span>
         <span id="paper-summary" style="font-size:0.7em;color:#444">Loading...</span>
       </div>
-      <div class="panel-desc">Bot-logged paper trades tracking performance before real money is deployed. Includes entry price, Kelly-sized bet, expected value (EV), and live status. Auto-syncs every 30 minutes.</div>
+      <div class="panel-desc">Active paper trades from all 3 engines. Entry price, bet size, expected value (EV), and current status. Auto-syncs every 30 minutes via GitHub.</div>
     </div>
-    <div class="panel-body" style="max-height:280px" id="paper-trades"><div class="loader">Loading</div></div>
+    <div class="panel-body" style="max-height:280px" id="paper-trades">
+      <div class="loader">Loading</div>
+    </div>
+  </div>
+</div>
+
+<div class="pm-full">
+  <div class="panel" style="border-left:3px solid #ff8844">
+    <div class="panel-hdr">
+      <div class="panel-hdr-top">
+        <span class="panel-title" style="color:#ff8844">&#9670; Daily Bot Audit — Automated Health Check</span>
+        <span class="panel-count" id="audit-count">—</span>
+      </div>
+      <div class="panel-desc">Runs every morning at 8am. Checks engine health, stale trades, duplicates, and P&L accuracy. Issues and recommendations appear here automatically.</div>
+    </div>
+    <div class="panel-body" id="audit-panel" style="max-height:260px">
+      <div class="loader">Loading audit...</div>
+    </div>
+  </div>
+</div>
+
+<div class="pm-full">
+  <div class="panel" style="border-left:3px solid #cc44ff">
+    <div class="panel-hdr">
+      <div class="panel-hdr-top">
+        <span class="panel-title" style="color:#cc44ff">&#9650; Testing Lab — Algorithm Experiments</span>
+        <span class="panel-count" id="lab-count">—</span>
+      </div>
+      <div class="panel-desc">New strategy ideas and algorithm experiments. Each theory is tracked with hypothesis, current status, and early results. Bot runs these in parallel with main engines.</div>
+    </div>
+    <div class="panel-body" id="lab-panel" style="max-height:400px">
+      <div class="loader">Loading experiments...</div>
+    </div>
   </div>
 </div>
 
 <footer>
-  <span>Live data: <a href="https://polymarket.com" target="_blank">Polymarket</a> public API via <a href="https://shaunpatrickstewart.com" target="_blank">shaunpatrickstewart.com</a> Cloudflare Worker &mdash; refreshes every 30s</span>
-  <span><span class="kbd">R</span> refresh &nbsp;|&nbsp; Not financial advice. All positions carry full loss risk.</span>
+  <span>
+    Live data: <a href="https://polymarket.com" target="_blank">Polymarket</a> public API &mdash;
+    <a href="https://shaunpatrickstewart.com" target="_blank">shaunpatrickstewart.com</a>
+  </span>
+  <span>
+    <span class="kbd">R</span> refresh &nbsp;|&nbsp;
+    Not financial advice. Paper trading only.
+  </span>
 </footer>
 
-</div><!-- /#pm-root -->
+</div>
 
 <script src="https://shaunpatrickstewart.github.io/trades/app.js"></script>

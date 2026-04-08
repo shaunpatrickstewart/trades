@@ -279,7 +279,8 @@
   // ── RENDER: Near-Certain Income
   async function renderPerformance() {
     try {
-      const resp = await fetch('paper_trades.jsonl?_='+Date.now());
+      const PERF_URL = 'https://shaunpatrickstewart.github.io/trades/paper_trades.jsonl?_='+Date.now();
+      const resp = await fetch(P+encodeURIComponent(PERF_URL));
       const text = await resp.text();
       const trades = text.trim().split('\n').filter(Boolean).map(l=>{try{return JSON.parse(l);}catch{return null;}}).filter(Boolean);
 
@@ -319,7 +320,8 @@
       html += '</div>';
 
       html += '<div style="font-size:0.72em;color:#555;margin-bottom:6px;font-weight:600">ACTIVE ENGINES</div>';
-      html += '<div style="display:flex;gap:6px;margin-bottom:10px">';
+      html += '<div style="display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px">';
+      html += '<span style="background:#fafae0;color:#7a7000;padding:3px 8px;border-radius:3px;font-size:0.75em;font-weight:600">&#9679; NEAR-CERTAIN ('+(won.filter(t=>t.type==="NEAR_CERTAIN").length+lost.filter(t=>t.type==="NEAR_CERTAIN").length)+'W/'+(lost.filter(t=>t.type==="NEAR_CERTAIN").length)+'L)</span>';
       html += '<span style="background:#e6f9f0;color:#007a44;padding:3px 8px;border-radius:3px;font-size:0.75em;font-weight:600">&#9679; WALLET COPY SHORT</span>';
       html += '<span style="background:#eef0ff;color:#3344cc;padding:3px 8px;border-radius:3px;font-size:0.75em;font-weight:600">&#9679; WALLET COPY LONG</span>';
       html += '</div>';
