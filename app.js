@@ -295,35 +295,84 @@
 
       document.getElementById('perf-count').textContent = '('+settled+' settled)';
 
-      // Fetch live bankroll from paper_trades meta or use known value
-      // Live bankroll from bot_stats.json (updated hourly by bot_hourly.sh)
-      let bankroll = 1316.59; // fallback
+      // Fetch live bankroll + extended stats from bot_stats.json
+      let bankroll = 1340.0, winStreak = 0, dailyLog = [], organicPnl = 0, paperTopup = 1000, startingBr = 300;
       try {
         const bs = await pf('https://shaunpatrickstewart.github.io/trades/bot_stats.json');
-        if (bs && bs.bankroll) bankroll = bs.bankroll;
+        if (bs) {
+          if (bs.bankroll)          bankroll    = bs.bankroll;
+          if (bs.win_streak)        winStreak   = bs.win_streak;
+          if (bs.daily_log)         dailyLog    = bs.daily_log;
+          if (bs.organic_pnl!=null) organicPnl  = bs.organic_pnl;
+          if (bs.paper_topup)       paperTopup  = bs.paper_topup;
+          if (bs.starting_bankroll) startingBr  = bs.starting_bankroll;
+        }
       } catch(e) { /* use fallback */ }
 
-      const pnlColor = totalPnl >= 0 ? '#00cc66' : '#ee3344';
+      // Post-filter PnL (Apr 5+) — the meaningful number
+      const FILTER_DATE = '2026-04-05';
+      const tPfAll = [...won,...lost].filter(t=>(t.timestamp||t.closed_at||'').slice(0,10)>=FILTER_DATE);
+      const postFilterPnl = tPfAll.reduce((s,t)=>s+(t.pnl||0),0);
+      const postFilterWR  = tPfAll.length ? (tPfAll.filter(t=>t.status==='WON').length/tPfAll.length*100) : 0;
+      // Bankroll growth since filters went live (started at ~$222 on Apr 5)
+      const brGrowthPct = ((bankroll - 222.26) / 222.26 * 100);
+
+      const stat = (lbl,val,color,sub) =>
+        '<div style="background:#f0f0f0;border-radius:4px;padding:6px 8px;text-align:center">'+
+        '<div style="font-size:1.1em;font-weight:700;color:'+(color||'#222')+'">'+val+'</div>'+
+        '<div style="font-size:0.68em;color:#888;margin-top:2px">'+lbl+'</div>'+
+        (sub?'<div style="font-size:0.63em;color:#aaa;margin-top:1px">'+sub+'</div>':'')+
+        '</div>';
+
       let html = '<div style="display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin-bottom:10px">';
-      const stat = (lbl,val,color) => '<div style="background:#f0f0f0;border-radius:4px;padding:6px 8px;text-align:center"><div style="font-size:1.1em;font-weight:700;color:'+(color||'#222')+'">'+val+'</div><div style="font-size:0.68em;color:#888;margin-top:2px">'+lbl+'</div></div>';
-      const totalBet = trades.reduce((s,t)=>s+(parseFloat(t.paper_bet||0)),0);
-      const overallRoi = totalBet > 0 ? (totalPnl / totalBet * 100) : 0;
-      html += stat('BANKROLL','$'+bankroll.toFixed(2),'#222');
-      html += stat('TOTAL P&L', (totalPnl>=0?'+':'')+fmt(totalPnl), pnlColor);
-      html += stat('WIN RATE', winRate+'%', parseFloat(winRate)>=60?'#00cc66':'#ee3344');
-      html += stat('SETTLED', settled, '#555');
-      html += stat('AVG WIN', '+$'+avgWin, '#00cc66');
-      html += stat('AVG LOSS', '$'+avgLoss, '#ee3344');
-      html += stat('OPEN', open.length, '#888');
-      html += stat('TOTAL BET', '$'+totalBet.toFixed(0), '#555');
-      html += stat('OVERALL ROI', (overallRoi>=0?'+':'')+overallRoi.toFixed(1)+'%', overallRoi>=0?'#00cc66':'#ee3344');
+      html += stat('BANKROLL', '$'+bankroll.toFixed(2), '#222', '$'+startingBr+' start');
+      html += stat('POST-FILTER P&L', (postFilterPnl>=0?'+':'')+fmt(postFilterPnl), postFilterPnl>=0?'#00cc66':'#ee3344', 'since Apr 5 filters');
+      html += stat('WIN RATE', postFilterWR.toFixed(1)+'%', postFilterWR>=60?'#00cc66':'#ee3344', tPfAll.length+' settled');
+      html += stat('BANKROLL GROWTH', (brGrowthPct>=0?'+':'')+brGrowthPct.toFixed(0)+'%', '#00cc66', 'since filters live');
+      html += stat('AVG WIN', '+$'+avgWin, '#00cc66', won.length+' wins');
+      html += stat('AVG LOSS', '$'+avgLoss, '#ee3344', lost.length+' losses');
+      html += stat('OPEN POSITIONS', open.length, '#888', 'active trades');
+      html += stat('WIN STREAK', winStreak > 0 ? winStreak+'&#x1F525;' : winStreak, winStreak>=10?'#ffaa00':'#ccc', 'consecutive');
+      html += stat('ORGANIC P&L', (organicPnl>=0?'+$':'$')+Math.abs(organicPnl).toFixed(2), organicPnl>=0?'#00cc66':'#ee3344', 'excl $'+paperTopup+' top-up');
       html += '</div>';
+
+      // Bankroll growth chart from daily_log
+      if (dailyLog && dailyLog.length > 1) {
+        const minBr = Math.min(...dailyLog.map(d=>d.starting));
+        const maxBr = Math.max(...dailyLog.map(d=>d.ending));
+        const range = maxBr - minBr || 1;
+        const W = 420, H = 60, PAD = 6;
+        const pts = dailyLog.map((d,i)=>{
+          const x = PAD + (i/(dailyLog.length-1))*(W-PAD*2);
+          const y = H - PAD - ((d.ending - minBr)/range)*(H-PAD*2);
+          return x.toFixed(1)+','+y.toFixed(1);
+        }).join(' ');
+        html += '<div style="margin-bottom:10px;background:#080808;border:1px solid #1a1a1a;border-radius:4px;padding:6px 10px">';
+        html += '<div style="font-size:0.68em;color:#555;margin-bottom:4px;font-weight:600">BANKROLL GROWTH — $'+startingBr+' → $'+bankroll.toFixed(0)+'</div>';
+        html += '<svg width="100%" viewBox="0 0 '+W+' '+H+'" style="display:block">';
+        // Zero line
+        const zeroY = H - PAD - ((startingBr - minBr)/range)*(H-PAD*2);
+        html += '<line x1="'+PAD+'" y1="'+zeroY.toFixed(1)+'" x2="'+(W-PAD)+'" y2="'+zeroY.toFixed(1)+'" stroke="#1a1a1a" stroke-width="1"/>';
+        html += '<polyline points="'+pts+'" fill="none" stroke="#00ff88" stroke-width="2" stroke-linejoin="round"/>';
+        // Dots + labels
+        dailyLog.forEach((d,i)=>{
+          const x = PAD + (i/(dailyLog.length-1))*(W-PAD*2);
+          const y = H - PAD - ((d.ending - minBr)/range)*(H-PAD*2);
+          const pnlC = d.pnl >= 0 ? '#00ff88' : '#ff4444';
+          html += '<circle cx="'+x.toFixed(1)+'" cy="'+y.toFixed(1)+'" r="3" fill="'+pnlC+'"/>';
+          html += '<text x="'+x.toFixed(1)+'" y="'+(H-1)+'" text-anchor="middle" font-size="7" fill="#444">'+d.date.slice(5)+'</text>';
+        });
+        // End value label
+        const lastPt = pts.split(' ').pop().split(',');
+        html += '<text x="'+(parseFloat(lastPt[0])+4)+'" y="'+lastPt[1]+'" font-size="8" fill="#00ff88">$'+bankroll.toFixed(0)+'</text>';
+        html += '</svg></div>';
+      }
 
       html += '<div style="font-size:0.72em;color:#555;margin-bottom:6px;font-weight:600">ACTIVE ENGINES</div>';
       html += '<div style="display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px">';
       html += '<span style="background:#fafae0;color:#7a7000;padding:3px 8px;border-radius:3px;font-size:0.75em;font-weight:600">&#9679; NEAR-CERTAIN ('+(won.filter(t=>t.type==="NEAR_CERTAIN").length+lost.filter(t=>t.type==="NEAR_CERTAIN").length)+'W/'+(lost.filter(t=>t.type==="NEAR_CERTAIN").length)+'L)</span>';
-      html += '<span style="background:#e6f9f0;color:#007a44;padding:3px 8px;border-radius:3px;font-size:0.75em;font-weight:600">&#9679; WALLET COPY SHORT</span>';
-      html += '<span style="background:#eef0ff;color:#3344cc;padding:3px 8px;border-radius:3px;font-size:0.75em;font-weight:600">&#9679; WALLET COPY LONG</span>';
+      html += '<span style="background:#e6f9f0;color:#007a44;padding:3px 8px;border-radius:3px;font-size:0.75em;font-weight:600">&#9679; WALLET COPY SHORT ('+(won.filter(t=>t.type==="SHORT_TERM").length)+'W/'+(lost.filter(t=>t.type==="SHORT_TERM").length)+'L)</span>';
+      html += '<span style="background:#eef0ff;color:#3344cc;padding:3px 8px;border-radius:3px;font-size:0.75em;font-weight:600">&#9679; WALLET COPY LONG ('+(won.filter(t=>t.type==="LONG_TERM").length)+'W/'+(lost.filter(t=>t.type==="LONG_TERM").length)+'L)</span>';
       html += '</div>';
 
       // ── Realized Breakdown ───────────────────────────────────────
