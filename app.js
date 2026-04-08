@@ -297,15 +297,19 @@
 
       // Fetch live bankroll + extended stats from bot_stats.json
       let bankroll = 1340.0, winStreak = 0, dailyLog = [], organicPnl = 0, paperTopup = 1000, startingBr = 300;
+      let bsTrueRealized = null, bsOpenDeployed = null, bsLastUpdated = null;
       try {
         const bs = await pf('https://shaunpatrickstewart.github.io/trades/bot_stats.json');
         if (bs) {
-          if (bs.bankroll)          bankroll    = bs.bankroll;
-          if (bs.win_streak)        winStreak   = bs.win_streak;
-          if (bs.daily_log)         dailyLog    = bs.daily_log;
-          if (bs.organic_pnl!=null) organicPnl  = bs.organic_pnl;
-          if (bs.paper_topup)       paperTopup  = bs.paper_topup;
-          if (bs.starting_bankroll) startingBr  = bs.starting_bankroll;
+          if (bs.bankroll)            bankroll       = bs.bankroll;
+          if (bs.win_streak)          winStreak      = bs.win_streak;
+          if (bs.daily_log)           dailyLog       = bs.daily_log;
+          if (bs.organic_pnl!=null)   organicPnl     = bs.organic_pnl;
+          if (bs.paper_topup)         paperTopup     = bs.paper_topup;
+          if (bs.starting_bankroll)   startingBr     = bs.starting_bankroll;
+          if (bs.true_realized_pnl!=null)  bsTrueRealized  = bs.true_realized_pnl;
+          if (bs.open_capital_deployed!=null) bsOpenDeployed = bs.open_capital_deployed;
+          if (bs.last_updated)        bsLastUpdated  = bs.last_updated;
         }
       } catch(e) { /* use fallback */ }
 
@@ -314,6 +318,8 @@
       const tPfAll = [...won,...lost].filter(t=>(t.timestamp||t.closed_at||'').slice(0,10)>=FILTER_DATE);
       const postFilterPnl = tPfAll.reduce((s,t)=>s+(t.pnl||0),0);
       const postFilterWR  = tPfAll.length ? (tPfAll.filter(t=>t.status==='WON').length/tPfAll.length*100) : 0;
+      // Use true realized from bot_stats if available (computed from all trades, no dedup)
+      const trueRealized = bsTrueRealized !== null ? bsTrueRealized : postFilterPnl;
       // Bankroll growth since filters went live (started at ~$222 on Apr 5)
       const brGrowthPct = ((bankroll - 222.26) / 222.26 * 100);
 
@@ -326,13 +332,13 @@
 
       let html = '<div style="display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin-bottom:10px">';
       html += stat('BANKROLL', '$'+bankroll.toFixed(2), '#222', '$'+startingBr+' start');
-      html += stat('POST-FILTER P&L', (postFilterPnl>=0?'+':'')+fmt(postFilterPnl), postFilterPnl>=0?'#00cc66':'#ee3344', 'since Apr 5 filters');
-      html += stat('WIN RATE', postFilterWR.toFixed(1)+'%', postFilterWR>=60?'#00cc66':'#ee3344', tPfAll.length+' settled');
+      html += stat('TRUE REALIZED P&L', (trueRealized>=0?'+':'')+fmt(trueRealized), trueRealized>=0?'#00cc66':'#ee3344', 'all settled trades');
+      html += stat('WIN RATE', postFilterWR.toFixed(1)+'%', postFilterWR>=60?'#00cc66':'#ee3344', tPfAll.length+' post-filter');
       html += stat('BANKROLL GROWTH', (brGrowthPct>=0?'+':'')+brGrowthPct.toFixed(0)+'%', '#00cc66', 'since filters live');
       html += stat('AVG WIN', '+$'+avgWin, '#00cc66', won.length+' wins');
       html += stat('AVG LOSS', '$'+avgLoss, '#ee3344', lost.length+' losses');
       html += stat('OPEN POSITIONS', open.length, '#888', 'active trades');
-      html += stat('WIN STREAK', winStreak > 0 ? winStreak+'&#x1F525;' : winStreak, winStreak>=10?'#ffaa00':'#ccc', 'consecutive');
+      html += stat('WIN STREAK', winStreak > 0 ? winStreak+'&#x1F525;' : winStreak, winStreak>=10?'#ffaa00':'#ccc', 'consecutive wins');
       html += stat('ORGANIC P&L', (organicPnl>=0?'+$':'$')+Math.abs(organicPnl).toFixed(2), organicPnl>=0?'#00cc66':'#ee3344', 'excl $'+paperTopup+' top-up');
       html += '</div>';
 
@@ -573,33 +579,38 @@
         .map(l=>{ try{return JSON.parse(l)}catch(e){return null} })
         .filter(Boolean);
 
-      // Dedup by slug+outcome, keep most recent
+      // TRUE realized PnL — from ALL raw trades before any dedup
+      // (bot re-enters same markets; dedup would hide thousands of WON entries)
+      const realizedPnl = trades.reduce((s,t)=>
+        s + (t.status==='WON'||t.status==='LOST' ? (t.pnl||0) : 0), 0);
+      const totalWonAll  = trades.filter(t=>t.status==='WON').length;
+      const totalLostAll = trades.filter(t=>t.status==='LOST').length;
+
+      // Dedup by slug+outcome for OPEN positions display only
+      // Priority: prefer OPEN over WON/LOST for same key (showing current state)
       const seen = new Map();
       trades.forEach(t=>{
         const key=(t.slug||t.market)+'|'+t.outcome;
-        if(!seen.has(key)||t.timestamp>seen.get(key).timestamp) seen.set(key,t);
+        const ex = seen.get(key);
+        // Keep if: no existing, or current is newer, or current is OPEN and existing is settled
+        if(!ex || t.timestamp>ex.timestamp) seen.set(key,t);
       });
       const deduped = Array.from(seen.values()).sort((a,b)=>b.timestamp.localeCompare(a.timestamp));
 
-      if (!deduped.length) {
+      if (!trades.length) {
         el.innerHTML='<div class="empty">No paper trades logged yet — bot is running, trades will appear here.</div>';
         document.getElementById('paper-summary').textContent='0 trades';
         return;
       }
 
-      const open   = deduped.filter(t=>t.status==='OPEN');
-      const won    = deduped.filter(t=>t.status==='WON');
-      const lost   = deduped.filter(t=>t.status==='LOST');
-
-      // Realized P&L = actual wins/losses only
-      const realizedPnl   = won.reduce((s,t)=>s+(t.pnl||0),0) + lost.reduce((s,t)=>s+(t.pnl||0),0);
-      // Unrealized = potential_profit on still-open trades
+      const open = deduped.filter(t=>t.status==='OPEN');
+      // Deployed = only capital currently in open positions
+      const totalBet      = open.reduce((s,t)=>s+(t.paper_bet||0),0);
       const unrealizedPot = open.reduce((s,t)=>s+(t.potential_profit||0),0);
-      const totalBet      = deduped.reduce((s,t)=>s+(t.paper_bet||0),0);
 
       // Header P&L counter shows REALIZED only
       const pnlEl = document.getElementById('pnl-counter');
-      if (won.length+lost.length === 0) {
+      if (totalWonAll+totalLostAll === 0) {
         pnlEl.textContent = '$0.00 realized';
         pnlEl.className = '';
       } else {
@@ -609,21 +620,21 @@
 
       document.getElementById('paper-summary').innerHTML =
         '<span class="green">'+open.length+' open</span> &nbsp;|&nbsp; '+
-        '<span class="green">'+won.length+' won</span> &nbsp;|&nbsp; '+
-        '<span style="color:#ff6655">'+lost.length+' lost</span> &nbsp;|&nbsp; '+
+        '<span class="green">'+totalWonAll+' won</span> &nbsp;|&nbsp; '+
+        '<span style="color:#ff6655">'+totalLostAll+' lost</span> &nbsp;|&nbsp; '+
         '<span class="green">$'+totalBet.toFixed(0)+' deployed</span> &nbsp;|&nbsp; '+
-        (won.length+lost.length>0
-          ? '<span class="green">Realized: '+(realizedPnl>=0?'+':'')+'$'+realizedPnl.toFixed(2)+'</span>'
+        (totalWonAll+totalLostAll>0
+          ? '<span class="'+(realizedPnl>=0?'green':'')+'" style="'+(realizedPnl<0?'color:#ff6655':'')+'">Realized: '+(realizedPnl>=0?'+':'')+'$'+realizedPnl.toFixed(2)+'</span>'
           : '<span class="dim">No resolved trades yet</span>')+
         ' &nbsp;|&nbsp; '+
         '<span class="yellow">Unrealized est: +$'+unrealizedPot.toFixed(2)+'</span>';
 
-      // Engine breakdown
+      // Engine breakdown — use ALL trades for accurate PnL per engine
       const byEngine = {};
-      deduped.forEach(t=>{
+      trades.forEach(t=>{
         const eng = t.type||'UNKNOWN';
-        if (!byEngine[eng]) byEngine[eng]={open:0,won:0,lost:0,realPnl:0,unrealized:0};
-        if (t.status==='OPEN')  { byEngine[eng].open++; byEngine[eng].unrealized+=(t.potential_profit||0); }
+        if (!byEngine[eng]) byEngine[eng]={open:0,won:0,lost:0,realPnl:0,unrealized:0,openBet:0};
+        if (t.status==='OPEN')  { byEngine[eng].open++; byEngine[eng].unrealized+=(t.potential_profit||0); byEngine[eng].openBet+=(t.paper_bet||0); }
         if (t.status==='WON')   { byEngine[eng].won++;  byEngine[eng].realPnl+=(t.pnl||0); }
         if (t.status==='LOST')  { byEngine[eng].lost++; byEngine[eng].realPnl+=(t.pnl||0); }
       });
@@ -633,8 +644,7 @@
         const c = engColors[eng]||'#888';
         const label = eng==='LONG_TERM'?'WALLET COPY LONG':eng==='SHORT_TERM'?'WALLET COPY SHORT':eng.replace('_',' ');
         const resolved = d.won + d.lost;
-        const totalEngBet = deduped.filter(t=>(t.type||'UNKNOWN')===eng).reduce((s,t)=>s+(t.paper_bet||0),0);
-        const roi = resolved > 0 && totalEngBet > 0 ? (d.realPnl / totalEngBet * 100) : null;
+        const roi = resolved > 0 && d.openBet > 0 ? (d.realPnl / d.openBet * 100) : null;
         const wr  = resolved > 0 ? (d.won / resolved * 100) : null;
         const pnlStr = resolved > 0
           ? (d.realPnl>=0?'<span style="color:#00ff88">+$'+d.realPnl.toFixed(2)+'</span>'
