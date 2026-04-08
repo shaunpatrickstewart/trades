@@ -8,522 +8,422 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 124 categorical arb opportunities found\nScanned 3000 events (1899 multi-outcome) at 2026-04-08 17:10 UTC\nBest: 9.8% profit on 'Santa Cruz Governor Election Winner (Bolivia)' \u2014 buy YES on all 10 outcomes (sum=0.902)\nStrategy: Buy YES on all 10 outcomes. Total cost: $0.9020. One wins $1.00. Profit: $0.0980 (9.80%)\n2nd: 9.7% on 'How many different countries will Israel strike in 2026?'",
+      "result": "LIVE \u2014 139 categorical arb opportunities found\nScanned 3000 events (1907 multi-outcome) at 2026-04-08 18:13 UTC\nBest: 10.0% profit on 'What price will Hyperliquid hit in April?' \u2014 buy YES on all 8 outcomes (sum=0.9)\nStrategy: Buy YES on all 8 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 10.0% on 'Who will be UFC Welterweight champion at the end of 2026?'",
       "priority": "HIGH",
-      "last_scan": "2026-04-08 17:10 UTC",
+      "last_scan": "2026-04-08 18:13 UTC",
       "opportunities": [
         {
-          "event_title": "Santa Cruz Governor Election Winner (Bolivia)",
-          "event_slug": "santa-cruz-governor-election-winner-bolivia",
-          "yes_sum": 0.902,
-          "profit_pct": 9.8,
-          "profit_per_dollar_pct": 10.86,
-          "num_outcomes": 10,
+          "event_title": "What price will Hyperliquid hit in April?",
+          "event_slug": "what-price-will-hyperliquid-hit-in-april",
+          "yes_sum": 0.9,
+          "profit_pct": 10.0,
+          "profit_per_dollar_pct": 11.11,
+          "num_outcomes": 8,
           "outcomes": [
             {
-              "market_id": "1228212",
-              "slug": "will-juan-pablo-velasco-win-the-2026-santa-cruz-gubernatorial-election-929",
-              "question": "Will Juan Pablo Velasco win the 2026 Santa Cruz gubernatorial election?",
-              "yes_price": 0.5725,
-              "volume": 296994
+              "market_id": "1823835",
+              "slug": "will-hyperliquid-reach-44-in-april",
+              "question": "Will Hyperliquid reach $44 in April?",
+              "yes_price": 0.29,
+              "volume": 1014
             },
             {
-              "market_id": "1228214",
-              "slug": "will-otto-ritter-win-the-2026-santa-cruz-gubernatorial-election-232",
-              "question": "Will Otto Ritter win the 2026 Santa Cruz gubernatorial election?",
-              "yes_price": 0.324,
-              "volume": 84519
+              "market_id": "1823839",
+              "slug": "will-hyperliquid-dip-to-28-in-april",
+              "question": "Will Hyperliquid dip to $28 in April?",
+              "yes_price": 0.25,
+              "volume": 4750
             },
             {
-              "market_id": "1228219",
-              "slug": "will-julio-csar-trrez-win-the-2026-santa-cruz-gubernatorial-election-447",
-              "question": "Will Julio C\u00e9sar T\u00f3rrez win the 2026 Santa Cruz gubernatorial election?",
-              "yes_price": 0.0015,
-              "volume": 25380
+              "market_id": "1823834",
+              "slug": "will-hyperliquid-reach-48-in-april",
+              "question": "Will Hyperliquid reach $48 in April?",
+              "yes_price": 0.145,
+              "volume": 3784
             },
             {
-              "market_id": "1228220",
-              "slug": "will-luis-fernando-camacho-win-the-2026-santa-cruz-gubernatorial-election-723",
-              "question": "Will Luis Fernando Camacho win the 2026 Santa Cruz gubernatorial election?",
-              "yes_price": 0.001,
-              "volume": 140083
+              "market_id": "1823840",
+              "slug": "will-hyperliquid-dip-to-24-in-april",
+              "question": "Will Hyperliquid dip to $24 in April?",
+              "yes_price": 0.087,
+              "volume": 2851
             },
             {
-              "market_id": "1228213",
-              "slug": "will-juan-carlos-medrano-win-the-2026-santa-cruz-gubernatorial-election-984",
-              "question": "Will Juan Carlos Medrano win the 2026 Santa Cruz gubernatorial election?",
-              "yes_price": 0.0005,
-              "volume": 24916
+              "market_id": "1823833",
+              "slug": "will-hyperliquid-reach-52-in-april",
+              "question": "Will Hyperliquid reach $52 in April?",
+              "yes_price": 0.0855,
+              "volume": 1647
             },
             {
-              "market_id": "1228215",
-              "slug": "will-mauricio-quezada-win-the-2026-santa-cruz-gubernatorial-election-385",
-              "question": "Will Mauricio Quezada win the 2026 Santa Cruz gubernatorial election?",
-              "yes_price": 0.0005,
-              "volume": 20864
+              "market_id": "1823841",
+              "slug": "will-hyperliquid-dip-to-20-in-april",
+              "question": "Will Hyperliquid dip to $20 in April?",
+              "yes_price": 0.0185,
+              "volume": 9692
             },
             {
-              "market_id": "1228217",
-              "slug": "will-chi-hyun-chung-win-the-2026-santa-cruz-gubernatorial-election-162",
-              "question": "Will Chi Hyun Chung win the 2026 Santa Cruz gubernatorial election?",
-              "yes_price": 0.0005,
-              "volume": 25233
-            },
-            {
-              "market_id": "1228221",
-              "slug": "will-guido-eduardo-nayar-win-the-2026-santa-cruz-gubernatorial-election-894",
-              "question": "Will Guido Eduardo Nayar win the 2026 Santa Cruz gubernatorial election?",
-              "yes_price": 0.0005,
-              "volume": 49935
-            },
-            {
-              "market_id": "1228216",
-              "slug": "will-miguel-cadima-win-the-2026-santa-cruz-gubernatorial-election-992",
-              "question": "Will Miguel Cadima win the 2026 Santa Cruz gubernatorial election?",
-              "yes_price": 0.0005,
-              "volume": 22253
-            },
-            {
-              "market_id": "1228218",
-              "slug": "will-vladimir-pea-win-the-2026-santa-cruz-gubernatorial-election-232",
-              "question": "Will Vladimir Pe\u00f1a win the 2026 Santa Cruz gubernatorial election?",
-              "yes_price": 0.0005,
-              "volume": 37682
-            }
-          ],
-          "url": "https://polymarket.com/event/santa-cruz-governor-election-winner-bolivia",
-          "strategy": "Buy YES on all 10 outcomes. Total cost: $0.9020. One wins $1.00. Profit: $0.0980 (9.80%)"
-        },
-        {
-          "event_title": "How many different countries will Israel strike in 2026?",
-          "event_slug": "how-many-different-countries-will-israel-strike-in-2026",
-          "yes_sum": 0.903,
-          "profit_pct": 9.7,
-          "profit_per_dollar_pct": 10.74,
-          "num_outcomes": 15,
-          "outcomes": [
-            {
-              "market_id": "678747",
-              "slug": "will-israel-strike-4-countries-in-november-2025",
-              "question": "Will Israel strike 4 countries in 2026?",
-              "yes_price": 0.281,
-              "volume": 1140942
-            },
-            {
-              "market_id": "678748",
-              "slug": "will-israel-strike-5-countries-in-november-2025",
-              "question": "Will Israel strike 5 countries in 2026?",
-              "yes_price": 0.277,
-              "volume": 492879
-            },
-            {
-              "market_id": "678746",
-              "slug": "will-israel-strike-3-countries-in-2026",
-              "question": "Will Israel strike 3 countries in 2026?",
-              "yes_price": 0.134,
-              "volume": 1897652
-            },
-            {
-              "market_id": "678749",
-              "slug": "will-israel-strike-6-countries-in-2026",
-              "question": "Will Israel strike 6 countries in 2026?",
-              "yes_price": 0.1155,
-              "volume": 626722
-            },
-            {
-              "market_id": "678750",
-              "slug": "will-israel-strike-7-countries-in-2026",
-              "question": "Will Israel strike 7 countries in 2026?",
-              "yes_price": 0.0365,
-              "volume": 585224
-            },
-            {
-              "market_id": "678751",
-              "slug": "will-israel-strike-8-countries-in-2026",
-              "question": "Will Israel strike 8 countries in 2026?",
+              "market_id": "1823832",
+              "slug": "will-hyperliquid-reach-56-in-april",
+              "question": "Will Hyperliquid reach $56 in April?",
               "yes_price": 0.016,
-              "volume": 499764
+              "volume": 3101
             },
             {
-              "market_id": "678753",
-              "slug": "will-israel-strike-10-countries-in-2026",
-              "question": "Will Israel strike 10 countries in 2026?",
-              "yes_price": 0.015,
-              "volume": 375859
-            },
-            {
-              "market_id": "678752",
-              "slug": "will-israel-strike-9-countries-in-2026",
-              "question": "Will Israel strike 9 countries in 2026?",
-              "yes_price": 0.013,
-              "volume": 199227
-            },
-            {
-              "market_id": "678754",
-              "slug": "will-israel-strike-11-countries-in-2026",
-              "question": "Will Israel strike 11 countries in 2026?",
-              "yes_price": 0.0065,
-              "volume": 89994
-            },
-            {
-              "market_id": "678755",
-              "slug": "will-israel-strike-12-countries-in-2026",
-              "question": "Will Israel strike 12 countries in 2026?",
-              "yes_price": 0.004,
-              "volume": 61706
-            },
-            {
-              "market_id": "678756",
-              "slug": "will-israel-strike-13-countries-in-2026",
-              "question": "Will Israel strike 13 countries in 2026?",
-              "yes_price": 0.0015,
-              "volume": 133631
-            },
-            {
-              "market_id": "678757",
-              "slug": "will-israel-strike-14-countries-in-2026",
-              "question": "Will Israel strike 14 countries in 2026?",
-              "yes_price": 0.0015,
-              "volume": 100687
-            },
-            {
-              "market_id": "678758",
-              "slug": "will-israel-strike-15-or-more-countries-in-2026",
-              "question": "Will Israel strike 15 or more countries in 2026?",
-              "yes_price": 0.0015,
-              "volume": 35678
-            },
-            {
-              "market_id": "678743",
-              "slug": "will-israel-strike-0-countries-in-2026",
-              "question": "Will Israel strike 0 countries in 2026?",
-              "yes_price": 0.0,
-              "volume": 38308
-            },
-            {
-              "market_id": "678744",
-              "slug": "will-israel-strike-1-country-in-2026",
-              "question": "Will Israel strike 1 country in 2026?",
-              "yes_price": 0.0,
-              "volume": 87273
+              "market_id": "1823842",
+              "slug": "will-hyperliquid-dip-to-16-in-april",
+              "question": "Will Hyperliquid dip to $16 in April?",
+              "yes_price": 0.008,
+              "volume": 12015
             }
           ],
-          "url": "https://polymarket.com/event/how-many-different-countries-will-israel-strike-in-2026",
-          "strategy": "Buy YES on all 15 outcomes. Total cost: $0.9030. One wins $1.00. Profit: $0.0970 (9.70%)"
+          "url": "https://polymarket.com/event/what-price-will-hyperliquid-hit-in-april",
+          "strategy": "Buy YES on all 8 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
         },
         {
-          "event_title": "South Carolina Governor Democratic Primary Winner",
-          "event_slug": "south-carolina-governor-democratic-primary-winner",
-          "yes_sum": 0.905,
-          "profit_pct": 9.5,
-          "profit_per_dollar_pct": 10.5,
-          "num_outcomes": 2,
+          "event_title": "Who will be UFC Welterweight champion at the end of 2026?",
+          "event_slug": "who-will-be-ufc-welterweight-champion-at-the-end-of-2026",
+          "yes_sum": 0.9,
+          "profit_pct": 10.0,
+          "profit_per_dollar_pct": 11.11,
+          "num_outcomes": 3,
           "outcomes": [
             {
-              "market_id": "906912",
-              "slug": "will-jermaine-johnson-win-the-2026-south-carolina-governor-democratic-primary-election",
-              "question": "Will Jermaine Johnson win the 2026 South Carolina Governor Democratic primary el",
+              "market_id": "1090024",
+              "slug": "will-islam-makhachev-be-the-ufc-welterweight-champion-on-december-31-2026",
+              "question": "Will Islam Makhachev be the UFC Welterweight Champion on December 31, 2026?",
               "yes_price": 0.74,
-              "volume": 6607
+              "volume": 2640
             },
             {
-              "market_id": "906913",
-              "slug": "will-mullins-mcleod-win-the-2026-south-carolina-governor-democratic-primary-election",
-              "question": "Will Mullins McLeod win the 2026 South Carolina Governor Democratic primary elec",
-              "yes_price": 0.165,
-              "volume": 2882
+              "market_id": "1090027",
+              "slug": "will-ian-machado-garry-be-the-ufc-welterweight-champion-on-december-31-2026",
+              "question": "Will Ian Machado Garry be the UFC Welterweight Champion on December 31, 2026?",
+              "yes_price": 0.145,
+              "volume": 1320
+            },
+            {
+              "market_id": "1090025",
+              "slug": "will-jack-della-maddalena-be-the-ufc-welterweight-champion-on-december-31-2026",
+              "question": "Will Jack Della Maddalena be the UFC Welterweight Champion on December 31, 2026?",
+              "yes_price": 0.015,
+              "volume": 1318
             }
           ],
-          "url": "https://polymarket.com/event/south-carolina-governor-democratic-primary-winner",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
+          "url": "https://polymarket.com/event/who-will-be-ufc-welterweight-champion-at-the-end-of-2026",
+          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
         },
         {
-          "event_title": "Lead Bank in SpaceX\u2019s IPO?",
-          "event_slug": "lead-bank-in-spacexs-ipo-836",
-          "yes_sum": 0.906,
-          "profit_pct": 9.4,
-          "profit_per_dollar_pct": 10.38,
-          "num_outcomes": 9,
-          "outcomes": [
-            {
-              "market_id": "1021152",
-              "slug": "will-morgan-stanley-or-any-of-its-underwriting-affiliates-serve-as-the-lead-underwriter-in-spacexs-initial-public-offering-299",
-              "question": "Will Morgan Stanley or any of its underwriting affiliates serve as the lead unde",
-              "yes_price": 0.435,
-              "volume": 318931
-            },
-            {
-              "market_id": "1021153",
-              "slug": "will-goldman-sachs-or-any-of-its-underwriting-affiliates-serve-as-the-lead-underwriter-in-spacexs-initial-public-offering-197",
-              "question": "Will Goldman Sachs or any of its underwriting affiliates serve as the lead under",
-              "yes_price": 0.28,
-              "volume": 235216
-            },
-            {
-              "market_id": "1021155",
-              "slug": "will-bank-of-america-or-any-of-its-underwriting-affiliates-serve-as-the-lead-underwriter-in-spacexs-initial-public-offering-433",
-              "question": "Will Bank of America or any of its underwriting affiliates serve as the lead und",
-              "yes_price": 0.1405,
-              "volume": 66742
-            },
-            {
-              "market_id": "1021154",
-              "slug": "will-jpmorgan-chase-or-any-of-its-underwriting-affiliates-serve-as-the-lead-underwriter-in-spacexs-initial-public-offering-471",
-              "question": "Will JPMorgan Chase or any of its underwriting affiliates serve as the lead unde",
-              "yes_price": 0.0285,
-              "volume": 78661
-            },
-            {
-              "market_id": "1021156",
-              "slug": "will-citigroup-or-any-of-its-underwriting-affiliates-serve-as-the-lead-underwriter-in-spacexs-initial-public-offering-719",
-              "question": "Will Citigroup or any of its underwriting affiliates serve as the lead underwrit",
-              "yes_price": 0.009,
-              "volume": 94575
-            },
-            {
-              "market_id": "1021159",
-              "slug": "will-deutsche-bank-or-any-of-its-underwriting-affiliates-serve-as-the-lead-underwriter-in-spacexs-initial-public-offering-824",
-              "question": "Will Deutsche Bank or any of its underwriting affiliates serve as the lead under",
-              "yes_price": 0.005,
-              "volume": 301598
-            },
-            {
-              "market_id": "1021158",
-              "slug": "will-ubs-or-any-of-its-underwriting-affiliates-serve-as-the-lead-underwriter-in-spacexs-initial-public-offering-884",
-              "question": "Will UBS or any of its underwriting affiliates serve as the lead underwriter in ",
-              "yes_price": 0.0035,
-              "volume": 74024
-            },
-            {
-              "market_id": "1021160",
-              "slug": "will-wells-fargo-or-any-of-its-underwriting-affiliates-serve-as-the-lead-underwriter-in-spacexs-initial-public-offering-174",
-              "question": "Will Wells Fargo or any of its underwriting affiliates serve as the lead underwr",
-              "yes_price": 0.0025,
-              "volume": 44272
-            },
-            {
-              "market_id": "1021157",
-              "slug": "will-barclays-or-any-of-its-underwriting-affiliates-serve-as-the-lead-underwriter-in-spacexs-initial-public-offering-115",
-              "question": "Will Barclays or any of its underwriting affiliates serve as the lead underwrite",
-              "yes_price": 0.002,
-              "volume": 64011
-            }
-          ],
-          "url": "https://polymarket.com/event/lead-bank-in-spacexs-ipo-836",
-          "strategy": "Buy YES on all 9 outcomes. Total cost: $0.9060. One wins $1.00. Profit: $0.0940 (9.40%)"
-        },
-        {
-          "event_title": "Where will the next US-Iran diplomatic meeting happen?",
-          "event_slug": "where-will-the-next-us-iran-diplomatic-meeting-happen-811",
-          "yes_sum": 0.906,
-          "profit_pct": 9.4,
-          "profit_per_dollar_pct": 10.38,
-          "num_outcomes": 19,
-          "outcomes": [
-            {
-              "market_id": "1709274",
-              "slug": "will-the-next-diplomatic-us-iran-meeting-be-in-pakistan-524",
-              "question": "Will the next diplomatic US-Iran meeting be in Pakistan?",
-              "yes_price": 0.705,
-              "volume": 256472
-            },
-            {
-              "market_id": "1709261",
-              "slug": "will-the-next-diplomatic-us-iran-meeting-be-in-oman-655",
-              "question": "Will the next diplomatic US-Iran meeting be in Oman?",
-              "yes_price": 0.122,
-              "volume": 77890
-            },
-            {
-              "market_id": "1709260",
-              "slug": "will-no-qualifying-diplomatic-us-iran-meeting-occur-by-june-30-2026-216",
-              "question": "Will no qualifying diplomatic US-Iran meeting occur by June 30, 2026?",
-              "yes_price": 0.0445,
-              "volume": 166512
-            },
-            {
-              "market_id": "1709267",
-              "slug": "will-the-next-diplomatic-us-iran-meeting-be-in-turkey-858",
-              "question": "Will the next diplomatic US-Iran meeting be in Turkey?",
-              "yes_price": 0.016,
-              "volume": 61481
-            },
-            {
-              "market_id": "1709275",
-              "slug": "will-the-next-diplomatic-us-iran-meeting-be-in-russia-876",
-              "question": "Will the next diplomatic US-Iran meeting be in Russia?",
-              "yes_price": 0.003,
-              "volume": 33003
-            },
-            {
-              "market_id": "1709262",
-              "slug": "will-the-next-diplomatic-us-iran-meeting-be-in-the-uae-485",
-              "question": "Will the next diplomatic US-Iran meeting be in the UAE?",
-              "yes_price": 0.0015,
-              "volume": 38258
-            },
-            {
-              "market_id": "1709272",
-              "slug": "will-the-next-diplomatic-us-iran-meeting-be-in-iraq-831",
-              "question": "Will the next diplomatic US-Iran meeting be in Iraq?",
-              "yes_price": 0.0015,
-              "volume": 54794
-            },
-            {
-              "market_id": "1709264",
-              "slug": "will-the-next-diplomatic-us-iran-meeting-be-in-qatar-498",
-              "question": "Will the next diplomatic US-Iran meeting be in Qatar?",
-              "yes_price": 0.0015,
-              "volume": 47851
-            },
-            {
-              "market_id": "1709266",
-              "slug": "will-the-next-diplomatic-us-iran-meeting-be-in-austria-851",
-              "question": "Will the next diplomatic US-Iran meeting be in Austria?",
-              "yes_price": 0.0015,
-              "volume": 28535
-            },
-            {
-              "market_id": "1709269",
-              "slug": "will-the-next-diplomatic-us-iran-meeting-be-in-the-united-states-699",
-              "question": "Will the next diplomatic US-Iran meeting be in the United States?",
-              "yes_price": 0.0015,
-              "volume": 43023
-            },
-            {
-              "market_id": "1709271",
-              "slug": "will-the-next-diplomatic-us-iran-meeting-be-in-italy-682",
-              "question": "Will the next diplomatic US-Iran meeting be in Italy?",
-              "yes_price": 0.0015,
-              "volume": 30437
-            },
-            {
-              "market_id": "1709273",
-              "slug": "will-the-next-diplomatic-us-iran-meeting-be-in-kazakhstan-713",
-              "question": "Will the next diplomatic US-Iran meeting be in Kazakhstan?",
-              "yes_price": 0.0015,
-              "volume": 47723
-            },
-            {
-              "market_id": "1709276",
-              "slug": "will-the-next-diplomatic-us-iran-meeting-be-in-another-middle-eastnorth-africa-country-342",
-              "question": "Will the next diplomatic US-Iran meeting be in another Middle East/North Africa ",
-              "yes_price": 0.001,
-              "volume": 38731
-            },
-            {
-              "market_id": "1709263",
-              "slug": "will-the-next-diplomatic-us-iran-meeting-be-in-saudi-arabia-438",
-              "question": "Will the next diplomatic US-Iran meeting be in Saudi Arabia?",
-              "yes_price": 0.001,
-              "volume": 57627
-            },
-            {
-              "market_id": "1709278",
-              "slug": "will-the-next-diplomatic-us-iran-meeting-be-in-another-country-523",
-              "question": "Will the next diplomatic US-Iran meeting be in another country?",
-              "yes_price": 0.001,
-              "volume": 47050
-            },
-            {
-              "market_id": "1709268",
-              "slug": "will-the-next-diplomatic-us-iran-meeting-be-in-iran-554",
-              "question": "Will the next diplomatic US-Iran meeting be in Iran?",
-              "yes_price": 0.0005,
-              "volume": 22611
-            },
-            {
-              "market_id": "1709265",
-              "slug": "will-the-next-diplomatic-us-iran-meeting-be-in-switzerland-662",
-              "question": "Will the next diplomatic US-Iran meeting be in Switzerland?",
-              "yes_price": 0.0005,
-              "volume": 48554
-            },
-            {
-              "market_id": "1709270",
-              "slug": "will-the-next-diplomatic-us-iran-meeting-be-in-egypt-715",
-              "question": "Will the next diplomatic US-Iran meeting be in Egypt?",
-              "yes_price": 0.0005,
-              "volume": 36681
-            },
-            {
-              "market_id": "1709277",
-              "slug": "will-the-next-diplomatic-us-iran-meeting-be-in-another-european-country-311",
-              "question": "Will the next diplomatic US-Iran meeting be in another European country?",
-              "yes_price": 0.0005,
-              "volume": 40150
-            }
-          ],
-          "url": "https://polymarket.com/event/where-will-the-next-us-iran-diplomatic-meeting-happen-811",
-          "strategy": "Buy YES on all 19 outcomes. Total cost: $0.9060. One wins $1.00. Profit: $0.0940 (9.40%)"
-        },
-        {
-          "event_title": "Perplexity IPO Closing Market Cap",
-          "event_slug": "perplexity-ipo-closing-market-cap",
-          "yes_sum": 0.9075,
-          "profit_pct": 9.25,
-          "profit_per_dollar_pct": 10.19,
+          "event_title": "NHL: Pacific Division Winner",
+          "event_slug": "nhl-pacific-division-winner-228",
+          "yes_sum": 0.901,
+          "profit_pct": 9.9,
+          "profit_per_dollar_pct": 10.99,
           "num_outcomes": 6,
           "outcomes": [
             {
-              "market_id": "1115936",
-              "slug": "will-perplexity-not-ipo-by-december-31-2027",
-              "question": "Will Perplexity not IPO by December 31, 2027?",
-              "yes_price": 0.6,
-              "volume": 104958
+              "market_id": "629054",
+              "slug": "will-the-edmonton-oilers-win-the-pacific-division-823",
+              "question": "Will the Edmonton Oilers win the Pacific Division?",
+              "yes_price": 0.475,
+              "volume": 112817
             },
             {
-              "market_id": "1115933",
-              "slug": "will-perplexitys-market-cap-be-between-80b-and-100b-at-market-close-on-ipo-day",
-              "question": "Will Perplexity\u2019s market cap be between $50B and $75B at market close on IPO day",
-              "yes_price": 0.1275,
-              "volume": 6171
+              "market_id": "629059",
+              "slug": "will-the-vegas-golden-knights-win-the-pacific-division-474",
+              "question": "Will the Vegas Golden Knights win the Pacific Division?",
+              "yes_price": 0.36,
+              "volume": 192213
             },
             {
-              "market_id": "1115935",
-              "slug": "will-perplexitys-market-cap-be-greater-than-150b-at-market-close-on-ipo-day",
-              "question": "Will Perplexity\u2019s market cap be greater than $100B at market close on IPO day?",
-              "yes_price": 0.0615,
-              "volume": 4468
+              "market_id": "629052",
+              "slug": "will-the-anaheim-ducks-win-the-pacific-division-754",
+              "question": "Will the Anaheim Ducks win the Pacific Division?",
+              "yes_price": 0.064,
+              "volume": 52543
             },
             {
-              "market_id": "1115934",
-              "slug": "will-perplexitys-market-cap-be-between-100b-and-150b-at-market-close-on-ipo-day",
-              "question": "Will Perplexity\u2019s market cap be between $75B and $100B at market close on IPO da",
-              "yes_price": 0.0495,
-              "volume": 3197
+              "market_id": "629056",
+              "slug": "will-the-san-jose-sharks-win-the-pacific-division-471",
+              "question": "Will the San Jose Sharks win the Pacific Division?",
+              "yes_price": 0.0015,
+              "volume": 34473
             },
             {
-              "market_id": "1115930",
-              "slug": "will-perplexitys-market-cap-be-between-20b-and-40b-at-market-close-on-ipo-day",
-              "question": "Will Perplexity\u2019s market cap be between $20B and $30B at market close on IPO day",
-              "yes_price": 0.0355,
-              "volume": 5845
+              "market_id": "629055",
+              "slug": "will-the-los-angeles-kings-win-the-pacific-division-456",
+              "question": "Will the Los Angeles Kings win the Pacific Division?",
+              "yes_price": 0.0005,
+              "volume": 30827
             },
             {
-              "market_id": "1115929",
-              "slug": "will-perplexitys-market-cap-be-less-than-20b-at-market-close-on-ipo-day",
-              "question": "Will Perplexity\u2019s market cap be less than $20B at market close on IPO day?",
-              "yes_price": 0.0335,
-              "volume": 4411
+              "market_id": "629057",
+              "slug": "will-the-seattle-kraken-win-the-pacific-division-111",
+              "question": "Will the Seattle Kraken win the Pacific Division?",
+              "yes_price": 0.0,
+              "volume": 12896
             }
           ],
-          "url": "https://polymarket.com/event/perplexity-ipo-closing-market-cap",
-          "strategy": "Buy YES on all 6 outcomes. Total cost: $0.9075. One wins $1.00. Profit: $0.0925 (9.25%)"
+          "url": "https://polymarket.com/event/nhl-pacific-division-winner-228",
+          "strategy": "Buy YES on all 6 outcomes. Total cost: $0.9010. One wins $1.00. Profit: $0.0990 (9.90%)"
+        },
+        {
+          "event_title": "Highest temperature in Los Angeles on April 8?",
+          "event_slug": "highest-temperature-in-los-angeles-on-april-8-2026",
+          "yes_sum": 0.9015,
+          "profit_pct": 9.85,
+          "profit_per_dollar_pct": 10.93,
+          "num_outcomes": 11,
+          "outcomes": [
+            {
+              "market_id": "1854835",
+              "slug": "highest-temperature-in-los-angeles-on-april-8-2026-68-69f",
+              "question": "Will the highest temperature in Los Angeles be between 68-69\u00b0F on April 8?",
+              "yes_price": 0.375,
+              "volume": 5529
+            },
+            {
+              "market_id": "1854836",
+              "slug": "highest-temperature-in-los-angeles-on-april-8-2026-70-71f",
+              "question": "Will the highest temperature in Los Angeles be between 70-71\u00b0F on April 8?",
+              "yes_price": 0.35,
+              "volume": 3170
+            },
+            {
+              "market_id": "1854837",
+              "slug": "highest-temperature-in-los-angeles-on-april-8-2026-72-73f",
+              "question": "Will the highest temperature in Los Angeles be between 72-73\u00b0F on April 8?",
+              "yes_price": 0.13,
+              "volume": 3689
+            },
+            {
+              "market_id": "1854838",
+              "slug": "highest-temperature-in-los-angeles-on-april-8-2026-74-75f",
+              "question": "Will the highest temperature in Los Angeles be between 74-75\u00b0F on April 8?",
+              "yes_price": 0.0345,
+              "volume": 3304
+            },
+            {
+              "market_id": "1854839",
+              "slug": "highest-temperature-in-los-angeles-on-april-8-2026-76forhigher",
+              "question": "Will the highest temperature in Los Angeles be 76\u00b0F or higher on April 8?",
+              "yes_price": 0.0105,
+              "volume": 8612
+            },
+            {
+              "market_id": "1854832",
+              "slug": "highest-temperature-in-los-angeles-on-april-8-2026-62-63f",
+              "question": "Will the highest temperature in Los Angeles be between 62-63\u00b0F on April 8?",
+              "yes_price": 0.0005,
+              "volume": 5383
+            },
+            {
+              "market_id": "1854833",
+              "slug": "highest-temperature-in-los-angeles-on-april-8-2026-64-65f",
+              "question": "Will the highest temperature in Los Angeles be between 64-65\u00b0F on April 8?",
+              "yes_price": 0.0005,
+              "volume": 5055
+            },
+            {
+              "market_id": "1854834",
+              "slug": "highest-temperature-in-los-angeles-on-april-8-2026-66-67f",
+              "question": "Will the highest temperature in Los Angeles be between 66-67\u00b0F on April 8?",
+              "yes_price": 0.0005,
+              "volume": 5468
+            },
+            {
+              "market_id": "1854829",
+              "slug": "highest-temperature-in-los-angeles-on-april-8-2026-57forbelow",
+              "question": "Will the highest temperature in Los Angeles be 57\u00b0F or below on April 8?",
+              "yes_price": 0.0,
+              "volume": 4234
+            },
+            {
+              "market_id": "1854830",
+              "slug": "highest-temperature-in-los-angeles-on-april-8-2026-58-59f",
+              "question": "Will the highest temperature in Los Angeles be between 58-59\u00b0F on April 8?",
+              "yes_price": 0.0,
+              "volume": 1902
+            },
+            {
+              "market_id": "1854831",
+              "slug": "highest-temperature-in-los-angeles-on-april-8-2026-60-61f",
+              "question": "Will the highest temperature in Los Angeles be between 60-61\u00b0F on April 8?",
+              "yes_price": 0.0,
+              "volume": 3083
+            }
+          ],
+          "url": "https://polymarket.com/event/highest-temperature-in-los-angeles-on-april-8-2026",
+          "strategy": "Buy YES on all 11 outcomes. Total cost: $0.9015. One wins $1.00. Profit: $0.0985 (9.85%)"
+        },
+        {
+          "event_title": "AZ-01 Republican Primary Winner",
+          "event_slug": "az-01-republican-primary-winner",
+          "yes_sum": 0.9035,
+          "profit_pct": 9.65,
+          "profit_per_dollar_pct": 10.68,
+          "num_outcomes": 11,
+          "outcomes": [
+            {
+              "market_id": "704348",
+              "slug": "will-jay-feely-be-the-republican-nominee-for-az-01",
+              "question": "Will Jay Feely be the Republican nominee for AZ-01?",
+              "yes_price": 0.69,
+              "volume": 4639
+            },
+            {
+              "market_id": "704343",
+              "slug": "will-joseph-chaplik-be-the-republican-nominee-for-az-01",
+              "question": "Will Joseph Chaplik be the Republican nominee for AZ-01?",
+              "yes_price": 0.072,
+              "volume": 7369
+            },
+            {
+              "market_id": "704345",
+              "slug": "will-todd-graham-be-the-republican-nominee-for-az-01",
+              "question": "Will Todd Graham be the Republican nominee for AZ-01?",
+              "yes_price": 0.052,
+              "volume": 7582
+            },
+            {
+              "market_id": "704352",
+              "slug": "will-brandon-sowers-be-the-republican-nominee-for-az-01-218",
+              "question": "Will Brandon Sowers be the Republican nominee for AZ-01?",
+              "yes_price": 0.0255,
+              "volume": 9865
+            },
+            {
+              "market_id": "704349",
+              "slug": "will-derrick-gallego-be-the-republican-nominee-for-az-01-424",
+              "question": "Will Derrick Gallego be the Republican nominee for AZ-01?",
+              "yes_price": 0.0155,
+              "volume": 2957
+            },
+            {
+              "market_id": "704347",
+              "slug": "will-kari-lake-be-the-republican-nominee-for-az-01",
+              "question": "Will Kari Lake be the Republican nominee for AZ-01?",
+              "yes_price": 0.0105,
+              "volume": 6398
+            },
+            {
+              "market_id": "704351",
+              "slug": "will-paul-reevs-be-the-republican-nominee-for-az-01",
+              "question": "Will Paul Reevs be the Republican nominee for AZ-01?",
+              "yes_price": 0.0105,
+              "volume": 221052
+            },
+            {
+              "market_id": "704346",
+              "slug": "will-mark-brnovich-be-the-republican-nominee-for-az-01",
+              "question": "Will Mark Brnovich be the Republican nominee for AZ-01?",
+              "yes_price": 0.0105,
+              "volume": 4365
+            },
+            {
+              "market_id": "704341",
+              "slug": "will-matt-gress-be-the-republican-nominee-for-az-01",
+              "question": "Will Matt Gress be the Republican nominee for AZ-01?",
+              "yes_price": 0.0065,
+              "volume": 47835
+            },
+            {
+              "market_id": "704350",
+              "slug": "will-kaitlin-purrington-be-the-republican-nominee-for-az-01",
+              "question": "Will Kaitlin Purrington be the Republican nominee for AZ-01?",
+              "yes_price": 0.0065,
+              "volume": 8035
+            },
+            {
+              "market_id": "704344",
+              "slug": "will-muchelle-ugenti-rita-be-the-republican-nominee-for-az-01",
+              "question": "Will Muchelle Ugenti-Rita be the Republican nominee for AZ-01?",
+              "yes_price": 0.004,
+              "volume": 4021
+            }
+          ],
+          "url": "https://polymarket.com/event/az-01-republican-primary-winner",
+          "strategy": "Buy YES on all 11 outcomes. Total cost: $0.9035. One wins $1.00. Profit: $0.0965 (9.65%)"
+        },
+        {
+          "event_title": "Latvian Parliamentary Election Winner",
+          "event_slug": "latvian-parliamentary-election-winner",
+          "yes_sum": 0.9035,
+          "profit_pct": 9.65,
+          "profit_per_dollar_pct": 10.68,
+          "num_outcomes": 3,
+          "outcomes": [
+            {
+              "market_id": "950428",
+              "slug": "will-jaun-vienotba-jv-win-the-most-seats-in-the-2026-latvian-parliamentary-election",
+              "question": "Will Jaun\u0101 Vienot\u012bba (JV) win the most seats in the 2026 Latvian parliamentary e",
+              "yes_price": 0.455,
+              "volume": 1743
+            },
+            {
+              "market_id": "950429",
+              "slug": "will-zao-un-zemnieku-savienba-zzs-win-the-most-seats-in-the-2026-latvian-parliamentary-election",
+              "question": "Will Za\u013co un Zemnieku Savien\u012bba (ZZS) win the most seats in the 2026 Latvian par",
+              "yes_price": 0.2335,
+              "volume": 48014
+            },
+            {
+              "market_id": "950431",
+              "slug": "will-nacionl-apvienba-na-win-the-most-seats-in-the-2026-latvian-parliamentary-election",
+              "question": "Will Nacion\u0101l\u0101 Apvien\u012bba (NA) win the most seats in the 2026 Latvian parliamenta",
+              "yes_price": 0.215,
+              "volume": 1310
+            }
+          ],
+          "url": "https://polymarket.com/event/latvian-parliamentary-election-winner",
+          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9035. One wins $1.00. Profit: $0.0965 (9.65%)"
+        },
+        {
+          "event_title": "Sachsen-Anhalt Parliamentary Elections: 2nd Place",
+          "event_slug": "sachsen-anhalt-parliamentary-elections-2nd-place",
+          "yes_sum": 0.9035,
+          "profit_pct": 9.65,
+          "profit_per_dollar_pct": 10.68,
+          "num_outcomes": 3,
+          "outcomes": [
+            {
+              "market_id": "1545032",
+              "slug": "will-cdu-win-the-second-most-seats-in-the-2026-sachsen-anhalt-parliamentary-elections",
+              "question": "Will CDU win the second most seats in the 2026 Sachsen-Anhalt parliamentary elec",
+              "yes_price": 0.875,
+              "volume": 15876
+            },
+            {
+              "market_id": "1545044",
+              "slug": "will-fdp-win-the-second-most-seats-in-the-2026-sachsen-anhalt-parliamentary-elections",
+              "question": "Will FDP win the second most seats in the 2026 Sachsen-Anhalt parliamentary elec",
+              "yes_price": 0.0235,
+              "volume": 1397
+            },
+            {
+              "market_id": "1545037",
+              "slug": "will-spd-win-the-second-most-seats-in-the-2026-sachsen-anhalt-parliamentary-elections",
+              "question": "Will SPD win the second most seats in the 2026 Sachsen-Anhalt parliamentary elec",
+              "yes_price": 0.005,
+              "volume": 21728
+            }
+          ],
+          "url": "https://polymarket.com/event/sachsen-anhalt-parliamentary-elections-2nd-place",
+          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9035. One wins $1.00. Profit: $0.0965 (9.65%)"
         },
         {
           "event_title": "Michigan Governor Republican Primary Winner",
           "event_slug": "michigan-governor-republican-primary-winner",
-          "yes_sum": 0.9075,
-          "profit_pct": 9.25,
-          "profit_per_dollar_pct": 10.19,
+          "yes_sum": 0.905,
+          "profit_pct": 9.5,
+          "profit_per_dollar_pct": 10.5,
           "num_outcomes": 4,
           "outcomes": [
             {
               "market_id": "907794",
               "slug": "will-perry-johnson-win-the-2026-michigan-governor-republican-primary-election",
               "question": "Will Perry Johnson win the 2026 Michigan Governor Republican primary election?",
-              "yes_price": 0.485,
+              "yes_price": 0.49,
               "volume": 10081
             },
             {
@@ -537,127 +437,150 @@
               "market_id": "907788",
               "slug": "will-aric-nesbitt-win-the-2026-michigan-governor-republican-primary-election",
               "question": "Will Aric Nesbitt win the 2026 Michigan Governor Republican primary election?",
-              "yes_price": 0.035,
+              "yes_price": 0.0345,
               "volume": 1213
             },
             {
               "market_id": "907781",
               "slug": "will-mike-cox-win-the-2026-michigan-governor-republican-primary-election",
               "question": "Will Mike Cox win the 2026 Michigan Governor Republican primary election?",
-              "yes_price": 0.0225,
+              "yes_price": 0.0155,
               "volume": 2391
             }
           ],
           "url": "https://polymarket.com/event/michigan-governor-republican-primary-winner",
-          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9075. One wins $1.00. Profit: $0.0925 (9.25%)"
+          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
         },
         {
-          "event_title": "VA-02 Democratic Primary Winner",
-          "event_slug": "va-02-democratic-primary-winner",
-          "yes_sum": 0.908,
-          "profit_pct": 9.2,
-          "profit_per_dollar_pct": 10.13,
-          "num_outcomes": 3,
+          "event_title": "Oklahoma Governor Republican Primary Winner",
+          "event_slug": "oklahoma-governor-republican-primary-winner",
+          "yes_sum": 0.906,
+          "profit_pct": 9.4,
+          "profit_per_dollar_pct": 10.38,
+          "num_outcomes": 8,
           "outcomes": [
             {
-              "market_id": "704140",
-              "slug": "will-elaine-luria-be-the-democratic-nominee-for-va-02",
-              "question": "Will Elaine Luria be the Democratic nominee for VA-02?",
-              "yes_price": 0.815,
-              "volume": 1102
+              "market_id": "825091",
+              "slug": "will-genter-drummond-win-the-2026-oklahoma-governor-republican-primary-election",
+              "question": "Will Genter Drummond win the 2026 Oklahoma Governor Republican primary election?",
+              "yes_price": 0.48,
+              "volume": 113038
             },
             {
-              "market_id": "704139",
-              "slug": "will-james-osyf-be-the-democratic-nominee-for-va-02",
-              "question": "Will James Osyf be the Democratic nominee for VA-02?",
-              "yes_price": 0.069,
-              "volume": 1097
+              "market_id": "825094",
+              "slug": "will-mike-mazzei-win-the-2026-oklahoma-governor-republican-primary-election",
+              "question": "Will Mike Mazzei win the 2026 Oklahoma Governor Republican primary election?",
+              "yes_price": 0.2545,
+              "volume": 2910
             },
             {
-              "market_id": "704143",
-              "slug": "will-patrick-mosolf-be-the-democratic-nominee-for-va-02",
-              "question": "Will Patrick Mosolf be the Democratic nominee for VA-02?",
-              "yes_price": 0.024,
-              "volume": 1490
+              "market_id": "825095",
+              "slug": "will-charles-mccall-win-the-2026-oklahoma-governor-republican-primary-election",
+              "question": "Will Charles McCall win the 2026 Oklahoma Governor Republican primary election?",
+              "yes_price": 0.085,
+              "volume": 113764
+            },
+            {
+              "market_id": "825092",
+              "slug": "will-chip-keating-win-the-2026-oklahoma-governor-republican-primary-election",
+              "question": "Will Chip Keating win the 2026 Oklahoma Governor Republican primary election?",
+              "yes_price": 0.0685,
+              "volume": 2464
+            },
+            {
+              "market_id": "825098",
+              "slug": "will-matt-pinnell-win-the-2026-oklahoma-governor-republican-primary-election",
+              "question": "Will Matt Pinnell win the 2026 Oklahoma Governor Republican primary election?",
+              "yes_price": 0.0085,
+              "volume": 6574
+            },
+            {
+              "market_id": "825097",
+              "slug": "will-ryan-walters-win-the-2026-oklahoma-governor-republican-primary-election",
+              "question": "Will Ryan Walters win the 2026 Oklahoma Governor Republican primary election?",
+              "yes_price": 0.0035,
+              "volume": 5237
+            },
+            {
+              "market_id": "825096",
+              "slug": "will-jake-merrick-win-the-2026-oklahoma-governor-republican-primary-election",
+              "question": "Will Jake Merrick win the 2026 Oklahoma Governor Republican primary election?",
+              "yes_price": 0.0035,
+              "volume": 3330
+            },
+            {
+              "market_id": "825093",
+              "slug": "will-leisa-mitchell-haynes-win-the-2026-oklahoma-governor-republican-primary-election",
+              "question": "Will Leisa Mitchell Haynes win the 2026 Oklahoma Governor Republican primary ele",
+              "yes_price": 0.0025,
+              "volume": 1479
             }
           ],
-          "url": "https://polymarket.com/event/va-02-democratic-primary-winner",
-          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9080. One wins $1.00. Profit: $0.0920 (9.20%)"
+          "url": "https://polymarket.com/event/oklahoma-governor-republican-primary-winner",
+          "strategy": "Buy YES on all 8 outcomes. Total cost: $0.9060. One wins $1.00. Profit: $0.0940 (9.40%)"
         },
         {
-          "event_title": "Who will be the next Secretary-General of the UN?",
-          "event_slug": "who-will-be-the-next-secretary-general-of-the-un",
-          "yes_sum": 0.9095,
-          "profit_pct": 9.05,
-          "profit_per_dollar_pct": 9.95,
-          "num_outcomes": 3,
+          "event_title": "Perplexity IPO Closing Market Cap",
+          "event_slug": "perplexity-ipo-closing-market-cap",
+          "yes_sum": 0.906,
+          "profit_pct": 9.4,
+          "profit_per_dollar_pct": 10.38,
+          "num_outcomes": 6,
           "outcomes": [
             {
-              "market_id": "910104",
-              "slug": "will-amina-mohammed-be-the-next-secretary-general-of-the-united-nations",
-              "question": "Will Amina Mohammed be the next Secretary General of the United Nations?",
-              "yes_price": 0.3345,
-              "volume": 1827
+              "market_id": "1115936",
+              "slug": "will-perplexity-not-ipo-by-december-31-2027",
+              "question": "Will Perplexity not IPO by December 31, 2027?",
+              "yes_price": 0.61,
+              "volume": 104958
             },
             {
-              "market_id": "910098",
-              "slug": "will-rafael-grossi-be-the-next-secretary-general-of-the-united-nations",
-              "question": "Will Rafael Grossi be the next Secretary General of the United Nations?",
-              "yes_price": 0.325,
-              "volume": 13573
+              "market_id": "1115933",
+              "slug": "will-perplexitys-market-cap-be-between-80b-and-100b-at-market-close-on-ipo-day",
+              "question": "Will Perplexity\u2019s market cap be between $50B and $75B at market close on IPO day",
+              "yes_price": 0.129,
+              "volume": 6171
             },
             {
-              "market_id": "910094",
-              "slug": "will-michelle-bachelet-be-the-next-secretary-general-of-the-united-nations",
-              "question": "Will Michelle Bachelet be the next Secretary General of the United Nations?",
-              "yes_price": 0.25,
-              "volume": 16791
+              "market_id": "1115935",
+              "slug": "will-perplexitys-market-cap-be-greater-than-150b-at-market-close-on-ipo-day",
+              "question": "Will Perplexity\u2019s market cap be greater than $100B at market close on IPO day?",
+              "yes_price": 0.0595,
+              "volume": 4468
+            },
+            {
+              "market_id": "1115934",
+              "slug": "will-perplexitys-market-cap-be-between-100b-and-150b-at-market-close-on-ipo-day",
+              "question": "Will Perplexity\u2019s market cap be between $75B and $100B at market close on IPO da",
+              "yes_price": 0.039,
+              "volume": 3197
+            },
+            {
+              "market_id": "1115930",
+              "slug": "will-perplexitys-market-cap-be-between-20b-and-40b-at-market-close-on-ipo-day",
+              "question": "Will Perplexity\u2019s market cap be between $20B and $30B at market close on IPO day",
+              "yes_price": 0.0355,
+              "volume": 5845
+            },
+            {
+              "market_id": "1115929",
+              "slug": "will-perplexitys-market-cap-be-less-than-20b-at-market-close-on-ipo-day",
+              "question": "Will Perplexity\u2019s market cap be less than $20B at market close on IPO day?",
+              "yes_price": 0.033,
+              "volume": 4411
             }
           ],
-          "url": "https://polymarket.com/event/who-will-be-the-next-secretary-general-of-the-un",
-          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9095. One wins $1.00. Profit: $0.0905 (9.05%)"
-        },
-        {
-          "event_title": "LA-05 Republican Primary Winner",
-          "event_slug": "la-05-republican-primary-winner",
-          "yes_sum": 0.91,
-          "profit_pct": 9.0,
-          "profit_per_dollar_pct": 9.89,
-          "num_outcomes": 3,
-          "outcomes": [
-            {
-              "market_id": "1731841",
-              "slug": "will-blake-miguez-be-the-republican-nominee-for-la-05",
-              "question": "Will Blake Miguez be the Republican nominee for LA-05?",
-              "yes_price": 0.855,
-              "volume": 15029
-            },
-            {
-              "market_id": "1731837",
-              "slug": "will-michael-echols-be-the-republican-nominee-for-la-05",
-              "question": "Will Michael Echols be the Republican nominee for LA-05?",
-              "yes_price": 0.036,
-              "volume": 8162
-            },
-            {
-              "market_id": "1731842",
-              "slug": "will-samuel-wyatt-be-the-republican-nominee-for-la-05",
-              "question": "Will Samuel Wyatt be the Republican nominee for LA-05?",
-              "yes_price": 0.019,
-              "volume": 5025
-            }
-          ],
-          "url": "https://polymarket.com/event/la-05-republican-primary-winner",
-          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9100. One wins $1.00. Profit: $0.0900 (9.00%)"
+          "url": "https://polymarket.com/event/perplexity-ipo-closing-market-cap",
+          "strategy": "Buy YES on all 6 outcomes. Total cost: $0.9060. One wins $1.00. Profit: $0.0940 (9.40%)"
         }
       ],
       "stats": {
         "total_events": 3000,
-        "checked_multi_outcome": 1899,
-        "skipped_single_outcome": 587,
-        "opportunities_found": 124,
-        "best_profit_pct": 9.8,
-        "scanned_at": "2026-04-08 17:10 UTC"
+        "checked_multi_outcome": 1907,
+        "skipped_single_outcome": 588,
+        "opportunities_found": 139,
+        "best_profit_pct": 10.0,
+        "scanned_at": "2026-04-08 18:13 UTC"
       }
     },
     {
