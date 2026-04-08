@@ -376,7 +376,6 @@
       html += '</div>';
 
       // ── Realized Breakdown ───────────────────────────────────────
-      const FILTER_DATE = '2026-04-05'; // when current filters went live
       const now = new Date();
 
       // Build per-day map from settled trades
