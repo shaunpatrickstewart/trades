@@ -8,9 +8,9 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 131 categorical arb opportunities found\nScanned 3000 events (1856 multi-outcome) at 2026-04-08 12:16 UTC\nBest: 10.0% profit on 'Kansas Governor Election Winner' \u2014 buy YES on all 2 outcomes (sum=0.9)\nStrategy: Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 9.9% on 'Bank of Brazil Decision in June?'",
+      "result": "LIVE \u2014 123 categorical arb opportunities found\nScanned 3000 events (1860 multi-outcome) at 2026-04-08 13:13 UTC\nBest: 10.0% profit on 'Kansas Governor Election Winner' \u2014 buy YES on all 2 outcomes (sum=0.9)\nStrategy: Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 9.75% on 'Montana Democratic Senate Primary Winner'",
       "priority": "HIGH",
-      "last_scan": "2026-04-08 12:16 UTC",
+      "last_scan": "2026-04-08 13:13 UTC",
       "opportunities": [
         {
           "event_title": "Kansas Governor Election Winner",
@@ -39,121 +39,6 @@
           "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
         },
         {
-          "event_title": "Bank of Brazil Decision in June?",
-          "event_slug": "bank-of-brazil-decision-in-june",
-          "yes_sum": 0.901,
-          "profit_pct": 9.9,
-          "profit_per_dollar_pct": 10.99,
-          "num_outcomes": 2,
-          "outcomes": [
-            {
-              "market_id": "1697101",
-              "slug": "will-the-bank-of-brazil-decrease-the-selic-rate-after-june-2026-meeting",
-              "question": "Will the Bank of Brazil decrease the Selic rate after June 2026 meeting?",
-              "yes_price": 0.87,
-              "volume": 1948
-            },
-            {
-              "market_id": "1697099",
-              "slug": "will-the-bank-of-brazil-increase-the-selic-rate-after-june-2026-meeting",
-              "question": "Will the Bank of Brazil increase the Selic rate after June 2026 meeting?",
-              "yes_price": 0.031,
-              "volume": 7230
-            }
-          ],
-          "url": "https://polymarket.com/event/bank-of-brazil-decision-in-june",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9010. One wins $1.00. Profit: $0.0990 (9.90%)"
-        },
-        {
-          "event_title": "Highest temperature in Milan on April 9?",
-          "event_slug": "highest-temperature-in-milan-on-april-9-2026",
-          "yes_sum": 0.9015,
-          "profit_pct": 9.85,
-          "profit_per_dollar_pct": 10.93,
-          "num_outcomes": 11,
-          "outcomes": [
-            {
-              "market_id": "1871887",
-              "slug": "highest-temperature-in-milan-on-april-9-2026-23c",
-              "question": "Will the highest temperature in Milan be 23\u00b0C on April 9?",
-              "yes_price": 0.4,
-              "volume": 2589
-            },
-            {
-              "market_id": "1871888",
-              "slug": "highest-temperature-in-milan-on-april-9-2026-24corhigher",
-              "question": "Will the highest temperature in Milan be 24\u00b0C or higher on April 9?",
-              "yes_price": 0.26,
-              "volume": 4057
-            },
-            {
-              "market_id": "1871886",
-              "slug": "highest-temperature-in-milan-on-april-9-2026-22c",
-              "question": "Will the highest temperature in Milan be 22\u00b0C on April 9?",
-              "yes_price": 0.185,
-              "volume": 2165
-            },
-            {
-              "market_id": "1871885",
-              "slug": "highest-temperature-in-milan-on-april-9-2026-21c",
-              "question": "Will the highest temperature in Milan be 21\u00b0C on April 9?",
-              "yes_price": 0.036,
-              "volume": 2092
-            },
-            {
-              "market_id": "1871884",
-              "slug": "highest-temperature-in-milan-on-april-9-2026-20c",
-              "question": "Will the highest temperature in Milan be 20\u00b0C on April 9?",
-              "yes_price": 0.0125,
-              "volume": 2824
-            },
-            {
-              "market_id": "1871883",
-              "slug": "highest-temperature-in-milan-on-april-9-2026-19c",
-              "question": "Will the highest temperature in Milan be 19\u00b0C on April 9?",
-              "yes_price": 0.0035,
-              "volume": 3696
-            },
-            {
-              "market_id": "1871882",
-              "slug": "highest-temperature-in-milan-on-april-9-2026-18c",
-              "question": "Will the highest temperature in Milan be 18\u00b0C on April 9?",
-              "yes_price": 0.0025,
-              "volume": 3877
-            },
-            {
-              "market_id": "1871878",
-              "slug": "highest-temperature-in-milan-on-april-9-2026-14corbelow",
-              "question": "Will the highest temperature in Milan be 14\u00b0C or below on April 9?",
-              "yes_price": 0.0005,
-              "volume": 2112
-            },
-            {
-              "market_id": "1871879",
-              "slug": "highest-temperature-in-milan-on-april-9-2026-15c",
-              "question": "Will the highest temperature in Milan be 15\u00b0C on April 9?",
-              "yes_price": 0.0005,
-              "volume": 4315
-            },
-            {
-              "market_id": "1871880",
-              "slug": "highest-temperature-in-milan-on-april-9-2026-16c",
-              "question": "Will the highest temperature in Milan be 16\u00b0C on April 9?",
-              "yes_price": 0.0005,
-              "volume": 2240
-            },
-            {
-              "market_id": "1871881",
-              "slug": "highest-temperature-in-milan-on-april-9-2026-17c",
-              "question": "Will the highest temperature in Milan be 17\u00b0C on April 9?",
-              "yes_price": 0.0005,
-              "volume": 5845
-            }
-          ],
-          "url": "https://polymarket.com/event/highest-temperature-in-milan-on-april-9-2026",
-          "strategy": "Buy YES on all 11 outcomes. Total cost: $0.9015. One wins $1.00. Profit: $0.0985 (9.85%)"
-        },
-        {
           "event_title": "Montana Democratic Senate Primary Winner",
           "event_slug": "montana-democratic-senate-primary-winner",
           "yes_sum": 0.9025,
@@ -180,140 +65,70 @@
           "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9025. One wins $1.00. Profit: $0.0975 (9.75%)"
         },
         {
-          "event_title": "Perplexity IPO Closing Market Cap",
-          "event_slug": "perplexity-ipo-closing-market-cap",
-          "yes_sum": 0.9035,
-          "profit_pct": 9.65,
-          "profit_per_dollar_pct": 10.68,
-          "num_outcomes": 6,
-          "outcomes": [
-            {
-              "market_id": "1115936",
-              "slug": "will-perplexity-not-ipo-by-december-31-2027",
-              "question": "Will Perplexity not IPO by December 31, 2027?",
-              "yes_price": 0.595,
-              "volume": 104958
-            },
-            {
-              "market_id": "1115933",
-              "slug": "will-perplexitys-market-cap-be-between-80b-and-100b-at-market-close-on-ipo-day",
-              "question": "Will Perplexity\u2019s market cap be between $50B and $75B at market close on IPO day",
-              "yes_price": 0.137,
-              "volume": 6171
-            },
-            {
-              "market_id": "1115935",
-              "slug": "will-perplexitys-market-cap-be-greater-than-150b-at-market-close-on-ipo-day",
-              "question": "Will Perplexity\u2019s market cap be greater than $100B at market close on IPO day?",
-              "yes_price": 0.058,
-              "volume": 4468
-            },
-            {
-              "market_id": "1115934",
-              "slug": "will-perplexitys-market-cap-be-between-100b-and-150b-at-market-close-on-ipo-day",
-              "question": "Will Perplexity\u2019s market cap be between $75B and $100B at market close on IPO da",
-              "yes_price": 0.0455,
-              "volume": 3197
-            },
-            {
-              "market_id": "1115930",
-              "slug": "will-perplexitys-market-cap-be-between-20b-and-40b-at-market-close-on-ipo-day",
-              "question": "Will Perplexity\u2019s market cap be between $20B and $30B at market close on IPO day",
-              "yes_price": 0.035,
-              "volume": 5845
-            },
-            {
-              "market_id": "1115929",
-              "slug": "will-perplexitys-market-cap-be-less-than-20b-at-market-close-on-ipo-day",
-              "question": "Will Perplexity\u2019s market cap be less than $20B at market close on IPO day?",
-              "yes_price": 0.033,
-              "volume": 4411
-            }
-          ],
-          "url": "https://polymarket.com/event/perplexity-ipo-closing-market-cap",
-          "strategy": "Buy YES on all 6 outcomes. Total cost: $0.9035. One wins $1.00. Profit: $0.0965 (9.65%)"
-        },
-        {
-          "event_title": "XRP price on April 8?",
-          "event_slug": "xrp-price-on-april-8",
+          "event_title": "Will Titan launch a token by ___?",
+          "event_slug": "will-titan-launch-a-token-by",
           "yes_sum": 0.905,
           "profit_pct": 9.5,
           "profit_per_dollar_pct": 10.5,
-          "num_outcomes": 10,
+          "num_outcomes": 4,
           "outcomes": [
             {
-              "market_id": "1817445",
-              "slug": "will-the-price-of-xrp-be-between-1pt30-1pt40-on-april-8",
-              "question": "Will the price of XRP be between $1.30 and $1.40 on April 8?",
-              "yes_price": 0.885,
-              "volume": 2043
+              "market_id": "1038647",
+              "slug": "will-titan-launch-a-token-by-december-31-2026",
+              "question": "Will Titan launch a token by December 31, 2026?",
+              "yes_price": 0.56,
+              "volume": 19182
             },
             {
-              "market_id": "1817443",
-              "slug": "will-the-price-of-xrp-be-between-1pt20-1pt30-on-april-8",
-              "question": "Will the price of XRP be between $1.20 and $1.30 on April 8?",
-              "yes_price": 0.011,
-              "volume": 3636
+              "market_id": "1038646",
+              "slug": "will-titan-launch-a-token-by-september-30-2026",
+              "question": "Will Titan launch a token by September 30, 2026?",
+              "yes_price": 0.235,
+              "volume": 13864
             },
             {
-              "market_id": "1817449",
-              "slug": "will-the-price-of-xrp-be-between-1pt50-1pt60-on-april-8",
-              "question": "Will the price of XRP be between $1.50 and $1.60 on April 8?",
-              "yes_price": 0.0055,
-              "volume": 3115
+              "market_id": "1038645",
+              "slug": "will-titan-launch-a-token-by-june-30-2026",
+              "question": "Will Titan launch a token by June 30, 2026?",
+              "yes_price": 0.11,
+              "volume": 34164
             },
             {
-              "market_id": "1817451",
-              "slug": "will-the-price-of-xrp-be-between-1pt60-1pt70-on-april-8",
-              "question": "Will the price of XRP be between $1.60 and $1.70 on April 8?",
-              "yes_price": 0.0005,
-              "volume": 1092
-            },
-            {
-              "market_id": "1817453",
-              "slug": "will-the-price-of-xrp-be-between-1pt70-1pt80-on-april-8",
-              "question": "Will the price of XRP be between $1.70 and $1.80 on April 8?",
-              "yes_price": 0.0005,
-              "volume": 39219
-            },
-            {
-              "market_id": "1817436",
-              "slug": "will-the-price-of-xrp-be-less-than-0pt90-on-april-8",
-              "question": "Will the price of XRP be less than $0.90 on April 8?",
-              "yes_price": 0.0005,
-              "volume": 9704
-            },
-            {
-              "market_id": "1817437",
-              "slug": "will-the-price-of-xrp-be-between-0pt90-1pt00-on-april-8",
-              "question": "Will the price of XRP be between $0.90 and $1.00 on April 8?",
-              "yes_price": 0.0005,
-              "volume": 9212
-            },
-            {
-              "market_id": "1817439",
-              "slug": "will-the-price-of-xrp-be-between-1pt00-1pt10-on-april-8",
-              "question": "Will the price of XRP be between $1.00 and $1.10 on April 8?",
-              "yes_price": 0.0005,
-              "volume": 100972
-            },
-            {
-              "market_id": "1817441",
-              "slug": "will-the-price-of-xrp-be-between-1pt10-1pt20-on-april-8",
-              "question": "Will the price of XRP be between $1.10 and $1.20 on April 8?",
-              "yes_price": 0.0005,
-              "volume": 2821
-            },
-            {
-              "market_id": "1817455",
-              "slug": "will-the-price-of-xrp-be-greater-than-1pt80-on-april-8",
-              "question": "Will the price of XRP be greater than $1.80 on April 8?",
-              "yes_price": 0.0005,
-              "volume": 3693
+              "market_id": "1038644",
+              "slug": "will-titan-launch-a-token-by-march-31-2026",
+              "question": "Will Titan launch a token by March 31, 2026?",
+              "yes_price": 0.0,
+              "volume": 17815
             }
           ],
-          "url": "https://polymarket.com/event/xrp-price-on-april-8",
-          "strategy": "Buy YES on all 10 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
+          "url": "https://polymarket.com/event/will-titan-launch-a-token-by",
+          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
+        },
+        {
+          "event_title": "Hamarkameratene vs. KFUM-Kameratene Oslo - More Markets",
+          "event_slug": "nor-ham-kfu-2026-04-19-more-markets",
+          "yes_sum": 0.905,
+          "profit_pct": 9.5,
+          "profit_per_dollar_pct": 10.5,
+          "num_outcomes": 2,
+          "outcomes": [
+            {
+              "market_id": "1692169",
+              "slug": "nor-ham-kfu-2026-04-19-total-2pt5",
+              "question": "Hamarkameratene vs. KFUM-Kameratene Oslo: O/U 2.5",
+              "yes_price": 0.5,
+              "volume": 11808
+            },
+            {
+              "market_id": "1692174",
+              "slug": "nor-ham-kfu-2026-04-19-total-4pt5",
+              "question": "Hamarkameratene vs. KFUM-Kameratene Oslo: O/U 4.5",
+              "yes_price": 0.405,
+              "volume": 2740
+            }
+          ],
+          "url": "https://polymarket.com/event/nor-ham-kfu-2026-04-19-more-markets",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
         },
         {
           "event_title": "Michigan Governor Republican Primary Winner",
@@ -356,177 +171,6 @@
           "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9055. One wins $1.00. Profit: $0.0945 (9.45%)"
         },
         {
-          "event_title": "Highest grossing movie in 2026?",
-          "event_slug": "highest-grossing-movie-in-2026",
-          "yes_sum": 0.9065,
-          "profit_pct": 9.35,
-          "profit_per_dollar_pct": 10.31,
-          "num_outcomes": 14,
-          "outcomes": [
-            {
-              "market_id": "678414",
-              "slug": "will-spider-man-brand-new-day-be-the-top-grossing-movie-of-2026",
-              "question": "Will Spider-Man: Brand New Day be the top grossing movie of 2026?",
-              "yes_price": 0.375,
-              "volume": 131932
-            },
-            {
-              "market_id": "678416",
-              "slug": "will-avengers-doomsday-be-the-top-grossing-movie-of-2026",
-              "question": "Will Avengers: Doomsday be the top grossing movie of 2026?",
-              "yes_price": 0.245,
-              "volume": 196182
-            },
-            {
-              "market_id": "678419",
-              "slug": "will-movie-a-be-the-top-grossing-movie-of-2026",
-              "question": "Will The Super Mario Galaxy Movie be the top grossing movie of 2026?",
-              "yes_price": 0.135,
-              "volume": 136334
-            },
-            {
-              "market_id": "678413",
-              "slug": "will-the-odyssey-be-the-top-grossing-movie-of-2026",
-              "question": "Will The Odyssey be the top grossing movie of 2026?",
-              "yes_price": 0.0525,
-              "volume": 344586
-            },
-            {
-              "market_id": "678412",
-              "slug": "will-toy-story-5-be-the-top-grossing-movie-of-2026",
-              "question": "Will Toy Story 5 be the top grossing movie of 2026?",
-              "yes_price": 0.04,
-              "volume": 156392
-            },
-            {
-              "market_id": "678411",
-              "slug": "will-star-wars-the-mandalorian-and-grogu-be-the-top-grossing-movie-of-2026",
-              "question": "Will Star Wars: The Mandalorian and Grogu be the top grossing movie of 2026?",
-              "yes_price": 0.0145,
-              "volume": 119381
-            },
-            {
-              "market_id": "678410",
-              "slug": "will-michael-be-the-top-grossing-movie-of-2026",
-              "question": "Will Michael be the top grossing movie of 2026?",
-              "yes_price": 0.0145,
-              "volume": 584993
-            },
-            {
-              "market_id": "678417",
-              "slug": "will-dune-messiah-be-the-top-grossing-movie-of-2026",
-              "question": "Will Dune: Messiah be the top grossing movie of 2026?",
-              "yes_price": 0.011,
-              "volume": 206654
-            },
-            {
-              "market_id": "678415",
-              "slug": "will-the-hunger-games-sunrise-on-the-reaping-be-the-top-grossing-movie-of-2026",
-              "question": "Will The Hunger Games: Sunrise on the Reaping be the top grossing movie of 2026?",
-              "yes_price": 0.0035,
-              "volume": 222613
-            },
-            {
-              "market_id": "678408",
-              "slug": "will-wuthering-heights-be-the-top-grossing-movie-of-2026",
-              "question": "Will Wuthering Heights be the top grossing movie of 2026?",
-              "yes_price": 0.0035,
-              "volume": 332481
-            },
-            {
-              "market_id": "678418",
-              "slug": "will-project-hail-mary-be-the-top-grossing-movie-of-2026",
-              "question": "Will Project Hail Mary be the top grossing movie of 2026?",
-              "yes_price": 0.0035,
-              "volume": 193497
-            },
-            {
-              "market_id": "678420",
-              "slug": "will-jumanji-3-be-the-top-grossing-movie-of-2026",
-              "question": "Will Jumanji 3 be the top grossing movie of 2026?",
-              "yes_price": 0.0035,
-              "volume": 85661
-            },
-            {
-              "market_id": "678407",
-              "slug": "will-wicked-for-good-be-the-top-grossing-movie-of-2026",
-              "question": "Will Wicked: For Good be the top grossing movie of 2026?",
-              "yes_price": 0.0025,
-              "volume": 396889
-            },
-            {
-              "market_id": "678409",
-              "slug": "will-scream-7-be-the-top-grossing-movie-of-2026",
-              "question": "Will Scream 7 be the top grossing movie of 2026?",
-              "yes_price": 0.0025,
-              "volume": 110965
-            }
-          ],
-          "url": "https://polymarket.com/event/highest-grossing-movie-in-2026",
-          "strategy": "Buy YES on all 14 outcomes. Total cost: $0.9065. One wins $1.00. Profit: $0.0935 (9.35%)"
-        },
-        {
-          "event_title": "How long will Trump and Xi shake hands when they meet?",
-          "event_slug": "how-long-will-trump-and-xi-shake-hands-when-they-meet",
-          "yes_sum": 0.9065,
-          "profit_pct": 9.35,
-          "profit_per_dollar_pct": 10.31,
-          "num_outcomes": 7,
-          "outcomes": [
-            {
-              "market_id": "1363794",
-              "slug": "will-trump-and-xi-handshake-last-610-seconds-during-the-day-of-their-next-meeting-in-2026",
-              "question": "Will Trump and Xi handshake last 6\u201310 seconds during the day of their next meeti",
-              "yes_price": 0.335,
-              "volume": 3578
-            },
-            {
-              "market_id": "1363796",
-              "slug": "will-trump-and-xi-handshake-last-15-seconds-or-longer-during-the-day-of-their-next-meeting-in-2026",
-              "question": "Will Trump and Xi handshake last 15 seconds or longer during the day of their ne",
-              "yes_price": 0.18,
-              "volume": 8627
-            },
-            {
-              "market_id": "1363795",
-              "slug": "will-trump-and-xi-handshake-last-1015-seconds-during-the-day-of-their-next-meeting-in-2026",
-              "question": "Will Trump and Xi handshake last 10\u201315 seconds during the day of their next meet",
-              "yes_price": 0.175,
-              "volume": 3689
-            },
-            {
-              "market_id": "1363793",
-              "slug": "will-trump-and-xi-handshake-last-26-seconds-during-the-day-of-their-next-meeting-in-2026",
-              "question": "Will Trump and Xi handshake last 2\u20136 seconds during the day of their next meetin",
-              "yes_price": 0.13,
-              "volume": 10921
-            },
-            {
-              "market_id": "1363791",
-              "slug": "will-trump-and-xi-not-shake-hands-during-the-day-of-their-next-meeting-in-2026",
-              "question": "Will Trump and Xi not shake hands during the day of their next meeting in 2026?",
-              "yes_price": 0.0445,
-              "volume": 11386
-            },
-            {
-              "market_id": "1363792",
-              "slug": "will-trump-and-xi-handshake-last-less-than-2-seconds-during-the-day-of-their-next-meeting-in-2026",
-              "question": "Will Trump and Xi handshake last less than 2 seconds during the day of their nex",
-              "yes_price": 0.0245,
-              "volume": 13556
-            },
-            {
-              "market_id": "1363797",
-              "slug": "will-trump-and-xi-only-be-photographed-together-during-the-day-of-their-next-meeting-in-2026",
-              "question": "Will Trump and Xi only be photographed together during the day of their next mee",
-              "yes_price": 0.0175,
-              "volume": 9080
-            }
-          ],
-          "url": "https://polymarket.com/event/how-long-will-trump-and-xi-shake-hands-when-they-meet",
-          "strategy": "Buy YES on all 7 outcomes. Total cost: $0.9065. One wins $1.00. Profit: $0.0935 (9.35%)"
-        },
-        {
           "event_title": "Tennessee Governor Democratic Primary Winner",
           "event_slug": "tennessee-governor-democratic-primary-winner",
           "yes_sum": 0.907,
@@ -558,15 +202,518 @@
           ],
           "url": "https://polymarket.com/event/tennessee-governor-democratic-primary-winner",
           "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9070. One wins $1.00. Profit: $0.0930 (9.30%)"
+        },
+        {
+          "event_title": " Iran agrees to surrender enriched uranium stockpile by...?",
+          "event_slug": "iran-agrees-to-surrender-enriched-uranium-stockpile-by",
+          "yes_sum": 0.908,
+          "profit_pct": 9.2,
+          "profit_per_dollar_pct": 10.13,
+          "num_outcomes": 3,
+          "outcomes": [
+            {
+              "market_id": "1731346",
+              "slug": "iran-agrees-to-surrender-enriched-uranium-stockpile-by-december-31-2026",
+              "question": "Iran agrees to surrender enriched uranium stockpile by December 31, 2026?",
+              "yes_price": 0.405,
+              "volume": 60266
+            },
+            {
+              "market_id": "1731345",
+              "slug": "iran-agrees-to-surrender-enriched-uranium-stockpile-by-june-30-2026",
+              "question": "Iran agrees to surrender enriched uranium stockpile by June 30, 2026?",
+              "yes_price": 0.295,
+              "volume": 50195
+            },
+            {
+              "market_id": "1731344",
+              "slug": "iran-agrees-to-surrender-enriched-uranium-stockpile-by-april-30-2026",
+              "question": "Iran agrees to surrender enriched uranium stockpile by April 30, 2026?",
+              "yes_price": 0.208,
+              "volume": 106695
+            }
+          ],
+          "url": "https://polymarket.com/event/iran-agrees-to-surrender-enriched-uranium-stockpile-by",
+          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9080. One wins $1.00. Profit: $0.0920 (9.20%)"
+        },
+        {
+          "event_title": "GA-13 Democratic Primary Winner",
+          "event_slug": "ga-13-democratic-primary-winner",
+          "yes_sum": 0.91,
+          "profit_pct": 9.0,
+          "profit_per_dollar_pct": 9.89,
+          "num_outcomes": 3,
+          "outcomes": [
+            {
+              "market_id": "1653178",
+              "slug": "will-david-scott-be-the-democratic-nominee-for-ga-13",
+              "question": "Will David Scott be the Democratic nominee for GA-13?",
+              "yes_price": 0.365,
+              "volume": 1163
+            },
+            {
+              "market_id": "1653180",
+              "slug": "will-jasmine-clark-be-the-democratic-nominee-for-ga-13",
+              "question": "Will Jasmine Clark be the Democratic nominee for GA-13?",
+              "yes_price": 0.335,
+              "volume": 1571
+            },
+            {
+              "market_id": "1653179",
+              "slug": "will-everton-blair-jr-be-the-democratic-nominee-for-ga-13",
+              "question": "Will Everton Blair Jr. be the Democratic nominee for GA-13?",
+              "yes_price": 0.21,
+              "volume": 1313
+            }
+          ],
+          "url": "https://polymarket.com/event/ga-13-democratic-primary-winner",
+          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9100. One wins $1.00. Profit: $0.0900 (9.00%)"
+        },
+        {
+          "event_title": "How many different countries will Israel strike in 2026?",
+          "event_slug": "how-many-different-countries-will-israel-strike-in-2026",
+          "yes_sum": 0.912,
+          "profit_pct": 8.8,
+          "profit_per_dollar_pct": 9.65,
+          "num_outcomes": 15,
+          "outcomes": [
+            {
+              "market_id": "678747",
+              "slug": "will-israel-strike-4-countries-in-november-2025",
+              "question": "Will Israel strike 4 countries in 2026?",
+              "yes_price": 0.299,
+              "volume": 1140934
+            },
+            {
+              "market_id": "678748",
+              "slug": "will-israel-strike-5-countries-in-november-2025",
+              "question": "Will Israel strike 5 countries in 2026?",
+              "yes_price": 0.2765,
+              "volume": 492862
+            },
+            {
+              "market_id": "678746",
+              "slug": "will-israel-strike-3-countries-in-2026",
+              "question": "Will Israel strike 3 countries in 2026?",
+              "yes_price": 0.127,
+              "volume": 1897631
+            },
+            {
+              "market_id": "678749",
+              "slug": "will-israel-strike-6-countries-in-2026",
+              "question": "Will Israel strike 6 countries in 2026?",
+              "yes_price": 0.1145,
+              "volume": 626722
+            },
+            {
+              "market_id": "678750",
+              "slug": "will-israel-strike-7-countries-in-2026",
+              "question": "Will Israel strike 7 countries in 2026?",
+              "yes_price": 0.0365,
+              "volume": 585217
+            },
+            {
+              "market_id": "678751",
+              "slug": "will-israel-strike-8-countries-in-2026",
+              "question": "Will Israel strike 8 countries in 2026?",
+              "yes_price": 0.016,
+              "volume": 499764
+            },
+            {
+              "market_id": "678753",
+              "slug": "will-israel-strike-10-countries-in-2026",
+              "question": "Will Israel strike 10 countries in 2026?",
+              "yes_price": 0.0145,
+              "volume": 375859
+            },
+            {
+              "market_id": "678752",
+              "slug": "will-israel-strike-9-countries-in-2026",
+              "question": "Will Israel strike 9 countries in 2026?",
+              "yes_price": 0.014,
+              "volume": 199227
+            },
+            {
+              "market_id": "678754",
+              "slug": "will-israel-strike-11-countries-in-2026",
+              "question": "Will Israel strike 11 countries in 2026?",
+              "yes_price": 0.006,
+              "volume": 89994
+            },
+            {
+              "market_id": "678755",
+              "slug": "will-israel-strike-12-countries-in-2026",
+              "question": "Will Israel strike 12 countries in 2026?",
+              "yes_price": 0.0035,
+              "volume": 61706
+            },
+            {
+              "market_id": "678756",
+              "slug": "will-israel-strike-13-countries-in-2026",
+              "question": "Will Israel strike 13 countries in 2026?",
+              "yes_price": 0.0015,
+              "volume": 133631
+            },
+            {
+              "market_id": "678757",
+              "slug": "will-israel-strike-14-countries-in-2026",
+              "question": "Will Israel strike 14 countries in 2026?",
+              "yes_price": 0.0015,
+              "volume": 100687
+            },
+            {
+              "market_id": "678758",
+              "slug": "will-israel-strike-15-or-more-countries-in-2026",
+              "question": "Will Israel strike 15 or more countries in 2026?",
+              "yes_price": 0.0015,
+              "volume": 35678
+            },
+            {
+              "market_id": "678743",
+              "slug": "will-israel-strike-0-countries-in-2026",
+              "question": "Will Israel strike 0 countries in 2026?",
+              "yes_price": 0.0,
+              "volume": 38308
+            },
+            {
+              "market_id": "678744",
+              "slug": "will-israel-strike-1-country-in-2026",
+              "question": "Will Israel strike 1 country in 2026?",
+              "yes_price": 0.0,
+              "volume": 87273
+            }
+          ],
+          "url": "https://polymarket.com/event/how-many-different-countries-will-israel-strike-in-2026",
+          "strategy": "Buy YES on all 15 outcomes. Total cost: $0.9120. One wins $1.00. Profit: $0.0880 (8.80%)"
+        },
+        {
+          "event_title": "Democratic Presidential Nominee 2028",
+          "event_slug": "democratic-presidential-nominee-2028",
+          "yes_sum": 0.9135,
+          "profit_pct": 8.65,
+          "profit_per_dollar_pct": 9.47,
+          "num_outcomes": 44,
+          "outcomes": [
+            {
+              "market_id": "559652",
+              "slug": "will-gavin-newsom-win-the-2028-democratic-presidential-nomination-568",
+              "question": "Will Gavin Newsom win the 2028 Democratic presidential nomination?",
+              "yes_price": 0.268,
+              "volume": 20440043
+            },
+            {
+              "market_id": "559653",
+              "slug": "will-alexandria-ocasio-cortez-win-the-2028-democratic-presidential-nomination-653",
+              "question": "Will Alexandria Ocasio-Cortez win the 2028 Democratic presidential nomination?",
+              "yes_price": 0.0825,
+              "volume": 9607575
+            },
+            {
+              "market_id": "559661",
+              "slug": "will-jon-ossoff-win-the-2028-democratic-presidential-nomination-885",
+              "question": "Will Jon Ossoff win the 2028 Democratic presidential nomination?",
+              "yes_price": 0.0575,
+              "volume": 7698734
+            },
+            {
+              "market_id": "559658",
+              "slug": "will-kamala-harris-win-the-2028-democratic-presidential-nomination-641",
+              "question": "Will Kamala Harris win the 2028 Democratic presidential nomination?",
+              "yes_price": 0.0425,
+              "volume": 9196626
+            },
+            {
+              "market_id": "559655",
+              "slug": "will-josh-shapiro-win-the-2028-democratic-presidential-nomination-977",
+              "question": "Will Josh Shapiro win the 2028 Democratic presidential nomination?",
+              "yes_price": 0.0365,
+              "volume": 6408047
+            },
+            {
+              "market_id": "559654",
+              "slug": "will-pete-buttigieg-win-the-2028-democratic-presidential-nomination-687",
+              "question": "Will Pete Buttigieg win the 2028 Democratic presidential nomination?",
+              "yes_price": 0.0355,
+              "volume": 9816442
+            },
+            {
+              "market_id": "559675",
+              "slug": "will-jon-stewart-win-the-2028-democratic-presidential-nomination-518",
+              "question": "Will Jon Stewart win the 2028 Democratic presidential nomination?",
+              "yes_price": 0.022,
+              "volume": 14381461
+            },
+            {
+              "market_id": "559663",
+              "slug": "will-jb-pritzker-win-the-2028-democratic-presidential-nomination-288",
+              "question": "Will J.B. Pritzker win the 2028 Democratic presidential nomination?",
+              "yes_price": 0.0215,
+              "volume": 12998745
+            },
+            {
+              "market_id": "559695",
+              "slug": "will-james-talarico-win-the-2028-democratic-presidential-nomination",
+              "question": "Will James Talarico win the 2028 Democratic presidential nomination?",
+              "yes_price": 0.0205,
+              "volume": 6805790
+            },
+            {
+              "market_id": "559660",
+              "slug": "will-andy-beshear-win-the-2028-democratic-presidential-nomination-832",
+              "question": "Will Andy Beshear win the 2028 Democratic presidential nomination?",
+              "yes_price": 0.019,
+              "volume": 8919545
+            },
+            {
+              "market_id": "559668",
+              "slug": "will-mark-kelly-win-the-2028-democratic-presidential-nomination-479",
+              "question": "Will Mark Kelly win the 2028 Democratic presidential nomination?",
+              "yes_price": 0.0175,
+              "volume": 12434868
+            },
+            {
+              "market_id": "559694",
+              "slug": "will-ro-khanna-win-the-2028-democratic-presidential-nomination",
+              "question": "Will Ro Khanna win the 2028 Democratic presidential nomination?",
+              "yes_price": 0.016,
+              "volume": 7205076
+            },
+            {
+              "market_id": "559667",
+              "slug": "will-michelle-obama-win-the-2028-democratic-presidential-nomination-777",
+              "question": "Will Michelle Obama win the 2028 Democratic presidential nomination?",
+              "yes_price": 0.0135,
+              "volume": 22270678
+            },
+            {
+              "market_id": "559659",
+              "slug": "will-gretchen-whitmer-win-the-2028-democratic-presidential-nomination-676",
+              "question": "Will Gretchen Whitmer win the 2028 Democratic presidential nomination?",
+              "yes_price": 0.0125,
+              "volume": 7519177
+            },
+            {
+              "market_id": "559693",
+              "slug": "will-ruben-gallego-win-the-2028-democratic-presidential-nomination",
+              "question": "Will Ruben Gallego win the 2028 Democratic presidential nomination?",
+              "yes_price": 0.0125,
+              "volume": 3848538
+            },
+            {
+              "market_id": "559657",
+              "slug": "will-stephen-a-smith-win-the-2028-democratic-presidential-nomination-914",
+              "question": "Will Stephen A. Smith win the 2028 Democratic presidential nomination?",
+              "yes_price": 0.012,
+              "volume": 16607152
+            },
+            {
+              "market_id": "559656",
+              "slug": "will-wes-moore-win-the-2028-democratic-presidential-nomination-714",
+              "question": "Will Wes Moore win the 2028 Democratic presidential nomination?",
+              "yes_price": 0.012,
+              "volume": 13970994
+            },
+            {
+              "market_id": "559673",
+              "slug": "will-john-fetterman-win-the-2028-democratic-presidential-nomination-941",
+              "question": "Will John Fetterman win the 2028 Democratic presidential nomination?",
+              "yes_price": 0.0115,
+              "volume": 17388653
+            },
+            {
+              "market_id": "559665",
+              "slug": "will-corey-booker-win-the-2028-democratic-presidential-nomination-125",
+              "question": "Will Cory Booker win the 2028 Democratic presidential nomination?",
+              "yes_price": 0.0105,
+              "volume": 21723982
+            },
+            {
+              "market_id": "559662",
+              "slug": "will-mark-cuban-win-the-2028-democratic-presidential-nomination-329",
+              "question": "Will Mark Cuban win the 2028 Democratic presidential nomination?",
+              "yes_price": 0.0105,
+              "volume": 18201609
+            },
+            {
+              "market_id": "559686",
+              "slug": "will-dwayne-the-rock-johnson-win-the-2028-democratic-presidential-nomination",
+              "question": "Will Dwayne 'The Rock' Johnson win the 2028 Democratic presidential nomination?",
+              "yes_price": 0.0105,
+              "volume": 9502265
+            },
+            {
+              "market_id": "559687",
+              "slug": "will-oprah-winfrey-win-the-2028-democratic-presidential-nomination",
+              "question": "Will Oprah Winfrey win the 2028 Democratic presidential nomination?",
+              "yes_price": 0.0095,
+              "volume": 44151192
+            },
+            {
+              "market_id": "559669",
+              "slug": "will-rahm-emanuel-win-the-2028-democratic-presidential-nomination-299",
+              "question": "Will Rahm Emanuel win the 2028 Democratic presidential nomination?",
+              "yes_price": 0.009,
+              "volume": 11604013
+            },
+            {
+              "market_id": "559678",
+              "slug": "will-liz-cheney-win-the-2028-democratic-presidential-nomination-551",
+              "question": "Will Liz Cheney win the 2028 Democratic presidential nomination?",
+              "yes_price": 0.0085,
+              "volume": 33933530
+            },
+            {
+              "market_id": "559684",
+              "slug": "will-chelsea-clinton-win-the-2028-democratic-presidential-nomination",
+              "question": "Will Chelsea Clinton win the 2028 Democratic presidential nomination?",
+              "yes_price": 0.0085,
+              "volume": 45224169
+            },
+            {
+              "market_id": "559691",
+              "slug": "will-chris-murphy-win-the-2028-democratic-presidential-nomination",
+              "question": "Will Chris Murphy win the 2028 Democratic presidential nomination?",
+              "yes_price": 0.0085,
+              "volume": 11749037
+            },
+            {
+              "market_id": "559672",
+              "slug": "will-roy-cooper-win-the-2028-democratic-presidential-nomination-286",
+              "question": "Will Roy Cooper win the 2028 Democratic presidential nomination?",
+              "yes_price": 0.0085,
+              "volume": 26065445
+            },
+            {
+              "market_id": "559664",
+              "slug": "will-raphael-warnock-win-the-2028-democratic-presidential-nomination-914",
+              "question": "Will Raphael Warnock win the 2028 Democratic presidential nomination?",
+              "yes_price": 0.0075,
+              "volume": 26609503
+            },
+            {
+              "market_id": "559676",
+              "slug": "will-barack-obama-win-the-2028-democratic-presidential-nomination-265",
+              "question": "Will Barack Obama win the 2028 Democratic presidential nomination?",
+              "yes_price": 0.0075,
+              "volume": 27630825
+            },
+            {
+              "market_id": "559683",
+              "slug": "will-george-clooney-win-the-2028-democratic-presidential-nomination",
+              "question": "Will George Clooney win the 2028 Democratic presidential nomination?",
+              "yes_price": 0.0075,
+              "volume": 37799794
+            },
+            {
+              "market_id": "559666",
+              "slug": "will-tim-walz-win-the-2028-democratic-presidential-nomination-475",
+              "question": "Will Tim Walz win the 2028 Democratic presidential nomination?",
+              "yes_price": 0.0075,
+              "volume": 37566237
+            },
+            {
+              "market_id": "559671",
+              "slug": "will-zohran-mamdani-win-the-2028-democratic-presidential-nomination-445",
+              "question": "Will Zohran Mamdani win the 2028 Democratic presidential nomination?",
+              "yes_price": 0.0075,
+              "volume": 33724519
+            },
+            {
+              "market_id": "559688",
+              "slug": "will-andrew-yang-win-the-2028-democratic-presidential-nomination",
+              "question": "Will Andrew Yang win the 2028 Democratic presidential nomination?",
+              "yes_price": 0.0075,
+              "volume": 43159970
+            },
+            {
+              "market_id": "559681",
+              "slug": "will-lebron-james-win-the-2028-democratic-presidential-nomination",
+              "question": "Will LeBron James win the 2028 Democratic presidential nomination?",
+              "yes_price": 0.0075,
+              "volume": 39212332
+            },
+            {
+              "market_id": "559685",
+              "slug": "will-mrbeast-win-the-2028-democratic-presidential-nomination",
+              "question": "Will MrBeast win the 2028 Democratic presidential nomination?",
+              "yes_price": 0.0075,
+              "volume": 35863232
+            },
+            {
+              "market_id": "559677",
+              "slug": "will-hillary-clinton-win-the-2028-democratic-presidential-nomination",
+              "question": "Will Hillary Clinton win the 2028 Democratic presidential nomination?",
+              "yes_price": 0.0075,
+              "volume": 38507192
+            },
+            {
+              "market_id": "559670",
+              "slug": "will-gina-raimondo-win-the-2028-democratic-presidential-nomination-676",
+              "question": "Will Gina Raimondo win the 2028 Democratic presidential nomination?",
+              "yes_price": 0.0065,
+              "volume": 28877889
+            },
+            {
+              "market_id": "559689",
+              "slug": "will-beto-orourke-win-the-2028-democratic-presidential-nomination",
+              "question": "Will Beto O\u2019Rourke win the 2028 Democratic presidential nomination?",
+              "yes_price": 0.0065,
+              "volume": 35465787
+            },
+            {
+              "market_id": "559690",
+              "slug": "will-kim-kardashian-win-the-2028-democratic-presidential-nomination",
+              "question": "Will Kim Kardashian win the 2028 Democratic presidential nomination?",
+              "yes_price": 0.0065,
+              "volume": 34304428
+            },
+            {
+              "market_id": "559674",
+              "slug": "will-jared-polis-win-the-2028-democratic-presidential-nomination-837",
+              "question": "Will Jared Polis win the 2028 Democratic presidential nomination?",
+              "yes_price": 0.0065,
+              "volume": 21085776
+            },
+            {
+              "market_id": "559680",
+              "slug": "will-phil-murphy-win-the-2028-democratic-presidential-nomination-611",
+              "question": "Will Phil Murphy win the 2028 Democratic presidential nomination?",
+              "yes_price": 0.0065,
+              "volume": 36326228
+            },
+            {
+              "market_id": "559679",
+              "slug": "will-bernie-sanders-win-the-2028-democratic-presidential-nomination-879",
+              "question": "Will Bernie Sanders win the 2028 Democratic presidential nomination?",
+              "yes_price": 0.0055,
+              "volume": 40818861
+            },
+            {
+              "market_id": "559682",
+              "slug": "will-person-a-win-the-2028-democratic-presidential-nomination",
+              "question": "Will Hunter Biden win the 2028 Democratic presidential nomination?",
+              "yes_price": 0.0055,
+              "volume": 33071508
+            },
+            {
+              "market_id": "559692",
+              "slug": "will-jasmine-crockett-win-the-2028-democratic-presidential-nomination",
+              "question": "Will Jasmine Crockett win the 2028 Democratic presidential nomination?",
+              "yes_price": 0.0055,
+              "volume": 26078382
+            }
+          ],
+          "url": "https://polymarket.com/event/democratic-presidential-nominee-2028",
+          "strategy": "Buy YES on all 44 outcomes. Total cost: $0.9135. One wins $1.00. Profit: $0.0865 (8.65%)"
         }
       ],
       "stats": {
         "total_events": 3000,
-        "checked_multi_outcome": 1856,
-        "skipped_single_outcome": 582,
-        "opportunities_found": 131,
+        "checked_multi_outcome": 1860,
+        "skipped_single_outcome": 587,
+        "opportunities_found": 123,
         "best_profit_pct": 10.0,
-        "scanned_at": "2026-04-08 12:16 UTC"
+        "scanned_at": "2026-04-08 13:13 UTC"
       }
     },
     {
