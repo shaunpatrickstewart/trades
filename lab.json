@@ -8,306 +8,411 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 384 categorical arb opportunities found\nScanned 3000 events (1844 multi-outcome) at 2026-04-08 01:03 UTC\nBest: 50.0% profit on 'Counter-Strike: Sangal ALTERS vs Imperial Academy (BO3) - United21 Group C' \u2014 buy YES on all 2 outcomes (sum=0.5)\nStrategy: Buy YES on all 2 outcomes. Total cost: $0.5000. One wins $1.00. Profit: $0.5000 (50.00%)\n2nd: 50.0% on 'Who will be the first substitute White House Press Secretary?'",
+      "result": "LIVE \u2014 216 categorical arb opportunities found\nScanned 3000 events (1836 multi-outcome) at 2026-04-08 01:05 UTC\nBest: 20.0% profit on 'UFC 327: Johnny Walker vs. Dominick Reyes (Light Heavyweight, Main Card)' \u2014 buy YES on all 2 outcomes (sum=0.8)\nStrategy: Buy YES on all 2 outcomes. Total cost: $0.8000. One wins $1.00. Profit: $0.2000 (20.00%)\n2nd: 19.6% on 'Highest temperature in NYC on April 9?'",
       "priority": "HIGH",
-      "last_scan": "2026-04-08 01:03 UTC",
+      "last_scan": "2026-04-08 01:05 UTC",
       "opportunities": [
         {
-          "event_title": "Counter-Strike: Sangal ALTERS vs Imperial Academy (BO3) - United21 Group C",
-          "event_slug": "cs2-sng-imperi-2026-03-12",
-          "yes_sum": 0.5,
-          "profit_pct": 50.0,
-          "profit_per_dollar_pct": 100.0,
+          "event_title": "UFC 327: Johnny Walker vs. Dominick Reyes (Light Heavyweight, Main Card)",
+          "event_slug": "ufc-joh-dom-2026-04-11",
+          "yes_sum": 0.8,
+          "profit_pct": 20.0,
+          "profit_per_dollar_pct": 25.0,
           "num_outcomes": 2,
           "outcomes": [
             {
-              "market_id": "1550203",
-              "slug": "cs2-sng-imperi-2026-03-12-game3-odd-even-total-rounds",
-              "question": "Map 3: Odd/Even Total Rounds?",
-              "yes_price": 0.5,
-              "volume": 99068
+              "market_id": "1721327",
+              "slug": "ufc-joh-dom-2026-04-11",
+              "question": "UFC 327: Johnny Walker vs. Dominick Reyes (Light Heavyweight, Main Card)",
+              "yes_price": 0.445,
+              "volume": 2088
             },
             {
-              "market_id": "1550193",
-              "slug": "cs2-sng-imperi-2026-03-12",
-              "question": "Counter-Strike: Sangal ALTERS vs Imperial Academy (BO3) - United21 Group C",
-              "yes_price": 0.0,
-              "volume": 6127
+              "market_id": "1721334",
+              "slug": "ufc-joh-dom-2026-04-11-totals-1pt5",
+              "question": "O/U 1.5 Rounds",
+              "yes_price": 0.355,
+              "volume": 2024
             }
           ],
-          "url": "https://polymarket.com/event/cs2-sng-imperi-2026-03-12",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.5000. One wins $1.00. Profit: $0.5000 (50.00%)"
+          "url": "https://polymarket.com/event/ufc-joh-dom-2026-04-11",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.8000. One wins $1.00. Profit: $0.2000 (20.00%)"
         },
         {
-          "event_title": "Who will be the first substitute White House Press Secretary?",
-          "event_slug": "who-will-be-the-first-substitute-white-house-press-secretary",
-          "yes_sum": 0.5,
-          "profit_pct": 50.0,
-          "profit_per_dollar_pct": 100.0,
-          "num_outcomes": 4,
+          "event_title": "Highest temperature in NYC on April 9?",
+          "event_slug": "highest-temperature-in-nyc-on-april-9-2026",
+          "yes_sum": 0.804,
+          "profit_pct": 19.6,
+          "profit_per_dollar_pct": 24.38,
+          "num_outcomes": 9,
           "outcomes": [
             {
-              "market_id": "1849757",
-              "slug": "will-linda-mcmahon-be-the-first-substitute-white-house-press-secretary-632",
-              "question": "Will Linda McMahon be the first substitute White House Press Secretary?",
-              "yes_price": 0.165,
-              "volume": 2878
+              "market_id": "1871706",
+              "slug": "highest-temperature-in-nyc-on-april-9-2026-50-51f",
+              "question": "Will the highest temperature in New York City be between 50-51\u00b0F on April 9?",
+              "yes_price": 0.26,
+              "volume": 1344
             },
             {
-              "market_id": "1849752",
-              "slug": "will-stephen-miller-be-the-first-substitute-white-house-press-secretary-389",
-              "question": "Will Stephen Miller be the first substitute White House Press Secretary?",
-              "yes_price": 0.125,
+              "market_id": "1871705",
+              "slug": "highest-temperature-in-nyc-on-april-9-2026-48-49f",
+              "question": "Will the highest temperature in New York City be between 48-49\u00b0F on April 9?",
+              "yes_price": 0.22,
+              "volume": 1090
+            },
+            {
+              "market_id": "1871707",
+              "slug": "highest-temperature-in-nyc-on-april-9-2026-52-53f",
+              "question": "Will the highest temperature in New York City be between 52-53\u00b0F on April 9?",
+              "yes_price": 0.21,
+              "volume": 1276
+            },
+            {
+              "market_id": "1871709",
+              "slug": "highest-temperature-in-nyc-on-april-9-2026-56-57f",
+              "question": "Will the highest temperature in New York City be between 56-57\u00b0F on April 9?",
+              "yes_price": 0.0445,
               "volume": 1485
             },
             {
-              "market_id": "1849750",
-              "slug": "will-marco-rubio-be-the-first-substitute-white-house-press-secretary",
-              "question": "Will Marco Rubio be the first substitute White House Press Secretary?",
+              "market_id": "1871703",
+              "slug": "highest-temperature-in-nyc-on-april-9-2026-45forbelow",
+              "question": "Will the highest temperature in New York City be 45\u00b0F or below on April 9?",
+              "yes_price": 0.025,
+              "volume": 5564
+            },
+            {
+              "market_id": "1871710",
+              "slug": "highest-temperature-in-nyc-on-april-9-2026-58-59f",
+              "question": "Will the highest temperature in New York City be between 58-59\u00b0F on April 9?",
+              "yes_price": 0.025,
+              "volume": 1121
+            },
+            {
+              "market_id": "1871711",
+              "slug": "highest-temperature-in-nyc-on-april-9-2026-60-61f",
+              "question": "Will the highest temperature in New York City be between 60-61\u00b0F on April 9?",
+              "yes_price": 0.009,
+              "volume": 2300
+            },
+            {
+              "market_id": "1871712",
+              "slug": "highest-temperature-in-nyc-on-april-9-2026-62-63f",
+              "question": "Will the highest temperature in New York City be between 62-63\u00b0F on April 9?",
+              "yes_price": 0.0065,
+              "volume": 1308
+            },
+            {
+              "market_id": "1871713",
+              "slug": "highest-temperature-in-nyc-on-april-9-2026-64forhigher",
+              "question": "Will the highest temperature in New York City be 64\u00b0F or higher on April 9?",
+              "yes_price": 0.004,
+              "volume": 1446
+            }
+          ],
+          "url": "https://polymarket.com/event/highest-temperature-in-nyc-on-april-9-2026",
+          "strategy": "Buy YES on all 9 outcomes. Total cost: $0.8040. One wins $1.00. Profit: $0.1960 (19.60%)"
+        },
+        {
+          "event_title": "Kristiansund BK vs. Fredrikstad FK",
+          "event_slug": "nor-kbk-ffk-2026-04-19",
+          "yes_sum": 0.805,
+          "profit_pct": 19.5,
+          "profit_per_dollar_pct": 24.22,
+          "num_outcomes": 2,
+          "outcomes": [
+            {
+              "market_id": "1685290",
+              "slug": "nor-kbk-ffk-2026-04-19-ffk",
+              "question": "Will Fredrikstad FK win on 2026-04-19?",
+              "yes_price": 0.405,
+              "volume": 2979
+            },
+            {
+              "market_id": "1685289",
+              "slug": "nor-kbk-ffk-2026-04-19-draw",
+              "question": "Will Kristiansund BK vs. Fredrikstad FK end in a draw?",
+              "yes_price": 0.4,
+              "volume": 3420
+            }
+          ],
+          "url": "https://polymarket.com/event/nor-kbk-ffk-2026-04-19",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.8050. One wins $1.00. Profit: $0.1950 (19.50%)"
+        },
+        {
+          "event_title": "Highest temperature in Istanbul on April 8?",
+          "event_slug": "highest-temperature-in-istanbul-on-april-8-2026",
+          "yes_sum": 0.8055,
+          "profit_pct": 19.45,
+          "profit_per_dollar_pct": 24.15,
+          "num_outcomes": 10,
+          "outcomes": [
+            {
+              "market_id": "1854868",
+              "slug": "highest-temperature-in-istanbul-on-april-8-2026-15c",
+              "question": "Will the highest temperature in Istanbul be 15\u00b0C on April 8?",
+              "yes_price": 0.36,
+              "volume": 1097
+            },
+            {
+              "market_id": "1854866",
+              "slug": "highest-temperature-in-istanbul-on-april-8-2026-13c",
+              "question": "Will the highest temperature in Istanbul be 13\u00b0C on April 8?",
+              "yes_price": 0.225,
+              "volume": 1153
+            },
+            {
+              "market_id": "1854869",
+              "slug": "highest-temperature-in-istanbul-on-april-8-2026-16c",
+              "question": "Will the highest temperature in Istanbul be 16\u00b0C on April 8?",
+              "yes_price": 0.085,
+              "volume": 1700
+            },
+            {
+              "market_id": "1854865",
+              "slug": "highest-temperature-in-istanbul-on-april-8-2026-12c",
+              "question": "Will the highest temperature in Istanbul be 12\u00b0C on April 8?",
+              "yes_price": 0.046,
+              "volume": 2434
+            },
+            {
+              "market_id": "1854870",
+              "slug": "highest-temperature-in-istanbul-on-april-8-2026-17c",
+              "question": "Will the highest temperature in Istanbul be 17\u00b0C on April 8?",
+              "yes_price": 0.036,
+              "volume": 1241
+            },
+            {
+              "market_id": "1854871",
+              "slug": "highest-temperature-in-istanbul-on-april-8-2026-18c",
+              "question": "Will the highest temperature in Istanbul be 18\u00b0C on April 8?",
+              "yes_price": 0.029,
+              "volume": 1753
+            },
+            {
+              "market_id": "1854864",
+              "slug": "highest-temperature-in-istanbul-on-april-8-2026-11c",
+              "question": "Will the highest temperature in Istanbul be 11\u00b0C on April 8?",
+              "yes_price": 0.02,
+              "volume": 2407
+            },
+            {
+              "market_id": "1854872",
+              "slug": "highest-temperature-in-istanbul-on-april-8-2026-19corhigher",
+              "question": "Will the highest temperature in Istanbul be 19\u00b0C or higher on April 8?",
+              "yes_price": 0.0035,
+              "volume": 1538
+            },
+            {
+              "market_id": "1854862",
+              "slug": "highest-temperature-in-istanbul-on-april-8-2026-9corbelow",
+              "question": "Will the highest temperature in Istanbul be 9\u00b0C or below on April 8?",
+              "yes_price": 0.0005,
+              "volume": 1789
+            },
+            {
+              "market_id": "1854863",
+              "slug": "highest-temperature-in-istanbul-on-april-8-2026-10c",
+              "question": "Will the highest temperature in Istanbul be 10\u00b0C on April 8?",
+              "yes_price": 0.0005,
+              "volume": 3000
+            }
+          ],
+          "url": "https://polymarket.com/event/highest-temperature-in-istanbul-on-april-8-2026",
+          "strategy": "Buy YES on all 10 outcomes. Total cost: $0.8055. One wins $1.00. Profit: $0.1945 (19.45%)"
+        },
+        {
+          "event_title": "Fortaleza CEIF vs. \u00c1guilas Doradas Rionegro - More Markets",
+          "event_slug": "col1-foc-gdr-2026-04-18-more-markets",
+          "yes_sum": 0.81,
+          "profit_pct": 19.0,
+          "profit_per_dollar_pct": 23.46,
+          "num_outcomes": 2,
+          "outcomes": [
+            {
+              "market_id": "1690814",
+              "slug": "col1-foc-gdr-2026-04-18-total-3pt5",
+              "question": "Fortaleza CEIF vs. \u00c1guilas Doradas Rionegro: O/U 3.5",
+              "yes_price": 0.41,
+              "volume": 2969
+            },
+            {
+              "market_id": "1690805",
+              "slug": "col1-foc-gdr-2026-04-18-spread-home-2pt5",
+              "question": "Spread: Fortaleza CEIF (-2.5)",
+              "yes_price": 0.4,
+              "volume": 11553
+            }
+          ],
+          "url": "https://polymarket.com/event/col1-foc-gdr-2026-04-18-more-markets",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.8100. One wins $1.00. Profit: $0.1900 (19.00%)"
+        },
+        {
+          "event_title": "AS Roma vs. Pisa SC",
+          "event_slug": "sea-rom-pis-2026-04-10",
+          "yes_sum": 0.81,
+          "profit_pct": 19.0,
+          "profit_per_dollar_pct": 23.46,
+          "num_outcomes": 2,
+          "outcomes": [
+            {
+              "market_id": "1749495",
+              "slug": "sea-rom-pis-2026-04-10-rom",
+              "question": "Will AS Roma win on 2026-04-10?",
+              "yes_price": 0.725,
+              "volume": 6711
+            },
+            {
+              "market_id": "1749497",
+              "slug": "sea-rom-pis-2026-04-10-pis",
+              "question": "Will Pisa SC win on 2026-04-10?",
+              "yes_price": 0.085,
+              "volume": 4605
+            }
+          ],
+          "url": "https://polymarket.com/event/sea-rom-pis-2026-04-10",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.8100. One wins $1.00. Profit: $0.1900 (19.00%)"
+        },
+        {
+          "event_title": "Arsenal FC vs. Sporting CP",
+          "event_slug": "ucl-ars-spo1-2026-04-15",
+          "yes_sum": 0.81,
+          "profit_pct": 19.0,
+          "profit_per_dollar_pct": 23.46,
+          "num_outcomes": 2,
+          "outcomes": [
+            {
+              "market_id": "1832719",
+              "slug": "ucl-ars-spo1-2026-04-15-ars",
+              "question": "Will Arsenal FC win on 2026-04-15?",
+              "yes_price": 0.695,
+              "volume": 4955
+            },
+            {
+              "market_id": "1832721",
+              "slug": "ucl-ars-spo1-2026-04-15-spo1",
+              "question": "Will Sporting CP win on 2026-04-15?",
               "yes_price": 0.115,
-              "volume": 1099
-            },
-            {
-              "market_id": "1849765",
-              "slug": "will-jd-vance-be-the-first-substitute-white-house-press-secretary-283",
-              "question": "Will JD Vance be the first substitute White House Press Secretary?",
-              "yes_price": 0.095,
-              "volume": 1372
+              "volume": 3397
             }
           ],
-          "url": "https://polymarket.com/event/who-will-be-the-first-substitute-white-house-press-secretary",
-          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.5000. One wins $1.00. Profit: $0.5000 (50.00%)"
+          "url": "https://polymarket.com/event/ucl-ars-spo1-2026-04-15",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.8100. One wins $1.00. Profit: $0.1900 (19.00%)"
         },
         {
-          "event_title": "Which company has the best Math AI model end of April?",
-          "event_slug": "which-company-has-the-best-math-ai-model-end-of-april",
-          "yes_sum": 0.5,
-          "profit_pct": 50.0,
-          "profit_per_dollar_pct": 100.0,
-          "num_outcomes": 2,
-          "outcomes": [
-            {
-              "market_id": "1820622",
-              "slug": "will-anthropic-have-the-best-math-ai-model-at-the-end-of-april-2026",
-              "question": "Will Anthropic have the best Math AI model at the end of April 2026?",
-              "yes_price": 0.435,
-              "volume": 1180
-            },
-            {
-              "market_id": "1820633",
-              "slug": "will-deepseek-have-the-best-math-ai-model-at-the-end-of-april-2026",
-              "question": "Will DeepSeek have the best Math AI model at the end of April 2026?",
-              "yes_price": 0.065,
-              "volume": 1159
-            }
-          ],
-          "url": "https://polymarket.com/event/which-company-has-the-best-math-ai-model-end-of-april",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.5000. One wins $1.00. Profit: $0.5000 (50.00%)"
-        },
-        {
-          "event_title": "Atlanta United FC vs. Nashville SC - More Markets",
-          "event_slug": "mls-atl-nas-2026-04-18-more-markets",
-          "yes_sum": 0.505,
-          "profit_pct": 49.5,
-          "profit_per_dollar_pct": 98.02,
-          "num_outcomes": 2,
-          "outcomes": [
-            {
-              "market_id": "1684198",
-              "slug": "mls-atl-nas-2026-04-18-spread-away-1pt5",
-              "question": "Spread: Nashville SC (-1.5)",
-              "yes_price": 0.29,
-              "volume": 6282
-            },
-            {
-              "market_id": "1684200",
-              "slug": "mls-atl-nas-2026-04-18-spread-away-2pt5",
-              "question": "Spread: Nashville SC (-2.5)",
-              "yes_price": 0.215,
-              "volume": 10894
-            }
-          ],
-          "url": "https://polymarket.com/event/mls-atl-nas-2026-04-18-more-markets",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.5050. One wins $1.00. Profit: $0.4950 (49.50%)"
-        },
-        {
-          "event_title": "Vermont Governor Democratic Primary Winner",
-          "event_slug": "vermont-governor-democratic-primary-winner",
-          "yes_sum": 0.5275,
-          "profit_pct": 47.25,
-          "profit_per_dollar_pct": 89.57,
+          "event_title": "Will a coin launched in 2026 end the year in the top ___?",
+          "event_slug": "will-a-coin-launched-in-2026-end-the-year-in-the-top",
+          "yes_sum": 0.8125,
+          "profit_pct": 18.75,
+          "profit_per_dollar_pct": 23.08,
           "num_outcomes": 3,
           "outcomes": [
             {
-              "market_id": "907475",
-              "slug": "will-charity-clark-win-the-2026-vermont-governor-democratic-primary-election",
-              "question": "Will Charity Clark win the 2026 Vermont Governor Democratic primary election?",
-              "yes_price": 0.265,
-              "volume": 45258
+              "market_id": "1091106",
+              "slug": "will-a-coin-launched-in-2026-end-the-year-in-the-top-20",
+              "question": "Will a coin launched in 2026 end the year in the top 20?",
+              "yes_price": 0.555,
+              "volume": 3227
             },
             {
-              "market_id": "907476",
-              "slug": "will-mike-pieciak-win-the-2026-vermont-governor-democratic-primary-election",
-              "question": "Will Mike Pieciak win the 2026 Vermont Governor Democratic primary election?",
-              "yes_price": 0.245,
-              "volume": 2082
+              "market_id": "1091107",
+              "slug": "will-a-coin-launched-in-2026-end-the-year-in-the-top-10",
+              "question": "Will a coin launched in 2026 end the year in the top 10?",
+              "yes_price": 0.17,
+              "volume": 9389
             },
             {
-              "market_id": "907477",
-              "slug": "will-esther-charlestin-win-the-2026-vermont-governor-democratic-primary-election",
-              "question": "Will Esther Charlestin win the 2026 Vermont Governor Democratic primary election",
-              "yes_price": 0.0175,
-              "volume": 5456
+              "market_id": "1091108",
+              "slug": "will-a-coin-launched-in-2026-end-the-year-in-the-top-5",
+              "question": "Will a coin launched in 2026 end the year in the top 5?",
+              "yes_price": 0.0875,
+              "volume": 2656
             }
           ],
-          "url": "https://polymarket.com/event/vermont-governor-democratic-primary-winner",
-          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.5275. One wins $1.00. Profit: $0.4725 (47.25%)"
+          "url": "https://polymarket.com/event/will-a-coin-launched-in-2026-end-the-year-in-the-top",
+          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.8125. One wins $1.00. Profit: $0.1875 (18.75%)"
         },
         {
-          "event_title": "Will Samuel Alito announce his retirement by...?",
-          "event_slug": "will-samuel-alito-announce-his-retirement-by",
-          "yes_sum": 0.53,
-          "profit_pct": 47.0,
-          "profit_per_dollar_pct": 88.68,
+          "event_title": "Latvian Parliamentary Election Winner",
+          "event_slug": "latvian-parliamentary-election-winner",
+          "yes_sum": 0.814,
+          "profit_pct": 18.6,
+          "profit_per_dollar_pct": 22.85,
           "num_outcomes": 3,
           "outcomes": [
             {
-              "market_id": "1388704",
-              "slug": "will-samuel-alito-announce-his-retirement-by-december-31-2026",
-              "question": "Will Samuel Alito announce his retirement by December 31, 2026?",
-              "yes_price": 0.53,
-              "volume": 8908
+              "market_id": "950428",
+              "slug": "will-jaun-vienotba-jv-win-the-most-seats-in-the-2026-latvian-parliamentary-election",
+              "question": "Will Jaun\u0101 Vienot\u012bba (JV) win the most seats in the 2026 Latvian parliamentary e",
+              "yes_price": 0.405,
+              "volume": 1743
             },
             {
-              "market_id": "1388702",
-              "slug": "will-samuel-alito-announce-his-retirement-by-february-28-2026",
-              "question": "Will Samuel Alito announce his retirement by February 28, 2026?",
-              "yes_price": 0.0,
-              "volume": 15081
+              "market_id": "950431",
+              "slug": "will-nacionl-apvienba-na-win-the-most-seats-in-the-2026-latvian-parliamentary-election",
+              "question": "Will Nacion\u0101l\u0101 Apvien\u012bba (NA) win the most seats in the 2026 Latvian parliamenta",
+              "yes_price": 0.225,
+              "volume": 1310
             },
             {
-              "market_id": "1388703",
-              "slug": "will-samuel-alito-announce-his-retirement-by-march-31-2026",
-              "question": "Will Samuel Alito announce his retirement by March 31, 2026?",
-              "yes_price": 0.0,
-              "volume": 27034
+              "market_id": "950429",
+              "slug": "will-zao-un-zemnieku-savienba-zzs-win-the-most-seats-in-the-2026-latvian-parliamentary-election",
+              "question": "Will Za\u013co un Zemnieku Savien\u012bba (ZZS) win the most seats in the 2026 Latvian par",
+              "yes_price": 0.184,
+              "volume": 48014
             }
           ],
-          "url": "https://polymarket.com/event/will-samuel-alito-announce-his-retirement-by",
-          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.5300. One wins $1.00. Profit: $0.4700 (47.00%)"
+          "url": "https://polymarket.com/event/latvian-parliamentary-election-winner",
+          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.8140. One wins $1.00. Profit: $0.1860 (18.60%)"
         },
         {
-          "event_title": "Newcastle United Jets FC vs. Adelaide United FC",
-          "event_slug": "aus-new-ade-2026-04-11",
-          "yes_sum": 0.53,
-          "profit_pct": 47.0,
-          "profit_per_dollar_pct": 88.68,
-          "num_outcomes": 2,
+          "event_title": "Next Prime Minister of Slovenia",
+          "event_slug": "next-prime-minister-of-slovenia",
+          "yes_sum": 0.8145,
+          "profit_pct": 18.55,
+          "profit_per_dollar_pct": 22.77,
+          "num_outcomes": 4,
           "outcomes": [
             {
-              "market_id": "1591312",
-              "slug": "aus-new-ade-2026-04-11-ade",
-              "question": "Will Adelaide United FC win on 2026-04-11?",
-              "yes_price": 0.31,
-              "volume": 1865
+              "market_id": "1193229",
+              "slug": "will-janez-jana-be-the-next-prime-minister-of-slovenia",
+              "question": "Will Janez Jan\u0161a be the next Prime Minister of Slovenia?",
+              "yes_price": 0.475,
+              "volume": 577163
             },
             {
-              "market_id": "1591309",
-              "slug": "aus-new-ade-2026-04-11-draw",
-              "question": "Will Newcastle United Jets FC vs. Adelaide United FC end in a draw?",
-              "yes_price": 0.22,
-              "volume": 2262
-            }
-          ],
-          "url": "https://polymarket.com/event/aus-new-ade-2026-04-11",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.5300. One wins $1.00. Profit: $0.4700 (47.00%)"
-        },
-        {
-          "event_title": "Anime Awards: Best Anime Voice Artist Performance (Brazilian Portuguese) Winner",
-          "event_slug": "anime-awards-best-anime-voice-artist-performance-brazilian-portuguese-winner",
-          "yes_sum": 0.535,
-          "profit_pct": 46.5,
-          "profit_per_dollar_pct": 86.92,
-          "num_outcomes": 2,
-          "outcomes": [
-            {
-              "market_id": "1835863",
-              "slug": "will-ursula-bezerra-as-son-goku-dragon-ball-daima-win-best-anime-voice-artist-performance-brazilian-portuguese-at-the-2026-crunchyroll-anime-awards",
-              "question": "Will Ursula Bezerra as Son Goku (Dragon Ball DAIMA) win Best Anime Voice Artist ",
-              "yes_price": 0.385,
-              "volume": 1666
+              "market_id": "1193228",
+              "slug": "will-robert-golob-be-the-next-prime-minister-of-slovenia",
+              "question": "Will Robert Golob be the next Prime Minister of Slovenia?",
+              "yes_price": 0.25,
+              "volume": 556154
             },
             {
-              "market_id": "1835858",
-              "slug": "will-bruno-sangregrio-as-levi-ackerman-attack-on-titan-the-last-attack-win-best-anime-voice-artist-performance-brazilian-portuguese-at-the-2026-crunchyroll-anime-awards",
-              "question": "Will Bruno Sangreg\u00f3rio as Levi Ackerman (Attack on Titan: THE LAST ATTACK) win B",
-              "yes_price": 0.15,
-              "volume": 7693
-            }
-          ],
-          "url": "https://polymarket.com/event/anime-awards-best-anime-voice-artist-performance-brazilian-portuguese-winner",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.5350. One wins $1.00. Profit: $0.4650 (46.50%)"
-        },
-        {
-          "event_title": "FC Dallas vs. St. Louis City SC",
-          "event_slug": "mls-dal-stl-2026-04-11",
-          "yes_sum": 0.535,
-          "profit_pct": 46.5,
-          "profit_per_dollar_pct": 86.92,
-          "num_outcomes": 2,
-          "outcomes": [
-            {
-              "market_id": "1598845",
-              "slug": "mls-dal-stl-2026-04-11-stl",
-              "question": "Will St. Louis City SC win on 2026-04-11?",
-              "yes_price": 0.28,
-              "volume": 1827
+              "market_id": "1193230",
+              "slug": "will-ane-logar-be-the-next-prime-minister-of-slovenia",
+              "question": "Will An\u017ee Logar be the next Prime Minister of Slovenia?",
+              "yes_price": 0.0855,
+              "volume": 920461
             },
             {
-              "market_id": "1598844",
-              "slug": "mls-dal-stl-2026-04-11-draw",
-              "question": "Will FC Dallas vs. St. Louis City SC end in a draw?",
-              "yes_price": 0.255,
-              "volume": 1234
+              "market_id": "1193231",
+              "slug": "will-vladimir-prebili-be-the-next-prime-minister-of-slovenia",
+              "question": "Will Vladimir Prebili\u010d be the next Prime Minister of Slovenia?",
+              "yes_price": 0.004,
+              "volume": 140925
             }
           ],
-          "url": "https://polymarket.com/event/mls-dal-stl-2026-04-11",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.5350. One wins $1.00. Profit: $0.4650 (46.50%)"
-        },
-        {
-          "event_title": "FL-19 Republican Primary Winner",
-          "event_slug": "fl-19-republican-primary-winner",
-          "yes_sum": 0.541,
-          "profit_pct": 45.9,
-          "profit_per_dollar_pct": 84.84,
-          "num_outcomes": 2,
-          "outcomes": [
-            {
-              "market_id": "704424",
-              "slug": "will-catalina-lauf-be-the-republican-nominee-for-fl-19",
-              "question": "Will Catalina Lauf be the Republican nominee for FL-19?",
-              "yes_price": 0.45,
-              "volume": 15600
-            },
-            {
-              "market_id": "704427",
-              "slug": "will-jim-oberweis-be-the-republican-nominee-for-fl-19",
-              "question": "Will Jim Oberweis be the Republican nominee for FL-19?",
-              "yes_price": 0.091,
-              "volume": 2106
-            }
-          ],
-          "url": "https://polymarket.com/event/fl-19-republican-primary-winner",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.5410. One wins $1.00. Profit: $0.4590 (45.90%)"
+          "url": "https://polymarket.com/event/next-prime-minister-of-slovenia",
+          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.8145. One wins $1.00. Profit: $0.1855 (18.55%)"
         }
       ],
       "stats": {
         "total_events": 3000,
-        "checked_multi_outcome": 1844,
+        "checked_multi_outcome": 1836,
         "skipped_single_outcome": 585,
-        "opportunities_found": 384,
-        "best_profit_pct": 50.0,
-        "scanned_at": "2026-04-08 01:03 UTC"
+        "opportunities_found": 216,
+        "best_profit_pct": 20.0,
+        "scanned_at": "2026-04-08 01:05 UTC"
       }
     },
     {
