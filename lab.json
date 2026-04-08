@@ -8,411 +8,565 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 216 categorical arb opportunities found\nScanned 3000 events (1836 multi-outcome) at 2026-04-08 01:05 UTC\nBest: 20.0% profit on 'UFC 327: Johnny Walker vs. Dominick Reyes (Light Heavyweight, Main Card)' \u2014 buy YES on all 2 outcomes (sum=0.8)\nStrategy: Buy YES on all 2 outcomes. Total cost: $0.8000. One wins $1.00. Profit: $0.2000 (20.00%)\n2nd: 19.6% on 'Highest temperature in NYC on April 9?'",
+      "result": "LIVE \u2014 141 categorical arb opportunities found\nScanned 3000 events (1833 multi-outcome) at 2026-04-08 01:07 UTC\nBest: 9.9% profit on 'Which cities will Russia enter by June 30?' \u2014 buy YES on all 8 outcomes (sum=0.901)\nStrategy: Buy YES on all 8 outcomes. Total cost: $0.9010. One wins $1.00. Profit: $0.0990 (9.90%)\n2nd: 9.65% on 'Santa Cruz Governor Election Winner (Bolivia)'",
       "priority": "HIGH",
-      "last_scan": "2026-04-08 01:05 UTC",
+      "last_scan": "2026-04-08 01:07 UTC",
       "opportunities": [
         {
-          "event_title": "UFC 327: Johnny Walker vs. Dominick Reyes (Light Heavyweight, Main Card)",
-          "event_slug": "ufc-joh-dom-2026-04-11",
-          "yes_sum": 0.8,
-          "profit_pct": 20.0,
-          "profit_per_dollar_pct": 25.0,
-          "num_outcomes": 2,
+          "event_title": "Which cities will Russia enter by June 30?",
+          "event_slug": "which-cities-will-russia-enter-by-june-30",
+          "yes_sum": 0.901,
+          "profit_pct": 9.9,
+          "profit_per_dollar_pct": 10.99,
+          "num_outcomes": 8,
           "outcomes": [
             {
-              "market_id": "1721327",
-              "slug": "ufc-joh-dom-2026-04-11",
-              "question": "UFC 327: Johnny Walker vs. Dominick Reyes (Light Heavyweight, Main Card)",
-              "yes_price": 0.445,
-              "volume": 2088
+              "market_id": "1007632",
+              "slug": "will-russia-enter-dopropillia-by-june-30-122-495",
+              "question": "Will Russia enter Dopropillia by June 30?",
+              "yes_price": 0.33,
+              "volume": 178782
             },
             {
-              "market_id": "1721334",
-              "slug": "ufc-joh-dom-2026-04-11-totals-1pt5",
-              "question": "O/U 1.5 Rounds",
-              "yes_price": 0.355,
-              "volume": 2024
+              "market_id": "1007631",
+              "slug": "will-russia-enter-druzkhivka-by-june-30-933-897",
+              "question": "Will Russia enter Druzkhivka by June 30?",
+              "yes_price": 0.135,
+              "volume": 260256
+            },
+            {
+              "market_id": "1007628",
+              "slug": "will-russia-enter-sloviansk-by-june-30",
+              "question": "Will Russia enter Sloviansk by June 30?",
+              "yes_price": 0.12,
+              "volume": 146898
+            },
+            {
+              "market_id": "1007633",
+              "slug": "will-russia-enter-kramatorsk-by-june-30-821-192",
+              "question": "Will Russia enter Kramatorsk by June 30?",
+              "yes_price": 0.115,
+              "volume": 115813
+            },
+            {
+              "market_id": "1007630",
+              "slug": "will-russia-enter-sumy-by-june-30-893-434",
+              "question": "Will Russia enter Sumy by June 30?",
+              "yes_price": 0.055,
+              "volume": 70495
+            },
+            {
+              "market_id": "1007636",
+              "slug": "will-russia-enter-zaporizhia-by-june-30-845",
+              "question": "Will Russia enter Zaporizhia by June 30?",
+              "yes_price": 0.055,
+              "volume": 71767
+            },
+            {
+              "market_id": "1007635",
+              "slug": "will-russia-enter-kherson-by-june-30-645",
+              "question": "Will Russia enter Kherson by June 30?",
+              "yes_price": 0.0515,
+              "volume": 46242
+            },
+            {
+              "market_id": "1007634",
+              "slug": "will-russia-enter-kharkiv-by-june-30-967",
+              "question": "Will Russia enter Kharkiv by June 30?",
+              "yes_price": 0.0395,
+              "volume": 35631
             }
           ],
-          "url": "https://polymarket.com/event/ufc-joh-dom-2026-04-11",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.8000. One wins $1.00. Profit: $0.2000 (20.00%)"
+          "url": "https://polymarket.com/event/which-cities-will-russia-enter-by-june-30",
+          "strategy": "Buy YES on all 8 outcomes. Total cost: $0.9010. One wins $1.00. Profit: $0.0990 (9.90%)"
         },
         {
-          "event_title": "Highest temperature in NYC on April 9?",
-          "event_slug": "highest-temperature-in-nyc-on-april-9-2026",
-          "yes_sum": 0.804,
-          "profit_pct": 19.6,
-          "profit_per_dollar_pct": 24.38,
-          "num_outcomes": 9,
-          "outcomes": [
-            {
-              "market_id": "1871706",
-              "slug": "highest-temperature-in-nyc-on-april-9-2026-50-51f",
-              "question": "Will the highest temperature in New York City be between 50-51\u00b0F on April 9?",
-              "yes_price": 0.26,
-              "volume": 1344
-            },
-            {
-              "market_id": "1871705",
-              "slug": "highest-temperature-in-nyc-on-april-9-2026-48-49f",
-              "question": "Will the highest temperature in New York City be between 48-49\u00b0F on April 9?",
-              "yes_price": 0.22,
-              "volume": 1090
-            },
-            {
-              "market_id": "1871707",
-              "slug": "highest-temperature-in-nyc-on-april-9-2026-52-53f",
-              "question": "Will the highest temperature in New York City be between 52-53\u00b0F on April 9?",
-              "yes_price": 0.21,
-              "volume": 1276
-            },
-            {
-              "market_id": "1871709",
-              "slug": "highest-temperature-in-nyc-on-april-9-2026-56-57f",
-              "question": "Will the highest temperature in New York City be between 56-57\u00b0F on April 9?",
-              "yes_price": 0.0445,
-              "volume": 1485
-            },
-            {
-              "market_id": "1871703",
-              "slug": "highest-temperature-in-nyc-on-april-9-2026-45forbelow",
-              "question": "Will the highest temperature in New York City be 45\u00b0F or below on April 9?",
-              "yes_price": 0.025,
-              "volume": 5564
-            },
-            {
-              "market_id": "1871710",
-              "slug": "highest-temperature-in-nyc-on-april-9-2026-58-59f",
-              "question": "Will the highest temperature in New York City be between 58-59\u00b0F on April 9?",
-              "yes_price": 0.025,
-              "volume": 1121
-            },
-            {
-              "market_id": "1871711",
-              "slug": "highest-temperature-in-nyc-on-april-9-2026-60-61f",
-              "question": "Will the highest temperature in New York City be between 60-61\u00b0F on April 9?",
-              "yes_price": 0.009,
-              "volume": 2300
-            },
-            {
-              "market_id": "1871712",
-              "slug": "highest-temperature-in-nyc-on-april-9-2026-62-63f",
-              "question": "Will the highest temperature in New York City be between 62-63\u00b0F on April 9?",
-              "yes_price": 0.0065,
-              "volume": 1308
-            },
-            {
-              "market_id": "1871713",
-              "slug": "highest-temperature-in-nyc-on-april-9-2026-64forhigher",
-              "question": "Will the highest temperature in New York City be 64\u00b0F or higher on April 9?",
-              "yes_price": 0.004,
-              "volume": 1446
-            }
-          ],
-          "url": "https://polymarket.com/event/highest-temperature-in-nyc-on-april-9-2026",
-          "strategy": "Buy YES on all 9 outcomes. Total cost: $0.8040. One wins $1.00. Profit: $0.1960 (19.60%)"
-        },
-        {
-          "event_title": "Kristiansund BK vs. Fredrikstad FK",
-          "event_slug": "nor-kbk-ffk-2026-04-19",
-          "yes_sum": 0.805,
-          "profit_pct": 19.5,
-          "profit_per_dollar_pct": 24.22,
-          "num_outcomes": 2,
-          "outcomes": [
-            {
-              "market_id": "1685290",
-              "slug": "nor-kbk-ffk-2026-04-19-ffk",
-              "question": "Will Fredrikstad FK win on 2026-04-19?",
-              "yes_price": 0.405,
-              "volume": 2979
-            },
-            {
-              "market_id": "1685289",
-              "slug": "nor-kbk-ffk-2026-04-19-draw",
-              "question": "Will Kristiansund BK vs. Fredrikstad FK end in a draw?",
-              "yes_price": 0.4,
-              "volume": 3420
-            }
-          ],
-          "url": "https://polymarket.com/event/nor-kbk-ffk-2026-04-19",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.8050. One wins $1.00. Profit: $0.1950 (19.50%)"
-        },
-        {
-          "event_title": "Highest temperature in Istanbul on April 8?",
-          "event_slug": "highest-temperature-in-istanbul-on-april-8-2026",
-          "yes_sum": 0.8055,
-          "profit_pct": 19.45,
-          "profit_per_dollar_pct": 24.15,
+          "event_title": "Santa Cruz Governor Election Winner (Bolivia)",
+          "event_slug": "santa-cruz-governor-election-winner-bolivia",
+          "yes_sum": 0.9035,
+          "profit_pct": 9.65,
+          "profit_per_dollar_pct": 10.68,
           "num_outcomes": 10,
           "outcomes": [
             {
-              "market_id": "1854868",
-              "slug": "highest-temperature-in-istanbul-on-april-8-2026-15c",
-              "question": "Will the highest temperature in Istanbul be 15\u00b0C on April 8?",
-              "yes_price": 0.36,
+              "market_id": "1228212",
+              "slug": "will-juan-pablo-velasco-win-the-2026-santa-cruz-gubernatorial-election-929",
+              "question": "Will Juan Pablo Velasco win the 2026 Santa Cruz gubernatorial election?",
+              "yes_price": 0.564,
+              "volume": 296505
+            },
+            {
+              "market_id": "1228214",
+              "slug": "will-otto-ritter-win-the-2026-santa-cruz-gubernatorial-election-232",
+              "question": "Will Otto Ritter win the 2026 Santa Cruz gubernatorial election?",
+              "yes_price": 0.334,
+              "volume": 83371
+            },
+            {
+              "market_id": "1228219",
+              "slug": "will-julio-csar-trrez-win-the-2026-santa-cruz-gubernatorial-election-447",
+              "question": "Will Julio C\u00e9sar T\u00f3rrez win the 2026 Santa Cruz gubernatorial election?",
+              "yes_price": 0.0015,
+              "volume": 25370
+            },
+            {
+              "market_id": "1228220",
+              "slug": "will-luis-fernando-camacho-win-the-2026-santa-cruz-gubernatorial-election-723",
+              "question": "Will Luis Fernando Camacho win the 2026 Santa Cruz gubernatorial election?",
+              "yes_price": 0.001,
+              "volume": 140073
+            },
+            {
+              "market_id": "1228213",
+              "slug": "will-juan-carlos-medrano-win-the-2026-santa-cruz-gubernatorial-election-984",
+              "question": "Will Juan Carlos Medrano win the 2026 Santa Cruz gubernatorial election?",
+              "yes_price": 0.0005,
+              "volume": 24916
+            },
+            {
+              "market_id": "1228215",
+              "slug": "will-mauricio-quezada-win-the-2026-santa-cruz-gubernatorial-election-385",
+              "question": "Will Mauricio Quezada win the 2026 Santa Cruz gubernatorial election?",
+              "yes_price": 0.0005,
+              "volume": 20864
+            },
+            {
+              "market_id": "1228217",
+              "slug": "will-chi-hyun-chung-win-the-2026-santa-cruz-gubernatorial-election-162",
+              "question": "Will Chi Hyun Chung win the 2026 Santa Cruz gubernatorial election?",
+              "yes_price": 0.0005,
+              "volume": 25233
+            },
+            {
+              "market_id": "1228221",
+              "slug": "will-guido-eduardo-nayar-win-the-2026-santa-cruz-gubernatorial-election-894",
+              "question": "Will Guido Eduardo Nayar win the 2026 Santa Cruz gubernatorial election?",
+              "yes_price": 0.0005,
+              "volume": 49935
+            },
+            {
+              "market_id": "1228216",
+              "slug": "will-miguel-cadima-win-the-2026-santa-cruz-gubernatorial-election-992",
+              "question": "Will Miguel Cadima win the 2026 Santa Cruz gubernatorial election?",
+              "yes_price": 0.0005,
+              "volume": 22253
+            },
+            {
+              "market_id": "1228218",
+              "slug": "will-vladimir-pea-win-the-2026-santa-cruz-gubernatorial-election-232",
+              "question": "Will Vladimir Pe\u00f1a win the 2026 Santa Cruz gubernatorial election?",
+              "yes_price": 0.0005,
+              "volume": 37682
+            }
+          ],
+          "url": "https://polymarket.com/event/santa-cruz-governor-election-winner-bolivia",
+          "strategy": "Buy YES on all 10 outcomes. Total cost: $0.9035. One wins $1.00. Profit: $0.0965 (9.65%)"
+        },
+        {
+          "event_title": "VA-02 Democratic Primary Winner",
+          "event_slug": "va-02-democratic-primary-winner",
+          "yes_sum": 0.9055,
+          "profit_pct": 9.45,
+          "profit_per_dollar_pct": 10.44,
+          "num_outcomes": 3,
+          "outcomes": [
+            {
+              "market_id": "704140",
+              "slug": "will-elaine-luria-be-the-democratic-nominee-for-va-02",
+              "question": "Will Elaine Luria be the Democratic nominee for VA-02?",
+              "yes_price": 0.815,
+              "volume": 1102
+            },
+            {
+              "market_id": "704139",
+              "slug": "will-james-osyf-be-the-democratic-nominee-for-va-02",
+              "question": "Will James Osyf be the Democratic nominee for VA-02?",
+              "yes_price": 0.0675,
               "volume": 1097
             },
             {
-              "market_id": "1854866",
-              "slug": "highest-temperature-in-istanbul-on-april-8-2026-13c",
-              "question": "Will the highest temperature in Istanbul be 13\u00b0C on April 8?",
-              "yes_price": 0.225,
-              "volume": 1153
+              "market_id": "704143",
+              "slug": "will-patrick-mosolf-be-the-democratic-nominee-for-va-02",
+              "question": "Will Patrick Mosolf be the Democratic nominee for VA-02?",
+              "yes_price": 0.023,
+              "volume": 1490
+            }
+          ],
+          "url": "https://polymarket.com/event/va-02-democratic-primary-winner",
+          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9055. One wins $1.00. Profit: $0.0945 (9.45%)"
+        },
+        {
+          "event_title": "AZ-01 Republican Primary Winner",
+          "event_slug": "az-01-republican-primary-winner",
+          "yes_sum": 0.9095,
+          "profit_pct": 9.05,
+          "profit_per_dollar_pct": 9.95,
+          "num_outcomes": 11,
+          "outcomes": [
+            {
+              "market_id": "704348",
+              "slug": "will-jay-feely-be-the-republican-nominee-for-az-01",
+              "question": "Will Jay Feely be the Republican nominee for AZ-01?",
+              "yes_price": 0.71,
+              "volume": 4636
             },
             {
-              "market_id": "1854869",
-              "slug": "highest-temperature-in-istanbul-on-april-8-2026-16c",
-              "question": "Will the highest temperature in Istanbul be 16\u00b0C on April 8?",
-              "yes_price": 0.085,
-              "volume": 1700
+              "market_id": "704343",
+              "slug": "will-joseph-chaplik-be-the-republican-nominee-for-az-01",
+              "question": "Will Joseph Chaplik be the Republican nominee for AZ-01?",
+              "yes_price": 0.055,
+              "volume": 7369
             },
             {
-              "market_id": "1854865",
-              "slug": "highest-temperature-in-istanbul-on-april-8-2026-12c",
-              "question": "Will the highest temperature in Istanbul be 12\u00b0C on April 8?",
-              "yes_price": 0.046,
-              "volume": 2434
+              "market_id": "704345",
+              "slug": "will-todd-graham-be-the-republican-nominee-for-az-01",
+              "question": "Will Todd Graham be the Republican nominee for AZ-01?",
+              "yes_price": 0.0535,
+              "volume": 7582
             },
             {
-              "market_id": "1854870",
-              "slug": "highest-temperature-in-istanbul-on-april-8-2026-17c",
-              "question": "Will the highest temperature in Istanbul be 17\u00b0C on April 8?",
-              "yes_price": 0.036,
-              "volume": 1241
+              "market_id": "704352",
+              "slug": "will-brandon-sowers-be-the-republican-nominee-for-az-01-218",
+              "question": "Will Brandon Sowers be the Republican nominee for AZ-01?",
+              "yes_price": 0.026,
+              "volume": 9865
             },
             {
-              "market_id": "1854871",
-              "slug": "highest-temperature-in-istanbul-on-april-8-2026-18c",
-              "question": "Will the highest temperature in Istanbul be 18\u00b0C on April 8?",
-              "yes_price": 0.029,
-              "volume": 1753
+              "market_id": "704349",
+              "slug": "will-derrick-gallego-be-the-republican-nominee-for-az-01-424",
+              "question": "Will Derrick Gallego be the Republican nominee for AZ-01?",
+              "yes_price": 0.0155,
+              "volume": 2957
             },
             {
-              "market_id": "1854864",
-              "slug": "highest-temperature-in-istanbul-on-april-8-2026-11c",
-              "question": "Will the highest temperature in Istanbul be 11\u00b0C on April 8?",
-              "yes_price": 0.02,
-              "volume": 2407
+              "market_id": "704346",
+              "slug": "will-mark-brnovich-be-the-republican-nominee-for-az-01",
+              "question": "Will Mark Brnovich be the Republican nominee for AZ-01?",
+              "yes_price": 0.0115,
+              "volume": 4365
             },
             {
-              "market_id": "1854872",
-              "slug": "highest-temperature-in-istanbul-on-april-8-2026-19corhigher",
-              "question": "Will the highest temperature in Istanbul be 19\u00b0C or higher on April 8?",
+              "market_id": "704347",
+              "slug": "will-kari-lake-be-the-republican-nominee-for-az-01",
+              "question": "Will Kari Lake be the Republican nominee for AZ-01?",
+              "yes_price": 0.0105,
+              "volume": 6398
+            },
+            {
+              "market_id": "704351",
+              "slug": "will-paul-reevs-be-the-republican-nominee-for-az-01",
+              "question": "Will Paul Reevs be the Republican nominee for AZ-01?",
+              "yes_price": 0.0105,
+              "volume": 221052
+            },
+            {
+              "market_id": "704350",
+              "slug": "will-kaitlin-purrington-be-the-republican-nominee-for-az-01",
+              "question": "Will Kaitlin Purrington be the Republican nominee for AZ-01?",
+              "yes_price": 0.0075,
+              "volume": 8035
+            },
+            {
+              "market_id": "704341",
+              "slug": "will-matt-gress-be-the-republican-nominee-for-az-01",
+              "question": "Will Matt Gress be the Republican nominee for AZ-01?",
+              "yes_price": 0.006,
+              "volume": 47835
+            },
+            {
+              "market_id": "704344",
+              "slug": "will-muchelle-ugenti-rita-be-the-republican-nominee-for-az-01",
+              "question": "Will Muchelle Ugenti-Rita be the Republican nominee for AZ-01?",
               "yes_price": 0.0035,
-              "volume": 1538
-            },
-            {
-              "market_id": "1854862",
-              "slug": "highest-temperature-in-istanbul-on-april-8-2026-9corbelow",
-              "question": "Will the highest temperature in Istanbul be 9\u00b0C or below on April 8?",
-              "yes_price": 0.0005,
-              "volume": 1789
-            },
-            {
-              "market_id": "1854863",
-              "slug": "highest-temperature-in-istanbul-on-april-8-2026-10c",
-              "question": "Will the highest temperature in Istanbul be 10\u00b0C on April 8?",
-              "yes_price": 0.0005,
-              "volume": 3000
+              "volume": 4021
             }
           ],
-          "url": "https://polymarket.com/event/highest-temperature-in-istanbul-on-april-8-2026",
-          "strategy": "Buy YES on all 10 outcomes. Total cost: $0.8055. One wins $1.00. Profit: $0.1945 (19.45%)"
+          "url": "https://polymarket.com/event/az-01-republican-primary-winner",
+          "strategy": "Buy YES on all 11 outcomes. Total cost: $0.9095. One wins $1.00. Profit: $0.0905 (9.05%)"
         },
         {
-          "event_title": "Fortaleza CEIF vs. \u00c1guilas Doradas Rionegro - More Markets",
-          "event_slug": "col1-foc-gdr-2026-04-18-more-markets",
-          "yes_sum": 0.81,
-          "profit_pct": 19.0,
-          "profit_per_dollar_pct": 23.46,
-          "num_outcomes": 2,
-          "outcomes": [
-            {
-              "market_id": "1690814",
-              "slug": "col1-foc-gdr-2026-04-18-total-3pt5",
-              "question": "Fortaleza CEIF vs. \u00c1guilas Doradas Rionegro: O/U 3.5",
-              "yes_price": 0.41,
-              "volume": 2969
-            },
-            {
-              "market_id": "1690805",
-              "slug": "col1-foc-gdr-2026-04-18-spread-home-2pt5",
-              "question": "Spread: Fortaleza CEIF (-2.5)",
-              "yes_price": 0.4,
-              "volume": 11553
-            }
-          ],
-          "url": "https://polymarket.com/event/col1-foc-gdr-2026-04-18-more-markets",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.8100. One wins $1.00. Profit: $0.1900 (19.00%)"
-        },
-        {
-          "event_title": "AS Roma vs. Pisa SC",
-          "event_slug": "sea-rom-pis-2026-04-10",
-          "yes_sum": 0.81,
-          "profit_pct": 19.0,
-          "profit_per_dollar_pct": 23.46,
-          "num_outcomes": 2,
-          "outcomes": [
-            {
-              "market_id": "1749495",
-              "slug": "sea-rom-pis-2026-04-10-rom",
-              "question": "Will AS Roma win on 2026-04-10?",
-              "yes_price": 0.725,
-              "volume": 6711
-            },
-            {
-              "market_id": "1749497",
-              "slug": "sea-rom-pis-2026-04-10-pis",
-              "question": "Will Pisa SC win on 2026-04-10?",
-              "yes_price": 0.085,
-              "volume": 4605
-            }
-          ],
-          "url": "https://polymarket.com/event/sea-rom-pis-2026-04-10",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.8100. One wins $1.00. Profit: $0.1900 (19.00%)"
-        },
-        {
-          "event_title": "Arsenal FC vs. Sporting CP",
-          "event_slug": "ucl-ars-spo1-2026-04-15",
-          "yes_sum": 0.81,
-          "profit_pct": 19.0,
-          "profit_per_dollar_pct": 23.46,
-          "num_outcomes": 2,
-          "outcomes": [
-            {
-              "market_id": "1832719",
-              "slug": "ucl-ars-spo1-2026-04-15-ars",
-              "question": "Will Arsenal FC win on 2026-04-15?",
-              "yes_price": 0.695,
-              "volume": 4955
-            },
-            {
-              "market_id": "1832721",
-              "slug": "ucl-ars-spo1-2026-04-15-spo1",
-              "question": "Will Sporting CP win on 2026-04-15?",
-              "yes_price": 0.115,
-              "volume": 3397
-            }
-          ],
-          "url": "https://polymarket.com/event/ucl-ars-spo1-2026-04-15",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.8100. One wins $1.00. Profit: $0.1900 (19.00%)"
-        },
-        {
-          "event_title": "Will a coin launched in 2026 end the year in the top ___?",
-          "event_slug": "will-a-coin-launched-in-2026-end-the-year-in-the-top",
-          "yes_sum": 0.8125,
-          "profit_pct": 18.75,
-          "profit_per_dollar_pct": 23.08,
-          "num_outcomes": 3,
-          "outcomes": [
-            {
-              "market_id": "1091106",
-              "slug": "will-a-coin-launched-in-2026-end-the-year-in-the-top-20",
-              "question": "Will a coin launched in 2026 end the year in the top 20?",
-              "yes_price": 0.555,
-              "volume": 3227
-            },
-            {
-              "market_id": "1091107",
-              "slug": "will-a-coin-launched-in-2026-end-the-year-in-the-top-10",
-              "question": "Will a coin launched in 2026 end the year in the top 10?",
-              "yes_price": 0.17,
-              "volume": 9389
-            },
-            {
-              "market_id": "1091108",
-              "slug": "will-a-coin-launched-in-2026-end-the-year-in-the-top-5",
-              "question": "Will a coin launched in 2026 end the year in the top 5?",
-              "yes_price": 0.0875,
-              "volume": 2656
-            }
-          ],
-          "url": "https://polymarket.com/event/will-a-coin-launched-in-2026-end-the-year-in-the-top",
-          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.8125. One wins $1.00. Profit: $0.1875 (18.75%)"
-        },
-        {
-          "event_title": "Latvian Parliamentary Election Winner",
-          "event_slug": "latvian-parliamentary-election-winner",
-          "yes_sum": 0.814,
-          "profit_pct": 18.6,
-          "profit_per_dollar_pct": 22.85,
-          "num_outcomes": 3,
-          "outcomes": [
-            {
-              "market_id": "950428",
-              "slug": "will-jaun-vienotba-jv-win-the-most-seats-in-the-2026-latvian-parliamentary-election",
-              "question": "Will Jaun\u0101 Vienot\u012bba (JV) win the most seats in the 2026 Latvian parliamentary e",
-              "yes_price": 0.405,
-              "volume": 1743
-            },
-            {
-              "market_id": "950431",
-              "slug": "will-nacionl-apvienba-na-win-the-most-seats-in-the-2026-latvian-parliamentary-election",
-              "question": "Will Nacion\u0101l\u0101 Apvien\u012bba (NA) win the most seats in the 2026 Latvian parliamenta",
-              "yes_price": 0.225,
-              "volume": 1310
-            },
-            {
-              "market_id": "950429",
-              "slug": "will-zao-un-zemnieku-savienba-zzs-win-the-most-seats-in-the-2026-latvian-parliamentary-election",
-              "question": "Will Za\u013co un Zemnieku Savien\u012bba (ZZS) win the most seats in the 2026 Latvian par",
-              "yes_price": 0.184,
-              "volume": 48014
-            }
-          ],
-          "url": "https://polymarket.com/event/latvian-parliamentary-election-winner",
-          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.8140. One wins $1.00. Profit: $0.1860 (18.60%)"
-        },
-        {
-          "event_title": "Next Prime Minister of Slovenia",
-          "event_slug": "next-prime-minister-of-slovenia",
-          "yes_sum": 0.8145,
-          "profit_pct": 18.55,
-          "profit_per_dollar_pct": 22.77,
+          "event_title": "Who will be UFC Light Heavyweight champion at the end of 2026?",
+          "event_slug": "who-will-be-ufc-light-heavyweight-champion-at-the-end-of-2026",
+          "yes_sum": 0.911,
+          "profit_pct": 8.9,
+          "profit_per_dollar_pct": 9.77,
           "num_outcomes": 4,
           "outcomes": [
             {
-              "market_id": "1193229",
-              "slug": "will-janez-jana-be-the-next-prime-minister-of-slovenia",
-              "question": "Will Janez Jan\u0161a be the next Prime Minister of Slovenia?",
-              "yes_price": 0.475,
-              "volume": 577163
+              "market_id": "1090070",
+              "slug": "will-ji-prochzka-be-the-ufc-light-heavyweight-champion-on-december-31-2026",
+              "question": "Will Ji\u0159\u00ed Proch\u00e1zka be the UFC Light Heavyweight Champion on December 31, 2026?",
+              "yes_price": 0.365,
+              "volume": 2226
             },
             {
-              "market_id": "1193228",
-              "slug": "will-robert-golob-be-the-next-prime-minister-of-slovenia",
-              "question": "Will Robert Golob be the next Prime Minister of Slovenia?",
-              "yes_price": 0.25,
-              "volume": 556154
+              "market_id": "1090072",
+              "slug": "will-carlos-ulberg-be-the-ufc-light-heavyweight-champion-on-december-31-2026",
+              "question": "Will Carlos Ulberg be the UFC Light Heavyweight Champion on December 31, 2026?",
+              "yes_price": 0.305,
+              "volume": 1847
             },
             {
-              "market_id": "1193230",
-              "slug": "will-ane-logar-be-the-next-prime-minister-of-slovenia",
-              "question": "Will An\u017ee Logar be the next Prime Minister of Slovenia?",
-              "yes_price": 0.0855,
-              "volume": 920461
+              "market_id": "1090078",
+              "slug": "will-dominick-reyes-be-the-ufc-light-heavyweight-champion-on-december-31-2026",
+              "question": "Will Dominick Reyes be the UFC Light Heavyweight Champion on December 31, 2026?",
+              "yes_price": 0.166,
+              "volume": 6452
             },
             {
-              "market_id": "1193231",
-              "slug": "will-vladimir-prebili-be-the-next-prime-minister-of-slovenia",
-              "question": "Will Vladimir Prebili\u010d be the next Prime Minister of Slovenia?",
-              "yes_price": 0.004,
-              "volume": 140925
+              "market_id": "1090069",
+              "slug": "will-alex-pereira-be-the-ufc-light-heavyweight-champion-on-december-31-2026",
+              "question": "Will Alex Pereira be the UFC Light Heavyweight Champion on December 31, 2026?",
+              "yes_price": 0.075,
+              "volume": 3209
             }
           ],
-          "url": "https://polymarket.com/event/next-prime-minister-of-slovenia",
-          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.8145. One wins $1.00. Profit: $0.1855 (18.55%)"
+          "url": "https://polymarket.com/event/who-will-be-ufc-light-heavyweight-champion-at-the-end-of-2026",
+          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9110. One wins $1.00. Profit: $0.0890 (8.90%)"
+        },
+        {
+          "event_title": "3rd largest company end of April?",
+          "event_slug": "3rd-largest-company-end-of-april",
+          "yes_sum": 0.9115,
+          "profit_pct": 8.85,
+          "profit_per_dollar_pct": 9.71,
+          "num_outcomes": 8,
+          "outcomes": [
+            {
+              "market_id": "1663472",
+              "slug": "will-alphabet-be-the-third-largest-company-in-the-world-by-market-cap-on-april-30",
+              "question": "Will Alphabet be the third-largest company in the world by market cap on April 3",
+              "yes_price": 0.515,
+              "volume": 21253
+            },
+            {
+              "market_id": "1663471",
+              "slug": "will-apple-be-the-third-largest-company-in-the-world-by-market-cap-on-april-30",
+              "question": "Will Apple be the third-largest company in the world by market cap on April 30?",
+              "yes_price": 0.335,
+              "volume": 30371
+            },
+            {
+              "market_id": "1663470",
+              "slug": "will-microsoft-be-the-third-largest-company-in-the-world-by-market-cap-on-april-30",
+              "question": "Will Microsoft be the third-largest company in the world by market cap on April ",
+              "yes_price": 0.05,
+              "volume": 16504
+            },
+            {
+              "market_id": "1663469",
+              "slug": "will-nvidia-be-the-third-largest-company-in-the-world-by-market-cap-on-april-30",
+              "question": "Will NVIDIA be the third-largest company in the world by market cap on April 30?",
+              "yes_price": 0.0045,
+              "volume": 620524
+            },
+            {
+              "market_id": "1663474",
+              "slug": "will-saudi-aramco-be-the-third-largest-company-in-the-world-by-market-cap-on-april-30",
+              "question": "Will Saudi Aramco be the third-largest company in the world by market cap on Apr",
+              "yes_price": 0.0025,
+              "volume": 35103
+            },
+            {
+              "market_id": "1663476",
+              "slug": "will-oracle-be-the-third-largest-company-in-the-world-by-market-cap-on-april-30",
+              "question": "Will Oracle be the third-largest company in the world by market cap on April 30?",
+              "yes_price": 0.0015,
+              "volume": 30815
+            },
+            {
+              "market_id": "1663473",
+              "slug": "will-tesla-be-the-third-largest-company-in-the-world-by-market-cap-on-april-30",
+              "question": "Will Tesla be the third-largest company in the world by market cap on April 30?",
+              "yes_price": 0.0015,
+              "volume": 16092
+            },
+            {
+              "market_id": "1663475",
+              "slug": "will-amazon-be-the-third-largest-company-in-the-world-by-market-cap-on-april-30",
+              "question": "Will Amazon be the third-largest company in the world by market cap on April 30?",
+              "yes_price": 0.0015,
+              "volume": 7167
+            }
+          ],
+          "url": "https://polymarket.com/event/3rd-largest-company-end-of-april",
+          "strategy": "Buy YES on all 8 outcomes. Total cost: $0.9115. One wins $1.00. Profit: $0.0885 (8.85%)"
+        },
+        {
+          "event_title": "Reserve Bank of Australia Decision in May?",
+          "event_slug": "reserve-bank-of-australia-decision-in-may",
+          "yes_sum": 0.912,
+          "profit_pct": 8.8,
+          "profit_per_dollar_pct": 9.65,
+          "num_outcomes": 3,
+          "outcomes": [
+            {
+              "market_id": "1326428",
+              "slug": "will-the-reserve-bank-of-australia-increase-the-target-for-the-cash-rate-after-the-may-meeting",
+              "question": "Will the Reserve Bank of Australia increase the target for the cash rate after t",
+              "yes_price": 0.65,
+              "volume": 14195
+            },
+            {
+              "market_id": "1326427",
+              "slug": "will-the-reserve-bank-of-australia-make-no-change-to-the-target-for-the-cash-rate-after-the-may-meeting",
+              "question": "Will the Reserve Bank of Australia make no change to the target for the cash rat",
+              "yes_price": 0.255,
+              "volume": 2845
+            },
+            {
+              "market_id": "1326426",
+              "slug": "will-the-reserve-bank-of-australia-decrease-the-target-for-the-cash-rate-after-the-may-meeting",
+              "question": "Will the Reserve Bank of Australia decrease the target for the cash rate after t",
+              "yes_price": 0.007,
+              "volume": 7831
+            }
+          ],
+          "url": "https://polymarket.com/event/reserve-bank-of-australia-decision-in-may",
+          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9120. One wins $1.00. Profit: $0.0880 (8.80%)"
+        },
+        {
+          "event_title": "Perplexity IPO Closing Market Cap",
+          "event_slug": "perplexity-ipo-closing-market-cap",
+          "yes_sum": 0.9125,
+          "profit_pct": 8.75,
+          "profit_per_dollar_pct": 9.59,
+          "num_outcomes": 6,
+          "outcomes": [
+            {
+              "market_id": "1115936",
+              "slug": "will-perplexity-not-ipo-by-december-31-2027",
+              "question": "Will Perplexity not IPO by December 31, 2027?",
+              "yes_price": 0.625,
+              "volume": 104958
+            },
+            {
+              "market_id": "1115933",
+              "slug": "will-perplexitys-market-cap-be-between-80b-and-100b-at-market-close-on-ipo-day",
+              "question": "Will Perplexity\u2019s market cap be between $50B and $75B at market close on IPO day",
+              "yes_price": 0.134,
+              "volume": 6171
+            },
+            {
+              "market_id": "1115935",
+              "slug": "will-perplexitys-market-cap-be-greater-than-150b-at-market-close-on-ipo-day",
+              "question": "Will Perplexity\u2019s market cap be greater than $100B at market close on IPO day?",
+              "yes_price": 0.047,
+              "volume": 4468
+            },
+            {
+              "market_id": "1115934",
+              "slug": "will-perplexitys-market-cap-be-between-100b-and-150b-at-market-close-on-ipo-day",
+              "question": "Will Perplexity\u2019s market cap be between $75B and $100B at market close on IPO da",
+              "yes_price": 0.0405,
+              "volume": 3197
+            },
+            {
+              "market_id": "1115929",
+              "slug": "will-perplexitys-market-cap-be-less-than-20b-at-market-close-on-ipo-day",
+              "question": "Will Perplexity\u2019s market cap be less than $20B at market close on IPO day?",
+              "yes_price": 0.033,
+              "volume": 4395
+            },
+            {
+              "market_id": "1115930",
+              "slug": "will-perplexitys-market-cap-be-between-20b-and-40b-at-market-close-on-ipo-day",
+              "question": "Will Perplexity\u2019s market cap be between $20B and $30B at market close on IPO day",
+              "yes_price": 0.033,
+              "volume": 5711
+            }
+          ],
+          "url": "https://polymarket.com/event/perplexity-ipo-closing-market-cap",
+          "strategy": "Buy YES on all 6 outcomes. Total cost: $0.9125. One wins $1.00. Profit: $0.0875 (8.75%)"
+        },
+        {
+          "event_title": "PA-10 Democratic Primary Winner",
+          "event_slug": "pa-10-democratic-primary-winner-877",
+          "yes_sum": 0.9125,
+          "profit_pct": 8.75,
+          "profit_per_dollar_pct": 9.59,
+          "num_outcomes": 2,
+          "outcomes": [
+            {
+              "market_id": "1448356",
+              "slug": "will-janelle-stelson-be-the-democratic-nominee-for-pa-10-994",
+              "question": "Will Janelle Stelson be the Democratic Nominee for PA-10?",
+              "yes_price": 0.895,
+              "volume": 3029
+            },
+            {
+              "market_id": "1448358",
+              "slug": "will-jason-cass-be-the-democratic-nominee-for-pa-10-765",
+              "question": "Will Jason Cass be the Democratic Nominee for PA-10?",
+              "yes_price": 0.0175,
+              "volume": 8157
+            }
+          ],
+          "url": "https://polymarket.com/event/pa-10-democratic-primary-winner-877",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9125. One wins $1.00. Profit: $0.0875 (8.75%)"
+        },
+        {
+          "event_title": "Discord IPO Closing Market Cap",
+          "event_slug": "discord-ipo-closing-market-cap",
+          "yes_sum": 0.9135,
+          "profit_pct": 8.65,
+          "profit_per_dollar_pct": 9.47,
+          "num_outcomes": 6,
+          "outcomes": [
+            {
+              "market_id": "608403",
+              "slug": "will-discord-not-ipo-by-june-30-2026",
+              "question": "Will Discord not IPO by June 30, 2026?",
+              "yes_price": 0.745,
+              "volume": 179539
+            },
+            {
+              "market_id": "608398",
+              "slug": "will-discords-market-cap-be-less-than-15b-at-market-close-on-ipo-day",
+              "question": "Will Discord\u2019s market cap be less than $15B at market close on IPO day?",
+              "yes_price": 0.112,
+              "volume": 292718
+            },
+            {
+              "market_id": "608402",
+              "slug": "will-discords-market-cap-be-greater-than-30b-at-market-close-on-ipo-day",
+              "question": "Will Discord\u2019s market cap be $30B or greater at market close on IPO day?",
+              "yes_price": 0.0215,
+              "volume": 89424
+            },
+            {
+              "market_id": "608399",
+              "slug": "will-discords-market-cap-be-between-15b-and-20b-at-market-close-on-ipo-day",
+              "question": "Will Discord\u2019s market cap be between $15B and $20B at market close on IPO day?",
+              "yes_price": 0.02,
+              "volume": 104025
+            },
+            {
+              "market_id": "608400",
+              "slug": "will-discords-market-cap-be-between-20b-and-25b-at-market-close-on-ipo-day",
+              "question": "Will Discord\u2019s market cap be between $20B and $25B at market close on IPO day?",
+              "yes_price": 0.0085,
+              "volume": 68776
+            },
+            {
+              "market_id": "608401",
+              "slug": "will-discords-market-cap-be-between-25b-and-30b-at-market-close-on-ipo-day",
+              "question": "Will Discord\u2019s market cap be between $25B and $30B at market close on IPO day?",
+              "yes_price": 0.0065,
+              "volume": 83171
+            }
+          ],
+          "url": "https://polymarket.com/event/discord-ipo-closing-market-cap",
+          "strategy": "Buy YES on all 6 outcomes. Total cost: $0.9135. One wins $1.00. Profit: $0.0865 (8.65%)"
         }
       ],
       "stats": {
         "total_events": 3000,
-        "checked_multi_outcome": 1836,
-        "skipped_single_outcome": 585,
-        "opportunities_found": 216,
-        "best_profit_pct": 20.0,
-        "scanned_at": "2026-04-08 01:05 UTC"
+        "checked_multi_outcome": 1833,
+        "skipped_single_outcome": 587,
+        "opportunities_found": 141,
+        "best_profit_pct": 9.9,
+        "scanned_at": "2026-04-08 01:07 UTC"
       }
     },
     {
