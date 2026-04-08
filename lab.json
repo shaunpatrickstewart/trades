@@ -8,474 +8,306 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 606 categorical arb opportunities found\nScanned 3000 events (2152 multi-outcome) at 2026-04-08 01:01 UTC\nBest: 99.95% profit on 'Sarasota: Daniel Galan vs Garrett Johns' \u2014 buy YES on all 5 outcomes (sum=0.0005)\nStrategy: Buy YES on all 5 outcomes. Total cost: $0.0005. One wins $1.00. Profit: $0.9995 (99.95%)\n2nd: 99.95% on 'Campinas: Nicolas Alvarez Varona vs Lucio Ratti'",
+      "result": "LIVE \u2014 384 categorical arb opportunities found\nScanned 3000 events (1844 multi-outcome) at 2026-04-08 01:03 UTC\nBest: 50.0% profit on 'Counter-Strike: Sangal ALTERS vs Imperial Academy (BO3) - United21 Group C' \u2014 buy YES on all 2 outcomes (sum=0.5)\nStrategy: Buy YES on all 2 outcomes. Total cost: $0.5000. One wins $1.00. Profit: $0.5000 (50.00%)\n2nd: 50.0% on 'Who will be the first substitute White House Press Secretary?'",
       "priority": "HIGH",
-      "last_scan": "2026-04-08 01:01 UTC",
+      "last_scan": "2026-04-08 01:03 UTC",
       "opportunities": [
         {
-          "event_title": "Sarasota: Daniel Galan vs Garrett Johns",
-          "event_slug": "atp-galan-johns-2026-04-07",
-          "yes_sum": 0.0005,
-          "profit_pct": 99.95,
-          "profit_per_dollar_pct": 199900.0,
-          "num_outcomes": 5,
+          "event_title": "Counter-Strike: Sangal ALTERS vs Imperial Academy (BO3) - United21 Group C",
+          "event_slug": "cs2-sng-imperi-2026-03-12",
+          "yes_sum": 0.5,
+          "profit_pct": 50.0,
+          "profit_per_dollar_pct": 100.0,
+          "num_outcomes": 2,
           "outcomes": [
             {
-              "market_id": "1901449",
-              "slug": "atp-galan-johns-2026-04-07",
-              "question": "Sarasota: Daniel Galan vs Garrett Johns",
-              "yes_price": 0.0005,
-              "volume": 186864
+              "market_id": "1550203",
+              "slug": "cs2-sng-imperi-2026-03-12-game3-odd-even-total-rounds",
+              "question": "Map 3: Odd/Even Total Rounds?",
+              "yes_price": 0.5,
+              "volume": 99068
             },
             {
-              "market_id": "1903236",
-              "slug": "atp-galan-johns-2026-04-07-first-set-winner-Galan-vs-Johns",
-              "question": "Set 1 Winner: Galan vs Johns",
+              "market_id": "1550193",
+              "slug": "cs2-sng-imperi-2026-03-12",
+              "question": "Counter-Strike: Sangal ALTERS vs Imperial Academy (BO3) - United21 Group C",
               "yes_price": 0.0,
-              "volume": 295
-            },
-            {
-              "market_id": "1903234",
-              "slug": "atp-galan-johns-2026-04-07-first-set-total-8pt5",
-              "question": "Galan vs. Johns: Set 1 Games O/U 8.5",
-              "yes_price": 0.0,
-              "volume": 200
-            },
-            {
-              "market_id": "1903237",
-              "slug": "atp-galan-johns-2026-04-07-first-set-total-9pt5",
-              "question": "Galan vs. Johns: Set 1 Games O/U 9.5",
-              "yes_price": 0.0,
-              "volume": 291
-            },
-            {
-              "market_id": "1903239",
-              "slug": "atp-galan-johns-2026-04-07-first-set-total-10pt5",
-              "question": "Galan vs. Johns: Set 1 Games O/U 10.5",
-              "yes_price": 0.0,
-              "volume": 291
+              "volume": 6127
             }
           ],
-          "url": "https://polymarket.com/event/atp-galan-johns-2026-04-07",
-          "strategy": "Buy YES on all 5 outcomes. Total cost: $0.0005. One wins $1.00. Profit: $0.9995 (99.95%)"
+          "url": "https://polymarket.com/event/cs2-sng-imperi-2026-03-12",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.5000. One wins $1.00. Profit: $0.5000 (50.00%)"
         },
         {
-          "event_title": "Campinas: Nicolas Alvarez Varona vs Lucio Ratti",
-          "event_slug": "atp-varona-ratti-2026-04-06",
-          "yes_sum": 0.0005,
-          "profit_pct": 99.95,
-          "profit_per_dollar_pct": 199900.0,
-          "num_outcomes": 5,
-          "outcomes": [
-            {
-              "market_id": "1879354",
-              "slug": "atp-varona-ratti-2026-04-06",
-              "question": "Campinas: Nicolas Alvarez Varona vs Lucio Ratti",
-              "yes_price": 0.0005,
-              "volume": 81755
-            },
-            {
-              "market_id": "1880250",
-              "slug": "atp-varona-ratti-2026-04-06-first-set-total-8pt5",
-              "question": "Varona vs. Ratti: Set 1 Games O/U 8.5",
-              "yes_price": 0.0,
-              "volume": 206
-            },
-            {
-              "market_id": "1880253",
-              "slug": "atp-varona-ratti-2026-04-06-first-set-total-9pt5",
-              "question": "Varona vs. Ratti: Set 1 Games O/U 9.5",
-              "yes_price": 0.0,
-              "volume": 141
-            },
-            {
-              "market_id": "1880248",
-              "slug": "atp-varona-ratti-2026-04-06-first-set-winner-Varona-vs-Ratti",
-              "question": "Set 1 Winner: Varona vs Ratti",
-              "yes_price": 0.0,
-              "volume": 479
-            },
-            {
-              "market_id": "1880256",
-              "slug": "atp-varona-ratti-2026-04-06-first-set-total-10pt5",
-              "question": "Varona vs. Ratti: Set 1 Games O/U 10.5",
-              "yes_price": 0.0,
-              "volume": 122
-            }
-          ],
-          "url": "https://polymarket.com/event/atp-varona-ratti-2026-04-06",
-          "strategy": "Buy YES on all 5 outcomes. Total cost: $0.0005. One wins $1.00. Profit: $0.9995 (99.95%)"
-        },
-        {
-          "event_title": "Arizona Diamondbacks vs. New York Mets",
-          "event_slug": "mlb-ari-nym-2026-04-07",
-          "yes_sum": 0.0015,
-          "profit_pct": 99.85,
-          "profit_per_dollar_pct": 66566.67,
-          "num_outcomes": 3,
-          "outcomes": [
-            {
-              "market_id": "1815849",
-              "slug": "mlb-ari-nym-2026-04-07",
-              "question": "Arizona Diamondbacks vs. New York Mets",
-              "yes_price": 0.0005,
-              "volume": 780945
-            },
-            {
-              "market_id": "1894979",
-              "slug": "mlb-ari-nym-2026-04-07-spread-home-1pt5",
-              "question": "Spread: New York Mets (-1.5)",
-              "yes_price": 0.0005,
-              "volume": 11790
-            },
-            {
-              "market_id": "1894980",
-              "slug": "mlb-ari-nym-2026-04-07-total-7pt5",
-              "question": "Arizona Diamondbacks vs. New York Mets: O/U 7.5",
-              "yes_price": 0.0005,
-              "volume": 270368
-            }
-          ],
-          "url": "https://polymarket.com/event/mlb-ari-nym-2026-04-07",
-          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.0015. One wins $1.00. Profit: $0.9985 (99.85%)"
-        },
-        {
-          "event_title": "Valorant: Azure Dragon Gaming vs YFP Gaming (BO3) - VCL North America: Stage 2 G",
-          "event_slug": "val-adg-yfp-2026-04-07",
-          "yes_sum": 0.002,
-          "profit_pct": 99.8,
-          "profit_per_dollar_pct": 49900.0,
+          "event_title": "Who will be the first substitute White House Press Secretary?",
+          "event_slug": "who-will-be-the-first-substitute-white-house-press-secretary",
+          "yes_sum": 0.5,
+          "profit_pct": 50.0,
+          "profit_per_dollar_pct": 100.0,
           "num_outcomes": 4,
           "outcomes": [
             {
-              "market_id": "1828337",
-              "slug": "val-adg-yfp-2026-04-07",
-              "question": "Valorant: Azure Dragon Gaming vs YFP Gaming (BO3) - VCL North America: Stage 2 G",
-              "yes_price": 0.0005,
-              "volume": 38303
+              "market_id": "1849757",
+              "slug": "will-linda-mcmahon-be-the-first-substitute-white-house-press-secretary-632",
+              "question": "Will Linda McMahon be the first substitute White House Press Secretary?",
+              "yes_price": 0.165,
+              "volume": 2878
             },
             {
-              "market_id": "1828338",
-              "slug": "val-adg-yfp-2026-04-07-game1",
-              "question": "Valorant: Azure Dragon Gaming vs YFP Gaming - Map 1 Winner",
-              "yes_price": 0.0005,
-              "volume": 331
+              "market_id": "1849752",
+              "slug": "will-stephen-miller-be-the-first-substitute-white-house-press-secretary-389",
+              "question": "Will Stephen Miller be the first substitute White House Press Secretary?",
+              "yes_price": 0.125,
+              "volume": 1485
             },
             {
-              "market_id": "1828339",
-              "slug": "val-adg-yfp-2026-04-07-game2",
-              "question": "Valorant: Azure Dragon Gaming vs YFP Gaming - Map 2 Winner",
-              "yes_price": 0.0005,
-              "volume": 675
+              "market_id": "1849750",
+              "slug": "will-marco-rubio-be-the-first-substitute-white-house-press-secretary",
+              "question": "Will Marco Rubio be the first substitute White House Press Secretary?",
+              "yes_price": 0.115,
+              "volume": 1099
             },
             {
-              "market_id": "1828340",
-              "slug": "val-adg-yfp-2026-04-07-total-games-2pt5",
-              "question": "Games Total: O/U 2.5",
-              "yes_price": 0.0005,
-              "volume": 102
+              "market_id": "1849765",
+              "slug": "will-jd-vance-be-the-first-substitute-white-house-press-secretary-283",
+              "question": "Will JD Vance be the first substitute White House Press Secretary?",
+              "yes_price": 0.095,
+              "volume": 1372
             }
           ],
-          "url": "https://polymarket.com/event/val-adg-yfp-2026-04-07",
-          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.0020. One wins $1.00. Profit: $0.9980 (99.80%)"
+          "url": "https://polymarket.com/event/who-will-be-the-first-substitute-white-house-press-secretary",
+          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.5000. One wins $1.00. Profit: $0.5000 (50.00%)"
         },
         {
-          "event_title": "Kansas City Royals vs. Cleveland Guardians",
-          "event_slug": "mlb-kc-cle-2026-04-07",
-          "yes_sum": 0.0025,
-          "profit_pct": 99.75,
-          "profit_per_dollar_pct": 39900.0,
-          "num_outcomes": 5,
-          "outcomes": [
-            {
-              "market_id": "1815833",
-              "slug": "mlb-kc-cle-2026-04-07",
-              "question": "Kansas City Royals vs. Cleveland Guardians",
-              "yes_price": 0.0005,
-              "volume": 812016
-            },
-            {
-              "market_id": "1902764",
-              "slug": "mlb-kc-cle-2026-04-07-total-6pt5",
-              "question": "Kansas City Royals vs. Cleveland Guardians: O/U 6.5",
-              "yes_price": 0.0005,
-              "volume": 1215385
-            },
-            {
-              "market_id": "1909590",
-              "slug": "mlb-kc-cle-2026-04-07-spread-home-1pt5",
-              "question": "Spread: Cleveland Guardians (-1.5)",
-              "yes_price": 0.0005,
-              "volume": 2480
-            },
-            {
-              "market_id": "1894995",
-              "slug": "mlb-kc-cle-2026-04-07-spread-away-1pt5",
-              "question": "Spread: Kansas City Royals (-1.5)",
-              "yes_price": 0.0005,
-              "volume": 9129
-            },
-            {
-              "market_id": "1894996",
-              "slug": "mlb-kc-cle-2026-04-07-total-7pt5",
-              "question": "Kansas City Royals vs. Cleveland Guardians: O/U 7.5",
-              "yes_price": 0.0005,
-              "volume": 20329
-            }
-          ],
-          "url": "https://polymarket.com/event/mlb-kc-cle-2026-04-07",
-          "strategy": "Buy YES on all 5 outcomes. Total cost: $0.0025. One wins $1.00. Profit: $0.9975 (99.75%)"
-        },
-        {
-          "event_title": "VTB United League: Winner",
-          "event_slug": "2026-basketball-vtb-united-league-winner",
-          "yes_sum": 0.003,
-          "profit_pct": 99.7,
-          "profit_per_dollar_pct": 33233.33,
+          "event_title": "Which company has the best Math AI model end of April?",
+          "event_slug": "which-company-has-the-best-math-ai-model-end-of-april",
+          "yes_sum": 0.5,
+          "profit_pct": 50.0,
+          "profit_per_dollar_pct": 100.0,
           "num_outcomes": 2,
           "outcomes": [
             {
-              "market_id": "1834193",
-              "slug": "2026-basketball-vtb-united-league-winner-avtodor-saratov",
-              "question": "Will Avtodor Saratov win VTB United League?",
-              "yes_price": 0.0025,
-              "volume": 672
+              "market_id": "1820622",
+              "slug": "will-anthropic-have-the-best-math-ai-model-at-the-end-of-april-2026",
+              "question": "Will Anthropic have the best Math AI model at the end of April 2026?",
+              "yes_price": 0.435,
+              "volume": 1180
             },
             {
-              "market_id": "1834203",
-              "slug": "2026-basketball-vtb-united-league-winner-samara",
-              "question": "Will Samara win VTB United League?",
-              "yes_price": 0.0005,
-              "volume": 2684
+              "market_id": "1820633",
+              "slug": "will-deepseek-have-the-best-math-ai-model-at-the-end-of-april-2026",
+              "question": "Will DeepSeek have the best Math AI model at the end of April 2026?",
+              "yes_price": 0.065,
+              "volume": 1159
             }
           ],
-          "url": "https://polymarket.com/event/2026-basketball-vtb-united-league-winner",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.0030. One wins $1.00. Profit: $0.9970 (99.70%)"
+          "url": "https://polymarket.com/event/which-company-has-the-best-math-ai-model-end-of-april",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.5000. One wins $1.00. Profit: $0.5000 (50.00%)"
         },
         {
-          "event_title": "Deportivo La Guaira FC vs. Fluminense FC - More Markets",
-          "event_slug": "lib-gua1-flu-2026-04-07-more-markets",
-          "yes_sum": 0.0045,
-          "profit_pct": 99.55,
-          "profit_per_dollar_pct": 22122.22,
-          "num_outcomes": 9,
-          "outcomes": [
-            {
-              "market_id": "1760280",
-              "slug": "lib-gua1-flu-2026-04-07-spread-home-1pt5",
-              "question": "Spread: Deportivo La Guaira FC (-1.5)",
-              "yes_price": 0.0005,
-              "volume": 1082
-            },
-            {
-              "market_id": "1760281",
-              "slug": "lib-gua1-flu-2026-04-07-spread-away-1pt5",
-              "question": "Spread: Fluminense FC (-1.5)",
-              "yes_price": 0.0005,
-              "volume": 7560
-            },
-            {
-              "market_id": "1760282",
-              "slug": "lib-gua1-flu-2026-04-07-spread-home-2pt5",
-              "question": "Spread: Deportivo La Guaira FC (-2.5)",
-              "yes_price": 0.0005,
-              "volume": 6039
-            },
-            {
-              "market_id": "1760283",
-              "slug": "lib-gua1-flu-2026-04-07-spread-away-2pt5",
-              "question": "Spread: Fluminense FC (-2.5)",
-              "yes_price": 0.0005,
-              "volume": 664
-            },
-            {
-              "market_id": "1760284",
-              "slug": "lib-gua1-flu-2026-04-07-total-1pt5",
-              "question": "Deportivo La Guaira FC vs. Fluminense FC: O/U 1.5",
-              "yes_price": 0.0005,
-              "volume": 31866
-            },
-            {
-              "market_id": "1760285",
-              "slug": "lib-gua1-flu-2026-04-07-total-2pt5",
-              "question": "Deportivo La Guaira FC vs. Fluminense FC: O/U 2.5",
-              "yes_price": 0.0005,
-              "volume": 15592
-            },
-            {
-              "market_id": "1760286",
-              "slug": "lib-gua1-flu-2026-04-07-total-3pt5",
-              "question": "Deportivo La Guaira FC vs. Fluminense FC: O/U 3.5",
-              "yes_price": 0.0005,
-              "volume": 2449
-            },
-            {
-              "market_id": "1760287",
-              "slug": "lib-gua1-flu-2026-04-07-total-4pt5",
-              "question": "Deportivo La Guaira FC vs. Fluminense FC: O/U 4.5",
-              "yes_price": 0.0005,
-              "volume": 761
-            },
-            {
-              "market_id": "1760288",
-              "slug": "lib-gua1-flu-2026-04-07-btts",
-              "question": "Deportivo La Guaira FC vs. Fluminense FC: Both Teams to Score",
-              "yes_price": 0.0005,
-              "volume": 3215
-            }
-          ],
-          "url": "https://polymarket.com/event/lib-gua1-flu-2026-04-07-more-markets",
-          "strategy": "Buy YES on all 9 outcomes. Total cost: $0.0045. One wins $1.00. Profit: $0.9955 (99.55%)"
-        },
-        {
-          "event_title": "Counter-Strike: UNO MILLE vs Fake do Biru (BO3) - ESL Challenger League South Am",
-          "event_slug": "cs2-uno-fdb-2026-04-07",
-          "yes_sum": 0.005,
-          "profit_pct": 99.5,
-          "profit_per_dollar_pct": 19900.0,
-          "num_outcomes": 5,
-          "outcomes": [
-            {
-              "market_id": "1887005",
-              "slug": "cs2-uno-fdb-2026-04-07-game1-odd-even-total-rounds",
-              "question": "Map 1: Odd/Even Total Rounds?",
-              "yes_price": 0.003,
-              "volume": 201
-            },
-            {
-              "market_id": "1886984",
-              "slug": "cs2-uno-fdb-2026-04-07-game2",
-              "question": "Counter-Strike: UNO MILLE vs Fake do Biru - Map 2 Winner",
-              "yes_price": 0.0005,
-              "volume": 9792
-            },
-            {
-              "market_id": "1886985",
-              "slug": "cs2-uno-fdb-2026-04-07-total-games-2pt5",
-              "question": "Games Total: O/U 2.5",
-              "yes_price": 0.0005,
-              "volume": 119
-            },
-            {
-              "market_id": "1886982",
-              "slug": "cs2-uno-fdb-2026-04-07",
-              "question": "Counter-Strike: UNO MILLE vs Fake do Biru (BO3) - ESL Challenger League South Am",
-              "yes_price": 0.0005,
-              "volume": 31659
-            },
-            {
-              "market_id": "1886983",
-              "slug": "cs2-uno-fdb-2026-04-07-game1",
-              "question": "Counter-Strike: UNO MILLE vs Fake do Biru - Map 1 Winner",
-              "yes_price": 0.0005,
-              "volume": 17505
-            }
-          ],
-          "url": "https://polymarket.com/event/cs2-uno-fdb-2026-04-07",
-          "strategy": "Buy YES on all 5 outcomes. Total cost: $0.0050. One wins $1.00. Profit: $0.9950 (99.50%)"
-        },
-        {
-          "event_title": "CS Independiente Rivadavia vs. Club Bol\u00edvar - More Markets",
-          "event_slug": "lib-cir-bol-2026-04-07-more-markets",
-          "yes_sum": 0.007,
-          "profit_pct": 99.3,
-          "profit_per_dollar_pct": 14185.71,
-          "num_outcomes": 8,
-          "outcomes": [
-            {
-              "market_id": "1760279",
-              "slug": "lib-cir-bol-2026-04-07-btts",
-              "question": "CS Independiente Rivadavia vs. Club Bol\u00edvar: Both Teams to Score",
-              "yes_price": 0.0035,
-              "volume": 554
-            },
-            {
-              "market_id": "1760271",
-              "slug": "lib-cir-bol-2026-04-07-spread-home-1pt5",
-              "question": "Spread: CS Independiente Rivadavia (-1.5)",
-              "yes_price": 0.0005,
-              "volume": 1788
-            },
-            {
-              "market_id": "1760272",
-              "slug": "lib-cir-bol-2026-04-07-spread-away-1pt5",
-              "question": "Spread: Club Bol\u00edvar (-1.5)",
-              "yes_price": 0.0005,
-              "volume": 104
-            },
-            {
-              "market_id": "1760274",
-              "slug": "lib-cir-bol-2026-04-07-spread-away-2pt5",
-              "question": "Spread: Club Bol\u00edvar (-2.5)",
-              "yes_price": 0.0005,
-              "volume": 480
-            },
-            {
-              "market_id": "1760275",
-              "slug": "lib-cir-bol-2026-04-07-total-1pt5",
-              "question": "CS Independiente Rivadavia vs. Club Bol\u00edvar: O/U 1.5",
-              "yes_price": 0.0005,
-              "volume": 2258
-            },
-            {
-              "market_id": "1760276",
-              "slug": "lib-cir-bol-2026-04-07-total-2pt5",
-              "question": "CS Independiente Rivadavia vs. Club Bol\u00edvar: O/U 2.5",
-              "yes_price": 0.0005,
-              "volume": 6904
-            },
-            {
-              "market_id": "1760277",
-              "slug": "lib-cir-bol-2026-04-07-total-3pt5",
-              "question": "CS Independiente Rivadavia vs. Club Bol\u00edvar: O/U 3.5",
-              "yes_price": 0.0005,
-              "volume": 31823
-            },
-            {
-              "market_id": "1760278",
-              "slug": "lib-cir-bol-2026-04-07-total-4pt5",
-              "question": "CS Independiente Rivadavia vs. Club Bol\u00edvar: O/U 4.5",
-              "yes_price": 0.0005,
-              "volume": 253
-            }
-          ],
-          "url": "https://polymarket.com/event/lib-cir-bol-2026-04-07-more-markets",
-          "strategy": "Buy YES on all 8 outcomes. Total cost: $0.0070. One wins $1.00. Profit: $0.9930 (99.30%)"
-        },
-        {
-          "event_title": "Jerome Powell out as Fed Chair by...?",
-          "event_slug": "jerome-powell-out-as-fed-chair-by",
-          "yes_sum": 0.0125,
-          "profit_pct": 98.75,
-          "profit_per_dollar_pct": 7900.0,
+          "event_title": "Atlanta United FC vs. Nashville SC - More Markets",
+          "event_slug": "mls-atl-nas-2026-04-18-more-markets",
+          "yes_sum": 0.505,
+          "profit_pct": 49.5,
+          "profit_per_dollar_pct": 98.02,
           "num_outcomes": 2,
           "outcomes": [
             {
-              "market_id": "1092482",
-              "slug": "jerome-powell-out-as-fed-chair-by-may-14-2026",
-              "question": "Jerome Powell out as Fed Chair by May 14, 2026?",
-              "yes_price": 0.0125,
-              "volume": 948440
+              "market_id": "1684198",
+              "slug": "mls-atl-nas-2026-04-18-spread-away-1pt5",
+              "question": "Spread: Nashville SC (-1.5)",
+              "yes_price": 0.29,
+              "volume": 6282
             },
             {
-              "market_id": "1092481",
-              "slug": "jerome-powell-out-as-fed-chair-by-march-31-2026",
-              "question": "Jerome Powell out as Fed Chair by March 31, 2026?",
+              "market_id": "1684200",
+              "slug": "mls-atl-nas-2026-04-18-spread-away-2pt5",
+              "question": "Spread: Nashville SC (-2.5)",
+              "yes_price": 0.215,
+              "volume": 10894
+            }
+          ],
+          "url": "https://polymarket.com/event/mls-atl-nas-2026-04-18-more-markets",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.5050. One wins $1.00. Profit: $0.4950 (49.50%)"
+        },
+        {
+          "event_title": "Vermont Governor Democratic Primary Winner",
+          "event_slug": "vermont-governor-democratic-primary-winner",
+          "yes_sum": 0.5275,
+          "profit_pct": 47.25,
+          "profit_per_dollar_pct": 89.57,
+          "num_outcomes": 3,
+          "outcomes": [
+            {
+              "market_id": "907475",
+              "slug": "will-charity-clark-win-the-2026-vermont-governor-democratic-primary-election",
+              "question": "Will Charity Clark win the 2026 Vermont Governor Democratic primary election?",
+              "yes_price": 0.265,
+              "volume": 45258
+            },
+            {
+              "market_id": "907476",
+              "slug": "will-mike-pieciak-win-the-2026-vermont-governor-democratic-primary-election",
+              "question": "Will Mike Pieciak win the 2026 Vermont Governor Democratic primary election?",
+              "yes_price": 0.245,
+              "volume": 2082
+            },
+            {
+              "market_id": "907477",
+              "slug": "will-esther-charlestin-win-the-2026-vermont-governor-democratic-primary-election",
+              "question": "Will Esther Charlestin win the 2026 Vermont Governor Democratic primary election",
+              "yes_price": 0.0175,
+              "volume": 5456
+            }
+          ],
+          "url": "https://polymarket.com/event/vermont-governor-democratic-primary-winner",
+          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.5275. One wins $1.00. Profit: $0.4725 (47.25%)"
+        },
+        {
+          "event_title": "Will Samuel Alito announce his retirement by...?",
+          "event_slug": "will-samuel-alito-announce-his-retirement-by",
+          "yes_sum": 0.53,
+          "profit_pct": 47.0,
+          "profit_per_dollar_pct": 88.68,
+          "num_outcomes": 3,
+          "outcomes": [
+            {
+              "market_id": "1388704",
+              "slug": "will-samuel-alito-announce-his-retirement-by-december-31-2026",
+              "question": "Will Samuel Alito announce his retirement by December 31, 2026?",
+              "yes_price": 0.53,
+              "volume": 8908
+            },
+            {
+              "market_id": "1388702",
+              "slug": "will-samuel-alito-announce-his-retirement-by-february-28-2026",
+              "question": "Will Samuel Alito announce his retirement by February 28, 2026?",
               "yes_price": 0.0,
-              "volume": 995383
+              "volume": 15081
+            },
+            {
+              "market_id": "1388703",
+              "slug": "will-samuel-alito-announce-his-retirement-by-march-31-2026",
+              "question": "Will Samuel Alito announce his retirement by March 31, 2026?",
+              "yes_price": 0.0,
+              "volume": 27034
             }
           ],
-          "url": "https://polymarket.com/event/jerome-powell-out-as-fed-chair-by",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.0125. One wins $1.00. Profit: $0.9875 (98.75%)"
+          "url": "https://polymarket.com/event/will-samuel-alito-announce-his-retirement-by",
+          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.5300. One wins $1.00. Profit: $0.4700 (47.00%)"
+        },
+        {
+          "event_title": "Newcastle United Jets FC vs. Adelaide United FC",
+          "event_slug": "aus-new-ade-2026-04-11",
+          "yes_sum": 0.53,
+          "profit_pct": 47.0,
+          "profit_per_dollar_pct": 88.68,
+          "num_outcomes": 2,
+          "outcomes": [
+            {
+              "market_id": "1591312",
+              "slug": "aus-new-ade-2026-04-11-ade",
+              "question": "Will Adelaide United FC win on 2026-04-11?",
+              "yes_price": 0.31,
+              "volume": 1865
+            },
+            {
+              "market_id": "1591309",
+              "slug": "aus-new-ade-2026-04-11-draw",
+              "question": "Will Newcastle United Jets FC vs. Adelaide United FC end in a draw?",
+              "yes_price": 0.22,
+              "volume": 2262
+            }
+          ],
+          "url": "https://polymarket.com/event/aus-new-ade-2026-04-11",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.5300. One wins $1.00. Profit: $0.4700 (47.00%)"
+        },
+        {
+          "event_title": "Anime Awards: Best Anime Voice Artist Performance (Brazilian Portuguese) Winner",
+          "event_slug": "anime-awards-best-anime-voice-artist-performance-brazilian-portuguese-winner",
+          "yes_sum": 0.535,
+          "profit_pct": 46.5,
+          "profit_per_dollar_pct": 86.92,
+          "num_outcomes": 2,
+          "outcomes": [
+            {
+              "market_id": "1835863",
+              "slug": "will-ursula-bezerra-as-son-goku-dragon-ball-daima-win-best-anime-voice-artist-performance-brazilian-portuguese-at-the-2026-crunchyroll-anime-awards",
+              "question": "Will Ursula Bezerra as Son Goku (Dragon Ball DAIMA) win Best Anime Voice Artist ",
+              "yes_price": 0.385,
+              "volume": 1666
+            },
+            {
+              "market_id": "1835858",
+              "slug": "will-bruno-sangregrio-as-levi-ackerman-attack-on-titan-the-last-attack-win-best-anime-voice-artist-performance-brazilian-portuguese-at-the-2026-crunchyroll-anime-awards",
+              "question": "Will Bruno Sangreg\u00f3rio as Levi Ackerman (Attack on Titan: THE LAST ATTACK) win B",
+              "yes_price": 0.15,
+              "volume": 7693
+            }
+          ],
+          "url": "https://polymarket.com/event/anime-awards-best-anime-voice-artist-performance-brazilian-portuguese-winner",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.5350. One wins $1.00. Profit: $0.4650 (46.50%)"
+        },
+        {
+          "event_title": "FC Dallas vs. St. Louis City SC",
+          "event_slug": "mls-dal-stl-2026-04-11",
+          "yes_sum": 0.535,
+          "profit_pct": 46.5,
+          "profit_per_dollar_pct": 86.92,
+          "num_outcomes": 2,
+          "outcomes": [
+            {
+              "market_id": "1598845",
+              "slug": "mls-dal-stl-2026-04-11-stl",
+              "question": "Will St. Louis City SC win on 2026-04-11?",
+              "yes_price": 0.28,
+              "volume": 1827
+            },
+            {
+              "market_id": "1598844",
+              "slug": "mls-dal-stl-2026-04-11-draw",
+              "question": "Will FC Dallas vs. St. Louis City SC end in a draw?",
+              "yes_price": 0.255,
+              "volume": 1234
+            }
+          ],
+          "url": "https://polymarket.com/event/mls-dal-stl-2026-04-11",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.5350. One wins $1.00. Profit: $0.4650 (46.50%)"
+        },
+        {
+          "event_title": "FL-19 Republican Primary Winner",
+          "event_slug": "fl-19-republican-primary-winner",
+          "yes_sum": 0.541,
+          "profit_pct": 45.9,
+          "profit_per_dollar_pct": 84.84,
+          "num_outcomes": 2,
+          "outcomes": [
+            {
+              "market_id": "704424",
+              "slug": "will-catalina-lauf-be-the-republican-nominee-for-fl-19",
+              "question": "Will Catalina Lauf be the Republican nominee for FL-19?",
+              "yes_price": 0.45,
+              "volume": 15600
+            },
+            {
+              "market_id": "704427",
+              "slug": "will-jim-oberweis-be-the-republican-nominee-for-fl-19",
+              "question": "Will Jim Oberweis be the Republican nominee for FL-19?",
+              "yes_price": 0.091,
+              "volume": 2106
+            }
+          ],
+          "url": "https://polymarket.com/event/fl-19-republican-primary-winner",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.5410. One wins $1.00. Profit: $0.4590 (45.90%)"
         }
       ],
       "stats": {
         "total_events": 3000,
-        "checked_multi_outcome": 2152,
-        "skipped_single_outcome": 587,
-        "opportunities_found": 606,
-        "best_profit_pct": 99.95,
-        "scanned_at": "2026-04-08 01:01 UTC"
+        "checked_multi_outcome": 1844,
+        "skipped_single_outcome": 585,
+        "opportunities_found": 384,
+        "best_profit_pct": 50.0,
+        "scanned_at": "2026-04-08 01:03 UTC"
       }
     },
     {
