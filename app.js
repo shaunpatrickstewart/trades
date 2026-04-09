@@ -295,31 +295,43 @@
 
       document.getElementById('perf-count').textContent = '('+settled+' settled)';
 
-      // Fetch live bankroll + extended stats from bot_stats.json
-      let bankroll = 1340.0, winStreak = 0, dailyLog = [], organicPnl = 0, paperTopup = 1000, startingBr = 300;
-      let bsTrueRealized = null, bsOpenDeployed = null, bsLastUpdated = null;
+      // ── SOURCE OF TRUTH: compute everything from paper_trades.jsonl directly ──
+      // bot_stats.json is ONLY used for the daily_log chart — all financials come from trades
+      const STARTING_BR  = 300.0;
+      const PAPER_TOPUP  = 1000.0;
+
+      // TRUE realized: the only correct source — computed right here from settled trades
+      const trueRealized = trades.reduce((s,t)=>s+(t.status==='WON'||t.status==='LOST'?(t.pnl||0):0), 0);
+      // Bankroll = start + topup + all settled PnL
+      let bankroll = STARTING_BR + PAPER_TOPUP + trueRealized;
+      // Win streak: walk settled trades backwards, count consecutive WON
+      const settledByTime = [...won,...lost].sort((a,b)=>(a.timestamp||'').localeCompare(b.timestamp||''));
+      let winStreak = 0;
+      for (let i = settledByTime.length-1; i >= 0; i--) {
+        if (settledByTime[i].status === 'WON') winStreak++; else break;
+      }
+      const organicPnl = bankroll - (STARTING_BR + PAPER_TOPUP);
+
+      // bot_stats.json: ONLY for daily_log chart (supplementary, never for financials)
+      let dailyLog = [], bsLastUpdated = null;
       try {
         const bs = await pf('https://shaunpatrickstewart.github.io/trades/bot_stats.json');
         if (bs) {
-          if (bs.bankroll)            bankroll       = bs.bankroll;
-          if (bs.win_streak)          winStreak      = bs.win_streak;
-          if (bs.daily_log)           dailyLog       = bs.daily_log;
-          if (bs.organic_pnl!=null)   organicPnl     = bs.organic_pnl;
-          if (bs.paper_topup)         paperTopup     = bs.paper_topup;
-          if (bs.starting_bankroll)   startingBr     = bs.starting_bankroll;
-          if (bs.true_realized_pnl!=null)  bsTrueRealized  = bs.true_realized_pnl;
-          if (bs.open_capital_deployed!=null) bsOpenDeployed = bs.open_capital_deployed;
-          if (bs.last_updated)        bsLastUpdated  = bs.last_updated;
+          if (bs.daily_log) dailyLog = bs.daily_log;
+          if (bs.last_updated) bsLastUpdated = bs.last_updated;
+          // Override bankroll only if bot_stats is fresh (< 2 hours old)
+          if (bs.bankroll && bs.last_updated) {
+            const age = (Date.now() - new Date(bs.last_updated).getTime()) / 60000;
+            if (age < 120 && bs.bankroll > bankroll) bankroll = bs.bankroll;
+          }
         }
-      } catch(e) { /* use fallback */ }
+      } catch(e) { /* chart unavailable, all other data still correct */ }
 
       // Post-filter PnL (Apr 5+) — the meaningful number
       const FILTER_DATE = '2026-04-05';
       const tPfAll = [...won,...lost].filter(t=>(t.timestamp||t.closed_at||'').slice(0,10)>=FILTER_DATE);
       const postFilterPnl = tPfAll.reduce((s,t)=>s+(t.pnl||0),0);
       const postFilterWR  = tPfAll.length ? (tPfAll.filter(t=>t.status==='WON').length/tPfAll.length*100) : 0;
-      // TRUE realized: computed directly from this trades array — never stale, same source as header
-      const trueRealized = trades.reduce((s,t)=>s+(t.status==='WON'||t.status==='LOST'?(t.pnl||0):0), 0);
       // Bankroll growth since filters went live (started at ~$222 on Apr 5)
       const brGrowthPct = ((bankroll - 222.26) / 222.26 * 100);
 
