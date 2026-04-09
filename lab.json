@@ -8,438 +8,133 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 127 categorical arb opportunities found\nScanned 3000 events (1910 multi-outcome) at 2026-04-09 11:12 UTC\nBest: 10.0% profit on 'GA-13 Democratic Primary Winner' \u2014 buy YES on all 3 outcomes (sum=0.9)\nStrategy: Buy YES on all 3 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 9.85% on 'English Premier League - Most Clean Sheets'",
+      "result": "LIVE \u2014 120 categorical arb opportunities found\nScanned 3000 events (1922 multi-outcome) at 2026-04-09 12:12 UTC\nBest: 9.8% profit on 'How many different countries will Israel strike in 2026?' \u2014 buy YES on all 15 outcomes (sum=0.902)\nStrategy: Buy YES on all 15 outcomes. Total cost: $0.9020. One wins $1.00. Profit: $0.0980 (9.80%)\n2nd: 9.75% on 'Which cities will Russia enter by June 30?'",
       "priority": "HIGH",
-      "last_scan": "2026-04-09 11:12 UTC",
+      "last_scan": "2026-04-09 12:12 UTC",
       "opportunities": [
         {
-          "event_title": "GA-13 Democratic Primary Winner",
-          "event_slug": "ga-13-democratic-primary-winner",
-          "yes_sum": 0.9,
-          "profit_pct": 10.0,
-          "profit_per_dollar_pct": 11.11,
-          "num_outcomes": 3,
+          "event_title": "How many different countries will Israel strike in 2026?",
+          "event_slug": "how-many-different-countries-will-israel-strike-in-2026",
+          "yes_sum": 0.902,
+          "profit_pct": 9.8,
+          "profit_per_dollar_pct": 10.86,
+          "num_outcomes": 15,
           "outcomes": [
             {
-              "market_id": "1653178",
-              "slug": "will-david-scott-be-the-democratic-nominee-for-ga-13",
-              "question": "Will David Scott be the Democratic nominee for GA-13?",
-              "yes_price": 0.345,
-              "volume": 1222
+              "market_id": "678747",
+              "slug": "will-israel-strike-4-countries-in-november-2025",
+              "question": "Will Israel strike 4 countries in 2026?",
+              "yes_price": 0.278,
+              "volume": 1140988
             },
             {
-              "market_id": "1653180",
-              "slug": "will-jasmine-clark-be-the-democratic-nominee-for-ga-13",
-              "question": "Will Jasmine Clark be the Democratic nominee for GA-13?",
-              "yes_price": 0.34,
-              "volume": 1571
+              "market_id": "678748",
+              "slug": "will-israel-strike-5-countries-in-november-2025",
+              "question": "Will Israel strike 5 countries in 2026?",
+              "yes_price": 0.274,
+              "volume": 492899
             },
             {
-              "market_id": "1653179",
-              "slug": "will-everton-blair-jr-be-the-democratic-nominee-for-ga-13",
-              "question": "Will Everton Blair Jr. be the Democratic nominee for GA-13?",
-              "yes_price": 0.215,
-              "volume": 1313
-            }
-          ],
-          "url": "https://polymarket.com/event/ga-13-democratic-primary-winner",
-          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
-        },
-        {
-          "event_title": "English Premier League - Most Clean Sheets",
-          "event_slug": "english-premier-league-top-gk-clean-sheets",
-          "yes_sum": 0.9015,
-          "profit_pct": 9.85,
-          "profit_per_dollar_pct": 10.93,
-          "num_outcomes": 2,
-          "outcomes": [
-            {
-              "market_id": "1222798",
-              "slug": "will-david-raya-be-the-goalkeeper-with-the-most-clean-sheets-in-the-202526-english-premier-league-season",
-              "question": "Will David Raya be the goalkeeper with the most clean sheets in the 2025\u201326 Engl",
-              "yes_price": 0.9015,
-              "volume": 2693
+              "market_id": "678746",
+              "slug": "will-israel-strike-3-countries-in-2026",
+              "question": "Will Israel strike 3 countries in 2026?",
+              "yes_price": 0.138,
+              "volume": 1897661
             },
             {
-              "market_id": "1222808",
-              "slug": "will-nick-pope-be-the-goalkeeper-with-the-most-clean-sheets-in-the-202526-english-premier-league-season",
-              "question": "Will Nick Pope be the goalkeeper with the most clean sheets in the 2025\u201326 Engli",
-              "yes_price": 0.0,
-              "volume": 1029
-            }
-          ],
-          "url": "https://polymarket.com/event/english-premier-league-top-gk-clean-sheets",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9015. One wins $1.00. Profit: $0.0985 (9.85%)"
-        },
-        {
-          "event_title": "Pro Football: 2027 NFC Champion ",
-          "event_slug": "pro-football-2027-nfc-champion",
-          "yes_sum": 0.903,
-          "profit_pct": 9.7,
-          "profit_per_dollar_pct": 10.74,
-          "num_outcomes": 16,
-          "outcomes": [
-            {
-              "market_id": "1361067",
-              "slug": "will-los-angeles-rams-win-the-2027-nfl-nfc-championship-351",
-              "question": "Will Los Angeles Rams win the 2027 NFL NFC Championship?",
-              "yes_price": 0.14,
-              "volume": 2603
+              "market_id": "678749",
+              "slug": "will-israel-strike-6-countries-in-2026",
+              "question": "Will Israel strike 6 countries in 2026?",
+              "yes_price": 0.1145,
+              "volume": 626800
             },
             {
-              "market_id": "1361069",
-              "slug": "will-seattle-seahawks-win-the-2027-nfl-nfc-championship-625",
-              "question": "Will Seattle Seahawks win the 2027 NFL NFC Championship?",
-              "yes_price": 0.11,
-              "volume": 2117
+              "market_id": "678750",
+              "slug": "will-israel-strike-7-countries-in-2026",
+              "question": "Will Israel strike 7 countries in 2026?",
+              "yes_price": 0.038,
+              "volume": 585278
             },
             {
-              "market_id": "1361068",
-              "slug": "will-san-francisco-49ers-win-the-2027-nfl-nfc-championship-832",
-              "question": "Will San Francisco 49ers win the 2027 NFL NFC Championship?",
-              "yes_price": 0.08,
-              "volume": 15828
+              "market_id": "678751",
+              "slug": "will-israel-strike-8-countries-in-2026",
+              "question": "Will Israel strike 8 countries in 2026?",
+              "yes_price": 0.0175,
+              "volume": 499772
             },
             {
-              "market_id": "1361060",
-              "slug": "will-green-bay-packers-win-the-2027-nfl-nfc-championship-857",
-              "question": "Will Green Bay Packers win the 2027 NFL NFC Championship?",
-              "yes_price": 0.075,
-              "volume": 38454
-            },
-            {
-              "market_id": "1361059",
-              "slug": "will-detroit-lions-win-the-2027-nfl-nfc-championship-721",
-              "question": "Will Detroit Lions win the 2027 NFL NFC Championship?",
-              "yes_price": 0.07,
-              "volume": 21480
-            },
-            {
-              "market_id": "1361061",
-              "slug": "will-minnesota-vikings-win-the-2027-nfl-nfc-championship-884",
-              "question": "Will Minnesota Vikings win the 2027 NFL NFC Championship?",
-              "yes_price": 0.066,
-              "volume": 1731342
-            },
-            {
-              "market_id": "1361058",
-              "slug": "will-chicago-bears-win-the-2027-nfl-nfc-championship-449",
-              "question": "Will Chicago Bears win the 2027 NFL NFC Championship?",
-              "yes_price": 0.065,
-              "volume": 14990
-            },
-            {
-              "market_id": "1361056",
-              "slug": "will-philadelphia-eagles-win-the-2027-nfl-nfc-championship-835",
-              "question": "Will Philadelphia Eagles win the 2027 NFL NFC Championship?",
-              "yes_price": 0.06,
-              "volume": 25467
-            },
-            {
-              "market_id": "1361054",
-              "slug": "will-dallas-cowboys-win-the-2027-nfl-nfc-championship-584",
-              "question": "Will Dallas Cowboys win the 2027 NFL NFC Championship?",
-              "yes_price": 0.058,
-              "volume": 777093
-            },
-            {
-              "market_id": "1361063",
-              "slug": "will-carolina-panthers-win-the-2027-nfl-nfc-championship-793",
-              "question": "Will Carolina Panthers win the 2027 NFL NFC Championship?",
-              "yes_price": 0.0475,
-              "volume": 660739
-            },
-            {
-              "market_id": "1361065",
-              "slug": "will-tampa-bay-buccaneers-win-the-2027-nfl-nfc-championship-312",
-              "question": "Will Tampa Bay Buccaneers win the 2027 NFL NFC Championship?",
-              "yes_price": 0.0385,
-              "volume": 681517
-            },
-            {
-              "market_id": "1361064",
-              "slug": "will-new-orleans-saints-win-the-2027-nfl-nfc-championship-398",
-              "question": "Will New Orleans Saints win the 2027 NFL NFC Championship?",
-              "yes_price": 0.0285,
-              "volume": 504768
-            },
-            {
-              "market_id": "1361055",
-              "slug": "will-new-york-giants-win-the-2027-nfl-nfc-championship-866",
-              "question": "Will New York Giants win the 2027 NFL NFC Championship?",
-              "yes_price": 0.027,
-              "volume": 4125
-            },
-            {
-              "market_id": "1361057",
-              "slug": "will-washington-commanders-win-the-2027-nfl-nfc-championship-484",
-              "question": "Will Washington Commanders win the 2027 NFL NFC Championship?",
-              "yes_price": 0.0155,
-              "volume": 147859
-            },
-            {
-              "market_id": "1361062",
-              "slug": "will-atlanta-falcons-win-the-2027-nfl-nfc-championship-312",
-              "question": "Will Atlanta Falcons win the 2027 NFL NFC Championship?",
-              "yes_price": 0.014,
-              "volume": 122547
-            },
-            {
-              "market_id": "1361066",
-              "slug": "will-arizona-cardinals-win-the-2027-nfl-nfc-championship-199",
-              "question": "Will Arizona Cardinals win the 2027 NFL NFC Championship?",
-              "yes_price": 0.008,
-              "volume": 348595
-            }
-          ],
-          "url": "https://polymarket.com/event/pro-football-2027-nfc-champion",
-          "strategy": "Buy YES on all 16 outcomes. Total cost: $0.9030. One wins $1.00. Profit: $0.0970 (9.70%)"
-        },
-        {
-          "event_title": "Highest temperature in NYC on April 9?",
-          "event_slug": "highest-temperature-in-nyc-on-april-9-2026",
-          "yes_sum": 0.903,
-          "profit_pct": 9.7,
-          "profit_per_dollar_pct": 10.74,
-          "num_outcomes": 11,
-          "outcomes": [
-            {
-              "market_id": "1871706",
-              "slug": "highest-temperature-in-nyc-on-april-9-2026-50-51f",
-              "question": "Will the highest temperature in New York City be between 50-51\u00b0F on April 9?",
-              "yes_price": 0.535,
-              "volume": 4911
-            },
-            {
-              "market_id": "1871705",
-              "slug": "highest-temperature-in-nyc-on-april-9-2026-48-49f",
-              "question": "Will the highest temperature in New York City be between 48-49\u00b0F on April 9?",
-              "yes_price": 0.175,
-              "volume": 4097
-            },
-            {
-              "market_id": "1871707",
-              "slug": "highest-temperature-in-nyc-on-april-9-2026-52-53f",
-              "question": "Will the highest temperature in New York City be between 52-53\u00b0F on April 9?",
-              "yes_price": 0.11,
-              "volume": 5798
-            },
-            {
-              "market_id": "1871708",
-              "slug": "highest-temperature-in-nyc-on-april-9-2026-54-55f",
-              "question": "Will the highest temperature in New York City be between 54-55\u00b0F on April 9?",
-              "yes_price": 0.0425,
-              "volume": 6556
-            },
-            {
-              "market_id": "1871704",
-              "slug": "highest-temperature-in-nyc-on-april-9-2026-46-47f",
-              "question": "Will the highest temperature in New York City be between 46-47\u00b0F on April 9?",
-              "yes_price": 0.027,
-              "volume": 11510
-            },
-            {
-              "market_id": "1871703",
-              "slug": "highest-temperature-in-nyc-on-april-9-2026-45forbelow",
-              "question": "Will the highest temperature in New York City be 45\u00b0F or below on April 9?",
-              "yes_price": 0.0065,
-              "volume": 29668
-            },
-            {
-              "market_id": "1871709",
-              "slug": "highest-temperature-in-nyc-on-april-9-2026-56-57f",
-              "question": "Will the highest temperature in New York City be between 56-57\u00b0F on April 9?",
-              "yes_price": 0.0035,
-              "volume": 5831
-            },
-            {
-              "market_id": "1871711",
-              "slug": "highest-temperature-in-nyc-on-april-9-2026-60-61f",
-              "question": "Will the highest temperature in New York City be between 60-61\u00b0F on April 9?",
-              "yes_price": 0.002,
-              "volume": 4678
-            },
-            {
-              "market_id": "1871710",
-              "slug": "highest-temperature-in-nyc-on-april-9-2026-58-59f",
-              "question": "Will the highest temperature in New York City be between 58-59\u00b0F on April 9?",
-              "yes_price": 0.0005,
-              "volume": 3679
-            },
-            {
-              "market_id": "1871712",
-              "slug": "highest-temperature-in-nyc-on-april-9-2026-62-63f",
-              "question": "Will the highest temperature in New York City be between 62-63\u00b0F on April 9?",
-              "yes_price": 0.0005,
-              "volume": 4527
-            },
-            {
-              "market_id": "1871713",
-              "slug": "highest-temperature-in-nyc-on-april-9-2026-64forhigher",
-              "question": "Will the highest temperature in New York City be 64\u00b0F or higher on April 9?",
-              "yes_price": 0.0005,
-              "volume": 4547
-            }
-          ],
-          "url": "https://polymarket.com/event/highest-temperature-in-nyc-on-april-9-2026",
-          "strategy": "Buy YES on all 11 outcomes. Total cost: $0.9030. One wins $1.00. Profit: $0.0970 (9.70%)"
-        },
-        {
-          "event_title": "How long will Trump and Xi shake hands when they meet?",
-          "event_slug": "how-long-will-trump-and-xi-shake-hands-when-they-meet",
-          "yes_sum": 0.903,
-          "profit_pct": 9.7,
-          "profit_per_dollar_pct": 10.74,
-          "num_outcomes": 7,
-          "outcomes": [
-            {
-              "market_id": "1363794",
-              "slug": "will-trump-and-xi-handshake-last-610-seconds-during-the-day-of-their-next-meeting-in-2026",
-              "question": "Will Trump and Xi handshake last 6\u201310 seconds during the day of their next meeti",
-              "yes_price": 0.29,
-              "volume": 3623
-            },
-            {
-              "market_id": "1363796",
-              "slug": "will-trump-and-xi-handshake-last-15-seconds-or-longer-during-the-day-of-their-next-meeting-in-2026",
-              "question": "Will Trump and Xi handshake last 15 seconds or longer during the day of their ne",
-              "yes_price": 0.21,
-              "volume": 8643
-            },
-            {
-              "market_id": "1363795",
-              "slug": "will-trump-and-xi-handshake-last-1015-seconds-during-the-day-of-their-next-meeting-in-2026",
-              "question": "Will Trump and Xi handshake last 10\u201315 seconds during the day of their next meet",
-              "yes_price": 0.185,
-              "volume": 3718
-            },
-            {
-              "market_id": "1363793",
-              "slug": "will-trump-and-xi-handshake-last-26-seconds-during-the-day-of-their-next-meeting-in-2026",
-              "question": "Will Trump and Xi handshake last 2\u20136 seconds during the day of their next meetin",
-              "yes_price": 0.13,
-              "volume": 10984
-            },
-            {
-              "market_id": "1363791",
-              "slug": "will-trump-and-xi-not-shake-hands-during-the-day-of-their-next-meeting-in-2026",
-              "question": "Will Trump and Xi not shake hands during the day of their next meeting in 2026?",
-              "yes_price": 0.0445,
-              "volume": 11396
-            },
-            {
-              "market_id": "1363792",
-              "slug": "will-trump-and-xi-handshake-last-less-than-2-seconds-during-the-day-of-their-next-meeting-in-2026",
-              "question": "Will Trump and Xi handshake last less than 2 seconds during the day of their nex",
-              "yes_price": 0.0265,
-              "volume": 13556
-            },
-            {
-              "market_id": "1363797",
-              "slug": "will-trump-and-xi-only-be-photographed-together-during-the-day-of-their-next-meeting-in-2026",
-              "question": "Will Trump and Xi only be photographed together during the day of their next mee",
-              "yes_price": 0.017,
-              "volume": 10669
-            }
-          ],
-          "url": "https://polymarket.com/event/how-long-will-trump-and-xi-shake-hands-when-they-meet",
-          "strategy": "Buy YES on all 7 outcomes. Total cost: $0.9030. One wins $1.00. Profit: $0.0970 (9.70%)"
-        },
-        {
-          "event_title": "AZ-01 Republican Primary Winner",
-          "event_slug": "az-01-republican-primary-winner",
-          "yes_sum": 0.9035,
-          "profit_pct": 9.65,
-          "profit_per_dollar_pct": 10.68,
-          "num_outcomes": 11,
-          "outcomes": [
-            {
-              "market_id": "704348",
-              "slug": "will-jay-feely-be-the-republican-nominee-for-az-01",
-              "question": "Will Jay Feely be the Republican nominee for AZ-01?",
-              "yes_price": 0.69,
-              "volume": 4681
-            },
-            {
-              "market_id": "704343",
-              "slug": "will-joseph-chaplik-be-the-republican-nominee-for-az-01",
-              "question": "Will Joseph Chaplik be the Republican nominee for AZ-01?",
-              "yes_price": 0.072,
-              "volume": 7369
-            },
-            {
-              "market_id": "704345",
-              "slug": "will-todd-graham-be-the-republican-nominee-for-az-01",
-              "question": "Will Todd Graham be the Republican nominee for AZ-01?",
-              "yes_price": 0.054,
-              "volume": 7582
-            },
-            {
-              "market_id": "704352",
-              "slug": "will-brandon-sowers-be-the-republican-nominee-for-az-01-218",
-              "question": "Will Brandon Sowers be the Republican nominee for AZ-01?",
-              "yes_price": 0.0255,
-              "volume": 9865
-            },
-            {
-              "market_id": "704349",
-              "slug": "will-derrick-gallego-be-the-republican-nominee-for-az-01-424",
-              "question": "Will Derrick Gallego be the Republican nominee for AZ-01?",
+              "market_id": "678753",
+              "slug": "will-israel-strike-10-countries-in-2026",
+              "question": "Will Israel strike 10 countries in 2026?",
               "yes_price": 0.0145,
-              "volume": 2957
+              "volume": 375868
             },
             {
-              "market_id": "704346",
-              "slug": "will-mark-brnovich-be-the-republican-nominee-for-az-01",
-              "question": "Will Mark Brnovich be the Republican nominee for AZ-01?",
-              "yes_price": 0.011,
-              "volume": 4365
+              "market_id": "678752",
+              "slug": "will-israel-strike-9-countries-in-2026",
+              "question": "Will Israel strike 9 countries in 2026?",
+              "yes_price": 0.012,
+              "volume": 199718
             },
             {
-              "market_id": "704351",
-              "slug": "will-paul-reevs-be-the-republican-nominee-for-az-01",
-              "question": "Will Paul Reevs be the Republican nominee for AZ-01?",
-              "yes_price": 0.0105,
-              "volume": 221052
-            },
-            {
-              "market_id": "704347",
-              "slug": "will-kari-lake-be-the-republican-nominee-for-az-01",
-              "question": "Will Kari Lake be the Republican nominee for AZ-01?",
-              "yes_price": 0.01,
-              "volume": 6398
-            },
-            {
-              "market_id": "704350",
-              "slug": "will-kaitlin-purrington-be-the-republican-nominee-for-az-01",
-              "question": "Will Kaitlin Purrington be the Republican nominee for AZ-01?",
+              "market_id": "678754",
+              "slug": "will-israel-strike-11-countries-in-2026",
+              "question": "Will Israel strike 11 countries in 2026?",
               "yes_price": 0.0065,
-              "volume": 8035
+              "volume": 90002
             },
             {
-              "market_id": "704341",
-              "slug": "will-matt-gress-be-the-republican-nominee-for-az-01",
-              "question": "Will Matt Gress be the Republican nominee for AZ-01?",
-              "yes_price": 0.006,
-              "volume": 47835
+              "market_id": "678755",
+              "slug": "will-israel-strike-12-countries-in-2026",
+              "question": "Will Israel strike 12 countries in 2026?",
+              "yes_price": 0.0045,
+              "volume": 61714
             },
             {
-              "market_id": "704344",
-              "slug": "will-muchelle-ugenti-rita-be-the-republican-nominee-for-az-01",
-              "question": "Will Muchelle Ugenti-Rita be the Republican nominee for AZ-01?",
-              "yes_price": 0.0035,
-              "volume": 4021
+              "market_id": "678756",
+              "slug": "will-israel-strike-13-countries-in-2026",
+              "question": "Will Israel strike 13 countries in 2026?",
+              "yes_price": 0.0015,
+              "volume": 133639
+            },
+            {
+              "market_id": "678757",
+              "slug": "will-israel-strike-14-countries-in-2026",
+              "question": "Will Israel strike 14 countries in 2026?",
+              "yes_price": 0.0015,
+              "volume": 100703
+            },
+            {
+              "market_id": "678758",
+              "slug": "will-israel-strike-15-or-more-countries-in-2026",
+              "question": "Will Israel strike 15 or more countries in 2026?",
+              "yes_price": 0.0015,
+              "volume": 35687
+            },
+            {
+              "market_id": "678743",
+              "slug": "will-israel-strike-0-countries-in-2026",
+              "question": "Will Israel strike 0 countries in 2026?",
+              "yes_price": 0.0,
+              "volume": 38308
+            },
+            {
+              "market_id": "678744",
+              "slug": "will-israel-strike-1-country-in-2026",
+              "question": "Will Israel strike 1 country in 2026?",
+              "yes_price": 0.0,
+              "volume": 87273
             }
           ],
-          "url": "https://polymarket.com/event/az-01-republican-primary-winner",
-          "strategy": "Buy YES on all 11 outcomes. Total cost: $0.9035. One wins $1.00. Profit: $0.0965 (9.65%)"
+          "url": "https://polymarket.com/event/how-many-different-countries-will-israel-strike-in-2026",
+          "strategy": "Buy YES on all 15 outcomes. Total cost: $0.9020. One wins $1.00. Profit: $0.0980 (9.80%)"
         },
         {
           "event_title": "Which cities will Russia enter by June 30?",
           "event_slug": "which-cities-will-russia-enter-by-june-30",
-          "yes_sum": 0.904,
-          "profit_pct": 9.6,
-          "profit_per_dollar_pct": 10.62,
+          "yes_sum": 0.9025,
+          "profit_pct": 9.75,
+          "profit_per_dollar_pct": 10.8,
           "num_outcomes": 8,
           "outcomes": [
             {
@@ -495,12 +190,101 @@
               "market_id": "1007634",
               "slug": "will-russia-enter-kharkiv-by-june-30-967",
               "question": "Will Russia enter Kharkiv by June 30?",
-              "yes_price": 0.043,
+              "yes_price": 0.0415,
               "volume": 35799
             }
           ],
           "url": "https://polymarket.com/event/which-cities-will-russia-enter-by-june-30",
-          "strategy": "Buy YES on all 8 outcomes. Total cost: $0.9040. One wins $1.00. Profit: $0.0960 (9.60%)"
+          "strategy": "Buy YES on all 8 outcomes. Total cost: $0.9025. One wins $1.00. Profit: $0.0975 (9.75%)"
+        },
+        {
+          "event_title": "AZ-01 Republican Primary Winner",
+          "event_slug": "az-01-republican-primary-winner",
+          "yes_sum": 0.9045,
+          "profit_pct": 9.55,
+          "profit_per_dollar_pct": 10.56,
+          "num_outcomes": 11,
+          "outcomes": [
+            {
+              "market_id": "704348",
+              "slug": "will-jay-feely-be-the-republican-nominee-for-az-01",
+              "question": "Will Jay Feely be the Republican nominee for AZ-01?",
+              "yes_price": 0.69,
+              "volume": 4681
+            },
+            {
+              "market_id": "704343",
+              "slug": "will-joseph-chaplik-be-the-republican-nominee-for-az-01",
+              "question": "Will Joseph Chaplik be the Republican nominee for AZ-01?",
+              "yes_price": 0.0715,
+              "volume": 7369
+            },
+            {
+              "market_id": "704345",
+              "slug": "will-todd-graham-be-the-republican-nominee-for-az-01",
+              "question": "Will Todd Graham be the Republican nominee for AZ-01?",
+              "yes_price": 0.053,
+              "volume": 7582
+            },
+            {
+              "market_id": "704352",
+              "slug": "will-brandon-sowers-be-the-republican-nominee-for-az-01-218",
+              "question": "Will Brandon Sowers be the Republican nominee for AZ-01?",
+              "yes_price": 0.0255,
+              "volume": 9865
+            },
+            {
+              "market_id": "704349",
+              "slug": "will-derrick-gallego-be-the-republican-nominee-for-az-01-424",
+              "question": "Will Derrick Gallego be the Republican nominee for AZ-01?",
+              "yes_price": 0.016,
+              "volume": 2957
+            },
+            {
+              "market_id": "704346",
+              "slug": "will-mark-brnovich-be-the-republican-nominee-for-az-01",
+              "question": "Will Mark Brnovich be the Republican nominee for AZ-01?",
+              "yes_price": 0.0115,
+              "volume": 4365
+            },
+            {
+              "market_id": "704347",
+              "slug": "will-kari-lake-be-the-republican-nominee-for-az-01",
+              "question": "Will Kari Lake be the Republican nominee for AZ-01?",
+              "yes_price": 0.0105,
+              "volume": 6398
+            },
+            {
+              "market_id": "704351",
+              "slug": "will-paul-reevs-be-the-republican-nominee-for-az-01",
+              "question": "Will Paul Reevs be the Republican nominee for AZ-01?",
+              "yes_price": 0.0105,
+              "volume": 221052
+            },
+            {
+              "market_id": "704350",
+              "slug": "will-kaitlin-purrington-be-the-republican-nominee-for-az-01",
+              "question": "Will Kaitlin Purrington be the Republican nominee for AZ-01?",
+              "yes_price": 0.0065,
+              "volume": 8035
+            },
+            {
+              "market_id": "704341",
+              "slug": "will-matt-gress-be-the-republican-nominee-for-az-01",
+              "question": "Will Matt Gress be the Republican nominee for AZ-01?",
+              "yes_price": 0.006,
+              "volume": 47835
+            },
+            {
+              "market_id": "704344",
+              "slug": "will-muchelle-ugenti-rita-be-the-republican-nominee-for-az-01",
+              "question": "Will Muchelle Ugenti-Rita be the Republican nominee for AZ-01?",
+              "yes_price": 0.0035,
+              "volume": 4021
+            }
+          ],
+          "url": "https://polymarket.com/event/az-01-republican-primary-winner",
+          "strategy": "Buy YES on all 11 outcomes. Total cost: $0.9045. One wins $1.00. Profit: $0.0955 (9.55%)"
         },
         {
           "event_title": "Who will be UFC Welterweight champion at the end of 2026?",
@@ -536,11 +320,161 @@
           "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
         },
         {
-          "event_title": "Alabama Governor Democratic Primary Winner",
-          "event_slug": "alabama-governor-democratic-primary-winner",
+          "event_title": "English Premier League - Most Clean Sheets",
+          "event_slug": "english-premier-league-top-gk-clean-sheets",
           "yes_sum": 0.9055,
           "profit_pct": 9.45,
           "profit_per_dollar_pct": 10.44,
+          "num_outcomes": 2,
+          "outcomes": [
+            {
+              "market_id": "1222798",
+              "slug": "will-david-raya-be-the-goalkeeper-with-the-most-clean-sheets-in-the-202526-english-premier-league-season",
+              "question": "Will David Raya be the goalkeeper with the most clean sheets in the 2025\u201326 Engl",
+              "yes_price": 0.9055,
+              "volume": 2693
+            },
+            {
+              "market_id": "1222808",
+              "slug": "will-nick-pope-be-the-goalkeeper-with-the-most-clean-sheets-in-the-202526-english-premier-league-season",
+              "question": "Will Nick Pope be the goalkeeper with the most clean sheets in the 2025\u201326 Engli",
+              "yes_price": 0.0,
+              "volume": 1029
+            }
+          ],
+          "url": "https://polymarket.com/event/english-premier-league-top-gk-clean-sheets",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9055. One wins $1.00. Profit: $0.0945 (9.45%)"
+        },
+        {
+          "event_title": "Pro Football: 2027 NFC Champion ",
+          "event_slug": "pro-football-2027-nfc-champion",
+          "yes_sum": 0.9065,
+          "profit_pct": 9.35,
+          "profit_per_dollar_pct": 10.31,
+          "num_outcomes": 16,
+          "outcomes": [
+            {
+              "market_id": "1361067",
+              "slug": "will-los-angeles-rams-win-the-2027-nfl-nfc-championship-351",
+              "question": "Will Los Angeles Rams win the 2027 NFL NFC Championship?",
+              "yes_price": 0.145,
+              "volume": 2603
+            },
+            {
+              "market_id": "1361069",
+              "slug": "will-seattle-seahawks-win-the-2027-nfl-nfc-championship-625",
+              "question": "Will Seattle Seahawks win the 2027 NFL NFC Championship?",
+              "yes_price": 0.11,
+              "volume": 2117
+            },
+            {
+              "market_id": "1361068",
+              "slug": "will-san-francisco-49ers-win-the-2027-nfl-nfc-championship-832",
+              "question": "Will San Francisco 49ers win the 2027 NFL NFC Championship?",
+              "yes_price": 0.08,
+              "volume": 15828
+            },
+            {
+              "market_id": "1361060",
+              "slug": "will-green-bay-packers-win-the-2027-nfl-nfc-championship-857",
+              "question": "Will Green Bay Packers win the 2027 NFL NFC Championship?",
+              "yes_price": 0.075,
+              "volume": 38454
+            },
+            {
+              "market_id": "1361059",
+              "slug": "will-detroit-lions-win-the-2027-nfl-nfc-championship-721",
+              "question": "Will Detroit Lions win the 2027 NFL NFC Championship?",
+              "yes_price": 0.07,
+              "volume": 21480
+            },
+            {
+              "market_id": "1361058",
+              "slug": "will-chicago-bears-win-the-2027-nfl-nfc-championship-449",
+              "question": "Will Chicago Bears win the 2027 NFL NFC Championship?",
+              "yes_price": 0.065,
+              "volume": 14990
+            },
+            {
+              "market_id": "1361061",
+              "slug": "will-minnesota-vikings-win-the-2027-nfl-nfc-championship-884",
+              "question": "Will Minnesota Vikings win the 2027 NFL NFC Championship?",
+              "yes_price": 0.065,
+              "volume": 1731342
+            },
+            {
+              "market_id": "1361056",
+              "slug": "will-philadelphia-eagles-win-the-2027-nfl-nfc-championship-835",
+              "question": "Will Philadelphia Eagles win the 2027 NFL NFC Championship?",
+              "yes_price": 0.06,
+              "volume": 25467
+            },
+            {
+              "market_id": "1361054",
+              "slug": "will-dallas-cowboys-win-the-2027-nfl-nfc-championship-584",
+              "question": "Will Dallas Cowboys win the 2027 NFL NFC Championship?",
+              "yes_price": 0.058,
+              "volume": 777093
+            },
+            {
+              "market_id": "1361063",
+              "slug": "will-carolina-panthers-win-the-2027-nfl-nfc-championship-793",
+              "question": "Will Carolina Panthers win the 2027 NFL NFC Championship?",
+              "yes_price": 0.0475,
+              "volume": 660739
+            },
+            {
+              "market_id": "1361065",
+              "slug": "will-tampa-bay-buccaneers-win-the-2027-nfl-nfc-championship-312",
+              "question": "Will Tampa Bay Buccaneers win the 2027 NFL NFC Championship?",
+              "yes_price": 0.0385,
+              "volume": 681517
+            },
+            {
+              "market_id": "1361064",
+              "slug": "will-new-orleans-saints-win-the-2027-nfl-nfc-championship-398",
+              "question": "Will New Orleans Saints win the 2027 NFL NFC Championship?",
+              "yes_price": 0.0285,
+              "volume": 504768
+            },
+            {
+              "market_id": "1361055",
+              "slug": "will-new-york-giants-win-the-2027-nfl-nfc-championship-866",
+              "question": "Will New York Giants win the 2027 NFL NFC Championship?",
+              "yes_price": 0.026,
+              "volume": 4125
+            },
+            {
+              "market_id": "1361057",
+              "slug": "will-washington-commanders-win-the-2027-nfl-nfc-championship-484",
+              "question": "Will Washington Commanders win the 2027 NFL NFC Championship?",
+              "yes_price": 0.0155,
+              "volume": 147859
+            },
+            {
+              "market_id": "1361062",
+              "slug": "will-atlanta-falcons-win-the-2027-nfl-nfc-championship-312",
+              "question": "Will Atlanta Falcons win the 2027 NFL NFC Championship?",
+              "yes_price": 0.0145,
+              "volume": 122547
+            },
+            {
+              "market_id": "1361066",
+              "slug": "will-arizona-cardinals-win-the-2027-nfl-nfc-championship-199",
+              "question": "Will Arizona Cardinals win the 2027 NFL NFC Championship?",
+              "yes_price": 0.008,
+              "volume": 348595
+            }
+          ],
+          "url": "https://polymarket.com/event/pro-football-2027-nfc-champion",
+          "strategy": "Buy YES on all 16 outcomes. Total cost: $0.9065. One wins $1.00. Profit: $0.0935 (9.35%)"
+        },
+        {
+          "event_title": "Alabama Governor Democratic Primary Winner",
+          "event_slug": "alabama-governor-democratic-primary-winner",
+          "yes_sum": 0.9065,
+          "profit_pct": 9.35,
+          "profit_per_dollar_pct": 10.31,
           "num_outcomes": 3,
           "outcomes": [
             {
@@ -554,82 +488,169 @@
               "market_id": "821612",
               "slug": "will-yolanda-flowers-win-the-2026-alabama-governor-democratic-primary-election",
               "question": "Will Yolanda Flowers win the 2026 Alabama Governor Democratic primary election?",
-              "yes_price": 0.0255,
+              "yes_price": 0.026,
               "volume": 8435
             },
             {
               "market_id": "821611",
               "slug": "will-jamel-brown-win-the-2026-alabama-governor-democratic-primary-election",
               "question": "Will Ja\u2019Mel Brown win the 2026 Alabama Governor Democratic primary election?",
-              "yes_price": 0.0185,
+              "yes_price": 0.019,
               "volume": 2690
             }
           ],
           "url": "https://polymarket.com/event/alabama-governor-democratic-primary-winner",
-          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9055. One wins $1.00. Profit: $0.0945 (9.45%)"
+          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9065. One wins $1.00. Profit: $0.0935 (9.35%)"
         },
         {
-          "event_title": "How many large volcano eruptions (VEI \u22654) in 2026?",
-          "event_slug": "how-many-large-volcano-eruption-vei-4-in-2026-657",
-          "yes_sum": 0.906,
-          "profit_pct": 9.4,
-          "profit_per_dollar_pct": 10.38,
-          "num_outcomes": 6,
+          "event_title": "PA-10 Democratic Primary Winner",
+          "event_slug": "pa-10-democratic-primary-winner-877",
+          "yes_sum": 0.909,
+          "profit_pct": 9.1,
+          "profit_per_dollar_pct": 10.01,
+          "num_outcomes": 2,
           "outcomes": [
             {
-              "market_id": "1075290",
-              "slug": "will-there-be-exactly-0-confirmed-vei-4-or-higher-volcanic-eruptions-worldwide-in-2026",
-              "question": "Will there be exactly 0 confirmed VEI 4 or higher volcanic eruptions worldwide i",
-              "yes_price": 0.415,
-              "volume": 409665
+              "market_id": "1448356",
+              "slug": "will-janelle-stelson-be-the-democratic-nominee-for-pa-10-994",
+              "question": "Will Janelle Stelson be the Democratic Nominee for PA-10?",
+              "yes_price": 0.895,
+              "volume": 3029
             },
             {
-              "market_id": "1075291",
-              "slug": "will-there-be-exactly-1-confirmed-vei-4-or-higher-volcanic-eruption-worldwide-in-2026-937",
-              "question": "Will there be exactly 1 confirmed VEI 4 or higher volcanic eruption worldwide in",
-              "yes_price": 0.405,
-              "volume": 244764
-            },
-            {
-              "market_id": "1075292",
-              "slug": "will-there-be-exactly-2-confirmed-vei-4-or-higher-volcanic-eruptions-worldwide-in-2026-976",
-              "question": "Will there be exactly 2 confirmed VEI 4 or higher volcanic eruptions worldwide i",
-              "yes_price": 0.0395,
-              "volume": 18653
-            },
-            {
-              "market_id": "1075294",
-              "slug": "will-there-be-exactly-4-confirmed-vei-4-or-higher-volcanic-eruptions-worldwide-in-2026-912",
-              "question": "Will there be exactly 4 confirmed VEI 4 or higher volcanic eruptions worldwide i",
-              "yes_price": 0.0235,
-              "volume": 12166
-            },
-            {
-              "market_id": "1075295",
-              "slug": "will-there-be-5-or-more-confirmed-vei-4-or-higher-volcanic-eruptions-worldwide-in-2026-655",
-              "question": "Will there be 5 or more confirmed VEI 4 or higher volcanic eruptions worldwide i",
-              "yes_price": 0.013,
-              "volume": 11487
-            },
-            {
-              "market_id": "1075293",
-              "slug": "will-there-be-exactly-3-confirmed-vei-4-or-higher-volcanic-eruptions-worldwide-in-2026-666",
-              "question": "Will there be exactly 3 confirmed VEI 4 or higher volcanic eruptions worldwide i",
-              "yes_price": 0.01,
-              "volume": 6725
+              "market_id": "1448358",
+              "slug": "will-jason-cass-be-the-democratic-nominee-for-pa-10-765",
+              "question": "Will Jason Cass be the Democratic Nominee for PA-10?",
+              "yes_price": 0.014,
+              "volume": 8157
             }
           ],
-          "url": "https://polymarket.com/event/how-many-large-volcano-eruption-vei-4-in-2026-657",
-          "strategy": "Buy YES on all 6 outcomes. Total cost: $0.9060. One wins $1.00. Profit: $0.0940 (9.40%)"
+          "url": "https://polymarket.com/event/pa-10-democratic-primary-winner-877",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9090. One wins $1.00. Profit: $0.0910 (9.10%)"
+        },
+        {
+          "event_title": "Highest temperature in NYC on April 10?",
+          "event_slug": "highest-temperature-in-nyc-on-april-10-2026",
+          "yes_sum": 0.91,
+          "profit_pct": 9.0,
+          "profit_per_dollar_pct": 9.89,
+          "num_outcomes": 11,
+          "outcomes": [
+            {
+              "market_id": "1886335",
+              "slug": "highest-temperature-in-nyc-on-april-10-2026-60-61f",
+              "question": "Will the highest temperature in New York City be between 60-61\u00b0F on April 10?",
+              "yes_price": 0.33,
+              "volume": 1061
+            },
+            {
+              "market_id": "1886336",
+              "slug": "highest-temperature-in-nyc-on-april-10-2026-62-63f",
+              "question": "Will the highest temperature in New York City be between 62-63\u00b0F on April 10?",
+              "yes_price": 0.185,
+              "volume": 1854
+            },
+            {
+              "market_id": "1886334",
+              "slug": "highest-temperature-in-nyc-on-april-10-2026-58-59f",
+              "question": "Will the highest temperature in New York City be between 58-59\u00b0F on April 10?",
+              "yes_price": 0.175,
+              "volume": 1440
+            },
+            {
+              "market_id": "1886337",
+              "slug": "highest-temperature-in-nyc-on-april-10-2026-64-65f",
+              "question": "Will the highest temperature in New York City be between 64-65\u00b0F on April 10?",
+              "yes_price": 0.09,
+              "volume": 1537
+            },
+            {
+              "market_id": "1886333",
+              "slug": "highest-temperature-in-nyc-on-april-10-2026-56-57f",
+              "question": "Will the highest temperature in New York City be between 56-57\u00b0F on April 10?",
+              "yes_price": 0.054,
+              "volume": 2495
+            },
+            {
+              "market_id": "1886338",
+              "slug": "highest-temperature-in-nyc-on-april-10-2026-66-67f",
+              "question": "Will the highest temperature in New York City be between 66-67\u00b0F on April 10?",
+              "yes_price": 0.0345,
+              "volume": 2926
+            },
+            {
+              "market_id": "1886332",
+              "slug": "highest-temperature-in-nyc-on-april-10-2026-55forbelow",
+              "question": "Will the highest temperature in New York City be 55\u00b0F or below on April 10?",
+              "yes_price": 0.0185,
+              "volume": 8719
+            },
+            {
+              "market_id": "1886339",
+              "slug": "highest-temperature-in-nyc-on-april-10-2026-68-69f",
+              "question": "Will the highest temperature in New York City be between 68-69\u00b0F on April 10?",
+              "yes_price": 0.009,
+              "volume": 3976
+            },
+            {
+              "market_id": "1886340",
+              "slug": "highest-temperature-in-nyc-on-april-10-2026-70-71f",
+              "question": "Will the highest temperature in New York City be between 70-71\u00b0F on April 10?",
+              "yes_price": 0.0075,
+              "volume": 4271
+            },
+            {
+              "market_id": "1886341",
+              "slug": "highest-temperature-in-nyc-on-april-10-2026-72-73f",
+              "question": "Will the highest temperature in New York City be between 72-73\u00b0F on April 10?",
+              "yes_price": 0.0035,
+              "volume": 2002
+            },
+            {
+              "market_id": "1886342",
+              "slug": "highest-temperature-in-nyc-on-april-10-2026-74forhigher",
+              "question": "Will the highest temperature in New York City be 74\u00b0F or higher on April 10?",
+              "yes_price": 0.003,
+              "volume": 2084
+            }
+          ],
+          "url": "https://polymarket.com/event/highest-temperature-in-nyc-on-april-10-2026",
+          "strategy": "Buy YES on all 11 outcomes. Total cost: $0.9100. One wins $1.00. Profit: $0.0900 (9.00%)"
+        },
+        {
+          "event_title": "Javokhir Sindarov vs. Praggnanandhaa R - FIDE Candidates 2026 Open (Round 10)",
+          "event_slug": "chess-jsinda-pr-2026-04-09-r10",
+          "yes_sum": 0.91,
+          "profit_pct": 9.0,
+          "profit_per_dollar_pct": 9.89,
+          "num_outcomes": 2,
+          "outcomes": [
+            {
+              "market_id": "1913922",
+              "slug": "chess-jsinda-pr-2026-04-09-r10-draw",
+              "question": "Will Javokhir Sindarov vs. Praggnanandhaa R end in a draw?",
+              "yes_price": 0.625,
+              "volume": 1004
+            },
+            {
+              "market_id": "1913921",
+              "slug": "chess-jsinda-pr-2026-04-09-r10-white",
+              "question": "Will Javokhir Sindarov win on 2026-04-09 at FIDE Candidates 2026 Open?",
+              "yes_price": 0.285,
+              "volume": 3356
+            }
+          ],
+          "url": "https://polymarket.com/event/chess-jsinda-pr-2026-04-09-r10",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9100. One wins $1.00. Profit: $0.0900 (9.00%)"
         }
       ],
       "stats": {
         "total_events": 3000,
-        "checked_multi_outcome": 1910,
-        "skipped_single_outcome": 583,
-        "opportunities_found": 127,
-        "best_profit_pct": 10.0,
-        "scanned_at": "2026-04-09 11:12 UTC"
+        "checked_multi_outcome": 1922,
+        "skipped_single_outcome": 588,
+        "opportunities_found": 120,
+        "best_profit_pct": 9.8,
+        "scanned_at": "2026-04-09 12:12 UTC"
       }
     },
     {
@@ -639,7 +660,7 @@
       "hypothesis": "NEAR_CERTAIN is profitable (93.6% WR, +$16.32) but makes <$0.23/trade. Research shows pros scale these to thousands of dollars per trade to generate real income. At $10/bet we need 4,000+ trades to make $1,000.",
       "source": "Paper trade analysis + Grok research",
       "action": "Test 5x bet size increase ($10\u2192$50) on NEAR_CERTAIN. Downside: avg loss goes from $2.49 to $12.45. Need 93.6%+ WR sustained at higher sizes.",
-      "result": "W=2503 L=43 PnL=$410.12 open=95",
+      "result": "W=2558 L=43 PnL=$423.21 open=94",
       "priority": "HIGH"
     },
     {
