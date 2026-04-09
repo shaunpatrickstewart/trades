@@ -8,43 +8,10 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 125 categorical arb opportunities found\nScanned 3000 events (1927 multi-outcome) at 2026-04-09 13:11 UTC\nBest: 10.0% profit on 'Who will be UFC Welterweight champion at the end of 2026?' \u2014 buy YES on all 3 outcomes (sum=0.9)\nStrategy: Buy YES on all 3 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 9.75% on 'Which cities will Russia enter by June 30?'",
+      "result": "LIVE \u2014 134 categorical arb opportunities found\nScanned 3000 events (1938 multi-outcome) at 2026-04-09 14:16 UTC\nBest: 9.75% profit on 'Which cities will Russia enter by June 30?' \u2014 buy YES on all 8 outcomes (sum=0.9025)\nStrategy: Buy YES on all 8 outcomes. Total cost: $0.9025. One wins $1.00. Profit: $0.0975 (9.75%)\n2nd: 9.75% on '#1 Paid App in the US Apple App Store on April 10?'",
       "priority": "HIGH",
-      "last_scan": "2026-04-09 13:11 UTC",
+      "last_scan": "2026-04-09 14:16 UTC",
       "opportunities": [
-        {
-          "event_title": "Who will be UFC Welterweight champion at the end of 2026?",
-          "event_slug": "who-will-be-ufc-welterweight-champion-at-the-end-of-2026",
-          "yes_sum": 0.9,
-          "profit_pct": 10.0,
-          "profit_per_dollar_pct": 11.11,
-          "num_outcomes": 3,
-          "outcomes": [
-            {
-              "market_id": "1090024",
-              "slug": "will-islam-makhachev-be-the-ufc-welterweight-champion-on-december-31-2026",
-              "question": "Will Islam Makhachev be the UFC Welterweight Champion on December 31, 2026?",
-              "yes_price": 0.74,
-              "volume": 2640
-            },
-            {
-              "market_id": "1090027",
-              "slug": "will-ian-machado-garry-be-the-ufc-welterweight-champion-on-december-31-2026",
-              "question": "Will Ian Machado Garry be the UFC Welterweight Champion on December 31, 2026?",
-              "yes_price": 0.145,
-              "volume": 1320
-            },
-            {
-              "market_id": "1090025",
-              "slug": "will-jack-della-maddalena-be-the-ufc-welterweight-champion-on-december-31-2026",
-              "question": "Will Jack Della Maddalena be the UFC Welterweight Champion on December 31, 2026?",
-              "yes_price": 0.015,
-              "volume": 1318
-            }
-          ],
-          "url": "https://polymarket.com/event/who-will-be-ufc-welterweight-champion-at-the-end-of-2026",
-          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
-        },
         {
           "event_title": "Which cities will Russia enter by June 30?",
           "event_slug": "which-cities-will-russia-enter-by-june-30",
@@ -58,14 +25,14 @@
               "slug": "will-russia-enter-dopropillia-by-june-30-122-495",
               "question": "Will Russia enter Dopropillia by June 30?",
               "yes_price": 0.325,
-              "volume": 180902
+              "volume": 180916
             },
             {
               "market_id": "1007631",
               "slug": "will-russia-enter-druzkhivka-by-june-30-933-897",
               "question": "Will Russia enter Druzkhivka by June 30?",
               "yes_price": 0.14,
-              "volume": 261721
+              "volume": 261727
             },
             {
               "market_id": "1007628",
@@ -114,11 +81,145 @@
           "strategy": "Buy YES on all 8 outcomes. Total cost: $0.9025. One wins $1.00. Profit: $0.0975 (9.75%)"
         },
         {
-          "event_title": "AZ-01 Republican Primary Winner",
-          "event_slug": "az-01-republican-primary-winner",
+          "event_title": "#1 Paid App in the US Apple App Store on April 10?",
+          "event_slug": "1-paid-app-in-the-us-apple-app-store-on-april-10",
+          "yes_sum": 0.9025,
+          "profit_pct": 9.75,
+          "profit_per_dollar_pct": 10.8,
+          "num_outcomes": 6,
+          "outcomes": [
+            {
+              "market_id": "1909158",
+              "slug": "will-shadowrocket-be-1-paid-app-in-the-us-apple-app-store-on-april-10",
+              "question": "Will Shadowrocket be #1 Paid App in the US Apple App Store on April 10?",
+              "yes_price": 0.735,
+              "volume": 1555
+            },
+            {
+              "market_id": "1909159",
+              "slug": "will-hotschedules-be-1-paid-app-in-the-us-apple-app-store-on-april-10",
+              "question": "Will HotSchedules be #1 Paid App in the US Apple App Store on April 10?",
+              "yes_price": 0.14,
+              "volume": 5848
+            },
+            {
+              "market_id": "1909162",
+              "slug": "will-ankimobile-flashcards-be-1-paid-app-in-the-us-apple-app-store-on-april-10",
+              "question": "Will AnkiMobile Flashcards be #1 Paid App in the US Apple App Store on April 10?",
+              "yes_price": 0.008,
+              "volume": 1280
+            },
+            {
+              "market_id": "1909164",
+              "slug": "will-tonalenergy-tuner-metronome-be-1-paid-app-in-the-us-apple-app-store-on-april-10",
+              "question": "Will TonalEnergy Tuner & Metronome be #1 Paid App in the US Apple App Store on A",
+              "yes_price": 0.0075,
+              "volume": 1678
+            },
+            {
+              "market_id": "1909163",
+              "slug": "will-monash-fodmap-diet-be-1-paid-app-in-the-us-apple-app-store-on-april-10",
+              "question": "Will Monash FODMAP Diet be #1 Paid App in the US Apple App Store on April 10?",
+              "yes_price": 0.007,
+              "volume": 1256
+            },
+            {
+              "market_id": "1909165",
+              "slug": "will-skyview-be-1-paid-app-in-the-us-apple-app-store-on-april-10",
+              "question": "Will SkyView be #1 Paid App in the US Apple App Store on April 10?",
+              "yes_price": 0.005,
+              "volume": 1315
+            }
+          ],
+          "url": "https://polymarket.com/event/1-paid-app-in-the-us-apple-app-store-on-april-10",
+          "strategy": "Buy YES on all 6 outcomes. Total cost: $0.9025. One wins $1.00. Profit: $0.0975 (9.75%)"
+        },
+        {
+          "event_title": "Perplexity IPO Closing Market Cap",
+          "event_slug": "perplexity-ipo-closing-market-cap",
           "yes_sum": 0.903,
           "profit_pct": 9.7,
           "profit_per_dollar_pct": 10.74,
+          "num_outcomes": 6,
+          "outcomes": [
+            {
+              "market_id": "1115936",
+              "slug": "will-perplexity-not-ipo-by-december-31-2027",
+              "question": "Will Perplexity not IPO by December 31, 2027?",
+              "yes_price": 0.605,
+              "volume": 105842
+            },
+            {
+              "market_id": "1115933",
+              "slug": "will-perplexitys-market-cap-be-between-80b-and-100b-at-market-close-on-ipo-day",
+              "question": "Will Perplexity\u2019s market cap be between $50B and $75B at market close on IPO day",
+              "yes_price": 0.114,
+              "volume": 6171
+            },
+            {
+              "market_id": "1115935",
+              "slug": "will-perplexitys-market-cap-be-greater-than-150b-at-market-close-on-ipo-day",
+              "question": "Will Perplexity\u2019s market cap be greater than $100B at market close on IPO day?",
+              "yes_price": 0.0655,
+              "volume": 4468
+            },
+            {
+              "market_id": "1115934",
+              "slug": "will-perplexitys-market-cap-be-between-100b-and-150b-at-market-close-on-ipo-day",
+              "question": "Will Perplexity\u2019s market cap be between $75B and $100B at market close on IPO da",
+              "yes_price": 0.0495,
+              "volume": 3197
+            },
+            {
+              "market_id": "1115930",
+              "slug": "will-perplexitys-market-cap-be-between-20b-and-40b-at-market-close-on-ipo-day",
+              "question": "Will Perplexity\u2019s market cap be between $20B and $30B at market close on IPO day",
+              "yes_price": 0.036,
+              "volume": 5845
+            },
+            {
+              "market_id": "1115929",
+              "slug": "will-perplexitys-market-cap-be-less-than-20b-at-market-close-on-ipo-day",
+              "question": "Will Perplexity\u2019s market cap be less than $20B at market close on IPO day?",
+              "yes_price": 0.033,
+              "volume": 4421
+            }
+          ],
+          "url": "https://polymarket.com/event/perplexity-ipo-closing-market-cap",
+          "strategy": "Buy YES on all 6 outcomes. Total cost: $0.9030. One wins $1.00. Profit: $0.0970 (9.70%)"
+        },
+        {
+          "event_title": "Montana Democratic Senate Primary Winner",
+          "event_slug": "montana-democratic-senate-primary-winner",
+          "yes_sum": 0.903,
+          "profit_pct": 9.7,
+          "profit_per_dollar_pct": 10.74,
+          "num_outcomes": 2,
+          "outcomes": [
+            {
+              "market_id": "801938",
+              "slug": "will-reilly-neill-be-the-democratic-nominee-for-senate-in-montana",
+              "question": "Will Reilly Neill be the Democratic nominee for Senate in Montana?",
+              "yes_price": 0.83,
+              "volume": 4343
+            },
+            {
+              "market_id": "801937",
+              "slug": "will-michael-hummert-be-the-democratic-nominee-for-senate-in-montana",
+              "question": "Will Michael Hummert be the Democratic nominee for Senate in Montana?",
+              "yes_price": 0.073,
+              "volume": 2029
+            }
+          ],
+          "url": "https://polymarket.com/event/montana-democratic-senate-primary-winner",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9030. One wins $1.00. Profit: $0.0970 (9.70%)"
+        },
+        {
+          "event_title": "AZ-01 Republican Primary Winner",
+          "event_slug": "az-01-republican-primary-winner",
+          "yes_sum": 0.9035,
+          "profit_pct": 9.65,
+          "profit_per_dollar_pct": 10.68,
           "num_outcomes": 11,
           "outcomes": [
             {
@@ -132,14 +233,14 @@
               "market_id": "704343",
               "slug": "will-joseph-chaplik-be-the-republican-nominee-for-az-01",
               "question": "Will Joseph Chaplik be the Republican nominee for AZ-01?",
-              "yes_price": 0.0715,
+              "yes_price": 0.072,
               "volume": 7369
             },
             {
               "market_id": "704345",
               "slug": "will-todd-graham-be-the-republican-nominee-for-az-01",
               "question": "Will Todd Graham be the Republican nominee for AZ-01?",
-              "yes_price": 0.053,
+              "yes_price": 0.052,
               "volume": 7582
             },
             {
@@ -153,7 +254,7 @@
               "market_id": "704349",
               "slug": "will-derrick-gallego-be-the-republican-nominee-for-az-01-424",
               "question": "Will Derrick Gallego be the Republican nominee for AZ-01?",
-              "yes_price": 0.0145,
+              "yes_price": 0.0155,
               "volume": 2957
             },
             {
@@ -200,7 +301,7 @@
             }
           ],
           "url": "https://polymarket.com/event/az-01-republican-primary-winner",
-          "strategy": "Buy YES on all 11 outcomes. Total cost: $0.9030. One wins $1.00. Profit: $0.0970 (9.70%)"
+          "strategy": "Buy YES on all 11 outcomes. Total cost: $0.9035. One wins $1.00. Profit: $0.0965 (9.65%)"
         },
         {
           "event_title": "Miguel D\u00edaz-Canel out as leader of Cuba by...?",
@@ -215,7 +316,7 @@
               "slug": "miguel-daz-canel-out-as-leader-of-cuba-by-december-31-113-682",
               "question": "Miguel D\u00edaz-Canel out as leader of Cuba by December 31?",
               "yes_price": 0.575,
-              "volume": 109403
+              "volume": 109408
             },
             {
               "market_id": "1106634",
@@ -236,246 +337,11 @@
           "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
         },
         {
-          "event_title": "What floor price will Milady hit before 2027?",
-          "event_slug": "what-floor-price-will-milady-hit-before-2027",
+          "event_title": "Bulgaria Parliamentary Election: Margin of Victory",
+          "event_slug": "bulgaria-parliamentary-election-margin-of-victory",
           "yes_sum": 0.905,
           "profit_pct": 9.5,
           "profit_per_dollar_pct": 10.5,
-          "num_outcomes": 2,
-          "outcomes": [
-            {
-              "market_id": "1099807",
-              "slug": "will-milady-floor-price-reach-2-eth-before-2027",
-              "question": "Will Milady floor price reach 2 ETH before 2027?",
-              "yes_price": 0.505,
-              "volume": 11530
-            },
-            {
-              "market_id": "1099806",
-              "slug": "will-milady-floor-price-reach-4-eth-before-2027",
-              "question": "Will Milady floor price reach 4 ETH before 2027?",
-              "yes_price": 0.4,
-              "volume": 1294
-            }
-          ],
-          "url": "https://polymarket.com/event/what-floor-price-will-milady-hit-before-2027",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
-        },
-        {
-          "event_title": "Pro Football: 2027 NFC Champion ",
-          "event_slug": "pro-football-2027-nfc-champion",
-          "yes_sum": 0.9065,
-          "profit_pct": 9.35,
-          "profit_per_dollar_pct": 10.31,
-          "num_outcomes": 16,
-          "outcomes": [
-            {
-              "market_id": "1361067",
-              "slug": "will-los-angeles-rams-win-the-2027-nfl-nfc-championship-351",
-              "question": "Will Los Angeles Rams win the 2027 NFL NFC Championship?",
-              "yes_price": 0.145,
-              "volume": 2603
-            },
-            {
-              "market_id": "1361069",
-              "slug": "will-seattle-seahawks-win-the-2027-nfl-nfc-championship-625",
-              "question": "Will Seattle Seahawks win the 2027 NFL NFC Championship?",
-              "yes_price": 0.11,
-              "volume": 2117
-            },
-            {
-              "market_id": "1361068",
-              "slug": "will-san-francisco-49ers-win-the-2027-nfl-nfc-championship-832",
-              "question": "Will San Francisco 49ers win the 2027 NFL NFC Championship?",
-              "yes_price": 0.08,
-              "volume": 15828
-            },
-            {
-              "market_id": "1361060",
-              "slug": "will-green-bay-packers-win-the-2027-nfl-nfc-championship-857",
-              "question": "Will Green Bay Packers win the 2027 NFL NFC Championship?",
-              "yes_price": 0.075,
-              "volume": 38454
-            },
-            {
-              "market_id": "1361059",
-              "slug": "will-detroit-lions-win-the-2027-nfl-nfc-championship-721",
-              "question": "Will Detroit Lions win the 2027 NFL NFC Championship?",
-              "yes_price": 0.07,
-              "volume": 21480
-            },
-            {
-              "market_id": "1361058",
-              "slug": "will-chicago-bears-win-the-2027-nfl-nfc-championship-449",
-              "question": "Will Chicago Bears win the 2027 NFL NFC Championship?",
-              "yes_price": 0.065,
-              "volume": 14990
-            },
-            {
-              "market_id": "1361061",
-              "slug": "will-minnesota-vikings-win-the-2027-nfl-nfc-championship-884",
-              "question": "Will Minnesota Vikings win the 2027 NFL NFC Championship?",
-              "yes_price": 0.065,
-              "volume": 1731342
-            },
-            {
-              "market_id": "1361056",
-              "slug": "will-philadelphia-eagles-win-the-2027-nfl-nfc-championship-835",
-              "question": "Will Philadelphia Eagles win the 2027 NFL NFC Championship?",
-              "yes_price": 0.06,
-              "volume": 25467
-            },
-            {
-              "market_id": "1361054",
-              "slug": "will-dallas-cowboys-win-the-2027-nfl-nfc-championship-584",
-              "question": "Will Dallas Cowboys win the 2027 NFL NFC Championship?",
-              "yes_price": 0.058,
-              "volume": 777093
-            },
-            {
-              "market_id": "1361063",
-              "slug": "will-carolina-panthers-win-the-2027-nfl-nfc-championship-793",
-              "question": "Will Carolina Panthers win the 2027 NFL NFC Championship?",
-              "yes_price": 0.0475,
-              "volume": 660739
-            },
-            {
-              "market_id": "1361065",
-              "slug": "will-tampa-bay-buccaneers-win-the-2027-nfl-nfc-championship-312",
-              "question": "Will Tampa Bay Buccaneers win the 2027 NFL NFC Championship?",
-              "yes_price": 0.0385,
-              "volume": 681517
-            },
-            {
-              "market_id": "1361064",
-              "slug": "will-new-orleans-saints-win-the-2027-nfl-nfc-championship-398",
-              "question": "Will New Orleans Saints win the 2027 NFL NFC Championship?",
-              "yes_price": 0.0285,
-              "volume": 504768
-            },
-            {
-              "market_id": "1361055",
-              "slug": "will-new-york-giants-win-the-2027-nfl-nfc-championship-866",
-              "question": "Will New York Giants win the 2027 NFL NFC Championship?",
-              "yes_price": 0.026,
-              "volume": 4125
-            },
-            {
-              "market_id": "1361057",
-              "slug": "will-washington-commanders-win-the-2027-nfl-nfc-championship-484",
-              "question": "Will Washington Commanders win the 2027 NFL NFC Championship?",
-              "yes_price": 0.0155,
-              "volume": 147859
-            },
-            {
-              "market_id": "1361062",
-              "slug": "will-atlanta-falcons-win-the-2027-nfl-nfc-championship-312",
-              "question": "Will Atlanta Falcons win the 2027 NFL NFC Championship?",
-              "yes_price": 0.0145,
-              "volume": 122547
-            },
-            {
-              "market_id": "1361066",
-              "slug": "will-arizona-cardinals-win-the-2027-nfl-nfc-championship-199",
-              "question": "Will Arizona Cardinals win the 2027 NFL NFC Championship?",
-              "yes_price": 0.008,
-              "volume": 348595
-            }
-          ],
-          "url": "https://polymarket.com/event/pro-football-2027-nfc-champion",
-          "strategy": "Buy YES on all 16 outcomes. Total cost: $0.9065. One wins $1.00. Profit: $0.0935 (9.35%)"
-        },
-        {
-          "event_title": "Alabama Governor Democratic Primary Winner",
-          "event_slug": "alabama-governor-democratic-primary-winner",
-          "yes_sum": 0.9065,
-          "profit_pct": 9.35,
-          "profit_per_dollar_pct": 10.31,
-          "num_outcomes": 3,
-          "outcomes": [
-            {
-              "market_id": "821613",
-              "slug": "will-doug-jones-win-the-2026-alabama-governor-democratic-primary-election",
-              "question": "Will Doug Jones win the 2026 Alabama Governor Democratic primary election?",
-              "yes_price": 0.8615,
-              "volume": 11364
-            },
-            {
-              "market_id": "821612",
-              "slug": "will-yolanda-flowers-win-the-2026-alabama-governor-democratic-primary-election",
-              "question": "Will Yolanda Flowers win the 2026 Alabama Governor Democratic primary election?",
-              "yes_price": 0.026,
-              "volume": 8435
-            },
-            {
-              "market_id": "821611",
-              "slug": "will-jamel-brown-win-the-2026-alabama-governor-democratic-primary-election",
-              "question": "Will Ja\u2019Mel Brown win the 2026 Alabama Governor Democratic primary election?",
-              "yes_price": 0.019,
-              "volume": 2690
-            }
-          ],
-          "url": "https://polymarket.com/event/alabama-governor-democratic-primary-winner",
-          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9065. One wins $1.00. Profit: $0.0935 (9.35%)"
-        },
-        {
-          "event_title": "PA-10 Democratic Primary Winner",
-          "event_slug": "pa-10-democratic-primary-winner-877",
-          "yes_sum": 0.909,
-          "profit_pct": 9.1,
-          "profit_per_dollar_pct": 10.01,
-          "num_outcomes": 2,
-          "outcomes": [
-            {
-              "market_id": "1448356",
-              "slug": "will-janelle-stelson-be-the-democratic-nominee-for-pa-10-994",
-              "question": "Will Janelle Stelson be the Democratic Nominee for PA-10?",
-              "yes_price": 0.895,
-              "volume": 3029
-            },
-            {
-              "market_id": "1448358",
-              "slug": "will-jason-cass-be-the-democratic-nominee-for-pa-10-765",
-              "question": "Will Jason Cass be the Democratic Nominee for PA-10?",
-              "yes_price": 0.014,
-              "volume": 8157
-            }
-          ],
-          "url": "https://polymarket.com/event/pa-10-democratic-primary-winner-877",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9090. One wins $1.00. Profit: $0.0910 (9.10%)"
-        },
-        {
-          "event_title": "English Premier League - Most Clean Sheets",
-          "event_slug": "english-premier-league-top-gk-clean-sheets",
-          "yes_sum": 0.9095,
-          "profit_pct": 9.05,
-          "profit_per_dollar_pct": 9.95,
-          "num_outcomes": 2,
-          "outcomes": [
-            {
-              "market_id": "1222798",
-              "slug": "will-david-raya-be-the-goalkeeper-with-the-most-clean-sheets-in-the-202526-english-premier-league-season",
-              "question": "Will David Raya be the goalkeeper with the most clean sheets in the 2025\u201326 Engl",
-              "yes_price": 0.9095,
-              "volume": 2693
-            },
-            {
-              "market_id": "1222808",
-              "slug": "will-nick-pope-be-the-goalkeeper-with-the-most-clean-sheets-in-the-202526-english-premier-league-season",
-              "question": "Will Nick Pope be the goalkeeper with the most clean sheets in the 2025\u201326 Engli",
-              "yes_price": 0.0,
-              "volume": 1029
-            }
-          ],
-          "url": "https://polymarket.com/event/english-premier-league-top-gk-clean-sheets",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9095. One wins $1.00. Profit: $0.0905 (9.05%)"
-        },
-        {
-          "event_title": "Bulgaria Parliamentary Election: Margin of Victory",
-          "event_slug": "bulgaria-parliamentary-election-margin-of-victory",
-          "yes_sum": 0.91,
-          "profit_pct": 9.0,
-          "profit_per_dollar_pct": 9.89,
           "num_outcomes": 3,
           "outcomes": [
             {
@@ -489,7 +355,7 @@
               "market_id": "1742067",
               "slug": "will-progressive-bulgaria-pb-win-the-2026-bulgarian-parliamentary-election-by-10-15",
               "question": "Will Progressive Bulgaria (PB) win the 2026 Bulgarian Parliamentary election by ",
-              "yes_price": 0.295,
+              "yes_price": 0.29,
               "volume": 10408
             },
             {
@@ -501,16 +367,101 @@
             }
           ],
           "url": "https://polymarket.com/event/bulgaria-parliamentary-election-margin-of-victory",
-          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9100. One wins $1.00. Profit: $0.0900 (9.00%)"
+          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
+        },
+        {
+          "event_title": "Who will be UFC Welterweight champion at the end of 2026?",
+          "event_slug": "who-will-be-ufc-welterweight-champion-at-the-end-of-2026",
+          "yes_sum": 0.905,
+          "profit_pct": 9.5,
+          "profit_per_dollar_pct": 10.5,
+          "num_outcomes": 3,
+          "outcomes": [
+            {
+              "market_id": "1090024",
+              "slug": "will-islam-makhachev-be-the-ufc-welterweight-champion-on-december-31-2026",
+              "question": "Will Islam Makhachev be the UFC Welterweight Champion on December 31, 2026?",
+              "yes_price": 0.74,
+              "volume": 2640
+            },
+            {
+              "market_id": "1090027",
+              "slug": "will-ian-machado-garry-be-the-ufc-welterweight-champion-on-december-31-2026",
+              "question": "Will Ian Machado Garry be the UFC Welterweight Champion on December 31, 2026?",
+              "yes_price": 0.15,
+              "volume": 1320
+            },
+            {
+              "market_id": "1090025",
+              "slug": "will-jack-della-maddalena-be-the-ufc-welterweight-champion-on-december-31-2026",
+              "question": "Will Jack Della Maddalena be the UFC Welterweight Champion on December 31, 2026?",
+              "yes_price": 0.015,
+              "volume": 1318
+            }
+          ],
+          "url": "https://polymarket.com/event/who-will-be-ufc-welterweight-champion-at-the-end-of-2026",
+          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
+        },
+        {
+          "event_title": "English Premier League - Most Clean Sheets",
+          "event_slug": "english-premier-league-top-gk-clean-sheets",
+          "yes_sum": 0.907,
+          "profit_pct": 9.3,
+          "profit_per_dollar_pct": 10.25,
+          "num_outcomes": 2,
+          "outcomes": [
+            {
+              "market_id": "1222798",
+              "slug": "will-david-raya-be-the-goalkeeper-with-the-most-clean-sheets-in-the-202526-english-premier-league-season",
+              "question": "Will David Raya be the goalkeeper with the most clean sheets in the 2025\u201326 Engl",
+              "yes_price": 0.907,
+              "volume": 2693
+            },
+            {
+              "market_id": "1222808",
+              "slug": "will-nick-pope-be-the-goalkeeper-with-the-most-clean-sheets-in-the-202526-english-premier-league-season",
+              "question": "Will Nick Pope be the goalkeeper with the most clean sheets in the 2025\u201326 Engli",
+              "yes_price": 0.0,
+              "volume": 1029
+            }
+          ],
+          "url": "https://polymarket.com/event/english-premier-league-top-gk-clean-sheets",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9070. One wins $1.00. Profit: $0.0930 (9.30%)"
+        },
+        {
+          "event_title": "PA-10 Democratic Primary Winner",
+          "event_slug": "pa-10-democratic-primary-winner-877",
+          "yes_sum": 0.9085,
+          "profit_pct": 9.15,
+          "profit_per_dollar_pct": 10.07,
+          "num_outcomes": 2,
+          "outcomes": [
+            {
+              "market_id": "1448356",
+              "slug": "will-janelle-stelson-be-the-democratic-nominee-for-pa-10-994",
+              "question": "Will Janelle Stelson be the Democratic Nominee for PA-10?",
+              "yes_price": 0.895,
+              "volume": 3029
+            },
+            {
+              "market_id": "1448358",
+              "slug": "will-jason-cass-be-the-democratic-nominee-for-pa-10-765",
+              "question": "Will Jason Cass be the Democratic Nominee for PA-10?",
+              "yes_price": 0.0135,
+              "volume": 8157
+            }
+          ],
+          "url": "https://polymarket.com/event/pa-10-democratic-primary-winner-877",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9085. One wins $1.00. Profit: $0.0915 (9.15%)"
         }
       ],
       "stats": {
         "total_events": 3000,
-        "checked_multi_outcome": 1927,
-        "skipped_single_outcome": 587,
-        "opportunities_found": 125,
-        "best_profit_pct": 10.0,
-        "scanned_at": "2026-04-09 13:11 UTC"
+        "checked_multi_outcome": 1938,
+        "skipped_single_outcome": 588,
+        "opportunities_found": 134,
+        "best_profit_pct": 9.75,
+        "scanned_at": "2026-04-09 14:16 UTC"
       }
     },
     {
@@ -520,7 +471,7 @@
       "hypothesis": "NEAR_CERTAIN is profitable (93.6% WR, +$16.32) but makes <$0.23/trade. Research shows pros scale these to thousands of dollars per trade to generate real income. At $10/bet we need 4,000+ trades to make $1,000.",
       "source": "Paper trade analysis + Grok research",
       "action": "Test 5x bet size increase ($10\u2192$50) on NEAR_CERTAIN. Downside: avg loss goes from $2.49 to $12.45. Need 93.6%+ WR sustained at higher sizes.",
-      "result": "W=2613 L=45 PnL=$428.95 open=91",
+      "result": "W=2666 L=45 PnL=$441.83 open=93",
       "priority": "HIGH"
     },
     {
