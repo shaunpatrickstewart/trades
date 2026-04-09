@@ -4,21 +4,513 @@
     {
       "id": "arb_detection",
       "name": "Yes+No Arbitrage Scanner",
-      "status": "MONITORING",
+      "status": "LIVE",
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "Scanned 0 events at 2026-04-09 06:03 UTC \u2014 no categorical arb opportunities (sum < 0.97) found. Checked 0 multi-outcome events. NOTE: Binary YES+NO always sums to 1.0 by AMM design. Cross-platform Kalshi arb: BLOCKED (needs account).",
+      "result": "LIVE \u2014 138 categorical arb opportunities found\nScanned 3000 events (1891 multi-outcome) at 2026-04-09 08:09 UTC\nBest: 10.0% profit on 'New York City FC vs. Charlotte FC - More Markets' \u2014 buy YES on all 2 outcomes (sum=0.9)\nStrategy: Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 9.6% on 'Which cities will Russia enter by June 30?'",
       "priority": "HIGH",
-      "last_scan": "2026-04-09 06:03 UTC",
-      "opportunities": [],
+      "last_scan": "2026-04-09 08:09 UTC",
+      "opportunities": [
+        {
+          "event_title": "New York City FC vs. Charlotte FC - More Markets",
+          "event_slug": "mls-nyc-clt-2026-04-18-more-markets",
+          "yes_sum": 0.9,
+          "profit_pct": 10.0,
+          "profit_per_dollar_pct": 11.11,
+          "num_outcomes": 2,
+          "outcomes": [
+            {
+              "market_id": "1684193",
+              "slug": "mls-nyc-clt-2026-04-18-total-2pt5",
+              "question": "New York City FC vs. Charlotte FC: O/U 2.5",
+              "yes_price": 0.52,
+              "volume": 2811
+            },
+            {
+              "market_id": "1684194",
+              "slug": "mls-nyc-clt-2026-04-18-total-3pt5",
+              "question": "New York City FC vs. Charlotte FC: O/U 3.5",
+              "yes_price": 0.38,
+              "volume": 3619
+            }
+          ],
+          "url": "https://polymarket.com/event/mls-nyc-clt-2026-04-18-more-markets",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
+        },
+        {
+          "event_title": "Which cities will Russia enter by June 30?",
+          "event_slug": "which-cities-will-russia-enter-by-june-30",
+          "yes_sum": 0.904,
+          "profit_pct": 9.6,
+          "profit_per_dollar_pct": 10.62,
+          "num_outcomes": 8,
+          "outcomes": [
+            {
+              "market_id": "1007632",
+              "slug": "will-russia-enter-dopropillia-by-june-30-122-495",
+              "question": "Will Russia enter Dopropillia by June 30?",
+              "yes_price": 0.325,
+              "volume": 180901
+            },
+            {
+              "market_id": "1007631",
+              "slug": "will-russia-enter-druzkhivka-by-june-30-933-897",
+              "question": "Will Russia enter Druzkhivka by June 30?",
+              "yes_price": 0.14,
+              "volume": 261686
+            },
+            {
+              "market_id": "1007628",
+              "slug": "will-russia-enter-sloviansk-by-june-30",
+              "question": "Will Russia enter Sloviansk by June 30?",
+              "yes_price": 0.125,
+              "volume": 147206
+            },
+            {
+              "market_id": "1007633",
+              "slug": "will-russia-enter-kramatorsk-by-june-30-821-192",
+              "question": "Will Russia enter Kramatorsk by June 30?",
+              "yes_price": 0.11,
+              "volume": 115918
+            },
+            {
+              "market_id": "1007630",
+              "slug": "will-russia-enter-sumy-by-june-30-893-434",
+              "question": "Will Russia enter Sumy by June 30?",
+              "yes_price": 0.055,
+              "volume": 70602
+            },
+            {
+              "market_id": "1007636",
+              "slug": "will-russia-enter-zaporizhia-by-june-30-845",
+              "question": "Will Russia enter Zaporizhia by June 30?",
+              "yes_price": 0.055,
+              "volume": 71978
+            },
+            {
+              "market_id": "1007635",
+              "slug": "will-russia-enter-kherson-by-june-30-645",
+              "question": "Will Russia enter Kherson by June 30?",
+              "yes_price": 0.051,
+              "volume": 46423
+            },
+            {
+              "market_id": "1007634",
+              "slug": "will-russia-enter-kharkiv-by-june-30-967",
+              "question": "Will Russia enter Kharkiv by June 30?",
+              "yes_price": 0.043,
+              "volume": 35799
+            }
+          ],
+          "url": "https://polymarket.com/event/which-cities-will-russia-enter-by-june-30",
+          "strategy": "Buy YES on all 8 outcomes. Total cost: $0.9040. One wins $1.00. Profit: $0.0960 (9.60%)"
+        },
+        {
+          "event_title": "Pro Football: 2027 NFC Champion ",
+          "event_slug": "pro-football-2027-nfc-champion",
+          "yes_sum": 0.9045,
+          "profit_pct": 9.55,
+          "profit_per_dollar_pct": 10.56,
+          "num_outcomes": 16,
+          "outcomes": [
+            {
+              "market_id": "1361067",
+              "slug": "will-los-angeles-rams-win-the-2027-nfl-nfc-championship-351",
+              "question": "Will Los Angeles Rams win the 2027 NFL NFC Championship?",
+              "yes_price": 0.14,
+              "volume": 2603
+            },
+            {
+              "market_id": "1361069",
+              "slug": "will-seattle-seahawks-win-the-2027-nfl-nfc-championship-625",
+              "question": "Will Seattle Seahawks win the 2027 NFL NFC Championship?",
+              "yes_price": 0.11,
+              "volume": 2117
+            },
+            {
+              "market_id": "1361068",
+              "slug": "will-san-francisco-49ers-win-the-2027-nfl-nfc-championship-832",
+              "question": "Will San Francisco 49ers win the 2027 NFL NFC Championship?",
+              "yes_price": 0.08,
+              "volume": 15828
+            },
+            {
+              "market_id": "1361060",
+              "slug": "will-green-bay-packers-win-the-2027-nfl-nfc-championship-857",
+              "question": "Will Green Bay Packers win the 2027 NFL NFC Championship?",
+              "yes_price": 0.075,
+              "volume": 38454
+            },
+            {
+              "market_id": "1361059",
+              "slug": "will-detroit-lions-win-the-2027-nfl-nfc-championship-721",
+              "question": "Will Detroit Lions win the 2027 NFL NFC Championship?",
+              "yes_price": 0.07,
+              "volume": 21480
+            },
+            {
+              "market_id": "1361061",
+              "slug": "will-minnesota-vikings-win-the-2027-nfl-nfc-championship-884",
+              "question": "Will Minnesota Vikings win the 2027 NFL NFC Championship?",
+              "yes_price": 0.0665,
+              "volume": 1731342
+            },
+            {
+              "market_id": "1361058",
+              "slug": "will-chicago-bears-win-the-2027-nfl-nfc-championship-449",
+              "question": "Will Chicago Bears win the 2027 NFL NFC Championship?",
+              "yes_price": 0.065,
+              "volume": 14990
+            },
+            {
+              "market_id": "1361056",
+              "slug": "will-philadelphia-eagles-win-the-2027-nfl-nfc-championship-835",
+              "question": "Will Philadelphia Eagles win the 2027 NFL NFC Championship?",
+              "yes_price": 0.06,
+              "volume": 25467
+            },
+            {
+              "market_id": "1361054",
+              "slug": "will-dallas-cowboys-win-the-2027-nfl-nfc-championship-584",
+              "question": "Will Dallas Cowboys win the 2027 NFL NFC Championship?",
+              "yes_price": 0.058,
+              "volume": 777093
+            },
+            {
+              "market_id": "1361063",
+              "slug": "will-carolina-panthers-win-the-2027-nfl-nfc-championship-793",
+              "question": "Will Carolina Panthers win the 2027 NFL NFC Championship?",
+              "yes_price": 0.0475,
+              "volume": 660739
+            },
+            {
+              "market_id": "1361065",
+              "slug": "will-tampa-bay-buccaneers-win-the-2027-nfl-nfc-championship-312",
+              "question": "Will Tampa Bay Buccaneers win the 2027 NFL NFC Championship?",
+              "yes_price": 0.0385,
+              "volume": 681517
+            },
+            {
+              "market_id": "1361064",
+              "slug": "will-new-orleans-saints-win-the-2027-nfl-nfc-championship-398",
+              "question": "Will New Orleans Saints win the 2027 NFL NFC Championship?",
+              "yes_price": 0.0285,
+              "volume": 504768
+            },
+            {
+              "market_id": "1361055",
+              "slug": "will-new-york-giants-win-the-2027-nfl-nfc-championship-866",
+              "question": "Will New York Giants win the 2027 NFL NFC Championship?",
+              "yes_price": 0.0275,
+              "volume": 4125
+            },
+            {
+              "market_id": "1361057",
+              "slug": "will-washington-commanders-win-the-2027-nfl-nfc-championship-484",
+              "question": "Will Washington Commanders win the 2027 NFL NFC Championship?",
+              "yes_price": 0.0155,
+              "volume": 147859
+            },
+            {
+              "market_id": "1361062",
+              "slug": "will-atlanta-falcons-win-the-2027-nfl-nfc-championship-312",
+              "question": "Will Atlanta Falcons win the 2027 NFL NFC Championship?",
+              "yes_price": 0.0145,
+              "volume": 122547
+            },
+            {
+              "market_id": "1361066",
+              "slug": "will-arizona-cardinals-win-the-2027-nfl-nfc-championship-199",
+              "question": "Will Arizona Cardinals win the 2027 NFL NFC Championship?",
+              "yes_price": 0.008,
+              "volume": 348595
+            }
+          ],
+          "url": "https://polymarket.com/event/pro-football-2027-nfc-champion",
+          "strategy": "Buy YES on all 16 outcomes. Total cost: $0.9045. One wins $1.00. Profit: $0.0955 (9.55%)"
+        },
+        {
+          "event_title": "English Premier League - Most Clean Sheets",
+          "event_slug": "english-premier-league-top-gk-clean-sheets",
+          "yes_sum": 0.9055,
+          "profit_pct": 9.45,
+          "profit_per_dollar_pct": 10.44,
+          "num_outcomes": 2,
+          "outcomes": [
+            {
+              "market_id": "1222798",
+              "slug": "will-david-raya-be-the-goalkeeper-with-the-most-clean-sheets-in-the-202526-english-premier-league-season",
+              "question": "Will David Raya be the goalkeeper with the most clean sheets in the 2025\u201326 Engl",
+              "yes_price": 0.9055,
+              "volume": 2693
+            },
+            {
+              "market_id": "1222808",
+              "slug": "will-nick-pope-be-the-goalkeeper-with-the-most-clean-sheets-in-the-202526-english-premier-league-season",
+              "question": "Will Nick Pope be the goalkeeper with the most clean sheets in the 2025\u201326 Engli",
+              "yes_price": 0.0,
+              "volume": 1029
+            }
+          ],
+          "url": "https://polymarket.com/event/english-premier-league-top-gk-clean-sheets",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9055. One wins $1.00. Profit: $0.0945 (9.45%)"
+        },
+        {
+          "event_title": "When will the DHS shutdown end?",
+          "event_slug": "when-will-the-dhs-shutdown-end-521",
+          "yes_sum": 0.9065,
+          "profit_pct": 9.35,
+          "profit_per_dollar_pct": 10.31,
+          "num_outcomes": 10,
+          "outcomes": [
+            {
+              "market_id": "1723674",
+              "slug": "will-the-dhs-shutdown-end-after-april-30-2026-195",
+              "question": "Will the DHS shutdown end after April 30, 2026?",
+              "yes_price": 0.558,
+              "volume": 128157
+            },
+            {
+              "market_id": "1723669",
+              "slug": "will-the-dhs-shutdown-end-between-april-13-16-2026-288",
+              "question": "Will the DHS shutdown end between April 13-16, 2026?",
+              "yes_price": 0.121,
+              "volume": 41729
+            },
+            {
+              "market_id": "1723670",
+              "slug": "will-the-dhs-shutdown-end-between-april-17-20-2026-376",
+              "question": "Will the DHS shutdown end between April 17-20, 2026?",
+              "yes_price": 0.1145,
+              "volume": 399836
+            },
+            {
+              "market_id": "1723672",
+              "slug": "will-the-dhs-shutdown-end-between-april-25-28-2026-745",
+              "question": "Will the DHS shutdown end between April 25-28, 2026?",
+              "yes_price": 0.0535,
+              "volume": 11649
+            },
+            {
+              "market_id": "1723671",
+              "slug": "will-the-dhs-shutdown-end-between-april-21-24-2026-975",
+              "question": "Will the DHS shutdown end between April 21-24, 2026?",
+              "yes_price": 0.029,
+              "volume": 46648
+            },
+            {
+              "market_id": "1723673",
+              "slug": "will-the-dhs-shutdown-end-between-april-29-30-2026-142",
+              "question": "Will the DHS shutdown end between April 29-30, 2026?",
+              "yes_price": 0.022,
+              "volume": 11321
+            },
+            {
+              "market_id": "1723668",
+              "slug": "will-the-dhs-shutdown-end-between-april-9-12-2026-277",
+              "question": "Will the DHS shutdown end between April 9-12, 2026?",
+              "yes_price": 0.0085,
+              "volume": 30100
+            },
+            {
+              "market_id": "1723665",
+              "slug": "will-the-dhs-shutdown-end-before-april-1-2026-954",
+              "question": "Will the DHS shutdown end before April 1, 2026?",
+              "yes_price": 0.0,
+              "volume": 39006
+            },
+            {
+              "market_id": "1723666",
+              "slug": "will-the-dhs-shutdown-end-between-april-1-4-2026-864",
+              "question": "Will the DHS shutdown end between April 1-4, 2026?",
+              "yes_price": 0.0,
+              "volume": 60213
+            },
+            {
+              "market_id": "1723667",
+              "slug": "will-the-dhs-shutdown-end-between-april-5-8-2026-658",
+              "question": "Will the DHS shutdown end between April 5-8, 2026?",
+              "yes_price": 0.0,
+              "volume": 101504
+            }
+          ],
+          "url": "https://polymarket.com/event/when-will-the-dhs-shutdown-end-521",
+          "strategy": "Buy YES on all 10 outcomes. Total cost: $0.9065. One wins $1.00. Profit: $0.0935 (9.35%)"
+        },
+        {
+          "event_title": "New Hampshire Democratic Senate Primary Winner",
+          "event_slug": "new-hampshire-democratic-senate-primary-winner",
+          "yes_sum": 0.9075,
+          "profit_pct": 9.25,
+          "profit_per_dollar_pct": 10.19,
+          "num_outcomes": 2,
+          "outcomes": [
+            {
+              "market_id": "706184",
+              "slug": "will-chris-pappas-be-the-democratic-nominee-for-senate-in-new-hampshire",
+              "question": "Will Chris Pappas be the Democratic nominee for Senate in New Hampshire?",
+              "yes_price": 0.875,
+              "volume": 7498
+            },
+            {
+              "market_id": "706183",
+              "slug": "will-karishma-manzur-be-the-democratic-nominee-for-senate-in-new-hampshire",
+              "question": "Will Karishma Manzur be the Democratic nominee for Senate in New Hampshire?",
+              "yes_price": 0.0325,
+              "volume": 3944
+            }
+          ],
+          "url": "https://polymarket.com/event/new-hampshire-democratic-senate-primary-winner",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9075. One wins $1.00. Profit: $0.0925 (9.25%)"
+        },
+        {
+          "event_title": "Meta (META) closes week of Apr 6 at ___?",
+          "event_slug": "meta-week-april-10-2026",
+          "yes_sum": 0.908,
+          "profit_pct": 9.2,
+          "profit_per_dollar_pct": 10.13,
+          "num_outcomes": 6,
+          "outcomes": [
+            {
+              "market_id": "1850038",
+              "slug": "will-meta-close-above-620-week-april-10-2026",
+              "question": "Will Meta (META) close at >$620 on the final day of trading of the week of Apr 6",
+              "yes_price": 0.4065,
+              "volume": 1946
+            },
+            {
+              "market_id": "1850032",
+              "slug": "will-meta-close-between-590-and-600-week-april-10-2026",
+              "question": "Will Meta (META) close at $590-$600 on the final day of trading of the week of A",
+              "yes_price": 0.195,
+              "volume": 2672
+            },
+            {
+              "market_id": "1850034",
+              "slug": "will-meta-close-between-600-and-610-week-april-10-2026",
+              "question": "Will Meta (META) close at $600-$610 on the final day of trading of the week of A",
+              "yes_price": 0.1675,
+              "volume": 1445
+            },
+            {
+              "market_id": "1850028",
+              "slug": "will-meta-close-between-550-and-560-week-april-10-2026",
+              "question": "Will Meta (META) close at $550-$560 on the final day of trading of the week of A",
+              "yes_price": 0.07,
+              "volume": 1109
+            },
+            {
+              "market_id": "1850031",
+              "slug": "will-meta-close-between-580-and-590-week-april-10-2026",
+              "question": "Will Meta (META) close at $580-$590 on the final day of trading of the week of A",
+              "yes_price": 0.065,
+              "volume": 1510
+            },
+            {
+              "market_id": "1850025",
+              "slug": "will-meta-close-below-530-week-april-10-2026",
+              "question": "Will Meta (META) close at <$530 on the final day of trading of the week of Apr 6",
+              "yes_price": 0.004,
+              "volume": 1323
+            }
+          ],
+          "url": "https://polymarket.com/event/meta-week-april-10-2026",
+          "strategy": "Buy YES on all 6 outcomes. Total cost: $0.9080. One wins $1.00. Profit: $0.0920 (9.20%)"
+        },
+        {
+          "event_title": "Kansas Governor Democratic Primary Winner",
+          "event_slug": "kansas-governor-democratic-primary-winner",
+          "yes_sum": 0.9095,
+          "profit_pct": 9.05,
+          "profit_per_dollar_pct": 9.95,
+          "num_outcomes": 3,
+          "outcomes": [
+            {
+              "market_id": "904437",
+              "slug": "will-ethan-corson-win-the-2026-kansas-governor-democratic-primary-election",
+              "question": "Will Ethan Corson win the 2026 Kansas Governor Democratic primary election?",
+              "yes_price": 0.595,
+              "volume": 1308
+            },
+            {
+              "market_id": "904439",
+              "slug": "will-cindy-holscher-win-the-2026-kansas-governor-democratic-primary-election",
+              "question": "Will Cindy Holscher win the 2026 Kansas Governor Democratic primary election?",
+              "yes_price": 0.305,
+              "volume": 1823
+            },
+            {
+              "market_id": "904438",
+              "slug": "will-marty-tuley-win-the-2026-kansas-governor-democratic-primary-election",
+              "question": "Will Marty Tuley win the 2026 Kansas Governor Democratic primary election?",
+              "yes_price": 0.0095,
+              "volume": 49377
+            }
+          ],
+          "url": "https://polymarket.com/event/kansas-governor-democratic-primary-winner",
+          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9095. One wins $1.00. Profit: $0.0905 (9.05%)"
+        },
+        {
+          "event_title": "PA-10 Democratic Primary Winner",
+          "event_slug": "pa-10-democratic-primary-winner-877",
+          "yes_sum": 0.91,
+          "profit_pct": 9.0,
+          "profit_per_dollar_pct": 9.89,
+          "num_outcomes": 2,
+          "outcomes": [
+            {
+              "market_id": "1448356",
+              "slug": "will-janelle-stelson-be-the-democratic-nominee-for-pa-10-994",
+              "question": "Will Janelle Stelson be the Democratic Nominee for PA-10?",
+              "yes_price": 0.895,
+              "volume": 3029
+            },
+            {
+              "market_id": "1448358",
+              "slug": "will-jason-cass-be-the-democratic-nominee-for-pa-10-765",
+              "question": "Will Jason Cass be the Democratic Nominee for PA-10?",
+              "yes_price": 0.015,
+              "volume": 8157
+            }
+          ],
+          "url": "https://polymarket.com/event/pa-10-democratic-primary-winner-877",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9100. One wins $1.00. Profit: $0.0900 (9.00%)"
+        },
+        {
+          "event_title": "Bank of England decision in June?",
+          "event_slug": "bank-of-england-decision-in-june-221",
+          "yes_sum": 0.91,
+          "profit_pct": 9.0,
+          "profit_per_dollar_pct": 9.89,
+          "num_outcomes": 2,
+          "outcomes": [
+            {
+              "market_id": "1653967",
+              "slug": "no-change-in-bank-of-englands-interest-rates-after-june-2026-meeting",
+              "question": "No change in Bank of England\u2019s interest rates after June 2026 meeting?",
+              "yes_price": 0.47,
+              "volume": 2312
+            },
+            {
+              "market_id": "1653968",
+              "slug": "bank-of-england-increases-interest-rates-after-june-2026-meeting",
+              "question": "Bank of England increases interest rates by 25 bps after June 2026 meeting?",
+              "yes_price": 0.44,
+              "volume": 9431
+            }
+          ],
+          "url": "https://polymarket.com/event/bank-of-england-decision-in-june-221",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9100. One wins $1.00. Profit: $0.0900 (9.00%)"
+        }
+      ],
       "stats": {
-        "total_events": 0,
-        "checked_multi_outcome": 0,
-        "skipped_single_outcome": 0,
-        "opportunities_found": 0,
-        "best_profit_pct": 0,
-        "scanned_at": "2026-04-09 06:03 UTC"
+        "total_events": 3000,
+        "checked_multi_outcome": 1891,
+        "skipped_single_outcome": 581,
+        "opportunities_found": 138,
+        "best_profit_pct": 10.0,
+        "scanned_at": "2026-04-09 08:09 UTC"
       }
     },
     {
@@ -28,7 +520,7 @@
       "hypothesis": "NEAR_CERTAIN is profitable (93.6% WR, +$16.32) but makes <$0.23/trade. Research shows pros scale these to thousands of dollars per trade to generate real income. At $10/bet we need 4,000+ trades to make $1,000.",
       "source": "Paper trade analysis + Grok research",
       "action": "Test 5x bet size increase ($10\u2192$50) on NEAR_CERTAIN. Downside: avg loss goes from $2.49 to $12.45. Need 93.6%+ WR sustained at higher sizes.",
-      "result": "W=2262 L=43 PnL=$354.89 open=72",
+      "result": "W=2381 L=43 PnL=$380.89 open=69",
       "priority": "HIGH"
     },
     {
