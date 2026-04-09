@@ -8,126 +8,42 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 120 categorical arb opportunities found\nScanned 3000 events (1922 multi-outcome) at 2026-04-09 12:12 UTC\nBest: 9.8% profit on 'How many different countries will Israel strike in 2026?' \u2014 buy YES on all 15 outcomes (sum=0.902)\nStrategy: Buy YES on all 15 outcomes. Total cost: $0.9020. One wins $1.00. Profit: $0.0980 (9.80%)\n2nd: 9.75% on 'Which cities will Russia enter by June 30?'",
+      "result": "LIVE \u2014 125 categorical arb opportunities found\nScanned 3000 events (1927 multi-outcome) at 2026-04-09 13:11 UTC\nBest: 10.0% profit on 'Who will be UFC Welterweight champion at the end of 2026?' \u2014 buy YES on all 3 outcomes (sum=0.9)\nStrategy: Buy YES on all 3 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 9.75% on 'Which cities will Russia enter by June 30?'",
       "priority": "HIGH",
-      "last_scan": "2026-04-09 12:12 UTC",
+      "last_scan": "2026-04-09 13:11 UTC",
       "opportunities": [
         {
-          "event_title": "How many different countries will Israel strike in 2026?",
-          "event_slug": "how-many-different-countries-will-israel-strike-in-2026",
-          "yes_sum": 0.902,
-          "profit_pct": 9.8,
-          "profit_per_dollar_pct": 10.86,
-          "num_outcomes": 15,
+          "event_title": "Who will be UFC Welterweight champion at the end of 2026?",
+          "event_slug": "who-will-be-ufc-welterweight-champion-at-the-end-of-2026",
+          "yes_sum": 0.9,
+          "profit_pct": 10.0,
+          "profit_per_dollar_pct": 11.11,
+          "num_outcomes": 3,
           "outcomes": [
             {
-              "market_id": "678747",
-              "slug": "will-israel-strike-4-countries-in-november-2025",
-              "question": "Will Israel strike 4 countries in 2026?",
-              "yes_price": 0.278,
-              "volume": 1140988
+              "market_id": "1090024",
+              "slug": "will-islam-makhachev-be-the-ufc-welterweight-champion-on-december-31-2026",
+              "question": "Will Islam Makhachev be the UFC Welterweight Champion on December 31, 2026?",
+              "yes_price": 0.74,
+              "volume": 2640
             },
             {
-              "market_id": "678748",
-              "slug": "will-israel-strike-5-countries-in-november-2025",
-              "question": "Will Israel strike 5 countries in 2026?",
-              "yes_price": 0.274,
-              "volume": 492899
+              "market_id": "1090027",
+              "slug": "will-ian-machado-garry-be-the-ufc-welterweight-champion-on-december-31-2026",
+              "question": "Will Ian Machado Garry be the UFC Welterweight Champion on December 31, 2026?",
+              "yes_price": 0.145,
+              "volume": 1320
             },
             {
-              "market_id": "678746",
-              "slug": "will-israel-strike-3-countries-in-2026",
-              "question": "Will Israel strike 3 countries in 2026?",
-              "yes_price": 0.138,
-              "volume": 1897661
-            },
-            {
-              "market_id": "678749",
-              "slug": "will-israel-strike-6-countries-in-2026",
-              "question": "Will Israel strike 6 countries in 2026?",
-              "yes_price": 0.1145,
-              "volume": 626800
-            },
-            {
-              "market_id": "678750",
-              "slug": "will-israel-strike-7-countries-in-2026",
-              "question": "Will Israel strike 7 countries in 2026?",
-              "yes_price": 0.038,
-              "volume": 585278
-            },
-            {
-              "market_id": "678751",
-              "slug": "will-israel-strike-8-countries-in-2026",
-              "question": "Will Israel strike 8 countries in 2026?",
-              "yes_price": 0.0175,
-              "volume": 499772
-            },
-            {
-              "market_id": "678753",
-              "slug": "will-israel-strike-10-countries-in-2026",
-              "question": "Will Israel strike 10 countries in 2026?",
-              "yes_price": 0.0145,
-              "volume": 375868
-            },
-            {
-              "market_id": "678752",
-              "slug": "will-israel-strike-9-countries-in-2026",
-              "question": "Will Israel strike 9 countries in 2026?",
-              "yes_price": 0.012,
-              "volume": 199718
-            },
-            {
-              "market_id": "678754",
-              "slug": "will-israel-strike-11-countries-in-2026",
-              "question": "Will Israel strike 11 countries in 2026?",
-              "yes_price": 0.0065,
-              "volume": 90002
-            },
-            {
-              "market_id": "678755",
-              "slug": "will-israel-strike-12-countries-in-2026",
-              "question": "Will Israel strike 12 countries in 2026?",
-              "yes_price": 0.0045,
-              "volume": 61714
-            },
-            {
-              "market_id": "678756",
-              "slug": "will-israel-strike-13-countries-in-2026",
-              "question": "Will Israel strike 13 countries in 2026?",
-              "yes_price": 0.0015,
-              "volume": 133639
-            },
-            {
-              "market_id": "678757",
-              "slug": "will-israel-strike-14-countries-in-2026",
-              "question": "Will Israel strike 14 countries in 2026?",
-              "yes_price": 0.0015,
-              "volume": 100703
-            },
-            {
-              "market_id": "678758",
-              "slug": "will-israel-strike-15-or-more-countries-in-2026",
-              "question": "Will Israel strike 15 or more countries in 2026?",
-              "yes_price": 0.0015,
-              "volume": 35687
-            },
-            {
-              "market_id": "678743",
-              "slug": "will-israel-strike-0-countries-in-2026",
-              "question": "Will Israel strike 0 countries in 2026?",
-              "yes_price": 0.0,
-              "volume": 38308
-            },
-            {
-              "market_id": "678744",
-              "slug": "will-israel-strike-1-country-in-2026",
-              "question": "Will Israel strike 1 country in 2026?",
-              "yes_price": 0.0,
-              "volume": 87273
+              "market_id": "1090025",
+              "slug": "will-jack-della-maddalena-be-the-ufc-welterweight-champion-on-december-31-2026",
+              "question": "Will Jack Della Maddalena be the UFC Welterweight Champion on December 31, 2026?",
+              "yes_price": 0.015,
+              "volume": 1318
             }
           ],
-          "url": "https://polymarket.com/event/how-many-different-countries-will-israel-strike-in-2026",
-          "strategy": "Buy YES on all 15 outcomes. Total cost: $0.9020. One wins $1.00. Profit: $0.0980 (9.80%)"
+          "url": "https://polymarket.com/event/who-will-be-ufc-welterweight-champion-at-the-end-of-2026",
+          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
         },
         {
           "event_title": "Which cities will Russia enter by June 30?",
@@ -200,9 +116,9 @@
         {
           "event_title": "AZ-01 Republican Primary Winner",
           "event_slug": "az-01-republican-primary-winner",
-          "yes_sum": 0.9045,
-          "profit_pct": 9.55,
-          "profit_per_dollar_pct": 10.56,
+          "yes_sum": 0.903,
+          "profit_pct": 9.7,
+          "profit_per_dollar_pct": 10.74,
           "num_outcomes": 11,
           "outcomes": [
             {
@@ -237,7 +153,7 @@
               "market_id": "704349",
               "slug": "will-derrick-gallego-be-the-republican-nominee-for-az-01-424",
               "question": "Will Derrick Gallego be the Republican nominee for AZ-01?",
-              "yes_price": 0.016,
+              "yes_price": 0.0145,
               "volume": 2957
             },
             {
@@ -284,66 +200,66 @@
             }
           ],
           "url": "https://polymarket.com/event/az-01-republican-primary-winner",
-          "strategy": "Buy YES on all 11 outcomes. Total cost: $0.9045. One wins $1.00. Profit: $0.0955 (9.55%)"
+          "strategy": "Buy YES on all 11 outcomes. Total cost: $0.9030. One wins $1.00. Profit: $0.0970 (9.70%)"
         },
         {
-          "event_title": "Who will be UFC Welterweight champion at the end of 2026?",
-          "event_slug": "who-will-be-ufc-welterweight-champion-at-the-end-of-2026",
+          "event_title": "Miguel D\u00edaz-Canel out as leader of Cuba by...?",
+          "event_slug": "miguel-daz-canel-out-as-leader-of-cuba-by-june-30",
           "yes_sum": 0.905,
           "profit_pct": 9.5,
           "profit_per_dollar_pct": 10.5,
           "num_outcomes": 3,
           "outcomes": [
             {
-              "market_id": "1090024",
-              "slug": "will-islam-makhachev-be-the-ufc-welterweight-champion-on-december-31-2026",
-              "question": "Will Islam Makhachev be the UFC Welterweight Champion on December 31, 2026?",
-              "yes_price": 0.74,
-              "volume": 2640
+              "market_id": "1117222",
+              "slug": "miguel-daz-canel-out-as-leader-of-cuba-by-december-31-113-682",
+              "question": "Miguel D\u00edaz-Canel out as leader of Cuba by December 31?",
+              "yes_price": 0.575,
+              "volume": 109403
             },
             {
-              "market_id": "1090027",
-              "slug": "will-ian-machado-garry-be-the-ufc-welterweight-champion-on-december-31-2026",
-              "question": "Will Ian Machado Garry be the UFC Welterweight Champion on December 31, 2026?",
-              "yes_price": 0.15,
-              "volume": 1320
+              "market_id": "1106634",
+              "slug": "miguel-daz-canel-out-as-leader-of-cuba-by-june-30-935-772",
+              "question": "Miguel D\u00edaz-Canel out as leader of Cuba by June 30?",
+              "yes_price": 0.33,
+              "volume": 489982
             },
             {
-              "market_id": "1090025",
-              "slug": "will-jack-della-maddalena-be-the-ufc-welterweight-champion-on-december-31-2026",
-              "question": "Will Jack Della Maddalena be the UFC Welterweight Champion on December 31, 2026?",
-              "yes_price": 0.015,
-              "volume": 1318
+              "market_id": "1447508",
+              "slug": "miguel-daz-canel-out-as-leader-of-cuba-by-march-31-971-121",
+              "question": "Miguel D\u00edaz-Canel out as leader of Cuba by March 31?",
+              "yes_price": 0.0,
+              "volume": 421256
             }
           ],
-          "url": "https://polymarket.com/event/who-will-be-ufc-welterweight-champion-at-the-end-of-2026",
+          "url": "https://polymarket.com/event/miguel-daz-canel-out-as-leader-of-cuba-by-june-30",
           "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
         },
         {
-          "event_title": "English Premier League - Most Clean Sheets",
-          "event_slug": "english-premier-league-top-gk-clean-sheets",
-          "yes_sum": 0.9055,
-          "profit_pct": 9.45,
-          "profit_per_dollar_pct": 10.44,
+          "event_title": "What floor price will Milady hit before 2027?",
+          "event_slug": "what-floor-price-will-milady-hit-before-2027",
+          "yes_sum": 0.905,
+          "profit_pct": 9.5,
+          "profit_per_dollar_pct": 10.5,
           "num_outcomes": 2,
           "outcomes": [
             {
-              "market_id": "1222798",
-              "slug": "will-david-raya-be-the-goalkeeper-with-the-most-clean-sheets-in-the-202526-english-premier-league-season",
-              "question": "Will David Raya be the goalkeeper with the most clean sheets in the 2025\u201326 Engl",
-              "yes_price": 0.9055,
-              "volume": 2693
+              "market_id": "1099807",
+              "slug": "will-milady-floor-price-reach-2-eth-before-2027",
+              "question": "Will Milady floor price reach 2 ETH before 2027?",
+              "yes_price": 0.505,
+              "volume": 11530
             },
             {
-              "market_id": "1222808",
-              "slug": "will-nick-pope-be-the-goalkeeper-with-the-most-clean-sheets-in-the-202526-english-premier-league-season",
-              "question": "Will Nick Pope be the goalkeeper with the most clean sheets in the 2025\u201326 Engli",
-              "yes_price": 0.0,
-              "volume": 1029
+              "market_id": "1099806",
+              "slug": "will-milady-floor-price-reach-4-eth-before-2027",
+              "question": "Will Milady floor price reach 4 ETH before 2027?",
+              "yes_price": 0.4,
+              "volume": 1294
             }
           ],
-          "url": "https://polymarket.com/event/english-premier-league-top-gk-clean-sheets",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9055. One wins $1.00. Profit: $0.0945 (9.45%)"
+          "url": "https://polymarket.com/event/what-floor-price-will-milady-hit-before-2027",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
         },
         {
           "event_title": "Pro Football: 2027 NFC Champion ",
@@ -529,128 +445,72 @@
           "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9090. One wins $1.00. Profit: $0.0910 (9.10%)"
         },
         {
-          "event_title": "Highest temperature in NYC on April 10?",
-          "event_slug": "highest-temperature-in-nyc-on-april-10-2026",
-          "yes_sum": 0.91,
-          "profit_pct": 9.0,
-          "profit_per_dollar_pct": 9.89,
-          "num_outcomes": 11,
-          "outcomes": [
-            {
-              "market_id": "1886335",
-              "slug": "highest-temperature-in-nyc-on-april-10-2026-60-61f",
-              "question": "Will the highest temperature in New York City be between 60-61\u00b0F on April 10?",
-              "yes_price": 0.33,
-              "volume": 1061
-            },
-            {
-              "market_id": "1886336",
-              "slug": "highest-temperature-in-nyc-on-april-10-2026-62-63f",
-              "question": "Will the highest temperature in New York City be between 62-63\u00b0F on April 10?",
-              "yes_price": 0.185,
-              "volume": 1854
-            },
-            {
-              "market_id": "1886334",
-              "slug": "highest-temperature-in-nyc-on-april-10-2026-58-59f",
-              "question": "Will the highest temperature in New York City be between 58-59\u00b0F on April 10?",
-              "yes_price": 0.175,
-              "volume": 1440
-            },
-            {
-              "market_id": "1886337",
-              "slug": "highest-temperature-in-nyc-on-april-10-2026-64-65f",
-              "question": "Will the highest temperature in New York City be between 64-65\u00b0F on April 10?",
-              "yes_price": 0.09,
-              "volume": 1537
-            },
-            {
-              "market_id": "1886333",
-              "slug": "highest-temperature-in-nyc-on-april-10-2026-56-57f",
-              "question": "Will the highest temperature in New York City be between 56-57\u00b0F on April 10?",
-              "yes_price": 0.054,
-              "volume": 2495
-            },
-            {
-              "market_id": "1886338",
-              "slug": "highest-temperature-in-nyc-on-april-10-2026-66-67f",
-              "question": "Will the highest temperature in New York City be between 66-67\u00b0F on April 10?",
-              "yes_price": 0.0345,
-              "volume": 2926
-            },
-            {
-              "market_id": "1886332",
-              "slug": "highest-temperature-in-nyc-on-april-10-2026-55forbelow",
-              "question": "Will the highest temperature in New York City be 55\u00b0F or below on April 10?",
-              "yes_price": 0.0185,
-              "volume": 8719
-            },
-            {
-              "market_id": "1886339",
-              "slug": "highest-temperature-in-nyc-on-april-10-2026-68-69f",
-              "question": "Will the highest temperature in New York City be between 68-69\u00b0F on April 10?",
-              "yes_price": 0.009,
-              "volume": 3976
-            },
-            {
-              "market_id": "1886340",
-              "slug": "highest-temperature-in-nyc-on-april-10-2026-70-71f",
-              "question": "Will the highest temperature in New York City be between 70-71\u00b0F on April 10?",
-              "yes_price": 0.0075,
-              "volume": 4271
-            },
-            {
-              "market_id": "1886341",
-              "slug": "highest-temperature-in-nyc-on-april-10-2026-72-73f",
-              "question": "Will the highest temperature in New York City be between 72-73\u00b0F on April 10?",
-              "yes_price": 0.0035,
-              "volume": 2002
-            },
-            {
-              "market_id": "1886342",
-              "slug": "highest-temperature-in-nyc-on-april-10-2026-74forhigher",
-              "question": "Will the highest temperature in New York City be 74\u00b0F or higher on April 10?",
-              "yes_price": 0.003,
-              "volume": 2084
-            }
-          ],
-          "url": "https://polymarket.com/event/highest-temperature-in-nyc-on-april-10-2026",
-          "strategy": "Buy YES on all 11 outcomes. Total cost: $0.9100. One wins $1.00. Profit: $0.0900 (9.00%)"
-        },
-        {
-          "event_title": "Javokhir Sindarov vs. Praggnanandhaa R - FIDE Candidates 2026 Open (Round 10)",
-          "event_slug": "chess-jsinda-pr-2026-04-09-r10",
-          "yes_sum": 0.91,
-          "profit_pct": 9.0,
-          "profit_per_dollar_pct": 9.89,
+          "event_title": "English Premier League - Most Clean Sheets",
+          "event_slug": "english-premier-league-top-gk-clean-sheets",
+          "yes_sum": 0.9095,
+          "profit_pct": 9.05,
+          "profit_per_dollar_pct": 9.95,
           "num_outcomes": 2,
           "outcomes": [
             {
-              "market_id": "1913922",
-              "slug": "chess-jsinda-pr-2026-04-09-r10-draw",
-              "question": "Will Javokhir Sindarov vs. Praggnanandhaa R end in a draw?",
-              "yes_price": 0.625,
-              "volume": 1004
+              "market_id": "1222798",
+              "slug": "will-david-raya-be-the-goalkeeper-with-the-most-clean-sheets-in-the-202526-english-premier-league-season",
+              "question": "Will David Raya be the goalkeeper with the most clean sheets in the 2025\u201326 Engl",
+              "yes_price": 0.9095,
+              "volume": 2693
             },
             {
-              "market_id": "1913921",
-              "slug": "chess-jsinda-pr-2026-04-09-r10-white",
-              "question": "Will Javokhir Sindarov win on 2026-04-09 at FIDE Candidates 2026 Open?",
-              "yes_price": 0.285,
-              "volume": 3356
+              "market_id": "1222808",
+              "slug": "will-nick-pope-be-the-goalkeeper-with-the-most-clean-sheets-in-the-202526-english-premier-league-season",
+              "question": "Will Nick Pope be the goalkeeper with the most clean sheets in the 2025\u201326 Engli",
+              "yes_price": 0.0,
+              "volume": 1029
             }
           ],
-          "url": "https://polymarket.com/event/chess-jsinda-pr-2026-04-09-r10",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9100. One wins $1.00. Profit: $0.0900 (9.00%)"
+          "url": "https://polymarket.com/event/english-premier-league-top-gk-clean-sheets",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9095. One wins $1.00. Profit: $0.0905 (9.05%)"
+        },
+        {
+          "event_title": "Bulgaria Parliamentary Election: Margin of Victory",
+          "event_slug": "bulgaria-parliamentary-election-margin-of-victory",
+          "yes_sum": 0.91,
+          "profit_pct": 9.0,
+          "profit_per_dollar_pct": 9.89,
+          "num_outcomes": 3,
+          "outcomes": [
+            {
+              "market_id": "1742068",
+              "slug": "will-progressive-bulgaria-pb-win-the-2026-bulgarian-parliamentary-election-by-5-10",
+              "question": "Will Progressive Bulgaria (PB) win the 2026 Bulgarian Parliamentary election by ",
+              "yes_price": 0.505,
+              "volume": 3753
+            },
+            {
+              "market_id": "1742067",
+              "slug": "will-progressive-bulgaria-pb-win-the-2026-bulgarian-parliamentary-election-by-10-15",
+              "question": "Will Progressive Bulgaria (PB) win the 2026 Bulgarian Parliamentary election by ",
+              "yes_price": 0.295,
+              "volume": 10408
+            },
+            {
+              "market_id": "1742066",
+              "slug": "will-progressive-bulgaria-pb-win-the-2026-bulgarian-parliamentary-election-by-15-20",
+              "question": "Will Progressive Bulgaria (PB) win the 2026 Bulgarian Parliamentary election by ",
+              "yes_price": 0.11,
+              "volume": 6316
+            }
+          ],
+          "url": "https://polymarket.com/event/bulgaria-parliamentary-election-margin-of-victory",
+          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9100. One wins $1.00. Profit: $0.0900 (9.00%)"
         }
       ],
       "stats": {
         "total_events": 3000,
-        "checked_multi_outcome": 1922,
-        "skipped_single_outcome": 588,
-        "opportunities_found": 120,
-        "best_profit_pct": 9.8,
-        "scanned_at": "2026-04-09 12:12 UTC"
+        "checked_multi_outcome": 1927,
+        "skipped_single_outcome": 587,
+        "opportunities_found": 125,
+        "best_profit_pct": 10.0,
+        "scanned_at": "2026-04-09 13:11 UTC"
       }
     },
     {
@@ -660,7 +520,7 @@
       "hypothesis": "NEAR_CERTAIN is profitable (93.6% WR, +$16.32) but makes <$0.23/trade. Research shows pros scale these to thousands of dollars per trade to generate real income. At $10/bet we need 4,000+ trades to make $1,000.",
       "source": "Paper trade analysis + Grok research",
       "action": "Test 5x bet size increase ($10\u2192$50) on NEAR_CERTAIN. Downside: avg loss goes from $2.49 to $12.45. Need 93.6%+ WR sustained at higher sizes.",
-      "result": "W=2558 L=43 PnL=$423.21 open=94",
+      "result": "W=2613 L=45 PnL=$428.95 open=91",
       "priority": "HIGH"
     },
     {
