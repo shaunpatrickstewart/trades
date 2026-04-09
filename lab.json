@@ -8,9 +8,9 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 125 categorical arb opportunities found\nScanned 3000 events (1944 multi-outcome) at 2026-04-09 16:12 UTC\nBest: 10.0% profit on 'Hamarkameratene vs. KFUM-Kameratene Oslo - More Markets' \u2014 buy YES on all 2 outcomes (sum=0.9)\nStrategy: Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 10.0% on 'Who will be UFC Welterweight champion at the end of 2026?'",
+      "result": "LIVE \u2014 133 categorical arb opportunities found\nScanned 3000 events (1941 multi-outcome) at 2026-04-09 17:16 UTC\nBest: 10.0% profit on 'Hamarkameratene vs. KFUM-Kameratene Oslo - More Markets' \u2014 buy YES on all 2 outcomes (sum=0.9)\nStrategy: Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 10.0% on 'CD Tolima vs. Deportivo Pereira - More Markets'",
       "priority": "HIGH",
-      "last_scan": "2026-04-09 16:12 UTC",
+      "last_scan": "2026-04-09 17:16 UTC",
       "opportunities": [
         {
           "event_title": "Hamarkameratene vs. KFUM-Kameratene Oslo - More Markets",
@@ -39,105 +39,103 @@
           "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
         },
         {
-          "event_title": "Who will be UFC Welterweight champion at the end of 2026?",
-          "event_slug": "who-will-be-ufc-welterweight-champion-at-the-end-of-2026",
+          "event_title": "CD Tolima vs. Deportivo Pereira - More Markets",
+          "event_slug": "col1-cdt-dep-2026-04-18-more-markets",
           "yes_sum": 0.9,
           "profit_pct": 10.0,
           "profit_per_dollar_pct": 11.11,
+          "num_outcomes": 2,
+          "outcomes": [
+            {
+              "market_id": "1690826",
+              "slug": "col1-cdt-dep-2026-04-18-spread-home-1pt5",
+              "question": "Spread: CD Tolima (-1.5)",
+              "yes_price": 0.465,
+              "volume": 2740
+            },
+            {
+              "market_id": "1690830",
+              "slug": "col1-cdt-dep-2026-04-18-spread-home-2pt5",
+              "question": "Spread: CD Tolima (-2.5)",
+              "yes_price": 0.435,
+              "volume": 2738
+            }
+          ],
+          "url": "https://polymarket.com/event/col1-cdt-dep-2026-04-18-more-markets",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
+        },
+        {
+          "event_title": "Manchester City FC vs. Crystal Palace FC - More Markets",
+          "event_slug": "epl-mac-cry-2026-03-21-more-markets",
+          "yes_sum": 0.9005,
+          "profit_pct": 9.95,
+          "profit_per_dollar_pct": 11.05,
           "num_outcomes": 3,
           "outcomes": [
             {
-              "market_id": "1090024",
-              "slug": "will-islam-makhachev-be-the-ufc-welterweight-champion-on-december-31-2026",
-              "question": "Will Islam Makhachev be the UFC Welterweight Champion on December 31, 2026?",
-              "yes_price": 0.74,
-              "volume": 2640
+              "market_id": "1530725",
+              "slug": "epl-mac-cry-2026-03-21-total-2pt5",
+              "question": "Manchester City FC vs. Crystal Palace FC: O/U 2.5",
+              "yes_price": 0.505,
+              "volume": 33303
             },
             {
-              "market_id": "1090027",
-              "slug": "will-ian-machado-garry-be-the-ufc-welterweight-champion-on-december-31-2026",
-              "question": "Will Ian Machado Garry be the UFC Welterweight Champion on December 31, 2026?",
-              "yes_price": 0.145,
-              "volume": 1320
+              "market_id": "1530735",
+              "slug": "epl-mac-cry-2026-03-21-btts",
+              "question": "Manchester City FC vs. Crystal Palace FC: Both Teams to Score",
+              "yes_price": 0.38,
+              "volume": 25229
             },
             {
-              "market_id": "1090025",
-              "slug": "will-jack-della-maddalena-be-the-ufc-welterweight-champion-on-december-31-2026",
-              "question": "Will Jack Della Maddalena be the UFC Welterweight Champion on December 31, 2026?",
-              "yes_price": 0.015,
-              "volume": 1318
+              "market_id": "1530719",
+              "slug": "epl-mac-cry-2026-03-21-spread-away-2pt5",
+              "question": "Spread: Crystal Palace FC (-2.5)",
+              "yes_price": 0.0155,
+              "volume": 1655
             }
           ],
-          "url": "https://polymarket.com/event/who-will-be-ufc-welterweight-champion-at-the-end-of-2026",
-          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
+          "url": "https://polymarket.com/event/epl-mac-cry-2026-03-21-more-markets",
+          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9005. One wins $1.00. Profit: $0.0995 (9.95%)"
         },
         {
-          "event_title": "How long will Trump and Xi shake hands when they meet?",
-          "event_slug": "how-long-will-trump-and-xi-shake-hands-when-they-meet",
+          "event_title": "Number of US Flights Delayed April 6?",
+          "event_slug": "number-of-us-flights-delayed-april-6",
           "yes_sum": 0.9035,
           "profit_pct": 9.65,
           "profit_per_dollar_pct": 10.68,
-          "num_outcomes": 7,
+          "num_outcomes": 3,
           "outcomes": [
             {
-              "market_id": "1363794",
-              "slug": "will-trump-and-xi-handshake-last-610-seconds-during-the-day-of-their-next-meeting-in-2026",
-              "question": "Will Trump and Xi handshake last 6\u201310 seconds during the day of their next meeti",
-              "yes_price": 0.285,
-              "volume": 3623
+              "market_id": "1849563",
+              "slug": "will-the-number-of-us-flights-delayed-on-april-6-be-between-6000-and-6500",
+              "question": "Will the number of US flights delayed on April 6 be between 6,000 and 6,500?",
+              "yes_price": 0.5835,
+              "volume": 3352
             },
             {
-              "market_id": "1363796",
-              "slug": "will-trump-and-xi-handshake-last-15-seconds-or-longer-during-the-day-of-their-next-meeting-in-2026",
-              "question": "Will Trump and Xi handshake last 15 seconds or longer during the day of their ne",
-              "yes_price": 0.215,
-              "volume": 8713
+              "market_id": "1849564",
+              "slug": "will-the-number-of-us-flights-delayed-on-april-6-be-between-6500-and-7000",
+              "question": "Will the number of US flights delayed on April 6 be between 6,500 and 7,000?",
+              "yes_price": 0.32,
+              "volume": 4420
             },
             {
-              "market_id": "1363795",
-              "slug": "will-trump-and-xi-handshake-last-1015-seconds-during-the-day-of-their-next-meeting-in-2026",
-              "question": "Will Trump and Xi handshake last 10\u201315 seconds during the day of their next meet",
-              "yes_price": 0.185,
-              "volume": 3718
-            },
-            {
-              "market_id": "1363793",
-              "slug": "will-trump-and-xi-handshake-last-26-seconds-during-the-day-of-their-next-meeting-in-2026",
-              "question": "Will Trump and Xi handshake last 2\u20136 seconds during the day of their next meetin",
-              "yes_price": 0.13,
-              "volume": 10984
-            },
-            {
-              "market_id": "1363791",
-              "slug": "will-trump-and-xi-not-shake-hands-during-the-day-of-their-next-meeting-in-2026",
-              "question": "Will Trump and Xi not shake hands during the day of their next meeting in 2026?",
-              "yes_price": 0.0445,
-              "volume": 11396
-            },
-            {
-              "market_id": "1363792",
-              "slug": "will-trump-and-xi-handshake-last-less-than-2-seconds-during-the-day-of-their-next-meeting-in-2026",
-              "question": "Will Trump and Xi handshake last less than 2 seconds during the day of their nex",
-              "yes_price": 0.027,
-              "volume": 13556
-            },
-            {
-              "market_id": "1363797",
-              "slug": "will-trump-and-xi-only-be-photographed-together-during-the-day-of-their-next-meeting-in-2026",
-              "question": "Will Trump and Xi only be photographed together during the day of their next mee",
-              "yes_price": 0.017,
-              "volume": 12258
+              "market_id": "1849561",
+              "slug": "will-the-number-of-us-flights-delayed-on-april-6-be-between-5000-and-5500",
+              "question": "Will the number of US flights delayed on April 6 be between 5,000 and 5,500?",
+              "yes_price": 0.0,
+              "volume": 3729
             }
           ],
-          "url": "https://polymarket.com/event/how-long-will-trump-and-xi-shake-hands-when-they-meet",
-          "strategy": "Buy YES on all 7 outcomes. Total cost: $0.9035. One wins $1.00. Profit: $0.0965 (9.65%)"
+          "url": "https://polymarket.com/event/number-of-us-flights-delayed-april-6",
+          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9035. One wins $1.00. Profit: $0.0965 (9.65%)"
         },
         {
           "event_title": "AZ-01 Republican Primary Winner",
           "event_slug": "az-01-republican-primary-winner",
-          "yes_sum": 0.904,
-          "profit_pct": 9.6,
-          "profit_per_dollar_pct": 10.62,
+          "yes_sum": 0.9055,
+          "profit_pct": 9.45,
+          "profit_per_dollar_pct": 10.44,
           "num_outcomes": 11,
           "outcomes": [
             {
@@ -151,7 +149,7 @@
               "market_id": "704343",
               "slug": "will-joseph-chaplik-be-the-republican-nominee-for-az-01",
               "question": "Will Joseph Chaplik be the Republican nominee for AZ-01?",
-              "yes_price": 0.0735,
+              "yes_price": 0.074,
               "volume": 7799
             },
             {
@@ -179,8 +177,15 @@
               "market_id": "704346",
               "slug": "will-mark-brnovich-be-the-republican-nominee-for-az-01",
               "question": "Will Mark Brnovich be the Republican nominee for AZ-01?",
-              "yes_price": 0.011,
+              "yes_price": 0.0115,
               "volume": 4365
+            },
+            {
+              "market_id": "704347",
+              "slug": "will-kari-lake-be-the-republican-nominee-for-az-01",
+              "question": "Will Kari Lake be the Republican nominee for AZ-01?",
+              "yes_price": 0.0105,
+              "volume": 6398
             },
             {
               "market_id": "704351",
@@ -188,13 +193,6 @@
               "question": "Will Paul Reevs be the Republican nominee for AZ-01?",
               "yes_price": 0.0105,
               "volume": 221052
-            },
-            {
-              "market_id": "704347",
-              "slug": "will-kari-lake-be-the-republican-nominee-for-az-01",
-              "question": "Will Kari Lake be the Republican nominee for AZ-01?",
-              "yes_price": 0.01,
-              "volume": 6398
             },
             {
               "market_id": "704350",
@@ -219,197 +217,115 @@
             }
           ],
           "url": "https://polymarket.com/event/az-01-republican-primary-winner",
-          "strategy": "Buy YES on all 11 outcomes. Total cost: $0.9040. One wins $1.00. Profit: $0.0960 (9.60%)"
+          "strategy": "Buy YES on all 11 outcomes. Total cost: $0.9055. One wins $1.00. Profit: $0.0945 (9.45%)"
         },
         {
-          "event_title": "How many different countries will Israel strike in 2026?",
-          "event_slug": "how-many-different-countries-will-israel-strike-in-2026",
-          "yes_sum": 0.905,
-          "profit_pct": 9.5,
-          "profit_per_dollar_pct": 10.5,
-          "num_outcomes": 15,
+          "event_title": "Highest temperature in Los Angeles on April 10?",
+          "event_slug": "highest-temperature-in-los-angeles-on-april-10-2026",
+          "yes_sum": 0.907,
+          "profit_pct": 9.3,
+          "profit_per_dollar_pct": 10.25,
+          "num_outcomes": 10,
           "outcomes": [
             {
-              "market_id": "678748",
-              "slug": "will-israel-strike-5-countries-in-november-2025",
-              "question": "Will Israel strike 5 countries in 2026?",
-              "yes_price": 0.275,
-              "volume": 492983
+              "market_id": "1886646",
+              "slug": "highest-temperature-in-los-angeles-on-april-10-2026-68-69f",
+              "question": "Will the highest temperature in Los Angeles be between 68-69\u00b0F on April 10?",
+              "yes_price": 0.39,
+              "volume": 1040
             },
             {
-              "market_id": "678747",
-              "slug": "will-israel-strike-4-countries-in-november-2025",
-              "question": "Will Israel strike 4 countries in 2026?",
-              "yes_price": 0.274,
-              "volume": 1140988
+              "market_id": "1886645",
+              "slug": "highest-temperature-in-los-angeles-on-april-10-2026-66-67f",
+              "question": "Will the highest temperature in Los Angeles be between 66-67\u00b0F on April 10?",
+              "yes_price": 0.32,
+              "volume": 1348
             },
             {
-              "market_id": "678746",
-              "slug": "will-israel-strike-3-countries-in-2026",
-              "question": "Will Israel strike 3 countries in 2026?",
-              "yes_price": 0.138,
-              "volume": 1897661
+              "market_id": "1886644",
+              "slug": "highest-temperature-in-los-angeles-on-april-10-2026-64-65f",
+              "question": "Will the highest temperature in Los Angeles be between 64-65\u00b0F on April 10?",
+              "yes_price": 0.104,
+              "volume": 1384
             },
             {
-              "market_id": "678749",
-              "slug": "will-israel-strike-6-countries-in-2026",
-              "question": "Will Israel strike 6 countries in 2026?",
-              "yes_price": 0.116,
-              "volume": 626800
+              "market_id": "1886649",
+              "slug": "highest-temperature-in-los-angeles-on-april-10-2026-74forhigher",
+              "question": "Will the highest temperature in Los Angeles be 74\u00b0F or higher on April 10?",
+              "yes_price": 0.043,
+              "volume": 2977
             },
             {
-              "market_id": "678750",
-              "slug": "will-israel-strike-7-countries-in-2026",
-              "question": "Will Israel strike 7 countries in 2026?",
-              "yes_price": 0.039,
-              "volume": 585278
+              "market_id": "1886648",
+              "slug": "highest-temperature-in-los-angeles-on-april-10-2026-72-73f",
+              "question": "Will the highest temperature in Los Angeles be between 72-73\u00b0F on April 10?",
+              "yes_price": 0.022,
+              "volume": 1338
             },
             {
-              "market_id": "678751",
-              "slug": "will-israel-strike-8-countries-in-2026",
-              "question": "Will Israel strike 8 countries in 2026?",
-              "yes_price": 0.0195,
-              "volume": 499772
+              "market_id": "1886643",
+              "slug": "highest-temperature-in-los-angeles-on-april-10-2026-62-63f",
+              "question": "Will the highest temperature in Los Angeles be between 62-63\u00b0F on April 10?",
+              "yes_price": 0.0165,
+              "volume": 1736
             },
             {
-              "market_id": "678753",
-              "slug": "will-israel-strike-10-countries-in-2026",
-              "question": "Will Israel strike 10 countries in 2026?",
-              "yes_price": 0.0145,
-              "volume": 375868
+              "market_id": "1886639",
+              "slug": "highest-temperature-in-los-angeles-on-april-10-2026-55forbelow",
+              "question": "Will the highest temperature in Los Angeles be 55\u00b0F or below on April 10?",
+              "yes_price": 0.004,
+              "volume": 1670
             },
             {
-              "market_id": "678752",
-              "slug": "will-israel-strike-9-countries-in-2026",
-              "question": "Will Israel strike 9 countries in 2026?",
-              "yes_price": 0.0135,
-              "volume": 202986
+              "market_id": "1886641",
+              "slug": "highest-temperature-in-los-angeles-on-april-10-2026-58-59f",
+              "question": "Will the highest temperature in Los Angeles be between 58-59\u00b0F on April 10?",
+              "yes_price": 0.0035,
+              "volume": 1838
             },
             {
-              "market_id": "678754",
-              "slug": "will-israel-strike-11-countries-in-2026",
-              "question": "Will Israel strike 11 countries in 2026?",
-              "yes_price": 0.0065,
-              "volume": 90002
+              "market_id": "1886642",
+              "slug": "highest-temperature-in-los-angeles-on-april-10-2026-60-61f",
+              "question": "Will the highest temperature in Los Angeles be between 60-61\u00b0F on April 10?",
+              "yes_price": 0.0035,
+              "volume": 2157
             },
             {
-              "market_id": "678755",
-              "slug": "will-israel-strike-12-countries-in-2026",
-              "question": "Will Israel strike 12 countries in 2026?",
-              "yes_price": 0.0045,
-              "volume": 61714
-            },
-            {
-              "market_id": "678756",
-              "slug": "will-israel-strike-13-countries-in-2026",
-              "question": "Will Israel strike 13 countries in 2026?",
-              "yes_price": 0.0015,
-              "volume": 133639
-            },
-            {
-              "market_id": "678757",
-              "slug": "will-israel-strike-14-countries-in-2026",
-              "question": "Will Israel strike 14 countries in 2026?",
-              "yes_price": 0.0015,
-              "volume": 100703
-            },
-            {
-              "market_id": "678758",
-              "slug": "will-israel-strike-15-or-more-countries-in-2026",
-              "question": "Will Israel strike 15 or more countries in 2026?",
-              "yes_price": 0.0015,
-              "volume": 35687
-            },
-            {
-              "market_id": "678743",
-              "slug": "will-israel-strike-0-countries-in-2026",
-              "question": "Will Israel strike 0 countries in 2026?",
-              "yes_price": 0.0,
-              "volume": 38308
-            },
-            {
-              "market_id": "678744",
-              "slug": "will-israel-strike-1-country-in-2026",
-              "question": "Will Israel strike 1 country in 2026?",
-              "yes_price": 0.0,
-              "volume": 87273
+              "market_id": "1886640",
+              "slug": "highest-temperature-in-los-angeles-on-april-10-2026-56-57f",
+              "question": "Will the highest temperature in Los Angeles be between 56-57\u00b0F on April 10?",
+              "yes_price": 0.0005,
+              "volume": 1483
             }
           ],
-          "url": "https://polymarket.com/event/how-many-different-countries-will-israel-strike-in-2026",
-          "strategy": "Buy YES on all 15 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
+          "url": "https://polymarket.com/event/highest-temperature-in-los-angeles-on-april-10-2026",
+          "strategy": "Buy YES on all 10 outcomes. Total cost: $0.9070. One wins $1.00. Profit: $0.0930 (9.30%)"
         },
         {
-          "event_title": "What will S&P 500 (SPX) close at end of 2026?",
-          "event_slug": "spx-close-dec-2026",
-          "yes_sum": 0.905,
-          "profit_pct": 9.5,
-          "profit_per_dollar_pct": 10.5,
-          "num_outcomes": 5,
-          "outcomes": [
-            {
-              "market_id": "1125397",
-              "slug": "spx-close-below-6000-dec-2026",
-              "question": "Will S&P 500 (SPX) close at <$6,000 in December?",
-              "yes_price": 0.325,
-              "volume": 11093
-            },
-            {
-              "market_id": "1125398",
-              "slug": "spx-close-6000-6500-dec-2026",
-              "question": "Will S&P 500 (SPX) close at $6,000-$6,500 in December?",
-              "yes_price": 0.22,
-              "volume": 1195
-            },
-            {
-              "market_id": "1125399",
-              "slug": "spx-close-6500-7000-dec-2026",
-              "question": "Will S&P 500 (SPX) close at $6,500-$7,000 in December?",
-              "yes_price": 0.2,
-              "volume": 1373
-            },
-            {
-              "market_id": "1126565",
-              "slug": "spx-close-7500-8000-dec-2026",
-              "question": "Will S&P 500 (SPX) close at $7,500-$8,000 in December?",
-              "yes_price": 0.095,
-              "volume": 1487
-            },
-            {
-              "market_id": "1125404",
-              "slug": "spx-close-above-8000-dec-2026-362-989-862",
-              "question": "Will S&P 500 (SPX) close at >$8,000 in December?",
-              "yes_price": 0.065,
-              "volume": 1593
-            }
-          ],
-          "url": "https://polymarket.com/event/spx-close-dec-2026",
-          "strategy": "Buy YES on all 5 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
-        },
-        {
-          "event_title": "UEFA Europa League: Top Scorer",
-          "event_slug": "uefa-europa-league-top-scorer",
-          "yes_sum": 0.905,
-          "profit_pct": 9.5,
-          "profit_per_dollar_pct": 10.5,
+          "event_title": "Al Okhdood SC vs. Al Nassr Saudi Club",
+          "event_slug": "spl-okh-nsr-2026-04-11",
+          "yes_sum": 0.907,
+          "profit_pct": 9.3,
+          "profit_per_dollar_pct": 10.25,
           "num_outcomes": 2,
           "outcomes": [
             {
-              "market_id": "1420777",
-              "slug": "will-riccardo-orsolini-score-the-most-goals-in-the-2025-26-uefa-europa-league",
-              "question": "Will Riccardo Orsolini score the most goals in the 2025-26 UEFA Europa League?",
-              "yes_price": 0.465,
-              "volume": 3407
+              "market_id": "1590750",
+              "slug": "spl-okh-nsr-2026-04-11-nsr",
+              "question": "Will Al Nassr Saudi Club win on 2026-04-11?",
+              "yes_price": 0.86,
+              "volume": 1942
             },
             {
-              "market_id": "1420761",
-              "slug": "will-igor-jesus-score-the-most-goals-in-the-2025-26-uefa-europa-league",
-              "question": "Will Igor Jesus score the most goals in the 2025-26 UEFA Europa League?",
-              "yes_price": 0.44,
-              "volume": 4790
+              "market_id": "1590748",
+              "slug": "spl-okh-nsr-2026-04-11-okh",
+              "question": "Will Al Okhdood SC win on 2026-04-11?",
+              "yes_price": 0.047,
+              "volume": 2072
             }
           ],
-          "url": "https://polymarket.com/event/uefa-europa-league-top-scorer",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
+          "url": "https://polymarket.com/event/spl-okh-nsr-2026-04-11",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9070. One wins $1.00. Profit: $0.0930 (9.30%)"
         },
         {
           "event_title": "PA-10 Democratic Primary Winner",
@@ -438,170 +354,86 @@
           "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9085. One wins $1.00. Profit: $0.0915 (9.15%)"
         },
         {
-          "event_title": "Georgia Governor Republican Primary Winner",
-          "event_slug": "georgia-governor-republican-primary-winner",
-          "yes_sum": 0.909,
-          "profit_pct": 9.1,
-          "profit_per_dollar_pct": 10.01,
-          "num_outcomes": 8,
+          "event_title": "Miguel D\u00edaz-Canel out as leader of Cuba by...?",
+          "event_slug": "miguel-daz-canel-out-as-leader-of-cuba-by-june-30",
+          "yes_sum": 0.91,
+          "profit_pct": 9.0,
+          "profit_per_dollar_pct": 9.89,
+          "num_outcomes": 3,
           "outcomes": [
             {
-              "market_id": "837734",
-              "slug": "will-rick-jackson-win-the-2026-georgia-governor-republican-primary-election",
-              "question": "Will Rick Jackson win the 2026 Georgia Governor Republican primary election?",
-              "yes_price": 0.515,
-              "volume": 12099
+              "market_id": "1117222",
+              "slug": "miguel-daz-canel-out-as-leader-of-cuba-by-december-31-113-682",
+              "question": "Miguel D\u00edaz-Canel out as leader of Cuba by December 31?",
+              "yes_price": 0.585,
+              "volume": 109579
             },
             {
-              "market_id": "837728",
-              "slug": "will-burt-jones-win-the-2026-georgia-governor-republican-primary-election",
-              "question": "Will Burt Jones win the 2026 Georgia Governor Republican primary election?",
-              "yes_price": 0.26,
-              "volume": 127578
+              "market_id": "1106634",
+              "slug": "miguel-daz-canel-out-as-leader-of-cuba-by-june-30-935-772",
+              "question": "Miguel D\u00edaz-Canel out as leader of Cuba by June 30?",
+              "yes_price": 0.325,
+              "volume": 490012
             },
             {
-              "market_id": "837729",
-              "slug": "will-brad-raffensperger-win-the-2026-georgia-governor-republican-primary-election",
-              "question": "Will Brad Raffensperger win the 2026 Georgia Governor Republican primary electio",
-              "yes_price": 0.11,
-              "volume": 54400
-            },
-            {
-              "market_id": "837726",
-              "slug": "will-chris-carr-win-the-2026-georgia-governor-republican-primary-election",
-              "question": "Will Chris Carr win the 2026 Georgia Governor Republican primary election?",
-              "yes_price": 0.017,
-              "volume": 40787
-            },
-            {
-              "market_id": "837731",
-              "slug": "will-gregg-kirkpatrick-win-the-2026-georgia-governor-republican-primary-election",
-              "question": "Will Gregg Kirkpatrick win the 2026 Georgia Governor Republican primary election",
-              "yes_price": 0.0025,
-              "volume": 126217
-            },
-            {
-              "market_id": "837730",
-              "slug": "will-ken-yasger-win-the-2026-georgia-governor-republican-primary-election",
-              "question": "Will Ken Yasger win the 2026 Georgia Governor Republican primary election?",
-              "yes_price": 0.0015,
-              "volume": 8768
-            },
-            {
-              "market_id": "837732",
-              "slug": "will-leland-olinger-ii-win-the-2026-georgia-governor-republican-primary-election",
-              "question": "Will Leland Olinger II win the 2026 Georgia Governor Republican primary election",
-              "yes_price": 0.0015,
-              "volume": 5832
-            },
-            {
-              "market_id": "837727",
-              "slug": "will-clark-dean-win-the-2026-georgia-governor-republican-primary-election",
-              "question": "Will Clark Dean win the 2026 Georgia Governor Republican primary election?",
-              "yes_price": 0.0015,
-              "volume": 5414
+              "market_id": "1447508",
+              "slug": "miguel-daz-canel-out-as-leader-of-cuba-by-march-31-971-121",
+              "question": "Miguel D\u00edaz-Canel out as leader of Cuba by March 31?",
+              "yes_price": 0.0,
+              "volume": 421256
             }
           ],
-          "url": "https://polymarket.com/event/georgia-governor-republican-primary-winner",
-          "strategy": "Buy YES on all 8 outcomes. Total cost: $0.9090. One wins $1.00. Profit: $0.0910 (9.10%)"
+          "url": "https://polymarket.com/event/miguel-daz-canel-out-as-leader-of-cuba-by-june-30",
+          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9100. One wins $1.00. Profit: $0.0900 (9.00%)"
         },
         {
-          "event_title": "Highest temperature in Chicago on April 10?",
-          "event_slug": "highest-temperature-in-chicago-on-april-10-2026",
-          "yes_sum": 0.9095,
-          "profit_pct": 9.05,
-          "profit_per_dollar_pct": 9.95,
-          "num_outcomes": 11,
+          "event_title": "Precipitation in NYC in April?",
+          "event_slug": "precipitation-in-nyc-in-april",
+          "yes_sum": 0.9105,
+          "profit_pct": 8.95,
+          "profit_per_dollar_pct": 9.83,
+          "num_outcomes": 4,
           "outcomes": [
             {
-              "market_id": "1886386",
-              "slug": "highest-temperature-in-chicago-on-april-10-2026-56forhigher",
-              "question": "Will the highest temperature in Chicago be 56\u00b0F or higher on April 10?",
-              "yes_price": 0.405,
-              "volume": 5357
+              "market_id": "1706747",
+              "slug": "will-nyc-have-less-than-2-inches-of-precipitation-in-april",
+              "question": "Will NYC have less than 2 inches of precipitation in April?",
+              "yes_price": 0.5105,
+              "volume": 1190
             },
             {
-              "market_id": "1886385",
-              "slug": "highest-temperature-in-chicago-on-april-10-2026-54-55f",
-              "question": "Will the highest temperature in Chicago be between 54-55\u00b0F on April 10?",
-              "yes_price": 0.255,
-              "volume": 2960
+              "market_id": "1706748",
+              "slug": "will-nyc-have-between-2-and-3-inches-of-precipitation-in-april",
+              "question": "Will NYC have between 2 and 3 inches of precipitation in April?",
+              "yes_price": 0.16,
+              "volume": 6176
             },
             {
-              "market_id": "1886384",
-              "slug": "highest-temperature-in-chicago-on-april-10-2026-52-53f",
-              "question": "Will the highest temperature in Chicago be between 52-53\u00b0F on April 10?",
-              "yes_price": 0.18,
-              "volume": 3598
+              "market_id": "1706750",
+              "slug": "will-nyc-have-between-4-and-5-inches-of-precipitation-in-april",
+              "question": "Will NYC have between 4 and 5 inches of precipitation in April?",
+              "yes_price": 0.125,
+              "volume": 8182
             },
             {
-              "market_id": "1886383",
-              "slug": "highest-temperature-in-chicago-on-april-10-2026-50-51f",
-              "question": "Will the highest temperature in Chicago be between 50-51\u00b0F on April 10?",
-              "yes_price": 0.0275,
-              "volume": 4084
-            },
-            {
-              "market_id": "1886382",
-              "slug": "highest-temperature-in-chicago-on-april-10-2026-48-49f",
-              "question": "Will the highest temperature in Chicago be between 48-49\u00b0F on April 10?",
-              "yes_price": 0.0165,
-              "volume": 4376
-            },
-            {
-              "market_id": "1886381",
-              "slug": "highest-temperature-in-chicago-on-april-10-2026-46-47f",
-              "question": "Will the highest temperature in Chicago be between 46-47\u00b0F on April 10?",
-              "yes_price": 0.0075,
-              "volume": 11451
-            },
-            {
-              "market_id": "1886378",
-              "slug": "highest-temperature-in-chicago-on-april-10-2026-40-41f",
-              "question": "Will the highest temperature in Chicago be between 40-41\u00b0F on April 10?",
-              "yes_price": 0.007,
-              "volume": 3488
-            },
-            {
-              "market_id": "1886376",
-              "slug": "highest-temperature-in-chicago-on-april-10-2026-37forbelow",
-              "question": "Will the highest temperature in Chicago be 37\u00b0F or below on April 10?",
-              "yes_price": 0.004,
-              "volume": 5260
-            },
-            {
-              "market_id": "1886380",
-              "slug": "highest-temperature-in-chicago-on-april-10-2026-44-45f",
-              "question": "Will the highest temperature in Chicago be between 44-45\u00b0F on April 10?",
-              "yes_price": 0.004,
-              "volume": 5084
-            },
-            {
-              "market_id": "1886379",
-              "slug": "highest-temperature-in-chicago-on-april-10-2026-42-43f",
-              "question": "Will the highest temperature in Chicago be between 42-43\u00b0F on April 10?",
-              "yes_price": 0.0025,
-              "volume": 5228
-            },
-            {
-              "market_id": "1886377",
-              "slug": "highest-temperature-in-chicago-on-april-10-2026-38-39f",
-              "question": "Will the highest temperature in Chicago be between 38-39\u00b0F on April 10?",
-              "yes_price": 0.0005,
-              "volume": 3509
+              "market_id": "1706749",
+              "slug": "will-nyc-have-between-3-and-4-inches-of-precipitation-in-april",
+              "question": "Will NYC have between 3 and 4 inches of precipitation in April?",
+              "yes_price": 0.115,
+              "volume": 6930
             }
           ],
-          "url": "https://polymarket.com/event/highest-temperature-in-chicago-on-april-10-2026",
-          "strategy": "Buy YES on all 11 outcomes. Total cost: $0.9095. One wins $1.00. Profit: $0.0905 (9.05%)"
+          "url": "https://polymarket.com/event/precipitation-in-nyc-in-april",
+          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9105. One wins $1.00. Profit: $0.0895 (8.95%)"
         }
       ],
       "stats": {
         "total_events": 3000,
-        "checked_multi_outcome": 1944,
-        "skipped_single_outcome": 598,
-        "opportunities_found": 125,
+        "checked_multi_outcome": 1941,
+        "skipped_single_outcome": 601,
+        "opportunities_found": 133,
         "best_profit_pct": 10.0,
-        "scanned_at": "2026-04-09 16:12 UTC"
+        "scanned_at": "2026-04-09 17:16 UTC"
       }
     },
     {
@@ -611,7 +443,7 @@
       "hypothesis": "NEAR_CERTAIN is profitable (93.6% WR, +$16.32) but makes <$0.23/trade. Research shows pros scale these to thousands of dollars per trade to generate real income. At $10/bet we need 4,000+ trades to make $1,000.",
       "source": "Paper trade analysis + Grok research",
       "action": "Test 5x bet size increase ($10\u2192$50) on NEAR_CERTAIN. Downside: avg loss goes from $2.49 to $12.45. Need 93.6%+ WR sustained at higher sizes.",
-      "result": "W=2769 L=47 PnL=$452.94 open=92",
+      "result": "W=2817 L=48 PnL=$460.71 open=95",
       "priority": "HIGH"
     },
     {
