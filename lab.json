@@ -442,7 +442,8 @@
       "source": "Shaun's original intent for SHORT_TERM engine",
       "action": "Rewrite run_short_term_scan() to copy elite wallet positions with end_date within SHORT_TERM_DAYS.",
       "result": "W=12 L=21 PnL=$-71.38",
-      "priority": "LIVE"
+      "priority": "LIVE",
+      "notes": "SHORT_TERM disabled (cap=0). W=12 L=21 -$71.38 total"
     },
     {
       "id": "10k_wallet_win_rate",
@@ -453,6 +454,15 @@
       "action": "Run wallet_analyzer.py on all 10,050 wallets. Fetch closed trade activity for top 500. Calculate real win rate. Rescore composite = win_rate \u00d7 Sharpe \u00d7 ROI.",
       "result": "Partial \u2014 134 elite wallets scored with Sharpe-estimated win rate. Full 10,050 scan pending (rate-limited).",
       "priority": "HIGH"
+    },
+    {
+      "id": "anti_near_certain_copy",
+      "title": "Anti-Near-Certain Wallet Copy",
+      "hypothesis": "Copy elite wallets that WIN by betting AGAINST 97%+ markets \u2014 100% WR, $206K profit found",
+      "status": "LIVE",
+      "priority": "HIGH",
+      "result": "LIVE \u2014 5 positions entered. Arsenal/Atletico/Real Madrid/PSG/Barcelona NO on Champions League",
+      "notes": "Engine 1c active. 5 wallet cap. 3 of 5 wallets traded TODAY."
     }
   ]
 }
