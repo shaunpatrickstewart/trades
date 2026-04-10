@@ -8,9 +8,9 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 142 categorical arb opportunities found\nScanned 3000 events (1982 multi-outcome) at 2026-04-10 17:17 UTC\nBest: 9.9% profit on 'Will Opensea launch a token by ___?' \u2014 buy YES on all 4 outcomes (sum=0.901)\nStrategy: Buy YES on all 4 outcomes. Total cost: $0.9010. One wins $1.00. Profit: $0.0990 (9.90%)\n2nd: 9.85% on 'Next Prime Minister of Bulgaria'",
+      "result": "LIVE \u2014 138 categorical arb opportunities found\nScanned 3000 events (1980 multi-outcome) at 2026-04-10 17:20 UTC\nBest: 9.9% profit on 'Will Opensea launch a token by ___?' \u2014 buy YES on all 4 outcomes (sum=0.901)\nStrategy: Buy YES on all 4 outcomes. Total cost: $0.9010. One wins $1.00. Profit: $0.0990 (9.90%)\n2nd: 9.85% on 'Next Prime Minister of Bulgaria'",
       "priority": "HIGH",
-      "last_scan": "2026-04-10 17:17 UTC",
+      "last_scan": "2026-04-10 17:20 UTC",
       "opportunities": [
         {
           "event_title": "Will Opensea launch a token by ___?",
@@ -126,91 +126,51 @@
           "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9025. One wins $1.00. Profit: $0.0975 (9.75%)"
         },
         {
-          "event_title": "How many Republican Senators not running in 2026?",
-          "event_slug": "how-many-republican-senators-not-running-in-2026",
-          "yes_sum": 0.903,
-          "profit_pct": 9.7,
-          "profit_per_dollar_pct": 10.74,
-          "num_outcomes": 7,
+          "event_title": "2026 World GDP Growth",
+          "event_slug": "2026-world-gdp-growth",
+          "yes_sum": 0.9045,
+          "profit_pct": 9.55,
+          "profit_per_dollar_pct": 10.56,
+          "num_outcomes": 5,
           "outcomes": [
             {
-              "market_id": "909079",
-              "slug": "will-the-number-of-republican-senate-members-who-retire-in-2026-be-exactly-7-546",
-              "question": "Will the number of Republican Senate members who retire in 2026 be exactly 7?",
-              "yes_price": 0.57,
-              "volume": 2049
+              "market_id": "1245861",
+              "slug": "will-world-gdp-growth-be-2pt9-in-2026",
+              "question": "Will world GDP growth be \u22642.9% in 2026?",
+              "yes_price": 0.375,
+              "volume": 3477
             },
             {
-              "market_id": "909078",
-              "slug": "will-the-number-of-republican-senate-members-who-retire-in-2026-be-exactly-6-462",
-              "question": "Will the number of Republican Senate members who retire in 2026 be exactly 6?",
-              "yes_price": 0.1,
-              "volume": 26136
+              "market_id": "1245864",
+              "slug": "will-world-gdp-growth-be-3pt2-in-2026",
+              "question": "Will world GDP growth be 3.2% in 2026?",
+              "yes_price": 0.2365,
+              "volume": 1543
             },
             {
-              "market_id": "909077",
-              "slug": "will-the-number-of-republican-senate-members-who-retire-in-2026-be-less-than-5",
-              "question": "Will the number of Republican Senate members who retire in 2026 be less than 5?",
-              "yes_price": 0.0985,
-              "volume": 19320
+              "market_id": "1245865",
+              "slug": "will-world-gdp-growth-be-3pt3-in-2026",
+              "question": "Will world GDP growth be 3.3% in 2026?",
+              "yes_price": 0.153,
+              "volume": 1824
             },
             {
-              "market_id": "923035",
-              "slug": "will-the-number-of-republican-senate-members-who-retire-in-2026-be-exactly-5",
-              "question": "Will the number of Republican Senate members who retire in 2026 be exactly 5?",
-              "yes_price": 0.0915,
-              "volume": 15338
+              "market_id": "1245866",
+              "slug": "will-world-gdp-growth-be-3pt4-in-2026",
+              "question": "Will world GDP growth be 3.4% in 2026?",
+              "yes_price": 0.0835,
+              "volume": 3393
             },
             {
-              "market_id": "909082",
-              "slug": "will-the-number-of-republican-senate-members-who-retire-in-2026-be-exactly-10-938",
-              "question": "Will the number of Republican Senate members who retire in 2026 be exactly 10?",
-              "yes_price": 0.0175,
-              "volume": 1222
-            },
-            {
-              "market_id": "909081",
-              "slug": "will-the-number-of-republican-senate-members-who-retire-in-2026-be-exactly-9-466",
-              "question": "Will the number of Republican Senate members who retire in 2026 be exactly 9?",
-              "yes_price": 0.0145,
-              "volume": 1191
-            },
-            {
-              "market_id": "909083",
-              "slug": "will-the-number-of-republican-senate-members-who-retire-in-2026-be-12-or-more-926",
-              "question": "Will the number of Republican Senate members who retire in 2026 be 12 or more?",
-              "yes_price": 0.011,
-              "volume": 4291
+              "market_id": "1245867",
+              "slug": "will-world-gdp-growth-be-3pt5-in-2026",
+              "question": "Will world GDP growth be 3.5% in 2026?",
+              "yes_price": 0.0565,
+              "volume": 2959
             }
           ],
-          "url": "https://polymarket.com/event/how-many-republican-senators-not-running-in-2026",
-          "strategy": "Buy YES on all 7 outcomes. Total cost: $0.9030. One wins $1.00. Profit: $0.0970 (9.70%)"
-        },
-        {
-          "event_title": "Upper Austria Ladies Linz: Anastasia Potapova vs Lilli Tagger",
-          "event_slug": "wta-potapov-tagger-2026-04-10",
-          "yes_sum": 0.905,
-          "profit_pct": 9.5,
-          "profit_per_dollar_pct": 10.5,
-          "num_outcomes": 2,
-          "outcomes": [
-            {
-              "market_id": "1931502",
-              "slug": "wta-potapov-tagger-2026-04-10",
-              "question": "Upper Austria Ladies Linz: Anastasia Potapova vs Lilli Tagger",
-              "yes_price": 0.485,
-              "volume": 255735
-            },
-            {
-              "market_id": "1932082",
-              "slug": "wta-potapov-tagger-2026-04-10-first-set-winner-Potapova-vs-Tagger",
-              "question": "Set 1 Winner: Potapova vs Tagger",
-              "yes_price": 0.42,
-              "volume": 2758
-            }
-          ],
-          "url": "https://polymarket.com/event/wta-potapov-tagger-2026-04-10",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
+          "url": "https://polymarket.com/event/2026-world-gdp-growth",
+          "strategy": "Buy YES on all 5 outcomes. Total cost: $0.9045. One wins $1.00. Profit: $0.0955 (9.55%)"
         },
         {
           "event_title": "Houston Astros vs. Seattle Mariners",
@@ -237,46 +197,6 @@
           ],
           "url": "https://polymarket.com/event/mlb-hou-sea-2026-04-10",
           "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
-        },
-        {
-          "event_title": "Precipitation in NYC in April?",
-          "event_slug": "precipitation-in-nyc-in-april",
-          "yes_sum": 0.907,
-          "profit_pct": 9.3,
-          "profit_per_dollar_pct": 10.25,
-          "num_outcomes": 4,
-          "outcomes": [
-            {
-              "market_id": "1706747",
-              "slug": "will-nyc-have-less-than-2-inches-of-precipitation-in-april",
-              "question": "Will NYC have less than 2 inches of precipitation in April?",
-              "yes_price": 0.597,
-              "volume": 1446
-            },
-            {
-              "market_id": "1706749",
-              "slug": "will-nyc-have-between-3-and-4-inches-of-precipitation-in-april",
-              "question": "Will NYC have between 3 and 4 inches of precipitation in April?",
-              "yes_price": 0.125,
-              "volume": 7902
-            },
-            {
-              "market_id": "1706750",
-              "slug": "will-nyc-have-between-4-and-5-inches-of-precipitation-in-april",
-              "question": "Will NYC have between 4 and 5 inches of precipitation in April?",
-              "yes_price": 0.095,
-              "volume": 8197
-            },
-            {
-              "market_id": "1706748",
-              "slug": "will-nyc-have-between-2-and-3-inches-of-precipitation-in-april",
-              "question": "Will NYC have between 2 and 3 inches of precipitation in April?",
-              "yes_price": 0.09,
-              "volume": 7484
-            }
-          ],
-          "url": "https://polymarket.com/event/precipitation-in-nyc-in-april",
-          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9070. One wins $1.00. Profit: $0.0930 (9.30%)"
         },
         {
           "event_title": "New Hampshire Governor Democratic Primary Winner",
@@ -359,88 +279,126 @@
           "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9080. One wins $1.00. Profit: $0.0920 (9.20%)"
         },
         {
-          "event_title": "How many Gold Cards will Trump sell in 2026?",
-          "event_slug": "how-many-gold-cards-will-trump-sell-in-2026",
+          "event_title": "How many Republican Senators not running in 2026?",
+          "event_slug": "how-many-republican-senators-not-running-in-2026",
           "yes_sum": 0.909,
           "profit_pct": 9.1,
           "profit_per_dollar_pct": 10.01,
-          "num_outcomes": 9,
+          "num_outcomes": 7,
           "outcomes": [
             {
-              "market_id": "665316",
-              "slug": "will-trump-sell-0-gold-cards-in-2026",
-              "question": "Will Trump sell 0 Gold Cards in 2026?",
-              "yes_price": 0.415,
-              "volume": 26402
+              "market_id": "909079",
+              "slug": "will-the-number-of-republican-senate-members-who-retire-in-2026-be-exactly-7-546",
+              "question": "Will the number of Republican Senate members who retire in 2026 be exactly 7?",
+              "yes_price": 0.57,
+              "volume": 2049
             },
             {
-              "market_id": "665317",
-              "slug": "will-trump-sell-1-100-gold-cards-in-2026",
-              "question": "Will Trump sell 1-100 Gold Cards in 2026?",
-              "yes_price": 0.1805,
-              "volume": 10634
+              "market_id": "909078",
+              "slug": "will-the-number-of-republican-senate-members-who-retire-in-2026-be-exactly-6-462",
+              "question": "Will the number of Republican Senate members who retire in 2026 be exactly 6?",
+              "yes_price": 0.105,
+              "volume": 26136
             },
             {
-              "market_id": "665320",
-              "slug": "will-trump-sell-2pt5k-5k-gold-cards-in-2026",
-              "question": "Will Trump sell 2.5k-5k Gold Cards in 2026?",
-              "yes_price": 0.0615,
-              "volume": 4517
+              "market_id": "909077",
+              "slug": "will-the-number-of-republican-senate-members-who-retire-in-2026-be-less-than-5",
+              "question": "Will the number of Republican Senate members who retire in 2026 be less than 5?",
+              "yes_price": 0.0985,
+              "volume": 19320
             },
             {
-              "market_id": "665319",
-              "slug": "will-trump-sell-1k-2pt5k-gold-cards-in-2026",
-              "question": "Will Trump sell 1k-2.5k Gold Cards in 2026?",
-              "yes_price": 0.06,
-              "volume": 7571
+              "market_id": "923035",
+              "slug": "will-the-number-of-republican-senate-members-who-retire-in-2026-be-exactly-5",
+              "question": "Will the number of Republican Senate members who retire in 2026 be exactly 5?",
+              "yes_price": 0.0915,
+              "volume": 15338
             },
             {
-              "market_id": "665322",
-              "slug": "will-trump-sell-10k-25k-gold-cards-in-2026",
-              "question": "Will Trump sell 10k-25k Gold Cards in 2026?",
-              "yes_price": 0.052,
-              "volume": 55007
+              "market_id": "909082",
+              "slug": "will-the-number-of-republican-senate-members-who-retire-in-2026-be-exactly-10-938",
+              "question": "Will the number of Republican Senate members who retire in 2026 be exactly 10?",
+              "yes_price": 0.0175,
+              "volume": 1222
             },
             {
-              "market_id": "665324",
-              "slug": "will-trump-sell-over-100k-gold-cards-in-2026",
-              "question": "Will Trump sell over 100k Gold Cards in 2026?",
-              "yes_price": 0.0435,
-              "volume": 14643
+              "market_id": "909081",
+              "slug": "will-the-number-of-republican-senate-members-who-retire-in-2026-be-exactly-9-466",
+              "question": "Will the number of Republican Senate members who retire in 2026 be exactly 9?",
+              "yes_price": 0.0145,
+              "volume": 1191
             },
             {
-              "market_id": "665323",
-              "slug": "will-trump-sell-25k-100k-gold-cards-in-2026",
-              "question": "Will Trump sell 25k-100k Gold Cards in 2026?",
-              "yes_price": 0.039,
-              "volume": 5036
-            },
-            {
-              "market_id": "665321",
-              "slug": "will-trump-sell-5k-10k-gold-cards-in-2026",
-              "question": "Will Trump sell 5k-10k Gold Cards in 2026?",
-              "yes_price": 0.0365,
-              "volume": 5419
-            },
-            {
-              "market_id": "665318",
-              "slug": "will-trump-sell-101-1k-gold-cards-in-2026",
-              "question": "Will Trump sell 101-1k Gold Cards in 2026?",
-              "yes_price": 0.021,
-              "volume": 5038
+              "market_id": "909083",
+              "slug": "will-the-number-of-republican-senate-members-who-retire-in-2026-be-12-or-more-926",
+              "question": "Will the number of Republican Senate members who retire in 2026 be 12 or more?",
+              "yes_price": 0.012,
+              "volume": 4291
             }
           ],
-          "url": "https://polymarket.com/event/how-many-gold-cards-will-trump-sell-in-2026",
-          "strategy": "Buy YES on all 9 outcomes. Total cost: $0.9090. One wins $1.00. Profit: $0.0910 (9.10%)"
+          "url": "https://polymarket.com/event/how-many-republican-senators-not-running-in-2026",
+          "strategy": "Buy YES on all 7 outcomes. Total cost: $0.9090. One wins $1.00. Profit: $0.0910 (9.10%)"
+        },
+        {
+          "event_title": "Montana Democratic Senate Primary Winner",
+          "event_slug": "montana-democratic-senate-primary-winner",
+          "yes_sum": 0.9095,
+          "profit_pct": 9.05,
+          "profit_per_dollar_pct": 9.95,
+          "num_outcomes": 2,
+          "outcomes": [
+            {
+              "market_id": "801938",
+              "slug": "will-reilly-neill-be-the-democratic-nominee-for-senate-in-montana",
+              "question": "Will Reilly Neill be the Democratic nominee for Senate in Montana?",
+              "yes_price": 0.855,
+              "volume": 4343
+            },
+            {
+              "market_id": "801937",
+              "slug": "will-michael-hummert-be-the-democratic-nominee-for-senate-in-montana",
+              "question": "Will Michael Hummert be the Democratic nominee for Senate in Montana?",
+              "yes_price": 0.0545,
+              "volume": 2029
+            }
+          ],
+          "url": "https://polymarket.com/event/montana-democratic-senate-primary-winner",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9095. One wins $1.00. Profit: $0.0905 (9.05%)"
+        },
+        {
+          "event_title": "PA-10 Democratic Primary Winner",
+          "event_slug": "pa-10-democratic-primary-winner-877",
+          "yes_sum": 0.9105,
+          "profit_pct": 8.95,
+          "profit_per_dollar_pct": 9.83,
+          "num_outcomes": 2,
+          "outcomes": [
+            {
+              "market_id": "1448356",
+              "slug": "will-janelle-stelson-be-the-democratic-nominee-for-pa-10-994",
+              "question": "Will Janelle Stelson be the Democratic Nominee for PA-10?",
+              "yes_price": 0.895,
+              "volume": 3029
+            },
+            {
+              "market_id": "1448358",
+              "slug": "will-jason-cass-be-the-democratic-nominee-for-pa-10-765",
+              "question": "Will Jason Cass be the Democratic Nominee for PA-10?",
+              "yes_price": 0.0155,
+              "volume": 8157
+            }
+          ],
+          "url": "https://polymarket.com/event/pa-10-democratic-primary-winner-877",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9105. One wins $1.00. Profit: $0.0895 (8.95%)"
         }
       ],
       "stats": {
         "total_events": 3000,
-        "checked_multi_outcome": 1982,
-        "skipped_single_outcome": 589,
-        "opportunities_found": 142,
+        "checked_multi_outcome": 1980,
+        "skipped_single_outcome": 590,
+        "opportunities_found": 138,
         "best_profit_pct": 9.9,
-        "scanned_at": "2026-04-10 17:17 UTC"
+        "scanned_at": "2026-04-10 17:20 UTC"
       }
     },
     {
@@ -450,7 +408,7 @@
       "hypothesis": "NEAR_CERTAIN is profitable (93.6% WR, +$16.32) but makes <$0.23/trade. Research shows pros scale these to thousands of dollars per trade to generate real income. At $10/bet we need 4,000+ trades to make $1,000.",
       "source": "Paper trade analysis + Grok research",
       "action": "Test 5x bet size increase ($10\u2192$50) on NEAR_CERTAIN. Downside: avg loss goes from $2.49 to $12.45. Need 93.6%+ WR sustained at higher sizes.",
-      "result": "W=3437 L=53 PnL=$614.73 open=66",
+      "result": "W=3494 L=53 PnL=$631.41 open=65",
       "priority": "HIGH"
     },
     {
