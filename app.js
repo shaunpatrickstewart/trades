@@ -353,8 +353,10 @@
       const tPfAll = [...won,...lost].filter(t=>(t.timestamp||t.closed_at||'').slice(0,10)>=FILTER_DATE);
       const postFilterPnl = tPfAll.reduce((s,t)=>s+(t.pnl||0),0);
       const postFilterWR  = tPfAll.length ? (tPfAll.filter(t=>t.status==='WON').length/tPfAll.length*100) : 0;
-      // Bankroll growth since filters went live (started at ~$222 on Apr 5)
-      const brGrowthPct = ((bankroll - 222.26) / 222.26 * 100);
+      // Organic ROI = trading profit / starting capital (excl paper topup)
+      const organicRoiPct = STARTING_BR > 0 ? (organicPnl / STARTING_BR * 100) : 0;
+      // Post-filter ROI since Apr 5 baseline of $222.26 (organic basis — no topup included)
+      const postFilterRoiPct = 222.26 > 0 ? (postFilterPnl / 222.26 * 100) : 0;
 
       const stat = (lbl,val,color,sub) =>
         '<div style="background:#f0f0f0;border-radius:4px;padding:6px 8px;text-align:center">'+
@@ -367,7 +369,7 @@
       html += stat('BANKROLL', '$'+bankroll.toFixed(2), '#222', '$'+STARTING_BR+' start');
       html += stat('TRUE REALIZED P&L', (trueRealized>=0?'+':'')+fmt(trueRealized), trueRealized>=0?'#00cc66':'#ee3344', 'all settled trades');
       html += stat('WIN RATE', postFilterWR.toFixed(1)+'%', postFilterWR>=60?'#00cc66':'#ee3344', tPfAll.length+' post-filter');
-      html += stat('BANKROLL GROWTH', (brGrowthPct>=0?'+':'')+brGrowthPct.toFixed(0)+'%', '#00cc66', 'since filters live');
+      html += stat('ORGANIC ROI', (organicRoiPct>=0?'+':'')+organicRoiPct.toFixed(1)+'%', organicRoiPct>=0?'#00cc66':'#ee3344', 'profit on $'+STARTING_BR+' start');
       html += stat('AVG WIN', '+$'+avgWin, '#00cc66', won.length+' wins');
       html += stat('AVG LOSS', '$'+avgLoss, '#ee3344', lost.length+' losses');
       html += stat('OPEN POSITIONS', open.length, '#888', 'active trades');
