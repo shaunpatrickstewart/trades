@@ -8,10 +8,50 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 142 categorical arb opportunities found\nScanned 3000 events (1968 multi-outcome) at 2026-04-10 19:40 UTC\nBest: 9.9% profit on 'Will Opensea launch a token by ___?' \u2014 buy YES on all 4 outcomes (sum=0.901)\nStrategy: Buy YES on all 4 outcomes. Total cost: $0.9010. One wins $1.00. Profit: $0.0990 (9.90%)\n2nd: 9.8% on 'Will JD Vance talk to Iranian negotiators by...?'",
+      "result": "LIVE \u2014 157 categorical arb opportunities found\nScanned 3000 events (1977 multi-outcome) at 2026-04-10 20:12 UTC\nBest: 9.95% profit on 'UEFA Europa Conference League: Most Goal Contributions' \u2014 buy YES on all 4 outcomes (sum=0.9005)\nStrategy: Buy YES on all 4 outcomes. Total cost: $0.9005. One wins $1.00. Profit: $0.0995 (9.95%)\n2nd: 9.9% on 'Will Opensea launch a token by ___?'",
       "priority": "HIGH",
-      "last_scan": "2026-04-10 19:40 UTC",
+      "last_scan": "2026-04-10 20:12 UTC",
       "opportunities": [
+        {
+          "event_title": "UEFA Europa Conference League: Most Goal Contributions",
+          "event_slug": "uefa-europa-conference-league-most-goal-contributions",
+          "yes_sum": 0.9005,
+          "profit_pct": 9.95,
+          "profit_per_dollar_pct": 11.05,
+          "num_outcomes": 4,
+          "outcomes": [
+            {
+              "market_id": "1429286",
+              "slug": "will-ismala-sarr-record-the-most-goal-contributions-in-the-2025-26-uefa-europa-conference-league",
+              "question": "Will Isma\u00efla Sarr record the most goal contributions in the 2025-26 UEFA Europa ",
+              "yes_price": 0.425,
+              "volume": 3224
+            },
+            {
+              "market_id": "1429289",
+              "slug": "will-isak-jensen-record-the-most-goal-contributions-in-the-2025-26-uefa-europa-conference-league",
+              "question": "Will Isak Jensen record the most goal contributions in the 2025-26 UEFA Europa C",
+              "yes_price": 0.245,
+              "volume": 13277
+            },
+            {
+              "market_id": "1429278",
+              "slug": "will-lvaro-garca-record-the-most-goal-contributions-in-the-2025-26-uefa-europa-conference-league",
+              "question": "Will \u00c1lvaro Garc\u00eda record the most goal contributions in the 2025-26 UEFA Europa",
+              "yes_price": 0.19,
+              "volume": 18821
+            },
+            {
+              "market_id": "1429283",
+              "slug": "will-aboubakary-koita-record-the-most-goal-contributions-in-the-2025-26-uefa-europa-conference-league",
+              "question": "Will Aboubakary Koita record the most goal contributions in the 2025-26 UEFA Eur",
+              "yes_price": 0.0405,
+              "volume": 6201
+            }
+          ],
+          "url": "https://polymarket.com/event/uefa-europa-conference-league-most-goal-contributions",
+          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9005. One wins $1.00. Profit: $0.0995 (9.95%)"
+        },
         {
           "event_title": "Will Opensea launch a token by ___?",
           "event_slug": "will-opensea-launch-a-token-by-142",
@@ -53,176 +93,180 @@
           "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9010. One wins $1.00. Profit: $0.0990 (9.90%)"
         },
         {
-          "event_title": "Will JD Vance talk to Iranian negotiators by...?",
-          "event_slug": "will-jd-vance-talk-to-iranian-negotiators-by",
-          "yes_sum": 0.902,
-          "profit_pct": 9.8,
-          "profit_per_dollar_pct": 10.86,
-          "num_outcomes": 2,
+          "event_title": "How many Gold Cards will Trump sell in 2026?",
+          "event_slug": "how-many-gold-cards-will-trump-sell-in-2026",
+          "yes_sum": 0.9025,
+          "profit_pct": 9.75,
+          "profit_per_dollar_pct": 10.8,
+          "num_outcomes": 9,
           "outcomes": [
             {
-              "market_id": "1709464",
-              "slug": "will-jd-vance-talk-to-iranian-negotiators-by-april-30",
-              "question": "Will JD Vance talk to Iranian negotiators by April 30?",
-              "yes_price": 0.902,
-              "volume": 49162
+              "market_id": "665316",
+              "slug": "will-trump-sell-0-gold-cards-in-2026",
+              "question": "Will Trump sell 0 Gold Cards in 2026?",
+              "yes_price": 0.41,
+              "volume": 26402
             },
             {
-              "market_id": "1708572",
-              "slug": "will-jd-vance-talk-to-iranian-negotiators-by",
-              "question": "Will JD Vance talk to Iranian negotiators by March 31?",
-              "yes_price": 0.0,
-              "volume": 34552
+              "market_id": "665317",
+              "slug": "will-trump-sell-1-100-gold-cards-in-2026",
+              "question": "Will Trump sell 1-100 Gold Cards in 2026?",
+              "yes_price": 0.1805,
+              "volume": 10634
+            },
+            {
+              "market_id": "665320",
+              "slug": "will-trump-sell-2pt5k-5k-gold-cards-in-2026",
+              "question": "Will Trump sell 2.5k-5k Gold Cards in 2026?",
+              "yes_price": 0.0615,
+              "volume": 4517
+            },
+            {
+              "market_id": "665319",
+              "slug": "will-trump-sell-1k-2pt5k-gold-cards-in-2026",
+              "question": "Will Trump sell 1k-2.5k Gold Cards in 2026?",
+              "yes_price": 0.06,
+              "volume": 7571
+            },
+            {
+              "market_id": "665322",
+              "slug": "will-trump-sell-10k-25k-gold-cards-in-2026",
+              "question": "Will Trump sell 10k-25k Gold Cards in 2026?",
+              "yes_price": 0.052,
+              "volume": 55007
+            },
+            {
+              "market_id": "665324",
+              "slug": "will-trump-sell-over-100k-gold-cards-in-2026",
+              "question": "Will Trump sell over 100k Gold Cards in 2026?",
+              "yes_price": 0.04,
+              "volume": 14643
+            },
+            {
+              "market_id": "665321",
+              "slug": "will-trump-sell-5k-10k-gold-cards-in-2026",
+              "question": "Will Trump sell 5k-10k Gold Cards in 2026?",
+              "yes_price": 0.0395,
+              "volume": 5419
+            },
+            {
+              "market_id": "665323",
+              "slug": "will-trump-sell-25k-100k-gold-cards-in-2026",
+              "question": "Will Trump sell 25k-100k Gold Cards in 2026?",
+              "yes_price": 0.039,
+              "volume": 5036
+            },
+            {
+              "market_id": "665318",
+              "slug": "will-trump-sell-101-1k-gold-cards-in-2026",
+              "question": "Will Trump sell 101-1k Gold Cards in 2026?",
+              "yes_price": 0.02,
+              "volume": 5038
             }
           ],
-          "url": "https://polymarket.com/event/will-jd-vance-talk-to-iranian-negotiators-by",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9020. One wins $1.00. Profit: $0.0980 (9.80%)"
+          "url": "https://polymarket.com/event/how-many-gold-cards-will-trump-sell-in-2026",
+          "strategy": "Buy YES on all 9 outcomes. Total cost: $0.9025. One wins $1.00. Profit: $0.0975 (9.75%)"
         },
         {
-          "event_title": "Who will close Warner Bros. acquisition?",
-          "event_slug": "who-will-close-warner-bros-acquisition",
-          "yes_sum": 0.9035,
-          "profit_pct": 9.65,
-          "profit_per_dollar_pct": 10.68,
-          "num_outcomes": 4,
-          "outcomes": [
-            {
-              "market_id": "897019",
-              "slug": "will-paramount-close-warner-bros-acquisition",
-              "question": "Will Paramount close Warner Bros acquisition?",
-              "yes_price": 0.725,
-              "volume": 438691
-            },
-            {
-              "market_id": "897030",
-              "slug": "no-listed-company-closes-warner-bros-acquisition-by-june-30-2027",
-              "question": "No listed company closes Warner Bros acquisition by June 30, 2027",
-              "yes_price": 0.16,
-              "volume": 156955
-            },
-            {
-              "market_id": "897017",
-              "slug": "will-netflix-close-warner-bros-acquisition",
-              "question": "Will Netflix close Warner Bros acquisition?",
-              "yes_price": 0.011,
-              "volume": 216396
-            },
-            {
-              "market_id": "897018",
-              "slug": "will-comcast-close-warner-bros-acquisition",
-              "question": "Will Comcast close Warner Bros acquisition?",
-              "yes_price": 0.0075,
-              "volume": 173873
-            }
-          ],
-          "url": "https://polymarket.com/event/who-will-close-warner-bros-acquisition",
-          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9035. One wins $1.00. Profit: $0.0965 (9.65%)"
-        },
-        {
-          "event_title": "XRP price on April 11?",
-          "event_slug": "xrp-price-on-april-11",
-          "yes_sum": 0.904,
-          "profit_pct": 9.6,
-          "profit_per_dollar_pct": 10.62,
-          "num_outcomes": 3,
-          "outcomes": [
-            {
-              "market_id": "1862599",
-              "slug": "will-the-price-of-xrp-be-between-1pt30-1pt40-on-april-11",
-              "question": "Will the price of XRP be between $1.30 and $1.40 on April 11?",
-              "yes_price": 0.895,
-              "volume": 1046
-            },
-            {
-              "market_id": "1862595",
-              "slug": "will-the-price-of-xrp-be-between-1pt00-1pt10-on-april-11",
-              "question": "Will the price of XRP be between $1.00 and $1.10 on April 11?",
-              "yes_price": 0.0045,
-              "volume": 2213
-            },
-            {
-              "market_id": "1862604",
-              "slug": "will-the-price-of-xrp-be-between-1pt60-1pt70-on-april-11",
-              "question": "Will the price of XRP be between $1.60 and $1.70 on April 11?",
-              "yes_price": 0.0045,
-              "volume": 1043
-            }
-          ],
-          "url": "https://polymarket.com/event/xrp-price-on-april-11",
-          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9040. One wins $1.00. Profit: $0.0960 (9.60%)"
-        },
-        {
-          "event_title": "Colorado Republican Senate Primary Winner",
-          "event_slug": "colorado-republican-senate-primary-winner",
+          "event_title": "GA-13 Democratic Primary Winner",
+          "event_slug": "ga-13-democratic-primary-winner",
           "yes_sum": 0.905,
           "profit_pct": 9.5,
           "profit_per_dollar_pct": 10.5,
-          "num_outcomes": 4,
+          "num_outcomes": 3,
           "outcomes": [
             {
-              "market_id": "679608",
-              "slug": "will-mark-baisley-be-the-republican-nominee-for-senate-in-colorado",
-              "question": "Will Mark Baisley be the Republican nominee for Senate in Colorado?",
-              "yes_price": 0.46,
-              "volume": 7073
+              "market_id": "1653180",
+              "slug": "will-jasmine-clark-be-the-democratic-nominee-for-ga-13",
+              "question": "Will Jasmine Clark be the Democratic nominee for GA-13?",
+              "yes_price": 0.35,
+              "volume": 2684
             },
             {
-              "market_id": "679606",
-              "slug": "will-janak-joshi-be-the-republican-nominee-for-senate-in-colorado",
-              "question": "Will Janak Joshi be the Republican nominee for Senate in Colorado?",
-              "yes_price": 0.175,
-              "volume": 1774
+              "market_id": "1653178",
+              "slug": "will-david-scott-be-the-democratic-nominee-for-ga-13",
+              "question": "Will David Scott be the Democratic nominee for GA-13?",
+              "yes_price": 0.345,
+              "volume": 1261
             },
             {
-              "market_id": "679605",
-              "slug": "will-dathan-jones-be-the-republican-nominee-for-senate-in-colorado",
-              "question": "Will Dathan Jones be the Republican nominee for Senate in Colorado?",
-              "yes_price": 0.15,
-              "volume": 1160
-            },
-            {
-              "market_id": "679607",
-              "slug": "will-george-washington-markert-be-the-republican-nominee-for-senate-in-colorado",
-              "question": "Will George Washington Markert be the Republican nominee for Senate in Colorado?",
-              "yes_price": 0.12,
-              "volume": 2281
+              "market_id": "1653179",
+              "slug": "will-everton-blair-jr-be-the-democratic-nominee-for-ga-13",
+              "question": "Will Everton Blair Jr. be the Democratic nominee for GA-13?",
+              "yes_price": 0.21,
+              "volume": 1313
             }
           ],
-          "url": "https://polymarket.com/event/colorado-republican-senate-primary-winner",
-          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
+          "url": "https://polymarket.com/event/ga-13-democratic-primary-winner",
+          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
         },
         {
-          "event_title": "Montana Democratic Senate Primary Winner",
-          "event_slug": "montana-democratic-senate-primary-winner",
+          "event_title": "How many Republican Senators not running in 2026?",
+          "event_slug": "how-many-republican-senators-not-running-in-2026",
           "yes_sum": 0.9055,
           "profit_pct": 9.45,
           "profit_per_dollar_pct": 10.44,
-          "num_outcomes": 2,
+          "num_outcomes": 7,
           "outcomes": [
             {
-              "market_id": "801938",
-              "slug": "will-reilly-neill-be-the-democratic-nominee-for-senate-in-montana",
-              "question": "Will Reilly Neill be the Democratic nominee for Senate in Montana?",
-              "yes_price": 0.845,
-              "volume": 4343
+              "market_id": "909079",
+              "slug": "will-the-number-of-republican-senate-members-who-retire-in-2026-be-exactly-7-546",
+              "question": "Will the number of Republican Senate members who retire in 2026 be exactly 7?",
+              "yes_price": 0.585,
+              "volume": 2049
             },
             {
-              "market_id": "801937",
-              "slug": "will-michael-hummert-be-the-democratic-nominee-for-senate-in-montana",
-              "question": "Will Michael Hummert be the Democratic nominee for Senate in Montana?",
-              "yes_price": 0.0605,
-              "volume": 2029
+              "market_id": "909078",
+              "slug": "will-the-number-of-republican-senate-members-who-retire-in-2026-be-exactly-6-462",
+              "question": "Will the number of Republican Senate members who retire in 2026 be exactly 6?",
+              "yes_price": 0.1,
+              "volume": 26136
+            },
+            {
+              "market_id": "909077",
+              "slug": "will-the-number-of-republican-senate-members-who-retire-in-2026-be-less-than-5",
+              "question": "Will the number of Republican Senate members who retire in 2026 be less than 5?",
+              "yes_price": 0.094,
+              "volume": 19320
+            },
+            {
+              "market_id": "923035",
+              "slug": "will-the-number-of-republican-senate-members-who-retire-in-2026-be-exactly-5",
+              "question": "Will the number of Republican Senate members who retire in 2026 be exactly 5?",
+              "yes_price": 0.09,
+              "volume": 15338
+            },
+            {
+              "market_id": "909082",
+              "slug": "will-the-number-of-republican-senate-members-who-retire-in-2026-be-exactly-10-938",
+              "question": "Will the number of Republican Senate members who retire in 2026 be exactly 10?",
+              "yes_price": 0.0135,
+              "volume": 1222
+            },
+            {
+              "market_id": "909083",
+              "slug": "will-the-number-of-republican-senate-members-who-retire-in-2026-be-12-or-more-926",
+              "question": "Will the number of Republican Senate members who retire in 2026 be 12 or more?",
+              "yes_price": 0.012,
+              "volume": 4291
+            },
+            {
+              "market_id": "909081",
+              "slug": "will-the-number-of-republican-senate-members-who-retire-in-2026-be-exactly-9-466",
+              "question": "Will the number of Republican Senate members who retire in 2026 be exactly 9?",
+              "yes_price": 0.011,
+              "volume": 1191
             }
           ],
-          "url": "https://polymarket.com/event/montana-democratic-senate-primary-winner",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9055. One wins $1.00. Profit: $0.0945 (9.45%)"
+          "url": "https://polymarket.com/event/how-many-republican-senators-not-running-in-2026",
+          "strategy": "Buy YES on all 7 outcomes. Total cost: $0.9055. One wins $1.00. Profit: $0.0945 (9.45%)"
         },
         {
           "event_title": "New Hampshire Governor Democratic Primary Winner",
           "event_slug": "new-hampshire-governor-democratic-primary-winner",
-          "yes_sum": 0.908,
-          "profit_pct": 9.2,
-          "profit_per_dollar_pct": 10.13,
+          "yes_sum": 0.9075,
+          "profit_pct": 9.25,
+          "profit_per_dollar_pct": 10.19,
           "num_outcomes": 4,
           "outcomes": [
             {
@@ -243,7 +287,7 @@
               "market_id": "824221",
               "slug": "will-tom-sherman-win-the-2026-new-hampshire-governor-democratic-primary-election",
               "question": "Will Tom Sherman win the 2026 New Hampshire Governor Democratic primary election",
-              "yes_price": 0.0585,
+              "yes_price": 0.058,
               "volume": 1688
             },
             {
@@ -255,7 +299,7 @@
             }
           ],
           "url": "https://polymarket.com/event/new-hampshire-governor-democratic-primary-winner",
-          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9080. One wins $1.00. Profit: $0.0920 (9.20%)"
+          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9075. One wins $1.00. Profit: $0.0925 (9.25%)"
         },
         {
           "event_title": "PA-10 Democratic Primary Winner",
@@ -284,114 +328,154 @@
           "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9085. One wins $1.00. Profit: $0.0915 (9.15%)"
         },
         {
-          "event_title": "# of views of Sabrina Carpenter's \"House Tour\" video on week 1?",
-          "event_slug": "of-views-of-sabrina-carpenters-house-tour-video-on-week-1",
-          "yes_sum": 0.9115,
-          "profit_pct": 8.85,
-          "profit_per_dollar_pct": 9.71,
+          "event_title": "Avg. # of ships transiting Strait of Hormuz end of April?",
+          "event_slug": "avg-of-ships-transiting-strait-of-hormuz-end-of-april",
+          "yes_sum": 0.9125,
+          "profit_pct": 8.75,
+          "profit_per_dollar_pct": 9.59,
+          "num_outcomes": 7,
+          "outcomes": [
+            {
+              "market_id": "1704815",
+              "slug": "will-there-be-between-0-and-10-average-daily-transits-of-the-strait-of-hormuz-on-april-30-753",
+              "question": "Will there be between 0 and 10 average daily transits of the Strait of Hormuz on",
+              "yes_price": 0.34,
+              "volume": 22381
+            },
+            {
+              "market_id": "1704816",
+              "slug": "will-there-be-between-10-and-20-average-daily-transits-of-the-strait-of-hormuz-on-april-30-633",
+              "question": "Will there be between 10 and 20 average daily transits of the Strait of Hormuz o",
+              "yes_price": 0.1275,
+              "volume": 9944
+            },
+            {
+              "market_id": "1704820",
+              "slug": "will-there-be-between-50-and-60-average-daily-transits-of-the-strait-of-hormuz-on-april-30-215",
+              "question": "Will there be between 50 and 60 average daily transits of the Strait of Hormuz o",
+              "yes_price": 0.115,
+              "volume": 7199
+            },
+            {
+              "market_id": "1704819",
+              "slug": "will-there-be-between-40-and-50-average-daily-transits-of-the-strait-of-hormuz-on-april-30-318",
+              "question": "Will there be between 40 and 50 average daily transits of the Strait of Hormuz o",
+              "yes_price": 0.096,
+              "volume": 7158
+            },
+            {
+              "market_id": "1704821",
+              "slug": "will-there-be-60-or-more-average-daily-transits-of-the-strait-of-hormuz-on-april-30-965",
+              "question": "Will there be 60 or more average daily transits of the Strait of Hormuz on April",
+              "yes_price": 0.09,
+              "volume": 23534
+            },
+            {
+              "market_id": "1704818",
+              "slug": "will-there-be-between-30-and-40-average-daily-transits-of-the-strait-of-hormuz-on-april-30-332",
+              "question": "Will there be between 30 and 40 average daily transits of the Strait of Hormuz o",
+              "yes_price": 0.0795,
+              "volume": 8194
+            },
+            {
+              "market_id": "1704817",
+              "slug": "will-there-be-between-20-and-30-average-daily-transits-of-the-strait-of-hormuz-on-april-30-234",
+              "question": "Will there be between 20 and 30 average daily transits of the Strait of Hormuz o",
+              "yes_price": 0.0645,
+              "volume": 8774
+            }
+          ],
+          "url": "https://polymarket.com/event/avg-of-ships-transiting-strait-of-hormuz-end-of-april",
+          "strategy": "Buy YES on all 7 outcomes. Total cost: $0.9125. One wins $1.00. Profit: $0.0875 (8.75%)"
+        },
+        {
+          "event_title": "Next CEO of Lululemon?",
+          "event_slug": "next-ceo-of-lululemon",
+          "yes_sum": 0.9125,
+          "profit_pct": 8.75,
+          "profit_per_dollar_pct": 9.59,
           "num_outcomes": 3,
           "outcomes": [
             {
-              "market_id": "1912701",
-              "slug": "will-house-tour-get-15-million-or-more-views-in-the-first-week",
-              "question": "Will \"House Tour\" get 15 million or more views in the first week?",
-              "yes_price": 0.495,
-              "volume": 1191
+              "market_id": "916392",
+              "slug": "will-meghan-frank-be-the-next-ceo-of-lululemon",
+              "question": "Will Meghan Frank be the next CEO of Lululemon?",
+              "yes_price": 0.35,
+              "volume": 48764
             },
             {
-              "market_id": "1912698",
-              "slug": "will-house-tour-get-between-12-and-13-million-views-in-the-first-week",
-              "question": "Will \"House Tour\" get between 12 and 13 million views in the first week?",
-              "yes_price": 0.415,
-              "volume": 5874
+              "market_id": "916398",
+              "slug": "will-stephanie-linnartz-be-the-next-ceo-of-lululemon",
+              "question": "Will Stephanie Linnartz be the next CEO of Lululemon?",
+              "yes_price": 0.2845,
+              "volume": 2936
             },
             {
-              "market_id": "1912696",
-              "slug": "will-house-tour-get-less-than-11m-views-in-the-first-week",
-              "question": "Will \"House Tour\" get less than 11m views in the first week?",
-              "yes_price": 0.0015,
-              "volume": 1484
+              "market_id": "916393",
+              "slug": "will-marti-morfitt-be-the-next-ceo-of-lululemon",
+              "question": "Will Marti Morfitt be the next CEO of Lululemon?",
+              "yes_price": 0.278,
+              "volume": 5936
             }
           ],
-          "url": "https://polymarket.com/event/of-views-of-sabrina-carpenters-house-tour-video-on-week-1",
-          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9115. One wins $1.00. Profit: $0.0885 (8.85%)"
+          "url": "https://polymarket.com/event/next-ceo-of-lululemon",
+          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9125. One wins $1.00. Profit: $0.0875 (8.75%)"
         },
         {
-          "event_title": "Which cities will Russia enter by June 30?",
-          "event_slug": "which-cities-will-russia-enter-by-june-30",
-          "yes_sum": 0.914,
-          "profit_pct": 8.6,
-          "profit_per_dollar_pct": 9.41,
-          "num_outcomes": 8,
+          "event_title": "# of seats won by GERB-SDS in Bulgarian Parliamentary Election?",
+          "event_slug": "of-seats-won-by-gerb-sds-in-bulgarian-parliamentary-election",
+          "yes_sum": 0.9125,
+          "profit_pct": 8.75,
+          "profit_per_dollar_pct": 9.59,
+          "num_outcomes": 5,
           "outcomes": [
             {
-              "market_id": "1007632",
-              "slug": "will-russia-enter-dopropillia-by-june-30-122-495",
-              "question": "Will Russia enter Dopropillia by June 30?",
-              "yes_price": 0.3,
-              "volume": 181796
+              "market_id": "1738313",
+              "slug": "will-gerb-sds-win-70-or-more-seats-in-the-2026-bulgarian-parliamentary-election",
+              "question": "Will GERB-SDS win 70 or more seats in the 2026 Bulgarian parliamentary election?",
+              "yes_price": 0.335,
+              "volume": 1010
             },
             {
-              "market_id": "1007631",
-              "slug": "will-russia-enter-druzkhivka-by-june-30-933-897",
-              "question": "Will Russia enter Druzkhivka by June 30?",
-              "yes_price": 0.145,
-              "volume": 263006
+              "market_id": "1738312",
+              "slug": "will-gerb-sds-win-between-65-69-seats-in-the-2026-bulgarian-parliamentary-election",
+              "question": "Will GERB-SDS win between 65-69 seats in the 2026 Bulgarian parliamentary electi",
+              "yes_price": 0.275,
+              "volume": 2690
             },
             {
-              "market_id": "1007628",
-              "slug": "will-russia-enter-sloviansk-by-june-30",
-              "question": "Will Russia enter Sloviansk by June 30?",
-              "yes_price": 0.14,
-              "volume": 148078
-            },
-            {
-              "market_id": "1007633",
-              "slug": "will-russia-enter-kramatorsk-by-june-30-821-192",
-              "question": "Will Russia enter Kramatorsk by June 30?",
+              "market_id": "1738311",
+              "slug": "will-gerb-sds-win-between-60-64-seats-in-the-2026-bulgarian-parliamentary-election",
+              "question": "Will GERB-SDS win between 60-64 seats in the 2026 Bulgarian parliamentary electi",
               "yes_price": 0.125,
-              "volume": 116265
+              "volume": 19414
             },
             {
-              "market_id": "1007630",
-              "slug": "will-russia-enter-sumy-by-june-30-893-434",
-              "question": "Will Russia enter Sumy by June 30?",
-              "yes_price": 0.055,
-              "volume": 70995
+              "market_id": "1738310",
+              "slug": "will-gerb-sds-win-between-55-59-seats-in-the-2026-bulgarian-parliamentary-election",
+              "question": "Will GERB-SDS win between 55-59 seats in the 2026 Bulgarian parliamentary electi",
+              "yes_price": 0.105,
+              "volume": 7337
             },
             {
-              "market_id": "1007636",
-              "slug": "will-russia-enter-zaporizhia-by-june-30-845",
-              "question": "Will Russia enter Zaporizhia by June 30?",
-              "yes_price": 0.055,
-              "volume": 72190
-            },
-            {
-              "market_id": "1007635",
-              "slug": "will-russia-enter-kherson-by-june-30-645",
-              "question": "Will Russia enter Kherson by June 30?",
-              "yes_price": 0.052,
-              "volume": 46652
-            },
-            {
-              "market_id": "1007634",
-              "slug": "will-russia-enter-kharkiv-by-june-30-967",
-              "question": "Will Russia enter Kharkiv by June 30?",
-              "yes_price": 0.042,
-              "volume": 36018
+              "market_id": "1738308",
+              "slug": "will-gerb-sds-win-fewer-than-50-seats-in-the-2026-bulgarian-parliamentary-election",
+              "question": "Will GERB-SDS win fewer than 50 seats in the 2026 Bulgarian parliamentary electi",
+              "yes_price": 0.0725,
+              "volume": 1732
             }
           ],
-          "url": "https://polymarket.com/event/which-cities-will-russia-enter-by-june-30",
-          "strategy": "Buy YES on all 8 outcomes. Total cost: $0.9140. One wins $1.00. Profit: $0.0860 (8.60%)"
+          "url": "https://polymarket.com/event/of-seats-won-by-gerb-sds-in-bulgarian-parliamentary-election",
+          "strategy": "Buy YES on all 5 outcomes. Total cost: $0.9125. One wins $1.00. Profit: $0.0875 (8.75%)"
         }
       ],
       "stats": {
         "total_events": 3000,
-        "checked_multi_outcome": 1968,
-        "skipped_single_outcome": 591,
-        "opportunities_found": 142,
-        "best_profit_pct": 9.9,
-        "scanned_at": "2026-04-10 19:40 UTC"
+        "checked_multi_outcome": 1977,
+        "skipped_single_outcome": 587,
+        "opportunities_found": 157,
+        "best_profit_pct": 9.95,
+        "scanned_at": "2026-04-10 20:12 UTC"
       }
     },
     {
