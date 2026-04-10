@@ -8,9 +8,9 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 152 categorical arb opportunities found\nScanned 3000 events (1979 multi-outcome) at 2026-04-10 14:44 UTC\nBest: 9.95% profit on 'UEFA Europa Conference League: Most Goal Contributions' \u2014 buy YES on all 4 outcomes (sum=0.9005)\nStrategy: Buy YES on all 4 outcomes. Total cost: $0.9005. One wins $1.00. Profit: $0.0995 (9.95%)\n2nd: 9.9% on 'Will Opensea launch a token by ___?'",
+      "result": "LIVE \u2014 150 categorical arb opportunities found\nScanned 3000 events (1977 multi-outcome) at 2026-04-10 14:45 UTC\nBest: 9.95% profit on 'UEFA Europa Conference League: Most Goal Contributions' \u2014 buy YES on all 4 outcomes (sum=0.9005)\nStrategy: Buy YES on all 4 outcomes. Total cost: $0.9005. One wins $1.00. Profit: $0.0995 (9.95%)\n2nd: 9.9% on 'Will Opensea launch a token by ___?'",
       "priority": "HIGH",
-      "last_scan": "2026-04-10 14:44 UTC",
+      "last_scan": "2026-04-10 14:45 UTC",
       "opportunities": [
         {
           "event_title": "UEFA Europa Conference League: Most Goal Contributions",
@@ -124,6 +124,116 @@
           ],
           "url": "https://polymarket.com/event/next-prime-minister-of-bulgaria",
           "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9015. One wins $1.00. Profit: $0.0985 (9.85%)"
+        },
+        {
+          "event_title": "Who will Petr Yan fight next?",
+          "event_slug": "who-will-petr-yan-fight-next-before-2027",
+          "yes_sum": 0.9035,
+          "profit_pct": 9.65,
+          "profit_per_dollar_pct": 10.68,
+          "num_outcomes": 14,
+          "outcomes": [
+            {
+              "market_id": "897241",
+              "slug": "will-petr-yan-fight-merab-dvalishvili-next",
+              "question": "Will Petr Yan fight Merab Dvalishvili next?",
+              "yes_price": 0.67,
+              "volume": 56342
+            },
+            {
+              "market_id": "897242",
+              "slug": "will-petr-yan-fight-sean-omalley-next",
+              "question": "Will Petr Yan fight Sean O\u2019Malley next?",
+              "yes_price": 0.109,
+              "volume": 15253
+            },
+            {
+              "market_id": "897244",
+              "slug": "will-petr-yan-fight-umar-nurmagomedov-next",
+              "question": "Will Petr Yan fight Umar Nurmagomedov next?",
+              "yes_price": 0.061,
+              "volume": 12562
+            },
+            {
+              "market_id": "897250",
+              "slug": "will-petr-yan-fight-payton-talbott-next",
+              "question": "Will Petr Yan fight Payton Talbott next?",
+              "yes_price": 0.016,
+              "volume": 7187
+            },
+            {
+              "market_id": "897253",
+              "slug": "will-petr-yan-fight-alexandre-pantoja-next",
+              "question": "Will Petr Yan fight Alexandre Pantoja next?",
+              "yes_price": 0.01,
+              "volume": 6866
+            },
+            {
+              "market_id": "897249",
+              "slug": "will-petr-yan-fight-pedro-munhoz-next",
+              "question": "Will Petr Yan fight Pedro Munhoz next?",
+              "yes_price": 0.009,
+              "volume": 5271
+            },
+            {
+              "market_id": "897248",
+              "slug": "will-petr-yan-fight-ricky-simn-next",
+              "question": "Will Petr Yan fight Ricky Sim\u00f3n next?",
+              "yes_price": 0.005,
+              "volume": 7397
+            },
+            {
+              "market_id": "897254",
+              "slug": "will-petr-yan-fight-alexander-volkanovski-next",
+              "question": "Will Petr Yan fight Alexander Volkanovski next?",
+              "yes_price": 0.0045,
+              "volume": 38879
+            },
+            {
+              "market_id": "897245",
+              "slug": "will-petr-yan-fight-song-yadong-next",
+              "question": "Will Petr Yan fight Song Yadong next?",
+              "yes_price": 0.0035,
+              "volume": 12224
+            },
+            {
+              "market_id": "897251",
+              "slug": "will-petr-yan-fight-dominick-cruz-next",
+              "question": "Will Petr Yan fight Dominick Cruz next?",
+              "yes_price": 0.0035,
+              "volume": 7916
+            },
+            {
+              "market_id": "897246",
+              "slug": "will-petr-yan-fight-deiveson-figueiredo-next",
+              "question": "Will Petr Yan fight Deiveson Figueiredo next?",
+              "yes_price": 0.0035,
+              "volume": 8483
+            },
+            {
+              "market_id": "897243",
+              "slug": "will-petr-yan-fight-cory-sandhagen-next",
+              "question": "Will Petr Yan fight Cory Sandhagen next?",
+              "yes_price": 0.003,
+              "volume": 6864
+            },
+            {
+              "market_id": "897247",
+              "slug": "will-petr-yan-fight-rob-font-next",
+              "question": "Will Petr Yan fight Rob Font next?",
+              "yes_price": 0.003,
+              "volume": 4605
+            },
+            {
+              "market_id": "897252",
+              "slug": "will-petr-yan-fight-henry-cejudo-next",
+              "question": "Will Petr Yan fight Henry Cejudo next?",
+              "yes_price": 0.0025,
+              "volume": 7288
+            }
+          ],
+          "url": "https://polymarket.com/event/who-will-petr-yan-fight-next-before-2027",
+          "strategy": "Buy YES on all 14 outcomes. Total cost: $0.9035. One wins $1.00. Profit: $0.0965 (9.65%)"
         },
         {
           "event_title": "How many Republican Senators not running in 2026?",
@@ -700,125 +810,15 @@
           ],
           "url": "https://polymarket.com/event/highest-temperature-in-london-on-april-12-2026",
           "strategy": "Buy YES on all 11 outcomes. Total cost: $0.9075. One wins $1.00. Profit: $0.0925 (9.25%)"
-        },
-        {
-          "event_title": "Who will Petr Yan fight next?",
-          "event_slug": "who-will-petr-yan-fight-next-before-2027",
-          "yes_sum": 0.909,
-          "profit_pct": 9.1,
-          "profit_per_dollar_pct": 10.01,
-          "num_outcomes": 14,
-          "outcomes": [
-            {
-              "market_id": "897241",
-              "slug": "will-petr-yan-fight-merab-dvalishvili-next",
-              "question": "Will Petr Yan fight Merab Dvalishvili next?",
-              "yes_price": 0.67,
-              "volume": 56342
-            },
-            {
-              "market_id": "897242",
-              "slug": "will-petr-yan-fight-sean-omalley-next",
-              "question": "Will Petr Yan fight Sean O\u2019Malley next?",
-              "yes_price": 0.1125,
-              "volume": 15253
-            },
-            {
-              "market_id": "897244",
-              "slug": "will-petr-yan-fight-umar-nurmagomedov-next",
-              "question": "Will Petr Yan fight Umar Nurmagomedov next?",
-              "yes_price": 0.061,
-              "volume": 12562
-            },
-            {
-              "market_id": "897250",
-              "slug": "will-petr-yan-fight-payton-talbott-next",
-              "question": "Will Petr Yan fight Payton Talbott next?",
-              "yes_price": 0.016,
-              "volume": 7187
-            },
-            {
-              "market_id": "897253",
-              "slug": "will-petr-yan-fight-alexandre-pantoja-next",
-              "question": "Will Petr Yan fight Alexandre Pantoja next?",
-              "yes_price": 0.01,
-              "volume": 6866
-            },
-            {
-              "market_id": "897249",
-              "slug": "will-petr-yan-fight-pedro-munhoz-next",
-              "question": "Will Petr Yan fight Pedro Munhoz next?",
-              "yes_price": 0.009,
-              "volume": 5271
-            },
-            {
-              "market_id": "897246",
-              "slug": "will-petr-yan-fight-deiveson-figueiredo-next",
-              "question": "Will Petr Yan fight Deiveson Figueiredo next?",
-              "yes_price": 0.005,
-              "volume": 8483
-            },
-            {
-              "market_id": "897248",
-              "slug": "will-petr-yan-fight-ricky-simn-next",
-              "question": "Will Petr Yan fight Ricky Sim\u00f3n next?",
-              "yes_price": 0.005,
-              "volume": 7397
-            },
-            {
-              "market_id": "897254",
-              "slug": "will-petr-yan-fight-alexander-volkanovski-next",
-              "question": "Will Petr Yan fight Alexander Volkanovski next?",
-              "yes_price": 0.0045,
-              "volume": 38879
-            },
-            {
-              "market_id": "897245",
-              "slug": "will-petr-yan-fight-song-yadong-next",
-              "question": "Will Petr Yan fight Song Yadong next?",
-              "yes_price": 0.0035,
-              "volume": 12224
-            },
-            {
-              "market_id": "897247",
-              "slug": "will-petr-yan-fight-rob-font-next",
-              "question": "Will Petr Yan fight Rob Font next?",
-              "yes_price": 0.0035,
-              "volume": 4605
-            },
-            {
-              "market_id": "897251",
-              "slug": "will-petr-yan-fight-dominick-cruz-next",
-              "question": "Will Petr Yan fight Dominick Cruz next?",
-              "yes_price": 0.0035,
-              "volume": 7916
-            },
-            {
-              "market_id": "897243",
-              "slug": "will-petr-yan-fight-cory-sandhagen-next",
-              "question": "Will Petr Yan fight Cory Sandhagen next?",
-              "yes_price": 0.003,
-              "volume": 6864
-            },
-            {
-              "market_id": "897252",
-              "slug": "will-petr-yan-fight-henry-cejudo-next",
-              "question": "Will Petr Yan fight Henry Cejudo next?",
-              "yes_price": 0.0025,
-              "volume": 7288
-            }
-          ],
-          "url": "https://polymarket.com/event/who-will-petr-yan-fight-next-before-2027",
-          "strategy": "Buy YES on all 14 outcomes. Total cost: $0.9090. One wins $1.00. Profit: $0.0910 (9.10%)"
         }
       ],
       "stats": {
         "total_events": 3000,
-        "checked_multi_outcome": 1979,
-        "skipped_single_outcome": 602,
-        "opportunities_found": 152,
+        "checked_multi_outcome": 1977,
+        "skipped_single_outcome": 603,
+        "opportunities_found": 150,
         "best_profit_pct": 9.95,
-        "scanned_at": "2026-04-10 14:44 UTC"
+        "scanned_at": "2026-04-10 14:45 UTC"
       }
     },
     {
@@ -828,7 +828,7 @@
       "hypothesis": "NEAR_CERTAIN is profitable (93.6% WR, +$16.32) but makes <$0.23/trade. Research shows pros scale these to thousands of dollars per trade to generate real income. At $10/bet we need 4,000+ trades to make $1,000.",
       "source": "Paper trade analysis + Grok research",
       "action": "Test 5x bet size increase ($10\u2192$50) on NEAR_CERTAIN. Downside: avg loss goes from $2.49 to $12.45. Need 93.6%+ WR sustained at higher sizes.",
-      "result": "W=3405 L=52 PnL=$606.64 open=58",
+      "result": "W=3426 L=53 PnL=$611.42 open=66",
       "priority": "HIGH"
     },
     {
