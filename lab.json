@@ -8,9 +8,9 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 151 categorical arb opportunities found\nScanned 3000 events (1988 multi-outcome) at 2026-04-10 22:18 UTC\nBest: 9.95% profit on 'Will Audemars Piguet prices hit __ by April 30?' \u2014 buy YES on all 10 outcomes (sum=0.9005)\nStrategy: Buy YES on all 10 outcomes. Total cost: $0.9005. One wins $1.00. Profit: $0.0995 (9.95%)\n2nd: 9.95% on 'UEFA Europa Conference League: Most Goal Contributions'",
+      "result": "LIVE \u2014 146 categorical arb opportunities found\nScanned 3000 events (1976 multi-outcome) at 2026-04-10 22:47 UTC\nBest: 9.95% profit on 'Will Audemars Piguet prices hit __ by April 30?' \u2014 buy YES on all 10 outcomes (sum=0.9005)\nStrategy: Buy YES on all 10 outcomes. Total cost: $0.9005. One wins $1.00. Profit: $0.0995 (9.95%)\n2nd: 9.9% on 'Will Opensea launch a token by ___?'",
       "priority": "HIGH",
-      "last_scan": "2026-04-10 22:18 UTC",
+      "last_scan": "2026-04-10 22:47 UTC",
       "opportunities": [
         {
           "event_title": "Will Audemars Piguet prices hit __ by April 30?",
@@ -93,46 +93,6 @@
           ],
           "url": "https://polymarket.com/event/will-audemars-piguet-prices-hit-by-april-30",
           "strategy": "Buy YES on all 10 outcomes. Total cost: $0.9005. One wins $1.00. Profit: $0.0995 (9.95%)"
-        },
-        {
-          "event_title": "UEFA Europa Conference League: Most Goal Contributions",
-          "event_slug": "uefa-europa-conference-league-most-goal-contributions",
-          "yes_sum": 0.9005,
-          "profit_pct": 9.95,
-          "profit_per_dollar_pct": 11.05,
-          "num_outcomes": 4,
-          "outcomes": [
-            {
-              "market_id": "1429286",
-              "slug": "will-ismala-sarr-record-the-most-goal-contributions-in-the-2025-26-uefa-europa-conference-league",
-              "question": "Will Isma\u00efla Sarr record the most goal contributions in the 2025-26 UEFA Europa ",
-              "yes_price": 0.425,
-              "volume": 3224
-            },
-            {
-              "market_id": "1429289",
-              "slug": "will-isak-jensen-record-the-most-goal-contributions-in-the-2025-26-uefa-europa-conference-league",
-              "question": "Will Isak Jensen record the most goal contributions in the 2025-26 UEFA Europa C",
-              "yes_price": 0.245,
-              "volume": 13277
-            },
-            {
-              "market_id": "1429278",
-              "slug": "will-lvaro-garca-record-the-most-goal-contributions-in-the-2025-26-uefa-europa-conference-league",
-              "question": "Will \u00c1lvaro Garc\u00eda record the most goal contributions in the 2025-26 UEFA Europa",
-              "yes_price": 0.19,
-              "volume": 18821
-            },
-            {
-              "market_id": "1429283",
-              "slug": "will-aboubakary-koita-record-the-most-goal-contributions-in-the-2025-26-uefa-europa-conference-league",
-              "question": "Will Aboubakary Koita record the most goal contributions in the 2025-26 UEFA Eur",
-              "yes_price": 0.0405,
-              "volume": 6201
-            }
-          ],
-          "url": "https://polymarket.com/event/uefa-europa-conference-league-most-goal-contributions",
-          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9005. One wins $1.00. Profit: $0.0995 (9.95%)"
         },
         {
           "event_title": "Will Opensea launch a token by ___?",
@@ -234,7 +194,7 @@
               "slug": "will-russia-capture-lyman-by-april-30-2026",
               "question": "Will Russia capture Lyman by April 30, 2026?",
               "yes_price": 0.032,
-              "volume": 142879
+              "volume": 143219
             },
             {
               "market_id": "566493",
@@ -276,6 +236,114 @@
           "strategy": "Buy YES on all 8 outcomes. Total cost: $0.9020. One wins $1.00. Profit: $0.0980 (9.80%)"
         },
         {
+          "event_title": "Precipitation in NYC in April?",
+          "event_slug": "precipitation-in-nyc-in-april",
+          "yes_sum": 0.903,
+          "profit_pct": 9.7,
+          "profit_per_dollar_pct": 10.74,
+          "num_outcomes": 4,
+          "outcomes": [
+            {
+              "market_id": "1706747",
+              "slug": "will-nyc-have-less-than-2-inches-of-precipitation-in-april",
+              "question": "Will NYC have less than 2 inches of precipitation in April?",
+              "yes_price": 0.598,
+              "volume": 1947
+            },
+            {
+              "market_id": "1706748",
+              "slug": "will-nyc-have-between-2-and-3-inches-of-precipitation-in-april",
+              "question": "Will NYC have between 2 and 3 inches of precipitation in April?",
+              "yes_price": 0.125,
+              "volume": 7504
+            },
+            {
+              "market_id": "1706750",
+              "slug": "will-nyc-have-between-4-and-5-inches-of-precipitation-in-april",
+              "question": "Will NYC have between 4 and 5 inches of precipitation in April?",
+              "yes_price": 0.09,
+              "volume": 8197
+            },
+            {
+              "market_id": "1706749",
+              "slug": "will-nyc-have-between-3-and-4-inches-of-precipitation-in-april",
+              "question": "Will NYC have between 3 and 4 inches of precipitation in April?",
+              "yes_price": 0.09,
+              "volume": 7907
+            }
+          ],
+          "url": "https://polymarket.com/event/precipitation-in-nyc-in-april",
+          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9030. One wins $1.00. Profit: $0.0970 (9.70%)"
+        },
+        {
+          "event_title": "Mecklenburg-Vorpommern Parliamentary Election Winner",
+          "event_slug": "mecklenburg-vorpommern-parliamentary-election-winner",
+          "yes_sum": 0.9035,
+          "profit_pct": 9.65,
+          "profit_per_dollar_pct": 10.68,
+          "num_outcomes": 8,
+          "outcomes": [
+            {
+              "market_id": "1364103",
+              "slug": "will-afd-win-the-most-seats-in-the-2026-mecklenburg-vorpommern-parliamentary-elections",
+              "question": "Will AfD win the most seats in the 2026 Mecklenburg-Vorpommern parliamentary ele",
+              "yes_price": 0.72,
+              "volume": 5635
+            },
+            {
+              "market_id": "1364105",
+              "slug": "will-spd-win-the-most-seats-in-the-2026-mecklenburg-vorpommern-parliamentary-elections",
+              "question": "Will SPD win the most seats in the 2026 Mecklenburg-Vorpommern parliamentary ele",
+              "yes_price": 0.1,
+              "volume": 33525
+            },
+            {
+              "market_id": "1364102",
+              "slug": "will-cdu-win-the-most-seats-in-the-2026-mecklenburg-vorpommern-parliamentary-elections",
+              "question": "Will CDU win the most seats in the 2026 Mecklenburg-Vorpommern parliamentary ele",
+              "yes_price": 0.0625,
+              "volume": 26439
+            },
+            {
+              "market_id": "1364104",
+              "slug": "will-grne-win-the-most-seats-in-the-2026-mecklenburg-vorpommern-parliamentary-elections",
+              "question": "Will Gr\u00fcne win the most seats in the 2026 Mecklenburg-Vorpommern parliamentary e",
+              "yes_price": 0.0055,
+              "volume": 50487
+            },
+            {
+              "market_id": "1364106",
+              "slug": "will-fdp-win-the-most-seats-in-the-2026-mecklenburg-vorpommern-parliamentary-elections",
+              "question": "Will FDP win the most seats in the 2026 Mecklenburg-Vorpommern parliamentary ele",
+              "yes_price": 0.005,
+              "volume": 45752
+            },
+            {
+              "market_id": "1364107",
+              "slug": "will-linke-win-the-most-seats-in-the-2026-mecklenburg-vorpommern-parliamentary-elections",
+              "question": "Will Linke win the most seats in the 2026 Mecklenburg-Vorpommern parliamentary e",
+              "yes_price": 0.0045,
+              "volume": 7218
+            },
+            {
+              "market_id": "1364109",
+              "slug": "will-bsw-win-the-most-seats-in-the-2026-mecklenburg-vorpommern-parliamentary-elections",
+              "question": "Will BSW win the most seats in the 2026 Mecklenburg-Vorpommern parliamentary ele",
+              "yes_price": 0.0035,
+              "volume": 10350
+            },
+            {
+              "market_id": "1364108",
+              "slug": "will-fw-win-the-most-seats-in-the-2026-mecklenburg-vorpommern-parliamentary-elections",
+              "question": "Will FW win the most seats in the 2026 Mecklenburg-Vorpommern parliamentary elec",
+              "yes_price": 0.0025,
+              "volume": 18715
+            }
+          ],
+          "url": "https://polymarket.com/event/mecklenburg-vorpommern-parliamentary-election-winner",
+          "strategy": "Buy YES on all 8 outcomes. Total cost: $0.9035. One wins $1.00. Profit: $0.0965 (9.65%)"
+        },
+        {
           "event_title": "Croydon Mayoral Election Winner",
           "event_slug": "croydon-mayoral-election-winner",
           "yes_sum": 0.9035,
@@ -311,9 +379,9 @@
         {
           "event_title": "Guam Governor Democratic Primary Winner",
           "event_slug": "guam-governor-democratic-primary-winner",
-          "yes_sum": 0.9045,
-          "profit_pct": 9.55,
-          "profit_per_dollar_pct": 10.56,
+          "yes_sum": 0.905,
+          "profit_pct": 9.5,
+          "profit_per_dollar_pct": 10.5,
           "num_outcomes": 3,
           "outcomes": [
             {
@@ -334,155 +402,80 @@
               "market_id": "907693",
               "slug": "will-joe-s-san-agustin-win-the-2026-guam-governor-democratic-primary-election",
               "question": "Will Joe S. San Agustin win the 2026 Guam Governor Democratic primary election?",
-              "yes_price": 0.0295,
+              "yes_price": 0.03,
               "volume": 1973
             }
           ],
           "url": "https://polymarket.com/event/guam-governor-democratic-primary-winner",
-          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9045. One wins $1.00. Profit: $0.0955 (9.55%)"
+          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
         },
         {
-          "event_title": "CO-08 Democratic Primary Winner",
-          "event_slug": "co-08-democratic-primary-winner",
-          "yes_sum": 0.905,
-          "profit_pct": 9.5,
-          "profit_per_dollar_pct": 10.5,
-          "num_outcomes": 2,
-          "outcomes": [
-            {
-              "market_id": "704026",
-              "slug": "will-manny-rutinel-be-the-democratic-nominee-for-co-08",
-              "question": "Will Manny Rutinel be the Democratic nominee for CO-08?",
-              "yes_price": 0.83,
-              "volume": 8789
-            },
-            {
-              "market_id": "704025",
-              "slug": "will-shannon-bird-be-the-democratic-nominee-for-co-08",
-              "question": "Will Shannon Bird be the Democratic nominee for CO-08?",
-              "yes_price": 0.075,
-              "volume": 1287
-            }
-          ],
-          "url": "https://polymarket.com/event/co-08-democratic-primary-winner",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
-        },
-        {
-          "event_title": "Manchester City FC vs. Crystal Palace FC - More Markets",
-          "event_slug": "epl-mac-cry-2026-03-21-more-markets",
+          "event_title": "Montana Democratic Senate Primary Winner",
+          "event_slug": "montana-democratic-senate-primary-winner",
           "yes_sum": 0.9055,
           "profit_pct": 9.45,
           "profit_per_dollar_pct": 10.44,
+          "num_outcomes": 2,
+          "outcomes": [
+            {
+              "market_id": "801938",
+              "slug": "will-reilly-neill-be-the-democratic-nominee-for-senate-in-montana",
+              "question": "Will Reilly Neill be the Democratic nominee for Senate in Montana?",
+              "yes_price": 0.815,
+              "volume": 4343
+            },
+            {
+              "market_id": "801937",
+              "slug": "will-michael-hummert-be-the-democratic-nominee-for-senate-in-montana",
+              "question": "Will Michael Hummert be the Democratic nominee for Senate in Montana?",
+              "yes_price": 0.0905,
+              "volume": 2029
+            }
+          ],
+          "url": "https://polymarket.com/event/montana-democratic-senate-primary-winner",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9055. One wins $1.00. Profit: $0.0945 (9.45%)"
+        },
+        {
+          "event_title": "Next CEO of Lululemon?",
+          "event_slug": "next-ceo-of-lululemon",
+          "yes_sum": 0.906,
+          "profit_pct": 9.4,
+          "profit_per_dollar_pct": 10.38,
           "num_outcomes": 3,
           "outcomes": [
             {
-              "market_id": "1530725",
-              "slug": "epl-mac-cry-2026-03-21-total-2pt5",
-              "question": "Manchester City FC vs. Crystal Palace FC: O/U 2.5",
-              "yes_price": 0.515,
-              "volume": 33303
+              "market_id": "916392",
+              "slug": "will-meghan-frank-be-the-next-ceo-of-lululemon",
+              "question": "Will Meghan Frank be the next CEO of Lululemon?",
+              "yes_price": 0.35,
+              "volume": 48764
             },
             {
-              "market_id": "1530735",
-              "slug": "epl-mac-cry-2026-03-21-btts",
-              "question": "Manchester City FC vs. Crystal Palace FC: Both Teams to Score",
-              "yes_price": 0.375,
-              "volume": 38631
+              "market_id": "916398",
+              "slug": "will-stephanie-linnartz-be-the-next-ceo-of-lululemon",
+              "question": "Will Stephanie Linnartz be the next CEO of Lululemon?",
+              "yes_price": 0.2835,
+              "volume": 2936
             },
             {
-              "market_id": "1530719",
-              "slug": "epl-mac-cry-2026-03-21-spread-away-2pt5",
-              "question": "Spread: Crystal Palace FC (-2.5)",
-              "yes_price": 0.0155,
-              "volume": 1670
+              "market_id": "916393",
+              "slug": "will-marti-morfitt-be-the-next-ceo-of-lululemon",
+              "question": "Will Marti Morfitt be the next CEO of Lululemon?",
+              "yes_price": 0.2725,
+              "volume": 5936
             }
           ],
-          "url": "https://polymarket.com/event/epl-mac-cry-2026-03-21-more-markets",
-          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9055. One wins $1.00. Profit: $0.0945 (9.45%)"
-        },
-        {
-          "event_title": "How many Gold Cards will Trump sell in 2026?",
-          "event_slug": "how-many-gold-cards-will-trump-sell-in-2026",
-          "yes_sum": 0.9065,
-          "profit_pct": 9.35,
-          "profit_per_dollar_pct": 10.31,
-          "num_outcomes": 9,
-          "outcomes": [
-            {
-              "market_id": "665316",
-              "slug": "will-trump-sell-0-gold-cards-in-2026",
-              "question": "Will Trump sell 0 Gold Cards in 2026?",
-              "yes_price": 0.415,
-              "volume": 26402
-            },
-            {
-              "market_id": "665317",
-              "slug": "will-trump-sell-1-100-gold-cards-in-2026",
-              "question": "Will Trump sell 1-100 Gold Cards in 2026?",
-              "yes_price": 0.1805,
-              "volume": 10634
-            },
-            {
-              "market_id": "665320",
-              "slug": "will-trump-sell-2pt5k-5k-gold-cards-in-2026",
-              "question": "Will Trump sell 2.5k-5k Gold Cards in 2026?",
-              "yes_price": 0.0615,
-              "volume": 4517
-            },
-            {
-              "market_id": "665319",
-              "slug": "will-trump-sell-1k-2pt5k-gold-cards-in-2026",
-              "question": "Will Trump sell 1k-2.5k Gold Cards in 2026?",
-              "yes_price": 0.06,
-              "volume": 7571
-            },
-            {
-              "market_id": "665322",
-              "slug": "will-trump-sell-10k-25k-gold-cards-in-2026",
-              "question": "Will Trump sell 10k-25k Gold Cards in 2026?",
-              "yes_price": 0.052,
-              "volume": 55007
-            },
-            {
-              "market_id": "665323",
-              "slug": "will-trump-sell-25k-100k-gold-cards-in-2026",
-              "question": "Will Trump sell 25k-100k Gold Cards in 2026?",
-              "yes_price": 0.04,
-              "volume": 5036
-            },
-            {
-              "market_id": "665324",
-              "slug": "will-trump-sell-over-100k-gold-cards-in-2026",
-              "question": "Will Trump sell over 100k Gold Cards in 2026?",
-              "yes_price": 0.04,
-              "volume": 14643
-            },
-            {
-              "market_id": "665321",
-              "slug": "will-trump-sell-5k-10k-gold-cards-in-2026",
-              "question": "Will Trump sell 5k-10k Gold Cards in 2026?",
-              "yes_price": 0.0375,
-              "volume": 5419
-            },
-            {
-              "market_id": "665318",
-              "slug": "will-trump-sell-101-1k-gold-cards-in-2026",
-              "question": "Will Trump sell 101-1k Gold Cards in 2026?",
-              "yes_price": 0.02,
-              "volume": 5038
-            }
-          ],
-          "url": "https://polymarket.com/event/how-many-gold-cards-will-trump-sell-in-2026",
-          "strategy": "Buy YES on all 9 outcomes. Total cost: $0.9065. One wins $1.00. Profit: $0.0935 (9.35%)"
+          "url": "https://polymarket.com/event/next-ceo-of-lululemon",
+          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9060. One wins $1.00. Profit: $0.0940 (9.40%)"
         }
       ],
       "stats": {
         "total_events": 3000,
-        "checked_multi_outcome": 1988,
-        "skipped_single_outcome": 595,
-        "opportunities_found": 151,
+        "checked_multi_outcome": 1976,
+        "skipped_single_outcome": 600,
+        "opportunities_found": 146,
         "best_profit_pct": 9.95,
-        "scanned_at": "2026-04-10 22:18 UTC"
+        "scanned_at": "2026-04-10 22:47 UTC"
       }
     },
     {
