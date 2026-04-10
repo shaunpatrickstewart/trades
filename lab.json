@@ -8,57 +8,10 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 137 categorical arb opportunities found\nScanned 3000 events (1973 multi-outcome) at 2026-04-10 16:57 UTC\nBest: 10.0% profit on 'What will S&P 500 (SPX) close at end of 2026?' \u2014 buy YES on all 5 outcomes (sum=0.9)\nStrategy: Buy YES on all 5 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 9.9% on 'Will Opensea launch a token by ___?'",
+      "result": "LIVE \u2014 142 categorical arb opportunities found\nScanned 3000 events (1982 multi-outcome) at 2026-04-10 17:17 UTC\nBest: 9.9% profit on 'Will Opensea launch a token by ___?' \u2014 buy YES on all 4 outcomes (sum=0.901)\nStrategy: Buy YES on all 4 outcomes. Total cost: $0.9010. One wins $1.00. Profit: $0.0990 (9.90%)\n2nd: 9.85% on 'Next Prime Minister of Bulgaria'",
       "priority": "HIGH",
-      "last_scan": "2026-04-10 16:57 UTC",
+      "last_scan": "2026-04-10 17:17 UTC",
       "opportunities": [
-        {
-          "event_title": "What will S&P 500 (SPX) close at end of 2026?",
-          "event_slug": "spx-close-dec-2026",
-          "yes_sum": 0.9,
-          "profit_pct": 10.0,
-          "profit_per_dollar_pct": 11.11,
-          "num_outcomes": 5,
-          "outcomes": [
-            {
-              "market_id": "1125397",
-              "slug": "spx-close-below-6000-dec-2026",
-              "question": "Will S&P 500 (SPX) close at <$6,000 in December?",
-              "yes_price": 0.35,
-              "volume": 11119
-            },
-            {
-              "market_id": "1125399",
-              "slug": "spx-close-6500-7000-dec-2026",
-              "question": "Will S&P 500 (SPX) close at $6,500-$7,000 in December?",
-              "yes_price": 0.2,
-              "volume": 1373
-            },
-            {
-              "market_id": "1125398",
-              "slug": "spx-close-6000-6500-dec-2026",
-              "question": "Will S&P 500 (SPX) close at $6,000-$6,500 in December?",
-              "yes_price": 0.18,
-              "volume": 1195
-            },
-            {
-              "market_id": "1126565",
-              "slug": "spx-close-7500-8000-dec-2026",
-              "question": "Will S&P 500 (SPX) close at $7,500-$8,000 in December?",
-              "yes_price": 0.095,
-              "volume": 1570
-            },
-            {
-              "market_id": "1125404",
-              "slug": "spx-close-above-8000-dec-2026-362-989-862",
-              "question": "Will S&P 500 (SPX) close at >$8,000 in December?",
-              "yes_price": 0.075,
-              "volume": 1708
-            }
-          ],
-          "url": "https://polymarket.com/event/spx-close-dec-2026",
-          "strategy": "Buy YES on all 5 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
-        },
         {
           "event_title": "Will Opensea launch a token by ___?",
           "event_slug": "will-opensea-launch-a-token-by-142",
@@ -98,6 +51,39 @@
           ],
           "url": "https://polymarket.com/event/will-opensea-launch-a-token-by-142",
           "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9010. One wins $1.00. Profit: $0.0990 (9.90%)"
+        },
+        {
+          "event_title": "Next Prime Minister of Bulgaria",
+          "event_slug": "next-prime-minister-of-bulgaria",
+          "yes_sum": 0.9015,
+          "profit_pct": 9.85,
+          "profit_per_dollar_pct": 10.93,
+          "num_outcomes": 3,
+          "outcomes": [
+            {
+              "market_id": "1572243",
+              "slug": "will-rumen-radev-be-the-next-prime-minister-of-bulgaria-after-the-2026-parliamentary-election",
+              "question": "Will Rumen Radev be the next prime minister of Bulgaria after the 2026 parliamen",
+              "yes_price": 0.725,
+              "volume": 5709
+            },
+            {
+              "market_id": "1572247",
+              "slug": "will-assen-vassilev-be-the-next-prime-minister-of-bulgaria-after-the-2026-parliamentary-election",
+              "question": "Will Assen Vassilev be the next prime minister of Bulgaria after the 2026 parlia",
+              "yes_price": 0.1215,
+              "volume": 2048
+            },
+            {
+              "market_id": "1572245",
+              "slug": "will-andrey-gyurov-be-the-next-prime-minister-of-bulgaria-after-the-2026-parliamentary-election",
+              "question": "Will Andrey Gyurov be the next prime minister of Bulgaria after the 2026 parliam",
+              "yes_price": 0.055,
+              "volume": 1809
+            }
+          ],
+          "url": "https://polymarket.com/event/next-prime-minister-of-bulgaria",
+          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9015. One wins $1.00. Profit: $0.0985 (9.85%)"
         },
         {
           "event_title": "UEFA Europa Conference League: Most Goal Contributions",
@@ -140,6 +126,93 @@
           "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9025. One wins $1.00. Profit: $0.0975 (9.75%)"
         },
         {
+          "event_title": "How many Republican Senators not running in 2026?",
+          "event_slug": "how-many-republican-senators-not-running-in-2026",
+          "yes_sum": 0.903,
+          "profit_pct": 9.7,
+          "profit_per_dollar_pct": 10.74,
+          "num_outcomes": 7,
+          "outcomes": [
+            {
+              "market_id": "909079",
+              "slug": "will-the-number-of-republican-senate-members-who-retire-in-2026-be-exactly-7-546",
+              "question": "Will the number of Republican Senate members who retire in 2026 be exactly 7?",
+              "yes_price": 0.57,
+              "volume": 2049
+            },
+            {
+              "market_id": "909078",
+              "slug": "will-the-number-of-republican-senate-members-who-retire-in-2026-be-exactly-6-462",
+              "question": "Will the number of Republican Senate members who retire in 2026 be exactly 6?",
+              "yes_price": 0.1,
+              "volume": 26136
+            },
+            {
+              "market_id": "909077",
+              "slug": "will-the-number-of-republican-senate-members-who-retire-in-2026-be-less-than-5",
+              "question": "Will the number of Republican Senate members who retire in 2026 be less than 5?",
+              "yes_price": 0.0985,
+              "volume": 19320
+            },
+            {
+              "market_id": "923035",
+              "slug": "will-the-number-of-republican-senate-members-who-retire-in-2026-be-exactly-5",
+              "question": "Will the number of Republican Senate members who retire in 2026 be exactly 5?",
+              "yes_price": 0.0915,
+              "volume": 15338
+            },
+            {
+              "market_id": "909082",
+              "slug": "will-the-number-of-republican-senate-members-who-retire-in-2026-be-exactly-10-938",
+              "question": "Will the number of Republican Senate members who retire in 2026 be exactly 10?",
+              "yes_price": 0.0175,
+              "volume": 1222
+            },
+            {
+              "market_id": "909081",
+              "slug": "will-the-number-of-republican-senate-members-who-retire-in-2026-be-exactly-9-466",
+              "question": "Will the number of Republican Senate members who retire in 2026 be exactly 9?",
+              "yes_price": 0.0145,
+              "volume": 1191
+            },
+            {
+              "market_id": "909083",
+              "slug": "will-the-number-of-republican-senate-members-who-retire-in-2026-be-12-or-more-926",
+              "question": "Will the number of Republican Senate members who retire in 2026 be 12 or more?",
+              "yes_price": 0.011,
+              "volume": 4291
+            }
+          ],
+          "url": "https://polymarket.com/event/how-many-republican-senators-not-running-in-2026",
+          "strategy": "Buy YES on all 7 outcomes. Total cost: $0.9030. One wins $1.00. Profit: $0.0970 (9.70%)"
+        },
+        {
+          "event_title": "Upper Austria Ladies Linz: Anastasia Potapova vs Lilli Tagger",
+          "event_slug": "wta-potapov-tagger-2026-04-10",
+          "yes_sum": 0.905,
+          "profit_pct": 9.5,
+          "profit_per_dollar_pct": 10.5,
+          "num_outcomes": 2,
+          "outcomes": [
+            {
+              "market_id": "1931502",
+              "slug": "wta-potapov-tagger-2026-04-10",
+              "question": "Upper Austria Ladies Linz: Anastasia Potapova vs Lilli Tagger",
+              "yes_price": 0.485,
+              "volume": 255735
+            },
+            {
+              "market_id": "1932082",
+              "slug": "wta-potapov-tagger-2026-04-10-first-set-winner-Potapova-vs-Tagger",
+              "question": "Set 1 Winner: Potapova vs Tagger",
+              "yes_price": 0.42,
+              "volume": 2758
+            }
+          ],
+          "url": "https://polymarket.com/event/wta-potapov-tagger-2026-04-10",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
+        },
+        {
           "event_title": "Houston Astros vs. Seattle Mariners",
           "event_slug": "mlb-hou-sea-2026-04-10",
           "yes_sum": 0.905,
@@ -159,44 +232,51 @@
               "slug": "mlb-hou-sea-2026-04-10",
               "question": "Houston Astros vs. Seattle Mariners",
               "yes_price": 0.435,
-              "volume": 19259
+              "volume": 19335
             }
           ],
           "url": "https://polymarket.com/event/mlb-hou-sea-2026-04-10",
           "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
         },
         {
-          "event_title": "Next CEO of Lululemon?",
-          "event_slug": "next-ceo-of-lululemon",
-          "yes_sum": 0.9075,
-          "profit_pct": 9.25,
-          "profit_per_dollar_pct": 10.19,
-          "num_outcomes": 3,
+          "event_title": "Precipitation in NYC in April?",
+          "event_slug": "precipitation-in-nyc-in-april",
+          "yes_sum": 0.907,
+          "profit_pct": 9.3,
+          "profit_per_dollar_pct": 10.25,
+          "num_outcomes": 4,
           "outcomes": [
             {
-              "market_id": "916392",
-              "slug": "will-meghan-frank-be-the-next-ceo-of-lululemon",
-              "question": "Will Meghan Frank be the next CEO of Lululemon?",
-              "yes_price": 0.3265,
-              "volume": 48764
+              "market_id": "1706747",
+              "slug": "will-nyc-have-less-than-2-inches-of-precipitation-in-april",
+              "question": "Will NYC have less than 2 inches of precipitation in April?",
+              "yes_price": 0.597,
+              "volume": 1446
             },
             {
-              "market_id": "916398",
-              "slug": "will-stephanie-linnartz-be-the-next-ceo-of-lululemon",
-              "question": "Will Stephanie Linnartz be the next CEO of Lululemon?",
-              "yes_price": 0.295,
-              "volume": 2936
+              "market_id": "1706749",
+              "slug": "will-nyc-have-between-3-and-4-inches-of-precipitation-in-april",
+              "question": "Will NYC have between 3 and 4 inches of precipitation in April?",
+              "yes_price": 0.125,
+              "volume": 7902
             },
             {
-              "market_id": "916393",
-              "slug": "will-marti-morfitt-be-the-next-ceo-of-lululemon",
-              "question": "Will Marti Morfitt be the next CEO of Lululemon?",
-              "yes_price": 0.286,
-              "volume": 5936
+              "market_id": "1706750",
+              "slug": "will-nyc-have-between-4-and-5-inches-of-precipitation-in-april",
+              "question": "Will NYC have between 4 and 5 inches of precipitation in April?",
+              "yes_price": 0.095,
+              "volume": 8197
+            },
+            {
+              "market_id": "1706748",
+              "slug": "will-nyc-have-between-2-and-3-inches-of-precipitation-in-april",
+              "question": "Will NYC have between 2 and 3 inches of precipitation in April?",
+              "yes_price": 0.09,
+              "volume": 7484
             }
           ],
-          "url": "https://polymarket.com/event/next-ceo-of-lululemon",
-          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9075. One wins $1.00. Profit: $0.0925 (9.25%)"
+          "url": "https://polymarket.com/event/precipitation-in-nyc-in-april",
+          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9070. One wins $1.00. Profit: $0.0930 (9.30%)"
         },
         {
           "event_title": "New Hampshire Governor Democratic Primary Winner",
@@ -239,180 +319,11 @@
           "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9075. One wins $1.00. Profit: $0.0925 (9.25%)"
         },
         {
-          "event_title": "How many Republican Senators not running in 2026?",
-          "event_slug": "how-many-republican-senators-not-running-in-2026",
+          "event_title": "Iowa Democratic Senate Primary Winner",
+          "event_slug": "iowa-democratic-senate-primary-winner",
           "yes_sum": 0.908,
           "profit_pct": 9.2,
           "profit_per_dollar_pct": 10.13,
-          "num_outcomes": 7,
-          "outcomes": [
-            {
-              "market_id": "909079",
-              "slug": "will-the-number-of-republican-senate-members-who-retire-in-2026-be-exactly-7-546",
-              "question": "Will the number of Republican Senate members who retire in 2026 be exactly 7?",
-              "yes_price": 0.575,
-              "volume": 2049
-            },
-            {
-              "market_id": "909078",
-              "slug": "will-the-number-of-republican-senate-members-who-retire-in-2026-be-exactly-6-462",
-              "question": "Will the number of Republican Senate members who retire in 2026 be exactly 6?",
-              "yes_price": 0.1,
-              "volume": 26136
-            },
-            {
-              "market_id": "909077",
-              "slug": "will-the-number-of-republican-senate-members-who-retire-in-2026-be-less-than-5",
-              "question": "Will the number of Republican Senate members who retire in 2026 be less than 5?",
-              "yes_price": 0.0985,
-              "volume": 19320
-            },
-            {
-              "market_id": "923035",
-              "slug": "will-the-number-of-republican-senate-members-who-retire-in-2026-be-exactly-5",
-              "question": "Will the number of Republican Senate members who retire in 2026 be exactly 5?",
-              "yes_price": 0.091,
-              "volume": 15338
-            },
-            {
-              "market_id": "909082",
-              "slug": "will-the-number-of-republican-senate-members-who-retire-in-2026-be-exactly-10-938",
-              "question": "Will the number of Republican Senate members who retire in 2026 be exactly 10?",
-              "yes_price": 0.0175,
-              "volume": 1222
-            },
-            {
-              "market_id": "909081",
-              "slug": "will-the-number-of-republican-senate-members-who-retire-in-2026-be-exactly-9-466",
-              "question": "Will the number of Republican Senate members who retire in 2026 be exactly 9?",
-              "yes_price": 0.0145,
-              "volume": 1191
-            },
-            {
-              "market_id": "909083",
-              "slug": "will-the-number-of-republican-senate-members-who-retire-in-2026-be-12-or-more-926",
-              "question": "Will the number of Republican Senate members who retire in 2026 be 12 or more?",
-              "yes_price": 0.0115,
-              "volume": 4291
-            }
-          ],
-          "url": "https://polymarket.com/event/how-many-republican-senators-not-running-in-2026",
-          "strategy": "Buy YES on all 7 outcomes. Total cost: $0.9080. One wins $1.00. Profit: $0.0920 (9.20%)"
-        },
-        {
-          "event_title": "PA-10 Democratic Primary Winner",
-          "event_slug": "pa-10-democratic-primary-winner-877",
-          "yes_sum": 0.9105,
-          "profit_pct": 8.95,
-          "profit_per_dollar_pct": 9.83,
-          "num_outcomes": 2,
-          "outcomes": [
-            {
-              "market_id": "1448356",
-              "slug": "will-janelle-stelson-be-the-democratic-nominee-for-pa-10-994",
-              "question": "Will Janelle Stelson be the Democratic Nominee for PA-10?",
-              "yes_price": 0.895,
-              "volume": 3029
-            },
-            {
-              "market_id": "1448358",
-              "slug": "will-jason-cass-be-the-democratic-nominee-for-pa-10-765",
-              "question": "Will Jason Cass be the Democratic Nominee for PA-10?",
-              "yes_price": 0.0155,
-              "volume": 8157
-            }
-          ],
-          "url": "https://polymarket.com/event/pa-10-democratic-primary-winner-877",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9105. One wins $1.00. Profit: $0.0895 (8.95%)"
-        },
-        {
-          "event_title": "Highest temperature in Seoul on April 12?",
-          "event_slug": "highest-temperature-in-seoul-on-april-12-2026",
-          "yes_sum": 0.911,
-          "profit_pct": 8.9,
-          "profit_per_dollar_pct": 9.77,
-          "num_outcomes": 10,
-          "outcomes": [
-            {
-              "market_id": "1914826",
-              "slug": "highest-temperature-in-seoul-on-april-12-2026-17c",
-              "question": "Will the highest temperature in Seoul be 17\u00b0C on April 12?",
-              "yes_price": 0.2,
-              "volume": 2048
-            },
-            {
-              "market_id": "1914827",
-              "slug": "highest-temperature-in-seoul-on-april-12-2026-18c",
-              "question": "Will the highest temperature in Seoul be 18\u00b0C on April 12?",
-              "yes_price": 0.2,
-              "volume": 1653
-            },
-            {
-              "market_id": "1914825",
-              "slug": "highest-temperature-in-seoul-on-april-12-2026-16c",
-              "question": "Will the highest temperature in Seoul be 16\u00b0C on April 12?",
-              "yes_price": 0.1485,
-              "volume": 3452
-            },
-            {
-              "market_id": "1914829",
-              "slug": "highest-temperature-in-seoul-on-april-12-2026-20c",
-              "question": "Will the highest temperature in Seoul be 20\u00b0C on April 12?",
-              "yes_price": 0.115,
-              "volume": 1412
-            },
-            {
-              "market_id": "1914830",
-              "slug": "highest-temperature-in-seoul-on-april-12-2026-21c",
-              "question": "Will the highest temperature in Seoul be 21\u00b0C on April 12?",
-              "yes_price": 0.075,
-              "volume": 2166
-            },
-            {
-              "market_id": "1914823",
-              "slug": "highest-temperature-in-seoul-on-april-12-2026-14corbelow",
-              "question": "Will the highest temperature in Seoul be 14\u00b0C or below on April 12?",
-              "yes_price": 0.073,
-              "volume": 5940
-            },
-            {
-              "market_id": "1914824",
-              "slug": "highest-temperature-in-seoul-on-april-12-2026-15c",
-              "question": "Will the highest temperature in Seoul be 15\u00b0C on April 12?",
-              "yes_price": 0.0645,
-              "volume": 2901
-            },
-            {
-              "market_id": "1914831",
-              "slug": "highest-temperature-in-seoul-on-april-12-2026-22c",
-              "question": "Will the highest temperature in Seoul be 22\u00b0C on April 12?",
-              "yes_price": 0.0175,
-              "volume": 4485
-            },
-            {
-              "market_id": "1914832",
-              "slug": "highest-temperature-in-seoul-on-april-12-2026-23c",
-              "question": "Will the highest temperature in Seoul be 23\u00b0C on April 12?",
-              "yes_price": 0.0095,
-              "volume": 2926
-            },
-            {
-              "market_id": "1914833",
-              "slug": "highest-temperature-in-seoul-on-april-12-2026-24corhigher",
-              "question": "Will the highest temperature in Seoul be 24\u00b0C or higher on April 12?",
-              "yes_price": 0.008,
-              "volume": 5217
-            }
-          ],
-          "url": "https://polymarket.com/event/highest-temperature-in-seoul-on-april-12-2026",
-          "strategy": "Buy YES on all 10 outcomes. Total cost: $0.9110. One wins $1.00. Profit: $0.0890 (8.90%)"
-        },
-        {
-          "event_title": "Iowa Democratic Senate Primary Winner",
-          "event_slug": "iowa-democratic-senate-primary-winner",
-          "yes_sum": 0.913,
-          "profit_pct": 8.7,
-          "profit_per_dollar_pct": 9.53,
           "num_outcomes": 4,
           "outcomes": [
             {
@@ -426,7 +337,7 @@
               "market_id": "679366",
               "slug": "will-josh-turek-be-the-democratic-nominee-for-senate-in-iowa",
               "question": "Will Josh Turek be the Democratic nominee for Senate in Iowa?",
-              "yes_price": 0.295,
+              "yes_price": 0.29,
               "volume": 3073
             },
             {
@@ -445,16 +356,91 @@
             }
           ],
           "url": "https://polymarket.com/event/iowa-democratic-senate-primary-winner",
-          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9130. One wins $1.00. Profit: $0.0870 (8.70%)"
+          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9080. One wins $1.00. Profit: $0.0920 (9.20%)"
+        },
+        {
+          "event_title": "How many Gold Cards will Trump sell in 2026?",
+          "event_slug": "how-many-gold-cards-will-trump-sell-in-2026",
+          "yes_sum": 0.909,
+          "profit_pct": 9.1,
+          "profit_per_dollar_pct": 10.01,
+          "num_outcomes": 9,
+          "outcomes": [
+            {
+              "market_id": "665316",
+              "slug": "will-trump-sell-0-gold-cards-in-2026",
+              "question": "Will Trump sell 0 Gold Cards in 2026?",
+              "yes_price": 0.415,
+              "volume": 26402
+            },
+            {
+              "market_id": "665317",
+              "slug": "will-trump-sell-1-100-gold-cards-in-2026",
+              "question": "Will Trump sell 1-100 Gold Cards in 2026?",
+              "yes_price": 0.1805,
+              "volume": 10634
+            },
+            {
+              "market_id": "665320",
+              "slug": "will-trump-sell-2pt5k-5k-gold-cards-in-2026",
+              "question": "Will Trump sell 2.5k-5k Gold Cards in 2026?",
+              "yes_price": 0.0615,
+              "volume": 4517
+            },
+            {
+              "market_id": "665319",
+              "slug": "will-trump-sell-1k-2pt5k-gold-cards-in-2026",
+              "question": "Will Trump sell 1k-2.5k Gold Cards in 2026?",
+              "yes_price": 0.06,
+              "volume": 7571
+            },
+            {
+              "market_id": "665322",
+              "slug": "will-trump-sell-10k-25k-gold-cards-in-2026",
+              "question": "Will Trump sell 10k-25k Gold Cards in 2026?",
+              "yes_price": 0.052,
+              "volume": 55007
+            },
+            {
+              "market_id": "665324",
+              "slug": "will-trump-sell-over-100k-gold-cards-in-2026",
+              "question": "Will Trump sell over 100k Gold Cards in 2026?",
+              "yes_price": 0.0435,
+              "volume": 14643
+            },
+            {
+              "market_id": "665323",
+              "slug": "will-trump-sell-25k-100k-gold-cards-in-2026",
+              "question": "Will Trump sell 25k-100k Gold Cards in 2026?",
+              "yes_price": 0.039,
+              "volume": 5036
+            },
+            {
+              "market_id": "665321",
+              "slug": "will-trump-sell-5k-10k-gold-cards-in-2026",
+              "question": "Will Trump sell 5k-10k Gold Cards in 2026?",
+              "yes_price": 0.0365,
+              "volume": 5419
+            },
+            {
+              "market_id": "665318",
+              "slug": "will-trump-sell-101-1k-gold-cards-in-2026",
+              "question": "Will Trump sell 101-1k Gold Cards in 2026?",
+              "yes_price": 0.021,
+              "volume": 5038
+            }
+          ],
+          "url": "https://polymarket.com/event/how-many-gold-cards-will-trump-sell-in-2026",
+          "strategy": "Buy YES on all 9 outcomes. Total cost: $0.9090. One wins $1.00. Profit: $0.0910 (9.10%)"
         }
       ],
       "stats": {
         "total_events": 3000,
-        "checked_multi_outcome": 1973,
-        "skipped_single_outcome": 594,
-        "opportunities_found": 137,
-        "best_profit_pct": 10.0,
-        "scanned_at": "2026-04-10 16:57 UTC"
+        "checked_multi_outcome": 1982,
+        "skipped_single_outcome": 589,
+        "opportunities_found": 142,
+        "best_profit_pct": 9.9,
+        "scanned_at": "2026-04-10 17:17 UTC"
       }
     },
     {
