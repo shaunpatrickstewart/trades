@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-09",
+  "updated": "2026-04-10",
   "experiments": [
     {
       "id": "arb_detection",
@@ -8,9 +8,9 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 131 categorical arb opportunities found\nScanned 3000 events (1945 multi-outcome) at 2026-04-09 23:09 UTC\nBest: 10.0% profit on 'Hamarkameratene vs. KFUM-Kameratene Oslo - More Markets' \u2014 buy YES on all 2 outcomes (sum=0.9)\nStrategy: Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 9.85% on 'Hurupay FDV above ___ one day after launch?'",
+      "result": "LIVE \u2014 146 categorical arb opportunities found\nScanned 3000 events (1944 multi-outcome) at 2026-04-10 00:11 UTC\nBest: 10.0% profit on 'Hamarkameratene vs. KFUM-Kameratene Oslo - More Markets' \u2014 buy YES on all 2 outcomes (sum=0.9)\nStrategy: Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 10.0% on 'Trump drops Powell investigation by\u2026?'",
       "priority": "HIGH",
-      "last_scan": "2026-04-09 23:09 UTC",
+      "last_scan": "2026-04-10 00:11 UTC",
       "opportunities": [
         {
           "event_title": "Hamarkameratene vs. KFUM-Kameratene Oslo - More Markets",
@@ -39,98 +39,63 @@
           "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
         },
         {
-          "event_title": "Hurupay FDV above ___ one day after launch?",
-          "event_slug": "hurupay-fdv-above-one-day-after-launch",
-          "yes_sum": 0.9015,
-          "profit_pct": 9.85,
-          "profit_per_dollar_pct": 10.93,
-          "num_outcomes": 7,
+          "event_title": "Trump drops Powell investigation by\u2026?",
+          "event_slug": "trump-drops-powell-investigation-by",
+          "yes_sum": 0.9,
+          "profit_pct": 10.0,
+          "profit_per_dollar_pct": 11.11,
+          "num_outcomes": 2,
           "outcomes": [
             {
-              "market_id": "1294068",
-              "slug": "hurupay-fdv-above-10m-one-day-after-launch",
-              "question": "Hurupay FDV above $10M one day after launch?",
-              "yes_price": 0.225,
-              "volume": 26465
+              "market_id": "1719241",
+              "slug": "will-the-criminal-investigation-into-jerome-powell-be-dropped-by-june-30",
+              "question": "Will the criminal investigation into Jerome Powell be dropped by June 30?",
+              "yes_price": 0.68,
+              "volume": 1485
             },
             {
-              "market_id": "1294067",
-              "slug": "hurupay-fdv-above-5m-one-day-after-launch",
-              "question": "Hurupay FDV above $5M one day after launch?",
-              "yes_price": 0.17,
-              "volume": 14125
-            },
-            {
-              "market_id": "1294072",
-              "slug": "hurupay-fdv-above-50m-one-day-after-launch",
-              "question": "Hurupay FDV above $50M one day after launch?",
-              "yes_price": 0.1675,
-              "volume": 70961
-            },
-            {
-              "market_id": "1294069",
-              "slug": "hurupay-fdv-above-20m-one-day-after-launch",
-              "question": "Hurupay FDV above $20M one day after launch?",
-              "yes_price": 0.118,
-              "volume": 37293
-            },
-            {
-              "market_id": "1294071",
-              "slug": "hurupay-fdv-above-40m-one-day-after-launch",
-              "question": "Hurupay FDV above $40M one day after launch?",
-              "yes_price": 0.085,
-              "volume": 8697
-            },
-            {
-              "market_id": "1294070",
-              "slug": "hurupay-fdv-above-30m-one-day-after-launch",
-              "question": "Hurupay FDV above $30M one day after launch?",
-              "yes_price": 0.078,
-              "volume": 9225
-            },
-            {
-              "market_id": "1294073",
-              "slug": "hurupay-fdv-above-100m-one-day-after-launch",
-              "question": "Hurupay FDV above $100M one day after launch?",
-              "yes_price": 0.058,
-              "volume": 20232
+              "market_id": "1719240",
+              "slug": "will-the-criminal-investigation-into-jerome-powell-be-dropped-by-april-30-918",
+              "question": "Will the criminal investigation into Jerome Powell be dropped by April 30?",
+              "yes_price": 0.22,
+              "volume": 8749
             }
           ],
-          "url": "https://polymarket.com/event/hurupay-fdv-above-one-day-after-launch",
-          "strategy": "Buy YES on all 7 outcomes. Total cost: $0.9015. One wins $1.00. Profit: $0.0985 (9.85%)"
+          "url": "https://polymarket.com/event/trump-drops-powell-investigation-by",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
         },
         {
-          "event_title": "Sachsen-Anhalt Parliamentary Elections: 2nd Place",
-          "event_slug": "sachsen-anhalt-parliamentary-elections-2nd-place",
-          "yes_sum": 0.9025,
-          "profit_pct": 9.75,
-          "profit_per_dollar_pct": 10.8,
+          "event_title": "GA-13 Democratic Primary Winner",
+          "event_slug": "ga-13-democratic-primary-winner",
+          "yes_sum": 0.9,
+          "profit_pct": 10.0,
+          "profit_per_dollar_pct": 11.11,
           "num_outcomes": 3,
           "outcomes": [
             {
-              "market_id": "1545032",
-              "slug": "will-cdu-win-the-second-most-seats-in-the-2026-sachsen-anhalt-parliamentary-elections",
-              "question": "Will CDU win the second most seats in the 2026 Sachsen-Anhalt parliamentary elec",
-              "yes_price": 0.865,
-              "volume": 16012
+              "market_id": "1653178",
+              "slug": "will-david-scott-be-the-democratic-nominee-for-ga-13",
+              "question": "Will David Scott be the Democratic nominee for GA-13?",
+              "yes_price": 0.345,
+              "volume": 1261
             },
             {
-              "market_id": "1545044",
-              "slug": "will-fdp-win-the-second-most-seats-in-the-2026-sachsen-anhalt-parliamentary-elections",
-              "question": "Will FDP win the second most seats in the 2026 Sachsen-Anhalt parliamentary elec",
-              "yes_price": 0.032,
-              "volume": 1670
+              "market_id": "1653180",
+              "slug": "will-jasmine-clark-be-the-democratic-nominee-for-ga-13",
+              "question": "Will Jasmine Clark be the Democratic nominee for GA-13?",
+              "yes_price": 0.34,
+              "volume": 2684
             },
             {
-              "market_id": "1545037",
-              "slug": "will-spd-win-the-second-most-seats-in-the-2026-sachsen-anhalt-parliamentary-elections",
-              "question": "Will SPD win the second most seats in the 2026 Sachsen-Anhalt parliamentary elec",
-              "yes_price": 0.0055,
-              "volume": 21741
+              "market_id": "1653179",
+              "slug": "will-everton-blair-jr-be-the-democratic-nominee-for-ga-13",
+              "question": "Will Everton Blair Jr. be the Democratic nominee for GA-13?",
+              "yes_price": 0.215,
+              "volume": 1313
             }
           ],
-          "url": "https://polymarket.com/event/sachsen-anhalt-parliamentary-elections-2nd-place",
-          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9025. One wins $1.00. Profit: $0.0975 (9.75%)"
+          "url": "https://polymarket.com/event/ga-13-democratic-primary-winner",
+          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
         },
         {
           "event_title": "LA-05 Republican Primary Winner",
@@ -234,51 +199,84 @@
           "strategy": "Buy YES on all 8 outcomes. Total cost: $0.9030. One wins $1.00. Profit: $0.0970 (9.70%)"
         },
         {
-          "event_title": "What will S&P 500 (SPX) close at end of 2026?",
-          "event_slug": "spx-close-dec-2026",
+          "event_title": "Will Titan launch a token by ___?",
+          "event_slug": "will-titan-launch-a-token-by",
           "yes_sum": 0.905,
           "profit_pct": 9.5,
           "profit_per_dollar_pct": 10.5,
-          "num_outcomes": 5,
+          "num_outcomes": 4,
           "outcomes": [
             {
-              "market_id": "1125397",
-              "slug": "spx-close-below-6000-dec-2026",
-              "question": "Will S&P 500 (SPX) close at <$6,000 in December?",
-              "yes_price": 0.345,
-              "volume": 11108
+              "market_id": "1038647",
+              "slug": "will-titan-launch-a-token-by-december-31-2026",
+              "question": "Will Titan launch a token by December 31, 2026?",
+              "yes_price": 0.575,
+              "volume": 19182
             },
             {
-              "market_id": "1125399",
-              "slug": "spx-close-6500-7000-dec-2026",
-              "question": "Will S&P 500 (SPX) close at $6,500-$7,000 in December?",
-              "yes_price": 0.205,
-              "volume": 1373
+              "market_id": "1038646",
+              "slug": "will-titan-launch-a-token-by-september-30-2026",
+              "question": "Will Titan launch a token by September 30, 2026?",
+              "yes_price": 0.24,
+              "volume": 13864
             },
             {
-              "market_id": "1125398",
-              "slug": "spx-close-6000-6500-dec-2026",
-              "question": "Will S&P 500 (SPX) close at $6,000-$6,500 in December?",
-              "yes_price": 0.185,
-              "volume": 1195
+              "market_id": "1038645",
+              "slug": "will-titan-launch-a-token-by-june-30-2026",
+              "question": "Will Titan launch a token by June 30, 2026?",
+              "yes_price": 0.09,
+              "volume": 34194
             },
             {
-              "market_id": "1126565",
-              "slug": "spx-close-7500-8000-dec-2026",
-              "question": "Will S&P 500 (SPX) close at $7,500-$8,000 in December?",
-              "yes_price": 0.095,
+              "market_id": "1038644",
+              "slug": "will-titan-launch-a-token-by-march-31-2026",
+              "question": "Will Titan launch a token by March 31, 2026?",
+              "yes_price": 0.0,
+              "volume": 17815
+            }
+          ],
+          "url": "https://polymarket.com/event/will-titan-launch-a-token-by",
+          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
+        },
+        {
+          "event_title": "Latvian Parliamentary Election Winner",
+          "event_slug": "latvian-parliamentary-election-winner",
+          "yes_sum": 0.905,
+          "profit_pct": 9.5,
+          "profit_per_dollar_pct": 10.5,
+          "num_outcomes": 4,
+          "outcomes": [
+            {
+              "market_id": "950433",
+              "slug": "will-latvija-pirmaj-viet-lpv-win-the-most-seats-in-the-2026-latvian-parliamentary-election",
+              "question": "Will Latvija Pirmaj\u0101 Viet\u0101 (LPV) win the most seats in the 2026 Latvian parliame",
+              "yes_price": 0.355,
+              "volume": 1425
+            },
+            {
+              "market_id": "950428",
+              "slug": "will-jaun-vienotba-jv-win-the-most-seats-in-the-2026-latvian-parliamentary-election",
+              "question": "Will Jaun\u0101 Vienot\u012bba (JV) win the most seats in the 2026 Latvian parliamentary e",
+              "yes_price": 0.25,
+              "volume": 3244
+            },
+            {
+              "market_id": "950431",
+              "slug": "will-nacionl-apvienba-na-win-the-most-seats-in-the-2026-latvian-parliamentary-election",
+              "question": "Will Nacion\u0101l\u0101 Apvien\u012bba (NA) win the most seats in the 2026 Latvian parliamenta",
+              "yes_price": 0.195,
               "volume": 1570
             },
             {
-              "market_id": "1125404",
-              "slug": "spx-close-above-8000-dec-2026-362-989-862",
-              "question": "Will S&P 500 (SPX) close at >$8,000 in December?",
-              "yes_price": 0.075,
-              "volume": 1708
+              "market_id": "950429",
+              "slug": "will-zao-un-zemnieku-savienba-zzs-win-the-most-seats-in-the-2026-latvian-parliamentary-election",
+              "question": "Will Za\u013co un Zemnieku Savien\u012bba (ZZS) win the most seats in the 2026 Latvian par",
+              "yes_price": 0.105,
+              "volume": 48142
             }
           ],
-          "url": "https://polymarket.com/event/spx-close-dec-2026",
-          "strategy": "Buy YES on all 5 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
+          "url": "https://polymarket.com/event/latvian-parliamentary-election-winner",
+          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
         },
         {
           "event_title": "CD Tolima vs. Deportivo Pereira - More Markets",
@@ -333,107 +331,102 @@
           "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9080. One wins $1.00. Profit: $0.0920 (9.20%)"
         },
         {
-          "event_title": "How many Republican Senators not running in 2026?",
-          "event_slug": "how-many-republican-senators-not-running-in-2026",
-          "yes_sum": 0.9095,
-          "profit_pct": 9.05,
-          "profit_per_dollar_pct": 9.95,
-          "num_outcomes": 7,
+          "event_title": "Who will be UFC Bantamweight champion at the end of 2026?",
+          "event_slug": "who-will-be-ufc-bantamweight-champion-at-the-end-of-2026",
+          "yes_sum": 0.9085,
+          "profit_pct": 9.15,
+          "profit_per_dollar_pct": 10.07,
+          "num_outcomes": 11,
           "outcomes": [
             {
-              "market_id": "909079",
-              "slug": "will-the-number-of-republican-senate-members-who-retire-in-2026-be-exactly-7-546",
-              "question": "Will the number of Republican Senate members who retire in 2026 be exactly 7?",
-              "yes_price": 0.585,
-              "volume": 2049
+              "market_id": "1089925",
+              "slug": "will-petr-yan-be-the-ufc-bantamweight-champion-on-december-31-2026",
+              "question": "Will Petr Yan be the UFC Bantamweight Champion on December 31, 2026?",
+              "yes_price": 0.34,
+              "volume": 2944
             },
             {
-              "market_id": "909077",
-              "slug": "will-the-number-of-republican-senate-members-who-retire-in-2026-be-less-than-5",
-              "question": "Will the number of Republican Senate members who retire in 2026 be less than 5?",
-              "yes_price": 0.1095,
-              "volume": 19318
+              "market_id": "1089927",
+              "slug": "will-umar-nurmagomedov-be-the-ufc-bantamweight-champion-on-december-31-2026",
+              "question": "Will Umar Nurmagomedov be the UFC Bantamweight Champion on December 31, 2026?",
+              "yes_price": 0.18,
+              "volume": 1708
             },
             {
-              "market_id": "923035",
-              "slug": "will-the-number-of-republican-senate-members-who-retire-in-2026-be-exactly-5",
-              "question": "Will the number of Republican Senate members who retire in 2026 be exactly 5?",
-              "yes_price": 0.09,
-              "volume": 15338
+              "market_id": "1089928",
+              "slug": "will-sean-omalley-be-the-ufc-bantamweight-champion-on-december-31-2026",
+              "question": "Will Sean O'Malley be the UFC Bantamweight Champion on December 31, 2026?",
+              "yes_price": 0.135,
+              "volume": 1783
             },
             {
-              "market_id": "909078",
-              "slug": "will-the-number-of-republican-senate-members-who-retire-in-2026-be-exactly-6-462",
-              "question": "Will the number of Republican Senate members who retire in 2026 be exactly 6?",
-              "yes_price": 0.09,
-              "volume": 26136
+              "market_id": "1089932",
+              "slug": "will-aiemann-zahabi-be-the-ufc-bantamweight-champion-on-december-31-2026",
+              "question": "Will Aiemann Zahabi be the UFC Bantamweight Champion on December 31, 2026?",
+              "yes_price": 0.124,
+              "volume": 61045
             },
             {
-              "market_id": "909082",
-              "slug": "will-the-number-of-republican-senate-members-who-retire-in-2026-be-exactly-10-938",
-              "question": "Will the number of Republican Senate members who retire in 2026 be exactly 10?",
-              "yes_price": 0.0135,
-              "volume": 1222
+              "market_id": "1089926",
+              "slug": "will-merab-dvalishvili-be-the-ufc-bantamweight-champion-on-december-31-2026",
+              "question": "Will Merab Dvalishvili be the UFC Bantamweight Champion on December 31, 2026?",
+              "yes_price": 0.105,
+              "volume": 1993
             },
             {
-              "market_id": "909081",
-              "slug": "will-the-number-of-republican-senate-members-who-retire-in-2026-be-exactly-9-466",
-              "question": "Will the number of Republican Senate members who retire in 2026 be exactly 9?",
-              "yes_price": 0.011,
-              "volume": 1191
+              "market_id": "1089933",
+              "slug": "will-marlon-vera-be-the-ufc-bantamweight-champion-on-december-31-2026",
+              "question": "Will Marlon Vera be the UFC Bantamweight Champion on December 31, 2026?",
+              "yes_price": 0.006,
+              "volume": 64092
             },
             {
-              "market_id": "909083",
-              "slug": "will-the-number-of-republican-senate-members-who-retire-in-2026-be-12-or-more-926",
-              "question": "Will the number of Republican Senate members who retire in 2026 be 12 or more?",
-              "yes_price": 0.0105,
-              "volume": 4284
+              "market_id": "1089930",
+              "slug": "will-song-yadong-be-the-ufc-bantamweight-champion-on-december-31-2026",
+              "question": "Will Song Yadong be the UFC Bantamweight Champion on December 31, 2026?",
+              "yes_price": 0.0045,
+              "volume": 1325
+            },
+            {
+              "market_id": "1089931",
+              "slug": "will-deiveson-figueiredo-be-the-ufc-bantamweight-champion-on-december-31-2026",
+              "question": "Will Deiveson Figueiredo be the UFC Bantamweight Champion on December 31, 2026?",
+              "yes_price": 0.0045,
+              "volume": 41783
+            },
+            {
+              "market_id": "1089935",
+              "slug": "will-david-martinez-be-the-ufc-bantamweight-champion-on-december-31-2026",
+              "question": "Will David Martinez be the UFC Bantamweight Champion on December 31, 2026?",
+              "yes_price": 0.0045,
+              "volume": 88172
+            },
+            {
+              "market_id": "1089929",
+              "slug": "will-cory-sandhagen-be-the-ufc-bantamweight-champion-on-december-31-2026",
+              "question": "Will Cory Sandhagen be the UFC Bantamweight Champion on December 31, 2026?",
+              "yes_price": 0.0035,
+              "volume": 3515
+            },
+            {
+              "market_id": "1089934",
+              "slug": "will-mario-bautista-be-the-ufc-bantamweight-champion-on-december-31-2026",
+              "question": "Will Mario Bautista be the UFC Bantamweight Champion on December 31, 2026?",
+              "yes_price": 0.0015,
+              "volume": 22461
             }
           ],
-          "url": "https://polymarket.com/event/how-many-republican-senators-not-running-in-2026",
-          "strategy": "Buy YES on all 7 outcomes. Total cost: $0.9095. One wins $1.00. Profit: $0.0905 (9.05%)"
-        },
-        {
-          "event_title": "FK Bod\u00f8/Glimt vs. Aalesunds FK - More Markets",
-          "event_slug": "nor-bog-aal-2026-04-18-more-markets",
-          "yes_sum": 0.91,
-          "profit_pct": 9.0,
-          "profit_per_dollar_pct": 9.89,
-          "num_outcomes": 3,
-          "outcomes": [
-            {
-              "market_id": "1683416",
-              "slug": "nor-bog-aal-2026-04-18-btts",
-              "question": "FK Bod\u00f8/Glimt vs. Aalesunds FK: Both Teams to Score",
-              "yes_price": 0.51,
-              "volume": 6145
-            },
-            {
-              "market_id": "1683406",
-              "slug": "nor-bog-aal-2026-04-18-spread-home-2pt5",
-              "question": "Spread: FK Bod\u00f8/Glimt (-2.5)",
-              "yes_price": 0.32,
-              "volume": 10433
-            },
-            {
-              "market_id": "1683408",
-              "slug": "nor-bog-aal-2026-04-18-spread-away-2pt5",
-              "question": "Spread: Aalesunds FK (-2.5)",
-              "yes_price": 0.08,
-              "volume": 2656
-            }
-          ],
-          "url": "https://polymarket.com/event/nor-bog-aal-2026-04-18-more-markets",
-          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9100. One wins $1.00. Profit: $0.0900 (9.00%)"
+          "url": "https://polymarket.com/event/who-will-be-ufc-bantamweight-champion-at-the-end-of-2026",
+          "strategy": "Buy YES on all 11 outcomes. Total cost: $0.9085. One wins $1.00. Profit: $0.0915 (9.15%)"
         }
       ],
       "stats": {
         "total_events": 3000,
-        "checked_multi_outcome": 1945,
+        "checked_multi_outcome": 1944,
         "skipped_single_outcome": 599,
-        "opportunities_found": 131,
+        "opportunities_found": 146,
         "best_profit_pct": 10.0,
-        "scanned_at": "2026-04-09 23:09 UTC"
+        "scanned_at": "2026-04-10 00:11 UTC"
       }
     },
     {
@@ -443,7 +436,7 @@
       "hypothesis": "NEAR_CERTAIN is profitable (93.6% WR, +$16.32) but makes <$0.23/trade. Research shows pros scale these to thousands of dollars per trade to generate real income. At $10/bet we need 4,000+ trades to make $1,000.",
       "source": "Paper trade analysis + Grok research",
       "action": "Test 5x bet size increase ($10\u2192$50) on NEAR_CERTAIN. Downside: avg loss goes from $2.49 to $12.45. Need 93.6%+ WR sustained at higher sizes.",
-      "result": "W=3107 L=50 PnL=$539.07 open=63",
+      "result": "W=3146 L=50 PnL=$549.36 open=62",
       "priority": "HIGH"
     },
     {
