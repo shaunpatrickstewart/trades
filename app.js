@@ -57,7 +57,7 @@
   function hours(s) { return !s ? 9999 : Math.ceil((new Date(s)-new Date())/3600000) }
 
   function timeLabel(m) {
-    const h = hours(m.endDateIso||m.endDate), d = days(m.endDateIso||m.endDate);
+    const h = hours(m.endDate||m.endDateIso), d = days(m.endDate||m.endDateIso);
     if (h<=0)  return '<span style="color:#ff4455">EXPIRED</span>';
     if (h<=24) return '<span style="color:#ff4455">' +h+ 'h</span>';
     if (d<=3)  return '<span style="color:#ffcc44">' +d+ 'd</span>';
@@ -130,7 +130,7 @@
 
   async function fetchPositions(addr) {
     try {
-      return toArr(await pf(DATA+'/positions?user='+addr+'&sizeThreshold=0&sortBy=CASHPNL&sortDirection=DESC&limit=8'));
+      return toArr(await pf(DATA+'/positions?user='+addr+'&sizeThreshold=0&sortBy=CASHPNL&sortDirection=DESC&limit=30'));
     } catch(e) { return []; }
   }
 
@@ -161,8 +161,8 @@
       const walletRoi = parseFloat(w.vol||0)>0 ? (walletPnl/parseFloat(w.vol))*100 : 0;
       pos.filter(p=>{
         const pr=parseFloat(p.curPrice||p.price||0);
-        return pr>=0.20&&pr<=0.80;
-      }).slice(0,2).forEach(p=>{
+        return pr>=0.15&&pr<=0.85;
+      }).slice(0,3).forEach(p=>{
         const pr  = parseFloat(p.curPrice||p.price||0);
         const oc  = (p.outcome||'').toUpperCase();
         const pEv = parseFloat(w.winRate||50)/100;
@@ -920,8 +920,8 @@
       renderHeaderStats(wallets, allMarkets);
       renderScanner(allMarkets, forexMarkets);
       renderPerformance();
-      // Fetch positions once for top 25, reuse for both Copy Signals and Leaderboard
-      const posResults = await Promise.allSettled(wallets.slice(0,25).map(w=>{
+      // Fetch positions for top 50 wallets — top ROI wallets often cashed out, need wider net
+      const posResults = await Promise.allSettled(wallets.slice(0,50).map(w=>{
         const addr = w.proxyWallet||w.address||'';
         if (!addr) return Promise.resolve({w, pos:[]});
         return fetchPositions(addr).then(pos=>({w,pos})).catch(()=>({w,pos:[]}));
