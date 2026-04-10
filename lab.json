@@ -4,21 +4,464 @@
     {
       "id": "arb_detection",
       "name": "Yes+No Arbitrage Scanner",
-      "status": "MONITORING",
+      "status": "LIVE",
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "Scanned 0 events at 2026-04-10 02:03 UTC \u2014 no categorical arb opportunities (sum < 0.97) found. Checked 0 multi-outcome events. NOTE: Binary YES+NO always sums to 1.0 by AMM design. Cross-platform Kalshi arb: BLOCKED (needs account).",
+      "result": "LIVE \u2014 146 categorical arb opportunities found\nScanned 3000 events (1929 multi-outcome) at 2026-04-10 03:33 UTC\nBest: 10.0% profit on 'Hamarkameratene vs. KFUM-Kameratene Oslo - More Markets' \u2014 buy YES on all 2 outcomes (sum=0.9)\nStrategy: Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 10.0% on 'KY-06 House Election Winner'",
       "priority": "HIGH",
-      "last_scan": "2026-04-10 02:03 UTC",
-      "opportunities": [],
+      "last_scan": "2026-04-10 03:33 UTC",
+      "opportunities": [
+        {
+          "event_title": "Hamarkameratene vs. KFUM-Kameratene Oslo - More Markets",
+          "event_slug": "nor-ham-kfu-2026-04-19-more-markets",
+          "yes_sum": 0.9,
+          "profit_pct": 10.0,
+          "profit_per_dollar_pct": 11.11,
+          "num_outcomes": 2,
+          "outcomes": [
+            {
+              "market_id": "1692169",
+              "slug": "nor-ham-kfu-2026-04-19-total-2pt5",
+              "question": "Hamarkameratene vs. KFUM-Kameratene Oslo: O/U 2.5",
+              "yes_price": 0.495,
+              "volume": 11808
+            },
+            {
+              "market_id": "1692174",
+              "slug": "nor-ham-kfu-2026-04-19-total-4pt5",
+              "question": "Hamarkameratene vs. KFUM-Kameratene Oslo: O/U 4.5",
+              "yes_price": 0.405,
+              "volume": 2740
+            }
+          ],
+          "url": "https://polymarket.com/event/nor-ham-kfu-2026-04-19-more-markets",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
+        },
+        {
+          "event_title": "KY-06 House Election Winner",
+          "event_slug": "ky-06-house-election-winner",
+          "yes_sum": 0.9,
+          "profit_pct": 10.0,
+          "profit_per_dollar_pct": 11.11,
+          "num_outcomes": 2,
+          "outcomes": [
+            {
+              "market_id": "1283584",
+              "slug": "will-the-republican-party-win-the-ky-06-house-seat",
+              "question": "Will the Republican Party win the KY-06 House seat?",
+              "yes_price": 0.755,
+              "volume": 4707
+            },
+            {
+              "market_id": "1283585",
+              "slug": "will-the-democratic-party-win-the-ky-06-house-seat",
+              "question": "Will the Democratic Party win the KY-06 House seat?",
+              "yes_price": 0.145,
+              "volume": 8257
+            }
+          ],
+          "url": "https://polymarket.com/event/ky-06-house-election-winner",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
+        },
+        {
+          "event_title": "How many large volcano eruptions (VEI \u22654) in 2026?",
+          "event_slug": "how-many-large-volcano-eruption-vei-4-in-2026-657",
+          "yes_sum": 0.9015,
+          "profit_pct": 9.85,
+          "profit_per_dollar_pct": 10.93,
+          "num_outcomes": 6,
+          "outcomes": [
+            {
+              "market_id": "1075291",
+              "slug": "will-there-be-exactly-1-confirmed-vei-4-or-higher-volcanic-eruption-worldwide-in-2026-937",
+              "question": "Will there be exactly 1 confirmed VEI 4 or higher volcanic eruption worldwide in",
+              "yes_price": 0.405,
+              "volume": 245610
+            },
+            {
+              "market_id": "1075290",
+              "slug": "will-there-be-exactly-0-confirmed-vei-4-or-higher-volcanic-eruptions-worldwide-in-2026",
+              "question": "Will there be exactly 0 confirmed VEI 4 or higher volcanic eruptions worldwide i",
+              "yes_price": 0.33,
+              "volume": 411495
+            },
+            {
+              "market_id": "1075292",
+              "slug": "will-there-be-exactly-2-confirmed-vei-4-or-higher-volcanic-eruptions-worldwide-in-2026-976",
+              "question": "Will there be exactly 2 confirmed VEI 4 or higher volcanic eruptions worldwide i",
+              "yes_price": 0.079,
+              "volume": 18938
+            },
+            {
+              "market_id": "1075294",
+              "slug": "will-there-be-exactly-4-confirmed-vei-4-or-higher-volcanic-eruptions-worldwide-in-2026-912",
+              "question": "Will there be exactly 4 confirmed VEI 4 or higher volcanic eruptions worldwide i",
+              "yes_price": 0.0385,
+              "volume": 12278
+            },
+            {
+              "market_id": "1075293",
+              "slug": "will-there-be-exactly-3-confirmed-vei-4-or-higher-volcanic-eruptions-worldwide-in-2026-666",
+              "question": "Will there be exactly 3 confirmed VEI 4 or higher volcanic eruptions worldwide i",
+              "yes_price": 0.028,
+              "volume": 6785
+            },
+            {
+              "market_id": "1075295",
+              "slug": "will-there-be-5-or-more-confirmed-vei-4-or-higher-volcanic-eruptions-worldwide-in-2026-655",
+              "question": "Will there be 5 or more confirmed VEI 4 or higher volcanic eruptions worldwide i",
+              "yes_price": 0.021,
+              "volume": 11547
+            }
+          ],
+          "url": "https://polymarket.com/event/how-many-large-volcano-eruption-vei-4-in-2026-657",
+          "strategy": "Buy YES on all 6 outcomes. Total cost: $0.9015. One wins $1.00. Profit: $0.0985 (9.85%)"
+        },
+        {
+          "event_title": "Sachsen-Anhalt Parliamentary Elections: 2nd Place",
+          "event_slug": "sachsen-anhalt-parliamentary-elections-2nd-place",
+          "yes_sum": 0.9015,
+          "profit_pct": 9.85,
+          "profit_per_dollar_pct": 10.93,
+          "num_outcomes": 3,
+          "outcomes": [
+            {
+              "market_id": "1545032",
+              "slug": "will-cdu-win-the-second-most-seats-in-the-2026-sachsen-anhalt-parliamentary-elections",
+              "question": "Will CDU win the second most seats in the 2026 Sachsen-Anhalt parliamentary elec",
+              "yes_price": 0.865,
+              "volume": 16012
+            },
+            {
+              "market_id": "1545044",
+              "slug": "will-fdp-win-the-second-most-seats-in-the-2026-sachsen-anhalt-parliamentary-elections",
+              "question": "Will FDP win the second most seats in the 2026 Sachsen-Anhalt parliamentary elec",
+              "yes_price": 0.032,
+              "volume": 1670
+            },
+            {
+              "market_id": "1545037",
+              "slug": "will-spd-win-the-second-most-seats-in-the-2026-sachsen-anhalt-parliamentary-elections",
+              "question": "Will SPD win the second most seats in the 2026 Sachsen-Anhalt parliamentary elec",
+              "yes_price": 0.0045,
+              "volume": 21741
+            }
+          ],
+          "url": "https://polymarket.com/event/sachsen-anhalt-parliamentary-elections-2nd-place",
+          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9015. One wins $1.00. Profit: $0.0985 (9.85%)"
+        },
+        {
+          "event_title": "How many Republican Senators not running in 2026?",
+          "event_slug": "how-many-republican-senators-not-running-in-2026",
+          "yes_sum": 0.902,
+          "profit_pct": 9.8,
+          "profit_per_dollar_pct": 10.86,
+          "num_outcomes": 7,
+          "outcomes": [
+            {
+              "market_id": "909079",
+              "slug": "will-the-number-of-republican-senate-members-who-retire-in-2026-be-exactly-7-546",
+              "question": "Will the number of Republican Senate members who retire in 2026 be exactly 7?",
+              "yes_price": 0.585,
+              "volume": 2049
+            },
+            {
+              "market_id": "909077",
+              "slug": "will-the-number-of-republican-senate-members-who-retire-in-2026-be-less-than-5",
+              "question": "Will the number of Republican Senate members who retire in 2026 be less than 5?",
+              "yes_price": 0.096,
+              "volume": 19318
+            },
+            {
+              "market_id": "909078",
+              "slug": "will-the-number-of-republican-senate-members-who-retire-in-2026-be-exactly-6-462",
+              "question": "Will the number of Republican Senate members who retire in 2026 be exactly 6?",
+              "yes_price": 0.095,
+              "volume": 26136
+            },
+            {
+              "market_id": "923035",
+              "slug": "will-the-number-of-republican-senate-members-who-retire-in-2026-be-exactly-5",
+              "question": "Will the number of Republican Senate members who retire in 2026 be exactly 5?",
+              "yes_price": 0.0915,
+              "volume": 15338
+            },
+            {
+              "market_id": "909082",
+              "slug": "will-the-number-of-republican-senate-members-who-retire-in-2026-be-exactly-10-938",
+              "question": "Will the number of Republican Senate members who retire in 2026 be exactly 10?",
+              "yes_price": 0.0135,
+              "volume": 1222
+            },
+            {
+              "market_id": "909081",
+              "slug": "will-the-number-of-republican-senate-members-who-retire-in-2026-be-exactly-9-466",
+              "question": "Will the number of Republican Senate members who retire in 2026 be exactly 9?",
+              "yes_price": 0.011,
+              "volume": 1191
+            },
+            {
+              "market_id": "909083",
+              "slug": "will-the-number-of-republican-senate-members-who-retire-in-2026-be-12-or-more-926",
+              "question": "Will the number of Republican Senate members who retire in 2026 be 12 or more?",
+              "yes_price": 0.01,
+              "volume": 4284
+            }
+          ],
+          "url": "https://polymarket.com/event/how-many-republican-senators-not-running-in-2026",
+          "strategy": "Buy YES on all 7 outcomes. Total cost: $0.9020. One wins $1.00. Profit: $0.0980 (9.80%)"
+        },
+        {
+          "event_title": "TX-18 Democratic Primary Winner",
+          "event_slug": "tx-18-democratic-primary-winner",
+          "yes_sum": 0.902,
+          "profit_pct": 9.8,
+          "profit_per_dollar_pct": 10.86,
+          "num_outcomes": 3,
+          "outcomes": [
+            {
+              "market_id": "1335330",
+              "slug": "will-christian-menefee-be-the-democratic-nominee-for-tx-18",
+              "question": "Will Christian Menefee be the Democratic nominee for TX-18?",
+              "yes_price": 0.6615,
+              "volume": 12559
+            },
+            {
+              "market_id": "1335328",
+              "slug": "will-al-green-be-the-democratic-nominee-for-tx-18",
+              "question": "Will Al Green be the Democratic nominee for TX-18?",
+              "yes_price": 0.224,
+              "volume": 3395
+            },
+            {
+              "market_id": "1335331",
+              "slug": "will-gretchen-brown-be-the-democratic-nominee-for-tx-18",
+              "question": "Will Gretchen Brown be the Democratic nominee for TX-18?",
+              "yes_price": 0.0165,
+              "volume": 2403
+            }
+          ],
+          "url": "https://polymarket.com/event/tx-18-democratic-primary-winner",
+          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9020. One wins $1.00. Profit: $0.0980 (9.80%)"
+        },
+        {
+          "event_title": "Which cities will Russia enter by June 30?",
+          "event_slug": "which-cities-will-russia-enter-by-june-30",
+          "yes_sum": 0.903,
+          "profit_pct": 9.7,
+          "profit_per_dollar_pct": 10.74,
+          "num_outcomes": 8,
+          "outcomes": [
+            {
+              "market_id": "1007632",
+              "slug": "will-russia-enter-dopropillia-by-june-30-122-495",
+              "question": "Will Russia enter Dopropillia by June 30?",
+              "yes_price": 0.315,
+              "volume": 180973
+            },
+            {
+              "market_id": "1007631",
+              "slug": "will-russia-enter-druzkhivka-by-june-30-933-897",
+              "question": "Will Russia enter Druzkhivka by June 30?",
+              "yes_price": 0.14,
+              "volume": 261739
+            },
+            {
+              "market_id": "1007628",
+              "slug": "will-russia-enter-sloviansk-by-june-30",
+              "question": "Will Russia enter Sloviansk by June 30?",
+              "yes_price": 0.135,
+              "volume": 147733
+            },
+            {
+              "market_id": "1007633",
+              "slug": "will-russia-enter-kramatorsk-by-june-30-821-192",
+              "question": "Will Russia enter Kramatorsk by June 30?",
+              "yes_price": 0.11,
+              "volume": 115918
+            },
+            {
+              "market_id": "1007630",
+              "slug": "will-russia-enter-sumy-by-june-30-893-434",
+              "question": "Will Russia enter Sumy by June 30?",
+              "yes_price": 0.055,
+              "volume": 70602
+            },
+            {
+              "market_id": "1007636",
+              "slug": "will-russia-enter-zaporizhia-by-june-30-845",
+              "question": "Will Russia enter Zaporizhia by June 30?",
+              "yes_price": 0.055,
+              "volume": 71978
+            },
+            {
+              "market_id": "1007635",
+              "slug": "will-russia-enter-kherson-by-june-30-645",
+              "question": "Will Russia enter Kherson by June 30?",
+              "yes_price": 0.051,
+              "volume": 46423
+            },
+            {
+              "market_id": "1007634",
+              "slug": "will-russia-enter-kharkiv-by-june-30-967",
+              "question": "Will Russia enter Kharkiv by June 30?",
+              "yes_price": 0.042,
+              "volume": 35799
+            }
+          ],
+          "url": "https://polymarket.com/event/which-cities-will-russia-enter-by-june-30",
+          "strategy": "Buy YES on all 8 outcomes. Total cost: $0.9030. One wins $1.00. Profit: $0.0970 (9.70%)"
+        },
+        {
+          "event_title": "Bank of England decision in June?",
+          "event_slug": "bank-of-england-decision-in-june-221",
+          "yes_sum": 0.905,
+          "profit_pct": 9.5,
+          "profit_per_dollar_pct": 10.5,
+          "num_outcomes": 2,
+          "outcomes": [
+            {
+              "market_id": "1653967",
+              "slug": "no-change-in-bank-of-englands-interest-rates-after-june-2026-meeting",
+              "question": "No change in Bank of England\u2019s interest rates after June 2026 meeting?",
+              "yes_price": 0.59,
+              "volume": 2394
+            },
+            {
+              "market_id": "1653968",
+              "slug": "bank-of-england-increases-interest-rates-after-june-2026-meeting",
+              "question": "Bank of England increases interest rates by 25 bps after June 2026 meeting?",
+              "yes_price": 0.315,
+              "volume": 9431
+            }
+          ],
+          "url": "https://polymarket.com/event/bank-of-england-decision-in-june-221",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
+        },
+        {
+          "event_title": "CD Tolima vs. Deportivo Pereira - More Markets",
+          "event_slug": "col1-cdt-dep-2026-04-18-more-markets",
+          "yes_sum": 0.905,
+          "profit_pct": 9.5,
+          "profit_per_dollar_pct": 10.5,
+          "num_outcomes": 2,
+          "outcomes": [
+            {
+              "market_id": "1690826",
+              "slug": "col1-cdt-dep-2026-04-18-spread-home-1pt5",
+              "question": "Spread: CD Tolima (-1.5)",
+              "yes_price": 0.47,
+              "volume": 2740
+            },
+            {
+              "market_id": "1690830",
+              "slug": "col1-cdt-dep-2026-04-18-spread-home-2pt5",
+              "question": "Spread: CD Tolima (-2.5)",
+              "yes_price": 0.435,
+              "volume": 2738
+            }
+          ],
+          "url": "https://polymarket.com/event/col1-cdt-dep-2026-04-18-more-markets",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
+        },
+        {
+          "event_title": "Who will be UFC Bantamweight champion at the end of 2026?",
+          "event_slug": "who-will-be-ufc-bantamweight-champion-at-the-end-of-2026",
+          "yes_sum": 0.908,
+          "profit_pct": 9.2,
+          "profit_per_dollar_pct": 10.13,
+          "num_outcomes": 11,
+          "outcomes": [
+            {
+              "market_id": "1089925",
+              "slug": "will-petr-yan-be-the-ufc-bantamweight-champion-on-december-31-2026",
+              "question": "Will Petr Yan be the UFC Bantamweight Champion on December 31, 2026?",
+              "yes_price": 0.335,
+              "volume": 2951
+            },
+            {
+              "market_id": "1089927",
+              "slug": "will-umar-nurmagomedov-be-the-ufc-bantamweight-champion-on-december-31-2026",
+              "question": "Will Umar Nurmagomedov be the UFC Bantamweight Champion on December 31, 2026?",
+              "yes_price": 0.19,
+              "volume": 1708
+            },
+            {
+              "market_id": "1089928",
+              "slug": "will-sean-omalley-be-the-ufc-bantamweight-champion-on-december-31-2026",
+              "question": "Will Sean O'Malley be the UFC Bantamweight Champion on December 31, 2026?",
+              "yes_price": 0.135,
+              "volume": 1783
+            },
+            {
+              "market_id": "1089932",
+              "slug": "will-aiemann-zahabi-be-the-ufc-bantamweight-champion-on-december-31-2026",
+              "question": "Will Aiemann Zahabi be the UFC Bantamweight Champion on December 31, 2026?",
+              "yes_price": 0.1205,
+              "volume": 61045
+            },
+            {
+              "market_id": "1089926",
+              "slug": "will-merab-dvalishvili-be-the-ufc-bantamweight-champion-on-december-31-2026",
+              "question": "Will Merab Dvalishvili be the UFC Bantamweight Champion on December 31, 2026?",
+              "yes_price": 0.105,
+              "volume": 1993
+            },
+            {
+              "market_id": "1089930",
+              "slug": "will-song-yadong-be-the-ufc-bantamweight-champion-on-december-31-2026",
+              "question": "Will Song Yadong be the UFC Bantamweight Champion on December 31, 2026?",
+              "yes_price": 0.0045,
+              "volume": 1325
+            },
+            {
+              "market_id": "1089931",
+              "slug": "will-deiveson-figueiredo-be-the-ufc-bantamweight-champion-on-december-31-2026",
+              "question": "Will Deiveson Figueiredo be the UFC Bantamweight Champion on December 31, 2026?",
+              "yes_price": 0.0045,
+              "volume": 41783
+            },
+            {
+              "market_id": "1089935",
+              "slug": "will-david-martinez-be-the-ufc-bantamweight-champion-on-december-31-2026",
+              "question": "Will David Martinez be the UFC Bantamweight Champion on December 31, 2026?",
+              "yes_price": 0.0045,
+              "volume": 88172
+            },
+            {
+              "market_id": "1089933",
+              "slug": "will-marlon-vera-be-the-ufc-bantamweight-champion-on-december-31-2026",
+              "question": "Will Marlon Vera be the UFC Bantamweight Champion on December 31, 2026?",
+              "yes_price": 0.004,
+              "volume": 64092
+            },
+            {
+              "market_id": "1089929",
+              "slug": "will-cory-sandhagen-be-the-ufc-bantamweight-champion-on-december-31-2026",
+              "question": "Will Cory Sandhagen be the UFC Bantamweight Champion on December 31, 2026?",
+              "yes_price": 0.0035,
+              "volume": 3515
+            },
+            {
+              "market_id": "1089934",
+              "slug": "will-mario-bautista-be-the-ufc-bantamweight-champion-on-december-31-2026",
+              "question": "Will Mario Bautista be the UFC Bantamweight Champion on December 31, 2026?",
+              "yes_price": 0.0015,
+              "volume": 22461
+            }
+          ],
+          "url": "https://polymarket.com/event/who-will-be-ufc-bantamweight-champion-at-the-end-of-2026",
+          "strategy": "Buy YES on all 11 outcomes. Total cost: $0.9080. One wins $1.00. Profit: $0.0920 (9.20%)"
+        }
+      ],
       "stats": {
-        "total_events": 0,
-        "checked_multi_outcome": 0,
-        "skipped_single_outcome": 0,
-        "opportunities_found": 0,
-        "best_profit_pct": 0,
-        "scanned_at": "2026-04-10 02:03 UTC"
+        "total_events": 3000,
+        "checked_multi_outcome": 1929,
+        "skipped_single_outcome": 602,
+        "opportunities_found": 146,
+        "best_profit_pct": 10.0,
+        "scanned_at": "2026-04-10 03:33 UTC"
       }
     },
     {
@@ -28,7 +471,7 @@
       "hypothesis": "NEAR_CERTAIN is profitable (93.6% WR, +$16.32) but makes <$0.23/trade. Research shows pros scale these to thousands of dollars per trade to generate real income. At $10/bet we need 4,000+ trades to make $1,000.",
       "source": "Paper trade analysis + Grok research",
       "action": "Test 5x bet size increase ($10\u2192$50) on NEAR_CERTAIN. Downside: avg loss goes from $2.49 to $12.45. Need 93.6%+ WR sustained at higher sizes.",
-      "result": "W=3184 L=50 PnL=$561.03 open=60",
+      "result": "W=3208 L=50 PnL=$567.76 open=72",
       "priority": "HIGH"
     },
     {
