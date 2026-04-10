@@ -8,71 +8,10 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 144 categorical arb opportunities found\nScanned 3000 events (1985 multi-outcome) at 2026-04-10 18:51 UTC\nBest: 10.0% profit on 'Avg. # of ships transiting Strait of Hormuz end of April?' \u2014 buy YES on all 7 outcomes (sum=0.9)\nStrategy: Buy YES on all 7 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 9.95% on 'UEFA Europa Conference League: Most Goal Contributions'",
+      "result": "LIVE \u2014 140 categorical arb opportunities found\nScanned 3000 events (1978 multi-outcome) at 2026-04-10 19:09 UTC\nBest: 9.95% profit on 'UEFA Europa Conference League: Most Goal Contributions' \u2014 buy YES on all 4 outcomes (sum=0.9005)\nStrategy: Buy YES on all 4 outcomes. Total cost: $0.9005. One wins $1.00. Profit: $0.0995 (9.95%)\n2nd: 9.9% on 'Will Opensea launch a token by ___?'",
       "priority": "HIGH",
-      "last_scan": "2026-04-10 18:51 UTC",
+      "last_scan": "2026-04-10 19:09 UTC",
       "opportunities": [
-        {
-          "event_title": "Avg. # of ships transiting Strait of Hormuz end of April?",
-          "event_slug": "avg-of-ships-transiting-strait-of-hormuz-end-of-april",
-          "yes_sum": 0.9,
-          "profit_pct": 10.0,
-          "profit_per_dollar_pct": 11.11,
-          "num_outcomes": 7,
-          "outcomes": [
-            {
-              "market_id": "1704815",
-              "slug": "will-there-be-between-0-and-10-average-daily-transits-of-the-strait-of-hormuz-on-april-30-753",
-              "question": "Will there be between 0 and 10 average daily transits of the Strait of Hormuz on",
-              "yes_price": 0.315,
-              "volume": 22381
-            },
-            {
-              "market_id": "1704816",
-              "slug": "will-there-be-between-10-and-20-average-daily-transits-of-the-strait-of-hormuz-on-april-30-633",
-              "question": "Will there be between 10 and 20 average daily transits of the Strait of Hormuz o",
-              "yes_price": 0.129,
-              "volume": 9939
-            },
-            {
-              "market_id": "1704820",
-              "slug": "will-there-be-between-50-and-60-average-daily-transits-of-the-strait-of-hormuz-on-april-30-215",
-              "question": "Will there be between 50 and 60 average daily transits of the Strait of Hormuz o",
-              "yes_price": 0.112,
-              "volume": 7199
-            },
-            {
-              "market_id": "1704819",
-              "slug": "will-there-be-between-40-and-50-average-daily-transits-of-the-strait-of-hormuz-on-april-30-318",
-              "question": "Will there be between 40 and 50 average daily transits of the Strait of Hormuz o",
-              "yes_price": 0.1005,
-              "volume": 7158
-            },
-            {
-              "market_id": "1704821",
-              "slug": "will-there-be-60-or-more-average-daily-transits-of-the-strait-of-hormuz-on-april-30-965",
-              "question": "Will there be 60 or more average daily transits of the Strait of Hormuz on April",
-              "yes_price": 0.095,
-              "volume": 23534
-            },
-            {
-              "market_id": "1704818",
-              "slug": "will-there-be-between-30-and-40-average-daily-transits-of-the-strait-of-hormuz-on-april-30-332",
-              "question": "Will there be between 30 and 40 average daily transits of the Strait of Hormuz o",
-              "yes_price": 0.081,
-              "volume": 8194
-            },
-            {
-              "market_id": "1704817",
-              "slug": "will-there-be-between-20-and-30-average-daily-transits-of-the-strait-of-hormuz-on-april-30-234",
-              "question": "Will there be between 20 and 30 average daily transits of the Strait of Hormuz o",
-              "yes_price": 0.0675,
-              "volume": 8774
-            }
-          ],
-          "url": "https://polymarket.com/event/avg-of-ships-transiting-strait-of-hormuz-end-of-april",
-          "strategy": "Buy YES on all 7 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
-        },
         {
           "event_title": "UEFA Europa Conference League: Most Goal Contributions",
           "event_slug": "uefa-europa-conference-league-most-goal-contributions",
@@ -116,16 +55,16 @@
         {
           "event_title": "Will Opensea launch a token by ___?",
           "event_slug": "will-opensea-launch-a-token-by-142",
-          "yes_sum": 0.902,
-          "profit_pct": 9.8,
-          "profit_per_dollar_pct": 10.86,
+          "yes_sum": 0.901,
+          "profit_pct": 9.9,
+          "profit_per_dollar_pct": 10.99,
           "num_outcomes": 4,
           "outcomes": [
             {
               "market_id": "1271613",
               "slug": "will-opensea-launch-a-token-by-december-31-2026",
               "question": "Will OpenSea launch a token by December 31, 2026?",
-              "yes_price": 0.6045,
+              "yes_price": 0.6035,
               "volume": 94741
             },
             {
@@ -151,7 +90,7 @@
             }
           ],
           "url": "https://polymarket.com/event/will-opensea-launch-a-token-by-142",
-          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9020. One wins $1.00. Profit: $0.0980 (9.80%)"
+          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9010. One wins $1.00. Profit: $0.0990 (9.90%)"
         },
         {
           "event_title": "How many Gold Cards will Trump sell in 2026?",
@@ -229,46 +168,6 @@
           "strategy": "Buy YES on all 9 outcomes. Total cost: $0.9020. One wins $1.00. Profit: $0.0980 (9.80%)"
         },
         {
-          "event_title": "Precipitation in NYC in April?",
-          "event_slug": "precipitation-in-nyc-in-april",
-          "yes_sum": 0.9025,
-          "profit_pct": 9.75,
-          "profit_per_dollar_pct": 10.8,
-          "num_outcomes": 4,
-          "outcomes": [
-            {
-              "market_id": "1706747",
-              "slug": "will-nyc-have-less-than-2-inches-of-precipitation-in-april",
-              "question": "Will NYC have less than 2 inches of precipitation in April?",
-              "yes_price": 0.6125,
-              "volume": 1945
-            },
-            {
-              "market_id": "1706748",
-              "slug": "will-nyc-have-between-2-and-3-inches-of-precipitation-in-april",
-              "question": "Will NYC have between 2 and 3 inches of precipitation in April?",
-              "yes_price": 0.1,
-              "volume": 7484
-            },
-            {
-              "market_id": "1706749",
-              "slug": "will-nyc-have-between-3-and-4-inches-of-precipitation-in-april",
-              "question": "Will NYC have between 3 and 4 inches of precipitation in April?",
-              "yes_price": 0.1,
-              "volume": 7907
-            },
-            {
-              "market_id": "1706750",
-              "slug": "will-nyc-have-between-4-and-5-inches-of-precipitation-in-april",
-              "question": "Will NYC have between 4 and 5 inches of precipitation in April?",
-              "yes_price": 0.09,
-              "volume": 8197
-            }
-          ],
-          "url": "https://polymarket.com/event/precipitation-in-nyc-in-april",
-          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9025. One wins $1.00. Profit: $0.0975 (9.75%)"
-        },
-        {
           "event_title": "Who will close Warner Bros. acquisition?",
           "event_slug": "who-will-close-warner-bros-acquisition",
           "yes_sum": 0.9035,
@@ -335,6 +234,46 @@
           "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
         },
         {
+          "event_title": "2nd richest person on December 31?",
+          "event_slug": "2nd-richest-person-on-december-31",
+          "yes_sum": 0.905,
+          "profit_pct": 9.5,
+          "profit_per_dollar_pct": 10.5,
+          "num_outcomes": 4,
+          "outcomes": [
+            {
+              "market_id": "1302181",
+              "slug": "will-larry-page-be-2nd-richest-person-on-december-31",
+              "question": "Will Larry Page be 2nd richest person on December 31?",
+              "yes_price": 0.43,
+              "volume": 3876
+            },
+            {
+              "market_id": "1302173",
+              "slug": "will-jeff-bezos-be-2nd-richest-person-on-december-31",
+              "question": "Will Jeff Bezos be 2nd richest person on December 31?",
+              "yes_price": 0.236,
+              "volume": 1882
+            },
+            {
+              "market_id": "1302183",
+              "slug": "will-sergey-brin-be-2nd-richest-person-on-december-31",
+              "question": "Will Sergey Brin be 2nd richest person on December 31?",
+              "yes_price": 0.22,
+              "volume": 4050
+            },
+            {
+              "market_id": "1302178",
+              "slug": "will-warren-buffett-be-2nd-richest-person-on-december-31",
+              "question": "Will Warren Buffett be 2nd richest person on December 31?",
+              "yes_price": 0.019,
+              "volume": 1080
+            }
+          ],
+          "url": "https://polymarket.com/event/2nd-richest-person-on-december-31",
+          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
+        },
+        {
           "event_title": "CO-08 Democratic Primary Winner",
           "event_slug": "co-08-democratic-primary-winner",
           "yes_sum": 0.905,
@@ -361,93 +300,210 @@
           "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
         },
         {
-          "event_title": "2026 World GDP Growth",
-          "event_slug": "2026-world-gdp-growth",
-          "yes_sum": 0.9065,
-          "profit_pct": 9.35,
-          "profit_per_dollar_pct": 10.31,
-          "num_outcomes": 5,
+          "event_title": "Avg. # of ships transiting Strait of Hormuz end of April?",
+          "event_slug": "avg-of-ships-transiting-strait-of-hormuz-end-of-april",
+          "yes_sum": 0.906,
+          "profit_pct": 9.4,
+          "profit_per_dollar_pct": 10.38,
+          "num_outcomes": 7,
           "outcomes": [
             {
-              "market_id": "1245861",
-              "slug": "will-world-gdp-growth-be-2pt9-in-2026",
-              "question": "Will world GDP growth be \u22642.9% in 2026?",
-              "yes_price": 0.385,
-              "volume": 3477
+              "market_id": "1704815",
+              "slug": "will-there-be-between-0-and-10-average-daily-transits-of-the-strait-of-hormuz-on-april-30-753",
+              "question": "Will there be between 0 and 10 average daily transits of the Strait of Hormuz on",
+              "yes_price": 0.315,
+              "volume": 22381
             },
             {
-              "market_id": "1245864",
-              "slug": "will-world-gdp-growth-be-3pt2-in-2026",
-              "question": "Will world GDP growth be 3.2% in 2026?",
-              "yes_price": 0.2195,
-              "volume": 1543
+              "market_id": "1704816",
+              "slug": "will-there-be-between-10-and-20-average-daily-transits-of-the-strait-of-hormuz-on-april-30-633",
+              "question": "Will there be between 10 and 20 average daily transits of the Strait of Hormuz o",
+              "yes_price": 0.131,
+              "volume": 9939
             },
             {
-              "market_id": "1245865",
-              "slug": "will-world-gdp-growth-be-3pt3-in-2026",
-              "question": "Will world GDP growth be 3.3% in 2026?",
-              "yes_price": 0.149,
-              "volume": 1874
+              "market_id": "1704820",
+              "slug": "will-there-be-between-50-and-60-average-daily-transits-of-the-strait-of-hormuz-on-april-30-215",
+              "question": "Will there be between 50 and 60 average daily transits of the Strait of Hormuz o",
+              "yes_price": 0.1135,
+              "volume": 7199
             },
             {
-              "market_id": "1245866",
-              "slug": "will-world-gdp-growth-be-3pt4-in-2026",
-              "question": "Will world GDP growth be 3.4% in 2026?",
-              "yes_price": 0.0845,
-              "volume": 3393
+              "market_id": "1704819",
+              "slug": "will-there-be-between-40-and-50-average-daily-transits-of-the-strait-of-hormuz-on-april-30-318",
+              "question": "Will there be between 40 and 50 average daily transits of the Strait of Hormuz o",
+              "yes_price": 0.1035,
+              "volume": 7158
             },
             {
-              "market_id": "1245867",
-              "slug": "will-world-gdp-growth-be-3pt5-in-2026",
-              "question": "Will world GDP growth be 3.5% in 2026?",
-              "yes_price": 0.0685,
-              "volume": 2959
+              "market_id": "1704821",
+              "slug": "will-there-be-60-or-more-average-daily-transits-of-the-strait-of-hormuz-on-april-30-965",
+              "question": "Will there be 60 or more average daily transits of the Strait of Hormuz on April",
+              "yes_price": 0.095,
+              "volume": 23534
+            },
+            {
+              "market_id": "1704818",
+              "slug": "will-there-be-between-30-and-40-average-daily-transits-of-the-strait-of-hormuz-on-april-30-332",
+              "question": "Will there be between 30 and 40 average daily transits of the Strait of Hormuz o",
+              "yes_price": 0.081,
+              "volume": 8194
+            },
+            {
+              "market_id": "1704817",
+              "slug": "will-there-be-between-20-and-30-average-daily-transits-of-the-strait-of-hormuz-on-april-30-234",
+              "question": "Will there be between 20 and 30 average daily transits of the Strait of Hormuz o",
+              "yes_price": 0.067,
+              "volume": 8774
             }
           ],
-          "url": "https://polymarket.com/event/2026-world-gdp-growth",
-          "strategy": "Buy YES on all 5 outcomes. Total cost: $0.9065. One wins $1.00. Profit: $0.0935 (9.35%)"
+          "url": "https://polymarket.com/event/avg-of-ships-transiting-strait-of-hormuz-end-of-april",
+          "strategy": "Buy YES on all 7 outcomes. Total cost: $0.9060. One wins $1.00. Profit: $0.0940 (9.40%)"
         },
         {
-          "event_title": "NVIDIA (NVDA) closes week of Apr 6 at ___?",
-          "event_slug": "nvda-week-april-10-2026",
-          "yes_sum": 0.9075,
-          "profit_pct": 9.25,
-          "profit_per_dollar_pct": 10.19,
-          "num_outcomes": 3,
+          "event_title": "New Hampshire Governor Democratic Primary Winner",
+          "event_slug": "new-hampshire-governor-democratic-primary-winner",
+          "yes_sum": 0.9085,
+          "profit_pct": 9.15,
+          "profit_per_dollar_pct": 10.07,
+          "num_outcomes": 4,
           "outcomes": [
             {
-              "market_id": "1850107",
-              "slug": "will-nvda-close-between-185-and-190-week-april-10-2026",
-              "question": "Will NVIDIA (NVDA) close at $185-$190 on the final day of trading of the week of",
-              "yes_price": 0.88,
-              "volume": 1072
+              "market_id": "824224",
+              "slug": "will-cinde-warmington-win-the-2026-new-hampshire-governor-democratic-primary-election",
+              "question": "Will Cinde Warmington win the 2026 New Hampshire Governor Democratic primary ele",
+              "yes_price": 0.74,
+              "volume": 8156
             },
             {
-              "market_id": "1850111",
-              "slug": "will-nvda-close-between-195-and-200-week-april-10-2026",
-              "question": "Will NVIDIA (NVDA) close at $195-$200 on the final day of trading of the week of",
+              "market_id": "824220",
+              "slug": "will-john-kiper-win-the-2026-new-hampshire-governor-democratic-primary-election",
+              "question": "Will John Kiper win the 2026 New Hampshire Governor Democratic primary election?",
+              "yes_price": 0.085,
+              "volume": 1898
+            },
+            {
+              "market_id": "824221",
+              "slug": "will-tom-sherman-win-the-2026-new-hampshire-governor-democratic-primary-election",
+              "question": "Will Tom Sherman win the 2026 New Hampshire Governor Democratic primary election",
+              "yes_price": 0.059,
+              "volume": 1688
+            },
+            {
+              "market_id": "824222",
+              "slug": "will-deaglan-mceachern-win-the-2026-new-hampshire-governor-democratic-primary-election",
+              "question": "Will Deaglan McEachern win the 2026 New Hampshire Governor Democratic primary el",
               "yes_price": 0.0245,
-              "volume": 1094
-            },
-            {
-              "market_id": "1850099",
-              "slug": "will-nvda-close-between-165-and-170-week-april-10-2026",
-              "question": "Will NVIDIA (NVDA) close at $165-$170 on the final day of trading of the week of",
-              "yes_price": 0.003,
-              "volume": 2850
+              "volume": 8051
             }
           ],
-          "url": "https://polymarket.com/event/nvda-week-april-10-2026",
-          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9075. One wins $1.00. Profit: $0.0925 (9.25%)"
+          "url": "https://polymarket.com/event/new-hampshire-governor-democratic-primary-winner",
+          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9085. One wins $1.00. Profit: $0.0915 (9.15%)"
+        },
+        {
+          "event_title": "AZ-01 Republican Primary Winner",
+          "event_slug": "az-01-republican-primary-winner",
+          "yes_sum": 0.909,
+          "profit_pct": 9.1,
+          "profit_per_dollar_pct": 10.01,
+          "num_outcomes": 12,
+          "outcomes": [
+            {
+              "market_id": "704348",
+              "slug": "will-jay-feely-be-the-republican-nominee-for-az-01",
+              "question": "Will Jay Feely be the Republican nominee for AZ-01?",
+              "yes_price": 0.695,
+              "volume": 4681
+            },
+            {
+              "market_id": "704343",
+              "slug": "will-joseph-chaplik-be-the-republican-nominee-for-az-01",
+              "question": "Will Joseph Chaplik be the Republican nominee for AZ-01?",
+              "yes_price": 0.0915,
+              "volume": 8138
+            },
+            {
+              "market_id": "704345",
+              "slug": "will-todd-graham-be-the-republican-nominee-for-az-01",
+              "question": "Will Todd Graham be the Republican nominee for AZ-01?",
+              "yes_price": 0.0535,
+              "volume": 7582
+            },
+            {
+              "market_id": "704346",
+              "slug": "will-mark-brnovich-be-the-republican-nominee-for-az-01",
+              "question": "Will Mark Brnovich be the Republican nominee for AZ-01?",
+              "yes_price": 0.017,
+              "volume": 4365
+            },
+            {
+              "market_id": "704347",
+              "slug": "will-kari-lake-be-the-republican-nominee-for-az-01",
+              "question": "Will Kari Lake be the Republican nominee for AZ-01?",
+              "yes_price": 0.0145,
+              "volume": 6398
+            },
+            {
+              "market_id": "704341",
+              "slug": "will-matt-gress-be-the-republican-nominee-for-az-01",
+              "question": "Will Matt Gress be the Republican nominee for AZ-01?",
+              "yes_price": 0.0075,
+              "volume": 47835
+            },
+            {
+              "market_id": "704351",
+              "slug": "will-paul-reevs-be-the-republican-nominee-for-az-01",
+              "question": "Will Paul Reevs be the Republican nominee for AZ-01?",
+              "yes_price": 0.0075,
+              "volume": 222006
+            },
+            {
+              "market_id": "704350",
+              "slug": "will-kaitlin-purrington-be-the-republican-nominee-for-az-01",
+              "question": "Will Kaitlin Purrington be the Republican nominee for AZ-01?",
+              "yes_price": 0.0065,
+              "volume": 8235
+            },
+            {
+              "market_id": "704349",
+              "slug": "will-derrick-gallego-be-the-republican-nominee-for-az-01-424",
+              "question": "Will Derrick Gallego be the Republican nominee for AZ-01?",
+              "yes_price": 0.0055,
+              "volume": 3407
+            },
+            {
+              "market_id": "704352",
+              "slug": "will-brandon-sowers-be-the-republican-nominee-for-az-01-218",
+              "question": "Will Brandon Sowers be the Republican nominee for AZ-01?",
+              "yes_price": 0.004,
+              "volume": 10660
+            },
+            {
+              "market_id": "704344",
+              "slug": "will-muchelle-ugenti-rita-be-the-republican-nominee-for-az-01",
+              "question": "Will Muchelle Ugenti-Rita be the Republican nominee for AZ-01?",
+              "yes_price": 0.0035,
+              "volume": 4221
+            },
+            {
+              "market_id": "704353",
+              "slug": "will-john-trobough-be-the-republican-nominee-for-az-01-622",
+              "question": "Will John Trobough be the Republican nominee for AZ-01?",
+              "yes_price": 0.003,
+              "volume": 1910
+            }
+          ],
+          "url": "https://polymarket.com/event/az-01-republican-primary-winner",
+          "strategy": "Buy YES on all 12 outcomes. Total cost: $0.9090. One wins $1.00. Profit: $0.0910 (9.10%)"
         }
       ],
       "stats": {
         "total_events": 3000,
-        "checked_multi_outcome": 1985,
-        "skipped_single_outcome": 587,
-        "opportunities_found": 144,
-        "best_profit_pct": 10.0,
-        "scanned_at": "2026-04-10 18:51 UTC"
+        "checked_multi_outcome": 1978,
+        "skipped_single_outcome": 591,
+        "opportunities_found": 140,
+        "best_profit_pct": 9.95,
+        "scanned_at": "2026-04-10 19:09 UTC"
       }
     },
     {
