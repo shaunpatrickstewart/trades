@@ -8,108 +8,70 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 140 categorical arb opportunities found\nScanned 3000 events (2021 multi-outcome) at 2026-04-11 13:46 UTC\nBest: 10.0% profit on 'How many ships will Iran successfully target by April 30?' \u2014 buy YES on all 5 outcomes (sum=0.9)\nStrategy: Buy YES on all 5 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 10.0% on 'Trump drops Powell investigation by\u2026?'",
+      "result": "LIVE \u2014 145 categorical arb opportunities found\nScanned 3000 events (2026 multi-outcome) at 2026-04-11 13:57 UTC\nBest: 9.95% profit on 'What will Netflix (NFLX) hit in April 2026?' \u2014 buy YES on all 7 outcomes (sum=0.9005)\nStrategy: Buy YES on all 7 outcomes. Total cost: $0.9005. One wins $1.00. Profit: $0.0995 (9.95%)\n2nd: 9.9% on 'Sachsen-Anhalt Parliamentary Elections: 2nd Place'",
       "priority": "HIGH",
-      "last_scan": "2026-04-11 13:46 UTC",
+      "last_scan": "2026-04-11 13:57 UTC",
       "opportunities": [
         {
-          "event_title": "How many ships will Iran successfully target by April 30?",
-          "event_slug": "how-many-ships-will-iran-successfully-target-by-april-30",
-          "yes_sum": 0.9,
-          "profit_pct": 10.0,
-          "profit_per_dollar_pct": 11.11,
-          "num_outcomes": 5,
+          "event_title": "What will Netflix (NFLX) hit in April 2026?",
+          "event_slug": "what-price-will-nflx-hit-in-april-2026",
+          "yes_sum": 0.9005,
+          "profit_pct": 9.95,
+          "profit_per_dollar_pct": 11.05,
+          "num_outcomes": 7,
           "outcomes": [
             {
-              "market_id": "1706115",
-              "slug": "will-23-ships-be-successfully-targeted-by-iran-by-april-30-589",
-              "question": "Will 2\u20133 ships be successfully targeted by Iran by April 30?",
-              "yes_price": 0.395,
-              "volume": 5879
+              "market_id": "1542751",
+              "slug": "will-nflx-reach-105-in-april",
+              "question": "Will Netflix reach $105 in April?",
+              "yes_price": 0.79,
+              "volume": 4781
             },
             {
-              "market_id": "1706116",
-              "slug": "will-45-ships-be-successfully-targeted-by-iran-by-april-30-494",
-              "question": "Will 4\u20135 ships be successfully targeted by Iran by April 30?",
-              "yes_price": 0.3,
-              "volume": 2440
+              "market_id": "1542754",
+              "slug": "will-nflx-dip-to-70-in-april",
+              "question": "Will Netflix dip to $70 in April?",
+              "yes_price": 0.08,
+              "volume": 3665
             },
             {
-              "market_id": "1706118",
-              "slug": "will-89-ships-be-successfully-targeted-by-iran-by-april-30-113",
-              "question": "Will 8\u20139 ships be successfully targeted by Iran by April 30?",
-              "yes_price": 0.14,
-              "volume": 4978
+              "market_id": "1542744",
+              "slug": "will-nflx-reach-298-in-april",
+              "question": "Will Netflix reach $298 in April?",
+              "yes_price": 0.011,
+              "volume": 4257
             },
             {
-              "market_id": "1706117",
-              "slug": "will-67-ships-be-successfully-targeted-by-iran-by-april-30-177",
-              "question": "Will 6\u20137 ships be successfully targeted by Iran by April 30?",
-              "yes_price": 0.065,
-              "volume": 2689
+              "market_id": "1542742",
+              "slug": "will-nflx-reach-368-in-april",
+              "question": "Will Netflix reach $368 in April?",
+              "yes_price": 0.0105,
+              "volume": 1050
             },
             {
-              "market_id": "1706113",
-              "slug": "will-fewer-than-2-ships-be-successfully-targeted-by-iran-by-april-30-439",
-              "question": "Will fewer than 2 ships be successfully targeted by Iran by April 30?",
-              "yes_price": 0.0,
-              "volume": 24731
+              "market_id": "1542740",
+              "slug": "will-nflx-reach-455-in-april",
+              "question": "Will Netflix reach $455 in April?",
+              "yes_price": 0.005,
+              "volume": 18438
+            },
+            {
+              "market_id": "1542756",
+              "slug": "will-nflx-dip-to-35-in-april",
+              "question": "Will Netflix dip to $35 in April?",
+              "yes_price": 0.0025,
+              "volume": 40650
+            },
+            {
+              "market_id": "1542759",
+              "slug": "will-nflx-dip-to-0-in-april",
+              "question": "Will Netflix dip to $0 in April?",
+              "yes_price": 0.0015,
+              "volume": 66648
             }
           ],
-          "url": "https://polymarket.com/event/how-many-ships-will-iran-successfully-target-by-april-30",
-          "strategy": "Buy YES on all 5 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
-        },
-        {
-          "event_title": "Trump drops Powell investigation by\u2026?",
-          "event_slug": "trump-drops-powell-investigation-by",
-          "yes_sum": 0.9,
-          "profit_pct": 10.0,
-          "profit_per_dollar_pct": 11.11,
-          "num_outcomes": 2,
-          "outcomes": [
-            {
-              "market_id": "1719241",
-              "slug": "will-the-criminal-investigation-into-jerome-powell-be-dropped-by-june-30",
-              "question": "Will the criminal investigation into Jerome Powell be dropped by June 30?",
-              "yes_price": 0.745,
-              "volume": 1490
-            },
-            {
-              "market_id": "1719240",
-              "slug": "will-the-criminal-investigation-into-jerome-powell-be-dropped-by-april-30-918",
-              "question": "Will the criminal investigation into Jerome Powell be dropped by April 30?",
-              "yes_price": 0.155,
-              "volume": 9951
-            }
-          ],
-          "url": "https://polymarket.com/event/trump-drops-powell-investigation-by",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
-        },
-        {
-          "event_title": "Los Angeles Angels vs. Cincinnati Reds",
-          "event_slug": "mlb-laa-cin-2026-04-11",
-          "yes_sum": 0.9,
-          "profit_pct": 10.0,
-          "profit_per_dollar_pct": 11.11,
-          "num_outcomes": 2,
-          "outcomes": [
-            {
-              "market_id": "1877587",
-              "slug": "mlb-laa-cin-2026-04-11",
-              "question": "Los Angeles Angels vs. Cincinnati Reds",
-              "yes_price": 0.455,
-              "volume": 7737
-            },
-            {
-              "market_id": "1938700",
-              "slug": "mlb-laa-cin-2026-04-11-total-9pt5",
-              "question": "Los Angeles Angels vs. Cincinnati Reds: O/U 9.5",
-              "yes_price": 0.445,
-              "volume": 2616
-            }
-          ],
-          "url": "https://polymarket.com/event/mlb-laa-cin-2026-04-11",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
+          "url": "https://polymarket.com/event/what-price-will-nflx-hit-in-april-2026",
+          "strategy": "Buy YES on all 7 outcomes. Total cost: $0.9005. One wins $1.00. Profit: $0.0995 (9.95%)"
         },
         {
           "event_title": "Sachsen-Anhalt Parliamentary Elections: 2nd Place",
@@ -143,32 +105,6 @@
           ],
           "url": "https://polymarket.com/event/sachsen-anhalt-parliamentary-elections-2nd-place",
           "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9010. One wins $1.00. Profit: $0.0990 (9.90%)"
-        },
-        {
-          "event_title": "Will USDT market cap hit $200B by ___?",
-          "event_slug": "will-usdt-market-cap-hit-by-december-31",
-          "yes_sum": 0.9015,
-          "profit_pct": 9.85,
-          "profit_per_dollar_pct": 10.93,
-          "num_outcomes": 2,
-          "outcomes": [
-            {
-              "market_id": "1068728",
-              "slug": "will-usdt-market-cap-hit-200b-before-2027",
-              "question": "Will USDT market cap hit $200B before 2027?",
-              "yes_price": 0.9015,
-              "volume": 143332
-            },
-            {
-              "market_id": "569994",
-              "slug": "will-usdt-market-cap-hit-by-december-31",
-              "question": "Will USDT market cap hit $200B by December 31?",
-              "yes_price": 0.0,
-              "volume": 39278
-            }
-          ],
-          "url": "https://polymarket.com/event/will-usdt-market-cap-hit-by-december-31",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9015. One wins $1.00. Profit: $0.0985 (9.85%)"
         },
         {
           "event_title": "Which film will get the most Oscar nominations at the 99th Academy Awards?",
@@ -293,196 +229,295 @@
           "strategy": "Buy YES on all 8 outcomes. Total cost: $0.9030. One wins $1.00. Profit: $0.0970 (9.70%)"
         },
         {
-          "event_title": "Will Audemars Piguet prices hit __ by April 30?",
-          "event_slug": "will-audemars-piguet-prices-hit-by-april-30",
+          "event_title": "Will USDT market cap hit $200B by ___?",
+          "event_slug": "will-usdt-market-cap-hit-by-december-31",
           "yes_sum": 0.903,
           "profit_pct": 9.7,
           "profit_per_dollar_pct": 10.74,
-          "num_outcomes": 10,
+          "num_outcomes": 2,
           "outcomes": [
             {
-              "market_id": "1613930",
-              "slug": "will-the-audemars-piguet-index-hit-41500-high-by-april-30",
-              "question": "Will the Audemars Piguet Index hit $41,500 (HIGH) by April 30?",
-              "yes_price": 0.3,
-              "volume": 3592
+              "market_id": "1068728",
+              "slug": "will-usdt-market-cap-hit-200b-before-2027",
+              "question": "Will USDT market cap hit $200B before 2027?",
+              "yes_price": 0.903,
+              "volume": 143332
             },
             {
-              "market_id": "1613931",
-              "slug": "will-the-audemars-piguet-index-hit-41000-low-by-april-30",
-              "question": "Will the Audemars Piguet Index hit $41,000 (LOW) by April 30?",
-              "yes_price": 0.275,
-              "volume": 12431
-            },
-            {
-              "market_id": "1613934",
-              "slug": "will-the-audemars-piguet-index-hit-40250-low-by-april-30",
-              "question": "Will the Audemars Piguet Index hit $40,250 (LOW) by April 30?",
-              "yes_price": 0.125,
-              "volume": 1342
-            },
-            {
-              "market_id": "1613935",
-              "slug": "will-the-audemars-piguet-index-hit-40000-low-by-april-30",
-              "question": "Will the Audemars Piguet Index hit $40,000 (LOW) by April 30?",
-              "yes_price": 0.073,
-              "volume": 2663
-            },
-            {
-              "market_id": "1613928",
-              "slug": "will-the-audemars-piguet-index-hit-42000-high-by-april-30",
-              "question": "Will the Audemars Piguet Index hit $42,000 (HIGH) by April 30?",
-              "yes_price": 0.0325,
-              "volume": 5878
-            },
-            {
-              "market_id": "1613926",
-              "slug": "will-the-audemars-piguet-index-hit-42500-high-by-april-30",
-              "question": "Will the Audemars Piguet Index hit $42,500 (HIGH) by April 30?",
-              "yes_price": 0.029,
-              "volume": 5707
-            },
-            {
-              "market_id": "1613927",
-              "slug": "will-the-audemars-piguet-index-hit-42250-high-by-april-30",
-              "question": "Will the Audemars Piguet Index hit $42,250 (HIGH) by April 30?",
-              "yes_price": 0.0245,
-              "volume": 2135
-            },
-            {
-              "market_id": "1613936",
-              "slug": "will-the-audemars-piguet-index-hit-39000-low-by-april-30",
-              "question": "Will the Audemars Piguet Index hit $39,000 (LOW) by April 30?",
-              "yes_price": 0.019,
-              "volume": 1645
-            },
-            {
-              "market_id": "1613925",
-              "slug": "will-the-audemars-piguet-index-hit-43000-high-by-april-30",
-              "question": "Will the Audemars Piguet Index hit $43,000 (HIGH) by April 30?",
-              "yes_price": 0.013,
-              "volume": 2047
-            },
-            {
-              "market_id": "1613924",
-              "slug": "will-the-audemars-piguet-index-hit-44000-high-by-april-30",
-              "question": "Will the Audemars Piguet Index hit $44,000 (HIGH) by April 30?",
-              "yes_price": 0.012,
-              "volume": 9426
+              "market_id": "569994",
+              "slug": "will-usdt-market-cap-hit-by-december-31",
+              "question": "Will USDT market cap hit $200B by December 31?",
+              "yes_price": 0.0,
+              "volume": 39278
             }
           ],
-          "url": "https://polymarket.com/event/will-audemars-piguet-prices-hit-by-april-30",
-          "strategy": "Buy YES on all 10 outcomes. Total cost: $0.9030. One wins $1.00. Profit: $0.0970 (9.70%)"
+          "url": "https://polymarket.com/event/will-usdt-market-cap-hit-by-december-31",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9030. One wins $1.00. Profit: $0.0970 (9.70%)"
         },
         {
-          "event_title": "UEFA Europa Conference League: Most Goal Contributions",
-          "event_slug": "uefa-europa-conference-league-most-goal-contributions",
-          "yes_sum": 0.9055,
-          "profit_pct": 9.45,
-          "profit_per_dollar_pct": 10.44,
-          "num_outcomes": 4,
+          "event_title": "AZ-01 Republican Primary Winner",
+          "event_slug": "az-01-republican-primary-winner",
+          "yes_sum": 0.904,
+          "profit_pct": 9.6,
+          "profit_per_dollar_pct": 10.62,
+          "num_outcomes": 12,
           "outcomes": [
             {
-              "market_id": "1429286",
-              "slug": "will-ismala-sarr-record-the-most-goal-contributions-in-the-2025-26-uefa-europa-conference-league",
-              "question": "Will Isma\u00efla Sarr record the most goal contributions in the 2025-26 UEFA Europa ",
-              "yes_price": 0.425,
-              "volume": 3224
+              "market_id": "704348",
+              "slug": "will-jay-feely-be-the-republican-nominee-for-az-01",
+              "question": "Will Jay Feely be the Republican nominee for AZ-01?",
+              "yes_price": 0.695,
+              "volume": 4681
             },
             {
-              "market_id": "1429289",
-              "slug": "will-isak-jensen-record-the-most-goal-contributions-in-the-2025-26-uefa-europa-conference-league",
-              "question": "Will Isak Jensen record the most goal contributions in the 2025-26 UEFA Europa C",
-              "yes_price": 0.25,
-              "volume": 13277
+              "market_id": "704343",
+              "slug": "will-joseph-chaplik-be-the-republican-nominee-for-az-01",
+              "question": "Will Joseph Chaplik be the Republican nominee for AZ-01?",
+              "yes_price": 0.0785,
+              "volume": 8138
             },
             {
-              "market_id": "1429278",
-              "slug": "will-lvaro-garca-record-the-most-goal-contributions-in-the-2025-26-uefa-europa-conference-league",
-              "question": "Will \u00c1lvaro Garc\u00eda record the most goal contributions in the 2025-26 UEFA Europa",
-              "yes_price": 0.19,
-              "volume": 18821
+              "market_id": "704345",
+              "slug": "will-todd-graham-be-the-republican-nominee-for-az-01",
+              "question": "Will Todd Graham be the Republican nominee for AZ-01?",
+              "yes_price": 0.055,
+              "volume": 7582
             },
             {
-              "market_id": "1429283",
-              "slug": "will-aboubakary-koita-record-the-most-goal-contributions-in-the-2025-26-uefa-europa-conference-league",
-              "question": "Will Aboubakary Koita record the most goal contributions in the 2025-26 UEFA Eur",
-              "yes_price": 0.0405,
-              "volume": 6201
-            }
-          ],
-          "url": "https://polymarket.com/event/uefa-europa-conference-league-most-goal-contributions",
-          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9055. One wins $1.00. Profit: $0.0945 (9.45%)"
-        },
-        {
-          "event_title": "How many Republican Senators not running in 2026?",
-          "event_slug": "how-many-republican-senators-not-running-in-2026",
-          "yes_sum": 0.907,
-          "profit_pct": 9.3,
-          "profit_per_dollar_pct": 10.25,
-          "num_outcomes": 7,
-          "outcomes": [
-            {
-              "market_id": "909079",
-              "slug": "will-the-number-of-republican-senate-members-who-retire-in-2026-be-exactly-7-546",
-              "question": "Will the number of Republican Senate members who retire in 2026 be exactly 7?",
-              "yes_price": 0.59,
-              "volume": 2049
+              "market_id": "704349",
+              "slug": "will-derrick-gallego-be-the-republican-nominee-for-az-01-424",
+              "question": "Will Derrick Gallego be the Republican nominee for AZ-01?",
+              "yes_price": 0.017,
+              "volume": 3463
             },
             {
-              "market_id": "923035",
-              "slug": "will-the-number-of-republican-senate-members-who-retire-in-2026-be-exactly-5",
-              "question": "Will the number of Republican Senate members who retire in 2026 be exactly 5?",
-              "yes_price": 0.093,
-              "volume": 15338
+              "market_id": "704346",
+              "slug": "will-mark-brnovich-be-the-republican-nominee-for-az-01",
+              "question": "Will Mark Brnovich be the Republican nominee for AZ-01?",
+              "yes_price": 0.0145,
+              "volume": 4365
             },
             {
-              "market_id": "909077",
-              "slug": "will-the-number-of-republican-senate-members-who-retire-in-2026-be-less-than-5",
-              "question": "Will the number of Republican Senate members who retire in 2026 be less than 5?",
-              "yes_price": 0.0925,
-              "volume": 19349
-            },
-            {
-              "market_id": "909078",
-              "slug": "will-the-number-of-republican-senate-members-who-retire-in-2026-be-exactly-6-462",
-              "question": "Will the number of Republican Senate members who retire in 2026 be exactly 6?",
-              "yes_price": 0.09,
-              "volume": 26136
-            },
-            {
-              "market_id": "909082",
-              "slug": "will-the-number-of-republican-senate-members-who-retire-in-2026-be-exactly-10-938",
-              "question": "Will the number of Republican Senate members who retire in 2026 be exactly 10?",
-              "yes_price": 0.0155,
-              "volume": 1222
-            },
-            {
-              "market_id": "909083",
-              "slug": "will-the-number-of-republican-senate-members-who-retire-in-2026-be-12-or-more-926",
-              "question": "Will the number of Republican Senate members who retire in 2026 be 12 or more?",
+              "market_id": "704347",
+              "slug": "will-kari-lake-be-the-republican-nominee-for-az-01",
+              "question": "Will Kari Lake be the Republican nominee for AZ-01?",
               "yes_price": 0.0135,
-              "volume": 4291
+              "volume": 6398
             },
             {
-              "market_id": "909081",
-              "slug": "will-the-number-of-republican-senate-members-who-retire-in-2026-be-exactly-9-466",
-              "question": "Will the number of Republican Senate members who retire in 2026 be exactly 9?",
-              "yes_price": 0.0125,
-              "volume": 1191
+              "market_id": "704341",
+              "slug": "will-matt-gress-be-the-republican-nominee-for-az-01",
+              "question": "Will Matt Gress be the Republican nominee for AZ-01?",
+              "yes_price": 0.007,
+              "volume": 47835
+            },
+            {
+              "market_id": "704351",
+              "slug": "will-paul-reevs-be-the-republican-nominee-for-az-01",
+              "question": "Will Paul Reevs be the Republican nominee for AZ-01?",
+              "yes_price": 0.0065,
+              "volume": 222106
+            },
+            {
+              "market_id": "704350",
+              "slug": "will-kaitlin-purrington-be-the-republican-nominee-for-az-01",
+              "question": "Will Kaitlin Purrington be the Republican nominee for AZ-01?",
+              "yes_price": 0.005,
+              "volume": 8235
+            },
+            {
+              "market_id": "704352",
+              "slug": "will-brandon-sowers-be-the-republican-nominee-for-az-01-218",
+              "question": "Will Brandon Sowers be the Republican nominee for AZ-01?",
+              "yes_price": 0.005,
+              "volume": 10660
+            },
+            {
+              "market_id": "704353",
+              "slug": "will-john-trobough-be-the-republican-nominee-for-az-01-622",
+              "question": "Will John Trobough be the Republican nominee for AZ-01?",
+              "yes_price": 0.0035,
+              "volume": 1910
+            },
+            {
+              "market_id": "704344",
+              "slug": "will-muchelle-ugenti-rita-be-the-republican-nominee-for-az-01",
+              "question": "Will Muchelle Ugenti-Rita be the Republican nominee for AZ-01?",
+              "yes_price": 0.0035,
+              "volume": 4221
             }
           ],
-          "url": "https://polymarket.com/event/how-many-republican-senators-not-running-in-2026",
-          "strategy": "Buy YES on all 7 outcomes. Total cost: $0.9070. One wins $1.00. Profit: $0.0930 (9.30%)"
+          "url": "https://polymarket.com/event/az-01-republican-primary-winner",
+          "strategy": "Buy YES on all 12 outcomes. Total cost: $0.9040. One wins $1.00. Profit: $0.0960 (9.60%)"
+        },
+        {
+          "event_title": "Will __ ships transit the Strait of Hormuz on any day April 8-12?",
+          "event_slug": "will-ships-transit-the-strait-of-hormuz-on-any-day-april-8-12",
+          "yes_sum": 0.905,
+          "profit_pct": 9.5,
+          "profit_per_dollar_pct": 10.5,
+          "num_outcomes": 6,
+          "outcomes": [
+            {
+              "market_id": "1920311",
+              "slug": "will-10-ships-transit-the-strait-of-hormuz-on-any-day-april-812",
+              "question": "Will 10 ships transit the Strait of Hormuz on any day April 8\u201312?",
+              "yes_price": 0.64,
+              "volume": 16585
+            },
+            {
+              "market_id": "1920312",
+              "slug": "will-20-ships-transit-the-strait-of-hormuz-on-any-day-april-812",
+              "question": "Will 20 ships transit the Strait of Hormuz on any day April 8\u201312?",
+              "yes_price": 0.1385,
+              "volume": 20207
+            },
+            {
+              "market_id": "1920313",
+              "slug": "will-30-ships-transit-the-strait-of-hormuz-on-any-day-april-812",
+              "question": "Will 30 ships transit the Strait of Hormuz on any day April 8\u201312?",
+              "yes_price": 0.053,
+              "volume": 7541
+            },
+            {
+              "market_id": "1920315",
+              "slug": "will-50-ships-transit-the-strait-of-hormuz-on-any-day-april-812",
+              "question": "Will 50 ships transit the Strait of Hormuz on any day April 8\u201312?",
+              "yes_price": 0.0315,
+              "volume": 15472
+            },
+            {
+              "market_id": "1920314",
+              "slug": "will-40-ships-transit-the-strait-of-hormuz-on-any-day-april-812",
+              "question": "Will 40 ships transit the Strait of Hormuz on any day April 8\u201312?",
+              "yes_price": 0.028,
+              "volume": 5921
+            },
+            {
+              "market_id": "1920316",
+              "slug": "will-60-ships-transit-the-strait-of-hormuz-on-any-day-april-812",
+              "question": "Will 60 ships transit the Strait of Hormuz on any day April 8\u201312?",
+              "yes_price": 0.014,
+              "volume": 12674
+            }
+          ],
+          "url": "https://polymarket.com/event/will-ships-transit-the-strait-of-hormuz-on-any-day-april-8-12",
+          "strategy": "Buy YES on all 6 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
+        },
+        {
+          "event_title": "How many ships will Iran successfully target by April 30?",
+          "event_slug": "how-many-ships-will-iran-successfully-target-by-april-30",
+          "yes_sum": 0.905,
+          "profit_pct": 9.5,
+          "profit_per_dollar_pct": 10.5,
+          "num_outcomes": 5,
+          "outcomes": [
+            {
+              "market_id": "1706115",
+              "slug": "will-23-ships-be-successfully-targeted-by-iran-by-april-30-589",
+              "question": "Will 2\u20133 ships be successfully targeted by Iran by April 30?",
+              "yes_price": 0.395,
+              "volume": 5879
+            },
+            {
+              "market_id": "1706116",
+              "slug": "will-45-ships-be-successfully-targeted-by-iran-by-april-30-494",
+              "question": "Will 4\u20135 ships be successfully targeted by Iran by April 30?",
+              "yes_price": 0.295,
+              "volume": 2440
+            },
+            {
+              "market_id": "1706118",
+              "slug": "will-89-ships-be-successfully-targeted-by-iran-by-april-30-113",
+              "question": "Will 8\u20139 ships be successfully targeted by Iran by April 30?",
+              "yes_price": 0.15,
+              "volume": 4978
+            },
+            {
+              "market_id": "1706117",
+              "slug": "will-67-ships-be-successfully-targeted-by-iran-by-april-30-177",
+              "question": "Will 6\u20137 ships be successfully targeted by Iran by April 30?",
+              "yes_price": 0.065,
+              "volume": 2689
+            },
+            {
+              "market_id": "1706113",
+              "slug": "will-fewer-than-2-ships-be-successfully-targeted-by-iran-by-april-30-439",
+              "question": "Will fewer than 2 ships be successfully targeted by Iran by April 30?",
+              "yes_price": 0.0,
+              "volume": 24731
+            }
+          ],
+          "url": "https://polymarket.com/event/how-many-ships-will-iran-successfully-target-by-april-30",
+          "strategy": "Buy YES on all 5 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
+        },
+        {
+          "event_title": "Bulgaria Parliamentary Election: Margin of Victory",
+          "event_slug": "bulgaria-parliamentary-election-margin-of-victory",
+          "yes_sum": 0.905,
+          "profit_pct": 9.5,
+          "profit_per_dollar_pct": 10.5,
+          "num_outcomes": 3,
+          "outcomes": [
+            {
+              "market_id": "1742068",
+              "slug": "will-progressive-bulgaria-pb-win-the-2026-bulgarian-parliamentary-election-by-5-10",
+              "question": "Will Progressive Bulgaria (PB) win the 2026 Bulgarian Parliamentary election by ",
+              "yes_price": 0.47,
+              "volume": 4408
+            },
+            {
+              "market_id": "1742067",
+              "slug": "will-progressive-bulgaria-pb-win-the-2026-bulgarian-parliamentary-election-by-10-15",
+              "question": "Will Progressive Bulgaria (PB) win the 2026 Bulgarian Parliamentary election by ",
+              "yes_price": 0.305,
+              "volume": 10496
+            },
+            {
+              "market_id": "1742066",
+              "slug": "will-progressive-bulgaria-pb-win-the-2026-bulgarian-parliamentary-election-by-15-20",
+              "question": "Will Progressive Bulgaria (PB) win the 2026 Bulgarian Parliamentary election by ",
+              "yes_price": 0.13,
+              "volume": 10914
+            }
+          ],
+          "url": "https://polymarket.com/event/bulgaria-parliamentary-election-margin-of-victory",
+          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
+        },
+        {
+          "event_title": "What floor price will Milady hit before 2027?",
+          "event_slug": "what-floor-price-will-milady-hit-before-2027",
+          "yes_sum": 0.905,
+          "profit_pct": 9.5,
+          "profit_per_dollar_pct": 10.5,
+          "num_outcomes": 2,
+          "outcomes": [
+            {
+              "market_id": "1099807",
+              "slug": "will-milady-floor-price-reach-2-eth-before-2027",
+              "question": "Will Milady floor price reach 2 ETH before 2027?",
+              "yes_price": 0.505,
+              "volume": 11530
+            },
+            {
+              "market_id": "1099806",
+              "slug": "will-milady-floor-price-reach-4-eth-before-2027",
+              "question": "Will Milady floor price reach 4 ETH before 2027?",
+              "yes_price": 0.4,
+              "volume": 1894
+            }
+          ],
+          "url": "https://polymarket.com/event/what-floor-price-will-milady-hit-before-2027",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
         }
       ],
       "stats": {
         "total_events": 3000,
-        "checked_multi_outcome": 2021,
-        "skipped_single_outcome": 597,
-        "opportunities_found": 140,
-        "best_profit_pct": 10.0,
-        "scanned_at": "2026-04-11 13:46 UTC"
+        "checked_multi_outcome": 2026,
+        "skipped_single_outcome": 594,
+        "opportunities_found": 145,
+        "best_profit_pct": 9.95,
+        "scanned_at": "2026-04-11 13:57 UTC"
       }
     },
     {
