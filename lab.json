@@ -8,7 +8,7 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 154 categorical arb opportunities found\nScanned 3000 events (2039 multi-outcome) at 2026-04-11 15:13 UTC\nBest: 10.0% profit on 'What will S&P 500 (SPX) close at end of 2026?' \u2014 buy YES on all 5 outcomes (sum=0.9)\nStrategy: Buy YES on all 5 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 10.0% on 'TX-23 House Election Winner'",
+      "result": "LIVE \u2014 155 categorical arb opportunities found\nScanned 3000 events (2042 multi-outcome) at 2026-04-11 15:13 UTC\nBest: 10.0% profit on 'What will S&P 500 (SPX) close at end of 2026?' \u2014 buy YES on all 5 outcomes (sum=0.9)\nStrategy: Buy YES on all 5 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 10.0% on 'TX-23 House Election Winner'",
       "priority": "HIGH",
       "last_scan": "2026-04-11 15:13 UTC",
       "opportunities": [
@@ -244,6 +244,95 @@
           ],
           "url": "https://polymarket.com/event/will-russia-capture-lyman-in-2025",
           "strategy": "Buy YES on all 8 outcomes. Total cost: $0.9020. One wins $1.00. Profit: $0.0980 (9.80%)"
+        },
+        {
+          "event_title": "Highest temperature in Toronto on April 11?",
+          "event_slug": "highest-temperature-in-toronto-on-april-11-2026",
+          "yes_sum": 0.902,
+          "profit_pct": 9.8,
+          "profit_per_dollar_pct": 10.86,
+          "num_outcomes": 11,
+          "outcomes": [
+            {
+              "market_id": "1901712",
+              "slug": "highest-temperature-in-toronto-on-april-11-2026-11c",
+              "question": "Will the highest temperature in Toronto be 11\u00b0C on April 11?",
+              "yes_price": 0.415,
+              "volume": 3714
+            },
+            {
+              "market_id": "1901711",
+              "slug": "highest-temperature-in-toronto-on-april-11-2026-10c",
+              "question": "Will the highest temperature in Toronto be 10\u00b0C on April 11?",
+              "yes_price": 0.28,
+              "volume": 4990
+            },
+            {
+              "market_id": "1901713",
+              "slug": "highest-temperature-in-toronto-on-april-11-2026-12c",
+              "question": "Will the highest temperature in Toronto be 12\u00b0C on April 11?",
+              "yes_price": 0.105,
+              "volume": 3087
+            },
+            {
+              "market_id": "1901710",
+              "slug": "highest-temperature-in-toronto-on-april-11-2026-9c",
+              "question": "Will the highest temperature in Toronto be 9\u00b0C on April 11?",
+              "yes_price": 0.053,
+              "volume": 4838
+            },
+            {
+              "market_id": "1901714",
+              "slug": "highest-temperature-in-toronto-on-april-11-2026-13c",
+              "question": "Will the highest temperature in Toronto be 13\u00b0C on April 11?",
+              "yes_price": 0.021,
+              "volume": 5805
+            },
+            {
+              "market_id": "1901709",
+              "slug": "highest-temperature-in-toronto-on-april-11-2026-8c",
+              "question": "Will the highest temperature in Toronto be 8\u00b0C on April 11?",
+              "yes_price": 0.017,
+              "volume": 8520
+            },
+            {
+              "market_id": "1901716",
+              "slug": "highest-temperature-in-toronto-on-april-11-2026-15c",
+              "question": "Will the highest temperature in Toronto be 15\u00b0C on April 11?",
+              "yes_price": 0.0035,
+              "volume": 2843
+            },
+            {
+              "market_id": "1901717",
+              "slug": "highest-temperature-in-toronto-on-april-11-2026-16corhigher",
+              "question": "Will the highest temperature in Toronto be 16\u00b0C or higher on April 11?",
+              "yes_price": 0.003,
+              "volume": 6017
+            },
+            {
+              "market_id": "1901715",
+              "slug": "highest-temperature-in-toronto-on-april-11-2026-14c",
+              "question": "Will the highest temperature in Toronto be 14\u00b0C on April 11?",
+              "yes_price": 0.0025,
+              "volume": 2725
+            },
+            {
+              "market_id": "1901708",
+              "slug": "highest-temperature-in-toronto-on-april-11-2026-7c",
+              "question": "Will the highest temperature in Toronto be 7\u00b0C on April 11?",
+              "yes_price": 0.0015,
+              "volume": 12619
+            },
+            {
+              "market_id": "1901707",
+              "slug": "highest-temperature-in-toronto-on-april-11-2026-6corbelow",
+              "question": "Will the highest temperature in Toronto be 6\u00b0C or below on April 11?",
+              "yes_price": 0.0005,
+              "volume": 11301
+            }
+          ],
+          "url": "https://polymarket.com/event/highest-temperature-in-toronto-on-april-11-2026",
+          "strategy": "Buy YES on all 11 outcomes. Total cost: $0.9020. One wins $1.00. Profit: $0.0980 (9.80%)"
         },
         {
           "event_title": "Will Audemars Piguet prices hit __ by April 30?",
@@ -483,53 +572,13 @@
           ],
           "url": "https://polymarket.com/event/lol-lpl-2026-season-winner",
           "strategy": "Buy YES on all 15 outcomes. Total cost: $0.9030. One wins $1.00. Profit: $0.0970 (9.70%)"
-        },
-        {
-          "event_title": "2nd richest person on December 31?",
-          "event_slug": "2nd-richest-person-on-december-31",
-          "yes_sum": 0.903,
-          "profit_pct": 9.7,
-          "profit_per_dollar_pct": 10.74,
-          "num_outcomes": 4,
-          "outcomes": [
-            {
-              "market_id": "1302181",
-              "slug": "will-larry-page-be-2nd-richest-person-on-december-31",
-              "question": "Will Larry Page be 2nd richest person on December 31?",
-              "yes_price": 0.435,
-              "volume": 6349
-            },
-            {
-              "market_id": "1302183",
-              "slug": "will-sergey-brin-be-2nd-richest-person-on-december-31",
-              "question": "Will Sergey Brin be 2nd richest person on December 31?",
-              "yes_price": 0.24,
-              "volume": 4968
-            },
-            {
-              "market_id": "1302173",
-              "slug": "will-jeff-bezos-be-2nd-richest-person-on-december-31",
-              "question": "Will Jeff Bezos be 2nd richest person on December 31?",
-              "yes_price": 0.209,
-              "volume": 9320
-            },
-            {
-              "market_id": "1302178",
-              "slug": "will-warren-buffett-be-2nd-richest-person-on-december-31",
-              "question": "Will Warren Buffett be 2nd richest person on December 31?",
-              "yes_price": 0.019,
-              "volume": 1080
-            }
-          ],
-          "url": "https://polymarket.com/event/2nd-richest-person-on-december-31",
-          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9030. One wins $1.00. Profit: $0.0970 (9.70%)"
         }
       ],
       "stats": {
         "total_events": 3000,
-        "checked_multi_outcome": 2039,
-        "skipped_single_outcome": 598,
-        "opportunities_found": 154,
+        "checked_multi_outcome": 2042,
+        "skipped_single_outcome": 595,
+        "opportunities_found": 155,
         "best_profit_pct": 10.0,
         "scanned_at": "2026-04-11 15:13 UTC"
       }
