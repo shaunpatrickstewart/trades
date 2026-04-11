@@ -8,10 +8,92 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 146 categorical arb opportunities found\nScanned 3000 events (1932 multi-outcome) at 2026-04-11 01:11 UTC\nBest: 9.95% profit on 'UEFA Europa Conference League: Most Goal Contributions' \u2014 buy YES on all 4 outcomes (sum=0.9005)\nStrategy: Buy YES on all 4 outcomes. Total cost: $0.9005. One wins $1.00. Profit: $0.0995 (9.95%)\n2nd: 9.9% on 'Will Opensea launch a token by ___?'",
+      "result": "LIVE \u2014 144 categorical arb opportunities found\nScanned 3000 events (1935 multi-outcome) at 2026-04-11 01:24 UTC\nBest: 10.0% profit on 'Will Audemars Piguet prices hit __ by April 30?' \u2014 buy YES on all 10 outcomes (sum=0.9)\nStrategy: Buy YES on all 10 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 9.95% on 'UEFA Europa Conference League: Most Goal Contributions'",
       "priority": "HIGH",
-      "last_scan": "2026-04-11 01:11 UTC",
+      "last_scan": "2026-04-11 01:24 UTC",
       "opportunities": [
+        {
+          "event_title": "Will Audemars Piguet prices hit __ by April 30?",
+          "event_slug": "will-audemars-piguet-prices-hit-by-april-30",
+          "yes_sum": 0.9,
+          "profit_pct": 10.0,
+          "profit_per_dollar_pct": 11.11,
+          "num_outcomes": 10,
+          "outcomes": [
+            {
+              "market_id": "1613930",
+              "slug": "will-the-audemars-piguet-index-hit-41500-high-by-april-30",
+              "question": "Will the Audemars Piguet Index hit $41,500 (HIGH) by April 30?",
+              "yes_price": 0.315,
+              "volume": 3592
+            },
+            {
+              "market_id": "1613931",
+              "slug": "will-the-audemars-piguet-index-hit-41000-low-by-april-30",
+              "question": "Will the Audemars Piguet Index hit $41,000 (LOW) by April 30?",
+              "yes_price": 0.275,
+              "volume": 12431
+            },
+            {
+              "market_id": "1613934",
+              "slug": "will-the-audemars-piguet-index-hit-40250-low-by-april-30",
+              "question": "Will the Audemars Piguet Index hit $40,250 (LOW) by April 30?",
+              "yes_price": 0.125,
+              "volume": 1342
+            },
+            {
+              "market_id": "1613935",
+              "slug": "will-the-audemars-piguet-index-hit-40000-low-by-april-30",
+              "question": "Will the Audemars Piguet Index hit $40,000 (LOW) by April 30?",
+              "yes_price": 0.0625,
+              "volume": 2636
+            },
+            {
+              "market_id": "1613928",
+              "slug": "will-the-audemars-piguet-index-hit-42000-high-by-april-30",
+              "question": "Will the Audemars Piguet Index hit $42,000 (HIGH) by April 30?",
+              "yes_price": 0.033,
+              "volume": 5878
+            },
+            {
+              "market_id": "1613926",
+              "slug": "will-the-audemars-piguet-index-hit-42500-high-by-april-30",
+              "question": "Will the Audemars Piguet Index hit $42,500 (HIGH) by April 30?",
+              "yes_price": 0.029,
+              "volume": 5638
+            },
+            {
+              "market_id": "1613927",
+              "slug": "will-the-audemars-piguet-index-hit-42250-high-by-april-30",
+              "question": "Will the Audemars Piguet Index hit $42,250 (HIGH) by April 30?",
+              "yes_price": 0.0205,
+              "volume": 2135
+            },
+            {
+              "market_id": "1613936",
+              "slug": "will-the-audemars-piguet-index-hit-39000-low-by-april-30",
+              "question": "Will the Audemars Piguet Index hit $39,000 (LOW) by April 30?",
+              "yes_price": 0.017,
+              "volume": 1645
+            },
+            {
+              "market_id": "1613925",
+              "slug": "will-the-audemars-piguet-index-hit-43000-high-by-april-30",
+              "question": "Will the Audemars Piguet Index hit $43,000 (HIGH) by April 30?",
+              "yes_price": 0.012,
+              "volume": 2047
+            },
+            {
+              "market_id": "1613924",
+              "slug": "will-the-audemars-piguet-index-hit-44000-high-by-april-30",
+              "question": "Will the Audemars Piguet Index hit $44,000 (HIGH) by April 30?",
+              "yes_price": 0.011,
+              "volume": 9288
+            }
+          ],
+          "url": "https://polymarket.com/event/will-audemars-piguet-prices-hit-by-april-30",
+          "strategy": "Buy YES on all 10 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
+        },
         {
           "event_title": "UEFA Europa Conference League: Most Goal Contributions",
           "event_slug": "uefa-europa-conference-league-most-goal-contributions",
@@ -93,88 +175,6 @@
           "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9010. One wins $1.00. Profit: $0.0990 (9.90%)"
         },
         {
-          "event_title": "Highest temperature in Miami on April 11?",
-          "event_slug": "highest-temperature-in-miami-on-april-11-2026",
-          "yes_sum": 0.9015,
-          "profit_pct": 9.85,
-          "profit_per_dollar_pct": 10.93,
-          "num_outcomes": 10,
-          "outcomes": [
-            {
-              "market_id": "1901765",
-              "slug": "highest-temperature-in-miami-on-april-11-2026-78-79f",
-              "question": "Will the highest temperature in Miami be between 78-79\u00b0F on April 11?",
-              "yes_price": 0.38,
-              "volume": 2791
-            },
-            {
-              "market_id": "1901766",
-              "slug": "highest-temperature-in-miami-on-april-11-2026-80-81f",
-              "question": "Will the highest temperature in Miami be between 80-81\u00b0F on April 11?",
-              "yes_price": 0.32,
-              "volume": 3879
-            },
-            {
-              "market_id": "1901767",
-              "slug": "highest-temperature-in-miami-on-april-11-2026-82-83f",
-              "question": "Will the highest temperature in Miami be between 82-83\u00b0F on April 11?",
-              "yes_price": 0.08,
-              "volume": 3349
-            },
-            {
-              "market_id": "1901764",
-              "slug": "highest-temperature-in-miami-on-april-11-2026-76-77f",
-              "question": "Will the highest temperature in Miami be between 76-77\u00b0F on April 11?",
-              "yes_price": 0.065,
-              "volume": 6574
-            },
-            {
-              "market_id": "1901763",
-              "slug": "highest-temperature-in-miami-on-april-11-2026-74-75f",
-              "question": "Will the highest temperature in Miami be between 74-75\u00b0F on April 11?",
-              "yes_price": 0.032,
-              "volume": 5843
-            },
-            {
-              "market_id": "1901768",
-              "slug": "highest-temperature-in-miami-on-april-11-2026-84-85f",
-              "question": "Will the highest temperature in Miami be between 84-85\u00b0F on April 11?",
-              "yes_price": 0.011,
-              "volume": 2299
-            },
-            {
-              "market_id": "1901762",
-              "slug": "highest-temperature-in-miami-on-april-11-2026-73forbelow",
-              "question": "Will the highest temperature in Miami be 73\u00b0F or below on April 11?",
-              "yes_price": 0.0075,
-              "volume": 5535
-            },
-            {
-              "market_id": "1901769",
-              "slug": "highest-temperature-in-miami-on-april-11-2026-86-87f",
-              "question": "Will the highest temperature in Miami be between 86-87\u00b0F on April 11?",
-              "yes_price": 0.004,
-              "volume": 1993
-            },
-            {
-              "market_id": "1901770",
-              "slug": "highest-temperature-in-miami-on-april-11-2026-88-89f",
-              "question": "Will the highest temperature in Miami be between 88-89\u00b0F on April 11?",
-              "yes_price": 0.0015,
-              "volume": 1142
-            },
-            {
-              "market_id": "1901772",
-              "slug": "highest-temperature-in-miami-on-april-11-2026-92forhigher",
-              "question": "Will the highest temperature in Miami be 92\u00b0F or higher on April 11?",
-              "yes_price": 0.0005,
-              "volume": 1901
-            }
-          ],
-          "url": "https://polymarket.com/event/highest-temperature-in-miami-on-april-11-2026",
-          "strategy": "Buy YES on all 10 outcomes. Total cost: $0.9015. One wins $1.00. Profit: $0.0985 (9.85%)"
-        },
-        {
           "event_title": "Will Russia capture Lyman by...?",
           "event_slug": "will-russia-capture-lyman-in-2025",
           "yes_sum": 0.903,
@@ -241,46 +241,6 @@
           ],
           "url": "https://polymarket.com/event/will-russia-capture-lyman-in-2025",
           "strategy": "Buy YES on all 8 outcomes. Total cost: $0.9030. One wins $1.00. Profit: $0.0970 (9.70%)"
-        },
-        {
-          "event_title": "2nd richest person on December 31?",
-          "event_slug": "2nd-richest-person-on-december-31",
-          "yes_sum": 0.903,
-          "profit_pct": 9.7,
-          "profit_per_dollar_pct": 10.74,
-          "num_outcomes": 4,
-          "outcomes": [
-            {
-              "market_id": "1302181",
-              "slug": "will-larry-page-be-2nd-richest-person-on-december-31",
-              "question": "Will Larry Page be 2nd richest person on December 31?",
-              "yes_price": 0.435,
-              "volume": 3962
-            },
-            {
-              "market_id": "1302183",
-              "slug": "will-sergey-brin-be-2nd-richest-person-on-december-31",
-              "question": "Will Sergey Brin be 2nd richest person on December 31?",
-              "yes_price": 0.225,
-              "volume": 4050
-            },
-            {
-              "market_id": "1302173",
-              "slug": "will-jeff-bezos-be-2nd-richest-person-on-december-31",
-              "question": "Will Jeff Bezos be 2nd richest person on December 31?",
-              "yes_price": 0.224,
-              "volume": 4086
-            },
-            {
-              "market_id": "1302178",
-              "slug": "will-warren-buffett-be-2nd-richest-person-on-december-31",
-              "question": "Will Warren Buffett be 2nd richest person on December 31?",
-              "yes_price": 0.019,
-              "volume": 1080
-            }
-          ],
-          "url": "https://polymarket.com/event/2nd-richest-person-on-december-31",
-          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9030. One wins $1.00. Profit: $0.0970 (9.70%)"
         },
         {
           "event_title": "Guam Governor Democratic Primary Winner",
@@ -363,37 +323,11 @@
           "strategy": "Buy YES on all 5 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
         },
         {
-          "event_title": "KY-06 House Election Winner",
-          "event_slug": "ky-06-house-election-winner",
-          "yes_sum": 0.905,
-          "profit_pct": 9.5,
-          "profit_per_dollar_pct": 10.5,
-          "num_outcomes": 2,
-          "outcomes": [
-            {
-              "market_id": "1283584",
-              "slug": "will-the-republican-party-win-the-ky-06-house-seat",
-              "question": "Will the Republican Party win the KY-06 House seat?",
-              "yes_price": 0.755,
-              "volume": 4707
-            },
-            {
-              "market_id": "1283585",
-              "slug": "will-the-democratic-party-win-the-ky-06-house-seat",
-              "question": "Will the Democratic Party win the KY-06 House seat?",
-              "yes_price": 0.15,
-              "volume": 9580
-            }
-          ],
-          "url": "https://polymarket.com/event/ky-06-house-election-winner",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
-        },
-        {
           "event_title": "Presidential Election Winner 2028",
           "event_slug": "presidential-election-winner-2028",
-          "yes_sum": 0.9075,
-          "profit_pct": 9.25,
-          "profit_per_dollar_pct": 10.19,
+          "yes_sum": 0.907,
+          "profit_pct": 9.3,
+          "profit_per_dollar_pct": 10.25,
           "num_outcomes": 36,
           "outcomes": [
             {
@@ -401,28 +335,28 @@
               "slug": "will-jd-vance-win-the-2028-us-presidential-election",
               "question": "Will JD Vance win the 2028 US Presidential Election?",
               "yes_price": 0.1885,
-              "volume": 10062738
+              "volume": 10064246
             },
             {
               "market_id": "561230",
               "slug": "will-gavin-newsom-win-the-2028-us-presidential-election",
               "question": "Will Gavin Newsom win the 2028 US Presidential Election?",
-              "yes_price": 0.1695,
-              "volume": 13073901
+              "yes_price": 0.17,
+              "volume": 13077405
             },
             {
               "market_id": "561234",
               "slug": "will-marco-rubio-win-the-2028-us-presidential-election",
               "question": "Will Marco Rubio win the 2028 US Presidential Election?",
               "yes_price": 0.094,
-              "volume": 5910444
+              "volume": 5910536
             },
             {
               "market_id": "561231",
               "slug": "will-alexandria-ocasio-cortez-win-the-2028-us-presidential-election",
               "question": "Will Alexandria Ocasio-Cortez win the 2028 US Presidential Election?",
               "yes_price": 0.0545,
-              "volume": 10701226
+              "volume": 10701403
             },
             {
               "market_id": "561261",
@@ -436,35 +370,35 @@
               "slug": "will-tucker-carlson-win-the-2028-us-presidential-election",
               "question": "Will Tucker Carlson win the 2028 US Presidential Election?",
               "yes_price": 0.0365,
-              "volume": 9841281
+              "volume": 9841302
             },
             {
               "market_id": "561239",
               "slug": "will-kamala-harris-win-the-2028-us-presidential-election",
               "question": "Will Kamala Harris win the 2028 US Presidential Election?",
               "yes_price": 0.0305,
-              "volume": 6918133
+              "volume": 6918264
             },
             {
               "market_id": "561243",
               "slug": "will-donald-trump-win-the-2028-us-presidential-election",
               "question": "Will Donald Trump win the 2028 US Presidential Election?",
               "yes_price": 0.0225,
-              "volume": 6910009
+              "volume": 6910021
             },
             {
               "market_id": "561246",
               "slug": "will-ron-desantis-win-the-2028-us-presidential-election",
               "question": "Will Ron DeSantis win the 2028 US Presidential Election?",
-              "yes_price": 0.022,
-              "volume": 8042361
+              "yes_price": 0.021,
+              "volume": 8050536
             },
             {
               "market_id": "561233",
               "slug": "will-josh-shapiro-win-the-2028-us-presidential-election",
               "question": "Will Josh Shapiro win the 2028 US Presidential Election?",
               "yes_price": 0.0205,
-              "volume": 5756570
+              "volume": 5756629
             },
             {
               "market_id": "561232",
@@ -478,21 +412,21 @@
               "slug": "will-andy-beshear-win-the-2028-us-presidential-election",
               "question": "Will Andy Beshear win the 2028 US Presidential Election?",
               "yes_price": 0.0125,
-              "volume": 17411322
+              "volume": 17411328
             },
             {
               "market_id": "561241",
               "slug": "will-jb-pritzker-win-the-2028-us-presidential-election",
               "question": "Will JB Pritzker win the 2028 US Presidential Election?",
               "yes_price": 0.0125,
-              "volume": 10775374
+              "volume": 10775376
             },
             {
               "market_id": "561252",
               "slug": "will-dwayne-the-rock-johnson-win-the-2028-us-presidential-election",
               "question": "Will Dwayne 'The Rock' Johnson win the 2028 US Presidential Election?",
               "yes_price": 0.011,
-              "volume": 6029887
+              "volume": 6029893
             },
             {
               "market_id": "561260",
@@ -527,14 +461,14 @@
               "slug": "will-jamie-dimon-win-the-2028-us-presidential-election",
               "question": "Will Jamie Dimon win the 2028 US Presidential Election?",
               "yes_price": 0.0095,
-              "volume": 7496079
+              "volume": 7496085
             },
             {
               "market_id": "561249",
               "slug": "will-greg-abbott-win-the-2028-us-presidential-election",
               "question": "Will Greg Abbott win the 2028 US Presidential Election?",
               "yes_price": 0.0095,
-              "volume": 31777301
+              "volume": 31779770
             },
             {
               "market_id": "561257",
@@ -576,14 +510,14 @@
               "slug": "will-donald-trump-jr-win-the-2028-us-presidential-election",
               "question": "Will Donald Trump Jr. win the 2028 US Presidential Election?",
               "yes_price": 0.0075,
-              "volume": 9070691
+              "volume": 9070695
             },
             {
               "market_id": "561245",
               "slug": "will-nikki-haley-win-the-2028-us-presidential-election",
               "question": "Will Nikki Haley win the 2028 US Presidential Election?",
               "yes_price": 0.0075,
-              "volume": 21664118
+              "volume": 21665721
             },
             {
               "market_id": "561256",
@@ -597,21 +531,21 @@
               "slug": "will-eric-trump-win-the-2028-us-presidential-election",
               "question": "Will Eric Trump win the 2028 US Presidential Election?",
               "yes_price": 0.0065,
-              "volume": 6481445
+              "volume": 6483842
             },
             {
               "market_id": "561247",
               "slug": "will-tim-walz-win-the-2028-us-presidential-election",
               "question": "Will Tim Walz win the 2028 US Presidential Election?",
               "yes_price": 0.0065,
-              "volume": 39312034
+              "volume": 39327310
             },
             {
               "market_id": "561235",
               "slug": "will-wes-moore-win-the-2028-us-presidential-election",
               "question": "Will Wes Moore win the 2028 US Presidential Election?",
               "yes_price": 0.0065,
-              "volume": 6349270
+              "volume": 6351660
             },
             {
               "market_id": "561242",
@@ -625,32 +559,32 @@
               "slug": "will-pete-hegseth-win-the-2028-us-presidential-election",
               "question": "Will Pete Hegseth win the 2028 US Presidential Election?",
               "yes_price": 0.0065,
-              "volume": 4175710
+              "volume": 4193284
             },
             {
               "market_id": "561248",
               "slug": "will-vivek-ramaswamy-win-the-2028-us-presidential-election",
               "question": "Will Vivek Ramaswamy win the 2028 US Presidential Election?",
               "yes_price": 0.0065,
-              "volume": 30822485
+              "volume": 30828917
             },
             {
               "market_id": "561254",
               "slug": "will-kim-kardashian-win-the-2028-us-presidential-election",
               "question": "Will Kim Kardashian win the 2028 US Presidential Election?",
               "yes_price": 0.0065,
-              "volume": 32463223
+              "volume": 32469671
             },
             {
               "market_id": "561251",
               "slug": "will-lebron-james-win-the-2028-us-presidential-election",
               "question": "Will LeBron James win the 2028 US Presidential Election?",
               "yes_price": 0.0055,
-              "volume": 45830096
+              "volume": 45834814
             }
           ],
           "url": "https://polymarket.com/event/presidential-election-winner-2028",
-          "strategy": "Buy YES on all 36 outcomes. Total cost: $0.9075. One wins $1.00. Profit: $0.0925 (9.25%)"
+          "strategy": "Buy YES on all 36 outcomes. Total cost: $0.9070. One wins $1.00. Profit: $0.0930 (9.30%)"
         },
         {
           "event_title": "PA-10 Democratic Primary Winner",
@@ -677,15 +611,116 @@
           ],
           "url": "https://polymarket.com/event/pa-10-democratic-primary-winner-877",
           "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9080. One wins $1.00. Profit: $0.0920 (9.20%)"
+        },
+        {
+          "event_title": "Lead Bank in SpaceX\u2019s IPO?",
+          "event_slug": "lead-bank-in-spacexs-ipo-836",
+          "yes_sum": 0.9095,
+          "profit_pct": 9.05,
+          "profit_per_dollar_pct": 9.95,
+          "num_outcomes": 9,
+          "outcomes": [
+            {
+              "market_id": "1021152",
+              "slug": "will-morgan-stanley-or-any-of-its-underwriting-affiliates-serve-as-the-lead-underwriter-in-spacexs-initial-public-offering-299",
+              "question": "Will Morgan Stanley or any of its underwriting affiliates serve as the lead unde",
+              "yes_price": 0.465,
+              "volume": 324616
+            },
+            {
+              "market_id": "1021153",
+              "slug": "will-goldman-sachs-or-any-of-its-underwriting-affiliates-serve-as-the-lead-underwriter-in-spacexs-initial-public-offering-197",
+              "question": "Will Goldman Sachs or any of its underwriting affiliates serve as the lead under",
+              "yes_price": 0.3,
+              "volume": 238614
+            },
+            {
+              "market_id": "1021155",
+              "slug": "will-bank-of-america-or-any-of-its-underwriting-affiliates-serve-as-the-lead-underwriter-in-spacexs-initial-public-offering-433",
+              "question": "Will Bank of America or any of its underwriting affiliates serve as the lead und",
+              "yes_price": 0.0975,
+              "volume": 66927
+            },
+            {
+              "market_id": "1021154",
+              "slug": "will-jpmorgan-chase-or-any-of-its-underwriting-affiliates-serve-as-the-lead-underwriter-in-spacexs-initial-public-offering-471",
+              "question": "Will JPMorgan Chase or any of its underwriting affiliates serve as the lead unde",
+              "yes_price": 0.03,
+              "volume": 78910
+            },
+            {
+              "market_id": "1021159",
+              "slug": "will-deutsche-bank-or-any-of-its-underwriting-affiliates-serve-as-the-lead-underwriter-in-spacexs-initial-public-offering-824",
+              "question": "Will Deutsche Bank or any of its underwriting affiliates serve as the lead under",
+              "yes_price": 0.0065,
+              "volume": 303735
+            },
+            {
+              "market_id": "1021156",
+              "slug": "will-citigroup-or-any-of-its-underwriting-affiliates-serve-as-the-lead-underwriter-in-spacexs-initial-public-offering-719",
+              "question": "Will Citigroup or any of its underwriting affiliates serve as the lead underwrit",
+              "yes_price": 0.005,
+              "volume": 98106
+            },
+            {
+              "market_id": "1021160",
+              "slug": "will-wells-fargo-or-any-of-its-underwriting-affiliates-serve-as-the-lead-underwriter-in-spacexs-initial-public-offering-174",
+              "question": "Will Wells Fargo or any of its underwriting affiliates serve as the lead underwr",
+              "yes_price": 0.0025,
+              "volume": 44292
+            },
+            {
+              "market_id": "1021157",
+              "slug": "will-barclays-or-any-of-its-underwriting-affiliates-serve-as-the-lead-underwriter-in-spacexs-initial-public-offering-115",
+              "question": "Will Barclays or any of its underwriting affiliates serve as the lead underwrite",
+              "yes_price": 0.0015,
+              "volume": 64081
+            },
+            {
+              "market_id": "1021158",
+              "slug": "will-ubs-or-any-of-its-underwriting-affiliates-serve-as-the-lead-underwriter-in-spacexs-initial-public-offering-884",
+              "question": "Will UBS or any of its underwriting affiliates serve as the lead underwriter in ",
+              "yes_price": 0.0015,
+              "volume": 74443
+            }
+          ],
+          "url": "https://polymarket.com/event/lead-bank-in-spacexs-ipo-836",
+          "strategy": "Buy YES on all 9 outcomes. Total cost: $0.9095. One wins $1.00. Profit: $0.0905 (9.05%)"
+        },
+        {
+          "event_title": "KY-06 House Election Winner",
+          "event_slug": "ky-06-house-election-winner",
+          "yes_sum": 0.91,
+          "profit_pct": 9.0,
+          "profit_per_dollar_pct": 9.89,
+          "num_outcomes": 2,
+          "outcomes": [
+            {
+              "market_id": "1283584",
+              "slug": "will-the-republican-party-win-the-ky-06-house-seat",
+              "question": "Will the Republican Party win the KY-06 House seat?",
+              "yes_price": 0.755,
+              "volume": 4707
+            },
+            {
+              "market_id": "1283585",
+              "slug": "will-the-democratic-party-win-the-ky-06-house-seat",
+              "question": "Will the Democratic Party win the KY-06 House seat?",
+              "yes_price": 0.155,
+              "volume": 9629
+            }
+          ],
+          "url": "https://polymarket.com/event/ky-06-house-election-winner",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9100. One wins $1.00. Profit: $0.0900 (9.00%)"
         }
       ],
       "stats": {
         "total_events": 3000,
-        "checked_multi_outcome": 1932,
-        "skipped_single_outcome": 597,
-        "opportunities_found": 146,
-        "best_profit_pct": 9.95,
-        "scanned_at": "2026-04-11 01:11 UTC"
+        "checked_multi_outcome": 1935,
+        "skipped_single_outcome": 595,
+        "opportunities_found": 144,
+        "best_profit_pct": 10.0,
+        "scanned_at": "2026-04-11 01:24 UTC"
       }
     },
     {
