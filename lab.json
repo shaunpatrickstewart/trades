@@ -8,10 +8,83 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 135 categorical arb opportunities found\nScanned 3000 events (2029 multi-outcome) at 2026-04-11 14:18 UTC\nBest: 10.0% profit on 'TX-23 House Election Winner' \u2014 buy YES on all 2 outcomes (sum=0.9)\nStrategy: Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 10.0% on 'MN-02 Republican Primary Winner'",
+      "result": "LIVE \u2014 154 categorical arb opportunities found\nScanned 3000 events (2033 multi-outcome) at 2026-04-11 14:50 UTC\nBest: 10.0% profit on 'How many ships will Iran successfully target by April 30?' \u2014 buy YES on all 5 outcomes (sum=0.9)\nStrategy: Buy YES on all 5 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 10.0% on 'Los Angeles Angels vs. Cincinnati Reds'",
       "priority": "HIGH",
-      "last_scan": "2026-04-11 14:18 UTC",
+      "last_scan": "2026-04-11 14:50 UTC",
       "opportunities": [
+        {
+          "event_title": "How many ships will Iran successfully target by April 30?",
+          "event_slug": "how-many-ships-will-iran-successfully-target-by-april-30",
+          "yes_sum": 0.9,
+          "profit_pct": 10.0,
+          "profit_per_dollar_pct": 11.11,
+          "num_outcomes": 5,
+          "outcomes": [
+            {
+              "market_id": "1706115",
+              "slug": "will-23-ships-be-successfully-targeted-by-iran-by-april-30-589",
+              "question": "Will 2\u20133 ships be successfully targeted by Iran by April 30?",
+              "yes_price": 0.395,
+              "volume": 5879
+            },
+            {
+              "market_id": "1706116",
+              "slug": "will-45-ships-be-successfully-targeted-by-iran-by-april-30-494",
+              "question": "Will 4\u20135 ships be successfully targeted by Iran by April 30?",
+              "yes_price": 0.29,
+              "volume": 2440
+            },
+            {
+              "market_id": "1706118",
+              "slug": "will-89-ships-be-successfully-targeted-by-iran-by-april-30-113",
+              "question": "Will 8\u20139 ships be successfully targeted by Iran by April 30?",
+              "yes_price": 0.155,
+              "volume": 4978
+            },
+            {
+              "market_id": "1706117",
+              "slug": "will-67-ships-be-successfully-targeted-by-iran-by-april-30-177",
+              "question": "Will 6\u20137 ships be successfully targeted by Iran by April 30?",
+              "yes_price": 0.06,
+              "volume": 2689
+            },
+            {
+              "market_id": "1706113",
+              "slug": "will-fewer-than-2-ships-be-successfully-targeted-by-iran-by-april-30-439",
+              "question": "Will fewer than 2 ships be successfully targeted by Iran by April 30?",
+              "yes_price": 0.0,
+              "volume": 24731
+            }
+          ],
+          "url": "https://polymarket.com/event/how-many-ships-will-iran-successfully-target-by-april-30",
+          "strategy": "Buy YES on all 5 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
+        },
+        {
+          "event_title": "Los Angeles Angels vs. Cincinnati Reds",
+          "event_slug": "mlb-laa-cin-2026-04-11",
+          "yes_sum": 0.9,
+          "profit_pct": 10.0,
+          "profit_per_dollar_pct": 11.11,
+          "num_outcomes": 2,
+          "outcomes": [
+            {
+              "market_id": "1938700",
+              "slug": "mlb-laa-cin-2026-04-11-total-9pt5",
+              "question": "Los Angeles Angels vs. Cincinnati Reds: O/U 9.5",
+              "yes_price": 0.455,
+              "volume": 10648
+            },
+            {
+              "market_id": "1877587",
+              "slug": "mlb-laa-cin-2026-04-11",
+              "question": "Los Angeles Angels vs. Cincinnati Reds",
+              "yes_price": 0.445,
+              "volume": 20117
+            }
+          ],
+          "url": "https://polymarket.com/event/mlb-laa-cin-2026-04-11",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
+        },
         {
           "event_title": "TX-23 House Election Winner",
           "event_slug": "tx-23-house-election-winner",
@@ -65,46 +138,6 @@
           "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
         },
         {
-          "event_title": "Michigan Governor Republican Primary Winner",
-          "event_slug": "michigan-governor-republican-primary-winner",
-          "yes_sum": 0.9005,
-          "profit_pct": 9.95,
-          "profit_per_dollar_pct": 11.05,
-          "num_outcomes": 4,
-          "outcomes": [
-            {
-              "market_id": "907794",
-              "slug": "will-perry-johnson-win-the-2026-michigan-governor-republican-primary-election",
-              "question": "Will Perry Johnson win the 2026 Michigan Governor Republican primary election?",
-              "yes_price": 0.455,
-              "volume": 10091
-            },
-            {
-              "market_id": "907785",
-              "slug": "will-john-james-win-the-2026-michigan-governor-republican-primary-election",
-              "question": "Will John James win the 2026 Michigan Governor Republican primary election?",
-              "yes_price": 0.385,
-              "volume": 7160
-            },
-            {
-              "market_id": "907788",
-              "slug": "will-aric-nesbitt-win-the-2026-michigan-governor-republican-primary-election",
-              "question": "Will Aric Nesbitt win the 2026 Michigan Governor Republican primary election?",
-              "yes_price": 0.036,
-              "volume": 1213
-            },
-            {
-              "market_id": "907781",
-              "slug": "will-mike-cox-win-the-2026-michigan-governor-republican-primary-election",
-              "question": "Will Mike Cox win the 2026 Michigan Governor Republican primary election?",
-              "yes_price": 0.0245,
-              "volume": 2391
-            }
-          ],
-          "url": "https://polymarket.com/event/michigan-governor-republican-primary-winner",
-          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9005. One wins $1.00. Profit: $0.0995 (9.95%)"
-        },
-        {
           "event_title": "Sachsen-Anhalt Parliamentary Elections: 2nd Place",
           "event_slug": "sachsen-anhalt-parliamentary-elections-2nd-place",
           "yes_sum": 0.901,
@@ -138,70 +171,182 @@
           "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9010. One wins $1.00. Profit: $0.0990 (9.90%)"
         },
         {
-          "event_title": "Who will be UFC Light Heavyweight champion at the end of 2026?",
-          "event_slug": "who-will-be-ufc-light-heavyweight-champion-at-the-end-of-2026",
-          "yes_sum": 0.902,
-          "profit_pct": 9.8,
-          "profit_per_dollar_pct": 10.86,
-          "num_outcomes": 4,
+          "event_title": "AZ-01 Republican Primary Winner",
+          "event_slug": "az-01-republican-primary-winner",
+          "yes_sum": 0.9015,
+          "profit_pct": 9.85,
+          "profit_per_dollar_pct": 10.93,
+          "num_outcomes": 12,
           "outcomes": [
             {
-              "market_id": "1090072",
-              "slug": "will-carlos-ulberg-be-the-ufc-light-heavyweight-champion-on-december-31-2026",
-              "question": "Will Carlos Ulberg be the UFC Light Heavyweight Champion on December 31, 2026?",
-              "yes_price": 0.315,
-              "volume": 1963
+              "market_id": "704348",
+              "slug": "will-jay-feely-be-the-republican-nominee-for-az-01",
+              "question": "Will Jay Feely be the Republican nominee for AZ-01?",
+              "yes_price": 0.695,
+              "volume": 4681
             },
             {
-              "market_id": "1090070",
-              "slug": "will-ji-prochzka-be-the-ufc-light-heavyweight-champion-on-december-31-2026",
-              "question": "Will Ji\u0159\u00ed Proch\u00e1zka be the UFC Light Heavyweight Champion on December 31, 2026?",
-              "yes_price": 0.29,
-              "volume": 2325
+              "market_id": "704343",
+              "slug": "will-joseph-chaplik-be-the-republican-nominee-for-az-01",
+              "question": "Will Joseph Chaplik be the Republican nominee for AZ-01?",
+              "yes_price": 0.079,
+              "volume": 8138
             },
             {
-              "market_id": "1090078",
-              "slug": "will-dominick-reyes-be-the-ufc-light-heavyweight-champion-on-december-31-2026",
-              "question": "Will Dominick Reyes be the UFC Light Heavyweight Champion on December 31, 2026?",
-              "yes_price": 0.172,
-              "volume": 6452
+              "market_id": "704345",
+              "slug": "will-todd-graham-be-the-republican-nominee-for-az-01",
+              "question": "Will Todd Graham be the Republican nominee for AZ-01?",
+              "yes_price": 0.055,
+              "volume": 7582
             },
             {
-              "market_id": "1090069",
-              "slug": "will-alex-pereira-be-the-ufc-light-heavyweight-champion-on-december-31-2026",
-              "question": "Will Alex Pereira be the UFC Light Heavyweight Champion on December 31, 2026?",
-              "yes_price": 0.125,
-              "volume": 3209
+              "market_id": "704346",
+              "slug": "will-mark-brnovich-be-the-republican-nominee-for-az-01",
+              "question": "Will Mark Brnovich be the Republican nominee for AZ-01?",
+              "yes_price": 0.0145,
+              "volume": 4365
+            },
+            {
+              "market_id": "704349",
+              "slug": "will-derrick-gallego-be-the-republican-nominee-for-az-01-424",
+              "question": "Will Derrick Gallego be the Republican nominee for AZ-01?",
+              "yes_price": 0.014,
+              "volume": 3463
+            },
+            {
+              "market_id": "704347",
+              "slug": "will-kari-lake-be-the-republican-nominee-for-az-01",
+              "question": "Will Kari Lake be the Republican nominee for AZ-01?",
+              "yes_price": 0.0135,
+              "volume": 6398
+            },
+            {
+              "market_id": "704341",
+              "slug": "will-matt-gress-be-the-republican-nominee-for-az-01",
+              "question": "Will Matt Gress be the Republican nominee for AZ-01?",
+              "yes_price": 0.007,
+              "volume": 47835
+            },
+            {
+              "market_id": "704351",
+              "slug": "will-paul-reevs-be-the-republican-nominee-for-az-01",
+              "question": "Will Paul Reevs be the Republican nominee for AZ-01?",
+              "yes_price": 0.0065,
+              "volume": 222106
+            },
+            {
+              "market_id": "704350",
+              "slug": "will-kaitlin-purrington-be-the-republican-nominee-for-az-01",
+              "question": "Will Kaitlin Purrington be the Republican nominee for AZ-01?",
+              "yes_price": 0.005,
+              "volume": 8235
+            },
+            {
+              "market_id": "704352",
+              "slug": "will-brandon-sowers-be-the-republican-nominee-for-az-01-218",
+              "question": "Will Brandon Sowers be the Republican nominee for AZ-01?",
+              "yes_price": 0.005,
+              "volume": 10660
+            },
+            {
+              "market_id": "704353",
+              "slug": "will-john-trobough-be-the-republican-nominee-for-az-01-622",
+              "question": "Will John Trobough be the Republican nominee for AZ-01?",
+              "yes_price": 0.0035,
+              "volume": 1910
+            },
+            {
+              "market_id": "704344",
+              "slug": "will-muchelle-ugenti-rita-be-the-republican-nominee-for-az-01",
+              "question": "Will Muchelle Ugenti-Rita be the Republican nominee for AZ-01?",
+              "yes_price": 0.0035,
+              "volume": 4221
             }
           ],
-          "url": "https://polymarket.com/event/who-will-be-ufc-light-heavyweight-champion-at-the-end-of-2026",
-          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9020. One wins $1.00. Profit: $0.0980 (9.80%)"
+          "url": "https://polymarket.com/event/az-01-republican-primary-winner",
+          "strategy": "Buy YES on all 12 outcomes. Total cost: $0.9015. One wins $1.00. Profit: $0.0985 (9.85%)"
         },
         {
-          "event_title": "Will USDT market cap hit $200B by ___?",
-          "event_slug": "will-usdt-market-cap-hit-by-december-31",
+          "event_title": "Will Audemars Piguet prices hit __ by April 30?",
+          "event_slug": "will-audemars-piguet-prices-hit-by-april-30",
           "yes_sum": 0.9025,
           "profit_pct": 9.75,
           "profit_per_dollar_pct": 10.8,
-          "num_outcomes": 2,
+          "num_outcomes": 10,
           "outcomes": [
             {
-              "market_id": "1068728",
-              "slug": "will-usdt-market-cap-hit-200b-before-2027",
-              "question": "Will USDT market cap hit $200B before 2027?",
-              "yes_price": 0.9025,
-              "volume": 143332
+              "market_id": "1613930",
+              "slug": "will-the-audemars-piguet-index-hit-41500-high-by-april-30",
+              "question": "Will the Audemars Piguet Index hit $41,500 (HIGH) by April 30?",
+              "yes_price": 0.3,
+              "volume": 3592
             },
             {
-              "market_id": "569994",
-              "slug": "will-usdt-market-cap-hit-by-december-31",
-              "question": "Will USDT market cap hit $200B by December 31?",
-              "yes_price": 0.0,
-              "volume": 39278
+              "market_id": "1613931",
+              "slug": "will-the-audemars-piguet-index-hit-41000-low-by-april-30",
+              "question": "Will the Audemars Piguet Index hit $41,000 (LOW) by April 30?",
+              "yes_price": 0.275,
+              "volume": 12431
+            },
+            {
+              "market_id": "1613934",
+              "slug": "will-the-audemars-piguet-index-hit-40250-low-by-april-30",
+              "question": "Will the Audemars Piguet Index hit $40,250 (LOW) by April 30?",
+              "yes_price": 0.125,
+              "volume": 1342
+            },
+            {
+              "market_id": "1613935",
+              "slug": "will-the-audemars-piguet-index-hit-40000-low-by-april-30",
+              "question": "Will the Audemars Piguet Index hit $40,000 (LOW) by April 30?",
+              "yes_price": 0.073,
+              "volume": 2663
+            },
+            {
+              "market_id": "1613928",
+              "slug": "will-the-audemars-piguet-index-hit-42000-high-by-april-30",
+              "question": "Will the Audemars Piguet Index hit $42,000 (HIGH) by April 30?",
+              "yes_price": 0.032,
+              "volume": 5900
+            },
+            {
+              "market_id": "1613926",
+              "slug": "will-the-audemars-piguet-index-hit-42500-high-by-april-30",
+              "question": "Will the Audemars Piguet Index hit $42,500 (HIGH) by April 30?",
+              "yes_price": 0.029,
+              "volume": 5707
+            },
+            {
+              "market_id": "1613927",
+              "slug": "will-the-audemars-piguet-index-hit-42250-high-by-april-30",
+              "question": "Will the Audemars Piguet Index hit $42,250 (HIGH) by April 30?",
+              "yes_price": 0.0245,
+              "volume": 2135
+            },
+            {
+              "market_id": "1613936",
+              "slug": "will-the-audemars-piguet-index-hit-39000-low-by-april-30",
+              "question": "Will the Audemars Piguet Index hit $39,000 (LOW) by April 30?",
+              "yes_price": 0.019,
+              "volume": 1645
+            },
+            {
+              "market_id": "1613925",
+              "slug": "will-the-audemars-piguet-index-hit-43000-high-by-april-30",
+              "question": "Will the Audemars Piguet Index hit $43,000 (HIGH) by April 30?",
+              "yes_price": 0.013,
+              "volume": 2047
+            },
+            {
+              "market_id": "1613924",
+              "slug": "will-the-audemars-piguet-index-hit-44000-high-by-april-30",
+              "question": "Will the Audemars Piguet Index hit $44,000 (HIGH) by April 30?",
+              "yes_price": 0.012,
+              "volume": 9426
             }
           ],
-          "url": "https://polymarket.com/event/will-usdt-market-cap-hit-by-december-31",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9025. One wins $1.00. Profit: $0.0975 (9.75%)"
+          "url": "https://polymarket.com/event/will-audemars-piguet-prices-hit-by-april-30",
+          "strategy": "Buy YES on all 10 outcomes. Total cost: $0.9025. One wins $1.00. Profit: $0.0975 (9.75%)"
         },
         {
           "event_title": "Will Russia capture Lyman by...?",
@@ -223,7 +368,7 @@
               "slug": "will-russia-capture-lyman-by-june-30-2026-413",
               "question": "Will Russia capture Lyman by June 30, 2026?",
               "yes_price": 0.215,
-              "volume": 131406
+              "volume": 131416
             },
             {
               "market_id": "1397302",
@@ -272,413 +417,205 @@
           "strategy": "Buy YES on all 8 outcomes. Total cost: $0.9030. One wins $1.00. Profit: $0.0970 (9.70%)"
         },
         {
-          "event_title": "How many ships will Iran successfully target by April 30?",
-          "event_slug": "how-many-ships-will-iran-successfully-target-by-april-30",
-          "yes_sum": 0.905,
-          "profit_pct": 9.5,
-          "profit_per_dollar_pct": 10.5,
-          "num_outcomes": 5,
+          "event_title": "LPL 2026 Season Winner",
+          "event_slug": "lol-lpl-2026-season-winner",
+          "yes_sum": 0.904,
+          "profit_pct": 9.6,
+          "profit_per_dollar_pct": 10.62,
+          "num_outcomes": 15,
           "outcomes": [
             {
-              "market_id": "1706115",
-              "slug": "will-23-ships-be-successfully-targeted-by-iran-by-april-30-589",
-              "question": "Will 2\u20133 ships be successfully targeted by Iran by April 30?",
-              "yes_price": 0.395,
-              "volume": 5879
+              "market_id": "693674",
+              "slug": "will-bilibili-gaming-win-the-lpl-2026-season",
+              "question": "Will Bilibili Gaming win the LPL 2026 season?",
+              "yes_price": 0.495,
+              "volume": 111609
             },
             {
-              "market_id": "1706116",
-              "slug": "will-45-ships-be-successfully-targeted-by-iran-by-april-30-494",
-              "question": "Will 4\u20135 ships be successfully targeted by Iran by April 30?",
-              "yes_price": 0.305,
-              "volume": 2440
+              "market_id": "693673",
+              "slug": "will-anyones-legend-win-the-lpl-2026-season",
+              "question": "Will Anyone's Legend win the LPL 2026 season?",
+              "yes_price": 0.155,
+              "volume": 43017
             },
             {
-              "market_id": "1706118",
-              "slug": "will-89-ships-be-successfully-targeted-by-iran-by-april-30-113",
-              "question": "Will 8\u20139 ships be successfully targeted by Iran by April 30?",
-              "yes_price": 0.145,
-              "volume": 4978
+              "market_id": "693677",
+              "slug": "will-jd-gaming-win-the-lpl-2026-season",
+              "question": "Will JD Gaming win the LPL 2026 season?",
+              "yes_price": 0.1415,
+              "volume": 98670
             },
             {
-              "market_id": "1706117",
-              "slug": "will-67-ships-be-successfully-targeted-by-iran-by-april-30-177",
-              "question": "Will 6\u20137 ships be successfully targeted by Iran by April 30?",
-              "yes_price": 0.06,
-              "volume": 2689
+              "market_id": "693685",
+              "slug": "will-top-esports-win-the-lpl-2026-season",
+              "question": "Will Top Esports win the LPL 2026 season?",
+              "yes_price": 0.056,
+              "volume": 43731
             },
             {
-              "market_id": "1706113",
-              "slug": "will-fewer-than-2-ships-be-successfully-targeted-by-iran-by-april-30-439",
-              "question": "Will fewer than 2 ships be successfully targeted by Iran by April 30?",
-              "yes_price": 0.0,
-              "volume": 24731
-            }
-          ],
-          "url": "https://polymarket.com/event/how-many-ships-will-iran-successfully-target-by-april-30",
-          "strategy": "Buy YES on all 5 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
-        },
-        {
-          "event_title": "NHL James Norris Memorial Trophy Winner",
-          "event_slug": "nhl-2025-26-james-norris-memorial-trophy",
-          "yes_sum": 0.906,
-          "profit_pct": 9.4,
-          "profit_per_dollar_pct": 10.38,
-          "num_outcomes": 43,
-          "outcomes": [
-            {
-              "market_id": "645611",
-              "slug": "nhl-2025-26-james-norris-memorial-trophy-zach-werenski",
-              "question": "Will Zach Werenski win the 2025\u20132026 NHL James Norris Memorial Trophy?",
-              "yes_price": 0.4965,
-              "volume": 5853
+              "market_id": "693687",
+              "slug": "will-weibo-gaming-win-the-lpl-2026-season",
+              "question": "Will Weibo Gaming win the LPL 2026 season?",
+              "yes_price": 0.0125,
+              "volume": 38491
             },
             {
-              "market_id": "645615",
-              "slug": "nhl-2025-26-james-norris-memorial-trophy-evan-bouchard",
-              "question": "Will Evan Bouchard win the 2025\u20132026 NHL James Norris Memorial Trophy?",
-              "yes_price": 0.3335,
-              "volume": 22632
+              "market_id": "693676",
+              "slug": "will-invictus-gaming-win-the-lpl-2026-season",
+              "question": "Will Invictus Gaming win the LPL 2026 season?",
+              "yes_price": 0.0125,
+              "volume": 46004
             },
             {
-              "market_id": "645609",
-              "slug": "nhl-2025-26-james-norris-memorial-trophy-cale-makar",
-              "question": "Will Cale Makar win the 2025\u20132026 NHL James Norris Memorial Trophy?",
-              "yes_price": 0.034,
-              "volume": 56889
-            },
-            {
-              "market_id": "645610",
-              "slug": "nhl-2025-26-james-norris-memorial-trophy-quinn-hughes",
-              "question": "Will Quinn Hughes win the 2025\u20132026 NHL James Norris Memorial Trophy?",
+              "market_id": "693680",
+              "slug": "will-ninjas-in-pyjamas-win-the-lpl-2026-season",
+              "question": "Will Ninjas in Pyjamas win the LPL 2026 season?",
               "yes_price": 0.0075,
-              "volume": 6431
+              "volume": 40411
             },
             {
-              "market_id": "645617",
-              "slug": "nhl-2025-26-james-norris-memorial-trophy-lane-hutson",
-              "question": "Will Lane Hutson win the 2025\u20132026 NHL James Norris Memorial Trophy?",
-              "yes_price": 0.0055,
-              "volume": 3281
+              "market_id": "693679",
+              "slug": "will-lng-esports-win-the-lpl-2026-season",
+              "question": "Will LNG Esports win the LPL 2026 season?",
+              "yes_price": 0.006,
+              "volume": 46434
             },
             {
-              "market_id": "645645",
-              "slug": "nhl-2025-26-james-norris-memorial-trophy-moritz-seider",
-              "question": "Will Moritz Seider win the 2025\u20132026 NHL James Norris Memorial Trophy?",
-              "yes_price": 0.004,
-              "volume": 2080
+              "market_id": "693683",
+              "slug": "will-team-we-win-the-lpl-2026-season",
+              "question": "Will Team WE win the LPL 2026 season?",
+              "yes_price": 0.0045,
+              "volume": 22522
             },
             {
-              "market_id": "645631",
-              "slug": "nhl-2025-26-james-norris-memorial-trophy-ryker-evans",
-              "question": "Will Ryker Evans win the 2025\u20132026 NHL James Norris Memorial Trophy?",
+              "market_id": "693678",
+              "slug": "will-lgd-gaming-win-the-lpl-2026-season",
+              "question": "Will LGD Gaming win the LPL 2026 season?",
               "yes_price": 0.003,
-              "volume": 1839
+              "volume": 33807
             },
             {
-              "market_id": "645612",
-              "slug": "nhl-2025-26-james-norris-memorial-trophy-rasmus-dahlin",
-              "question": "Will Rasmus Dahlin win the 2025\u20132026 NHL James Norris Memorial Trophy?",
+              "market_id": "693675",
+              "slug": "will-edward-gaming-win-the-lpl-2026-season",
+              "question": "Will EDward Gaming win the LPL 2026 season?",
+              "yes_price": 0.0025,
+              "volume": 35582
+            },
+            {
+              "market_id": "693681",
+              "slug": "will-oh-my-god-win-the-lpl-2026-season",
+              "question": "Will Oh My God win the LPL 2026 season?",
+              "yes_price": 0.0025,
+              "volume": 30354
+            },
+            {
+              "market_id": "693686",
+              "slug": "will-ultra-prime-win-the-lpl-2026-season",
+              "question": "Will Ultra Prime win the LPL 2026 season?",
+              "yes_price": 0.0025,
+              "volume": 44142
+            },
+            {
+              "market_id": "693682",
+              "slug": "will-royal-never-give-up-win-the-lpl-2026-season",
+              "question": "Will Royal Never Give Up win the LPL 2026 season?",
               "yes_price": 0.0015,
-              "volume": 3102
+              "volume": 42724
             },
             {
-              "market_id": "645626",
-              "slug": "nhl-2025-26-james-norris-memorial-trophy-jaccob-slavin",
-              "question": "Will Jaccob Slavin win the 2025\u20132026 NHL James Norris Memorial Trophy?",
+              "market_id": "693684",
+              "slug": "will-thundertalk-gaming-win-the-lpl-2026-season",
+              "question": "Will ThunderTalk Gaming win the LPL 2026 season?",
               "yes_price": 0.0015,
-              "volume": 2403
-            },
-            {
-              "market_id": "645614",
-              "slug": "nhl-2025-26-james-norris-memorial-trophy-roman-josi",
-              "question": "Will Roman Josi win the 2025\u20132026 NHL James Norris Memorial Trophy?",
-              "yes_price": 0.0015,
-              "volume": 1514
-            },
-            {
-              "market_id": "645616",
-              "slug": "nhl-2025-26-james-norris-memorial-trophy-victor-hedman",
-              "question": "Will Victor Hedman win the 2025\u20132026 NHL James Norris Memorial Trophy?",
-              "yes_price": 0.0015,
-              "volume": 2544
-            },
-            {
-              "market_id": "645655",
-              "slug": "nhl-2025-26-james-norris-memorial-trophy-darnell-nurse",
-              "question": "Will Darnell Nurse win the 2025\u20132026 NHL James Norris Memorial Trophy?",
-              "yes_price": 0.0005,
-              "volume": 1346
-            },
-            {
-              "market_id": "645661",
-              "slug": "nhl-2025-26-james-norris-memorial-trophy-jakob-chychrun",
-              "question": "Will Jakob Chychrun win the 2025\u20132026 NHL James Norris Memorial Trophy?",
-              "yes_price": 0.0005,
-              "volume": 1614
-            },
-            {
-              "market_id": "645619",
-              "slug": "nhl-2025-26-james-norris-memorial-trophy-thomas-harley",
-              "question": "Will Thomas Harley win the 2025\u20132026 NHL James Norris Memorial Trophy?",
-              "yes_price": 0.0005,
-              "volume": 1831
-            },
-            {
-              "market_id": "645668",
-              "slug": "nhl-2025-26-james-norris-memorial-trophy-devon-toews",
-              "question": "Will Devon Toews win the 2025\u20132026 NHL James Norris Memorial Trophy?",
-              "yes_price": 0.0005,
-              "volume": 1556
-            },
-            {
-              "market_id": "645669",
-              "slug": "nhl-2025-26-james-norris-memorial-trophy-colton-parayko",
-              "question": "Will Colton Parayko win the 2025\u20132026 NHL James Norris Memorial Trophy?",
-              "yes_price": 0.0005,
-              "volume": 1446
-            },
-            {
-              "market_id": "645672",
-              "slug": "nhl-2025-26-james-norris-memorial-trophy-drew-doughty",
-              "question": "Will Drew Doughty win the 2025\u20132026 NHL James Norris Memorial Trophy?",
-              "yes_price": 0.0005,
-              "volume": 1857
-            },
-            {
-              "market_id": "645622",
-              "slug": "nhl-2025-26-james-norris-memorial-trophy-jake-sanderson",
-              "question": "Will Jake Sanderson win the 2025\u20132026 NHL James Norris Memorial Trophy?",
-              "yes_price": 0.0005,
-              "volume": 1955
-            },
-            {
-              "market_id": "645625",
-              "slug": "nhl-2025-26-james-norris-memorial-trophy-charlie-mcavoy",
-              "question": "Will Charlie McAvoy win the 2025\u20132026 NHL James Norris Memorial Trophy?",
-              "yes_price": 0.0005,
-              "volume": 1420
-            },
-            {
-              "market_id": "645677",
-              "slug": "nhl-2025-26-james-norris-memorial-trophy-thomas-chabot",
-              "question": "Will Thomas Chabot win the 2025\u20132026 NHL James Norris Memorial Trophy?",
-              "yes_price": 0.0005,
-              "volume": 1336
-            },
-            {
-              "market_id": "645633",
-              "slug": "nhl-2025-26-james-norris-memorial-trophy-simon-edvinsson",
-              "question": "Will Simon Edvinsson win the 2025\u20132026 NHL James Norris Memorial Trophy?",
-              "yes_price": 0.0005,
-              "volume": 1635
-            },
-            {
-              "market_id": "645634",
-              "slug": "nhl-2025-26-james-norris-memorial-trophy-vince-dunn",
-              "question": "Will Vince Dunn win the 2025\u20132026 NHL James Norris Memorial Trophy?",
-              "yes_price": 0.0005,
-              "volume": 1714
-            },
-            {
-              "market_id": "645640",
-              "slug": "nhl-2025-26-james-norris-memorial-trophy-neal-pionk",
-              "question": "Will Neal Pionk win the 2025\u20132026 NHL James Norris Memorial Trophy?",
-              "yes_price": 0.0005,
-              "volume": 1834
-            },
-            {
-              "market_id": "645648",
-              "slug": "nhl-2025-26-james-norris-memorial-trophy-dougie-hamilton",
-              "question": "Will Dougie Hamilton win the 2025\u20132026 NHL James Norris Memorial Trophy?",
-              "yes_price": 0.0005,
-              "volume": 1735
-            },
-            {
-              "market_id": "645658",
-              "slug": "nhl-2025-26-james-norris-memorial-trophy-brady-skjei",
-              "question": "Will Brady Skjei win the 2025\u20132026 NHL James Norris Memorial Trophy?",
-              "yes_price": 0.0005,
-              "volume": 1544
-            },
-            {
-              "market_id": "645663",
-              "slug": "nhl-2025-26-james-norris-memorial-trophy-brock-faber",
-              "question": "Will Brock Faber win the 2025\u20132026 NHL James Norris Memorial Trophy?",
-              "yes_price": 0.0005,
-              "volume": 1897
-            },
-            {
-              "market_id": "645670",
-              "slug": "nhl-2025-26-james-norris-memorial-trophy-travis-sanheim",
-              "question": "Will Travis Sanheim win the 2025\u20132026 NHL James Norris Memorial Trophy?",
-              "yes_price": 0.0005,
-              "volume": 1553
-            },
-            {
-              "market_id": "645627",
-              "slug": "nhl-2025-26-james-norris-memorial-trophy-jackson-lacombe",
-              "question": "Will Jackson LaCombe win the 2025\u20132026 NHL James Norris Memorial Trophy?",
-              "yes_price": 0.0005,
-              "volume": 1550
-            },
-            {
-              "market_id": "645636",
-              "slug": "nhl-2025-26-james-norris-memorial-trophy-cam-fowler",
-              "question": "Will Cam Fowler win the 2025\u20132026 NHL James Norris Memorial Trophy?",
-              "yes_price": 0.0005,
-              "volume": 1578
-            },
-            {
-              "market_id": "645639",
-              "slug": "nhl-2025-26-james-norris-memorial-trophy-mike-matheson",
-              "question": "Will Mike Matheson win the 2025\u20132026 NHL James Norris Memorial Trophy?",
-              "yes_price": 0.0005,
-              "volume": 1625
-            },
-            {
-              "market_id": "645666",
-              "slug": "nhl-2025-26-james-norris-memorial-trophy-owen-power",
-              "question": "Will Owen Power win the 2025\u20132026 NHL James Norris Memorial Trophy?",
-              "yes_price": 0.0005,
-              "volume": 1569
-            },
-            {
-              "market_id": "645637",
-              "slug": "nhl-2025-26-james-norris-memorial-trophy-philip-broberg",
-              "question": "Will Philip Broberg win the 2025\u20132026 NHL James Norris Memorial Trophy?",
-              "yes_price": 0.0005,
-              "volume": 1648
-            },
-            {
-              "market_id": "645654",
-              "slug": "nhl-2025-26-james-norris-memorial-trophy-aaron-ekblad",
-              "question": "Will Aaron Ekblad win the 2025\u20132026 NHL James Norris Memorial Trophy?",
-              "yes_price": 0.0005,
-              "volume": 1644
-            },
-            {
-              "market_id": "645656",
-              "slug": "nhl-2025-26-james-norris-memorial-trophy-kris-letang",
-              "question": "Will Kris Letang win the 2025\u20132026 NHL James Norris Memorial Trophy?",
-              "yes_price": 0.0005,
-              "volume": 1511
-            },
-            {
-              "market_id": "645671",
-              "slug": "nhl-2025-26-james-norris-memorial-trophy-mason-lohrei",
-              "question": "Will Mason Lohrei win the 2025\u20132026 NHL James Norris Memorial Trophy?",
-              "yes_price": 0.0005,
-              "volume": 1749
-            },
-            {
-              "market_id": "645674",
-              "slug": "nhl-2025-26-james-norris-memorial-trophy-mackenzie-weegar",
-              "question": "Will MacKenzie Weegar win the 2025\u20132026 NHL James Norris Memorial Trophy?",
-              "yes_price": 0.0005,
-              "volume": 1499
-            },
-            {
-              "market_id": "645635",
-              "slug": "nhl-2025-26-james-norris-memorial-trophy-alex-vlasic",
-              "question": "Will Alex Vlasic win the 2025\u20132026 NHL James Norris Memorial Trophy?",
-              "yes_price": 0.0005,
-              "volume": 2145
-            },
-            {
-              "market_id": "645665",
-              "slug": "nhl-2025-26-james-norris-memorial-trophy-noah-hanifin",
-              "question": "Will Noah Hanifin win the 2025\u20132026 NHL James Norris Memorial Trophy?",
-              "yes_price": 0.0005,
-              "volume": 1235
-            },
-            {
-              "market_id": "645623",
-              "slug": "nhl-2025-26-james-norris-memorial-trophy-luke-hughes",
-              "question": "Will Luke Hughes win the 2025\u20132026 NHL James Norris Memorial Trophy?",
-              "yes_price": 0.0005,
-              "volume": 1764
-            },
-            {
-              "market_id": "645624",
-              "slug": "nhl-2025-26-james-norris-memorial-trophy-noah-dobson",
-              "question": "Will Noah Dobson win the 2025\u20132026 NHL James Norris Memorial Trophy?",
-              "yes_price": 0.0005,
-              "volume": 1615
-            },
-            {
-              "market_id": "645676",
-              "slug": "nhl-2025-26-james-norris-memorial-trophy-erik-karlsson",
-              "question": "Will Erik Karlsson win the 2025\u20132026 NHL James Norris Memorial Trophy?",
-              "yes_price": 0.0005,
-              "volume": 1327
-            },
-            {
-              "market_id": "645649",
-              "slug": "nhl-2025-26-james-norris-memorial-trophy-brandon-montour",
-              "question": "Will Brandon Montour win the 2025\u20132026 NHL James Norris Memorial Trophy?",
-              "yes_price": 0.0005,
-              "volume": 1866
-            },
-            {
-              "market_id": "645662",
-              "slug": "nhl-2025-26-james-norris-memorial-trophy-shayne-gostisbehere",
-              "question": "Will Shayne Gostisbehere win the 2025\u20132026 NHL James Norris Memorial Trophy?",
-              "yes_price": 0.0005,
-              "volume": 1488
+              "volume": 55680
             }
           ],
-          "url": "https://polymarket.com/event/nhl-2025-26-james-norris-memorial-trophy",
-          "strategy": "Buy YES on all 43 outcomes. Total cost: $0.9060. One wins $1.00. Profit: $0.0940 (9.40%)"
+          "url": "https://polymarket.com/event/lol-lpl-2026-season-winner",
+          "strategy": "Buy YES on all 15 outcomes. Total cost: $0.9040. One wins $1.00. Profit: $0.0960 (9.60%)"
         },
         {
-          "event_title": "Will Opensea launch a token by ___?",
-          "event_slug": "will-opensea-launch-a-token-by-142",
-          "yes_sum": 0.9095,
-          "profit_pct": 9.05,
-          "profit_per_dollar_pct": 9.95,
-          "num_outcomes": 4,
+          "event_title": "Highest temperature in Chengdu on April 12?",
+          "event_slug": "highest-temperature-in-chengdu-on-april-12-2026",
+          "yes_sum": 0.904,
+          "profit_pct": 9.6,
+          "profit_per_dollar_pct": 10.62,
+          "num_outcomes": 9,
           "outcomes": [
             {
-              "market_id": "1271613",
-              "slug": "will-opensea-launch-a-token-by-december-31-2026",
-              "question": "Will OpenSea launch a token by December 31, 2026?",
-              "yes_price": 0.6065,
-              "volume": 94854
+              "market_id": "1915118",
+              "slug": "highest-temperature-in-chengdu-on-april-12-2026-24corhigher",
+              "question": "Will the highest temperature in Chengdu be 24\u00b0C or higher on April 12?",
+              "yes_price": 0.655,
+              "volume": 3232
             },
             {
-              "market_id": "1271612",
-              "slug": "will-opensea-launch-a-token-by-september-30-2026",
-              "question": "Will OpenSea launch a token by September 30, 2026?",
-              "yes_price": 0.235,
-              "volume": 66037
+              "market_id": "1915117",
+              "slug": "highest-temperature-in-chengdu-on-april-12-2026-23c",
+              "question": "Will the highest temperature in Chengdu be 23\u00b0C on April 12?",
+              "yes_price": 0.2,
+              "volume": 1781
             },
             {
-              "market_id": "1271611",
-              "slug": "will-opensea-launch-a-token-by-june-30-2026",
-              "question": "Will OpenSea launch a token by June 30, 2026?",
-              "yes_price": 0.068,
-              "volume": 188289
+              "market_id": "1915115",
+              "slug": "highest-temperature-in-chengdu-on-april-12-2026-21c",
+              "question": "Will the highest temperature in Chengdu be 21\u00b0C on April 12?",
+              "yes_price": 0.0345,
+              "volume": 1297
             },
             {
-              "market_id": "1271610",
-              "slug": "will-opensea-launch-a-token-by-march-31-2026",
-              "question": "Will OpenSea launch a token by March 31, 2026?",
-              "yes_price": 0.0,
-              "volume": 1030401
+              "market_id": "1915114",
+              "slug": "highest-temperature-in-chengdu-on-april-12-2026-20c",
+              "question": "Will the highest temperature in Chengdu be 20\u00b0C on April 12?",
+              "yes_price": 0.0085,
+              "volume": 2128
+            },
+            {
+              "market_id": "1915113",
+              "slug": "highest-temperature-in-chengdu-on-april-12-2026-19c",
+              "question": "Will the highest temperature in Chengdu be 19\u00b0C on April 12?",
+              "yes_price": 0.0035,
+              "volume": 2384
+            },
+            {
+              "market_id": "1915110",
+              "slug": "highest-temperature-in-chengdu-on-april-12-2026-16c",
+              "question": "Will the highest temperature in Chengdu be 16\u00b0C on April 12?",
+              "yes_price": 0.001,
+              "volume": 1583
+            },
+            {
+              "market_id": "1915108",
+              "slug": "highest-temperature-in-chengdu-on-april-12-2026-14corbelow",
+              "question": "Will the highest temperature in Chengdu be 14\u00b0C or below on April 12?",
+              "yes_price": 0.0005,
+              "volume": 1125
+            },
+            {
+              "market_id": "1915109",
+              "slug": "highest-temperature-in-chengdu-on-april-12-2026-15c",
+              "question": "Will the highest temperature in Chengdu be 15\u00b0C on April 12?",
+              "yes_price": 0.0005,
+              "volume": 1808
+            },
+            {
+              "market_id": "1915112",
+              "slug": "highest-temperature-in-chengdu-on-april-12-2026-18c",
+              "question": "Will the highest temperature in Chengdu be 18\u00b0C on April 12?",
+              "yes_price": 0.0005,
+              "volume": 4029
             }
           ],
-          "url": "https://polymarket.com/event/will-opensea-launch-a-token-by-142",
-          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9095. One wins $1.00. Profit: $0.0905 (9.05%)"
+          "url": "https://polymarket.com/event/highest-temperature-in-chengdu-on-april-12-2026",
+          "strategy": "Buy YES on all 9 outcomes. Total cost: $0.9040. One wins $1.00. Profit: $0.0960 (9.60%)"
         }
       ],
       "stats": {
         "total_events": 3000,
-        "checked_multi_outcome": 2029,
-        "skipped_single_outcome": 598,
-        "opportunities_found": 135,
+        "checked_multi_outcome": 2033,
+        "skipped_single_outcome": 594,
+        "opportunities_found": 154,
         "best_profit_pct": 10.0,
-        "scanned_at": "2026-04-11 14:18 UTC"
+        "scanned_at": "2026-04-11 14:50 UTC"
       }
     },
     {
