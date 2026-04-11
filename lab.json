@@ -8,9 +8,9 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 138 categorical arb opportunities found\nScanned 3000 events (2001 multi-outcome) at 2026-04-11 12:12 UTC\nBest: 9.95% profit on 'Michigan Governor Republican Primary Winner' \u2014 buy YES on all 4 outcomes (sum=0.9005)\nStrategy: Buy YES on all 4 outcomes. Total cost: $0.9005. One wins $1.00. Profit: $0.0995 (9.95%)\n2nd: 9.9% on 'Sachsen-Anhalt Parliamentary Elections: 2nd Place'",
+      "result": "LIVE \u2014 134 categorical arb opportunities found\nScanned 3000 events (2006 multi-outcome) at 2026-04-11 12:42 UTC\nBest: 9.95% profit on 'Michigan Governor Republican Primary Winner' \u2014 buy YES on all 4 outcomes (sum=0.9005)\nStrategy: Buy YES on all 4 outcomes. Total cost: $0.9005. One wins $1.00. Profit: $0.0995 (9.95%)\n2nd: 9.9% on 'Sachsen-Anhalt Parliamentary Elections: 2nd Place'",
       "priority": "HIGH",
-      "last_scan": "2026-04-11 12:12 UTC",
+      "last_scan": "2026-04-11 12:42 UTC",
       "opportunities": [
         {
           "event_title": "Michigan Governor Republican Primary Winner",
@@ -86,37 +86,58 @@
           "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9010. One wins $1.00. Profit: $0.0990 (9.90%)"
         },
         {
-          "event_title": "Who will be UFC Welterweight champion at the end of 2026?",
-          "event_slug": "who-will-be-ufc-welterweight-champion-at-the-end-of-2026",
-          "yes_sum": 0.9015,
-          "profit_pct": 9.85,
-          "profit_per_dollar_pct": 10.93,
-          "num_outcomes": 3,
+          "event_title": "April 2026 Temperature Increase (\u00baC)",
+          "event_slug": "april-2026-temperature-increase-c",
+          "yes_sum": 0.903,
+          "profit_pct": 9.7,
+          "profit_per_dollar_pct": 10.74,
+          "num_outcomes": 6,
           "outcomes": [
             {
-              "market_id": "1090024",
-              "slug": "will-islam-makhachev-be-the-ufc-welterweight-champion-on-december-31-2026",
-              "question": "Will Islam Makhachev be the UFC Welterweight Champion on December 31, 2026?",
-              "yes_price": 0.765,
-              "volume": 3908
+              "market_id": "1694906",
+              "slug": "will-global-temperature-increase-by-between-1pt20c-and-1pt24c-in-april-2026",
+              "question": "Will global temperature increase by between 1.20\u00baC and 1.24\u00baC in April 2026?",
+              "yes_price": 0.295,
+              "volume": 7205
             },
             {
-              "market_id": "1090027",
-              "slug": "will-ian-machado-garry-be-the-ufc-welterweight-champion-on-december-31-2026",
-              "question": "Will Ian Machado Garry be the UFC Welterweight Champion on December 31, 2026?",
-              "yes_price": 0.12,
-              "volume": 1320
+              "market_id": "1694905",
+              "slug": "will-global-temperature-increase-by-between-1pt15c-and-1pt19c-in-april-2026",
+              "question": "Will global temperature increase by between 1.15\u00baC and 1.19\u00baC in April 2026?",
+              "yes_price": 0.245,
+              "volume": 5573
             },
             {
-              "market_id": "1090025",
-              "slug": "will-jack-della-maddalena-be-the-ufc-welterweight-champion-on-december-31-2026",
-              "question": "Will Jack Della Maddalena be the UFC Welterweight Champion on December 31, 2026?",
-              "yes_price": 0.0165,
-              "volume": 1318
+              "market_id": "1694907",
+              "slug": "will-global-temperature-increase-by-between-1pt25c-and-1pt29c-in-april-2026",
+              "question": "Will global temperature increase by between 1.25\u00baC and 1.29\u00baC in April 2026?",
+              "yes_price": 0.13,
+              "volume": 15464
+            },
+            {
+              "market_id": "1694904",
+              "slug": "will-global-temperature-increase-by-between-1pt10c-and-1pt14c-in-april-2026",
+              "question": "Will global temperature increase by between 1.10\u00baC and 1.14\u00baC in April 2026?",
+              "yes_price": 0.13,
+              "volume": 3733
+            },
+            {
+              "market_id": "1694903",
+              "slug": "will-global-temperature-increase-by-less-than-1pt10c-in-april-2026",
+              "question": "Will global temperature increase by less than 1.10\u00baC in April 2026?",
+              "yes_price": 0.058,
+              "volume": 22876
+            },
+            {
+              "market_id": "1694908",
+              "slug": "will-global-temperature-increase-by-more-than-1pt29c-in-april-2026",
+              "question": "Will global temperature increase by more than 1.29\u00baC in April 2026?",
+              "yes_price": 0.045,
+              "volume": 7974
             }
           ],
-          "url": "https://polymarket.com/event/who-will-be-ufc-welterweight-champion-at-the-end-of-2026",
-          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9015. One wins $1.00. Profit: $0.0985 (9.85%)"
+          "url": "https://polymarket.com/event/april-2026-temperature-increase-c",
+          "strategy": "Buy YES on all 6 outcomes. Total cost: $0.9030. One wins $1.00. Profit: $0.0970 (9.70%)"
         },
         {
           "event_title": "Will Russia capture Lyman by...?",
@@ -138,14 +159,14 @@
               "slug": "will-russia-capture-lyman-by-june-30-2026-413",
               "question": "Will Russia capture Lyman by June 30, 2026?",
               "yes_price": 0.215,
-              "volume": 131301
+              "volume": 131406
             },
             {
               "market_id": "1397302",
               "slug": "will-russia-capture-lyman-by-april-30-2026",
               "question": "Will Russia capture Lyman by April 30, 2026?",
               "yes_price": 0.0335,
-              "volume": 145898
+              "volume": 146364
             },
             {
               "market_id": "566493",
@@ -185,6 +206,67 @@
           ],
           "url": "https://polymarket.com/event/will-russia-capture-lyman-in-2025",
           "strategy": "Buy YES on all 8 outcomes. Total cost: $0.9035. One wins $1.00. Profit: $0.0965 (9.65%)"
+        },
+        {
+          "event_title": "How many Republican Senators not running in 2026?",
+          "event_slug": "how-many-republican-senators-not-running-in-2026",
+          "yes_sum": 0.904,
+          "profit_pct": 9.6,
+          "profit_per_dollar_pct": 10.62,
+          "num_outcomes": 7,
+          "outcomes": [
+            {
+              "market_id": "909079",
+              "slug": "will-the-number-of-republican-senate-members-who-retire-in-2026-be-exactly-7-546",
+              "question": "Will the number of Republican Senate members who retire in 2026 be exactly 7?",
+              "yes_price": 0.585,
+              "volume": 2049
+            },
+            {
+              "market_id": "909078",
+              "slug": "will-the-number-of-republican-senate-members-who-retire-in-2026-be-exactly-6-462",
+              "question": "Will the number of Republican Senate members who retire in 2026 be exactly 6?",
+              "yes_price": 0.095,
+              "volume": 26136
+            },
+            {
+              "market_id": "909077",
+              "slug": "will-the-number-of-republican-senate-members-who-retire-in-2026-be-less-than-5",
+              "question": "Will the number of Republican Senate members who retire in 2026 be less than 5?",
+              "yes_price": 0.093,
+              "volume": 19349
+            },
+            {
+              "market_id": "923035",
+              "slug": "will-the-number-of-republican-senate-members-who-retire-in-2026-be-exactly-5",
+              "question": "Will the number of Republican Senate members who retire in 2026 be exactly 5?",
+              "yes_price": 0.0915,
+              "volume": 15338
+            },
+            {
+              "market_id": "909082",
+              "slug": "will-the-number-of-republican-senate-members-who-retire-in-2026-be-exactly-10-938",
+              "question": "Will the number of Republican Senate members who retire in 2026 be exactly 10?",
+              "yes_price": 0.0155,
+              "volume": 1222
+            },
+            {
+              "market_id": "909081",
+              "slug": "will-the-number-of-republican-senate-members-who-retire-in-2026-be-exactly-9-466",
+              "question": "Will the number of Republican Senate members who retire in 2026 be exactly 9?",
+              "yes_price": 0.0125,
+              "volume": 1191
+            },
+            {
+              "market_id": "909083",
+              "slug": "will-the-number-of-republican-senate-members-who-retire-in-2026-be-12-or-more-926",
+              "question": "Will the number of Republican Senate members who retire in 2026 be 12 or more?",
+              "yes_price": 0.0115,
+              "volume": 4291
+            }
+          ],
+          "url": "https://polymarket.com/event/how-many-republican-senators-not-running-in-2026",
+          "strategy": "Buy YES on all 7 outcomes. Total cost: $0.9040. One wins $1.00. Profit: $0.0960 (9.60%)"
         },
         {
           "event_title": "Will Israel launch a major ground offensive in Gaza by...?",
@@ -234,171 +316,208 @@
           "strategy": "Buy YES on all 5 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
         },
         {
-          "event_title": "South Carolina Governor Democratic Primary Winner",
-          "event_slug": "south-carolina-governor-democratic-primary-winner",
+          "event_title": "Which film will get the most Oscar nominations at the 99th Academy Awards?",
+          "event_slug": "which-film-will-get-the-most-oscar-nominations-at-the-99th-academy-awards",
           "yes_sum": 0.905,
           "profit_pct": 9.5,
           "profit_per_dollar_pct": 10.5,
-          "num_outcomes": 2,
+          "num_outcomes": 6,
           "outcomes": [
             {
-              "market_id": "906912",
-              "slug": "will-jermaine-johnson-win-the-2026-south-carolina-governor-democratic-primary-election",
-              "question": "Will Jermaine Johnson win the 2026 South Carolina Governor Democratic primary el",
-              "yes_price": 0.785,
-              "volume": 7064
+              "market_id": "1321500",
+              "slug": "will-the-odyssey-get-the-most-oscar-nominations-at-the-99th-academy-awards",
+              "question": "Will The Odyssey get the most Oscar nominations at the 99th Academy Awards?",
+              "yes_price": 0.51,
+              "volume": 3870
             },
             {
-              "market_id": "906913",
-              "slug": "will-mullins-mcleod-win-the-2026-south-carolina-governor-democratic-primary-election",
-              "question": "Will Mullins McLeod win the 2026 South Carolina Governor Democratic primary elec",
-              "yes_price": 0.12,
-              "volume": 3289
+              "market_id": "1321503",
+              "slug": "will-dune-messiah-get-the-most-oscar-nominations-at-the-99th-academy-awards",
+              "question": "Will Dune: Messiah get the most Oscar nominations at the 99th Academy Awards?",
+              "yes_price": 0.135,
+              "volume": 2390
+            },
+            {
+              "market_id": "1321499",
+              "slug": "will-disclosure-day-get-the-most-oscar-nominations-at-the-99th-academy-awards",
+              "question": "Will Disclosure Day get the most Oscar nominations at the 99th Academy Awards?",
+              "yes_price": 0.105,
+              "volume": 1980
+            },
+            {
+              "market_id": "1321501",
+              "slug": "will-wuthering-heights-get-the-most-oscar-nominations-at-the-99th-academy-awards",
+              "question": "Will Wuthering Heights get the most Oscar nominations at the 99th Academy Awards",
+              "yes_price": 0.076,
+              "volume": 1337
+            },
+            {
+              "market_id": "1321498",
+              "slug": "will-project-hail-mary-get-the-most-oscar-nominations-at-the-99th-academy-awards",
+              "question": "Will Project Hail Mary get the most Oscar nominations at the 99th Academy Awards",
+              "yes_price": 0.0665,
+              "volume": 1974
+            },
+            {
+              "market_id": "1321502",
+              "slug": "will-the-bride-get-the-most-oscar-nominations-at-the-99th-academy-awards",
+              "question": "Will The Bride! get the most Oscar nominations at the 99th Academy Awards?",
+              "yes_price": 0.0125,
+              "volume": 1218
             }
           ],
-          "url": "https://polymarket.com/event/south-carolina-governor-democratic-primary-winner",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
+          "url": "https://polymarket.com/event/which-film-will-get-the-most-oscar-nominations-at-the-99th-academy-awards",
+          "strategy": "Buy YES on all 6 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
         },
         {
-          "event_title": "UEFA Europa Conference League: Most Goal Contributions",
-          "event_slug": "uefa-europa-conference-league-most-goal-contributions",
-          "yes_sum": 0.9055,
-          "profit_pct": 9.45,
-          "profit_per_dollar_pct": 10.44,
+          "event_title": "Colorado Republican Senate Primary Winner",
+          "event_slug": "colorado-republican-senate-primary-winner",
+          "yes_sum": 0.905,
+          "profit_pct": 9.5,
+          "profit_per_dollar_pct": 10.5,
           "num_outcomes": 4,
           "outcomes": [
             {
-              "market_id": "1429286",
-              "slug": "will-ismala-sarr-record-the-most-goal-contributions-in-the-2025-26-uefa-europa-conference-league",
-              "question": "Will Isma\u00efla Sarr record the most goal contributions in the 2025-26 UEFA Europa ",
-              "yes_price": 0.425,
-              "volume": 3224
+              "market_id": "679608",
+              "slug": "will-mark-baisley-be-the-republican-nominee-for-senate-in-colorado",
+              "question": "Will Mark Baisley be the Republican nominee for Senate in Colorado?",
+              "yes_price": 0.445,
+              "volume": 7078
             },
             {
-              "market_id": "1429289",
-              "slug": "will-isak-jensen-record-the-most-goal-contributions-in-the-2025-26-uefa-europa-conference-league",
-              "question": "Will Isak Jensen record the most goal contributions in the 2025-26 UEFA Europa C",
-              "yes_price": 0.25,
-              "volume": 13277
-            },
-            {
-              "market_id": "1429278",
-              "slug": "will-lvaro-garca-record-the-most-goal-contributions-in-the-2025-26-uefa-europa-conference-league",
-              "question": "Will \u00c1lvaro Garc\u00eda record the most goal contributions in the 2025-26 UEFA Europa",
+              "market_id": "679606",
+              "slug": "will-janak-joshi-be-the-republican-nominee-for-senate-in-colorado",
+              "question": "Will Janak Joshi be the Republican nominee for Senate in Colorado?",
               "yes_price": 0.19,
-              "volume": 18821
+              "volume": 1774
             },
             {
-              "market_id": "1429283",
-              "slug": "will-aboubakary-koita-record-the-most-goal-contributions-in-the-2025-26-uefa-europa-conference-league",
-              "question": "Will Aboubakary Koita record the most goal contributions in the 2025-26 UEFA Eur",
-              "yes_price": 0.0405,
-              "volume": 6201
+              "market_id": "679605",
+              "slug": "will-dathan-jones-be-the-republican-nominee-for-senate-in-colorado",
+              "question": "Will Dathan Jones be the Republican nominee for Senate in Colorado?",
+              "yes_price": 0.15,
+              "volume": 1160
+            },
+            {
+              "market_id": "679607",
+              "slug": "will-george-washington-markert-be-the-republican-nominee-for-senate-in-colorado",
+              "question": "Will George Washington Markert be the Republican nominee for Senate in Colorado?",
+              "yes_price": 0.12,
+              "volume": 2281
             }
           ],
-          "url": "https://polymarket.com/event/uefa-europa-conference-league-most-goal-contributions",
-          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9055. One wins $1.00. Profit: $0.0945 (9.45%)"
+          "url": "https://polymarket.com/event/colorado-republican-senate-primary-winner",
+          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
         },
         {
-          "event_title": "Will USDT market cap hit $200B by ___?",
-          "event_slug": "will-usdt-market-cap-hit-by-december-31",
-          "yes_sum": 0.908,
-          "profit_pct": 9.2,
-          "profit_per_dollar_pct": 10.13,
-          "num_outcomes": 2,
+          "event_title": "Avg. # of ships transiting Strait of Hormuz end of April?",
+          "event_slug": "avg-of-ships-transiting-strait-of-hormuz-end-of-april",
+          "yes_sum": 0.9065,
+          "profit_pct": 9.35,
+          "profit_per_dollar_pct": 10.31,
+          "num_outcomes": 7,
           "outcomes": [
             {
-              "market_id": "1068728",
-              "slug": "will-usdt-market-cap-hit-200b-before-2027",
-              "question": "Will USDT market cap hit $200B before 2027?",
-              "yes_price": 0.908,
-              "volume": 143324
+              "market_id": "1704815",
+              "slug": "will-there-be-between-0-and-10-average-daily-transits-of-the-strait-of-hormuz-on-april-30-753",
+              "question": "Will there be between 0 and 10 average daily transits of the Strait of Hormuz on",
+              "yes_price": 0.365,
+              "volume": 22395
             },
             {
-              "market_id": "569994",
-              "slug": "will-usdt-market-cap-hit-by-december-31",
-              "question": "Will USDT market cap hit $200B by December 31?",
-              "yes_price": 0.0,
-              "volume": 39278
+              "market_id": "1704816",
+              "slug": "will-there-be-between-10-and-20-average-daily-transits-of-the-strait-of-hormuz-on-april-30-633",
+              "question": "Will there be between 10 and 20 average daily transits of the Strait of Hormuz o",
+              "yes_price": 0.1375,
+              "volume": 10113
+            },
+            {
+              "market_id": "1704821",
+              "slug": "will-there-be-60-or-more-average-daily-transits-of-the-strait-of-hormuz-on-april-30-965",
+              "question": "Will there be 60 or more average daily transits of the Strait of Hormuz on April",
+              "yes_price": 0.13,
+              "volume": 23851
+            },
+            {
+              "market_id": "1704818",
+              "slug": "will-there-be-between-30-and-40-average-daily-transits-of-the-strait-of-hormuz-on-april-30-332",
+              "question": "Will there be between 30 and 40 average daily transits of the Strait of Hormuz o",
+              "yes_price": 0.0835,
+              "volume": 8294
+            },
+            {
+              "market_id": "1704820",
+              "slug": "will-there-be-between-50-and-60-average-daily-transits-of-the-strait-of-hormuz-on-april-30-215",
+              "question": "Will there be between 50 and 60 average daily transits of the Strait of Hormuz o",
+              "yes_price": 0.081,
+              "volume": 7329
+            },
+            {
+              "market_id": "1704817",
+              "slug": "will-there-be-between-20-and-30-average-daily-transits-of-the-strait-of-hormuz-on-april-30-234",
+              "question": "Will there be between 20 and 30 average daily transits of the Strait of Hormuz o",
+              "yes_price": 0.0605,
+              "volume": 8791
+            },
+            {
+              "market_id": "1704819",
+              "slug": "will-there-be-between-40-and-50-average-daily-transits-of-the-strait-of-hormuz-on-april-30-318",
+              "question": "Will there be between 40 and 50 average daily transits of the Strait of Hormuz o",
+              "yes_price": 0.049,
+              "volume": 7158
             }
           ],
-          "url": "https://polymarket.com/event/will-usdt-market-cap-hit-by-december-31",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9080. One wins $1.00. Profit: $0.0920 (9.20%)"
+          "url": "https://polymarket.com/event/avg-of-ships-transiting-strait-of-hormuz-end-of-april",
+          "strategy": "Buy YES on all 7 outcomes. Total cost: $0.9065. One wins $1.00. Profit: $0.0935 (9.35%)"
         },
         {
-          "event_title": "Will Opensea launch a token by ___?",
-          "event_slug": "will-opensea-launch-a-token-by-142",
-          "yes_sum": 0.909,
-          "profit_pct": 9.1,
-          "profit_per_dollar_pct": 10.01,
+          "event_title": "Who will be UFC Light Heavyweight champion at the end of 2026?",
+          "event_slug": "who-will-be-ufc-light-heavyweight-champion-at-the-end-of-2026",
+          "yes_sum": 0.907,
+          "profit_pct": 9.3,
+          "profit_per_dollar_pct": 10.25,
           "num_outcomes": 4,
           "outcomes": [
             {
-              "market_id": "1271613",
-              "slug": "will-opensea-launch-a-token-by-december-31-2026",
-              "question": "Will OpenSea launch a token by December 31, 2026?",
-              "yes_price": 0.6065,
-              "volume": 94854
+              "market_id": "1090072",
+              "slug": "will-carlos-ulberg-be-the-ufc-light-heavyweight-champion-on-december-31-2026",
+              "question": "Will Carlos Ulberg be the UFC Light Heavyweight Champion on December 31, 2026?",
+              "yes_price": 0.32,
+              "volume": 1963
             },
             {
-              "market_id": "1271612",
-              "slug": "will-opensea-launch-a-token-by-september-30-2026",
-              "question": "Will OpenSea launch a token by September 30, 2026?",
-              "yes_price": 0.235,
-              "volume": 66037
+              "market_id": "1090070",
+              "slug": "will-ji-prochzka-be-the-ufc-light-heavyweight-champion-on-december-31-2026",
+              "question": "Will Ji\u0159\u00ed Proch\u00e1zka be the UFC Light Heavyweight Champion on December 31, 2026?",
+              "yes_price": 0.25,
+              "volume": 2299
             },
             {
-              "market_id": "1271611",
-              "slug": "will-opensea-launch-a-token-by-june-30-2026",
-              "question": "Will OpenSea launch a token by June 30, 2026?",
-              "yes_price": 0.0675,
-              "volume": 188289
+              "market_id": "1090078",
+              "slug": "will-dominick-reyes-be-the-ufc-light-heavyweight-champion-on-december-31-2026",
+              "question": "Will Dominick Reyes be the UFC Light Heavyweight Champion on December 31, 2026?",
+              "yes_price": 0.172,
+              "volume": 6452
             },
             {
-              "market_id": "1271610",
-              "slug": "will-opensea-launch-a-token-by-march-31-2026",
-              "question": "Will OpenSea launch a token by March 31, 2026?",
-              "yes_price": 0.0,
-              "volume": 1030401
+              "market_id": "1090069",
+              "slug": "will-alex-pereira-be-the-ufc-light-heavyweight-champion-on-december-31-2026",
+              "question": "Will Alex Pereira be the UFC Light Heavyweight Champion on December 31, 2026?",
+              "yes_price": 0.165,
+              "volume": 3209
             }
           ],
-          "url": "https://polymarket.com/event/will-opensea-launch-a-token-by-142",
-          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9090. One wins $1.00. Profit: $0.0910 (9.10%)"
-        },
-        {
-          "event_title": "Shanghai Shenhua FC vs. Liaoning Tieren FC - More Markets",
-          "event_slug": "chi-sgr-tie-2026-04-18-more-markets",
-          "yes_sum": 0.91,
-          "profit_pct": 9.0,
-          "profit_per_dollar_pct": 9.89,
-          "num_outcomes": 2,
-          "outcomes": [
-            {
-              "market_id": "1683329",
-              "slug": "chi-sgr-tie-2026-04-18-total-2pt5",
-              "question": "Shanghai Shenhua FC vs. Liaoning Tieren FC: O/U 2.5",
-              "yes_price": 0.495,
-              "volume": 22933
-            },
-            {
-              "market_id": "1683333",
-              "slug": "chi-sgr-tie-2026-04-18-total-3pt5",
-              "question": "Shanghai Shenhua FC vs. Liaoning Tieren FC: O/U 3.5",
-              "yes_price": 0.415,
-              "volume": 2849
-            }
-          ],
-          "url": "https://polymarket.com/event/chi-sgr-tie-2026-04-18-more-markets",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9100. One wins $1.00. Profit: $0.0900 (9.00%)"
+          "url": "https://polymarket.com/event/who-will-be-ufc-light-heavyweight-champion-at-the-end-of-2026",
+          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9070. One wins $1.00. Profit: $0.0930 (9.30%)"
         }
       ],
       "stats": {
         "total_events": 3000,
-        "checked_multi_outcome": 2001,
-        "skipped_single_outcome": 599,
-        "opportunities_found": 138,
+        "checked_multi_outcome": 2006,
+        "skipped_single_outcome": 600,
+        "opportunities_found": 134,
         "best_profit_pct": 9.95,
-        "scanned_at": "2026-04-11 12:12 UTC"
+        "scanned_at": "2026-04-11 12:42 UTC"
       }
     },
     {
