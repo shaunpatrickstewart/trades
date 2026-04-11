@@ -8,9 +8,9 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 152 categorical arb opportunities found\nScanned 3000 events (2047 multi-outcome) at 2026-04-11 15:38 UTC\nBest: 10.0% profit on 'TX-23 House Election Winner' \u2014 buy YES on all 2 outcomes (sum=0.9)\nStrategy: Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 10.0% on 'MN-02 Republican Primary Winner'",
+      "result": "LIVE \u2014 149 categorical arb opportunities found\nScanned 3000 events (2045 multi-outcome) at 2026-04-11 15:46 UTC\nBest: 10.0% profit on 'TX-23 House Election Winner' \u2014 buy YES on all 2 outcomes (sum=0.9)\nStrategy: Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 10.0% on 'MN-02 Republican Primary Winner'",
       "priority": "HIGH",
-      "last_scan": "2026-04-11 15:38 UTC",
+      "last_scan": "2026-04-11 15:46 UTC",
       "opportunities": [
         {
           "event_title": "TX-23 House Election Winner",
@@ -65,102 +65,6 @@
           "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
         },
         {
-          "event_title": "AZ-01 Republican Primary Winner",
-          "event_slug": "az-01-republican-primary-winner",
-          "yes_sum": 0.901,
-          "profit_pct": 9.9,
-          "profit_per_dollar_pct": 10.99,
-          "num_outcomes": 12,
-          "outcomes": [
-            {
-              "market_id": "704348",
-              "slug": "will-jay-feely-be-the-republican-nominee-for-az-01",
-              "question": "Will Jay Feely be the Republican nominee for AZ-01?",
-              "yes_price": 0.695,
-              "volume": 4681
-            },
-            {
-              "market_id": "704343",
-              "slug": "will-joseph-chaplik-be-the-republican-nominee-for-az-01",
-              "question": "Will Joseph Chaplik be the Republican nominee for AZ-01?",
-              "yes_price": 0.0785,
-              "volume": 8138
-            },
-            {
-              "market_id": "704345",
-              "slug": "will-todd-graham-be-the-republican-nominee-for-az-01",
-              "question": "Will Todd Graham be the Republican nominee for AZ-01?",
-              "yes_price": 0.055,
-              "volume": 7582
-            },
-            {
-              "market_id": "704346",
-              "slug": "will-mark-brnovich-be-the-republican-nominee-for-az-01",
-              "question": "Will Mark Brnovich be the Republican nominee for AZ-01?",
-              "yes_price": 0.0145,
-              "volume": 4365
-            },
-            {
-              "market_id": "704349",
-              "slug": "will-derrick-gallego-be-the-republican-nominee-for-az-01-424",
-              "question": "Will Derrick Gallego be the Republican nominee for AZ-01?",
-              "yes_price": 0.014,
-              "volume": 3463
-            },
-            {
-              "market_id": "704347",
-              "slug": "will-kari-lake-be-the-republican-nominee-for-az-01",
-              "question": "Will Kari Lake be the Republican nominee for AZ-01?",
-              "yes_price": 0.0135,
-              "volume": 6398
-            },
-            {
-              "market_id": "704341",
-              "slug": "will-matt-gress-be-the-republican-nominee-for-az-01",
-              "question": "Will Matt Gress be the Republican nominee for AZ-01?",
-              "yes_price": 0.007,
-              "volume": 47835
-            },
-            {
-              "market_id": "704351",
-              "slug": "will-paul-reevs-be-the-republican-nominee-for-az-01",
-              "question": "Will Paul Reevs be the Republican nominee for AZ-01?",
-              "yes_price": 0.0065,
-              "volume": 222106
-            },
-            {
-              "market_id": "704350",
-              "slug": "will-kaitlin-purrington-be-the-republican-nominee-for-az-01",
-              "question": "Will Kaitlin Purrington be the Republican nominee for AZ-01?",
-              "yes_price": 0.005,
-              "volume": 8235
-            },
-            {
-              "market_id": "704352",
-              "slug": "will-brandon-sowers-be-the-republican-nominee-for-az-01-218",
-              "question": "Will Brandon Sowers be the Republican nominee for AZ-01?",
-              "yes_price": 0.005,
-              "volume": 10660
-            },
-            {
-              "market_id": "704353",
-              "slug": "will-john-trobough-be-the-republican-nominee-for-az-01-622",
-              "question": "Will John Trobough be the Republican nominee for AZ-01?",
-              "yes_price": 0.0035,
-              "volume": 1910
-            },
-            {
-              "market_id": "704344",
-              "slug": "will-muchelle-ugenti-rita-be-the-republican-nominee-for-az-01",
-              "question": "Will Muchelle Ugenti-Rita be the Republican nominee for AZ-01?",
-              "yes_price": 0.0035,
-              "volume": 4221
-            }
-          ],
-          "url": "https://polymarket.com/event/az-01-republican-primary-winner",
-          "strategy": "Buy YES on all 12 outcomes. Total cost: $0.9010. One wins $1.00. Profit: $0.0990 (9.90%)"
-        },
-        {
           "event_title": "Sachsen-Anhalt Parliamentary Elections: 2nd Place",
           "event_slug": "sachsen-anhalt-parliamentary-elections-2nd-place",
           "yes_sum": 0.901,
@@ -194,72 +98,58 @@
           "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9010. One wins $1.00. Profit: $0.0990 (9.90%)"
         },
         {
-          "event_title": "CZ # posts April 7 - April 14, 2026?",
-          "event_slug": "cz-binance-of-tweets-april-7-april-14-2026",
-          "yes_sum": 0.901,
-          "profit_pct": 9.9,
-          "profit_per_dollar_pct": 10.99,
-          "num_outcomes": 8,
+          "event_title": "Highest temperature in Moscow on April 13?",
+          "event_slug": "highest-temperature-in-moscow-on-april-13-2026",
+          "yes_sum": 0.9015,
+          "profit_pct": 9.85,
+          "profit_per_dollar_pct": 10.93,
+          "num_outcomes": 6,
           "outcomes": [
             {
-              "market_id": "1854119",
-              "slug": "cz-binance-of-tweets-april-7-april-14-2026-60-79",
-              "question": "Will CZ post 60-79 posts from April 7 to April 14, 2026?",
-              "yes_price": 0.5855,
-              "volume": 2189
+              "market_id": "1924747",
+              "slug": "highest-temperature-in-moscow-on-april-13-2026-11corhigher",
+              "question": "Will the highest temperature in Moscow be 11\u00b0C or higher on April 13?",
+              "yes_price": 0.89,
+              "volume": 1238
             },
             {
-              "market_id": "1854131",
-              "slug": "cz-binance-of-tweets-april-7-april-14-2026-80-99",
-              "question": "Will CZ post 80-99 posts from April 7 to April 14, 2026?",
-              "yes_price": 0.2685,
-              "volume": 1271
+              "market_id": "1924741",
+              "slug": "highest-temperature-in-moscow-on-april-13-2026-5c",
+              "question": "Will the highest temperature in Moscow be 5\u00b0C on April 13?",
+              "yes_price": 0.0035,
+              "volume": 1210
             },
             {
-              "market_id": "1854111",
-              "slug": "cz-binance-of-tweets-april-7-april-14-2026-40-59",
-              "question": "Will CZ post 40-59 posts from April 7 to April 14, 2026?",
-              "yes_price": 0.0445,
-              "volume": 5483
+              "market_id": "1924738",
+              "slug": "highest-temperature-in-moscow-on-april-13-2026-2c",
+              "question": "Will the highest temperature in Moscow be 2\u00b0C on April 13?",
+              "yes_price": 0.003,
+              "volume": 1791
             },
             {
-              "market_id": "1854179",
-              "slug": "cz-binance-of-tweets-april-7-april-14-2026-160-179",
-              "question": "Will CZ post 160-179 posts from April 7 to April 14, 2026?",
+              "market_id": "1924740",
+              "slug": "highest-temperature-in-moscow-on-april-13-2026-4c",
+              "question": "Will the highest temperature in Moscow be 4\u00b0C on April 13?",
+              "yes_price": 0.003,
+              "volume": 1454
+            },
+            {
+              "market_id": "1924743",
+              "slug": "highest-temperature-in-moscow-on-april-13-2026-7c",
+              "question": "Will the highest temperature in Moscow be 7\u00b0C on April 13?",
               "yes_price": 0.0015,
-              "volume": 1766
+              "volume": 1229
             },
             {
-              "market_id": "1854187",
-              "slug": "cz-binance-of-tweets-april-7-april-14-2026-180-199",
-              "question": "Will CZ post 180-199 posts from April 7 to April 14, 2026?",
+              "market_id": "1924739",
+              "slug": "highest-temperature-in-moscow-on-april-13-2026-3c",
+              "question": "Will the highest temperature in Moscow be 3\u00b0C on April 13?",
               "yes_price": 0.0005,
-              "volume": 1875
-            },
-            {
-              "market_id": "1854193",
-              "slug": "cz-binance-of-tweets-april-7-april-14-2026-200plus",
-              "question": "Will CZ post 200+ posts from April 7 to April 14, 2026?",
-              "yes_price": 0.0005,
-              "volume": 3126
-            },
-            {
-              "market_id": "1854097",
-              "slug": "cz-binance-of-tweets-april-7-april-14-2026-0-19",
-              "question": "Will CZ post 0-19 posts from April 7 to April 14, 2026?",
-              "yes_price": 0.0,
-              "volume": 5026
-            },
-            {
-              "market_id": "1854104",
-              "slug": "cz-binance-of-tweets-april-7-april-14-2026-20-39",
-              "question": "Will CZ post 20-39 posts from April 7 to April 14, 2026?",
-              "yes_price": 0.0,
-              "volume": 4477
+              "volume": 1552
             }
           ],
-          "url": "https://polymarket.com/event/cz-binance-of-tweets-april-7-april-14-2026",
-          "strategy": "Buy YES on all 8 outcomes. Total cost: $0.9010. One wins $1.00. Profit: $0.0990 (9.90%)"
+          "url": "https://polymarket.com/event/highest-temperature-in-moscow-on-april-13-2026",
+          "strategy": "Buy YES on all 6 outcomes. Total cost: $0.9015. One wins $1.00. Profit: $0.0985 (9.85%)"
         },
         {
           "event_title": "Will Russia capture Lyman by...?",
@@ -281,7 +171,7 @@
               "slug": "will-russia-capture-lyman-by-june-30-2026-413",
               "question": "Will Russia capture Lyman by June 30, 2026?",
               "yes_price": 0.215,
-              "volume": 131426
+              "volume": 131436
             },
             {
               "market_id": "1397302",
@@ -330,182 +220,37 @@
           "strategy": "Buy YES on all 8 outcomes. Total cost: $0.9020. One wins $1.00. Profit: $0.0980 (9.80%)"
         },
         {
-          "event_title": "LPL 2026 Season Winner",
-          "event_slug": "lol-lpl-2026-season-winner",
-          "yes_sum": 0.903,
-          "profit_pct": 9.7,
-          "profit_per_dollar_pct": 10.74,
-          "num_outcomes": 15,
+          "event_title": "Next CEO of Lululemon?",
+          "event_slug": "next-ceo-of-lululemon",
+          "yes_sum": 0.9025,
+          "profit_pct": 9.75,
+          "profit_per_dollar_pct": 10.8,
+          "num_outcomes": 3,
           "outcomes": [
             {
-              "market_id": "693674",
-              "slug": "will-bilibili-gaming-win-the-lpl-2026-season",
-              "question": "Will Bilibili Gaming win the LPL 2026 season?",
-              "yes_price": 0.495,
-              "volume": 111609
+              "market_id": "916392",
+              "slug": "will-meghan-frank-be-the-next-ceo-of-lululemon",
+              "question": "Will Meghan Frank be the next CEO of Lululemon?",
+              "yes_price": 0.339,
+              "volume": 49994
             },
             {
-              "market_id": "693673",
-              "slug": "will-anyones-legend-win-the-lpl-2026-season",
-              "question": "Will Anyone's Legend win the LPL 2026 season?",
-              "yes_price": 0.155,
-              "volume": 43017
+              "market_id": "916398",
+              "slug": "will-stephanie-linnartz-be-the-next-ceo-of-lululemon",
+              "question": "Will Stephanie Linnartz be the next CEO of Lululemon?",
+              "yes_price": 0.2875,
+              "volume": 2936
             },
             {
-              "market_id": "693677",
-              "slug": "will-jd-gaming-win-the-lpl-2026-season",
-              "question": "Will JD Gaming win the LPL 2026 season?",
-              "yes_price": 0.1415,
-              "volume": 98670
-            },
-            {
-              "market_id": "693685",
-              "slug": "will-top-esports-win-the-lpl-2026-season",
-              "question": "Will Top Esports win the LPL 2026 season?",
-              "yes_price": 0.056,
-              "volume": 43731
-            },
-            {
-              "market_id": "693687",
-              "slug": "will-weibo-gaming-win-the-lpl-2026-season",
-              "question": "Will Weibo Gaming win the LPL 2026 season?",
-              "yes_price": 0.0125,
-              "volume": 38491
-            },
-            {
-              "market_id": "693676",
-              "slug": "will-invictus-gaming-win-the-lpl-2026-season",
-              "question": "Will Invictus Gaming win the LPL 2026 season?",
-              "yes_price": 0.0125,
-              "volume": 46004
-            },
-            {
-              "market_id": "693680",
-              "slug": "will-ninjas-in-pyjamas-win-the-lpl-2026-season",
-              "question": "Will Ninjas in Pyjamas win the LPL 2026 season?",
-              "yes_price": 0.0075,
-              "volume": 40411
-            },
-            {
-              "market_id": "693679",
-              "slug": "will-lng-esports-win-the-lpl-2026-season",
-              "question": "Will LNG Esports win the LPL 2026 season?",
-              "yes_price": 0.006,
-              "volume": 46434
-            },
-            {
-              "market_id": "693683",
-              "slug": "will-team-we-win-the-lpl-2026-season",
-              "question": "Will Team WE win the LPL 2026 season?",
-              "yes_price": 0.0045,
-              "volume": 22522
-            },
-            {
-              "market_id": "693678",
-              "slug": "will-lgd-gaming-win-the-lpl-2026-season",
-              "question": "Will LGD Gaming win the LPL 2026 season?",
-              "yes_price": 0.003,
-              "volume": 33807
-            },
-            {
-              "market_id": "693675",
-              "slug": "will-edward-gaming-win-the-lpl-2026-season",
-              "question": "Will EDward Gaming win the LPL 2026 season?",
-              "yes_price": 0.0025,
-              "volume": 35582
-            },
-            {
-              "market_id": "693681",
-              "slug": "will-oh-my-god-win-the-lpl-2026-season",
-              "question": "Will Oh My God win the LPL 2026 season?",
-              "yes_price": 0.0025,
-              "volume": 30354
-            },
-            {
-              "market_id": "693682",
-              "slug": "will-royal-never-give-up-win-the-lpl-2026-season",
-              "question": "Will Royal Never Give Up win the LPL 2026 season?",
-              "yes_price": 0.0015,
-              "volume": 42724
-            },
-            {
-              "market_id": "693686",
-              "slug": "will-ultra-prime-win-the-lpl-2026-season",
-              "question": "Will Ultra Prime win the LPL 2026 season?",
-              "yes_price": 0.0015,
-              "volume": 44142
-            },
-            {
-              "market_id": "693684",
-              "slug": "will-thundertalk-gaming-win-the-lpl-2026-season",
-              "question": "Will ThunderTalk Gaming win the LPL 2026 season?",
-              "yes_price": 0.0015,
-              "volume": 55680
+              "market_id": "916393",
+              "slug": "will-marti-morfitt-be-the-next-ceo-of-lululemon",
+              "question": "Will Marti Morfitt be the next CEO of Lululemon?",
+              "yes_price": 0.276,
+              "volume": 5936
             }
           ],
-          "url": "https://polymarket.com/event/lol-lpl-2026-season-winner",
-          "strategy": "Buy YES on all 15 outcomes. Total cost: $0.9030. One wins $1.00. Profit: $0.0970 (9.70%)"
-        },
-        {
-          "event_title": "What will Netflix (NFLX) hit in April 2026?",
-          "event_slug": "what-price-will-nflx-hit-in-april-2026",
-          "yes_sum": 0.9035,
-          "profit_pct": 9.65,
-          "profit_per_dollar_pct": 10.68,
-          "num_outcomes": 7,
-          "outcomes": [
-            {
-              "market_id": "1542751",
-              "slug": "will-nflx-reach-105-in-april",
-              "question": "Will Netflix reach $105 in April?",
-              "yes_price": 0.795,
-              "volume": 4781
-            },
-            {
-              "market_id": "1542754",
-              "slug": "will-nflx-dip-to-70-in-april",
-              "question": "Will Netflix dip to $70 in April?",
-              "yes_price": 0.0795,
-              "volume": 3665
-            },
-            {
-              "market_id": "1542742",
-              "slug": "will-nflx-reach-368-in-april",
-              "question": "Will Netflix reach $368 in April?",
-              "yes_price": 0.0105,
-              "volume": 1050
-            },
-            {
-              "market_id": "1542744",
-              "slug": "will-nflx-reach-298-in-april",
-              "question": "Will Netflix reach $298 in April?",
-              "yes_price": 0.0095,
-              "volume": 4257
-            },
-            {
-              "market_id": "1542740",
-              "slug": "will-nflx-reach-455-in-april",
-              "question": "Will Netflix reach $455 in April?",
-              "yes_price": 0.005,
-              "volume": 18438
-            },
-            {
-              "market_id": "1542756",
-              "slug": "will-nflx-dip-to-35-in-april",
-              "question": "Will Netflix dip to $35 in April?",
-              "yes_price": 0.0025,
-              "volume": 40650
-            },
-            {
-              "market_id": "1542759",
-              "slug": "will-nflx-dip-to-0-in-april",
-              "question": "Will Netflix dip to $0 in April?",
-              "yes_price": 0.0015,
-              "volume": 66648
-            }
-          ],
-          "url": "https://polymarket.com/event/what-price-will-nflx-hit-in-april-2026",
-          "strategy": "Buy YES on all 7 outcomes. Total cost: $0.9035. One wins $1.00. Profit: $0.0965 (9.65%)"
+          "url": "https://polymarket.com/event/next-ceo-of-lululemon",
+          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9025. One wins $1.00. Profit: $0.0975 (9.75%)"
         },
         {
           "event_title": "Will Audemars Piguet prices hit __ by April 30?",
@@ -590,60 +335,189 @@
           "strategy": "Buy YES on all 10 outcomes. Total cost: $0.9035. One wins $1.00. Profit: $0.0965 (9.65%)"
         },
         {
-          "event_title": "How many ships will Iran successfully target by April 30?",
-          "event_slug": "how-many-ships-will-iran-successfully-target-by-april-30",
+          "event_title": "CZ # posts April 7 - April 14, 2026?",
+          "event_slug": "cz-binance-of-tweets-april-7-april-14-2026",
+          "yes_sum": 0.9035,
+          "profit_pct": 9.65,
+          "profit_per_dollar_pct": 10.68,
+          "num_outcomes": 8,
+          "outcomes": [
+            {
+              "market_id": "1854119",
+              "slug": "cz-binance-of-tweets-april-7-april-14-2026-60-79",
+              "question": "Will CZ post 60-79 posts from April 7 to April 14, 2026?",
+              "yes_price": 0.5815,
+              "volume": 2189
+            },
+            {
+              "market_id": "1854131",
+              "slug": "cz-binance-of-tweets-april-7-april-14-2026-80-99",
+              "question": "Will CZ post 80-99 posts from April 7 to April 14, 2026?",
+              "yes_price": 0.2715,
+              "volume": 1271
+            },
+            {
+              "market_id": "1854111",
+              "slug": "cz-binance-of-tweets-april-7-april-14-2026-40-59",
+              "question": "Will CZ post 40-59 posts from April 7 to April 14, 2026?",
+              "yes_price": 0.048,
+              "volume": 5483
+            },
+            {
+              "market_id": "1854179",
+              "slug": "cz-binance-of-tweets-april-7-april-14-2026-160-179",
+              "question": "Will CZ post 160-179 posts from April 7 to April 14, 2026?",
+              "yes_price": 0.0015,
+              "volume": 1766
+            },
+            {
+              "market_id": "1854187",
+              "slug": "cz-binance-of-tweets-april-7-april-14-2026-180-199",
+              "question": "Will CZ post 180-199 posts from April 7 to April 14, 2026?",
+              "yes_price": 0.0005,
+              "volume": 1875
+            },
+            {
+              "market_id": "1854193",
+              "slug": "cz-binance-of-tweets-april-7-april-14-2026-200plus",
+              "question": "Will CZ post 200+ posts from April 7 to April 14, 2026?",
+              "yes_price": 0.0005,
+              "volume": 3126
+            },
+            {
+              "market_id": "1854097",
+              "slug": "cz-binance-of-tweets-april-7-april-14-2026-0-19",
+              "question": "Will CZ post 0-19 posts from April 7 to April 14, 2026?",
+              "yes_price": 0.0,
+              "volume": 5026
+            },
+            {
+              "market_id": "1854104",
+              "slug": "cz-binance-of-tweets-april-7-april-14-2026-20-39",
+              "question": "Will CZ post 20-39 posts from April 7 to April 14, 2026?",
+              "yes_price": 0.0,
+              "volume": 4477
+            }
+          ],
+          "url": "https://polymarket.com/event/cz-binance-of-tweets-april-7-april-14-2026",
+          "strategy": "Buy YES on all 8 outcomes. Total cost: $0.9035. One wins $1.00. Profit: $0.0965 (9.65%)"
+        },
+        {
+          "event_title": "What will Netflix (NFLX) hit in April 2026?",
+          "event_slug": "what-price-will-nflx-hit-in-april-2026",
+          "yes_sum": 0.9045,
+          "profit_pct": 9.55,
+          "profit_per_dollar_pct": 10.56,
+          "num_outcomes": 7,
+          "outcomes": [
+            {
+              "market_id": "1542751",
+              "slug": "will-nflx-reach-105-in-april",
+              "question": "Will Netflix reach $105 in April?",
+              "yes_price": 0.795,
+              "volume": 4781
+            },
+            {
+              "market_id": "1542754",
+              "slug": "will-nflx-dip-to-70-in-april",
+              "question": "Will Netflix dip to $70 in April?",
+              "yes_price": 0.0805,
+              "volume": 3665
+            },
+            {
+              "market_id": "1542742",
+              "slug": "will-nflx-reach-368-in-april",
+              "question": "Will Netflix reach $368 in April?",
+              "yes_price": 0.0105,
+              "volume": 1050
+            },
+            {
+              "market_id": "1542744",
+              "slug": "will-nflx-reach-298-in-april",
+              "question": "Will Netflix reach $298 in April?",
+              "yes_price": 0.0095,
+              "volume": 4257
+            },
+            {
+              "market_id": "1542740",
+              "slug": "will-nflx-reach-455-in-april",
+              "question": "Will Netflix reach $455 in April?",
+              "yes_price": 0.005,
+              "volume": 18438
+            },
+            {
+              "market_id": "1542756",
+              "slug": "will-nflx-dip-to-35-in-april",
+              "question": "Will Netflix dip to $35 in April?",
+              "yes_price": 0.0025,
+              "volume": 40650
+            },
+            {
+              "market_id": "1542759",
+              "slug": "will-nflx-dip-to-0-in-april",
+              "question": "Will Netflix dip to $0 in April?",
+              "yes_price": 0.0015,
+              "volume": 66648
+            }
+          ],
+          "url": "https://polymarket.com/event/what-price-will-nflx-hit-in-april-2026",
+          "strategy": "Buy YES on all 7 outcomes. Total cost: $0.9045. One wins $1.00. Profit: $0.0955 (9.55%)"
+        },
+        {
+          "event_title": "What will S&P 500 (SPX) close at end of 2026?",
+          "event_slug": "spx-close-dec-2026",
           "yes_sum": 0.905,
           "profit_pct": 9.5,
           "profit_per_dollar_pct": 10.5,
           "num_outcomes": 5,
           "outcomes": [
             {
-              "market_id": "1706115",
-              "slug": "will-23-ships-be-successfully-targeted-by-iran-by-april-30-589",
-              "question": "Will 2\u20133 ships be successfully targeted by Iran by April 30?",
+              "market_id": "1125397",
+              "slug": "spx-close-below-6000-dec-2026",
+              "question": "Will S&P 500 (SPX) close at <$6,000 in December?",
               "yes_price": 0.395,
-              "volume": 5879
+              "volume": 11132
             },
             {
-              "market_id": "1706116",
-              "slug": "will-45-ships-be-successfully-targeted-by-iran-by-april-30-494",
-              "question": "Will 4\u20135 ships be successfully targeted by Iran by April 30?",
-              "yes_price": 0.285,
-              "volume": 2440
+              "market_id": "1125399",
+              "slug": "spx-close-6500-7000-dec-2026",
+              "question": "Will S&P 500 (SPX) close at $6,500-$7,000 in December?",
+              "yes_price": 0.185,
+              "volume": 1373
             },
             {
-              "market_id": "1706118",
-              "slug": "will-89-ships-be-successfully-targeted-by-iran-by-april-30-113",
-              "question": "Will 8\u20139 ships be successfully targeted by Iran by April 30?",
-              "yes_price": 0.165,
-              "volume": 4978
+              "market_id": "1125398",
+              "slug": "spx-close-6000-6500-dec-2026",
+              "question": "Will S&P 500 (SPX) close at $6,000-$6,500 in December?",
+              "yes_price": 0.16,
+              "volume": 1195
             },
             {
-              "market_id": "1706117",
-              "slug": "will-67-ships-be-successfully-targeted-by-iran-by-april-30-177",
-              "question": "Will 6\u20137 ships be successfully targeted by Iran by April 30?",
-              "yes_price": 0.06,
-              "volume": 2689
+              "market_id": "1126565",
+              "slug": "spx-close-7500-8000-dec-2026",
+              "question": "Will S&P 500 (SPX) close at $7,500-$8,000 in December?",
+              "yes_price": 0.095,
+              "volume": 1570
             },
             {
-              "market_id": "1706113",
-              "slug": "will-fewer-than-2-ships-be-successfully-targeted-by-iran-by-april-30-439",
-              "question": "Will fewer than 2 ships be successfully targeted by Iran by April 30?",
-              "yes_price": 0.0,
-              "volume": 24731
+              "market_id": "1125404",
+              "slug": "spx-close-above-8000-dec-2026-362-989-862",
+              "question": "Will S&P 500 (SPX) close at >$8,000 in December?",
+              "yes_price": 0.07,
+              "volume": 1708
             }
           ],
-          "url": "https://polymarket.com/event/how-many-ships-will-iran-successfully-target-by-april-30",
+          "url": "https://polymarket.com/event/spx-close-dec-2026",
           "strategy": "Buy YES on all 5 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
         }
       ],
       "stats": {
         "total_events": 3000,
-        "checked_multi_outcome": 2047,
-        "skipped_single_outcome": 595,
-        "opportunities_found": 152,
+        "checked_multi_outcome": 2045,
+        "skipped_single_outcome": 599,
+        "opportunities_found": 149,
         "best_profit_pct": 10.0,
-        "scanned_at": "2026-04-11 15:38 UTC"
+        "scanned_at": "2026-04-11 15:46 UTC"
       }
     },
     {
