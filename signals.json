@@ -1,15 +1,28 @@
 {
-  "last_scan": "2026-04-11T00:11:04.968980+00:00",
-  "scan_seconds": 24.9,
-  "markets_scanned": 121,
-  "open_positions": 82,
+  "last_scan": "2026-04-11T01:08:29.253903+00:00",
+  "scan_seconds": 49.1,
+  "markets_scanned": 102,
+  "open_positions": 63,
   "signals": [
     {
-      "id": "perp_40816",
-      "timestamp": "2026-04-11T00:11:04.948444+00:00",
+      "id": "sig_474923",
+      "timestamp": "2026-04-11T01:08:19.052451+00:00",
+      "source": "X_GROK",
+      "headline": "Denver Nuggets resting key starters (Jokic, Murray, Gordon, Braun, Johnson) vs",
+      "raw": "Denver Nuggets resting key starters (Jokic, Murray, Gordon, Braun, Johnson) vs. OKC Thunder tonight.**[[1]](https://x.com/i/status/2042760624581513345)[[2]](https://x.com/i/status/2042767462756700179)[[3]](https://x.com/i/status/2042768295946780846)\nHEADLINE: Nuggets stars out vs Thunder | YES for Thunder (easy win/momentum into playoffs as #1 seed) | HIGH confidence\n\nNo confirmed/resolved events ",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2042760624581513345)[[2]](https://x.com/i/status/2042767462756700179)[[3]](https://x.com/i/status/2042768295946780846)",
+      "category": "SPORTS"
+    },
+    {
+      "id": "perp_485124",
+      "timestamp": "2026-04-11T01:08:29.253659+00:00",
       "source": "PERPLEXITY",
       "headline": "[Context] Will Dogecoin reach $0.16 by December 31, 2026?",
-      "raw": "No definitive consensus exists on whether Dogecoin (DOGE) will reach $0.16 by December 31, 2026, as predictions vary widely from bearish short-term views around $0.12\u2013$0.14 to highly optimistic long-term forecasts exceeding $1.[1][2][6] Prediction markets currently assign low probabilities: 34.8\u201337.6% \"Yes\" on Awebanalysis for hitting $0.16 by year-end, while Polymarket prices \"\u2193 0.14\" at 100% for 2026 outcomes and lower odds for higher thresholds like $0.20 (28.5%).[3][7][9]\n\n### Current Price ",
+      "raw": "No definitive consensus exists on whether Dogecoin (DOGE) will reach $0.16 by December 31, 2026, as predictions vary widely from bearish short-term stagnation around $0.14 to highly optimistic yearly highs above $1, with prediction markets assigning only 34.8-37.6% probability to a \"Yes\" outcome.[1][3][7]\n\n### Current Status (as of early 2026)\nDOGE trades around **$0.12-$0.14**, following a pullback from $0.15-$0.16 tests in late 2025, amid neutral momentum and moderate trading volume (~$79 mill",
       "direction": null,
       "confidence": 0.7,
       "matched_markets": [
@@ -22,8 +35,8 @@
   ],
   "stats": {
     "enter": 0,
-    "alert": 0,
+    "alert": 1,
     "watch": 1,
-    "high_conf": 0
+    "high_conf": 1
   }
 }
