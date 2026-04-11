@@ -1,16 +1,16 @@
 {
-  "last_scan": "2026-04-11T07:04:23.535921+00:00",
-  "scan_seconds": 22.8,
-  "markets_scanned": 98,
+  "last_scan": "2026-04-11T08:09:06.170021+00:00",
+  "scan_seconds": 26.9,
+  "markets_scanned": 95,
   "open_positions": 57,
   "signals": [
     {
-      "id": "sig_822810",
-      "timestamp": "2026-04-11T07:04:06.918968+00:00",
+      "id": "sig_700516",
+      "timestamp": "2026-04-11T08:08:44.620683+00:00",
       "source": "PERPLEXITY",
-      "headline": "No confirmed breaking news RIGHT NOW (as of April 11, 2026, 7 AM UTC) linking Trump, Russia, North Korea, and Vovchansk",
-      "raw": "No confirmed breaking news RIGHT NOW (as of April 11, 2026, 7 AM UTC) linking Trump, Russia, North Korea, and Vovchansk that has been announced, resolved, or verified to move prediction markets | NO | HIGH confidence**\n\nSearch results highlight recent but unconfirmed or outdated developments without fresh confirmations today:",
-      "direction": "NO",
+      "headline": "US-Iran Ceasefire Announced by Trump on April 7, 2026** | YES | HIGH confidence[1][2]",
+      "raw": "US-Iran Ceasefire Announced by Trump on April 7, 2026** | YES | HIGH confidence[1][2]\n\nPresident Donald Trump announced a two-week ceasefire with Iran via Truth Social around 6:30 pm ET on April 7, following escalated rhetoric including a warning that \"a whole civilization will die tonight\" if Iran did not open the Strait of Hormuz by his 8 p.m. ET deadline.[1] This resolved Polymarket's ceasefire",
+      "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
         "Will Russia capture all of Vovchansk by April 30?",
@@ -22,43 +22,45 @@
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_822827",
-      "timestamp": "2026-04-11T07:04:06.935995+00:00",
+      "id": "sig_708128",
+      "timestamp": "2026-04-11T08:08:52.232464+00:00",
       "source": "PERPLEXITY",
-      "headline": "No mentions of **Trump**, **Vovchansk**, or resolved announcements in the past 48 hours across results; a February 2026",
-      "raw": "No mentions of **Trump**, **Vovchansk**, or resolved announcements in the past 48 hours across results; a February 2026 assessment discusses US-Russia-Ukraine talks in Abu Dhabi described as \"constructive,\" but no outcomes confirmed.[4]",
-      "direction": "NO",
+      "headline": "Details & Evidence**:",
+      "raw": "Details & Evidence**:  \nAs of this morning (April 11, 2026, ~7:45 UTC), Reza Pahlavi, Crown Prince of Iran, held a live press conference from Paris confirming his endorsement of Donald Trump and the Republican ticket in the upcoming US midterm elections. He cited Trump's \"maximum pressure\" policy on Iran as key to ongoing protests dubbed the \"April Uprising\" (escalating since April 1 with 50+ conf",
+      "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
-        "Will Russia capture all of Vovchansk by April 30?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_828036",
-      "timestamp": "2026-04-11T07:04:12.144196+00:00",
-      "source": "PERPLEXITY",
-      "headline": "No breaking news RIGHT NOW (as of April 11, 2026, 7 AM UTC) confirmed, announced, or resolved involving Jorge Nieto, Tru",
-      "raw": "No breaking news RIGHT NOW (as of April 11, 2026, 7 AM UTC) confirmed, announced, or resolved involving Jorge Nieto, Trump, Reza Pahlavi, April, or elections that would move prediction markets.**[1][2][3][4]\n\nThe most recent relevant reports are from March 2026: Trump expressed skepticism about Reza Pahlavi leading Iran post-regime change, stating he's not seeking a replacement \"no better\" than Ay",
-      "direction": "NO",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will Jorge Nieto win the 2026 Peruvian presidential election",
-        "Will turnout in the first round of the 2026 Peruvian preside",
-        "Will Noah Kahan have a #1 hit in April?"
+        "Will Noah Kahan have a #1 hit in April?",
+        "Joe Kent charged by April 30?",
+        "Will Trump talk to Reza Pahlavi in April?"
       ],
       "action": "ENTER",
       "x_link": null,
       "category": "POLITICS"
     },
     {
-      "id": "sig_832378",
-      "timestamp": "2026-04-11T07:04:16.486541+00:00",
+      "id": "sig_708133",
+      "timestamp": "2026-04-11T08:08:52.237805+00:00",
       "source": "PERPLEXITY",
-      "headline": "No confirmed announcements, resolutions, or events right now for XRP or Bitcoin that would move prediction markets\u2014only",
-      "raw": "No confirmed announcements, resolutions, or events right now for XRP or Bitcoin that would move prediction markets\u2014only analyst predictions, price stability around $1.33\u2013$1.39 for XRP, and anticipation for CLARITY Act developments post-April 13.[1][2][3]",
+      "headline": "Prediction Market Impact**: This resolves \"Will Reza Pahlavi endorse a major US candidate by April 2026",
+      "raw": "Prediction Market Impact**: This resolves \"Will Reza Pahlavi endorse a major US candidate by April 2026?\" (e.g., Polymarket/PredictIt) to YES, shifting odds +25% on Trump/GOP House control (current: 68% from 43% pre-announcement per real-time Polymarket data). No mention of \"Jorge Nieto\" (possibly a misspelling/mixup; no confirmed links to Will Nieto or similar figures in breaking coverage from CN",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will Noah Kahan have a #1 hit in April?",
+        "Joe Kent charged by April 30?",
+        "Will Trump talk to Reza Pahlavi in April?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_721065",
+      "timestamp": "2026-04-11T08:09:05.169384+00:00",
+      "source": "PERPLEXITY",
+      "headline": "No confirmed Fed pause announcement right now",
+      "raw": "No confirmed Fed pause announcement right now.**| NO | HIGH\n\nThe Federal Reserve's most recent items are routine: approval of a bank application (April 10, 2026)[1], termination of enforcement actions (April 9, 2026)[1], and FOMC minutes from March 17\u201318 released April 8, 2026[1]. Economic data like 4.4% Q3 GDP growth and stable unemployment supports expectations of a **rate pause** at the upcomin",
       "direction": "NO",
       "confidence": 0.9,
       "matched_markets": [
@@ -68,95 +70,102 @@
       ],
       "action": "ENTER",
       "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_832384",
-      "timestamp": "2026-04-11T07:04:16.492032+00:00",
-      "source": "PERPLEXITY",
-      "headline": "HEADLINE | YES or NO | HIGH/MED/LOW confidence**",
-      "raw": "HEADLINE | YES or NO | HIGH/MED/LOW confidence**  \nXRP holds $1.30+ amid CLARITY Act wait; no surge confirmed despite analyst $7.52 call | **NO** | **LOW** [1][2][5]  \nBitcoin at ~$71,700 in recent recap; no new ups confirmed beyond market morning update | **NO** | **LOW** [4]",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will XRP dip to $0.60 in April?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_838427",
-      "timestamp": "2026-04-11T07:04:22.535328+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Fed Holds Rates Steady Amid Iran War Uncertainty and Hotter Inflation Outlook | NO** | **MED** confidence",
-      "raw": "Fed Holds Rates Steady Amid Iran War Uncertainty and Hotter Inflation Outlook | NO** | **MED** confidence\n\nThe Federal Reserve recently decided to pause interest rate changes, holding the federal funds rate at 3.5%-3.75% due to elevated inflation, geopolitical risks from the Iran conflict disrupting oil supply via the Strait of Hormuz, and a divided committee on 2026 cuts (seven officials predict ",
-      "direction": "NO",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will Dogecoin reach $0.16 by December 31, 2026?",
-        "Will the Fed Pause\u2013Pause\u2013Pause in the next three decisions (",
-        "Will the U.S. invade Iran before 2027?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_822816",
-      "timestamp": "2026-04-11T07:04:06.924929+00:00",
+      "id": "sig_715921",
+      "timestamp": "2026-04-11T08:09:00.025038+00:00",
       "source": "PERPLEXITY",
-      "headline": "A YouTube video claims 4,700 North Korean troops arriving at a Russian base were attacked by the US on April 8, 2026, bu",
-      "raw": "A YouTube video claims 4,700 North Korean troops arriving at a Russian base were attacked by the US on April 8, 2026, but lacks verification from official sources and appears speculative (e.g., tied to Arma 3 gaming context).[1]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Russia capture all of Vovchansk by April 30?",
-        "Will Noah Kahan have a #1 hit in April?",
-        "Joe Kent charged by April 30?"
-      ],
+      "headline": "Bitcoin Short Squeeze Confirmed | YES | HIGH confidence**",
+      "raw": "Bitcoin Short Squeeze Confirmed | YES | HIGH confidence**\n\nA massive short squeeze supported Bitcoin's institutional ETF inflows and price recovery[4]. This technical event provided fuel for broader market gains across altcoins including Solana[4].",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "GEOPOLITICS"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_822822",
-      "timestamp": "2026-04-11T07:04:06.930507+00:00",
+      "id": "sig_715926",
+      "timestamp": "2026-04-11T08:09:00.030305+00:00",
       "source": "PERPLEXITY",
-      "headline": "Earlier reports (April 30, 2025) note ~600 North Korean troop deaths in Russia and ~15,000 workers sent, violating UN sa",
-      "raw": "Earlier reports (April 30, 2025) note ~600 North Korean troop deaths in Russia and ~15,000 workers sent, violating UN sanctions, with Russia-North Korea bridge construction ongoing for late 2026 completion.[2]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Russia capture all of Vovchansk by April 30?",
-        "Will Noah Kahan have a #1 hit in April?",
-        "Joe Kent charged by April 30?"
-      ],
+      "headline": "Solana's Alpenglow Upgrade Governance Passed with 98",
+      "raw": "Solana's Alpenglow Upgrade Governance Passed with 98.27% Approval | YES | HIGH confidence**\n\nThe Alpenglow upgrade for 2026, which aims to reduce transaction finality to 100-150 milliseconds, passed governance with overwhelming support[3]. This cements Solana's positioning as one of the fastest execution layers and validates network fundamentals.",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "GEOPOLITICS"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_822833",
-      "timestamp": "2026-04-11T07:04:06.941575+00:00",
+      "id": "sig_708122",
+      "timestamp": "2026-04-11T08:08:52.226943+00:00",
       "source": "PERPLEXITY",
-      "headline": "Other items include a April 9, 2026, frontline update on Russian advances east of Kupyansk (not Vovchansk) and Trump-NAT",
-      "raw": "Other items include a April 9, 2026, frontline update on Russian advances east of Kupyansk (not Vovchansk) and Trump-NATO tensions, but nothing tying all query elements or market-moving resolutions.[5]",
+      "headline": "HEADLINE | Reza Pahlavi announces full endorsement of Trump for 2026 midterms, pledging Iranian exile funding for key sw",
+      "raw": "HEADLINE | Reza Pahlavi announces full endorsement of Trump for 2026 midterms, pledging Iranian exile funding for key swing-state campaigns amid \"April Uprising\" surge | YES | HIGH confidence",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Noah Kahan have a #1 hit in April?",
+        "Joe Kent charged by April 30?",
+        "Will Trump talk to Reza Pahlavi in April?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_715910",
+      "timestamp": "2026-04-11T08:09:00.014438+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Based on the search results provided, here are the key market-moving developments from early April 2026:",
+      "raw": "Based on the search results provided, here are the key market-moving developments from early April 2026:",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [
-        "Will Russia capture all of Vovchansk by April 30?",
+        "Will Noah Kahan have a #1 hit in April?",
+        "Joe Kent charged by April 30?",
+        "U.S. evacuates Beirut Embassy by April 30?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_715931",
+      "timestamp": "2026-04-11T08:09:00.035702+00:00",
+      "source": "PERPLEXITY",
+      "headline": "XRP Records Largest Weekly Inflows, Leading Bitcoin and Solana | YES | HIGH confidence**",
+      "raw": "XRP Records Largest Weekly Inflows, Leading Bitcoin and Solana | YES | HIGH confidence**\n\nXRP led digital asset inflows with $119.6 million in the week ending April 8\u2014its strongest weekly haul since mid-December 2025\u2014as institutional capital shifted toward the token[4]. This marks a notable sentiment shift favoring XRP over previously dominant assets.",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Dogecoin reach $0.16 by December 31, 2026?",
         "Will Noah Kahan have a #1 hit in April?",
         "Joe Kent charged by April 30?"
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "GEOPOLITICS"
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_715936",
+      "timestamp": "2026-04-11T08:09:00.040990+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Solana Maintains DEX Volume Leadership for 7th Consecutive Month | YES | MED confidence**",
+      "raw": "Solana Maintains DEX Volume Leadership for 7th Consecutive Month | YES | MED confidence**\n\nSolana recorded $57 billion in decentralized exchange volume in March 2026, surpassing all Layer 1 and Layer 2 networks including Ethereum[3][5], signaling sustained ecosystem momentum.",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
     }
   ],
   "stats": {
-    "enter": 6,
-    "alert": 3,
+    "enter": 4,
+    "alert": 6,
     "watch": 0,
     "high_conf": 6
   }
