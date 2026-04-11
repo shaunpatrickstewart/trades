@@ -1,15 +1,15 @@
 {
-  "last_scan": "2026-04-11T06:11:05.090306+00:00",
-  "scan_seconds": 27.8,
-  "markets_scanned": 96,
-  "open_positions": 61,
+  "last_scan": "2026-04-11T07:04:23.535921+00:00",
+  "scan_seconds": 22.8,
+  "markets_scanned": 98,
+  "open_positions": 57,
   "signals": [
     {
-      "id": "sig_619398",
-      "timestamp": "2026-04-11T06:10:43.509401+00:00",
+      "id": "sig_822810",
+      "timestamp": "2026-04-11T07:04:06.918968+00:00",
       "source": "PERPLEXITY",
-      "headline": "No confirmed breaking news RIGHT NOW (April 11, 2026) on Russia, Vovchansk, Iran, or North Korea that has been announced",
-      "raw": "No confirmed breaking news RIGHT NOW (April 11, 2026) on Russia, Vovchansk, Iran, or North Korea that has been announced or resolved to move prediction markets.**| NO | HIGH confidence\n\nSearch results reference ongoing but non-recent developments: North Korea has sent thousands of soldiers and millions of artillery shells to Russia[2], Iran has supplied drone technology to Moscow and maintains mil",
+      "headline": "No confirmed breaking news RIGHT NOW (as of April 11, 2026, 7 AM UTC) linking Trump, Russia, North Korea, and Vovchansk",
+      "raw": "No confirmed breaking news RIGHT NOW (as of April 11, 2026, 7 AM UTC) linking Trump, Russia, North Korea, and Vovchansk that has been announced, resolved, or verified to move prediction markets | NO | HIGH confidence**\n\nSearch results highlight recent but unconfirmed or outdated developments without fresh confirmations today:",
       "direction": "NO",
       "confidence": 0.9,
       "matched_markets": [
@@ -22,26 +22,43 @@
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_625287",
-      "timestamp": "2026-04-11T06:10:49.398375+00:00",
+      "id": "sig_822827",
+      "timestamp": "2026-04-11T07:04:06.935995+00:00",
       "source": "PERPLEXITY",
-      "headline": "**Maduro's fall confirmed**: US recognizes Edmundo Gonz\u00e1lez as legitimate leader post-2024 election win; Trump confirms",
-      "raw": "**Maduro's fall confirmed**: US recognizes Edmundo Gonz\u00e1lez as legitimate leader post-2024 election win; Trump confirms US strike in Venezuela and Maduro's capture, advancing opposition transition led by Mar\u00eda Corina Machado (70% Venezuelan support, Nobel laureate)[1].",
-      "direction": "YES",
+      "headline": "No mentions of **Trump**, **Vovchansk**, or resolved announcements in the past 48 hours across results; a February 2026",
+      "raw": "No mentions of **Trump**, **Vovchansk**, or resolved announcements in the past 48 hours across results; a February 2026 assessment discusses US-Russia-Ukraine talks in Abu Dhabi described as \"constructive,\" but no outcomes confirmed.[4]",
+      "direction": "NO",
       "confidence": 0.9,
       "matched_markets": [
-        "Will Trump talk to Nicol\u00e1s Maduro in April?"
+        "Will Russia capture all of Vovchansk by April 30?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_828036",
+      "timestamp": "2026-04-11T07:04:12.144196+00:00",
+      "source": "PERPLEXITY",
+      "headline": "No breaking news RIGHT NOW (as of April 11, 2026, 7 AM UTC) confirmed, announced, or resolved involving Jorge Nieto, Tru",
+      "raw": "No breaking news RIGHT NOW (as of April 11, 2026, 7 AM UTC) confirmed, announced, or resolved involving Jorge Nieto, Trump, Reza Pahlavi, April, or elections that would move prediction markets.**[1][2][3][4]\n\nThe most recent relevant reports are from March 2026: Trump expressed skepticism about Reza Pahlavi leading Iran post-regime change, stating he's not seeking a replacement \"no better\" than Ay",
+      "direction": "NO",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will Jorge Nieto win the 2026 Peruvian presidential election",
+        "Will turnout in the first round of the 2026 Peruvian preside",
+        "Will Noah Kahan have a #1 hit in April?"
       ],
       "action": "ENTER",
       "x_link": null,
       "category": "POLITICS"
     },
     {
-      "id": "sig_633783",
-      "timestamp": "2026-04-11T06:10:57.894124+00:00",
+      "id": "sig_832378",
+      "timestamp": "2026-04-11T07:04:16.486541+00:00",
       "source": "PERPLEXITY",
-      "headline": "No confirmed breaking news RIGHT NOW (as of April 11, 2026, 6 AM UTC) on XRP in April that has been officially announced",
-      "raw": "No confirmed breaking news RIGHT NOW (as of April 11, 2026, 6 AM UTC) on XRP in April that has been officially announced, resolved, or confirmed to move prediction markets.**| NO | HIGH confidence\n\nCurrent search results highlight ongoing market momentum and speculation rather than fresh confirmations:",
+      "headline": "No confirmed announcements, resolutions, or events right now for XRP or Bitcoin that would move prediction markets\u2014only",
+      "raw": "No confirmed announcements, resolutions, or events right now for XRP or Bitcoin that would move prediction markets\u2014only analyst predictions, price stability around $1.33\u2013$1.39 for XRP, and anticipation for CLARITY Act developments post-April 13.[1][2][3]",
       "direction": "NO",
       "confidence": 0.9,
       "matched_markets": [
@@ -54,46 +71,27 @@
       "category": "CRYPTO"
     },
     {
-      "id": "sig_633805",
-      "timestamp": "2026-04-11T06:10:57.916390+00:00",
+      "id": "sig_832384",
+      "timestamp": "2026-04-11T07:04:16.492032+00:00",
       "source": "PERPLEXITY",
-      "headline": "Speculation on CLARITY Act progress (Senate return April 13, potential markup later in April) and FedNow expansion (Apri",
-      "raw": "Speculation on CLARITY Act progress (Senate return April 13, potential markup later in April) and FedNow expansion (April 9), but no passage or resolution confirmed[2][5][6].",
-      "direction": "NO",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will Noah Kahan have a #1 hit in April?",
-        "Joe Kent charged by April 30?",
-        "U.S. evacuates Beirut Embassy by April 30?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_633810",
-      "timestamp": "2026-04-11T06:10:57.921736+00:00",
-      "source": "PERPLEXITY",
-      "headline": "XRP scarcity signals (e",
-      "raw": "XRP scarcity signals (e.g., $11B outflows, liquidity collapse) and infrastructure ($2.4B in play) noted as building catalysts, yet unconfirmed for immediate action[1][3][7].\n\nNo sources report \"just confirmed\" events like regulatory wins, ETF approvals, or adoptions as of this moment; focus remains on anticipation for April 13+ developments[4][5].",
-      "direction": "NO",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will Noah Kahan have a #1 hit in April?",
-        "Joe Kent charged by April 30?",
-        "U.S. evacuates Beirut Embassy by April 30?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_639978",
-      "timestamp": "2026-04-11T06:11:04.089658+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Fed Confirms Rate Pause at 3",
-      "raw": "Fed Confirms Rate Pause at 3.5%-3.75% in March 2026 FOMC Meeting | YES | HIGH confidence**\n\nThe Federal Reserve's FOMC statement on March 18, 2026, explicitly maintained the federal funds rate target range at 3\u00bd to 3\u00be percent, citing solid economic expansion, low job gains, little-changed unemployment, and somewhat elevated inflation, with plans to assess incoming data for future adjustments.[3] T",
+      "headline": "HEADLINE | YES or NO | HIGH/MED/LOW confidence**",
+      "raw": "HEADLINE | YES or NO | HIGH/MED/LOW confidence**  \nXRP holds $1.30+ amid CLARITY Act wait; no surge confirmed despite analyst $7.52 call | **NO** | **LOW** [1][2][5]  \nBitcoin at ~$71,700 in recent recap; no new ups confirmed beyond market morning update | **NO** | **LOW** [4]",
       "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will XRP dip to $0.60 in April?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_838427",
+      "timestamp": "2026-04-11T07:04:22.535328+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Fed Holds Rates Steady Amid Iran War Uncertainty and Hotter Inflation Outlook | NO** | **MED** confidence",
+      "raw": "Fed Holds Rates Steady Amid Iran War Uncertainty and Hotter Inflation Outlook | NO** | **MED** confidence\n\nThe Federal Reserve recently decided to pause interest rate changes, holding the federal funds rate at 3.5%-3.75% due to elevated inflation, geopolitical risks from the Iran conflict disrupting oil supply via the Strait of Hormuz, and a divided committee on 2026 cuts (seven officials predict ",
+      "direction": "NO",
       "confidence": 0.9,
       "matched_markets": [
         "Will Dogecoin reach $0.16 by December 31, 2026?",
@@ -105,103 +103,60 @@
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_625298",
-      "timestamp": "2026-04-11T06:10:49.409743+00:00",
+      "id": "sig_822816",
+      "timestamp": "2026-04-11T07:04:06.924929+00:00",
       "source": "PERPLEXITY",
-      "headline": "**Trump's role**: Machado credits Trump for freedom movement; his actions (strike, recognition) resolve 2024 election di",
-      "raw": "**Trump's role**: Machado credits Trump for freedom movement; his actions (strike, recognition) resolve 2024 election dispute ignored by Maduro, likely spiking markets on regime change[1].",
-      "direction": null,
-      "confidence": 0.78,
-      "matched_markets": [
-        "Will Trump talk to Nicol\u00e1s Maduro in April?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_625281",
-      "timestamp": "2026-04-11T06:10:49.392760+00:00",
-      "source": "PERPLEXITY",
-      "headline": "MADURO CAPTURED AFTER US STRIKE; MACHADO EMERGES AS POST-MADURO LEADER** | **YES** | **HIGH** confidence[1]",
-      "raw": "MADURO CAPTURED AFTER US STRIKE; MACHADO EMERGES AS POST-MADURO LEADER** | **YES** | **HIGH** confidence[1]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_625293",
-      "timestamp": "2026-04-11T06:10:49.404107+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Jorge Nieto context**: Nieto (5th in polls) debated security/corruption ahead of Peru's April 12 vote; no direct Madur",
-      "raw": "**Jorge Nieto context**: Nieto (5th in polls) debated security/corruption ahead of Peru's April 12 vote; no direct Maduro link or resolution, but regional elections (e.g., Peru runoffs April 19) proceed amid post-Maduro shifts[2].",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Noah Kahan have a #1 hit in April?",
-        "Joe Kent charged by April 30?",
-        "U.S. evacuates Beirut Embassy by April 30?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_625304",
-      "timestamp": "2026-04-11T06:10:49.415380+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**No direct April election tie**: 2024 Venezuela vote context; Peru/Colombia elections ongoing, with Maduro facing US na",
-      "raw": "**No direct April election tie**: 2024 Venezuela vote context; Peru/Colombia elections ongoing, with Maduro facing US narcoterrorism hearing (path to trial locked in)[2].",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Noah Kahan have a #1 hit in April?",
-        "Joe Kent charged by April 30?",
-        "U.S. evacuates Beirut Embassy by April 30?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_633788",
-      "timestamp": "2026-04-11T06:10:57.899513+00:00",
-      "source": "PERPLEXITY",
-      "headline": "XRP trading above $1",
-      "raw": "XRP trading above $1.35 amid crypto recovery, whale accumulation (11M XRP/day average), and exchange outflows, potentially breaking a 6-month losing streak if it closes March above $1.33[1][2].",
+      "headline": "A YouTube video claims 4,700 North Korean troops arriving at a Russian base were attacked by the US on April 8, 2026, bu",
+      "raw": "A YouTube video claims 4,700 North Korean troops arriving at a Russian base were attacked by the US on April 8, 2026, but lacks verification from official sources and appears speculative (e.g., tied to Arma 3 gaming context).[1]",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [
-        "Will XRP dip to $0.60 in April?"
+        "Will Russia capture all of Vovchansk by April 30?",
+        "Will Noah Kahan have a #1 hit in April?",
+        "Joe Kent charged by April 30?"
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_633795",
-      "timestamp": "2026-04-11T06:10:57.906998+00:00",
+      "id": "sig_822822",
+      "timestamp": "2026-04-11T07:04:06.930507+00:00",
       "source": "PERPLEXITY",
-      "headline": "Ripple minted 2M RLUSD on Ethereum (April 9) for liquidity, a routine operational move with neutral XRP impact[6]",
-      "raw": "Ripple minted 2M RLUSD on Ethereum (April 9) for liquidity, a routine operational move with neutral XRP impact[6].",
+      "headline": "Earlier reports (April 30, 2025) note ~600 North Korean troop deaths in Russia and ~15,000 workers sent, violating UN sa",
+      "raw": "Earlier reports (April 30, 2025) note ~600 North Korean troop deaths in Russia and ~15,000 workers sent, violating UN sanctions, with Russia-North Korea bridge construction ongoing for late 2026 completion.[2]",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [
+        "Will Russia capture all of Vovchansk by April 30?",
         "Will Noah Kahan have a #1 hit in April?",
-        "Joe Kent charged by April 30?",
-        "U.S. evacuates Beirut Embassy by April 30?"
+        "Joe Kent charged by April 30?"
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_822833",
+      "timestamp": "2026-04-11T07:04:06.941575+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Other items include a April 9, 2026, frontline update on Russian advances east of Kupyansk (not Vovchansk) and Trump-NAT",
+      "raw": "Other items include a April 9, 2026, frontline update on Russian advances east of Kupyansk (not Vovchansk) and Trump-NATO tensions, but nothing tying all query elements or market-moving resolutions.[5]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Russia capture all of Vovchansk by April 30?",
+        "Will Noah Kahan have a #1 hit in April?",
+        "Joe Kent charged by April 30?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
     }
   ],
   "stats": {
     "enter": 6,
-    "alert": 6,
+    "alert": 3,
     "watch": 0,
     "high_conf": 6
   }
