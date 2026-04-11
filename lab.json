@@ -8,9 +8,9 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 143 categorical arb opportunities found\nScanned 3000 events (1980 multi-outcome) at 2026-04-11 10:08 UTC\nBest: 9.9% profit on 'Sachsen-Anhalt Parliamentary Elections: 2nd Place' \u2014 buy YES on all 3 outcomes (sum=0.901)\nStrategy: Buy YES on all 3 outcomes. Total cost: $0.9010. One wins $1.00. Profit: $0.0990 (9.90%)\n2nd: 9.8% on 'AZ-01 Republican Primary Winner'",
+      "result": "LIVE \u2014 140 categorical arb opportunities found\nScanned 3000 events (1983 multi-outcome) at 2026-04-11 10:10 UTC\nBest: 9.9% profit on 'Sachsen-Anhalt Parliamentary Elections: 2nd Place' \u2014 buy YES on all 3 outcomes (sum=0.901)\nStrategy: Buy YES on all 3 outcomes. Total cost: $0.9010. One wins $1.00. Profit: $0.0990 (9.90%)\n2nd: 9.75% on 'Presidential Election Winner 2028'",
       "priority": "HIGH",
-      "last_scan": "2026-04-11 10:08 UTC",
+      "last_scan": "2026-04-11 10:10 UTC",
       "opportunities": [
         {
           "event_title": "Sachsen-Anhalt Parliamentary Elections: 2nd Place",
@@ -46,107 +46,11 @@
           "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9010. One wins $1.00. Profit: $0.0990 (9.90%)"
         },
         {
-          "event_title": "AZ-01 Republican Primary Winner",
-          "event_slug": "az-01-republican-primary-winner",
-          "yes_sum": 0.902,
-          "profit_pct": 9.8,
-          "profit_per_dollar_pct": 10.86,
-          "num_outcomes": 12,
-          "outcomes": [
-            {
-              "market_id": "704348",
-              "slug": "will-jay-feely-be-the-republican-nominee-for-az-01",
-              "question": "Will Jay Feely be the Republican nominee for AZ-01?",
-              "yes_price": 0.695,
-              "volume": 4681
-            },
-            {
-              "market_id": "704343",
-              "slug": "will-joseph-chaplik-be-the-republican-nominee-for-az-01",
-              "question": "Will Joseph Chaplik be the Republican nominee for AZ-01?",
-              "yes_price": 0.076,
-              "volume": 8138
-            },
-            {
-              "market_id": "704345",
-              "slug": "will-todd-graham-be-the-republican-nominee-for-az-01",
-              "question": "Will Todd Graham be the Republican nominee for AZ-01?",
-              "yes_price": 0.055,
-              "volume": 7582
-            },
-            {
-              "market_id": "704349",
-              "slug": "will-derrick-gallego-be-the-republican-nominee-for-az-01-424",
-              "question": "Will Derrick Gallego be the Republican nominee for AZ-01?",
-              "yes_price": 0.017,
-              "volume": 3463
-            },
-            {
-              "market_id": "704346",
-              "slug": "will-mark-brnovich-be-the-republican-nominee-for-az-01",
-              "question": "Will Mark Brnovich be the Republican nominee for AZ-01?",
-              "yes_price": 0.0145,
-              "volume": 4365
-            },
-            {
-              "market_id": "704347",
-              "slug": "will-kari-lake-be-the-republican-nominee-for-az-01",
-              "question": "Will Kari Lake be the Republican nominee for AZ-01?",
-              "yes_price": 0.0135,
-              "volume": 6398
-            },
-            {
-              "market_id": "704341",
-              "slug": "will-matt-gress-be-the-republican-nominee-for-az-01",
-              "question": "Will Matt Gress be the Republican nominee for AZ-01?",
-              "yes_price": 0.007,
-              "volume": 47835
-            },
-            {
-              "market_id": "704351",
-              "slug": "will-paul-reevs-be-the-republican-nominee-for-az-01",
-              "question": "Will Paul Reevs be the Republican nominee for AZ-01?",
-              "yes_price": 0.0065,
-              "volume": 222106
-            },
-            {
-              "market_id": "704350",
-              "slug": "will-kaitlin-purrington-be-the-republican-nominee-for-az-01",
-              "question": "Will Kaitlin Purrington be the Republican nominee for AZ-01?",
-              "yes_price": 0.005,
-              "volume": 8235
-            },
-            {
-              "market_id": "704352",
-              "slug": "will-brandon-sowers-be-the-republican-nominee-for-az-01-218",
-              "question": "Will Brandon Sowers be the Republican nominee for AZ-01?",
-              "yes_price": 0.005,
-              "volume": 10660
-            },
-            {
-              "market_id": "704353",
-              "slug": "will-john-trobough-be-the-republican-nominee-for-az-01-622",
-              "question": "Will John Trobough be the Republican nominee for AZ-01?",
-              "yes_price": 0.004,
-              "volume": 1910
-            },
-            {
-              "market_id": "704344",
-              "slug": "will-muchelle-ugenti-rita-be-the-republican-nominee-for-az-01",
-              "question": "Will Muchelle Ugenti-Rita be the Republican nominee for AZ-01?",
-              "yes_price": 0.0035,
-              "volume": 4221
-            }
-          ],
-          "url": "https://polymarket.com/event/az-01-republican-primary-winner",
-          "strategy": "Buy YES on all 12 outcomes. Total cost: $0.9020. One wins $1.00. Profit: $0.0980 (9.80%)"
-        },
-        {
           "event_title": "Presidential Election Winner 2028",
           "event_slug": "presidential-election-winner-2028",
-          "yes_sum": 0.903,
-          "profit_pct": 9.7,
-          "profit_per_dollar_pct": 10.74,
+          "yes_sum": 0.9025,
+          "profit_pct": 9.75,
+          "profit_per_dollar_pct": 10.8,
           "num_outcomes": 36,
           "outcomes": [
             {
@@ -154,28 +58,28 @@
               "slug": "will-jd-vance-win-the-2028-us-presidential-election",
               "question": "Will JD Vance win the 2028 US Presidential Election?",
               "yes_price": 0.1875,
-              "volume": 10076245
+              "volume": 10076279
             },
             {
               "market_id": "561230",
               "slug": "will-gavin-newsom-win-the-2028-us-presidential-election",
               "question": "Will Gavin Newsom win the 2028 US Presidential Election?",
               "yes_price": 0.1665,
-              "volume": 13182795
+              "volume": 13182908
             },
             {
               "market_id": "561234",
               "slug": "will-marco-rubio-win-the-2028-us-presidential-election",
               "question": "Will Marco Rubio win the 2028 US Presidential Election?",
               "yes_price": 0.0945,
-              "volume": 5918808
+              "volume": 5918831
             },
             {
               "market_id": "561231",
               "slug": "will-alexandria-ocasio-cortez-win-the-2028-us-presidential-election",
               "question": "Will Alexandria Ocasio-Cortez win the 2028 US Presidential Election?",
               "yes_price": 0.0545,
-              "volume": 10703305
+              "volume": 10703338
             },
             {
               "market_id": "561261",
@@ -185,25 +89,18 @@
               "volume": 3427811
             },
             {
+              "market_id": "561239",
+              "slug": "will-kamala-harris-win-the-2028-us-presidential-election",
+              "question": "Will Kamala Harris win the 2028 US Presidential Election?",
+              "yes_price": 0.0315,
+              "volume": 6927272
+            },
+            {
               "market_id": "561253",
               "slug": "will-tucker-carlson-win-the-2028-us-presidential-election",
               "question": "Will Tucker Carlson win the 2028 US Presidential Election?",
               "yes_price": 0.031,
-              "volume": 9852917
-            },
-            {
-              "market_id": "561239",
-              "slug": "will-kamala-harris-win-the-2028-us-presidential-election",
-              "question": "Will Kamala Harris win the 2028 US Presidential Election?",
-              "yes_price": 0.031,
-              "volume": 6927022
-            },
-            {
-              "market_id": "561246",
-              "slug": "will-ron-desantis-win-the-2028-us-presidential-election",
-              "question": "Will Ron DeSantis win the 2028 US Presidential Election?",
-              "yes_price": 0.0225,
-              "volume": 8157662
+              "volume": 9852971
             },
             {
               "market_id": "561243",
@@ -218,6 +115,13 @@
               "question": "Will Josh Shapiro win the 2028 US Presidential Election?",
               "yes_price": 0.0215,
               "volume": 5767519
+            },
+            {
+              "market_id": "561246",
+              "slug": "will-ron-desantis-win-the-2028-us-presidential-election",
+              "question": "Will Ron DeSantis win the 2028 US Presidential Election?",
+              "yes_price": 0.0215,
+              "volume": 8158175
             },
             {
               "market_id": "561232",
@@ -294,7 +198,7 @@
               "slug": "will-greg-abbott-win-the-2028-us-presidential-election",
               "question": "Will Greg Abbott win the 2028 US Presidential Election?",
               "yes_price": 0.0095,
-              "volume": 31791051
+              "volume": 31792704
             },
             {
               "market_id": "561257",
@@ -308,7 +212,7 @@
               "slug": "will-ivanka-trump-win-the-2028-us-presidential-election",
               "question": "Will Ivanka Trump win the 2028 US Presidential Election?",
               "yes_price": 0.0085,
-              "volume": 4444061
+              "volume": 4445067
             },
             {
               "market_id": "561259",
@@ -343,7 +247,7 @@
               "slug": "will-zohran-mamdani-win-the-2028-us-presidential-election",
               "question": "Will Zohran Mamdani win the 2028 US Presidential Election?",
               "yes_price": 0.0075,
-              "volume": 17484964
+              "volume": 17486518
             },
             {
               "market_id": "561263",
@@ -378,7 +282,7 @@
               "slug": "will-pete-hegseth-win-the-2028-us-presidential-election",
               "question": "Will Pete Hegseth win the 2028 US Presidential Election?",
               "yes_price": 0.0065,
-              "volume": 4272681
+              "volume": 4273109
             },
             {
               "market_id": "561248",
@@ -403,7 +307,103 @@
             }
           ],
           "url": "https://polymarket.com/event/presidential-election-winner-2028",
-          "strategy": "Buy YES on all 36 outcomes. Total cost: $0.9030. One wins $1.00. Profit: $0.0970 (9.70%)"
+          "strategy": "Buy YES on all 36 outcomes. Total cost: $0.9025. One wins $1.00. Profit: $0.0975 (9.75%)"
+        },
+        {
+          "event_title": "AZ-01 Republican Primary Winner",
+          "event_slug": "az-01-republican-primary-winner",
+          "yes_sum": 0.9025,
+          "profit_pct": 9.75,
+          "profit_per_dollar_pct": 10.8,
+          "num_outcomes": 12,
+          "outcomes": [
+            {
+              "market_id": "704348",
+              "slug": "will-jay-feely-be-the-republican-nominee-for-az-01",
+              "question": "Will Jay Feely be the Republican nominee for AZ-01?",
+              "yes_price": 0.695,
+              "volume": 4681
+            },
+            {
+              "market_id": "704343",
+              "slug": "will-joseph-chaplik-be-the-republican-nominee-for-az-01",
+              "question": "Will Joseph Chaplik be the Republican nominee for AZ-01?",
+              "yes_price": 0.076,
+              "volume": 8138
+            },
+            {
+              "market_id": "704345",
+              "slug": "will-todd-graham-be-the-republican-nominee-for-az-01",
+              "question": "Will Todd Graham be the Republican nominee for AZ-01?",
+              "yes_price": 0.055,
+              "volume": 7582
+            },
+            {
+              "market_id": "704349",
+              "slug": "will-derrick-gallego-be-the-republican-nominee-for-az-01-424",
+              "question": "Will Derrick Gallego be the Republican nominee for AZ-01?",
+              "yes_price": 0.0175,
+              "volume": 3463
+            },
+            {
+              "market_id": "704346",
+              "slug": "will-mark-brnovich-be-the-republican-nominee-for-az-01",
+              "question": "Will Mark Brnovich be the Republican nominee for AZ-01?",
+              "yes_price": 0.0145,
+              "volume": 4365
+            },
+            {
+              "market_id": "704347",
+              "slug": "will-kari-lake-be-the-republican-nominee-for-az-01",
+              "question": "Will Kari Lake be the Republican nominee for AZ-01?",
+              "yes_price": 0.0135,
+              "volume": 6398
+            },
+            {
+              "market_id": "704341",
+              "slug": "will-matt-gress-be-the-republican-nominee-for-az-01",
+              "question": "Will Matt Gress be the Republican nominee for AZ-01?",
+              "yes_price": 0.007,
+              "volume": 47835
+            },
+            {
+              "market_id": "704351",
+              "slug": "will-paul-reevs-be-the-republican-nominee-for-az-01",
+              "question": "Will Paul Reevs be the Republican nominee for AZ-01?",
+              "yes_price": 0.0065,
+              "volume": 222106
+            },
+            {
+              "market_id": "704350",
+              "slug": "will-kaitlin-purrington-be-the-republican-nominee-for-az-01",
+              "question": "Will Kaitlin Purrington be the Republican nominee for AZ-01?",
+              "yes_price": 0.005,
+              "volume": 8235
+            },
+            {
+              "market_id": "704352",
+              "slug": "will-brandon-sowers-be-the-republican-nominee-for-az-01-218",
+              "question": "Will Brandon Sowers be the Republican nominee for AZ-01?",
+              "yes_price": 0.005,
+              "volume": 10660
+            },
+            {
+              "market_id": "704353",
+              "slug": "will-john-trobough-be-the-republican-nominee-for-az-01-622",
+              "question": "Will John Trobough be the Republican nominee for AZ-01?",
+              "yes_price": 0.004,
+              "volume": 1910
+            },
+            {
+              "market_id": "704344",
+              "slug": "will-muchelle-ugenti-rita-be-the-republican-nominee-for-az-01",
+              "question": "Will Muchelle Ugenti-Rita be the Republican nominee for AZ-01?",
+              "yes_price": 0.0035,
+              "volume": 4221
+            }
+          ],
+          "url": "https://polymarket.com/event/az-01-republican-primary-winner",
+          "strategy": "Buy YES on all 12 outcomes. Total cost: $0.9025. One wins $1.00. Profit: $0.0975 (9.75%)"
         },
         {
           "event_title": "Will Russia capture Lyman by...?",
@@ -472,46 +472,6 @@
           ],
           "url": "https://polymarket.com/event/will-russia-capture-lyman-in-2025",
           "strategy": "Buy YES on all 8 outcomes. Total cost: $0.9035. One wins $1.00. Profit: $0.0965 (9.65%)"
-        },
-        {
-          "event_title": "Who will close Warner Bros. acquisition?",
-          "event_slug": "who-will-close-warner-bros-acquisition",
-          "yes_sum": 0.905,
-          "profit_pct": 9.5,
-          "profit_per_dollar_pct": 10.5,
-          "num_outcomes": 4,
-          "outcomes": [
-            {
-              "market_id": "897019",
-              "slug": "will-paramount-close-warner-bros-acquisition",
-              "question": "Will Paramount close Warner Bros acquisition?",
-              "yes_price": 0.715,
-              "volume": 440316
-            },
-            {
-              "market_id": "897030",
-              "slug": "no-listed-company-closes-warner-bros-acquisition-by-june-30-2027",
-              "question": "No listed company closes Warner Bros acquisition by June 30, 2027",
-              "yes_price": 0.15,
-              "volume": 156955
-            },
-            {
-              "market_id": "897017",
-              "slug": "will-netflix-close-warner-bros-acquisition",
-              "question": "Will Netflix close Warner Bros acquisition?",
-              "yes_price": 0.0325,
-              "volume": 217870
-            },
-            {
-              "market_id": "897018",
-              "slug": "will-comcast-close-warner-bros-acquisition",
-              "question": "Will Comcast close Warner Bros acquisition?",
-              "yes_price": 0.0075,
-              "volume": 173873
-            }
-          ],
-          "url": "https://polymarket.com/event/who-will-close-warner-bros-acquisition",
-          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
         },
         {
           "event_title": "Will Israel launch a major ground offensive in Gaza by...?",
@@ -705,15 +665,55 @@
           ],
           "url": "https://polymarket.com/event/nhl-atlantic-division-winner-747",
           "strategy": "Buy YES on all 6 outcomes. Total cost: $0.9080. One wins $1.00. Profit: $0.0920 (9.20%)"
+        },
+        {
+          "event_title": "Will Opensea launch a token by ___?",
+          "event_slug": "will-opensea-launch-a-token-by-142",
+          "yes_sum": 0.9095,
+          "profit_pct": 9.05,
+          "profit_per_dollar_pct": 9.95,
+          "num_outcomes": 4,
+          "outcomes": [
+            {
+              "market_id": "1271613",
+              "slug": "will-opensea-launch-a-token-by-december-31-2026",
+              "question": "Will OpenSea launch a token by December 31, 2026?",
+              "yes_price": 0.6065,
+              "volume": 94851
+            },
+            {
+              "market_id": "1271612",
+              "slug": "will-opensea-launch-a-token-by-september-30-2026",
+              "question": "Will OpenSea launch a token by September 30, 2026?",
+              "yes_price": 0.235,
+              "volume": 66037
+            },
+            {
+              "market_id": "1271611",
+              "slug": "will-opensea-launch-a-token-by-june-30-2026",
+              "question": "Will OpenSea launch a token by June 30, 2026?",
+              "yes_price": 0.068,
+              "volume": 188289
+            },
+            {
+              "market_id": "1271610",
+              "slug": "will-opensea-launch-a-token-by-march-31-2026",
+              "question": "Will OpenSea launch a token by March 31, 2026?",
+              "yes_price": 0.0,
+              "volume": 1030401
+            }
+          ],
+          "url": "https://polymarket.com/event/will-opensea-launch-a-token-by-142",
+          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9095. One wins $1.00. Profit: $0.0905 (9.05%)"
         }
       ],
       "stats": {
         "total_events": 3000,
-        "checked_multi_outcome": 1980,
-        "skipped_single_outcome": 596,
-        "opportunities_found": 143,
+        "checked_multi_outcome": 1983,
+        "skipped_single_outcome": 595,
+        "opportunities_found": 140,
         "best_profit_pct": 9.9,
-        "scanned_at": "2026-04-11 10:08 UTC"
+        "scanned_at": "2026-04-11 10:10 UTC"
       }
     },
     {
