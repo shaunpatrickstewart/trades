@@ -1,147 +1,44 @@
 {
-  "last_scan": "2026-04-11T17:25:42.961487+00:00",
-  "scan_seconds": 24.7,
-  "markets_scanned": 101,
+  "last_scan": "2026-04-11T17:34:02.428419+00:00",
+  "scan_seconds": 29.1,
+  "markets_scanned": 102,
   "open_positions": 59,
   "signals": [
     {
-      "id": "sig_112576",
-      "timestamp": "2026-04-11T17:25:36.646239+00:00",
+      "id": "sig_617336",
+      "timestamp": "2026-04-11T17:34:01.406937+00:00",
       "source": "PERPLEXITY",
-      "headline": "Solana Alpenglow Upgrade Passes Governance Vote with 98",
-      "raw": "Solana Alpenglow Upgrade Passes Governance Vote with 98.27% Approval | YES | HIGH confidence**  \nThe Alpenglow upgrade, aimed at reducing Solana transaction finality to 100-150 milliseconds, was confirmed via a governance vote with overwhelming support, positioning Solana as a top-speed execution layer amid its strong DEX volume ($117B, doubling Ethereum's $52B) despite recent price declines.[2][3",
+      "headline": "Fed Rate Pause Widely Expected at January 2026 Meeting | YES | HIGH confidence**",
+      "raw": "Fed Rate Pause Widely Expected at January 2026 Meeting | YES | HIGH confidence**\n\nEconomic data, including unemployment at 4.4%, 50,000 jobs added in December, and Q3 GDP growth revised to 4.4%, supports the Federal Reserve pausing rate cuts after three 25bps reductions in late 2025, with the benchmark rate steady at 3.5%-3.75%.[1][5] The Fed explicitly held rates unchanged in its January 2026 dec",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
-        "Solana Up or Down - April 12, 8:35AM-8:40AM ET",
-        "Ethereum Up or Down - April 12, 10:20AM-10:25AM ET"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_112585",
-      "timestamp": "2026-04-11T17:25:36.655024+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Solana Launches STRIDE Security Initiative | YES | MED confidence**",
-      "raw": "Solana Launches STRIDE Security Initiative | YES | MED confidence**  \nAnnounced on April 7, 2026, Solana's STRIDE initiative addresses ecosystem security concerns following a $280M+ Drift protocol exploit via social engineering, potentially restoring confidence shaken by dropped DEX volumes and price tests at $75-80 support.[4][7] Impacts on prediction markets may be tempered by the exploit's rece",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Solana Up or Down - April 12, 8:35AM-8:40AM ET"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_117890",
-      "timestamp": "2026-04-11T17:25:41.960375+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Fed Confirms Rate Pause in March 2026 FOMC Statement | YES | HIGH confidence**",
-      "raw": "Fed Confirms Rate Pause in March 2026 FOMC Statement | YES | HIGH confidence**\n\nThe Federal Reserve's FOMC statement on March 18, 2026, explicitly announced it would **maintain the target range for the federal funds rate at 3\u00bd to 3\u00be percent**, signaling a pause after prior cuts, amid solid economic expansion, low job gains, stable unemployment, and somewhat elevated inflation.[3] This decision ref",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will the Fed Pause\u2013Pause\u2013Pause in the next three decisions ("
+        "Will the Fed Pause\u2013Pause\u2013Pause in the next three decisions (",
+        "Will NVIDIA (NVDA) hit (HIGH) $192 Week of April 13 2026?"
       ],
       "action": "ENTER",
       "x_link": null,
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_100441",
-      "timestamp": "2026-04-11T17:25:24.511639+00:00",
+      "id": "sig_611164",
+      "timestamp": "2026-04-11T17:33:55.234101+00:00",
       "source": "PERPLEXITY",
-      "headline": "Russia intensifies advance in Vovchansk, capturing 40 sq mi and 7 villages amid Ukrainian ammunition shortages** | YES |",
-      "raw": "Russia intensifies advance in Vovchansk, capturing 40 sq mi and 7 villages amid Ukrainian ammunition shortages** | YES | HIGH[7]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Russia capture all of Vovchansk by April 30?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_100450",
-      "timestamp": "2026-04-11T17:25:24.520465+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Russia issues stark warning to US over Iran threats, calling Middle East \"on fire\" as tensions escalate with Trump ultim",
-      "raw": "Russia issues stark warning to US over Iran threats, calling Middle East \"on fire\" as tensions escalate with Trump ultimatums** | YES | MED[1]",
-      "direction": "YES",
-      "confidence": 0.65,
+      "headline": "**Ecosystem updates** from March, including hackathons and builder programs[7]",
+      "raw": "**Ecosystem updates** from March, including hackathons and builder programs[7]\n\nNone of these represent breaking news or confirmed market-moving events that would warrant the headline format you requested. To provide accurate breaking news, I would need search results containing actual announcements, regulatory decisions, protocol updates, or significant price movements confirmed today or very rec",
+      "direction": null,
+      "confidence": 0.9,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "GEOPOLITICS"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_100459",
-      "timestamp": "2026-04-11T17:25:24.529032+00:00",
+      "id": "sig_604683",
+      "timestamp": "2026-04-11T17:33:48.753188+00:00",
       "source": "PERPLEXITY",
-      "headline": "North Korea tests strategic cruise missile from new destroyer amid US redeployments to Iran, hailed by Kim as naval powe",
-      "raw": "North Korea tests strategic cruise missile from new destroyer amid US redeployments to Iran, hailed by Kim as naval power boost** | YES | HIGH[3]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_106089",
-      "timestamp": "2026-04-11T17:25:30.159196+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Mentions of **Reza Pahlavi** are historical (1960s-1970s Iran under Shah Mohammad Reza Pahlavi) with no recent ties to P",
-      "raw": "Mentions of **Reza Pahlavi** are historical (1960s-1970s Iran under Shah Mohammad Reza Pahlavi) with no recent ties to Peru, Trump, or elections.[1][2]",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Trump talk to Reza Pahlavi in April?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_106100",
-      "timestamp": "2026-04-11T17:25:30.170367+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Jorge Nieto** appears in a Polymarket prediction market asking \"Will Jorge Nieto win the 2026 Peruvian presidential el",
-      "raw": "**Jorge Nieto** appears in a Polymarket prediction market asking \"Will Jorge Nieto win the 2026 Peruvian presidential election?\" (currently trading at No 83.7\u00a2), but no updates, announcements, or resolutions are reported.[5]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Jorge Nieto win the 2026 Peruvian presidential election"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_106107",
-      "timestamp": "2026-04-11T17:25:30.177215+00:00",
-      "source": "PERPLEXITY",
-      "headline": "No connections to **Trump**, **Peruvian** elections, or market-moving developments like endorsements, withdrawals, or po",
-      "raw": "No connections to **Trump**, **Peruvian** elections, or market-moving developments like endorsements, withdrawals, or polls involving these figures.[2][5][6]",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Jorge Nieto win the 2026 Peruvian presidential election"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_106114",
-      "timestamp": "2026-04-11T17:25:30.184045+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Other results cover unrelated global crises (e",
-      "raw": "Other results cover unrelated global crises (e.g., post-2024 conflicts in Syria, Yemen) or irrelevant topics (e.g., 1960s NYC press conference).[2][3][4]",
+      "headline": "I cannot provide breaking news for today (April 11, 2026) based on these search results",
+      "raw": "I cannot provide breaking news for today (April 11, 2026) based on these search results. The articles provided are dated from March and early April 2026 and do not contain announcements, confirmations, or resolutions made today that would move prediction markets.\n\nThe most recent information available discusses:",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
@@ -150,38 +47,85 @@
       "category": "POLITICS"
     },
     {
-      "id": "sig_106120",
-      "timestamp": "2026-04-11T17:25:30.190902+00:00",
+      "id": "sig_611143",
+      "timestamp": "2026-04-11T17:33:55.213469+00:00",
       "source": "PERPLEXITY",
-      "headline": "| NO | HIGH confidence** (results lack any timely, relevant breaking news)",
-      "raw": "| NO | HIGH confidence** (results lack any timely, relevant breaking news).",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_112594",
-      "timestamp": "2026-04-11T17:25:36.664726+00:00",
-      "source": "PERPLEXITY",
-      "headline": "No Major Confirmed Announcements for Ethereum Uplift | NO | HIGH confidence**",
-      "raw": "No Major Confirmed Announcements for Ethereum Uplift | NO | HIGH confidence**  \nEthereum faces ETF outflows, neutral RSI, and low volume despite upgrades like Alpenglow (Solana-specific) and institutional RWA interest; prices hover at ~$2,038-2,050 with no breaking news resolutions.[1][2][3] Solana overtook Ethereum in DEX volume and RWA holders (March data), but Ethereum leads TVL ($136B vs. Sola",
+      "headline": "I cannot provide breaking news in the format you've requested based on these search results",
+      "raw": "I cannot provide breaking news in the format you've requested based on these search results. The search results contain price analyses and predictions from early April 2026, but **no recent announcements, confirmations, or resolutions that would move prediction markets as of April 11, 2026**.\n\nThe most recent concrete data point is from April 6, 2026, when Solana was trading near $80.50[5]. The se",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [
-        "Ethereum Up or Down - April 12, 10:20AM-10:25AM ET"
+        "Solana Up or Down - April 12, 8:35AM-8:40AM ET"
       ],
       "action": "ALERT",
       "x_link": null,
       "category": "CRYPTO"
+    },
+    {
+      "id": "sig_611150",
+      "timestamp": "2026-04-11T17:33:55.220360+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Technical analysis** of bearish patterns and support/resistance levels[1][2]",
+      "raw": "**Technical analysis** of bearish patterns and support/resistance levels[1][2]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_611157",
+      "timestamp": "2026-04-11T17:33:55.227162+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Price predictions** ranging from $67 to $103",
+      "raw": "**Price predictions** ranging from $67 to $103.76[6][8]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_604690",
+      "timestamp": "2026-04-11T17:33:48.760475+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Trump's skepticism toward Reza Pahlavi's leadership** (early April): Trump publicly questioned whether Pahlavi could g",
+      "raw": "**Trump's skepticism toward Reza Pahlavi's leadership** (early April): Trump publicly questioned whether Pahlavi could garner domestic support in Iran, saying \"I don't know how he'd play within his own country.\"[2]",
+      "direction": null,
+      "confidence": 0.6,
+      "matched_markets": [
+        "Will Trump talk to Reza Pahlavi in April?",
+        "Will Trump talk to Nicol\u00e1s Maduro in April?",
+        "Will Jordan strike Iran by April 30?"
+      ],
+      "action": "WATCH",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_604697",
+      "timestamp": "2026-04-11T17:33:48.767862+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**US approach in Venezuela as a potential model** (March): Following Nicol\u00e1s Maduro's capture in January 2026, the US ch",
+      "raw": "**US approach in Venezuela as a potential model** (March): Following Nicol\u00e1s Maduro's capture in January 2026, the US chose to work with interim leader Delcy Rodr\u00edguez rather than back opposition figure Mar\u00eda Corina Machado, suggesting a similar strategy might apply to Iran.[3][4]\n\nTo provide the market-moving headline you're requesting, I would need search results containing announcements or deve",
+      "direction": null,
+      "confidence": 0.6,
+      "matched_markets": [
+        "Will Trump talk to Nicol\u00e1s Maduro in April?",
+        "Will Jordan strike Iran by April 30?",
+        "Will the US x Iran ceasefire be extended by April 21, 2026?"
+      ],
+      "action": "WATCH",
+      "x_link": null,
+      "category": "POLITICS"
     }
   ],
   "stats": {
-    "enter": 3,
-    "alert": 9,
-    "watch": 0,
-    "high_conf": 3
+    "enter": 1,
+    "alert": 5,
+    "watch": 2,
+    "high_conf": 2
   }
 }
