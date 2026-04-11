@@ -8,9 +8,9 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 133 categorical arb opportunities found\nScanned 3000 events (1994 multi-outcome) at 2026-04-11 21:11 UTC\nBest: 10.0% profit on 'Texas Rangers vs. Los Angeles Dodgers' \u2014 buy YES on all 2 outcomes (sum=0.9)\nStrategy: Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 10.0% on 'What will S&P 500 (SPX) close at end of 2026?'",
+      "result": "LIVE \u2014 137 categorical arb opportunities found\nScanned 3000 events (1988 multi-outcome) at 2026-04-11 21:17 UTC\nBest: 10.0% profit on 'Texas Rangers vs. Los Angeles Dodgers' \u2014 buy YES on all 2 outcomes (sum=0.9)\nStrategy: Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 10.0% on 'Next Premier of Quebec'",
       "priority": "HIGH",
-      "last_scan": "2026-04-11 21:11 UTC",
+      "last_scan": "2026-04-11 21:17 UTC",
       "opportunities": [
         {
           "event_title": "Texas Rangers vs. Los Angeles Dodgers",
@@ -32,58 +32,37 @@
               "slug": "mlb-tex-lad-2026-04-11",
               "question": "Texas Rangers vs. Los Angeles Dodgers",
               "yes_price": 0.375,
-              "volume": 127460
+              "volume": 127492
             }
           ],
           "url": "https://polymarket.com/event/mlb-tex-lad-2026-04-11",
           "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
         },
         {
-          "event_title": "What will S&P 500 (SPX) close at end of 2026?",
-          "event_slug": "spx-close-dec-2026",
+          "event_title": "Next Premier of Quebec",
+          "event_slug": "next-premier-of-quebec",
           "yes_sum": 0.9,
           "profit_pct": 10.0,
           "profit_per_dollar_pct": 11.11,
-          "num_outcomes": 5,
+          "num_outcomes": 2,
           "outcomes": [
             {
-              "market_id": "1125397",
-              "slug": "spx-close-below-6000-dec-2026",
-              "question": "Will S&P 500 (SPX) close at <$6,000 in December?",
-              "yes_price": 0.425,
-              "volume": 11160
+              "market_id": "1837607",
+              "slug": "will-christine-frechette-be-the-next-premier-of-quebec-following-the-2026-caq-leadership-elections",
+              "question": "Will Christine Fr\u00e9chette be the next Premier of Quebec following the 2026 CAQ le",
+              "yes_price": 0.675,
+              "volume": 15586
             },
             {
-              "market_id": "1125399",
-              "slug": "spx-close-6500-7000-dec-2026",
-              "question": "Will S&P 500 (SPX) close at $6,500-$7,000 in December?",
-              "yes_price": 0.185,
-              "volume": 1373
-            },
-            {
-              "market_id": "1125398",
-              "slug": "spx-close-6000-6500-dec-2026",
-              "question": "Will S&P 500 (SPX) close at $6,000-$6,500 in December?",
-              "yes_price": 0.125,
-              "volume": 1206
-            },
-            {
-              "market_id": "1126565",
-              "slug": "spx-close-7500-8000-dec-2026",
-              "question": "Will S&P 500 (SPX) close at $7,500-$8,000 in December?",
-              "yes_price": 0.095,
-              "volume": 1570
-            },
-            {
-              "market_id": "1125404",
-              "slug": "spx-close-above-8000-dec-2026-362-989-862",
-              "question": "Will S&P 500 (SPX) close at >$8,000 in December?",
-              "yes_price": 0.07,
-              "volume": 1719
+              "market_id": "1837604",
+              "slug": "will-bernard-drainville-be-the-next-premier-of-quebec-following-the-2026-caq-leadership-elections",
+              "question": "Will Bernard Drainville be the next Premier of Quebec following the 2026 CAQ lea",
+              "yes_price": 0.225,
+              "volume": 12055
             }
           ],
-          "url": "https://polymarket.com/event/spx-close-dec-2026",
-          "strategy": "Buy YES on all 5 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
+          "url": "https://polymarket.com/event/next-premier-of-quebec",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
         },
         {
           "event_title": "Hamarkameratene vs. KFUM-Kameratene Oslo - More Markets",
@@ -166,11 +145,44 @@
           "strategy": "Buy YES on all 6 outcomes. Total cost: $0.9005. One wins $1.00. Profit: $0.0995 (9.95%)"
         },
         {
-          "event_title": "AZ-01 Republican Primary Winner",
-          "event_slug": "az-01-republican-primary-winner",
+          "event_title": "Sachsen-Anhalt Parliamentary Elections: 2nd Place",
+          "event_slug": "sachsen-anhalt-parliamentary-elections-2nd-place",
           "yes_sum": 0.901,
           "profit_pct": 9.9,
           "profit_per_dollar_pct": 10.99,
+          "num_outcomes": 3,
+          "outcomes": [
+            {
+              "market_id": "1545032",
+              "slug": "will-cdu-win-the-second-most-seats-in-the-2026-sachsen-anhalt-parliamentary-elections",
+              "question": "Will CDU win the second most seats in the 2026 Sachsen-Anhalt parliamentary elec",
+              "yes_price": 0.86,
+              "volume": 16116
+            },
+            {
+              "market_id": "1545044",
+              "slug": "will-fdp-win-the-second-most-seats-in-the-2026-sachsen-anhalt-parliamentary-elections",
+              "question": "Will FDP win the second most seats in the 2026 Sachsen-Anhalt parliamentary elec",
+              "yes_price": 0.028,
+              "volume": 1670
+            },
+            {
+              "market_id": "1545037",
+              "slug": "will-spd-win-the-second-most-seats-in-the-2026-sachsen-anhalt-parliamentary-elections",
+              "question": "Will SPD win the second most seats in the 2026 Sachsen-Anhalt parliamentary elec",
+              "yes_price": 0.013,
+              "volume": 21871
+            }
+          ],
+          "url": "https://polymarket.com/event/sachsen-anhalt-parliamentary-elections-2nd-place",
+          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9010. One wins $1.00. Profit: $0.0990 (9.90%)"
+        },
+        {
+          "event_title": "AZ-01 Republican Primary Winner",
+          "event_slug": "az-01-republican-primary-winner",
+          "yes_sum": 0.9015,
+          "profit_pct": 9.85,
+          "profit_per_dollar_pct": 10.93,
           "num_outcomes": 12,
           "outcomes": [
             {
@@ -184,7 +196,7 @@
               "market_id": "704343",
               "slug": "will-joseph-chaplik-be-the-republican-nominee-for-az-01",
               "question": "Will Joseph Chaplik be the Republican nominee for AZ-01?",
-              "yes_price": 0.0795,
+              "yes_price": 0.08,
               "volume": 8148
             },
             {
@@ -259,47 +271,14 @@
             }
           ],
           "url": "https://polymarket.com/event/az-01-republican-primary-winner",
-          "strategy": "Buy YES on all 12 outcomes. Total cost: $0.9010. One wins $1.00. Profit: $0.0990 (9.90%)"
-        },
-        {
-          "event_title": "Sachsen-Anhalt Parliamentary Elections: 2nd Place",
-          "event_slug": "sachsen-anhalt-parliamentary-elections-2nd-place",
-          "yes_sum": 0.901,
-          "profit_pct": 9.9,
-          "profit_per_dollar_pct": 10.99,
-          "num_outcomes": 3,
-          "outcomes": [
-            {
-              "market_id": "1545032",
-              "slug": "will-cdu-win-the-second-most-seats-in-the-2026-sachsen-anhalt-parliamentary-elections",
-              "question": "Will CDU win the second most seats in the 2026 Sachsen-Anhalt parliamentary elec",
-              "yes_price": 0.86,
-              "volume": 16116
-            },
-            {
-              "market_id": "1545044",
-              "slug": "will-fdp-win-the-second-most-seats-in-the-2026-sachsen-anhalt-parliamentary-elections",
-              "question": "Will FDP win the second most seats in the 2026 Sachsen-Anhalt parliamentary elec",
-              "yes_price": 0.028,
-              "volume": 1670
-            },
-            {
-              "market_id": "1545037",
-              "slug": "will-spd-win-the-second-most-seats-in-the-2026-sachsen-anhalt-parliamentary-elections",
-              "question": "Will SPD win the second most seats in the 2026 Sachsen-Anhalt parliamentary elec",
-              "yes_price": 0.013,
-              "volume": 21871
-            }
-          ],
-          "url": "https://polymarket.com/event/sachsen-anhalt-parliamentary-elections-2nd-place",
-          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9010. One wins $1.00. Profit: $0.0990 (9.90%)"
+          "strategy": "Buy YES on all 12 outcomes. Total cost: $0.9015. One wins $1.00. Profit: $0.0985 (9.85%)"
         },
         {
           "event_title": "Perplexity IPO Closing Market Cap",
           "event_slug": "perplexity-ipo-closing-market-cap",
-          "yes_sum": 0.9025,
-          "profit_pct": 9.75,
-          "profit_per_dollar_pct": 10.8,
+          "yes_sum": 0.902,
+          "profit_pct": 9.8,
+          "profit_per_dollar_pct": 10.86,
           "num_outcomes": 6,
           "outcomes": [
             {
@@ -313,7 +292,7 @@
               "market_id": "1115933",
               "slug": "will-perplexitys-market-cap-be-between-80b-and-100b-at-market-close-on-ipo-day",
               "question": "Will Perplexity\u2019s market cap be between $50B and $75B at market close on IPO day",
-              "yes_price": 0.1165,
+              "yes_price": 0.116,
               "volume": 6171
             },
             {
@@ -346,14 +325,14 @@
             }
           ],
           "url": "https://polymarket.com/event/perplexity-ipo-closing-market-cap",
-          "strategy": "Buy YES on all 6 outcomes. Total cost: $0.9025. One wins $1.00. Profit: $0.0975 (9.75%)"
+          "strategy": "Buy YES on all 6 outcomes. Total cost: $0.9020. One wins $1.00. Profit: $0.0980 (9.80%)"
         },
         {
           "event_title": "What will Netflix (NFLX) hit in April 2026?",
           "event_slug": "what-price-will-nflx-hit-in-april-2026",
-          "yes_sum": 0.9045,
-          "profit_pct": 9.55,
-          "profit_per_dollar_pct": 10.56,
+          "yes_sum": 0.904,
+          "profit_pct": 9.6,
+          "profit_per_dollar_pct": 10.62,
           "num_outcomes": 7,
           "outcomes": [
             {
@@ -381,7 +360,7 @@
               "market_id": "1542744",
               "slug": "will-nflx-reach-298-in-april",
               "question": "Will Netflix reach $298 in April?",
-              "yes_price": 0.01,
+              "yes_price": 0.0095,
               "volume": 4257
             },
             {
@@ -407,33 +386,7 @@
             }
           ],
           "url": "https://polymarket.com/event/what-price-will-nflx-hit-in-april-2026",
-          "strategy": "Buy YES on all 7 outcomes. Total cost: $0.9045. One wins $1.00. Profit: $0.0955 (9.55%)"
-        },
-        {
-          "event_title": "Next Premier of Quebec",
-          "event_slug": "next-premier-of-quebec",
-          "yes_sum": 0.905,
-          "profit_pct": 9.5,
-          "profit_per_dollar_pct": 10.5,
-          "num_outcomes": 2,
-          "outcomes": [
-            {
-              "market_id": "1837607",
-              "slug": "will-christine-frechette-be-the-next-premier-of-quebec-following-the-2026-caq-leadership-elections",
-              "question": "Will Christine Fr\u00e9chette be the next Premier of Quebec following the 2026 CAQ le",
-              "yes_price": 0.68,
-              "volume": 15586
-            },
-            {
-              "market_id": "1837604",
-              "slug": "will-bernard-drainville-be-the-next-premier-of-quebec-following-the-2026-caq-leadership-elections",
-              "question": "Will Bernard Drainville be the next Premier of Quebec following the 2026 CAQ lea",
-              "yes_price": 0.225,
-              "volume": 12055
-            }
-          ],
-          "url": "https://polymarket.com/event/next-premier-of-quebec",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
+          "strategy": "Buy YES on all 7 outcomes. Total cost: $0.9040. One wins $1.00. Profit: $0.0960 (9.60%)"
         },
         {
           "event_title": "Colorado Republican Senate Primary Winner",
@@ -474,15 +427,41 @@
           ],
           "url": "https://polymarket.com/event/colorado-republican-senate-primary-winner",
           "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
+        },
+        {
+          "event_title": "South Carolina Governor Democratic Primary Winner",
+          "event_slug": "south-carolina-governor-democratic-primary-winner",
+          "yes_sum": 0.905,
+          "profit_pct": 9.5,
+          "profit_per_dollar_pct": 10.5,
+          "num_outcomes": 2,
+          "outcomes": [
+            {
+              "market_id": "906912",
+              "slug": "will-jermaine-johnson-win-the-2026-south-carolina-governor-democratic-primary-election",
+              "question": "Will Jermaine Johnson win the 2026 South Carolina Governor Democratic primary el",
+              "yes_price": 0.785,
+              "volume": 7064
+            },
+            {
+              "market_id": "906913",
+              "slug": "will-mullins-mcleod-win-the-2026-south-carolina-governor-democratic-primary-election",
+              "question": "Will Mullins McLeod win the 2026 South Carolina Governor Democratic primary elec",
+              "yes_price": 0.12,
+              "volume": 3289
+            }
+          ],
+          "url": "https://polymarket.com/event/south-carolina-governor-democratic-primary-winner",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
         }
       ],
       "stats": {
         "total_events": 3000,
-        "checked_multi_outcome": 1994,
-        "skipped_single_outcome": 616,
-        "opportunities_found": 133,
+        "checked_multi_outcome": 1988,
+        "skipped_single_outcome": 619,
+        "opportunities_found": 137,
         "best_profit_pct": 10.0,
-        "scanned_at": "2026-04-11 21:11 UTC"
+        "scanned_at": "2026-04-11 21:17 UTC"
       }
     },
     {
