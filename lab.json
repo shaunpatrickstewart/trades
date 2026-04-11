@@ -8,9 +8,9 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 149 categorical arb opportunities found\nScanned 3000 events (1969 multi-outcome) at 2026-04-11 22:30 UTC\nBest: 10.0% profit on 'Shanghai Shenhua FC vs. Liaoning Tieren FC - More Markets' \u2014 buy YES on all 2 outcomes (sum=0.9)\nStrategy: Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 10.0% on 'Precipitation in Hong Kong in April?'",
+      "result": "LIVE \u2014 143 categorical arb opportunities found\nScanned 3000 events (1963 multi-outcome) at 2026-04-11 22:38 UTC\nBest: 10.0% profit on 'Shanghai Shenhua FC vs. Liaoning Tieren FC - More Markets' \u2014 buy YES on all 2 outcomes (sum=0.9)\nStrategy: Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 10.0% on 'Michigan Governor Republican Primary Winner'",
       "priority": "HIGH",
-      "last_scan": "2026-04-11 22:30 UTC",
+      "last_scan": "2026-04-11 22:38 UTC",
       "opportunities": [
         {
           "event_title": "Shanghai Shenhua FC vs. Liaoning Tieren FC - More Markets",
@@ -39,44 +39,91 @@
           "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
         },
         {
-          "event_title": "Precipitation in Hong Kong in April?",
-          "event_slug": "precipitation-in-hong-kong-in-april",
+          "event_title": "Michigan Governor Republican Primary Winner",
+          "event_slug": "michigan-governor-republican-primary-winner",
           "yes_sum": 0.9,
           "profit_pct": 10.0,
           "profit_per_dollar_pct": 11.11,
           "num_outcomes": 4,
           "outcomes": [
             {
-              "market_id": "1706968",
-              "slug": "will-hong-kong-have-less-than-130mm-of-precipitation-in-april",
-              "question": "Will Hong Kong have less than 130mm of precipitation in April?",
-              "yes_price": 0.555,
-              "volume": 7643
+              "market_id": "907794",
+              "slug": "will-perry-johnson-win-the-2026-michigan-governor-republican-primary-election",
+              "question": "Will Perry Johnson win the 2026 Michigan Governor Republican primary election?",
+              "yes_price": 0.455,
+              "volume": 10091
             },
             {
-              "market_id": "1706972",
-              "slug": "will-hong-kong-have-between-130-140mm-of-precipitation-in-april",
-              "question": "Will Hong Kong have between 130-140mm of precipitation in April?",
-              "yes_price": 0.145,
-              "volume": 2218
+              "market_id": "907785",
+              "slug": "will-john-james-win-the-2026-michigan-governor-republican-primary-election",
+              "question": "Will John James win the 2026 Michigan Governor Republican primary election?",
+              "yes_price": 0.385,
+              "volume": 7160
             },
             {
-              "market_id": "1706969",
-              "slug": "will-hong-kong-have-between-150-160mm-of-precipitation-in-april-243",
-              "question": "Will Hong Kong have between 150-160mm of precipitation in April?",
-              "yes_price": 0.105,
-              "volume": 3133
+              "market_id": "907788",
+              "slug": "will-aric-nesbitt-win-the-2026-michigan-governor-republican-primary-election",
+              "question": "Will Aric Nesbitt win the 2026 Michigan Governor Republican primary election?",
+              "yes_price": 0.036,
+              "volume": 1213
             },
             {
-              "market_id": "1706971",
-              "slug": "will-hong-kong-have-between-140-150mm-of-precipitation-in-april",
-              "question": "Will Hong Kong have between 140-150mm of precipitation in April?",
-              "yes_price": 0.095,
-              "volume": 5563
+              "market_id": "907781",
+              "slug": "will-mike-cox-win-the-2026-michigan-governor-republican-primary-election",
+              "question": "Will Mike Cox win the 2026 Michigan Governor Republican primary election?",
+              "yes_price": 0.024,
+              "volume": 2391
             }
           ],
-          "url": "https://polymarket.com/event/precipitation-in-hong-kong-in-april",
+          "url": "https://polymarket.com/event/michigan-governor-republican-primary-winner",
           "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
+        },
+        {
+          "event_title": "What will S&P 500 (SPX) close at end of 2026?",
+          "event_slug": "spx-close-dec-2026",
+          "yes_sum": 0.9,
+          "profit_pct": 10.0,
+          "profit_per_dollar_pct": 11.11,
+          "num_outcomes": 5,
+          "outcomes": [
+            {
+              "market_id": "1125397",
+              "slug": "spx-close-below-6000-dec-2026",
+              "question": "Will S&P 500 (SPX) close at <$6,000 in December?",
+              "yes_price": 0.425,
+              "volume": 11160
+            },
+            {
+              "market_id": "1125399",
+              "slug": "spx-close-6500-7000-dec-2026",
+              "question": "Will S&P 500 (SPX) close at $6,500-$7,000 in December?",
+              "yes_price": 0.165,
+              "volume": 1373
+            },
+            {
+              "market_id": "1125398",
+              "slug": "spx-close-6000-6500-dec-2026",
+              "question": "Will S&P 500 (SPX) close at $6,000-$6,500 in December?",
+              "yes_price": 0.145,
+              "volume": 1206
+            },
+            {
+              "market_id": "1126565",
+              "slug": "spx-close-7500-8000-dec-2026",
+              "question": "Will S&P 500 (SPX) close at $7,500-$8,000 in December?",
+              "yes_price": 0.095,
+              "volume": 1570
+            },
+            {
+              "market_id": "1125404",
+              "slug": "spx-close-above-8000-dec-2026-362-989-862",
+              "question": "Will S&P 500 (SPX) close at >$8,000 in December?",
+              "yes_price": 0.07,
+              "volume": 1719
+            }
+          ],
+          "url": "https://polymarket.com/event/spx-close-dec-2026",
+          "strategy": "Buy YES on all 5 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
         },
         {
           "event_title": "Hamarkameratene vs. KFUM-Kameratene Oslo - More Markets",
@@ -105,112 +152,44 @@
           "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
         },
         {
-          "event_title": "Will Russia capture Lyman by...?",
-          "event_slug": "will-russia-capture-lyman-in-2025",
-          "yes_sum": 0.901,
-          "profit_pct": 9.9,
-          "profit_per_dollar_pct": 10.99,
-          "num_outcomes": 8,
-          "outcomes": [
-            {
-              "market_id": "1397270",
-              "slug": "will-russia-capture-lyman-by-december-31-2026-774",
-              "question": "Will Russia capture Lyman by December 31, 2026?",
-              "yes_price": 0.66,
-              "volume": 49985
-            },
-            {
-              "market_id": "1397269",
-              "slug": "will-russia-capture-lyman-by-june-30-2026-413",
-              "question": "Will Russia capture Lyman by June 30, 2026?",
-              "yes_price": 0.205,
-              "volume": 132086
-            },
-            {
-              "market_id": "1397302",
-              "slug": "will-russia-capture-lyman-by-april-30-2026",
-              "question": "Will Russia capture Lyman by April 30, 2026?",
-              "yes_price": 0.036,
-              "volume": 151720
-            },
-            {
-              "market_id": "566493",
-              "slug": "will-russia-capture-lyman-in-2025-816",
-              "question": "Will Russia capture Lyman by December 31?",
-              "yes_price": 0.0,
-              "volume": 764798
-            },
-            {
-              "market_id": "642531",
-              "slug": "will-russia-capture-lyman-by-november-30-884",
-              "question": "Will Russia capture Lyman by November 30?",
-              "yes_price": 0.0,
-              "volume": 142124
-            },
-            {
-              "market_id": "1006892",
-              "slug": "will-russia-capture-lyman-by-march-31-2026-494",
-              "question": "Will Russia capture Lyman by March 31, 2026?",
-              "yes_price": 0.0,
-              "volume": 696079
-            },
-            {
-              "market_id": "1006891",
-              "slug": "will-russia-capture-lyman-by-january-31-2026",
-              "question": "Will Russia capture Lyman by January 31, 2026?",
-              "yes_price": 0.0,
-              "volume": 72029
-            },
-            {
-              "market_id": "1249612",
-              "slug": "will-russia-capture-lyman-by-february-28-2026",
-              "question": "Will Russia capture Lyman by February 28, 2026?",
-              "yes_price": 0.0,
-              "volume": 86119
-            }
-          ],
-          "url": "https://polymarket.com/event/will-russia-capture-lyman-in-2025",
-          "strategy": "Buy YES on all 8 outcomes. Total cost: $0.9010. One wins $1.00. Profit: $0.0990 (9.90%)"
-        },
-        {
-          "event_title": "Who will close Warner Bros. acquisition?",
-          "event_slug": "who-will-close-warner-bros-acquisition",
-          "yes_sum": 0.901,
-          "profit_pct": 9.9,
-          "profit_per_dollar_pct": 10.99,
+          "event_title": "Colorado Republican Senate Primary Winner",
+          "event_slug": "colorado-republican-senate-primary-winner",
+          "yes_sum": 0.9,
+          "profit_pct": 10.0,
+          "profit_per_dollar_pct": 11.11,
           "num_outcomes": 4,
           "outcomes": [
             {
-              "market_id": "897019",
-              "slug": "will-paramount-close-warner-bros-acquisition",
-              "question": "Will Paramount close Warner Bros acquisition?",
-              "yes_price": 0.715,
-              "volume": 440316
+              "market_id": "679608",
+              "slug": "will-mark-baisley-be-the-republican-nominee-for-senate-in-colorado",
+              "question": "Will Mark Baisley be the Republican nominee for Senate in Colorado?",
+              "yes_price": 0.44,
+              "volume": 7078
             },
             {
-              "market_id": "897030",
-              "slug": "no-listed-company-closes-warner-bros-acquisition-by-june-30-2027",
-              "question": "No listed company closes Warner Bros acquisition by June 30, 2027",
-              "yes_price": 0.16,
-              "volume": 156955
+              "market_id": "679606",
+              "slug": "will-janak-joshi-be-the-republican-nominee-for-senate-in-colorado",
+              "question": "Will Janak Joshi be the Republican nominee for Senate in Colorado?",
+              "yes_price": 0.19,
+              "volume": 1774
             },
             {
-              "market_id": "897017",
-              "slug": "will-netflix-close-warner-bros-acquisition",
-              "question": "Will Netflix close Warner Bros acquisition?",
-              "yes_price": 0.018,
-              "volume": 219487
+              "market_id": "679605",
+              "slug": "will-dathan-jones-be-the-republican-nominee-for-senate-in-colorado",
+              "question": "Will Dathan Jones be the Republican nominee for Senate in Colorado?",
+              "yes_price": 0.15,
+              "volume": 1160
             },
             {
-              "market_id": "897018",
-              "slug": "will-comcast-close-warner-bros-acquisition",
-              "question": "Will Comcast close Warner Bros acquisition?",
-              "yes_price": 0.008,
-              "volume": 173873
+              "market_id": "679607",
+              "slug": "will-george-washington-markert-be-the-republican-nominee-for-senate-in-colorado",
+              "question": "Will George Washington Markert be the Republican nominee for Senate in Colorado?",
+              "yes_price": 0.12,
+              "volume": 2281
             }
           ],
-          "url": "https://polymarket.com/event/who-will-close-warner-bros-acquisition",
-          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9010. One wins $1.00. Profit: $0.0990 (9.90%)"
+          "url": "https://polymarket.com/event/colorado-republican-senate-primary-winner",
+          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
         },
         {
           "event_title": "AZ-01 Republican Primary Winner",
@@ -307,6 +286,74 @@
           ],
           "url": "https://polymarket.com/event/az-01-republican-primary-winner",
           "strategy": "Buy YES on all 12 outcomes. Total cost: $0.9010. One wins $1.00. Profit: $0.0990 (9.90%)"
+        },
+        {
+          "event_title": "Will Russia capture Lyman by...?",
+          "event_slug": "will-russia-capture-lyman-in-2025",
+          "yes_sum": 0.902,
+          "profit_pct": 9.8,
+          "profit_per_dollar_pct": 10.86,
+          "num_outcomes": 8,
+          "outcomes": [
+            {
+              "market_id": "1397270",
+              "slug": "will-russia-capture-lyman-by-december-31-2026-774",
+              "question": "Will Russia capture Lyman by December 31, 2026?",
+              "yes_price": 0.66,
+              "volume": 49985
+            },
+            {
+              "market_id": "1397269",
+              "slug": "will-russia-capture-lyman-by-june-30-2026-413",
+              "question": "Will Russia capture Lyman by June 30, 2026?",
+              "yes_price": 0.205,
+              "volume": 132086
+            },
+            {
+              "market_id": "1397302",
+              "slug": "will-russia-capture-lyman-by-april-30-2026",
+              "question": "Will Russia capture Lyman by April 30, 2026?",
+              "yes_price": 0.037,
+              "volume": 152242
+            },
+            {
+              "market_id": "566493",
+              "slug": "will-russia-capture-lyman-in-2025-816",
+              "question": "Will Russia capture Lyman by December 31?",
+              "yes_price": 0.0,
+              "volume": 764798
+            },
+            {
+              "market_id": "642531",
+              "slug": "will-russia-capture-lyman-by-november-30-884",
+              "question": "Will Russia capture Lyman by November 30?",
+              "yes_price": 0.0,
+              "volume": 142124
+            },
+            {
+              "market_id": "1006892",
+              "slug": "will-russia-capture-lyman-by-march-31-2026-494",
+              "question": "Will Russia capture Lyman by March 31, 2026?",
+              "yes_price": 0.0,
+              "volume": 696079
+            },
+            {
+              "market_id": "1006891",
+              "slug": "will-russia-capture-lyman-by-january-31-2026",
+              "question": "Will Russia capture Lyman by January 31, 2026?",
+              "yes_price": 0.0,
+              "volume": 72029
+            },
+            {
+              "market_id": "1249612",
+              "slug": "will-russia-capture-lyman-by-february-28-2026",
+              "question": "Will Russia capture Lyman by February 28, 2026?",
+              "yes_price": 0.0,
+              "volume": 86119
+            }
+          ],
+          "url": "https://polymarket.com/event/will-russia-capture-lyman-in-2025",
+          "strategy": "Buy YES on all 8 outcomes. Total cost: $0.9020. One wins $1.00. Profit: $0.0980 (9.80%)"
         },
         {
           "event_title": "What will Netflix (NFLX) hit in April 2026?",
@@ -424,46 +471,6 @@
           "strategy": "Buy YES on all 6 outcomes. Total cost: $0.9040. One wins $1.00. Profit: $0.0960 (9.60%)"
         },
         {
-          "event_title": "Michigan Governor Republican Primary Winner",
-          "event_slug": "michigan-governor-republican-primary-winner",
-          "yes_sum": 0.9045,
-          "profit_pct": 9.55,
-          "profit_per_dollar_pct": 10.56,
-          "num_outcomes": 4,
-          "outcomes": [
-            {
-              "market_id": "907794",
-              "slug": "will-perry-johnson-win-the-2026-michigan-governor-republican-primary-election",
-              "question": "Will Perry Johnson win the 2026 Michigan Governor Republican primary election?",
-              "yes_price": 0.46,
-              "volume": 10091
-            },
-            {
-              "market_id": "907785",
-              "slug": "will-john-james-win-the-2026-michigan-governor-republican-primary-election",
-              "question": "Will John James win the 2026 Michigan Governor Republican primary election?",
-              "yes_price": 0.385,
-              "volume": 7160
-            },
-            {
-              "market_id": "907788",
-              "slug": "will-aric-nesbitt-win-the-2026-michigan-governor-republican-primary-election",
-              "question": "Will Aric Nesbitt win the 2026 Michigan Governor Republican primary election?",
-              "yes_price": 0.036,
-              "volume": 1213
-            },
-            {
-              "market_id": "907781",
-              "slug": "will-mike-cox-win-the-2026-michigan-governor-republican-primary-election",
-              "question": "Will Mike Cox win the 2026 Michigan Governor Republican primary election?",
-              "yes_price": 0.0235,
-              "volume": 2391
-            }
-          ],
-          "url": "https://polymarket.com/event/michigan-governor-republican-primary-winner",
-          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9045. One wins $1.00. Profit: $0.0955 (9.55%)"
-        },
-        {
           "event_title": "Presidential Election Winner 2028",
           "event_slug": "presidential-election-winner-2028",
           "yes_sum": 0.905,
@@ -482,8 +489,8 @@
               "market_id": "561230",
               "slug": "will-gavin-newsom-win-the-2028-us-presidential-election",
               "question": "Will Gavin Newsom win the 2028 US Presidential Election?",
-              "yes_price": 0.1605,
-              "volume": 13382323
+              "yes_price": 0.161,
+              "volume": 13382403
             },
             {
               "market_id": "561234",
@@ -504,42 +511,42 @@
               "slug": "will-jon-ossoff-win-the-2028-us-presidential-election",
               "question": "Will Jon Ossoff win the 2028 US Presidential Election?",
               "yes_price": 0.0435,
-              "volume": 3431476
+              "volume": 3431539
             },
             {
               "market_id": "561239",
               "slug": "will-kamala-harris-win-the-2028-us-presidential-election",
               "question": "Will Kamala Harris win the 2028 US Presidential Election?",
               "yes_price": 0.0315,
-              "volume": 6932010
+              "volume": 6932395
             },
             {
               "market_id": "561253",
               "slug": "will-tucker-carlson-win-the-2028-us-presidential-election",
               "question": "Will Tucker Carlson win the 2028 US Presidential Election?",
-              "yes_price": 0.0295,
-              "volume": 9855856
+              "yes_price": 0.029,
+              "volume": 9856190
             },
             {
               "market_id": "561246",
               "slug": "will-ron-desantis-win-the-2028-us-presidential-election",
               "question": "Will Ron DeSantis win the 2028 US Presidential Election?",
-              "yes_price": 0.0275,
-              "volume": 8374016
+              "yes_price": 0.028,
+              "volume": 8377785
             },
             {
               "market_id": "561243",
               "slug": "will-donald-trump-win-the-2028-us-presidential-election",
               "question": "Will Donald Trump win the 2028 US Presidential Election?",
-              "yes_price": 0.0225,
-              "volume": 6920286
+              "yes_price": 0.022,
+              "volume": 6920709
             },
             {
               "market_id": "561233",
               "slug": "will-josh-shapiro-win-the-2028-us-presidential-election",
               "question": "Will Josh Shapiro win the 2028 US Presidential Election?",
               "yes_price": 0.0215,
-              "volume": 5772917
+              "volume": 5773333
             },
             {
               "market_id": "561232",
@@ -560,7 +567,7 @@
               "slug": "will-jb-pritzker-win-the-2028-us-presidential-election",
               "question": "Will JB Pritzker win the 2028 US Presidential Election?",
               "yes_price": 0.012,
-              "volume": 10813889
+              "volume": 10813944
             },
             {
               "market_id": "561252",
@@ -581,21 +588,21 @@
               "slug": "will-glenn-youngkin-win-the-2028-us-presidential-election",
               "question": "Will Glenn Youngkin win the 2028 US Presidential Election?",
               "yes_price": 0.0105,
-              "volume": 20787782
+              "volume": 20787967
             },
             {
               "market_id": "561250",
               "slug": "will-elon-musk-win-the-2028-us-presidential-election",
               "question": "Will Elon Musk win the 2028 US Presidential Election?",
               "yes_price": 0.0095,
-              "volume": 22614471
+              "volume": 22614550
             },
             {
               "market_id": "561236",
               "slug": "will-gretchen-whitmer-win-the-2028-us-presidential-election",
               "question": "Will Gretchen Whitmer win the 2028 US Presidential Election?",
               "yes_price": 0.0095,
-              "volume": 8513641
+              "volume": 8513707
             },
             {
               "market_id": "561258",
@@ -630,7 +637,7 @@
               "slug": "will-ivanka-trump-win-the-2028-us-presidential-election",
               "question": "Will Ivanka Trump win the 2028 US Presidential Election?",
               "yes_price": 0.0085,
-              "volume": 4455085
+              "volume": 4455923
             },
             {
               "market_id": "561259",
@@ -644,21 +651,21 @@
               "slug": "will-stephen-smith-win-the-2028-us-presidential-election",
               "question": "Will Stephen Smith win the 2028 US Presidential Election?",
               "yes_price": 0.0075,
-              "volume": 29522691
+              "volume": 29523249
             },
             {
               "market_id": "561244",
               "slug": "will-donald-trump-jr-win-the-2028-us-presidential-election",
               "question": "Will Donald Trump Jr. win the 2028 US Presidential Election?",
               "yes_price": 0.0075,
-              "volume": 9137352
+              "volume": 9137647
             },
             {
               "market_id": "561245",
               "slug": "will-nikki-haley-win-the-2028-us-presidential-election",
               "question": "Will Nikki Haley win the 2028 US Presidential Election?",
               "yes_price": 0.0075,
-              "volume": 21720548
+              "volume": 21720603
             },
             {
               "market_id": "561256",
@@ -679,49 +686,49 @@
               "slug": "will-tim-walz-win-the-2028-us-presidential-election",
               "question": "Will Tim Walz win the 2028 US Presidential Election?",
               "yes_price": 0.0065,
-              "volume": 39397432
+              "volume": 39397811
             },
             {
               "market_id": "561235",
               "slug": "will-wes-moore-win-the-2028-us-presidential-election",
               "question": "Will Wes Moore win the 2028 US Presidential Election?",
               "yes_price": 0.0065,
-              "volume": 6391324
+              "volume": 6391979
             },
             {
               "market_id": "561242",
               "slug": "will-tulsi-gabbard-win-the-2028-us-presidential-election",
               "question": "Will Tulsi Gabbard win the 2028 US Presidential Election?",
               "yes_price": 0.0065,
-              "volume": 28000307
+              "volume": 28000860
             },
             {
               "market_id": "561264",
               "slug": "will-pete-hegseth-win-the-2028-us-presidential-election",
               "question": "Will Pete Hegseth win the 2028 US Presidential Election?",
               "yes_price": 0.0065,
-              "volume": 4292579
+              "volume": 4292778
             },
             {
               "market_id": "561248",
               "slug": "will-vivek-ramaswamy-win-the-2028-us-presidential-election",
               "question": "Will Vivek Ramaswamy win the 2028 US Presidential Election?",
               "yes_price": 0.0065,
-              "volume": 30919394
+              "volume": 30919627
             },
             {
               "market_id": "561254",
               "slug": "will-kim-kardashian-win-the-2028-us-presidential-election",
               "question": "Will Kim Kardashian win the 2028 US Presidential Election?",
               "yes_price": 0.0065,
-              "volume": 32624387
+              "volume": 32624941
             },
             {
               "market_id": "561251",
               "slug": "will-lebron-james-win-the-2028-us-presidential-election",
               "question": "Will LeBron James win the 2028 US Presidential Election?",
               "yes_price": 0.0055,
-              "volume": 46124098
+              "volume": 46124335
             }
           ],
           "url": "https://polymarket.com/event/presidential-election-winner-2028",
@@ -730,11 +737,11 @@
       ],
       "stats": {
         "total_events": 3000,
-        "checked_multi_outcome": 1969,
-        "skipped_single_outcome": 622,
-        "opportunities_found": 149,
+        "checked_multi_outcome": 1963,
+        "skipped_single_outcome": 625,
+        "opportunities_found": 143,
         "best_profit_pct": 10.0,
-        "scanned_at": "2026-04-11 22:30 UTC"
+        "scanned_at": "2026-04-11 22:38 UTC"
       }
     },
     {
