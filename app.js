@@ -457,7 +457,23 @@
       html += '<span style="background:#fafae0;color:#7a7000;padding:3px 8px;border-radius:3px;font-size:0.75em;font-weight:600">&#9679; NEAR-CERTAIN ('+(won.filter(t=>t.type==="NEAR_CERTAIN").length+lost.filter(t=>t.type==="NEAR_CERTAIN").length)+'W/'+(lost.filter(t=>t.type==="NEAR_CERTAIN").length)+'L)</span>';
       html += '<span style="background:#e6f9f0;color:#007a44;padding:3px 8px;border-radius:3px;font-size:0.75em;font-weight:600">&#9679; WALLET COPY SHORT ('+(won.filter(t=>t.type==="SHORT_TERM").length)+'W/'+(lost.filter(t=>t.type==="SHORT_TERM").length)+'L)</span>';
       html += '<span style="background:#eef0ff;color:#3344cc;padding:3px 8px;border-radius:3px;font-size:0.75em;font-weight:600">&#9679; WALLET COPY LONG ('+(won.filter(t=>t.type==="LONG_TERM").length)+'W/'+(lost.filter(t=>t.type==="LONG_TERM").length)+'L)</span>';
+      const arbWon = won.filter(t=>t.type==="ARB").length, arbLost = lost.filter(t=>t.type==="ARB").length, arbOpen = open.filter(t=>t.type==="ARB").length;
+      const arbPnl = trades.filter(t=>t.type==="ARB"&&(t.status==="WON"||t.status==="LOST")).reduce((s,t)=>s+(t.pnl||0),0);
+      html += '<span style="background:#fff3e0;color:#b35a00;padding:3px 8px;border-radius:3px;font-size:0.75em;font-weight:600">&#9679; ARB KALSHI/PM ('+arbWon+'W/'+arbLost+'L · '+arbOpen+' open)</span>';
       html += '</div>';
+      // ARB panel — only show if any ARB trades exist
+      if (arbWon + arbLost + arbOpen > 0) {
+        const arbColor = arbPnl >= 0 ? '#00b86b' : '#ff4444';
+        html += '<div style="background:#fff8ef;border:1px solid #f0c070;border-radius:5px;padding:8px 12px;margin-bottom:10px">';
+        html += '<div style="font-size:0.72em;color:#b35a00;font-weight:700;margin-bottom:5px">&#9651; CROSS-PLATFORM ARB ENGINE — Kalshi vs Polymarket</div>';
+        html += '<div style="display:flex;gap:8px;flex-wrap:wrap">';
+        html += '<div style="font-size:0.8em"><span style="color:#888">Settled:</span> <b>'+arbWon+'W / '+arbLost+'L</b></div>';
+        html += '<div style="font-size:0.8em"><span style="color:#888">Open:</span> <b>'+arbOpen+'</b></div>';
+        html += '<div style="font-size:0.8em"><span style="color:#888">Realized PnL:</span> <b style="color:'+arbColor+'">'+(arbPnl>=0?'+':'')+'$'+Math.abs(arbPnl).toFixed(2)+'</b></div>';
+        const arbAtRisk = trades.filter(t=>t.type==="ARB"&&t.status==="OPEN").reduce((s,t)=>s+(t.paper_bet||0)*2,0);
+        html += '<div style="font-size:0.8em"><span style="color:#888">At risk (both sides):</span> <b>$'+arbAtRisk.toFixed(2)+'</b></div>';
+        html += '</div></div>';
+      }
 
       // ── Realized Breakdown ───────────────────────────────────────
       const now = new Date();
