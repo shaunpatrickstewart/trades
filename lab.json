@@ -8,42 +8,35 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 150 categorical arb opportunities found\nScanned 3000 events (1970 multi-outcome) at 2026-04-11 06:12 UTC\nBest: 10.0% profit on 'Bulgaria Parliamentary Election: Margin of Victory' \u2014 buy YES on all 3 outcomes (sum=0.9)\nStrategy: Buy YES on all 3 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 9.95% on 'UEFA Europa Conference League: Most Goal Contributions'",
+      "result": "LIVE \u2014 154 categorical arb opportunities found\nScanned 3000 events (1971 multi-outcome) at 2026-04-11 06:42 UTC\nBest: 10.0% profit on 'Montana Democratic Senate Primary Winner' \u2014 buy YES on all 2 outcomes (sum=0.9)\nStrategy: Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 9.95% on 'UEFA Europa Conference League: Most Goal Contributions'",
       "priority": "HIGH",
-      "last_scan": "2026-04-11 06:12 UTC",
+      "last_scan": "2026-04-11 06:42 UTC",
       "opportunities": [
         {
-          "event_title": "Bulgaria Parliamentary Election: Margin of Victory",
-          "event_slug": "bulgaria-parliamentary-election-margin-of-victory",
+          "event_title": "Montana Democratic Senate Primary Winner",
+          "event_slug": "montana-democratic-senate-primary-winner",
           "yes_sum": 0.9,
           "profit_pct": 10.0,
           "profit_per_dollar_pct": 11.11,
-          "num_outcomes": 3,
+          "num_outcomes": 2,
           "outcomes": [
             {
-              "market_id": "1742068",
-              "slug": "will-progressive-bulgaria-pb-win-the-2026-bulgarian-parliamentary-election-by-5-10",
-              "question": "Will Progressive Bulgaria (PB) win the 2026 Bulgarian Parliamentary election by ",
-              "yes_price": 0.52,
-              "volume": 4397
+              "market_id": "801938",
+              "slug": "will-reilly-neill-be-the-democratic-nominee-for-senate-in-montana",
+              "question": "Will Reilly Neill be the Democratic nominee for Senate in Montana?",
+              "yes_price": 0.85,
+              "volume": 4394
             },
             {
-              "market_id": "1742067",
-              "slug": "will-progressive-bulgaria-pb-win-the-2026-bulgarian-parliamentary-election-by-10-15",
-              "question": "Will Progressive Bulgaria (PB) win the 2026 Bulgarian Parliamentary election by ",
-              "yes_price": 0.31,
-              "volume": 10496
-            },
-            {
-              "market_id": "1742066",
-              "slug": "will-progressive-bulgaria-pb-win-the-2026-bulgarian-parliamentary-election-by-15-20",
-              "question": "Will Progressive Bulgaria (PB) win the 2026 Bulgarian Parliamentary election by ",
-              "yes_price": 0.07,
-              "volume": 10891
+              "market_id": "801937",
+              "slug": "will-michael-hummert-be-the-democratic-nominee-for-senate-in-montana",
+              "question": "Will Michael Hummert be the Democratic nominee for Senate in Montana?",
+              "yes_price": 0.05,
+              "volume": 2029
             }
           ],
-          "url": "https://polymarket.com/event/bulgaria-parliamentary-election-margin-of-victory",
-          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
+          "url": "https://polymarket.com/event/montana-democratic-senate-primary-winner",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
         },
         {
           "event_title": "UEFA Europa Conference League: Most Goal Contributions",
@@ -126,112 +119,119 @@
           "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9010. One wins $1.00. Profit: $0.0990 (9.90%)"
         },
         {
-          "event_title": "How many large volcano eruptions (VEI \u22654) in 2026?",
-          "event_slug": "how-many-large-volcano-eruption-vei-4-in-2026-657",
-          "yes_sum": 0.9025,
-          "profit_pct": 9.75,
-          "profit_per_dollar_pct": 10.8,
-          "num_outcomes": 6,
+          "event_title": "Will Audemars Piguet prices hit __ by April 30?",
+          "event_slug": "will-audemars-piguet-prices-hit-by-april-30",
+          "yes_sum": 0.901,
+          "profit_pct": 9.9,
+          "profit_per_dollar_pct": 10.99,
+          "num_outcomes": 10,
           "outcomes": [
             {
-              "market_id": "1075291",
-              "slug": "will-there-be-exactly-1-confirmed-vei-4-or-higher-volcanic-eruption-worldwide-in-2026-937",
-              "question": "Will there be exactly 1 confirmed VEI 4 or higher volcanic eruption worldwide in",
-              "yes_price": 0.405,
-              "volume": 245997
+              "market_id": "1613930",
+              "slug": "will-the-audemars-piguet-index-hit-41500-high-by-april-30",
+              "question": "Will the Audemars Piguet Index hit $41,500 (HIGH) by April 30?",
+              "yes_price": 0.315,
+              "volume": 3592
             },
             {
-              "market_id": "1075290",
-              "slug": "will-there-be-exactly-0-confirmed-vei-4-or-higher-volcanic-eruptions-worldwide-in-2026",
-              "question": "Will there be exactly 0 confirmed VEI 4 or higher volcanic eruptions worldwide i",
-              "yes_price": 0.36,
-              "volume": 413266
+              "market_id": "1613931",
+              "slug": "will-the-audemars-piguet-index-hit-41000-low-by-april-30",
+              "question": "Will the Audemars Piguet Index hit $41,000 (LOW) by April 30?",
+              "yes_price": 0.27,
+              "volume": 12431
             },
             {
-              "market_id": "1075292",
-              "slug": "will-there-be-exactly-2-confirmed-vei-4-or-higher-volcanic-eruptions-worldwide-in-2026-976",
-              "question": "Will there be exactly 2 confirmed VEI 4 or higher volcanic eruptions worldwide i",
-              "yes_price": 0.0565,
-              "volume": 19008
+              "market_id": "1613934",
+              "slug": "will-the-audemars-piguet-index-hit-40250-low-by-april-30",
+              "question": "Will the Audemars Piguet Index hit $40,250 (LOW) by April 30?",
+              "yes_price": 0.125,
+              "volume": 1342
             },
             {
-              "market_id": "1075294",
-              "slug": "will-there-be-exactly-4-confirmed-vei-4-or-higher-volcanic-eruptions-worldwide-in-2026-912",
-              "question": "Will there be exactly 4 confirmed VEI 4 or higher volcanic eruptions worldwide i",
-              "yes_price": 0.0535,
-              "volume": 12278
+              "market_id": "1613935",
+              "slug": "will-the-audemars-piguet-index-hit-40000-low-by-april-30",
+              "question": "Will the Audemars Piguet Index hit $40,000 (LOW) by April 30?",
+              "yes_price": 0.064,
+              "volume": 2663
             },
             {
-              "market_id": "1075295",
-              "slug": "will-there-be-5-or-more-confirmed-vei-4-or-higher-volcanic-eruptions-worldwide-in-2026-655",
-              "question": "Will there be 5 or more confirmed VEI 4 or higher volcanic eruptions worldwide i",
-              "yes_price": 0.0205,
-              "volume": 11586
+              "market_id": "1613928",
+              "slug": "will-the-audemars-piguet-index-hit-42000-high-by-april-30",
+              "question": "Will the Audemars Piguet Index hit $42,000 (HIGH) by April 30?",
+              "yes_price": 0.03,
+              "volume": 5878
             },
             {
-              "market_id": "1075293",
-              "slug": "will-there-be-exactly-3-confirmed-vei-4-or-higher-volcanic-eruptions-worldwide-in-2026-666",
-              "question": "Will there be exactly 3 confirmed VEI 4 or higher volcanic eruptions worldwide i",
-              "yes_price": 0.007,
-              "volume": 6956
+              "market_id": "1613926",
+              "slug": "will-the-audemars-piguet-index-hit-42500-high-by-april-30",
+              "question": "Will the Audemars Piguet Index hit $42,500 (HIGH) by April 30?",
+              "yes_price": 0.029,
+              "volume": 5638
+            },
+            {
+              "market_id": "1613927",
+              "slug": "will-the-audemars-piguet-index-hit-42250-high-by-april-30",
+              "question": "Will the Audemars Piguet Index hit $42,250 (HIGH) by April 30?",
+              "yes_price": 0.0245,
+              "volume": 2135
+            },
+            {
+              "market_id": "1613936",
+              "slug": "will-the-audemars-piguet-index-hit-39000-low-by-april-30",
+              "question": "Will the Audemars Piguet Index hit $39,000 (LOW) by April 30?",
+              "yes_price": 0.019,
+              "volume": 1645
+            },
+            {
+              "market_id": "1613925",
+              "slug": "will-the-audemars-piguet-index-hit-43000-high-by-april-30",
+              "question": "Will the Audemars Piguet Index hit $43,000 (HIGH) by April 30?",
+              "yes_price": 0.013,
+              "volume": 2047
+            },
+            {
+              "market_id": "1613924",
+              "slug": "will-the-audemars-piguet-index-hit-44000-high-by-april-30",
+              "question": "Will the Audemars Piguet Index hit $44,000 (HIGH) by April 30?",
+              "yes_price": 0.0115,
+              "volume": 9288
             }
           ],
-          "url": "https://polymarket.com/event/how-many-large-volcano-eruption-vei-4-in-2026-657",
-          "strategy": "Buy YES on all 6 outcomes. Total cost: $0.9025. One wins $1.00. Profit: $0.0975 (9.75%)"
+          "url": "https://polymarket.com/event/will-audemars-piguet-prices-hit-by-april-30",
+          "strategy": "Buy YES on all 10 outcomes. Total cost: $0.9010. One wins $1.00. Profit: $0.0990 (9.90%)"
         },
         {
-          "event_title": "What price will Bitcoin hit on April 11?",
-          "event_slug": "what-price-will-bitcoin-hit-on-april-11",
-          "yes_sum": 0.9025,
-          "profit_pct": 9.75,
-          "profit_per_dollar_pct": 10.8,
-          "num_outcomes": 6,
+          "event_title": "Sachsen-Anhalt Parliamentary Elections: 2nd Place",
+          "event_slug": "sachsen-anhalt-parliamentary-elections-2nd-place",
+          "yes_sum": 0.901,
+          "profit_pct": 9.9,
+          "profit_per_dollar_pct": 10.99,
+          "num_outcomes": 3,
           "outcomes": [
             {
-              "market_id": "1943716",
-              "slug": "will-bitcoin-reach-73k-on-april-11",
-              "question": "Will Bitcoin reach $73,000 on April 11?",
-              "yes_price": 0.7185,
-              "volume": 42059
+              "market_id": "1545032",
+              "slug": "will-cdu-win-the-second-most-seats-in-the-2026-sachsen-anhalt-parliamentary-elections",
+              "question": "Will CDU win the second most seats in the 2026 Sachsen-Anhalt parliamentary elec",
+              "yes_price": 0.86,
+              "volume": 16116
             },
             {
-              "market_id": "1943713",
-              "slug": "will-bitcoin-reach-74k-on-april-11",
-              "question": "Will Bitcoin reach $74,000 on April 11?",
-              "yes_price": 0.14,
-              "volume": 1020
+              "market_id": "1545044",
+              "slug": "will-fdp-win-the-second-most-seats-in-the-2026-sachsen-anhalt-parliamentary-elections",
+              "question": "Will FDP win the second most seats in the 2026 Sachsen-Anhalt parliamentary elec",
+              "yes_price": 0.028,
+              "volume": 1670
             },
             {
-              "market_id": "1943725",
-              "slug": "will-bitcoin-dip-to-70k-on-april-11",
-              "question": "Will Bitcoin dip to $70,000 on April 11?",
-              "yes_price": 0.0215,
-              "volume": 1685
-            },
-            {
-              "market_id": "1943728",
-              "slug": "will-bitcoin-dip-to-69k-on-april-11",
-              "question": "Will Bitcoin dip to $69,000 on April 11?",
+              "market_id": "1545037",
+              "slug": "will-spd-win-the-second-most-seats-in-the-2026-sachsen-anhalt-parliamentary-elections",
+              "question": "Will SPD win the second most seats in the 2026 Sachsen-Anhalt parliamentary elec",
               "yes_price": 0.013,
-              "volume": 2547
-            },
-            {
-              "market_id": "1943697",
-              "slug": "will-bitcoin-reach-76k-on-april-11",
-              "question": "Will Bitcoin reach $76,000 on April 11?",
-              "yes_price": 0.005,
-              "volume": 1270
-            },
-            {
-              "market_id": "1943673",
-              "slug": "will-bitcoin-reach-78k-on-april-11",
-              "question": "Will Bitcoin reach $78,000 on April 11?",
-              "yes_price": 0.0045,
-              "volume": 1237
+              "volume": 21871
             }
           ],
-          "url": "https://polymarket.com/event/what-price-will-bitcoin-hit-on-april-11",
-          "strategy": "Buy YES on all 6 outcomes. Total cost: $0.9025. One wins $1.00. Profit: $0.0975 (9.75%)"
+          "url": "https://polymarket.com/event/sachsen-anhalt-parliamentary-elections-2nd-place",
+          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9010. One wins $1.00. Profit: $0.0990 (9.90%)"
         },
         {
           "event_title": "Will Russia capture Lyman by...?",
@@ -304,9 +304,9 @@
         {
           "event_title": "Presidential Election Winner 2028",
           "event_slug": "presidential-election-winner-2028",
-          "yes_sum": 0.905,
-          "profit_pct": 9.5,
-          "profit_per_dollar_pct": 10.5,
+          "yes_sum": 0.904,
+          "profit_pct": 9.6,
+          "profit_per_dollar_pct": 10.62,
           "num_outcomes": 36,
           "outcomes": [
             {
@@ -314,70 +314,70 @@
               "slug": "will-jd-vance-win-the-2028-us-presidential-election",
               "question": "Will JD Vance win the 2028 US Presidential Election?",
               "yes_price": 0.1875,
-              "volume": 10072913
+              "volume": 10073141
             },
             {
               "market_id": "561230",
               "slug": "will-gavin-newsom-win-the-2028-us-presidential-election",
               "question": "Will Gavin Newsom win the 2028 US Presidential Election?",
-              "yes_price": 0.1715,
-              "volume": 13135927
+              "yes_price": 0.171,
+              "volume": 13143122
             },
             {
               "market_id": "561234",
               "slug": "will-marco-rubio-win-the-2028-us-presidential-election",
               "question": "Will Marco Rubio win the 2028 US Presidential Election?",
               "yes_price": 0.094,
-              "volume": 5915994
+              "volume": 5916765
             },
             {
               "market_id": "561231",
               "slug": "will-alexandria-ocasio-cortez-win-the-2028-us-presidential-election",
               "question": "Will Alexandria Ocasio-Cortez win the 2028 US Presidential Election?",
               "yes_price": 0.0545,
-              "volume": 10702639
+              "volume": 10702723
             },
             {
               "market_id": "561261",
               "slug": "will-jon-ossoff-win-the-2028-us-presidential-election",
               "question": "Will Jon Ossoff win the 2028 US Presidential Election?",
               "yes_price": 0.0425,
-              "volume": 3427147
+              "volume": 3427176
             },
             {
               "market_id": "561239",
               "slug": "will-kamala-harris-win-the-2028-us-presidential-election",
               "question": "Will Kamala Harris win the 2028 US Presidential Election?",
               "yes_price": 0.031,
-              "volume": 6925181
+              "volume": 6925428
             },
             {
               "market_id": "561253",
               "slug": "will-tucker-carlson-win-the-2028-us-presidential-election",
               "question": "Will Tucker Carlson win the 2028 US Presidential Election?",
               "yes_price": 0.0305,
-              "volume": 9852476
+              "volume": 9852517
             },
             {
               "market_id": "561243",
               "slug": "will-donald-trump-win-the-2028-us-presidential-election",
               "question": "Will Donald Trump win the 2028 US Presidential Election?",
               "yes_price": 0.0225,
-              "volume": 6911744
+              "volume": 6911889
             },
             {
               "market_id": "561233",
               "slug": "will-josh-shapiro-win-the-2028-us-presidential-election",
               "question": "Will Josh Shapiro win the 2028 US Presidential Election?",
               "yes_price": 0.0215,
-              "volume": 5765567
+              "volume": 5765659
             },
             {
               "market_id": "561246",
               "slug": "will-ron-desantis-win-the-2028-us-presidential-election",
               "question": "Will Ron DeSantis win the 2028 US Presidential Election?",
-              "yes_price": 0.0215,
-              "volume": 8122182
+              "yes_price": 0.0205,
+              "volume": 8127354
             },
             {
               "market_id": "561232",
@@ -397,7 +397,7 @@
               "market_id": "561241",
               "slug": "will-jb-pritzker-win-the-2028-us-presidential-election",
               "question": "Will JB Pritzker win the 2028 US Presidential Election?",
-              "yes_price": 0.012,
+              "yes_price": 0.0125,
               "volume": 10805649
             },
             {
@@ -419,7 +419,7 @@
               "slug": "will-james-talarico-win-the-2028-us-presidential-election",
               "question": "Will James Talarico win the 2028 US Presidential Election?",
               "yes_price": 0.0105,
-              "volume": 4337878
+              "volume": 4338459
             },
             {
               "market_id": "561250",
@@ -433,21 +433,21 @@
               "slug": "will-gretchen-whitmer-win-the-2028-us-presidential-election",
               "question": "Will Gretchen Whitmer win the 2028 US Presidential Election?",
               "yes_price": 0.0095,
-              "volume": 8458634
+              "volume": 8460347
             },
             {
               "market_id": "561238",
               "slug": "will-glenn-youngkin-win-the-2028-us-presidential-election",
               "question": "Will Glenn Youngkin win the 2028 US Presidential Election?",
               "yes_price": 0.0095,
-              "volume": 20753388
+              "volume": 20753401
             },
             {
               "market_id": "561258",
               "slug": "will-jamie-dimon-win-the-2028-us-presidential-election",
               "question": "Will Jamie Dimon win the 2028 US Presidential Election?",
               "yes_price": 0.0095,
-              "volume": 7508858
+              "volume": 7511528
             },
             {
               "market_id": "561249",
@@ -468,7 +468,7 @@
               "slug": "will-ivanka-trump-win-the-2028-us-presidential-election",
               "question": "Will Ivanka Trump win the 2028 US Presidential Election?",
               "yes_price": 0.0085,
-              "volume": 4433900
+              "volume": 4434435
             },
             {
               "market_id": "561259",
@@ -482,28 +482,28 @@
               "slug": "will-stephen-smith-win-the-2028-us-presidential-election",
               "question": "Will Stephen Smith win the 2028 US Presidential Election?",
               "yes_price": 0.0075,
-              "volume": 29496324
+              "volume": 29499468
             },
             {
               "market_id": "561244",
               "slug": "will-donald-trump-jr-win-the-2028-us-presidential-election",
               "question": "Will Donald Trump Jr. win the 2028 US Presidential Election?",
               "yes_price": 0.0075,
-              "volume": 9081659
+              "volume": 9083370
             },
             {
               "market_id": "561245",
               "slug": "will-nikki-haley-win-the-2028-us-presidential-election",
               "question": "Will Nikki Haley win the 2028 US Presidential Election?",
               "yes_price": 0.0075,
-              "volume": 21697273
+              "volume": 21697300
             },
             {
               "market_id": "561256",
               "slug": "will-zohran-mamdani-win-the-2028-us-presidential-election",
               "question": "Will Zohran Mamdani win the 2028 US Presidential Election?",
               "yes_price": 0.0075,
-              "volume": 17475794
+              "volume": 17476186
             },
             {
               "market_id": "561263",
@@ -517,53 +517,175 @@
               "slug": "will-tim-walz-win-the-2028-us-presidential-election",
               "question": "Will Tim Walz win the 2028 US Presidential Election?",
               "yes_price": 0.0065,
-              "volume": 39365768
+              "volume": 39367355
             },
             {
               "market_id": "561235",
               "slug": "will-wes-moore-win-the-2028-us-presidential-election",
               "question": "Will Wes Moore win the 2028 US Presidential Election?",
               "yes_price": 0.0065,
-              "volume": 6365471
+              "volume": 6366518
             },
             {
               "market_id": "561242",
               "slug": "will-tulsi-gabbard-win-the-2028-us-presidential-election",
               "question": "Will Tulsi Gabbard win the 2028 US Presidential Election?",
               "yes_price": 0.0065,
-              "volume": 27948336
+              "volume": 27948344
             },
             {
               "market_id": "561264",
               "slug": "will-pete-hegseth-win-the-2028-us-presidential-election",
               "question": "Will Pete Hegseth win the 2028 US Presidential Election?",
               "yes_price": 0.0065,
-              "volume": 4246827
+              "volume": 4249691
             },
             {
               "market_id": "561248",
               "slug": "will-vivek-ramaswamy-win-the-2028-us-presidential-election",
               "question": "Will Vivek Ramaswamy win the 2028 US Presidential Election?",
               "yes_price": 0.0065,
-              "volume": 30880540
+              "volume": 30882322
             },
             {
               "market_id": "561254",
               "slug": "will-kim-kardashian-win-the-2028-us-presidential-election",
               "question": "Will Kim Kardashian win the 2028 US Presidential Election?",
               "yes_price": 0.0065,
-              "volume": 32603238
+              "volume": 32604704
             },
             {
               "market_id": "561251",
               "slug": "will-lebron-james-win-the-2028-us-presidential-election",
               "question": "Will LeBron James win the 2028 US Presidential Election?",
               "yes_price": 0.0055,
-              "volume": 45967163
+              "volume": 45971069
             }
           ],
           "url": "https://polymarket.com/event/presidential-election-winner-2028",
-          "strategy": "Buy YES on all 36 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
+          "strategy": "Buy YES on all 36 outcomes. Total cost: $0.9040. One wins $1.00. Profit: $0.0960 (9.60%)"
+        },
+        {
+          "event_title": "Highest temperature in Istanbul on April 11?",
+          "event_slug": "highest-temperature-in-istanbul-on-april-11-2026",
+          "yes_sum": 0.904,
+          "profit_pct": 9.6,
+          "profit_per_dollar_pct": 10.62,
+          "num_outcomes": 11,
+          "outcomes": [
+            {
+              "market_id": "1902075",
+              "slug": "highest-temperature-in-istanbul-on-april-11-2026-11c",
+              "question": "Will the highest temperature in Istanbul be 11\u00b0C on April 11?",
+              "yes_price": 0.35,
+              "volume": 1049
+            },
+            {
+              "market_id": "1902076",
+              "slug": "highest-temperature-in-istanbul-on-april-11-2026-12c",
+              "question": "Will the highest temperature in Istanbul be 12\u00b0C on April 11?",
+              "yes_price": 0.33,
+              "volume": 1269
+            },
+            {
+              "market_id": "1902074",
+              "slug": "highest-temperature-in-istanbul-on-april-11-2026-10c",
+              "question": "Will the highest temperature in Istanbul be 10\u00b0C on April 11?",
+              "yes_price": 0.115,
+              "volume": 1669
+            },
+            {
+              "market_id": "1902077",
+              "slug": "highest-temperature-in-istanbul-on-april-11-2026-13c",
+              "question": "Will the highest temperature in Istanbul be 13\u00b0C on April 11?",
+              "yes_price": 0.0685,
+              "volume": 2043
+            },
+            {
+              "market_id": "1902078",
+              "slug": "highest-temperature-in-istanbul-on-april-11-2026-14c",
+              "question": "Will the highest temperature in Istanbul be 14\u00b0C on April 11?",
+              "yes_price": 0.016,
+              "volume": 2298
+            },
+            {
+              "market_id": "1902073",
+              "slug": "highest-temperature-in-istanbul-on-april-11-2026-9c",
+              "question": "Will the highest temperature in Istanbul be 9\u00b0C on April 11?",
+              "yes_price": 0.0145,
+              "volume": 2346
+            },
+            {
+              "market_id": "1902079",
+              "slug": "highest-temperature-in-istanbul-on-april-11-2026-15corhigher",
+              "question": "Will the highest temperature in Istanbul be 15\u00b0C or higher on April 11?",
+              "yes_price": 0.009,
+              "volume": 2204
+            },
+            {
+              "market_id": "1902071",
+              "slug": "highest-temperature-in-istanbul-on-april-11-2026-7c",
+              "question": "Will the highest temperature in Istanbul be 7\u00b0C on April 11?",
+              "yes_price": 0.0005,
+              "volume": 1595
+            },
+            {
+              "market_id": "1902072",
+              "slug": "highest-temperature-in-istanbul-on-april-11-2026-8c",
+              "question": "Will the highest temperature in Istanbul be 8\u00b0C on April 11?",
+              "yes_price": 0.0005,
+              "volume": 3887
+            },
+            {
+              "market_id": "1902069",
+              "slug": "highest-temperature-in-istanbul-on-april-11-2026-5corbelow",
+              "question": "Will the highest temperature in Istanbul be 5\u00b0C or below on April 11?",
+              "yes_price": 0.0,
+              "volume": 1974
+            },
+            {
+              "market_id": "1902070",
+              "slug": "highest-temperature-in-istanbul-on-april-11-2026-6c",
+              "question": "Will the highest temperature in Istanbul be 6\u00b0C on April 11?",
+              "yes_price": 0.0,
+              "volume": 3204
+            }
+          ],
+          "url": "https://polymarket.com/event/highest-temperature-in-istanbul-on-april-11-2026",
+          "strategy": "Buy YES on all 11 outcomes. Total cost: $0.9040. One wins $1.00. Profit: $0.0960 (9.60%)"
+        },
+        {
+          "event_title": "Guam Governor Democratic Primary Winner",
+          "event_slug": "guam-governor-democratic-primary-winner",
+          "yes_sum": 0.9045,
+          "profit_pct": 9.55,
+          "profit_per_dollar_pct": 10.56,
+          "num_outcomes": 3,
+          "outcomes": [
+            {
+              "market_id": "907694",
+              "slug": "will-josh-tenorio-win-the-2026-guam-governor-democratic-primary-election",
+              "question": "Will Josh Tenorio win the 2026 Guam Governor Democratic primary election?",
+              "yes_price": 0.55,
+              "volume": 8620
+            },
+            {
+              "market_id": "907695",
+              "slug": "will-therese-terlaje-win-the-2026-guam-governor-democratic-primary-election",
+              "question": "Will Therese Terlaje win the 2026 Guam Governor Democratic primary election?",
+              "yes_price": 0.325,
+              "volume": 1729
+            },
+            {
+              "market_id": "907693",
+              "slug": "will-joe-s-san-agustin-win-the-2026-guam-governor-democratic-primary-election",
+              "question": "Will Joe S. San Agustin win the 2026 Guam Governor Democratic primary election?",
+              "yes_price": 0.0295,
+              "volume": 1973
+            }
+          ],
+          "url": "https://polymarket.com/event/guam-governor-democratic-primary-winner",
+          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9045. One wins $1.00. Profit: $0.0955 (9.55%)"
         },
         {
           "event_title": "Will Israel launch a major ground offensive in Gaza by...?",
@@ -611,95 +733,15 @@
           ],
           "url": "https://polymarket.com/event/will-israel-launch-a-major-ground-offensive-in-gaza-by-october-31",
           "strategy": "Buy YES on all 5 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
-        },
-        {
-          "event_title": "What will S&P 500 (SPX) close at end of 2026?",
-          "event_slug": "spx-close-dec-2026",
-          "yes_sum": 0.905,
-          "profit_pct": 9.5,
-          "profit_per_dollar_pct": 10.5,
-          "num_outcomes": 5,
-          "outcomes": [
-            {
-              "market_id": "1125397",
-              "slug": "spx-close-below-6000-dec-2026",
-              "question": "Will S&P 500 (SPX) close at <$6,000 in December?",
-              "yes_price": 0.375,
-              "volume": 11127
-            },
-            {
-              "market_id": "1125399",
-              "slug": "spx-close-6500-7000-dec-2026",
-              "question": "Will S&P 500 (SPX) close at $6,500-$7,000 in December?",
-              "yes_price": 0.185,
-              "volume": 1373
-            },
-            {
-              "market_id": "1125398",
-              "slug": "spx-close-6000-6500-dec-2026",
-              "question": "Will S&P 500 (SPX) close at $6,000-$6,500 in December?",
-              "yes_price": 0.175,
-              "volume": 1195
-            },
-            {
-              "market_id": "1126565",
-              "slug": "spx-close-7500-8000-dec-2026",
-              "question": "Will S&P 500 (SPX) close at $7,500-$8,000 in December?",
-              "yes_price": 0.095,
-              "volume": 1570
-            },
-            {
-              "market_id": "1125404",
-              "slug": "spx-close-above-8000-dec-2026-362-989-862",
-              "question": "Will S&P 500 (SPX) close at >$8,000 in December?",
-              "yes_price": 0.075,
-              "volume": 1708
-            }
-          ],
-          "url": "https://polymarket.com/event/spx-close-dec-2026",
-          "strategy": "Buy YES on all 5 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
-        },
-        {
-          "event_title": "Guam Governor Democratic Primary Winner",
-          "event_slug": "guam-governor-democratic-primary-winner",
-          "yes_sum": 0.905,
-          "profit_pct": 9.5,
-          "profit_per_dollar_pct": 10.5,
-          "num_outcomes": 3,
-          "outcomes": [
-            {
-              "market_id": "907694",
-              "slug": "will-josh-tenorio-win-the-2026-guam-governor-democratic-primary-election",
-              "question": "Will Josh Tenorio win the 2026 Guam Governor Democratic primary election?",
-              "yes_price": 0.55,
-              "volume": 8620
-            },
-            {
-              "market_id": "907695",
-              "slug": "will-therese-terlaje-win-the-2026-guam-governor-democratic-primary-election",
-              "question": "Will Therese Terlaje win the 2026 Guam Governor Democratic primary election?",
-              "yes_price": 0.325,
-              "volume": 1729
-            },
-            {
-              "market_id": "907693",
-              "slug": "will-joe-s-san-agustin-win-the-2026-guam-governor-democratic-primary-election",
-              "question": "Will Joe S. San Agustin win the 2026 Guam Governor Democratic primary election?",
-              "yes_price": 0.03,
-              "volume": 1973
-            }
-          ],
-          "url": "https://polymarket.com/event/guam-governor-democratic-primary-winner",
-          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
         }
       ],
       "stats": {
         "total_events": 3000,
-        "checked_multi_outcome": 1970,
-        "skipped_single_outcome": 600,
-        "opportunities_found": 150,
+        "checked_multi_outcome": 1971,
+        "skipped_single_outcome": 596,
+        "opportunities_found": 154,
         "best_profit_pct": 10.0,
-        "scanned_at": "2026-04-11 06:12 UTC"
+        "scanned_at": "2026-04-11 06:42 UTC"
       }
     },
     {
