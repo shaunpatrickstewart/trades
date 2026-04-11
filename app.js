@@ -63,7 +63,7 @@
     if (h<=24) return '<span style="color:#ff4455">' +h+ 'h</span>';
     if (d<=3)  return '<span style="color:#ffcc44">' +d+ 'd</span>';
     if (d<=7)  return '<span style="color:#ccaa44">' +d+ 'd</span>';
-    return '<span style="color:#2a2a2a">' +d+ 'd</span>';
+    return '<span style="color:#777">' +d+ 'd</span>';
   }
 
   function pctColor(p) {
@@ -559,7 +559,9 @@
         '<tr>'+
         '<td class="dim">'+(i+1)+'</td>'+
         '<td>'+name+'</td>'+
-        '<td class="green">'+fmt(pnl)+'</td>'+
+        '<td class="'+(pnl>=0?'green':'red')+'">'+
+          (pnl<0?'-':'')+fmt(Math.abs(pnl))+
+        '</td>'+
         '<td style="color:'+(roi>=0?'#00ff88':'#ff4455')+'">'+roi.toFixed(1)+'%</td>'+
         '<td class="dim hm">'+fmt(vol)+'</td>'+
         '<td style="line-height:1.9;font-size:0.84em">'+posHtml+'</td>'+
@@ -674,7 +676,7 @@
         if (t.status==='WON')   { byEngine[eng].won++;  byEngine[eng].realPnl+=(t.pnl||0); byEngine[eng].totalBet+=bet; }
         if (t.status==='LOST')  { byEngine[eng].lost++; byEngine[eng].realPnl+=(t.pnl||0); byEngine[eng].totalBet+=bet; }
       });
-      const engColors = {NEAR_CERTAIN:'#ccaa00', SHORT_TERM:'#00cc66', LONG_TERM:'#88aaff', ANTI_NC:'#cc44ff', UNKNOWN:'#888'};
+      const engColors = {NEAR_CERTAIN:'#ccaa00', SHORT_TERM:'#00cc66', LONG_TERM:'#88aaff', ANTI_NC:'#cc44ff', NEWS:'#ff8844', UNKNOWN:'#888'};
       let engHtml = '<div style="display:flex;gap:10px;flex-wrap:wrap;margin-bottom:10px;padding:8px 0;border-bottom:1px solid #dddddd">';
       Object.entries(byEngine).sort((a,b)=>b[1].realPnl-a[1].realPnl).forEach(([eng,d])=>{
         const c = engColors[eng]||'#888';
@@ -1025,7 +1027,7 @@
 
   // ── RENDER: Live News & X Signals
   async function renderSignalsFeed() {
-    const el = document.getElementById('news-signals-panel');
+    const el = document.getElementById('pm-news-signals');
     if (!el) return;
     try {
       const SIG_URL = 'https://shaunpatrickstewart.github.io/trades/signals.json?v='+Date.now();

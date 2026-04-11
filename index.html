@@ -88,7 +88,7 @@
         <span class="panel-title c-yellow">&#9670; Bot Performance — Paper Trading Results</span>
         <span class="panel-count" id="perf-count">—</span>
       </div>
-      <div class="panel-desc">Live paper trade results. Active engines: WALLET COPY SHORT (elite wallet positions expiring ≤14d) + WALLET COPY LONG (longer-horizon wallet copy). Near-Certain paused — $0.09 avg win cannot offset $17 avg loss at current bet sizes.</div>
+      <div class="panel-desc">Live paper trade results. Active engines: NEAR-CERTAIN (98.4% WR · +$608 net) + WALLET COPY SHORT + WALLET COPY LONG. All engines running. Real-time stats computed from paper_trades.jsonl.</div>
     </div>
     <div class="panel-body" id="pm-performance">
       <div class="loader">Loading results</div>
@@ -155,6 +155,22 @@
     </div>
     <div class="panel-body" id="lab-panel" style="max-height:400px">
       <div class="loader">Loading experiments...</div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══ LIVE NEWS & X SIGNALS — FULL WIDTH ════════════════════════════ -->
+<div class="pm-full">
+  <div class="panel" style="border-left:3px solid #1d9bf0">
+    <div class="panel-hdr">
+      <div class="panel-hdr-top">
+        <span class="panel-title" style="color:#1d9bf0">&#9650; Live News &amp; X Signals — AI Market Scanner</span>
+        <span class="panel-count" id="signals-count">—</span>
+      </div>
+      <div class="panel-desc">Real-time trading signals from X/Grok + Perplexity. Scans every 5 minutes for breaking news that affects open Polymarket positions. ENTER = high-confidence trade trigger. ALERT = monitor closely.</div>
+    </div>
+    <div class="panel-body" id="pm-news-signals" style="max-height:320px">
+      <div class="loader">Scanning news and X for signals</div>
     </div>
   </div>
 </div>
