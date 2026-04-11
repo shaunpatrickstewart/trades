@@ -8,82 +8,56 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 154 categorical arb opportunities found\nScanned 3000 events (2033 multi-outcome) at 2026-04-11 14:50 UTC\nBest: 10.0% profit on 'How many ships will Iran successfully target by April 30?' \u2014 buy YES on all 5 outcomes (sum=0.9)\nStrategy: Buy YES on all 5 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 10.0% on 'Los Angeles Angels vs. Cincinnati Reds'",
+      "result": "LIVE \u2014 154 categorical arb opportunities found\nScanned 3000 events (2039 multi-outcome) at 2026-04-11 15:13 UTC\nBest: 10.0% profit on 'What will S&P 500 (SPX) close at end of 2026?' \u2014 buy YES on all 5 outcomes (sum=0.9)\nStrategy: Buy YES on all 5 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 10.0% on 'TX-23 House Election Winner'",
       "priority": "HIGH",
-      "last_scan": "2026-04-11 14:50 UTC",
+      "last_scan": "2026-04-11 15:13 UTC",
       "opportunities": [
         {
-          "event_title": "How many ships will Iran successfully target by April 30?",
-          "event_slug": "how-many-ships-will-iran-successfully-target-by-april-30",
+          "event_title": "What will S&P 500 (SPX) close at end of 2026?",
+          "event_slug": "spx-close-dec-2026",
           "yes_sum": 0.9,
           "profit_pct": 10.0,
           "profit_per_dollar_pct": 11.11,
           "num_outcomes": 5,
           "outcomes": [
             {
-              "market_id": "1706115",
-              "slug": "will-23-ships-be-successfully-targeted-by-iran-by-april-30-589",
-              "question": "Will 2\u20133 ships be successfully targeted by Iran by April 30?",
+              "market_id": "1125397",
+              "slug": "spx-close-below-6000-dec-2026",
+              "question": "Will S&P 500 (SPX) close at <$6,000 in December?",
               "yes_price": 0.395,
-              "volume": 5879
+              "volume": 11132
             },
             {
-              "market_id": "1706116",
-              "slug": "will-45-ships-be-successfully-targeted-by-iran-by-april-30-494",
-              "question": "Will 4\u20135 ships be successfully targeted by Iran by April 30?",
-              "yes_price": 0.29,
-              "volume": 2440
+              "market_id": "1125399",
+              "slug": "spx-close-6500-7000-dec-2026",
+              "question": "Will S&P 500 (SPX) close at $6,500-$7,000 in December?",
+              "yes_price": 0.19,
+              "volume": 1373
             },
             {
-              "market_id": "1706118",
-              "slug": "will-89-ships-be-successfully-targeted-by-iran-by-april-30-113",
-              "question": "Will 8\u20139 ships be successfully targeted by Iran by April 30?",
-              "yes_price": 0.155,
-              "volume": 4978
+              "market_id": "1125398",
+              "slug": "spx-close-6000-6500-dec-2026",
+              "question": "Will S&P 500 (SPX) close at $6,000-$6,500 in December?",
+              "yes_price": 0.145,
+              "volume": 1195
             },
             {
-              "market_id": "1706117",
-              "slug": "will-67-ships-be-successfully-targeted-by-iran-by-april-30-177",
-              "question": "Will 6\u20137 ships be successfully targeted by Iran by April 30?",
-              "yes_price": 0.06,
-              "volume": 2689
+              "market_id": "1126565",
+              "slug": "spx-close-7500-8000-dec-2026",
+              "question": "Will S&P 500 (SPX) close at $7,500-$8,000 in December?",
+              "yes_price": 0.095,
+              "volume": 1570
             },
             {
-              "market_id": "1706113",
-              "slug": "will-fewer-than-2-ships-be-successfully-targeted-by-iran-by-april-30-439",
-              "question": "Will fewer than 2 ships be successfully targeted by Iran by April 30?",
-              "yes_price": 0.0,
-              "volume": 24731
+              "market_id": "1125404",
+              "slug": "spx-close-above-8000-dec-2026-362-989-862",
+              "question": "Will S&P 500 (SPX) close at >$8,000 in December?",
+              "yes_price": 0.075,
+              "volume": 1708
             }
           ],
-          "url": "https://polymarket.com/event/how-many-ships-will-iran-successfully-target-by-april-30",
+          "url": "https://polymarket.com/event/spx-close-dec-2026",
           "strategy": "Buy YES on all 5 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
-        },
-        {
-          "event_title": "Los Angeles Angels vs. Cincinnati Reds",
-          "event_slug": "mlb-laa-cin-2026-04-11",
-          "yes_sum": 0.9,
-          "profit_pct": 10.0,
-          "profit_per_dollar_pct": 11.11,
-          "num_outcomes": 2,
-          "outcomes": [
-            {
-              "market_id": "1938700",
-              "slug": "mlb-laa-cin-2026-04-11-total-9pt5",
-              "question": "Los Angeles Angels vs. Cincinnati Reds: O/U 9.5",
-              "yes_price": 0.455,
-              "volume": 10648
-            },
-            {
-              "market_id": "1877587",
-              "slug": "mlb-laa-cin-2026-04-11",
-              "question": "Los Angeles Angels vs. Cincinnati Reds",
-              "yes_price": 0.445,
-              "volume": 20117
-            }
-          ],
-          "url": "https://polymarket.com/event/mlb-laa-cin-2026-04-11",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
         },
         {
           "event_title": "TX-23 House Election Winner",
@@ -171,107 +145,112 @@
           "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9010. One wins $1.00. Profit: $0.0990 (9.90%)"
         },
         {
-          "event_title": "AZ-01 Republican Primary Winner",
-          "event_slug": "az-01-republican-primary-winner",
+          "event_title": "Who will be UFC Welterweight champion at the end of 2026?",
+          "event_slug": "who-will-be-ufc-welterweight-champion-at-the-end-of-2026",
           "yes_sum": 0.9015,
           "profit_pct": 9.85,
           "profit_per_dollar_pct": 10.93,
-          "num_outcomes": 12,
+          "num_outcomes": 3,
           "outcomes": [
             {
-              "market_id": "704348",
-              "slug": "will-jay-feely-be-the-republican-nominee-for-az-01",
-              "question": "Will Jay Feely be the Republican nominee for AZ-01?",
-              "yes_price": 0.695,
-              "volume": 4681
+              "market_id": "1090024",
+              "slug": "will-islam-makhachev-be-the-ufc-welterweight-champion-on-december-31-2026",
+              "question": "Will Islam Makhachev be the UFC Welterweight Champion on December 31, 2026?",
+              "yes_price": 0.765,
+              "volume": 3908
             },
             {
-              "market_id": "704343",
-              "slug": "will-joseph-chaplik-be-the-republican-nominee-for-az-01",
-              "question": "Will Joseph Chaplik be the Republican nominee for AZ-01?",
-              "yes_price": 0.079,
-              "volume": 8138
+              "market_id": "1090027",
+              "slug": "will-ian-machado-garry-be-the-ufc-welterweight-champion-on-december-31-2026",
+              "question": "Will Ian Machado Garry be the UFC Welterweight Champion on December 31, 2026?",
+              "yes_price": 0.12,
+              "volume": 1320
             },
             {
-              "market_id": "704345",
-              "slug": "will-todd-graham-be-the-republican-nominee-for-az-01",
-              "question": "Will Todd Graham be the Republican nominee for AZ-01?",
-              "yes_price": 0.055,
-              "volume": 7582
-            },
-            {
-              "market_id": "704346",
-              "slug": "will-mark-brnovich-be-the-republican-nominee-for-az-01",
-              "question": "Will Mark Brnovich be the Republican nominee for AZ-01?",
-              "yes_price": 0.0145,
-              "volume": 4365
-            },
-            {
-              "market_id": "704349",
-              "slug": "will-derrick-gallego-be-the-republican-nominee-for-az-01-424",
-              "question": "Will Derrick Gallego be the Republican nominee for AZ-01?",
-              "yes_price": 0.014,
-              "volume": 3463
-            },
-            {
-              "market_id": "704347",
-              "slug": "will-kari-lake-be-the-republican-nominee-for-az-01",
-              "question": "Will Kari Lake be the Republican nominee for AZ-01?",
-              "yes_price": 0.0135,
-              "volume": 6398
-            },
-            {
-              "market_id": "704341",
-              "slug": "will-matt-gress-be-the-republican-nominee-for-az-01",
-              "question": "Will Matt Gress be the Republican nominee for AZ-01?",
-              "yes_price": 0.007,
-              "volume": 47835
-            },
-            {
-              "market_id": "704351",
-              "slug": "will-paul-reevs-be-the-republican-nominee-for-az-01",
-              "question": "Will Paul Reevs be the Republican nominee for AZ-01?",
-              "yes_price": 0.0065,
-              "volume": 222106
-            },
-            {
-              "market_id": "704350",
-              "slug": "will-kaitlin-purrington-be-the-republican-nominee-for-az-01",
-              "question": "Will Kaitlin Purrington be the Republican nominee for AZ-01?",
-              "yes_price": 0.005,
-              "volume": 8235
-            },
-            {
-              "market_id": "704352",
-              "slug": "will-brandon-sowers-be-the-republican-nominee-for-az-01-218",
-              "question": "Will Brandon Sowers be the Republican nominee for AZ-01?",
-              "yes_price": 0.005,
-              "volume": 10660
-            },
-            {
-              "market_id": "704353",
-              "slug": "will-john-trobough-be-the-republican-nominee-for-az-01-622",
-              "question": "Will John Trobough be the Republican nominee for AZ-01?",
-              "yes_price": 0.0035,
-              "volume": 1910
-            },
-            {
-              "market_id": "704344",
-              "slug": "will-muchelle-ugenti-rita-be-the-republican-nominee-for-az-01",
-              "question": "Will Muchelle Ugenti-Rita be the Republican nominee for AZ-01?",
-              "yes_price": 0.0035,
-              "volume": 4221
+              "market_id": "1090025",
+              "slug": "will-jack-della-maddalena-be-the-ufc-welterweight-champion-on-december-31-2026",
+              "question": "Will Jack Della Maddalena be the UFC Welterweight Champion on December 31, 2026?",
+              "yes_price": 0.0165,
+              "volume": 1318
             }
           ],
-          "url": "https://polymarket.com/event/az-01-republican-primary-winner",
-          "strategy": "Buy YES on all 12 outcomes. Total cost: $0.9015. One wins $1.00. Profit: $0.0985 (9.85%)"
+          "url": "https://polymarket.com/event/who-will-be-ufc-welterweight-champion-at-the-end-of-2026",
+          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9015. One wins $1.00. Profit: $0.0985 (9.85%)"
+        },
+        {
+          "event_title": "Will Russia capture Lyman by...?",
+          "event_slug": "will-russia-capture-lyman-in-2025",
+          "yes_sum": 0.902,
+          "profit_pct": 9.8,
+          "profit_per_dollar_pct": 10.86,
+          "num_outcomes": 8,
+          "outcomes": [
+            {
+              "market_id": "1397270",
+              "slug": "will-russia-capture-lyman-by-december-31-2026-774",
+              "question": "Will Russia capture Lyman by December 31, 2026?",
+              "yes_price": 0.655,
+              "volume": 49838
+            },
+            {
+              "market_id": "1397269",
+              "slug": "will-russia-capture-lyman-by-june-30-2026-413",
+              "question": "Will Russia capture Lyman by June 30, 2026?",
+              "yes_price": 0.215,
+              "volume": 131416
+            },
+            {
+              "market_id": "1397302",
+              "slug": "will-russia-capture-lyman-by-april-30-2026",
+              "question": "Will Russia capture Lyman by April 30, 2026?",
+              "yes_price": 0.032,
+              "volume": 146992
+            },
+            {
+              "market_id": "566493",
+              "slug": "will-russia-capture-lyman-in-2025-816",
+              "question": "Will Russia capture Lyman by December 31?",
+              "yes_price": 0.0,
+              "volume": 764798
+            },
+            {
+              "market_id": "642531",
+              "slug": "will-russia-capture-lyman-by-november-30-884",
+              "question": "Will Russia capture Lyman by November 30?",
+              "yes_price": 0.0,
+              "volume": 142124
+            },
+            {
+              "market_id": "1006892",
+              "slug": "will-russia-capture-lyman-by-march-31-2026-494",
+              "question": "Will Russia capture Lyman by March 31, 2026?",
+              "yes_price": 0.0,
+              "volume": 696079
+            },
+            {
+              "market_id": "1006891",
+              "slug": "will-russia-capture-lyman-by-january-31-2026",
+              "question": "Will Russia capture Lyman by January 31, 2026?",
+              "yes_price": 0.0,
+              "volume": 72029
+            },
+            {
+              "market_id": "1249612",
+              "slug": "will-russia-capture-lyman-by-february-28-2026",
+              "question": "Will Russia capture Lyman by February 28, 2026?",
+              "yes_price": 0.0,
+              "volume": 86119
+            }
+          ],
+          "url": "https://polymarket.com/event/will-russia-capture-lyman-in-2025",
+          "strategy": "Buy YES on all 8 outcomes. Total cost: $0.9020. One wins $1.00. Profit: $0.0980 (9.80%)"
         },
         {
           "event_title": "Will Audemars Piguet prices hit __ by April 30?",
           "event_slug": "will-audemars-piguet-prices-hit-by-april-30",
-          "yes_sum": 0.9025,
-          "profit_pct": 9.75,
-          "profit_per_dollar_pct": 10.8,
+          "yes_sum": 0.902,
+          "profit_pct": 9.8,
+          "profit_per_dollar_pct": 10.86,
           "num_outcomes": 10,
           "outcomes": [
             {
@@ -299,14 +278,14 @@
               "market_id": "1613935",
               "slug": "will-the-audemars-piguet-index-hit-40000-low-by-april-30",
               "question": "Will the Audemars Piguet Index hit $40,000 (LOW) by April 30?",
-              "yes_price": 0.073,
+              "yes_price": 0.0735,
               "volume": 2663
             },
             {
               "market_id": "1613928",
               "slug": "will-the-audemars-piguet-index-hit-42000-high-by-april-30",
               "question": "Will the Audemars Piguet Index hit $42,000 (HIGH) by April 30?",
-              "yes_price": 0.032,
+              "yes_price": 0.031,
               "volume": 5900
             },
             {
@@ -346,82 +325,54 @@
             }
           ],
           "url": "https://polymarket.com/event/will-audemars-piguet-prices-hit-by-april-30",
-          "strategy": "Buy YES on all 10 outcomes. Total cost: $0.9025. One wins $1.00. Profit: $0.0975 (9.75%)"
+          "strategy": "Buy YES on all 10 outcomes. Total cost: $0.9020. One wins $1.00. Profit: $0.0980 (9.80%)"
         },
         {
-          "event_title": "Will Russia capture Lyman by...?",
-          "event_slug": "will-russia-capture-lyman-in-2025",
-          "yes_sum": 0.903,
-          "profit_pct": 9.7,
-          "profit_per_dollar_pct": 10.74,
-          "num_outcomes": 8,
+          "event_title": "Latvian Parliamentary Election Winner",
+          "event_slug": "latvian-parliamentary-election-winner",
+          "yes_sum": 0.9025,
+          "profit_pct": 9.75,
+          "profit_per_dollar_pct": 10.8,
+          "num_outcomes": 4,
           "outcomes": [
             {
-              "market_id": "1397270",
-              "slug": "will-russia-capture-lyman-by-december-31-2026-774",
-              "question": "Will Russia capture Lyman by December 31, 2026?",
-              "yes_price": 0.655,
-              "volume": 49838
+              "market_id": "950433",
+              "slug": "will-latvija-pirmaj-viet-lpv-win-the-most-seats-in-the-2026-latvian-parliamentary-election",
+              "question": "Will Latvija Pirmaj\u0101 Viet\u0101 (LPV) win the most seats in the 2026 Latvian parliame",
+              "yes_price": 0.31,
+              "volume": 1490
             },
             {
-              "market_id": "1397269",
-              "slug": "will-russia-capture-lyman-by-june-30-2026-413",
-              "question": "Will Russia capture Lyman by June 30, 2026?",
+              "market_id": "950428",
+              "slug": "will-jaun-vienotba-jv-win-the-most-seats-in-the-2026-latvian-parliamentary-election",
+              "question": "Will Jaun\u0101 Vienot\u012bba (JV) win the most seats in the 2026 Latvian parliamentary e",
+              "yes_price": 0.3,
+              "volume": 3444
+            },
+            {
+              "market_id": "950431",
+              "slug": "will-nacionl-apvienba-na-win-the-most-seats-in-the-2026-latvian-parliamentary-election",
+              "question": "Will Nacion\u0101l\u0101 Apvien\u012bba (NA) win the most seats in the 2026 Latvian parliamenta",
               "yes_price": 0.215,
-              "volume": 131416
+              "volume": 1627
             },
             {
-              "market_id": "1397302",
-              "slug": "will-russia-capture-lyman-by-april-30-2026",
-              "question": "Will Russia capture Lyman by April 30, 2026?",
-              "yes_price": 0.033,
-              "volume": 146692
-            },
-            {
-              "market_id": "566493",
-              "slug": "will-russia-capture-lyman-in-2025-816",
-              "question": "Will Russia capture Lyman by December 31?",
-              "yes_price": 0.0,
-              "volume": 764798
-            },
-            {
-              "market_id": "642531",
-              "slug": "will-russia-capture-lyman-by-november-30-884",
-              "question": "Will Russia capture Lyman by November 30?",
-              "yes_price": 0.0,
-              "volume": 142124
-            },
-            {
-              "market_id": "1006892",
-              "slug": "will-russia-capture-lyman-by-march-31-2026-494",
-              "question": "Will Russia capture Lyman by March 31, 2026?",
-              "yes_price": 0.0,
-              "volume": 696079
-            },
-            {
-              "market_id": "1006891",
-              "slug": "will-russia-capture-lyman-by-january-31-2026",
-              "question": "Will Russia capture Lyman by January 31, 2026?",
-              "yes_price": 0.0,
-              "volume": 72029
-            },
-            {
-              "market_id": "1249612",
-              "slug": "will-russia-capture-lyman-by-february-28-2026",
-              "question": "Will Russia capture Lyman by February 28, 2026?",
-              "yes_price": 0.0,
-              "volume": 86119
+              "market_id": "950429",
+              "slug": "will-zao-un-zemnieku-savienba-zzs-win-the-most-seats-in-the-2026-latvian-parliamentary-election",
+              "question": "Will Za\u013co un Zemnieku Savien\u012bba (ZZS) win the most seats in the 2026 Latvian par",
+              "yes_price": 0.0775,
+              "volume": 48192
             }
           ],
-          "url": "https://polymarket.com/event/will-russia-capture-lyman-in-2025",
-          "strategy": "Buy YES on all 8 outcomes. Total cost: $0.9030. One wins $1.00. Profit: $0.0970 (9.70%)"
+          "url": "https://polymarket.com/event/latvian-parliamentary-election-winner",
+          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9025. One wins $1.00. Profit: $0.0975 (9.75%)"
         },
         {
           "event_title": "LPL 2026 Season Winner",
           "event_slug": "lol-lpl-2026-season-winner",
-          "yes_sum": 0.904,
-          "profit_pct": 9.6,
-          "profit_per_dollar_pct": 10.62,
+          "yes_sum": 0.903,
+          "profit_pct": 9.7,
+          "profit_per_dollar_pct": 10.74,
           "num_outcomes": 15,
           "outcomes": [
             {
@@ -509,18 +460,18 @@
               "volume": 30354
             },
             {
-              "market_id": "693686",
-              "slug": "will-ultra-prime-win-the-lpl-2026-season",
-              "question": "Will Ultra Prime win the LPL 2026 season?",
-              "yes_price": 0.0025,
-              "volume": 44142
-            },
-            {
               "market_id": "693682",
               "slug": "will-royal-never-give-up-win-the-lpl-2026-season",
               "question": "Will Royal Never Give Up win the LPL 2026 season?",
               "yes_price": 0.0015,
               "volume": 42724
+            },
+            {
+              "market_id": "693686",
+              "slug": "will-ultra-prime-win-the-lpl-2026-season",
+              "question": "Will Ultra Prime win the LPL 2026 season?",
+              "yes_price": 0.0015,
+              "volume": 44142
             },
             {
               "market_id": "693684",
@@ -531,91 +482,56 @@
             }
           ],
           "url": "https://polymarket.com/event/lol-lpl-2026-season-winner",
-          "strategy": "Buy YES on all 15 outcomes. Total cost: $0.9040. One wins $1.00. Profit: $0.0960 (9.60%)"
+          "strategy": "Buy YES on all 15 outcomes. Total cost: $0.9030. One wins $1.00. Profit: $0.0970 (9.70%)"
         },
         {
-          "event_title": "Highest temperature in Chengdu on April 12?",
-          "event_slug": "highest-temperature-in-chengdu-on-april-12-2026",
-          "yes_sum": 0.904,
-          "profit_pct": 9.6,
-          "profit_per_dollar_pct": 10.62,
-          "num_outcomes": 9,
+          "event_title": "2nd richest person on December 31?",
+          "event_slug": "2nd-richest-person-on-december-31",
+          "yes_sum": 0.903,
+          "profit_pct": 9.7,
+          "profit_per_dollar_pct": 10.74,
+          "num_outcomes": 4,
           "outcomes": [
             {
-              "market_id": "1915118",
-              "slug": "highest-temperature-in-chengdu-on-april-12-2026-24corhigher",
-              "question": "Will the highest temperature in Chengdu be 24\u00b0C or higher on April 12?",
-              "yes_price": 0.655,
-              "volume": 3232
+              "market_id": "1302181",
+              "slug": "will-larry-page-be-2nd-richest-person-on-december-31",
+              "question": "Will Larry Page be 2nd richest person on December 31?",
+              "yes_price": 0.435,
+              "volume": 6349
             },
             {
-              "market_id": "1915117",
-              "slug": "highest-temperature-in-chengdu-on-april-12-2026-23c",
-              "question": "Will the highest temperature in Chengdu be 23\u00b0C on April 12?",
-              "yes_price": 0.2,
-              "volume": 1781
+              "market_id": "1302183",
+              "slug": "will-sergey-brin-be-2nd-richest-person-on-december-31",
+              "question": "Will Sergey Brin be 2nd richest person on December 31?",
+              "yes_price": 0.24,
+              "volume": 4968
             },
             {
-              "market_id": "1915115",
-              "slug": "highest-temperature-in-chengdu-on-april-12-2026-21c",
-              "question": "Will the highest temperature in Chengdu be 21\u00b0C on April 12?",
-              "yes_price": 0.0345,
-              "volume": 1297
+              "market_id": "1302173",
+              "slug": "will-jeff-bezos-be-2nd-richest-person-on-december-31",
+              "question": "Will Jeff Bezos be 2nd richest person on December 31?",
+              "yes_price": 0.209,
+              "volume": 9320
             },
             {
-              "market_id": "1915114",
-              "slug": "highest-temperature-in-chengdu-on-april-12-2026-20c",
-              "question": "Will the highest temperature in Chengdu be 20\u00b0C on April 12?",
-              "yes_price": 0.0085,
-              "volume": 2128
-            },
-            {
-              "market_id": "1915113",
-              "slug": "highest-temperature-in-chengdu-on-april-12-2026-19c",
-              "question": "Will the highest temperature in Chengdu be 19\u00b0C on April 12?",
-              "yes_price": 0.0035,
-              "volume": 2384
-            },
-            {
-              "market_id": "1915110",
-              "slug": "highest-temperature-in-chengdu-on-april-12-2026-16c",
-              "question": "Will the highest temperature in Chengdu be 16\u00b0C on April 12?",
-              "yes_price": 0.001,
-              "volume": 1583
-            },
-            {
-              "market_id": "1915108",
-              "slug": "highest-temperature-in-chengdu-on-april-12-2026-14corbelow",
-              "question": "Will the highest temperature in Chengdu be 14\u00b0C or below on April 12?",
-              "yes_price": 0.0005,
-              "volume": 1125
-            },
-            {
-              "market_id": "1915109",
-              "slug": "highest-temperature-in-chengdu-on-april-12-2026-15c",
-              "question": "Will the highest temperature in Chengdu be 15\u00b0C on April 12?",
-              "yes_price": 0.0005,
-              "volume": 1808
-            },
-            {
-              "market_id": "1915112",
-              "slug": "highest-temperature-in-chengdu-on-april-12-2026-18c",
-              "question": "Will the highest temperature in Chengdu be 18\u00b0C on April 12?",
-              "yes_price": 0.0005,
-              "volume": 4029
+              "market_id": "1302178",
+              "slug": "will-warren-buffett-be-2nd-richest-person-on-december-31",
+              "question": "Will Warren Buffett be 2nd richest person on December 31?",
+              "yes_price": 0.019,
+              "volume": 1080
             }
           ],
-          "url": "https://polymarket.com/event/highest-temperature-in-chengdu-on-april-12-2026",
-          "strategy": "Buy YES on all 9 outcomes. Total cost: $0.9040. One wins $1.00. Profit: $0.0960 (9.60%)"
+          "url": "https://polymarket.com/event/2nd-richest-person-on-december-31",
+          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9030. One wins $1.00. Profit: $0.0970 (9.70%)"
         }
       ],
       "stats": {
         "total_events": 3000,
-        "checked_multi_outcome": 2033,
-        "skipped_single_outcome": 594,
+        "checked_multi_outcome": 2039,
+        "skipped_single_outcome": 598,
         "opportunities_found": 154,
         "best_profit_pct": 10.0,
-        "scanned_at": "2026-04-11 14:50 UTC"
+        "scanned_at": "2026-04-11 15:13 UTC"
       }
     },
     {
@@ -625,7 +541,7 @@
       "hypothesis": "NEAR_CERTAIN is profitable (93.6% WR, +$16.32) but makes <$0.23/trade. Research shows pros scale these to thousands of dollars per trade to generate real income. At $10/bet we need 4,000+ trades to make $1,000.",
       "source": "Paper trade analysis + Grok research",
       "action": "Test 5x bet size increase ($10\u2192$50) on NEAR_CERTAIN. Downside: avg loss goes from $2.49 to $12.45. Need 93.6%+ WR sustained at higher sizes.",
-      "result": "W=3777 L=61 PnL=$635.83 open=42",
+      "result": "W=3783 L=61 PnL=$636.99 open=45",
       "priority": "HIGH"
     },
     {
