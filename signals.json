@@ -1,160 +1,247 @@
 {
-  "last_scan": "2026-04-11T22:44:47.711903+00:00",
-  "scan_seconds": 25.2,
-  "markets_scanned": 90,
-  "open_positions": 58,
+  "last_scan": "2026-04-11T23:34:32.299697+00:00",
+  "scan_seconds": 63.0,
+  "markets_scanned": 92,
+  "open_positions": 57,
   "signals": [
     {
-      "id": "sig_246421",
-      "timestamp": "2026-04-11T22:44:30.472659+00:00",
+      "id": "sig_212516",
+      "timestamp": "2026-04-11T23:33:56.565017+00:00",
       "source": "PERPLEXITY",
-      "headline": "No mentions of Vovchansk; Ukraine updates focus on unrelated Russian assaults as of **March 20, 2026**[4]",
-      "raw": "No mentions of Vovchansk; Ukraine updates focus on unrelated Russian assaults as of **March 20, 2026**[4].\n\nThese are outdated (over a week old) and lack confirmed resolutions impactful enough for prediction markets like major ceasefires or deals. No sources indicate events today.",
-      "direction": "NO",
+      "headline": "**HEADLINE:** Fed held rates steady at 3",
+      "raw": "**HEADLINE:** Fed held rates steady at 3.5-3.75% in January 2026 meeting, pausing cuts amid labor slowdown and hot inflation | **YES** (pause confirmed then) | **HIGH** confidence[5].",
+      "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
-        "Will Russia capture all of Vovchansk by April 30?"
+        "Will the Fed Pause\u2013Pause\u2013Pause in the next three decisions ("
       ],
       "action": "ENTER",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_199100",
+      "timestamp": "2026-04-11T23:33:43.148411+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Trump announced a two-week ceasefire with Iran** on April 8, but Iran rejected ceasefire proposals ahead of a deadline",
+      "raw": "**Trump announced a two-week ceasefire with Iran** on April 8, but Iran rejected ceasefire proposals ahead of a deadline, with Trump making a major statement on next steps.[1][4]",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will Trump talk to Reza Pahlavi in April?",
+        "Will Trump talk to Nicol\u00e1s Maduro in April?",
+        "Will Jordan strike Iran by April 30?"
+      ],
+      "action": "ALERT",
       "x_link": null,
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_257685",
-      "timestamp": "2026-04-11T22:44:41.736463+00:00",
+      "id": "sig_212561",
+      "timestamp": "2026-04-11T23:33:56.609372+00:00",
       "source": "PERPLEXITY",
-      "headline": "Iran Ceasefire Collapse Confirmed, Triggering $427M Bitcoin Short Squeeze and Bullish Price Breakout** | YES | HIGH conf",
-      "raw": "Iran Ceasefire Collapse Confirmed, Triggering $427M Bitcoin Short Squeeze and Bullish Price Breakout** | YES | HIGH confidence[2]\n\nBitcoin surged 4.5% to $71,362 on April 9, 2026, following confirmation of a collapsed two-week U.S.-Iran ceasefire that crashed WTI crude oil from $112 per barrel, repricing Fed rate cut expectations and forcing $427 million in crypto short liquidations\u2014the largest si",
+      "headline": "**HEADLINE:** FOMC signals post-December 2025 pause after three 25bps cuts; economists affirm long pause likely | **YES*",
+      "raw": "**HEADLINE:** FOMC signals post-December 2025 pause after three 25bps cuts; economists affirm long pause likely | **YES** (pause signaled) | **MED** confidence[2][3][4].",
       "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will Jordan strike Iran by April 30?",
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Will NVIDIA (NVDA) hit (HIGH) $192 Week of April 13 2026?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_252477",
-      "timestamp": "2026-04-11T22:44:36.528805+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Details about what was announced and its market implications",
-      "raw": "Details about what was announced and its market implications\n\nIf you're looking for current election coverage from Peru, I'd recommend searching for the latest news from major news outlets as the April 12 elections approach.",
-      "direction": null,
-      "confidence": 0.9,
+      "confidence": 0.78,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "POLITICS"
+      "category": "ECONOMICS"
     },
     {
-      "id": "sig_246402",
-      "timestamp": "2026-04-11T22:44:30.453477+00:00",
+      "id": "sig_199121",
+      "timestamp": "2026-04-11T23:33:43.169307+00:00",
       "source": "PERPLEXITY",
-      "headline": "On **April 2, 2026**, Russia stated readiness to help resolve the Iran conflict following a Trump speech, with Kremlin s",
-      "raw": "On **April 2, 2026**, Russia stated readiness to help resolve the Iran conflict following a Trump speech, with Kremlin spokesman Dmitry Peskov offering contributions to shift from military to peaceful course[1].",
+      "headline": "**North Korea fired multiple ballistic missiles** on April 8, the same day as Trump's ceasefire announcement, described",
+      "raw": "**North Korea fired multiple ballistic missiles** on April 8, the same day as Trump's ceasefire announcement, described as weapons testing without entering Japanese waters.[4]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Trump talk to Reza Pahlavi in April?",
+        "Will Trump talk to Nicol\u00e1s Maduro in April?",
+        "Will Trump visit North Korea by April 30?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_199140",
+      "timestamp": "2026-04-11T23:33:43.188342+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Russia's Dmitry Medvedev likened Iran's Strait of Hormuz control to a \"nuclear weapon\"** on April 11 (early morning UT",
+      "raw": "**Russia's Dmitry Medvedev likened Iran's Strait of Hormuz control to a \"nuclear weapon\"** on April 11 (early morning UTC), amid reports of Russia, China, and North Korea backing Iran against U.S./Israel actions.[2][3]",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [
         "Will Russia capture all of Vovchansk by April 30?",
-        "Will Trump talk to Reza Pahlavi in April?",
-        "Will Trump talk to Nicol\u00e1s Maduro in April?"
+        "Will Jordan strike Iran by April 30?",
+        "Will Trump visit North Korea by April 30?"
       ],
       "action": "ALERT",
       "x_link": null,
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_246408",
-      "timestamp": "2026-04-11T22:44:30.459767+00:00",
+      "id": "sig_199157",
+      "timestamp": "2026-04-11T23:33:43.205047+00:00",
       "source": "PERPLEXITY",
-      "headline": "Trump emphasized **next 24 hours crucial** for Iran talks (date unspecified but contextually early 2026), preparing wars",
-      "raw": "Trump emphasized **next 24 hours crucial** for Iran talks (date unspecified but contextually early 2026), preparing warships with advanced weapons as backup if diplomacy fails, amid issues like uranium stockpiles and Strait of Hormuz[3].",
+      "headline": "Earlier context notes heavy damage to Iran's military and economy from U",
+      "raw": "Earlier context notes heavy damage to Iran's military and economy from U.S./Israel strikes, with Trump claiming victory on April 1.[2][3]",
       "direction": null,
       "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_246414",
-      "timestamp": "2026-04-11T22:44:30.465926+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Earlier events include Russian condemnations of **February 28, 2026** US/Israeli strikes on Iran[2] and a **March 23, 20",
-      "raw": "Earlier events include Russian condemnations of **February 28, 2026** US/Israeli strikes on Iran[2] and a **March 23, 2026** report of Trump shifting course on Iran war (no details on shift provided)[5].",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_252458",
-      "timestamp": "2026-04-11T22:44:36.509679+00:00",
-      "source": "PERPLEXITY",
-      "headline": "I cannot provide the breaking news format you've requested because the search results do not contain information that ma",
-      "raw": "I cannot provide the breaking news format you've requested because the search results do not contain information that matches your query parameters.\n\nThe search results include information about **Jorge Nieto**, a Peruvian presidential candidate, and the **April 12, 2026 Peruvian elections**[1][2][4]. However, there is **no information about Trump** in any of the provided search results, and nothi",
-      "direction": "NO",
-      "confidence": 0.65,
       "matched_markets": [
-        "Will Jorge Nieto win the 2026 Peruvian presidential election",
         "Will Trump talk to Reza Pahlavi in April?",
-        "Will Trump talk to Nicol\u00e1s Maduro in April?"
+        "Will Trump talk to Nicol\u00e1s Maduro in April?",
+        "Will Jordan strike Iran by April 30?"
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "POLITICS"
+      "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_252464",
-      "timestamp": "2026-04-11T22:44:36.515840+00:00",
+      "id": "sig_199201",
+      "timestamp": "2026-04-11T23:33:43.249976+00:00",
       "source": "PERPLEXITY",
-      "headline": "A specific announcement or confirmation involving the mentioned figures",
-      "raw": "A specific announcement or confirmation involving the mentioned figures",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_252471",
-      "timestamp": "2026-04-11T22:44:36.522089+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Current timestamp information confirming it is recent",
-      "raw": "Current timestamp information confirming it is recent",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_262659",
-      "timestamp": "2026-04-11T22:44:46.710878+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Fed Pauses Rates at March 18, 2026 FOMC Meeting | YES | HIGH confidence**",
-      "raw": "Fed Pauses Rates at March 18, 2026 FOMC Meeting | YES | HIGH confidence**\n\nThe Federal Reserve issued its FOMC statement on March 18, 2026, explicitly deciding to **maintain the target range for the federal funds rate at 3\u00bd to 3\u00be percent**, signaling a pause after prior cuts[3]. This followed a rate cut on December 10, 2025, where the Fed lowered rates to the same 3.5-3.75% range in a divided vote",
-      "direction": "YES",
+      "headline": "LOW** confidence - Latest sourced update is April 11 early (Russia comment); no RIGHT NOW confirmations post-11 PM UTC",
+      "raw": "LOW** confidence - Latest sourced update is April 11 early (Russia comment); no RIGHT NOW confirmations post-11 PM UTC.[2]",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [
-        "Will the Fed Pause\u2013Pause\u2013Pause in the next three decisions ("
+        "Will Russia capture all of Vovchansk by April 30?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_212475",
+      "timestamp": "2026-04-11T23:33:56.523595+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Recent Context (Not Breaking):**",
+      "raw": "Recent Context (Not Breaking):**",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_212594",
+      "timestamp": "2026-04-11T23:33:56.642078+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**HEADLINE:** March 2026 FOMC minutes released April 8; no new pause details, amid Iran war uncertainty freezing policy",
+      "raw": "**HEADLINE:** March 2026 FOMC minutes released April 8; no new pause details, amid Iran war uncertainty freezing policy | **NO** (no new resolution) | **HIGH** confidence[1][2].",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Jordan strike Iran by April 30?",
+        "Will the US x Iran ceasefire be extended by April 21, 2026?"
       ],
       "action": "ALERT",
       "x_link": null,
       "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_220299",
+      "timestamp": "2026-04-11T23:34:04.347779+00:00",
+      "source": "PERPLEXITY",
+      "headline": "I need to clarify that the search results contain information from different time periods, creating confusion about what",
+      "raw": "I need to clarify that the search results contain information from different time periods, creating confusion about what constitutes \"breaking news RIGHT NOW.\"\n\nThe most recent actual news from the search results is from **Friday, April 10, 2026** (yesterday): the Denver Nuggets defeated the Oklahoma City Thunder 127-107 in a game where both teams rested key players ahead of the playoffs[4]. Howev",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the Oklahoma City Thunder win the 2026 NBA Finals?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_220324",
+      "timestamp": "2026-04-11T23:34:04.372771+00:00",
+      "source": "PERPLEXITY",
+      "headline": "I cannot provide the \"breaking news RIGHT NOW\" format you requested** because:",
+      "raw": "I cannot provide the \"breaking news RIGHT NOW\" format you requested** because:",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_248173",
+      "timestamp": "2026-04-11T23:34:32.221867+00:00",
+      "source": "X_GROK",
+      "headline": "Hungary PM Market:** Whales dumped $281k+$30k on \"Orb\u00e1n NOT next PM\" [[1]](https://x",
+      "raw": "Hungary PM Market:** Whales dumped $281k+$30k on \"Orb\u00e1n NOT next PM\" [[1]](https://x.com/i/status/2043054409006092427)[[2]](https://x.com/i/status/2043085528996642993) ahead of election (<48h away). Means **YES** for NO-Orb\u00e1n. Confidence: **MED** (coordinated conviction, poor R/R unless info edge).",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2043054409006092427)[[2]](https://x.com/i/status/2043085528996642993)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_248200",
+      "timestamp": "2026-04-11T23:34:32.248255+00:00",
+      "source": "X_GROK",
+      "headline": "Esports (CS2/LoL):** Experts printing $140k-$180k profits (e",
+      "raw": "Esports (CS2/LoL):** Experts printing $140k-$180k profits (e.g., $76k\u2192$140k bet, multiple $50k+ wins).[[3]](https://x.com/i/status/2043088319064506653)[[4]](https://x.com/i/status/2043079931706683830) Tip: Bet hobbies/expertise. Means **YES** for skilled teams at value odds. Confidence: **HIGH** (proven edges).",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2043088319064506653)[[4]](https://x.com/i/status/2043079931706683830)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_248225",
+      "timestamp": "2026-04-11T23:34:32.273086+00:00",
+      "source": "X_GROK",
+      "headline": "Solana PMs:** Wallet +$105k PnL (73% win rate, 1k+ trades, active)",
+      "raw": "Solana PMs:** Wallet +$105k PnL (73% win rate, 1k+ trades, active).[[2]](https://x.com/i/status/2043085528996642993) Smart money grinding. Means bullish Solana ecosystem bets. Confidence: **MED**.",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2043085528996642993)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_248250",
+      "timestamp": "2026-04-11T23:34:32.298464+00:00",
+      "source": "X_GROK",
+      "headline": "Mispriced High-Prob Markets:** Copy-bot 99% win rate exploiting 80-99\u00a2 \u03b4 (win rate - implied prob); Kelly sizing",
+      "raw": "Mispriced High-Prob Markets:** Copy-bot 99% win rate exploiting 80-99\u00a2 \u03b4 (win rate - implied prob); Kelly sizing.[[5]](https://x.com/i/status/2043073251136467062) Tip: Hunt EV in overconfident ranges. Confidence: **HIGH** (backtested $818k).",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2043073251136467062)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_199180",
+      "timestamp": "2026-04-11T23:33:43.228734+00:00",
+      "source": "PERPLEXITY",
+      "headline": "YES** - Developments like the ceasefire announcement and NK missile launches could shift markets on escalation risks, bu",
+      "raw": "YES** - Developments like the ceasefire announcement and NK missile launches could shift markets on escalation risks, but nothing fresh today.[4][1]",
+      "direction": "YES",
+      "confidence": 0.6,
+      "matched_markets": [],
+      "action": "WATCH",
+      "x_link": null,
+      "category": "GEOPOLITICS"
     }
   ],
   "stats": {
-    "enter": 2,
-    "alert": 8,
-    "watch": 0,
-    "high_conf": 3
+    "enter": 1,
+    "alert": 14,
+    "watch": 1,
+    "high_conf": 2
   }
 }
