@@ -8,10 +8,57 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 149 categorical arb opportunities found\nScanned 3000 events (1934 multi-outcome) at 2026-04-11 03:12 UTC\nBest: 9.95% profit on 'UEFA Europa Conference League: Most Goal Contributions' \u2014 buy YES on all 4 outcomes (sum=0.9005)\nStrategy: Buy YES on all 4 outcomes. Total cost: $0.9005. One wins $1.00. Profit: $0.0995 (9.95%)\n2nd: 9.9% on 'Will Opensea launch a token by ___?'",
+      "result": "LIVE \u2014 148 categorical arb opportunities found\nScanned 3000 events (1934 multi-outcome) at 2026-04-11 03:13 UTC\nBest: 10.0% profit on 'What will S&P 500 (SPX) close at end of 2026?' \u2014 buy YES on all 5 outcomes (sum=0.9)\nStrategy: Buy YES on all 5 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 9.95% on 'UEFA Europa Conference League: Most Goal Contributions'",
       "priority": "HIGH",
-      "last_scan": "2026-04-11 03:12 UTC",
+      "last_scan": "2026-04-11 03:13 UTC",
       "opportunities": [
+        {
+          "event_title": "What will S&P 500 (SPX) close at end of 2026?",
+          "event_slug": "spx-close-dec-2026",
+          "yes_sum": 0.9,
+          "profit_pct": 10.0,
+          "profit_per_dollar_pct": 11.11,
+          "num_outcomes": 5,
+          "outcomes": [
+            {
+              "market_id": "1125397",
+              "slug": "spx-close-below-6000-dec-2026",
+              "question": "Will S&P 500 (SPX) close at <$6,000 in December?",
+              "yes_price": 0.375,
+              "volume": 11127
+            },
+            {
+              "market_id": "1125399",
+              "slug": "spx-close-6500-7000-dec-2026",
+              "question": "Will S&P 500 (SPX) close at $6,500-$7,000 in December?",
+              "yes_price": 0.19,
+              "volume": 1373
+            },
+            {
+              "market_id": "1125398",
+              "slug": "spx-close-6000-6500-dec-2026",
+              "question": "Will S&P 500 (SPX) close at $6,000-$6,500 in December?",
+              "yes_price": 0.165,
+              "volume": 1195
+            },
+            {
+              "market_id": "1126565",
+              "slug": "spx-close-7500-8000-dec-2026",
+              "question": "Will S&P 500 (SPX) close at $7,500-$8,000 in December?",
+              "yes_price": 0.095,
+              "volume": 1570
+            },
+            {
+              "market_id": "1125404",
+              "slug": "spx-close-above-8000-dec-2026-362-989-862",
+              "question": "Will S&P 500 (SPX) close at >$8,000 in December?",
+              "yes_price": 0.075,
+              "volume": 1708
+            }
+          ],
+          "url": "https://polymarket.com/event/spx-close-dec-2026",
+          "strategy": "Buy YES on all 5 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
+        },
         {
           "event_title": "UEFA Europa Conference League: Most Goal Contributions",
           "event_slug": "uefa-europa-conference-league-most-goal-contributions",
@@ -161,6 +208,60 @@
           "strategy": "Buy YES on all 8 outcomes. Total cost: $0.9025. One wins $1.00. Profit: $0.0975 (9.75%)"
         },
         {
+          "event_title": "NHL: Pacific Division Winner",
+          "event_slug": "nhl-pacific-division-winner-228",
+          "yes_sum": 0.9025,
+          "profit_pct": 9.75,
+          "profit_per_dollar_pct": 10.8,
+          "num_outcomes": 6,
+          "outcomes": [
+            {
+              "market_id": "629054",
+              "slug": "will-the-edmonton-oilers-win-the-pacific-division-823",
+              "question": "Will the Edmonton Oilers win the Pacific Division?",
+              "yes_price": 0.54,
+              "volume": 114349
+            },
+            {
+              "market_id": "629059",
+              "slug": "will-the-vegas-golden-knights-win-the-pacific-division-474",
+              "question": "Will the Vegas Golden Knights win the Pacific Division?",
+              "yes_price": 0.2,
+              "volume": 193147
+            },
+            {
+              "market_id": "629052",
+              "slug": "will-the-anaheim-ducks-win-the-pacific-division-754",
+              "question": "Will the Anaheim Ducks win the Pacific Division?",
+              "yes_price": 0.161,
+              "volume": 54553
+            },
+            {
+              "market_id": "629055",
+              "slug": "will-the-los-angeles-kings-win-the-pacific-division-456",
+              "question": "Will the Los Angeles Kings win the Pacific Division?",
+              "yes_price": 0.0015,
+              "volume": 31413
+            },
+            {
+              "market_id": "629056",
+              "slug": "will-the-san-jose-sharks-win-the-pacific-division-471",
+              "question": "Will the San Jose Sharks win the Pacific Division?",
+              "yes_price": 0.0,
+              "volume": 36551
+            },
+            {
+              "market_id": "629057",
+              "slug": "will-the-seattle-kraken-win-the-pacific-division-111",
+              "question": "Will the Seattle Kraken win the Pacific Division?",
+              "yes_price": 0.0,
+              "volume": 12896
+            }
+          ],
+          "url": "https://polymarket.com/event/nhl-pacific-division-winner-228",
+          "strategy": "Buy YES on all 6 outcomes. Total cost: $0.9025. One wins $1.00. Profit: $0.0975 (9.75%)"
+        },
+        {
           "event_title": "Guam Governor Democratic Primary Winner",
           "event_slug": "guam-governor-democratic-primary-winner",
           "yes_sum": 0.903,
@@ -194,6 +295,46 @@
           "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9030. One wins $1.00. Profit: $0.0970 (9.70%)"
         },
         {
+          "event_title": "2nd richest person on December 31?",
+          "event_slug": "2nd-richest-person-on-december-31",
+          "yes_sum": 0.904,
+          "profit_pct": 9.6,
+          "profit_per_dollar_pct": 10.62,
+          "num_outcomes": 4,
+          "outcomes": [
+            {
+              "market_id": "1302181",
+              "slug": "will-larry-page-be-2nd-richest-person-on-december-31",
+              "question": "Will Larry Page be 2nd richest person on December 31?",
+              "yes_price": 0.435,
+              "volume": 3962
+            },
+            {
+              "market_id": "1302183",
+              "slug": "will-sergey-brin-be-2nd-richest-person-on-december-31",
+              "question": "Will Sergey Brin be 2nd richest person on December 31?",
+              "yes_price": 0.23,
+              "volume": 4050
+            },
+            {
+              "market_id": "1302173",
+              "slug": "will-jeff-bezos-be-2nd-richest-person-on-december-31",
+              "question": "Will Jeff Bezos be 2nd richest person on December 31?",
+              "yes_price": 0.22,
+              "volume": 5601
+            },
+            {
+              "market_id": "1302178",
+              "slug": "will-warren-buffett-be-2nd-richest-person-on-december-31",
+              "question": "Will Warren Buffett be 2nd richest person on December 31?",
+              "yes_price": 0.019,
+              "volume": 1080
+            }
+          ],
+          "url": "https://polymarket.com/event/2nd-richest-person-on-december-31",
+          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9040. One wins $1.00. Profit: $0.0960 (9.60%)"
+        },
+        {
           "event_title": "Montana Democratic Senate Primary Winner",
           "event_slug": "montana-democratic-senate-primary-winner",
           "yes_sum": 0.904,
@@ -222,9 +363,9 @@
         {
           "event_title": "Presidential Election Winner 2028",
           "event_slug": "presidential-election-winner-2028",
-          "yes_sum": 0.905,
-          "profit_pct": 9.5,
-          "profit_per_dollar_pct": 10.5,
+          "yes_sum": 0.9045,
+          "profit_pct": 9.55,
+          "profit_per_dollar_pct": 10.56,
           "num_outcomes": 36,
           "outcomes": [
             {
@@ -232,14 +373,14 @@
               "slug": "will-jd-vance-win-the-2028-us-presidential-election",
               "question": "Will JD Vance win the 2028 US Presidential Election?",
               "yes_price": 0.1875,
-              "volume": 10068524
+              "volume": 10068550
             },
             {
               "market_id": "561230",
               "slug": "will-gavin-newsom-win-the-2028-us-presidential-election",
               "question": "Will Gavin Newsom win the 2028 US Presidential Election?",
               "yes_price": 0.17,
-              "volume": 13105081
+              "volume": 13105302
             },
             {
               "market_id": "561234",
@@ -266,29 +407,29 @@
               "market_id": "561253",
               "slug": "will-tucker-carlson-win-the-2028-us-presidential-election",
               "question": "Will Tucker Carlson win the 2028 US Presidential Election?",
-              "yes_price": 0.036,
-              "volume": 9842667
+              "yes_price": 0.0355,
+              "volume": 9843075
             },
             {
               "market_id": "561239",
               "slug": "will-kamala-harris-win-the-2028-us-presidential-election",
               "question": "Will Kamala Harris win the 2028 US Presidential Election?",
               "yes_price": 0.0305,
-              "volume": 6919523
+              "volume": 6919585
             },
             {
               "market_id": "561243",
               "slug": "will-donald-trump-win-the-2028-us-presidential-election",
               "question": "Will Donald Trump win the 2028 US Presidential Election?",
               "yes_price": 0.0225,
-              "volume": 6910440
+              "volume": 6910515
             },
             {
               "market_id": "561246",
               "slug": "will-ron-desantis-win-the-2028-us-presidential-election",
               "question": "Will Ron DeSantis win the 2028 US Presidential Election?",
               "yes_price": 0.021,
-              "volume": 8080330
+              "volume": 8080710
             },
             {
               "market_id": "561233",
@@ -421,7 +562,7 @@
               "slug": "will-zohran-mamdani-win-the-2028-us-presidential-election",
               "question": "Will Zohran Mamdani win the 2028 US Presidential Election?",
               "yes_price": 0.0075,
-              "volume": 17466613
+              "volume": 17467864
             },
             {
               "market_id": "561263",
@@ -477,11 +618,11 @@
               "slug": "will-lebron-james-win-the-2028-us-presidential-election",
               "question": "Will LeBron James win the 2028 US Presidential Election?",
               "yes_price": 0.0055,
-              "volume": 45930752
+              "volume": 45933544
             }
           ],
           "url": "https://polymarket.com/event/presidential-election-winner-2028",
-          "strategy": "Buy YES on all 36 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
+          "strategy": "Buy YES on all 36 outcomes. Total cost: $0.9045. One wins $1.00. Profit: $0.0955 (9.55%)"
         },
         {
           "event_title": "Will Israel launch a major ground offensive in Gaza by...?",
@@ -529,135 +670,15 @@
           ],
           "url": "https://polymarket.com/event/will-israel-launch-a-major-ground-offensive-in-gaza-by-october-31",
           "strategy": "Buy YES on all 5 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
-        },
-        {
-          "event_title": "Colorado Republican Senate Primary Winner",
-          "event_slug": "colorado-republican-senate-primary-winner",
-          "yes_sum": 0.905,
-          "profit_pct": 9.5,
-          "profit_per_dollar_pct": 10.5,
-          "num_outcomes": 4,
-          "outcomes": [
-            {
-              "market_id": "679608",
-              "slug": "will-mark-baisley-be-the-republican-nominee-for-senate-in-colorado",
-              "question": "Will Mark Baisley be the Republican nominee for Senate in Colorado?",
-              "yes_price": 0.445,
-              "volume": 7073
-            },
-            {
-              "market_id": "679606",
-              "slug": "will-janak-joshi-be-the-republican-nominee-for-senate-in-colorado",
-              "question": "Will Janak Joshi be the Republican nominee for Senate in Colorado?",
-              "yes_price": 0.18,
-              "volume": 1774
-            },
-            {
-              "market_id": "679605",
-              "slug": "will-dathan-jones-be-the-republican-nominee-for-senate-in-colorado",
-              "question": "Will Dathan Jones be the Republican nominee for Senate in Colorado?",
-              "yes_price": 0.15,
-              "volume": 1160
-            },
-            {
-              "market_id": "679607",
-              "slug": "will-george-washington-markert-be-the-republican-nominee-for-senate-in-colorado",
-              "question": "Will George Washington Markert be the Republican nominee for Senate in Colorado?",
-              "yes_price": 0.13,
-              "volume": 2281
-            }
-          ],
-          "url": "https://polymarket.com/event/colorado-republican-senate-primary-winner",
-          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
-        },
-        {
-          "event_title": "FL-14 House Election Winner",
-          "event_slug": "fl-14-house-election-winner",
-          "yes_sum": 0.905,
-          "profit_pct": 9.5,
-          "profit_per_dollar_pct": 10.5,
-          "num_outcomes": 2,
-          "outcomes": [
-            {
-              "market_id": "1283049",
-              "slug": "will-the-democratic-party-win-the-fl-14-house-seat",
-              "question": "Will the Democratic Party win the FL-14 House seat?",
-              "yes_price": 0.5,
-              "volume": 3390
-            },
-            {
-              "market_id": "1283048",
-              "slug": "will-the-republican-party-win-the-fl-14-house-seat",
-              "question": "Will the Republican Party win the FL-14 House seat?",
-              "yes_price": 0.405,
-              "volume": 3194
-            }
-          ],
-          "url": "https://polymarket.com/event/fl-14-house-election-winner",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
-        },
-        {
-          "event_title": "NHL: Pacific Division Winner",
-          "event_slug": "nhl-pacific-division-winner-228",
-          "yes_sum": 0.9075,
-          "profit_pct": 9.25,
-          "profit_per_dollar_pct": 10.19,
-          "num_outcomes": 6,
-          "outcomes": [
-            {
-              "market_id": "629054",
-              "slug": "will-the-edmonton-oilers-win-the-pacific-division-823",
-              "question": "Will the Edmonton Oilers win the Pacific Division?",
-              "yes_price": 0.545,
-              "volume": 114349
-            },
-            {
-              "market_id": "629059",
-              "slug": "will-the-vegas-golden-knights-win-the-pacific-division-474",
-              "question": "Will the Vegas Golden Knights win the Pacific Division?",
-              "yes_price": 0.2,
-              "volume": 193147
-            },
-            {
-              "market_id": "629052",
-              "slug": "will-the-anaheim-ducks-win-the-pacific-division-754",
-              "question": "Will the Anaheim Ducks win the Pacific Division?",
-              "yes_price": 0.161,
-              "volume": 54553
-            },
-            {
-              "market_id": "629055",
-              "slug": "will-the-los-angeles-kings-win-the-pacific-division-456",
-              "question": "Will the Los Angeles Kings win the Pacific Division?",
-              "yes_price": 0.0015,
-              "volume": 31413
-            },
-            {
-              "market_id": "629056",
-              "slug": "will-the-san-jose-sharks-win-the-pacific-division-471",
-              "question": "Will the San Jose Sharks win the Pacific Division?",
-              "yes_price": 0.0,
-              "volume": 36551
-            },
-            {
-              "market_id": "629057",
-              "slug": "will-the-seattle-kraken-win-the-pacific-division-111",
-              "question": "Will the Seattle Kraken win the Pacific Division?",
-              "yes_price": 0.0,
-              "volume": 12896
-            }
-          ],
-          "url": "https://polymarket.com/event/nhl-pacific-division-winner-228",
-          "strategy": "Buy YES on all 6 outcomes. Total cost: $0.9075. One wins $1.00. Profit: $0.0925 (9.25%)"
         }
       ],
       "stats": {
         "total_events": 3000,
         "checked_multi_outcome": 1934,
         "skipped_single_outcome": 600,
-        "opportunities_found": 149,
-        "best_profit_pct": 9.95,
-        "scanned_at": "2026-04-11 03:12 UTC"
+        "opportunities_found": 148,
+        "best_profit_pct": 10.0,
+        "scanned_at": "2026-04-11 03:13 UTC"
       }
     },
     {
@@ -667,7 +688,7 @@
       "hypothesis": "NEAR_CERTAIN is profitable (93.6% WR, +$16.32) but makes <$0.23/trade. Research shows pros scale these to thousands of dollars per trade to generate real income. At $10/bet we need 4,000+ trades to make $1,000.",
       "source": "Paper trade analysis + Grok research",
       "action": "Test 5x bet size increase ($10\u2192$50) on NEAR_CERTAIN. Downside: avg loss goes from $2.49 to $12.45. Need 93.6%+ WR sustained at higher sizes.",
-      "result": "W=3691 L=60 PnL=$621.27 open=50",
+      "result": "W=3701 L=60 PnL=$625.58 open=52",
       "priority": "HIGH"
     },
     {
