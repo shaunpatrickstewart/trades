@@ -8,10 +8,43 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 145 categorical arb opportunities found\nScanned 3000 events (1985 multi-outcome) at 2026-04-11 08:02 UTC\nBest: 9.9% profit on 'Sachsen-Anhalt Parliamentary Elections: 2nd Place' \u2014 buy YES on all 3 outcomes (sum=0.901)\nStrategy: Buy YES on all 3 outcomes. Total cost: $0.9010. One wins $1.00. Profit: $0.0990 (9.90%)\n2nd: 9.9% on 'PA-03 Democratic Primary Winner'",
+      "result": "LIVE \u2014 140 categorical arb opportunities found\nScanned 3000 events (1982 multi-outcome) at 2026-04-11 08:10 UTC\nBest: 9.95% profit on '#1 song on US Spotify this week? (April 17)' \u2014 buy YES on all 3 outcomes (sum=0.9005)\nStrategy: Buy YES on all 3 outcomes. Total cost: $0.9005. One wins $1.00. Profit: $0.0995 (9.95%)\n2nd: 9.9% on 'Sachsen-Anhalt Parliamentary Elections: 2nd Place'",
       "priority": "HIGH",
-      "last_scan": "2026-04-11 08:02 UTC",
+      "last_scan": "2026-04-11 08:10 UTC",
       "opportunities": [
+        {
+          "event_title": "#1 song on US Spotify this week? (April 17)",
+          "event_slug": "1-song-on-us-spotify-this-week-april-17",
+          "yes_sum": 0.9005,
+          "profit_pct": 9.95,
+          "profit_per_dollar_pct": 11.05,
+          "num_outcomes": 3,
+          "outcomes": [
+            {
+              "market_id": "1939241",
+              "slug": "will-choosin-texas-ella-langley-be-the-1-song-on-us-spotify-this-week-572",
+              "question": "Will \"Choosin' Texas - Ella Langley\" be the #1 song on US Spotify this week?",
+              "yes_price": 0.885,
+              "volume": 1931
+            },
+            {
+              "market_id": "1939249",
+              "slug": "will-e85-don-toliver-be-the-1-song-on-us-spotify-this-week-595",
+              "question": "Will \"E85 - Don Toliver\" be the #1 song on US Spotify this week?",
+              "yes_price": 0.0105,
+              "volume": 1038
+            },
+            {
+              "market_id": "1939247",
+              "slug": "will-body-to-body-bts-be-the-1-song-on-us-spotify-this-week-495",
+              "question": "Will \"Body to Body - BTS\" be the #1 song on US Spotify this week?",
+              "yes_price": 0.005,
+              "volume": 1354
+            }
+          ],
+          "url": "https://polymarket.com/event/1-song-on-us-spotify-this-week-april-17",
+          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9005. One wins $1.00. Profit: $0.0995 (9.95%)"
+        },
         {
           "event_title": "Sachsen-Anhalt Parliamentary Elections: 2nd Place",
           "event_slug": "sachsen-anhalt-parliamentary-elections-2nd-place",
@@ -48,9 +81,9 @@
         {
           "event_title": "PA-03 Democratic Primary Winner",
           "event_slug": "pa-03-democratic-primary-winner",
-          "yes_sum": 0.901,
-          "profit_pct": 9.9,
-          "profit_per_dollar_pct": 10.99,
+          "yes_sum": 0.9015,
+          "profit_pct": 9.85,
+          "profit_per_dollar_pct": 10.93,
           "num_outcomes": 7,
           "outcomes": [
             {
@@ -71,7 +104,7 @@
               "market_id": "704194",
               "slug": "will-ala-stanford-be-the-democratic-nominee-for-pa-03",
               "question": "Will Ala Stanford be the Democratic nominee for PA-03?",
-              "yes_price": 0.161,
+              "yes_price": 0.1615,
               "volume": 1708
             },
             {
@@ -104,87 +137,14 @@
             }
           ],
           "url": "https://polymarket.com/event/pa-03-democratic-primary-winner",
-          "strategy": "Buy YES on all 7 outcomes. Total cost: $0.9010. One wins $1.00. Profit: $0.0990 (9.90%)"
-        },
-        {
-          "event_title": "B.C. Conservative Party Leadership Election Winner",
-          "event_slug": "bc-conservative-party-leadership-election-winner",
-          "yes_sum": 0.901,
-          "profit_pct": 9.9,
-          "profit_per_dollar_pct": 10.99,
-          "num_outcomes": 4,
-          "outcomes": [
-            {
-              "market_id": "1864345",
-              "slug": "will-caroline-elliott-win-the-2026-conservative-party-of-british-columbia-leadership-election",
-              "question": "Will Caroline Elliott win the 2026 Conservative Party of British Columbia leader",
-              "yes_price": 0.41,
-              "volume": 5522
-            },
-            {
-              "market_id": "1864350",
-              "slug": "will-peter-milobar-win-the-2026-conservative-party-of-british-columbia-leadership-election",
-              "question": "Will Peter Milobar win the 2026 Conservative Party of British Columbia leadershi",
-              "yes_price": 0.355,
-              "volume": 1720
-            },
-            {
-              "market_id": "1864347",
-              "slug": "will-yuri-fulmer-win-the-2026-conservative-party-of-british-columbia-leadership-election",
-              "question": "Will Yuri Fulmer win the 2026 Conservative Party of British Columbia leadership ",
-              "yes_price": 0.1055,
-              "volume": 1941
-            },
-            {
-              "market_id": "1864346",
-              "slug": "will-kerry-lynne-findlay-win-the-2026-conservative-party-of-british-columbia-leadership-election",
-              "question": "Will Kerry-Lynne Findlay win the 2026 Conservative Party of British Columbia lea",
-              "yes_price": 0.0305,
-              "volume": 1129
-            }
-          ],
-          "url": "https://polymarket.com/event/bc-conservative-party-leadership-election-winner",
-          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9010. One wins $1.00. Profit: $0.0990 (9.90%)"
-        },
-        {
-          "event_title": "#1 song on US Spotify this week? (April 17)",
-          "event_slug": "1-song-on-us-spotify-this-week-april-17",
-          "yes_sum": 0.901,
-          "profit_pct": 9.9,
-          "profit_per_dollar_pct": 10.99,
-          "num_outcomes": 3,
-          "outcomes": [
-            {
-              "market_id": "1939241",
-              "slug": "will-choosin-texas-ella-langley-be-the-1-song-on-us-spotify-this-week-572",
-              "question": "Will \"Choosin' Texas - Ella Langley\" be the #1 song on US Spotify this week?",
-              "yes_price": 0.885,
-              "volume": 1931
-            },
-            {
-              "market_id": "1939249",
-              "slug": "will-e85-don-toliver-be-the-1-song-on-us-spotify-this-week-595",
-              "question": "Will \"E85 - Don Toliver\" be the #1 song on US Spotify this week?",
-              "yes_price": 0.0105,
-              "volume": 1038
-            },
-            {
-              "market_id": "1939247",
-              "slug": "will-body-to-body-bts-be-the-1-song-on-us-spotify-this-week-495",
-              "question": "Will \"Body to Body - BTS\" be the #1 song on US Spotify this week?",
-              "yes_price": 0.0055,
-              "volume": 1354
-            }
-          ],
-          "url": "https://polymarket.com/event/1-song-on-us-spotify-this-week-april-17",
-          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9010. One wins $1.00. Profit: $0.0990 (9.90%)"
+          "strategy": "Buy YES on all 7 outcomes. Total cost: $0.9015. One wins $1.00. Profit: $0.0985 (9.85%)"
         },
         {
           "event_title": "Will Audemars Piguet prices hit __ by April 30?",
           "event_slug": "will-audemars-piguet-prices-hit-by-april-30",
-          "yes_sum": 0.9025,
-          "profit_pct": 9.75,
-          "profit_per_dollar_pct": 10.8,
+          "yes_sum": 0.902,
+          "profit_pct": 9.8,
+          "profit_per_dollar_pct": 10.86,
           "num_outcomes": 10,
           "outcomes": [
             {
@@ -219,7 +179,7 @@
               "market_id": "1613928",
               "slug": "will-the-audemars-piguet-index-hit-42000-high-by-april-30",
               "question": "Will the Audemars Piguet Index hit $42,000 (HIGH) by April 30?",
-              "yes_price": 0.0305,
+              "yes_price": 0.03,
               "volume": 5878
             },
             {
@@ -259,7 +219,7 @@
             }
           ],
           "url": "https://polymarket.com/event/will-audemars-piguet-prices-hit-by-april-30",
-          "strategy": "Buy YES on all 10 outcomes. Total cost: $0.9025. One wins $1.00. Profit: $0.0975 (9.75%)"
+          "strategy": "Buy YES on all 10 outcomes. Total cost: $0.9020. One wins $1.00. Profit: $0.0980 (9.80%)"
         },
         {
           "event_title": "Will Russia capture Lyman by...?",
@@ -370,37 +330,86 @@
           "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9035. One wins $1.00. Profit: $0.0965 (9.65%)"
         },
         {
-          "event_title": "Guam Governor Democratic Primary Winner",
-          "event_slug": "guam-governor-democratic-primary-winner",
-          "yes_sum": 0.9045,
-          "profit_pct": 9.55,
-          "profit_per_dollar_pct": 10.56,
-          "num_outcomes": 3,
+          "event_title": "Highest temperature in Moscow on April 11?",
+          "event_slug": "highest-temperature-in-moscow-on-april-11-2026",
+          "yes_sum": 0.9035,
+          "profit_pct": 9.65,
+          "profit_per_dollar_pct": 10.68,
+          "num_outcomes": 10,
           "outcomes": [
             {
-              "market_id": "907694",
-              "slug": "will-josh-tenorio-win-the-2026-guam-governor-democratic-primary-election",
-              "question": "Will Josh Tenorio win the 2026 Guam Governor Democratic primary election?",
-              "yes_price": 0.55,
-              "volume": 8620
+              "market_id": "1902067",
+              "slug": "highest-temperature-in-moscow-on-april-11-2026-6c",
+              "question": "Will the highest temperature in Moscow be 6\u00b0C on April 11?",
+              "yes_price": 0.485,
+              "volume": 3412
             },
             {
-              "market_id": "907695",
-              "slug": "will-therese-terlaje-win-the-2026-guam-governor-democratic-primary-election",
-              "question": "Will Therese Terlaje win the 2026 Guam Governor Democratic primary election?",
-              "yes_price": 0.325,
-              "volume": 1729
+              "market_id": "1902066",
+              "slug": "highest-temperature-in-moscow-on-april-11-2026-5c",
+              "question": "Will the highest temperature in Moscow be 5\u00b0C on April 11?",
+              "yes_price": 0.304,
+              "volume": 3067
             },
             {
-              "market_id": "907693",
-              "slug": "will-joe-s-san-agustin-win-the-2026-guam-governor-democratic-primary-election",
-              "question": "Will Joe S. San Agustin win the 2026 Guam Governor Democratic primary election?",
-              "yes_price": 0.0295,
-              "volume": 1973
+              "market_id": "1902068",
+              "slug": "highest-temperature-in-moscow-on-april-11-2026-7corhigher",
+              "question": "Will the highest temperature in Moscow be 7\u00b0C or higher on April 11?",
+              "yes_price": 0.105,
+              "volume": 7973
+            },
+            {
+              "market_id": "1902065",
+              "slug": "highest-temperature-in-moscow-on-april-11-2026-4c",
+              "question": "Will the highest temperature in Moscow be 4\u00b0C on April 11?",
+              "yes_price": 0.0095,
+              "volume": 2168
+            },
+            {
+              "market_id": "1902058",
+              "slug": "highest-temperature-in-moscow-on-april-11-2026-neg-3corbelow",
+              "question": "Will the highest temperature in Moscow be -3\u00b0C or below on April 11?",
+              "yes_price": 0.0,
+              "volume": 3295
+            },
+            {
+              "market_id": "1902059",
+              "slug": "highest-temperature-in-moscow-on-april-11-2026-neg-2c",
+              "question": "Will the highest temperature in Moscow be -2\u00b0C on April 11?",
+              "yes_price": 0.0,
+              "volume": 2033
+            },
+            {
+              "market_id": "1902061",
+              "slug": "highest-temperature-in-moscow-on-april-11-2026-0c",
+              "question": "Will the highest temperature in Moscow be 0\u00b0C on April 11?",
+              "yes_price": 0.0,
+              "volume": 1790
+            },
+            {
+              "market_id": "1902062",
+              "slug": "highest-temperature-in-moscow-on-april-11-2026-1c",
+              "question": "Will the highest temperature in Moscow be 1\u00b0C on April 11?",
+              "yes_price": 0.0,
+              "volume": 2181
+            },
+            {
+              "market_id": "1902063",
+              "slug": "highest-temperature-in-moscow-on-april-11-2026-2c",
+              "question": "Will the highest temperature in Moscow be 2\u00b0C on April 11?",
+              "yes_price": 0.0,
+              "volume": 1824
+            },
+            {
+              "market_id": "1902064",
+              "slug": "highest-temperature-in-moscow-on-april-11-2026-3c",
+              "question": "Will the highest temperature in Moscow be 3\u00b0C on April 11?",
+              "yes_price": 0.0,
+              "volume": 1032
             }
           ],
-          "url": "https://polymarket.com/event/guam-governor-democratic-primary-winner",
-          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9045. One wins $1.00. Profit: $0.0955 (9.55%)"
+          "url": "https://polymarket.com/event/highest-temperature-in-moscow-on-april-11-2026",
+          "strategy": "Buy YES on all 10 outcomes. Total cost: $0.9035. One wins $1.00. Profit: $0.0965 (9.65%)"
         },
         {
           "event_title": "Presidential Election Winner 2028",
@@ -422,49 +431,49 @@
               "slug": "will-gavin-newsom-win-the-2028-us-presidential-election",
               "question": "Will Gavin Newsom win the 2028 US Presidential Election?",
               "yes_price": 0.1705,
-              "volume": 13149939
+              "volume": 13150206
             },
             {
               "market_id": "561234",
               "slug": "will-marco-rubio-win-the-2028-us-presidential-election",
               "question": "Will Marco Rubio win the 2028 US Presidential Election?",
               "yes_price": 0.0935,
-              "volume": 5917430
+              "volume": 5918078
             },
             {
               "market_id": "561231",
               "slug": "will-alexandria-ocasio-cortez-win-the-2028-us-presidential-election",
               "question": "Will Alexandria Ocasio-Cortez win the 2028 US Presidential Election?",
               "yes_price": 0.0545,
-              "volume": 10703107
+              "volume": 10703132
             },
             {
               "market_id": "561261",
               "slug": "will-jon-ossoff-win-the-2028-us-presidential-election",
               "question": "Will Jon Ossoff win the 2028 US Presidential Election?",
               "yes_price": 0.0425,
-              "volume": 3427551
+              "volume": 3427602
             },
             {
               "market_id": "561239",
               "slug": "will-kamala-harris-win-the-2028-us-presidential-election",
               "question": "Will Kamala Harris win the 2028 US Presidential Election?",
               "yes_price": 0.0315,
-              "volume": 6926456
+              "volume": 6926465
             },
             {
               "market_id": "561253",
               "slug": "will-tucker-carlson-win-the-2028-us-presidential-election",
               "question": "Will Tucker Carlson win the 2028 US Presidential Election?",
               "yes_price": 0.031,
-              "volume": 9852632
+              "volume": 9852637
             },
             {
               "market_id": "561243",
               "slug": "will-donald-trump-win-the-2028-us-presidential-election",
               "question": "Will Donald Trump win the 2028 US Presidential Election?",
               "yes_price": 0.0225,
-              "volume": 6912183
+              "volume": 6912201
             },
             {
               "market_id": "561233",
@@ -478,7 +487,7 @@
               "slug": "will-ron-desantis-win-the-2028-us-presidential-election",
               "question": "Will Ron DeSantis win the 2028 US Presidential Election?",
               "yes_price": 0.0215,
-              "volume": 8136153
+              "volume": 8137652
             },
             {
               "market_id": "561232",
@@ -527,14 +536,14 @@
               "slug": "will-elon-musk-win-the-2028-us-presidential-election",
               "question": "Will Elon Musk win the 2028 US Presidential Election?",
               "yes_price": 0.0095,
-              "volume": 22596565
+              "volume": 22596676
             },
             {
               "market_id": "561236",
               "slug": "will-gretchen-whitmer-win-the-2028-us-presidential-election",
               "question": "Will Gretchen Whitmer win the 2028 US Presidential Election?",
               "yes_price": 0.0095,
-              "volume": 8470305
+              "volume": 8471863
             },
             {
               "market_id": "561238",
@@ -576,7 +585,7 @@
               "slug": "will-ro-khanna-win-the-2028-us-presidential-election",
               "question": "Will Ro Khanna win the 2028 US Presidential Election?",
               "yes_price": 0.0085,
-              "volume": 6605139
+              "volume": 6605251
             },
             {
               "market_id": "561240",
@@ -590,7 +599,7 @@
               "slug": "will-donald-trump-jr-win-the-2028-us-presidential-election",
               "question": "Will Donald Trump Jr. win the 2028 US Presidential Election?",
               "yes_price": 0.0075,
-              "volume": 9088043
+              "volume": 9089583
             },
             {
               "market_id": "561245",
@@ -604,7 +613,7 @@
               "slug": "will-zohran-mamdani-win-the-2028-us-presidential-election",
               "question": "Will Zohran Mamdani win the 2028 US Presidential Election?",
               "yes_price": 0.0075,
-              "volume": 17482472
+              "volume": 17483504
             },
             {
               "market_id": "561263",
@@ -618,7 +627,7 @@
               "slug": "will-tim-walz-win-the-2028-us-presidential-election",
               "question": "Will Tim Walz win the 2028 US Presidential Election?",
               "yes_price": 0.0065,
-              "volume": 39372459
+              "volume": 39374091
             },
             {
               "market_id": "561235",
@@ -646,21 +655,21 @@
               "slug": "will-vivek-ramaswamy-win-the-2028-us-presidential-election",
               "question": "Will Vivek Ramaswamy win the 2028 US Presidential Election?",
               "yes_price": 0.0065,
-              "volume": 30886792
+              "volume": 30886805
             },
             {
               "market_id": "561254",
               "slug": "will-kim-kardashian-win-the-2028-us-presidential-election",
               "question": "Will Kim Kardashian win the 2028 US Presidential Election?",
               "yes_price": 0.0065,
-              "volume": 32607946
+              "volume": 32609729
             },
             {
               "market_id": "561251",
               "slug": "will-lebron-james-win-the-2028-us-presidential-election",
               "question": "Will LeBron James win the 2028 US Presidential Election?",
               "yes_price": 0.0055,
-              "volume": 46033163
+              "volume": 46034134
             }
           ],
           "url": "https://polymarket.com/event/presidential-election-winner-2028",
@@ -712,15 +721,55 @@
           ],
           "url": "https://polymarket.com/event/will-israel-launch-a-major-ground-offensive-in-gaza-by-october-31",
           "strategy": "Buy YES on all 5 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
+        },
+        {
+          "event_title": "2nd richest person on December 31?",
+          "event_slug": "2nd-richest-person-on-december-31",
+          "yes_sum": 0.905,
+          "profit_pct": 9.5,
+          "profit_per_dollar_pct": 10.5,
+          "num_outcomes": 4,
+          "outcomes": [
+            {
+              "market_id": "1302181",
+              "slug": "will-larry-page-be-2nd-richest-person-on-december-31",
+              "question": "Will Larry Page be 2nd richest person on December 31?",
+              "yes_price": 0.435,
+              "volume": 4384
+            },
+            {
+              "market_id": "1302183",
+              "slug": "will-sergey-brin-be-2nd-richest-person-on-december-31",
+              "question": "Will Sergey Brin be 2nd richest person on December 31?",
+              "yes_price": 0.24,
+              "volume": 4050
+            },
+            {
+              "market_id": "1302173",
+              "slug": "will-jeff-bezos-be-2nd-richest-person-on-december-31",
+              "question": "Will Jeff Bezos be 2nd richest person on December 31?",
+              "yes_price": 0.211,
+              "volume": 9320
+            },
+            {
+              "market_id": "1302178",
+              "slug": "will-warren-buffett-be-2nd-richest-person-on-december-31",
+              "question": "Will Warren Buffett be 2nd richest person on December 31?",
+              "yes_price": 0.019,
+              "volume": 1080
+            }
+          ],
+          "url": "https://polymarket.com/event/2nd-richest-person-on-december-31",
+          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
         }
       ],
       "stats": {
         "total_events": 3000,
-        "checked_multi_outcome": 1985,
+        "checked_multi_outcome": 1982,
         "skipped_single_outcome": 593,
-        "opportunities_found": 145,
-        "best_profit_pct": 9.9,
-        "scanned_at": "2026-04-11 08:02 UTC"
+        "opportunities_found": 140,
+        "best_profit_pct": 9.95,
+        "scanned_at": "2026-04-11 08:10 UTC"
       }
     },
     {
