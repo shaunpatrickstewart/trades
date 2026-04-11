@@ -8,9 +8,9 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 140 categorical arb opportunities found\nScanned 3000 events (1998 multi-outcome) at 2026-04-11 21:00 UTC\nBest: 10.0% profit on 'Texas Rangers vs. Los Angeles Dodgers' \u2014 buy YES on all 2 outcomes (sum=0.9)\nStrategy: Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 10.0% on 'What will S&P 500 (SPX) close at end of 2026?'",
+      "result": "LIVE \u2014 138 categorical arb opportunities found\nScanned 3000 events (1997 multi-outcome) at 2026-04-11 21:05 UTC\nBest: 10.0% profit on 'Texas Rangers vs. Los Angeles Dodgers' \u2014 buy YES on all 2 outcomes (sum=0.9)\nStrategy: Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 10.0% on 'What will S&P 500 (SPX) close at end of 2026?'",
       "priority": "HIGH",
-      "last_scan": "2026-04-11 21:00 UTC",
+      "last_scan": "2026-04-11 21:05 UTC",
       "opportunities": [
         {
           "event_title": "Texas Rangers vs. Los Angeles Dodgers",
@@ -25,14 +25,14 @@
               "slug": "mlb-tex-lad-2026-04-11-total-8pt5",
               "question": "Texas Rangers vs. Los Angeles Dodgers: O/U 8.5",
               "yes_price": 0.525,
-              "volume": 7257
+              "volume": 7276
             },
             {
               "market_id": "1877605",
               "slug": "mlb-tex-lad-2026-04-11",
               "question": "Texas Rangers vs. Los Angeles Dodgers",
               "yes_price": 0.375,
-              "volume": 127428
+              "volume": 127434
             }
           ],
           "url": "https://polymarket.com/event/mlb-tex-lad-2026-04-11",
@@ -57,14 +57,14 @@
               "market_id": "1125399",
               "slug": "spx-close-6500-7000-dec-2026",
               "question": "Will S&P 500 (SPX) close at $6,500-$7,000 in December?",
-              "yes_price": 0.185,
+              "yes_price": 0.18,
               "volume": 1373
             },
             {
               "market_id": "1125398",
               "slug": "spx-close-6000-6500-dec-2026",
               "question": "Will S&P 500 (SPX) close at $6,000-$6,500 in December?",
-              "yes_price": 0.125,
+              "yes_price": 0.13,
               "volume": 1206
             },
             {
@@ -138,11 +138,51 @@
           "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
         },
         {
+          "event_title": "Who will close Warner Bros. acquisition?",
+          "event_slug": "who-will-close-warner-bros-acquisition",
+          "yes_sum": 0.901,
+          "profit_pct": 9.9,
+          "profit_per_dollar_pct": 10.99,
+          "num_outcomes": 4,
+          "outcomes": [
+            {
+              "market_id": "897019",
+              "slug": "will-paramount-close-warner-bros-acquisition",
+              "question": "Will Paramount close Warner Bros acquisition?",
+              "yes_price": 0.715,
+              "volume": 440316
+            },
+            {
+              "market_id": "897030",
+              "slug": "no-listed-company-closes-warner-bros-acquisition-by-june-30-2027",
+              "question": "No listed company closes Warner Bros acquisition by June 30, 2027",
+              "yes_price": 0.16,
+              "volume": 156955
+            },
+            {
+              "market_id": "897017",
+              "slug": "will-netflix-close-warner-bros-acquisition",
+              "question": "Will Netflix close Warner Bros acquisition?",
+              "yes_price": 0.018,
+              "volume": 219487
+            },
+            {
+              "market_id": "897018",
+              "slug": "will-comcast-close-warner-bros-acquisition",
+              "question": "Will Comcast close Warner Bros acquisition?",
+              "yes_price": 0.008,
+              "volume": 173873
+            }
+          ],
+          "url": "https://polymarket.com/event/who-will-close-warner-bros-acquisition",
+          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9010. One wins $1.00. Profit: $0.0990 (9.90%)"
+        },
+        {
           "event_title": "AZ-01 Republican Primary Winner",
           "event_slug": "az-01-republican-primary-winner",
-          "yes_sum": 0.9005,
-          "profit_pct": 9.95,
-          "profit_per_dollar_pct": 11.05,
+          "yes_sum": 0.901,
+          "profit_pct": 9.9,
+          "profit_per_dollar_pct": 10.99,
           "num_outcomes": 12,
           "outcomes": [
             {
@@ -156,7 +196,7 @@
               "market_id": "704343",
               "slug": "will-joseph-chaplik-be-the-republican-nominee-for-az-01",
               "question": "Will Joseph Chaplik be the Republican nominee for AZ-01?",
-              "yes_price": 0.079,
+              "yes_price": 0.0795,
               "volume": 8148
             },
             {
@@ -231,7 +271,7 @@
             }
           ],
           "url": "https://polymarket.com/event/az-01-republican-primary-winner",
-          "strategy": "Buy YES on all 12 outcomes. Total cost: $0.9005. One wins $1.00. Profit: $0.0995 (9.95%)"
+          "strategy": "Buy YES on all 12 outcomes. Total cost: $0.9010. One wins $1.00. Profit: $0.0990 (9.90%)"
         },
         {
           "event_title": "Sachsen-Anhalt Parliamentary Elections: 2nd Place",
@@ -267,51 +307,11 @@
           "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9010. One wins $1.00. Profit: $0.0990 (9.90%)"
         },
         {
-          "event_title": "Who will close Warner Bros. acquisition?",
-          "event_slug": "who-will-close-warner-bros-acquisition",
-          "yes_sum": 0.9015,
-          "profit_pct": 9.85,
-          "profit_per_dollar_pct": 10.93,
-          "num_outcomes": 4,
-          "outcomes": [
-            {
-              "market_id": "897019",
-              "slug": "will-paramount-close-warner-bros-acquisition",
-              "question": "Will Paramount close Warner Bros acquisition?",
-              "yes_price": 0.715,
-              "volume": 440316
-            },
-            {
-              "market_id": "897030",
-              "slug": "no-listed-company-closes-warner-bros-acquisition-by-june-30-2027",
-              "question": "No listed company closes Warner Bros acquisition by June 30, 2027",
-              "yes_price": 0.16,
-              "volume": 156955
-            },
-            {
-              "market_id": "897017",
-              "slug": "will-netflix-close-warner-bros-acquisition",
-              "question": "Will Netflix close Warner Bros acquisition?",
-              "yes_price": 0.0185,
-              "volume": 219487
-            },
-            {
-              "market_id": "897018",
-              "slug": "will-comcast-close-warner-bros-acquisition",
-              "question": "Will Comcast close Warner Bros acquisition?",
-              "yes_price": 0.008,
-              "volume": 173873
-            }
-          ],
-          "url": "https://polymarket.com/event/who-will-close-warner-bros-acquisition",
-          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9015. One wins $1.00. Profit: $0.0985 (9.85%)"
-        },
-        {
           "event_title": "Perplexity IPO Closing Market Cap",
           "event_slug": "perplexity-ipo-closing-market-cap",
-          "yes_sum": 0.9035,
-          "profit_pct": 9.65,
-          "profit_per_dollar_pct": 10.68,
+          "yes_sum": 0.903,
+          "profit_pct": 9.7,
+          "profit_per_dollar_pct": 10.74,
           "num_outcomes": 6,
           "outcomes": [
             {
@@ -325,7 +325,7 @@
               "market_id": "1115933",
               "slug": "will-perplexitys-market-cap-be-between-80b-and-100b-at-market-close-on-ipo-day",
               "question": "Will Perplexity\u2019s market cap be between $50B and $75B at market close on IPO day",
-              "yes_price": 0.1175,
+              "yes_price": 0.117,
               "volume": 6171
             },
             {
@@ -358,103 +358,14 @@
             }
           ],
           "url": "https://polymarket.com/event/perplexity-ipo-closing-market-cap",
-          "strategy": "Buy YES on all 6 outcomes. Total cost: $0.9035. One wins $1.00. Profit: $0.0965 (9.65%)"
-        },
-        {
-          "event_title": "Highest temperature in Beijing on April 12?",
-          "event_slug": "highest-temperature-in-beijing-on-april-12-2026",
-          "yes_sum": 0.904,
-          "profit_pct": 9.6,
-          "profit_per_dollar_pct": 10.62,
-          "num_outcomes": 11,
-          "outcomes": [
-            {
-              "market_id": "1915092",
-              "slug": "highest-temperature-in-beijing-on-april-12-2026-27c",
-              "question": "Will the highest temperature in Beijing be 27\u00b0C on April 12?",
-              "yes_price": 0.375,
-              "volume": 2169
-            },
-            {
-              "market_id": "1915091",
-              "slug": "highest-temperature-in-beijing-on-april-12-2026-26c",
-              "question": "Will the highest temperature in Beijing be 26\u00b0C on April 12?",
-              "yes_price": 0.22,
-              "volume": 2817
-            },
-            {
-              "market_id": "1915090",
-              "slug": "highest-temperature-in-beijing-on-april-12-2026-25c",
-              "question": "Will the highest temperature in Beijing be 25\u00b0C on April 12?",
-              "yes_price": 0.145,
-              "volume": 3036
-            },
-            {
-              "market_id": "1915093",
-              "slug": "highest-temperature-in-beijing-on-april-12-2026-28c",
-              "question": "Will the highest temperature in Beijing be 28\u00b0C on April 12?",
-              "yes_price": 0.0695,
-              "volume": 3401
-            },
-            {
-              "market_id": "1915089",
-              "slug": "highest-temperature-in-beijing-on-april-12-2026-24c",
-              "question": "Will the highest temperature in Beijing be 24\u00b0C on April 12?",
-              "yes_price": 0.0345,
-              "volume": 4472
-            },
-            {
-              "market_id": "1915094",
-              "slug": "highest-temperature-in-beijing-on-april-12-2026-29c",
-              "question": "Will the highest temperature in Beijing be 29\u00b0C on April 12?",
-              "yes_price": 0.027,
-              "volume": 4610
-            },
-            {
-              "market_id": "1915095",
-              "slug": "highest-temperature-in-beijing-on-april-12-2026-30c",
-              "question": "Will the highest temperature in Beijing be 30\u00b0C on April 12?",
-              "yes_price": 0.015,
-              "volume": 1909
-            },
-            {
-              "market_id": "1915096",
-              "slug": "highest-temperature-in-beijing-on-april-12-2026-31corhigher",
-              "question": "Will the highest temperature in Beijing be 31\u00b0C or higher on April 12?",
-              "yes_price": 0.0065,
-              "volume": 2726
-            },
-            {
-              "market_id": "1915088",
-              "slug": "highest-temperature-in-beijing-on-april-12-2026-23c",
-              "question": "Will the highest temperature in Beijing be 23\u00b0C on April 12?",
-              "yes_price": 0.0045,
-              "volume": 4031
-            },
-            {
-              "market_id": "1915087",
-              "slug": "highest-temperature-in-beijing-on-april-12-2026-22c",
-              "question": "Will the highest temperature in Beijing be 22\u00b0C on April 12?",
-              "yes_price": 0.004,
-              "volume": 5618
-            },
-            {
-              "market_id": "1915086",
-              "slug": "highest-temperature-in-beijing-on-april-12-2026-21corbelow",
-              "question": "Will the highest temperature in Beijing be 21\u00b0C or below on April 12?",
-              "yes_price": 0.003,
-              "volume": 4502
-            }
-          ],
-          "url": "https://polymarket.com/event/highest-temperature-in-beijing-on-april-12-2026",
-          "strategy": "Buy YES on all 11 outcomes. Total cost: $0.9040. One wins $1.00. Profit: $0.0960 (9.60%)"
+          "strategy": "Buy YES on all 6 outcomes. Total cost: $0.9030. One wins $1.00. Profit: $0.0970 (9.70%)"
         },
         {
           "event_title": "Presidential Election Winner 2028",
           "event_slug": "presidential-election-winner-2028",
-          "yes_sum": 0.9045,
-          "profit_pct": 9.55,
-          "profit_per_dollar_pct": 10.56,
+          "yes_sum": 0.904,
+          "profit_pct": 9.6,
+          "profit_per_dollar_pct": 10.62,
           "num_outcomes": 36,
           "outcomes": [
             {
@@ -462,14 +373,14 @@
               "slug": "will-jd-vance-win-the-2028-us-presidential-election",
               "question": "Will JD Vance win the 2028 US Presidential Election?",
               "yes_price": 0.1875,
-              "volume": 10088576
+              "volume": 10088588
             },
             {
               "market_id": "561230",
               "slug": "will-gavin-newsom-win-the-2028-us-presidential-election",
               "question": "Will Gavin Newsom win the 2028 US Presidential Election?",
               "yes_price": 0.1605,
-              "volume": 13358110
+              "volume": 13358120
             },
             {
               "market_id": "561234",
@@ -497,7 +408,7 @@
               "slug": "will-kamala-harris-win-the-2028-us-presidential-election",
               "question": "Will Kamala Harris win the 2028 US Presidential Election?",
               "yes_price": 0.0315,
-              "volume": 6931291
+              "volume": 6931343
             },
             {
               "market_id": "561253",
@@ -510,8 +421,8 @@
               "market_id": "561246",
               "slug": "will-ron-desantis-win-the-2028-us-presidential-election",
               "question": "Will Ron DeSantis win the 2028 US Presidential Election?",
-              "yes_price": 0.027,
-              "volume": 8345619
+              "yes_price": 0.0265,
+              "volume": 8345660
             },
             {
               "market_id": "561243",
@@ -532,7 +443,7 @@
               "slug": "will-pete-buttigieg-win-the-2028-us-presidential-election",
               "question": "Will Pete Buttigieg win the 2028 US Presidential Election?",
               "yes_price": 0.0165,
-              "volume": 3838072
+              "volume": 3838085
             },
             {
               "market_id": "561237",
@@ -567,7 +478,7 @@
               "slug": "will-glenn-youngkin-win-the-2028-us-presidential-election",
               "question": "Will Glenn Youngkin win the 2028 US Presidential Election?",
               "yes_price": 0.0105,
-              "volume": 20787194
+              "volume": 20787271
             },
             {
               "market_id": "561250",
@@ -595,7 +506,7 @@
               "slug": "will-greg-abbott-win-the-2028-us-presidential-election",
               "question": "Will Greg Abbott win the 2028 US Presidential Election?",
               "yes_price": 0.0095,
-              "volume": 31816407
+              "volume": 31816631
             },
             {
               "market_id": "561262",
@@ -623,28 +534,28 @@
               "slug": "will-ro-khanna-win-the-2028-us-presidential-election",
               "question": "Will Ro Khanna win the 2028 US Presidential Election?",
               "yes_price": 0.0085,
-              "volume": 6652979
+              "volume": 6653108
             },
             {
               "market_id": "561240",
               "slug": "will-stephen-smith-win-the-2028-us-presidential-election",
               "question": "Will Stephen Smith win the 2028 US Presidential Election?",
               "yes_price": 0.0075,
-              "volume": 29521431
+              "volume": 29521967
             },
             {
               "market_id": "561244",
               "slug": "will-donald-trump-jr-win-the-2028-us-presidential-election",
               "question": "Will Donald Trump Jr. win the 2028 US Presidential Election?",
               "yes_price": 0.0075,
-              "volume": 9135212
+              "volume": 9135457
             },
             {
               "market_id": "561245",
               "slug": "will-nikki-haley-win-the-2028-us-presidential-election",
               "question": "Will Nikki Haley win the 2028 US Presidential Election?",
               "yes_price": 0.0075,
-              "volume": 21718491
+              "volume": 21718623
             },
             {
               "market_id": "561256",
@@ -665,7 +576,7 @@
               "slug": "will-tim-walz-win-the-2028-us-presidential-election",
               "question": "Will Tim Walz win the 2028 US Presidential Election?",
               "yes_price": 0.0065,
-              "volume": 39394234
+              "volume": 39394475
             },
             {
               "market_id": "561235",
@@ -686,7 +597,7 @@
               "slug": "will-pete-hegseth-win-the-2028-us-presidential-election",
               "question": "Will Pete Hegseth win the 2028 US Presidential Election?",
               "yes_price": 0.0065,
-              "volume": 4289737
+              "volume": 4290162
             },
             {
               "market_id": "561248",
@@ -707,20 +618,81 @@
               "slug": "will-lebron-james-win-the-2028-us-presidential-election",
               "question": "Will LeBron James win the 2028 US Presidential Election?",
               "yes_price": 0.0055,
-              "volume": 46121025
+              "volume": 46121036
             }
           ],
           "url": "https://polymarket.com/event/presidential-election-winner-2028",
-          "strategy": "Buy YES on all 36 outcomes. Total cost: $0.9045. One wins $1.00. Profit: $0.0955 (9.55%)"
+          "strategy": "Buy YES on all 36 outcomes. Total cost: $0.9040. One wins $1.00. Profit: $0.0960 (9.60%)"
+        },
+        {
+          "event_title": "What will Netflix (NFLX) hit in April 2026?",
+          "event_slug": "what-price-will-nflx-hit-in-april-2026",
+          "yes_sum": 0.9045,
+          "profit_pct": 9.55,
+          "profit_per_dollar_pct": 10.56,
+          "num_outcomes": 7,
+          "outcomes": [
+            {
+              "market_id": "1542751",
+              "slug": "will-nflx-reach-105-in-april",
+              "question": "Will Netflix reach $105 in April?",
+              "yes_price": 0.795,
+              "volume": 4781
+            },
+            {
+              "market_id": "1542754",
+              "slug": "will-nflx-dip-to-70-in-april",
+              "question": "Will Netflix dip to $70 in April?",
+              "yes_price": 0.08,
+              "volume": 3665
+            },
+            {
+              "market_id": "1542742",
+              "slug": "will-nflx-reach-368-in-april",
+              "question": "Will Netflix reach $368 in April?",
+              "yes_price": 0.0105,
+              "volume": 1050
+            },
+            {
+              "market_id": "1542744",
+              "slug": "will-nflx-reach-298-in-april",
+              "question": "Will Netflix reach $298 in April?",
+              "yes_price": 0.01,
+              "volume": 4257
+            },
+            {
+              "market_id": "1542740",
+              "slug": "will-nflx-reach-455-in-april",
+              "question": "Will Netflix reach $455 in April?",
+              "yes_price": 0.005,
+              "volume": 18438
+            },
+            {
+              "market_id": "1542756",
+              "slug": "will-nflx-dip-to-35-in-april",
+              "question": "Will Netflix dip to $35 in April?",
+              "yes_price": 0.0025,
+              "volume": 40650
+            },
+            {
+              "market_id": "1542759",
+              "slug": "will-nflx-dip-to-0-in-april",
+              "question": "Will Netflix dip to $0 in April?",
+              "yes_price": 0.0015,
+              "volume": 66648
+            }
+          ],
+          "url": "https://polymarket.com/event/what-price-will-nflx-hit-in-april-2026",
+          "strategy": "Buy YES on all 7 outcomes. Total cost: $0.9045. One wins $1.00. Profit: $0.0955 (9.55%)"
         }
       ],
       "stats": {
         "total_events": 3000,
-        "checked_multi_outcome": 1998,
-        "skipped_single_outcome": 616,
-        "opportunities_found": 140,
+        "checked_multi_outcome": 1997,
+        "skipped_single_outcome": 613,
+        "opportunities_found": 138,
         "best_profit_pct": 10.0,
-        "scanned_at": "2026-04-11 21:00 UTC"
+        "scanned_at": "2026-04-11 21:05 UTC"
       }
     },
     {
