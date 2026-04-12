@@ -529,7 +529,8 @@
       // Bankroll = start + topup + all settled PnL
       let bankroll = STARTING_BR + PAPER_TOPUP + trueRealized;
       // Win streak: walk settled trades backwards, count consecutive WON
-      const settledByTime = [...won,...lost].sort((a,b)=>(a.timestamp||'').localeCompare(b.timestamp||''));
+      // Sort by settlement time (closed_at), not entry time (timestamp) — equity curve must reflect when PnL was realized
+      const settledByTime = [...won,...lost].sort((a,b)=>(a.closed_at||a.timestamp||'').localeCompare(b.closed_at||b.timestamp||''));
       let winStreak = 0;
       for (let i = settledByTime.length-1; i >= 0; i--) {
         if (settledByTime[i].status === 'WON') winStreak++; else break;
@@ -589,7 +590,7 @@
           return x.toFixed(1)+','+y.toFixed(1);
         }).join(' ');
         html += '<div style="margin-bottom:10px;background:#f2f2f2;border:1px solid #dddddd;border-radius:4px;padding:6px 10px">';
-        html += '<div style="font-size:0.68em;color:#555;margin-bottom:4px;font-weight:600">BANKROLL GROWTH — $'+STARTING_BR+' → $'+bankroll.toFixed(0)+'</div>';
+        html += '<div style="font-size:0.68em;color:#555;margin-bottom:4px;font-weight:600">BANKROLL GROWTH — $'+(STARTING_BR+PAPER_TOPUP)+' invested → $'+bankroll.toFixed(0)+'</div>';
         html += '<svg width="100%" viewBox="0 0 '+W+' '+H+'" style="display:block">';
         // Zero line
         const zeroY = H - PAD - ((STARTING_BR - minBr)/range)*(H-PAD*2);
@@ -610,7 +611,8 @@
       }
 
       // Per-trade equity curve — smoother than daily chart, shows every settlement
-      const sortedSettled = [...won,...lost].sort((a,b)=>(a.timestamp||a.closed_at||'').localeCompare(b.timestamp||b.closed_at||''));
+      // Per-trade equity curve: sort by settlement time not entry time
+      const sortedSettled = [...won,...lost].sort((a,b)=>(a.closed_at||a.timestamp||'').localeCompare(b.closed_at||b.timestamp||''));
       if (sortedSettled.length > 5) {
         let cum = 0;
         const cumPts = sortedSettled.map(t=>{ cum += (t.pnl||0); return cum; });
