@@ -1,100 +1,13 @@
 {
-  "last_scan": "2026-04-12T10:07:50.737756+00:00",
-  "scan_seconds": 24.1,
-  "markets_scanned": 49,
+  "last_scan": "2026-04-12T10:24:18.215088+00:00",
+  "scan_seconds": 4.2,
+  "markets_scanned": 17,
   "open_positions": 17,
-  "signals": [
-    {
-      "id": "sig_245698",
-      "timestamp": "2026-04-12T10:07:49.708116+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Elon Musk Tweet Counts (e",
-      "raw": "Elon Musk Tweet Counts (e.g., April 10-17) | MIXED | LOW confidence**  \nHigh-volume tweet markets like \"Elon Musk # tweets April 10-17, 2026?\" (30% at 240-259, $3M volume) and similar weekly bins are trending, with $14.5M+ total volume; whale activity implied by daily $1M spikes, but no specific smart money tips or mispricing calls confirmed in feeds[4].",
-      "direction": "NO",
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_231926",
-      "timestamp": "2026-04-12T10:07:35.936311+00:00",
-      "source": "PERPLEXITY",
-      "headline": "NM Supreme Court Unanimously Upholds Duke Rodriguez's Gubernatorial Candidacy, Dismissing Eligibility Challenge** | **YE",
-      "raw": "NM Supreme Court Unanimously Upholds Duke Rodriguez's Gubernatorial Candidacy, Dismissing Eligibility Challenge** | **YES** | **HIGH** confidence[1][2][3]\n\nThe New Mexico Supreme Court on April 1-3, 2026, affirmed a lower court's dismissal of a lawsuit questioning Rodriguez's residency and voter registration eligibility for the Republican gubernatorial nomination[1][2][3]. This unanimous ruling cl",
-      "direction": "YES",
-      "confidence": 0.78,
-      "matched_markets": [
-        "Will J.D. Vance win the 2028 Republican presidential nominat",
-        "Will Duke Rodriguez win the 2026 New Mexico Governor Republi",
-        "2026 Balance of Power: R Senate, D House"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_245687",
-      "timestamp": "2026-04-12T10:07:49.697674+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Iran x Israel/US Conflict Ends by Dec 31 | YES | HIGH confidence**",
-      "raw": "Iran x Israel/US Conflict Ends by Dec 31 | YES | HIGH confidence**  \nPolymarket's most active X-related market gives a 94% YES probability for the Iran x Israel/US conflict ending by December 31, with top volume among 1345+ live X markets as of April 10, 2026[1]. No recent confirmations, announcements, or resolutions noted in current data to shift odds further, but real-time trading reflects stron",
-      "direction": "YES",
-      "confidence": 0.78,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_245691",
-      "timestamp": "2026-04-12T10:07:49.701646+00:00",
-      "source": "PERPLEXITY",
-      "headline": "X Money Launched by April 30 | NO (implied 57%) | MED confidence**",
-      "raw": "X Money Launched by April 30 | NO (implied 57%) | MED confidence**  \nTraders on X are eyeing the \"\ud835\udd4f Money launched by...?\" market at 43% YES ($29.6K volume), suggesting potential mispricing discussions if no imminent announcements emerge before the April 30 deadline[1]. Related \"Will X launch a USD stablecoin in 2026?\" sits at 19% YES ($7.3K volume), indicating low expectations for near-term X cry",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_245706",
-      "timestamp": "2026-04-12T10:07:49.716176+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Limited X Chatter on Whales/Tips | N/A | LOW confidence**",
-      "raw": "Limited X Chatter on Whales/Tips | N/A | LOW confidence**  \nSearch shows active Polymarket volumes ($78.6M+ on X markets) but no direct X posts on whale bets, smart money, or mispriced markets right now; trader profiles like @thesecondhighlander active but unspecified[1][6]. Inflation trending at 100% above 3% unrelated to X[3].",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_245702",
-      "timestamp": "2026-04-12T10:07:49.712136+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Israel x Hamas Ceasefire by Oct 31 | NO | MED confidence**",
-      "raw": "Israel x Hamas Ceasefire by Oct 31 | NO | MED confidence**  \nWhale @tradersdg holds 224K+ NO shares (78.5\u00a2, -$176K P&L swing), signaling big bet against ceasefire; could trend on X if conflict updates hit, tying into broader Iran/Israel markets[5]. No fresh resolutions reported.",
-      "direction": "NO",
-      "confidence": 0.6,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?"
-      ],
-      "action": "WATCH",
-      "x_link": null,
-      "category": "COMMUNITY"
-    }
-  ],
+  "signals": [],
   "stats": {
     "enter": 0,
-    "alert": 5,
-    "watch": 1,
-    "high_conf": 1
+    "alert": 0,
+    "watch": 0,
+    "high_conf": 0
   }
 }
