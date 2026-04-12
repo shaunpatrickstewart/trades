@@ -8,9 +8,9 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 141 categorical arb opportunities found\nScanned 3000 events (1952 multi-outcome) at 2026-04-12 09:11 UTC\nBest: 10.0% profit on 'Hamarkameratene vs. KFUM-Kameratene Oslo - More Markets' \u2014 buy YES on all 2 outcomes (sum=0.9)\nStrategy: Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 10.0% on 'ME-02 Democratic Primary Winner'",
+      "result": "LIVE \u2014 141 categorical arb opportunities found\nScanned 3000 events (1948 multi-outcome) at 2026-04-12 09:26 UTC\nBest: 10.0% profit on 'Hamarkameratene vs. KFUM-Kameratene Oslo - More Markets' \u2014 buy YES on all 2 outcomes (sum=0.9)\nStrategy: Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 10.0% on 'ME-02 Democratic Primary Winner'",
       "priority": "HIGH",
-      "last_scan": "2026-04-12 09:11 UTC",
+      "last_scan": "2026-04-12 09:26 UTC",
       "opportunities": [
         {
           "event_title": "Hamarkameratene vs. KFUM-Kameratene Oslo - More Markets",
@@ -97,7 +97,7 @@
               "market_id": "1115933",
               "slug": "will-perplexitys-market-cap-be-between-80b-and-100b-at-market-close-on-ipo-day",
               "question": "Will Perplexity\u2019s market cap be between $50B and $75B at market close on IPO day",
-              "yes_price": 0.1175,
+              "yes_price": 0.117,
               "volume": 6171
             },
             {
@@ -118,7 +118,7 @@
               "market_id": "1115929",
               "slug": "will-perplexitys-market-cap-be-less-than-20b-at-market-close-on-ipo-day",
               "question": "Will Perplexity\u2019s market cap be less than $20B at market close on IPO day?",
-              "yes_price": 0.037,
+              "yes_price": 0.0375,
               "volume": 4428
             },
             {
@@ -135,9 +135,9 @@
         {
           "event_title": "Next Premier of Quebec",
           "event_slug": "next-premier-of-quebec",
-          "yes_sum": 0.9015,
-          "profit_pct": 9.85,
-          "profit_per_dollar_pct": 10.93,
+          "yes_sum": 0.9025,
+          "profit_pct": 9.75,
+          "profit_per_dollar_pct": 10.8,
           "num_outcomes": 2,
           "outcomes": [
             {
@@ -151,202 +151,160 @@
               "market_id": "1837604",
               "slug": "will-bernard-drainville-be-the-next-premier-of-quebec-following-the-2026-caq-leadership-elections",
               "question": "Will Bernard Drainville be the next Premier of Quebec following the 2026 CAQ lea",
-              "yes_price": 0.0965,
+              "yes_price": 0.0975,
               "volume": 12967
             }
           ],
           "url": "https://polymarket.com/event/next-premier-of-quebec",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9015. One wins $1.00. Profit: $0.0985 (9.85%)"
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9025. One wins $1.00. Profit: $0.0975 (9.75%)"
         },
         {
-          "event_title": "Next Prime Minister of Slovenia",
-          "event_slug": "next-prime-minister-of-slovenia",
-          "yes_sum": 0.9025,
-          "profit_pct": 9.75,
-          "profit_per_dollar_pct": 10.8,
-          "num_outcomes": 9,
+          "event_title": "Guinea-Bissau National People's Assembly Election Winner",
+          "event_slug": "guinea-bissau-national-peoples-assembly-election-winner",
+          "yes_sum": 0.903,
+          "profit_pct": 9.7,
+          "profit_per_dollar_pct": 10.74,
+          "num_outcomes": 6,
           "outcomes": [
             {
-              "market_id": "1193229",
-              "slug": "will-janez-jana-be-the-next-prime-minister-of-slovenia",
-              "question": "Will Janez Jan\u0161a be the next Prime Minister of Slovenia?",
-              "yes_price": 0.685,
-              "volume": 626969
+              "market_id": "668685",
+              "slug": "will-platforma-reupblicana-n-kumpu-guin-win-the-most-seats-in-the-2025-guinea-bissau-national-peoples-assembly-election",
+              "question": "Will Platforma Reupblicana \u201cN\u00f4 Kumpu Guin\u00e9\u201d win the most seats in the 2025 Guine",
+              "yes_price": 0.3705,
+              "volume": 33421
             },
             {
-              "market_id": "1193235",
-              "slug": "will-jernej-vrtovec-be-the-next-prime-minister-of-slovenia",
-              "question": "Will Jernej Vrtovec be the next Prime Minister of Slovenia?",
-              "yes_price": 0.0845,
-              "volume": 31883
+              "market_id": "668683",
+              "slug": "will-pt-win-the-most-seats-in-the-2025-guinea-bissau-national-peoples-assembly-election",
+              "question": "Will PT win the most seats in the 2025 Guinea-Bissau National People\u2019s Assembly ",
+              "yes_price": 0.237,
+              "volume": 17878
             },
             {
-              "market_id": "1193230",
-              "slug": "will-ane-logar-be-the-next-prime-minister-of-slovenia",
-              "question": "Will An\u017ee Logar be the next Prime Minister of Slovenia?",
-              "yes_price": 0.084,
-              "volume": 940139
+              "market_id": "668684",
+              "slug": "will-ptg-win-the-most-seats-in-the-2025-guinea-bissau-national-peoples-assembly-election",
+              "question": "Will MUNDO-GB\u2028 win the most seats in the 2025 Guinea-Bissau National People\u2019s As",
+              "yes_price": 0.1745,
+              "volume": 19085
             },
             {
-              "market_id": "1193228",
-              "slug": "will-robert-golob-be-the-next-prime-minister-of-slovenia",
-              "question": "Will Robert Golob be the next Prime Minister of Slovenia?",
-              "yes_price": 0.0425,
-              "volume": 598216
+              "market_id": "668680",
+              "slug": "will-fling-win-the-most-seats-in-the-2025-guinea-bissau-national-peoples-assembly-election",
+              "question": "Will FLING win the most seats in the 2025 Guinea-Bissau National People\u2019s Assemb",
+              "yes_price": 0.0535,
+              "volume": 11103
             },
             {
-              "market_id": "1193237",
-              "slug": "will-zoran-stevanovi-be-the-next-prime-minister-of-slovenia",
-              "question": "Will Zoran Stevanovi\u0107 be the next Prime Minister of Slovenia?",
-              "yes_price": 0.0025,
-              "volume": 105552
+              "market_id": "668681",
+              "slug": "will-frepasna-win-the-most-seats-in-the-2025-guinea-bissau-national-peoples-assembly-election",
+              "question": "Will FREPASNA win the most seats in the 2025 Guinea-Bissau National People\u2019s Ass",
+              "yes_price": 0.036,
+              "volume": 22992
             },
             {
-              "market_id": "1193231",
-              "slug": "will-vladimir-prebili-be-the-next-prime-minister-of-slovenia",
-              "question": "Will Vladimir Prebili\u010d be the next Prime Minister of Slovenia?",
-              "yes_price": 0.0015,
-              "volume": 176829
-            },
-            {
-              "market_id": "1193233",
-              "slug": "will-matej-tonin-be-the-next-prime-minister-of-slovenia",
-              "question": "Will Matej Tonin be the next Prime Minister of Slovenia?",
-              "yes_price": 0.0015,
-              "volume": 10066
-            },
-            {
-              "market_id": "1193236",
-              "slug": "will-luka-mesec-be-the-next-prime-minister-of-slovenia",
-              "question": "Will Luka Mesec be the next Prime Minister of Slovenia?",
-              "yes_price": 0.0005,
-              "volume": 9299
-            },
-            {
-              "market_id": "1193234",
-              "slug": "will-matja-han-be-the-next-prime-minister-of-slovenia",
-              "question": "Will Matja\u017e Han be the next Prime Minister of Slovenia?",
-              "yes_price": 0.0005,
-              "volume": 14316
+              "market_id": "668682",
+              "slug": "will-ps-win-the-most-seats-in-the-2025-guinea-bissau-national-peoples-assembly-election",
+              "question": "Will PS win the most seats in the 2025 Guinea-Bissau National People\u2019s Assembly ",
+              "yes_price": 0.0315,
+              "volume": 21410
             }
           ],
-          "url": "https://polymarket.com/event/next-prime-minister-of-slovenia",
-          "strategy": "Buy YES on all 9 outcomes. Total cost: $0.9025. One wins $1.00. Profit: $0.0975 (9.75%)"
+          "url": "https://polymarket.com/event/guinea-bissau-national-peoples-assembly-election-winner",
+          "strategy": "Buy YES on all 6 outcomes. Total cost: $0.9030. One wins $1.00. Profit: $0.0970 (9.70%)"
         },
         {
-          "event_title": "Will Audemars Piguet prices hit __ by April 30?",
-          "event_slug": "will-audemars-piguet-prices-hit-by-april-30",
-          "yes_sum": 0.9045,
-          "profit_pct": 9.55,
-          "profit_per_dollar_pct": 10.56,
-          "num_outcomes": 10,
+          "event_title": "Colorado Republican Senate Primary Winner",
+          "event_slug": "colorado-republican-senate-primary-winner",
+          "yes_sum": 0.905,
+          "profit_pct": 9.5,
+          "profit_per_dollar_pct": 10.5,
+          "num_outcomes": 4,
           "outcomes": [
             {
-              "market_id": "1613930",
-              "slug": "will-the-audemars-piguet-index-hit-41500-high-by-april-30",
-              "question": "Will the Audemars Piguet Index hit $41,500 (HIGH) by April 30?",
-              "yes_price": 0.31,
-              "volume": 3592
+              "market_id": "679608",
+              "slug": "will-mark-baisley-be-the-republican-nominee-for-senate-in-colorado",
+              "question": "Will Mark Baisley be the Republican nominee for Senate in Colorado?",
+              "yes_price": 0.405,
+              "volume": 7184
             },
             {
-              "market_id": "1613931",
-              "slug": "will-the-audemars-piguet-index-hit-41000-low-by-april-30",
-              "question": "Will the Audemars Piguet Index hit $41,000 (LOW) by April 30?",
-              "yes_price": 0.255,
-              "volume": 12431
+              "market_id": "679606",
+              "slug": "will-janak-joshi-be-the-republican-nominee-for-senate-in-colorado",
+              "question": "Will Janak Joshi be the Republican nominee for Senate in Colorado?",
+              "yes_price": 0.195,
+              "volume": 1779
             },
             {
-              "market_id": "1613934",
-              "slug": "will-the-audemars-piguet-index-hit-40250-low-by-april-30",
-              "question": "Will the Audemars Piguet Index hit $40,250 (LOW) by April 30?",
-              "yes_price": 0.125,
-              "volume": 1348
+              "market_id": "679607",
+              "slug": "will-george-washington-markert-be-the-republican-nominee-for-senate-in-colorado",
+              "question": "Will George Washington Markert be the Republican nominee for Senate in Colorado?",
+              "yes_price": 0.155,
+              "volume": 2281
             },
             {
-              "market_id": "1613935",
-              "slug": "will-the-audemars-piguet-index-hit-40000-low-by-april-30",
-              "question": "Will the Audemars Piguet Index hit $40,000 (LOW) by April 30?",
-              "yes_price": 0.084,
-              "volume": 2663
-            },
-            {
-              "market_id": "1613928",
-              "slug": "will-the-audemars-piguet-index-hit-42000-high-by-april-30",
-              "question": "Will the Audemars Piguet Index hit $42,000 (HIGH) by April 30?",
-              "yes_price": 0.035,
-              "volume": 5900
-            },
-            {
-              "market_id": "1613926",
-              "slug": "will-the-audemars-piguet-index-hit-42500-high-by-april-30",
-              "question": "Will the Audemars Piguet Index hit $42,500 (HIGH) by April 30?",
-              "yes_price": 0.0285,
-              "volume": 5707
-            },
-            {
-              "market_id": "1613927",
-              "slug": "will-the-audemars-piguet-index-hit-42250-high-by-april-30",
-              "question": "Will the Audemars Piguet Index hit $42,250 (HIGH) by April 30?",
-              "yes_price": 0.022,
-              "volume": 2135
-            },
-            {
-              "market_id": "1613936",
-              "slug": "will-the-audemars-piguet-index-hit-39000-low-by-april-30",
-              "question": "Will the Audemars Piguet Index hit $39,000 (LOW) by April 30?",
-              "yes_price": 0.018,
-              "volume": 1646
-            },
-            {
-              "market_id": "1613925",
-              "slug": "will-the-audemars-piguet-index-hit-43000-high-by-april-30",
-              "question": "Will the Audemars Piguet Index hit $43,000 (HIGH) by April 30?",
-              "yes_price": 0.0135,
-              "volume": 2047
-            },
-            {
-              "market_id": "1613924",
-              "slug": "will-the-audemars-piguet-index-hit-44000-high-by-april-30",
-              "question": "Will the Audemars Piguet Index hit $44,000 (HIGH) by April 30?",
-              "yes_price": 0.0135,
-              "volume": 9609
+              "market_id": "679605",
+              "slug": "will-dathan-jones-be-the-republican-nominee-for-senate-in-colorado",
+              "question": "Will Dathan Jones be the Republican nominee for Senate in Colorado?",
+              "yes_price": 0.15,
+              "volume": 1160
             }
           ],
-          "url": "https://polymarket.com/event/will-audemars-piguet-prices-hit-by-april-30",
-          "strategy": "Buy YES on all 10 outcomes. Total cost: $0.9045. One wins $1.00. Profit: $0.0955 (9.55%)"
+          "url": "https://polymarket.com/event/colorado-republican-senate-primary-winner",
+          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
         },
         {
-          "event_title": "Another 7.0 or above earthquake by...?",
-          "event_slug": "another-7pt0-or-above-earthquake-by-553",
-          "yes_sum": 0.907,
-          "profit_pct": 9.3,
-          "profit_per_dollar_pct": 10.25,
-          "num_outcomes": 3,
+          "event_title": "How many Tornadoes in the US in 2026?",
+          "event_slug": "how-many-tornadoes-in-the-us-in-2026",
+          "yes_sum": 0.9095,
+          "profit_pct": 9.05,
+          "profit_per_dollar_pct": 9.95,
+          "num_outcomes": 6,
           "outcomes": [
             {
-              "market_id": "1829475",
-              "slug": "another-7pt0-or-above-earthquake-by-april-30-2026-114",
-              "question": "Another 7.0 or above earthquake by April 30, 2026?",
-              "yes_price": 0.64,
-              "volume": 6646
+              "market_id": "1428393",
+              "slug": "will-1250-or-more-tornadoes-occur-in-the-united-states-in-2026",
+              "question": "Will 1250 or more tornadoes occur in the United States in 2026?",
+              "yes_price": 0.34,
+              "volume": 14284
             },
             {
-              "market_id": "1829474",
-              "slug": "another-7pt0-or-above-earthquake-by-april-15-2026",
-              "question": "Another 7.0 or above earthquake by April 15, 2026?",
-              "yes_price": 0.265,
-              "volume": 12070
+              "market_id": "1428392",
+              "slug": "will-1200-to-1249-tornadoes-occur-in-the-united-states-in-2026",
+              "question": "Will 1200 to 1249 tornadoes occur in the United States in 2026?",
+              "yes_price": 0.1955,
+              "volume": 14431
             },
             {
-              "market_id": "1829473",
-              "slug": "another-7pt0-or-above-earthquake-by-april-7-2026",
-              "question": "Another 7.0 or above earthquake by April 7, 2026?",
-              "yes_price": 0.002,
-              "volume": 6486
+              "market_id": "1428381",
+              "slug": "will-1050-to-1099-tornadoes-occur-in-the-united-states-in-2026",
+              "question": "Will 1050 to 1099 tornadoes occur in the United States in 2026?",
+              "yes_price": 0.16,
+              "volume": 6571
+            },
+            {
+              "market_id": "1428365",
+              "slug": "will-fewer-than-950-tornadoes-occur-in-the-united-states-in-2026",
+              "question": "Will fewer than 950 tornadoes occur in the United States in 2026?",
+              "yes_price": 0.115,
+              "volume": 21012
+            },
+            {
+              "market_id": "1428391",
+              "slug": "will-1150-to-1199-tornadoes-occur-in-the-united-states-in-2026",
+              "question": "Will 1150 to 1199 tornadoes occur in the United States in 2026?",
+              "yes_price": 0.06,
+              "volume": 1103
+            },
+            {
+              "market_id": "1428374",
+              "slug": "will-950-to-999-tornadoes-occur-in-the-united-states-in-2026",
+              "question": "Will 950 to 999 tornadoes occur in the United States in 2026?",
+              "yes_price": 0.039,
+              "volume": 2048
             }
           ],
-          "url": "https://polymarket.com/event/another-7pt0-or-above-earthquake-by-553",
-          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9070. One wins $1.00. Profit: $0.0930 (9.30%)"
+          "url": "https://polymarket.com/event/how-many-tornadoes-in-the-us-in-2026",
+          "strategy": "Buy YES on all 6 outcomes. Total cost: $0.9095. One wins $1.00. Profit: $0.0905 (9.05%)"
         },
         {
           "event_title": "Montana Senate Election Winner",
@@ -431,9 +389,9 @@
         {
           "event_title": "How many large volcano eruptions (VEI \u22654) in 2026?",
           "event_slug": "how-many-large-volcano-eruption-vei-4-in-2026-657",
-          "yes_sum": 0.914,
-          "profit_pct": 8.6,
-          "profit_per_dollar_pct": 9.41,
+          "yes_sum": 0.9105,
+          "profit_pct": 8.95,
+          "profit_per_dollar_pct": 9.83,
           "num_outcomes": 6,
           "outcomes": [
             {
@@ -454,14 +412,14 @@
               "market_id": "1075292",
               "slug": "will-there-be-exactly-2-confirmed-vei-4-or-higher-volcanic-eruptions-worldwide-in-2026-976",
               "question": "Will there be exactly 2 confirmed VEI 4 or higher volcanic eruptions worldwide i",
-              "yes_price": 0.074,
+              "yes_price": 0.071,
               "volume": 19049
             },
             {
               "market_id": "1075294",
               "slug": "will-there-be-exactly-4-confirmed-vei-4-or-higher-volcanic-eruptions-worldwide-in-2026-912",
               "question": "Will there be exactly 4 confirmed VEI 4 or higher volcanic eruptions worldwide i",
-              "yes_price": 0.0485,
+              "yes_price": 0.048,
               "volume": 12309
             },
             {
@@ -469,7 +427,7 @@
               "slug": "will-there-be-5-or-more-confirmed-vei-4-or-higher-volcanic-eruptions-worldwide-in-2026-655",
               "question": "Will there be 5 or more confirmed VEI 4 or higher volcanic eruptions worldwide i",
               "yes_price": 0.024,
-              "volume": 68619
+              "volume": 75003
             },
             {
               "market_id": "1075293",
@@ -480,16 +438,16 @@
             }
           ],
           "url": "https://polymarket.com/event/how-many-large-volcano-eruption-vei-4-in-2026-657",
-          "strategy": "Buy YES on all 6 outcomes. Total cost: $0.9140. One wins $1.00. Profit: $0.0860 (8.60%)"
+          "strategy": "Buy YES on all 6 outcomes. Total cost: $0.9105. One wins $1.00. Profit: $0.0895 (8.95%)"
         }
       ],
       "stats": {
         "total_events": 3000,
-        "checked_multi_outcome": 1952,
-        "skipped_single_outcome": 626,
+        "checked_multi_outcome": 1948,
+        "skipped_single_outcome": 628,
         "opportunities_found": 141,
         "best_profit_pct": 10.0,
-        "scanned_at": "2026-04-12 09:11 UTC"
+        "scanned_at": "2026-04-12 09:26 UTC"
       }
     },
     {
