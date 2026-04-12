@@ -1,9 +1,13 @@
-<!-- PASTE THIS INTO SQUARESPACE CODE BLOCK — updated 2026-04-10 -->
-
-<link rel="stylesheet" href="https://shaunpatrickstewart.github.io/trades/style.css">
+<!-- ═══════════════════════════════════════════════════════════════════
+     POLYMARKET TRADING INTELLIGENCE — Direct Squarespace Inject
+     Paste squarespace_snippet.html into Squarespace Code Block.
+     This file is the standalone GitHub Pages version.
+     ═══════════════════════════════════════════════════════════════════ -->
+<link rel="stylesheet" href="style.css">
 
 <div id="pm-root">
 
+<!-- ═══ HEADER ════════════════════════════════════════════════════════ -->
 <header>
   <div class="hdr-left">
     <div class="pm-title">Polymarket Trading Intelligence</div>
@@ -12,9 +16,11 @@
       <span class="live-badge">&#9679; LIVE</span>
     </div>
   </div>
+
   <div id="hdr-stats">
-    <div class="loader" style="padding:4px;">Connecting</div>
+    <div class="loader" style="padding:4px;color:#1e1e1e">Connecting</div>
   </div>
+
   <div class="hdr-right">
     <div id="pnl-counter">+$0.00</div>
     <div class="pnl-label">PAPER P&amp;L</div>
@@ -22,8 +28,10 @@
   </div>
 </header>
 
+<!-- ═══ UNIFIED 4-PANEL GRID ══════════════════════════════════════════ -->
 <div class="pm-grid">
 
+  <!-- ── PANEL 1: COPY SIGNALS ──────────────────────────────────────── -->
   <div class="panel accent-green">
     <div class="panel-hdr">
       <div class="panel-hdr-top">
@@ -37,19 +45,32 @@
     </div>
   </div>
 
+  <!-- ── PANEL 2: MARKET SCANNER ────────────────────────────────────── -->
   <div class="panel accent-blue">
     <div class="panel-hdr">
       <div class="panel-hdr-top">
         <span class="panel-title c-blue">&#9650; Market Scanner</span>
         <span class="panel-count" id="scanner-count">—</span>
       </div>
-      <div class="panel-desc">Short-term markets (30–70¢) resolving within 14 days. Real uncertainty, real upside.</div>
+      <div class="panel-desc">Short-term markets (30–70¢) resolving within 14 days. Real uncertainty, real upside. Sourced from elite wallet open positions and live market scanner.</div>
     </div>
     <div class="tabs">
-      <button class="tab active" onclick="pmSwitchTab('week',this)"><span class="tab-icon">◈</span><span class="tab-label">7 DAY</span></button>
-      <button class="tab" onclick="pmSwitchTab('day48',this)"><span class="tab-icon">⚡</span><span class="tab-label">48H</span></button>
-      <button class="tab" onclick="pmSwitchTab('swing',this)"><span class="tab-icon">◆</span><span class="tab-label">SWING</span></button>
-      <button class="tab" onclick="pmSwitchTab('forex',this)"><span class="tab-icon">$</span><span class="tab-label">FOREX</span></button>
+      <button class="tab active" onclick="pmSwitchTab('week',this)">
+        <span class="tab-icon">◈</span>
+        <span class="tab-label">7 DAY</span>
+      </button>
+      <button class="tab" onclick="pmSwitchTab('day48',this)">
+        <span class="tab-icon">⚡</span>
+        <span class="tab-label">48H</span>
+      </button>
+      <button class="tab" onclick="pmSwitchTab('swing',this)">
+        <span class="tab-icon">◆</span>
+        <span class="tab-label">SWING</span>
+      </button>
+      <button class="tab" onclick="pmSwitchTab('forex',this)">
+        <span class="tab-icon">$</span>
+        <span class="tab-label">FOREX</span>
+      </button>
     </div>
     <div id="pm-tab-desc" class="tab-subdesc">Uncertain markets resolving this week — 30–70¢ range, volume &gt;$2K. Best short-term plays.</div>
     <div class="panel-body tall">
@@ -60,34 +81,37 @@
     </div>
   </div>
 
+  <!-- ── PANEL 3: BOT PERFORMANCE ───────────────────────────────────── -->
   <div class="panel accent-yellow">
     <div class="panel-hdr">
       <div class="panel-hdr-top">
         <span class="panel-title c-yellow">&#9670; Bot Performance — Paper Trading Results</span>
         <span class="panel-count" id="perf-count">—</span>
       </div>
-      <div class="panel-desc">Live paper trade results. Engines: NEAR-CERTAIN (97.5%+ confidence markets) + WALLET COPY SHORT (elite wallets ≤14d) + WALLET COPY LONG (longer holds) + ANTI-NC.</div>
+      <div class="panel-desc" id="perf-panel-desc">Live paper trade results. Active engines: NEAR-CERTAIN + WALLET COPY SHORT + ANTI-NC. Stats computed from paper_trades.jsonl in real time.</div>
     </div>
     <div class="panel-body" id="pm-performance">
       <div class="loader">Loading results</div>
     </div>
   </div>
 
+  <!-- ── PANEL 4: TOP WALLETS LEADERBOARD ───────────────────────────── -->
   <div class="panel accent-purple">
     <div class="panel-hdr">
       <div class="panel-hdr-top">
         <span class="panel-title c-purple">&#9733; Top Wallets — Leaderboard</span>
         <span class="panel-count" id="wallet-count">—</span>
       </div>
-      <div class="panel-desc">Ranked by ROI (PnL ÷ Volume) — consistent performers, not one-time winners. These are the wallets the LONG_TERM engine mirrors.</div>
+      <div class="panel-desc">Ranked by ROI (PnL ÷ Volume) — consistent performers, not one-time winners. The best wallets are tracked in elite_wallets.json and copied by the SHORT_TERM engine.</div>
     </div>
     <div class="panel-body" id="pm-wallets">
       <div class="loader">Pulling wallets</div>
     </div>
   </div>
 
-</div>
+</div><!-- /.pm-grid -->
 
+<!-- ═══ PAPER TRADE TRACKER — FULL WIDTH ══════════════════════════════ -->
 <div class="pm-full">
   <div class="panel accent-paper">
     <div class="panel-hdr">
@@ -95,7 +119,7 @@
         <span class="panel-title c-paper">&#9632; Open Positions — Live Bot Trades</span>
         <span id="paper-summary" style="font-size:0.7em;color:#444">Loading...</span>
       </div>
-      <div class="panel-desc">Active paper trades from all engines. Entry price, bet size, expected value (EV), and current status. Auto-syncs every 30 minutes.</div>
+      <div class="panel-desc">Active paper trades from all engines. Entry price, bet size, expected value (EV), and current status. Source of truth: paper_trades.jsonl — synced every 30 minutes via GitHub.</div>
     </div>
     <div class="panel-body" style="max-height:280px" id="paper-trades">
       <div class="loader">Loading</div>
@@ -103,6 +127,7 @@
   </div>
 </div>
 
+<!-- ═══ DAILY AUDIT PANEL — FULL WIDTH ════════════════════════════════ -->
 <div class="pm-full">
   <div class="panel" style="border-left:3px solid #ff8844">
     <div class="panel-hdr">
@@ -110,7 +135,7 @@
         <span class="panel-title" style="color:#ff8844">&#9670; Daily Bot Audit — Automated Health Check</span>
         <span class="panel-count" id="audit-count">—</span>
       </div>
-      <div class="panel-desc">Runs every morning at 8am. Checks engine health, stale trades, duplicates, and P&L accuracy.</div>
+      <div class="panel-desc">Runs every morning at 8am. Checks engine health, stale trades, duplicates, and P&L accuracy. Issues and recommendations appear here automatically.</div>
     </div>
     <div class="panel-body" id="audit-panel" style="max-height:260px">
       <div class="loader">Loading audit...</div>
@@ -118,6 +143,7 @@
   </div>
 </div>
 
+<!-- ═══ TESTING LAB ════════════════════════════════════════════════════ -->
 <div class="pm-full">
   <div class="panel" style="border-left:3px solid #cc44ff">
     <div class="panel-hdr">
@@ -125,25 +151,31 @@
         <span class="panel-title" style="color:#cc44ff">&#9650; Testing Lab — Algorithm Experiments</span>
         <span class="panel-count" id="lab-count">—</span>
       </div>
-      <div class="panel-desc">New strategy ideas and algorithm experiments tracked with hypothesis, status, and results.</div>
+      <div class="panel-desc">New strategy ideas and algorithm experiments. Each theory is tracked with hypothesis, current status, and early results. Bot runs these in parallel with main engines.</div>
     </div>
     <div class="panel-body" id="lab-panel" style="max-height:400px">
       <div class="loader">Loading experiments...</div>
     </div>
   </div>
+</div>
 
-  <div class="panel full-width">
-    <div class="panel-header">
-      <span class="panel-title" style="color:#1d9bf0">&#9889; Live X &amp; News Signals — Real-Time Market Intelligence</span>
-      <span class="panel-count" id="signals-count">scanning...</span>
+<!-- ═══ LIVE NEWS & X SIGNALS — FULL WIDTH ════════════════════════════ -->
+<div class="pm-full">
+  <div class="panel" style="border-left:3px solid #1d9bf0">
+    <div class="panel-hdr">
+      <div class="panel-hdr-top">
+        <span class="panel-title" style="color:#1d9bf0">&#9650; Live News &amp; X Signals — AI Market Scanner</span>
+        <span class="panel-count" id="signals-count">—</span>
+      </div>
+      <div class="panel-desc">Real-time trading signals from X/Grok + Perplexity. Scans every 5 minutes for breaking news that affects open Polymarket positions. ENTER = high-confidence trade trigger. ALERT = monitor closely.</div>
     </div>
-    <div class="panel-desc">Continuous X.com + Perplexity scan every 5 minutes. Grok searches breaking news matching open market positions.</div>
-    <div class="panel-body" id="news-signals-panel" style="max-height:500px">
-      <div class="loader">Scanning X for signals...</div>
+    <div class="panel-body" id="pm-news-signals" style="max-height:320px">
+      <div class="loader">Scanning news and X for signals</div>
     </div>
   </div>
 </div>
 
+<!-- ═══ FOOTER ═════════════════════════════════════════════════════════ -->
 <footer>
   <span>
     Live data: <a href="https://polymarket.com" target="_blank">Polymarket</a> public API &mdash;
@@ -155,6 +187,6 @@
   </span>
 </footer>
 
-</div>
+</div><!-- /#pm-root -->
 
-<script src="https://shaunpatrickstewart.github.io/trades/app.js"></script>
+
