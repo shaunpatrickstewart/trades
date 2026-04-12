@@ -249,6 +249,9 @@
   }
   function days(s)  { return !s ? 9999 : Math.ceil((new Date(s)-new Date())/86400000) }
   function hours(s) { return !s ? 9999 : Math.ceil((new Date(s)-new Date())/3600000) }
+  // Canonical engine display name — single source of truth for all UI rendering
+  const ENG_LABEL = {NEAR_CERTAIN:'NEAR-CERTAIN', SHORT_TERM:'WALLET COPY SHORT', LONG_TERM:'WALLET COPY LONG', ANTI_NC:'ANTI-NC', NEWS:'NEWS', ARB:'ARB'};
+  function engLabel(type) { return ENG_LABEL[type] || (type||'').replace(/_/g,' '); }
 
   function timeLabel(m) {
     const h = hours(m.endDate||m.endDateIso), d = days(m.endDate||m.endDateIso);
@@ -951,7 +954,7 @@
       let engHtml = '<div style="display:flex;gap:10px;flex-wrap:wrap;margin-bottom:10px;padding:8px 0;border-bottom:1px solid #dddddd">';
       Object.entries(byEngine).sort((a,b)=>b[1].realPnl-a[1].realPnl).forEach(([eng,d])=>{
         const c = engColors[eng]||'#888';
-        const label = eng==='LONG_TERM'?'WALLET COPY LONG':eng==='SHORT_TERM'?'WALLET COPY SHORT':eng.replace(/_/g,' ');
+        const label = engLabel(eng);
         const resolved = d.won + d.lost;
         // ROI = realized P&L / total invested (won+lost bets, not open)
         const resolvedBet = d.totalBet - (d.open > 0 ? d.totalBet * d.open/(d.open+resolved) : 0);
@@ -1013,7 +1016,7 @@
 
         signalHtml +=
           '<div style="background:#f7f7f7;border:1px solid #e0e0e0;border-top:3px solid '+c+';border-radius:4px;padding:7px 9px;font-size:0.78em;position:relative">'+
-          '<div style="color:'+c+';font-size:0.65em;font-weight:700;letter-spacing:0.5px">'+(t.type||'').replace(/_/g,' ')+'</div>'+
+          '<div style="color:'+c+';font-size:0.65em;font-weight:700;letter-spacing:0.5px">'+engLabel(t.type)+'</div>'+
           '<div style="margin:2px 0 4px;color:#222;line-height:1.3;font-size:0.9em">'+mkt+'</div>'+
           '<div style="display:flex;justify-content:space-between;align-items:center">'+
             '<span style="color:'+sideColor+';font-weight:700">'+side+'</span>'+
@@ -1170,7 +1173,7 @@
           const wrStr = e.win_rate_pct !== null && e.win_rate_pct !== undefined
             ? ' &nbsp;<span style="color:#aaa">'+e.win_rate_pct+'% WR</span>' : '';
           html += '<div style="background:#f0f0f0;border-left:2px solid '+c+';padding:4px 8px;font-size:0.78em">'+
-            '<div style="color:'+c+';font-weight:700">'+(e.engine==='LONG_TERM'?'WALLET COPY LONG':e.engine==='SHORT_TERM'?'WALLET COPY SHORT':e.engine.replace('_',' '))+'</div>'+
+            '<div style="color:'+c+';font-weight:700">'+engLabel(e.engine)+'</div>'+
             '<div>'+e.resolved+' resolved | ROI '+roiStr+wrStr+'</div>'+
             '<div>P&amp;L: '+(e.realized_pnl>=0?'<span style="color:#00ff88">+':'<span style="color:#ff4444">')+
             '$'+Math.abs(e.realized_pnl).toFixed(2)+'</span></div>'+
