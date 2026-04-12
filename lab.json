@@ -8,9 +8,9 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 133 categorical arb opportunities found\nScanned 3000 events (2003 multi-outcome) at 2026-04-12 16:11 UTC\nBest: 9.95% profit on 'Precipitation in NYC in April?' \u2014 buy YES on all 4 outcomes (sum=0.9005)\nStrategy: Buy YES on all 4 outcomes. Total cost: $0.9005. One wins $1.00. Profit: $0.0995 (9.95%)\n2nd: 9.9% on 'FK Bod\u00f8/Glimt vs. Aalesunds FK - More Markets'",
+      "result": "LIVE \u2014 137 categorical arb opportunities found\nScanned 3000 events (2000 multi-outcome) at 2026-04-12 16:13 UTC\nBest: 9.95% profit on 'Precipitation in NYC in April?' \u2014 buy YES on all 4 outcomes (sum=0.9005)\nStrategy: Buy YES on all 4 outcomes. Total cost: $0.9005. One wins $1.00. Profit: $0.0995 (9.95%)\n2nd: 9.9% on 'FK Bod\u00f8/Glimt vs. Aalesunds FK - More Markets'",
       "priority": "HIGH",
-      "last_scan": "2026-04-12 16:11 UTC",
+      "last_scan": "2026-04-12 16:13 UTC",
       "opportunities": [
         {
           "event_title": "Precipitation in NYC in April?",
@@ -204,6 +204,46 @@
           ],
           "url": "https://polymarket.com/event/maine-governor-republican-primary-winner",
           "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9020. One wins $1.00. Profit: $0.0980 (9.80%)"
+        },
+        {
+          "event_title": "Who will be UFC Light Heavyweight champion at the end of 2026?",
+          "event_slug": "who-will-be-ufc-light-heavyweight-champion-at-the-end-of-2026",
+          "yes_sum": 0.9035,
+          "profit_pct": 9.65,
+          "profit_per_dollar_pct": 10.68,
+          "num_outcomes": 4,
+          "outcomes": [
+            {
+              "market_id": "1090072",
+              "slug": "will-carlos-ulberg-be-the-ufc-light-heavyweight-champion-on-december-31-2026",
+              "question": "Will Carlos Ulberg be the UFC Light Heavyweight Champion on December 31, 2026?",
+              "yes_price": 0.465,
+              "volume": 2200
+            },
+            {
+              "market_id": "1090069",
+              "slug": "will-alex-pereira-be-the-ufc-light-heavyweight-champion-on-december-31-2026",
+              "question": "Will Alex Pereira be the UFC Light Heavyweight Champion on December 31, 2026?",
+              "yes_price": 0.215,
+              "volume": 3209
+            },
+            {
+              "market_id": "1090078",
+              "slug": "will-dominick-reyes-be-the-ufc-light-heavyweight-champion-on-december-31-2026",
+              "question": "Will Dominick Reyes be the UFC Light Heavyweight Champion on December 31, 2026?",
+              "yes_price": 0.172,
+              "volume": 6452
+            },
+            {
+              "market_id": "1090070",
+              "slug": "will-ji-prochzka-be-the-ufc-light-heavyweight-champion-on-december-31-2026",
+              "question": "Will Ji\u0159\u00ed Proch\u00e1zka be the UFC Light Heavyweight Champion on December 31, 2026?",
+              "yes_price": 0.0515,
+              "volume": 2560
+            }
+          ],
+          "url": "https://polymarket.com/event/who-will-be-ufc-light-heavyweight-champion-at-the-end-of-2026",
+          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9035. One wins $1.00. Profit: $0.0965 (9.65%)"
         },
         {
           "event_title": "Which CEOs will be out before 2027?",
@@ -427,41 +467,15 @@
           ],
           "url": "https://polymarket.com/event/will-opensea-launch-a-token-by-142",
           "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9095. One wins $1.00. Profit: $0.0905 (9.05%)"
-        },
-        {
-          "event_title": "Montana Senate Election Winner",
-          "event_slug": "montana-senate-election-winner",
-          "yes_sum": 0.9095,
-          "profit_pct": 9.05,
-          "profit_per_dollar_pct": 9.95,
-          "num_outcomes": 2,
-          "outcomes": [
-            {
-              "market_id": "630832",
-              "slug": "will-the-republicans-win-the-montana-senate-race-in-2026",
-              "question": "Will the Republicans win the Montana Senate race in 2026?",
-              "yes_price": 0.785,
-              "volume": 34451
-            },
-            {
-              "market_id": "630831",
-              "slug": "will-the-democrats-win-the-montana-senate-race-in-2026",
-              "question": "Will the Democrats win the Montana Senate race in 2026?",
-              "yes_price": 0.1245,
-              "volume": 25625
-            }
-          ],
-          "url": "https://polymarket.com/event/montana-senate-election-winner",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9095. One wins $1.00. Profit: $0.0905 (9.05%)"
         }
       ],
       "stats": {
         "total_events": 3000,
-        "checked_multi_outcome": 2003,
-        "skipped_single_outcome": 619,
-        "opportunities_found": 133,
+        "checked_multi_outcome": 2000,
+        "skipped_single_outcome": 621,
+        "opportunities_found": 137,
         "best_profit_pct": 9.95,
-        "scanned_at": "2026-04-12 16:11 UTC"
+        "scanned_at": "2026-04-12 16:13 UTC"
       }
     },
     {
