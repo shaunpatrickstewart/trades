@@ -351,11 +351,8 @@
         if (bs) {
           if (bs.daily_log) dailyLog = bs.daily_log;
           if (bs.last_updated) bsLastUpdated = bs.last_updated;
-          // Override bankroll only if bot_stats is fresh (< 2 hours old)
-          if (bs.bankroll && bs.last_updated) {
-            const age = (Date.now() - new Date(bs.last_updated).getTime()) / 60000;
-            if (age < 120 && bs.bankroll > bankroll) bankroll = bs.bankroll;
-          }
+          // bot_stats.bankroll is a cross-check only — never override JSONL-computed value.
+          // JSONL is ground truth (structural rule); bot_stats can lag or have drift.
         }
       } catch(e) { /* chart unavailable, all other data still correct */ }
 
