@@ -8,76 +8,10 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 124 categorical arb opportunities found\nScanned 3000 events (1938 multi-outcome) at 2026-04-12 21:40 UTC\nBest: 10.0% profit on 'How many countries will Israel conduct military action against in April?' \u2014 buy YES on all 4 outcomes (sum=0.9)\nStrategy: Buy YES on all 4 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 10.0% on 'Vermont Governor Election Winner'",
+      "result": "LIVE \u2014 131 categorical arb opportunities found\nScanned 3000 events (1935 multi-outcome) at 2026-04-12 21:50 UTC\nBest: 9.95% profit on 'Harvey Weinstein prison time?' \u2014 buy YES on all 6 outcomes (sum=0.9005)\nStrategy: Buy YES on all 6 outcomes. Total cost: $0.9005. One wins $1.00. Profit: $0.0995 (9.95%)\n2nd: 9.5% on 'Will US crude oil reserves fall to __ by June 5?'",
       "priority": "HIGH",
-      "last_scan": "2026-04-12 21:40 UTC",
+      "last_scan": "2026-04-12 21:50 UTC",
       "opportunities": [
-        {
-          "event_title": "How many countries will Israel conduct military action against in April?",
-          "event_slug": "how-many-different-countries-will-israel-strike-in-april",
-          "yes_sum": 0.9,
-          "profit_pct": 10.0,
-          "profit_per_dollar_pct": 11.11,
-          "num_outcomes": 4,
-          "outcomes": [
-            {
-              "market_id": "1706220",
-              "slug": "will-israel-strike-3-countries-in-april-2026",
-              "question": "Will Israel strike 3 countries in April 2026?",
-              "yes_price": 0.375,
-              "volume": 26466
-            },
-            {
-              "market_id": "1706219",
-              "slug": "will-israel-strike-2-countries-in-april-2026",
-              "question": "Will Israel strike 2 countries in April 2026?",
-              "yes_price": 0.305,
-              "volume": 23000
-            },
-            {
-              "market_id": "1706221",
-              "slug": "will-israel-strike-4-countries-in-april-2026",
-              "question": "Will Israel strike \u22654 countries in April 2026?",
-              "yes_price": 0.22,
-              "volume": 32766
-            },
-            {
-              "market_id": "1706218",
-              "slug": "will-israel-strike-1-countries-in-april-2026",
-              "question": "Will Israel strike \u22641 countries in April 2026?",
-              "yes_price": 0.0,
-              "volume": 7467
-            }
-          ],
-          "url": "https://polymarket.com/event/how-many-different-countries-will-israel-strike-in-april",
-          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
-        },
-        {
-          "event_title": "Vermont Governor Election Winner",
-          "event_slug": "vermont-governor-winner-2026",
-          "yes_sum": 0.9,
-          "profit_pct": 10.0,
-          "profit_per_dollar_pct": 11.11,
-          "num_outcomes": 2,
-          "outcomes": [
-            {
-              "market_id": "629708",
-              "slug": "will-the-republicans-win-the-vermont-governor-race-in-2026",
-              "question": "Will the Republicans win the Vermont governor race in 2026?",
-              "yes_price": 0.77,
-              "volume": 4674
-            },
-            {
-              "market_id": "629707",
-              "slug": "will-the-democrats-win-the-vermont-governor-race-in-2026",
-              "question": "Will the Democrats win the Vermont governor race in 2026?",
-              "yes_price": 0.13,
-              "volume": 6898
-            }
-          ],
-          "url": "https://polymarket.com/event/vermont-governor-winner-2026",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
-        },
         {
           "event_title": "Harvey Weinstein prison time?",
           "event_slug": "harvey-weinstein-prison-time",
@@ -91,7 +25,7 @@
               "slug": "will-harvey-weinstein-be-sentenced-to-no-prison-time",
               "question": "Will Harvey Weinstein be sentenced to no prison time?",
               "yes_price": 0.3095,
-              "volume": 314644
+              "volume": 314787
             },
             {
               "market_id": "544096",
@@ -133,112 +67,70 @@
           "strategy": "Buy YES on all 6 outcomes. Total cost: $0.9005. One wins $1.00. Profit: $0.0995 (9.95%)"
         },
         {
-          "event_title": "# of seats won by GERB-SDS in Bulgarian Parliamentary Election?",
-          "event_slug": "of-seats-won-by-gerb-sds-in-bulgarian-parliamentary-election",
-          "yes_sum": 0.9005,
-          "profit_pct": 9.95,
-          "profit_per_dollar_pct": 11.05,
-          "num_outcomes": 5,
+          "event_title": "Will US crude oil reserves fall to __ by June 5?",
+          "event_slug": "will-us-crude-oil-reserves-fall-to-by-june-5",
+          "yes_sum": 0.905,
+          "profit_pct": 9.5,
+          "profit_per_dollar_pct": 10.5,
+          "num_outcomes": 4,
           "outcomes": [
             {
-              "market_id": "1738311",
-              "slug": "will-gerb-sds-win-between-60-64-seats-in-the-2026-bulgarian-parliamentary-election",
-              "question": "Will GERB-SDS win between 60-64 seats in the 2026 Bulgarian parliamentary electi",
-              "yes_price": 0.28,
-              "volume": 19945
+              "market_id": "1931708",
+              "slug": "will-us-crude-oil-reserves-fall-to-375m-by-june-5",
+              "question": "Will US crude oil reserves fall to 375M by June 5?",
+              "yes_price": 0.475,
+              "volume": 8262
             },
             {
-              "market_id": "1738310",
-              "slug": "will-gerb-sds-win-between-55-59-seats-in-the-2026-bulgarian-parliamentary-election",
-              "question": "Will GERB-SDS win between 55-59 seats in the 2026 Bulgarian parliamentary electi",
-              "yes_price": 0.255,
-              "volume": 7428
+              "market_id": "1931709",
+              "slug": "will-us-crude-oil-reserves-fall-to-350m-by-june-5",
+              "question": "Will US crude oil reserves fall to 350M by June 5?",
+              "yes_price": 0.21,
+              "volume": 7515
             },
             {
-              "market_id": "1738312",
-              "slug": "will-gerb-sds-win-between-65-69-seats-in-the-2026-bulgarian-parliamentary-election",
-              "question": "Will GERB-SDS win between 65-69 seats in the 2026 Bulgarian parliamentary electi",
-              "yes_price": 0.175,
-              "volume": 2690
+              "market_id": "1931710",
+              "slug": "will-us-crude-oil-reserves-fall-to-325m-by-june-5",
+              "question": "Will US crude oil reserves fall to 325M by June 5?",
+              "yes_price": 0.115,
+              "volume": 8920
             },
             {
-              "market_id": "1738313",
-              "slug": "will-gerb-sds-win-70-or-more-seats-in-the-2026-bulgarian-parliamentary-election",
-              "question": "Will GERB-SDS win 70 or more seats in the 2026 Bulgarian parliamentary election?",
-              "yes_price": 0.13,
-              "volume": 1015
-            },
-            {
-              "market_id": "1738308",
-              "slug": "will-gerb-sds-win-fewer-than-50-seats-in-the-2026-bulgarian-parliamentary-election",
-              "question": "Will GERB-SDS win fewer than 50 seats in the 2026 Bulgarian parliamentary electi",
-              "yes_price": 0.0605,
-              "volume": 1732
+              "market_id": "1931712",
+              "slug": "will-us-crude-oil-reserves-fall-to-275m-by-june-5",
+              "question": "Will US crude oil reserves fall to 275M by June 5?",
+              "yes_price": 0.105,
+              "volume": 8891
             }
           ],
-          "url": "https://polymarket.com/event/of-seats-won-by-gerb-sds-in-bulgarian-parliamentary-election",
-          "strategy": "Buy YES on all 5 outcomes. Total cost: $0.9005. One wins $1.00. Profit: $0.0995 (9.95%)"
+          "url": "https://polymarket.com/event/will-us-crude-oil-reserves-fall-to-by-june-5",
+          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
         },
         {
-          "event_title": "How many Tornadoes in the US in 2026?",
-          "event_slug": "how-many-tornadoes-in-the-us-in-2026",
-          "yes_sum": 0.9055,
-          "profit_pct": 9.45,
-          "profit_per_dollar_pct": 10.44,
-          "num_outcomes": 7,
+          "event_title": "Vermont Governor Election Winner",
+          "event_slug": "vermont-governor-winner-2026",
+          "yes_sum": 0.905,
+          "profit_pct": 9.5,
+          "profit_per_dollar_pct": 10.5,
+          "num_outcomes": 2,
           "outcomes": [
             {
-              "market_id": "1428393",
-              "slug": "will-1250-or-more-tornadoes-occur-in-the-united-states-in-2026",
-              "question": "Will 1250 or more tornadoes occur in the United States in 2026?",
-              "yes_price": 0.31,
-              "volume": 14527
+              "market_id": "629708",
+              "slug": "will-the-republicans-win-the-vermont-governor-race-in-2026",
+              "question": "Will the Republicans win the Vermont governor race in 2026?",
+              "yes_price": 0.77,
+              "volume": 4674
             },
             {
-              "market_id": "1428392",
-              "slug": "will-1200-to-1249-tornadoes-occur-in-the-united-states-in-2026",
-              "question": "Will 1200 to 1249 tornadoes occur in the United States in 2026?",
-              "yes_price": 0.2195,
-              "volume": 14432
-            },
-            {
-              "market_id": "1428365",
-              "slug": "will-fewer-than-950-tornadoes-occur-in-the-united-states-in-2026",
-              "question": "Will fewer than 950 tornadoes occur in the United States in 2026?",
-              "yes_price": 0.11,
-              "volume": 21053
-            },
-            {
-              "market_id": "1428381",
-              "slug": "will-1050-to-1099-tornadoes-occur-in-the-united-states-in-2026",
-              "question": "Will 1050 to 1099 tornadoes occur in the United States in 2026?",
-              "yes_price": 0.095,
-              "volume": 6633
-            },
-            {
-              "market_id": "1428391",
-              "slug": "will-1150-to-1199-tornadoes-occur-in-the-united-states-in-2026",
-              "question": "Will 1150 to 1199 tornadoes occur in the United States in 2026?",
-              "yes_price": 0.072,
-              "volume": 1246
-            },
-            {
-              "market_id": "1428380",
-              "slug": "will-1000-to-1049-tornadoes-occur-in-the-united-states-in-2026",
-              "question": "Will 1000 to 1049 tornadoes occur in the United States in 2026?",
-              "yes_price": 0.0605,
-              "volume": 1139
-            },
-            {
-              "market_id": "1428374",
-              "slug": "will-950-to-999-tornadoes-occur-in-the-united-states-in-2026",
-              "question": "Will 950 to 999 tornadoes occur in the United States in 2026?",
-              "yes_price": 0.0385,
-              "volume": 2049
+              "market_id": "629707",
+              "slug": "will-the-democrats-win-the-vermont-governor-race-in-2026",
+              "question": "Will the Democrats win the Vermont governor race in 2026?",
+              "yes_price": 0.135,
+              "volume": 6898
             }
           ],
-          "url": "https://polymarket.com/event/how-many-tornadoes-in-the-us-in-2026",
-          "strategy": "Buy YES on all 7 outcomes. Total cost: $0.9055. One wins $1.00. Profit: $0.0945 (9.45%)"
+          "url": "https://polymarket.com/event/vermont-governor-winner-2026",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
         },
         {
           "event_title": "Will Opensea launch a token by ___?",
@@ -377,123 +269,6 @@
           "strategy": "Buy YES on all 12 outcomes. Total cost: $0.9075. One wins $1.00. Profit: $0.0925 (9.25%)"
         },
         {
-          "event_title": "Colorado Governor Republican Primary Winner",
-          "event_slug": "colorado-governor-republican-primary-winner",
-          "yes_sum": 0.9075,
-          "profit_pct": 9.25,
-          "profit_per_dollar_pct": 10.19,
-          "num_outcomes": 15,
-          "outcomes": [
-            {
-              "market_id": "825858",
-              "slug": "will-victor-marx-win-the-2026-colorado-governor-republican-primary-election",
-              "question": "Will Victor Marx win the 2026 Colorado Governor Republican primary election?",
-              "yes_price": 0.415,
-              "volume": 3536
-            },
-            {
-              "market_id": "825856",
-              "slug": "will-barbara-kirkmeyer-win-the-2026-colorado-governor-republican-primary-election",
-              "question": "Will Barbara Kirkmeyer win the 2026 Colorado Governor Republican primary electio",
-              "yes_price": 0.27,
-              "volume": 17900
-            },
-            {
-              "market_id": "825853",
-              "slug": "will-scott-bottoms-win-the-2026-colorado-governor-republican-primary-election",
-              "question": "Will Scott Bottoms win the 2026 Colorado Governor Republican primary election?",
-              "yes_price": 0.152,
-              "volume": 2749
-            },
-            {
-              "market_id": "825852",
-              "slug": "will-mark-baisley-win-the-2026-colorado-governor-republican-primary-election",
-              "question": "Will Mark Baisley win the 2026 Colorado Governor Republican primary election?",
-              "yes_price": 0.025,
-              "volume": 7572
-            },
-            {
-              "market_id": "825862",
-              "slug": "will-jon-gray-ginsberg-win-the-2026-colorado-governor-republican-primary-election",
-              "question": "Will Jon Gray-Ginsberg win the 2026 Colorado Governor Republican primary electio",
-              "yes_price": 0.013,
-              "volume": 5820
-            },
-            {
-              "market_id": "825860",
-              "slug": "will-jason-mikesell-win-the-2026-colorado-governor-republican-primary-election",
-              "question": "Will Jason Mikesell win the 2026 Colorado Governor Republican primary election?",
-              "yes_price": 0.0075,
-              "volume": 1769
-            },
-            {
-              "market_id": "825857",
-              "slug": "will-greg-lopez-win-the-2026-colorado-governor-republican-primary-election",
-              "question": "Will Greg Lopez win the 2026 Colorado Governor Republican primary election?",
-              "yes_price": 0.0035,
-              "volume": 2214
-            },
-            {
-              "market_id": "825865",
-              "slug": "will-daniel-thomas-win-the-2026-colorado-governor-republican-primary-election",
-              "question": "Will Daniel Thomas win the 2026 Colorado Governor Republican primary election?",
-              "yes_price": 0.0035,
-              "volume": 1353
-            },
-            {
-              "market_id": "825861",
-              "slug": "will-stevan-gess-win-the-2026-colorado-governor-republican-primary-election",
-              "question": "Will Stevan Gess win the 2026 Colorado Governor Republican primary election?",
-              "yes_price": 0.003,
-              "volume": 3483
-            },
-            {
-              "market_id": "825855",
-              "slug": "will-joshua-griffin-win-the-2026-colorado-governor-republican-primary-election",
-              "question": "Will Joshua Griffin win the 2026 Colorado Governor Republican primary election?",
-              "yes_price": 0.0025,
-              "volume": 1723
-            },
-            {
-              "market_id": "825859",
-              "slug": "will-will-mcbride-win-the-2026-colorado-governor-republican-primary-election",
-              "question": "Will Will McBride win the 2026 Colorado Governor Republican primary election?",
-              "yes_price": 0.0025,
-              "volume": 28230
-            },
-            {
-              "market_id": "825863",
-              "slug": "will-brycen-garrison-win-the-2026-colorado-governor-republican-primary-election",
-              "question": "Will Brycen Garrison win the 2026 Colorado Governor Republican primary election?",
-              "yes_price": 0.0025,
-              "volume": 1306
-            },
-            {
-              "market_id": "825854",
-              "slug": "will-jason-clark-win-the-2026-colorado-governor-republican-primary-election",
-              "question": "Will Jason Clark win the 2026 Colorado Governor Republican primary election?",
-              "yes_price": 0.0025,
-              "volume": 1364
-            },
-            {
-              "market_id": "825864",
-              "slug": "will-bob-brinkerhoff-win-the-2026-colorado-governor-republican-primary-election",
-              "question": "Will Bob Brinkerhoff win the 2026 Colorado Governor Republican primary election?",
-              "yes_price": 0.0025,
-              "volume": 1700
-            },
-            {
-              "market_id": "825866",
-              "slug": "will-robert-moore-win-the-2026-colorado-governor-republican-primary-election",
-              "question": "Will Robert Moore win the 2026 Colorado Governor Republican primary election?",
-              "yes_price": 0.0025,
-              "volume": 3264
-            }
-          ],
-          "url": "https://polymarket.com/event/colorado-governor-republican-primary-winner",
-          "strategy": "Buy YES on all 15 outcomes. Total cost: $0.9075. One wins $1.00. Profit: $0.0925 (9.25%)"
-        },
-        {
           "event_title": "LA-05 Republican Primary Winner",
           "event_slug": "la-05-republican-primary-winner",
           "yes_sum": 0.908,
@@ -527,81 +302,173 @@
           "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9080. One wins $1.00. Profit: $0.0920 (9.20%)"
         },
         {
-          "event_title": "Highest temperature in Miami on April 14?",
-          "event_slug": "highest-temperature-in-miami-on-april-14-2026",
-          "yes_sum": 0.9095,
-          "profit_pct": 9.05,
-          "profit_per_dollar_pct": 9.95,
-          "num_outcomes": 8,
+          "event_title": "Sabres vs. Blackhawks",
+          "event_slug": "nhl-buf-chi-2026-04-13",
+          "yes_sum": 0.91,
+          "profit_pct": 9.0,
+          "profit_per_dollar_pct": 9.89,
+          "num_outcomes": 2,
           "outcomes": [
             {
-              "market_id": "1953513",
-              "slug": "highest-temperature-in-miami-on-april-14-2026-82-83f",
-              "question": "Will the highest temperature in Miami be between 82-83\u00b0F on April 14?",
-              "yes_price": 0.38,
-              "volume": 1189
+              "market_id": "1628340",
+              "slug": "nhl-buf-chi-2026-04-13",
+              "question": "Sabres vs. Blackhawks",
+              "yes_price": 0.645,
+              "volume": 9416
             },
             {
-              "market_id": "1953512",
-              "slug": "highest-temperature-in-miami-on-april-14-2026-80-81f",
-              "question": "Will the highest temperature in Miami be between 80-81\u00b0F on April 14?",
-              "yes_price": 0.345,
-              "volume": 1408
-            },
-            {
-              "market_id": "1953511",
-              "slug": "highest-temperature-in-miami-on-april-14-2026-78-79f",
-              "question": "Will the highest temperature in Miami be between 78-79\u00b0F on April 14?",
-              "yes_price": 0.12,
-              "volume": 1405
-            },
-            {
-              "market_id": "1953510",
-              "slug": "highest-temperature-in-miami-on-april-14-2026-76-77f",
-              "question": "Will the highest temperature in Miami be between 76-77\u00b0F on April 14?",
-              "yes_price": 0.033,
-              "volume": 1824
-            },
-            {
-              "market_id": "1953508",
-              "slug": "highest-temperature-in-miami-on-april-14-2026-72-73f",
-              "question": "Will the highest temperature in Miami be between 72-73\u00b0F on April 14?",
-              "yes_price": 0.0115,
-              "volume": 5435
-            },
-            {
-              "market_id": "1953509",
-              "slug": "highest-temperature-in-miami-on-april-14-2026-74-75f",
-              "question": "Will the highest temperature in Miami be between 74-75\u00b0F on April 14?",
-              "yes_price": 0.01,
-              "volume": 1006
-            },
-            {
-              "market_id": "1953507",
-              "slug": "highest-temperature-in-miami-on-april-14-2026-70-71f",
-              "question": "Will the highest temperature in Miami be between 70-71\u00b0F on April 14?",
-              "yes_price": 0.0085,
-              "volume": 3914
-            },
-            {
-              "market_id": "1953506",
-              "slug": "highest-temperature-in-miami-on-april-14-2026-69forbelow",
-              "question": "Will the highest temperature in Miami be 69\u00b0F or below on April 14?",
-              "yes_price": 0.0015,
-              "volume": 1489
+              "market_id": "1628347",
+              "slug": "nhl-buf-chi-2026-04-13-total-7pt5",
+              "question": "Sabres vs. Blackhawks: O/U 7.5",
+              "yes_price": 0.265,
+              "volume": 19714
             }
           ],
-          "url": "https://polymarket.com/event/highest-temperature-in-miami-on-april-14-2026",
-          "strategy": "Buy YES on all 8 outcomes. Total cost: $0.9095. One wins $1.00. Profit: $0.0905 (9.05%)"
+          "url": "https://polymarket.com/event/nhl-buf-chi-2026-04-13",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9100. One wins $1.00. Profit: $0.0900 (9.00%)"
+        },
+        {
+          "event_title": "Montana Senate Election Winner",
+          "event_slug": "montana-senate-election-winner",
+          "yes_sum": 0.9115,
+          "profit_pct": 8.85,
+          "profit_per_dollar_pct": 9.71,
+          "num_outcomes": 2,
+          "outcomes": [
+            {
+              "market_id": "630832",
+              "slug": "will-the-republicans-win-the-montana-senate-race-in-2026",
+              "question": "Will the Republicans win the Montana Senate race in 2026?",
+              "yes_price": 0.79,
+              "volume": 34505
+            },
+            {
+              "market_id": "630831",
+              "slug": "will-the-democrats-win-the-montana-senate-race-in-2026",
+              "question": "Will the Democrats win the Montana Senate race in 2026?",
+              "yes_price": 0.1215,
+              "volume": 25855
+            }
+          ],
+          "url": "https://polymarket.com/event/montana-senate-election-winner",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9115. One wins $1.00. Profit: $0.0885 (8.85%)"
+        },
+        {
+          "event_title": "VA-02 Democratic Primary Winner",
+          "event_slug": "va-02-democratic-primary-winner",
+          "yes_sum": 0.913,
+          "profit_pct": 8.7,
+          "profit_per_dollar_pct": 9.53,
+          "num_outcomes": 3,
+          "outcomes": [
+            {
+              "market_id": "704140",
+              "slug": "will-elaine-luria-be-the-democratic-nominee-for-va-02",
+              "question": "Will Elaine Luria be the Democratic nominee for VA-02?",
+              "yes_price": 0.825,
+              "volume": 1102
+            },
+            {
+              "market_id": "704139",
+              "slug": "will-james-osyf-be-the-democratic-nominee-for-va-02",
+              "question": "Will James Osyf be the Democratic nominee for VA-02?",
+              "yes_price": 0.062,
+              "volume": 1097
+            },
+            {
+              "market_id": "704143",
+              "slug": "will-patrick-mosolf-be-the-democratic-nominee-for-va-02",
+              "question": "Will Patrick Mosolf be the Democratic nominee for VA-02?",
+              "yes_price": 0.026,
+              "volume": 1490
+            }
+          ],
+          "url": "https://polymarket.com/event/va-02-democratic-primary-winner",
+          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9130. One wins $1.00. Profit: $0.0870 (8.70%)"
+        },
+        {
+          "event_title": "China Annual Inflation 2026",
+          "event_slug": "china-annual-inflation-2026",
+          "yes_sum": 0.9145,
+          "profit_pct": 8.55,
+          "profit_per_dollar_pct": 9.35,
+          "num_outcomes": 9,
+          "outcomes": [
+            {
+              "market_id": "1132795",
+              "slug": "will-chinas-annual-inflation-in-2026-be-between-0pt6-and-1pt0",
+              "question": "Will China's annual inflation in 2026 be between 0.6% and 1.0%?",
+              "yes_price": 0.255,
+              "volume": 1819
+            },
+            {
+              "market_id": "1132796",
+              "slug": "will-chinas-annual-inflation-in-2026-be-between-1pt1-and-1pt5",
+              "question": "Will China's annual inflation in 2026 be between 1.1% and 1.5%?",
+              "yes_price": 0.14,
+              "volume": 2205
+            },
+            {
+              "market_id": "1132798",
+              "slug": "will-chinas-annual-inflation-in-2026-be-at-least-2pt5",
+              "question": "Will China's annual inflation in 2026 be at least 2.5%?",
+              "yes_price": 0.136,
+              "volume": 1562
+            },
+            {
+              "market_id": "1132792",
+              "slug": "will-chinas-annual-inflation-in-2026-be-between-0pt9-and-0pt5",
+              "question": "Will China's annual inflation in 2026 be between -0.9% and -0.5%?",
+              "yes_price": 0.0835,
+              "volume": 1733
+            },
+            {
+              "market_id": "1132793",
+              "slug": "will-chinas-annual-inflation-in-2026-be-between-0pt4-and-0pt0",
+              "question": "Will China's annual inflation in 2026 be between -0.4% and 0.0%?",
+              "yes_price": 0.0835,
+              "volume": 1765
+            },
+            {
+              "market_id": "1132797",
+              "slug": "will-chinas-annual-inflation-in-2026-be-between-1pt6-and-2pt0",
+              "question": "Will China's annual inflation in 2026 be between 1.6% and 2.0%?",
+              "yes_price": 0.081,
+              "volume": 2488
+            },
+            {
+              "market_id": "1237148",
+              "slug": "will-chinas-annual-inflation-in-2026-be-between-2pt0-and-2pt4",
+              "question": "Will China's annual inflation in 2026 be between 2.0% and 2.4%?",
+              "yes_price": 0.0645,
+              "volume": 1617
+            },
+            {
+              "market_id": "1132794",
+              "slug": "will-chinas-annual-inflation-in-2026-be-between-0pt1-and-0pt5",
+              "question": "Will China's annual inflation in 2026 be between 0.1% and 0.5%?",
+              "yes_price": 0.045,
+              "volume": 1628
+            },
+            {
+              "market_id": "1132791",
+              "slug": "will-chinas-annual-inflation-in-2026-be-less-than-1pt0",
+              "question": "Will China's annual inflation in 2026 be less than -1.0%?",
+              "yes_price": 0.026,
+              "volume": 16740
+            }
+          ],
+          "url": "https://polymarket.com/event/china-annual-inflation-2026",
+          "strategy": "Buy YES on all 9 outcomes. Total cost: $0.9145. One wins $1.00. Profit: $0.0855 (8.55%)"
         }
       ],
       "stats": {
         "total_events": 3000,
-        "checked_multi_outcome": 1938,
-        "skipped_single_outcome": 638,
-        "opportunities_found": 124,
-        "best_profit_pct": 10.0,
-        "scanned_at": "2026-04-12 21:40 UTC"
+        "checked_multi_outcome": 1935,
+        "skipped_single_outcome": 636,
+        "opportunities_found": 131,
+        "best_profit_pct": 9.95,
+        "scanned_at": "2026-04-12 21:50 UTC"
       }
     },
     {
