@@ -8,143 +8,269 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 134 categorical arb opportunities found\nScanned 3000 events (1992 multi-outcome) at 2026-04-12 17:16 UTC\nBest: 10.0% profit on 'Will Israel launch a major ground offensive in Gaza by...?' \u2014 buy YES on all 5 outcomes (sum=0.9)\nStrategy: Buy YES on all 5 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 10.0% on '# of seats won by PB in Bulgarian Parliamentary Election?'",
+      "result": "LIVE \u2014 136 categorical arb opportunities found\nScanned 3000 events (1994 multi-outcome) at 2026-04-12 17:19 UTC\nBest: 9.95% profit on 'Colorado Governor Republican Primary Winner' \u2014 buy YES on all 15 outcomes (sum=0.9005)\nStrategy: Buy YES on all 15 outcomes. Total cost: $0.9005. One wins $1.00. Profit: $0.0995 (9.95%)\n2nd: 9.85% on 'Hungary Election: Popular Vote Margin of Victory (Higher Strikes for Tisza)'",
       "priority": "HIGH",
-      "last_scan": "2026-04-12 17:16 UTC",
+      "last_scan": "2026-04-12 17:19 UTC",
       "opportunities": [
         {
-          "event_title": "Will Israel launch a major ground offensive in Gaza by...?",
-          "event_slug": "will-israel-launch-a-major-ground-offensive-in-gaza-by-october-31",
-          "yes_sum": 0.9,
-          "profit_pct": 10.0,
-          "profit_per_dollar_pct": 11.11,
-          "num_outcomes": 5,
+          "event_title": "Colorado Governor Republican Primary Winner",
+          "event_slug": "colorado-governor-republican-primary-winner",
+          "yes_sum": 0.9005,
+          "profit_pct": 9.95,
+          "profit_per_dollar_pct": 11.05,
+          "num_outcomes": 15,
           "outcomes": [
             {
-              "market_id": "1642010",
-              "slug": "will-israel-launch-a-major-ground-offensive-in-gaza-by-december-31-828",
-              "question": "Will Israel launch a major ground offensive in Gaza by December 31?",
-              "yes_price": 0.56,
-              "volume": 18180
+              "market_id": "825858",
+              "slug": "will-victor-marx-win-the-2026-colorado-governor-republican-primary-election",
+              "question": "Will Victor Marx win the 2026 Colorado Governor Republican primary election?",
+              "yes_price": 0.405,
+              "volume": 3536
             },
             {
-              "market_id": "1642009",
-              "slug": "will-israel-launch-a-major-ground-offensive-in-gaza-by-june-30",
-              "question": "Will Israel launch a major ground offensive in Gaza by June 30?",
-              "yes_price": 0.34,
-              "volume": 13424
-            },
-            {
-              "market_id": "639929",
-              "slug": "will-israel-launch-a-major-ground-offensive-in-gaza-by-december-31",
-              "question": "Will Israel launch a major ground offensive in Gaza by December 31?",
-              "yes_price": 0.0,
-              "volume": 50690
-            },
-            {
-              "market_id": "639928",
-              "slug": "will-israel-launch-a-major-ground-offensive-in-gaza-by-october-31",
-              "question": "Will Israel launch a major ground offensive in Gaza by October 31?",
-              "yes_price": 0.0,
-              "volume": 100197
-            },
-            {
-              "market_id": "677398",
-              "slug": "will-israel-launch-a-major-ground-offensive-in-gaza-by-march-31",
-              "question": "Will Israel launch a major ground offensive in Gaza by March 31?",
-              "yes_price": 0.0,
-              "volume": 325856
-            }
-          ],
-          "url": "https://polymarket.com/event/will-israel-launch-a-major-ground-offensive-in-gaza-by-october-31",
-          "strategy": "Buy YES on all 5 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
-        },
-        {
-          "event_title": "# of seats won by PB in Bulgarian Parliamentary Election?",
-          "event_slug": "of-seats-won-by-pb-in-bulgarian-parliamentary-election",
-          "yes_sum": 0.9,
-          "profit_pct": 10.0,
-          "profit_per_dollar_pct": 11.11,
-          "num_outcomes": 4,
-          "outcomes": [
-            {
-              "market_id": "1738484",
-              "slug": "will-progressive-bulgaria-pb-win-between-90-94-seats-in-the-2026-bulgarian-parliamentary-election",
-              "question": "Will Progressive Bulgaria (PB) win between 90-94 seats in the 2026 Bulgarian par",
-              "yes_price": 0.32,
-              "volume": 6348
-            },
-            {
-              "market_id": "1738483",
-              "slug": "will-progressive-bulgaria-pb-win-between-85-89-seats-in-the-2026-bulgarian-parliamentary-election",
-              "question": "Will Progressive Bulgaria (PB) win between 85-89 seats in the 2026 Bulgarian par",
-              "yes_price": 0.245,
-              "volume": 8014
-            },
-            {
-              "market_id": "1738485",
-              "slug": "will-progressive-bulgaria-pb-win-95-or-more-seats-in-the-2026-bulgarian-parliamentary-election",
-              "question": "Will Progressive Bulgaria (PB) win 95 or more seats in the 2026 Bulgarian parlia",
-              "yes_price": 0.19,
-              "volume": 12751
-            },
-            {
-              "market_id": "1738482",
-              "slug": "will-progressive-bulgaria-pb-win-between-80-84-seats-in-the-2026-bulgarian-parliamentary-election",
-              "question": "Will Progressive Bulgaria (PB) win between 80-84 seats in the 2026 Bulgarian par",
-              "yes_price": 0.145,
-              "volume": 7917
-            }
-          ],
-          "url": "https://polymarket.com/event/of-seats-won-by-pb-in-bulgarian-parliamentary-election",
-          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
-        },
-        {
-          "event_title": "Maduro Prison Time?",
-          "event_slug": "maduro-prison-time-527",
-          "yes_sum": 0.904,
-          "profit_pct": 9.6,
-          "profit_per_dollar_pct": 10.62,
-          "num_outcomes": 5,
-          "outcomes": [
-            {
-              "market_id": "1098292",
-              "slug": "will-nicols-maduro-be-sentenced-to-at-least-60-years-in-prison",
-              "question": "Will Nicol\u00e1s Maduro be sentenced to at least 60 years in prison?",
-              "yes_price": 0.35,
-              "volume": 30724
-            },
-            {
-              "market_id": "1098288",
-              "slug": "will-nicols-maduro-be-sentenced-to-no-prison-time-974",
-              "question": "Will Nicol\u00e1s Maduro be sentenced to no prison time?",
+              "market_id": "825856",
+              "slug": "will-barbara-kirkmeyer-win-the-2026-colorado-governor-republican-primary-election",
+              "question": "Will Barbara Kirkmeyer win the 2026 Colorado Governor Republican primary electio",
               "yes_price": 0.265,
-              "volume": 362889
+              "volume": 17900
             },
             {
-              "market_id": "1098291",
-              "slug": "will-nicols-maduro-be-sentenced-to-between-40-and-60-years-in-prison",
-              "question": "Will Nicol\u00e1s Maduro be sentenced to between 40 and 60 years in prison?",
-              "yes_price": 0.145,
-              "volume": 13925
+              "market_id": "825853",
+              "slug": "will-scott-bottoms-win-the-2026-colorado-governor-republican-primary-election",
+              "question": "Will Scott Bottoms win the 2026 Colorado Governor Republican primary election?",
+              "yes_price": 0.16,
+              "volume": 2749
             },
             {
-              "market_id": "1098289",
-              "slug": "will-nicols-maduro-be-sentenced-to-less-than-20-years-in-prison",
-              "question": "Will Nicol\u00e1s Maduro be sentenced to less than 20 years in prison?",
-              "yes_price": 0.0765,
-              "volume": 28470
+              "market_id": "825852",
+              "slug": "will-mark-baisley-win-the-2026-colorado-governor-republican-primary-election",
+              "question": "Will Mark Baisley win the 2026 Colorado Governor Republican primary election?",
+              "yes_price": 0.025,
+              "volume": 7572
             },
             {
-              "market_id": "1098290",
-              "slug": "will-nicols-maduro-be-sentenced-to-between-20-and-40-years-in-prison",
-              "question": "Will Nicol\u00e1s Maduro be sentenced to between 20 and 40 years in prison?",
-              "yes_price": 0.0675,
-              "volume": 33790
+              "market_id": "825862",
+              "slug": "will-jon-gray-ginsberg-win-the-2026-colorado-governor-republican-primary-election",
+              "question": "Will Jon Gray-Ginsberg win the 2026 Colorado Governor Republican primary electio",
+              "yes_price": 0.013,
+              "volume": 5820
+            },
+            {
+              "market_id": "825860",
+              "slug": "will-jason-mikesell-win-the-2026-colorado-governor-republican-primary-election",
+              "question": "Will Jason Mikesell win the 2026 Colorado Governor Republican primary election?",
+              "yes_price": 0.0075,
+              "volume": 1769
+            },
+            {
+              "market_id": "825857",
+              "slug": "will-greg-lopez-win-the-2026-colorado-governor-republican-primary-election",
+              "question": "Will Greg Lopez win the 2026 Colorado Governor Republican primary election?",
+              "yes_price": 0.0035,
+              "volume": 2214
+            },
+            {
+              "market_id": "825865",
+              "slug": "will-daniel-thomas-win-the-2026-colorado-governor-republican-primary-election",
+              "question": "Will Daniel Thomas win the 2026 Colorado Governor Republican primary election?",
+              "yes_price": 0.0035,
+              "volume": 1353
+            },
+            {
+              "market_id": "825861",
+              "slug": "will-stevan-gess-win-the-2026-colorado-governor-republican-primary-election",
+              "question": "Will Stevan Gess win the 2026 Colorado Governor Republican primary election?",
+              "yes_price": 0.003,
+              "volume": 3483
+            },
+            {
+              "market_id": "825855",
+              "slug": "will-joshua-griffin-win-the-2026-colorado-governor-republican-primary-election",
+              "question": "Will Joshua Griffin win the 2026 Colorado Governor Republican primary election?",
+              "yes_price": 0.0025,
+              "volume": 1723
+            },
+            {
+              "market_id": "825859",
+              "slug": "will-will-mcbride-win-the-2026-colorado-governor-republican-primary-election",
+              "question": "Will Will McBride win the 2026 Colorado Governor Republican primary election?",
+              "yes_price": 0.0025,
+              "volume": 28230
+            },
+            {
+              "market_id": "825863",
+              "slug": "will-brycen-garrison-win-the-2026-colorado-governor-republican-primary-election",
+              "question": "Will Brycen Garrison win the 2026 Colorado Governor Republican primary election?",
+              "yes_price": 0.0025,
+              "volume": 1306
+            },
+            {
+              "market_id": "825854",
+              "slug": "will-jason-clark-win-the-2026-colorado-governor-republican-primary-election",
+              "question": "Will Jason Clark win the 2026 Colorado Governor Republican primary election?",
+              "yes_price": 0.0025,
+              "volume": 1364
+            },
+            {
+              "market_id": "825864",
+              "slug": "will-bob-brinkerhoff-win-the-2026-colorado-governor-republican-primary-election",
+              "question": "Will Bob Brinkerhoff win the 2026 Colorado Governor Republican primary election?",
+              "yes_price": 0.0025,
+              "volume": 1700
+            },
+            {
+              "market_id": "825866",
+              "slug": "will-robert-moore-win-the-2026-colorado-governor-republican-primary-election",
+              "question": "Will Robert Moore win the 2026 Colorado Governor Republican primary election?",
+              "yes_price": 0.0025,
+              "volume": 3264
             }
           ],
-          "url": "https://polymarket.com/event/maduro-prison-time-527",
-          "strategy": "Buy YES on all 5 outcomes. Total cost: $0.9040. One wins $1.00. Profit: $0.0960 (9.60%)"
+          "url": "https://polymarket.com/event/colorado-governor-republican-primary-winner",
+          "strategy": "Buy YES on all 15 outcomes. Total cost: $0.9005. One wins $1.00. Profit: $0.0995 (9.95%)"
+        },
+        {
+          "event_title": "Hungary Election: Popular Vote Margin of Victory (Higher Strikes for Tisza)",
+          "event_slug": "hungary-election-popular-vote-margin-of-victory-higher-strikes-for-tisza",
+          "yes_sum": 0.9015,
+          "profit_pct": 9.85,
+          "profit_per_dollar_pct": 10.93,
+          "num_outcomes": 6,
+          "outcomes": [
+            {
+              "market_id": "1795364",
+              "slug": "will-tisza-win-the-national-list-vote-in-the-2026-hungarian-parliamentary-election-by-9-635",
+              "question": "Will Tisza win the national list vote in the 2026 Hungarian Parliamentary electi",
+              "yes_price": 0.325,
+              "volume": 28374
+            },
+            {
+              "market_id": "1795363",
+              "slug": "will-tisza-win-the-national-list-vote-in-the-2026-hungarian-parliamentary-election-by-9-12",
+              "question": "Will Tisza win the national list vote in the 2026 Hungarian Parliamentary electi",
+              "yes_price": 0.175,
+              "volume": 18484
+            },
+            {
+              "market_id": "1795360",
+              "slug": "will-tisza-win-the-national-list-vote-in-the-2026-hungarian-parliamentary-election-by-18",
+              "question": "Will Tisza win the national list vote in the 2026 Hungarian Parliamentary electi",
+              "yes_price": 0.12,
+              "volume": 22059
+            },
+            {
+              "market_id": "1795362",
+              "slug": "will-tisza-win-the-national-list-vote-in-the-2026-hungarian-parliamentary-election-by-12-15",
+              "question": "Will Tisza win the national list vote in the 2026 Hungarian Parliamentary electi",
+              "yes_price": 0.115,
+              "volume": 15505
+            },
+            {
+              "market_id": "1795365",
+              "slug": "will-another-outcome-occur-in-the-2026-hungarian-parliamentary-election-195",
+              "question": "Will another outcome occur in the 2026 Hungarian Parliamentary election?",
+              "yes_price": 0.09,
+              "volume": 23088
+            },
+            {
+              "market_id": "1795361",
+              "slug": "will-tisza-win-the-national-list-vote-in-the-2026-hungarian-parliamentary-election-by-15-18",
+              "question": "Will Tisza win the national list vote in the 2026 Hungarian Parliamentary electi",
+              "yes_price": 0.0765,
+              "volume": 18503
+            }
+          ],
+          "url": "https://polymarket.com/event/hungary-election-popular-vote-margin-of-victory-higher-strikes-for-tisza",
+          "strategy": "Buy YES on all 6 outcomes. Total cost: $0.9015. One wins $1.00. Profit: $0.0985 (9.85%)"
+        },
+        {
+          "event_title": "Highest temperature in Miami on April 12?",
+          "event_slug": "highest-temperature-in-miami-on-april-12-2026",
+          "yes_sum": 0.9015,
+          "profit_pct": 9.85,
+          "profit_per_dollar_pct": 10.93,
+          "num_outcomes": 11,
+          "outcomes": [
+            {
+              "market_id": "1914915",
+              "slug": "highest-temperature-in-miami-on-april-12-2026-80-81f",
+              "question": "Will the highest temperature in Miami be between 80-81\u00b0F on April 12?",
+              "yes_price": 0.66,
+              "volume": 7652
+            },
+            {
+              "market_id": "1914916",
+              "slug": "highest-temperature-in-miami-on-april-12-2026-82-83f",
+              "question": "Will the highest temperature in Miami be between 82-83\u00b0F on April 12?",
+              "yes_price": 0.135,
+              "volume": 8994
+            },
+            {
+              "market_id": "1914914",
+              "slug": "highest-temperature-in-miami-on-april-12-2026-78-79f",
+              "question": "Will the highest temperature in Miami be between 78-79\u00b0F on April 12?",
+              "yes_price": 0.09,
+              "volume": 8486
+            },
+            {
+              "market_id": "1914917",
+              "slug": "highest-temperature-in-miami-on-april-12-2026-84-85f",
+              "question": "Will the highest temperature in Miami be between 84-85\u00b0F on April 12?",
+              "yes_price": 0.012,
+              "volume": 6271
+            },
+            {
+              "market_id": "1914918",
+              "slug": "highest-temperature-in-miami-on-april-12-2026-86-87f",
+              "question": "Will the highest temperature in Miami be between 86-87\u00b0F on April 12?",
+              "yes_price": 0.003,
+              "volume": 4370
+            },
+            {
+              "market_id": "1914913",
+              "slug": "highest-temperature-in-miami-on-april-12-2026-76-77f",
+              "question": "Will the highest temperature in Miami be between 76-77\u00b0F on April 12?",
+              "yes_price": 0.0005,
+              "volume": 10696
+            },
+            {
+              "market_id": "1914919",
+              "slug": "highest-temperature-in-miami-on-april-12-2026-88-89f",
+              "question": "Will the highest temperature in Miami be between 88-89\u00b0F on April 12?",
+              "yes_price": 0.0005,
+              "volume": 3254
+            },
+            {
+              "market_id": "1914920",
+              "slug": "highest-temperature-in-miami-on-april-12-2026-90forhigher",
+              "question": "Will the highest temperature in Miami be 90\u00b0F or higher on April 12?",
+              "yes_price": 0.0005,
+              "volume": 5705
+            },
+            {
+              "market_id": "1914910",
+              "slug": "highest-temperature-in-miami-on-april-12-2026-71forbelow",
+              "question": "Will the highest temperature in Miami be 71\u00b0F or below on April 12?",
+              "yes_price": 0.0,
+              "volume": 12840
+            },
+            {
+              "market_id": "1914911",
+              "slug": "highest-temperature-in-miami-on-april-12-2026-72-73f",
+              "question": "Will the highest temperature in Miami be between 72-73\u00b0F on April 12?",
+              "yes_price": 0.0,
+              "volume": 6202
+            },
+            {
+              "market_id": "1914912",
+              "slug": "highest-temperature-in-miami-on-april-12-2026-74-75f",
+              "question": "Will the highest temperature in Miami be between 74-75\u00b0F on April 12?",
+              "yes_price": 0.0,
+              "volume": 6077
+            }
+          ],
+          "url": "https://polymarket.com/event/highest-temperature-in-miami-on-april-12-2026",
+          "strategy": "Buy YES on all 11 outcomes. Total cost: $0.9015. One wins $1.00. Profit: $0.0985 (9.85%)"
         },
         {
           "event_title": "Will Opensea launch a token by ___?",
@@ -227,86 +353,166 @@
           "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
         },
         {
-          "event_title": "Will Audemars Piguet prices hit __ by April 30?",
-          "event_slug": "will-audemars-piguet-prices-hit-by-april-30",
-          "yes_sum": 0.9075,
-          "profit_pct": 9.25,
-          "profit_per_dollar_pct": 10.19,
-          "num_outcomes": 10,
+          "event_title": "# of seats won by PB in Bulgarian Parliamentary Election?",
+          "event_slug": "of-seats-won-by-pb-in-bulgarian-parliamentary-election",
+          "yes_sum": 0.905,
+          "profit_pct": 9.5,
+          "profit_per_dollar_pct": 10.5,
+          "num_outcomes": 4,
           "outcomes": [
             {
-              "market_id": "1613931",
-              "slug": "will-the-audemars-piguet-index-hit-41000-low-by-april-30",
-              "question": "Will the Audemars Piguet Index hit $41,000 (LOW) by April 30?",
-              "yes_price": 0.305,
-              "volume": 12438
+              "market_id": "1738484",
+              "slug": "will-progressive-bulgaria-pb-win-between-90-94-seats-in-the-2026-bulgarian-parliamentary-election",
+              "question": "Will Progressive Bulgaria (PB) win between 90-94 seats in the 2026 Bulgarian par",
+              "yes_price": 0.32,
+              "volume": 6348
             },
             {
-              "market_id": "1613930",
-              "slug": "will-the-audemars-piguet-index-hit-41500-high-by-april-30",
-              "question": "Will the Audemars Piguet Index hit $41,500 (HIGH) by April 30?",
-              "yes_price": 0.285,
-              "volume": 3608
+              "market_id": "1738483",
+              "slug": "will-progressive-bulgaria-pb-win-between-85-89-seats-in-the-2026-bulgarian-parliamentary-election",
+              "question": "Will Progressive Bulgaria (PB) win between 85-89 seats in the 2026 Bulgarian par",
+              "yes_price": 0.245,
+              "volume": 8014
             },
             {
-              "market_id": "1613934",
-              "slug": "will-the-audemars-piguet-index-hit-40250-low-by-april-30",
-              "question": "Will the Audemars Piguet Index hit $40,250 (LOW) by April 30?",
-              "yes_price": 0.125,
-              "volume": 1348
+              "market_id": "1738485",
+              "slug": "will-progressive-bulgaria-pb-win-95-or-more-seats-in-the-2026-bulgarian-parliamentary-election",
+              "question": "Will Progressive Bulgaria (PB) win 95 or more seats in the 2026 Bulgarian parlia",
+              "yes_price": 0.195,
+              "volume": 12751
             },
             {
-              "market_id": "1613935",
-              "slug": "will-the-audemars-piguet-index-hit-40000-low-by-april-30",
-              "question": "Will the Audemars Piguet Index hit $40,000 (LOW) by April 30?",
-              "yes_price": 0.0615,
-              "volume": 2663
-            },
-            {
-              "market_id": "1613928",
-              "slug": "will-the-audemars-piguet-index-hit-42000-high-by-april-30",
-              "question": "Will the Audemars Piguet Index hit $42,000 (HIGH) by April 30?",
-              "yes_price": 0.0365,
-              "volume": 5900
-            },
-            {
-              "market_id": "1613926",
-              "slug": "will-the-audemars-piguet-index-hit-42500-high-by-april-30",
-              "question": "Will the Audemars Piguet Index hit $42,500 (HIGH) by April 30?",
-              "yes_price": 0.028,
-              "volume": 5707
-            },
-            {
-              "market_id": "1613927",
-              "slug": "will-the-audemars-piguet-index-hit-42250-high-by-april-30",
-              "question": "Will the Audemars Piguet Index hit $42,250 (HIGH) by April 30?",
-              "yes_price": 0.021,
-              "volume": 2135
-            },
-            {
-              "market_id": "1613936",
-              "slug": "will-the-audemars-piguet-index-hit-39000-low-by-april-30",
-              "question": "Will the Audemars Piguet Index hit $39,000 (LOW) by April 30?",
-              "yes_price": 0.018,
-              "volume": 1646
-            },
-            {
-              "market_id": "1613925",
-              "slug": "will-the-audemars-piguet-index-hit-43000-high-by-april-30",
-              "question": "Will the Audemars Piguet Index hit $43,000 (HIGH) by April 30?",
-              "yes_price": 0.014,
-              "volume": 2047
-            },
-            {
-              "market_id": "1613924",
-              "slug": "will-the-audemars-piguet-index-hit-44000-high-by-april-30",
-              "question": "Will the Audemars Piguet Index hit $44,000 (HIGH) by April 30?",
-              "yes_price": 0.0135,
-              "volume": 9609
+              "market_id": "1738482",
+              "slug": "will-progressive-bulgaria-pb-win-between-80-84-seats-in-the-2026-bulgarian-parliamentary-election",
+              "question": "Will Progressive Bulgaria (PB) win between 80-84 seats in the 2026 Bulgarian par",
+              "yes_price": 0.145,
+              "volume": 7917
             }
           ],
-          "url": "https://polymarket.com/event/will-audemars-piguet-prices-hit-by-april-30",
-          "strategy": "Buy YES on all 10 outcomes. Total cost: $0.9075. One wins $1.00. Profit: $0.0925 (9.25%)"
+          "url": "https://polymarket.com/event/of-seats-won-by-pb-in-bulgarian-parliamentary-election",
+          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
+        },
+        {
+          "event_title": "Which banks will fail by end of 2026?",
+          "event_slug": "which-banks-will-fail-by-end-of-2026",
+          "yes_sum": 0.905,
+          "profit_pct": 9.5,
+          "profit_per_dollar_pct": 10.5,
+          "num_outcomes": 3,
+          "outcomes": [
+            {
+              "market_id": "1922869",
+              "slug": "will-truist-fail-by-end-of-2026",
+              "question": "Will Truist fail by end of 2026?",
+              "yes_price": 0.395,
+              "volume": 6274
+            },
+            {
+              "market_id": "1922873",
+              "slug": "will-lloyds-fail-by-end-of-2026",
+              "question": "Will Lloyds fail by end of 2026?",
+              "yes_price": 0.315,
+              "volume": 4960
+            },
+            {
+              "market_id": "1922875",
+              "slug": "will-keybank-fail-by-end-of-2026",
+              "question": "Will KeyBank fail by end of 2026?",
+              "yes_price": 0.195,
+              "volume": 6527
+            }
+          ],
+          "url": "https://polymarket.com/event/which-banks-will-fail-by-end-of-2026",
+          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
+        },
+        {
+          "event_title": "CZ # posts April 7 - April 14, 2026?",
+          "event_slug": "cz-binance-of-tweets-april-7-april-14-2026",
+          "yes_sum": 0.9065,
+          "profit_pct": 9.35,
+          "profit_per_dollar_pct": 10.31,
+          "num_outcomes": 11,
+          "outcomes": [
+            {
+              "market_id": "1854119",
+              "slug": "cz-binance-of-tweets-april-7-april-14-2026-60-79",
+              "question": "Will CZ post 60-79 posts from April 7 to April 14, 2026?",
+              "yes_price": 0.7865,
+              "volume": 3483
+            },
+            {
+              "market_id": "1854131",
+              "slug": "cz-binance-of-tweets-april-7-april-14-2026-80-99",
+              "question": "Will CZ post 80-99 posts from April 7 to April 14, 2026?",
+              "yes_price": 0.0845,
+              "volume": 2147
+            },
+            {
+              "market_id": "1854111",
+              "slug": "cz-binance-of-tweets-april-7-april-14-2026-40-59",
+              "question": "Will CZ post 40-59 posts from April 7 to April 14, 2026?",
+              "yes_price": 0.025,
+              "volume": 8461
+            },
+            {
+              "market_id": "1854146",
+              "slug": "cz-binance-of-tweets-april-7-april-14-2026-100-119",
+              "question": "Will CZ post 100-119 posts from April 7 to April 14, 2026?",
+              "yes_price": 0.0045,
+              "volume": 1032
+            },
+            {
+              "market_id": "1854162",
+              "slug": "cz-binance-of-tweets-april-7-april-14-2026-120-139",
+              "question": "Will CZ post 120-139 posts from April 7 to April 14, 2026?",
+              "yes_price": 0.0035,
+              "volume": 1194
+            },
+            {
+              "market_id": "1854179",
+              "slug": "cz-binance-of-tweets-april-7-april-14-2026-160-179",
+              "question": "Will CZ post 160-179 posts from April 7 to April 14, 2026?",
+              "yes_price": 0.001,
+              "volume": 6783
+            },
+            {
+              "market_id": "1854171",
+              "slug": "cz-binance-of-tweets-april-7-april-14-2026-140-159",
+              "question": "Will CZ post 140-159 posts from April 7 to April 14, 2026?",
+              "yes_price": 0.0005,
+              "volume": 1100
+            },
+            {
+              "market_id": "1854187",
+              "slug": "cz-binance-of-tweets-april-7-april-14-2026-180-199",
+              "question": "Will CZ post 180-199 posts from April 7 to April 14, 2026?",
+              "yes_price": 0.0005,
+              "volume": 1875
+            },
+            {
+              "market_id": "1854193",
+              "slug": "cz-binance-of-tweets-april-7-april-14-2026-200plus",
+              "question": "Will CZ post 200+ posts from April 7 to April 14, 2026?",
+              "yes_price": 0.0005,
+              "volume": 3126
+            },
+            {
+              "market_id": "1854097",
+              "slug": "cz-binance-of-tweets-april-7-april-14-2026-0-19",
+              "question": "Will CZ post 0-19 posts from April 7 to April 14, 2026?",
+              "yes_price": 0.0,
+              "volume": 5026
+            },
+            {
+              "market_id": "1854104",
+              "slug": "cz-binance-of-tweets-april-7-april-14-2026-20-39",
+              "question": "Will CZ post 20-39 posts from April 7 to April 14, 2026?",
+              "yes_price": 0.0,
+              "volume": 4477
+            }
+          ],
+          "url": "https://polymarket.com/event/cz-binance-of-tweets-april-7-april-14-2026",
+          "strategy": "Buy YES on all 11 outcomes. Total cost: $0.9065. One wins $1.00. Profit: $0.0935 (9.35%)"
         },
         {
           "event_title": "South Dakota Governor Election Winner",
@@ -359,130 +565,15 @@
           ],
           "url": "https://polymarket.com/event/montana-senate-election-winner",
           "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9095. One wins $1.00. Profit: $0.0905 (9.05%)"
-        },
-        {
-          "event_title": "Highest temperature in Atlanta on April 13?",
-          "event_slug": "highest-temperature-in-atlanta-on-april-13-2026",
-          "yes_sum": 0.9095,
-          "profit_pct": 9.05,
-          "profit_per_dollar_pct": 9.95,
-          "num_outcomes": 11,
-          "outcomes": [
-            {
-              "market_id": "1924434",
-              "slug": "highest-temperature-in-atlanta-on-april-13-2026-80-81f",
-              "question": "Will the highest temperature in Atlanta be between 80-81\u00b0F on April 13?",
-              "yes_price": 0.365,
-              "volume": 1718
-            },
-            {
-              "market_id": "1924435",
-              "slug": "highest-temperature-in-atlanta-on-april-13-2026-82-83f",
-              "question": "Will the highest temperature in Atlanta be between 82-83\u00b0F on April 13?",
-              "yes_price": 0.265,
-              "volume": 2709
-            },
-            {
-              "market_id": "1924436",
-              "slug": "highest-temperature-in-atlanta-on-april-13-2026-84-85f",
-              "question": "Will the highest temperature in Atlanta be between 84-85\u00b0F on April 13?",
-              "yes_price": 0.16,
-              "volume": 4279
-            },
-            {
-              "market_id": "1924433",
-              "slug": "highest-temperature-in-atlanta-on-april-13-2026-78-79f",
-              "question": "Will the highest temperature in Atlanta be between 78-79\u00b0F on April 13?",
-              "yes_price": 0.0655,
-              "volume": 3533
-            },
-            {
-              "market_id": "1924432",
-              "slug": "highest-temperature-in-atlanta-on-april-13-2026-76-77f",
-              "question": "Will the highest temperature in Atlanta be between 76-77\u00b0F on April 13?",
-              "yes_price": 0.016,
-              "volume": 2545
-            },
-            {
-              "market_id": "1924437",
-              "slug": "highest-temperature-in-atlanta-on-april-13-2026-86-87f",
-              "question": "Will the highest temperature in Atlanta be between 86-87\u00b0F on April 13?",
-              "yes_price": 0.0155,
-              "volume": 5932
-            },
-            {
-              "market_id": "1924431",
-              "slug": "highest-temperature-in-atlanta-on-april-13-2026-74-75f",
-              "question": "Will the highest temperature in Atlanta be between 74-75\u00b0F on April 13?",
-              "yes_price": 0.007,
-              "volume": 2225
-            },
-            {
-              "market_id": "1924438",
-              "slug": "highest-temperature-in-atlanta-on-april-13-2026-88-89f",
-              "question": "Will the highest temperature in Atlanta be between 88-89\u00b0F on April 13?",
-              "yes_price": 0.006,
-              "volume": 2088
-            },
-            {
-              "market_id": "1924439",
-              "slug": "highest-temperature-in-atlanta-on-april-13-2026-90-91f",
-              "question": "Will the highest temperature in Atlanta be between 90-91\u00b0F on April 13?",
-              "yes_price": 0.004,
-              "volume": 1360
-            },
-            {
-              "market_id": "1924430",
-              "slug": "highest-temperature-in-atlanta-on-april-13-2026-73forbelow",
-              "question": "Will the highest temperature in Atlanta be 73\u00b0F or below on April 13?",
-              "yes_price": 0.0035,
-              "volume": 6260
-            },
-            {
-              "market_id": "1924440",
-              "slug": "highest-temperature-in-atlanta-on-april-13-2026-92forhigher",
-              "question": "Will the highest temperature in Atlanta be 92\u00b0F or higher on April 13?",
-              "yes_price": 0.002,
-              "volume": 2962
-            }
-          ],
-          "url": "https://polymarket.com/event/highest-temperature-in-atlanta-on-april-13-2026",
-          "strategy": "Buy YES on all 11 outcomes. Total cost: $0.9095. One wins $1.00. Profit: $0.0905 (9.05%)"
-        },
-        {
-          "event_title": "Houston Astros vs. Seattle Mariners",
-          "event_slug": "mlb-hou-sea-2026-04-12",
-          "yes_sum": 0.91,
-          "profit_pct": 9.0,
-          "profit_per_dollar_pct": 9.89,
-          "num_outcomes": 2,
-          "outcomes": [
-            {
-              "market_id": "1955693",
-              "slug": "mlb-hou-sea-2026-04-12-total-7pt5",
-              "question": "Houston Astros vs. Seattle Mariners: O/U 7.5",
-              "yes_price": 0.515,
-              "volume": 1559
-            },
-            {
-              "market_id": "1890669",
-              "slug": "mlb-hou-sea-2026-04-12",
-              "question": "Houston Astros vs. Seattle Mariners",
-              "yes_price": 0.395,
-              "volume": 742550
-            }
-          ],
-          "url": "https://polymarket.com/event/mlb-hou-sea-2026-04-12",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9100. One wins $1.00. Profit: $0.0900 (9.00%)"
         }
       ],
       "stats": {
         "total_events": 3000,
-        "checked_multi_outcome": 1992,
-        "skipped_single_outcome": 630,
-        "opportunities_found": 134,
-        "best_profit_pct": 10.0,
-        "scanned_at": "2026-04-12 17:16 UTC"
+        "checked_multi_outcome": 1994,
+        "skipped_single_outcome": 627,
+        "opportunities_found": 136,
+        "best_profit_pct": 9.95,
+        "scanned_at": "2026-04-12 17:19 UTC"
       }
     },
     {
