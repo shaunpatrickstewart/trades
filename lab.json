@@ -8,9 +8,9 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 136 categorical arb opportunities found\nScanned 3000 events (1994 multi-outcome) at 2026-04-12 17:19 UTC\nBest: 9.95% profit on 'Colorado Governor Republican Primary Winner' \u2014 buy YES on all 15 outcomes (sum=0.9005)\nStrategy: Buy YES on all 15 outcomes. Total cost: $0.9005. One wins $1.00. Profit: $0.0995 (9.95%)\n2nd: 9.85% on 'Hungary Election: Popular Vote Margin of Victory (Higher Strikes for Tisza)'",
+      "result": "LIVE \u2014 108 categorical arb opportunities found\nScanned 2100 events (1602 multi-outcome) at 2026-04-12 17:21 UTC\nBest: 9.95% profit on 'Colorado Governor Republican Primary Winner' \u2014 buy YES on all 15 outcomes (sum=0.9005)\nStrategy: Buy YES on all 15 outcomes. Total cost: $0.9005. One wins $1.00. Profit: $0.0995 (9.95%)\n2nd: 9.85% on 'Hungary Election: Popular Vote Margin of Victory (Higher Strikes for Tisza)'",
       "priority": "HIGH",
-      "last_scan": "2026-04-12 17:19 UTC",
+      "last_scan": "2026-04-12 17:21 UTC",
       "opportunities": [
         {
           "event_title": "Colorado Governor Republican Primary Winner",
@@ -515,32 +515,6 @@
           "strategy": "Buy YES on all 11 outcomes. Total cost: $0.9065. One wins $1.00. Profit: $0.0935 (9.35%)"
         },
         {
-          "event_title": "South Dakota Governor Election Winner",
-          "event_slug": "south-dakota-governor-winner-2026",
-          "yes_sum": 0.908,
-          "profit_pct": 9.2,
-          "profit_per_dollar_pct": 10.13,
-          "num_outcomes": 2,
-          "outcomes": [
-            {
-              "market_id": "629654",
-              "slug": "will-the-republicans-win-the-south-dakota-governor-race-in-2026",
-              "question": "Will the Republicans win the South Dakota governor race in 2026?",
-              "yes_price": 0.86,
-              "volume": 4550
-            },
-            {
-              "market_id": "629653",
-              "slug": "will-the-democrats-win-the-south-dakota-governor-race-in-2026",
-              "question": "Will the Democrats win the South Dakota governor race in 2026?",
-              "yes_price": 0.048,
-              "volume": 7316
-            }
-          ],
-          "url": "https://polymarket.com/event/south-dakota-governor-winner-2026",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9080. One wins $1.00. Profit: $0.0920 (9.20%)"
-        },
-        {
           "event_title": "Montana Senate Election Winner",
           "event_slug": "montana-senate-election-winner",
           "yes_sum": 0.9095,
@@ -565,15 +539,41 @@
           ],
           "url": "https://polymarket.com/event/montana-senate-election-winner",
           "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9095. One wins $1.00. Profit: $0.0905 (9.05%)"
+        },
+        {
+          "event_title": "Houston Astros vs. Seattle Mariners",
+          "event_slug": "mlb-hou-sea-2026-04-12",
+          "yes_sum": 0.91,
+          "profit_pct": 9.0,
+          "profit_per_dollar_pct": 9.89,
+          "num_outcomes": 2,
+          "outcomes": [
+            {
+              "market_id": "1955693",
+              "slug": "mlb-hou-sea-2026-04-12-total-7pt5",
+              "question": "Houston Astros vs. Seattle Mariners: O/U 7.5",
+              "yes_price": 0.515,
+              "volume": 1561
+            },
+            {
+              "market_id": "1890669",
+              "slug": "mlb-hou-sea-2026-04-12",
+              "question": "Houston Astros vs. Seattle Mariners",
+              "yes_price": 0.395,
+              "volume": 742603
+            }
+          ],
+          "url": "https://polymarket.com/event/mlb-hou-sea-2026-04-12",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9100. One wins $1.00. Profit: $0.0900 (9.00%)"
         }
       ],
       "stats": {
-        "total_events": 3000,
-        "checked_multi_outcome": 1994,
-        "skipped_single_outcome": 627,
-        "opportunities_found": 136,
+        "total_events": 2100,
+        "checked_multi_outcome": 1602,
+        "skipped_single_outcome": 430,
+        "opportunities_found": 108,
         "best_profit_pct": 9.95,
-        "scanned_at": "2026-04-12 17:19 UTC"
+        "scanned_at": "2026-04-12 17:21 UTC"
       }
     },
     {
