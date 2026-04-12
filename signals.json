@@ -1,15 +1,15 @@
 {
-  "last_scan": "2026-04-12T20:12:21.522705+00:00",
-  "scan_seconds": 28.7,
-  "markets_scanned": 35,
+  "last_scan": "2026-04-12T21:00:53.356061+00:00",
+  "scan_seconds": 28.3,
+  "markets_scanned": 41,
   "open_positions": 18,
   "signals": [
     {
-      "id": "sig_498402",
-      "timestamp": "2026-04-12T20:12:02.376366+00:00",
+      "id": "sig_410552",
+      "timestamp": "2026-04-12T21:00:34.523453+00:00",
       "source": "PERPLEXITY",
-      "headline": "US Announces Strait of Hormuz Blockade After Iran Peace Talks Collapse in Islamabad | NO | HIGH confidence** [2][4][5][6",
-      "raw": "US Announces Strait of Hormuz Blockade After Iran Peace Talks Collapse in Islamabad | NO | HIGH confidence** [2][4][5][6][8]\n\nA fragile two-week ceasefire between the US and Iran, announced around April 8 ahead of Trump's deadline, is now in serious doubt following the failure of face-to-face peace talks on April 12 in Pakistan[1][2][4][5][6]. US Vice President JD Vance departed Islamabad after Ir",
+      "headline": "US-Iran ceasefire talks collapse in Islamabad on day 5, no deal reached** | NO | HIGH confidence[4][5]",
+      "raw": "US-Iran ceasefire talks collapse in Islamabad on day 5, no deal reached** | NO | HIGH confidence[4][5]\n\nThe two-week ceasefire agreed on April 8, 2026, mediated by Pakistan, remains fragile with violations reported, but no extension or permanent resolution has been confirmed today[3][2][1]. High-stakes 21-hour negotiations ended without progress, primarily over Iran's refusal to fully reopen the S",
       "direction": "NO",
       "confidence": 0.9,
       "matched_markets": [
@@ -20,27 +20,62 @@
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_504141",
-      "timestamp": "2026-04-12T20:12:08.115742+00:00",
+      "id": "sig_417008",
+      "timestamp": "2026-04-12T21:00:40.979223+00:00",
       "source": "PERPLEXITY",
-      "headline": "NM Supreme Court Confirms Duke Rodriguez's Ballot Eligibility for 2026 Governor Race | YES | HIGH confidence**",
-      "raw": "NM Supreme Court Confirms Duke Rodriguez's Ballot Eligibility for 2026 Governor Race | YES | HIGH confidence**  \nThe New Mexico Supreme Court unanimously ruled on April 2, 2026, that Republican gubernatorial candidate **Duke Rodriguez** qualifies for the June primary ballot, resolving prior residency challenges and securing his place alongside Greg Hall and Doug Turner[2].  \nThis follows his late ",
-      "direction": "YES",
-      "confidence": 0.6,
-      "matched_markets": [
-        "Will J.D. Vance win the 2028 Republican presidential nominat",
-        "Will Duke Rodriguez win the 2026 New Mexico Governor Republi",
-        "2026 Balance of Power: R Senate, D House"
-      ],
-      "action": "WATCH",
+      "headline": "**Republican candidates declared:** Gregg Hull (Rio Rancho mayor, launched campaign in October 2025), Jim Ellison (forme",
+      "raw": "**Republican candidates declared:** Gregg Hull (Rio Rancho mayor, launched campaign in October 2025), Jim Ellison (former energy regulator, launched Tuesday per Fox), Duke Rodriguez (former Human Services secretary, already declared with Gary Johnson endorsement), Doug Turner (launched February 2026), plus others like Steve Lanier[1][2][3][4].",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_428382",
+      "timestamp": "2026-04-12T21:00:52.353929+00:00",
+      "source": "PERPLEXITY",
+      "headline": "OKC Thunder Key Players Ruled Out for Regular Season Finale vs",
+      "raw": "OKC Thunder Key Players Ruled Out for Regular Season Finale vs. Suns | NO | HIGH confidence**\n\nShai Gilgeous-Alexander (oblique), Jalen Williams (hamstring), Chet Holmgren (back), and Isaiah Hartenstein (soleus) are confirmed out for today's game against Phoenix, with the team listing 10 players unavailable overall[5][6]. These stars are expected to return for the playoffs start, prioritizing heal",
+      "direction": "NO",
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_417015",
+      "timestamp": "2026-04-12T21:00:40.986014+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Race context:** Open seat with historical alternation between parties; primaries June 2, 2026; recent forum with eight",
+      "raw": "**Race context:** Open seat with historical alternation between parties; primaries June 2, 2026; recent forum with eight candidates ~90 days pre-primary (likely early March 2026)[3][5]. No mentions of \"Vance\" (possibly JD Vance, no link found), \"Will Duke Rodriguez\" (likely refers to Duke Rodriguez, no new announcements), or shifts in partisan balance/endorsements/polls that resolve markets[1][2][",
+      "direction": "NO",
+      "confidence": 0.78,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_417011",
+      "timestamp": "2026-04-12T21:00:40.982702+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Democratic frontrunners:** Deb Haaland (former Interior Secretary), Sam Bregman (DA), Ken Miyagishima (former Las Cruc",
+      "raw": "**Democratic frontrunners:** Deb Haaland (former Interior Secretary), Sam Bregman (DA), Ken Miyagishima (former Las Cruces mayor)[1][2][3].",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
       "x_link": null,
       "category": "POLITICS"
     }
   ],
   "stats": {
     "enter": 1,
-    "alert": 0,
-    "watch": 1,
-    "high_conf": 1
+    "alert": 4,
+    "watch": 0,
+    "high_conf": 3
   }
 }
