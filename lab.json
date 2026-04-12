@@ -8,9 +8,9 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 135 categorical arb opportunities found\nScanned 3000 events (2007 multi-outcome) at 2026-04-12 15:52 UTC\nBest: 10.0% profit on 'Highest temperature in Munich on April 12?' \u2014 buy YES on all 11 outcomes (sum=0.9)\nStrategy: Buy YES on all 11 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 9.95% on 'Precipitation in NYC in April?'",
+      "result": "LIVE \u2014 137 categorical arb opportunities found\nScanned 3000 events (2005 multi-outcome) at 2026-04-12 15:56 UTC\nBest: 10.0% profit on 'Highest temperature in Munich on April 12?' \u2014 buy YES on all 11 outcomes (sum=0.9)\nStrategy: Buy YES on all 11 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 9.95% on 'Precipitation in NYC in April?'",
       "priority": "HIGH",
-      "last_scan": "2026-04-12 15:52 UTC",
+      "last_scan": "2026-04-12 15:56 UTC",
       "opportunities": [
         {
           "event_title": "Highest temperature in Munich on April 12?",
@@ -227,6 +227,81 @@
           ],
           "url": "https://polymarket.com/event/maduro-prison-time-527",
           "strategy": "Buy YES on all 5 outcomes. Total cost: $0.9025. One wins $1.00. Profit: $0.0975 (9.75%)"
+        },
+        {
+          "event_title": "Next Prime Minister of Slovenia",
+          "event_slug": "next-prime-minister-of-slovenia",
+          "yes_sum": 0.903,
+          "profit_pct": 9.7,
+          "profit_per_dollar_pct": 10.74,
+          "num_outcomes": 9,
+          "outcomes": [
+            {
+              "market_id": "1193229",
+              "slug": "will-janez-jana-be-the-next-prime-minister-of-slovenia",
+              "question": "Will Janez Jan\u0161a be the next Prime Minister of Slovenia?",
+              "yes_price": 0.665,
+              "volume": 632244
+            },
+            {
+              "market_id": "1193235",
+              "slug": "will-jernej-vrtovec-be-the-next-prime-minister-of-slovenia",
+              "question": "Will Jernej Vrtovec be the next Prime Minister of Slovenia?",
+              "yes_price": 0.117,
+              "volume": 32997
+            },
+            {
+              "market_id": "1193230",
+              "slug": "will-ane-logar-be-the-next-prime-minister-of-slovenia",
+              "question": "Will An\u017ee Logar be the next Prime Minister of Slovenia?",
+              "yes_price": 0.075,
+              "volume": 940175
+            },
+            {
+              "market_id": "1193228",
+              "slug": "will-robert-golob-be-the-next-prime-minister-of-slovenia",
+              "question": "Will Robert Golob be the next Prime Minister of Slovenia?",
+              "yes_price": 0.0405,
+              "volume": 603021
+            },
+            {
+              "market_id": "1193231",
+              "slug": "will-vladimir-prebili-be-the-next-prime-minister-of-slovenia",
+              "question": "Will Vladimir Prebili\u010d be the next Prime Minister of Slovenia?",
+              "yes_price": 0.0015,
+              "volume": 176829
+            },
+            {
+              "market_id": "1193233",
+              "slug": "will-matej-tonin-be-the-next-prime-minister-of-slovenia",
+              "question": "Will Matej Tonin be the next Prime Minister of Slovenia?",
+              "yes_price": 0.0015,
+              "volume": 10066
+            },
+            {
+              "market_id": "1193237",
+              "slug": "will-zoran-stevanovi-be-the-next-prime-minister-of-slovenia",
+              "question": "Will Zoran Stevanovi\u0107 be the next Prime Minister of Slovenia?",
+              "yes_price": 0.0015,
+              "volume": 107289
+            },
+            {
+              "market_id": "1193236",
+              "slug": "will-luka-mesec-be-the-next-prime-minister-of-slovenia",
+              "question": "Will Luka Mesec be the next Prime Minister of Slovenia?",
+              "yes_price": 0.0005,
+              "volume": 9299
+            },
+            {
+              "market_id": "1193234",
+              "slug": "will-matja-han-be-the-next-prime-minister-of-slovenia",
+              "question": "Will Matja\u017e Han be the next Prime Minister of Slovenia?",
+              "yes_price": 0.0005,
+              "volume": 14316
+            }
+          ],
+          "url": "https://polymarket.com/event/next-prime-minister-of-slovenia",
+          "strategy": "Buy YES on all 9 outcomes. Total cost: $0.9030. One wins $1.00. Profit: $0.0970 (9.70%)"
         },
         {
           "event_title": "Next CEO of Lululemon?",
@@ -466,60 +541,6 @@
           "strategy": "Buy YES on all 14 outcomes. Total cost: $0.9045. One wins $1.00. Profit: $0.0955 (9.55%)"
         },
         {
-          "event_title": "Which film will get the most Oscar nominations at the 99th Academy Awards?",
-          "event_slug": "which-film-will-get-the-most-oscar-nominations-at-the-99th-academy-awards",
-          "yes_sum": 0.9045,
-          "profit_pct": 9.55,
-          "profit_per_dollar_pct": 10.56,
-          "num_outcomes": 6,
-          "outcomes": [
-            {
-              "market_id": "1321500",
-              "slug": "will-the-odyssey-get-the-most-oscar-nominations-at-the-99th-academy-awards",
-              "question": "Will The Odyssey get the most Oscar nominations at the 99th Academy Awards?",
-              "yes_price": 0.515,
-              "volume": 3870
-            },
-            {
-              "market_id": "1321503",
-              "slug": "will-dune-messiah-get-the-most-oscar-nominations-at-the-99th-academy-awards",
-              "question": "Will Dune: Messiah get the most Oscar nominations at the 99th Academy Awards?",
-              "yes_price": 0.135,
-              "volume": 2390
-            },
-            {
-              "market_id": "1321499",
-              "slug": "will-disclosure-day-get-the-most-oscar-nominations-at-the-99th-academy-awards",
-              "question": "Will Disclosure Day get the most Oscar nominations at the 99th Academy Awards?",
-              "yes_price": 0.1,
-              "volume": 1980
-            },
-            {
-              "market_id": "1321501",
-              "slug": "will-wuthering-heights-get-the-most-oscar-nominations-at-the-99th-academy-awards",
-              "question": "Will Wuthering Heights get the most Oscar nominations at the 99th Academy Awards",
-              "yes_price": 0.077,
-              "volume": 1337
-            },
-            {
-              "market_id": "1321498",
-              "slug": "will-project-hail-mary-get-the-most-oscar-nominations-at-the-99th-academy-awards",
-              "question": "Will Project Hail Mary get the most Oscar nominations at the 99th Academy Awards",
-              "yes_price": 0.0665,
-              "volume": 1974
-            },
-            {
-              "market_id": "1321502",
-              "slug": "will-the-bride-get-the-most-oscar-nominations-at-the-99th-academy-awards",
-              "question": "Will The Bride! get the most Oscar nominations at the 99th Academy Awards?",
-              "yes_price": 0.011,
-              "volume": 1218
-            }
-          ],
-          "url": "https://polymarket.com/event/which-film-will-get-the-most-oscar-nominations-at-the-99th-academy-awards",
-          "strategy": "Buy YES on all 6 outcomes. Total cost: $0.9045. One wins $1.00. Profit: $0.0955 (9.55%)"
-        },
-        {
           "event_title": "Croydon Mayoral Election Winner",
           "event_slug": "croydon-mayoral-election-winner",
           "yes_sum": 0.9045,
@@ -555,11 +576,11 @@
       ],
       "stats": {
         "total_events": 3000,
-        "checked_multi_outcome": 2007,
+        "checked_multi_outcome": 2005,
         "skipped_single_outcome": 622,
-        "opportunities_found": 135,
+        "opportunities_found": 137,
         "best_profit_pct": 10.0,
-        "scanned_at": "2026-04-12 15:52 UTC"
+        "scanned_at": "2026-04-12 15:56 UTC"
       }
     },
     {
