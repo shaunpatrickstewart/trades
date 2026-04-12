@@ -8,9 +8,9 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 141 categorical arb opportunities found\nScanned 3000 events (1951 multi-outcome) at 2026-04-12 09:33 UTC\nBest: 10.0% profit on 'Hamarkameratene vs. KFUM-Kameratene Oslo - More Markets' \u2014 buy YES on all 2 outcomes (sum=0.9)\nStrategy: Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 9.75% on 'Next Premier of Quebec'",
+      "result": "LIVE \u2014 147 categorical arb opportunities found\nScanned 3000 events (1953 multi-outcome) at 2026-04-12 09:36 UTC\nBest: 10.0% profit on 'Hamarkameratene vs. KFUM-Kameratene Oslo - More Markets' \u2014 buy YES on all 2 outcomes (sum=0.9)\nStrategy: Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 9.75% on 'Next Premier of Quebec'",
       "priority": "HIGH",
-      "last_scan": "2026-04-12 09:33 UTC",
+      "last_scan": "2026-04-12 09:36 UTC",
       "opportunities": [
         {
           "event_title": "Hamarkameratene vs. KFUM-Kameratene Oslo - More Markets",
@@ -119,124 +119,117 @@
           "strategy": "Buy YES on all 6 outcomes. Total cost: $0.9040. One wins $1.00. Profit: $0.0960 (9.60%)"
         },
         {
-          "event_title": "# of seats won by PB in Bulgarian Parliamentary Election?",
-          "event_slug": "of-seats-won-by-pb-in-bulgarian-parliamentary-election",
+          "event_title": "Tennessee Democratic Senate Primary Winner",
+          "event_slug": "tennessee-democratic-senate-primary-winner",
           "yes_sum": 0.905,
           "profit_pct": 9.5,
           "profit_per_dollar_pct": 10.5,
-          "num_outcomes": 4,
+          "num_outcomes": 3,
           "outcomes": [
             {
-              "market_id": "1738484",
-              "slug": "will-progressive-bulgaria-pb-win-between-90-94-seats-in-the-2026-bulgarian-parliamentary-election",
-              "question": "Will Progressive Bulgaria (PB) win between 90-94 seats in the 2026 Bulgarian par",
-              "yes_price": 0.335,
-              "volume": 6332
+              "market_id": "1898576",
+              "slug": "will-marquita-bradshaw-be-the-democratic-nominee-for-senate-in-tennessee",
+              "question": "Will Marquita Bradshaw be the Democratic nominee for Senate in Tennessee?",
+              "yes_price": 0.655,
+              "volume": 2734
             },
             {
-              "market_id": "1738483",
-              "slug": "will-progressive-bulgaria-pb-win-between-85-89-seats-in-the-2026-bulgarian-parliamentary-election",
-              "question": "Will Progressive Bulgaria (PB) win between 85-89 seats in the 2026 Bulgarian par",
-              "yes_price": 0.245,
-              "volume": 7026
+              "market_id": "1898577",
+              "slug": "will-maria-brewer-be-the-democratic-nominee-for-senate-in-tennessee",
+              "question": "Will Maria Brewer be the Democratic nominee for Senate in Tennessee?",
+              "yes_price": 0.14,
+              "volume": 1000
             },
             {
-              "market_id": "1738482",
-              "slug": "will-progressive-bulgaria-pb-win-between-80-84-seats-in-the-2026-bulgarian-parliamentary-election",
-              "question": "Will Progressive Bulgaria (PB) win between 80-84 seats in the 2026 Bulgarian par",
-              "yes_price": 0.18,
-              "volume": 7896
-            },
-            {
-              "market_id": "1738485",
-              "slug": "will-progressive-bulgaria-pb-win-95-or-more-seats-in-the-2026-bulgarian-parliamentary-election",
-              "question": "Will Progressive Bulgaria (PB) win 95 or more seats in the 2026 Bulgarian parlia",
-              "yes_price": 0.145,
-              "volume": 11194
+              "market_id": "1898580",
+              "slug": "will-diana-onyeijaka-be-the-democratic-nominee-for-senate-in-tennessee",
+              "question": "Will Diana Onyeijaka be the Democratic nominee for Senate in Tennessee?",
+              "yes_price": 0.11,
+              "volume": 1169
             }
           ],
-          "url": "https://polymarket.com/event/of-seats-won-by-pb-in-bulgarian-parliamentary-election",
-          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
+          "url": "https://polymarket.com/event/tennessee-democratic-senate-primary-winner",
+          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
         },
         {
-          "event_title": "Colorado Republican Senate Primary Winner",
-          "event_slug": "colorado-republican-senate-primary-winner",
-          "yes_sum": 0.905,
-          "profit_pct": 9.5,
-          "profit_per_dollar_pct": 10.5,
-          "num_outcomes": 4,
+          "event_title": "Harvey Weinstein prison time?",
+          "event_slug": "harvey-weinstein-prison-time",
+          "yes_sum": 0.906,
+          "profit_pct": 9.4,
+          "profit_per_dollar_pct": 10.38,
+          "num_outcomes": 6,
           "outcomes": [
             {
-              "market_id": "679608",
-              "slug": "will-mark-baisley-be-the-republican-nominee-for-senate-in-colorado",
-              "question": "Will Mark Baisley be the Republican nominee for Senate in Colorado?",
-              "yes_price": 0.405,
-              "volume": 7184
+              "market_id": "544092",
+              "slug": "will-harvey-weinstein-be-sentenced-to-no-prison-time",
+              "question": "Will Harvey Weinstein be sentenced to no prison time?",
+              "yes_price": 0.3255,
+              "volume": 314418
             },
             {
-              "market_id": "679606",
-              "slug": "will-janak-joshi-be-the-republican-nominee-for-senate-in-colorado",
-              "question": "Will Janak Joshi be the Republican nominee for Senate in Colorado?",
-              "yes_price": 0.195,
-              "volume": 1779
+              "market_id": "544096",
+              "slug": "will-harvey-weinstein-be-sentenced-to-between-20-and-30-years-in-prison",
+              "question": "Will Harvey Weinstein be sentenced to between 20 and 30 years in prison?",
+              "yes_price": 0.217,
+              "volume": 176024
             },
             {
-              "market_id": "679607",
-              "slug": "will-george-washington-markert-be-the-republican-nominee-for-senate-in-colorado",
-              "question": "Will George Washington Markert be the Republican nominee for Senate in Colorado?",
-              "yes_price": 0.155,
-              "volume": 2281
+              "market_id": "544095",
+              "slug": "will-harvey-weinstein-be-sentenced-to-between-10-and-20-years-in-prison",
+              "question": "Will Harvey Weinstein be sentenced to between 10 and 20 years in prison?",
+              "yes_price": 0.208,
+              "volume": 135483
             },
             {
-              "market_id": "679605",
-              "slug": "will-dathan-jones-be-the-republican-nominee-for-senate-in-colorado",
-              "question": "Will Dathan Jones be the Republican nominee for Senate in Colorado?",
-              "yes_price": 0.15,
-              "volume": 1160
+              "market_id": "544097",
+              "slug": "will-harvey-weinstein-be-sentenced-to-more-than-30-years-in-prison",
+              "question": "Will Harvey Weinstein be sentenced to more than 30 years in prison?",
+              "yes_price": 0.0625,
+              "volume": 52792
+            },
+            {
+              "market_id": "544094",
+              "slug": "will-harvey-weinstein-be-sentenced-to-between-5-and-10-years-in-prison",
+              "question": "Will Harvey Weinstein be sentenced to between 5 and 10 years in prison?",
+              "yes_price": 0.0605,
+              "volume": 48626
+            },
+            {
+              "market_id": "544093",
+              "slug": "will-harvey-weinstein-be-sentenced-to-less-than-5-years-in-prison",
+              "question": "Will Harvey Weinstein be sentenced to less than 5 years in prison?",
+              "yes_price": 0.0325,
+              "volume": 84298
             }
           ],
-          "url": "https://polymarket.com/event/colorado-republican-senate-primary-winner",
-          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
+          "url": "https://polymarket.com/event/harvey-weinstein-prison-time",
+          "strategy": "Buy YES on all 6 outcomes. Total cost: $0.9060. One wins $1.00. Profit: $0.0940 (9.40%)"
         },
         {
-          "event_title": "ME-02 Democratic Primary Winner",
-          "event_slug": "who-will-be-the-democratic-nominee-for-me-02",
-          "yes_sum": 0.905,
-          "profit_pct": 9.5,
-          "profit_per_dollar_pct": 10.5,
-          "num_outcomes": 4,
+          "event_title": "Pennsylvania Governor Republican Primary Winner",
+          "event_slug": "pennsylvania-governor-republican-primary-winner",
+          "yes_sum": 0.906,
+          "profit_pct": 9.4,
+          "profit_per_dollar_pct": 10.38,
+          "num_outcomes": 2,
           "outcomes": [
             {
-              "market_id": "703948",
-              "slug": "will-joe-baldacci-be-the-democratic-nominee-for-me-02",
-              "question": "Will Joe Baldacci be the Democratic nominee for ME-02?",
-              "yes_price": 0.455,
-              "volume": 3200
+              "market_id": "906830",
+              "slug": "will-stacy-garrity-win-the-2026-pennsylvania-governor-republican-primary-election",
+              "question": "Will Stacy Garrity win the 2026 Pennsylvania Governor Republican primary electio",
+              "yes_price": 0.8895,
+              "volume": 1853
             },
             {
-              "market_id": "703947",
-              "slug": "will-matthew-dunlap-be-the-democratic-nominee-for-me-02",
-              "question": "Will Matthew Dunlap be the Democratic nominee for ME-02?",
-              "yes_price": 0.23,
-              "volume": 2849
-            },
-            {
-              "market_id": "703949",
-              "slug": "will-jordan-wood-be-the-democratic-nominee-for-me-02",
-              "question": "Will Jordan Wood be the Democratic nominee for ME-02?",
-              "yes_price": 0.215,
-              "volume": 1649
-            },
-            {
-              "market_id": "703946",
-              "slug": "will-jared-golden-be-the-democratic-nominee-for-me-02",
-              "question": "Will Jared Golden be the Democratic nominee for ME-02?",
-              "yes_price": 0.005,
-              "volume": 2253
+              "market_id": "906832",
+              "slug": "will-doug-mastriano-win-the-2026-pennsylvania-governor-republican-primary-election",
+              "question": "Will Doug Mastriano win the 2026 Pennsylvania Governor Republican primary electi",
+              "yes_price": 0.0165,
+              "volume": 6095
             }
           ],
-          "url": "https://polymarket.com/event/who-will-be-the-democratic-nominee-for-me-02",
-          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
+          "url": "https://polymarket.com/event/pennsylvania-governor-republican-primary-winner",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9060. One wins $1.00. Profit: $0.0940 (9.40%)"
         },
         {
           "event_title": "Guinea-Bissau National People's Assembly Election Winner",
@@ -293,58 +286,37 @@
           "strategy": "Buy YES on all 6 outcomes. Total cost: $0.9075. One wins $1.00. Profit: $0.0925 (9.25%)"
         },
         {
-          "event_title": "Harvey Weinstein prison time?",
-          "event_slug": "harvey-weinstein-prison-time",
-          "yes_sum": 0.9095,
-          "profit_pct": 9.05,
-          "profit_per_dollar_pct": 9.95,
-          "num_outcomes": 6,
+          "event_title": "TX-18 Democratic Primary Winner",
+          "event_slug": "tx-18-democratic-primary-winner",
+          "yes_sum": 0.9085,
+          "profit_pct": 9.15,
+          "profit_per_dollar_pct": 10.07,
+          "num_outcomes": 3,
           "outcomes": [
             {
-              "market_id": "544092",
-              "slug": "will-harvey-weinstein-be-sentenced-to-no-prison-time",
-              "question": "Will Harvey Weinstein be sentenced to no prison time?",
-              "yes_price": 0.3255,
-              "volume": 314418
+              "market_id": "1335330",
+              "slug": "will-christian-menefee-be-the-democratic-nominee-for-tx-18",
+              "question": "Will Christian Menefee be the Democratic nominee for TX-18?",
+              "yes_price": 0.6705,
+              "volume": 12887
             },
             {
-              "market_id": "544096",
-              "slug": "will-harvey-weinstein-be-sentenced-to-between-20-and-30-years-in-prison",
-              "question": "Will Harvey Weinstein be sentenced to between 20 and 30 years in prison?",
-              "yes_price": 0.2225,
-              "volume": 176024
+              "market_id": "1335328",
+              "slug": "will-al-green-be-the-democratic-nominee-for-tx-18",
+              "question": "Will Al Green be the Democratic nominee for TX-18?",
+              "yes_price": 0.2105,
+              "volume": 3395
             },
             {
-              "market_id": "544095",
-              "slug": "will-harvey-weinstein-be-sentenced-to-between-10-and-20-years-in-prison",
-              "question": "Will Harvey Weinstein be sentenced to between 10 and 20 years in prison?",
-              "yes_price": 0.206,
-              "volume": 135483
-            },
-            {
-              "market_id": "544097",
-              "slug": "will-harvey-weinstein-be-sentenced-to-more-than-30-years-in-prison",
-              "question": "Will Harvey Weinstein be sentenced to more than 30 years in prison?",
-              "yes_price": 0.0625,
-              "volume": 52792
-            },
-            {
-              "market_id": "544094",
-              "slug": "will-harvey-weinstein-be-sentenced-to-between-5-and-10-years-in-prison",
-              "question": "Will Harvey Weinstein be sentenced to between 5 and 10 years in prison?",
-              "yes_price": 0.0605,
-              "volume": 48626
-            },
-            {
-              "market_id": "544093",
-              "slug": "will-harvey-weinstein-be-sentenced-to-less-than-5-years-in-prison",
-              "question": "Will Harvey Weinstein be sentenced to less than 5 years in prison?",
-              "yes_price": 0.0325,
-              "volume": 84298
+              "market_id": "1335331",
+              "slug": "will-gretchen-brown-be-the-democratic-nominee-for-tx-18",
+              "question": "Will Gretchen Brown be the Democratic nominee for TX-18?",
+              "yes_price": 0.0275,
+              "volume": 2403
             }
           ],
-          "url": "https://polymarket.com/event/harvey-weinstein-prison-time",
-          "strategy": "Buy YES on all 6 outcomes. Total cost: $0.9095. One wins $1.00. Profit: $0.0905 (9.05%)"
+          "url": "https://polymarket.com/event/tx-18-democratic-primary-winner",
+          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9085. One wins $1.00. Profit: $0.0915 (9.15%)"
         },
         {
           "event_title": "Montana Senate Election Winner",
@@ -373,67 +345,53 @@
           "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9100. One wins $1.00. Profit: $0.0900 (9.00%)"
         },
         {
-          "event_title": "How many Tornadoes in the US in 2026?",
-          "event_slug": "how-many-tornadoes-in-the-us-in-2026",
-          "yes_sum": 0.912,
-          "profit_pct": 8.8,
-          "profit_per_dollar_pct": 9.65,
-          "num_outcomes": 6,
+          "event_title": "Colorado Republican Senate Primary Winner",
+          "event_slug": "colorado-republican-senate-primary-winner",
+          "yes_sum": 0.91,
+          "profit_pct": 9.0,
+          "profit_per_dollar_pct": 9.89,
+          "num_outcomes": 4,
           "outcomes": [
             {
-              "market_id": "1428393",
-              "slug": "will-1250-or-more-tornadoes-occur-in-the-united-states-in-2026",
-              "question": "Will 1250 or more tornadoes occur in the United States in 2026?",
-              "yes_price": 0.34,
-              "volume": 14284
+              "market_id": "679608",
+              "slug": "will-mark-baisley-be-the-republican-nominee-for-senate-in-colorado",
+              "question": "Will Mark Baisley be the Republican nominee for Senate in Colorado?",
+              "yes_price": 0.41,
+              "volume": 7184
             },
             {
-              "market_id": "1428392",
-              "slug": "will-1200-to-1249-tornadoes-occur-in-the-united-states-in-2026",
-              "question": "Will 1200 to 1249 tornadoes occur in the United States in 2026?",
-              "yes_price": 0.198,
-              "volume": 14431
+              "market_id": "679606",
+              "slug": "will-janak-joshi-be-the-republican-nominee-for-senate-in-colorado",
+              "question": "Will Janak Joshi be the Republican nominee for Senate in Colorado?",
+              "yes_price": 0.195,
+              "volume": 1779
             },
             {
-              "market_id": "1428381",
-              "slug": "will-1050-to-1099-tornadoes-occur-in-the-united-states-in-2026",
-              "question": "Will 1050 to 1099 tornadoes occur in the United States in 2026?",
-              "yes_price": 0.16,
-              "volume": 6571
+              "market_id": "679607",
+              "slug": "will-george-washington-markert-be-the-republican-nominee-for-senate-in-colorado",
+              "question": "Will George Washington Markert be the Republican nominee for Senate in Colorado?",
+              "yes_price": 0.155,
+              "volume": 2281
             },
             {
-              "market_id": "1428365",
-              "slug": "will-fewer-than-950-tornadoes-occur-in-the-united-states-in-2026",
-              "question": "Will fewer than 950 tornadoes occur in the United States in 2026?",
-              "yes_price": 0.115,
-              "volume": 21012
-            },
-            {
-              "market_id": "1428391",
-              "slug": "will-1150-to-1199-tornadoes-occur-in-the-united-states-in-2026",
-              "question": "Will 1150 to 1199 tornadoes occur in the United States in 2026?",
-              "yes_price": 0.06,
-              "volume": 1103
-            },
-            {
-              "market_id": "1428374",
-              "slug": "will-950-to-999-tornadoes-occur-in-the-united-states-in-2026",
-              "question": "Will 950 to 999 tornadoes occur in the United States in 2026?",
-              "yes_price": 0.039,
-              "volume": 2048
+              "market_id": "679605",
+              "slug": "will-dathan-jones-be-the-republican-nominee-for-senate-in-colorado",
+              "question": "Will Dathan Jones be the Republican nominee for Senate in Colorado?",
+              "yes_price": 0.15,
+              "volume": 1160
             }
           ],
-          "url": "https://polymarket.com/event/how-many-tornadoes-in-the-us-in-2026",
-          "strategy": "Buy YES on all 6 outcomes. Total cost: $0.9120. One wins $1.00. Profit: $0.0880 (8.80%)"
+          "url": "https://polymarket.com/event/colorado-republican-senate-primary-winner",
+          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9100. One wins $1.00. Profit: $0.0900 (9.00%)"
         }
       ],
       "stats": {
         "total_events": 3000,
-        "checked_multi_outcome": 1951,
-        "skipped_single_outcome": 626,
-        "opportunities_found": 141,
+        "checked_multi_outcome": 1953,
+        "skipped_single_outcome": 620,
+        "opportunities_found": 147,
         "best_profit_pct": 10.0,
-        "scanned_at": "2026-04-12 09:33 UTC"
+        "scanned_at": "2026-04-12 09:36 UTC"
       }
     },
     {
