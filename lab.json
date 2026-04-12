@@ -8,50 +8,10 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 136 categorical arb opportunities found\nScanned 3000 events (2005 multi-outcome) at 2026-04-12 16:06 UTC\nBest: 10.0% profit on 'Relay FDV above ___ one day after launch?' \u2014 buy YES on all 4 outcomes (sum=0.9)\nStrategy: Buy YES on all 4 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 9.95% on 'Precipitation in NYC in April?'",
+      "result": "LIVE \u2014 137 categorical arb opportunities found\nScanned 3000 events (2002 multi-outcome) at 2026-04-12 16:10 UTC\nBest: 9.95% profit on 'Precipitation in NYC in April?' \u2014 buy YES on all 4 outcomes (sum=0.9005)\nStrategy: Buy YES on all 4 outcomes. Total cost: $0.9005. One wins $1.00. Profit: $0.0995 (9.95%)\n2nd: 9.9% on 'FK Bod\u00f8/Glimt vs. Aalesunds FK - More Markets'",
       "priority": "HIGH",
-      "last_scan": "2026-04-12 16:06 UTC",
+      "last_scan": "2026-04-12 16:10 UTC",
       "opportunities": [
-        {
-          "event_title": "Relay FDV above ___ one day after launch?",
-          "event_slug": "relay-fdv-above-one-day-after-launch",
-          "yes_sum": 0.9,
-          "profit_pct": 10.0,
-          "profit_per_dollar_pct": 11.11,
-          "num_outcomes": 4,
-          "outcomes": [
-            {
-              "market_id": "1361726",
-              "slug": "relay-fdv-above-300m-one-day-after-launch",
-              "question": "Relay FDV above $300M one day after launch?",
-              "yes_price": 0.34,
-              "volume": 2643
-            },
-            {
-              "market_id": "1361725",
-              "slug": "relay-fdv-above-100m-one-day-after-launch",
-              "question": "Relay FDV above $100M one day after launch?",
-              "yes_price": 0.29,
-              "volume": 17380
-            },
-            {
-              "market_id": "1361727",
-              "slug": "relay-fdv-above-500m-one-day-after-launch",
-              "question": "Relay FDV above $500M one day after launch?",
-              "yes_price": 0.14,
-              "volume": 8602
-            },
-            {
-              "market_id": "1361729",
-              "slug": "relay-fdv-above-700m-one-day-after-launch",
-              "question": "Relay FDV above $700M one day after launch?",
-              "yes_price": 0.13,
-              "volume": 1187
-            }
-          ],
-          "url": "https://polymarket.com/event/relay-fdv-above-one-day-after-launch",
-          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
-        },
         {
           "event_title": "Precipitation in NYC in April?",
           "event_slug": "precipitation-in-nyc-in-april",
@@ -126,6 +86,86 @@
           "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9010. One wins $1.00. Profit: $0.0990 (9.90%)"
         },
         {
+          "event_title": "Next CEO of Lululemon?",
+          "event_slug": "next-ceo-of-lululemon",
+          "yes_sum": 0.9015,
+          "profit_pct": 9.85,
+          "profit_per_dollar_pct": 10.93,
+          "num_outcomes": 3,
+          "outcomes": [
+            {
+              "market_id": "916398",
+              "slug": "will-stephanie-linnartz-be-the-next-ceo-of-lululemon",
+              "question": "Will Stephanie Linnartz be the next CEO of Lululemon?",
+              "yes_price": 0.34,
+              "volume": 2936
+            },
+            {
+              "market_id": "916393",
+              "slug": "will-marti-morfitt-be-the-next-ceo-of-lululemon",
+              "question": "Will Marti Morfitt be the next CEO of Lululemon?",
+              "yes_price": 0.326,
+              "volume": 5936
+            },
+            {
+              "market_id": "916392",
+              "slug": "will-meghan-frank-be-the-next-ceo-of-lululemon",
+              "question": "Will Meghan Frank be the next CEO of Lululemon?",
+              "yes_price": 0.2355,
+              "volume": 50060
+            }
+          ],
+          "url": "https://polymarket.com/event/next-ceo-of-lululemon",
+          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9015. One wins $1.00. Profit: $0.0985 (9.85%)"
+        },
+        {
+          "event_title": "Maduro Prison Time?",
+          "event_slug": "maduro-prison-time-527",
+          "yes_sum": 0.902,
+          "profit_pct": 9.8,
+          "profit_per_dollar_pct": 10.86,
+          "num_outcomes": 5,
+          "outcomes": [
+            {
+              "market_id": "1098292",
+              "slug": "will-nicols-maduro-be-sentenced-to-at-least-60-years-in-prison",
+              "question": "Will Nicol\u00e1s Maduro be sentenced to at least 60 years in prison?",
+              "yes_price": 0.35,
+              "volume": 30724
+            },
+            {
+              "market_id": "1098288",
+              "slug": "will-nicols-maduro-be-sentenced-to-no-prison-time-974",
+              "question": "Will Nicol\u00e1s Maduro be sentenced to no prison time?",
+              "yes_price": 0.265,
+              "volume": 362889
+            },
+            {
+              "market_id": "1098291",
+              "slug": "will-nicols-maduro-be-sentenced-to-between-40-and-60-years-in-prison",
+              "question": "Will Nicol\u00e1s Maduro be sentenced to between 40 and 60 years in prison?",
+              "yes_price": 0.145,
+              "volume": 13925
+            },
+            {
+              "market_id": "1098289",
+              "slug": "will-nicols-maduro-be-sentenced-to-less-than-20-years-in-prison",
+              "question": "Will Nicol\u00e1s Maduro be sentenced to less than 20 years in prison?",
+              "yes_price": 0.076,
+              "volume": 28470
+            },
+            {
+              "market_id": "1098290",
+              "slug": "will-nicols-maduro-be-sentenced-to-between-20-and-40-years-in-prison",
+              "question": "Will Nicol\u00e1s Maduro be sentenced to between 20 and 40 years in prison?",
+              "yes_price": 0.066,
+              "volume": 33790
+            }
+          ],
+          "url": "https://polymarket.com/event/maduro-prison-time-527",
+          "strategy": "Buy YES on all 5 outcomes. Total cost: $0.9020. One wins $1.00. Profit: $0.0980 (9.80%)"
+        },
+        {
           "event_title": "Maine Governor Republican Primary Winner",
           "event_slug": "maine-governor-republican-primary-winner",
           "yes_sum": 0.902,
@@ -164,140 +204,6 @@
           ],
           "url": "https://polymarket.com/event/maine-governor-republican-primary-winner",
           "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9020. One wins $1.00. Profit: $0.0980 (9.80%)"
-        },
-        {
-          "event_title": "Maduro Prison Time?",
-          "event_slug": "maduro-prison-time-527",
-          "yes_sum": 0.9025,
-          "profit_pct": 9.75,
-          "profit_per_dollar_pct": 10.8,
-          "num_outcomes": 5,
-          "outcomes": [
-            {
-              "market_id": "1098292",
-              "slug": "will-nicols-maduro-be-sentenced-to-at-least-60-years-in-prison",
-              "question": "Will Nicol\u00e1s Maduro be sentenced to at least 60 years in prison?",
-              "yes_price": 0.35,
-              "volume": 30724
-            },
-            {
-              "market_id": "1098288",
-              "slug": "will-nicols-maduro-be-sentenced-to-no-prison-time-974",
-              "question": "Will Nicol\u00e1s Maduro be sentenced to no prison time?",
-              "yes_price": 0.265,
-              "volume": 362889
-            },
-            {
-              "market_id": "1098291",
-              "slug": "will-nicols-maduro-be-sentenced-to-between-40-and-60-years-in-prison",
-              "question": "Will Nicol\u00e1s Maduro be sentenced to between 40 and 60 years in prison?",
-              "yes_price": 0.145,
-              "volume": 13925
-            },
-            {
-              "market_id": "1098289",
-              "slug": "will-nicols-maduro-be-sentenced-to-less-than-20-years-in-prison",
-              "question": "Will Nicol\u00e1s Maduro be sentenced to less than 20 years in prison?",
-              "yes_price": 0.0765,
-              "volume": 28470
-            },
-            {
-              "market_id": "1098290",
-              "slug": "will-nicols-maduro-be-sentenced-to-between-20-and-40-years-in-prison",
-              "question": "Will Nicol\u00e1s Maduro be sentenced to between 20 and 40 years in prison?",
-              "yes_price": 0.066,
-              "volume": 33790
-            }
-          ],
-          "url": "https://polymarket.com/event/maduro-prison-time-527",
-          "strategy": "Buy YES on all 5 outcomes. Total cost: $0.9025. One wins $1.00. Profit: $0.0975 (9.75%)"
-        },
-        {
-          "event_title": "Next CEO of Lululemon?",
-          "event_slug": "next-ceo-of-lululemon",
-          "yes_sum": 0.903,
-          "profit_pct": 9.7,
-          "profit_per_dollar_pct": 10.74,
-          "num_outcomes": 3,
-          "outcomes": [
-            {
-              "market_id": "916398",
-              "slug": "will-stephanie-linnartz-be-the-next-ceo-of-lululemon",
-              "question": "Will Stephanie Linnartz be the next CEO of Lululemon?",
-              "yes_price": 0.34,
-              "volume": 2936
-            },
-            {
-              "market_id": "916393",
-              "slug": "will-marti-morfitt-be-the-next-ceo-of-lululemon",
-              "question": "Will Marti Morfitt be the next CEO of Lululemon?",
-              "yes_price": 0.326,
-              "volume": 5936
-            },
-            {
-              "market_id": "916392",
-              "slug": "will-meghan-frank-be-the-next-ceo-of-lululemon",
-              "question": "Will Meghan Frank be the next CEO of Lululemon?",
-              "yes_price": 0.237,
-              "volume": 50060
-            }
-          ],
-          "url": "https://polymarket.com/event/next-ceo-of-lululemon",
-          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9030. One wins $1.00. Profit: $0.0970 (9.70%)"
-        },
-        {
-          "event_title": "Which CEOs will be out before 2027?",
-          "event_slug": "which-ceos-will-be-out-before-2027",
-          "yes_sum": 0.9035,
-          "profit_pct": 9.65,
-          "profit_per_dollar_pct": 10.68,
-          "num_outcomes": 6,
-          "outcomes": [
-            {
-              "market_id": "687555",
-              "slug": "tim-cook-out-as-apple-ceo-before-2027",
-              "question": "Tim Cook out as Apple CEO before 2027?",
-              "yes_price": 0.235,
-              "volume": 332850
-            },
-            {
-              "market_id": "687559",
-              "slug": "sam-altman-out-as-openai-ceo-before-2027",
-              "question": "Sam Altman out as OpenAI CEO before 2027?",
-              "yes_price": 0.215,
-              "volume": 72662
-            },
-            {
-              "market_id": "687557",
-              "slug": "andy-jassy-out-as-amazon-ceo-before-2027",
-              "question": "Andy Jassy out as Amazon CEO before 2027?",
-              "yes_price": 0.145,
-              "volume": 24382
-            },
-            {
-              "market_id": "687558",
-              "slug": "brian-armstrong-out-as-coinbase-ceo-before-2027",
-              "question": "Brian Armstrong out as Coinbase CEO before 2027?",
-              "yes_price": 0.135,
-              "volume": 80170
-            },
-            {
-              "market_id": "687554",
-              "slug": "sundar-pichai-out-as-google-ceo-before-2027",
-              "question": "Sundar Pichai out as Google CEO before 2027?",
-              "yes_price": 0.125,
-              "volume": 35575
-            },
-            {
-              "market_id": "687556",
-              "slug": "dan-clancy-out-as-twitch-ceo-before-2027",
-              "question": "Dan Clancy out as Twitch CEO before 2027?",
-              "yes_price": 0.0485,
-              "volume": 38599
-            }
-          ],
-          "url": "https://polymarket.com/event/which-ceos-will-be-out-before-2027",
-          "strategy": "Buy YES on all 6 outcomes. Total cost: $0.9035. One wins $1.00. Profit: $0.0965 (9.65%)"
         },
         {
           "event_title": "Which CEOs will be out before 2027?",
@@ -356,9 +262,9 @@
         {
           "event_title": "Croydon Mayoral Election Winner",
           "event_slug": "croydon-mayoral-election-winner",
-          "yes_sum": 0.904,
-          "profit_pct": 9.6,
-          "profit_per_dollar_pct": 10.62,
+          "yes_sum": 0.9045,
+          "profit_pct": 9.55,
+          "profit_per_dollar_pct": 10.56,
           "num_outcomes": 3,
           "outcomes": [
             {
@@ -379,68 +285,183 @@
               "market_id": "1864314",
               "slug": "will-ben-flook-win-the-2026-london-borough-of-croydon-mayoral-election",
               "question": "Will Ben Flook win the 2026 London Borough of Croydon mayoral election?",
-              "yes_price": 0.009,
+              "yes_price": 0.0095,
               "volume": 2204
             }
           ],
           "url": "https://polymarket.com/event/croydon-mayoral-election-winner",
-          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9040. One wins $1.00. Profit: $0.0960 (9.60%)"
+          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9045. One wins $1.00. Profit: $0.0955 (9.55%)"
         },
         {
-          "event_title": "Will Israel launch a major ground offensive in Gaza by...?",
-          "event_slug": "will-israel-launch-a-major-ground-offensive-in-gaza-by-october-31",
-          "yes_sum": 0.905,
-          "profit_pct": 9.5,
-          "profit_per_dollar_pct": 10.5,
-          "num_outcomes": 5,
+          "event_title": "AZ-01 Republican Primary Winner",
+          "event_slug": "az-01-republican-primary-winner",
+          "yes_sum": 0.9075,
+          "profit_pct": 9.25,
+          "profit_per_dollar_pct": 10.19,
+          "num_outcomes": 12,
           "outcomes": [
             {
-              "market_id": "1642010",
-              "slug": "will-israel-launch-a-major-ground-offensive-in-gaza-by-december-31-828",
-              "question": "Will Israel launch a major ground offensive in Gaza by December 31?",
-              "yes_price": 0.57,
-              "volume": 18180
+              "market_id": "704348",
+              "slug": "will-jay-feely-be-the-republican-nominee-for-az-01",
+              "question": "Will Jay Feely be the Republican nominee for AZ-01?",
+              "yes_price": 0.69,
+              "volume": 4681
             },
             {
-              "market_id": "1642009",
-              "slug": "will-israel-launch-a-major-ground-offensive-in-gaza-by-june-30",
-              "question": "Will Israel launch a major ground offensive in Gaza by June 30?",
-              "yes_price": 0.335,
-              "volume": 13424
+              "market_id": "704343",
+              "slug": "will-joseph-chaplik-be-the-republican-nominee-for-az-01",
+              "question": "Will Joseph Chaplik be the Republican nominee for AZ-01?",
+              "yes_price": 0.0975,
+              "volume": 8148
             },
             {
-              "market_id": "639929",
-              "slug": "will-israel-launch-a-major-ground-offensive-in-gaza-by-december-31",
-              "question": "Will Israel launch a major ground offensive in Gaza by December 31?",
-              "yes_price": 0.0,
-              "volume": 50690
+              "market_id": "704345",
+              "slug": "will-todd-graham-be-the-republican-nominee-for-az-01",
+              "question": "Will Todd Graham be the Republican nominee for AZ-01?",
+              "yes_price": 0.055,
+              "volume": 7582
             },
             {
-              "market_id": "639928",
-              "slug": "will-israel-launch-a-major-ground-offensive-in-gaza-by-october-31",
-              "question": "Will Israel launch a major ground offensive in Gaza by October 31?",
-              "yes_price": 0.0,
-              "volume": 100197
+              "market_id": "704346",
+              "slug": "will-mark-brnovich-be-the-republican-nominee-for-az-01",
+              "question": "Will Mark Brnovich be the Republican nominee for AZ-01?",
+              "yes_price": 0.0155,
+              "volume": 16503
             },
             {
-              "market_id": "677398",
-              "slug": "will-israel-launch-a-major-ground-offensive-in-gaza-by-march-31",
-              "question": "Will Israel launch a major ground offensive in Gaza by March 31?",
-              "yes_price": 0.0,
-              "volume": 325856
+              "market_id": "704347",
+              "slug": "will-kari-lake-be-the-republican-nominee-for-az-01",
+              "question": "Will Kari Lake be the Republican nominee for AZ-01?",
+              "yes_price": 0.0135,
+              "volume": 6398
+            },
+            {
+              "market_id": "704341",
+              "slug": "will-matt-gress-be-the-republican-nominee-for-az-01",
+              "question": "Will Matt Gress be the Republican nominee for AZ-01?",
+              "yes_price": 0.007,
+              "volume": 47835
+            },
+            {
+              "market_id": "704351",
+              "slug": "will-paul-reevs-be-the-republican-nominee-for-az-01",
+              "question": "Will Paul Reevs be the Republican nominee for AZ-01?",
+              "yes_price": 0.0065,
+              "volume": 222106
+            },
+            {
+              "market_id": "704350",
+              "slug": "will-kaitlin-purrington-be-the-republican-nominee-for-az-01",
+              "question": "Will Kaitlin Purrington be the Republican nominee for AZ-01?",
+              "yes_price": 0.005,
+              "volume": 8235
+            },
+            {
+              "market_id": "704352",
+              "slug": "will-brandon-sowers-be-the-republican-nominee-for-az-01-218",
+              "question": "Will Brandon Sowers be the Republican nominee for AZ-01?",
+              "yes_price": 0.005,
+              "volume": 10660
+            },
+            {
+              "market_id": "704349",
+              "slug": "will-derrick-gallego-be-the-republican-nominee-for-az-01-424",
+              "question": "Will Derrick Gallego be the Republican nominee for AZ-01?",
+              "yes_price": 0.0045,
+              "volume": 3520
+            },
+            {
+              "market_id": "704344",
+              "slug": "will-muchelle-ugenti-rita-be-the-republican-nominee-for-az-01",
+              "question": "Will Muchelle Ugenti-Rita be the Republican nominee for AZ-01?",
+              "yes_price": 0.0045,
+              "volume": 4221
+            },
+            {
+              "market_id": "704353",
+              "slug": "will-john-trobough-be-the-republican-nominee-for-az-01-622",
+              "question": "Will John Trobough be the Republican nominee for AZ-01?",
+              "yes_price": 0.0035,
+              "volume": 1910
             }
           ],
-          "url": "https://polymarket.com/event/will-israel-launch-a-major-ground-offensive-in-gaza-by-october-31",
-          "strategy": "Buy YES on all 5 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
+          "url": "https://polymarket.com/event/az-01-republican-primary-winner",
+          "strategy": "Buy YES on all 12 outcomes. Total cost: $0.9075. One wins $1.00. Profit: $0.0925 (9.25%)"
+        },
+        {
+          "event_title": "Will Opensea launch a token by ___?",
+          "event_slug": "will-opensea-launch-a-token-by-142",
+          "yes_sum": 0.9095,
+          "profit_pct": 9.05,
+          "profit_per_dollar_pct": 9.95,
+          "num_outcomes": 4,
+          "outcomes": [
+            {
+              "market_id": "1271613",
+              "slug": "will-opensea-launch-a-token-by-december-31-2026",
+              "question": "Will OpenSea launch a token by December 31, 2026?",
+              "yes_price": 0.5965,
+              "volume": 95305
+            },
+            {
+              "market_id": "1271612",
+              "slug": "will-opensea-launch-a-token-by-september-30-2026",
+              "question": "Will OpenSea launch a token by September 30, 2026?",
+              "yes_price": 0.245,
+              "volume": 66549
+            },
+            {
+              "market_id": "1271611",
+              "slug": "will-opensea-launch-a-token-by-june-30-2026",
+              "question": "Will OpenSea launch a token by June 30, 2026?",
+              "yes_price": 0.068,
+              "volume": 188471
+            },
+            {
+              "market_id": "1271610",
+              "slug": "will-opensea-launch-a-token-by-march-31-2026",
+              "question": "Will OpenSea launch a token by March 31, 2026?",
+              "yes_price": 0.0,
+              "volume": 1030401
+            }
+          ],
+          "url": "https://polymarket.com/event/will-opensea-launch-a-token-by-142",
+          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9095. One wins $1.00. Profit: $0.0905 (9.05%)"
+        },
+        {
+          "event_title": "Montana Senate Election Winner",
+          "event_slug": "montana-senate-election-winner",
+          "yes_sum": 0.9095,
+          "profit_pct": 9.05,
+          "profit_per_dollar_pct": 9.95,
+          "num_outcomes": 2,
+          "outcomes": [
+            {
+              "market_id": "630832",
+              "slug": "will-the-republicans-win-the-montana-senate-race-in-2026",
+              "question": "Will the Republicans win the Montana Senate race in 2026?",
+              "yes_price": 0.785,
+              "volume": 34451
+            },
+            {
+              "market_id": "630831",
+              "slug": "will-the-democrats-win-the-montana-senate-race-in-2026",
+              "question": "Will the Democrats win the Montana Senate race in 2026?",
+              "yes_price": 0.1245,
+              "volume": 25625
+            }
+          ],
+          "url": "https://polymarket.com/event/montana-senate-election-winner",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9095. One wins $1.00. Profit: $0.0905 (9.05%)"
         }
       ],
       "stats": {
         "total_events": 3000,
-        "checked_multi_outcome": 2005,
-        "skipped_single_outcome": 618,
-        "opportunities_found": 136,
-        "best_profit_pct": 10.0,
-        "scanned_at": "2026-04-12 16:06 UTC"
+        "checked_multi_outcome": 2002,
+        "skipped_single_outcome": 620,
+        "opportunities_found": 137,
+        "best_profit_pct": 9.95,
+        "scanned_at": "2026-04-12 16:10 UTC"
       }
     },
     {
