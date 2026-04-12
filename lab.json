@@ -8,358 +8,98 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 139 categorical arb opportunities found\nScanned 3000 events (1926 multi-outcome) at 2026-04-12 22:45 UTC\nBest: 9.9% profit on 'Presidential Election Winner 2028' \u2014 buy YES on all 36 outcomes (sum=0.901)\nStrategy: Buy YES on all 36 outcomes. Total cost: $0.9010. One wins $1.00. Profit: $0.0990 (9.90%)\n2nd: 9.5% on 'Sabres vs. Blackhawks'",
+      "result": "LIVE \u2014 127 categorical arb opportunities found\nScanned 3000 events (1926 multi-outcome) at 2026-04-12 23:01 UTC\nBest: 9.85% profit on 'Highest temperature in Wellington on April 13?' \u2014 buy YES on all 11 outcomes (sum=0.9015)\nStrategy: Buy YES on all 11 outcomes. Total cost: $0.9015. One wins $1.00. Profit: $0.0985 (9.85%)\n2nd: 9.4% on 'Will Opensea launch a token by ___?'",
       "priority": "HIGH",
-      "last_scan": "2026-04-12 22:45 UTC",
+      "last_scan": "2026-04-12 23:01 UTC",
       "opportunities": [
         {
-          "event_title": "Presidential Election Winner 2028",
-          "event_slug": "presidential-election-winner-2028",
-          "yes_sum": 0.901,
-          "profit_pct": 9.9,
-          "profit_per_dollar_pct": 10.99,
-          "num_outcomes": 36,
+          "event_title": "Highest temperature in Wellington on April 13?",
+          "event_slug": "highest-temperature-in-wellington-on-april-13-2026",
+          "yes_sum": 0.9015,
+          "profit_pct": 9.85,
+          "profit_per_dollar_pct": 10.93,
+          "num_outcomes": 11,
           "outcomes": [
             {
-              "market_id": "561229",
-              "slug": "will-jd-vance-win-the-2028-us-presidential-election",
-              "question": "Will JD Vance win the 2028 US Presidential Election?",
-              "yes_price": 0.1875,
-              "volume": 10119377
+              "market_id": "1924481",
+              "slug": "highest-temperature-in-wellington-on-april-13-2026-19c",
+              "question": "Will the highest temperature in Wellington be 19\u00b0C on April 13?",
+              "yes_price": 0.69,
+              "volume": 5560
             },
             {
-              "market_id": "561230",
-              "slug": "will-gavin-newsom-win-the-2028-us-presidential-election",
-              "question": "Will Gavin Newsom win the 2028 US Presidential Election?",
-              "yes_price": 0.1675,
-              "volume": 13777224
+              "market_id": "1924482",
+              "slug": "highest-temperature-in-wellington-on-april-13-2026-20c",
+              "question": "Will the highest temperature in Wellington be 20\u00b0C on April 13?",
+              "yes_price": 0.165,
+              "volume": 6272
             },
             {
-              "market_id": "561234",
-              "slug": "will-marco-rubio-win-the-2028-us-presidential-election",
-              "question": "Will Marco Rubio win the 2028 US Presidential Election?",
-              "yes_price": 0.098,
-              "volume": 6003088
+              "market_id": "1924483",
+              "slug": "highest-temperature-in-wellington-on-april-13-2026-21c",
+              "question": "Will the highest temperature in Wellington be 21\u00b0C on April 13?",
+              "yes_price": 0.04,
+              "volume": 17130
             },
             {
-              "market_id": "561231",
-              "slug": "will-alexandria-ocasio-cortez-win-the-2028-us-presidential-election",
-              "question": "Will Alexandria Ocasio-Cortez win the 2028 US Presidential Election?",
-              "yes_price": 0.0545,
-              "volume": 10774068
-            },
-            {
-              "market_id": "561261",
-              "slug": "will-jon-ossoff-win-the-2028-us-presidential-election",
-              "question": "Will Jon Ossoff win the 2028 US Presidential Election?",
-              "yes_price": 0.0425,
-              "volume": 3438207
-            },
-            {
-              "market_id": "561239",
-              "slug": "will-kamala-harris-win-the-2028-us-presidential-election",
-              "question": "Will Kamala Harris win the 2028 US Presidential Election?",
-              "yes_price": 0.032,
-              "volume": 6961723
-            },
-            {
-              "market_id": "561253",
-              "slug": "will-tucker-carlson-win-the-2028-us-presidential-election",
-              "question": "Will Tucker Carlson win the 2028 US Presidential Election?",
-              "yes_price": 0.0275,
-              "volume": 9868389
-            },
-            {
-              "market_id": "561233",
-              "slug": "will-josh-shapiro-win-the-2028-us-presidential-election",
-              "question": "Will Josh Shapiro win the 2028 US Presidential Election?",
-              "yes_price": 0.0215,
-              "volume": 5781376
-            },
-            {
-              "market_id": "561243",
-              "slug": "will-donald-trump-win-the-2028-us-presidential-election",
-              "question": "Will Donald Trump win the 2028 US Presidential Election?",
-              "yes_price": 0.0215,
-              "volume": 6930169
-            },
-            {
-              "market_id": "561246",
-              "slug": "will-ron-desantis-win-the-2028-us-presidential-election",
-              "question": "Will Ron DeSantis win the 2028 US Presidential Election?",
-              "yes_price": 0.0175,
-              "volume": 8694777
-            },
-            {
-              "market_id": "561232",
-              "slug": "will-pete-buttigieg-win-the-2028-us-presidential-election",
-              "question": "Will Pete Buttigieg win the 2028 US Presidential Election?",
-              "yes_price": 0.0165,
-              "volume": 3842200
-            },
-            {
-              "market_id": "561237",
-              "slug": "will-andy-beshear-win-the-2028-us-presidential-election",
-              "question": "Will Andy Beshear win the 2028 US Presidential Election?",
-              "yes_price": 0.0125,
-              "volume": 17424953
-            },
-            {
-              "market_id": "561241",
-              "slug": "will-jb-pritzker-win-the-2028-us-presidential-election",
-              "question": "Will JB Pritzker win the 2028 US Presidential Election?",
-              "yes_price": 0.0115,
-              "volume": 10830188
-            },
-            {
-              "market_id": "561252",
-              "slug": "will-dwayne-the-rock-johnson-win-the-2028-us-presidential-election",
-              "question": "Will Dwayne 'The Rock' Johnson win the 2028 US Presidential Election?",
-              "yes_price": 0.0115,
-              "volume": 6052555
-            },
-            {
-              "market_id": "561260",
-              "slug": "will-thomas-massie-win-the-2028-us-presidential-election",
-              "question": "Will Thomas Massie win the 2028 US Presidential Election?",
-              "yes_price": 0.0115,
-              "volume": 3770082
-            },
-            {
-              "market_id": "561236",
-              "slug": "will-gretchen-whitmer-win-the-2028-us-presidential-election",
-              "question": "Will Gretchen Whitmer win the 2028 US Presidential Election?",
-              "yes_price": 0.0105,
-              "volume": 8558366
-            },
-            {
-              "market_id": "561238",
-              "slug": "will-glenn-youngkin-win-the-2028-us-presidential-election",
-              "question": "Will Glenn Youngkin win the 2028 US Presidential Election?",
-              "yes_price": 0.0105,
-              "volume": 20792489
-            },
-            {
-              "market_id": "561262",
-              "slug": "will-james-talarico-win-the-2028-us-presidential-election",
-              "question": "Will James Talarico win the 2028 US Presidential Election?",
-              "yes_price": 0.0105,
-              "volume": 4352502
-            },
-            {
-              "market_id": "561250",
-              "slug": "will-elon-musk-win-the-2028-us-presidential-election",
-              "question": "Will Elon Musk win the 2028 US Presidential Election?",
-              "yes_price": 0.0095,
-              "volume": 22659641
-            },
-            {
-              "market_id": "561258",
-              "slug": "will-jamie-dimon-win-the-2028-us-presidential-election",
-              "question": "Will Jamie Dimon win the 2028 US Presidential Election?",
-              "yes_price": 0.0095,
-              "volume": 7612615
-            },
-            {
-              "market_id": "561249",
-              "slug": "will-greg-abbott-win-the-2028-us-presidential-election",
-              "question": "Will Greg Abbott win the 2028 US Presidential Election?",
-              "yes_price": 0.0095,
-              "volume": 31856685
-            },
-            {
-              "market_id": "561255",
-              "slug": "will-ivanka-trump-win-the-2028-us-presidential-election",
-              "question": "Will Ivanka Trump win the 2028 US Presidential Election?",
-              "yes_price": 0.0085,
-              "volume": 4540072
-            },
-            {
-              "market_id": "561245",
-              "slug": "will-nikki-haley-win-the-2028-us-presidential-election",
-              "question": "Will Nikki Haley win the 2028 US Presidential Election?",
-              "yes_price": 0.0085,
-              "volume": 22055666
-            },
-            {
-              "market_id": "561257",
-              "slug": "will-michelle-obama-win-the-2028-us-presidential-election",
-              "question": "Will Michelle Obama win the 2028 US Presidential Election?",
-              "yes_price": 0.0085,
-              "volume": 13595486
-            },
-            {
-              "market_id": "561259",
-              "slug": "will-ro-khanna-win-the-2028-us-presidential-election",
-              "question": "Will Ro Khanna win the 2028 US Presidential Election?",
-              "yes_price": 0.0085,
-              "volume": 7073446
-            },
-            {
-              "market_id": "561240",
-              "slug": "will-stephen-smith-win-the-2028-us-presidential-election",
-              "question": "Will Stephen Smith win the 2028 US Presidential Election?",
-              "yes_price": 0.0075,
-              "volume": 29590745
-            },
-            {
-              "market_id": "561244",
-              "slug": "will-donald-trump-jr-win-the-2028-us-presidential-election",
-              "question": "Will Donald Trump Jr. win the 2028 US Presidential Election?",
-              "yes_price": 0.0075,
-              "volume": 9197380
-            },
-            {
-              "market_id": "561256",
-              "slug": "will-zohran-mamdani-win-the-2028-us-presidential-election",
-              "question": "Will Zohran Mamdani win the 2028 US Presidential Election?",
-              "yes_price": 0.0075,
-              "volume": 17569990
-            },
-            {
-              "market_id": "561263",
-              "slug": "will-eric-trump-win-the-2028-us-presidential-election",
-              "question": "Will Eric Trump win the 2028 US Presidential Election?",
+              "market_id": "1924484",
+              "slug": "highest-temperature-in-wellington-on-april-13-2026-22corhigher",
+              "question": "Will the highest temperature in Wellington be 22\u00b0C or higher on April 13?",
               "yes_price": 0.0065,
-              "volume": 6592399
+              "volume": 19268
             },
             {
-              "market_id": "561247",
-              "slug": "will-tim-walz-win-the-2028-us-presidential-election",
-              "question": "Will Tim Walz win the 2028 US Presidential Election?",
-              "yes_price": 0.0065,
-              "volume": 39480304
+              "market_id": "1924474",
+              "slug": "highest-temperature-in-wellington-on-april-13-2026-12corbelow",
+              "question": "Will the highest temperature in Wellington be 12\u00b0C or below on April 13?",
+              "yes_price": 0.0,
+              "volume": 16900
             },
             {
-              "market_id": "561235",
-              "slug": "will-wes-moore-win-the-2028-us-presidential-election",
-              "question": "Will Wes Moore win the 2028 US Presidential Election?",
-              "yes_price": 0.0065,
-              "volume": 6469843
+              "market_id": "1924475",
+              "slug": "highest-temperature-in-wellington-on-april-13-2026-13c",
+              "question": "Will the highest temperature in Wellington be 13\u00b0C on April 13?",
+              "yes_price": 0.0,
+              "volume": 10993
             },
             {
-              "market_id": "561242",
-              "slug": "will-tulsi-gabbard-win-the-2028-us-presidential-election",
-              "question": "Will Tulsi Gabbard win the 2028 US Presidential Election?",
-              "yes_price": 0.0065,
-              "volume": 28140016
+              "market_id": "1924476",
+              "slug": "highest-temperature-in-wellington-on-april-13-2026-14c",
+              "question": "Will the highest temperature in Wellington be 14\u00b0C on April 13?",
+              "yes_price": 0.0,
+              "volume": 7958
             },
             {
-              "market_id": "561264",
-              "slug": "will-pete-hegseth-win-the-2028-us-presidential-election",
-              "question": "Will Pete Hegseth win the 2028 US Presidential Election?",
-              "yes_price": 0.0065,
-              "volume": 4352182
+              "market_id": "1924477",
+              "slug": "highest-temperature-in-wellington-on-april-13-2026-15c",
+              "question": "Will the highest temperature in Wellington be 15\u00b0C on April 13?",
+              "yes_price": 0.0,
+              "volume": 5425
             },
             {
-              "market_id": "561248",
-              "slug": "will-vivek-ramaswamy-win-the-2028-us-presidential-election",
-              "question": "Will Vivek Ramaswamy win the 2028 US Presidential Election?",
-              "yes_price": 0.0065,
-              "volume": 30990366
+              "market_id": "1924478",
+              "slug": "highest-temperature-in-wellington-on-april-13-2026-16c",
+              "question": "Will the highest temperature in Wellington be 16\u00b0C on April 13?",
+              "yes_price": 0.0,
+              "volume": 9048
             },
             {
-              "market_id": "561254",
-              "slug": "will-kim-kardashian-win-the-2028-us-presidential-election",
-              "question": "Will Kim Kardashian win the 2028 US Presidential Election?",
-              "yes_price": 0.0065,
-              "volume": 32705631
+              "market_id": "1924479",
+              "slug": "highest-temperature-in-wellington-on-april-13-2026-17c",
+              "question": "Will the highest temperature in Wellington be 17\u00b0C on April 13?",
+              "yes_price": 0.0,
+              "volume": 11831
             },
             {
-              "market_id": "561251",
-              "slug": "will-lebron-james-win-the-2028-us-presidential-election",
-              "question": "Will LeBron James win the 2028 US Presidential Election?",
-              "yes_price": 0.0055,
-              "volume": 46294804
+              "market_id": "1924480",
+              "slug": "highest-temperature-in-wellington-on-april-13-2026-18c",
+              "question": "Will the highest temperature in Wellington be 18\u00b0C on April 13?",
+              "yes_price": 0.0,
+              "volume": 26415
             }
           ],
-          "url": "https://polymarket.com/event/presidential-election-winner-2028",
-          "strategy": "Buy YES on all 36 outcomes. Total cost: $0.9010. One wins $1.00. Profit: $0.0990 (9.90%)"
-        },
-        {
-          "event_title": "Sabres vs. Blackhawks",
-          "event_slug": "nhl-buf-chi-2026-04-13",
-          "yes_sum": 0.905,
-          "profit_pct": 9.5,
-          "profit_per_dollar_pct": 10.5,
-          "num_outcomes": 2,
-          "outcomes": [
-            {
-              "market_id": "1628340",
-              "slug": "nhl-buf-chi-2026-04-13",
-              "question": "Sabres vs. Blackhawks",
-              "yes_price": 0.645,
-              "volume": 9422
-            },
-            {
-              "market_id": "1628347",
-              "slug": "nhl-buf-chi-2026-04-13-total-7pt5",
-              "question": "Sabres vs. Blackhawks: O/U 7.5",
-              "yes_price": 0.26,
-              "volume": 19714
-            }
-          ],
-          "url": "https://polymarket.com/event/nhl-buf-chi-2026-04-13",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
-        },
-        {
-          "event_title": "Which banks will fail by end of 2026?",
-          "event_slug": "which-banks-will-fail-by-end-of-2026",
-          "yes_sum": 0.905,
-          "profit_pct": 9.5,
-          "profit_per_dollar_pct": 10.5,
-          "num_outcomes": 3,
-          "outcomes": [
-            {
-              "market_id": "1922873",
-              "slug": "will-lloyds-fail-by-end-of-2026",
-              "question": "Will Lloyds fail by end of 2026?",
-              "yes_price": 0.425,
-              "volume": 4967
-            },
-            {
-              "market_id": "1922875",
-              "slug": "will-keybank-fail-by-end-of-2026",
-              "question": "Will KeyBank fail by end of 2026?",
-              "yes_price": 0.295,
-              "volume": 6552
-            },
-            {
-              "market_id": "1922869",
-              "slug": "will-truist-fail-by-end-of-2026",
-              "question": "Will Truist fail by end of 2026?",
-              "yes_price": 0.185,
-              "volume": 6298
-            }
-          ],
-          "url": "https://polymarket.com/event/which-banks-will-fail-by-end-of-2026",
-          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
-        },
-        {
-          "event_title": "Silkeborg IF vs. FC Fredericia - More Markets",
-          "event_slug": "den-sif-fcf-2026-04-19-more-markets",
-          "yes_sum": 0.905,
-          "profit_pct": 9.5,
-          "profit_per_dollar_pct": 10.5,
-          "num_outcomes": 2,
-          "outcomes": [
-            {
-              "market_id": "1692967",
-              "slug": "den-sif-fcf-2026-04-19-total-2pt5",
-              "question": "Silkeborg IF vs. FC Fredericia: O/U 2.5",
-              "yes_price": 0.56,
-              "volume": 3199
-            },
-            {
-              "market_id": "1692962",
-              "slug": "den-sif-fcf-2026-04-19-spread-home-1pt5",
-              "question": "Spread: Silkeborg IF (-1.5)",
-              "yes_price": 0.345,
-              "volume": 2939
-            }
-          ],
-          "url": "https://polymarket.com/event/den-sif-fcf-2026-04-19-more-markets",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
+          "url": "https://polymarket.com/event/highest-temperature-in-wellington-on-april-13-2026",
+          "strategy": "Buy YES on all 11 outcomes. Total cost: $0.9015. One wins $1.00. Profit: $0.0985 (9.85%)"
         },
         {
           "event_title": "Will Opensea launch a token by ___?",
@@ -400,6 +140,165 @@
           ],
           "url": "https://polymarket.com/event/will-opensea-launch-a-token-by-142",
           "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9060. One wins $1.00. Profit: $0.0940 (9.40%)"
+        },
+        {
+          "event_title": "2026 Pro Football Draft: 2nd Overall Pick ",
+          "event_slug": "nfl-draft-2026-2nd-overall-pick-792",
+          "yes_sum": 0.9065,
+          "profit_pct": 9.35,
+          "profit_per_dollar_pct": 10.31,
+          "num_outcomes": 21,
+          "outcomes": [
+            {
+              "market_id": "991924",
+              "slug": "will-david-bailey-be-the-second-pick-in-the-2026-nfl-draft",
+              "question": "Will David Bailey be the second pick in the 2026 NFL draft?",
+              "yes_price": 0.48,
+              "volume": 46992
+            },
+            {
+              "market_id": "991917",
+              "slug": "will-arvell-reese-be-the-second-pick-in-the-2026-nfl-draft",
+              "question": "Will Arvell Reese be the second pick in the 2026 NFL draft?",
+              "yes_price": 0.35,
+              "volume": 9280
+            },
+            {
+              "market_id": "991916",
+              "slug": "will-sonny-styles-be-the-second-pick-in-the-2026-nfl-draft",
+              "question": "Will Sonny Styles be the second pick in the 2026 NFL draft?",
+              "yes_price": 0.015,
+              "volume": 3143
+            },
+            {
+              "market_id": "991908",
+              "slug": "will-reuben-bain-jr-be-the-second-pick-in-the-2026-nfl-draft",
+              "question": "Will Reuben Bain Jr. be the second pick in the 2026 NFL draft?",
+              "yes_price": 0.013,
+              "volume": 4927
+            },
+            {
+              "market_id": "991896",
+              "slug": "will-fernando-mendoza-be-the-second-pick-in-the-2026-nfl-draft",
+              "question": "Will Fernando Mendoza be the second pick in the 2026 NFL draft?",
+              "yes_price": 0.0085,
+              "volume": 26605
+            },
+            {
+              "market_id": "991902",
+              "slug": "will-ty-simpson-be-the-second-pick-in-the-2026-nfl-draft",
+              "question": "Will Ty Simpson be the second pick in the 2026 NFL draft?",
+              "yes_price": 0.007,
+              "volume": 3858
+            },
+            {
+              "market_id": "991914",
+              "slug": "will-tj-parker-be-the-second-pick-in-the-2026-nfl-draft",
+              "question": "Will T.J. Parker be the second pick in the 2026 NFL draft?",
+              "yes_price": 0.0065,
+              "volume": 1978
+            },
+            {
+              "market_id": "991922",
+              "slug": "will-jeremiyah-love-be-the-second-pick-in-the-2026-nfl-draft",
+              "question": "Will Jeremiyah Love be the second pick in the 2026 NFL draft?",
+              "yes_price": 0.005,
+              "volume": 3142
+            },
+            {
+              "market_id": "991900",
+              "slug": "will-carson-beck-be-the-second-pick-in-the-2026-nfl-draft",
+              "question": "Will Carson Beck be the second pick in the 2026 NFL draft?",
+              "yes_price": 0.004,
+              "volume": 2723
+            },
+            {
+              "market_id": "991918",
+              "slug": "will-caleb-downs-be-the-second-pick-in-the-2026-nfl-draft",
+              "question": "Will Caleb Downs be the second pick in the 2026 NFL draft?",
+              "yes_price": 0.004,
+              "volume": 2726
+            },
+            {
+              "market_id": "991903",
+              "slug": "will-francis-mauigoa-be-the-second-pick-in-the-2026-nfl-draft",
+              "question": "Will Francis Mauigoa be the second pick in the 2026 NFL draft?",
+              "yes_price": 0.0035,
+              "volume": 4176
+            },
+            {
+              "market_id": "991920",
+              "slug": "will-carnell-tate-be-the-second-pick-in-the-2026-nfl-draft",
+              "question": "Will Carnell Tate be the second pick in the 2026 NFL draft?",
+              "yes_price": 0.0025,
+              "volume": 3194
+            },
+            {
+              "market_id": "991897",
+              "slug": "will-dante-moore-be-the-second-pick-in-the-2026-nfl-draft",
+              "question": "Will Dante Moore be the second pick in the 2026 NFL draft?",
+              "yes_price": 0.0015,
+              "volume": 99231
+            },
+            {
+              "market_id": "991901",
+              "slug": "will-garrett-nussmeier-be-the-second-pick-in-the-2026-nfl-draft",
+              "question": "Will Garrett Nussmeier be the second pick in the 2026 NFL draft?",
+              "yes_price": 0.0015,
+              "volume": 11451
+            },
+            {
+              "market_id": "991921",
+              "slug": "will-jordyn-tyson-be-the-second-pick-in-the-2026-nfl-draft",
+              "question": "Will Jordyn Tyson be the second pick in the 2026 NFL draft?",
+              "yes_price": 0.0015,
+              "volume": 2559
+            },
+            {
+              "market_id": "991898",
+              "slug": "will-nico-iamaleava-be-the-second-pick-in-the-2026-nfl-draft",
+              "question": "Will Nico Iamaleava be the second pick in the 2026 NFL draft?",
+              "yes_price": 0.0005,
+              "volume": 1728
+            },
+            {
+              "market_id": "991899",
+              "slug": "will-drew-allar-be-the-second-pick-in-the-2026-nfl-draft",
+              "question": "Will Drew Allar be the second pick in the 2026 NFL draft?",
+              "yes_price": 0.0005,
+              "volume": 1097
+            },
+            {
+              "market_id": "991907",
+              "slug": "will-trevor-goosby-be-the-second-pick-in-the-2026-nfl-draft",
+              "question": "Will Trevor Goosby be the second pick in the 2026 NFL draft?",
+              "yes_price": 0.0005,
+              "volume": 1007
+            },
+            {
+              "market_id": "991912",
+              "slug": "will-lt-overton-be-the-second-pick-in-the-2026-nfl-draft",
+              "question": "Will LT Overton be the second pick in the 2026 NFL draft?",
+              "yes_price": 0.0005,
+              "volume": 1329
+            },
+            {
+              "market_id": "991913",
+              "slug": "will-keldric-faulk-be-the-second-pick-in-the-2026-nfl-draft",
+              "question": "Will Keldric Faulk be the second pick in the 2026 NFL draft?",
+              "yes_price": 0.0005,
+              "volume": 1307
+            },
+            {
+              "market_id": "991915",
+              "slug": "will-kayden-mcdonald-be-the-second-pick-in-the-2026-nfl-draft",
+              "question": "Will Kayden McDonald be the second pick in the 2026 NFL draft?",
+              "yes_price": 0.0005,
+              "volume": 1780
+            }
+          ],
+          "url": "https://polymarket.com/event/nfl-draft-2026-2nd-overall-pick-792",
+          "strategy": "Buy YES on all 21 outcomes. Total cost: $0.9065. One wins $1.00. Profit: $0.0935 (9.35%)"
         },
         {
           "event_title": "AZ-01 Republican Primary Winner",
@@ -557,11 +456,107 @@
           "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9080. One wins $1.00. Profit: $0.0920 (9.20%)"
         },
         {
-          "event_title": "English Premier League - Top Goalscorer ",
-          "event_slug": "english-premier-league-top-goalscorer",
+          "event_title": "In which month will SpaceX IPO?",
+          "event_slug": "in-which-month-will-spacex-ipo",
           "yes_sum": 0.9085,
           "profit_pct": 9.15,
           "profit_per_dollar_pct": 10.07,
+          "num_outcomes": 12,
+          "outcomes": [
+            {
+              "market_id": "1345482",
+              "slug": "will-spacexs-initial-public-offering-occur-in-june-2026-et",
+              "question": "Will SpaceX\u2019s initial public offering occur in June 2026 (ET)?",
+              "yes_price": 0.565,
+              "volume": 84175
+            },
+            {
+              "market_id": "1345483",
+              "slug": "will-spacexs-initial-public-offering-occur-in-july-2026-et",
+              "question": "Will SpaceX\u2019s initial public offering occur in July 2026 (ET)?",
+              "yes_price": 0.1415,
+              "volume": 8706
+            },
+            {
+              "market_id": "1345489",
+              "slug": "will-spacex-fail-to-complete-an-initial-public-offering-by-december-31-2026-1159-pm-et",
+              "question": "Will SpaceX fail to complete an initial public offering by December 31, 2026, 11",
+              "yes_price": 0.072,
+              "volume": 6197
+            },
+            {
+              "market_id": "1345484",
+              "slug": "will-spacexs-initial-public-offering-occur-in-august-2026-et",
+              "question": "Will SpaceX\u2019s initial public offering occur in August 2026 (ET)?",
+              "yes_price": 0.046,
+              "volume": 2792
+            },
+            {
+              "market_id": "1345485",
+              "slug": "will-spacexs-initial-public-offering-occur-in-september-2026-et",
+              "question": "Will SpaceX\u2019s initial public offering occur in September 2026 (ET)?",
+              "yes_price": 0.04,
+              "volume": 4678
+            },
+            {
+              "market_id": "1345481",
+              "slug": "will-spacexs-initial-public-offering-occur-in-may-2026-et",
+              "question": "Will SpaceX\u2019s initial public offering occur in May 2026 (ET)?",
+              "yes_price": 0.0195,
+              "volume": 19725
+            },
+            {
+              "market_id": "1345486",
+              "slug": "will-spacexs-initial-public-offering-occur-in-october-2026-et",
+              "question": "Will SpaceX\u2019s initial public offering occur in October 2026 (ET)?",
+              "yes_price": 0.0085,
+              "volume": 5206
+            },
+            {
+              "market_id": "1345488",
+              "slug": "will-spacexs-initial-public-offering-occur-in-december-2026-et",
+              "question": "Will SpaceX\u2019s initial public offering occur in December 2026 (ET)?",
+              "yes_price": 0.007,
+              "volume": 2866
+            },
+            {
+              "market_id": "1345487",
+              "slug": "will-spacexs-initial-public-offering-occur-in-november-2026-et",
+              "question": "Will SpaceX\u2019s initial public offering occur in November 2026 (ET)?",
+              "yes_price": 0.006,
+              "volume": 3366
+            },
+            {
+              "market_id": "1345480",
+              "slug": "will-spacexs-initial-public-offering-occur-in-april-2026-et",
+              "question": "Will SpaceX\u2019s initial public offering occur in April 2026 (ET)?",
+              "yes_price": 0.003,
+              "volume": 21990
+            },
+            {
+              "market_id": "1345478",
+              "slug": "will-spacexs-initial-public-offering-occur-in-february-2026-et",
+              "question": "Will SpaceX\u2019s initial public offering occur in February 2026 (ET)?",
+              "yes_price": 0.0,
+              "volume": 2071
+            },
+            {
+              "market_id": "1345479",
+              "slug": "will-spacexs-initial-public-offering-occur-in-march-2026-et",
+              "question": "Will SpaceX\u2019s initial public offering occur in March 2026 (ET)?",
+              "yes_price": 0.0,
+              "volume": 51009
+            }
+          ],
+          "url": "https://polymarket.com/event/in-which-month-will-spacex-ipo",
+          "strategy": "Buy YES on all 12 outcomes. Total cost: $0.9085. One wins $1.00. Profit: $0.0915 (9.15%)"
+        },
+        {
+          "event_title": "English Premier League - Top Goalscorer ",
+          "event_slug": "english-premier-league-top-goalscorer",
+          "yes_sum": 0.91,
+          "profit_pct": 9.0,
+          "profit_per_dollar_pct": 9.89,
           "num_outcomes": 31,
           "outcomes": [
             {
@@ -579,6 +574,13 @@
               "volume": 15888
             },
             {
+              "market_id": "577178",
+              "slug": "will-jarrod-bowen-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Jarrod Bowen be the top goal scorer in the 2025\u201326 English Premier League s",
+              "yes_price": 0.009,
+              "volume": 11972
+            },
+            {
               "market_id": "577189",
               "slug": "will-kai-havertz-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
               "question": "Will Kai Havertz be the top goal scorer in the 2025\u201326 English Premier League se",
@@ -591,13 +593,6 @@
               "question": "Will Matheus Cunha be the top goal scorer in the 2025\u201326 English Premier League ",
               "yes_price": 0.008,
               "volume": 99001
-            },
-            {
-              "market_id": "577178",
-              "slug": "will-jarrod-bowen-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Jarrod Bowen be the top goal scorer in the 2025\u201326 English Premier League s",
-              "yes_price": 0.008,
-              "volume": 11972
             },
             {
               "market_id": "577162",
@@ -617,7 +612,7 @@
               "market_id": "577181",
               "slug": "will-bruno-fernandes-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
               "question": "Will Bruno Fernandes be the top goal scorer in the 2025\u201326 English Premier Leagu",
-              "yes_price": 0.006,
+              "yes_price": 0.0055,
               "volume": 16361
             },
             {
@@ -625,14 +620,7 @@
               "slug": "will-mohamed-salah-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
               "question": "Will Mohamed Salah be the top goal scorer in the 2025\u201326 English Premier League ",
               "yes_price": 0.0045,
-              "volume": 233120
-            },
-            {
-              "market_id": "577170",
-              "slug": "will-dominic-solanke-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Dominic Solanke be the top goal scorer in the 2025\u201326 English Premier Leagu",
-              "yes_price": 0.0045,
-              "volume": 158181
+              "volume": 233125
             },
             {
               "market_id": "577182",
@@ -647,6 +635,13 @@
               "question": "Will Thierno Barry be the top goal scorer in the 2025\u201326 English Premier League ",
               "yes_price": 0.0045,
               "volume": 116784
+            },
+            {
+              "market_id": "577170",
+              "slug": "will-dominic-solanke-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Dominic Solanke be the top goal scorer in the 2025\u201326 English Premier Leagu",
+              "yes_price": 0.004,
+              "volume": 158181
             },
             {
               "market_id": "577172",
@@ -677,6 +672,13 @@
               "volume": 146398
             },
             {
+              "market_id": "577176",
+              "slug": "will-bukayo-saka-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Bukayo Saka be the top goal scorer in the 2025\u201326 English Premier League se",
+              "yes_price": 0.003,
+              "volume": 130160
+            },
+            {
               "market_id": "577179",
               "slug": "will-evanilson-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
               "question": "Will Evanilson be the top goal scorer in the 2025\u201326 English Premier League seas",
@@ -698,13 +700,6 @@
               "volume": 12884
             },
             {
-              "market_id": "577176",
-              "slug": "will-bukayo-saka-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Bukayo Saka be the top goal scorer in the 2025\u201326 English Premier League se",
-              "yes_price": 0.0025,
-              "volume": 130160
-            },
-            {
               "market_id": "577180",
               "slug": "will-charalambos-kostoulas-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
               "question": "Will Charalambos Kostoulas be the top goal scorer in the 2025\u201326 English Premier",
@@ -715,14 +710,14 @@
               "market_id": "577185",
               "slug": "will-mohammed-kudus-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
               "question": "Will Mohammed Kudus be the top goal scorer in the 2025\u201326 English Premier League",
-              "yes_price": 0.002,
+              "yes_price": 0.0025,
               "volume": 20604
             },
             {
               "market_id": "577187",
               "slug": "will-brennan-johnson-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
               "question": "Will Brennan Johnson be the top goal scorer in the 2025\u201326 English Premier Leagu",
-              "yes_price": 0.002,
+              "yes_price": 0.0025,
               "volume": 16332
             },
             {
@@ -783,56 +778,75 @@
             }
           ],
           "url": "https://polymarket.com/event/english-premier-league-top-goalscorer",
-          "strategy": "Buy YES on all 31 outcomes. Total cost: $0.9085. One wins $1.00. Profit: $0.0915 (9.15%)"
+          "strategy": "Buy YES on all 31 outcomes. Total cost: $0.9100. One wins $1.00. Profit: $0.0900 (9.00%)"
         },
         {
-          "event_title": "# of seats won by PB in Bulgarian Parliamentary Election?",
-          "event_slug": "of-seats-won-by-pb-in-bulgarian-parliamentary-election",
+          "event_title": "Sabres vs. Blackhawks",
+          "event_slug": "nhl-buf-chi-2026-04-13",
           "yes_sum": 0.91,
           "profit_pct": 9.0,
           "profit_per_dollar_pct": 9.89,
-          "num_outcomes": 4,
+          "num_outcomes": 2,
           "outcomes": [
             {
-              "market_id": "1738484",
-              "slug": "will-progressive-bulgaria-pb-win-between-90-94-seats-in-the-2026-bulgarian-parliamentary-election",
-              "question": "Will Progressive Bulgaria (PB) win between 90-94 seats in the 2026 Bulgarian par",
-              "yes_price": 0.3,
-              "volume": 6350
+              "market_id": "1628340",
+              "slug": "nhl-buf-chi-2026-04-13",
+              "question": "Sabres vs. Blackhawks",
+              "yes_price": 0.645,
+              "volume": 9494
             },
             {
-              "market_id": "1738483",
-              "slug": "will-progressive-bulgaria-pb-win-between-85-89-seats-in-the-2026-bulgarian-parliamentary-election",
-              "question": "Will Progressive Bulgaria (PB) win between 85-89 seats in the 2026 Bulgarian par",
-              "yes_price": 0.25,
-              "volume": 8014
-            },
-            {
-              "market_id": "1738485",
-              "slug": "will-progressive-bulgaria-pb-win-95-or-more-seats-in-the-2026-bulgarian-parliamentary-election",
-              "question": "Will Progressive Bulgaria (PB) win 95 or more seats in the 2026 Bulgarian parlia",
-              "yes_price": 0.21,
-              "volume": 12751
-            },
-            {
-              "market_id": "1738482",
-              "slug": "will-progressive-bulgaria-pb-win-between-80-84-seats-in-the-2026-bulgarian-parliamentary-election",
-              "question": "Will Progressive Bulgaria (PB) win between 80-84 seats in the 2026 Bulgarian par",
-              "yes_price": 0.15,
-              "volume": 7917
+              "market_id": "1628347",
+              "slug": "nhl-buf-chi-2026-04-13-total-7pt5",
+              "question": "Sabres vs. Blackhawks: O/U 7.5",
+              "yes_price": 0.265,
+              "volume": 19714
             }
           ],
-          "url": "https://polymarket.com/event/of-seats-won-by-pb-in-bulgarian-parliamentary-election",
-          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9100. One wins $1.00. Profit: $0.0900 (9.00%)"
+          "url": "https://polymarket.com/event/nhl-buf-chi-2026-04-13",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9100. One wins $1.00. Profit: $0.0900 (9.00%)"
+        },
+        {
+          "event_title": "VA-02 Democratic Primary Winner",
+          "event_slug": "va-02-democratic-primary-winner",
+          "yes_sum": 0.912,
+          "profit_pct": 8.8,
+          "profit_per_dollar_pct": 9.65,
+          "num_outcomes": 3,
+          "outcomes": [
+            {
+              "market_id": "704140",
+              "slug": "will-elaine-luria-be-the-democratic-nominee-for-va-02",
+              "question": "Will Elaine Luria be the Democratic nominee for VA-02?",
+              "yes_price": 0.825,
+              "volume": 1102
+            },
+            {
+              "market_id": "704139",
+              "slug": "will-james-osyf-be-the-democratic-nominee-for-va-02",
+              "question": "Will James Osyf be the Democratic nominee for VA-02?",
+              "yes_price": 0.062,
+              "volume": 1097
+            },
+            {
+              "market_id": "704143",
+              "slug": "will-patrick-mosolf-be-the-democratic-nominee-for-va-02",
+              "question": "Will Patrick Mosolf be the Democratic nominee for VA-02?",
+              "yes_price": 0.025,
+              "volume": 1490
+            }
+          ],
+          "url": "https://polymarket.com/event/va-02-democratic-primary-winner",
+          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9120. One wins $1.00. Profit: $0.0880 (8.80%)"
         }
       ],
       "stats": {
         "total_events": 3000,
         "checked_multi_outcome": 1926,
-        "skipped_single_outcome": 636,
-        "opportunities_found": 139,
-        "best_profit_pct": 9.9,
-        "scanned_at": "2026-04-12 22:45 UTC"
+        "skipped_single_outcome": 638,
+        "opportunities_found": 127,
+        "best_profit_pct": 9.85,
+        "scanned_at": "2026-04-12 23:01 UTC"
       }
     },
     {
