@@ -1,20 +1,19 @@
 {
-  "last_scan": "2026-04-12T06:12:11.486116+00:00",
-  "scan_seconds": 23.2,
-  "markets_scanned": 52,
+  "last_scan": "2026-04-12T06:59:16.073275+00:00",
+  "scan_seconds": 29.6,
+  "markets_scanned": 50,
   "open_positions": 17,
   "signals": [
     {
-      "id": "sig_91275",
-      "timestamp": "2026-04-12T06:11:55.299760+00:00",
+      "id": "sig_911770",
+      "timestamp": "2026-04-12T06:58:55.792201+00:00",
       "source": "PERPLEXITY",
-      "headline": "US and Iran Agree to Two-Week Ceasefire on April 8, 2026; Israel Agrees but Excludes Lebanon, Sparking Tensions | YES |",
-      "raw": "US and Iran Agree to Two-Week Ceasefire on April 8, 2026; Israel Agrees but Excludes Lebanon, Sparking Tensions | YES | HIGH confidence**\n\nA two-week ceasefire in the 2026 Iran war was confirmed on April 8, 2026 (announced April 7 by Trump), mediated by Pakistan, with Iran agreeing to reopen the Strait of Hormuz and both Hezbollah and Israel pausing attacks on core fronts.[1][2] Israel explicitly ",
+      "headline": "Israel Announces Direct Negotiations with Lebanon on Hezbollah Disarmament | YES | HIGH confidence**",
+      "raw": "Israel Announces Direct Negotiations with Lebanon on Hezbollah Disarmament | YES | HIGH confidence**  \nIsraeli Prime Minister Benjamin Netanyahu confirmed Thursday that Israel will begin direct talks with Lebanon focused on disarming Hezbollah and regulating peaceful relations, following Lebanon's requests; rockets were fired into Israel from Lebanon minutes after the announcement.[1]  \nThis devel",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Will NVIDIA (NVDA) hit (HIGH) $192 Week of April 13 2026?",
         "Will Israel conduct military action against Iran by April 21, 2026?"
       ],
       "action": "ENTER",
@@ -22,54 +21,82 @@
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_106440",
-      "timestamp": "2026-04-12T06:12:10.464433+00:00",
+      "id": "sig_911774",
+      "timestamp": "2026-04-12T06:58:55.796422+00:00",
       "source": "PERPLEXITY",
-      "headline": "OKC Thunder Clinch No",
-      "raw": "OKC Thunder Clinch No. 1 Overall Seed in NBA Regular Season | NO (no Finals-specific resolution; regular season only) | HIGH confidence** [5][1]\n\nThe Oklahoma City Thunder have secured the NBA's best regular-season record and the No. 1 seed in the Western Conference, with two games remaining and nothing left to play for, as confirmed in recent analysis following their loss to the Denver Nuggets on",
+      "headline": "US-Iran-Pakistan Talks in Islamabad Stretch 15+ Hours with No Deal | NO | MED confidence**",
+      "raw": "US-Iran-Pakistan Talks in Islamabad Stretch 15+ Hours with No Deal | NO | MED confidence**  \nVice President JD Vance, envoy Steve Witkoff, and Jared Kushner held the first direct US-Iran face-to-face talks since 1979, covering Strait of Hormuz, Hezbollah, and uranium stockpiles, but no agreement was reached as of early Sunday local time.[3]  \nIran claims ceasefire violations including Israeli Leba",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Will Israel conduct military action against Iran by April 21, 2026?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_923341",
+      "timestamp": "2026-04-12T06:59:07.363979+00:00",
+      "source": "PERPLEXITY",
+      "headline": "OKC Thunder Clinch #1 West Seed & Best NBA Record; Key Stars Ruled Out for Regular-Season Finale vs",
+      "raw": "OKC Thunder Clinch #1 West Seed & Best NBA Record; Key Stars Ruled Out for Regular-Season Finale vs. Suns | YES | HIGH confidence** [1][2][4]\n\nThe Thunder have locked up the **#1 seed in the Western Conference** and the NBA's best regular-season record with two games left, confirming their top playoff position after intentionally resting starters in a 127-107 loss to the Nuggets on April 11 [1][2]",
       "direction": "YES",
-      "confidence": 0.9,
+      "confidence": 0.65,
       "matched_markets": [
         "Will the Oklahoma City Thunder win the 2026 NBA Finals?"
       ],
-      "action": "ENTER",
+      "action": "ALERT",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_100620",
-      "timestamp": "2026-04-12T06:12:04.644629+00:00",
+      "id": "sig_931038",
+      "timestamp": "2026-04-12T06:59:15.060329+00:00",
       "source": "PERPLEXITY",
-      "headline": "Confidence: HIGH** (search results show price momentum from ongoing ETF demand and macro factors, but nothing \"just conf",
-      "raw": "Confidence: HIGH** (search results show price momentum from ongoing ETF demand and macro factors, but nothing \"just confirmed\" as of now).",
-      "direction": null,
-      "confidence": 0.9,
+      "headline": "Iran x Israel/US Conflict End Date Market Hits 94% Odds for Dec 31 | NO whale bets or X posts reported | LOW confidence*",
+      "raw": "Iran x Israel/US Conflict End Date Market Hits 94% Odds for Dec 31 | NO whale bets or X posts reported | LOW confidence**  \nPolymarket's most active X-related market assigns a **94% probability** to the Iran x Israel/US conflict ending by December 31, with high volume but no specific mentions of whale activity, smart money moves, or trader tips on X in recent data.[1]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Israel conduct military action against Iran by April 21, 2026?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_931042",
+      "timestamp": "2026-04-12T06:59:15.064034+00:00",
+      "source": "PERPLEXITY",
+      "headline": "X Money Launch by April 30 at 43% Odds, Stablecoin in 2026 at 19% | NO mispriced calls or resolutions | LOW confidence**",
+      "raw": "X Money Launch by April 30 at 43% Odds, Stablecoin in 2026 at 19% | NO mispriced calls or resolutions | LOW confidence**  \nTraders price **43% odds** for \ud835\udd4f Money launching by April 30 ($29.6K volume) and **19%** for an X USD stablecoin in 2026 ($7.3K volume), amid 1345+ live X markets totaling $78.6M volume, but search results show no trending X posts about mispricing, tips, or recent confirmation",
+      "direction": "NO",
+      "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "COMMUNITY"
     },
     {
-      "id": "sig_95883",
-      "timestamp": "2026-04-12T06:11:59.907098+00:00",
+      "id": "sig_931045",
+      "timestamp": "2026-04-12T06:59:15.067792+00:00",
       "source": "PERPLEXITY",
-      "headline": "Duke Rodriguez Announces Republican Bid for New Mexico Governor | YES | HIGH confidence**",
-      "raw": "Duke Rodriguez Announces Republican Bid for New Mexico Governor | YES | HIGH confidence**  \nDuke Rodriguez, a former health care executive, Ultra Health CEO, and cabinet secretary under Gov. Gary Johnson, officially launched his campaign for New Mexico governor as a Republican over the December 15-16, 2025 weekend via newspaper ads and public statements, joining six other candidates to succeed ter",
-      "direction": "YES",
-      "confidence": 0.6,
-      "matched_markets": [
-        "Will Duke Rodriguez win the 2026 New Mexico Governor Republi",
-        "Will Madison Cawthorn be the Republican nominee for FL-19?"
-      ],
-      "action": "WATCH",
+      "headline": "Elon Musk Tweet Count Markets Surge with $5M+ Volume | NO smart money or whale bets detailed | MED confidence**",
+      "raw": "Elon Musk Tweet Count Markets Surge with $5M+ Volume | NO smart money or whale bets detailed | MED confidence**  \nHigh-volume markets like Elon Musk #tweets April 7-14 (40% at 240-259, $5M vol) and similar weekly bins dominate post/tweet categories ($14.7M+ total volume), indicating trader focus on his activity through April 21, though no X chatter on whales, mispriced odds, or just-resolved event",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
       "x_link": null,
-      "category": "POLITICS"
+      "category": "COMMUNITY"
     }
   ],
   "stats": {
-    "enter": 2,
-    "alert": 1,
-    "watch": 1,
-    "high_conf": 3
+    "enter": 1,
+    "alert": 5,
+    "watch": 0,
+    "high_conf": 1
   }
 }
