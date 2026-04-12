@@ -8,9 +8,9 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 126 categorical arb opportunities found\nScanned 3000 events (1929 multi-outcome) at 2026-04-12 01:20 UTC\nBest: 10.0% profit on 'Hamarkameratene vs. KFUM-Kameratene Oslo - More Markets' \u2014 buy YES on all 2 outcomes (sum=0.9)\nStrategy: Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 9.9% on 'Harvey Weinstein prison time?'",
+      "result": "LIVE \u2014 134 categorical arb opportunities found\nScanned 3000 events (1930 multi-outcome) at 2026-04-12 01:23 UTC\nBest: 10.0% profit on 'Hamarkameratene vs. KFUM-Kameratene Oslo - More Markets' \u2014 buy YES on all 2 outcomes (sum=0.9)\nStrategy: Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 9.9% on 'Harvey Weinstein prison time?'",
       "priority": "HIGH",
-      "last_scan": "2026-04-12 01:20 UTC",
+      "last_scan": "2026-04-12 01:23 UTC",
       "opportunities": [
         {
           "event_title": "Hamarkameratene vs. KFUM-Kameratene Oslo - More Markets",
@@ -79,7 +79,7 @@
               "slug": "will-harvey-weinstein-be-sentenced-to-more-than-30-years-in-prison",
               "question": "Will Harvey Weinstein be sentenced to more than 30 years in prison?",
               "yes_price": 0.0545,
-              "volume": 52598
+              "volume": 52624
             },
             {
               "market_id": "544093",
@@ -318,9 +318,9 @@
         {
           "event_title": "Presidential Election Winner 2028",
           "event_slug": "presidential-election-winner-2028",
-          "yes_sum": 0.904,
-          "profit_pct": 9.6,
-          "profit_per_dollar_pct": 10.62,
+          "yes_sum": 0.905,
+          "profit_pct": 9.5,
+          "profit_per_dollar_pct": 10.5,
           "num_outcomes": 36,
           "outcomes": [
             {
@@ -335,7 +335,7 @@
               "slug": "will-gavin-newsom-win-the-2028-us-presidential-election",
               "question": "Will Gavin Newsom win the 2028 US Presidential Election?",
               "yes_price": 0.161,
-              "volume": 13438021
+              "volume": 13443763
             },
             {
               "market_id": "561234",
@@ -398,7 +398,7 @@
               "slug": "will-pete-buttigieg-win-the-2028-us-presidential-election",
               "question": "Will Pete Buttigieg win the 2028 US Presidential Election?",
               "yes_price": 0.0165,
-              "volume": 3838177
+              "volume": 3838189
             },
             {
               "market_id": "561237",
@@ -406,6 +406,13 @@
               "question": "Will Andy Beshear win the 2028 US Presidential Election?",
               "yes_price": 0.0125,
               "volume": 17417816
+            },
+            {
+              "market_id": "561238",
+              "slug": "will-glenn-youngkin-win-the-2028-us-presidential-election",
+              "question": "Will Glenn Youngkin win the 2028 US Presidential Election?",
+              "yes_price": 0.0115,
+              "volume": 20789181
             },
             {
               "market_id": "561241",
@@ -420,13 +427,6 @@
               "question": "Will Dwayne 'The Rock' Johnson win the 2028 US Presidential Election?",
               "yes_price": 0.0115,
               "volume": 6039553
-            },
-            {
-              "market_id": "561238",
-              "slug": "will-glenn-youngkin-win-the-2028-us-presidential-election",
-              "question": "Will Glenn Youngkin win the 2028 US Presidential Election?",
-              "yes_price": 0.0105,
-              "volume": 20788916
             },
             {
               "market_id": "561260",
@@ -454,7 +454,7 @@
               "slug": "will-gretchen-whitmer-win-the-2028-us-presidential-election",
               "question": "Will Gretchen Whitmer win the 2028 US Presidential Election?",
               "yes_price": 0.0095,
-              "volume": 8516702
+              "volume": 8516987
             },
             {
               "market_id": "561258",
@@ -468,7 +468,7 @@
               "slug": "will-greg-abbott-win-the-2028-us-presidential-election",
               "question": "Will Greg Abbott win the 2028 US Presidential Election?",
               "yes_price": 0.0095,
-              "volume": 31821768
+              "volume": 31821890
             },
             {
               "market_id": "561257",
@@ -489,14 +489,14 @@
               "slug": "will-ro-khanna-win-the-2028-us-presidential-election",
               "question": "Will Ro Khanna win the 2028 US Presidential Election?",
               "yes_price": 0.0085,
-              "volume": 6660277
+              "volume": 6660364
             },
             {
               "market_id": "561240",
               "slug": "will-stephen-smith-win-the-2028-us-presidential-election",
               "question": "Will Stephen Smith win the 2028 US Presidential Election?",
               "yes_price": 0.0075,
-              "volume": 29526066
+              "volume": 29526199
             },
             {
               "market_id": "561244",
@@ -510,14 +510,14 @@
               "slug": "will-nikki-haley-win-the-2028-us-presidential-election",
               "question": "Will Nikki Haley win the 2028 US Presidential Election?",
               "yes_price": 0.0075,
-              "volume": 21722891
+              "volume": 21723185
             },
             {
               "market_id": "561256",
               "slug": "will-zohran-mamdani-win-the-2028-us-presidential-election",
               "question": "Will Zohran Mamdani win the 2028 US Presidential Election?",
               "yes_price": 0.0075,
-              "volume": 17499463
+              "volume": 17499553
             },
             {
               "market_id": "561263",
@@ -531,7 +531,7 @@
               "slug": "will-tim-walz-win-the-2028-us-presidential-election",
               "question": "Will Tim Walz win the 2028 US Presidential Election?",
               "yes_price": 0.0065,
-              "volume": 39402589
+              "volume": 39402603
             },
             {
               "market_id": "561235",
@@ -545,7 +545,7 @@
               "slug": "will-tulsi-gabbard-win-the-2028-us-presidential-election",
               "question": "Will Tulsi Gabbard win the 2028 US Presidential Election?",
               "yes_price": 0.0065,
-              "volume": 28004016
+              "volume": 28004084
             },
             {
               "market_id": "561264",
@@ -559,7 +559,7 @@
               "slug": "will-vivek-ramaswamy-win-the-2028-us-presidential-election",
               "question": "Will Vivek Ramaswamy win the 2028 US Presidential Election?",
               "yes_price": 0.0065,
-              "volume": 30922862
+              "volume": 30923065
             },
             {
               "market_id": "561254",
@@ -573,11 +573,11 @@
               "slug": "will-lebron-james-win-the-2028-us-presidential-election",
               "question": "Will LeBron James win the 2028 US Presidential Election?",
               "yes_price": 0.0055,
-              "volume": 46128596
+              "volume": 46128727
             }
           ],
           "url": "https://polymarket.com/event/presidential-election-winner-2028",
-          "strategy": "Buy YES on all 36 outcomes. Total cost: $0.9040. One wins $1.00. Profit: $0.0960 (9.60%)"
+          "strategy": "Buy YES on all 36 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
         },
         {
           "event_title": "What will S&P 500 (SPX) close at end of 2026?",
@@ -653,39 +653,46 @@
           "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
         },
         {
-          "event_title": "Shanghai Shenhua FC vs. Liaoning Tieren FC - More Markets",
-          "event_slug": "chi-sgr-tie-2026-04-18-more-markets",
-          "yes_sum": 0.91,
-          "profit_pct": 9.0,
-          "profit_per_dollar_pct": 9.89,
-          "num_outcomes": 2,
+          "event_title": "Reserve Bank of Australia Decision in May?",
+          "event_slug": "reserve-bank-of-australia-decision-in-may",
+          "yes_sum": 0.9055,
+          "profit_pct": 9.45,
+          "profit_per_dollar_pct": 10.44,
+          "num_outcomes": 3,
           "outcomes": [
             {
-              "market_id": "1683329",
-              "slug": "chi-sgr-tie-2026-04-18-total-2pt5",
-              "question": "Shanghai Shenhua FC vs. Liaoning Tieren FC: O/U 2.5",
-              "yes_price": 0.505,
-              "volume": 22933
+              "market_id": "1326428",
+              "slug": "will-the-reserve-bank-of-australia-increase-the-target-for-the-cash-rate-after-the-may-meeting",
+              "question": "Will the Reserve Bank of Australia increase the target for the cash rate after t",
+              "yes_price": 0.485,
+              "volume": 15155
             },
             {
-              "market_id": "1683333",
-              "slug": "chi-sgr-tie-2026-04-18-total-3pt5",
-              "question": "Shanghai Shenhua FC vs. Liaoning Tieren FC: O/U 3.5",
-              "yes_price": 0.405,
-              "volume": 2849
+              "market_id": "1326427",
+              "slug": "will-the-reserve-bank-of-australia-make-no-change-to-the-target-for-the-cash-rate-after-the-may-meeting",
+              "question": "Will the Reserve Bank of Australia make no change to the target for the cash rat",
+              "yes_price": 0.415,
+              "volume": 2965
+            },
+            {
+              "market_id": "1326426",
+              "slug": "will-the-reserve-bank-of-australia-decrease-the-target-for-the-cash-rate-after-the-may-meeting",
+              "question": "Will the Reserve Bank of Australia decrease the target for the cash rate after t",
+              "yes_price": 0.0055,
+              "volume": 7966
             }
           ],
-          "url": "https://polymarket.com/event/chi-sgr-tie-2026-04-18-more-markets",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9100. One wins $1.00. Profit: $0.0900 (9.00%)"
+          "url": "https://polymarket.com/event/reserve-bank-of-australia-decision-in-may",
+          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9055. One wins $1.00. Profit: $0.0945 (9.45%)"
         }
       ],
       "stats": {
         "total_events": 3000,
-        "checked_multi_outcome": 1929,
-        "skipped_single_outcome": 624,
-        "opportunities_found": 126,
+        "checked_multi_outcome": 1930,
+        "skipped_single_outcome": 622,
+        "opportunities_found": 134,
         "best_profit_pct": 10.0,
-        "scanned_at": "2026-04-12 01:20 UTC"
+        "scanned_at": "2026-04-12 01:23 UTC"
       }
     },
     {
