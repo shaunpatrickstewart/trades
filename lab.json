@@ -8,10 +8,36 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 126 categorical arb opportunities found\nScanned 3000 events (1987 multi-outcome) at 2026-04-12 18:23 UTC\nBest: 9.75% profit on 'Presidential Election Winner 2028' \u2014 buy YES on all 36 outcomes (sum=0.9025)\nStrategy: Buy YES on all 36 outcomes. Total cost: $0.9025. One wins $1.00. Profit: $0.0975 (9.75%)\n2nd: 9.7% on 'LA-05 Republican Primary Winner'",
+      "result": "LIVE \u2014 126 categorical arb opportunities found\nScanned 3000 events (1987 multi-outcome) at 2026-04-12 18:26 UTC\nBest: 10.0% profit on 'What will Trump post this week? (April 13 - April 19)' \u2014 buy YES on all 2 outcomes (sum=0.9)\nStrategy: Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 9.75% on 'Presidential Election Winner 2028'",
       "priority": "HIGH",
-      "last_scan": "2026-04-12 18:23 UTC",
+      "last_scan": "2026-04-12 18:26 UTC",
       "opportunities": [
+        {
+          "event_title": "What will Trump post this week? (April 13 - April 19)",
+          "event_slug": "what-will-trump-post-this-week-april-13-april-19",
+          "yes_sum": 0.9,
+          "profit_pct": 10.0,
+          "profit_per_dollar_pct": 11.11,
+          "num_outcomes": 2,
+          "outcomes": [
+            {
+              "market_id": "1939843",
+              "slug": "will-trump-post-new-york-times-this-week-on-truth-social",
+              "question": "Will Trump post \"New York Times\" this week on Truth Social?",
+              "yes_price": 0.53,
+              "volume": 4137
+            },
+            {
+              "market_id": "1939847",
+              "slug": "will-trump-post-god-bless-america-this-week-on-truth-social",
+              "question": "Will Trump post \"God Bless America\" this week on Truth Social?",
+              "yes_price": 0.37,
+              "volume": 3460
+            }
+          ],
+          "url": "https://polymarket.com/event/what-will-trump-post-this-week-april-13-april-19",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
+        },
         {
           "event_title": "Presidential Election Winner 2028",
           "event_slug": "presidential-election-winner-2028",
@@ -25,14 +51,14 @@
               "slug": "will-jd-vance-win-the-2028-us-presidential-election",
               "question": "Will JD Vance win the 2028 US Presidential Election?",
               "yes_price": 0.1875,
-              "volume": 10117079
+              "volume": 10117090
             },
             {
               "market_id": "561230",
               "slug": "will-gavin-newsom-win-the-2028-us-presidential-election",
               "question": "Will Gavin Newsom win the 2028 US Presidential Election?",
               "yes_price": 0.1685,
-              "volume": 13702876
+              "volume": 13702919
             },
             {
               "market_id": "561234",
@@ -60,21 +86,21 @@
               "slug": "will-kamala-harris-win-the-2028-us-presidential-election",
               "question": "Will Kamala Harris win the 2028 US Presidential Election?",
               "yes_price": 0.0325,
-              "volume": 6953955
+              "volume": 6953972
             },
             {
               "market_id": "561253",
               "slug": "will-tucker-carlson-win-the-2028-us-presidential-election",
               "question": "Will Tucker Carlson win the 2028 US Presidential Election?",
               "yes_price": 0.0275,
-              "volume": 9866952
+              "volume": 9867010
             },
             {
               "market_id": "561233",
               "slug": "will-josh-shapiro-win-the-2028-us-presidential-election",
               "question": "Will Josh Shapiro win the 2028 US Presidential Election?",
               "yes_price": 0.0215,
-              "volume": 5780114
+              "volume": 5780165
             },
             {
               "market_id": "561243",
@@ -88,7 +114,7 @@
               "slug": "will-ron-desantis-win-the-2028-us-presidential-election",
               "question": "Will Ron DeSantis win the 2028 US Presidential Election?",
               "yes_price": 0.018,
-              "volume": 8664882
+              "volume": 8665037
             },
             {
               "market_id": "561232",
@@ -151,7 +177,7 @@
               "slug": "will-elon-musk-win-the-2028-us-presidential-election",
               "question": "Will Elon Musk win the 2028 US Presidential Election?",
               "yes_price": 0.0095,
-              "volume": 22652809
+              "volume": 22652869
             },
             {
               "market_id": "561258",
@@ -165,7 +191,7 @@
               "slug": "will-greg-abbott-win-the-2028-us-presidential-election",
               "question": "Will Greg Abbott win the 2028 US Presidential Election?",
               "yes_price": 0.0095,
-              "volume": 31849569
+              "volume": 31849834
             },
             {
               "market_id": "561255",
@@ -186,42 +212,42 @@
               "slug": "will-ro-khanna-win-the-2028-us-presidential-election",
               "question": "Will Ro Khanna win the 2028 US Presidential Election?",
               "yes_price": 0.0085,
-              "volume": 7064877
+              "volume": 7064944
             },
             {
               "market_id": "561240",
               "slug": "will-stephen-smith-win-the-2028-us-presidential-election",
               "question": "Will Stephen Smith win the 2028 US Presidential Election?",
               "yes_price": 0.0075,
-              "volume": 29585811
+              "volume": 29586013
             },
             {
               "market_id": "561244",
               "slug": "will-donald-trump-jr-win-the-2028-us-presidential-election",
               "question": "Will Donald Trump Jr. win the 2028 US Presidential Election?",
               "yes_price": 0.0075,
-              "volume": 9193409
+              "volume": 9193721
             },
             {
               "market_id": "561245",
               "slug": "will-nikki-haley-win-the-2028-us-presidential-election",
               "question": "Will Nikki Haley win the 2028 US Presidential Election?",
               "yes_price": 0.0075,
-              "volume": 21788065
+              "volume": 21788320
             },
             {
               "market_id": "561256",
               "slug": "will-zohran-mamdani-win-the-2028-us-presidential-election",
               "question": "Will Zohran Mamdani win the 2028 US Presidential Election?",
               "yes_price": 0.0075,
-              "volume": 17564415
+              "volume": 17564615
             },
             {
               "market_id": "561263",
               "slug": "will-eric-trump-win-the-2028-us-presidential-election",
               "question": "Will Eric Trump win the 2028 US Presidential Election?",
               "yes_price": 0.0065,
-              "volume": 6586521
+              "volume": 6586880
             },
             {
               "market_id": "561247",
@@ -270,7 +296,7 @@
               "slug": "will-lebron-james-win-the-2028-us-presidential-election",
               "question": "Will LeBron James win the 2028 US Presidential Election?",
               "yes_price": 0.0055,
-              "volume": 46279890
+              "volume": 46280150
             }
           ],
           "url": "https://polymarket.com/event/presidential-election-winner-2028",
@@ -308,6 +334,39 @@
           ],
           "url": "https://polymarket.com/event/la-05-republican-primary-winner",
           "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9030. One wins $1.00. Profit: $0.0970 (9.70%)"
+        },
+        {
+          "event_title": "Will the 10-year treasury hit __ in April?",
+          "event_slug": "what-will-the-10-year-treasury-hit-in-april",
+          "yes_sum": 0.9035,
+          "profit_pct": 9.65,
+          "profit_per_dollar_pct": 10.68,
+          "num_outcomes": 3,
+          "outcomes": [
+            {
+              "market_id": "1819596",
+              "slug": "will-the-10-year-treasury-hit-4pt40-high-in-april",
+              "question": "Will the 10-year Treasury hit 4.40% (HIGH) in April?",
+              "yes_price": 0.685,
+              "volume": 1444
+            },
+            {
+              "market_id": "1819595",
+              "slug": "will-the-10-year-treasury-hit-4pt45-high-in-april",
+              "question": "Will the 10-year Treasury hit 4.45% (HIGH) in April?",
+              "yes_price": 0.173,
+              "volume": 3019
+            },
+            {
+              "market_id": "1819593",
+              "slug": "will-the-10-year-treasury-hit-4pt60-high-in-april",
+              "question": "Will the 10-year Treasury hit 4.60% (HIGH) in April?",
+              "yes_price": 0.0455,
+              "volume": 1108
+            }
+          ],
+          "url": "https://polymarket.com/event/what-will-the-10-year-treasury-hit-in-april",
+          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9035. One wins $1.00. Profit: $0.0965 (9.65%)"
         },
         {
           "event_title": "Will Opensea launch a token by ___?",
@@ -350,37 +409,51 @@
           "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9045. One wins $1.00. Profit: $0.0955 (9.55%)"
         },
         {
-          "event_title": "Will the 10-year treasury hit __ in April?",
-          "event_slug": "what-will-the-10-year-treasury-hit-in-april",
-          "yes_sum": 0.9045,
-          "profit_pct": 9.55,
-          "profit_per_dollar_pct": 10.56,
-          "num_outcomes": 3,
+          "event_title": "Will Israel launch a major ground offensive in Gaza by...?",
+          "event_slug": "will-israel-launch-a-major-ground-offensive-in-gaza-by-october-31",
+          "yes_sum": 0.905,
+          "profit_pct": 9.5,
+          "profit_per_dollar_pct": 10.5,
+          "num_outcomes": 5,
           "outcomes": [
             {
-              "market_id": "1819596",
-              "slug": "will-the-10-year-treasury-hit-4pt40-high-in-april",
-              "question": "Will the 10-year Treasury hit 4.40% (HIGH) in April?",
-              "yes_price": 0.685,
-              "volume": 1444
+              "market_id": "1642010",
+              "slug": "will-israel-launch-a-major-ground-offensive-in-gaza-by-december-31-828",
+              "question": "Will Israel launch a major ground offensive in Gaza by December 31?",
+              "yes_price": 0.565,
+              "volume": 18180
             },
             {
-              "market_id": "1819595",
-              "slug": "will-the-10-year-treasury-hit-4pt45-high-in-april",
-              "question": "Will the 10-year Treasury hit 4.45% (HIGH) in April?",
-              "yes_price": 0.1745,
-              "volume": 3019
+              "market_id": "1642009",
+              "slug": "will-israel-launch-a-major-ground-offensive-in-gaza-by-june-30",
+              "question": "Will Israel launch a major ground offensive in Gaza by June 30?",
+              "yes_price": 0.34,
+              "volume": 13424
             },
             {
-              "market_id": "1819593",
-              "slug": "will-the-10-year-treasury-hit-4pt60-high-in-april",
-              "question": "Will the 10-year Treasury hit 4.60% (HIGH) in April?",
-              "yes_price": 0.045,
-              "volume": 1108
+              "market_id": "639929",
+              "slug": "will-israel-launch-a-major-ground-offensive-in-gaza-by-december-31",
+              "question": "Will Israel launch a major ground offensive in Gaza by December 31?",
+              "yes_price": 0.0,
+              "volume": 50690
+            },
+            {
+              "market_id": "639928",
+              "slug": "will-israel-launch-a-major-ground-offensive-in-gaza-by-october-31",
+              "question": "Will Israel launch a major ground offensive in Gaza by October 31?",
+              "yes_price": 0.0,
+              "volume": 100197
+            },
+            {
+              "market_id": "677398",
+              "slug": "will-israel-launch-a-major-ground-offensive-in-gaza-by-march-31",
+              "question": "Will Israel launch a major ground offensive in Gaza by March 31?",
+              "yes_price": 0.0,
+              "volume": 325856
             }
           ],
-          "url": "https://polymarket.com/event/what-will-the-10-year-treasury-hit-in-april",
-          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9045. One wins $1.00. Profit: $0.0955 (9.55%)"
+          "url": "https://polymarket.com/event/will-israel-launch-a-major-ground-offensive-in-gaza-by-october-31",
+          "strategy": "Buy YES on all 5 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
         },
         {
           "event_title": "CO-08 Democratic Primary Winner",
@@ -409,37 +482,63 @@
           "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
         },
         {
-          "event_title": "What will Trump post this week? (April 13 - April 19)",
-          "event_slug": "what-will-trump-post-this-week-april-13-april-19",
-          "yes_sum": 0.905,
-          "profit_pct": 9.5,
-          "profit_per_dollar_pct": 10.5,
+          "event_title": "Montana Senate Election Winner",
+          "event_slug": "montana-senate-election-winner",
+          "yes_sum": 0.9095,
+          "profit_pct": 9.05,
+          "profit_per_dollar_pct": 9.95,
           "num_outcomes": 2,
           "outcomes": [
             {
-              "market_id": "1939843",
-              "slug": "will-trump-post-new-york-times-this-week-on-truth-social",
-              "question": "Will Trump post \"New York Times\" this week on Truth Social?",
-              "yes_price": 0.53,
-              "volume": 4137
+              "market_id": "630832",
+              "slug": "will-the-republicans-win-the-montana-senate-race-in-2026",
+              "question": "Will the Republicans win the Montana Senate race in 2026?",
+              "yes_price": 0.785,
+              "volume": 34484
             },
             {
-              "market_id": "1939847",
-              "slug": "will-trump-post-god-bless-america-this-week-on-truth-social",
-              "question": "Will Trump post \"God Bless America\" this week on Truth Social?",
-              "yes_price": 0.375,
-              "volume": 3460
+              "market_id": "630831",
+              "slug": "will-the-democrats-win-the-montana-senate-race-in-2026",
+              "question": "Will the Democrats win the Montana Senate race in 2026?",
+              "yes_price": 0.1245,
+              "volume": 25835
             }
           ],
-          "url": "https://polymarket.com/event/what-will-trump-post-this-week-april-13-april-19",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
+          "url": "https://polymarket.com/event/montana-senate-election-winner",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9095. One wins $1.00. Profit: $0.0905 (9.05%)"
+        },
+        {
+          "event_title": "NY-01 House Election Winner",
+          "event_slug": "ny-01-house-election-winner",
+          "yes_sum": 0.91,
+          "profit_pct": 9.0,
+          "profit_per_dollar_pct": 9.89,
+          "num_outcomes": 2,
+          "outcomes": [
+            {
+              "market_id": "1284218",
+              "slug": "will-the-republican-party-win-the-ny-01-house-seat",
+              "question": "Will the Republican Party win the NY-01 House seat?",
+              "yes_price": 0.63,
+              "volume": 3726
+            },
+            {
+              "market_id": "1284219",
+              "slug": "will-the-democratic-party-win-the-ny-01-house-seat",
+              "question": "Will the Democratic Party win the NY-01 House seat?",
+              "yes_price": 0.28,
+              "volume": 8802
+            }
+          ],
+          "url": "https://polymarket.com/event/ny-01-house-election-winner",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9100. One wins $1.00. Profit: $0.0900 (9.00%)"
         },
         {
           "event_title": "MLS Cup Winner 2026",
           "event_slug": "mls-cup-winner-2026",
-          "yes_sum": 0.9095,
-          "profit_pct": 9.05,
-          "profit_per_dollar_pct": 9.95,
+          "yes_sum": 0.9115,
+          "profit_pct": 8.85,
+          "profit_per_dollar_pct": 9.71,
           "num_outcomes": 30,
           "outcomes": [
             {
@@ -481,8 +580,8 @@
               "market_id": "1349147",
               "slug": "will-fc-cincinnati-win-the-2026-mls-cup",
               "question": "Will FC Cincinnati win the 2026 MLS Cup?",
-              "yes_price": 0.0375,
-              "volume": 544704
+              "yes_price": 0.038,
+              "volume": 544741
             },
             {
               "market_id": "1349160",
@@ -496,7 +595,14 @@
               "slug": "will-seattle-sounders-fc-win-the-2026-mls-cup",
               "question": "Will Seattle Sounders FC win the 2026 MLS Cup?",
               "yes_price": 0.0345,
-              "volume": 703058
+              "volume": 703154
+            },
+            {
+              "market_id": "1349167",
+              "slug": "will-san-jose-earthquakes-win-the-2026-mls-cup",
+              "question": "Will San Jose Earthquakes win the 2026 MLS Cup?",
+              "yes_price": 0.025,
+              "volume": 945403
             },
             {
               "market_id": "1349171",
@@ -506,18 +612,11 @@
               "volume": 18756
             },
             {
-              "market_id": "1349167",
-              "slug": "will-san-jose-earthquakes-win-the-2026-mls-cup",
-              "question": "Will San Jose Earthquakes win the 2026 MLS Cup?",
-              "yes_price": 0.0235,
-              "volume": 945403
-            },
-            {
               "market_id": "1349145",
               "slug": "will-charlotte-fc-win-the-2026-mls-cup",
               "question": "Will Charlotte FC win the 2026 MLS Cup?",
               "yes_price": 0.0225,
-              "volume": 303212
+              "volume": 303305
             },
             {
               "market_id": "1349155",
@@ -654,178 +753,16 @@
             }
           ],
           "url": "https://polymarket.com/event/mls-cup-winner-2026",
-          "strategy": "Buy YES on all 30 outcomes. Total cost: $0.9095. One wins $1.00. Profit: $0.0905 (9.05%)"
-        },
-        {
-          "event_title": "CZ # posts April 7 - April 14, 2026?",
-          "event_slug": "cz-binance-of-tweets-april-7-april-14-2026",
-          "yes_sum": 0.9095,
-          "profit_pct": 9.05,
-          "profit_per_dollar_pct": 9.95,
-          "num_outcomes": 11,
-          "outcomes": [
-            {
-              "market_id": "1854119",
-              "slug": "cz-binance-of-tweets-april-7-april-14-2026-60-79",
-              "question": "Will CZ post 60-79 posts from April 7 to April 14, 2026?",
-              "yes_price": 0.788,
-              "volume": 3516
-            },
-            {
-              "market_id": "1854131",
-              "slug": "cz-binance-of-tweets-april-7-april-14-2026-80-99",
-              "question": "Will CZ post 80-99 posts from April 7 to April 14, 2026?",
-              "yes_price": 0.0735,
-              "volume": 2170
-            },
-            {
-              "market_id": "1854111",
-              "slug": "cz-binance-of-tweets-april-7-april-14-2026-40-59",
-              "question": "Will CZ post 40-59 posts from April 7 to April 14, 2026?",
-              "yes_price": 0.0385,
-              "volume": 8461
-            },
-            {
-              "market_id": "1854146",
-              "slug": "cz-binance-of-tweets-april-7-april-14-2026-100-119",
-              "question": "Will CZ post 100-119 posts from April 7 to April 14, 2026?",
-              "yes_price": 0.0045,
-              "volume": 1032
-            },
-            {
-              "market_id": "1854162",
-              "slug": "cz-binance-of-tweets-april-7-april-14-2026-120-139",
-              "question": "Will CZ post 120-139 posts from April 7 to April 14, 2026?",
-              "yes_price": 0.0025,
-              "volume": 1194
-            },
-            {
-              "market_id": "1854179",
-              "slug": "cz-binance-of-tweets-april-7-april-14-2026-160-179",
-              "question": "Will CZ post 160-179 posts from April 7 to April 14, 2026?",
-              "yes_price": 0.001,
-              "volume": 6783
-            },
-            {
-              "market_id": "1854171",
-              "slug": "cz-binance-of-tweets-april-7-april-14-2026-140-159",
-              "question": "Will CZ post 140-159 posts from April 7 to April 14, 2026?",
-              "yes_price": 0.0005,
-              "volume": 1100
-            },
-            {
-              "market_id": "1854187",
-              "slug": "cz-binance-of-tweets-april-7-april-14-2026-180-199",
-              "question": "Will CZ post 180-199 posts from April 7 to April 14, 2026?",
-              "yes_price": 0.0005,
-              "volume": 1875
-            },
-            {
-              "market_id": "1854193",
-              "slug": "cz-binance-of-tweets-april-7-april-14-2026-200plus",
-              "question": "Will CZ post 200+ posts from April 7 to April 14, 2026?",
-              "yes_price": 0.0005,
-              "volume": 3126
-            },
-            {
-              "market_id": "1854097",
-              "slug": "cz-binance-of-tweets-april-7-april-14-2026-0-19",
-              "question": "Will CZ post 0-19 posts from April 7 to April 14, 2026?",
-              "yes_price": 0.0,
-              "volume": 5026
-            },
-            {
-              "market_id": "1854104",
-              "slug": "cz-binance-of-tweets-april-7-april-14-2026-20-39",
-              "question": "Will CZ post 20-39 posts from April 7 to April 14, 2026?",
-              "yes_price": 0.0,
-              "volume": 4477
-            }
-          ],
-          "url": "https://polymarket.com/event/cz-binance-of-tweets-april-7-april-14-2026",
-          "strategy": "Buy YES on all 11 outcomes. Total cost: $0.9095. One wins $1.00. Profit: $0.0905 (9.05%)"
-        },
-        {
-          "event_title": "Maduro Prison Time?",
-          "event_slug": "maduro-prison-time-527",
-          "yes_sum": 0.91,
-          "profit_pct": 9.0,
-          "profit_per_dollar_pct": 9.89,
-          "num_outcomes": 5,
-          "outcomes": [
-            {
-              "market_id": "1098292",
-              "slug": "will-nicols-maduro-be-sentenced-to-at-least-60-years-in-prison",
-              "question": "Will Nicol\u00e1s Maduro be sentenced to at least 60 years in prison?",
-              "yes_price": 0.355,
-              "volume": 30724
-            },
-            {
-              "market_id": "1098288",
-              "slug": "will-nicols-maduro-be-sentenced-to-no-prison-time-974",
-              "question": "Will Nicol\u00e1s Maduro be sentenced to no prison time?",
-              "yes_price": 0.265,
-              "volume": 362889
-            },
-            {
-              "market_id": "1098291",
-              "slug": "will-nicols-maduro-be-sentenced-to-between-40-and-60-years-in-prison",
-              "question": "Will Nicol\u00e1s Maduro be sentenced to between 40 and 60 years in prison?",
-              "yes_price": 0.145,
-              "volume": 13925
-            },
-            {
-              "market_id": "1098289",
-              "slug": "will-nicols-maduro-be-sentenced-to-less-than-20-years-in-prison",
-              "question": "Will Nicol\u00e1s Maduro be sentenced to less than 20 years in prison?",
-              "yes_price": 0.077,
-              "volume": 28470
-            },
-            {
-              "market_id": "1098290",
-              "slug": "will-nicols-maduro-be-sentenced-to-between-20-and-40-years-in-prison",
-              "question": "Will Nicol\u00e1s Maduro be sentenced to between 20 and 40 years in prison?",
-              "yes_price": 0.068,
-              "volume": 33790
-            }
-          ],
-          "url": "https://polymarket.com/event/maduro-prison-time-527",
-          "strategy": "Buy YES on all 5 outcomes. Total cost: $0.9100. One wins $1.00. Profit: $0.0900 (9.00%)"
-        },
-        {
-          "event_title": "NY-01 House Election Winner",
-          "event_slug": "ny-01-house-election-winner",
-          "yes_sum": 0.91,
-          "profit_pct": 9.0,
-          "profit_per_dollar_pct": 9.89,
-          "num_outcomes": 2,
-          "outcomes": [
-            {
-              "market_id": "1284218",
-              "slug": "will-the-republican-party-win-the-ny-01-house-seat",
-              "question": "Will the Republican Party win the NY-01 House seat?",
-              "yes_price": 0.63,
-              "volume": 3726
-            },
-            {
-              "market_id": "1284219",
-              "slug": "will-the-democratic-party-win-the-ny-01-house-seat",
-              "question": "Will the Democratic Party win the NY-01 House seat?",
-              "yes_price": 0.28,
-              "volume": 8802
-            }
-          ],
-          "url": "https://polymarket.com/event/ny-01-house-election-winner",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9100. One wins $1.00. Profit: $0.0900 (9.00%)"
+          "strategy": "Buy YES on all 30 outcomes. Total cost: $0.9115. One wins $1.00. Profit: $0.0885 (8.85%)"
         }
       ],
       "stats": {
         "total_events": 3000,
         "checked_multi_outcome": 1987,
-        "skipped_single_outcome": 633,
+        "skipped_single_outcome": 635,
         "opportunities_found": 126,
-        "best_profit_pct": 9.75,
-        "scanned_at": "2026-04-12 18:23 UTC"
+        "best_profit_pct": 10.0,
+        "scanned_at": "2026-04-12 18:26 UTC"
       }
     },
     {
@@ -835,7 +772,7 @@
       "hypothesis": "NEAR_CERTAIN is profitable (93.6% WR, +$16.32) but makes <$0.23/trade. Research shows pros scale these to thousands of dollars per trade to generate real income. At $10/bet we need 4,000+ trades to make $1,000.",
       "source": "Paper trade analysis + Grok research",
       "action": "Test 5x bet size increase ($10\u2192$50) on NEAR_CERTAIN. Downside: avg loss goes from $2.49 to $12.45. Need 93.6%+ WR sustained at higher sizes.",
-      "result": "W=3822 L=63 PnL=$616.94 open=0",
+      "result": "W=3822 L=63 PnL=$616.94 open=1",
       "priority": "HIGH"
     },
     {
