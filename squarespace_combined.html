@@ -88,7 +88,7 @@
         <span class="panel-title c-yellow">&#9670; Bot Performance — Paper Trading Results</span>
         <span class="panel-count" id="perf-count">—</span>
       </div>
-      <div class="panel-desc">Live paper trade results. Active engines: NEAR-CERTAIN (98.4% WR · +$608 net) + WALLET COPY SHORT + WALLET COPY LONG. All engines running. Real-time stats computed from paper_trades.jsonl.</div>
+      <div class="panel-desc" id="perf-panel-desc">Live paper trade results. Active engines: NEAR-CERTAIN + WALLET COPY SHORT + ANTI-NC. Stats computed from paper_trades.jsonl in real time.</div>
     </div>
     <div class="panel-body" id="pm-performance">
       <div class="loader">Loading results</div>
@@ -102,7 +102,7 @@
         <span class="panel-title c-purple">&#9733; Top Wallets — Leaderboard</span>
         <span class="panel-count" id="wallet-count">—</span>
       </div>
-      <div class="panel-desc">Ranked by ROI (PnL ÷ Volume) — consistent performers, not one-time winners. These are the wallets the LONG_TERM engine mirrors.</div>
+      <div class="panel-desc">Ranked by ROI (PnL ÷ Volume) — consistent performers, not one-time winners. The best wallets are tracked in elite_wallets.json and copied by the SHORT_TERM engine.</div>
     </div>
     <div class="panel-body" id="pm-wallets">
       <div class="loader">Pulling wallets</div>
@@ -119,7 +119,7 @@
         <span class="panel-title c-paper">&#9632; Open Positions — Live Bot Trades</span>
         <span id="paper-summary" style="font-size:0.7em;color:#444">Loading...</span>
       </div>
-      <div class="panel-desc">Active paper trades from SHORT_TERM and LONG_TERM engines. Entry price, bet size, expected value (EV), and current status. Auto-syncs every 30 minutes via GitHub.</div>
+      <div class="panel-desc">Active paper trades from all engines. Entry price, bet size, expected value (EV), and current status. Source of truth: paper_trades.jsonl — synced every 30 minutes via GitHub.</div>
     </div>
     <div class="panel-body" style="max-height:280px" id="paper-trades">
       <div class="loader">Loading</div>
@@ -681,7 +681,7 @@
       });
 
       // Days with activity, sorted newest first
-      const days = Object.keys(byDay).sort().reverse();
+      const activeDays = Object.keys(byDay).sort().reverse();
 
       // Slice helpers
       const sinceDays = (n) => {
