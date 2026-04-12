@@ -8,10 +8,90 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 143 categorical arb opportunities found\nScanned 3000 events (1947 multi-outcome) at 2026-04-12 10:16 UTC\nBest: 10.0% profit on 'Hamarkameratene vs. KFUM-Kameratene Oslo - More Markets' \u2014 buy YES on all 2 outcomes (sum=0.9)\nStrategy: Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 9.95% on 'Guinea-Bissau National People's Assembly Election Winner'",
+      "result": "LIVE \u2014 146 categorical arb opportunities found\nScanned 3000 events (1949 multi-outcome) at 2026-04-12 10:20 UTC\nBest: 10.0% profit on '# of seats won by PB in Bulgarian Parliamentary Election?' \u2014 buy YES on all 4 outcomes (sum=0.9)\nStrategy: Buy YES on all 4 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 10.0% on 'How many 7.0 or above earthquakes by June 30? (Higher Strikes)'",
       "priority": "HIGH",
-      "last_scan": "2026-04-12 10:16 UTC",
+      "last_scan": "2026-04-12 10:20 UTC",
       "opportunities": [
+        {
+          "event_title": "# of seats won by PB in Bulgarian Parliamentary Election?",
+          "event_slug": "of-seats-won-by-pb-in-bulgarian-parliamentary-election",
+          "yes_sum": 0.9,
+          "profit_pct": 10.0,
+          "profit_per_dollar_pct": 11.11,
+          "num_outcomes": 4,
+          "outcomes": [
+            {
+              "market_id": "1738484",
+              "slug": "will-progressive-bulgaria-pb-win-between-90-94-seats-in-the-2026-bulgarian-parliamentary-election",
+              "question": "Will Progressive Bulgaria (PB) win between 90-94 seats in the 2026 Bulgarian par",
+              "yes_price": 0.32,
+              "volume": 6332
+            },
+            {
+              "market_id": "1738483",
+              "slug": "will-progressive-bulgaria-pb-win-between-85-89-seats-in-the-2026-bulgarian-parliamentary-election",
+              "question": "Will Progressive Bulgaria (PB) win between 85-89 seats in the 2026 Bulgarian par",
+              "yes_price": 0.26,
+              "volume": 8003
+            },
+            {
+              "market_id": "1738482",
+              "slug": "will-progressive-bulgaria-pb-win-between-80-84-seats-in-the-2026-bulgarian-parliamentary-election",
+              "question": "Will Progressive Bulgaria (PB) win between 80-84 seats in the 2026 Bulgarian par",
+              "yes_price": 0.18,
+              "volume": 7906
+            },
+            {
+              "market_id": "1738485",
+              "slug": "will-progressive-bulgaria-pb-win-95-or-more-seats-in-the-2026-bulgarian-parliamentary-election",
+              "question": "Will Progressive Bulgaria (PB) win 95 or more seats in the 2026 Bulgarian parlia",
+              "yes_price": 0.14,
+              "volume": 12736
+            }
+          ],
+          "url": "https://polymarket.com/event/of-seats-won-by-pb-in-bulgarian-parliamentary-election",
+          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
+        },
+        {
+          "event_title": "How many 7.0 or above earthquakes by June 30? (Higher Strikes)",
+          "event_slug": "how-many-7pt0-or-above-earthquakes-by-june-30-higher-strikes",
+          "yes_sum": 0.9,
+          "profit_pct": 10.0,
+          "profit_per_dollar_pct": 11.11,
+          "num_outcomes": 4,
+          "outcomes": [
+            {
+              "market_id": "1829467",
+              "slug": "will-there-be-8-or-fewer-earthquakes-of-magnitude-7pt0-or-higher-worldwide-by-june-30",
+              "question": "Will there be 8 or fewer earthquakes of magnitude 7.0 or higher worldwide by Jun",
+              "yes_price": 0.44,
+              "volume": 16405
+            },
+            {
+              "market_id": "1829470",
+              "slug": "will-there-be-exactly-11-earthquakes-of-magnitude-7pt0-or-higher-worldwide-by-june-30",
+              "question": "Will there be exactly 11 earthquakes of magnitude 7.0 or higher worldwide by Jun",
+              "yes_price": 0.215,
+              "volume": 4836
+            },
+            {
+              "market_id": "1829468",
+              "slug": "will-there-be-exactly-9-earthquake-of-magnitude-7pt0-or-higher-worldwide-by-june-30",
+              "question": "Will there be exactly 9 earthquake of magnitude 7.0 or higher worldwide by June ",
+              "yes_price": 0.155,
+              "volume": 10007
+            },
+            {
+              "market_id": "1829471",
+              "slug": "will-there-be-exactly-12-earthquakes-of-magnitude-7pt0-or-higher-worldwide-by-june-30",
+              "question": "Will there be exactly 12 earthquakes of magnitude 7.0 or higher worldwide by Jun",
+              "yes_price": 0.09,
+              "volume": 3114
+            }
+          ],
+          "url": "https://polymarket.com/event/how-many-7pt0-or-above-earthquakes-by-june-30-higher-strikes",
+          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
+        },
         {
           "event_title": "Hamarkameratene vs. KFUM-Kameratene Oslo - More Markets",
           "event_slug": "nor-ham-kfu-2026-04-19-more-markets",
@@ -39,65 +119,58 @@
           "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
         },
         {
-          "event_title": "Guinea-Bissau National People's Assembly Election Winner",
-          "event_slug": "guinea-bissau-national-peoples-assembly-election-winner",
-          "yes_sum": 0.9005,
-          "profit_pct": 9.95,
-          "profit_per_dollar_pct": 11.05,
-          "num_outcomes": 6,
+          "event_title": "# of seats won by GERB-SDS in Bulgarian Parliamentary Election?",
+          "event_slug": "of-seats-won-by-gerb-sds-in-bulgarian-parliamentary-election",
+          "yes_sum": 0.9015,
+          "profit_pct": 9.85,
+          "profit_per_dollar_pct": 10.93,
+          "num_outcomes": 5,
           "outcomes": [
             {
-              "market_id": "668685",
-              "slug": "will-platforma-reupblicana-n-kumpu-guin-win-the-most-seats-in-the-2025-guinea-bissau-national-peoples-assembly-election",
-              "question": "Will Platforma Reupblicana \u201cN\u00f4 Kumpu Guin\u00e9\u201d win the most seats in the 2025 Guine",
-              "yes_price": 0.3675,
-              "volume": 33421
+              "market_id": "1738311",
+              "slug": "will-gerb-sds-win-between-60-64-seats-in-the-2026-bulgarian-parliamentary-election",
+              "question": "Will GERB-SDS win between 60-64 seats in the 2026 Bulgarian parliamentary electi",
+              "yes_price": 0.38,
+              "volume": 19936
             },
             {
-              "market_id": "668683",
-              "slug": "will-pt-win-the-most-seats-in-the-2025-guinea-bissau-national-peoples-assembly-election",
-              "question": "Will PT win the most seats in the 2025 Guinea-Bissau National People\u2019s Assembly ",
-              "yes_price": 0.236,
-              "volume": 18748
+              "market_id": "1738310",
+              "slug": "will-gerb-sds-win-between-55-59-seats-in-the-2026-bulgarian-parliamentary-election",
+              "question": "Will GERB-SDS win between 55-59 seats in the 2026 Bulgarian parliamentary electi",
+              "yes_price": 0.18,
+              "volume": 7378
             },
             {
-              "market_id": "668684",
-              "slug": "will-ptg-win-the-most-seats-in-the-2025-guinea-bissau-national-peoples-assembly-election",
-              "question": "Will MUNDO-GB\u2028 win the most seats in the 2025 Guinea-Bissau National People\u2019s As",
-              "yes_price": 0.1745,
-              "volume": 19085
+              "market_id": "1738313",
+              "slug": "will-gerb-sds-win-70-or-more-seats-in-the-2026-bulgarian-parliamentary-election",
+              "question": "Will GERB-SDS win 70 or more seats in the 2026 Bulgarian parliamentary election?",
+              "yes_price": 0.14,
+              "volume": 1015
             },
             {
-              "market_id": "668680",
-              "slug": "will-fling-win-the-most-seats-in-the-2025-guinea-bissau-national-peoples-assembly-election",
-              "question": "Will FLING win the most seats in the 2025 Guinea-Bissau National People\u2019s Assemb",
-              "yes_price": 0.0535,
-              "volume": 11103
+              "market_id": "1738312",
+              "slug": "will-gerb-sds-win-between-65-69-seats-in-the-2026-bulgarian-parliamentary-election",
+              "question": "Will GERB-SDS win between 65-69 seats in the 2026 Bulgarian parliamentary electi",
+              "yes_price": 0.13,
+              "volume": 2690
             },
             {
-              "market_id": "668681",
-              "slug": "will-frepasna-win-the-most-seats-in-the-2025-guinea-bissau-national-peoples-assembly-election",
-              "question": "Will FREPASNA win the most seats in the 2025 Guinea-Bissau National People\u2019s Ass",
-              "yes_price": 0.036,
-              "volume": 22992
-            },
-            {
-              "market_id": "668682",
-              "slug": "will-ps-win-the-most-seats-in-the-2025-guinea-bissau-national-peoples-assembly-election",
-              "question": "Will PS win the most seats in the 2025 Guinea-Bissau National People\u2019s Assembly ",
-              "yes_price": 0.033,
-              "volume": 21433
+              "market_id": "1738308",
+              "slug": "will-gerb-sds-win-fewer-than-50-seats-in-the-2026-bulgarian-parliamentary-election",
+              "question": "Will GERB-SDS win fewer than 50 seats in the 2026 Bulgarian parliamentary electi",
+              "yes_price": 0.0715,
+              "volume": 1732
             }
           ],
-          "url": "https://polymarket.com/event/guinea-bissau-national-peoples-assembly-election-winner",
-          "strategy": "Buy YES on all 6 outcomes. Total cost: $0.9005. One wins $1.00. Profit: $0.0995 (9.95%)"
+          "url": "https://polymarket.com/event/of-seats-won-by-gerb-sds-in-bulgarian-parliamentary-election",
+          "strategy": "Buy YES on all 5 outcomes. Total cost: $0.9015. One wins $1.00. Profit: $0.0985 (9.85%)"
         },
         {
           "event_title": "Perplexity IPO Closing Market Cap",
           "event_slug": "perplexity-ipo-closing-market-cap",
-          "yes_sum": 0.9015,
-          "profit_pct": 9.85,
-          "profit_per_dollar_pct": 10.93,
+          "yes_sum": 0.902,
+          "profit_pct": 9.8,
+          "profit_per_dollar_pct": 10.86,
           "num_outcomes": 6,
           "outcomes": [
             {
@@ -111,7 +184,7 @@
               "market_id": "1115933",
               "slug": "will-perplexitys-market-cap-be-between-80b-and-100b-at-market-close-on-ipo-day",
               "question": "Will Perplexity\u2019s market cap be between $50B and $75B at market close on IPO day",
-              "yes_price": 0.117,
+              "yes_price": 0.1175,
               "volume": 6171
             },
             {
@@ -144,61 +217,68 @@
             }
           ],
           "url": "https://polymarket.com/event/perplexity-ipo-closing-market-cap",
-          "strategy": "Buy YES on all 6 outcomes. Total cost: $0.9015. One wins $1.00. Profit: $0.0985 (9.85%)"
+          "strategy": "Buy YES on all 6 outcomes. Total cost: $0.9020. One wins $1.00. Profit: $0.0980 (9.80%)"
         },
         {
-          "event_title": "How many ships transit the Strait of Hormuz this week? (Apr 6-12)",
-          "event_slug": "how-many-ships-transit-the-strait-of-hormuz-this-week-apr-6-12",
-          "yes_sum": 0.905,
-          "profit_pct": 9.5,
-          "profit_per_dollar_pct": 10.5,
-          "num_outcomes": 6,
+          "event_title": "Hurupay FDV above ___ one day after launch?",
+          "event_slug": "hurupay-fdv-above-one-day-after-launch",
+          "yes_sum": 0.9045,
+          "profit_pct": 9.55,
+          "profit_per_dollar_pct": 10.56,
+          "num_outcomes": 7,
           "outcomes": [
             {
-              "market_id": "1846506",
-              "slug": "will-50-59-ships-transit-the-strait-of-hormuz-between-april-6-april-12",
-              "question": "Will 50-59 ships transit the Strait of Hormuz between April 6-April 12?",
-              "yes_price": 0.459,
-              "volume": 11839
+              "market_id": "1294068",
+              "slug": "hurupay-fdv-above-10m-one-day-after-launch",
+              "question": "Hurupay FDV above $10M one day after launch?",
+              "yes_price": 0.2,
+              "volume": 26465
             },
             {
-              "market_id": "1846507",
-              "slug": "will-60-or-more-ships-transit-the-strait-of-hormuz-between-april-6-april-12",
-              "question": "Will 60 or more ships transit the Strait of Hormuz between April 6-April 12?",
-              "yes_price": 0.21,
-              "volume": 49684
+              "market_id": "1294067",
+              "slug": "hurupay-fdv-above-5m-one-day-after-launch",
+              "question": "Hurupay FDV above $5M one day after launch?",
+              "yes_price": 0.195,
+              "volume": 14132
             },
             {
-              "market_id": "1846505",
-              "slug": "will-40-49-ships-transit-the-strait-of-hormuz-between-april-6-april-12",
-              "question": "Will 40-49 ships transit the Strait of Hormuz between April 6-April 12?",
-              "yes_price": 0.1885,
-              "volume": 20140
+              "market_id": "1294071",
+              "slug": "hurupay-fdv-above-40m-one-day-after-launch",
+              "question": "Hurupay FDV above $40M one day after launch?",
+              "yes_price": 0.1345,
+              "volume": 8697
             },
             {
-              "market_id": "1846504",
-              "slug": "will-30-39-ships-transit-the-strait-of-hormuz-between-april-6-april-12",
-              "question": "Will 30-39 ships transit the Strait of Hormuz between April 6-April 12?",
-              "yes_price": 0.035,
-              "volume": 20234
+              "market_id": "1294072",
+              "slug": "hurupay-fdv-above-50m-one-day-after-launch",
+              "question": "Hurupay FDV above $50M one day after launch?",
+              "yes_price": 0.1245,
+              "volume": 70961
             },
             {
-              "market_id": "1846503",
-              "slug": "will-20-29-ships-transit-the-strait-of-hormuz-between-april-6-april-12",
-              "question": "Will 20-29 ships transit the Strait of Hormuz between April 6-April 12?",
-              "yes_price": 0.0065,
-              "volume": 22356
+              "market_id": "1294069",
+              "slug": "hurupay-fdv-above-20m-one-day-after-launch",
+              "question": "Hurupay FDV above $20M one day after launch?",
+              "yes_price": 0.1185,
+              "volume": 37293
             },
             {
-              "market_id": "1846502",
-              "slug": "will-fewer-than-20-ships-transit-the-strait-of-hormuz-between-april-6-april-12",
-              "question": "Will fewer than 20 ships transit the Strait of Hormuz between April 6-April 12?",
-              "yes_price": 0.006,
-              "volume": 46839
+              "market_id": "1294070",
+              "slug": "hurupay-fdv-above-30m-one-day-after-launch",
+              "question": "Hurupay FDV above $30M one day after launch?",
+              "yes_price": 0.0735,
+              "volume": 9225
+            },
+            {
+              "market_id": "1294073",
+              "slug": "hurupay-fdv-above-100m-one-day-after-launch",
+              "question": "Hurupay FDV above $100M one day after launch?",
+              "yes_price": 0.0585,
+              "volume": 20232
             }
           ],
-          "url": "https://polymarket.com/event/how-many-ships-transit-the-strait-of-hormuz-this-week-apr-6-12",
-          "strategy": "Buy YES on all 6 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
+          "url": "https://polymarket.com/event/hurupay-fdv-above-one-day-after-launch",
+          "strategy": "Buy YES on all 7 outcomes. Total cost: $0.9045. One wins $1.00. Profit: $0.0955 (9.55%)"
         },
         {
           "event_title": "Bruins vs. Blue Jackets",
@@ -220,36 +300,10 @@
               "slug": "nhl-bos-cbj-2026-04-12",
               "question": "Bruins vs. Blue Jackets",
               "yes_price": 0.425,
-              "volume": 36409
+              "volume": 36454
             }
           ],
           "url": "https://polymarket.com/event/nhl-bos-cbj-2026-04-12",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
-        },
-        {
-          "event_title": "How many coins launched in 2026 end the year in the top 100?",
-          "event_slug": "how-many-coins-launched-in-2026-end-the-year-in-the-top-100",
-          "yes_sum": 0.905,
-          "profit_pct": 9.5,
-          "profit_per_dollar_pct": 10.5,
-          "num_outcomes": 2,
-          "outcomes": [
-            {
-              "market_id": "1091092",
-              "slug": "over-4-coins-launched-in-2026-end-the-year-in-the-top-100",
-              "question": "Over 4 coins launched in 2026 end the year in the top 100?",
-              "yes_price": 0.615,
-              "volume": 25693
-            },
-            {
-              "market_id": "1091096",
-              "slug": "over-12-coins-launched-in-2026-end-the-year-in-the-top-100",
-              "question": "Over 12 coins launched in 2026 end the year in the top 100?",
-              "yes_price": 0.29,
-              "volume": 2527
-            }
-          ],
-          "url": "https://polymarket.com/event/how-many-coins-launched-in-2026-end-the-year-in-the-top-100",
           "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
         },
         {
@@ -347,163 +401,67 @@
           "strategy": "Buy YES on all 6 outcomes. Total cost: $0.9055. One wins $1.00. Profit: $0.0945 (9.45%)"
         },
         {
-          "event_title": "Highest temperature in Taipei on April 13?",
-          "event_slug": "highest-temperature-in-taipei-on-april-13-2026",
-          "yes_sum": 0.906,
-          "profit_pct": 9.4,
-          "profit_per_dollar_pct": 10.38,
-          "num_outcomes": 11,
+          "event_title": "How many ships transit the Strait of Hormuz this week? (Apr 6-12)",
+          "event_slug": "how-many-ships-transit-the-strait-of-hormuz-this-week-apr-6-12",
+          "yes_sum": 0.9055,
+          "profit_pct": 9.45,
+          "profit_per_dollar_pct": 10.44,
+          "num_outcomes": 6,
           "outcomes": [
             {
-              "market_id": "1924620",
-              "slug": "highest-temperature-in-taipei-on-april-13-2026-32c",
-              "question": "Will the highest temperature in Taipei be 32\u00b0C on April 13?",
-              "yes_price": 0.235,
-              "volume": 2263
+              "market_id": "1846506",
+              "slug": "will-50-59-ships-transit-the-strait-of-hormuz-between-april-6-april-12",
+              "question": "Will 50-59 ships transit the Strait of Hormuz between April 6-April 12?",
+              "yes_price": 0.459,
+              "volume": 11839
             },
             {
-              "market_id": "1924621",
-              "slug": "highest-temperature-in-taipei-on-april-13-2026-33c",
-              "question": "Will the highest temperature in Taipei be 33\u00b0C on April 13?",
-              "yes_price": 0.1655,
-              "volume": 2837
+              "market_id": "1846507",
+              "slug": "will-60-or-more-ships-transit-the-strait-of-hormuz-between-april-6-april-12",
+              "question": "Will 60 or more ships transit the Strait of Hormuz between April 6-April 12?",
+              "yes_price": 0.21,
+              "volume": 49689
             },
             {
-              "market_id": "1924619",
-              "slug": "highest-temperature-in-taipei-on-april-13-2026-31c",
-              "question": "Will the highest temperature in Taipei be 31\u00b0C on April 13?",
-              "yes_price": 0.155,
-              "volume": 1657
+              "market_id": "1846505",
+              "slug": "will-40-49-ships-transit-the-strait-of-hormuz-between-april-6-april-12",
+              "question": "Will 40-49 ships transit the Strait of Hormuz between April 6-April 12?",
+              "yes_price": 0.19,
+              "volume": 20140
             },
             {
-              "market_id": "1924622",
-              "slug": "highest-temperature-in-taipei-on-april-13-2026-34c",
-              "question": "Will the highest temperature in Taipei be 34\u00b0C on April 13?",
-              "yes_price": 0.1395,
-              "volume": 3759
+              "market_id": "1846504",
+              "slug": "will-30-39-ships-transit-the-strait-of-hormuz-between-april-6-april-12",
+              "question": "Will 30-39 ships transit the Strait of Hormuz between April 6-April 12?",
+              "yes_price": 0.0345,
+              "volume": 20234
             },
             {
-              "market_id": "1924623",
-              "slug": "highest-temperature-in-taipei-on-april-13-2026-35c",
-              "question": "Will the highest temperature in Taipei be 35\u00b0C on April 13?",
-              "yes_price": 0.0695,
-              "volume": 3317
+              "market_id": "1846502",
+              "slug": "will-fewer-than-20-ships-transit-the-strait-of-hormuz-between-april-6-april-12",
+              "question": "Will fewer than 20 ships transit the Strait of Hormuz between April 6-April 12?",
+              "yes_price": 0.006,
+              "volume": 46839
             },
             {
-              "market_id": "1924618",
-              "slug": "highest-temperature-in-taipei-on-april-13-2026-30c",
-              "question": "Will the highest temperature in Taipei be 30\u00b0C on April 13?",
-              "yes_price": 0.0565,
-              "volume": 2306
-            },
-            {
-              "market_id": "1924617",
-              "slug": "highest-temperature-in-taipei-on-april-13-2026-29c",
-              "question": "Will the highest temperature in Taipei be 29\u00b0C on April 13?",
-              "yes_price": 0.034,
-              "volume": 3637
-            },
-            {
-              "market_id": "1924624",
-              "slug": "highest-temperature-in-taipei-on-april-13-2026-36c",
-              "question": "Will the highest temperature in Taipei be 36\u00b0C on April 13?",
-              "yes_price": 0.0195,
-              "volume": 4176
-            },
-            {
-              "market_id": "1924625",
-              "slug": "highest-temperature-in-taipei-on-april-13-2026-37c",
-              "question": "Will the highest temperature in Taipei be 37\u00b0C on April 13?",
-              "yes_price": 0.0155,
-              "volume": 3208
-            },
-            {
-              "market_id": "1924616",
-              "slug": "highest-temperature-in-taipei-on-april-13-2026-28corbelow",
-              "question": "Will the highest temperature in Taipei be 28\u00b0C or below on April 13?",
-              "yes_price": 0.0125,
-              "volume": 6497
-            },
-            {
-              "market_id": "1924626",
-              "slug": "highest-temperature-in-taipei-on-april-13-2026-38corhigher",
-              "question": "Will the highest temperature in Taipei be 38\u00b0C or higher on April 13?",
-              "yes_price": 0.0035,
-              "volume": 3182
+              "market_id": "1846503",
+              "slug": "will-20-29-ships-transit-the-strait-of-hormuz-between-april-6-april-12",
+              "question": "Will 20-29 ships transit the Strait of Hormuz between April 6-April 12?",
+              "yes_price": 0.006,
+              "volume": 22356
             }
           ],
-          "url": "https://polymarket.com/event/highest-temperature-in-taipei-on-april-13-2026",
-          "strategy": "Buy YES on all 11 outcomes. Total cost: $0.9060. One wins $1.00. Profit: $0.0940 (9.40%)"
-        },
-        {
-          "event_title": "Hurupay FDV above ___ one day after launch?",
-          "event_slug": "hurupay-fdv-above-one-day-after-launch",
-          "yes_sum": 0.908,
-          "profit_pct": 9.2,
-          "profit_per_dollar_pct": 10.13,
-          "num_outcomes": 7,
-          "outcomes": [
-            {
-              "market_id": "1294068",
-              "slug": "hurupay-fdv-above-10m-one-day-after-launch",
-              "question": "Hurupay FDV above $10M one day after launch?",
-              "yes_price": 0.2,
-              "volume": 26465
-            },
-            {
-              "market_id": "1294067",
-              "slug": "hurupay-fdv-above-5m-one-day-after-launch",
-              "question": "Hurupay FDV above $5M one day after launch?",
-              "yes_price": 0.195,
-              "volume": 14132
-            },
-            {
-              "market_id": "1294071",
-              "slug": "hurupay-fdv-above-40m-one-day-after-launch",
-              "question": "Hurupay FDV above $40M one day after launch?",
-              "yes_price": 0.1345,
-              "volume": 8697
-            },
-            {
-              "market_id": "1294072",
-              "slug": "hurupay-fdv-above-50m-one-day-after-launch",
-              "question": "Hurupay FDV above $50M one day after launch?",
-              "yes_price": 0.127,
-              "volume": 70961
-            },
-            {
-              "market_id": "1294069",
-              "slug": "hurupay-fdv-above-20m-one-day-after-launch",
-              "question": "Hurupay FDV above $20M one day after launch?",
-              "yes_price": 0.1185,
-              "volume": 37293
-            },
-            {
-              "market_id": "1294070",
-              "slug": "hurupay-fdv-above-30m-one-day-after-launch",
-              "question": "Hurupay FDV above $30M one day after launch?",
-              "yes_price": 0.0745,
-              "volume": 9225
-            },
-            {
-              "market_id": "1294073",
-              "slug": "hurupay-fdv-above-100m-one-day-after-launch",
-              "question": "Hurupay FDV above $100M one day after launch?",
-              "yes_price": 0.0585,
-              "volume": 20232
-            }
-          ],
-          "url": "https://polymarket.com/event/hurupay-fdv-above-one-day-after-launch",
-          "strategy": "Buy YES on all 7 outcomes. Total cost: $0.9080. One wins $1.00. Profit: $0.0920 (9.20%)"
+          "url": "https://polymarket.com/event/how-many-ships-transit-the-strait-of-hormuz-this-week-apr-6-12",
+          "strategy": "Buy YES on all 6 outcomes. Total cost: $0.9055. One wins $1.00. Profit: $0.0945 (9.45%)"
         }
       ],
       "stats": {
         "total_events": 3000,
-        "checked_multi_outcome": 1947,
-        "skipped_single_outcome": 630,
-        "opportunities_found": 143,
+        "checked_multi_outcome": 1949,
+        "skipped_single_outcome": 624,
+        "opportunities_found": 146,
         "best_profit_pct": 10.0,
-        "scanned_at": "2026-04-12 10:16 UTC"
+        "scanned_at": "2026-04-12 10:20 UTC"
       }
     },
     {
