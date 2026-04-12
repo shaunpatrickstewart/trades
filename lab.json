@@ -8,10 +8,69 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 137 categorical arb opportunities found\nScanned 3000 events (2000 multi-outcome) at 2026-04-12 16:13 UTC\nBest: 9.95% profit on 'Precipitation in NYC in April?' \u2014 buy YES on all 4 outcomes (sum=0.9005)\nStrategy: Buy YES on all 4 outcomes. Total cost: $0.9005. One wins $1.00. Profit: $0.0995 (9.95%)\n2nd: 9.9% on 'FK Bod\u00f8/Glimt vs. Aalesunds FK - More Markets'",
+      "result": "LIVE \u2014 142 categorical arb opportunities found\nScanned 3000 events (2006 multi-outcome) at 2026-04-12 16:17 UTC\nBest: 10.0% profit on 'Next CEO of Lululemon?' \u2014 buy YES on all 3 outcomes (sum=0.9)\nStrategy: Buy YES on all 3 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 10.0% on 'MI-07 House Election Winner'",
       "priority": "HIGH",
-      "last_scan": "2026-04-12 16:13 UTC",
+      "last_scan": "2026-04-12 16:17 UTC",
       "opportunities": [
+        {
+          "event_title": "Next CEO of Lululemon?",
+          "event_slug": "next-ceo-of-lululemon",
+          "yes_sum": 0.9,
+          "profit_pct": 10.0,
+          "profit_per_dollar_pct": 11.11,
+          "num_outcomes": 3,
+          "outcomes": [
+            {
+              "market_id": "916398",
+              "slug": "will-stephanie-linnartz-be-the-next-ceo-of-lululemon",
+              "question": "Will Stephanie Linnartz be the next CEO of Lululemon?",
+              "yes_price": 0.34,
+              "volume": 2936
+            },
+            {
+              "market_id": "916393",
+              "slug": "will-marti-morfitt-be-the-next-ceo-of-lululemon",
+              "question": "Will Marti Morfitt be the next CEO of Lululemon?",
+              "yes_price": 0.326,
+              "volume": 5936
+            },
+            {
+              "market_id": "916392",
+              "slug": "will-meghan-frank-be-the-next-ceo-of-lululemon",
+              "question": "Will Meghan Frank be the next CEO of Lululemon?",
+              "yes_price": 0.234,
+              "volume": 50060
+            }
+          ],
+          "url": "https://polymarket.com/event/next-ceo-of-lululemon",
+          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
+        },
+        {
+          "event_title": "MI-07 House Election Winner",
+          "event_slug": "mi-07-house-election-winner",
+          "yes_sum": 0.9,
+          "profit_pct": 10.0,
+          "profit_per_dollar_pct": 11.11,
+          "num_outcomes": 2,
+          "outcomes": [
+            {
+              "market_id": "942722",
+              "slug": "will-the-democratic-party-win-the-mi-07-house-seat",
+              "question": "Will the Democratic Party win the MI-07 House seat?",
+              "yes_price": 0.78,
+              "volume": 2525
+            },
+            {
+              "market_id": "942721",
+              "slug": "will-the-republican-party-win-the-mi-07-house-seat",
+              "question": "Will the Republican Party win the MI-07 House seat?",
+              "yes_price": 0.12,
+              "volume": 1067
+            }
+          ],
+          "url": "https://polymarket.com/event/mi-07-house-election-winner",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
+        },
         {
           "event_title": "Precipitation in NYC in April?",
           "event_slug": "precipitation-in-nyc-in-april",
@@ -25,28 +84,28 @@
               "slug": "will-nyc-have-less-than-2-inches-of-precipitation-in-april",
               "question": "Will NYC have less than 2 inches of precipitation in April?",
               "yes_price": 0.579,
-              "volume": 2636
+              "volume": 2638
             },
             {
               "market_id": "1706748",
               "slug": "will-nyc-have-between-2-and-3-inches-of-precipitation-in-april",
               "question": "Will NYC have between 2 and 3 inches of precipitation in April?",
               "yes_price": 0.155,
-              "volume": 11817
+              "volume": 11819
             },
             {
               "market_id": "1706749",
               "slug": "will-nyc-have-between-3-and-4-inches-of-precipitation-in-april",
               "question": "Will NYC have between 3 and 4 inches of precipitation in April?",
               "yes_price": 0.1,
-              "volume": 8938
+              "volume": 8940
             },
             {
               "market_id": "1706750",
               "slug": "will-nyc-have-between-4-and-5-inches-of-precipitation-in-april",
               "question": "Will NYC have between 4 and 5 inches of precipitation in April?",
               "yes_price": 0.0665,
-              "volume": 9779
+              "volume": 9781
             }
           ],
           "url": "https://polymarket.com/event/precipitation-in-nyc-in-april",
@@ -86,44 +145,100 @@
           "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9010. One wins $1.00. Profit: $0.0990 (9.90%)"
         },
         {
-          "event_title": "Next CEO of Lululemon?",
-          "event_slug": "next-ceo-of-lululemon",
+          "event_title": "Highest temperature in Toronto on April 12?",
+          "event_slug": "highest-temperature-in-toronto-on-april-12-2026",
           "yes_sum": 0.9015,
           "profit_pct": 9.85,
           "profit_per_dollar_pct": 10.93,
-          "num_outcomes": 3,
+          "num_outcomes": 11,
           "outcomes": [
             {
-              "market_id": "916398",
-              "slug": "will-stephanie-linnartz-be-the-next-ceo-of-lululemon",
-              "question": "Will Stephanie Linnartz be the next CEO of Lululemon?",
-              "yes_price": 0.34,
-              "volume": 2936
+              "market_id": "1914836",
+              "slug": "highest-temperature-in-toronto-on-april-12-2026-7c",
+              "question": "Will the highest temperature in Toronto be 7\u00b0C on April 12?",
+              "yes_price": 0.3495,
+              "volume": 6811
             },
             {
-              "market_id": "916393",
-              "slug": "will-marti-morfitt-be-the-next-ceo-of-lululemon",
-              "question": "Will Marti Morfitt be the next CEO of Lululemon?",
-              "yes_price": 0.326,
-              "volume": 5936
+              "market_id": "1914837",
+              "slug": "highest-temperature-in-toronto-on-april-12-2026-8c",
+              "question": "Will the highest temperature in Toronto be 8\u00b0C on April 12?",
+              "yes_price": 0.2395,
+              "volume": 4203
             },
             {
-              "market_id": "916392",
-              "slug": "will-meghan-frank-be-the-next-ceo-of-lululemon",
-              "question": "Will Meghan Frank be the next CEO of Lululemon?",
-              "yes_price": 0.2355,
-              "volume": 50060
+              "market_id": "1914838",
+              "slug": "highest-temperature-in-toronto-on-april-12-2026-9c",
+              "question": "Will the highest temperature in Toronto be 9\u00b0C on April 12?",
+              "yes_price": 0.144,
+              "volume": 5063
+            },
+            {
+              "market_id": "1914839",
+              "slug": "highest-temperature-in-toronto-on-april-12-2026-10c",
+              "question": "Will the highest temperature in Toronto be 10\u00b0C on April 12?",
+              "yes_price": 0.095,
+              "volume": 6004
+            },
+            {
+              "market_id": "1914835",
+              "slug": "highest-temperature-in-toronto-on-april-12-2026-6c",
+              "question": "Will the highest temperature in Toronto be 6\u00b0C on April 12?",
+              "yes_price": 0.0285,
+              "volume": 15051
+            },
+            {
+              "market_id": "1914840",
+              "slug": "highest-temperature-in-toronto-on-april-12-2026-11c",
+              "question": "Will the highest temperature in Toronto be 11\u00b0C on April 12?",
+              "yes_price": 0.027,
+              "volume": 10522
+            },
+            {
+              "market_id": "1914842",
+              "slug": "highest-temperature-in-toronto-on-april-12-2026-13c",
+              "question": "Will the highest temperature in Toronto be 13\u00b0C on April 12?",
+              "yes_price": 0.0065,
+              "volume": 9230
+            },
+            {
+              "market_id": "1914841",
+              "slug": "highest-temperature-in-toronto-on-april-12-2026-12c",
+              "question": "Will the highest temperature in Toronto be 12\u00b0C on April 12?",
+              "yes_price": 0.0055,
+              "volume": 12098
+            },
+            {
+              "market_id": "1914843",
+              "slug": "highest-temperature-in-toronto-on-april-12-2026-14c",
+              "question": "Will the highest temperature in Toronto be 14\u00b0C on April 12?",
+              "yes_price": 0.003,
+              "volume": 8089
+            },
+            {
+              "market_id": "1914844",
+              "slug": "highest-temperature-in-toronto-on-april-12-2026-15corhigher",
+              "question": "Will the highest temperature in Toronto be 15\u00b0C or higher on April 12?",
+              "yes_price": 0.003,
+              "volume": 12500
+            },
+            {
+              "market_id": "1914834",
+              "slug": "highest-temperature-in-toronto-on-april-12-2026-5corbelow",
+              "question": "Will the highest temperature in Toronto be 5\u00b0C or below on April 12?",
+              "yes_price": 0.0,
+              "volume": 24798
             }
           ],
-          "url": "https://polymarket.com/event/next-ceo-of-lululemon",
-          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9015. One wins $1.00. Profit: $0.0985 (9.85%)"
+          "url": "https://polymarket.com/event/highest-temperature-in-toronto-on-april-12-2026",
+          "strategy": "Buy YES on all 11 outcomes. Total cost: $0.9015. One wins $1.00. Profit: $0.0985 (9.85%)"
         },
         {
           "event_title": "Maduro Prison Time?",
           "event_slug": "maduro-prison-time-527",
-          "yes_sum": 0.902,
-          "profit_pct": 9.8,
-          "profit_per_dollar_pct": 10.86,
+          "yes_sum": 0.9025,
+          "profit_pct": 9.75,
+          "profit_per_dollar_pct": 10.8,
           "num_outcomes": 5,
           "outcomes": [
             {
@@ -151,7 +266,7 @@
               "market_id": "1098289",
               "slug": "will-nicols-maduro-be-sentenced-to-less-than-20-years-in-prison",
               "question": "Will Nicol\u00e1s Maduro be sentenced to less than 20 years in prison?",
-              "yes_price": 0.076,
+              "yes_price": 0.0765,
               "volume": 28470
             },
             {
@@ -163,94 +278,14 @@
             }
           ],
           "url": "https://polymarket.com/event/maduro-prison-time-527",
-          "strategy": "Buy YES on all 5 outcomes. Total cost: $0.9020. One wins $1.00. Profit: $0.0980 (9.80%)"
-        },
-        {
-          "event_title": "Maine Governor Republican Primary Winner",
-          "event_slug": "maine-governor-republican-primary-winner",
-          "yes_sum": 0.902,
-          "profit_pct": 9.8,
-          "profit_per_dollar_pct": 10.86,
-          "num_outcomes": 4,
-          "outcomes": [
-            {
-              "market_id": "904693",
-              "slug": "will-robert-charles-win-the-2026-maine-governor-republican-primary-election",
-              "question": "Will Robert Charles win the 2026 Maine Governor Republican primary election?",
-              "yes_price": 0.525,
-              "volume": 3187
-            },
-            {
-              "market_id": "904691",
-              "slug": "will-jonathan-bush-win-the-2026-maine-governor-republican-primary-election",
-              "question": "Will Jonathan Bush win the 2026 Maine Governor Republican primary election?",
-              "yes_price": 0.281,
-              "volume": 4121
-            },
-            {
-              "market_id": "904694",
-              "slug": "will-david-jones-win-the-2026-maine-governor-republican-primary-election",
-              "question": "Will David Jones win the 2026 Maine Governor Republican primary election?",
-              "yes_price": 0.084,
-              "volume": 1369
-            },
-            {
-              "market_id": "904696",
-              "slug": "will-owen-mccarthy-win-the-2026-maine-governor-republican-primary-election",
-              "question": "Will Owen McCarthy win the 2026 Maine Governor Republican primary election?",
-              "yes_price": 0.012,
-              "volume": 1275
-            }
-          ],
-          "url": "https://polymarket.com/event/maine-governor-republican-primary-winner",
-          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9020. One wins $1.00. Profit: $0.0980 (9.80%)"
-        },
-        {
-          "event_title": "Who will be UFC Light Heavyweight champion at the end of 2026?",
-          "event_slug": "who-will-be-ufc-light-heavyweight-champion-at-the-end-of-2026",
-          "yes_sum": 0.9035,
-          "profit_pct": 9.65,
-          "profit_per_dollar_pct": 10.68,
-          "num_outcomes": 4,
-          "outcomes": [
-            {
-              "market_id": "1090072",
-              "slug": "will-carlos-ulberg-be-the-ufc-light-heavyweight-champion-on-december-31-2026",
-              "question": "Will Carlos Ulberg be the UFC Light Heavyweight Champion on December 31, 2026?",
-              "yes_price": 0.465,
-              "volume": 2200
-            },
-            {
-              "market_id": "1090069",
-              "slug": "will-alex-pereira-be-the-ufc-light-heavyweight-champion-on-december-31-2026",
-              "question": "Will Alex Pereira be the UFC Light Heavyweight Champion on December 31, 2026?",
-              "yes_price": 0.215,
-              "volume": 3209
-            },
-            {
-              "market_id": "1090078",
-              "slug": "will-dominick-reyes-be-the-ufc-light-heavyweight-champion-on-december-31-2026",
-              "question": "Will Dominick Reyes be the UFC Light Heavyweight Champion on December 31, 2026?",
-              "yes_price": 0.172,
-              "volume": 6452
-            },
-            {
-              "market_id": "1090070",
-              "slug": "will-ji-prochzka-be-the-ufc-light-heavyweight-champion-on-december-31-2026",
-              "question": "Will Ji\u0159\u00ed Proch\u00e1zka be the UFC Light Heavyweight Champion on December 31, 2026?",
-              "yes_price": 0.0515,
-              "volume": 2560
-            }
-          ],
-          "url": "https://polymarket.com/event/who-will-be-ufc-light-heavyweight-champion-at-the-end-of-2026",
-          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9035. One wins $1.00. Profit: $0.0965 (9.65%)"
+          "strategy": "Buy YES on all 5 outcomes. Total cost: $0.9025. One wins $1.00. Profit: $0.0975 (9.75%)"
         },
         {
           "event_title": "Which CEOs will be out before 2027?",
           "event_slug": "which-ceos-will-be-out-before-2027",
-          "yes_sum": 0.904,
-          "profit_pct": 9.6,
-          "profit_per_dollar_pct": 10.62,
+          "yes_sum": 0.9035,
+          "profit_pct": 9.65,
+          "profit_per_dollar_pct": 10.68,
           "num_outcomes": 6,
           "outcomes": [
             {
@@ -279,7 +314,7 @@
               "slug": "brian-armstrong-out-as-coinbase-ceo-before-2027",
               "question": "Brian Armstrong out as Coinbase CEO before 2027?",
               "yes_price": 0.135,
-              "volume": 80170
+              "volume": 80186
             },
             {
               "market_id": "687554",
@@ -292,19 +327,148 @@
               "market_id": "687556",
               "slug": "dan-clancy-out-as-twitch-ceo-before-2027",
               "question": "Dan Clancy out as Twitch CEO before 2027?",
-              "yes_price": 0.049,
+              "yes_price": 0.0485,
               "volume": 38599
             }
           ],
           "url": "https://polymarket.com/event/which-ceos-will-be-out-before-2027",
-          "strategy": "Buy YES on all 6 outcomes. Total cost: $0.9040. One wins $1.00. Profit: $0.0960 (9.60%)"
+          "strategy": "Buy YES on all 6 outcomes. Total cost: $0.9035. One wins $1.00. Profit: $0.0965 (9.65%)"
+        },
+        {
+          "event_title": "Highest temperature in Buenos Aires on April 12?",
+          "event_slug": "highest-temperature-in-buenos-aires-on-april-12-2026",
+          "yes_sum": 0.9035,
+          "profit_pct": 9.65,
+          "profit_per_dollar_pct": 10.68,
+          "num_outcomes": 11,
+          "outcomes": [
+            {
+              "market_id": "1914819",
+              "slug": "highest-temperature-in-buenos-aires-on-april-12-2026-26c",
+              "question": "Will the highest temperature in Buenos Aires be 26\u00b0C on April 12?",
+              "yes_price": 0.425,
+              "volume": 2917
+            },
+            {
+              "market_id": "1914818",
+              "slug": "highest-temperature-in-buenos-aires-on-april-12-2026-25c",
+              "question": "Will the highest temperature in Buenos Aires be 25\u00b0C on April 12?",
+              "yes_price": 0.355,
+              "volume": 2431
+            },
+            {
+              "market_id": "1914820",
+              "slug": "highest-temperature-in-buenos-aires-on-april-12-2026-27c",
+              "question": "Will the highest temperature in Buenos Aires be 27\u00b0C on April 12?",
+              "yes_price": 0.06,
+              "volume": 7574
+            },
+            {
+              "market_id": "1914817",
+              "slug": "highest-temperature-in-buenos-aires-on-april-12-2026-24c",
+              "question": "Will the highest temperature in Buenos Aires be 24\u00b0C on April 12?",
+              "yes_price": 0.055,
+              "volume": 3303
+            },
+            {
+              "market_id": "1914821",
+              "slug": "highest-temperature-in-buenos-aires-on-april-12-2026-28c",
+              "question": "Will the highest temperature in Buenos Aires be 28\u00b0C on April 12?",
+              "yes_price": 0.005,
+              "volume": 2935
+            },
+            {
+              "market_id": "1914822",
+              "slug": "highest-temperature-in-buenos-aires-on-april-12-2026-29corhigher",
+              "question": "Will the highest temperature in Buenos Aires be 29\u00b0C or higher on April 12?",
+              "yes_price": 0.0015,
+              "volume": 3678
+            },
+            {
+              "market_id": "1914813",
+              "slug": "highest-temperature-in-buenos-aires-on-april-12-2026-20c",
+              "question": "Will the highest temperature in Buenos Aires be 20\u00b0C on April 12?",
+              "yes_price": 0.0005,
+              "volume": 1129
+            },
+            {
+              "market_id": "1914814",
+              "slug": "highest-temperature-in-buenos-aires-on-april-12-2026-21c",
+              "question": "Will the highest temperature in Buenos Aires be 21\u00b0C on April 12?",
+              "yes_price": 0.0005,
+              "volume": 4106
+            },
+            {
+              "market_id": "1914815",
+              "slug": "highest-temperature-in-buenos-aires-on-april-12-2026-22c",
+              "question": "Will the highest temperature in Buenos Aires be 22\u00b0C on April 12?",
+              "yes_price": 0.0005,
+              "volume": 5217
+            },
+            {
+              "market_id": "1914816",
+              "slug": "highest-temperature-in-buenos-aires-on-april-12-2026-23c",
+              "question": "Will the highest temperature in Buenos Aires be 23\u00b0C on April 12?",
+              "yes_price": 0.0005,
+              "volume": 6709
+            },
+            {
+              "market_id": "1914812",
+              "slug": "highest-temperature-in-buenos-aires-on-april-12-2026-19corbelow",
+              "question": "Will the highest temperature in Buenos Aires be 19\u00b0C or below on April 12?",
+              "yes_price": 0.0,
+              "volume": 3513
+            }
+          ],
+          "url": "https://polymarket.com/event/highest-temperature-in-buenos-aires-on-april-12-2026",
+          "strategy": "Buy YES on all 11 outcomes. Total cost: $0.9035. One wins $1.00. Profit: $0.0965 (9.65%)"
+        },
+        {
+          "event_title": "Who will be UFC Light Heavyweight champion at the end of 2026?",
+          "event_slug": "who-will-be-ufc-light-heavyweight-champion-at-the-end-of-2026",
+          "yes_sum": 0.9035,
+          "profit_pct": 9.65,
+          "profit_per_dollar_pct": 10.68,
+          "num_outcomes": 4,
+          "outcomes": [
+            {
+              "market_id": "1090072",
+              "slug": "will-carlos-ulberg-be-the-ufc-light-heavyweight-champion-on-december-31-2026",
+              "question": "Will Carlos Ulberg be the UFC Light Heavyweight Champion on December 31, 2026?",
+              "yes_price": 0.475,
+              "volume": 2200
+            },
+            {
+              "market_id": "1090069",
+              "slug": "will-alex-pereira-be-the-ufc-light-heavyweight-champion-on-december-31-2026",
+              "question": "Will Alex Pereira be the UFC Light Heavyweight Champion on December 31, 2026?",
+              "yes_price": 0.205,
+              "volume": 3209
+            },
+            {
+              "market_id": "1090078",
+              "slug": "will-dominick-reyes-be-the-ufc-light-heavyweight-champion-on-december-31-2026",
+              "question": "Will Dominick Reyes be the UFC Light Heavyweight Champion on December 31, 2026?",
+              "yes_price": 0.172,
+              "volume": 6452
+            },
+            {
+              "market_id": "1090070",
+              "slug": "will-ji-prochzka-be-the-ufc-light-heavyweight-champion-on-december-31-2026",
+              "question": "Will Ji\u0159\u00ed Proch\u00e1zka be the UFC Light Heavyweight Champion on December 31, 2026?",
+              "yes_price": 0.0515,
+              "volume": 2560
+            }
+          ],
+          "url": "https://polymarket.com/event/who-will-be-ufc-light-heavyweight-champion-at-the-end-of-2026",
+          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9035. One wins $1.00. Profit: $0.0965 (9.65%)"
         },
         {
           "event_title": "Croydon Mayoral Election Winner",
           "event_slug": "croydon-mayoral-election-winner",
-          "yes_sum": 0.9045,
-          "profit_pct": 9.55,
-          "profit_per_dollar_pct": 10.56,
+          "yes_sum": 0.904,
+          "profit_pct": 9.6,
+          "profit_per_dollar_pct": 10.62,
           "num_outcomes": 3,
           "outcomes": [
             {
@@ -325,157 +489,21 @@
               "market_id": "1864314",
               "slug": "will-ben-flook-win-the-2026-london-borough-of-croydon-mayoral-election",
               "question": "Will Ben Flook win the 2026 London Borough of Croydon mayoral election?",
-              "yes_price": 0.0095,
+              "yes_price": 0.009,
               "volume": 2204
             }
           ],
           "url": "https://polymarket.com/event/croydon-mayoral-election-winner",
-          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9045. One wins $1.00. Profit: $0.0955 (9.55%)"
-        },
-        {
-          "event_title": "AZ-01 Republican Primary Winner",
-          "event_slug": "az-01-republican-primary-winner",
-          "yes_sum": 0.9075,
-          "profit_pct": 9.25,
-          "profit_per_dollar_pct": 10.19,
-          "num_outcomes": 12,
-          "outcomes": [
-            {
-              "market_id": "704348",
-              "slug": "will-jay-feely-be-the-republican-nominee-for-az-01",
-              "question": "Will Jay Feely be the Republican nominee for AZ-01?",
-              "yes_price": 0.69,
-              "volume": 4681
-            },
-            {
-              "market_id": "704343",
-              "slug": "will-joseph-chaplik-be-the-republican-nominee-for-az-01",
-              "question": "Will Joseph Chaplik be the Republican nominee for AZ-01?",
-              "yes_price": 0.0975,
-              "volume": 8148
-            },
-            {
-              "market_id": "704345",
-              "slug": "will-todd-graham-be-the-republican-nominee-for-az-01",
-              "question": "Will Todd Graham be the Republican nominee for AZ-01?",
-              "yes_price": 0.055,
-              "volume": 7582
-            },
-            {
-              "market_id": "704346",
-              "slug": "will-mark-brnovich-be-the-republican-nominee-for-az-01",
-              "question": "Will Mark Brnovich be the Republican nominee for AZ-01?",
-              "yes_price": 0.0155,
-              "volume": 16503
-            },
-            {
-              "market_id": "704347",
-              "slug": "will-kari-lake-be-the-republican-nominee-for-az-01",
-              "question": "Will Kari Lake be the Republican nominee for AZ-01?",
-              "yes_price": 0.0135,
-              "volume": 6398
-            },
-            {
-              "market_id": "704341",
-              "slug": "will-matt-gress-be-the-republican-nominee-for-az-01",
-              "question": "Will Matt Gress be the Republican nominee for AZ-01?",
-              "yes_price": 0.007,
-              "volume": 47835
-            },
-            {
-              "market_id": "704351",
-              "slug": "will-paul-reevs-be-the-republican-nominee-for-az-01",
-              "question": "Will Paul Reevs be the Republican nominee for AZ-01?",
-              "yes_price": 0.0065,
-              "volume": 222106
-            },
-            {
-              "market_id": "704350",
-              "slug": "will-kaitlin-purrington-be-the-republican-nominee-for-az-01",
-              "question": "Will Kaitlin Purrington be the Republican nominee for AZ-01?",
-              "yes_price": 0.005,
-              "volume": 8235
-            },
-            {
-              "market_id": "704352",
-              "slug": "will-brandon-sowers-be-the-republican-nominee-for-az-01-218",
-              "question": "Will Brandon Sowers be the Republican nominee for AZ-01?",
-              "yes_price": 0.005,
-              "volume": 10660
-            },
-            {
-              "market_id": "704349",
-              "slug": "will-derrick-gallego-be-the-republican-nominee-for-az-01-424",
-              "question": "Will Derrick Gallego be the Republican nominee for AZ-01?",
-              "yes_price": 0.0045,
-              "volume": 3520
-            },
-            {
-              "market_id": "704344",
-              "slug": "will-muchelle-ugenti-rita-be-the-republican-nominee-for-az-01",
-              "question": "Will Muchelle Ugenti-Rita be the Republican nominee for AZ-01?",
-              "yes_price": 0.0045,
-              "volume": 4221
-            },
-            {
-              "market_id": "704353",
-              "slug": "will-john-trobough-be-the-republican-nominee-for-az-01-622",
-              "question": "Will John Trobough be the Republican nominee for AZ-01?",
-              "yes_price": 0.0035,
-              "volume": 1910
-            }
-          ],
-          "url": "https://polymarket.com/event/az-01-republican-primary-winner",
-          "strategy": "Buy YES on all 12 outcomes. Total cost: $0.9075. One wins $1.00. Profit: $0.0925 (9.25%)"
-        },
-        {
-          "event_title": "Will Opensea launch a token by ___?",
-          "event_slug": "will-opensea-launch-a-token-by-142",
-          "yes_sum": 0.9095,
-          "profit_pct": 9.05,
-          "profit_per_dollar_pct": 9.95,
-          "num_outcomes": 4,
-          "outcomes": [
-            {
-              "market_id": "1271613",
-              "slug": "will-opensea-launch-a-token-by-december-31-2026",
-              "question": "Will OpenSea launch a token by December 31, 2026?",
-              "yes_price": 0.5965,
-              "volume": 95305
-            },
-            {
-              "market_id": "1271612",
-              "slug": "will-opensea-launch-a-token-by-september-30-2026",
-              "question": "Will OpenSea launch a token by September 30, 2026?",
-              "yes_price": 0.245,
-              "volume": 66549
-            },
-            {
-              "market_id": "1271611",
-              "slug": "will-opensea-launch-a-token-by-june-30-2026",
-              "question": "Will OpenSea launch a token by June 30, 2026?",
-              "yes_price": 0.068,
-              "volume": 188471
-            },
-            {
-              "market_id": "1271610",
-              "slug": "will-opensea-launch-a-token-by-march-31-2026",
-              "question": "Will OpenSea launch a token by March 31, 2026?",
-              "yes_price": 0.0,
-              "volume": 1030401
-            }
-          ],
-          "url": "https://polymarket.com/event/will-opensea-launch-a-token-by-142",
-          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9095. One wins $1.00. Profit: $0.0905 (9.05%)"
+          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9040. One wins $1.00. Profit: $0.0960 (9.60%)"
         }
       ],
       "stats": {
         "total_events": 3000,
-        "checked_multi_outcome": 2000,
+        "checked_multi_outcome": 2006,
         "skipped_single_outcome": 621,
-        "opportunities_found": 137,
-        "best_profit_pct": 9.95,
-        "scanned_at": "2026-04-12 16:13 UTC"
+        "opportunities_found": 142,
+        "best_profit_pct": 10.0,
+        "scanned_at": "2026-04-12 16:17 UTC"
       }
     },
     {
