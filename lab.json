@@ -8,10 +8,139 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 134 categorical arb opportunities found\nScanned 3000 events (2008 multi-outcome) at 2026-04-12 15:49 UTC\nBest: 9.8% profit on 'Maine Governor Republican Primary Winner' \u2014 buy YES on all 4 outcomes (sum=0.902)\nStrategy: Buy YES on all 4 outcomes. Total cost: $0.9020. One wins $1.00. Profit: $0.0980 (9.80%)\n2nd: 9.75% on 'Maduro Prison Time?'",
+      "result": "LIVE \u2014 135 categorical arb opportunities found\nScanned 3000 events (2007 multi-outcome) at 2026-04-12 15:52 UTC\nBest: 10.0% profit on 'Highest temperature in Munich on April 12?' \u2014 buy YES on all 11 outcomes (sum=0.9)\nStrategy: Buy YES on all 11 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 9.95% on 'Precipitation in NYC in April?'",
       "priority": "HIGH",
-      "last_scan": "2026-04-12 15:49 UTC",
+      "last_scan": "2026-04-12 15:52 UTC",
       "opportunities": [
+        {
+          "event_title": "Highest temperature in Munich on April 12?",
+          "event_slug": "highest-temperature-in-munich-on-april-12-2026",
+          "yes_sum": 0.9,
+          "profit_pct": 10.0,
+          "profit_per_dollar_pct": 11.11,
+          "num_outcomes": 11,
+          "outcomes": [
+            {
+              "market_id": "1914971",
+              "slug": "highest-temperature-in-munich-on-april-12-2026-11c",
+              "question": "Will the highest temperature in Munich be 11\u00b0C on April 12?",
+              "yes_price": 0.8745,
+              "volume": 41330
+            },
+            {
+              "market_id": "1914972",
+              "slug": "highest-temperature-in-munich-on-april-12-2026-12c",
+              "question": "Will the highest temperature in Munich be 12\u00b0C on April 12?",
+              "yes_price": 0.019,
+              "volume": 20820
+            },
+            {
+              "market_id": "1914973",
+              "slug": "highest-temperature-in-munich-on-april-12-2026-13c",
+              "question": "Will the highest temperature in Munich be 13\u00b0C on April 12?",
+              "yes_price": 0.0025,
+              "volume": 13085
+            },
+            {
+              "market_id": "1914974",
+              "slug": "highest-temperature-in-munich-on-april-12-2026-14c",
+              "question": "Will the highest temperature in Munich be 14\u00b0C on April 12?",
+              "yes_price": 0.0025,
+              "volume": 12718
+            },
+            {
+              "market_id": "1914975",
+              "slug": "highest-temperature-in-munich-on-april-12-2026-15corhigher",
+              "question": "Will the highest temperature in Munich be 15\u00b0C or higher on April 12?",
+              "yes_price": 0.0015,
+              "volume": 20486
+            },
+            {
+              "market_id": "1914965",
+              "slug": "highest-temperature-in-munich-on-april-12-2026-5corbelow",
+              "question": "Will the highest temperature in Munich be 5\u00b0C or below on April 12?",
+              "yes_price": 0.0,
+              "volume": 2789
+            },
+            {
+              "market_id": "1914966",
+              "slug": "highest-temperature-in-munich-on-april-12-2026-6c",
+              "question": "Will the highest temperature in Munich be 6\u00b0C on April 12?",
+              "yes_price": 0.0,
+              "volume": 1533
+            },
+            {
+              "market_id": "1914967",
+              "slug": "highest-temperature-in-munich-on-april-12-2026-7c",
+              "question": "Will the highest temperature in Munich be 7\u00b0C on April 12?",
+              "yes_price": 0.0,
+              "volume": 4428
+            },
+            {
+              "market_id": "1914968",
+              "slug": "highest-temperature-in-munich-on-april-12-2026-8c",
+              "question": "Will the highest temperature in Munich be 8\u00b0C on April 12?",
+              "yes_price": 0.0,
+              "volume": 9337
+            },
+            {
+              "market_id": "1914969",
+              "slug": "highest-temperature-in-munich-on-april-12-2026-9c",
+              "question": "Will the highest temperature in Munich be 9\u00b0C on April 12?",
+              "yes_price": 0.0,
+              "volume": 19188
+            },
+            {
+              "market_id": "1914970",
+              "slug": "highest-temperature-in-munich-on-april-12-2026-10c",
+              "question": "Will the highest temperature in Munich be 10\u00b0C on April 12?",
+              "yes_price": 0.0,
+              "volume": 37616
+            }
+          ],
+          "url": "https://polymarket.com/event/highest-temperature-in-munich-on-april-12-2026",
+          "strategy": "Buy YES on all 11 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
+        },
+        {
+          "event_title": "Precipitation in NYC in April?",
+          "event_slug": "precipitation-in-nyc-in-april",
+          "yes_sum": 0.9005,
+          "profit_pct": 9.95,
+          "profit_per_dollar_pct": 11.05,
+          "num_outcomes": 4,
+          "outcomes": [
+            {
+              "market_id": "1706747",
+              "slug": "will-nyc-have-less-than-2-inches-of-precipitation-in-april",
+              "question": "Will NYC have less than 2 inches of precipitation in April?",
+              "yes_price": 0.579,
+              "volume": 2636
+            },
+            {
+              "market_id": "1706748",
+              "slug": "will-nyc-have-between-2-and-3-inches-of-precipitation-in-april",
+              "question": "Will NYC have between 2 and 3 inches of precipitation in April?",
+              "yes_price": 0.155,
+              "volume": 11817
+            },
+            {
+              "market_id": "1706749",
+              "slug": "will-nyc-have-between-3-and-4-inches-of-precipitation-in-april",
+              "question": "Will NYC have between 3 and 4 inches of precipitation in April?",
+              "yes_price": 0.1,
+              "volume": 8938
+            },
+            {
+              "market_id": "1706750",
+              "slug": "will-nyc-have-between-4-and-5-inches-of-precipitation-in-april",
+              "question": "Will NYC have between 4 and 5 inches of precipitation in April?",
+              "yes_price": 0.0665,
+              "volume": 9779
+            }
+          ],
+          "url": "https://polymarket.com/event/precipitation-in-nyc-in-april",
+          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9005. One wins $1.00. Profit: $0.0995 (9.95%)"
+        },
         {
           "event_title": "Maine Governor Republican Primary Winner",
           "event_slug": "maine-governor-republican-primary-winner",
@@ -229,9 +358,9 @@
         {
           "event_title": "Who will Petr Yan fight next?",
           "event_slug": "who-will-petr-yan-fight-next-before-2027",
-          "yes_sum": 0.904,
-          "profit_pct": 9.6,
-          "profit_per_dollar_pct": 10.62,
+          "yes_sum": 0.9045,
+          "profit_pct": 9.55,
+          "profit_per_dollar_pct": 10.56,
           "num_outcomes": 14,
           "outcomes": [
             {
@@ -259,7 +388,7 @@
               "market_id": "897250",
               "slug": "will-petr-yan-fight-payton-talbott-next",
               "question": "Will Petr Yan fight Payton Talbott next?",
-              "yes_price": 0.012,
+              "yes_price": 0.0125,
               "volume": 7212
             },
             {
@@ -334,7 +463,7 @@
             }
           ],
           "url": "https://polymarket.com/event/who-will-petr-yan-fight-next-before-2027",
-          "strategy": "Buy YES on all 14 outcomes. Total cost: $0.9040. One wins $1.00. Profit: $0.0960 (9.60%)"
+          "strategy": "Buy YES on all 14 outcomes. Total cost: $0.9045. One wins $1.00. Profit: $0.0955 (9.55%)"
         },
         {
           "event_title": "Which film will get the most Oscar nominations at the 99th Academy Awards?",
@@ -422,102 +551,15 @@
           ],
           "url": "https://polymarket.com/event/croydon-mayoral-election-winner",
           "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9045. One wins $1.00. Profit: $0.0955 (9.55%)"
-        },
-        {
-          "event_title": "Will Israel launch a major ground offensive in Gaza by...?",
-          "event_slug": "will-israel-launch-a-major-ground-offensive-in-gaza-by-october-31",
-          "yes_sum": 0.905,
-          "profit_pct": 9.5,
-          "profit_per_dollar_pct": 10.5,
-          "num_outcomes": 5,
-          "outcomes": [
-            {
-              "market_id": "1642010",
-              "slug": "will-israel-launch-a-major-ground-offensive-in-gaza-by-december-31-828",
-              "question": "Will Israel launch a major ground offensive in Gaza by December 31?",
-              "yes_price": 0.57,
-              "volume": 18180
-            },
-            {
-              "market_id": "1642009",
-              "slug": "will-israel-launch-a-major-ground-offensive-in-gaza-by-june-30",
-              "question": "Will Israel launch a major ground offensive in Gaza by June 30?",
-              "yes_price": 0.335,
-              "volume": 13424
-            },
-            {
-              "market_id": "639929",
-              "slug": "will-israel-launch-a-major-ground-offensive-in-gaza-by-december-31",
-              "question": "Will Israel launch a major ground offensive in Gaza by December 31?",
-              "yes_price": 0.0,
-              "volume": 50690
-            },
-            {
-              "market_id": "639928",
-              "slug": "will-israel-launch-a-major-ground-offensive-in-gaza-by-october-31",
-              "question": "Will Israel launch a major ground offensive in Gaza by October 31?",
-              "yes_price": 0.0,
-              "volume": 100197
-            },
-            {
-              "market_id": "677398",
-              "slug": "will-israel-launch-a-major-ground-offensive-in-gaza-by-march-31",
-              "question": "Will Israel launch a major ground offensive in Gaza by March 31?",
-              "yes_price": 0.0,
-              "volume": 325856
-            }
-          ],
-          "url": "https://polymarket.com/event/will-israel-launch-a-major-ground-offensive-in-gaza-by-october-31",
-          "strategy": "Buy YES on all 5 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
-        },
-        {
-          "event_title": "# of seats won by PB in Bulgarian Parliamentary Election?",
-          "event_slug": "of-seats-won-by-pb-in-bulgarian-parliamentary-election",
-          "yes_sum": 0.905,
-          "profit_pct": 9.5,
-          "profit_per_dollar_pct": 10.5,
-          "num_outcomes": 4,
-          "outcomes": [
-            {
-              "market_id": "1738484",
-              "slug": "will-progressive-bulgaria-pb-win-between-90-94-seats-in-the-2026-bulgarian-parliamentary-election",
-              "question": "Will Progressive Bulgaria (PB) win between 90-94 seats in the 2026 Bulgarian par",
-              "yes_price": 0.335,
-              "volume": 6348
-            },
-            {
-              "market_id": "1738483",
-              "slug": "will-progressive-bulgaria-pb-win-between-85-89-seats-in-the-2026-bulgarian-parliamentary-election",
-              "question": "Will Progressive Bulgaria (PB) win between 85-89 seats in the 2026 Bulgarian par",
-              "yes_price": 0.235,
-              "volume": 8014
-            },
-            {
-              "market_id": "1738485",
-              "slug": "will-progressive-bulgaria-pb-win-95-or-more-seats-in-the-2026-bulgarian-parliamentary-election",
-              "question": "Will Progressive Bulgaria (PB) win 95 or more seats in the 2026 Bulgarian parlia",
-              "yes_price": 0.19,
-              "volume": 12751
-            },
-            {
-              "market_id": "1738482",
-              "slug": "will-progressive-bulgaria-pb-win-between-80-84-seats-in-the-2026-bulgarian-parliamentary-election",
-              "question": "Will Progressive Bulgaria (PB) win between 80-84 seats in the 2026 Bulgarian par",
-              "yes_price": 0.145,
-              "volume": 7917
-            }
-          ],
-          "url": "https://polymarket.com/event/of-seats-won-by-pb-in-bulgarian-parliamentary-election",
-          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
         }
       ],
       "stats": {
         "total_events": 3000,
-        "checked_multi_outcome": 2008,
+        "checked_multi_outcome": 2007,
         "skipped_single_outcome": 622,
-        "opportunities_found": 134,
-        "best_profit_pct": 9.8,
-        "scanned_at": "2026-04-12 15:49 UTC"
+        "opportunities_found": 135,
+        "best_profit_pct": 10.0,
+        "scanned_at": "2026-04-12 15:52 UTC"
       }
     },
     {
