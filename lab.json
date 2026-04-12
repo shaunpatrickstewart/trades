@@ -8,9 +8,9 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 146 categorical arb opportunities found\nScanned 3000 events (1944 multi-outcome) at 2026-04-12 10:08 UTC\nBest: 10.0% profit on 'Hamarkameratene vs. KFUM-Kameratene Oslo - More Markets' \u2014 buy YES on all 2 outcomes (sum=0.9)\nStrategy: Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 9.95% on 'Guinea-Bissau National People's Assembly Election Winner'",
+      "result": "LIVE \u2014 142 categorical arb opportunities found\nScanned 3000 events (1945 multi-outcome) at 2026-04-12 10:09 UTC\nBest: 10.0% profit on 'Hamarkameratene vs. KFUM-Kameratene Oslo - More Markets' \u2014 buy YES on all 2 outcomes (sum=0.9)\nStrategy: Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 9.95% on 'Guinea-Bissau National People's Assembly Election Winner'",
       "priority": "HIGH",
-      "last_scan": "2026-04-12 10:08 UTC",
+      "last_scan": "2026-04-12 10:09 UTC",
       "opportunities": [
         {
           "event_title": "Hamarkameratene vs. KFUM-Kameratene Oslo - More Markets",
@@ -145,95 +145,6 @@
           ],
           "url": "https://polymarket.com/event/perplexity-ipo-closing-market-cap",
           "strategy": "Buy YES on all 6 outcomes. Total cost: $0.9020. One wins $1.00. Profit: $0.0980 (9.80%)"
-        },
-        {
-          "event_title": "Highest temperature in Taipei on April 13?",
-          "event_slug": "highest-temperature-in-taipei-on-april-13-2026",
-          "yes_sum": 0.9035,
-          "profit_pct": 9.65,
-          "profit_per_dollar_pct": 10.68,
-          "num_outcomes": 11,
-          "outcomes": [
-            {
-              "market_id": "1924620",
-              "slug": "highest-temperature-in-taipei-on-april-13-2026-32c",
-              "question": "Will the highest temperature in Taipei be 32\u00b0C on April 13?",
-              "yes_price": 0.24,
-              "volume": 2261
-            },
-            {
-              "market_id": "1924621",
-              "slug": "highest-temperature-in-taipei-on-april-13-2026-33c",
-              "question": "Will the highest temperature in Taipei be 33\u00b0C on April 13?",
-              "yes_price": 0.156,
-              "volume": 2811
-            },
-            {
-              "market_id": "1924619",
-              "slug": "highest-temperature-in-taipei-on-april-13-2026-31c",
-              "question": "Will the highest temperature in Taipei be 31\u00b0C on April 13?",
-              "yes_price": 0.155,
-              "volume": 1657
-            },
-            {
-              "market_id": "1924622",
-              "slug": "highest-temperature-in-taipei-on-april-13-2026-34c",
-              "question": "Will the highest temperature in Taipei be 34\u00b0C on April 13?",
-              "yes_price": 0.141,
-              "volume": 3759
-            },
-            {
-              "market_id": "1924623",
-              "slug": "highest-temperature-in-taipei-on-april-13-2026-35c",
-              "question": "Will the highest temperature in Taipei be 35\u00b0C on April 13?",
-              "yes_price": 0.0785,
-              "volume": 3298
-            },
-            {
-              "market_id": "1924618",
-              "slug": "highest-temperature-in-taipei-on-april-13-2026-30c",
-              "question": "Will the highest temperature in Taipei be 30\u00b0C on April 13?",
-              "yes_price": 0.0565,
-              "volume": 2306
-            },
-            {
-              "market_id": "1924617",
-              "slug": "highest-temperature-in-taipei-on-april-13-2026-29c",
-              "question": "Will the highest temperature in Taipei be 29\u00b0C on April 13?",
-              "yes_price": 0.0335,
-              "volume": 3607
-            },
-            {
-              "market_id": "1924624",
-              "slug": "highest-temperature-in-taipei-on-april-13-2026-36c",
-              "question": "Will the highest temperature in Taipei be 36\u00b0C on April 13?",
-              "yes_price": 0.016,
-              "volume": 4176
-            },
-            {
-              "market_id": "1924625",
-              "slug": "highest-temperature-in-taipei-on-april-13-2026-37c",
-              "question": "Will the highest temperature in Taipei be 37\u00b0C on April 13?",
-              "yes_price": 0.016,
-              "volume": 3208
-            },
-            {
-              "market_id": "1924616",
-              "slug": "highest-temperature-in-taipei-on-april-13-2026-28corbelow",
-              "question": "Will the highest temperature in Taipei be 28\u00b0C or below on April 13?",
-              "yes_price": 0.0075,
-              "volume": 6177
-            },
-            {
-              "market_id": "1924626",
-              "slug": "highest-temperature-in-taipei-on-april-13-2026-38corhigher",
-              "question": "Will the highest temperature in Taipei be 38\u00b0C or higher on April 13?",
-              "yes_price": 0.0035,
-              "volume": 3182
-            }
-          ],
-          "url": "https://polymarket.com/event/highest-temperature-in-taipei-on-april-13-2026",
-          "strategy": "Buy YES on all 11 outcomes. Total cost: $0.9035. One wins $1.00. Profit: $0.0965 (9.65%)"
         },
         {
           "event_title": "Next Premier of Quebec",
@@ -495,15 +406,48 @@
           ],
           "url": "https://polymarket.com/event/how-many-tornadoes-in-the-us-in-2026",
           "strategy": "Buy YES on all 6 outcomes. Total cost: $0.9120. One wins $1.00. Profit: $0.0880 (8.80%)"
+        },
+        {
+          "event_title": "Another 7.0 or above earthquake by...?",
+          "event_slug": "another-7pt0-or-above-earthquake-by-553",
+          "yes_sum": 0.912,
+          "profit_pct": 8.8,
+          "profit_per_dollar_pct": 9.65,
+          "num_outcomes": 3,
+          "outcomes": [
+            {
+              "market_id": "1829475",
+              "slug": "another-7pt0-or-above-earthquake-by-april-30-2026-114",
+              "question": "Another 7.0 or above earthquake by April 30, 2026?",
+              "yes_price": 0.64,
+              "volume": 6646
+            },
+            {
+              "market_id": "1829474",
+              "slug": "another-7pt0-or-above-earthquake-by-april-15-2026",
+              "question": "Another 7.0 or above earthquake by April 15, 2026?",
+              "yes_price": 0.27,
+              "volume": 12070
+            },
+            {
+              "market_id": "1829473",
+              "slug": "another-7pt0-or-above-earthquake-by-april-7-2026",
+              "question": "Another 7.0 or above earthquake by April 7, 2026?",
+              "yes_price": 0.002,
+              "volume": 6486
+            }
+          ],
+          "url": "https://polymarket.com/event/another-7pt0-or-above-earthquake-by-553",
+          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9120. One wins $1.00. Profit: $0.0880 (8.80%)"
         }
       ],
       "stats": {
         "total_events": 3000,
-        "checked_multi_outcome": 1944,
-        "skipped_single_outcome": 627,
-        "opportunities_found": 146,
+        "checked_multi_outcome": 1945,
+        "skipped_single_outcome": 626,
+        "opportunities_found": 142,
         "best_profit_pct": 10.0,
-        "scanned_at": "2026-04-12 10:08 UTC"
+        "scanned_at": "2026-04-12 10:09 UTC"
       }
     },
     {
