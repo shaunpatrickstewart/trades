@@ -8,141 +8,138 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 138 categorical arb opportunities found\nScanned 3000 events (1950 multi-outcome) at 2026-04-12 20:26 UTC\nBest: 10.0% profit on 'Vermont Governor Election Winner' \u2014 buy YES on all 2 outcomes (sum=0.9)\nStrategy: Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 9.7% on 'Iowa Democratic Senate Primary Winner'",
+      "result": "LIVE \u2014 136 categorical arb opportunities found\nScanned 3000 events (1949 multi-outcome) at 2026-04-12 20:40 UTC\nBest: 9.95% profit on 'UEFA Europa Conference League: Most Goal Contributions' \u2014 buy YES on all 4 outcomes (sum=0.9005)\nStrategy: Buy YES on all 4 outcomes. Total cost: $0.9005. One wins $1.00. Profit: $0.0995 (9.95%)\n2nd: 9.6% on 'Highest temperature in Singapore on April 13?'",
       "priority": "HIGH",
-      "last_scan": "2026-04-12 20:26 UTC",
+      "last_scan": "2026-04-12 20:40 UTC",
       "opportunities": [
         {
-          "event_title": "Vermont Governor Election Winner",
-          "event_slug": "vermont-governor-winner-2026",
-          "yes_sum": 0.9,
-          "profit_pct": 10.0,
-          "profit_per_dollar_pct": 11.11,
-          "num_outcomes": 2,
-          "outcomes": [
-            {
-              "market_id": "629708",
-              "slug": "will-the-republicans-win-the-vermont-governor-race-in-2026",
-              "question": "Will the Republicans win the Vermont governor race in 2026?",
-              "yes_price": 0.77,
-              "volume": 4674
-            },
-            {
-              "market_id": "629707",
-              "slug": "will-the-democrats-win-the-vermont-governor-race-in-2026",
-              "question": "Will the Democrats win the Vermont governor race in 2026?",
-              "yes_price": 0.13,
-              "volume": 6898
-            }
-          ],
-          "url": "https://polymarket.com/event/vermont-governor-winner-2026",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
-        },
-        {
-          "event_title": "Iowa Democratic Senate Primary Winner",
-          "event_slug": "iowa-democratic-senate-primary-winner",
-          "yes_sum": 0.903,
-          "profit_pct": 9.7,
-          "profit_per_dollar_pct": 10.74,
+          "event_title": "UEFA Europa Conference League: Most Goal Contributions",
+          "event_slug": "uefa-europa-conference-league-most-goal-contributions",
+          "yes_sum": 0.9005,
+          "profit_pct": 9.95,
+          "profit_per_dollar_pct": 11.05,
           "num_outcomes": 4,
           "outcomes": [
             {
-              "market_id": "679367",
-              "slug": "will-zach-wahls-be-the-democratic-nominee-for-senate-in-iowa",
-              "question": "Will Zach Wahls be the Democratic nominee for Senate in Iowa?",
-              "yes_price": 0.585,
-              "volume": 4180
+              "market_id": "1429286",
+              "slug": "will-ismala-sarr-record-the-most-goal-contributions-in-the-2025-26-uefa-europa-conference-league",
+              "question": "Will Isma\u00efla Sarr record the most goal contributions in the 2025-26 UEFA Europa ",
+              "yes_price": 0.445,
+              "volume": 3224
             },
             {
-              "market_id": "679366",
-              "slug": "will-josh-turek-be-the-democratic-nominee-for-senate-in-iowa",
-              "question": "Will Josh Turek be the Democratic nominee for Senate in Iowa?",
-              "yes_price": 0.29,
-              "volume": 3112
+              "market_id": "1429289",
+              "slug": "will-isak-jensen-record-the-most-goal-contributions-in-the-2025-26-uefa-europa-conference-league",
+              "question": "Will Isak Jensen record the most goal contributions in the 2025-26 UEFA Europa C",
+              "yes_price": 0.235,
+              "volume": 13277
             },
             {
-              "market_id": "679364",
-              "slug": "will-chris-henry-be-the-democratic-nominee-for-senate-in-iowa",
-              "question": "Will Chris Henry be the Democratic nominee for Senate in Iowa?",
-              "yes_price": 0.0245,
-              "volume": 1212
+              "market_id": "1429278",
+              "slug": "will-lvaro-garca-record-the-most-goal-contributions-in-the-2025-26-uefa-europa-conference-league",
+              "question": "Will \u00c1lvaro Garc\u00eda record the most goal contributions in the 2025-26 UEFA Europa",
+              "yes_price": 0.1905,
+              "volume": 18821
             },
             {
-              "market_id": "679365",
-              "slug": "will-nathan-sage-be-the-democratic-nominee-for-senate-in-iowa",
-              "question": "Will Nathan Sage be the Democratic nominee for Senate in Iowa?",
-              "yes_price": 0.0035,
-              "volume": 4299
+              "market_id": "1429283",
+              "slug": "will-aboubakary-koita-record-the-most-goal-contributions-in-the-2025-26-uefa-europa-conference-league",
+              "question": "Will Aboubakary Koita record the most goal contributions in the 2025-26 UEFA Eur",
+              "yes_price": 0.03,
+              "volume": 6201
             }
           ],
-          "url": "https://polymarket.com/event/iowa-democratic-senate-primary-winner",
-          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9030. One wins $1.00. Profit: $0.0970 (9.70%)"
+          "url": "https://polymarket.com/event/uefa-europa-conference-league-most-goal-contributions",
+          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9005. One wins $1.00. Profit: $0.0995 (9.95%)"
         },
         {
-          "event_title": "Will Russia enter Dovha Balka by...?",
-          "event_slug": "will-russia-enter-dovha-balka-by-march-31",
-          "yes_sum": 0.9035,
-          "profit_pct": 9.65,
-          "profit_per_dollar_pct": 10.68,
-          "num_outcomes": 2,
+          "event_title": "Highest temperature in Singapore on April 13?",
+          "event_slug": "highest-temperature-in-singapore-on-april-13-2026",
+          "yes_sum": 0.904,
+          "profit_pct": 9.6,
+          "profit_per_dollar_pct": 10.62,
+          "num_outcomes": 11,
           "outcomes": [
             {
-              "market_id": "1729390",
-              "slug": "will-russia-enter-dovha-balka-by-april-30",
-              "question": "Will Russia enter Dovha Balka by April 30?",
-              "yes_price": 0.9035,
-              "volume": 35155
+              "market_id": "1924579",
+              "slug": "highest-temperature-in-singapore-on-april-13-2026-32c",
+              "question": "Will the highest temperature in Singapore be 32\u00b0C on April 13?",
+              "yes_price": 0.365,
+              "volume": 2311
             },
             {
-              "market_id": "1494063",
-              "slug": "will-russia-enter-dovha-balka-by-march-31",
-              "question": "Will Russia enter Dovha Balka by March 31?",
+              "market_id": "1924580",
+              "slug": "highest-temperature-in-singapore-on-april-13-2026-33c",
+              "question": "Will the highest temperature in Singapore be 33\u00b0C on April 13?",
+              "yes_price": 0.335,
+              "volume": 1896
+            },
+            {
+              "market_id": "1924578",
+              "slug": "highest-temperature-in-singapore-on-april-13-2026-31c",
+              "question": "Will the highest temperature in Singapore be 31\u00b0C on April 13?",
+              "yes_price": 0.11,
+              "volume": 2735
+            },
+            {
+              "market_id": "1924581",
+              "slug": "highest-temperature-in-singapore-on-april-13-2026-34c",
+              "question": "Will the highest temperature in Singapore be 34\u00b0C on April 13?",
+              "yes_price": 0.0435,
+              "volume": 3355
+            },
+            {
+              "market_id": "1924582",
+              "slug": "highest-temperature-in-singapore-on-april-13-2026-35corhigher",
+              "question": "Will the highest temperature in Singapore be 35\u00b0C or higher on April 13?",
+              "yes_price": 0.0225,
+              "volume": 2398
+            },
+            {
+              "market_id": "1924577",
+              "slug": "highest-temperature-in-singapore-on-april-13-2026-30c",
+              "question": "Will the highest temperature in Singapore be 30\u00b0C on April 13?",
+              "yes_price": 0.016,
+              "volume": 5829
+            },
+            {
+              "market_id": "1924576",
+              "slug": "highest-temperature-in-singapore-on-april-13-2026-29c",
+              "question": "Will the highest temperature in Singapore be 29\u00b0C on April 13?",
+              "yes_price": 0.0115,
+              "volume": 5318
+            },
+            {
+              "market_id": "1924575",
+              "slug": "highest-temperature-in-singapore-on-april-13-2026-28c",
+              "question": "Will the highest temperature in Singapore be 28\u00b0C on April 13?",
+              "yes_price": 0.0005,
+              "volume": 1898
+            },
+            {
+              "market_id": "1924572",
+              "slug": "highest-temperature-in-singapore-on-april-13-2026-25corbelow",
+              "question": "Will the highest temperature in Singapore be 25\u00b0C or below on April 13?",
               "yes_price": 0.0,
-              "volume": 13849
+              "volume": 3111
+            },
+            {
+              "market_id": "1924573",
+              "slug": "highest-temperature-in-singapore-on-april-13-2026-26c",
+              "question": "Will the highest temperature in Singapore be 26\u00b0C on April 13?",
+              "yes_price": 0.0,
+              "volume": 1002
+            },
+            {
+              "market_id": "1924574",
+              "slug": "highest-temperature-in-singapore-on-april-13-2026-27c",
+              "question": "Will the highest temperature in Singapore be 27\u00b0C on April 13?",
+              "yes_price": 0.0,
+              "volume": 1871
             }
           ],
-          "url": "https://polymarket.com/event/will-russia-enter-dovha-balka-by-march-31",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9035. One wins $1.00. Profit: $0.0965 (9.65%)"
-        },
-        {
-          "event_title": "Will Opensea launch a token by ___?",
-          "event_slug": "will-opensea-launch-a-token-by-142",
-          "yes_sum": 0.9045,
-          "profit_pct": 9.55,
-          "profit_per_dollar_pct": 10.56,
-          "num_outcomes": 4,
-          "outcomes": [
-            {
-              "market_id": "1271613",
-              "slug": "will-opensea-launch-a-token-by-december-31-2026",
-              "question": "Will OpenSea launch a token by December 31, 2026?",
-              "yes_price": 0.5965,
-              "volume": 95305
-            },
-            {
-              "market_id": "1271612",
-              "slug": "will-opensea-launch-a-token-by-september-30-2026",
-              "question": "Will OpenSea launch a token by September 30, 2026?",
-              "yes_price": 0.24,
-              "volume": 66549
-            },
-            {
-              "market_id": "1271611",
-              "slug": "will-opensea-launch-a-token-by-june-30-2026",
-              "question": "Will OpenSea launch a token by June 30, 2026?",
-              "yes_price": 0.068,
-              "volume": 188471
-            },
-            {
-              "market_id": "1271610",
-              "slug": "will-opensea-launch-a-token-by-march-31-2026",
-              "question": "Will OpenSea launch a token by March 31, 2026?",
-              "yes_price": 0.0,
-              "volume": 1030401
-            }
-          ],
-          "url": "https://polymarket.com/event/will-opensea-launch-a-token-by-142",
-          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9045. One wins $1.00. Profit: $0.0955 (9.55%)"
+          "url": "https://polymarket.com/event/highest-temperature-in-singapore-on-april-13-2026",
+          "strategy": "Buy YES on all 11 outcomes. Total cost: $0.9040. One wins $1.00. Profit: $0.0960 (9.60%)"
         },
         {
           "event_title": "Sabres vs. Blackhawks",
@@ -157,7 +154,7 @@
               "slug": "nhl-buf-chi-2026-04-13",
               "question": "Sabres vs. Blackhawks",
               "yes_price": 0.645,
-              "volume": 9413
+              "volume": 9416
             },
             {
               "market_id": "1628347",
@@ -197,11 +194,77 @@
           "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
         },
         {
+          "event_title": "Will Opensea launch a token by ___?",
+          "event_slug": "will-opensea-launch-a-token-by-142",
+          "yes_sum": 0.906,
+          "profit_pct": 9.4,
+          "profit_per_dollar_pct": 10.38,
+          "num_outcomes": 4,
+          "outcomes": [
+            {
+              "market_id": "1271613",
+              "slug": "will-opensea-launch-a-token-by-december-31-2026",
+              "question": "Will OpenSea launch a token by December 31, 2026?",
+              "yes_price": 0.598,
+              "volume": 95305
+            },
+            {
+              "market_id": "1271612",
+              "slug": "will-opensea-launch-a-token-by-september-30-2026",
+              "question": "Will OpenSea launch a token by September 30, 2026?",
+              "yes_price": 0.24,
+              "volume": 66549
+            },
+            {
+              "market_id": "1271611",
+              "slug": "will-opensea-launch-a-token-by-june-30-2026",
+              "question": "Will OpenSea launch a token by June 30, 2026?",
+              "yes_price": 0.068,
+              "volume": 188471
+            },
+            {
+              "market_id": "1271610",
+              "slug": "will-opensea-launch-a-token-by-march-31-2026",
+              "question": "Will OpenSea launch a token by March 31, 2026?",
+              "yes_price": 0.0,
+              "volume": 1030401
+            }
+          ],
+          "url": "https://polymarket.com/event/will-opensea-launch-a-token-by-142",
+          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9060. One wins $1.00. Profit: $0.0940 (9.40%)"
+        },
+        {
+          "event_title": "U.S. forces seize another oil tanker by...?",
+          "event_slug": "us-forces-seize-another-oil-tanker-by-april-15",
+          "yes_sum": 0.906,
+          "profit_pct": 9.4,
+          "profit_per_dollar_pct": 10.38,
+          "num_outcomes": 2,
+          "outcomes": [
+            {
+              "market_id": "1849095",
+              "slug": "us-forces-seize-another-oil-tanker-by-april-30",
+              "question": "U.S. forces seize another oil tanker by April 30?",
+              "yes_price": 0.68,
+              "volume": 1829
+            },
+            {
+              "market_id": "1696325",
+              "slug": "us-forces-seize-another-oil-tanker-by-april-15",
+              "question": "U.S. forces seize another oil tanker by April 15?",
+              "yes_price": 0.226,
+              "volume": 87691
+            }
+          ],
+          "url": "https://polymarket.com/event/us-forces-seize-another-oil-tanker-by-april-15",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9060. One wins $1.00. Profit: $0.0940 (9.40%)"
+        },
+        {
           "event_title": "MLS Cup Winner 2026",
           "event_slug": "mls-cup-winner-2026",
-          "yes_sum": 0.907,
-          "profit_pct": 9.3,
-          "profit_per_dollar_pct": 10.25,
+          "yes_sum": 0.9065,
+          "profit_pct": 9.35,
+          "profit_per_dollar_pct": 10.31,
           "num_outcomes": 30,
           "outcomes": [
             {
@@ -243,15 +306,15 @@
               "market_id": "1349147",
               "slug": "will-fc-cincinnati-win-the-2026-mls-cup",
               "question": "Will FC Cincinnati win the 2026 MLS Cup?",
-              "yes_price": 0.036,
-              "volume": 545412
+              "yes_price": 0.0355,
+              "volume": 545451
             },
             {
               "market_id": "1349160",
               "slug": "will-new-york-city-fc-win-the-2026-mls-cup",
               "question": "Will New York City FC win the 2026 MLS Cup?",
-              "yes_price": 0.036,
-              "volume": 459635
+              "yes_price": 0.0355,
+              "volume": 459831
             },
             {
               "market_id": "1349168",
@@ -265,13 +328,13 @@
               "slug": "will-san-jose-earthquakes-win-the-2026-mls-cup",
               "question": "Will San Jose Earthquakes win the 2026 MLS Cup?",
               "yes_price": 0.0265,
-              "volume": 953862
+              "volume": 954485
             },
             {
               "market_id": "1349171",
               "slug": "will-toronto-fc-win-the-2026-mls-cup",
               "question": "Will Toronto FC win the 2026 MLS Cup?",
-              "yes_price": 0.024,
+              "yes_price": 0.0245,
               "volume": 18756
             },
             {
@@ -279,7 +342,7 @@
               "slug": "will-charlotte-fc-win-the-2026-mls-cup",
               "question": "Will Charlotte FC win the 2026 MLS Cup?",
               "yes_price": 0.022,
-              "volume": 303305
+              "volume": 303354
             },
             {
               "market_id": "1349155",
@@ -416,7 +479,7 @@
             }
           ],
           "url": "https://polymarket.com/event/mls-cup-winner-2026",
-          "strategy": "Buy YES on all 30 outcomes. Total cost: $0.9070. One wins $1.00. Profit: $0.0930 (9.30%)"
+          "strategy": "Buy YES on all 30 outcomes. Total cost: $0.9065. One wins $1.00. Profit: $0.0935 (9.35%)"
         },
         {
           "event_title": "AZ-01 Republican Primary Winner",
@@ -548,88 +611,67 @@
           "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9080. One wins $1.00. Profit: $0.0920 (9.20%)"
         },
         {
-          "event_title": "China Annual Inflation 2026",
-          "event_slug": "china-annual-inflation-2026",
-          "yes_sum": 0.909,
-          "profit_pct": 9.1,
-          "profit_per_dollar_pct": 10.01,
-          "num_outcomes": 9,
+          "event_title": "How many ships transit the Strait of Hormuz this week? (Apr 6-12)",
+          "event_slug": "how-many-ships-transit-the-strait-of-hormuz-this-week-apr-6-12",
+          "yes_sum": 0.911,
+          "profit_pct": 8.9,
+          "profit_per_dollar_pct": 9.77,
+          "num_outcomes": 6,
           "outcomes": [
             {
-              "market_id": "1132795",
-              "slug": "will-chinas-annual-inflation-in-2026-be-between-0pt6-and-1pt0",
-              "question": "Will China's annual inflation in 2026 be between 0.6% and 1.0%?",
-              "yes_price": 0.265,
-              "volume": 1819
+              "market_id": "1846506",
+              "slug": "will-50-59-ships-transit-the-strait-of-hormuz-between-april-6-april-12",
+              "question": "Will 50-59 ships transit the Strait of Hormuz between April 6-April 12?",
+              "yes_price": 0.388,
+              "volume": 12875
             },
             {
-              "market_id": "1132798",
-              "slug": "will-chinas-annual-inflation-in-2026-be-at-least-2pt5",
-              "question": "Will China's annual inflation in 2026 be at least 2.5%?",
-              "yes_price": 0.1355,
-              "volume": 1562
+              "market_id": "1846507",
+              "slug": "will-60-or-more-ships-transit-the-strait-of-hormuz-between-april-6-april-12",
+              "question": "Will 60 or more ships transit the Strait of Hormuz between April 6-April 12?",
+              "yes_price": 0.26,
+              "volume": 58807
             },
             {
-              "market_id": "1132796",
-              "slug": "will-chinas-annual-inflation-in-2026-be-between-1pt1-and-1pt5",
-              "question": "Will China's annual inflation in 2026 be between 1.1% and 1.5%?",
-              "yes_price": 0.125,
-              "volume": 2205
+              "market_id": "1846505",
+              "slug": "will-40-49-ships-transit-the-strait-of-hormuz-between-april-6-april-12",
+              "question": "Will 40-49 ships transit the Strait of Hormuz between April 6-April 12?",
+              "yes_price": 0.203,
+              "volume": 25204
             },
             {
-              "market_id": "1132792",
-              "slug": "will-chinas-annual-inflation-in-2026-be-between-0pt9-and-0pt5",
-              "question": "Will China's annual inflation in 2026 be between -0.9% and -0.5%?",
-              "yes_price": 0.0835,
-              "volume": 1733
+              "market_id": "1846504",
+              "slug": "will-30-39-ships-transit-the-strait-of-hormuz-between-april-6-april-12",
+              "question": "Will 30-39 ships transit the Strait of Hormuz between April 6-April 12?",
+              "yes_price": 0.0385,
+              "volume": 20980
             },
             {
-              "market_id": "1132793",
-              "slug": "will-chinas-annual-inflation-in-2026-be-between-0pt4-and-0pt0",
-              "question": "Will China's annual inflation in 2026 be between -0.4% and 0.0%?",
-              "yes_price": 0.0835,
-              "volume": 1765
+              "market_id": "1846503",
+              "slug": "will-20-29-ships-transit-the-strait-of-hormuz-between-april-6-april-12",
+              "question": "Will 20-29 ships transit the Strait of Hormuz between April 6-April 12?",
+              "yes_price": 0.011,
+              "volume": 24179
             },
             {
-              "market_id": "1132797",
-              "slug": "will-chinas-annual-inflation-in-2026-be-between-1pt6-and-2pt0",
-              "question": "Will China's annual inflation in 2026 be between 1.6% and 2.0%?",
-              "yes_price": 0.081,
-              "volume": 2488
-            },
-            {
-              "market_id": "1237148",
-              "slug": "will-chinas-annual-inflation-in-2026-be-between-2pt0-and-2pt4",
-              "question": "Will China's annual inflation in 2026 be between 2.0% and 2.4%?",
-              "yes_price": 0.0645,
-              "volume": 1617
-            },
-            {
-              "market_id": "1132794",
-              "slug": "will-chinas-annual-inflation-in-2026-be-between-0pt1-and-0pt5",
-              "question": "Will China's annual inflation in 2026 be between 0.1% and 0.5%?",
-              "yes_price": 0.045,
-              "volume": 1628
-            },
-            {
-              "market_id": "1132791",
-              "slug": "will-chinas-annual-inflation-in-2026-be-less-than-1pt0",
-              "question": "Will China's annual inflation in 2026 be less than -1.0%?",
-              "yes_price": 0.026,
-              "volume": 16740
+              "market_id": "1846502",
+              "slug": "will-fewer-than-20-ships-transit-the-strait-of-hormuz-between-april-6-april-12",
+              "question": "Will fewer than 20 ships transit the Strait of Hormuz between April 6-April 12?",
+              "yes_price": 0.0105,
+              "volume": 48876
             }
           ],
-          "url": "https://polymarket.com/event/china-annual-inflation-2026",
-          "strategy": "Buy YES on all 9 outcomes. Total cost: $0.9090. One wins $1.00. Profit: $0.0910 (9.10%)"
+          "url": "https://polymarket.com/event/how-many-ships-transit-the-strait-of-hormuz-this-week-apr-6-12",
+          "strategy": "Buy YES on all 6 outcomes. Total cost: $0.9110. One wins $1.00. Profit: $0.0890 (8.90%)"
         }
       ],
       "stats": {
         "total_events": 3000,
-        "checked_multi_outcome": 1950,
+        "checked_multi_outcome": 1949,
         "skipped_single_outcome": 637,
-        "opportunities_found": 138,
-        "best_profit_pct": 10.0,
-        "scanned_at": "2026-04-12 20:26 UTC"
+        "opportunities_found": 136,
+        "best_profit_pct": 9.95,
+        "scanned_at": "2026-04-12 20:40 UTC"
       }
     },
     {
