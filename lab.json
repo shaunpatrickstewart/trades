@@ -8,16 +8,16 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 132 categorical arb opportunities found\nScanned 3000 events (1933 multi-outcome) at 2026-04-12 22:04 UTC\nBest: 9.55% profit on 'English Premier League - Top Goalscorer ' \u2014 buy YES on all 31 outcomes (sum=0.9045)\nStrategy: Buy YES on all 31 outcomes. Total cost: $0.9045. One wins $1.00. Profit: $0.0955 (9.55%)\n2nd: 9.4% on 'Will Opensea launch a token by ___?'",
+      "result": "LIVE \u2014 135 categorical arb opportunities found\nScanned 3000 events (1933 multi-outcome) at 2026-04-12 22:06 UTC\nBest: 9.75% profit on 'English Premier League - Top Goalscorer ' \u2014 buy YES on all 31 outcomes (sum=0.9025)\nStrategy: Buy YES on all 31 outcomes. Total cost: $0.9025. One wins $1.00. Profit: $0.0975 (9.75%)\n2nd: 9.4% on 'Will Opensea launch a token by ___?'",
       "priority": "HIGH",
-      "last_scan": "2026-04-12 22:04 UTC",
+      "last_scan": "2026-04-12 22:06 UTC",
       "opportunities": [
         {
           "event_title": "English Premier League - Top Goalscorer ",
           "event_slug": "english-premier-league-top-goalscorer",
-          "yes_sum": 0.9045,
-          "profit_pct": 9.55,
-          "profit_per_dollar_pct": 10.56,
+          "yes_sum": 0.9025,
+          "profit_pct": 9.75,
+          "profit_per_dollar_pct": 10.8,
           "num_outcomes": 31,
           "outcomes": [
             {
@@ -28,18 +28,18 @@
               "volume": 66249
             },
             {
-              "market_id": "577178",
-              "slug": "will-jarrod-bowen-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Jarrod Bowen be the top goal scorer in the 2025\u201326 English Premier League s",
-              "yes_price": 0.009,
-              "volume": 11972
-            },
-            {
               "market_id": "577171",
               "slug": "will-omar-marmoush-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
               "question": "Will Omar Marmoush be the top goal scorer in the 2025\u201326 English Premier League ",
               "yes_price": 0.0085,
               "volume": 15888
+            },
+            {
+              "market_id": "577178",
+              "slug": "will-jarrod-bowen-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Jarrod Bowen be the top goal scorer in the 2025\u201326 English Premier League s",
+              "yes_price": 0.0085,
+              "volume": 11972
             },
             {
               "market_id": "577189",
@@ -73,7 +73,7 @@
               "market_id": "577181",
               "slug": "will-bruno-fernandes-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
               "question": "Will Bruno Fernandes be the top goal scorer in the 2025\u201326 English Premier Leagu",
-              "yes_price": 0.006,
+              "yes_price": 0.0055,
               "volume": 16361
             },
             {
@@ -87,7 +87,7 @@
               "market_id": "577170",
               "slug": "will-dominic-solanke-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
               "question": "Will Dominic Solanke be the top goal scorer in the 2025\u201326 English Premier Leagu",
-              "yes_price": 0.0045,
+              "yes_price": 0.004,
               "volume": 158181
             },
             {
@@ -98,18 +98,18 @@
               "volume": 84801
             },
             {
-              "market_id": "577177",
-              "slug": "will-bryan-mbeumo-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Bryan Mbeumo be the top goal scorer in the 2025\u201326 English Premier League s",
-              "yes_price": 0.004,
-              "volume": 40710
-            },
-            {
               "market_id": "577172",
               "slug": "will-jean-philippe-mateta-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
               "question": "Will Jean-Philippe Mateta be the top goal scorer in the 2025\u201326 English Premier ",
               "yes_price": 0.0035,
               "volume": 24056
+            },
+            {
+              "market_id": "577177",
+              "slug": "will-bryan-mbeumo-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Bryan Mbeumo be the top goal scorer in the 2025\u201326 English Premier League s",
+              "yes_price": 0.0035,
+              "volume": 40710
             },
             {
               "market_id": "577179",
@@ -239,7 +239,7 @@
             }
           ],
           "url": "https://polymarket.com/event/english-premier-league-top-goalscorer",
-          "strategy": "Buy YES on all 31 outcomes. Total cost: $0.9045. One wins $1.00. Profit: $0.0955 (9.55%)"
+          "strategy": "Buy YES on all 31 outcomes. Total cost: $0.9025. One wins $1.00. Profit: $0.0975 (9.75%)"
         },
         {
           "event_title": "Will Opensea launch a token by ___?",
@@ -526,74 +526,6 @@
           "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9100. One wins $1.00. Profit: $0.0900 (9.00%)"
         },
         {
-          "event_title": "Highest temperature in Miami on April 14?",
-          "event_slug": "highest-temperature-in-miami-on-april-14-2026",
-          "yes_sum": 0.91,
-          "profit_pct": 9.0,
-          "profit_per_dollar_pct": 9.89,
-          "num_outcomes": 8,
-          "outcomes": [
-            {
-              "market_id": "1953513",
-              "slug": "highest-temperature-in-miami-on-april-14-2026-82-83f",
-              "question": "Will the highest temperature in Miami be between 82-83\u00b0F on April 14?",
-              "yes_price": 0.375,
-              "volume": 1214
-            },
-            {
-              "market_id": "1953512",
-              "slug": "highest-temperature-in-miami-on-april-14-2026-80-81f",
-              "question": "Will the highest temperature in Miami be between 80-81\u00b0F on April 14?",
-              "yes_price": 0.36,
-              "volume": 1416
-            },
-            {
-              "market_id": "1953511",
-              "slug": "highest-temperature-in-miami-on-april-14-2026-78-79f",
-              "question": "Will the highest temperature in Miami be between 78-79\u00b0F on April 14?",
-              "yes_price": 0.115,
-              "volume": 1405
-            },
-            {
-              "market_id": "1953510",
-              "slug": "highest-temperature-in-miami-on-april-14-2026-76-77f",
-              "question": "Will the highest temperature in Miami be between 76-77\u00b0F on April 14?",
-              "yes_price": 0.029,
-              "volume": 1824
-            },
-            {
-              "market_id": "1953508",
-              "slug": "highest-temperature-in-miami-on-april-14-2026-72-73f",
-              "question": "Will the highest temperature in Miami be between 72-73\u00b0F on April 14?",
-              "yes_price": 0.0115,
-              "volume": 5445
-            },
-            {
-              "market_id": "1953509",
-              "slug": "highest-temperature-in-miami-on-april-14-2026-74-75f",
-              "question": "Will the highest temperature in Miami be between 74-75\u00b0F on April 14?",
-              "yes_price": 0.0095,
-              "volume": 1006
-            },
-            {
-              "market_id": "1953507",
-              "slug": "highest-temperature-in-miami-on-april-14-2026-70-71f",
-              "question": "Will the highest temperature in Miami be between 70-71\u00b0F on April 14?",
-              "yes_price": 0.0085,
-              "volume": 3914
-            },
-            {
-              "market_id": "1953506",
-              "slug": "highest-temperature-in-miami-on-april-14-2026-69forbelow",
-              "question": "Will the highest temperature in Miami be 69\u00b0F or below on April 14?",
-              "yes_price": 0.0015,
-              "volume": 1489
-            }
-          ],
-          "url": "https://polymarket.com/event/highest-temperature-in-miami-on-april-14-2026",
-          "strategy": "Buy YES on all 8 outcomes. Total cost: $0.9100. One wins $1.00. Profit: $0.0900 (9.00%)"
-        },
-        {
           "event_title": "# of seats won by GERB-SDS in Bulgarian Parliamentary Election?",
           "event_slug": "of-seats-won-by-gerb-sds-in-bulgarian-parliamentary-election",
           "yes_sum": 0.911,
@@ -726,15 +658,48 @@
           ],
           "url": "https://polymarket.com/event/how-many-tornadoes-in-the-us-in-2026",
           "strategy": "Buy YES on all 7 outcomes. Total cost: $0.9130. One wins $1.00. Profit: $0.0870 (8.70%)"
+        },
+        {
+          "event_title": "VA-02 Democratic Primary Winner",
+          "event_slug": "va-02-democratic-primary-winner",
+          "yes_sum": 0.913,
+          "profit_pct": 8.7,
+          "profit_per_dollar_pct": 9.53,
+          "num_outcomes": 3,
+          "outcomes": [
+            {
+              "market_id": "704140",
+              "slug": "will-elaine-luria-be-the-democratic-nominee-for-va-02",
+              "question": "Will Elaine Luria be the Democratic nominee for VA-02?",
+              "yes_price": 0.825,
+              "volume": 1102
+            },
+            {
+              "market_id": "704139",
+              "slug": "will-james-osyf-be-the-democratic-nominee-for-va-02",
+              "question": "Will James Osyf be the Democratic nominee for VA-02?",
+              "yes_price": 0.062,
+              "volume": 1097
+            },
+            {
+              "market_id": "704143",
+              "slug": "will-patrick-mosolf-be-the-democratic-nominee-for-va-02",
+              "question": "Will Patrick Mosolf be the Democratic nominee for VA-02?",
+              "yes_price": 0.026,
+              "volume": 1490
+            }
+          ],
+          "url": "https://polymarket.com/event/va-02-democratic-primary-winner",
+          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9130. One wins $1.00. Profit: $0.0870 (8.70%)"
         }
       ],
       "stats": {
         "total_events": 3000,
         "checked_multi_outcome": 1933,
-        "skipped_single_outcome": 633,
-        "opportunities_found": 132,
-        "best_profit_pct": 9.55,
-        "scanned_at": "2026-04-12 22:04 UTC"
+        "skipped_single_outcome": 634,
+        "opportunities_found": 135,
+        "best_profit_pct": 9.75,
+        "scanned_at": "2026-04-12 22:06 UTC"
       }
     },
     {
