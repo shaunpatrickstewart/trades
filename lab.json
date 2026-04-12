@@ -8,43 +8,10 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 141 categorical arb opportunities found\nScanned 3000 events (1992 multi-outcome) at 2026-04-12 16:57 UTC\nBest: 10.0% profit on 'SC-01 Republican Primary Winner' \u2014 buy YES on all 3 outcomes (sum=0.9)\nStrategy: Buy YES on all 3 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 9.6% on 'Maduro Prison Time?'",
+      "result": "LIVE \u2014 142 categorical arb opportunities found\nScanned 3000 events (1990 multi-outcome) at 2026-04-12 17:00 UTC\nBest: 9.6% profit on 'Maduro Prison Time?' \u2014 buy YES on all 5 outcomes (sum=0.904)\nStrategy: Buy YES on all 5 outcomes. Total cost: $0.9040. One wins $1.00. Profit: $0.0960 (9.60%)\n2nd: 9.5% on 'Internet Access restored in Iran by...?'",
       "priority": "HIGH",
-      "last_scan": "2026-04-12 16:57 UTC",
+      "last_scan": "2026-04-12 17:00 UTC",
       "opportunities": [
-        {
-          "event_title": "SC-01 Republican Primary Winner",
-          "event_slug": "sc-01-republican-primary-winner",
-          "yes_sum": 0.9,
-          "profit_pct": 10.0,
-          "profit_per_dollar_pct": 11.11,
-          "num_outcomes": 3,
-          "outcomes": [
-            {
-              "market_id": "960229",
-              "slug": "will-mark-smith-be-the-republican-nominee-for-sc-01",
-              "question": "Will Mark Smith be the Republican Nominee for SC-01?",
-              "yes_price": 0.38,
-              "volume": 1747
-            },
-            {
-              "market_id": "960226",
-              "slug": "will-sam-mccown-be-the-republican-nominee-for-sc-01",
-              "question": "Will Sam McCown be the Republican Nominee for SC-01?",
-              "yes_price": 0.26,
-              "volume": 1018
-            },
-            {
-              "market_id": "960228",
-              "slug": "will-alex-pelbath-be-the-republican-nominee-for-sc-01",
-              "question": "Will Alex Pelbath be the Republican Nominee for SC-01?",
-              "yes_price": 0.26,
-              "volume": 1430
-            }
-          ],
-          "url": "https://polymarket.com/event/sc-01-republican-primary-winner",
-          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
-        },
         {
           "event_title": "Maduro Prison Time?",
           "event_slug": "maduro-prison-time-527",
@@ -229,88 +196,6 @@
           "strategy": "Buy YES on all 12 outcomes. Total cost: $0.9090. One wins $1.00. Profit: $0.0910 (9.10%)"
         },
         {
-          "event_title": "Will Audemars Piguet prices hit __ by April 30?",
-          "event_slug": "will-audemars-piguet-prices-hit-by-april-30",
-          "yes_sum": 0.909,
-          "profit_pct": 9.1,
-          "profit_per_dollar_pct": 10.01,
-          "num_outcomes": 10,
-          "outcomes": [
-            {
-              "market_id": "1613931",
-              "slug": "will-the-audemars-piguet-index-hit-41000-low-by-april-30",
-              "question": "Will the Audemars Piguet Index hit $41,000 (LOW) by April 30?",
-              "yes_price": 0.305,
-              "volume": 12431
-            },
-            {
-              "market_id": "1613930",
-              "slug": "will-the-audemars-piguet-index-hit-41500-high-by-april-30",
-              "question": "Will the Audemars Piguet Index hit $41,500 (HIGH) by April 30?",
-              "yes_price": 0.285,
-              "volume": 3608
-            },
-            {
-              "market_id": "1613934",
-              "slug": "will-the-audemars-piguet-index-hit-40250-low-by-april-30",
-              "question": "Will the Audemars Piguet Index hit $40,250 (LOW) by April 30?",
-              "yes_price": 0.125,
-              "volume": 1348
-            },
-            {
-              "market_id": "1613935",
-              "slug": "will-the-audemars-piguet-index-hit-40000-low-by-april-30",
-              "question": "Will the Audemars Piguet Index hit $40,000 (LOW) by April 30?",
-              "yes_price": 0.0625,
-              "volume": 2663
-            },
-            {
-              "market_id": "1613928",
-              "slug": "will-the-audemars-piguet-index-hit-42000-high-by-april-30",
-              "question": "Will the Audemars Piguet Index hit $42,000 (HIGH) by April 30?",
-              "yes_price": 0.0365,
-              "volume": 5900
-            },
-            {
-              "market_id": "1613926",
-              "slug": "will-the-audemars-piguet-index-hit-42500-high-by-april-30",
-              "question": "Will the Audemars Piguet Index hit $42,500 (HIGH) by April 30?",
-              "yes_price": 0.0285,
-              "volume": 5707
-            },
-            {
-              "market_id": "1613927",
-              "slug": "will-the-audemars-piguet-index-hit-42250-high-by-april-30",
-              "question": "Will the Audemars Piguet Index hit $42,250 (HIGH) by April 30?",
-              "yes_price": 0.021,
-              "volume": 2135
-            },
-            {
-              "market_id": "1613936",
-              "slug": "will-the-audemars-piguet-index-hit-39000-low-by-april-30",
-              "question": "Will the Audemars Piguet Index hit $39,000 (LOW) by April 30?",
-              "yes_price": 0.018,
-              "volume": 1646
-            },
-            {
-              "market_id": "1613925",
-              "slug": "will-the-audemars-piguet-index-hit-43000-high-by-april-30",
-              "question": "Will the Audemars Piguet Index hit $43,000 (HIGH) by April 30?",
-              "yes_price": 0.014,
-              "volume": 2047
-            },
-            {
-              "market_id": "1613924",
-              "slug": "will-the-audemars-piguet-index-hit-44000-high-by-april-30",
-              "question": "Will the Audemars Piguet Index hit $44,000 (HIGH) by April 30?",
-              "yes_price": 0.0135,
-              "volume": 9609
-            }
-          ],
-          "url": "https://polymarket.com/event/will-audemars-piguet-prices-hit-by-april-30",
-          "strategy": "Buy YES on all 10 outcomes. Total cost: $0.9090. One wins $1.00. Profit: $0.0910 (9.10%)"
-        },
-        {
           "event_title": "Will Opensea launch a token by ___?",
           "event_slug": "will-opensea-launch-a-token-by-142",
           "yes_sum": 0.9095,
@@ -396,36 +281,10 @@
               "slug": "mlb-hou-sea-2026-04-12",
               "question": "Houston Astros vs. Seattle Mariners",
               "yes_price": 0.395,
-              "volume": 741123
+              "volume": 741982
             }
           ],
           "url": "https://polymarket.com/event/mlb-hou-sea-2026-04-12",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9100. One wins $1.00. Profit: $0.0900 (9.00%)"
-        },
-        {
-          "event_title": "Vermont Governor Election Winner",
-          "event_slug": "vermont-governor-winner-2026",
-          "yes_sum": 0.91,
-          "profit_pct": 9.0,
-          "profit_per_dollar_pct": 9.89,
-          "num_outcomes": 2,
-          "outcomes": [
-            {
-              "market_id": "629708",
-              "slug": "will-the-republicans-win-the-vermont-governor-race-in-2026",
-              "question": "Will the Republicans win the Vermont governor race in 2026?",
-              "yes_price": 0.77,
-              "volume": 4674
-            },
-            {
-              "market_id": "629707",
-              "slug": "will-the-democrats-win-the-vermont-governor-race-in-2026",
-              "question": "Will the Democrats win the Vermont governor race in 2026?",
-              "yes_price": 0.14,
-              "volume": 6883
-            }
-          ],
-          "url": "https://polymarket.com/event/vermont-governor-winner-2026",
           "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9100. One wins $1.00. Profit: $0.0900 (9.00%)"
         },
         {
@@ -460,15 +319,149 @@
           ],
           "url": "https://polymarket.com/event/another-7pt0-or-above-earthquake-by-553",
           "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9120. One wins $1.00. Profit: $0.0880 (8.80%)"
+        },
+        {
+          "event_title": "Will Audemars Piguet prices hit __ by April 30?",
+          "event_slug": "will-audemars-piguet-prices-hit-by-april-30",
+          "yes_sum": 0.914,
+          "profit_pct": 8.6,
+          "profit_per_dollar_pct": 9.41,
+          "num_outcomes": 10,
+          "outcomes": [
+            {
+              "market_id": "1613931",
+              "slug": "will-the-audemars-piguet-index-hit-41000-low-by-april-30",
+              "question": "Will the Audemars Piguet Index hit $41,000 (LOW) by April 30?",
+              "yes_price": 0.31,
+              "volume": 12438
+            },
+            {
+              "market_id": "1613930",
+              "slug": "will-the-audemars-piguet-index-hit-41500-high-by-april-30",
+              "question": "Will the Audemars Piguet Index hit $41,500 (HIGH) by April 30?",
+              "yes_price": 0.285,
+              "volume": 3608
+            },
+            {
+              "market_id": "1613934",
+              "slug": "will-the-audemars-piguet-index-hit-40250-low-by-april-30",
+              "question": "Will the Audemars Piguet Index hit $40,250 (LOW) by April 30?",
+              "yes_price": 0.125,
+              "volume": 1348
+            },
+            {
+              "market_id": "1613935",
+              "slug": "will-the-audemars-piguet-index-hit-40000-low-by-april-30",
+              "question": "Will the Audemars Piguet Index hit $40,000 (LOW) by April 30?",
+              "yes_price": 0.0625,
+              "volume": 2663
+            },
+            {
+              "market_id": "1613928",
+              "slug": "will-the-audemars-piguet-index-hit-42000-high-by-april-30",
+              "question": "Will the Audemars Piguet Index hit $42,000 (HIGH) by April 30?",
+              "yes_price": 0.0365,
+              "volume": 5900
+            },
+            {
+              "market_id": "1613926",
+              "slug": "will-the-audemars-piguet-index-hit-42500-high-by-april-30",
+              "question": "Will the Audemars Piguet Index hit $42,500 (HIGH) by April 30?",
+              "yes_price": 0.0285,
+              "volume": 5707
+            },
+            {
+              "market_id": "1613927",
+              "slug": "will-the-audemars-piguet-index-hit-42250-high-by-april-30",
+              "question": "Will the Audemars Piguet Index hit $42,250 (HIGH) by April 30?",
+              "yes_price": 0.021,
+              "volume": 2135
+            },
+            {
+              "market_id": "1613936",
+              "slug": "will-the-audemars-piguet-index-hit-39000-low-by-april-30",
+              "question": "Will the Audemars Piguet Index hit $39,000 (LOW) by April 30?",
+              "yes_price": 0.018,
+              "volume": 1646
+            },
+            {
+              "market_id": "1613925",
+              "slug": "will-the-audemars-piguet-index-hit-43000-high-by-april-30",
+              "question": "Will the Audemars Piguet Index hit $43,000 (HIGH) by April 30?",
+              "yes_price": 0.014,
+              "volume": 2047
+            },
+            {
+              "market_id": "1613924",
+              "slug": "will-the-audemars-piguet-index-hit-44000-high-by-april-30",
+              "question": "Will the Audemars Piguet Index hit $44,000 (HIGH) by April 30?",
+              "yes_price": 0.0135,
+              "volume": 9609
+            }
+          ],
+          "url": "https://polymarket.com/event/will-audemars-piguet-prices-hit-by-april-30",
+          "strategy": "Buy YES on all 10 outcomes. Total cost: $0.9140. One wins $1.00. Profit: $0.0860 (8.60%)"
+        },
+        {
+          "event_title": "NY-01 House Election Winner",
+          "event_slug": "ny-01-house-election-winner",
+          "yes_sum": 0.915,
+          "profit_pct": 8.5,
+          "profit_per_dollar_pct": 9.29,
+          "num_outcomes": 2,
+          "outcomes": [
+            {
+              "market_id": "1284218",
+              "slug": "will-the-republican-party-win-the-ny-01-house-seat",
+              "question": "Will the Republican Party win the NY-01 House seat?",
+              "yes_price": 0.635,
+              "volume": 3726
+            },
+            {
+              "market_id": "1284219",
+              "slug": "will-the-democratic-party-win-the-ny-01-house-seat",
+              "question": "Will the Democratic Party win the NY-01 House seat?",
+              "yes_price": 0.28,
+              "volume": 8802
+            }
+          ],
+          "url": "https://polymarket.com/event/ny-01-house-election-winner",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9150. One wins $1.00. Profit: $0.0850 (8.50%)"
+        },
+        {
+          "event_title": "TX-23 House Election Winner",
+          "event_slug": "tx-23-house-election-winner",
+          "yes_sum": 0.915,
+          "profit_pct": 8.5,
+          "profit_per_dollar_pct": 9.29,
+          "num_outcomes": 2,
+          "outcomes": [
+            {
+              "market_id": "1284959",
+              "slug": "will-the-republican-party-win-the-tx-23-house-seat",
+              "question": "Will the Republican Party win the TX-23 House seat?",
+              "yes_price": 0.65,
+              "volume": 7683
+            },
+            {
+              "market_id": "1284960",
+              "slug": "will-the-democratic-party-win-the-tx-23-house-seat",
+              "question": "Will the Democratic Party win the TX-23 House seat?",
+              "yes_price": 0.265,
+              "volume": 4830
+            }
+          ],
+          "url": "https://polymarket.com/event/tx-23-house-election-winner",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9150. One wins $1.00. Profit: $0.0850 (8.50%)"
         }
       ],
       "stats": {
         "total_events": 3000,
-        "checked_multi_outcome": 1992,
-        "skipped_single_outcome": 626,
-        "opportunities_found": 141,
-        "best_profit_pct": 10.0,
-        "scanned_at": "2026-04-12 16:57 UTC"
+        "checked_multi_outcome": 1990,
+        "skipped_single_outcome": 627,
+        "opportunities_found": 142,
+        "best_profit_pct": 9.6,
+        "scanned_at": "2026-04-12 17:00 UTC"
       }
     },
     {
