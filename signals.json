@@ -1,80 +1,73 @@
 {
-  "last_scan": "2026-04-12T21:00:53.356061+00:00",
-  "scan_seconds": 28.3,
-  "markets_scanned": 41,
+  "last_scan": "2026-04-12T21:06:27.126367+00:00",
+  "scan_seconds": 25.6,
+  "markets_scanned": 38,
   "open_positions": 18,
   "signals": [
     {
-      "id": "sig_410552",
-      "timestamp": "2026-04-12T21:00:34.523453+00:00",
+      "id": "sig_751403",
+      "timestamp": "2026-04-12T21:06:15.374888+00:00",
       "source": "PERPLEXITY",
-      "headline": "US-Iran ceasefire talks collapse in Islamabad on day 5, no deal reached** | NO | HIGH confidence[4][5]",
-      "raw": "US-Iran ceasefire talks collapse in Islamabad on day 5, no deal reached** | NO | HIGH confidence[4][5]\n\nThe two-week ceasefire agreed on April 8, 2026, mediated by Pakistan, remains fragile with violations reported, but no extension or permanent resolution has been confirmed today[3][2][1]. High-stakes 21-hour negotiations ended without progress, primarily over Iran's refusal to fully reopen the S",
-      "direction": "NO",
+      "headline": "Republican Jim Ellison Launches 2026 Gubernatorial Bid in New Mexico | YES | MED confidence**",
+      "raw": "Republican Jim Ellison Launches 2026 Gubernatorial Bid in New Mexico | YES | MED confidence**  \nJim Ellison, a Republican energy veteran and former New Mexico Public Regulation Commission member, announced his candidacy for governor on Tuesday to succeed term-limited Democratic Gov. Michelle Lujan Grisham, warning of doubling or tripling electric rates under current policies and vowing to prevent ",
+      "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?"
+        "Will J.D. Vance win the 2028 Republican presidential nominat",
+        "Will Duke Rodriguez win the 2026 New Mexico Governor Republi",
+        "2026 Balance of Power: R Senate, D House"
       ],
       "action": "ENTER",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_417008",
-      "timestamp": "2026-04-12T21:00:40.979223+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Republican candidates declared:** Gregg Hull (Rio Rancho mayor, launched campaign in October 2025), Jim Ellison (forme",
-      "raw": "**Republican candidates declared:** Gregg Hull (Rio Rancho mayor, launched campaign in October 2025), Jim Ellison (former energy regulator, launched Tuesday per Fox), Duke Rodriguez (former Human Services secretary, already declared with Gary Johnson endorsement), Doug Turner (launched February 2026), plus others like Steve Lanier[1][2][3][4].",
-      "direction": null,
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
       "x_link": null,
       "category": "POLITICS"
     },
     {
-      "id": "sig_428382",
-      "timestamp": "2026-04-12T21:00:52.353929+00:00",
+      "id": "sig_762131",
+      "timestamp": "2026-04-12T21:06:26.102984+00:00",
       "source": "PERPLEXITY",
-      "headline": "OKC Thunder Key Players Ruled Out for Regular Season Finale vs",
-      "raw": "OKC Thunder Key Players Ruled Out for Regular Season Finale vs. Suns | NO | HIGH confidence**\n\nShai Gilgeous-Alexander (oblique), Jalen Williams (hamstring), Chet Holmgren (back), and Isaiah Hartenstein (soleus) are confirmed out for today's game against Phoenix, with the team listing 10 players unavailable overall[5][6]. These stars are expected to return for the playoffs start, prioritizing heal",
+      "headline": "OKC Thunder Rule Out Jalen Williams for Regular Season Finale vs",
+      "raw": "OKC Thunder Rule Out Jalen Williams for Regular Season Finale vs. Suns | NO (no finals-related news) | HIGH confidence** [6]\n\nNo breaking finals announcements, confirmations, or resolutions confirmed right now\u2014the Thunder won the 2025 NBA Finals in Game 7 vs. Pacers (103-91), marking their franchise's first title, with Shai Gilgeous-Alexander starring in a dominant third quarter after Tyrese Halib",
       "direction": "NO",
       "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
+      "matched_markets": [
+        "Will the Oklahoma City Thunder win the 2026 NBA Finals?"
+      ],
+      "action": "ENTER",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_417015",
-      "timestamp": "2026-04-12T21:00:40.986014+00:00",
+      "id": "sig_746265",
+      "timestamp": "2026-04-12T21:06:10.236356+00:00",
       "source": "PERPLEXITY",
-      "headline": "**Race context:** Open seat with historical alternation between parties; primaries June 2, 2026; recent forum with eight",
-      "raw": "**Race context:** Open seat with historical alternation between parties; primaries June 2, 2026; recent forum with eight candidates ~90 days pre-primary (likely early March 2026)[3][5]. No mentions of \"Vance\" (possibly JD Vance, no link found), \"Will Duke Rodriguez\" (likely refers to Duke Rodriguez, no new announcements), or shifts in partisan balance/endorsements/polls that resolve markets[1][2][",
-      "direction": "NO",
-      "confidence": 0.78,
-      "matched_markets": [],
+      "headline": "Two-Week Ceasefire Remains but Fragile | CONDITIONAL | HIGH confidence**",
+      "raw": "Two-Week Ceasefire Remains but Fragile | CONDITIONAL | HIGH confidence**\n\nThe two-week ceasefire announced earlier this week technically remains in effect through April 22, but is now in serious jeopardy.[7] Iran's Revolutionary Guard warned that any military vessels approaching the Strait of Hormuz would violate the ceasefire and receive a \"forceful response.\"[1] Iranian media reported Tehran was",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?"
+      ],
       "action": "ALERT",
       "x_link": null,
-      "category": "POLITICS"
+      "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_417011",
-      "timestamp": "2026-04-12T21:00:40.982702+00:00",
+      "id": "sig_746261",
+      "timestamp": "2026-04-12T21:06:10.232071+00:00",
       "source": "PERPLEXITY",
-      "headline": "**Democratic frontrunners:** Deb Haaland (former Interior Secretary), Sam Bregman (DA), Ken Miyagishima (former Las Cruc",
-      "raw": "**Democratic frontrunners:** Deb Haaland (former Interior Secretary), Sam Bregman (DA), Ken Miyagishima (former Las Cruces mayor)[1][2][3].",
-      "direction": null,
+      "headline": "Iran's Parliament Accuses U",
+      "raw": "Iran's Parliament Accuses U.S. of Bad Faith | NO | HIGH confidence**\n\nIran's parliament speaker Mohammad Bagher Qalibaf stated the U.S. \"was unable to gain the trust of the Iranian delegation\" and said Iran must now decide whether the U.S. can earn trust.[1] Iran's state media blamed U.S. demands for preventing agreement.[5]",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "POLITICS"
+      "category": "GEOPOLITICS"
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 4,
+    "enter": 2,
+    "alert": 2,
     "watch": 0,
     "high_conf": 3
   }

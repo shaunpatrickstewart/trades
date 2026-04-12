@@ -8,263 +8,173 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 136 categorical arb opportunities found\nScanned 3000 events (1949 multi-outcome) at 2026-04-12 20:40 UTC\nBest: 9.95% profit on 'UEFA Europa Conference League: Most Goal Contributions' \u2014 buy YES on all 4 outcomes (sum=0.9005)\nStrategy: Buy YES on all 4 outcomes. Total cost: $0.9005. One wins $1.00. Profit: $0.0995 (9.95%)\n2nd: 9.6% on 'Highest temperature in Singapore on April 13?'",
+      "result": "LIVE \u2014 141 categorical arb opportunities found\nScanned 3000 events (1946 multi-outcome) at 2026-04-12 21:09 UTC\nBest: 9.95% profit on 'Michigan Governor Republican Primary Winner' \u2014 buy YES on all 4 outcomes (sum=0.9005)\nStrategy: Buy YES on all 4 outcomes. Total cost: $0.9005. One wins $1.00. Profit: $0.0995 (9.95%)\n2nd: 9.85% on 'Colorado Governor Republican Primary Winner'",
       "priority": "HIGH",
-      "last_scan": "2026-04-12 20:40 UTC",
+      "last_scan": "2026-04-12 21:09 UTC",
       "opportunities": [
         {
-          "event_title": "UEFA Europa Conference League: Most Goal Contributions",
-          "event_slug": "uefa-europa-conference-league-most-goal-contributions",
+          "event_title": "Michigan Governor Republican Primary Winner",
+          "event_slug": "michigan-governor-republican-primary-winner",
           "yes_sum": 0.9005,
           "profit_pct": 9.95,
           "profit_per_dollar_pct": 11.05,
           "num_outcomes": 4,
           "outcomes": [
             {
-              "market_id": "1429286",
-              "slug": "will-ismala-sarr-record-the-most-goal-contributions-in-the-2025-26-uefa-europa-conference-league",
-              "question": "Will Isma\u00efla Sarr record the most goal contributions in the 2025-26 UEFA Europa ",
-              "yes_price": 0.445,
-              "volume": 3224
+              "market_id": "907794",
+              "slug": "will-perry-johnson-win-the-2026-michigan-governor-republican-primary-election",
+              "question": "Will Perry Johnson win the 2026 Michigan Governor Republican primary election?",
+              "yes_price": 0.455,
+              "volume": 10091
             },
             {
-              "market_id": "1429289",
-              "slug": "will-isak-jensen-record-the-most-goal-contributions-in-the-2025-26-uefa-europa-conference-league",
-              "question": "Will Isak Jensen record the most goal contributions in the 2025-26 UEFA Europa C",
-              "yes_price": 0.235,
-              "volume": 13277
+              "market_id": "907785",
+              "slug": "will-john-james-win-the-2026-michigan-governor-republican-primary-election",
+              "question": "Will John James win the 2026 Michigan Governor Republican primary election?",
+              "yes_price": 0.385,
+              "volume": 7160
             },
             {
-              "market_id": "1429278",
-              "slug": "will-lvaro-garca-record-the-most-goal-contributions-in-the-2025-26-uefa-europa-conference-league",
-              "question": "Will \u00c1lvaro Garc\u00eda record the most goal contributions in the 2025-26 UEFA Europa",
-              "yes_price": 0.1905,
-              "volume": 18821
+              "market_id": "907788",
+              "slug": "will-aric-nesbitt-win-the-2026-michigan-governor-republican-primary-election",
+              "question": "Will Aric Nesbitt win the 2026 Michigan Governor Republican primary election?",
+              "yes_price": 0.036,
+              "volume": 1213
             },
             {
-              "market_id": "1429283",
-              "slug": "will-aboubakary-koita-record-the-most-goal-contributions-in-the-2025-26-uefa-europa-conference-league",
-              "question": "Will Aboubakary Koita record the most goal contributions in the 2025-26 UEFA Eur",
-              "yes_price": 0.03,
-              "volume": 6201
+              "market_id": "907781",
+              "slug": "will-mike-cox-win-the-2026-michigan-governor-republican-primary-election",
+              "question": "Will Mike Cox win the 2026 Michigan Governor Republican primary election?",
+              "yes_price": 0.0245,
+              "volume": 2391
             }
           ],
-          "url": "https://polymarket.com/event/uefa-europa-conference-league-most-goal-contributions",
+          "url": "https://polymarket.com/event/michigan-governor-republican-primary-winner",
           "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9005. One wins $1.00. Profit: $0.0995 (9.95%)"
         },
         {
-          "event_title": "Highest temperature in Singapore on April 13?",
-          "event_slug": "highest-temperature-in-singapore-on-april-13-2026",
-          "yes_sum": 0.904,
-          "profit_pct": 9.6,
-          "profit_per_dollar_pct": 10.62,
-          "num_outcomes": 11,
+          "event_title": "Colorado Governor Republican Primary Winner",
+          "event_slug": "colorado-governor-republican-primary-winner",
+          "yes_sum": 0.9015,
+          "profit_pct": 9.85,
+          "profit_per_dollar_pct": 10.93,
+          "num_outcomes": 15,
           "outcomes": [
             {
-              "market_id": "1924579",
-              "slug": "highest-temperature-in-singapore-on-april-13-2026-32c",
-              "question": "Will the highest temperature in Singapore be 32\u00b0C on April 13?",
-              "yes_price": 0.365,
-              "volume": 2311
+              "market_id": "825858",
+              "slug": "will-victor-marx-win-the-2026-colorado-governor-republican-primary-election",
+              "question": "Will Victor Marx win the 2026 Colorado Governor Republican primary election?",
+              "yes_price": 0.41,
+              "volume": 3536
             },
             {
-              "market_id": "1924580",
-              "slug": "highest-temperature-in-singapore-on-april-13-2026-33c",
-              "question": "Will the highest temperature in Singapore be 33\u00b0C on April 13?",
-              "yes_price": 0.335,
-              "volume": 1896
+              "market_id": "825856",
+              "slug": "will-barbara-kirkmeyer-win-the-2026-colorado-governor-republican-primary-election",
+              "question": "Will Barbara Kirkmeyer win the 2026 Colorado Governor Republican primary electio",
+              "yes_price": 0.27,
+              "volume": 17900
             },
             {
-              "market_id": "1924578",
-              "slug": "highest-temperature-in-singapore-on-april-13-2026-31c",
-              "question": "Will the highest temperature in Singapore be 31\u00b0C on April 13?",
-              "yes_price": 0.11,
-              "volume": 2735
+              "market_id": "825853",
+              "slug": "will-scott-bottoms-win-the-2026-colorado-governor-republican-primary-election",
+              "question": "Will Scott Bottoms win the 2026 Colorado Governor Republican primary election?",
+              "yes_price": 0.151,
+              "volume": 2749
             },
             {
-              "market_id": "1924581",
-              "slug": "highest-temperature-in-singapore-on-april-13-2026-34c",
-              "question": "Will the highest temperature in Singapore be 34\u00b0C on April 13?",
-              "yes_price": 0.0435,
-              "volume": 3355
+              "market_id": "825852",
+              "slug": "will-mark-baisley-win-the-2026-colorado-governor-republican-primary-election",
+              "question": "Will Mark Baisley win the 2026 Colorado Governor Republican primary election?",
+              "yes_price": 0.025,
+              "volume": 7572
             },
             {
-              "market_id": "1924582",
-              "slug": "highest-temperature-in-singapore-on-april-13-2026-35corhigher",
-              "question": "Will the highest temperature in Singapore be 35\u00b0C or higher on April 13?",
-              "yes_price": 0.0225,
-              "volume": 2398
+              "market_id": "825862",
+              "slug": "will-jon-gray-ginsberg-win-the-2026-colorado-governor-republican-primary-election",
+              "question": "Will Jon Gray-Ginsberg win the 2026 Colorado Governor Republican primary electio",
+              "yes_price": 0.013,
+              "volume": 5820
             },
             {
-              "market_id": "1924577",
-              "slug": "highest-temperature-in-singapore-on-april-13-2026-30c",
-              "question": "Will the highest temperature in Singapore be 30\u00b0C on April 13?",
-              "yes_price": 0.016,
-              "volume": 5829
+              "market_id": "825860",
+              "slug": "will-jason-mikesell-win-the-2026-colorado-governor-republican-primary-election",
+              "question": "Will Jason Mikesell win the 2026 Colorado Governor Republican primary election?",
+              "yes_price": 0.0075,
+              "volume": 1769
             },
             {
-              "market_id": "1924576",
-              "slug": "highest-temperature-in-singapore-on-april-13-2026-29c",
-              "question": "Will the highest temperature in Singapore be 29\u00b0C on April 13?",
-              "yes_price": 0.0115,
-              "volume": 5318
+              "market_id": "825857",
+              "slug": "will-greg-lopez-win-the-2026-colorado-governor-republican-primary-election",
+              "question": "Will Greg Lopez win the 2026 Colorado Governor Republican primary election?",
+              "yes_price": 0.0035,
+              "volume": 2214
             },
             {
-              "market_id": "1924575",
-              "slug": "highest-temperature-in-singapore-on-april-13-2026-28c",
-              "question": "Will the highest temperature in Singapore be 28\u00b0C on April 13?",
-              "yes_price": 0.0005,
-              "volume": 1898
+              "market_id": "825865",
+              "slug": "will-daniel-thomas-win-the-2026-colorado-governor-republican-primary-election",
+              "question": "Will Daniel Thomas win the 2026 Colorado Governor Republican primary election?",
+              "yes_price": 0.0035,
+              "volume": 1353
             },
             {
-              "market_id": "1924572",
-              "slug": "highest-temperature-in-singapore-on-april-13-2026-25corbelow",
-              "question": "Will the highest temperature in Singapore be 25\u00b0C or below on April 13?",
-              "yes_price": 0.0,
-              "volume": 3111
+              "market_id": "825861",
+              "slug": "will-stevan-gess-win-the-2026-colorado-governor-republican-primary-election",
+              "question": "Will Stevan Gess win the 2026 Colorado Governor Republican primary election?",
+              "yes_price": 0.003,
+              "volume": 3483
             },
             {
-              "market_id": "1924573",
-              "slug": "highest-temperature-in-singapore-on-april-13-2026-26c",
-              "question": "Will the highest temperature in Singapore be 26\u00b0C on April 13?",
-              "yes_price": 0.0,
-              "volume": 1002
+              "market_id": "825855",
+              "slug": "will-joshua-griffin-win-the-2026-colorado-governor-republican-primary-election",
+              "question": "Will Joshua Griffin win the 2026 Colorado Governor Republican primary election?",
+              "yes_price": 0.0025,
+              "volume": 1723
             },
             {
-              "market_id": "1924574",
-              "slug": "highest-temperature-in-singapore-on-april-13-2026-27c",
-              "question": "Will the highest temperature in Singapore be 27\u00b0C on April 13?",
-              "yes_price": 0.0,
-              "volume": 1871
+              "market_id": "825859",
+              "slug": "will-will-mcbride-win-the-2026-colorado-governor-republican-primary-election",
+              "question": "Will Will McBride win the 2026 Colorado Governor Republican primary election?",
+              "yes_price": 0.0025,
+              "volume": 28230
+            },
+            {
+              "market_id": "825863",
+              "slug": "will-brycen-garrison-win-the-2026-colorado-governor-republican-primary-election",
+              "question": "Will Brycen Garrison win the 2026 Colorado Governor Republican primary election?",
+              "yes_price": 0.0025,
+              "volume": 1306
+            },
+            {
+              "market_id": "825854",
+              "slug": "will-jason-clark-win-the-2026-colorado-governor-republican-primary-election",
+              "question": "Will Jason Clark win the 2026 Colorado Governor Republican primary election?",
+              "yes_price": 0.0025,
+              "volume": 1364
+            },
+            {
+              "market_id": "825864",
+              "slug": "will-bob-brinkerhoff-win-the-2026-colorado-governor-republican-primary-election",
+              "question": "Will Bob Brinkerhoff win the 2026 Colorado Governor Republican primary election?",
+              "yes_price": 0.0025,
+              "volume": 1700
+            },
+            {
+              "market_id": "825866",
+              "slug": "will-robert-moore-win-the-2026-colorado-governor-republican-primary-election",
+              "question": "Will Robert Moore win the 2026 Colorado Governor Republican primary election?",
+              "yes_price": 0.0025,
+              "volume": 3264
             }
           ],
-          "url": "https://polymarket.com/event/highest-temperature-in-singapore-on-april-13-2026",
-          "strategy": "Buy YES on all 11 outcomes. Total cost: $0.9040. One wins $1.00. Profit: $0.0960 (9.60%)"
-        },
-        {
-          "event_title": "Sabres vs. Blackhawks",
-          "event_slug": "nhl-buf-chi-2026-04-13",
-          "yes_sum": 0.905,
-          "profit_pct": 9.5,
-          "profit_per_dollar_pct": 10.5,
-          "num_outcomes": 2,
-          "outcomes": [
-            {
-              "market_id": "1628340",
-              "slug": "nhl-buf-chi-2026-04-13",
-              "question": "Sabres vs. Blackhawks",
-              "yes_price": 0.645,
-              "volume": 9416
-            },
-            {
-              "market_id": "1628347",
-              "slug": "nhl-buf-chi-2026-04-13-total-7pt5",
-              "question": "Sabres vs. Blackhawks: O/U 7.5",
-              "yes_price": 0.26,
-              "volume": 19714
-            }
-          ],
-          "url": "https://polymarket.com/event/nhl-buf-chi-2026-04-13",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
-        },
-        {
-          "event_title": "Cyprus House of Representatives Election Winner",
-          "event_slug": "cyprus-house-of-representatives-election-winner",
-          "yes_sum": 0.905,
-          "profit_pct": 9.5,
-          "profit_per_dollar_pct": 10.5,
-          "num_outcomes": 2,
-          "outcomes": [
-            {
-              "market_id": "681018",
-              "slug": "will-disy-win-the-most-seats-at-the-cyprus-house-of-representatives-election",
-              "question": "Will DISY win the most seats at the Cyprus House of Representatives election?",
-              "yes_price": 0.625,
-              "volume": 2283
-            },
-            {
-              "market_id": "681019",
-              "slug": "will-akel-win-the-most-seats-at-the-cyprus-house-of-representatives-election",
-              "question": "Will AKEL win the most seats at the Cyprus House of Representatives election?",
-              "yes_price": 0.28,
-              "volume": 1240
-            }
-          ],
-          "url": "https://polymarket.com/event/cyprus-house-of-representatives-election-winner",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
-        },
-        {
-          "event_title": "Will Opensea launch a token by ___?",
-          "event_slug": "will-opensea-launch-a-token-by-142",
-          "yes_sum": 0.906,
-          "profit_pct": 9.4,
-          "profit_per_dollar_pct": 10.38,
-          "num_outcomes": 4,
-          "outcomes": [
-            {
-              "market_id": "1271613",
-              "slug": "will-opensea-launch-a-token-by-december-31-2026",
-              "question": "Will OpenSea launch a token by December 31, 2026?",
-              "yes_price": 0.598,
-              "volume": 95305
-            },
-            {
-              "market_id": "1271612",
-              "slug": "will-opensea-launch-a-token-by-september-30-2026",
-              "question": "Will OpenSea launch a token by September 30, 2026?",
-              "yes_price": 0.24,
-              "volume": 66549
-            },
-            {
-              "market_id": "1271611",
-              "slug": "will-opensea-launch-a-token-by-june-30-2026",
-              "question": "Will OpenSea launch a token by June 30, 2026?",
-              "yes_price": 0.068,
-              "volume": 188471
-            },
-            {
-              "market_id": "1271610",
-              "slug": "will-opensea-launch-a-token-by-march-31-2026",
-              "question": "Will OpenSea launch a token by March 31, 2026?",
-              "yes_price": 0.0,
-              "volume": 1030401
-            }
-          ],
-          "url": "https://polymarket.com/event/will-opensea-launch-a-token-by-142",
-          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9060. One wins $1.00. Profit: $0.0940 (9.40%)"
-        },
-        {
-          "event_title": "U.S. forces seize another oil tanker by...?",
-          "event_slug": "us-forces-seize-another-oil-tanker-by-april-15",
-          "yes_sum": 0.906,
-          "profit_pct": 9.4,
-          "profit_per_dollar_pct": 10.38,
-          "num_outcomes": 2,
-          "outcomes": [
-            {
-              "market_id": "1849095",
-              "slug": "us-forces-seize-another-oil-tanker-by-april-30",
-              "question": "U.S. forces seize another oil tanker by April 30?",
-              "yes_price": 0.68,
-              "volume": 1829
-            },
-            {
-              "market_id": "1696325",
-              "slug": "us-forces-seize-another-oil-tanker-by-april-15",
-              "question": "U.S. forces seize another oil tanker by April 15?",
-              "yes_price": 0.226,
-              "volume": 87691
-            }
-          ],
-          "url": "https://polymarket.com/event/us-forces-seize-another-oil-tanker-by-april-15",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9060. One wins $1.00. Profit: $0.0940 (9.40%)"
+          "url": "https://polymarket.com/event/colorado-governor-republican-primary-winner",
+          "strategy": "Buy YES on all 15 outcomes. Total cost: $0.9015. One wins $1.00. Profit: $0.0985 (9.85%)"
         },
         {
           "event_title": "MLS Cup Winner 2026",
           "event_slug": "mls-cup-winner-2026",
-          "yes_sum": 0.9065,
-          "profit_pct": 9.35,
-          "profit_per_dollar_pct": 10.31,
+          "yes_sum": 0.9035,
+          "profit_pct": 9.65,
+          "profit_per_dollar_pct": 10.68,
           "num_outcomes": 30,
           "outcomes": [
             {
@@ -285,7 +195,7 @@
               "market_id": "1349172",
               "slug": "will-vancouver-whitecaps-fc-win-the-2026-mls-cup",
               "question": "Will Vancouver Whitecaps FC win the 2026 MLS Cup?",
-              "yes_price": 0.1135,
+              "yes_price": 0.1125,
               "volume": 349457
             },
             {
@@ -307,34 +217,34 @@
               "slug": "will-fc-cincinnati-win-the-2026-mls-cup",
               "question": "Will FC Cincinnati win the 2026 MLS Cup?",
               "yes_price": 0.0355,
-              "volume": 545451
+              "volume": 545637
             },
             {
               "market_id": "1349160",
               "slug": "will-new-york-city-fc-win-the-2026-mls-cup",
               "question": "Will New York City FC win the 2026 MLS Cup?",
               "yes_price": 0.0355,
-              "volume": 459831
+              "volume": 460033
             },
             {
               "market_id": "1349168",
               "slug": "will-seattle-sounders-fc-win-the-2026-mls-cup",
               "question": "Will Seattle Sounders FC win the 2026 MLS Cup?",
               "yes_price": 0.034,
-              "volume": 703491
+              "volume": 703741
             },
             {
               "market_id": "1349167",
               "slug": "will-san-jose-earthquakes-win-the-2026-mls-cup",
               "question": "Will San Jose Earthquakes win the 2026 MLS Cup?",
-              "yes_price": 0.0265,
-              "volume": 954485
+              "yes_price": 0.0255,
+              "volume": 958935
             },
             {
               "market_id": "1349171",
               "slug": "will-toronto-fc-win-the-2026-mls-cup",
               "question": "Will Toronto FC win the 2026 MLS Cup?",
-              "yes_price": 0.0245,
+              "yes_price": 0.024,
               "volume": 18756
             },
             {
@@ -390,8 +300,8 @@
               "market_id": "1349162",
               "slug": "will-orlando-city-sc-win-the-2026-mls-cup",
               "question": "Will Orlando City SC win the 2026 MLS Cup?",
-              "yes_price": 0.0105,
-              "volume": 1786637
+              "yes_price": 0.01,
+              "volume": 1786731
             },
             {
               "market_id": "1349152",
@@ -447,7 +357,7 @@
               "slug": "will-cf-montral-win-the-2026-mls-cup",
               "question": "Will CF Montr\u00e9al win the 2026 MLS Cup?",
               "yes_price": 0.0035,
-              "volume": 3167
+              "volume": 3184
             },
             {
               "market_id": "1349148",
@@ -479,7 +389,80 @@
             }
           ],
           "url": "https://polymarket.com/event/mls-cup-winner-2026",
-          "strategy": "Buy YES on all 30 outcomes. Total cost: $0.9065. One wins $1.00. Profit: $0.0935 (9.35%)"
+          "strategy": "Buy YES on all 30 outcomes. Total cost: $0.9035. One wins $1.00. Profit: $0.0965 (9.65%)"
+        },
+        {
+          "event_title": "Which banks will fail by end of 2026?",
+          "event_slug": "which-banks-will-fail-by-end-of-2026",
+          "yes_sum": 0.905,
+          "profit_pct": 9.5,
+          "profit_per_dollar_pct": 10.5,
+          "num_outcomes": 3,
+          "outcomes": [
+            {
+              "market_id": "1922873",
+              "slug": "will-lloyds-fail-by-end-of-2026",
+              "question": "Will Lloyds fail by end of 2026?",
+              "yes_price": 0.335,
+              "volume": 4967
+            },
+            {
+              "market_id": "1922875",
+              "slug": "will-keybank-fail-by-end-of-2026",
+              "question": "Will KeyBank fail by end of 2026?",
+              "yes_price": 0.335,
+              "volume": 6552
+            },
+            {
+              "market_id": "1922869",
+              "slug": "will-truist-fail-by-end-of-2026",
+              "question": "Will Truist fail by end of 2026?",
+              "yes_price": 0.235,
+              "volume": 6298
+            }
+          ],
+          "url": "https://polymarket.com/event/which-banks-will-fail-by-end-of-2026",
+          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
+        },
+        {
+          "event_title": "Will Opensea launch a token by ___?",
+          "event_slug": "will-opensea-launch-a-token-by-142",
+          "yes_sum": 0.906,
+          "profit_pct": 9.4,
+          "profit_per_dollar_pct": 10.38,
+          "num_outcomes": 4,
+          "outcomes": [
+            {
+              "market_id": "1271613",
+              "slug": "will-opensea-launch-a-token-by-december-31-2026",
+              "question": "Will OpenSea launch a token by December 31, 2026?",
+              "yes_price": 0.598,
+              "volume": 95305
+            },
+            {
+              "market_id": "1271612",
+              "slug": "will-opensea-launch-a-token-by-september-30-2026",
+              "question": "Will OpenSea launch a token by September 30, 2026?",
+              "yes_price": 0.24,
+              "volume": 66549
+            },
+            {
+              "market_id": "1271611",
+              "slug": "will-opensea-launch-a-token-by-june-30-2026",
+              "question": "Will OpenSea launch a token by June 30, 2026?",
+              "yes_price": 0.068,
+              "volume": 188471
+            },
+            {
+              "market_id": "1271610",
+              "slug": "will-opensea-launch-a-token-by-march-31-2026",
+              "question": "Will OpenSea launch a token by March 31, 2026?",
+              "yes_price": 0.0,
+              "volume": 1030401
+            }
+          ],
+          "url": "https://polymarket.com/event/will-opensea-launch-a-token-by-142",
+          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9060. One wins $1.00. Profit: $0.0940 (9.40%)"
         },
         {
           "event_title": "AZ-01 Republican Primary Winner",
@@ -611,67 +594,112 @@
           "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9080. One wins $1.00. Profit: $0.0920 (9.20%)"
         },
         {
-          "event_title": "How many ships transit the Strait of Hormuz this week? (Apr 6-12)",
-          "event_slug": "how-many-ships-transit-the-strait-of-hormuz-this-week-apr-6-12",
-          "yes_sum": 0.911,
-          "profit_pct": 8.9,
-          "profit_per_dollar_pct": 9.77,
-          "num_outcomes": 6,
+          "event_title": "Another 7.0 or above earthquake by...?",
+          "event_slug": "another-7pt0-or-above-earthquake-by-553",
+          "yes_sum": 0.9095,
+          "profit_pct": 9.05,
+          "profit_per_dollar_pct": 9.95,
+          "num_outcomes": 3,
           "outcomes": [
             {
-              "market_id": "1846506",
-              "slug": "will-50-59-ships-transit-the-strait-of-hormuz-between-april-6-april-12",
-              "question": "Will 50-59 ships transit the Strait of Hormuz between April 6-April 12?",
-              "yes_price": 0.388,
-              "volume": 12875
+              "market_id": "1829475",
+              "slug": "another-7pt0-or-above-earthquake-by-april-30-2026-114",
+              "question": "Another 7.0 or above earthquake by April 30, 2026?",
+              "yes_price": 0.64,
+              "volume": 7420
             },
             {
-              "market_id": "1846507",
-              "slug": "will-60-or-more-ships-transit-the-strait-of-hormuz-between-april-6-april-12",
-              "question": "Will 60 or more ships transit the Strait of Hormuz between April 6-April 12?",
-              "yes_price": 0.26,
-              "volume": 58807
+              "market_id": "1829474",
+              "slug": "another-7pt0-or-above-earthquake-by-april-15-2026",
+              "question": "Another 7.0 or above earthquake by April 15, 2026?",
+              "yes_price": 0.265,
+              "volume": 12081
             },
             {
-              "market_id": "1846505",
-              "slug": "will-40-49-ships-transit-the-strait-of-hormuz-between-april-6-april-12",
-              "question": "Will 40-49 ships transit the Strait of Hormuz between April 6-April 12?",
-              "yes_price": 0.203,
-              "volume": 25204
-            },
-            {
-              "market_id": "1846504",
-              "slug": "will-30-39-ships-transit-the-strait-of-hormuz-between-april-6-april-12",
-              "question": "Will 30-39 ships transit the Strait of Hormuz between April 6-April 12?",
-              "yes_price": 0.0385,
-              "volume": 20980
-            },
-            {
-              "market_id": "1846503",
-              "slug": "will-20-29-ships-transit-the-strait-of-hormuz-between-april-6-april-12",
-              "question": "Will 20-29 ships transit the Strait of Hormuz between April 6-April 12?",
-              "yes_price": 0.011,
-              "volume": 24179
-            },
-            {
-              "market_id": "1846502",
-              "slug": "will-fewer-than-20-ships-transit-the-strait-of-hormuz-between-april-6-april-12",
-              "question": "Will fewer than 20 ships transit the Strait of Hormuz between April 6-April 12?",
-              "yes_price": 0.0105,
-              "volume": 48876
+              "market_id": "1829473",
+              "slug": "another-7pt0-or-above-earthquake-by-april-7-2026",
+              "question": "Another 7.0 or above earthquake by April 7, 2026?",
+              "yes_price": 0.0045,
+              "volume": 6677
             }
           ],
-          "url": "https://polymarket.com/event/how-many-ships-transit-the-strait-of-hormuz-this-week-apr-6-12",
-          "strategy": "Buy YES on all 6 outcomes. Total cost: $0.9110. One wins $1.00. Profit: $0.0890 (8.90%)"
+          "url": "https://polymarket.com/event/another-7pt0-or-above-earthquake-by-553",
+          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9095. One wins $1.00. Profit: $0.0905 (9.05%)"
+        },
+        {
+          "event_title": "# of seats won by PB in Bulgarian Parliamentary Election?",
+          "event_slug": "of-seats-won-by-pb-in-bulgarian-parliamentary-election",
+          "yes_sum": 0.91,
+          "profit_pct": 9.0,
+          "profit_per_dollar_pct": 9.89,
+          "num_outcomes": 4,
+          "outcomes": [
+            {
+              "market_id": "1738484",
+              "slug": "will-progressive-bulgaria-pb-win-between-90-94-seats-in-the-2026-bulgarian-parliamentary-election",
+              "question": "Will Progressive Bulgaria (PB) win between 90-94 seats in the 2026 Bulgarian par",
+              "yes_price": 0.28,
+              "volume": 6350
+            },
+            {
+              "market_id": "1738485",
+              "slug": "will-progressive-bulgaria-pb-win-95-or-more-seats-in-the-2026-bulgarian-parliamentary-election",
+              "question": "Will Progressive Bulgaria (PB) win 95 or more seats in the 2026 Bulgarian parlia",
+              "yes_price": 0.245,
+              "volume": 12751
+            },
+            {
+              "market_id": "1738483",
+              "slug": "will-progressive-bulgaria-pb-win-between-85-89-seats-in-the-2026-bulgarian-parliamentary-election",
+              "question": "Will Progressive Bulgaria (PB) win between 85-89 seats in the 2026 Bulgarian par",
+              "yes_price": 0.24,
+              "volume": 8014
+            },
+            {
+              "market_id": "1738482",
+              "slug": "will-progressive-bulgaria-pb-win-between-80-84-seats-in-the-2026-bulgarian-parliamentary-election",
+              "question": "Will Progressive Bulgaria (PB) win between 80-84 seats in the 2026 Bulgarian par",
+              "yes_price": 0.145,
+              "volume": 7917
+            }
+          ],
+          "url": "https://polymarket.com/event/of-seats-won-by-pb-in-bulgarian-parliamentary-election",
+          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9100. One wins $1.00. Profit: $0.0900 (9.00%)"
+        },
+        {
+          "event_title": "Sabres vs. Blackhawks",
+          "event_slug": "nhl-buf-chi-2026-04-13",
+          "yes_sum": 0.91,
+          "profit_pct": 9.0,
+          "profit_per_dollar_pct": 9.89,
+          "num_outcomes": 2,
+          "outcomes": [
+            {
+              "market_id": "1628340",
+              "slug": "nhl-buf-chi-2026-04-13",
+              "question": "Sabres vs. Blackhawks",
+              "yes_price": 0.645,
+              "volume": 9416
+            },
+            {
+              "market_id": "1628347",
+              "slug": "nhl-buf-chi-2026-04-13-total-7pt5",
+              "question": "Sabres vs. Blackhawks: O/U 7.5",
+              "yes_price": 0.265,
+              "volume": 19714
+            }
+          ],
+          "url": "https://polymarket.com/event/nhl-buf-chi-2026-04-13",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9100. One wins $1.00. Profit: $0.0900 (9.00%)"
         }
       ],
       "stats": {
         "total_events": 3000,
-        "checked_multi_outcome": 1949,
-        "skipped_single_outcome": 637,
-        "opportunities_found": 136,
+        "checked_multi_outcome": 1946,
+        "skipped_single_outcome": 638,
+        "opportunities_found": 141,
         "best_profit_pct": 9.95,
-        "scanned_at": "2026-04-12 20:40 UTC"
+        "scanned_at": "2026-04-12 21:09 UTC"
       }
     },
     {
