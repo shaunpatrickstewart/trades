@@ -520,7 +520,13 @@
       document.getElementById('perf-count').textContent = '('+settled+' settled)';
       // Update panel description dynamically with live stats
       const descEl = document.getElementById('perf-panel-desc');
-      if (descEl) descEl.innerHTML = 'Live results · <b style="color:#00aa55">'+winRate+'% WR</b> · <b style="color:'+(totalPnl>=0?'#00aa55':'#dd3344')+'">'+(totalPnl>=0?'+':'')+'$'+Math.abs(totalPnl).toFixed(2)+' net</b> · Engines: NEAR-CERTAIN + WALLET COPY SHORT + ANTI-NC';
+      // Build active engine list dynamically from trade data
+      const activeEngLabels = [];
+      if (won.filter(t=>t.type==="NEAR_CERTAIN").length + lost.filter(t=>t.type==="NEAR_CERTAIN").length > 0) activeEngLabels.push('NEAR-CERTAIN');
+      if (won.filter(t=>t.type==="SHORT_TERM").length + lost.filter(t=>t.type==="SHORT_TERM").length > 0) activeEngLabels.push('WALLET COPY SHORT');
+      if (won.filter(t=>t.type==="ANTI_NC").length + lost.filter(t=>t.type==="ANTI_NC").length + open.filter(t=>t.type==="ANTI_NC").length > 0) activeEngLabels.push('ANTI-NC');
+      if (won.filter(t=>t.type==="NEWS").length + lost.filter(t=>t.type==="NEWS").length + open.filter(t=>t.type==="NEWS").length > 0) activeEngLabels.push('NEWS');
+      if (descEl) descEl.innerHTML = 'Live results · <b style="color:#00aa55">'+winRate+'% WR</b> · <b style="color:'+(totalPnl>=0?'#00aa55':'#dd3344')+'">'+(totalPnl>=0?'+':'')+'$'+Math.abs(totalPnl).toFixed(2)+' net</b> · Engines: '+activeEngLabels.join(' + ');
 
       // ── SOURCE OF TRUTH: compute everything from paper_trades.jsonl directly ──
       // bot_stats.json is ONLY used for the daily_log chart — all financials come from trades
@@ -648,12 +654,15 @@
 
       html += '<div style="font-size:0.72em;color:#555;margin-bottom:6px;font-weight:600">ACTIVE ENGINES</div>';
       html += '<div style="display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px">';
-      html += '<span style="background:#fafae0;color:#7a7000;padding:3px 8px;border-radius:3px;font-size:0.75em;font-weight:600">&#9679; NEAR-CERTAIN ('+(won.filter(t=>t.type==="NEAR_CERTAIN").length+lost.filter(t=>t.type==="NEAR_CERTAIN").length)+'W/'+(lost.filter(t=>t.type==="NEAR_CERTAIN").length)+'L)</span>';
+      const ncW = won.filter(t=>t.type==="NEAR_CERTAIN").length, ncL = lost.filter(t=>t.type==="NEAR_CERTAIN").length;
+      html += '<span style="background:#fafae0;color:#7a7000;padding:3px 8px;border-radius:3px;font-size:0.75em;font-weight:600">&#9679; NEAR-CERTAIN ('+ncW+'W/'+ncL+'L)</span>';
       html += '<span style="background:#e6f9f0;color:#007a44;padding:3px 8px;border-radius:3px;font-size:0.75em;font-weight:600">&#9679; WALLET COPY SHORT ('+(won.filter(t=>t.type==="SHORT_TERM").length)+'W/'+(lost.filter(t=>t.type==="SHORT_TERM").length)+'L)</span>';
       const antiNcW = won.filter(t=>t.type==="ANTI_NC").length, antiNcL = lost.filter(t=>t.type==="ANTI_NC").length, antiNcO = open.filter(t=>t.type==="ANTI_NC").length;
       if (antiNcW+antiNcL+antiNcO > 0) html += '<span style="background:#f5e6ff;color:#7700cc;padding:3px 8px;border-radius:3px;font-size:0.75em;font-weight:600">&#9679; ANTI-NC ('+antiNcW+'W/'+antiNcL+'L · '+antiNcO+' open)</span>';
       const ltW = won.filter(t=>t.type==="LONG_TERM").length, ltL = lost.filter(t=>t.type==="LONG_TERM").length;
       if (ltW+ltL > 0) html += '<span style="background:#eef0ff;color:#3344cc;padding:3px 8px;border-radius:3px;font-size:0.75em;font-weight:600">&#9632; WALLET COPY LONG ('+ltW+'W/'+ltL+'L · SUSPENDED)</span>';
+      const newsW = won.filter(t=>t.type==="NEWS").length, newsL = lost.filter(t=>t.type==="NEWS").length, newsO = open.filter(t=>t.type==="NEWS").length;
+      if (newsW+newsL+newsO > 0) html += '<span style="background:#fff5ee;color:#cc5500;padding:3px 8px;border-radius:3px;font-size:0.75em;font-weight:600">&#9679; NEWS SIGNAL ('+newsW+'W/'+newsL+'L · '+newsO+' open)</span>';
       const arbWon = won.filter(t=>t.type==="ARB").length, arbLost = lost.filter(t=>t.type==="ARB").length, arbOpen = open.filter(t=>t.type==="ARB").length;
       const arbPnl = trades.filter(t=>t.type==="ARB"&&(t.status==="WON"||t.status==="LOST")).reduce((s,t)=>s+(t.pnl||0),0);
       html += '<span style="background:#fff3e0;color:#b35a00;padding:3px 8px;border-radius:3px;font-size:0.75em;font-weight:600">&#9679; ARB KALSHI/PM ('+arbWon+'W/'+arbLost+'L · '+arbOpen+' open)</span>';
@@ -981,7 +990,7 @@
       // Compact cards for OPEN positions only, sorted by potential profit desc.
       // Lightweight: no extra fetches, renders from already-loaded trades array.
       const openSorted = [...open].sort((a,b)=>(b.potential_profit||0)-(a.potential_profit||0));
-      const engC = {NEAR_CERTAIN:'#ccaa00', SHORT_TERM:'#00cc66', LONG_TERM:'#88aaff', ANTI_NC:'#cc44ff'};
+      const engC = {NEAR_CERTAIN:'#ccaa00', SHORT_TERM:'#00cc66', LONG_TERM:'#88aaff', ANTI_NC:'#cc44ff', NEWS:'#ff8844'};
       const confColor = p => p >= 0.985 ? '#00cc44' : p >= 0.975 ? '#88cc00' : p >= 0.960 ? '#ccaa00' : '#cc6600';
       const confLabel = p => p >= 0.985 ? 'VERY HIGH' : p >= 0.975 ? 'HIGH' : p >= 0.960 ? 'MED-HIGH' : 'MEDIUM';
 
