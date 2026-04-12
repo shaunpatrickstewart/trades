@@ -326,6 +326,9 @@
       const avgLoss = lost.length ? (lost.reduce((s,t)=>s+parseFloat(t.pnl||0),0)/lost.length).toFixed(2) : '0.00';
 
       document.getElementById('perf-count').textContent = '('+settled+' settled)';
+      // Update panel description dynamically with live stats
+      const descEl = document.getElementById('perf-panel-desc');
+      if (descEl) descEl.innerHTML = 'Live results · <b style="color:#00aa55">'+winRate+'% WR</b> · <b style="color:'+(totalPnl>=0?'#00aa55':'#dd3344')+'">'+(totalPnl>=0?'+':'')+'$'+Math.abs(totalPnl).toFixed(2)+' net</b> · Engines: NEAR-CERTAIN + WALLET COPY SHORT + ANTI-NC';
 
       // ── SOURCE OF TRUTH: compute everything from paper_trades.jsonl directly ──
       // bot_stats.json is ONLY used for the daily_log chart — all financials come from trades
@@ -455,7 +458,10 @@
       html += '<div style="display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px">';
       html += '<span style="background:#fafae0;color:#7a7000;padding:3px 8px;border-radius:3px;font-size:0.75em;font-weight:600">&#9679; NEAR-CERTAIN ('+(won.filter(t=>t.type==="NEAR_CERTAIN").length+lost.filter(t=>t.type==="NEAR_CERTAIN").length)+'W/'+(lost.filter(t=>t.type==="NEAR_CERTAIN").length)+'L)</span>';
       html += '<span style="background:#e6f9f0;color:#007a44;padding:3px 8px;border-radius:3px;font-size:0.75em;font-weight:600">&#9679; WALLET COPY SHORT ('+(won.filter(t=>t.type==="SHORT_TERM").length)+'W/'+(lost.filter(t=>t.type==="SHORT_TERM").length)+'L)</span>';
-      html += '<span style="background:#eef0ff;color:#3344cc;padding:3px 8px;border-radius:3px;font-size:0.75em;font-weight:600">&#9679; WALLET COPY LONG ('+(won.filter(t=>t.type==="LONG_TERM").length)+'W/'+(lost.filter(t=>t.type==="LONG_TERM").length)+'L)</span>';
+      const antiNcW = won.filter(t=>t.type==="ANTI_NC").length, antiNcL = lost.filter(t=>t.type==="ANTI_NC").length, antiNcO = open.filter(t=>t.type==="ANTI_NC").length;
+      if (antiNcW+antiNcL+antiNcO > 0) html += '<span style="background:#f5e6ff;color:#7700cc;padding:3px 8px;border-radius:3px;font-size:0.75em;font-weight:600">&#9679; ANTI-NC ('+antiNcW+'W/'+antiNcL+'L · '+antiNcO+' open)</span>';
+      const ltW = won.filter(t=>t.type==="LONG_TERM").length, ltL = lost.filter(t=>t.type==="LONG_TERM").length;
+      if (ltW+ltL > 0) html += '<span style="background:#eef0ff;color:#3344cc;padding:3px 8px;border-radius:3px;font-size:0.75em;font-weight:600">&#9632; WALLET COPY LONG ('+ltW+'W/'+ltL+'L · SUSPENDED)</span>';
       const arbWon = won.filter(t=>t.type==="ARB").length, arbLost = lost.filter(t=>t.type==="ARB").length, arbOpen = open.filter(t=>t.type==="ARB").length;
       const arbPnl = trades.filter(t=>t.type==="ARB"&&(t.status==="WON"||t.status==="LOST")).reduce((s,t)=>s+(t.pnl||0),0);
       html += '<span style="background:#fff3e0;color:#b35a00;padding:3px 8px;border-radius:3px;font-size:0.75em;font-weight:600">&#9679; ARB KALSHI/PM ('+arbWon+'W/'+arbLost+'L · '+arbOpen+' open)</span>';
@@ -489,7 +495,7 @@
       });
 
       // Days with activity, sorted newest first
-      const days = Object.keys(byDay).sort().reverse();
+      const activeDays = Object.keys(byDay).sort().reverse();
 
       // Slice helpers
       const sinceDays = (n) => {
@@ -509,7 +515,7 @@
       const pf7d   = sumPnl(t7d);
       const pf30d  = sumPnl(t30d);
       const pfPf   = sumPnl(tPf);
-      const avgDay7 = t7d.length ? pf7d / Math.min(7, days.filter(d=>d>=(new Date(now.getTime()-7*86400000)).toISOString().slice(0,10)).length||1) : 0;
+      const avgDay7 = t7d.length ? pf7d / Math.min(7, activeDays.filter(d=>d>=(new Date(now.getTime()-7*86400000)).toISOString().slice(0,10)).length||1) : 0;
       const pfDaysCount = daysSince(FILTER_DATE);
       const avgDayPf = pfDaysCount > 0 ? pfPf / pfDaysCount : 0;
 
@@ -534,7 +540,7 @@
       html += '</div>';
 
       // Per-day table (last 10 active days)
-      const recentDays = days.slice(0,10);
+      const recentDays = activeDays.slice(0,10);
       if (recentDays.length) {
         html += '<table style="font-size:0.8em"><tr>'+
           '<th style="text-align:left">Date</th>'+
@@ -636,6 +642,11 @@
     );
     if (!amt || isNaN(parseFloat(amt))) return;
     const amount = parseFloat(amt);
+    // Only attempt localhost API when actually running locally — skip silently on GitHub Pages
+    if (window.location.hostname !== 'localhost' && window.location.hostname !== '127.0.0.1') {
+      alert('Capital override unavailable in the live read-only view.\n\nTo update bet size on your local machine:\npython3 -c "import json; d=json.load(open(\'polybot/capital_overrides.json\')) if __import__(\'os\').path.exists(\'polybot/capital_overrides.json\') else {}; d[\''+slug+'|'+outcome+'\']='+amount+'; json.dump(d,open(\'polybot/capital_overrides.json\',\'w\'),indent=2)"');
+      return;
+    }
     try {
       const r = await fetch('http://localhost:8080/capital', {
         method: 'POST',
@@ -796,7 +807,7 @@
         const side = (t.outcome||'').toLowerCase() === 'yes' ? '▲ YES' : '▼ NO';
         const sideColor = (t.outcome||'').toLowerCase() === 'yes' ? '#00cc66' : '#ff8844';
         const mkt = (t.market || '').slice(0, 42);
-        const days = t.days_left != null ? t.days_left+'d' : (t.end_date ? t.end_date.slice(5) : '—');
+        const daysLabel = t.days_left != null ? t.days_left+'d' : (t.end_date ? t.end_date.slice(5) : '—');
 
         signalHtml +=
           '<div style="background:#f7f7f7;border:1px solid #e0e0e0;border-top:3px solid '+c+';border-radius:4px;padding:7px 9px;font-size:0.78em;position:relative">'+
@@ -808,7 +819,7 @@
           '</div>'+
           '<div style="margin-top:4px;display:flex;justify-content:space-between;align-items:center">'+
             '<div style="background:#e8f8ee;border:1px solid #00cc44;border-radius:3px;padding:2px 7px;color:#007733;font-weight:700;font-size:1.05em">+$'+profit+'</div>'+
-            '<div style="color:#888;font-size:0.85em">$'+bet+' bet &nbsp; '+days+'</div>'+
+            '<div style="color:#888;font-size:0.85em">$'+bet+' bet &nbsp; '+daysLabel+'</div>'+
           '</div>'+
           '<div style="margin-top:4px;background:#eee;border-radius:2px;height:3px">'+
             '<div style="background:'+cc+';height:3px;border-radius:2px;width:'+(Math.min(ep,1)*100).toFixed(0)+'%"></div>'+
@@ -1055,7 +1066,12 @@
   }
 
   // ── MAIN REFRESH
+  let _refreshing = false;
+  let _refreshCount = 0;
   async function refresh() {
+    if (_refreshing) return;  // guard against overlapping fetches
+    _refreshing = true;
+    _refreshCount++;
     document.getElementById('hdr-updated').textContent =
       'Updated '+new Date().toLocaleTimeString()+' — next in 30s  |  press R to force refresh';
     try {
@@ -1088,9 +1104,13 @@
       }));
       const walletPositions = lbPosResults.filter(r=>r.status==='fulfilled').map(r=>r.value);
       renderWallets(wallets, walletPositions);
+      // Every other refresh cycle (~60s), also refresh paper trades
+      if (_refreshCount % 2 === 0) renderPaperTrades();
     } catch(e) {
       console.error('Refresh error:', e);
       document.getElementById('hdr-updated').textContent = 'Error: '+e.message+' — press R to retry';
+    } finally {
+      _refreshing = false;
     }
   }
 
@@ -1172,7 +1192,7 @@
   renderLab();
   renderSignalsFeed();
   setInterval(refresh, REFRESH);
-  setInterval(renderPaperTrades, 1800000);
+  // renderPaperTrades: called every 2nd refresh cycle (~60s) inside refresh() — no separate timer needed
   setInterval(renderAudit, 3600000);
   setInterval(renderLab, 3600000);
   setInterval(renderSignalsFeed, 300000);  // refresh signals every 5 min
