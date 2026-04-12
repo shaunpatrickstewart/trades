@@ -8,124 +8,35 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 145 categorical arb opportunities found\nScanned 3000 events (2003 multi-outcome) at 2026-04-12 16:33 UTC\nBest: 10.0% profit on 'FL-23 Democratic Primary Winner' \u2014 buy YES on all 2 outcomes (sum=0.9)\nStrategy: Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 9.85% on 'Highest temperature in Buenos Aires on April 12?'",
+      "result": "LIVE \u2014 146 categorical arb opportunities found\nScanned 3000 events (2000 multi-outcome) at 2026-04-12 16:37 UTC\nBest: 10.0% profit on 'Spezia Calcio vs. Mantova 1911 - More Markets' \u2014 buy YES on all 2 outcomes (sum=0.9)\nStrategy: Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 9.8% on 'Maine Governor Republican Primary Winner'",
       "priority": "HIGH",
-      "last_scan": "2026-04-12 16:33 UTC",
+      "last_scan": "2026-04-12 16:37 UTC",
       "opportunities": [
         {
-          "event_title": "FL-23 Democratic Primary Winner",
-          "event_slug": "fl-23-democratic-primary-winner",
+          "event_title": "Spezia Calcio vs. Mantova 1911 - More Markets",
+          "event_slug": "itsb-spe-man-2026-04-12-more-markets",
           "yes_sum": 0.9,
           "profit_pct": 10.0,
           "profit_per_dollar_pct": 11.11,
           "num_outcomes": 2,
           "outcomes": [
             {
-              "market_id": "973114",
-              "slug": "will-jared-moskowitz-be-the-democratic-nominee-for-fl-23",
-              "question": "Will Jared Moskowitz be the Democratic Nominee for FL-23?",
-              "yes_price": 0.525,
-              "volume": 4483
+              "market_id": "1796284",
+              "slug": "itsb-spe-man-2026-04-12-total-1pt5",
+              "question": "Spezia Calcio vs. Mantova 1911: O/U 1.5",
+              "yes_price": 0.645,
+              "volume": 2005
             },
             {
-              "market_id": "973115",
-              "slug": "will-oliver-adams-larkin-be-the-democratic-nominee-for-fl-23",
-              "question": "Will Oliver Adams Larkin be the Democratic Nominee for FL-23?",
-              "yes_price": 0.375,
-              "volume": 8969
+              "market_id": "1796285",
+              "slug": "itsb-spe-man-2026-04-12-total-2pt5",
+              "question": "Spezia Calcio vs. Mantova 1911: O/U 2.5",
+              "yes_price": 0.255,
+              "volume": 2232
             }
           ],
-          "url": "https://polymarket.com/event/fl-23-democratic-primary-winner",
+          "url": "https://polymarket.com/event/itsb-spe-man-2026-04-12-more-markets",
           "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
-        },
-        {
-          "event_title": "Highest temperature in Buenos Aires on April 12?",
-          "event_slug": "highest-temperature-in-buenos-aires-on-april-12-2026",
-          "yes_sum": 0.9015,
-          "profit_pct": 9.85,
-          "profit_per_dollar_pct": 10.93,
-          "num_outcomes": 11,
-          "outcomes": [
-            {
-              "market_id": "1914819",
-              "slug": "highest-temperature-in-buenos-aires-on-april-12-2026-26c",
-              "question": "Will the highest temperature in Buenos Aires be 26\u00b0C on April 12?",
-              "yes_price": 0.43,
-              "volume": 3091
-            },
-            {
-              "market_id": "1914818",
-              "slug": "highest-temperature-in-buenos-aires-on-april-12-2026-25c",
-              "question": "Will the highest temperature in Buenos Aires be 25\u00b0C on April 12?",
-              "yes_price": 0.295,
-              "volume": 2526
-            },
-            {
-              "market_id": "1914817",
-              "slug": "highest-temperature-in-buenos-aires-on-april-12-2026-24c",
-              "question": "Will the highest temperature in Buenos Aires be 24\u00b0C on April 12?",
-              "yes_price": 0.095,
-              "volume": 3535
-            },
-            {
-              "market_id": "1914820",
-              "slug": "highest-temperature-in-buenos-aires-on-april-12-2026-27c",
-              "question": "Will the highest temperature in Buenos Aires be 27\u00b0C on April 12?",
-              "yes_price": 0.0665,
-              "volume": 7761
-            },
-            {
-              "market_id": "1914821",
-              "slug": "highest-temperature-in-buenos-aires-on-april-12-2026-28c",
-              "question": "Will the highest temperature in Buenos Aires be 28\u00b0C on April 12?",
-              "yes_price": 0.0115,
-              "volume": 2950
-            },
-            {
-              "market_id": "1914822",
-              "slug": "highest-temperature-in-buenos-aires-on-april-12-2026-29corhigher",
-              "question": "Will the highest temperature in Buenos Aires be 29\u00b0C or higher on April 12?",
-              "yes_price": 0.0015,
-              "volume": 3692
-            },
-            {
-              "market_id": "1914813",
-              "slug": "highest-temperature-in-buenos-aires-on-april-12-2026-20c",
-              "question": "Will the highest temperature in Buenos Aires be 20\u00b0C on April 12?",
-              "yes_price": 0.0005,
-              "volume": 1129
-            },
-            {
-              "market_id": "1914814",
-              "slug": "highest-temperature-in-buenos-aires-on-april-12-2026-21c",
-              "question": "Will the highest temperature in Buenos Aires be 21\u00b0C on April 12?",
-              "yes_price": 0.0005,
-              "volume": 4193
-            },
-            {
-              "market_id": "1914815",
-              "slug": "highest-temperature-in-buenos-aires-on-april-12-2026-22c",
-              "question": "Will the highest temperature in Buenos Aires be 22\u00b0C on April 12?",
-              "yes_price": 0.0005,
-              "volume": 5217
-            },
-            {
-              "market_id": "1914816",
-              "slug": "highest-temperature-in-buenos-aires-on-april-12-2026-23c",
-              "question": "Will the highest temperature in Buenos Aires be 23\u00b0C on April 12?",
-              "yes_price": 0.0005,
-              "volume": 6759
-            },
-            {
-              "market_id": "1914812",
-              "slug": "highest-temperature-in-buenos-aires-on-april-12-2026-19corbelow",
-              "question": "Will the highest temperature in Buenos Aires be 19\u00b0C or below on April 12?",
-              "yes_price": 0.0,
-              "volume": 3513
-            }
-          ],
-          "url": "https://polymarket.com/event/highest-temperature-in-buenos-aires-on-april-12-2026",
-          "strategy": "Buy YES on all 11 outcomes. Total cost: $0.9015. One wins $1.00. Profit: $0.0985 (9.85%)"
         },
         {
           "event_title": "Maine Governor Republican Primary Winner",
@@ -255,30 +166,180 @@
           "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9025. One wins $1.00. Profit: $0.0975 (9.75%)"
         },
         {
-          "event_title": "South Dakota Governor Election Winner",
-          "event_slug": "south-dakota-governor-winner-2026",
-          "yes_sum": 0.9055,
-          "profit_pct": 9.45,
-          "profit_per_dollar_pct": 10.44,
+          "event_title": "Highest temperature in Miami on April 12?",
+          "event_slug": "highest-temperature-in-miami-on-april-12-2026",
+          "yes_sum": 0.903,
+          "profit_pct": 9.7,
+          "profit_per_dollar_pct": 10.74,
+          "num_outcomes": 11,
+          "outcomes": [
+            {
+              "market_id": "1914915",
+              "slug": "highest-temperature-in-miami-on-april-12-2026-80-81f",
+              "question": "Will the highest temperature in Miami be between 80-81\u00b0F on April 12?",
+              "yes_price": 0.645,
+              "volume": 7461
+            },
+            {
+              "market_id": "1914916",
+              "slug": "highest-temperature-in-miami-on-april-12-2026-82-83f",
+              "question": "Will the highest temperature in Miami be between 82-83\u00b0F on April 12?",
+              "yes_price": 0.1845,
+              "volume": 8953
+            },
+            {
+              "market_id": "1914914",
+              "slug": "highest-temperature-in-miami-on-april-12-2026-78-79f",
+              "question": "Will the highest temperature in Miami be between 78-79\u00b0F on April 12?",
+              "yes_price": 0.065,
+              "volume": 8011
+            },
+            {
+              "market_id": "1914918",
+              "slug": "highest-temperature-in-miami-on-april-12-2026-86-87f",
+              "question": "Will the highest temperature in Miami be between 86-87\u00b0F on April 12?",
+              "yes_price": 0.0035,
+              "volume": 4362
+            },
+            {
+              "market_id": "1914917",
+              "slug": "highest-temperature-in-miami-on-april-12-2026-84-85f",
+              "question": "Will the highest temperature in Miami be between 84-85\u00b0F on April 12?",
+              "yes_price": 0.003,
+              "volume": 6263
+            },
+            {
+              "market_id": "1914912",
+              "slug": "highest-temperature-in-miami-on-april-12-2026-74-75f",
+              "question": "Will the highest temperature in Miami be between 74-75\u00b0F on April 12?",
+              "yes_price": 0.0005,
+              "volume": 6077
+            },
+            {
+              "market_id": "1914913",
+              "slug": "highest-temperature-in-miami-on-april-12-2026-76-77f",
+              "question": "Will the highest temperature in Miami be between 76-77\u00b0F on April 12?",
+              "yes_price": 0.0005,
+              "volume": 10696
+            },
+            {
+              "market_id": "1914919",
+              "slug": "highest-temperature-in-miami-on-april-12-2026-88-89f",
+              "question": "Will the highest temperature in Miami be between 88-89\u00b0F on April 12?",
+              "yes_price": 0.0005,
+              "volume": 3254
+            },
+            {
+              "market_id": "1914920",
+              "slug": "highest-temperature-in-miami-on-april-12-2026-90forhigher",
+              "question": "Will the highest temperature in Miami be 90\u00b0F or higher on April 12?",
+              "yes_price": 0.0005,
+              "volume": 5705
+            },
+            {
+              "market_id": "1914910",
+              "slug": "highest-temperature-in-miami-on-april-12-2026-71forbelow",
+              "question": "Will the highest temperature in Miami be 71\u00b0F or below on April 12?",
+              "yes_price": 0.0,
+              "volume": 12840
+            },
+            {
+              "market_id": "1914911",
+              "slug": "highest-temperature-in-miami-on-april-12-2026-72-73f",
+              "question": "Will the highest temperature in Miami be between 72-73\u00b0F on April 12?",
+              "yes_price": 0.0,
+              "volume": 6202
+            }
+          ],
+          "url": "https://polymarket.com/event/highest-temperature-in-miami-on-april-12-2026",
+          "strategy": "Buy YES on all 11 outcomes. Total cost: $0.9030. One wins $1.00. Profit: $0.0970 (9.70%)"
+        },
+        {
+          "event_title": "Vermont Governor Election Winner",
+          "event_slug": "vermont-governor-winner-2026",
+          "yes_sum": 0.905,
+          "profit_pct": 9.5,
+          "profit_per_dollar_pct": 10.5,
           "num_outcomes": 2,
           "outcomes": [
             {
-              "market_id": "629654",
-              "slug": "will-the-republicans-win-the-south-dakota-governor-race-in-2026",
-              "question": "Will the Republicans win the South Dakota governor race in 2026?",
-              "yes_price": 0.86,
-              "volume": 4550
+              "market_id": "629708",
+              "slug": "will-the-republicans-win-the-vermont-governor-race-in-2026",
+              "question": "Will the Republicans win the Vermont governor race in 2026?",
+              "yes_price": 0.77,
+              "volume": 4674
             },
             {
-              "market_id": "629653",
-              "slug": "will-the-democrats-win-the-south-dakota-governor-race-in-2026",
-              "question": "Will the Democrats win the South Dakota governor race in 2026?",
-              "yes_price": 0.0455,
-              "volume": 7316
+              "market_id": "629707",
+              "slug": "will-the-democrats-win-the-vermont-governor-race-in-2026",
+              "question": "Will the Democrats win the Vermont governor race in 2026?",
+              "yes_price": 0.135,
+              "volume": 6883
             }
           ],
-          "url": "https://polymarket.com/event/south-dakota-governor-winner-2026",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9055. One wins $1.00. Profit: $0.0945 (9.45%)"
+          "url": "https://polymarket.com/event/vermont-governor-winner-2026",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
+        },
+        {
+          "event_title": "How long will Trump and Xi shake hands when they meet?",
+          "event_slug": "how-long-will-trump-and-xi-shake-hands-when-they-meet",
+          "yes_sum": 0.906,
+          "profit_pct": 9.4,
+          "profit_per_dollar_pct": 10.38,
+          "num_outcomes": 7,
+          "outcomes": [
+            {
+              "market_id": "1363796",
+              "slug": "will-trump-and-xi-handshake-last-15-seconds-or-longer-during-the-day-of-their-next-meeting-in-2026",
+              "question": "Will Trump and Xi handshake last 15 seconds or longer during the day of their ne",
+              "yes_price": 0.315,
+              "volume": 9034
+            },
+            {
+              "market_id": "1363795",
+              "slug": "will-trump-and-xi-handshake-last-1015-seconds-during-the-day-of-their-next-meeting-in-2026",
+              "question": "Will Trump and Xi handshake last 10\u201315 seconds during the day of their next meet",
+              "yes_price": 0.2,
+              "volume": 3810
+            },
+            {
+              "market_id": "1363794",
+              "slug": "will-trump-and-xi-handshake-last-610-seconds-during-the-day-of-their-next-meeting-in-2026",
+              "question": "Will Trump and Xi handshake last 6\u201310 seconds during the day of their next meeti",
+              "yes_price": 0.18,
+              "volume": 3923
+            },
+            {
+              "market_id": "1363793",
+              "slug": "will-trump-and-xi-handshake-last-26-seconds-during-the-day-of-their-next-meeting-in-2026",
+              "question": "Will Trump and Xi handshake last 2\u20136 seconds during the day of their next meetin",
+              "yes_price": 0.12,
+              "volume": 11216
+            },
+            {
+              "market_id": "1363791",
+              "slug": "will-trump-and-xi-not-shake-hands-during-the-day-of-their-next-meeting-in-2026",
+              "question": "Will Trump and Xi not shake hands during the day of their next meeting in 2026?",
+              "yes_price": 0.048,
+              "volume": 11448
+            },
+            {
+              "market_id": "1363792",
+              "slug": "will-trump-and-xi-handshake-last-less-than-2-seconds-during-the-day-of-their-next-meeting-in-2026",
+              "question": "Will Trump and Xi handshake last less than 2 seconds during the day of their nex",
+              "yes_price": 0.027,
+              "volume": 13587
+            },
+            {
+              "market_id": "1363797",
+              "slug": "will-trump-and-xi-only-be-photographed-together-during-the-day-of-their-next-meeting-in-2026",
+              "question": "Will Trump and Xi only be photographed together during the day of their next mee",
+              "yes_price": 0.016,
+              "volume": 12485
+            }
+          ],
+          "url": "https://polymarket.com/event/how-long-will-trump-and-xi-shake-hands-when-they-meet",
+          "strategy": "Buy YES on all 7 outcomes. Total cost: $0.9060. One wins $1.00. Profit: $0.0940 (9.40%)"
         },
         {
           "event_title": "AZ-01 Republican Primary Winner",
@@ -377,77 +438,11 @@
           "strategy": "Buy YES on all 12 outcomes. Total cost: $0.9075. One wins $1.00. Profit: $0.0925 (9.25%)"
         },
         {
-          "event_title": "Will Opensea launch a token by ___?",
-          "event_slug": "will-opensea-launch-a-token-by-142",
-          "yes_sum": 0.9095,
-          "profit_pct": 9.05,
-          "profit_per_dollar_pct": 9.95,
-          "num_outcomes": 4,
-          "outcomes": [
-            {
-              "market_id": "1271613",
-              "slug": "will-opensea-launch-a-token-by-december-31-2026",
-              "question": "Will OpenSea launch a token by December 31, 2026?",
-              "yes_price": 0.5965,
-              "volume": 95305
-            },
-            {
-              "market_id": "1271612",
-              "slug": "will-opensea-launch-a-token-by-september-30-2026",
-              "question": "Will OpenSea launch a token by September 30, 2026?",
-              "yes_price": 0.245,
-              "volume": 66549
-            },
-            {
-              "market_id": "1271611",
-              "slug": "will-opensea-launch-a-token-by-june-30-2026",
-              "question": "Will OpenSea launch a token by June 30, 2026?",
-              "yes_price": 0.068,
-              "volume": 188471
-            },
-            {
-              "market_id": "1271610",
-              "slug": "will-opensea-launch-a-token-by-march-31-2026",
-              "question": "Will OpenSea launch a token by March 31, 2026?",
-              "yes_price": 0.0,
-              "volume": 1030401
-            }
-          ],
-          "url": "https://polymarket.com/event/will-opensea-launch-a-token-by-142",
-          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9095. One wins $1.00. Profit: $0.0905 (9.05%)"
-        },
-        {
-          "event_title": "Montana Senate Election Winner",
-          "event_slug": "montana-senate-election-winner",
-          "yes_sum": 0.9095,
-          "profit_pct": 9.05,
-          "profit_per_dollar_pct": 9.95,
-          "num_outcomes": 2,
-          "outcomes": [
-            {
-              "market_id": "630832",
-              "slug": "will-the-republicans-win-the-montana-senate-race-in-2026",
-              "question": "Will the Republicans win the Montana Senate race in 2026?",
-              "yes_price": 0.785,
-              "volume": 34451
-            },
-            {
-              "market_id": "630831",
-              "slug": "will-the-democrats-win-the-montana-senate-race-in-2026",
-              "question": "Will the Democrats win the Montana Senate race in 2026?",
-              "yes_price": 0.1245,
-              "volume": 25625
-            }
-          ],
-          "url": "https://polymarket.com/event/montana-senate-election-winner",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9095. One wins $1.00. Profit: $0.0905 (9.05%)"
-        },
-        {
           "event_title": "Will Audemars Piguet prices hit __ by April 30?",
           "event_slug": "will-audemars-piguet-prices-hit-by-april-30",
-          "yes_sum": 0.9095,
-          "profit_pct": 9.05,
-          "profit_per_dollar_pct": 9.95,
+          "yes_sum": 0.909,
+          "profit_pct": 9.1,
+          "profit_per_dollar_pct": 10.01,
           "num_outcomes": 10,
           "outcomes": [
             {
@@ -475,7 +470,7 @@
               "market_id": "1613935",
               "slug": "will-the-audemars-piguet-index-hit-40000-low-by-april-30",
               "question": "Will the Audemars Piguet Index hit $40,000 (LOW) by April 30?",
-              "yes_price": 0.063,
+              "yes_price": 0.0625,
               "volume": 2663
             },
             {
@@ -522,16 +517,56 @@
             }
           ],
           "url": "https://polymarket.com/event/will-audemars-piguet-prices-hit-by-april-30",
-          "strategy": "Buy YES on all 10 outcomes. Total cost: $0.9095. One wins $1.00. Profit: $0.0905 (9.05%)"
+          "strategy": "Buy YES on all 10 outcomes. Total cost: $0.9090. One wins $1.00. Profit: $0.0910 (9.10%)"
+        },
+        {
+          "event_title": "Will Opensea launch a token by ___?",
+          "event_slug": "will-opensea-launch-a-token-by-142",
+          "yes_sum": 0.9095,
+          "profit_pct": 9.05,
+          "profit_per_dollar_pct": 9.95,
+          "num_outcomes": 4,
+          "outcomes": [
+            {
+              "market_id": "1271613",
+              "slug": "will-opensea-launch-a-token-by-december-31-2026",
+              "question": "Will OpenSea launch a token by December 31, 2026?",
+              "yes_price": 0.5965,
+              "volume": 95305
+            },
+            {
+              "market_id": "1271612",
+              "slug": "will-opensea-launch-a-token-by-september-30-2026",
+              "question": "Will OpenSea launch a token by September 30, 2026?",
+              "yes_price": 0.245,
+              "volume": 66549
+            },
+            {
+              "market_id": "1271611",
+              "slug": "will-opensea-launch-a-token-by-june-30-2026",
+              "question": "Will OpenSea launch a token by June 30, 2026?",
+              "yes_price": 0.068,
+              "volume": 188471
+            },
+            {
+              "market_id": "1271610",
+              "slug": "will-opensea-launch-a-token-by-march-31-2026",
+              "question": "Will OpenSea launch a token by March 31, 2026?",
+              "yes_price": 0.0,
+              "volume": 1030401
+            }
+          ],
+          "url": "https://polymarket.com/event/will-opensea-launch-a-token-by-142",
+          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9095. One wins $1.00. Profit: $0.0905 (9.05%)"
         }
       ],
       "stats": {
         "total_events": 3000,
-        "checked_multi_outcome": 2003,
-        "skipped_single_outcome": 624,
-        "opportunities_found": 145,
+        "checked_multi_outcome": 2000,
+        "skipped_single_outcome": 620,
+        "opportunities_found": 146,
         "best_profit_pct": 10.0,
-        "scanned_at": "2026-04-12 16:33 UTC"
+        "scanned_at": "2026-04-12 16:37 UTC"
       }
     },
     {
