@@ -1,13 +1,128 @@
 {
-  "last_scan": "2026-04-12T15:37:06.772778+00:00",
-  "scan_seconds": 4.3,
-  "markets_scanned": 17,
+  "last_scan": "2026-04-12T15:43:55.854988+00:00",
+  "scan_seconds": 52.7,
+  "markets_scanned": 41,
   "open_positions": 17,
-  "signals": [],
+  "signals": [
+    {
+      "id": "sig_368029",
+      "timestamp": "2026-04-12T15:43:12.019371+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Iran-US ceasefire talks collapse in Islamabad on April 12, 2026 | NO | HIGH confidence**",
+      "raw": "Iran-US ceasefire talks collapse in Islamabad on April 12, 2026 | NO | HIGH confidence**\n\nNo new ceasefire agreement, confirmation, or resolution has been announced today; instead, U.S.-led negotiations ended without progress as Iran rejected a U.S. \"take it or leave it\" proposal to end its nuclear program.[3][1] This follows the fragile two-week ceasefire agreed on April 7-8 (now on day five), wh",
+      "direction": "NO",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_378737",
+      "timestamp": "2026-04-12T15:43:22.727284+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Based on the search results provided, I cannot identify breaking news from today (April 12, 2026) that would move predic",
+      "raw": "Based on the search results provided, I cannot identify breaking news from today (April 12, 2026) that would move prediction markets. The most recent sources in the results are from April 10, 2026, which report that **Bitcoin has pushed to $73,000 following a ceasefire deal**[7], but this is not from today and predates your current date by two days.\n\nThe search results contain market analysis and ",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Bitcoin Up or Down - April 12, 12:00PM-12:15PM ET"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_385641",
+      "timestamp": "2026-04-12T15:43:29.631761+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Based on the search results provided, there is no breaking news from today (April 12, 2026) that would move prediction m",
+      "raw": "Based on the search results provided, there is no breaking news from today (April 12, 2026) that would move prediction markets. The most recent information available is from April 11, 2026, which discusses the Thunder's playoff positioning strategy and their loss to Denver, but this represents analysis rather than a market-moving announcement.\n\nThe search results indicate the Thunder have **secure",
+      "direction": "NO",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will the Oklahoma City Thunder win the 2026 NBA Finals?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_411854",
+      "timestamp": "2026-04-12T15:43:55.844405+00:00",
+      "source": "X_GROK",
+      "headline": "Hungarian PM Election (Viktor Orb\u00e1n to win):** Whales slamming $1M+ bets on YES for Orban, with $3M potential payouts de",
+      "raw": "Hungarian PM Election (Viktor Orb\u00e1n to win):** Whales slamming $1M+ bets on YES for Orban, with $3M potential payouts despite polls showing Magyar lead (30\u00a2 Orban odds recently). Smart money piling in pre-election day.[[1]](https://x.com/i/status/2043330861966201024)[[2]](https://x.com/i/status/2043322931682427288) Confidence: MED (whale conviction vs. poll gaps).",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2043330861966201024)[[2]](https://x.com/i/status/2043322931682427288)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_411857",
+      "timestamp": "2026-04-12T15:43:55.847669+00:00",
+      "source": "X_GROK",
+      "headline": "Smart Money Tracking Tools Trending:** Polymarket traders pushing Merlin",
+      "raw": "Smart Money Tracking Tools Trending:** Polymarket traders pushing Merlin.trade for spotting/following/copytrading top 300k daily traders (non-X whales).[[3]](https://x.com/i/status/2043350520677462255) No specific market signal. Confidence: HIGH (tool promo consensus).",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2043350520677462255)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_411861",
+      "timestamp": "2026-04-12T15:43:55.851041+00:00",
+      "source": "X_GROK",
+      "headline": "Whale Manipulation Warnings:** Chatter on whales/bots arbitraging mispriced odds, beating retail; track via tools",
+      "raw": "Whale Manipulation Warnings:** Chatter on whales/bots arbitraging mispriced odds, beating retail; track via tools.[[4]](https://x.com/i/status/2042408192874070361) General tip, no market. Confidence: LOW.",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2042408192874070361)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_411864",
+      "timestamp": "2026-04-12T15:43:55.854522+00:00",
+      "source": "X_GROK",
+      "headline": "US Midterms (Dems Sweep):** Polymarket highlights at 53% amid Trump oil price comments\u2014no whale bets noted",
+      "raw": "US Midterms (Dems Sweep):** Polymarket highlights at 53% amid Trump oil price comments\u2014no whale bets noted.[[5]](https://x.com/i/status/2043341532707569707) Neutral signal. Confidence: LOW.",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2043341532707569707)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_373452",
+      "timestamp": "2026-04-12T15:43:17.442101+00:00",
+      "source": "PERPLEXITY",
+      "headline": "NM Supreme Court Unanimously Rules Duke Rodriguez Eligible for Republican Gubernatorial Primary Ballot** | YES | HIGH co",
+      "raw": "NM Supreme Court Unanimously Rules Duke Rodriguez Eligible for Republican Gubernatorial Primary Ballot** | YES | HIGH confidence[1]\n\nThe New Mexico Supreme Court on April 2, 2026, upheld a lower court's decision, confirming Republican candidate **Duke Rodriguez**'s ballot access for the June primary despite residency challenges[1]. This resolves prior legal disputes over his Arizona voting history",
+      "direction": "YES",
+      "confidence": 0.6,
+      "matched_markets": [
+        "Will J.D. Vance win the 2028 Republican presidential nominat",
+        "Will Duke Rodriguez win the 2026 New Mexico Governor Republi"
+      ],
+      "action": "WATCH",
+      "x_link": null,
+      "category": "POLITICS"
+    }
+  ],
   "stats": {
-    "enter": 0,
-    "alert": 0,
-    "watch": 0,
-    "high_conf": 0
+    "enter": 3,
+    "alert": 4,
+    "watch": 1,
+    "high_conf": 3
   }
 }
