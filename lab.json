@@ -8,9 +8,9 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 141 categorical arb opportunities found\nScanned 3000 events (1882 multi-outcome) at 2026-04-13 01:54 UTC\nBest: 10.0% profit on 'NBA Coach of the Year Winner' \u2014 buy YES on all 25 outcomes (sum=0.9)\nStrategy: Buy YES on all 25 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 9.8% on 'Trump announces US x Iran ceasefire end by...?'",
+      "result": "LIVE \u2014 144 categorical arb opportunities found\nScanned 3000 events (1883 multi-outcome) at 2026-04-13 01:57 UTC\nBest: 10.0% profit on 'NBA Coach of the Year Winner' \u2014 buy YES on all 25 outcomes (sum=0.9)\nStrategy: Buy YES on all 25 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 9.95% on 'Zelenskyy # posts April 7 - April 14, 2026?'",
       "priority": "HIGH",
-      "last_scan": "2026-04-13 01:54 UTC",
+      "last_scan": "2026-04-13 01:57 UTC",
       "opportunities": [
         {
           "event_title": "NBA Coach of the Year Winner",
@@ -200,58 +200,51 @@
           "strategy": "Buy YES on all 25 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
         },
         {
-          "event_title": "Trump announces US x Iran ceasefire end by...?",
-          "event_slug": "trump-announces-us-x-iran-ceasefire-by",
-          "yes_sum": 0.902,
-          "profit_pct": 9.8,
-          "profit_per_dollar_pct": 10.86,
-          "num_outcomes": 6,
+          "event_title": "Zelenskyy # posts April 7 - April 14, 2026?",
+          "event_slug": "zelenskyy-of-tweets-april-7-april-14-2026",
+          "yes_sum": 0.9005,
+          "profit_pct": 9.95,
+          "profit_per_dollar_pct": 11.05,
+          "num_outcomes": 5,
           "outcomes": [
             {
-              "market_id": "1912777",
-              "slug": "trump-announces-us-x-iran-ceasefire-end-by-april-21-2026",
-              "question": "Trump announces US x Iran ceasefire end by April 21, 2026?",
-              "yes_price": 0.39,
-              "volume": 261276
+              "market_id": "1854116",
+              "slug": "zelenskyy-of-tweets-april-7-april-14-2026-60-79",
+              "question": "Will Zelenskyy post 60-79 posts from April 7 to April 14, 2026?",
+              "yes_price": 0.53,
+              "volume": 1480
             },
             {
-              "market_id": "1912776",
-              "slug": "trump-announces-us-x-iran-ceasefire-end-by-april-18-2026",
-              "question": "Trump announces US x Iran ceasefire end by April 18, 2026?",
-              "yes_price": 0.305,
-              "volume": 205012
+              "market_id": "1854108",
+              "slug": "zelenskyy-of-tweets-april-7-april-14-2026-40-59",
+              "question": "Will Zelenskyy post 40-59 posts from April 7 to April 14, 2026?",
+              "yes_price": 0.365,
+              "volume": 2920
             },
             {
-              "market_id": "1912775",
-              "slug": "trump-announces-us-x-iran-ceasefire-end-by-april-15-2026",
-              "question": "Trump announces US x Iran ceasefire end by April 15, 2026?",
-              "yes_price": 0.195,
-              "volume": 298838
+              "market_id": "1854186",
+              "slug": "zelenskyy-of-tweets-april-7-april-14-2026-180-199",
+              "question": "Will Zelenskyy post 180-199 posts from April 7 to April 14, 2026?",
+              "yes_price": 0.0035,
+              "volume": 1372
             },
             {
-              "market_id": "1912774",
-              "slug": "trump-announces-us-x-iran-ceasefire-end-by-april-12-2026",
-              "question": "Trump announces US x Iran ceasefire end by April 12, 2026?",
-              "yes_price": 0.012,
-              "volume": 1144856
+              "market_id": "1854191",
+              "slug": "zelenskyy-of-tweets-april-7-april-14-2026-200plus",
+              "question": "Will Zelenskyy post 200+ posts from April 7 to April 14, 2026?",
+              "yes_price": 0.002,
+              "volume": 2387
             },
             {
-              "market_id": "1912773",
-              "slug": "trump-announces-us-x-iran-ceasefire-end-by-april-10-2026",
-              "question": "Trump announces US x Iran ceasefire end by April 10, 2026?",
+              "market_id": "1854100",
+              "slug": "zelenskyy-of-tweets-april-7-april-14-2026-20-39",
+              "question": "Will Zelenskyy post 20-39 posts from April 7 to April 14, 2026?",
               "yes_price": 0.0,
-              "volume": 440821
-            },
-            {
-              "market_id": "1912772",
-              "slug": "trump-announces-us-x-iran-ceasefire-end-by-april-8-2026",
-              "question": "Trump announces US x Iran ceasefire end by April 8, 2026?",
-              "yes_price": 0.0,
-              "volume": 38220
+              "volume": 1587
             }
           ],
-          "url": "https://polymarket.com/event/trump-announces-us-x-iran-ceasefire-by",
-          "strategy": "Buy YES on all 6 outcomes. Total cost: $0.9020. One wins $1.00. Profit: $0.0980 (9.80%)"
+          "url": "https://polymarket.com/event/zelenskyy-of-tweets-april-7-april-14-2026",
+          "strategy": "Buy YES on all 5 outcomes. Total cost: $0.9005. One wins $1.00. Profit: $0.0995 (9.95%)"
         },
         {
           "event_title": "Precipitation in NYC in April?",
@@ -491,6 +484,107 @@
           "strategy": "Buy YES on all 12 outcomes. Total cost: $0.9075. One wins $1.00. Profit: $0.0925 (9.25%)"
         },
         {
+          "event_title": "How many ships transit the Strait of Hormuz this week? (Apr 6-12)",
+          "event_slug": "how-many-ships-transit-the-strait-of-hormuz-this-week-apr-6-12",
+          "yes_sum": 0.908,
+          "profit_pct": 9.2,
+          "profit_per_dollar_pct": 10.13,
+          "num_outcomes": 6,
+          "outcomes": [
+            {
+              "market_id": "1846506",
+              "slug": "will-50-59-ships-transit-the-strait-of-hormuz-between-april-6-april-12",
+              "question": "Will 50-59 ships transit the Strait of Hormuz between April 6-April 12?",
+              "yes_price": 0.46,
+              "volume": 12957
+            },
+            {
+              "market_id": "1846507",
+              "slug": "will-60-or-more-ships-transit-the-strait-of-hormuz-between-april-6-april-12",
+              "question": "Will 60 or more ships transit the Strait of Hormuz between April 6-April 12?",
+              "yes_price": 0.365,
+              "volume": 58950
+            },
+            {
+              "market_id": "1846504",
+              "slug": "will-30-39-ships-transit-the-strait-of-hormuz-between-april-6-april-12",
+              "question": "Will 30-39 ships transit the Strait of Hormuz between April 6-April 12?",
+              "yes_price": 0.031,
+              "volume": 21055
+            },
+            {
+              "market_id": "1846503",
+              "slug": "will-20-29-ships-transit-the-strait-of-hormuz-between-april-6-april-12",
+              "question": "Will 20-29 ships transit the Strait of Hormuz between April 6-April 12?",
+              "yes_price": 0.0225,
+              "volume": 24436
+            },
+            {
+              "market_id": "1846505",
+              "slug": "will-40-49-ships-transit-the-strait-of-hormuz-between-april-6-april-12",
+              "question": "Will 40-49 ships transit the Strait of Hormuz between April 6-April 12?",
+              "yes_price": 0.0205,
+              "volume": 25772
+            },
+            {
+              "market_id": "1846502",
+              "slug": "will-fewer-than-20-ships-transit-the-strait-of-hormuz-between-april-6-april-12",
+              "question": "Will fewer than 20 ships transit the Strait of Hormuz between April 6-April 12?",
+              "yes_price": 0.009,
+              "volume": 49182
+            }
+          ],
+          "url": "https://polymarket.com/event/how-many-ships-transit-the-strait-of-hormuz-this-week-apr-6-12",
+          "strategy": "Buy YES on all 6 outcomes. Total cost: $0.9080. One wins $1.00. Profit: $0.0920 (9.20%)"
+        },
+        {
+          "event_title": "Bulgarian Parliamentary Election: Which Parties Enter Parliament?",
+          "event_slug": "bulgarian-parliamentary-election-which-parties-enter-parliament",
+          "yes_sum": 0.908,
+          "profit_pct": 9.2,
+          "profit_per_dollar_pct": 10.13,
+          "num_outcomes": 5,
+          "outcomes": [
+            {
+              "market_id": "1737533",
+              "slug": "will-united-left-bsp-win-at-least-one-seat-in-the-2026-bulgarian-parliamentary-election",
+              "question": "Will United Left (BSP) win at least one seat in the 2026 Bulgarian parliamentary",
+              "yes_price": 0.595,
+              "volume": 20527
+            },
+            {
+              "market_id": "1737537",
+              "slug": "will-morality-unity-honour-mech-win-at-least-one-seat-in-the-2026-bulgarian-parliamentary-election",
+              "question": "Will Morality, Unity, Honour (MECh) win at least one seat in the 2026 Bulgarian ",
+              "yes_price": 0.16,
+              "volume": 4646
+            },
+            {
+              "market_id": "1737536",
+              "slug": "will-velichie-velichie-win-at-least-one-seat-in-the-2026-bulgarian-parliamentary-election",
+              "question": "Will Velichie (Velichie) win at least one seat in the 2026 Bulgarian parliamenta",
+              "yes_price": 0.105,
+              "volume": 24353
+            },
+            {
+              "market_id": "1737535",
+              "slug": "will-there-is-such-a-people-itn-win-at-least-one-seat-in-the-2026-bulgarian-parliamentary-election",
+              "question": "Will There is Such a People (ITN) win at least one seat in the 2026 Bulgarian pa",
+              "yes_price": 0.0255,
+              "volume": 10046
+            },
+            {
+              "market_id": "1737534",
+              "slug": "will-alliance-for-rights-and-freedoms-aps-win-at-least-one-seat-in-the-2026-bulgarian-parliamentary-election",
+              "question": "Will Alliance for Rights and Freedoms (APS) win at least one seat in the 2026 Bu",
+              "yes_price": 0.0225,
+              "volume": 12426
+            }
+          ],
+          "url": "https://polymarket.com/event/bulgarian-parliamentary-election-which-parties-enter-parliament",
+          "strategy": "Buy YES on all 5 outcomes. Total cost: $0.9080. One wins $1.00. Profit: $0.0920 (9.20%)"
+        },
+        {
           "event_title": "LA-05 Republican Primary Winner",
           "event_slug": "la-05-republican-primary-winner",
           "yes_sum": 0.908,
@@ -597,95 +691,15 @@
           ],
           "url": "https://polymarket.com/event/china-annual-inflation-2026",
           "strategy": "Buy YES on all 9 outcomes. Total cost: $0.9085. One wins $1.00. Profit: $0.0915 (9.15%)"
-        },
-        {
-          "event_title": "How many 7.0 or above earthquakes by June 30? (Higher Strikes)",
-          "event_slug": "how-many-7pt0-or-above-earthquakes-by-june-30-higher-strikes",
-          "yes_sum": 0.9095,
-          "profit_pct": 9.05,
-          "profit_per_dollar_pct": 9.95,
-          "num_outcomes": 4,
-          "outcomes": [
-            {
-              "market_id": "1829467",
-              "slug": "will-there-be-8-or-fewer-earthquakes-of-magnitude-7pt0-or-higher-worldwide-by-june-30",
-              "question": "Will there be 8 or fewer earthquakes of magnitude 7.0 or higher worldwide by Jun",
-              "yes_price": 0.465,
-              "volume": 17922
-            },
-            {
-              "market_id": "1829470",
-              "slug": "will-there-be-exactly-11-earthquakes-of-magnitude-7pt0-or-higher-worldwide-by-june-30",
-              "question": "Will there be exactly 11 earthquakes of magnitude 7.0 or higher worldwide by Jun",
-              "yes_price": 0.215,
-              "volume": 11318
-            },
-            {
-              "market_id": "1829468",
-              "slug": "will-there-be-exactly-9-earthquake-of-magnitude-7pt0-or-higher-worldwide-by-june-30",
-              "question": "Will there be exactly 9 earthquake of magnitude 7.0 or higher worldwide by June ",
-              "yes_price": 0.145,
-              "volume": 10597
-            },
-            {
-              "market_id": "1829471",
-              "slug": "will-there-be-exactly-12-earthquakes-of-magnitude-7pt0-or-higher-worldwide-by-june-30",
-              "question": "Will there be exactly 12 earthquakes of magnitude 7.0 or higher worldwide by Jun",
-              "yes_price": 0.0845,
-              "volume": 3138
-            }
-          ],
-          "url": "https://polymarket.com/event/how-many-7pt0-or-above-earthquakes-by-june-30-higher-strikes",
-          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9095. One wins $1.00. Profit: $0.0905 (9.05%)"
-        },
-        {
-          "event_title": "New Hampshire Governor Democratic Primary Winner",
-          "event_slug": "new-hampshire-governor-democratic-primary-winner",
-          "yes_sum": 0.9095,
-          "profit_pct": 9.05,
-          "profit_per_dollar_pct": 9.95,
-          "num_outcomes": 4,
-          "outcomes": [
-            {
-              "market_id": "824224",
-              "slug": "will-cinde-warmington-win-the-2026-new-hampshire-governor-democratic-primary-election",
-              "question": "Will Cinde Warmington win the 2026 New Hampshire Governor Democratic primary ele",
-              "yes_price": 0.715,
-              "volume": 8170
-            },
-            {
-              "market_id": "824220",
-              "slug": "will-john-kiper-win-the-2026-new-hampshire-governor-democratic-primary-election",
-              "question": "Will John Kiper win the 2026 New Hampshire Governor Democratic primary election?",
-              "yes_price": 0.11,
-              "volume": 2050
-            },
-            {
-              "market_id": "824221",
-              "slug": "will-tom-sherman-win-the-2026-new-hampshire-governor-democratic-primary-election",
-              "question": "Will Tom Sherman win the 2026 New Hampshire Governor Democratic primary election",
-              "yes_price": 0.0575,
-              "volume": 1693
-            },
-            {
-              "market_id": "824222",
-              "slug": "will-deaglan-mceachern-win-the-2026-new-hampshire-governor-democratic-primary-election",
-              "question": "Will Deaglan McEachern win the 2026 New Hampshire Governor Democratic primary el",
-              "yes_price": 0.027,
-              "volume": 8101
-            }
-          ],
-          "url": "https://polymarket.com/event/new-hampshire-governor-democratic-primary-winner",
-          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9095. One wins $1.00. Profit: $0.0905 (9.05%)"
         }
       ],
       "stats": {
         "total_events": 3000,
-        "checked_multi_outcome": 1882,
-        "skipped_single_outcome": 638,
-        "opportunities_found": 141,
+        "checked_multi_outcome": 1883,
+        "skipped_single_outcome": 639,
+        "opportunities_found": 144,
         "best_profit_pct": 10.0,
-        "scanned_at": "2026-04-13 01:54 UTC"
+        "scanned_at": "2026-04-13 01:57 UTC"
       }
     },
     {
