@@ -8,42 +8,238 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 136 categorical arb opportunities found\nScanned 3000 events (1867 multi-outcome) at 2026-04-13 11:32 UTC\nBest: 10.0% profit on 'Which banks will fail by end of 2026?' \u2014 buy YES on all 3 outcomes (sum=0.9)\nStrategy: Buy YES on all 3 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 9.8% on 'AZ-01 Republican Primary Winner'",
+      "result": "LIVE \u2014 125 categorical arb opportunities found\nScanned 3000 events (1871 multi-outcome) at 2026-04-13 11:36 UTC\nBest: 10.0% profit on 'English Premier League - Top Goalscorer ' \u2014 buy YES on all 31 outcomes (sum=0.9)\nStrategy: Buy YES on all 31 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 9.8% on 'AZ-01 Republican Primary Winner'",
       "priority": "HIGH",
-      "last_scan": "2026-04-13 11:32 UTC",
+      "last_scan": "2026-04-13 11:36 UTC",
       "opportunities": [
         {
-          "event_title": "Which banks will fail by end of 2026?",
-          "event_slug": "which-banks-will-fail-by-end-of-2026",
+          "event_title": "English Premier League - Top Goalscorer ",
+          "event_slug": "english-premier-league-top-goalscorer",
           "yes_sum": 0.9,
           "profit_pct": 10.0,
           "profit_per_dollar_pct": 11.11,
-          "num_outcomes": 3,
+          "num_outcomes": 31,
           "outcomes": [
             {
-              "market_id": "1922875",
-              "slug": "will-keybank-fail-by-end-of-2026",
-              "question": "Will KeyBank fail by end of 2026?",
-              "yes_price": 0.365,
-              "volume": 6552
+              "market_id": "577160",
+              "slug": "will-erling-haaland-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Erling Haaland be the top goal scorer in the 2025\u201326 English Premier League",
+              "yes_price": 0.775,
+              "volume": 67869
             },
             {
-              "market_id": "1922869",
-              "slug": "will-truist-fail-by-end-of-2026",
-              "question": "Will Truist fail by end of 2026?",
-              "yes_price": 0.315,
-              "volume": 6298
+              "market_id": "577178",
+              "slug": "will-jarrod-bowen-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Jarrod Bowen be the top goal scorer in the 2025\u201326 English Premier League s",
+              "yes_price": 0.01,
+              "volume": 12000
             },
             {
-              "market_id": "1922873",
-              "slug": "will-lloyds-fail-by-end-of-2026",
-              "question": "Will Lloyds fail by end of 2026?",
-              "yes_price": 0.22,
-              "volume": 4973
+              "market_id": "577181",
+              "slug": "will-bruno-fernandes-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Bruno Fernandes be the top goal scorer in the 2025\u201326 English Premier Leagu",
+              "yes_price": 0.0085,
+              "volume": 17990
+            },
+            {
+              "market_id": "577162",
+              "slug": "will-viktor-gyokeres-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Viktor Gyokeres be the top goal scorer in the 2025\u201326 English Premier Leagu",
+              "yes_price": 0.0075,
+              "volume": 173750
+            },
+            {
+              "market_id": "577167",
+              "slug": "will-benjamin-sesko-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Benjamin Sesko be the top goal scorer in the 2025\u201326 English Premier League",
+              "yes_price": 0.0075,
+              "volume": 24311
+            },
+            {
+              "market_id": "577168",
+              "slug": "will-ollie-watkins-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Ollie Watkins be the top goal scorer in the 2025\u201326 English Premier League ",
+              "yes_price": 0.0065,
+              "volume": 33889
+            },
+            {
+              "market_id": "577189",
+              "slug": "will-kai-havertz-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Kai Havertz be the top goal scorer in the 2025\u201326 English Premier League se",
+              "yes_price": 0.0065,
+              "volume": 112548
+            },
+            {
+              "market_id": "577174",
+              "slug": "will-matheus-cunha-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Matheus Cunha be the top goal scorer in the 2025\u201326 English Premier League ",
+              "yes_price": 0.006,
+              "volume": 185870
+            },
+            {
+              "market_id": "577180",
+              "slug": "will-charalambos-kostoulas-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Charalambos Kostoulas be the top goal scorer in the 2025\u201326 English Premier",
+              "yes_price": 0.006,
+              "volume": 74867
+            },
+            {
+              "market_id": "577171",
+              "slug": "will-omar-marmoush-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Omar Marmoush be the top goal scorer in the 2025\u201326 English Premier League ",
+              "yes_price": 0.0055,
+              "volume": 19228
+            },
+            {
+              "market_id": "577172",
+              "slug": "will-jean-philippe-mateta-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Jean-Philippe Mateta be the top goal scorer in the 2025\u201326 English Premier ",
+              "yes_price": 0.0055,
+              "volume": 24486
+            },
+            {
+              "market_id": "577182",
+              "slug": "will-chris-wood-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Chris Wood be the top goal scorer in the 2025\u201326 English Premier League sea",
+              "yes_price": 0.0055,
+              "volume": 85403
+            },
+            {
+              "market_id": "577161",
+              "slug": "will-mohamed-salah-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Mohamed Salah be the top goal scorer in the 2025\u201326 English Premier League ",
+              "yes_price": 0.005,
+              "volume": 233233
+            },
+            {
+              "market_id": "577177",
+              "slug": "will-bryan-mbeumo-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Bryan Mbeumo be the top goal scorer in the 2025\u201326 English Premier League s",
+              "yes_price": 0.005,
+              "volume": 40935
+            },
+            {
+              "market_id": "577170",
+              "slug": "will-dominic-solanke-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Dominic Solanke be the top goal scorer in the 2025\u201326 English Premier Leagu",
+              "yes_price": 0.0045,
+              "volume": 161473
+            },
+            {
+              "market_id": "577184",
+              "slug": "will-thierno-barry-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Thierno Barry be the top goal scorer in the 2025\u201326 English Premier League ",
+              "yes_price": 0.0035,
+              "volume": 116784
+            },
+            {
+              "market_id": "577183",
+              "slug": "will-morgan-rogers-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Morgan Rogers be the top goal scorer in the 2025\u201326 English Premier League ",
+              "yes_price": 0.003,
+              "volume": 12729
+            },
+            {
+              "market_id": "577163",
+              "slug": "will-alexander-isak-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Alexander Isak be the top goal scorer in the 2025\u201326 English Premier League",
+              "yes_price": 0.003,
+              "volume": 146598
+            },
+            {
+              "market_id": "577166",
+              "slug": "will-cole-palmer-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Cole Palmer be the top goal scorer in the 2025\u201326 English Premier League se",
+              "yes_price": 0.003,
+              "volume": 14205
+            },
+            {
+              "market_id": "577176",
+              "slug": "will-bukayo-saka-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Bukayo Saka be the top goal scorer in the 2025\u201326 English Premier League se",
+              "yes_price": 0.003,
+              "volume": 130160
+            },
+            {
+              "market_id": "577179",
+              "slug": "will-evanilson-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Evanilson be the top goal scorer in the 2025\u201326 English Premier League seas",
+              "yes_price": 0.0025,
+              "volume": 16805
+            },
+            {
+              "market_id": "577185",
+              "slug": "will-mohammed-kudus-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Mohammed Kudus be the top goal scorer in the 2025\u201326 English Premier League",
+              "yes_price": 0.0025,
+              "volume": 20604
+            },
+            {
+              "market_id": "577187",
+              "slug": "will-brennan-johnson-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Brennan Johnson be the top goal scorer in the 2025\u201326 English Premier Leagu",
+              "yes_price": 0.0025,
+              "volume": 16332
+            },
+            {
+              "market_id": "577173",
+              "slug": "will-yoane-wissa-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Yoane Wissa be the top goal scorer in the 2025\u201326 English Premier League se",
+              "yes_price": 0.002,
+              "volume": 13291
+            },
+            {
+              "market_id": "577164",
+              "slug": "will-joao-pedro-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Joao Pedro be the top goal scorer in the 2025\u201326 English Premier League sea",
+              "yes_price": 0.0015,
+              "volume": 110208
+            },
+            {
+              "market_id": "577165",
+              "slug": "will-hugo-ekitike-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Hugo Ekitike be the top goal scorer in the 2025\u201326 English Premier League s",
+              "yes_price": 0.0015,
+              "volume": 152061
+            },
+            {
+              "market_id": "577186",
+              "slug": "will-nicolas-jackson-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Nicolas Jackson be the top goal scorer in the 2025\u201326 English Premier Leagu",
+              "yes_price": 0.0015,
+              "volume": 49345
+            },
+            {
+              "market_id": "577169",
+              "slug": "will-richarlison-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Richarlison be the top goal scorer in the 2025\u201326 English Premier League se",
+              "yes_price": 0.0015,
+              "volume": 30322
+            },
+            {
+              "market_id": "577188",
+              "slug": "will-cody-gakpo-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Cody Gakpo be the top goal scorer in the 2025\u201326 English Premier League sea",
+              "yes_price": 0.0015,
+              "volume": 15762
+            },
+            {
+              "market_id": "577175",
+              "slug": "will-liam-delap-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Liam Delap be the top goal scorer in the 2025\u201326 English Premier League sea",
+              "yes_price": 0.0015,
+              "volume": 17918
+            },
+            {
+              "market_id": "577190",
+              "slug": "will-florian-wirtz-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Florian Wirtz be the top goal scorer in the 2025\u201326 English Premier League ",
+              "yes_price": 0.0015,
+              "volume": 13476
             }
           ],
-          "url": "https://polymarket.com/event/which-banks-will-fail-by-end-of-2026",
-          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
+          "url": "https://polymarket.com/event/english-premier-league-top-goalscorer",
+          "strategy": "Buy YES on all 31 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
         },
         {
           "event_title": "AZ-01 Republican Primary Winner",
@@ -142,86 +338,11 @@
           "strategy": "Buy YES on all 12 outcomes. Total cost: $0.9020. One wins $1.00. Profit: $0.0980 (9.80%)"
         },
         {
-          "event_title": "Highest temperature in Ankara on April 13?",
-          "event_slug": "highest-temperature-in-ankara-on-april-13-2026",
-          "yes_sum": 0.904,
-          "profit_pct": 9.6,
-          "profit_per_dollar_pct": 10.62,
-          "num_outcomes": 9,
-          "outcomes": [
-            {
-              "market_id": "1924465",
-              "slug": "highest-temperature-in-ankara-on-april-13-2026-11c",
-              "question": "Will the highest temperature in Ankara be 11\u00b0C on April 13?",
-              "yes_price": 0.415,
-              "volume": 5606
-            },
-            {
-              "market_id": "1924466",
-              "slug": "highest-temperature-in-ankara-on-april-13-2026-12c",
-              "question": "Will the highest temperature in Ankara be 12\u00b0C on April 13?",
-              "yes_price": 0.39,
-              "volume": 5255
-            },
-            {
-              "market_id": "1924464",
-              "slug": "highest-temperature-in-ankara-on-april-13-2026-10c",
-              "question": "Will the highest temperature in Ankara be 10\u00b0C on April 13?",
-              "yes_price": 0.041,
-              "volume": 9041
-            },
-            {
-              "market_id": "1924467",
-              "slug": "highest-temperature-in-ankara-on-april-13-2026-13c",
-              "question": "Will the highest temperature in Ankara be 13\u00b0C on April 13?",
-              "yes_price": 0.04,
-              "volume": 5724
-            },
-            {
-              "market_id": "1924468",
-              "slug": "highest-temperature-in-ankara-on-april-13-2026-14c",
-              "question": "Will the highest temperature in Ankara be 14\u00b0C on April 13?",
-              "yes_price": 0.015,
-              "volume": 4423
-            },
-            {
-              "market_id": "1924473",
-              "slug": "highest-temperature-in-ankara-on-april-13-2026-19corhigher",
-              "question": "Will the highest temperature in Ankara be 19\u00b0C or higher on April 13?",
-              "yes_price": 0.0015,
-              "volume": 4630
-            },
-            {
-              "market_id": "1924463",
-              "slug": "highest-temperature-in-ankara-on-april-13-2026-9corbelow",
-              "question": "Will the highest temperature in Ankara be 9\u00b0C or below on April 13?",
-              "yes_price": 0.0005,
-              "volume": 15536
-            },
-            {
-              "market_id": "1924469",
-              "slug": "highest-temperature-in-ankara-on-april-13-2026-15c",
-              "question": "Will the highest temperature in Ankara be 15\u00b0C on April 13?",
-              "yes_price": 0.0005,
-              "volume": 3329
-            },
-            {
-              "market_id": "1924470",
-              "slug": "highest-temperature-in-ankara-on-april-13-2026-16c",
-              "question": "Will the highest temperature in Ankara be 16\u00b0C on April 13?",
-              "yes_price": 0.0005,
-              "volume": 2329
-            }
-          ],
-          "url": "https://polymarket.com/event/highest-temperature-in-ankara-on-april-13-2026",
-          "strategy": "Buy YES on all 9 outcomes. Total cost: $0.9040. One wins $1.00. Profit: $0.0960 (9.60%)"
-        },
-        {
           "event_title": "Next UK Prime Minister in 2026?",
           "event_slug": "next-uk-prime-minister-in-2026-122",
-          "yes_sum": 0.905,
-          "profit_pct": 9.5,
-          "profit_per_dollar_pct": 10.5,
+          "yes_sum": 0.9055,
+          "profit_pct": 9.45,
+          "profit_per_dollar_pct": 10.44,
           "num_outcomes": 20,
           "outcomes": [
             {
@@ -249,7 +370,7 @@
               "market_id": "1343462",
               "slug": "will-ed-miliband-be-the-next-prime-minister-of-the-united-kingdom-in-2026-745",
               "question": "Will Ed Miliband be the next Prime Minister of the United Kingdom in 2026?",
-              "yes_price": 0.0395,
+              "yes_price": 0.04,
               "volume": 182187
             },
             {
@@ -366,101 +487,7 @@
             }
           ],
           "url": "https://polymarket.com/event/next-uk-prime-minister-in-2026-122",
-          "strategy": "Buy YES on all 20 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
-        },
-        {
-          "event_title": "How many ships transit the Strait of Hormuz this week? (Apr 6-12)",
-          "event_slug": "how-many-ships-transit-the-strait-of-hormuz-this-week-apr-6-12",
-          "yes_sum": 0.907,
-          "profit_pct": 9.3,
-          "profit_per_dollar_pct": 10.25,
-          "num_outcomes": 6,
-          "outcomes": [
-            {
-              "market_id": "1846507",
-              "slug": "will-60-or-more-ships-transit-the-strait-of-hormuz-between-april-6-april-12",
-              "question": "Will 60 or more ships transit the Strait of Hormuz between April 6-April 12?",
-              "yes_price": 0.62,
-              "volume": 65891
-            },
-            {
-              "market_id": "1846506",
-              "slug": "will-50-59-ships-transit-the-strait-of-hormuz-between-april-6-april-12",
-              "question": "Will 50-59 ships transit the Strait of Hormuz between April 6-April 12?",
-              "yes_price": 0.1335,
-              "volume": 13129
-            },
-            {
-              "market_id": "1846505",
-              "slug": "will-40-49-ships-transit-the-strait-of-hormuz-between-april-6-april-12",
-              "question": "Will 40-49 ships transit the Strait of Hormuz between April 6-April 12?",
-              "yes_price": 0.0975,
-              "volume": 26253
-            },
-            {
-              "market_id": "1846504",
-              "slug": "will-30-39-ships-transit-the-strait-of-hormuz-between-april-6-april-12",
-              "question": "Will 30-39 ships transit the Strait of Hormuz between April 6-April 12?",
-              "yes_price": 0.03,
-              "volume": 21181
-            },
-            {
-              "market_id": "1846503",
-              "slug": "will-20-29-ships-transit-the-strait-of-hormuz-between-april-6-april-12",
-              "question": "Will 20-29 ships transit the Strait of Hormuz between April 6-April 12?",
-              "yes_price": 0.0185,
-              "volume": 24448
-            },
-            {
-              "market_id": "1846502",
-              "slug": "will-fewer-than-20-ships-transit-the-strait-of-hormuz-between-april-6-april-12",
-              "question": "Will fewer than 20 ships transit the Strait of Hormuz between April 6-April 12?",
-              "yes_price": 0.0075,
-              "volume": 49193
-            }
-          ],
-          "url": "https://polymarket.com/event/how-many-ships-transit-the-strait-of-hormuz-this-week-apr-6-12",
-          "strategy": "Buy YES on all 6 outcomes. Total cost: $0.9070. One wins $1.00. Profit: $0.0930 (9.30%)"
-        },
-        {
-          "event_title": "Who will close Warner Bros. acquisition?",
-          "event_slug": "who-will-close-warner-bros-acquisition",
-          "yes_sum": 0.9075,
-          "profit_pct": 9.25,
-          "profit_per_dollar_pct": 10.19,
-          "num_outcomes": 4,
-          "outcomes": [
-            {
-              "market_id": "897019",
-              "slug": "will-paramount-close-warner-bros-acquisition",
-              "question": "Will Paramount close Warner Bros acquisition?",
-              "yes_price": 0.72,
-              "volume": 440836
-            },
-            {
-              "market_id": "897030",
-              "slug": "no-listed-company-closes-warner-bros-acquisition-by-june-30-2027",
-              "question": "No listed company closes Warner Bros acquisition by June 30, 2027",
-              "yes_price": 0.165,
-              "volume": 157390
-            },
-            {
-              "market_id": "897017",
-              "slug": "will-netflix-close-warner-bros-acquisition",
-              "question": "Will Netflix close Warner Bros acquisition?",
-              "yes_price": 0.0145,
-              "volume": 219920
-            },
-            {
-              "market_id": "897018",
-              "slug": "will-comcast-close-warner-bros-acquisition",
-              "question": "Will Comcast close Warner Bros acquisition?",
-              "yes_price": 0.008,
-              "volume": 173873
-            }
-          ],
-          "url": "https://polymarket.com/event/who-will-close-warner-bros-acquisition",
-          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9075. One wins $1.00. Profit: $0.0925 (9.25%)"
+          "strategy": "Buy YES on all 20 outcomes. Total cost: $0.9055. One wins $1.00. Profit: $0.0945 (9.45%)"
         },
         {
           "event_title": "Bulgarian Parliamentary Election: Which Parties Enter Parliament?",
@@ -529,7 +556,7 @@
               "slug": "nhl-buf-chi-2026-04-13-total-7pt5",
               "question": "Sabres vs. Blackhawks: O/U 7.5",
               "yes_price": 0.255,
-              "volume": 19925
+              "volume": 20004
             }
           ],
           "url": "https://polymarket.com/event/nhl-buf-chi-2026-04-13",
@@ -593,15 +620,107 @@
           ],
           "url": "https://polymarket.com/event/la-05-republican-primary-winner",
           "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9105. One wins $1.00. Profit: $0.0895 (8.95%)"
+        },
+        {
+          "event_title": "Who will close Warner Bros. acquisition?",
+          "event_slug": "who-will-close-warner-bros-acquisition",
+          "yes_sum": 0.913,
+          "profit_pct": 8.7,
+          "profit_per_dollar_pct": 9.53,
+          "num_outcomes": 4,
+          "outcomes": [
+            {
+              "market_id": "897019",
+              "slug": "will-paramount-close-warner-bros-acquisition",
+              "question": "Will Paramount close Warner Bros acquisition?",
+              "yes_price": 0.72,
+              "volume": 440836
+            },
+            {
+              "market_id": "897030",
+              "slug": "no-listed-company-closes-warner-bros-acquisition-by-june-30-2027",
+              "question": "No listed company closes Warner Bros acquisition by June 30, 2027",
+              "yes_price": 0.165,
+              "volume": 157390
+            },
+            {
+              "market_id": "897017",
+              "slug": "will-netflix-close-warner-bros-acquisition",
+              "question": "Will Netflix close Warner Bros acquisition?",
+              "yes_price": 0.02,
+              "volume": 219920
+            },
+            {
+              "market_id": "897018",
+              "slug": "will-comcast-close-warner-bros-acquisition",
+              "question": "Will Comcast close Warner Bros acquisition?",
+              "yes_price": 0.008,
+              "volume": 173873
+            }
+          ],
+          "url": "https://polymarket.com/event/who-will-close-warner-bros-acquisition",
+          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9130. One wins $1.00. Profit: $0.0870 (8.70%)"
+        },
+        {
+          "event_title": "Montana Senate Election Winner",
+          "event_slug": "montana-senate-election-winner",
+          "yes_sum": 0.9135,
+          "profit_pct": 8.65,
+          "profit_per_dollar_pct": 9.47,
+          "num_outcomes": 2,
+          "outcomes": [
+            {
+              "market_id": "630832",
+              "slug": "will-the-republicans-win-the-montana-senate-race-in-2026",
+              "question": "Will the Republicans win the Montana Senate race in 2026?",
+              "yes_price": 0.795,
+              "volume": 34812
+            },
+            {
+              "market_id": "630831",
+              "slug": "will-the-democrats-win-the-montana-senate-race-in-2026",
+              "question": "Will the Democrats win the Montana Senate race in 2026?",
+              "yes_price": 0.1185,
+              "volume": 26213
+            }
+          ],
+          "url": "https://polymarket.com/event/montana-senate-election-winner",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9135. One wins $1.00. Profit: $0.0865 (8.65%)"
+        },
+        {
+          "event_title": "Ella Langley 'Dandelion' First Week Album Sales?",
+          "event_slug": "ella-langley-dandelion-first-week-album-sales",
+          "yes_sum": 0.9135,
+          "profit_pct": 8.65,
+          "profit_per_dollar_pct": 9.47,
+          "num_outcomes": 2,
+          "outcomes": [
+            {
+              "market_id": "1911977",
+              "slug": "will-dandelion-ella-langley-debut-week-album-sales-be-at-least-140k",
+              "question": "Will \"Dandelion\" - Ella Langley debut week album sales be at least 140k?",
+              "yes_price": 0.91,
+              "volume": 14310
+            },
+            {
+              "market_id": "1911972",
+              "slug": "will-dandelion-ella-langley-debut-week-album-sales-be-less-than-60k",
+              "question": "Will \"Dandelion\" - Ella Langley debut week album sales be less than 60k?",
+              "yes_price": 0.0035,
+              "volume": 1824
+            }
+          ],
+          "url": "https://polymarket.com/event/ella-langley-dandelion-first-week-album-sales",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9135. One wins $1.00. Profit: $0.0865 (8.65%)"
         }
       ],
       "stats": {
         "total_events": 3000,
-        "checked_multi_outcome": 1867,
+        "checked_multi_outcome": 1871,
         "skipped_single_outcome": 634,
-        "opportunities_found": 136,
+        "opportunities_found": 125,
         "best_profit_pct": 10.0,
-        "scanned_at": "2026-04-13 11:32 UTC"
+        "scanned_at": "2026-04-13 11:36 UTC"
       }
     },
     {
