@@ -672,7 +672,7 @@
       if (newsW+newsL+newsO > 0) html += '<span style="background:#fff5ee;color:#cc5500;padding:3px 8px;border-radius:3px;font-size:0.75em;font-weight:600">&#9679; NEWS SIGNAL ('+newsW+'W/'+newsL+'L · '+newsO+' open)</span>';
       const arbWon = won.filter(t=>t.type==="ARB").length, arbLost = lost.filter(t=>t.type==="ARB").length, arbOpen = open.filter(t=>t.type==="ARB").length;
       const arbPnl = trades.filter(t=>t.type==="ARB"&&(t.status==="WON"||t.status==="LOST")).reduce((s,t)=>s+(t.pnl||0),0);
-      html += '<span style="background:#fff3e0;color:#b35a00;padding:3px 8px;border-radius:3px;font-size:0.75em;font-weight:600">&#9679; ARB KALSHI/PM ('+arbWon+'W/'+arbLost+'L · '+arbOpen+' open)</span>';
+      if (arbWon+arbLost+arbOpen > 0) html += '<span style="background:#fff3e0;color:#b35a00;padding:3px 8px;border-radius:3px;font-size:0.75em;font-weight:600">&#9679; ARB KALSHI/PM ('+arbWon+'W/'+arbLost+'L · '+arbOpen+' open)</span>';
       html += '</div>';
       // ARB panel — only show if any ARB trades exist
       if (arbWon + arbLost + arbOpen > 0) {
@@ -1039,13 +1039,13 @@
       }
       signalHtml += '</div></div>';
 
-      // Trade table
+      // Trade table — uses global engLabel()/engColor() as single source of truth
+      // (removed local engineLabel duplicate that had wrong colors and missing engines)
       const engineLabel = t => {
         const s = t.source||t.type||'';
         if (s.startsWith('copy:')) return '<span style="color:#88aaff;font-size:0.75em">COPY: '+s.slice(5).slice(0,14)+'</span>';
-        if (t.type==='NEAR_CERTAIN') return '<span style="color:#aaa;font-size:0.75em">NEAR-CERTAIN</span>';
-        if (t.type==='SHORT_TERM')   return '<span style="color:#00ff88;font-size:0.75em">WALLET COPY SHORT</span>';
-        return '<span style="color:#888;font-size:0.75em">'+(t.type||'—')+'</span>';
+        const c = engColor(t.type);
+        return '<span style="color:'+c+';font-size:0.75em">'+engLabel(t.type)+'</span>';
       };
 
       let html = engHtml + signalHtml;
