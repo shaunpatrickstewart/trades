@@ -1,97 +1,101 @@
 {
-  "last_scan": "2026-04-13T23:29:20.388388+00:00",
-  "scan_seconds": 26.1,
-  "markets_scanned": 122,
-  "open_positions": 93,
+  "last_scan": "2026-04-13T23:32:12.423070+00:00",
+  "scan_seconds": 26.8,
+  "markets_scanned": 104,
+  "open_positions": 74,
   "signals": [
     {
-      "id": "sig_717865",
-      "timestamp": "2026-04-13T23:29:01.741415+00:00",
+      "id": "sig_901793",
+      "timestamp": "2026-04-13T23:32:05.669409+00:00",
       "source": "PERPLEXITY",
-      "headline": "TRUMP ORDERS US NAVY BLOCKADE OF STRAIT OF HORMUZ AFTER IRAN CEASEFIRE TALKS COLLAPSE IN PAKISTAN | NO | HIGH confidence",
-      "raw": "TRUMP ORDERS US NAVY BLOCKADE OF STRAIT OF HORMUZ AFTER IRAN CEASEFIRE TALKS COLLAPSE IN PAKISTAN | NO | HIGH confidence**\n\nCeasefire talks between the US and Iran stalled over the weekend in Islamabad, Pakistan, prompting President Trump to announce and implement a naval blockade on Iranian ports in the Strait of Hormuz starting this morning (April 13, 2026).[1][2][3][4] Trump vowed to sink Irani",
-      "direction": "YES",
+      "headline": "Based on the search results provided, I cannot identify breaking news that has been \"just confirmed, announced, or resol",
+      "raw": "Based on the search results provided, I cannot identify breaking news that has been \"just confirmed, announced, or resolved\" as of April 13, 2026, 11 PM UTC.\n\nThe search results contain analysis and speculation from April 8-11, 2026, but do not report any new developments occurring today. The most recent substantive content discusses:",
+      "direction": null,
       "confidence": 0.9,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces end of military operations against Iran by J",
-        "Trump announces end of military operations against Iran by A"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_729848",
-      "timestamp": "2026-04-13T23:29:13.724577+00:00",
-      "source": "PERPLEXITY",
-      "headline": "XRP Options Expiry Looms with $418M Open Interest at $1",
-      "raw": "XRP Options Expiry Looms with $418M Open Interest at $1.50 Strike | NO | LOW confidence**  \nApril 24 expiry features bullish call dominance (put/call ratio 0.72) and 68% implied volatility (vs. ETH's 61%), but no instant resolution\u2014delta-hedging may drive volatility without confirmed price move yet.[1]",
-      "direction": "NO",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will the price of XRP be above $1.10 on April 14?",
-        "Will the price of XRP be between $1.60 and $1.70 on April 14",
-        "Will the price of XRP be above $1.70 on April 15?"
-      ],
-      "action": "ENTER",
+      "matched_markets": [],
+      "action": "ALERT",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_722987",
-      "timestamp": "2026-04-13T23:29:06.863382+00:00",
+      "id": "sig_901901",
+      "timestamp": "2026-04-13T23:32:05.777193+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot provide the breaking news update you're requesting",
-      "raw": "I cannot provide the breaking news update you're requesting. The search results provided discuss a **New Jersey congressional special election** (NJ-11 district), not a New Mexico gubernatorial race. The results cover fundraising and campaign developments between Democrat Analilia Mejia and Republican Joe Hathaway in advance of their special election for a House seat previously held by Gov. Mikie ",
-      "direction": null,
+      "headline": "**Institutional activity**: References to institutional capital positioning and ETF developments, but these appear to be",
+      "raw": "**Institutional activity**: References to institutional capital positioning and ETF developments, but these appear to be ongoing trends rather than new announcements.[5]\n\nTo provide the breaking news format you requested (HEADLINE | YES or NO | HIGH/MED/LOW confidence), I would need search results containing actual developments from today, April 13, 2026. The current results do not contain confirm",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_907524",
+      "timestamp": "2026-04-13T23:32:11.400972+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Bank of Korea Holds Benchmark Interest Rate Steady at 2",
+      "raw": "Bank of Korea Holds Benchmark Interest Rate Steady at 2.5% on April 10, 2026 Amid Inflation Pressures from Iran War and Oil Surge | YES | HIGH confidence** [4][5]\n\nSouth Korea's March 2026 annual inflation rate rose to 2.2% year-over-year, up from 2.0% in prior months but below the 2.4% market forecast, with core inflation easing to 2.2%.[1][3] The Bank of Korea's Monetary Policy Board unanimously",
+      "direction": "YES",
+      "confidence": 0.78,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Will Iran strike Iraq by April 30, 2026?",
+        "Trump announces US x Iran ceasefire end by April 21, 2026?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_894208",
+      "timestamp": "2026-04-13T23:31:58.084817+00:00",
+      "source": "PERPLEXITY",
+      "headline": "NO recent breaking news confirmed, announced, or resolved",
+      "raw": "NO recent breaking news confirmed, announced, or resolved.**[1][2][3][4]\n\nSearch results cover the 2022 New Mexico gubernatorial election, where Democrat Michelle Lujan Grisham defeated Republican Mark Ronchetti (52.0% to 45.6%), with Ronchetti winning the GOP primary in June 2022.[1][2][3] No mentions of \"Will Duke Rodriguez\" or any 2026 election developments appear; upcoming elections are schedu",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [
-        "Will J.D. Vance win the 2028 Republican presidential nominat",
-        "Will Joe Hathaway win the NJ-11 special election?"
+        "Will Duke Rodriguez win the 2026 New Mexico Governor Republi"
       ],
       "action": "ALERT",
       "x_link": null,
       "category": "POLITICS"
     },
     {
-      "id": "sig_729809",
-      "timestamp": "2026-04-13T23:29:13.685113+00:00",
+      "id": "sig_901825",
+      "timestamp": "2026-04-13T23:32:05.701550+00:00",
       "source": "PERPLEXITY",
-      "headline": "CLARITY Act Clears Hurdle, Classifying XRP as Digital Commodity | YES | MED confidence**",
-      "raw": "CLARITY Act Clears Hurdle, Classifying XRP as Digital Commodity | YES | MED confidence**  \nThe bill advanced past a key legislative step, targeting late-April Senate Banking Committee markup and mid-2026 floor vote, enabling banks/asset managers to scale XRP exposure; Galaxy's Alex Thorn notes April as critical, with XRP leading ETF inflows ($119.6M weekly, $3.3M on April 12).[5][3]",
-      "direction": "YES",
+      "headline": "**Legislative developments**: The Senate Banking Committee's markup of the Clarity Act was referenced as a potential cat",
+      "raw": "**Legislative developments**: The Senate Banking Committee's markup of the Clarity Act was referenced as a potential catalyst, with April 13 mentioned as the Senate's return date in a video published April 8.[4] However, the search results do not confirm whether any vote or action actually occurred today.",
+      "direction": null,
       "confidence": 0.65,
-      "matched_markets": [
-        "Will the price of XRP be above $1.10 on April 14?",
-        "Will the price of XRP be between $1.60 and $1.70 on April 14",
-        "Will the price of XRP be above $1.70 on April 15?"
-      ],
+      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_735510",
-      "timestamp": "2026-04-13T23:29:19.386729+00:00",
+      "id": "sig_901861",
+      "timestamp": "2026-04-13T23:32:05.737835+00:00",
       "source": "PERPLEXITY",
-      "headline": "SOUTH KOREA INFLATION RISES TO 2",
-      "raw": "SOUTH KOREA INFLATION RISES TO 2.2% IN MARCH 2026, UP FROM 2.0% IN PRIOR MONTHS | NO | MED confidence**\n\nSouth Korea's annual inflation rate increased to 2.2% in March 2026 from 2.0% in January and February, remaining below market forecasts of 2.4% but exceeding the Bank of Korea's 2.0% target amid oil price pressures from Middle East tensions.[3] The Bank of Korea held its benchmark rate at 2.5% ",
-      "direction": "YES",
+      "headline": "**Price action**: XRP traded around $1",
+      "raw": "**Price action**: XRP traded around $1.30-$1.40 as of April 10-11, with technical resistance identified at $1.60.[2][6]",
+      "direction": null,
       "confidence": 0.65,
       "matched_markets": [
-        "Will the price of XRP be above $1.10 on April 14?",
+        "Will the price of XRP be between $1.60 and $1.70 on April 14",
         "Will the price of XRP be above $1.70 on April 15?",
-        "Will the price of Solana be above $110 on April 19?"
+        "Will the price of XRP be greater than $1.80 on April 16?"
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "CRYPTO"
     }
   ],
   "stats": {
-    "enter": 2,
-    "alert": 3,
+    "enter": 0,
+    "alert": 6,
     "watch": 0,
     "high_conf": 2
   }
