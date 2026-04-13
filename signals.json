@@ -1,47 +1,32 @@
 {
-  "last_scan": "2026-04-13T01:36:19.056809+00:00",
-  "scan_seconds": 25.4,
+  "last_scan": "2026-04-13T01:44:50.041586+00:00",
+  "scan_seconds": 25.1,
   "markets_scanned": 48,
   "open_positions": 17,
   "signals": [
     {
-      "id": "sig_944628",
-      "timestamp": "2026-04-13T01:36:08.583884+00:00",
+      "id": "sig_459737",
+      "timestamp": "2026-04-13T01:44:43.691653+00:00",
       "source": "PERPLEXITY",
-      "headline": "NM Supreme Court Unanimously Confirms Republican Gubernatorial Candidate Duke Rodriguez on June Primary Ballot** | **YES",
-      "raw": "NM Supreme Court Unanimously Confirms Republican Gubernatorial Candidate Duke Rodriguez on June Primary Ballot** | **YES** | **HIGH** confidence[1]\n\nThe New Mexico Supreme Court issued a unanimous ruling allowing Duke Rodriguez to remain on the Republican primary ballot for governor, overturning challenges and securing his candidacy alongside Greg Hall and Doug Turner[1]. This open-seat race stems",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Duke Rodriguez win the 2026 New Mexico Governor Republi",
-        "2026 Balance of Power: R Senate, D House"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_948910",
-      "timestamp": "2026-04-13T01:36:12.865148+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Bitcoin ETFs Record $69",
-      "raw": "Bitcoin ETFs Record $69.59M Inflows in April 2026 | NO | HIGH confidence**[1]",
+      "headline": "Bitcoin Regains Ground After Hitting April Low; Fundstrat's Tom Lee Says Ethereum Poised for 'Supercycle' | NO | MED con",
+      "raw": "Bitcoin Regains Ground After Hitting April Low; Fundstrat's Tom Lee Says Ethereum Poised for 'Supercycle' | NO | MED confidence**[1]\n\nBitcoin stabilized above $95,000 on Monday after briefly dropping to $93,000\u2014its lowest since April\u2014while paring a 0.3% decline to $95,636, amid investor focus on Federal Reserve interest rate cues.[1] Ethereum fell 0.5% to $3,195.93, with spot ETFs recording $729 m",
       "direction": "NO",
-      "confidence": 0.65,
+      "confidence": 0.9,
       "matched_markets": [
-        "Will the price of Bitcoin be above $72,000 on April 13?",
-        "Will the price of Bitcoin be between $72,000 and $74,000 on April 14?"
+        "Will Apple (AAPL) finish week of April 13 above $255?",
+        "Will the price of Bitcoin be between $72,000 and $74,000 on April 14?",
+        "Will the price of Ethereum be above $2,200 on April 15?"
       ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_948926",
-      "timestamp": "2026-04-13T01:36:12.881345+00:00",
+      "id": "sig_447824",
+      "timestamp": "2026-04-13T01:44:31.778426+00:00",
       "source": "PERPLEXITY",
-      "headline": "Iran Ceasefire Collapses, Triggering $427M Short Liquidations and Bullish BTC Price Shift | YES | MED confidence**[2]",
-      "raw": "Iran Ceasefire Collapses, Triggering $427M Short Liquidations and Bullish BTC Price Shift | YES | MED confidence**[2]",
+      "headline": "HEADLINE | YES or NO | HIGH/MED/LOW confidence**",
+      "raw": "HEADLINE | YES or NO | HIGH/MED/LOW confidence**  \nCeasefire Talks Collapse in Islamabad as Iran Rejects US Nuclear Demands | NO | HIGH",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
@@ -49,44 +34,28 @@
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_948947",
-      "timestamp": "2026-04-13T01:36:12.902196+00:00",
+      "id": "sig_453658",
+      "timestamp": "2026-04-13T01:44:37.612102+00:00",
       "source": "PERPLEXITY",
-      "headline": "Bitcoin Trades at $72,204 on April 10, Up from Prior Day Amid Volatility | NO | HIGH confidence**[4]",
-      "raw": "Bitcoin Trades at $72,204 on April 10, Up from Prior Day Amid Volatility | NO | HIGH confidence**[4]",
+      "headline": "I cannot provide the breaking news format you've requested because the search results provided are outdated relative to",
+      "raw": "I cannot provide the breaking news format you've requested because the search results provided are outdated relative to your query's parameters.\n\nThe most recent event in the search results is from **January 14-15, 2026**, when Vice President JD Vance cast a tie-breaking vote to block a bipartisan war powers resolution on Venezuela[1][2]. However, you're asking for breaking news \"RIGHT NOW\" on Apr",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
-        "Will the price of Bitcoin be above $72,000 on April 13?",
-        "Will the price of Bitcoin be between $72,000 and $74,000 on April 14?"
+        "2026 Balance of Power: R Senate, D House"
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_954085",
-      "timestamp": "2026-04-13T01:36:18.040813+00:00",
-      "source": "PERPLEXITY",
-      "headline": "OKC Thunder Win 2025 NBA Finals in Game 7 Over Pacers (103-91)** | YES | HIGH confidence[1]",
-      "raw": "OKC Thunder Win 2025 NBA Finals in Game 7 Over Pacers (103-91)** | YES | HIGH confidence[1]\n\nThe Oklahoma City Thunder secured their first franchise title since relocating, defeating the Indiana Pacers in Game 7 of the 2025 NBA Finals behind Shai Gilgeous-Alexander's MVP performance and a dominant third quarter (34-20 run)[1]. This caps OKC's historic 68-win regular season\u2014one of the NBA's seven b",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the Oklahoma City Thunder win the 2026 NBA Finals?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
+      "category": "POLITICS"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 5,
+    "enter": 1,
+    "alert": 2,
     "watch": 0,
-    "high_conf": 0
+    "high_conf": 1
   }
 }
