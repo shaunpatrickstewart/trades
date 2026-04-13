@@ -8,16 +8,42 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 129 categorical arb opportunities found\nScanned 3000 events (1854 multi-outcome) at 2026-04-13 09:13 UTC\nBest: 9.9% profit on 'AZ-01 Republican Primary Winner' \u2014 buy YES on all 12 outcomes (sum=0.901)\nStrategy: Buy YES on all 12 outcomes. Total cost: $0.9010. One wins $1.00. Profit: $0.0990 (9.90%)\n2nd: 9.9% on 'Oklahoma Governor Republican Primary Winner'",
+      "result": "LIVE \u2014 134 categorical arb opportunities found\nScanned 3000 events (1859 multi-outcome) at 2026-04-13 10:43 UTC\nBest: 10.0% profit on 'Chongqing Tonglianglong FC vs. Shenzhen Xinpengcheng FC - More Markets' \u2014 buy YES on all 2 outcomes (sum=0.9)\nStrategy: Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 9.85% on 'AZ-01 Republican Primary Winner'",
       "priority": "HIGH",
-      "last_scan": "2026-04-13 09:13 UTC",
+      "last_scan": "2026-04-13 10:43 UTC",
       "opportunities": [
+        {
+          "event_title": "Chongqing Tonglianglong FC vs. Shenzhen Xinpengcheng FC - More Markets",
+          "event_slug": "chi-ton-xin-2026-04-17-more-markets",
+          "yes_sum": 0.9,
+          "profit_pct": 10.0,
+          "profit_per_dollar_pct": 11.11,
+          "num_outcomes": 2,
+          "outcomes": [
+            {
+              "market_id": "1673015",
+              "slug": "chi-ton-xin-2026-04-17-total-1pt5",
+              "question": "Chongqing Tonglianglong FC vs. Shenzhen Xinpengcheng FC: O/U 1.5",
+              "yes_price": 0.745,
+              "volume": 1088
+            },
+            {
+              "market_id": "1673009",
+              "slug": "chi-ton-xin-2026-04-17-spread-home-2pt5",
+              "question": "Spread: Chongqing Tonglianglong FC (-2.5)",
+              "yes_price": 0.155,
+              "volume": 2798
+            }
+          ],
+          "url": "https://polymarket.com/event/chi-ton-xin-2026-04-17-more-markets",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
+        },
         {
           "event_title": "AZ-01 Republican Primary Winner",
           "event_slug": "az-01-republican-primary-winner",
-          "yes_sum": 0.901,
-          "profit_pct": 9.9,
-          "profit_per_dollar_pct": 10.99,
+          "yes_sum": 0.9015,
+          "profit_pct": 9.85,
+          "profit_per_dollar_pct": 10.93,
           "num_outcomes": 12,
           "outcomes": [
             {
@@ -31,7 +57,7 @@
               "market_id": "704343",
               "slug": "will-joseph-chaplik-be-the-republican-nominee-for-az-01",
               "question": "Will Joseph Chaplik be the Republican nominee for AZ-01?",
-              "yes_price": 0.0725,
+              "yes_price": 0.073,
               "volume": 8148
             },
             {
@@ -106,90 +132,186 @@
             }
           ],
           "url": "https://polymarket.com/event/az-01-republican-primary-winner",
-          "strategy": "Buy YES on all 12 outcomes. Total cost: $0.9010. One wins $1.00. Profit: $0.0990 (9.90%)"
+          "strategy": "Buy YES on all 12 outcomes. Total cost: $0.9015. One wins $1.00. Profit: $0.0985 (9.85%)"
         },
         {
-          "event_title": "Oklahoma Governor Republican Primary Winner",
-          "event_slug": "oklahoma-governor-republican-primary-winner",
-          "yes_sum": 0.901,
-          "profit_pct": 9.9,
-          "profit_per_dollar_pct": 10.99,
-          "num_outcomes": 8,
+          "event_title": "NHL Hart Memorial Trophy Winner",
+          "event_slug": "nhl-2025-26-hart-memorial-trophy",
+          "yes_sum": 0.9015,
+          "profit_pct": 9.85,
+          "profit_per_dollar_pct": 10.93,
+          "num_outcomes": 18,
           "outcomes": [
             {
-              "market_id": "825091",
-              "slug": "will-genter-drummond-win-the-2026-oklahoma-governor-republican-primary-election",
-              "question": "Will Genter Drummond win the 2026 Oklahoma Governor Republican primary election?",
-              "yes_price": 0.38,
-              "volume": 113290
+              "market_id": "645259",
+              "slug": "nhl-2025-26-hart-memorial-trophy-nathan-mackinnon",
+              "question": "Will Nathan MacKinnon win the 2025\u20132026 NHL Hart Memorial Trophy?",
+              "yes_price": 0.57,
+              "volume": 41414
             },
             {
-              "market_id": "825094",
-              "slug": "will-mike-mazzei-win-the-2026-oklahoma-governor-republican-primary-election",
-              "question": "Will Mike Mazzei win the 2026 Oklahoma Governor Republican primary election?",
-              "yes_price": 0.3195,
-              "volume": 3102
+              "market_id": "645258",
+              "slug": "nhl-2025-26-hart-memorial-trophy-connor-mcdavid",
+              "question": "Will Connor McDavid win the 2025\u20132026 NHL Hart Memorial Trophy?",
+              "yes_price": 0.1895,
+              "volume": 37553
             },
             {
-              "market_id": "825092",
-              "slug": "will-chip-keating-win-the-2026-oklahoma-governor-republican-primary-election",
-              "question": "Will Chip Keating win the 2026 Oklahoma Governor Republican primary election?",
-              "yes_price": 0.0945,
-              "volume": 2602
+              "market_id": "645262",
+              "slug": "nhl-2025-26-hart-memorial-trophy-nikita-kucherov",
+              "question": "Will Nikita Kucherov win the 2025\u20132026 NHL Hart Memorial Trophy?",
+              "yes_price": 0.0975,
+              "volume": 28348
             },
             {
-              "market_id": "825095",
-              "slug": "will-charles-mccall-win-the-2026-oklahoma-governor-republican-primary-election",
-              "question": "Will Charles McCall win the 2026 Oklahoma Governor Republican primary election?",
-              "yes_price": 0.09,
-              "volume": 113964
+              "market_id": "645298",
+              "slug": "nhl-2025-26-hart-memorial-trophy-macklin-celebrini",
+              "question": "Will Macklin Celebrini win the 2025\u20132026 NHL Hart Memorial Trophy?",
+              "yes_price": 0.036,
+              "volume": 48459
             },
             {
-              "market_id": "825098",
-              "slug": "will-matt-pinnell-win-the-2026-oklahoma-governor-republican-primary-election",
-              "question": "Will Matt Pinnell win the 2026 Oklahoma Governor Republican primary election?",
-              "yes_price": 0.0085,
-              "volume": 6691
+              "market_id": "645313",
+              "slug": "nhl-2025-26-hart-memorial-trophy-zach-werenski",
+              "question": "Will Zach Werenski win the 2025\u20132026 NHL Hart Memorial Trophy?",
+              "yes_price": 0.002,
+              "volume": 18070
             },
             {
-              "market_id": "825096",
-              "slug": "will-jake-merrick-win-the-2026-oklahoma-governor-republican-primary-election",
-              "question": "Will Jake Merrick win the 2026 Oklahoma Governor Republican primary election?",
-              "yes_price": 0.0035,
-              "volume": 3497
+              "market_id": "645264",
+              "slug": "nhl-2025-26-hart-memorial-trophy-david-pastrnak",
+              "question": "Will David Pastrnak win the 2025\u20132026 NHL Hart Memorial Trophy?",
+              "yes_price": 0.0005,
+              "volume": 8036
             },
             {
-              "market_id": "825093",
-              "slug": "will-leisa-mitchell-haynes-win-the-2026-oklahoma-governor-republican-primary-election",
-              "question": "Will Leisa Mitchell Haynes win the 2026 Oklahoma Governor Republican primary ele",
-              "yes_price": 0.0025,
-              "volume": 1610
+              "market_id": "645265",
+              "slug": "nhl-2025-26-hart-memorial-trophy-cale-makar",
+              "question": "Will Cale Makar win the 2025\u20132026 NHL Hart Memorial Trophy?",
+              "yes_price": 0.0005,
+              "volume": 17975
             },
             {
-              "market_id": "825097",
-              "slug": "will-ryan-walters-win-the-2026-oklahoma-governor-republican-primary-election",
-              "question": "Will Ryan Walters win the 2026 Oklahoma Governor Republican primary election?",
-              "yes_price": 0.0025,
-              "volume": 5321
+              "market_id": "645267",
+              "slug": "nhl-2025-26-hart-memorial-trophy-jack-eichel",
+              "question": "Will Jack Eichel win the 2025\u20132026 NHL Hart Memorial Trophy?",
+              "yes_price": 0.0005,
+              "volume": 4860
+            },
+            {
+              "market_id": "645281",
+              "slug": "nhl-2025-26-hart-memorial-trophy-andrei-vasilevskiy",
+              "question": "Will Andrei Vasilevskiy win the 2025\u20132026 NHL Hart Memorial Trophy?",
+              "yes_price": 0.0005,
+              "volume": 15121
+            },
+            {
+              "market_id": "645294",
+              "slug": "nhl-2025-26-hart-memorial-trophy-ryan-o-reilly",
+              "question": "Will Ryan O'Reilly win the 2025\u20132026 NHL Hart Memorial Trophy?",
+              "yes_price": 0.0005,
+              "volume": 2715
+            },
+            {
+              "market_id": "645297",
+              "slug": "nhl-2025-26-hart-memorial-trophy-jason-robertson",
+              "question": "Will Jason Robertson win the 2025\u20132026 NHL Hart Memorial Trophy?",
+              "yes_price": 0.0005,
+              "volume": 8819
+            },
+            {
+              "market_id": "645312",
+              "slug": "nhl-2025-26-hart-memorial-trophy-sidney-crosby",
+              "question": "Will Sidney Crosby win the 2025\u20132026 NHL Hart Memorial Trophy?",
+              "yes_price": 0.0005,
+              "volume": 6027
+            },
+            {
+              "market_id": "645326",
+              "slug": "nhl-2025-26-hart-memorial-trophy-jordan-binnington",
+              "question": "Will Jordan Binnington win the 2025\u20132026 NHL Hart Memorial Trophy?",
+              "yes_price": 0.0005,
+              "volume": 3718
+            },
+            {
+              "market_id": "645328",
+              "slug": "nhl-2025-26-hart-memorial-trophy-ilya-sorokin",
+              "question": "Will Ilya Sorokin win the 2025\u20132026 NHL Hart Memorial Trophy?",
+              "yes_price": 0.0005,
+              "volume": 3464
+            },
+            {
+              "market_id": "645332",
+              "slug": "nhl-2025-26-hart-memorial-trophy-mackenzie-blackwood",
+              "question": "Will Mackenzie Blackwood win the 2025\u20132026 NHL Hart Memorial Trophy?",
+              "yes_price": 0.0005,
+              "volume": 4163
+            },
+            {
+              "market_id": "645349",
+              "slug": "nhl-2025-26-hart-memorial-trophy-john-jason-peterka",
+              "question": "Will John-Jason Peterka win the 2025\u20132026 NHL Hart Memorial Trophy?",
+              "yes_price": 0.0005,
+              "volume": 5518
+            },
+            {
+              "market_id": "645356",
+              "slug": "nhl-2025-26-hart-memorial-trophy-travis-konecny",
+              "question": "Will Travis Konecny win the 2025\u20132026 NHL Hart Memorial Trophy?",
+              "yes_price": 0.0005,
+              "volume": 5656
+            },
+            {
+              "market_id": "645357",
+              "slug": "nhl-2025-26-hart-memorial-trophy-alexander-ovechkin",
+              "question": "Will Alexander Ovechkin win the 2025\u20132026 NHL Hart Memorial Trophy?",
+              "yes_price": 0.0005,
+              "volume": 3434
             }
           ],
-          "url": "https://polymarket.com/event/oklahoma-governor-republican-primary-winner",
-          "strategy": "Buy YES on all 8 outcomes. Total cost: $0.9010. One wins $1.00. Profit: $0.0990 (9.90%)"
+          "url": "https://polymarket.com/event/nhl-2025-26-hart-memorial-trophy",
+          "strategy": "Buy YES on all 18 outcomes. Total cost: $0.9015. One wins $1.00. Profit: $0.0985 (9.85%)"
+        },
+        {
+          "event_title": "CA River Plate vs. CA Tucum\u00e1n",
+          "event_slug": "arg-riv-cat-2026-03-08",
+          "yes_sum": 0.905,
+          "profit_pct": 9.5,
+          "profit_per_dollar_pct": 10.5,
+          "num_outcomes": 2,
+          "outcomes": [
+            {
+              "market_id": "1360750",
+              "slug": "arg-riv-cat-2026-03-08-riv",
+              "question": "Will CA River Plate win on 2026-03-08?",
+              "yes_price": 0.58,
+              "volume": 6234
+            },
+            {
+              "market_id": "1360751",
+              "slug": "arg-riv-cat-2026-03-08-draw",
+              "question": "Will CA River Plate vs. CA Tucum\u00e1n end in a draw?",
+              "yes_price": 0.325,
+              "volume": 21653
+            }
+          ],
+          "url": "https://polymarket.com/event/arg-riv-cat-2026-03-08",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
         },
         {
           "event_title": "Next UK Prime Minister in 2026?",
           "event_slug": "next-uk-prime-minister-in-2026-122",
-          "yes_sum": 0.9015,
-          "profit_pct": 9.85,
-          "profit_per_dollar_pct": 10.93,
+          "yes_sum": 0.9055,
+          "profit_pct": 9.45,
+          "profit_per_dollar_pct": 10.44,
           "num_outcomes": 20,
           "outcomes": [
             {
               "market_id": "1343514",
               "slug": "will-no-next-prime-minister-of-the-united-kingdom-be-appointed-in-2026",
               "question": "Will no next Prime Minister of the United Kingdom be appointed in 2026?",
-              "yes_price": 0.49,
-              "volume": 221046
+              "yes_price": 0.495,
+              "volume": 221072
             },
             {
               "market_id": "1343456",
@@ -209,7 +331,7 @@
               "market_id": "1343462",
               "slug": "will-ed-miliband-be-the-next-prime-minister-of-the-united-kingdom-in-2026-745",
               "question": "Will Ed Miliband be the next Prime Minister of the United Kingdom in 2026?",
-              "yes_price": 0.041,
+              "yes_price": 0.04,
               "volume": 182187
             },
             {
@@ -259,7 +381,7 @@
               "slug": "will-lucy-powell-be-the-next-prime-minister-of-the-united-kingdom-in-2026-663",
               "question": "Will Lucy Powell be the next Prime Minister of the United Kingdom in 2026?",
               "yes_price": 0.006,
-              "volume": 182414
+              "volume": 184130
             },
             {
               "market_id": "1343459",
@@ -273,7 +395,7 @@
               "slug": "will-rachel-reeves-be-the-next-prime-minister-of-the-united-kingdom-in-2026-919",
               "question": "Will Rachel Reeves be the next Prime Minister of the United Kingdom in 2026?",
               "yes_price": 0.0045,
-              "volume": 365267
+              "volume": 365273
             },
             {
               "market_id": "1343469",
@@ -315,7 +437,7 @@
               "slug": "will-robert-jenrick-be-the-next-prime-minister-of-the-united-kingdom-in-2026-325",
               "question": "Will Robert Jenrick be the next Prime Minister of the United Kingdom in 2026?",
               "yes_price": 0.0015,
-              "volume": 249996
+              "volume": 250005
             },
             {
               "market_id": "1343470",
@@ -326,129 +448,129 @@
             }
           ],
           "url": "https://polymarket.com/event/next-uk-prime-minister-in-2026-122",
-          "strategy": "Buy YES on all 20 outcomes. Total cost: $0.9015. One wins $1.00. Profit: $0.0985 (9.85%)"
+          "strategy": "Buy YES on all 20 outcomes. Total cost: $0.9055. One wins $1.00. Profit: $0.0945 (9.45%)"
         },
         {
-          "event_title": "China Annual Inflation 2026",
-          "event_slug": "china-annual-inflation-2026",
-          "yes_sum": 0.9025,
-          "profit_pct": 9.75,
-          "profit_per_dollar_pct": 10.8,
+          "event_title": "Next Prime Minister of Slovenia",
+          "event_slug": "next-prime-minister-of-slovenia",
+          "yes_sum": 0.906,
+          "profit_pct": 9.4,
+          "profit_per_dollar_pct": 10.38,
           "num_outcomes": 9,
           "outcomes": [
             {
-              "market_id": "1132795",
-              "slug": "will-chinas-annual-inflation-in-2026-be-between-0pt6-and-1pt0",
-              "question": "Will China's annual inflation in 2026 be between 0.6% and 1.0%?",
-              "yes_price": 0.26,
-              "volume": 1819
+              "market_id": "1193229",
+              "slug": "will-janez-jana-be-the-next-prime-minister-of-slovenia",
+              "question": "Will Janez Jan\u0161a be the next Prime Minister of Slovenia?",
+              "yes_price": 0.705,
+              "volume": 638330
             },
             {
-              "market_id": "1132796",
-              "slug": "will-chinas-annual-inflation-in-2026-be-between-1pt1-and-1pt5",
-              "question": "Will China's annual inflation in 2026 be between 1.1% and 1.5%?",
-              "yes_price": 0.15,
-              "volume": 2205
+              "market_id": "1193230",
+              "slug": "will-ane-logar-be-the-next-prime-minister-of-slovenia",
+              "question": "Will An\u017ee Logar be the next Prime Minister of Slovenia?",
+              "yes_price": 0.0825,
+              "volume": 941180
             },
             {
-              "market_id": "1132798",
-              "slug": "will-chinas-annual-inflation-in-2026-be-at-least-2pt5",
-              "question": "Will China's annual inflation in 2026 be at least 2.5%?",
-              "yes_price": 0.119,
-              "volume": 1562
+              "market_id": "1193228",
+              "slug": "will-robert-golob-be-the-next-prime-minister-of-slovenia",
+              "question": "Will Robert Golob be the next Prime Minister of Slovenia?",
+              "yes_price": 0.059,
+              "volume": 607651
             },
             {
-              "market_id": "1132797",
-              "slug": "will-chinas-annual-inflation-in-2026-be-between-1pt6-and-2pt0",
-              "question": "Will China's annual inflation in 2026 be between 1.6% and 2.0%?",
-              "yes_price": 0.0815,
-              "volume": 2488
+              "market_id": "1193235",
+              "slug": "will-jernej-vrtovec-be-the-next-prime-minister-of-slovenia",
+              "question": "Will Jernej Vrtovec be the next Prime Minister of Slovenia?",
+              "yes_price": 0.055,
+              "volume": 37614
             },
             {
-              "market_id": "1132792",
-              "slug": "will-chinas-annual-inflation-in-2026-be-between-0pt9-and-0pt5",
-              "question": "Will China's annual inflation in 2026 be between -0.9% and -0.5%?",
-              "yes_price": 0.08,
-              "volume": 1741
+              "market_id": "1193233",
+              "slug": "will-matej-tonin-be-the-next-prime-minister-of-slovenia",
+              "question": "Will Matej Tonin be the next Prime Minister of Slovenia?",
+              "yes_price": 0.0015,
+              "volume": 10817
             },
             {
-              "market_id": "1132793",
-              "slug": "will-chinas-annual-inflation-in-2026-be-between-0pt4-and-0pt0",
-              "question": "Will China's annual inflation in 2026 be between -0.4% and 0.0%?",
-              "yes_price": 0.071,
-              "volume": 1765
+              "market_id": "1193237",
+              "slug": "will-zoran-stevanovi-be-the-next-prime-minister-of-slovenia",
+              "question": "Will Zoran Stevanovi\u0107 be the next Prime Minister of Slovenia?",
+              "yes_price": 0.0015,
+              "volume": 107969
             },
             {
-              "market_id": "1237148",
-              "slug": "will-chinas-annual-inflation-in-2026-be-between-2pt0-and-2pt4",
-              "question": "Will China's annual inflation in 2026 be between 2.0% and 2.4%?",
-              "yes_price": 0.0645,
-              "volume": 1617
+              "market_id": "1193231",
+              "slug": "will-vladimir-prebili-be-the-next-prime-minister-of-slovenia",
+              "question": "Will Vladimir Prebili\u010d be the next Prime Minister of Slovenia?",
+              "yes_price": 0.0005,
+              "volume": 176869
             },
             {
-              "market_id": "1132794",
-              "slug": "will-chinas-annual-inflation-in-2026-be-between-0pt1-and-0pt5",
-              "question": "Will China's annual inflation in 2026 be between 0.1% and 0.5%?",
-              "yes_price": 0.05,
-              "volume": 1633
+              "market_id": "1193236",
+              "slug": "will-luka-mesec-be-the-next-prime-minister-of-slovenia",
+              "question": "Will Luka Mesec be the next Prime Minister of Slovenia?",
+              "yes_price": 0.0005,
+              "volume": 9299
             },
             {
-              "market_id": "1132791",
-              "slug": "will-chinas-annual-inflation-in-2026-be-less-than-1pt0",
-              "question": "Will China's annual inflation in 2026 be less than -1.0%?",
-              "yes_price": 0.0265,
-              "volume": 16740
+              "market_id": "1193234",
+              "slug": "will-matja-han-be-the-next-prime-minister-of-slovenia",
+              "question": "Will Matja\u017e Han be the next Prime Minister of Slovenia?",
+              "yes_price": 0.0005,
+              "volume": 14316
             }
           ],
-          "url": "https://polymarket.com/event/china-annual-inflation-2026",
-          "strategy": "Buy YES on all 9 outcomes. Total cost: $0.9025. One wins $1.00. Profit: $0.0975 (9.75%)"
+          "url": "https://polymarket.com/event/next-prime-minister-of-slovenia",
+          "strategy": "Buy YES on all 9 outcomes. Total cost: $0.9060. One wins $1.00. Profit: $0.0940 (9.40%)"
         },
         {
-          "event_title": "# of seats won by GERB-SDS in Bulgarian Parliamentary Election?",
-          "event_slug": "of-seats-won-by-gerb-sds-in-bulgarian-parliamentary-election",
-          "yes_sum": 0.903,
-          "profit_pct": 9.7,
-          "profit_per_dollar_pct": 10.74,
+          "event_title": "Bulgarian Parliamentary Election: Which Parties Enter Parliament?",
+          "event_slug": "bulgarian-parliamentary-election-which-parties-enter-parliament",
+          "yes_sum": 0.9085,
+          "profit_pct": 9.15,
+          "profit_per_dollar_pct": 10.07,
           "num_outcomes": 5,
           "outcomes": [
             {
-              "market_id": "1738311",
-              "slug": "will-gerb-sds-win-between-60-64-seats-in-the-2026-bulgarian-parliamentary-election",
-              "question": "Will GERB-SDS win between 60-64 seats in the 2026 Bulgarian parliamentary electi",
-              "yes_price": 0.28,
-              "volume": 19962
+              "market_id": "1737533",
+              "slug": "will-united-left-bsp-win-at-least-one-seat-in-the-2026-bulgarian-parliamentary-election",
+              "question": "Will United Left (BSP) win at least one seat in the 2026 Bulgarian parliamentary",
+              "yes_price": 0.6,
+              "volume": 20561
             },
             {
-              "market_id": "1738310",
-              "slug": "will-gerb-sds-win-between-55-59-seats-in-the-2026-bulgarian-parliamentary-election",
-              "question": "Will GERB-SDS win between 55-59 seats in the 2026 Bulgarian parliamentary electi",
-              "yes_price": 0.255,
-              "volume": 7451
+              "market_id": "1737537",
+              "slug": "will-morality-unity-honour-mech-win-at-least-one-seat-in-the-2026-bulgarian-parliamentary-election",
+              "question": "Will Morality, Unity, Honour (MECh) win at least one seat in the 2026 Bulgarian ",
+              "yes_price": 0.165,
+              "volume": 4656
             },
             {
-              "market_id": "1738313",
-              "slug": "will-gerb-sds-win-70-or-more-seats-in-the-2026-bulgarian-parliamentary-election",
-              "question": "Will GERB-SDS win 70 or more seats in the 2026 Bulgarian parliamentary election?",
-              "yes_price": 0.185,
-              "volume": 1033
+              "market_id": "1737536",
+              "slug": "will-velichie-velichie-win-at-least-one-seat-in-the-2026-bulgarian-parliamentary-election",
+              "question": "Will Velichie (Velichie) win at least one seat in the 2026 Bulgarian parliamenta",
+              "yes_price": 0.095,
+              "volume": 24926
             },
             {
-              "market_id": "1738312",
-              "slug": "will-gerb-sds-win-between-65-69-seats-in-the-2026-bulgarian-parliamentary-election",
-              "question": "Will GERB-SDS win between 65-69 seats in the 2026 Bulgarian parliamentary electi",
-              "yes_price": 0.125,
-              "volume": 2702
+              "market_id": "1737535",
+              "slug": "will-there-is-such-a-people-itn-win-at-least-one-seat-in-the-2026-bulgarian-parliamentary-election",
+              "question": "Will There is Such a People (ITN) win at least one seat in the 2026 Bulgarian pa",
+              "yes_price": 0.0255,
+              "volume": 10085
             },
             {
-              "market_id": "1738308",
-              "slug": "will-gerb-sds-win-fewer-than-50-seats-in-the-2026-bulgarian-parliamentary-election",
-              "question": "Will GERB-SDS win fewer than 50 seats in the 2026 Bulgarian parliamentary electi",
-              "yes_price": 0.058,
-              "volume": 1744
+              "market_id": "1737534",
+              "slug": "will-alliance-for-rights-and-freedoms-aps-win-at-least-one-seat-in-the-2026-bulgarian-parliamentary-election",
+              "question": "Will Alliance for Rights and Freedoms (APS) win at least one seat in the 2026 Bu",
+              "yes_price": 0.023,
+              "volume": 12482
             }
           ],
-          "url": "https://polymarket.com/event/of-seats-won-by-gerb-sds-in-bulgarian-parliamentary-election",
-          "strategy": "Buy YES on all 5 outcomes. Total cost: $0.9030. One wins $1.00. Profit: $0.0970 (9.70%)"
+          "url": "https://polymarket.com/event/bulgarian-parliamentary-election-which-parties-enter-parliament",
+          "strategy": "Buy YES on all 5 outcomes. Total cost: $0.9085. One wins $1.00. Profit: $0.0915 (9.15%)"
         },
         {
           "event_title": "Sabres vs. Blackhawks",
@@ -463,14 +585,14 @@
               "slug": "nhl-buf-chi-2026-04-13",
               "question": "Sabres vs. Blackhawks",
               "yes_price": 0.655,
-              "volume": 28443
+              "volume": 28799
             },
             {
               "market_id": "1628347",
               "slug": "nhl-buf-chi-2026-04-13-total-7pt5",
               "question": "Sabres vs. Blackhawks: O/U 7.5",
               "yes_price": 0.255,
-              "volume": 19834
+              "volume": 19925
             }
           ],
           "url": "https://polymarket.com/event/nhl-buf-chi-2026-04-13",
@@ -514,143 +636,28 @@
               "market_id": "942722",
               "slug": "will-the-democratic-party-win-the-mi-07-house-seat",
               "question": "Will the Democratic Party win the MI-07 House seat?",
-              "yes_price": 0.785,
+              "yes_price": 0.78,
               "volume": 2525
             },
             {
               "market_id": "942721",
               "slug": "will-the-republican-party-win-the-mi-07-house-seat",
               "question": "Will the Republican Party win the MI-07 House seat?",
-              "yes_price": 0.125,
+              "yes_price": 0.13,
               "volume": 1067
             }
           ],
           "url": "https://polymarket.com/event/mi-07-house-election-winner",
           "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9100. One wins $1.00. Profit: $0.0900 (9.00%)"
-        },
-        {
-          "event_title": "How much will SpaceX raise in its IPO?",
-          "event_slug": "how-much-will-spacex-raise-in-its-ipo",
-          "yes_sum": 0.9115,
-          "profit_pct": 8.85,
-          "profit_per_dollar_pct": 9.71,
-          "num_outcomes": 10,
-          "outcomes": [
-            {
-              "market_id": "1720878",
-              "slug": "will-spacex-raise-between-70b-and-80b-in-its-ipo",
-              "question": "Will SpaceX raise between $70B and $80B in its IPO?",
-              "yes_price": 0.36,
-              "volume": 23066
-            },
-            {
-              "market_id": "1720876",
-              "slug": "will-spacex-raise-between-50b-and-60b-in-its-ipo",
-              "question": "Will SpaceX raise between $50B and $60B in its IPO?",
-              "yes_price": 0.195,
-              "volume": 33028
-            },
-            {
-              "market_id": "1720877",
-              "slug": "will-spacex-raise-between-60b-and-70b-in-its-ipo",
-              "question": "Will SpaceX raise between $60B and $70B in its IPO?",
-              "yes_price": 0.185,
-              "volume": 14009
-            },
-            {
-              "market_id": "1720879",
-              "slug": "will-spacex-raise-between-80b-and-90b-in-its-ipo",
-              "question": "Will SpaceX raise between $80B and $90B in its IPO?",
-              "yes_price": 0.095,
-              "volume": 15242
-            },
-            {
-              "market_id": "1720874",
-              "slug": "will-spacex-raise-less-than-40b-in-its-ipo",
-              "question": "Will SpaceX raise less than $40B in its IPO?",
-              "yes_price": 0.03,
-              "volume": 9413
-            },
-            {
-              "market_id": "1720880",
-              "slug": "will-spacex-raise-between-90b-and-100b-in-its-ipo",
-              "question": "Will SpaceX raise between $90B and $100B in its IPO?",
-              "yes_price": 0.02,
-              "volume": 9604
-            },
-            {
-              "market_id": "1720883",
-              "slug": "will-spacex-raise-at-least-120b-in-its-ipo",
-              "question": "Will SpaceX raise at least $120B in its IPO?",
-              "yes_price": 0.0135,
-              "volume": 7447
-            },
-            {
-              "market_id": "1720882",
-              "slug": "will-spacex-raise-between-110b-and-120b-in-its-ipo",
-              "question": "Will SpaceX raise between $110B and $120B in its IPO?",
-              "yes_price": 0.0055,
-              "volume": 8134
-            },
-            {
-              "market_id": "1720881",
-              "slug": "will-spacex-raise-between-100b-and-110b-in-its-ipo",
-              "question": "Will SpaceX raise between $100B and $110B in its IPO?",
-              "yes_price": 0.0045,
-              "volume": 7477
-            },
-            {
-              "market_id": "1720875",
-              "slug": "will-spacex-raise-between-40b-and-50b-in-its-ipo",
-              "question": "Will SpaceX raise between $40B and $50B in its IPO?",
-              "yes_price": 0.003,
-              "volume": 5305
-            }
-          ],
-          "url": "https://polymarket.com/event/how-much-will-spacex-raise-in-its-ipo",
-          "strategy": "Buy YES on all 10 outcomes. Total cost: $0.9115. One wins $1.00. Profit: $0.0885 (8.85%)"
-        },
-        {
-          "event_title": "VA-02 Democratic Primary Winner",
-          "event_slug": "va-02-democratic-primary-winner",
-          "yes_sum": 0.912,
-          "profit_pct": 8.8,
-          "profit_per_dollar_pct": 9.65,
-          "num_outcomes": 3,
-          "outcomes": [
-            {
-              "market_id": "704140",
-              "slug": "will-elaine-luria-be-the-democratic-nominee-for-va-02",
-              "question": "Will Elaine Luria be the Democratic nominee for VA-02?",
-              "yes_price": 0.825,
-              "volume": 1102
-            },
-            {
-              "market_id": "704139",
-              "slug": "will-james-osyf-be-the-democratic-nominee-for-va-02",
-              "question": "Will James Osyf be the Democratic nominee for VA-02?",
-              "yes_price": 0.0625,
-              "volume": 1097
-            },
-            {
-              "market_id": "704143",
-              "slug": "will-patrick-mosolf-be-the-democratic-nominee-for-va-02",
-              "question": "Will Patrick Mosolf be the Democratic nominee for VA-02?",
-              "yes_price": 0.0245,
-              "volume": 1490
-            }
-          ],
-          "url": "https://polymarket.com/event/va-02-democratic-primary-winner",
-          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9120. One wins $1.00. Profit: $0.0880 (8.80%)"
         }
       ],
       "stats": {
         "total_events": 3000,
-        "checked_multi_outcome": 1854,
+        "checked_multi_outcome": 1859,
         "skipped_single_outcome": 633,
-        "opportunities_found": 129,
-        "best_profit_pct": 9.9,
-        "scanned_at": "2026-04-13 09:13 UTC"
+        "opportunities_found": 134,
+        "best_profit_pct": 10.0,
+        "scanned_at": "2026-04-13 10:43 UTC"
       }
     },
     {
