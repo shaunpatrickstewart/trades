@@ -8,49 +8,112 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 128 categorical arb opportunities found\nScanned 3000 events (1873 multi-outcome) at 2026-04-13 12:10 UTC\nBest: 9.95% profit on 'Who will close Warner Bros. acquisition?' \u2014 buy YES on all 4 outcomes (sum=0.9005)\nStrategy: Buy YES on all 4 outcomes. Total cost: $0.9005. One wins $1.00. Profit: $0.0995 (9.95%)\n2nd: 9.8% on 'AZ-01 Republican Primary Winner'",
+      "result": "LIVE \u2014 130 categorical arb opportunities found\nScanned 3000 events (1873 multi-outcome) at 2026-04-13 12:13 UTC\nBest: 10.0% profit on 'Which company has the #1 AI model end of April? (Style Control On)' \u2014 buy YES on all 13 outcomes (sum=0.9)\nStrategy: Buy YES on all 13 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 9.8% on 'AZ-01 Republican Primary Winner'",
       "priority": "HIGH",
-      "last_scan": "2026-04-13 12:10 UTC",
+      "last_scan": "2026-04-13 12:13 UTC",
       "opportunities": [
         {
-          "event_title": "Who will close Warner Bros. acquisition?",
-          "event_slug": "who-will-close-warner-bros-acquisition",
-          "yes_sum": 0.9005,
-          "profit_pct": 9.95,
-          "profit_per_dollar_pct": 11.05,
-          "num_outcomes": 4,
+          "event_title": "Which company has the #1 AI model end of April? (Style Control On)",
+          "event_slug": "which-company-has-the-1-ai-model-end-of-april-style-control-on",
+          "yes_sum": 0.9,
+          "profit_pct": 10.0,
+          "profit_per_dollar_pct": 11.11,
+          "num_outcomes": 13,
           "outcomes": [
             {
-              "market_id": "897019",
-              "slug": "will-paramount-close-warner-bros-acquisition",
-              "question": "Will Paramount close Warner Bros acquisition?",
-              "yes_price": 0.72,
-              "volume": 440996
+              "market_id": "1664342",
+              "slug": "will-anthropic-have-the-1-ai-model-at-the-end-of-april-2026-style-control-on",
+              "question": "Will Anthropic have the #1 AI model at the end of April 2026 (Style Control On)?",
+              "yes_price": 0.67,
+              "volume": 53475
             },
             {
-              "market_id": "897030",
-              "slug": "no-listed-company-closes-warner-bros-acquisition-by-june-30-2027",
-              "question": "No listed company closes Warner Bros acquisition by June 30, 2027",
-              "yes_price": 0.155,
-              "volume": 157541
+              "market_id": "1664344",
+              "slug": "will-openai-have-the-1-ai-model-at-the-end-of-april-2026-style-control-on",
+              "question": "Will OpenAI have the #1 AI model at the end of April 2026 (Style Control On)?",
+              "yes_price": 0.175,
+              "volume": 108713
             },
             {
-              "market_id": "897017",
-              "slug": "will-netflix-close-warner-bros-acquisition",
-              "question": "Will Netflix close Warner Bros acquisition?",
+              "market_id": "1664343",
+              "slug": "will-google-have-the-1-ai-model-at-the-end-of-april-2026-style-control-on",
+              "question": "Will Google have the #1 AI model at the end of April 2026 (Style Control On)?",
               "yes_price": 0.0175,
-              "volume": 219920
+              "volume": 147467
             },
             {
-              "market_id": "897018",
-              "slug": "will-comcast-close-warner-bros-acquisition",
-              "question": "Will Comcast close Warner Bros acquisition?",
-              "yes_price": 0.008,
-              "volume": 173873
+              "market_id": "1664346",
+              "slug": "will-xai-have-the-1-ai-model-at-the-end-of-april-2026-style-control-on",
+              "question": "Will xAI have the #1 AI model at the end of April 2026 (Style Control On)?",
+              "yes_price": 0.012,
+              "volume": 147086
+            },
+            {
+              "market_id": "1664349",
+              "slug": "will-moonshot-have-the-1-ai-model-at-the-end-of-april-2026-style-control-on",
+              "question": "Will Moonshot have the #1 AI model at the end of April 2026 (Style Control On)?",
+              "yes_price": 0.004,
+              "volume": 77538
+            },
+            {
+              "market_id": "1664345",
+              "slug": "will-alibaba-have-the-1-ai-model-at-the-end-of-april-2026-style-control-on",
+              "question": "Will Alibaba have the #1 AI model at the end of April 2026 (Style Control On)?",
+              "yes_price": 0.004,
+              "volume": 27569
+            },
+            {
+              "market_id": "1664353",
+              "slug": "will-deepseek-have-the-1-ai-model-at-the-end-of-april-2026-style-control-on",
+              "question": "Will DeepSeek have the #1 AI model at the end of April 2026 (Style Control On)?",
+              "yes_price": 0.004,
+              "volume": 251197
+            },
+            {
+              "market_id": "1664350",
+              "slug": "will-amazon-have-the-1-ai-model-at-the-end-of-april-2026-style-control-on",
+              "question": "Will Amazon have the #1 AI model at the end of April 2026 (Style Control On)?",
+              "yes_price": 0.003,
+              "volume": 40053
+            },
+            {
+              "market_id": "1664347",
+              "slug": "will-bytedance-have-the-1-ai-model-at-the-end-of-april-2026-style-control-on",
+              "question": "Will ByteDance have the #1 AI model at the end of April 2026 (Style Control On)?",
+              "yes_price": 0.003,
+              "volume": 19558
+            },
+            {
+              "market_id": "1664351",
+              "slug": "will-zai-have-the-1-ai-model-at-the-end-of-april-2026-style-control-on",
+              "question": "Will Z.ai have the #1 AI model at the end of April 2026 (Style Control On)?",
+              "yes_price": 0.003,
+              "volume": 52046
+            },
+            {
+              "market_id": "1664352",
+              "slug": "will-mistral-have-the-1-ai-model-at-the-end-of-april-2026-style-control-on",
+              "question": "Will Mistral have the #1 AI model at the end of April 2026 (Style Control On)?",
+              "yes_price": 0.0015,
+              "volume": 81418
+            },
+            {
+              "market_id": "1664354",
+              "slug": "will-meituan-have-the-1-ai-model-at-the-end-of-april-2026-style-control-on",
+              "question": "Will Meituan have the #1 AI model at the end of April 2026 (Style Control On)?",
+              "yes_price": 0.0015,
+              "volume": 27717
+            },
+            {
+              "market_id": "1664348",
+              "slug": "will-baidu-have-the-1-ai-model-at-the-end-of-april-2026-style-control-on",
+              "question": "Will Baidu have the #1 AI model at the end of April 2026 (Style Control On)?",
+              "yes_price": 0.0015,
+              "volume": 37250
             }
           ],
-          "url": "https://polymarket.com/event/who-will-close-warner-bros-acquisition",
-          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9005. One wins $1.00. Profit: $0.0995 (9.95%)"
+          "url": "https://polymarket.com/event/which-company-has-the-1-ai-model-end-of-april-style-control-on",
+          "strategy": "Buy YES on all 13 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
         },
         {
           "event_title": "AZ-01 Republican Primary Winner",
@@ -241,39 +304,6 @@
           ],
           "url": "https://polymarket.com/event/ella-langley-dandelion-first-week-album-sales",
           "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9035. One wins $1.00. Profit: $0.0965 (9.65%)"
-        },
-        {
-          "event_title": "Cambria FDV above ___ one day after launch?",
-          "event_slug": "cambria-fdv-above-one-day-after-launch",
-          "yes_sum": 0.905,
-          "profit_pct": 9.5,
-          "profit_per_dollar_pct": 10.5,
-          "num_outcomes": 3,
-          "outcomes": [
-            {
-              "market_id": "1485758",
-              "slug": "cambria-fdv-above-20m-one-day-after-launch",
-              "question": "Cambria FDV above $20M one day after launch?",
-              "yes_price": 0.49,
-              "volume": 31418
-            },
-            {
-              "market_id": "1485759",
-              "slug": "cambria-fdv-above-30m-one-day-after-launch",
-              "question": "Cambria FDV above $30M one day after launch?",
-              "yes_price": 0.27,
-              "volume": 20128
-            },
-            {
-              "market_id": "1485760",
-              "slug": "cambria-fdv-above-40m-one-day-after-launch",
-              "question": "Cambria FDV above $40M one day after launch?",
-              "yes_price": 0.145,
-              "volume": 7388
-            }
-          ],
-          "url": "https://polymarket.com/event/cambria-fdv-above-one-day-after-launch",
-          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
         },
         {
           "event_title": "Which banks will fail by end of 2026?",
@@ -635,15 +665,41 @@
           ],
           "url": "https://polymarket.com/event/relay-fdv-above-one-day-after-launch",
           "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9100. One wins $1.00. Profit: $0.0900 (9.00%)"
+        },
+        {
+          "event_title": "Gimnasia y Esgrima de La Plata vs. AA Argentinos Juniors",
+          "event_slug": "arg-gim-aaj-2026-03-08",
+          "yes_sum": 0.91,
+          "profit_pct": 9.0,
+          "profit_per_dollar_pct": 9.89,
+          "num_outcomes": 2,
+          "outcomes": [
+            {
+              "market_id": "1360742",
+              "slug": "arg-gim-aaj-2026-03-08-draw",
+              "question": "Will Gimnasia y Esgrima de La Plata vs. AA Argentinos Juniors end in a draw?",
+              "yes_price": 0.485,
+              "volume": 1695
+            },
+            {
+              "market_id": "1360741",
+              "slug": "arg-gim-aaj-2026-03-08-gim",
+              "question": "Will Gimnasia y Esgrima de La Plata win on 2026-03-08?",
+              "yes_price": 0.425,
+              "volume": 22792
+            }
+          ],
+          "url": "https://polymarket.com/event/arg-gim-aaj-2026-03-08",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9100. One wins $1.00. Profit: $0.0900 (9.00%)"
         }
       ],
       "stats": {
         "total_events": 3000,
         "checked_multi_outcome": 1873,
         "skipped_single_outcome": 631,
-        "opportunities_found": 128,
-        "best_profit_pct": 9.95,
-        "scanned_at": "2026-04-13 12:10 UTC"
+        "opportunities_found": 130,
+        "best_profit_pct": 10.0,
+        "scanned_at": "2026-04-13 12:13 UTC"
       }
     },
     {
@@ -653,7 +709,7 @@
       "hypothesis": "NEAR_CERTAIN is profitable (93.6% WR, +$16.32) but makes <$0.23/trade. Research shows pros scale these to thousands of dollars per trade to generate real income. At $10/bet we need 4,000+ trades to make $1,000.",
       "source": "Paper trade analysis + Grok research",
       "action": "Test 5x bet size increase ($10\u2192$50) on NEAR_CERTAIN. Downside: avg loss goes from $2.49 to $12.45. Need 93.6%+ WR sustained at higher sizes.",
-      "result": "W=4781 L=56 PnL=$924.61 open=51",
+      "result": "W=4970 L=56 PnL=$972.48 open=51",
       "priority": "HIGH"
     },
     {
@@ -693,7 +749,7 @@
       "hypothesis": "Instead of independently picking markets, copy elite wallet positions expiring within 14 days. Same wallets have been scoring >60% WR on LONG_TERM trades.",
       "source": "Shaun's original intent for SHORT_TERM engine",
       "action": "Rewrite run_short_term_scan() to copy elite wallet positions with end_date within SHORT_TERM_DAYS.",
-      "result": "W=12 L=22 PnL=$-107.07",
+      "result": "W=13 L=22 PnL=$-99.14",
       "priority": "LIVE",
       "notes": "SHORT_TERM disabled (cap=0). W=12 L=21 -$71.38 total"
     },
