@@ -1,123 +1,89 @@
 {
-  "last_scan": "2026-04-13T04:09:39.541887+00:00",
-  "scan_seconds": 43.6,
-  "markets_scanned": 47,
-  "open_positions": 17,
+  "last_scan": "2026-04-13T04:15:57.791157+00:00",
+  "scan_seconds": 49.2,
+  "markets_scanned": 121,
+  "open_positions": 93,
   "signals": [
     {
-      "id": "sig_126933",
-      "timestamp": "2026-04-13T04:09:10.878614+00:00",
+      "id": "sig_501178",
+      "timestamp": "2026-04-13T04:15:25.123425+00:00",
       "source": "PERPLEXITY",
-      "headline": "Based on the search results provided, the most recent confirmed news is:",
-      "raw": "Based on the search results provided, the most recent confirmed news is:",
-      "direction": null,
+      "headline": "Morgan Stanley Launches Spot BTC ETF with Record First-Day Inflows | YES | HIGH confidence** [1][9]",
+      "raw": "Morgan Stanley Launches Spot BTC ETF with Record First-Day Inflows | YES | HIGH confidence** [1][9]\n\nMorgan Stanley's spot Bitcoin ETF achieved the strongest launch day inflows of any fund the bank has introduced, signaling sustained institutional commitment amid BTC trading around $71,000 and $471 million in net BTC ETF inflows on April 6 [1][9]. SpaceX's confirmed $603 million BTC holdings furth",
+      "direction": "YES",
       "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_131947",
-      "timestamp": "2026-04-13T04:09:15.892616+00:00",
-      "source": "PERPLEXITY",
-      "headline": "HEADLINE | NO | HIGH confidence**",
-      "raw": "HEADLINE | NO | HIGH confidence**  \nRecent Coinbase prediction markets show strong probabilities for Bitcoin prices (e.g., $59,000+ on Apr 17 at 99%; above $75,000 in April at 79%), but no new resolutions or updates trigger shifts.[1][3]  \nA Coinbase tax survey (published Apr 3, 2026) found 49% of U.S. investors unaware of crypto tax obligations, with CEO Brian Armstrong pledging educational tools",
-      "direction": "NO",
-      "confidence": 0.78,
       "matched_markets": [
-        "Will the price of Bitcoin be between $72,000 and $74,000 on April 14?",
-        "Will Coinbase Global, Inc. (COIN) hit (LOW) $160 in April?"
+        "Will the highest temperature in Hong Kong be 22\u00b0C on April 1",
+        "Will the highest temperature in Hong Kong be 23\u00b0C on April 1",
+        "Will the price of XRP be above $1.60 on April 13?"
       ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_126937",
-      "timestamp": "2026-04-13T04:09:10.882887+00:00",
+      "id": "sig_490499",
+      "timestamp": "2026-04-13T04:15:14.444015+00:00",
       "source": "PERPLEXITY",
-      "headline": "Duke Rodriguez's Ballot Status Secured After NM Supreme Court Ruling | YES | HIGH confidence**",
-      "raw": "Duke Rodriguez's Ballot Status Secured After NM Supreme Court Ruling | YES | HIGH confidence**\n\nThe **New Mexico Supreme Court unanimously ruled** that Republican gubernatorial candidate Duke Rodriguez can appear on the June primary ballot[1]. This resolved a legal challenge to his candidacy and confirms his participation in the Republican primary alongside Greg Hall and Doug Turner[1].\n\nThis ruli",
-      "direction": "YES",
-      "confidence": 0.65,
+      "headline": "US-Iran peace talks collapse in Islamabad after 21 hours; no deal on Strait of Hormuz or nuclear issues, ceasefire at ri",
+      "raw": "US-Iran peace talks collapse in Islamabad after 21 hours; no deal on Strait of Hormuz or nuclear issues, ceasefire at risk as US plans port blockade** | NO | HIGH confidence[2][4][5]\n\nThe two-week ceasefire agreed on April 7 remains in effect until April 22 but faces breakdown following failed negotiations on April 12, with VP JD Vance confirming Iran's refusal of US terms and announcing imminent ",
+      "direction": "NO",
+      "confidence": 0.78,
       "matched_markets": [
-        "Will Duke Rodriguez win the 2026 New Mexico Governor Republi"
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Will Rocket Lab USA, Inc. (RKLB) hit (HIGH) $76 Week of April 13 2026?"
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "POLITICS"
+      "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_155582",
-      "timestamp": "2026-04-13T04:09:39.527595+00:00",
+      "id": "sig_533836",
+      "timestamp": "2026-04-13T04:15:57.781683+00:00",
       "source": "X_GROK",
-      "headline": "Hungary PM Market Resolved:** Opposition defeats Orb\u00e1n, crushing whales who bet millions (e",
-      "raw": "Hungary PM Market Resolved:** Opposition defeats Orb\u00e1n, crushing whales who bet millions (e.g., $857k loss, position down to $10k). Means NO for Orb\u00e1n bets. HIGH confidence (election complete).[[1]](https://x.com/i/status/2043417484368224521)[[2]](https://x.com/i/status/2043437592423588242)",
+      "headline": "Hungarian PM Election (Orb\u00e1n vs",
+      "raw": "Hungarian PM Election (Orb\u00e1n vs. Magyar):** Traders highlight massive whale activity. One whale holds ~$1M long on \"Viktor Orb\u00e1n remains PM\" (bought low ~9-11\u00a2), down $600k but eyeing $3M payout if contrarian wins.[[1]](https://x.com/i/status/2043329491687051717)[[2]](https://x.com/i/status/2043392397929820201)[[3]](https://x.com/i/status/2043302060288880749) Counter-cluster (~$300k) bets NO (Magy",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2043329491687051717)[[2]](https://x.com/i/status/2043392397929820201)[[3]](https://x.com/i/status/2043302060288880749)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_533845",
+      "timestamp": "2026-04-13T04:15:57.790790+00:00",
+      "source": "X_GROK",
+      "headline": "Iran Nuclear Program:** Polymarket notes Iran retains most bomb components post-strikes; implies delay not destruction",
+      "raw": "Iran Nuclear Program:** Polymarket notes Iran retains most bomb components post-strikes; implies delay not destruction. **NO full dismantlement:** HIGH.[[4]](https://x.com/i/status/2043399248775987676)\n\nNo major US whale bets or broad mispricing signals trending now; volume chatter on historical highs but dated.",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
-      "x_link": "https://x.com/i/status/2043417484368224521)[[2]](https://x.com/i/status/2043437592423588242)",
+      "x_link": "https://x.com/i/status/2043399248775987676)",
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_155586",
-      "timestamp": "2026-04-13T04:09:39.531091+00:00",
-      "source": "X_GROK",
-      "headline": "Crude Oil >$120 April Whale:** Anonymous wallet allocates 95% portfolio to YES on WTI passing $120 (amid +10% surge to $",
-      "raw": "Crude Oil >$120 April Whale:** Anonymous wallet allocates 95% portfolio to YES on WTI passing $120 (amid +10% surge to $105). Smart money bullish oil. MED confidence (prices rising, month ongoing).[[3]](https://x.com/i/status/2043401513964278039)",
+      "id": "sig_495634",
+      "timestamp": "2026-04-13T04:15:19.580026+00:00",
+      "source": "PERPLEXITY",
+      "headline": "New Mexico Supreme Court Affirms Duke Rodriguez's Spot on 2026 GOP Gubernatorial Primary Ballot** | **YES** | **HIGH** c",
+      "raw": "New Mexico Supreme Court Affirms Duke Rodriguez's Spot on 2026 GOP Gubernatorial Primary Ballot** | **YES** | **HIGH** confidence\n\nThe New Mexico Supreme Court on Wednesday upheld a lower court ruling, allowing Republican gubernatorial candidate **Duke Rodriguez** to remain on the June 2 primary ballot, resolving a multi-month legal challenge and positioning him as the early front-runner against G",
       "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2043401513964278039)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_155589",
-      "timestamp": "2026-04-13T04:09:39.534533+00:00",
-      "source": "X_GROK",
-      "headline": "Inter Milan Win Whale:** $72k bet nets $170k profit; monitors tipped Discord users",
-      "raw": "Inter Milan Win Whale:** $72k bet nets $170k profit; monitors tipped Discord users. Means YES resolved. HIGH confidence.[[4]](https://x.com/i/status/2043438734809469052)",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2043438734809469052)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_155592",
-      "timestamp": "2026-04-13T04:09:39.537976+00:00",
-      "source": "X_GROK",
-      "headline": "AI \"Ghost Whale\" cqs:** $600k profit (73% win rate), heavy positions vs",
-      "raw": "AI \"Ghost Whale\" cqs:** $600k profit (73% win rate), heavy positions vs. chaos (e.g., no Ukraine ceasefire, Zelenskyy stays). Copy via tools. Trending smart money signal. HIGH confidence (track record).[[5]](https://x.com/i/status/2043393447932174455)",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2043393447932174455)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_155596",
-      "timestamp": "2026-04-13T04:09:39.541518+00:00",
-      "source": "X_GROK",
-      "headline": "Trending Tools/Tips:** Merlin for copying 300k daily smart trades; PolyAu",
-      "raw": "Trending Tools/Tips:** Merlin for copying 300k daily smart trades; PolyAu.to AI at 45%/96% win on weather mispricings. No major new mispriced calls, but oil/Hungary post-mortems dominate.[[6]](https://x.com/i/status/2043350520677462255)[[7]](https://x.com/i/status/2043361871802380306)",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2043350520677462255)[[7]](https://x.com/i/status/2043361871802380306)",
-      "category": "COMMUNITY"
+      "confidence": 0.6,
+      "matched_markets": [
+        "Will Duke Rodriguez win the 2026 New Mexico Governor Republi",
+        "Will the Republican Party win the AK-AL House seat?"
+      ],
+      "action": "WATCH",
+      "x_link": null,
+      "category": "POLITICS"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 8,
-    "watch": 0,
+    "enter": 1,
+    "alert": 3,
+    "watch": 1,
     "high_conf": 1
   }
 }
