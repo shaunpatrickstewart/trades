@@ -8,90 +8,10 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 137 categorical arb opportunities found\nScanned 3000 events (1861 multi-outcome) at 2026-04-13 11:18 UTC\nBest: 10.0% profit on '# of seats won by PB in Bulgarian Parliamentary Election?' \u2014 buy YES on all 4 outcomes (sum=0.9)\nStrategy: Buy YES on all 4 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 9.5% on 'Relay FDV above ___ one day after launch?'",
+      "result": "LIVE \u2014 134 categorical arb opportunities found\nScanned 3000 events (1863 multi-outcome) at 2026-04-13 11:20 UTC\nBest: 9.45% profit on 'Next UK Prime Minister in 2026?' \u2014 buy YES on all 20 outcomes (sum=0.9055)\nStrategy: Buy YES on all 20 outcomes. Total cost: $0.9055. One wins $1.00. Profit: $0.0945 (9.45%)\n2nd: 9.3% on 'AZ-01 Republican Primary Winner'",
       "priority": "HIGH",
-      "last_scan": "2026-04-13 11:18 UTC",
+      "last_scan": "2026-04-13 11:20 UTC",
       "opportunities": [
-        {
-          "event_title": "# of seats won by PB in Bulgarian Parliamentary Election?",
-          "event_slug": "of-seats-won-by-pb-in-bulgarian-parliamentary-election",
-          "yes_sum": 0.9,
-          "profit_pct": 10.0,
-          "profit_per_dollar_pct": 11.11,
-          "num_outcomes": 4,
-          "outcomes": [
-            {
-              "market_id": "1738484",
-              "slug": "will-progressive-bulgaria-pb-win-between-90-94-seats-in-the-2026-bulgarian-parliamentary-election",
-              "question": "Will Progressive Bulgaria (PB) win between 90-94 seats in the 2026 Bulgarian par",
-              "yes_price": 0.315,
-              "volume": 6362
-            },
-            {
-              "market_id": "1738483",
-              "slug": "will-progressive-bulgaria-pb-win-between-85-89-seats-in-the-2026-bulgarian-parliamentary-election",
-              "question": "Will Progressive Bulgaria (PB) win between 85-89 seats in the 2026 Bulgarian par",
-              "yes_price": 0.225,
-              "volume": 8024
-            },
-            {
-              "market_id": "1738485",
-              "slug": "will-progressive-bulgaria-pb-win-95-or-more-seats-in-the-2026-bulgarian-parliamentary-election",
-              "question": "Will Progressive Bulgaria (PB) win 95 or more seats in the 2026 Bulgarian parlia",
-              "yes_price": 0.205,
-              "volume": 15545
-            },
-            {
-              "market_id": "1738482",
-              "slug": "will-progressive-bulgaria-pb-win-between-80-84-seats-in-the-2026-bulgarian-parliamentary-election",
-              "question": "Will Progressive Bulgaria (PB) win between 80-84 seats in the 2026 Bulgarian par",
-              "yes_price": 0.155,
-              "volume": 7927
-            }
-          ],
-          "url": "https://polymarket.com/event/of-seats-won-by-pb-in-bulgarian-parliamentary-election",
-          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
-        },
-        {
-          "event_title": "Relay FDV above ___ one day after launch?",
-          "event_slug": "relay-fdv-above-one-day-after-launch",
-          "yes_sum": 0.905,
-          "profit_pct": 9.5,
-          "profit_per_dollar_pct": 10.5,
-          "num_outcomes": 4,
-          "outcomes": [
-            {
-              "market_id": "1361726",
-              "slug": "relay-fdv-above-300m-one-day-after-launch",
-              "question": "Relay FDV above $300M one day after launch?",
-              "yes_price": 0.335,
-              "volume": 2643
-            },
-            {
-              "market_id": "1361725",
-              "slug": "relay-fdv-above-100m-one-day-after-launch",
-              "question": "Relay FDV above $100M one day after launch?",
-              "yes_price": 0.28,
-              "volume": 17380
-            },
-            {
-              "market_id": "1361727",
-              "slug": "relay-fdv-above-500m-one-day-after-launch",
-              "question": "Relay FDV above $500M one day after launch?",
-              "yes_price": 0.155,
-              "volume": 8602
-            },
-            {
-              "market_id": "1361729",
-              "slug": "relay-fdv-above-700m-one-day-after-launch",
-              "question": "Relay FDV above $700M one day after launch?",
-              "yes_price": 0.135,
-              "volume": 1187
-            }
-          ],
-          "url": "https://polymarket.com/event/relay-fdv-above-one-day-after-launch",
-          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
-        },
         {
           "event_title": "Next UK Prime Minister in 2026?",
           "event_slug": "next-uk-prime-minister-in-2026-122",
@@ -353,7 +273,7 @@
               "slug": "nhl-buf-chi-2026-04-13",
               "question": "Sabres vs. Blackhawks",
               "yes_price": 0.655,
-              "volume": 29291
+              "volume": 29400
             },
             {
               "market_id": "1628347",
@@ -466,32 +386,6 @@
           "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9105. One wins $1.00. Profit: $0.0895 (8.95%)"
         },
         {
-          "event_title": "Ella Langley 'Dandelion' First Week Album Sales?",
-          "event_slug": "ella-langley-dandelion-first-week-album-sales",
-          "yes_sum": 0.9125,
-          "profit_pct": 8.75,
-          "profit_per_dollar_pct": 9.59,
-          "num_outcomes": 2,
-          "outcomes": [
-            {
-              "market_id": "1911977",
-              "slug": "will-dandelion-ella-langley-debut-week-album-sales-be-at-least-140k",
-              "question": "Will \"Dandelion\" - Ella Langley debut week album sales be at least 140k?",
-              "yes_price": 0.91,
-              "volume": 14310
-            },
-            {
-              "market_id": "1911972",
-              "slug": "will-dandelion-ella-langley-debut-week-album-sales-be-less-than-60k",
-              "question": "Will \"Dandelion\" - Ella Langley debut week album sales be less than 60k?",
-              "yes_price": 0.0025,
-              "volume": 1824
-            }
-          ],
-          "url": "https://polymarket.com/event/ella-langley-dandelion-first-week-album-sales",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9125. One wins $1.00. Profit: $0.0875 (8.75%)"
-        },
-        {
           "event_title": "Montana Senate Election Winner",
           "event_slug": "montana-senate-election-winner",
           "yes_sum": 0.9135,
@@ -516,15 +410,163 @@
           ],
           "url": "https://polymarket.com/event/montana-senate-election-winner",
           "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9135. One wins $1.00. Profit: $0.0865 (8.65%)"
+        },
+        {
+          "event_title": "Highest temperature in Beijing on April 14?",
+          "event_slug": "highest-temperature-in-beijing-on-april-14-2026",
+          "yes_sum": 0.9135,
+          "profit_pct": 8.65,
+          "profit_per_dollar_pct": 9.47,
+          "num_outcomes": 11,
+          "outcomes": [
+            {
+              "market_id": "1953726",
+              "slug": "highest-temperature-in-beijing-on-april-14-2026-21c",
+              "question": "Will the highest temperature in Beijing be 21\u00b0C on April 14?",
+              "yes_price": 0.31,
+              "volume": 1616
+            },
+            {
+              "market_id": "1953725",
+              "slug": "highest-temperature-in-beijing-on-april-14-2026-20c",
+              "question": "Will the highest temperature in Beijing be 20\u00b0C on April 14?",
+              "yes_price": 0.22,
+              "volume": 2086
+            },
+            {
+              "market_id": "1953724",
+              "slug": "highest-temperature-in-beijing-on-april-14-2026-19c",
+              "question": "Will the highest temperature in Beijing be 19\u00b0C on April 14?",
+              "yes_price": 0.125,
+              "volume": 2668
+            },
+            {
+              "market_id": "1953727",
+              "slug": "highest-temperature-in-beijing-on-april-14-2026-22c",
+              "question": "Will the highest temperature in Beijing be 22\u00b0C on April 14?",
+              "yes_price": 0.115,
+              "volume": 2303
+            },
+            {
+              "market_id": "1953723",
+              "slug": "highest-temperature-in-beijing-on-april-14-2026-18corbelow",
+              "question": "Will the highest temperature in Beijing be 18\u00b0C or below on April 14?",
+              "yes_price": 0.095,
+              "volume": 6791
+            },
+            {
+              "market_id": "1953728",
+              "slug": "highest-temperature-in-beijing-on-april-14-2026-23c",
+              "question": "Will the highest temperature in Beijing be 23\u00b0C on April 14?",
+              "yes_price": 0.0275,
+              "volume": 3419
+            },
+            {
+              "market_id": "1953729",
+              "slug": "highest-temperature-in-beijing-on-april-14-2026-24c",
+              "question": "Will the highest temperature in Beijing be 24\u00b0C on April 14?",
+              "yes_price": 0.0075,
+              "volume": 3208
+            },
+            {
+              "market_id": "1953733",
+              "slug": "highest-temperature-in-beijing-on-april-14-2026-28corhigher",
+              "question": "Will the highest temperature in Beijing be 28\u00b0C or higher on April 14?",
+              "yes_price": 0.0055,
+              "volume": 5357
+            },
+            {
+              "market_id": "1953730",
+              "slug": "highest-temperature-in-beijing-on-april-14-2026-25c",
+              "question": "Will the highest temperature in Beijing be 25\u00b0C on April 14?",
+              "yes_price": 0.004,
+              "volume": 1603
+            },
+            {
+              "market_id": "1953731",
+              "slug": "highest-temperature-in-beijing-on-april-14-2026-26c",
+              "question": "Will the highest temperature in Beijing be 26\u00b0C on April 14?",
+              "yes_price": 0.0025,
+              "volume": 1232
+            },
+            {
+              "market_id": "1953732",
+              "slug": "highest-temperature-in-beijing-on-april-14-2026-27c",
+              "question": "Will the highest temperature in Beijing be 27\u00b0C on April 14?",
+              "yes_price": 0.0015,
+              "volume": 1099
+            }
+          ],
+          "url": "https://polymarket.com/event/highest-temperature-in-beijing-on-april-14-2026",
+          "strategy": "Buy YES on all 11 outcomes. Total cost: $0.9135. One wins $1.00. Profit: $0.0865 (8.65%)"
+        },
+        {
+          "event_title": "Ella Langley 'Dandelion' First Week Album Sales?",
+          "event_slug": "ella-langley-dandelion-first-week-album-sales",
+          "yes_sum": 0.9135,
+          "profit_pct": 8.65,
+          "profit_per_dollar_pct": 9.47,
+          "num_outcomes": 2,
+          "outcomes": [
+            {
+              "market_id": "1911977",
+              "slug": "will-dandelion-ella-langley-debut-week-album-sales-be-at-least-140k",
+              "question": "Will \"Dandelion\" - Ella Langley debut week album sales be at least 140k?",
+              "yes_price": 0.91,
+              "volume": 14310
+            },
+            {
+              "market_id": "1911972",
+              "slug": "will-dandelion-ella-langley-debut-week-album-sales-be-less-than-60k",
+              "question": "Will \"Dandelion\" - Ella Langley debut week album sales be less than 60k?",
+              "yes_price": 0.0035,
+              "volume": 1824
+            }
+          ],
+          "url": "https://polymarket.com/event/ella-langley-dandelion-first-week-album-sales",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9135. One wins $1.00. Profit: $0.0865 (8.65%)"
+        },
+        {
+          "event_title": "MLB: NL Manager of the Year",
+          "event_slug": "mlb-nl-manager-of-the-year",
+          "yes_sum": 0.915,
+          "profit_pct": 8.5,
+          "profit_per_dollar_pct": 9.29,
+          "num_outcomes": 3,
+          "outcomes": [
+            {
+              "market_id": "1721587",
+              "slug": "will-carlos-mendoza-win-the-2026-nl-manager-of-the-year",
+              "question": "Will Carlos Mendoza win the 2026 NL Manager of the Year?",
+              "yes_price": 0.365,
+              "volume": 9319
+            },
+            {
+              "market_id": "1721583",
+              "slug": "will-terry-francona-win-the-2026-nl-manager-of-the-year",
+              "question": "Will Terry Francona win the 2026 NL Manager of the Year?",
+              "yes_price": 0.33,
+              "volume": 2740
+            },
+            {
+              "market_id": "1721584",
+              "slug": "will-warren-schaeffer-win-the-2026-nl-manager-of-the-year",
+              "question": "Will Warren Schaeffer win the 2026 NL Manager of the Year?",
+              "yes_price": 0.22,
+              "volume": 3007
+            }
+          ],
+          "url": "https://polymarket.com/event/mlb-nl-manager-of-the-year",
+          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9150. One wins $1.00. Profit: $0.0850 (8.50%)"
         }
       ],
       "stats": {
         "total_events": 3000,
-        "checked_multi_outcome": 1861,
-        "skipped_single_outcome": 639,
-        "opportunities_found": 137,
-        "best_profit_pct": 10.0,
-        "scanned_at": "2026-04-13 11:18 UTC"
+        "checked_multi_outcome": 1863,
+        "skipped_single_outcome": 635,
+        "opportunities_found": 134,
+        "best_profit_pct": 9.45,
+        "scanned_at": "2026-04-13 11:20 UTC"
       }
     },
     {
@@ -534,7 +576,7 @@
       "hypothesis": "NEAR_CERTAIN is profitable (93.6% WR, +$16.32) but makes <$0.23/trade. Research shows pros scale these to thousands of dollars per trade to generate real income. At $10/bet we need 4,000+ trades to make $1,000.",
       "source": "Paper trade analysis + Grok research",
       "action": "Test 5x bet size increase ($10\u2192$50) on NEAR_CERTAIN. Downside: avg loss goes from $2.49 to $12.45. Need 93.6%+ WR sustained at higher sizes.",
-      "result": "W=4602 L=56 PnL=$883.17 open=61",
+      "result": "W=4781 L=56 PnL=$924.61 open=51",
       "priority": "HIGH"
     },
     {
