@@ -1,65 +1,63 @@
 {
-  "last_scan": "2026-04-13T14:43:13.920728+00:00",
-  "scan_seconds": 38.1,
-  "markets_scanned": 65,
-  "open_positions": 42,
+  "last_scan": "2026-04-13T14:49:09.075866+00:00",
+  "scan_seconds": 28.9,
+  "markets_scanned": 50,
+  "open_positions": 28,
   "signals": [
     {
-      "id": "sig_155011",
-      "timestamp": "2026-04-13T14:42:58.918083+00:00",
+      "id": "sig_505009",
+      "timestamp": "2026-04-13T14:48:48.916422+00:00",
       "source": "PERPLEXITY",
-      "headline": "Republican Jim Ellison launches 2026 New Mexico gubernatorial bid, joining GOP field including Duke Rodriguez amid term-",
-      "raw": "Republican Jim Ellison launches 2026 New Mexico gubernatorial bid, joining GOP field including Duke Rodriguez amid term-limited Democratic Gov. Michelle Lujan Grisham** | NO | HIGH confidence[1]\n\nNo confirmed White House announcements, Vance involvement, or resolutions tied to New Mexico governor race in latest reports; Ellison's launch (announced Tuesday) adds to existing Republican candidates li",
-      "direction": "NO",
+      "headline": "Trump Announces U",
+      "raw": "Trump Announces U.S. Naval Blockade of Strait of Hormuz After Iran Peace Talks Collapse | NO | HIGH confidence** [1][2][3][4][5]\n\nPeace talks between the U.S. and Iran in Pakistan ended in deadlock after 21 hours on April 12, 2026, with no deal on ending the Middle East conflict or Iran's nuclear program, despite a fragile two-week ceasefire (set to expire April 22) holding for five days [1][2][3]",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces end of military operations against Iran by J",
+        "Trump announces end of military operations against Iran by A"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_516648",
+      "timestamp": "2026-04-13T14:49:00.555665+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Iran Ceasefire Announcement Triggers $427M Short Liquidations and Bitcoin Surge to $71K+ | YES | HIGH confidence** [1]",
+      "raw": "Iran Ceasefire Announcement Triggers $427M Short Liquidations and Bitcoin Surge to $71K+ | YES | HIGH confidence** [1]\n\nThe two-week U.S.-Iran ceasefire, announced around April 9, 2026, collapsed crude oil prices from $112 per barrel (WTI), shifting Fed rate cut expectations and sparking a 4.5% Bitcoin rally to $71,362 amid $427M in crypto short liquidations over 48 hours\u2014the largest since late Fe",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Will Rocket Lab USA, Inc. (RKLB) hit (HIGH) $76 Week of April 13 2026?",
+        "Bitcoin Up or Down - April 14, 8:00AM-12:00PM ET"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_510517",
+      "timestamp": "2026-04-13T14:48:54.424504+00:00",
+      "source": "PERPLEXITY",
+      "headline": "NM Supreme Court Unanimously Rules Duke Rodriguez Stays on June Primary Ballot** | YES | HIGH confidence[1]",
+      "raw": "NM Supreme Court Unanimously Rules Duke Rodriguez Stays on June Primary Ballot** | YES | HIGH confidence[1]\n\nThe New Mexico Supreme Court has upheld a lower court's decision, confirming Republican gubernatorial candidate **Duke Rodriguez**'s eligibility for the June primary ballot in the open race to replace term-limited Democratic Governor Michelle Lujan Grisham[1]. This resolution ends legal cha",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
-        "Will J.D. Vance win the 2028 Republican presidential nominat",
-        "Will Duke Rodriguez win the 2026 New Mexico Governor Republi",
-        "Will the Republican Party win the AK-AL House seat?"
+        "Will Duke Rodriguez win the 2026 New Mexico Governor Republi"
       ],
       "action": "ALERT",
       "x_link": null,
       "category": "POLITICS"
-    },
-    {
-      "id": "sig_169012",
-      "timestamp": "2026-04-13T14:43:12.919672+00:00",
-      "source": "PERPLEXITY",
-      "headline": "OKC Thunder Clinch #1 Overall Seed with 64-18 Record, Rest Key Players Including SGA Ahead of Playoffs | YES | HIGH conf",
-      "raw": "OKC Thunder Clinch #1 Overall Seed with 64-18 Record, Rest Key Players Including SGA Ahead of Playoffs | YES | HIGH confidence** [1][2][3]\n\nThe Oklahoma City Thunder have ended the 2025-26 regular season as the top seed in the NBA playoffs (64-18 record), securing home-court advantage throughout the postseason and sitting stars like Shai Gilgeous-Alexander in their final games for playoff prep[1][",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the Oklahoma City Thunder win the 2026 NBA Finals?",
-        "Will Arvell Reese be the third pick in the 2026 NFL draft?",
-        "Will David Bailey be the second pick in the 2026 NFL draft?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_161666",
-      "timestamp": "2026-04-13T14:43:05.573843+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Polymarket Reveals April Price Expectations for BTC, SOL, XRP Amid Mixed Investor Sentiment | NO | MED confidence**",
-      "raw": "Polymarket Reveals April Price Expectations for BTC, SOL, XRP Amid Mixed Investor Sentiment | NO | MED confidence**\n\nNo major breaking confirmations, announcements, or resolutions today directly impacting prediction markets for XRP, Bitcoin, or Solana\u2014recent Polymarket data from early April shows ongoing trader bets on April prices, but these are expectations, not resolved events[1][5]. For **Sola",
-      "direction": "YES",
-      "confidence": 0.6,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces end of military operations against Iran by J",
-        "Will the price of XRP be above $1.70 on April 15?"
-      ],
-      "action": "WATCH",
-      "x_link": null,
-      "category": "CRYPTO"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 2,
-    "watch": 1,
-    "high_conf": 0
+    "enter": 2,
+    "alert": 1,
+    "watch": 0,
+    "high_conf": 2
   }
 }
