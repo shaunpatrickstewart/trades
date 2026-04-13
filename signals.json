@@ -1,168 +1,115 @@
 {
-  "last_scan": "2026-04-13T13:07:49.246306+00:00",
-  "scan_seconds": 55.9,
-  "markets_scanned": 44,
-  "open_positions": 25,
+  "last_scan": "2026-04-13T13:14:15.617941+00:00",
+  "scan_seconds": 57.7,
+  "markets_scanned": 90,
+  "open_positions": 69,
   "signals": [
     {
-      "id": "sig_398776",
-      "timestamp": "2026-04-13T13:07:02.689883+00:00",
+      "id": "sig_784738",
+      "timestamp": "2026-04-13T13:13:28.651343+00:00",
       "source": "PERPLEXITY",
-      "headline": "US Announces Naval Blockade of Iran's Ports After Ceasefire Talks Collapse | NO | HIGH confidence**[1][2]",
-      "raw": "US Announces Naval Blockade of Iran's Ports After Ceasefire Talks Collapse | NO | HIGH confidence**[1][2]\n\nPresident Trump confirmed on April 12, 2026, that the US Navy will impose a blockade on Iran's shipping ports and the Strait of Hormuz, effective 10:00 the next day, following the breakdown of US-Iran ceasefire negotiations in Islamabad with no agreement reached on nuclear restrictions or lon",
-      "direction": "YES",
+      "headline": "Trump Announces U",
+      "raw": "Trump Announces U.S. Naval Blockade of Strait of Hormuz and Iranian Ports Starting Today After Failed Iran Peace Talks | NO | HIGH confidence** [1][4][5][6]\n\nA two-week ceasefire was announced by President Trump on April 8, conditional on Iran fully reopening the Strait of Hormuz, with Pakistan mediating talks in Islamabad that began around April 11-12 but collapsed over Iran's refusal to abandon ",
+      "direction": "NO",
       "confidence": 0.9,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces end of military operations against Iran by J"
+        "Trump announces end of military operations against Iran by J",
+        "Will Apple (AAPL) finish week of April 13 above $255?"
       ],
       "action": "ENTER",
       "x_link": null,
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_411441",
-      "timestamp": "2026-04-13T13:07:15.354156+00:00",
+      "id": "sig_789958",
+      "timestamp": "2026-04-13T13:13:33.871429+00:00",
       "source": "PERPLEXITY",
-      "headline": "Iran Ceasefire Announcement Triggers Bitcoin Surge to $71k+ with $427M Short Squeeze** | **YES** | **HIGH** confidence[1",
-      "raw": "Iran Ceasefire Announcement Triggers Bitcoin Surge to $71k+ with $427M Short Squeeze** | **YES** | **HIGH** confidence[1]\n\nBitcoin rose over 4% to $71,362 by April 9, 2026, following the U.S.-Iran two-week ceasefire announcement, which collapsed WTI crude oil from $112/barrel and liquidated $427M in crypto shorts\u2014the largest flush since late February[1]. This shifted Fed rate cut expectations for ",
+      "headline": "Duke Rodriguez, Republican NM gubernatorial candidate, defeats residency challenge and stays on primary ballot",
+      "raw": "Duke Rodriguez, Republican NM gubernatorial candidate, defeats residency challenge and stays on primary ballot.**[1][2] | **YES** | **HIGH** confidence[1]\n\nA San Juan County judge ruled in Rodriguez's favor today, rejecting a petition claiming his past voting in Arizona (2022, 2024) violated New Mexico's 5-year continuous residency requirement for candidates; his campaign called it a \"defeat\" of t",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Will Rocket Lab USA, Inc. (RKLB) hit (HIGH) $76 Week of April 13 2026?",
-        "Bitcoin Up or Down - April 14, 8:00AM-12:00PM ET"
+        "Will J.D. Vance win the 2028 Republican presidential nominat",
+        "Will Duke Rodriguez win the 2026 New Mexico Governor Republi",
+        "Will the Republican Party win the AK-AL House seat?"
       ],
       "action": "ENTER",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "POLITICS"
     },
     {
-      "id": "sig_418483",
-      "timestamp": "2026-04-13T13:07:22.396204+00:00",
-      "source": "PERPLEXITY",
-      "headline": "I cannot provide a breaking news headline matching your query parameters based on these search results",
-      "raw": "I cannot provide a breaking news headline matching your query parameters based on these search results.\n\nThe search results contain references to **David Bailey-Arvell Reese** and the **Oklahoma City Thunder** only as a debate topic in an article header from April 7, 2026, with no actual content about their discussion or any recent announcement. The results do not indicate what has been \"just conf",
+      "id": "sig_831663",
+      "timestamp": "2026-04-13T13:14:15.576674+00:00",
+      "source": "X_GROK",
+      "headline": "Weather Markets Mispriced**: Traders highlight daily edges in Polymarket weather bets using forecast models (GFS/ECMWF);",
+      "raw": "Weather Markets Mispriced**: Traders highlight daily edges in Polymarket weather bets using forecast models (GFS/ECMWF); one whale earned $114k in 5 months via NO on extremes/YES on precise temps; AI agent up 45% at 96% win rate. **YES for weather arb opportunities**. HIGH confidence.[[1]](https://x.com/i/status/2043674963975045620)[[2]](https://x.com/i/status/2043361871802380306)",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2043674963975045620)[[2]](https://x.com/i/status/2043361871802380306)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_831673",
+      "timestamp": "2026-04-13T13:14:15.586596+00:00",
+      "source": "X_GROK",
+      "headline": "Hungarian Election Whale Bet**: $280k position on Viktor Orb\u00e1n as next PM (potential $2",
+      "raw": "Hungarian Election Whale Bet**: $280k position on Viktor Orb\u00e1n as next PM (potential $2.7M payout); \"smart money\" picking realists over polls. **YES on Orb\u00e1n**. MED confidence (election timing unclear).[[3]](https://x.com/i/status/2043322931682427288)",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2043322931682427288)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_831689",
+      "timestamp": "2026-04-13T13:14:15.602199+00:00",
+      "source": "X_GROK",
+      "headline": "World Cup 2026 Mispriced**: Bet YES on top ~7 teams for 122% APR ($1k \u2192 $1",
+      "raw": "World Cup 2026 Mispriced**: Bet YES on top ~7 teams for 122% APR ($1k \u2192 $1.3k by July); $612M liquidity. **YES on favorites**. MED confidence.[[4]](https://x.com/i/status/2043448239395885483)",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2043448239395885483)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_831695",
+      "timestamp": "2026-04-13T13:14:15.608903+00:00",
+      "source": "X_GROK",
+      "headline": "Iran-US/Peace Pivot**: Smart money shifted from short-term ceasefire (resolved) to permanent peace by June at 46% odds (",
+      "raw": "Iran-US/Peace Pivot**: Smart money shifted from short-term ceasefire (resolved) to permanent peace by June at 46% odds ($10M vol); skepticism on fast timeline. **NO for quick peace**. LOW confidence.[[5]](https://x.com/i/status/2043308721112220046)[[6]](https://x.com/i/status/2043568453823373777)",
       "direction": "NO",
-      "confidence": 0.9,
+      "confidence": 0.65,
       "matched_markets": [
-        "Will the Oklahoma City Thunder win the 2026 NBA Finals?"
+        "Will the US x Iran ceasefire be extended by April 21, 2026?"
       ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_405877",
-      "timestamp": "2026-04-13T13:07:09.790329+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Based on the search results provided, the most recent confirmed development is:",
-      "raw": "Based on the search results provided, the most recent confirmed development is:",
-      "direction": null,
-      "confidence": 0.9,
-      "matched_markets": [],
       "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_405880",
-      "timestamp": "2026-04-13T13:07:09.793887+00:00",
-      "source": "PERPLEXITY",
-      "headline": "HEADLINE:** Duke Rodriguez's ballot eligibility secured after New Mexico Supreme Court upholds candidacy",
-      "raw": "HEADLINE:** Duke Rodriguez's ballot eligibility secured after New Mexico Supreme Court upholds candidacy",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_445319",
-      "timestamp": "2026-04-13T13:07:49.232580+00:00",
-      "source": "X_GROK",
-      "headline": "Claude AI bots for copying Polymarket arb whales trending heavily",
-      "raw": "Claude AI bots for copying Polymarket arb whales trending heavily.** Traders promote bots scanning 1k+ wallets, copying high-win-rate arbs (e.g., $120\u2192$1.4M, 66% win, 1.9k trades) on short-dated crypto/NBA markets. Means BUY arb opps via copytrade. Confidence: MED (spam-heavy promo).[[1]](https://x.com/i/status/2041503776868024433)[[2]](https://x.com/i/status/2041154085563384160)[[3]](https://x.co",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2041503776868024433)[[2]](https://x.com/i/status/2041154085563384160)[[3]](https://x.com/i/status/2040141101907038697)",
+      "x_link": "https://x.com/i/status/2043308721112220046)[[6]](https://x.com/i/status/2043568453823373777)",
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_445322",
-      "timestamp": "2026-04-13T13:07:49.235982+00:00",
+      "id": "sig_831704",
+      "timestamp": "2026-04-13T13:14:15.617531+00:00",
       "source": "X_GROK",
-      "headline": "G7 econ data markets (GDP, unemployment) mispriced 8-16% vs pro consensus",
-      "raw": "G7 econ data markets (GDP, unemployment) mispriced 8-16% vs pro consensus.** Low variance, fixed schedules; buy gaps pre-release. Means contrarian to retail odds. Confidence: MED (backtested claims).[[4]](https://x.com/i/status/2043391435437678896)",
-      "direction": null,
+      "headline": "Copy Trading Tips**: Tools like Merlin/JexTrade track 300k daily trades for smart money flows (e",
+      "raw": "Copy Trading Tips**: Tools like Merlin/JexTrade track 300k daily trades for smart money flows (e.g., Iran end by Apr 7). Trending for passive edges.[[7]](https://x.com/i/status/2043350520677462255)\n\nOverall: Weather edges dominant; most traders lose (84% red), per on-chain data.[[8]](https://x.com/i/status/2043626325525561440)",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
-      "x_link": "https://x.com/i/status/2043391435437678896)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_445326",
-      "timestamp": "2026-04-13T13:07:49.239331+00:00",
-      "source": "X_GROK",
-      "headline": "Whale \"Cinibengales\" down $650k on Iran bets (regime fall/US entry)",
-      "raw": "Whale \"Cinibengales\" down $650k on Iran bets (regime fall/US entry).** Heavy losses on war YES. Means NO resolved. Confidence: HIGH (onchain).[[5]](https://x.com/i/status/2038462544755794400)",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2038462544755794400)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_445332",
-      "timestamp": "2026-04-13T13:07:49.245961+00:00",
-      "source": "X_GROK",
-      "headline": "84% Polymarket traders in red; 0",
-      "raw": "84% Polymarket traders in red; 0.0014% profitable long-term.** Bots/whales dominate short-term crypto (74% volume). Hyperliquid competition rising.[[7]](https://x.com/i/status/2043577537612357678)",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2043577537612357678)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_405884",
-      "timestamp": "2026-04-13T13:07:09.797320+00:00",
-      "source": "PERPLEXITY",
-      "headline": "YES** | **HIGH confidence**",
-      "raw": "YES** | **HIGH confidence**\n\nThe New Mexico Supreme Court **unanimously ruled** that Republican gubernatorial candidate Duke Rodriguez can appear on the June primary ballot[1]. This resolves the legal challenge to his eligibility that had questioned whether his voting history in Arizona disqualified him from running for New Mexico governor[3].\n\nThis confirmation would impact prediction markets by ",
-      "direction": "YES",
-      "confidence": 0.6,
-      "matched_markets": [
-        "Will Duke Rodriguez win the 2026 New Mexico Governor Republi"
-      ],
-      "action": "WATCH",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_445329",
-      "timestamp": "2026-04-13T13:07:49.242669+00:00",
-      "source": "X_GROK",
-      "headline": "Whale @tanar2007 all-in win (unspecified market)",
-      "raw": "Whale @tanar2007 all-in win (unspecified market).** Possible insider/conviction. Confidence: LOW (no details).[[6]](https://x.com/i/status/2043604622133125147)",
-      "direction": "YES",
-      "confidence": 0.6,
-      "matched_markets": [],
-      "action": "WATCH",
-      "x_link": "https://x.com/i/status/2043604622133125147)",
+      "x_link": "https://x.com/i/status/2043350520677462255)",
       "category": "COMMUNITY"
     }
   ],
   "stats": {
-    "enter": 3,
-    "alert": 6,
-    "watch": 2,
-    "high_conf": 4
+    "enter": 2,
+    "alert": 5,
+    "watch": 0,
+    "high_conf": 2
   }
 }
