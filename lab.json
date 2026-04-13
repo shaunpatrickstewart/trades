@@ -8,16 +8,16 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 136 categorical arb opportunities found\nScanned 3000 events (1892 multi-outcome) at 2026-04-13 01:32 UTC\nBest: 9.75% profit on 'How many ships transit the Strait of Hormuz this week? (Apr 6-12)' \u2014 buy YES on all 6 outcomes (sum=0.9025)\nStrategy: Buy YES on all 6 outcomes. Total cost: $0.9025. One wins $1.00. Profit: $0.0975 (9.75%)\n2nd: 9.55% on 'Who will place first in the primary for Nancy Pelosi\u2019s congressional seat (CA-11'",
+      "result": "LIVE \u2014 136 categorical arb opportunities found\nScanned 3000 events (1890 multi-outcome) at 2026-04-13 01:39 UTC\nBest: 9.95% profit on 'How many ships transit the Strait of Hormuz this week? (Apr 6-12)' \u2014 buy YES on all 6 outcomes (sum=0.9005)\nStrategy: Buy YES on all 6 outcomes. Total cost: $0.9005. One wins $1.00. Profit: $0.0995 (9.95%)\n2nd: 9.55% on 'Who will place first in the primary for Nancy Pelosi\u2019s congressional seat (CA-11'",
       "priority": "HIGH",
-      "last_scan": "2026-04-13 01:32 UTC",
+      "last_scan": "2026-04-13 01:39 UTC",
       "opportunities": [
         {
           "event_title": "How many ships transit the Strait of Hormuz this week? (Apr 6-12)",
           "event_slug": "how-many-ships-transit-the-strait-of-hormuz-this-week-apr-6-12",
-          "yes_sum": 0.9025,
-          "profit_pct": 9.75,
-          "profit_per_dollar_pct": 10.8,
+          "yes_sum": 0.9005,
+          "profit_pct": 9.95,
+          "profit_per_dollar_pct": 11.05,
           "num_outcomes": 6,
           "outcomes": [
             {
@@ -59,12 +59,12 @@
               "market_id": "1846502",
               "slug": "will-fewer-than-20-ships-transit-the-strait-of-hormuz-between-april-6-april-12",
               "question": "Will fewer than 20 ships transit the Strait of Hormuz between April 6-April 12?",
-              "yes_price": 0.009,
+              "yes_price": 0.007,
               "volume": 49182
             }
           ],
           "url": "https://polymarket.com/event/how-many-ships-transit-the-strait-of-hormuz-this-week-apr-6-12",
-          "strategy": "Buy YES on all 6 outcomes. Total cost: $0.9025. One wins $1.00. Profit: $0.0975 (9.75%)"
+          "strategy": "Buy YES on all 6 outcomes. Total cost: $0.9005. One wins $1.00. Profit: $0.0995 (9.95%)"
         },
         {
           "event_title": "Who will place first in the primary for Nancy Pelosi\u2019s congressional seat (CA-11",
@@ -126,6 +126,53 @@
           ],
           "url": "https://polymarket.com/event/who-will-place-first-in-the-primary-for-nancy-pelosis-congressional-seat-ca-11",
           "strategy": "Buy YES on all 7 outcomes. Total cost: $0.9045. One wins $1.00. Profit: $0.0955 (9.55%)"
+        },
+        {
+          "event_title": "Will Israel launch a major ground offensive in Gaza by...?",
+          "event_slug": "will-israel-launch-a-major-ground-offensive-in-gaza-by-october-31",
+          "yes_sum": 0.905,
+          "profit_pct": 9.5,
+          "profit_per_dollar_pct": 10.5,
+          "num_outcomes": 5,
+          "outcomes": [
+            {
+              "market_id": "1642010",
+              "slug": "will-israel-launch-a-major-ground-offensive-in-gaza-by-december-31-828",
+              "question": "Will Israel launch a major ground offensive in Gaza by December 31?",
+              "yes_price": 0.505,
+              "volume": 18180
+            },
+            {
+              "market_id": "1642009",
+              "slug": "will-israel-launch-a-major-ground-offensive-in-gaza-by-june-30",
+              "question": "Will Israel launch a major ground offensive in Gaza by June 30?",
+              "yes_price": 0.4,
+              "volume": 13430
+            },
+            {
+              "market_id": "639929",
+              "slug": "will-israel-launch-a-major-ground-offensive-in-gaza-by-december-31",
+              "question": "Will Israel launch a major ground offensive in Gaza by December 31?",
+              "yes_price": 0.0,
+              "volume": 50690
+            },
+            {
+              "market_id": "639928",
+              "slug": "will-israel-launch-a-major-ground-offensive-in-gaza-by-october-31",
+              "question": "Will Israel launch a major ground offensive in Gaza by October 31?",
+              "yes_price": 0.0,
+              "volume": 100197
+            },
+            {
+              "market_id": "677398",
+              "slug": "will-israel-launch-a-major-ground-offensive-in-gaza-by-march-31",
+              "question": "Will Israel launch a major ground offensive in Gaza by March 31?",
+              "yes_price": 0.0,
+              "volume": 325856
+            }
+          ],
+          "url": "https://polymarket.com/event/will-israel-launch-a-major-ground-offensive-in-gaza-by-october-31",
+          "strategy": "Buy YES on all 5 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
         },
         {
           "event_title": "How many countries will Israel conduct military action against in April?",
@@ -462,244 +509,15 @@
           ],
           "url": "https://polymarket.com/event/la-05-republican-primary-winner",
           "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9080. One wins $1.00. Profit: $0.0920 (9.20%)"
-        },
-        {
-          "event_title": "English Premier League - Top Goalscorer ",
-          "event_slug": "english-premier-league-top-goalscorer",
-          "yes_sum": 0.909,
-          "profit_pct": 9.1,
-          "profit_per_dollar_pct": 10.01,
-          "num_outcomes": 31,
-          "outcomes": [
-            {
-              "market_id": "577160",
-              "slug": "will-erling-haaland-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Erling Haaland be the top goal scorer in the 2025\u201326 English Premier League",
-              "yes_price": 0.8,
-              "volume": 66310
-            },
-            {
-              "market_id": "577171",
-              "slug": "will-omar-marmoush-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Omar Marmoush be the top goal scorer in the 2025\u201326 English Premier League ",
-              "yes_price": 0.009,
-              "volume": 15888
-            },
-            {
-              "market_id": "577162",
-              "slug": "will-viktor-gyokeres-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Viktor Gyokeres be the top goal scorer in the 2025\u201326 English Premier Leagu",
-              "yes_price": 0.0085,
-              "volume": 165995
-            },
-            {
-              "market_id": "577189",
-              "slug": "will-kai-havertz-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Kai Havertz be the top goal scorer in the 2025\u201326 English Premier League se",
-              "yes_price": 0.0085,
-              "volume": 111818
-            },
-            {
-              "market_id": "577174",
-              "slug": "will-matheus-cunha-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Matheus Cunha be the top goal scorer in the 2025\u201326 English Premier League ",
-              "yes_price": 0.008,
-              "volume": 99001
-            },
-            {
-              "market_id": "577167",
-              "slug": "will-benjamin-sesko-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Benjamin Sesko be the top goal scorer in the 2025\u201326 English Premier League",
-              "yes_price": 0.006,
-              "volume": 16075
-            },
-            {
-              "market_id": "577181",
-              "slug": "will-bruno-fernandes-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Bruno Fernandes be the top goal scorer in the 2025\u201326 English Premier Leagu",
-              "yes_price": 0.006,
-              "volume": 16361
-            },
-            {
-              "market_id": "577161",
-              "slug": "will-mohamed-salah-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Mohamed Salah be the top goal scorer in the 2025\u201326 English Premier League ",
-              "yes_price": 0.0045,
-              "volume": 233125
-            },
-            {
-              "market_id": "577182",
-              "slug": "will-chris-wood-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Chris Wood be the top goal scorer in the 2025\u201326 English Premier League sea",
-              "yes_price": 0.0045,
-              "volume": 84801
-            },
-            {
-              "market_id": "577184",
-              "slug": "will-thierno-barry-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Thierno Barry be the top goal scorer in the 2025\u201326 English Premier League ",
-              "yes_price": 0.0045,
-              "volume": 116784
-            },
-            {
-              "market_id": "577170",
-              "slug": "will-dominic-solanke-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Dominic Solanke be the top goal scorer in the 2025\u201326 English Premier Leagu",
-              "yes_price": 0.004,
-              "volume": 158181
-            },
-            {
-              "market_id": "577172",
-              "slug": "will-jean-philippe-mateta-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Jean-Philippe Mateta be the top goal scorer in the 2025\u201326 English Premier ",
-              "yes_price": 0.0035,
-              "volume": 24161
-            },
-            {
-              "market_id": "577177",
-              "slug": "will-bryan-mbeumo-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Bryan Mbeumo be the top goal scorer in the 2025\u201326 English Premier League s",
-              "yes_price": 0.0035,
-              "volume": 40715
-            },
-            {
-              "market_id": "577183",
-              "slug": "will-morgan-rogers-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Morgan Rogers be the top goal scorer in the 2025\u201326 English Premier League ",
-              "yes_price": 0.003,
-              "volume": 12729
-            },
-            {
-              "market_id": "577163",
-              "slug": "will-alexander-isak-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Alexander Isak be the top goal scorer in the 2025\u201326 English Premier League",
-              "yes_price": 0.003,
-              "volume": 146398
-            },
-            {
-              "market_id": "577176",
-              "slug": "will-bukayo-saka-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Bukayo Saka be the top goal scorer in the 2025\u201326 English Premier League se",
-              "yes_price": 0.003,
-              "volume": 130160
-            },
-            {
-              "market_id": "577179",
-              "slug": "will-evanilson-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Evanilson be the top goal scorer in the 2025\u201326 English Premier League seas",
-              "yes_price": 0.0025,
-              "volume": 16618
-            },
-            {
-              "market_id": "577168",
-              "slug": "will-ollie-watkins-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Ollie Watkins be the top goal scorer in the 2025\u201326 English Premier League ",
-              "yes_price": 0.0025,
-              "volume": 33508
-            },
-            {
-              "market_id": "577173",
-              "slug": "will-yoane-wissa-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Yoane Wissa be the top goal scorer in the 2025\u201326 English Premier League se",
-              "yes_price": 0.0025,
-              "volume": 12990
-            },
-            {
-              "market_id": "577178",
-              "slug": "will-jarrod-bowen-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Jarrod Bowen be the top goal scorer in the 2025\u201326 English Premier League s",
-              "yes_price": 0.0025,
-              "volume": 11972
-            },
-            {
-              "market_id": "577180",
-              "slug": "will-charalambos-kostoulas-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Charalambos Kostoulas be the top goal scorer in the 2025\u201326 English Premier",
-              "yes_price": 0.0025,
-              "volume": 74667
-            },
-            {
-              "market_id": "577185",
-              "slug": "will-mohammed-kudus-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Mohammed Kudus be the top goal scorer in the 2025\u201326 English Premier League",
-              "yes_price": 0.0025,
-              "volume": 20604
-            },
-            {
-              "market_id": "577187",
-              "slug": "will-brennan-johnson-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Brennan Johnson be the top goal scorer in the 2025\u201326 English Premier Leagu",
-              "yes_price": 0.0025,
-              "volume": 16332
-            },
-            {
-              "market_id": "577164",
-              "slug": "will-joao-pedro-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Joao Pedro be the top goal scorer in the 2025\u201326 English Premier League sea",
-              "yes_price": 0.0015,
-              "volume": 108734
-            },
-            {
-              "market_id": "577165",
-              "slug": "will-hugo-ekitike-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Hugo Ekitike be the top goal scorer in the 2025\u201326 English Premier League s",
-              "yes_price": 0.0015,
-              "volume": 151887
-            },
-            {
-              "market_id": "577166",
-              "slug": "will-cole-palmer-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Cole Palmer be the top goal scorer in the 2025\u201326 English Premier League se",
-              "yes_price": 0.0015,
-              "volume": 14019
-            },
-            {
-              "market_id": "577186",
-              "slug": "will-nicolas-jackson-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Nicolas Jackson be the top goal scorer in the 2025\u201326 English Premier Leagu",
-              "yes_price": 0.0015,
-              "volume": 49345
-            },
-            {
-              "market_id": "577169",
-              "slug": "will-richarlison-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Richarlison be the top goal scorer in the 2025\u201326 English Premier League se",
-              "yes_price": 0.0015,
-              "volume": 30140
-            },
-            {
-              "market_id": "577188",
-              "slug": "will-cody-gakpo-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Cody Gakpo be the top goal scorer in the 2025\u201326 English Premier League sea",
-              "yes_price": 0.0015,
-              "volume": 15581
-            },
-            {
-              "market_id": "577175",
-              "slug": "will-liam-delap-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Liam Delap be the top goal scorer in the 2025\u201326 English Premier League sea",
-              "yes_price": 0.0015,
-              "volume": 17373
-            },
-            {
-              "market_id": "577190",
-              "slug": "will-florian-wirtz-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Florian Wirtz be the top goal scorer in the 2025\u201326 English Premier League ",
-              "yes_price": 0.0015,
-              "volume": 13456
-            }
-          ],
-          "url": "https://polymarket.com/event/english-premier-league-top-goalscorer",
-          "strategy": "Buy YES on all 31 outcomes. Total cost: $0.9090. One wins $1.00. Profit: $0.0910 (9.10%)"
         }
       ],
       "stats": {
         "total_events": 3000,
-        "checked_multi_outcome": 1892,
-        "skipped_single_outcome": 644,
+        "checked_multi_outcome": 1890,
+        "skipped_single_outcome": 641,
         "opportunities_found": 136,
-        "best_profit_pct": 9.75,
-        "scanned_at": "2026-04-13 01:32 UTC"
+        "best_profit_pct": 9.95,
+        "scanned_at": "2026-04-13 01:39 UTC"
       }
     },
     {
