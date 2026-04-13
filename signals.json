@@ -1,32 +1,61 @@
 {
-  "last_scan": "2026-04-13T23:35:04.310470+00:00",
-  "scan_seconds": 26.4,
+  "last_scan": "2026-04-13T23:38:02.268127+00:00",
+  "scan_seconds": 31.7,
   "markets_scanned": 64,
   "open_positions": 35,
   "signals": [
     {
-      "id": "sig_63682",
-      "timestamp": "2026-04-13T23:34:47.557475+00:00",
+      "id": "sig_237177",
+      "timestamp": "2026-04-13T23:37:41.052182+00:00",
       "source": "PERPLEXITY",
-      "headline": "HIGH confidence**",
-      "raw": "HIGH confidence**\n\nThe key developments are: ceasefire talks between the U.S. and Iran stalled over the weekend in Pakistan[1][3], and President Trump subsequently announced Sunday that the U.S. Navy would block ships entering or leaving the Strait of Hormuz[1]. This blockade began Monday morning[3]. While a fragile two-week ceasefire had been agreed to on April 8[2], Trump is now escalating by im",
-      "direction": null,
+      "headline": "Trump Announces Strait of Hormuz Blockade | YES (Announced) | HIGH confidence**",
+      "raw": "Trump Announces Strait of Hormuz Blockade | YES (Announced) | HIGH confidence**\n\nFollowing the failed talks, Donald Trump announced that the U.S. Navy would blockade the Strait of Hormuz[1][3]. However, U.S. Central Command subsequently stepped back from this threat, stating that U.S. forces would only conduct limited blockade operations rather than a complete strait closure[1].",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Trump announces end of military operations against Iran by J",
+        "Trump announces end of military operations against Iran by A"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_237207",
+      "timestamp": "2026-04-13T23:37:41.082399+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Trump Considering Further Military Strikes Against Iran | YES (Under Consideration) | MED confidence**",
+      "raw": "Trump Considering Further Military Strikes Against Iran | YES (Under Consideration) | MED confidence**\n\nDespite the two-week ceasefire remaining in place, Trump and his advisers are evaluating options to resume limited military strikes against Iran[1].\n\nThese developments indicate escalating tensions rather than de-escalation, with the ceasefire described as \"fragile\" and \"barely-holding\"[1][2]. T",
+      "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
         "Trump announces end of military operations against Iran by J",
         "Trump announces end of military operations against Iran by A"
       ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_63596",
-      "timestamp": "2026-04-13T23:34:47.471548+00:00",
+      "id": "sig_257345",
+      "timestamp": "2026-04-13T23:38:01.220838+00:00",
       "source": "PERPLEXITY",
-      "headline": "Based on the search results from April 13, 2026:",
-      "raw": "Based on the search results from April 13, 2026:",
+      "headline": "The most recent confirmed development:** The Bank of Korea's Monetary Policy Board voted on Friday, April 10, 2026, to k",
+      "raw": "The most recent confirmed development:** The Bank of Korea's Monetary Policy Board voted on Friday, April 10, 2026, to keep its benchmark interest rate unchanged at 2.5 percent for the 7th consecutive month.[3] This decision came as inflation pressures intensified due to rising global oil prices following the Middle East conflict.",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_237145",
+      "timestamp": "2026-04-13T23:37:41.020222+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Based on the search results, here are the key developments:",
+      "raw": "Based on the search results, here are the key developments:",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
@@ -35,29 +64,12 @@
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_63618",
-      "timestamp": "2026-04-13T23:34:47.493829+00:00",
+      "id": "sig_237160",
+      "timestamp": "2026-04-13T23:37:41.035793+00:00",
       "source": "PERPLEXITY",
-      "headline": "HEADLINE:** Trump orders U",
-      "raw": "HEADLINE:** Trump orders U.S. Navy blockade of Strait of Hormuz after Iran ceasefire talks collapse in Pakistan",
+      "headline": "Marathon Peace Talks Between U",
+      "raw": "Marathon Peace Talks Between U.S. and Iran Collapse | NO (No Agreement Reached) | HIGH confidence**\n\nU.S.-led negotiations in Islamabad ended without progress over the weekend, with the American negotiating team departing after 21 hours of discussions[2]. Vice President JD Vance stated that Iran refused to accept American terms aimed at preventing long-term nuclear weapons development[2].",
       "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces end of military operations against Iran by J",
-        "Trump announces end of military operations against Iran by A"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_63646",
-      "timestamp": "2026-04-13T23:34:47.521291+00:00",
-      "source": "PERPLEXITY",
-      "headline": "YES** - This represents a significant escalation",
-      "raw": "YES** - This represents a significant escalation",
-      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -65,15 +77,14 @@
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_69087",
-      "timestamp": "2026-04-13T23:34:52.962716+00:00",
+      "id": "sig_242666",
+      "timestamp": "2026-04-13T23:37:46.541382+00:00",
       "source": "PERPLEXITY",
-      "headline": "New Mexico Republicans Disqualified from U",
-      "raw": "New Mexico Republicans Disqualified from U.S. Senate Race, Forfeiting Seat to Democrat Ben Ray Lujan** | **YES** | **HIGH** confidence[1]\n\nNew Mexico's Secretary of State ruled on Tuesday that Republican candidate Christopher Vanden Heuvel failed to submit enough signatures, marking the first time since 1912 the GOP won't field a Senate candidate, handing the race uncontested to incumbent Democrat",
+      "headline": "NM Supreme Court Unanimously Confirms Duke Rodriguez on June Gubernatorial Primary Ballot** | **YES** | **HIGH** confide",
+      "raw": "NM Supreme Court Unanimously Confirms Duke Rodriguez on June Gubernatorial Primary Ballot** | **YES** | **HIGH** confidence[1].  \nThe New Mexico Supreme Court ruled unanimously to uphold a lower court's decision, securing Republican candidate **Duke Rodriguez**'s ballot eligibility amid residency challenges, resolving a key legal dispute in the open gubernatorial race (Democrats: Deb Haaland, Sam ",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
-        "Will J.D. Vance win the 2028 Republican presidential nominat",
         "Will the Democratic Party control the Senate after the 2026 Midterm elections?"
       ],
       "action": "ALERT",
@@ -81,27 +92,64 @@
       "category": "POLITICS"
     },
     {
-      "id": "sig_79434",
-      "timestamp": "2026-04-13T23:35:03.309527+00:00",
+      "id": "sig_257329",
+      "timestamp": "2026-04-13T23:38:01.204758+00:00",
       "source": "PERPLEXITY",
-      "headline": "South Korea March 2026 Inflation Rises to 2",
-      "raw": "South Korea March 2026 Inflation Rises to 2.2% (Trading Economics) or 2.16% (RateInflation), Up from February's 2.0% but Below Forecasts of 2.4% | NO | HIGH confidence** [1][3]\n\nThis data, released around early April 2026 (latest updates post-March), shows a modest monthly uptick in annual CPI inflation amid contained price pressures before global energy volatility from the Iran conflict, yet it u",
+      "headline": "BANK OF KOREA HOLDS RATES AT 2",
+      "raw": "BANK OF KOREA HOLDS RATES AT 2.5% AMID INFLATION SURGE | NO rate change | HIGH confidence",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_257361",
+      "timestamp": "2026-04-13T23:38:01.236303+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Key inflation context:** South Korea's annual inflation rate rose to 2",
+      "raw": "Key inflation context:** South Korea's annual inflation rate rose to 2.2% in March 2026, exceeding the central bank's 2% target.[1] The BOK now expects headline inflation to \"exceed considerably\" its February forecast of 2.2 percent as higher oil prices and a weakening won have raised import costs.[4]",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Will Iran strike Iraq by April 30, 2026?",
-        "Trump announces US x Iran ceasefire end by April 21, 2026?"
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
       ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_257376",
+      "timestamp": "2026-04-13T23:38:01.251990+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Market implications:** The rate hold signals the central bank is pausing its easing cycle despite growth concerns, prior",
+      "raw": "Market implications:** The rate hold signals the central bank is pausing its easing cycle despite growth concerns, prioritizing inflation containment. Analysts expect no policy rate changes for the remainder of 2026 as the BOK navigates conflicting pressures: resurgent inflation from energy prices versus slower economic growth (now projected below 2% for the year).[3][4]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_257392",
+      "timestamp": "2026-04-13T23:38:01.267180+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Risk assessment:** The BOK flagged heightened uncertainty from the broadening Middle East conflict, with some analysts w",
+      "raw": "Risk assessment:** The BOK flagged heightened uncertainty from the broadening Middle East conflict, with some analysts warning of potential stagflation if energy infrastructure sustains significant damage.[4]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "ECONOMICS"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 6,
+    "enter": 2,
+    "alert": 8,
     "watch": 0,
-    "high_conf": 1
+    "high_conf": 3
   }
 }
