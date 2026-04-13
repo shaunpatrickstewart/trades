@@ -199,6 +199,11 @@
   const ELITE_URL = 'https://shaunpatrickstewart.github.io/trades/elite_wallets.json';
   const REFRESH = 30000;
 
+  function esc(s) {
+    if (!s) return '';
+    return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;');
+  }
+
   const TAB_DESCS = {
     week:  'Uncertain markets resolving this week — all categories, volume &gt;$20K. Best short-term plays.',
     day48: 'Closing within 48 hours — sports, politics, news, crypto. Fast in-and-out trades.',
@@ -1365,12 +1370,12 @@
         html += '<div style="background:#f2f2f2;border:1px solid #dddddd;border-left:3px solid '+actionColor+';border-radius:4px;padding:7px 10px">';
         html += '<div style="display:flex;align-items:flex-start;justify-content:space-between;gap:6px">';
         html += '<div style="flex:1">';
-        html += '<div style="font-size:0.82em;color:#333;font-weight:600;margin-bottom:3px">'+dirBadge+s.headline+'</div>';
+        html += '<div style="font-size:0.82em;color:#333;font-weight:600;margin-bottom:3px">'+dirBadge+esc(s.headline)+'</div>';
         if (s.matched_markets && s.matched_markets.length) {
-          html += '<div style="font-size:0.7em;color:#555;margin-bottom:2px">→ '+s.matched_markets[0]+'</div>';
+          html += '<div style="font-size:0.7em;color:#555;margin-bottom:2px">→ '+esc(s.matched_markets[0])+'</div>';
         }
         if (s.raw && s.raw !== s.headline) {
-          html += '<div style="font-size:0.7em;color:#444;margin-top:2px">'+s.raw.substring(0,180)+'...</div>';
+          html += '<div style="font-size:0.7em;color:#444;margin-top:2px">'+esc(s.raw.substring(0,180))+'...</div>';
         }
         html += '</div>';
         html += '<div style="text-align:right;flex-shrink:0;min-width:80px">';
