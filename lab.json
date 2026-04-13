@@ -8,9 +8,9 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 140 categorical arb opportunities found\nScanned 3000 events (1881 multi-outcome) at 2026-04-13 01:52 UTC\nBest: 10.0% profit on 'NBA Coach of the Year Winner' \u2014 buy YES on all 25 outcomes (sum=0.9)\nStrategy: Buy YES on all 25 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 9.8% on 'Trump announces US x Iran ceasefire end by...?'",
+      "result": "LIVE \u2014 141 categorical arb opportunities found\nScanned 3000 events (1882 multi-outcome) at 2026-04-13 01:54 UTC\nBest: 10.0% profit on 'NBA Coach of the Year Winner' \u2014 buy YES on all 25 outcomes (sum=0.9)\nStrategy: Buy YES on all 25 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 9.8% on 'Trump announces US x Iran ceasefire end by...?'",
       "priority": "HIGH",
-      "last_scan": "2026-04-13 01:52 UTC",
+      "last_scan": "2026-04-13 01:54 UTC",
       "opportunities": [
         {
           "event_title": "NBA Coach of the Year Winner",
@@ -395,95 +395,6 @@
           "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9060. One wins $1.00. Profit: $0.0940 (9.40%)"
         },
         {
-          "event_title": "Highest temperature in Beijing on April 13?",
-          "event_slug": "highest-temperature-in-beijing-on-april-13-2026",
-          "yes_sum": 0.906,
-          "profit_pct": 9.4,
-          "profit_per_dollar_pct": 10.38,
-          "num_outcomes": 11,
-          "outcomes": [
-            {
-              "market_id": "1924644",
-              "slug": "highest-temperature-in-beijing-on-april-13-2026-19c",
-              "question": "Will the highest temperature in Beijing be 19\u00b0C on April 13?",
-              "yes_price": 0.395,
-              "volume": 2910
-            },
-            {
-              "market_id": "1924645",
-              "slug": "highest-temperature-in-beijing-on-april-13-2026-20c",
-              "question": "Will the highest temperature in Beijing be 20\u00b0C on April 13?",
-              "yes_price": 0.345,
-              "volume": 2319
-            },
-            {
-              "market_id": "1924646",
-              "slug": "highest-temperature-in-beijing-on-april-13-2026-21c",
-              "question": "Will the highest temperature in Beijing be 21\u00b0C on April 13?",
-              "yes_price": 0.075,
-              "volume": 2920
-            },
-            {
-              "market_id": "1924643",
-              "slug": "highest-temperature-in-beijing-on-april-13-2026-18c",
-              "question": "Will the highest temperature in Beijing be 18\u00b0C on April 13?",
-              "yes_price": 0.045,
-              "volume": 2889
-            },
-            {
-              "market_id": "1924647",
-              "slug": "highest-temperature-in-beijing-on-april-13-2026-22c",
-              "question": "Will the highest temperature in Beijing be 22\u00b0C on April 13?",
-              "yes_price": 0.0355,
-              "volume": 3926
-            },
-            {
-              "market_id": "1924648",
-              "slug": "highest-temperature-in-beijing-on-april-13-2026-23corhigher",
-              "question": "Will the highest temperature in Beijing be 23\u00b0C or higher on April 13?",
-              "yes_price": 0.0105,
-              "volume": 10715
-            },
-            {
-              "market_id": "1924638",
-              "slug": "highest-temperature-in-beijing-on-april-13-2026-13corbelow",
-              "question": "Will the highest temperature in Beijing be 13\u00b0C or below on April 13?",
-              "yes_price": 0.0,
-              "volume": 2691
-            },
-            {
-              "market_id": "1924639",
-              "slug": "highest-temperature-in-beijing-on-april-13-2026-14c",
-              "question": "Will the highest temperature in Beijing be 14\u00b0C on April 13?",
-              "yes_price": 0.0,
-              "volume": 2791
-            },
-            {
-              "market_id": "1924640",
-              "slug": "highest-temperature-in-beijing-on-april-13-2026-15c",
-              "question": "Will the highest temperature in Beijing be 15\u00b0C on April 13?",
-              "yes_price": 0.0,
-              "volume": 6244
-            },
-            {
-              "market_id": "1924641",
-              "slug": "highest-temperature-in-beijing-on-april-13-2026-16c",
-              "question": "Will the highest temperature in Beijing be 16\u00b0C on April 13?",
-              "yes_price": 0.0,
-              "volume": 10479
-            },
-            {
-              "market_id": "1924642",
-              "slug": "highest-temperature-in-beijing-on-april-13-2026-17c",
-              "question": "Will the highest temperature in Beijing be 17\u00b0C on April 13?",
-              "yes_price": 0.0,
-              "volume": 9199
-            }
-          ],
-          "url": "https://polymarket.com/event/highest-temperature-in-beijing-on-april-13-2026",
-          "strategy": "Buy YES on all 11 outcomes. Total cost: $0.9060. One wins $1.00. Profit: $0.0940 (9.40%)"
-        },
-        {
           "event_title": "AZ-01 Republican Primary Winner",
           "event_slug": "az-01-republican-primary-winner",
           "yes_sum": 0.9075,
@@ -613,6 +524,81 @@
           "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9080. One wins $1.00. Profit: $0.0920 (9.20%)"
         },
         {
+          "event_title": "China Annual Inflation 2026",
+          "event_slug": "china-annual-inflation-2026",
+          "yes_sum": 0.9085,
+          "profit_pct": 9.15,
+          "profit_per_dollar_pct": 10.07,
+          "num_outcomes": 9,
+          "outcomes": [
+            {
+              "market_id": "1132795",
+              "slug": "will-chinas-annual-inflation-in-2026-be-between-0pt6-and-1pt0",
+              "question": "Will China's annual inflation in 2026 be between 0.6% and 1.0%?",
+              "yes_price": 0.26,
+              "volume": 1819
+            },
+            {
+              "market_id": "1132796",
+              "slug": "will-chinas-annual-inflation-in-2026-be-between-1pt1-and-1pt5",
+              "question": "Will China's annual inflation in 2026 be between 1.1% and 1.5%?",
+              "yes_price": 0.14,
+              "volume": 2205
+            },
+            {
+              "market_id": "1132798",
+              "slug": "will-chinas-annual-inflation-in-2026-be-at-least-2pt5",
+              "question": "Will China's annual inflation in 2026 be at least 2.5%?",
+              "yes_price": 0.1315,
+              "volume": 1562
+            },
+            {
+              "market_id": "1132792",
+              "slug": "will-chinas-annual-inflation-in-2026-be-between-0pt9-and-0pt5",
+              "question": "Will China's annual inflation in 2026 be between -0.9% and -0.5%?",
+              "yes_price": 0.0835,
+              "volume": 1741
+            },
+            {
+              "market_id": "1132797",
+              "slug": "will-chinas-annual-inflation-in-2026-be-between-1pt6-and-2pt0",
+              "question": "Will China's annual inflation in 2026 be between 1.6% and 2.0%?",
+              "yes_price": 0.0815,
+              "volume": 2488
+            },
+            {
+              "market_id": "1132793",
+              "slug": "will-chinas-annual-inflation-in-2026-be-between-0pt4-and-0pt0",
+              "question": "Will China's annual inflation in 2026 be between -0.4% and 0.0%?",
+              "yes_price": 0.076,
+              "volume": 1765
+            },
+            {
+              "market_id": "1237148",
+              "slug": "will-chinas-annual-inflation-in-2026-be-between-2pt0-and-2pt4",
+              "question": "Will China's annual inflation in 2026 be between 2.0% and 2.4%?",
+              "yes_price": 0.0645,
+              "volume": 1617
+            },
+            {
+              "market_id": "1132794",
+              "slug": "will-chinas-annual-inflation-in-2026-be-between-0pt1-and-0pt5",
+              "question": "Will China's annual inflation in 2026 be between 0.1% and 0.5%?",
+              "yes_price": 0.045,
+              "volume": 1633
+            },
+            {
+              "market_id": "1132791",
+              "slug": "will-chinas-annual-inflation-in-2026-be-less-than-1pt0",
+              "question": "Will China's annual inflation in 2026 be less than -1.0%?",
+              "yes_price": 0.0265,
+              "volume": 16740
+            }
+          ],
+          "url": "https://polymarket.com/event/china-annual-inflation-2026",
+          "strategy": "Buy YES on all 9 outcomes. Total cost: $0.9085. One wins $1.00. Profit: $0.0915 (9.15%)"
+        },
+        {
           "event_title": "How many 7.0 or above earthquakes by June 30? (Higher Strikes)",
           "event_slug": "how-many-7pt0-or-above-earthquakes-by-june-30-higher-strikes",
           "yes_sum": 0.9095,
@@ -695,11 +681,11 @@
       ],
       "stats": {
         "total_events": 3000,
-        "checked_multi_outcome": 1881,
+        "checked_multi_outcome": 1882,
         "skipped_single_outcome": 638,
-        "opportunities_found": 140,
+        "opportunities_found": 141,
         "best_profit_pct": 10.0,
-        "scanned_at": "2026-04-13 01:52 UTC"
+        "scanned_at": "2026-04-13 01:54 UTC"
       }
     },
     {
