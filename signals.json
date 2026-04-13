@@ -1,44 +1,76 @@
 {
-  "last_scan": "2026-04-13T23:49:25.012800+00:00",
-  "scan_seconds": 24.1,
-  "markets_scanned": 119,
-  "open_positions": 91,
+  "last_scan": "2026-04-13T23:52:13.668654+00:00",
+  "scan_seconds": 28.7,
+  "markets_scanned": 103,
+  "open_positions": 74,
   "signals": [
     {
-      "id": "sig_934845",
-      "timestamp": "2026-04-13T23:49:18.720960+00:00",
+      "id": "sig_108773",
+      "timestamp": "2026-04-13T23:52:12.647708+00:00",
       "source": "PERPLEXITY",
-      "headline": "Solana Alpenglow Upgrade Passes Governance Vote with 98",
-      "raw": "Solana Alpenglow Upgrade Passes Governance Vote with 98.27% Approval | YES | HIGH confidence**  \nThe Alpenglow upgrade, aimed at reducing Solana transaction finality to 100-150 milliseconds, was confirmed via a governance vote with 98.27% in favor, positioning Solana as a faster execution layer amid strong network activity like $57B DEX volume in March.[3] This resolution could shift prediction ma",
-      "direction": "YES",
+      "headline": "South Korea March 2026 Inflation Confirmed at 2",
+      "raw": "South Korea March 2026 Inflation Confirmed at 2.2% | NO | HIGH confidence**  \nSouth Korea's annual inflation rate rose to 2.2% in March 2026 from 2.0% in January and February, below market forecasts of 2.4% and aligning with the Bank of Korea's 2% target amid contained price pressures.[1]  \nSlight variations exist across sources (e.g., 2.16% per rateinflation.com), but Trading Economics' March 5, ",
+      "direction": "NO",
       "confidence": 0.9,
       "matched_markets": [
-        "Will the price of Solana be above $70 on April 14?",
-        "Will the price of XRP be above $1.10 on April 14?",
-        "Will the price of XRP be above $1.70 on April 15?"
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
       ],
       "action": "ENTER",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_103655",
+      "timestamp": "2026-04-13T23:52:07.529260+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Current market positioning:** Polymarket data shows XRP traders assigning a 72% probability to prices above $1",
+      "raw": "Current market positioning:** Polymarket data shows XRP traders assigning a 72% probability to prices above $1.40 in April and a 49% probability of XRP trading in the $1.30-1.40 range on April 18[4][5].\n\nTo provide the breaking news format you requested, I would need search results containing today's specific announcements or developments. The current results appear to be from earlier in April and",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will the price of XRP be above $1.10 on April 14?",
+        "Will the price of XRP be between $1.60 and $1.70 on April 14",
+        "Will the price of XRP be above $1.70 on April 15?"
+      ],
+      "action": "ALERT",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_923834",
-      "timestamp": "2026-04-13T23:49:07.709783+00:00",
+      "id": "sig_103637",
+      "timestamp": "2026-04-13T23:52:07.511482+00:00",
       "source": "PERPLEXITY",
-      "headline": "Impact on prediction markets: LOW confidence in any YES event; markets likely stable or shifting toward escalation bets",
-      "raw": "Impact on prediction markets: LOW confidence in any YES event; markets likely stable or shifting toward escalation bets given collapsed talks.**",
-      "direction": "YES",
-      "confidence": 0.78,
+      "headline": "I cannot identify breaking news events from these search results that would move prediction markets",
+      "raw": "I cannot identify breaking news events from these search results that would move prediction markets. The search results contain prediction market data and analyst forecasts from early April 2026, but no recent announcements, confirmations, or resolved events that occurred today or very recently.\n\nThe most time-sensitive information available is:",
+      "direction": "NO",
+      "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "GEOPOLITICS"
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_103645",
+      "timestamp": "2026-04-13T23:52:07.519355+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Potential near-term catalyst:** The Senate Banking Committee has indicated a window in the latter half of April for mark",
+      "raw": "Potential near-term catalyst:** The Senate Banking Committee has indicated a window in the latter half of April for markup on the CLARITY Act, which could classify XRP as a digital commodity[3]. However, this is a scheduled legislative event rather than breaking news.",
+      "direction": null,
+      "confidence": 0.6,
+      "matched_markets": [
+        "Will the price of XRP be above $1.10 on April 14?",
+        "Will the price of XRP be between $1.60 and $1.70 on April 14",
+        "Will the price of XRP be above $1.70 on April 15?"
+      ],
+      "action": "WATCH",
+      "x_link": null,
+      "category": "CRYPTO"
     }
   ],
   "stats": {
     "enter": 1,
-    "alert": 1,
-    "watch": 0,
-    "high_conf": 1
+    "alert": 2,
+    "watch": 1,
+    "high_conf": 2
   }
 }
