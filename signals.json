@@ -1,79 +1,180 @@
 {
-  "last_scan": "2026-04-13T04:15:57.791157+00:00",
-  "scan_seconds": 49.2,
-  "markets_scanned": 121,
-  "open_positions": 93,
+  "last_scan": "2026-04-13T04:38:55.308675+00:00",
+  "scan_seconds": 50.7,
+  "markets_scanned": 49,
+  "open_positions": 17,
   "signals": [
     {
-      "id": "sig_501178",
-      "timestamp": "2026-04-13T04:15:25.123425+00:00",
+      "id": "sig_887396",
+      "timestamp": "2026-04-13T04:38:31.340667+00:00",
       "source": "PERPLEXITY",
-      "headline": "Morgan Stanley Launches Spot BTC ETF with Record First-Day Inflows | YES | HIGH confidence** [1][9]",
-      "raw": "Morgan Stanley Launches Spot BTC ETF with Record First-Day Inflows | YES | HIGH confidence** [1][9]\n\nMorgan Stanley's spot Bitcoin ETF achieved the strongest launch day inflows of any fund the bank has introduced, signaling sustained institutional commitment amid BTC trading around $71,000 and $471 million in net BTC ETF inflows on April 6 [1][9]. SpaceX's confirmed $603 million BTC holdings furth",
+      "headline": "Thunder Claim #1 Seed In Western Conference | YES | HIGH confidence**",
+      "raw": "Thunder Claim #1 Seed In Western Conference | YES | HIGH confidence**  \nThe Oklahoma City Thunder have secured the **#1 seed** in the Western Conference for the 2026 NBA playoffs following their final regular-season game on April 12 against the Phoenix Suns, which they lost 103-135 in a meaningless matchup.[2]  \nMultiple key Thunder players, including **Shai Gilgeous-Alexander** (oblique), **Jalen",
       "direction": "YES",
-      "confidence": 0.9,
+      "confidence": 0.65,
       "matched_markets": [
-        "Will the highest temperature in Hong Kong be 22\u00b0C on April 1",
-        "Will the highest temperature in Hong Kong be 23\u00b0C on April 1",
-        "Will the price of XRP be above $1.60 on April 13?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_490499",
-      "timestamp": "2026-04-13T04:15:14.444015+00:00",
-      "source": "PERPLEXITY",
-      "headline": "US-Iran peace talks collapse in Islamabad after 21 hours; no deal on Strait of Hormuz or nuclear issues, ceasefire at ri",
-      "raw": "US-Iran peace talks collapse in Islamabad after 21 hours; no deal on Strait of Hormuz or nuclear issues, ceasefire at risk as US plans port blockade** | NO | HIGH confidence[2][4][5]\n\nThe two-week ceasefire agreed on April 7 remains in effect until April 22 but faces breakdown following failed negotiations on April 12, with VP JD Vance confirming Iran's refusal of US terms and announcing imminent ",
-      "direction": "NO",
-      "confidence": 0.78,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Will Rocket Lab USA, Inc. (RKLB) hit (HIGH) $76 Week of April 13 2026?"
+        "Will the Oklahoma City Thunder win the 2026 NBA Finals?"
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "GEOPOLITICS"
+      "category": "SPORTS"
     },
     {
-      "id": "sig_533836",
-      "timestamp": "2026-04-13T04:15:57.781683+00:00",
+      "id": "sig_911314",
+      "timestamp": "2026-04-13T04:38:55.258902+00:00",
       "source": "X_GROK",
-      "headline": "Hungarian PM Election (Orb\u00e1n vs",
-      "raw": "Hungarian PM Election (Orb\u00e1n vs. Magyar):** Traders highlight massive whale activity. One whale holds ~$1M long on \"Viktor Orb\u00e1n remains PM\" (bought low ~9-11\u00a2), down $600k but eyeing $3M payout if contrarian wins.[[1]](https://x.com/i/status/2043329491687051717)[[2]](https://x.com/i/status/2043392397929820201)[[3]](https://x.com/i/status/2043302060288880749) Counter-cluster (~$300k) bets NO (Magy",
+      "headline": "NBA Sports Markets:**",
+      "raw": "NBA Sports Markets:**",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_911319",
+      "timestamp": "2026-04-13T04:38:55.263961+00:00",
+      "source": "X_GROK",
+      "headline": "Whale ($647k) bets Magic covers -10",
+      "raw": "Whale ($647k) bets Magic covers -10.5 spread vs BOS at 58%.[[1]](https://x.com/i/status/2043443058818027598)[[2]](https://x.com/i/status/2043521831156822501) YES on Magic spread (smart money). Confidence: MED.",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
-      "x_link": "https://x.com/i/status/2043329491687051717)[[2]](https://x.com/i/status/2043392397929820201)[[3]](https://x.com/i/status/2043302060288880749)",
+      "x_link": "https://x.com/i/status/2043443058818027598)[[2]](https://x.com/i/status/2043521831156822501)",
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_533845",
-      "timestamp": "2026-04-13T04:15:57.790790+00:00",
+      "id": "sig_911323",
+      "timestamp": "2026-04-13T04:38:55.267333+00:00",
       "source": "X_GROK",
-      "headline": "Iran Nuclear Program:** Polymarket notes Iran retains most bomb components post-strikes; implies delay not destruction",
-      "raw": "Iran Nuclear Program:** Polymarket notes Iran retains most bomb components post-strikes; implies delay not destruction. **NO full dismantlement:** HIGH.[[4]](https://x.com/i/status/2043399248775987676)\n\nNo major US whale bets or broad mispricing signals trending now; volume chatter on historical highs but dated.",
-      "direction": "NO",
+      "headline": "Whale ($589k) buys Spurs ML vs DEN at 68%",
+      "raw": "Whale ($589k) buys Spurs ML vs DEN at 68%.[[3]](https://x.com/i/status/2043543298170572820) YES on Spurs win. Confidence: MED.",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
-      "x_link": "https://x.com/i/status/2043399248775987676)",
+      "x_link": "https://x.com/i/status/2043543298170572820)",
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_495634",
-      "timestamp": "2026-04-13T04:15:19.580026+00:00",
+      "id": "sig_911326",
+      "timestamp": "2026-04-13T04:38:55.270638+00:00",
+      "source": "X_GROK",
+      "headline": "Iran Ceasefire Market (End by Apr 21):**",
+      "raw": "Iran Ceasefire Market (End by Apr 21):**",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_911330",
+      "timestamp": "2026-04-13T04:38:55.274049+00:00",
+      "source": "X_GROK",
+      "headline": "Suspicious $400k+ trades net profit pre-Trump announcement; odds at 41%",
+      "raw": "Suspicious $400k+ trades net profit pre-Trump announcement; odds at 41%.[[4]](https://x.com/i/status/2043533368181367059)[[2]](https://x.com/i/status/2043521831156822501) Insider signal YES (announcement imminent?). Confidence: HIGH.",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2043533368181367059)[[2]](https://x.com/i/status/2043521831156822501)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_911336",
+      "timestamp": "2026-04-13T04:38:55.280782+00:00",
+      "source": "X_GROK",
+      "headline": "World Cup 2026 Winner:**",
+      "raw": "World Cup 2026 Winner:**",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_911343",
+      "timestamp": "2026-04-13T04:38:55.287203+00:00",
+      "source": "X_GROK",
+      "headline": "Mispriced; bet YES on top 7 teams (122% APR, $612M liq)",
+      "raw": "Mispriced; bet YES on top 7 teams (122% APR, $612M liq).[[5]](https://x.com/i/status/2043448239395885483) YES top contenders. Confidence: MED.",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2043448239395885483)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_911348",
+      "timestamp": "2026-04-13T04:38:55.292927+00:00",
+      "source": "X_GROK",
+      "headline": "G7 Econ Data Contracts:**",
+      "raw": "G7 Econ Data Contracts:**",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_911354",
+      "timestamp": "2026-04-13T04:38:55.298431+00:00",
+      "source": "X_GROK",
+      "headline": "8-16% mispriced vs pro consensus (GDP/unemployment); low vol, arb opp",
+      "raw": "8-16% mispriced vs pro consensus (GDP/unemployment); low vol, arb opp.[[6]](https://x.com/i/status/2043391435437678896) Bet toward consensus. Confidence: HIGH.",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2043391435437678896)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_911359",
+      "timestamp": "2026-04-13T04:38:55.303443+00:00",
+      "source": "X_GROK",
+      "headline": "Algo Tips Trending:**",
+      "raw": "Algo Tips Trending:**",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_911364",
+      "timestamp": "2026-04-13T04:38:55.308273+00:00",
+      "source": "X_GROK",
+      "headline": "Post-news panic (22-28% overreact), quiet vol pre-open, 4\u00a2 dead contracts (89% WR in backtest)",
+      "raw": "Post-news panic (22-28% overreact), quiet vol pre-open, 4\u00a2 dead contracts (89% WR in backtest).[[7]](https://x.com/i/status/2043242476224335984) Contrarian buys. Confidence: MED.",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2043242476224335984)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_875214",
+      "timestamp": "2026-04-13T04:38:19.158409+00:00",
       "source": "PERPLEXITY",
-      "headline": "New Mexico Supreme Court Affirms Duke Rodriguez's Spot on 2026 GOP Gubernatorial Primary Ballot** | **YES** | **HIGH** c",
-      "raw": "New Mexico Supreme Court Affirms Duke Rodriguez's Spot on 2026 GOP Gubernatorial Primary Ballot** | **YES** | **HIGH** confidence\n\nThe New Mexico Supreme Court on Wednesday upheld a lower court ruling, allowing Republican gubernatorial candidate **Duke Rodriguez** to remain on the June 2 primary ballot, resolving a multi-month legal challenge and positioning him as the early front-runner against G",
+      "headline": "NM Supreme Court Unanimously Clears Republican Gubernatorial Candidate Duke Rodriguez for June Primary Ballot** | **YES*",
+      "raw": "NM Supreme Court Unanimously Clears Republican Gubernatorial Candidate Duke Rodriguez for June Primary Ballot** | **YES** | **HIGH** confidence[1][2]\n\nThe New Mexico Supreme Court on April 1, 2026, upheld a lower court's dismissal of a challenge to Duke Rodriguez's eligibility, confirming his spot on the Republican primary ballot despite residency disputes involving his Arizona ties and voter regi",
       "direction": "YES",
       "confidence": 0.6,
       "matched_markets": [
-        "Will Duke Rodriguez win the 2026 New Mexico Governor Republi",
-        "Will the Republican Party win the AK-AL House seat?"
+        "Will J.D. Vance win the 2028 Republican presidential nominat",
+        "Will Duke Rodriguez win the 2026 New Mexico Governor Republi"
       ],
       "action": "WATCH",
       "x_link": null,
@@ -81,9 +182,9 @@
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 3,
+    "enter": 0,
+    "alert": 12,
     "watch": 1,
-    "high_conf": 1
+    "high_conf": 0
   }
 }
