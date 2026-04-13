@@ -1,79 +1,86 @@
 {
-  "last_scan": "2026-04-13T23:55:01.211629+00:00",
-  "scan_seconds": 28.3,
+  "last_scan": "2026-04-13T23:57:48.439753+00:00",
+  "scan_seconds": 27.4,
   "markets_scanned": 67,
   "open_positions": 35,
   "signals": [
     {
-      "id": "sig_271497",
-      "timestamp": "2026-04-13T23:54:55.371599+00:00",
+      "id": "sig_443565",
+      "timestamp": "2026-04-13T23:57:47.439086+00:00",
       "source": "PERPLEXITY",
-      "headline": "Grayscale Increases Cardano Holdings 20%; Coinbase Adds Solana/Cardano Pairs (April 11) | NO | LOW confidence**",
-      "raw": "Grayscale Increases Cardano Holdings 20%; Coinbase Adds Solana/Cardano Pairs (April 11) | NO | LOW confidence**  \nGrayscale announced a 20% hike in Cardano holdings on April 9, signaling institutional confidence tied to its partnerships, while Coinbase added trading pairs for Solana and Cardano on April 11 to boost liquidity\u2014no direct Bitcoin/Ethereum impact confirmed to move prediction markets li",
-      "direction": "NO",
+      "headline": "South Korea March 2026 Annual Inflation Confirmed at 2",
+      "raw": "South Korea March 2026 Annual Inflation Confirmed at 2.2% (Up from 2.0%, Below 2.4% Forecast) | YES | HIGH confidence** [1][2]\n\nSouth Korea's annual CPI inflation rose to 2.2% in March 2026 from 2.0% in January and February, per Trading Economics, while RateInflation reports a precise 2.16% year-over-year rate with a 0.34% monthly rise\u2014both below market expectations of 2.4%.[1][2] This data, relea",
+      "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
-        "Bitcoin Up or Down - April 13, 7:50PM-7:55PM ET",
-        "Will the price of Bitcoin be above $72,000 on April 16?",
-        "Will the price of Ethereum be between $2,400 and $2,500 on April 14?"
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
       ],
       "action": "ENTER",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "ECONOMICS"
     },
     {
-      "id": "sig_263544",
-      "timestamp": "2026-04-13T23:54:47.418930+00:00",
+      "id": "sig_422975",
+      "timestamp": "2026-04-13T23:57:26.849371+00:00",
       "source": "PERPLEXITY",
-      "headline": "NM Supreme Court Confirms Duke Rodriguez on Republican Gubernatorial Primary Ballot** | **YES** | **HIGH** confidence[1]",
-      "raw": "NM Supreme Court Confirms Duke Rodriguez on Republican Gubernatorial Primary Ballot** | **YES** | **HIGH** confidence[1][2]\n\nThe New Mexico Supreme Court unanimously ruled on April 1, 2026, that Republican candidate **Duke Rodriguez** remains eligible for the June primary ballot, upholding a lower court's dismissal of a challenge to his 5-year residency requirement despite his recent voting in Ari",
+      "headline": "YES** \u2013 This confirms the ceasefire's ongoing status amid escalating tensions, potentially shifting prediction markets o",
+      "raw": "YES** \u2013 This confirms the ceasefire's ongoing status amid escalating tensions, potentially shifting prediction markets on war resumption or Strait of Hormuz access.[1][2]",
       "direction": "YES",
       "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_422980",
+      "timestamp": "2026-04-13T23:57:26.854971+00:00",
+      "source": "PERPLEXITY",
+      "headline": "MED confidence** \u2013 Trump's direct statement today provides fresh validation, but counter-reports of failed talks and Ira",
+      "raw": "MED confidence** \u2013 Trump's direct statement today provides fresh validation, but counter-reports of failed talks and Iranian threats indicate fragility.[1][4]",
+      "direction": null,
+      "confidence": 0.65,
       "matched_markets": [
-        "Will Duke Rodriguez win the 2026 New Mexico Governor Republi",
-        "Will the Democratic Party control the Senate after the 2026 Midterm elections?"
+        "Trump announces end of military operations against Iran by J",
+        "Trump announces end of military operations against Iran by A",
+        "Trump announces US x Iran ceasefire end by April 21, 2026?"
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "POLITICS"
+      "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_271485",
-      "timestamp": "2026-04-13T23:54:55.359598+00:00",
+      "id": "sig_436507",
+      "timestamp": "2026-04-13T23:57:40.381047+00:00",
       "source": "PERPLEXITY",
-      "headline": "Ethereum Hits $3,200 on 5% Rally Driven by EIP-4829 Upgrade | YES | HIGH confidence**",
-      "raw": "Ethereum Hits $3,200 on 5% Rally Driven by EIP-4829 Upgrade | YES | HIGH confidence**  \nEthereum reached $3,200 during Friday afternoon trading (April 10, 2026), marking a 5% gain over 24 hours amid renewed altcoin risk appetite following weeks of sideways action; this follows the rollout of **Ethereum Improvement Proposal 4829** earlier in April, which enables faster transactions and lower fees, ",
-      "direction": "YES",
+      "headline": "HIGH confidence**: Search results show only price snapshots and prior context (e",
+      "raw": "HIGH confidence**: Search results show only price snapshots and prior context (e.g., April 10 ETH at $2,217.74), no breaking news on resolutions like policy changes, ETF approvals, or geopolitical events tied to today.[1][2][3]",
+      "direction": "NO",
       "confidence": 0.65,
-      "matched_markets": [
-        "Will the price of Ethereum be between $2,400 and $2,500 on April 14?",
-        "Ethereum Up or Down - April 14, 5:35AM-5:40AM ET"
-      ],
+      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_271492",
-      "timestamp": "2026-04-13T23:54:55.366312+00:00",
+      "id": "sig_429498",
+      "timestamp": "2026-04-13T23:57:33.372588+00:00",
       "source": "PERPLEXITY",
-      "headline": "Bitcoin ETFs See $8",
-      "raw": "Bitcoin ETFs See $8.9M Inflow on April 4; Ethereum ETFs Lead with $71.1M | YES | MED confidence**  \nOn April 4, Bitcoin spot ETFs recorded $8.99M net inflows (down from March's $1.32B), while Ethereum ETFs saw $71.16M inflows amid Middle East tensions dampening risk appetite; this modest capital shift could influence prediction markets like Bitcoin $100K by June 30 odds, though volumes remain low ",
+      "headline": "New Mexico GOP Pre-Primary Convention Selects Doug Turner for Governor Ballot; Duke Rodriguez Fails to Qualify, Pursuing",
+      "raw": "New Mexico GOP Pre-Primary Convention Selects Doug Turner for Governor Ballot; Duke Rodriguez Fails to Qualify, Pursuing Signatures** | **YES** | **HIGH** confidence[1][2]\n\nThe Republican Party of New Mexico held its 2026 Pre-Primary Convention in Ruidoso on Saturday, April 11, 2026, where delegates voted to qualify businessman **Doug Turner** (104 votes) and Rio Rancho Mayor Greg Hull for the Jun",
       "direction": "YES",
       "confidence": 0.6,
       "matched_markets": [
-        "Bitcoin Up or Down - April 13, 7:50PM-7:55PM ET",
-        "Will the price of Bitcoin be above $72,000 on April 16?",
-        "Will the price of Ethereum be between $2,400 and $2,500 on April 14?"
+        "Will Duke Rodriguez win the 2026 New Mexico Governor Republi"
       ],
       "action": "WATCH",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "POLITICS"
     }
   ],
   "stats": {
     "enter": 1,
-    "alert": 2,
+    "alert": 3,
     "watch": 1,
     "high_conf": 1
   }
