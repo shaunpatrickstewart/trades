@@ -8,16 +8,96 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 143 categorical arb opportunities found\nScanned 3000 events (1872 multi-outcome) at 2026-04-13 04:16 UTC\nBest: 10.0% profit on 'Presidential Election Winner 2028' \u2014 buy YES on all 36 outcomes (sum=0.9)\nStrategy: Buy YES on all 36 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 9.95% on 'Will Opensea launch a token by ___?'",
+      "result": "LIVE \u2014 136 categorical arb opportunities found\nScanned 3000 events (1865 multi-outcome) at 2026-04-13 04:44 UTC\nBest: 10.0% profit on 'Precipitation in NYC in April?' \u2014 buy YES on all 4 outcomes (sum=0.9)\nStrategy: Buy YES on all 4 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 10.0% on '# of seats won by PB in Bulgarian Parliamentary Election?'",
       "priority": "HIGH",
-      "last_scan": "2026-04-13 04:16 UTC",
+      "last_scan": "2026-04-13 04:44 UTC",
       "opportunities": [
         {
-          "event_title": "Presidential Election Winner 2028",
-          "event_slug": "presidential-election-winner-2028",
+          "event_title": "Precipitation in NYC in April?",
+          "event_slug": "precipitation-in-nyc-in-april",
           "yes_sum": 0.9,
           "profit_pct": 10.0,
           "profit_per_dollar_pct": 11.11,
+          "num_outcomes": 4,
+          "outcomes": [
+            {
+              "market_id": "1706747",
+              "slug": "will-nyc-have-less-than-2-inches-of-precipitation-in-april",
+              "question": "Will NYC have less than 2 inches of precipitation in April?",
+              "yes_price": 0.5825,
+              "volume": 2815
+            },
+            {
+              "market_id": "1706748",
+              "slug": "will-nyc-have-between-2-and-3-inches-of-precipitation-in-april",
+              "question": "Will NYC have between 2 and 3 inches of precipitation in April?",
+              "yes_price": 0.16,
+              "volume": 11918
+            },
+            {
+              "market_id": "1706749",
+              "slug": "will-nyc-have-between-3-and-4-inches-of-precipitation-in-april",
+              "question": "Will NYC have between 3 and 4 inches of precipitation in April?",
+              "yes_price": 0.09,
+              "volume": 9029
+            },
+            {
+              "market_id": "1706750",
+              "slug": "will-nyc-have-between-4-and-5-inches-of-precipitation-in-april",
+              "question": "Will NYC have between 4 and 5 inches of precipitation in April?",
+              "yes_price": 0.0675,
+              "volume": 12526
+            }
+          ],
+          "url": "https://polymarket.com/event/precipitation-in-nyc-in-april",
+          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
+        },
+        {
+          "event_title": "# of seats won by PB in Bulgarian Parliamentary Election?",
+          "event_slug": "of-seats-won-by-pb-in-bulgarian-parliamentary-election",
+          "yes_sum": 0.9,
+          "profit_pct": 10.0,
+          "profit_per_dollar_pct": 11.11,
+          "num_outcomes": 4,
+          "outcomes": [
+            {
+              "market_id": "1738484",
+              "slug": "will-progressive-bulgaria-pb-win-between-90-94-seats-in-the-2026-bulgarian-parliamentary-election",
+              "question": "Will Progressive Bulgaria (PB) win between 90-94 seats in the 2026 Bulgarian par",
+              "yes_price": 0.335,
+              "volume": 6350
+            },
+            {
+              "market_id": "1738483",
+              "slug": "will-progressive-bulgaria-pb-win-between-85-89-seats-in-the-2026-bulgarian-parliamentary-election",
+              "question": "Will Progressive Bulgaria (PB) win between 85-89 seats in the 2026 Bulgarian par",
+              "yes_price": 0.27,
+              "volume": 8014
+            },
+            {
+              "market_id": "1738485",
+              "slug": "will-progressive-bulgaria-pb-win-95-or-more-seats-in-the-2026-bulgarian-parliamentary-election",
+              "question": "Will Progressive Bulgaria (PB) win 95 or more seats in the 2026 Bulgarian parlia",
+              "yes_price": 0.15,
+              "volume": 12751
+            },
+            {
+              "market_id": "1738482",
+              "slug": "will-progressive-bulgaria-pb-win-between-80-84-seats-in-the-2026-bulgarian-parliamentary-election",
+              "question": "Will Progressive Bulgaria (PB) win between 80-84 seats in the 2026 Bulgarian par",
+              "yes_price": 0.145,
+              "volume": 7917
+            }
+          ],
+          "url": "https://polymarket.com/event/of-seats-won-by-pb-in-bulgarian-parliamentary-election",
+          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
+        },
+        {
+          "event_title": "Presidential Election Winner 2028",
+          "event_slug": "presidential-election-winner-2028",
+          "yes_sum": 0.9005,
+          "profit_pct": 9.95,
+          "profit_per_dollar_pct": 11.05,
           "num_outcomes": 36,
           "outcomes": [
             {
@@ -25,84 +105,84 @@
               "slug": "will-jd-vance-win-the-2028-us-presidential-election",
               "question": "Will JD Vance win the 2028 US Presidential Election?",
               "yes_price": 0.1875,
-              "volume": 10123532
+              "volume": 10123542
             },
             {
               "market_id": "561230",
               "slug": "will-gavin-newsom-win-the-2028-us-presidential-election",
               "question": "Will Gavin Newsom win the 2028 US Presidential Election?",
               "yes_price": 0.1655,
-              "volume": 13840582
+              "volume": 13842584
             },
             {
               "market_id": "561234",
               "slug": "will-marco-rubio-win-the-2028-us-presidential-election",
               "question": "Will Marco Rubio win the 2028 US Presidential Election?",
               "yes_price": 0.098,
-              "volume": 6041621
+              "volume": 6041673
             },
             {
               "market_id": "561231",
               "slug": "will-alexandria-ocasio-cortez-win-the-2028-us-presidential-election",
               "question": "Will Alexandria Ocasio-Cortez win the 2028 US Presidential Election?",
               "yes_price": 0.0535,
-              "volume": 10777598
+              "volume": 10777643
             },
             {
               "market_id": "561261",
               "slug": "will-jon-ossoff-win-the-2028-us-presidential-election",
               "question": "Will Jon Ossoff win the 2028 US Presidential Election?",
               "yes_price": 0.0425,
-              "volume": 3440937
+              "volume": 3441053
             },
             {
               "market_id": "561239",
               "slug": "will-kamala-harris-win-the-2028-us-presidential-election",
               "question": "Will Kamala Harris win the 2028 US Presidential Election?",
               "yes_price": 0.0325,
-              "volume": 6967410
+              "volume": 6967488
             },
             {
               "market_id": "561253",
               "slug": "will-tucker-carlson-win-the-2028-us-presidential-election",
               "question": "Will Tucker Carlson win the 2028 US Presidential Election?",
               "yes_price": 0.0275,
-              "volume": 9870213
+              "volume": 9870311
             },
             {
               "market_id": "561233",
               "slug": "will-josh-shapiro-win-the-2028-us-presidential-election",
               "question": "Will Josh Shapiro win the 2028 US Presidential Election?",
               "yes_price": 0.0215,
-              "volume": 5782474
+              "volume": 5782491
             },
             {
               "market_id": "561243",
               "slug": "will-donald-trump-win-the-2028-us-presidential-election",
               "question": "Will Donald Trump win the 2028 US Presidential Election?",
               "yes_price": 0.0215,
-              "volume": 6935413
+              "volume": 6935454
             },
             {
               "market_id": "561246",
               "slug": "will-ron-desantis-win-the-2028-us-presidential-election",
               "question": "Will Ron DeSantis win the 2028 US Presidential Election?",
               "yes_price": 0.0175,
-              "volume": 8698470
+              "volume": 8698564
             },
             {
               "market_id": "561232",
               "slug": "will-pete-buttigieg-win-the-2028-us-presidential-election",
               "question": "Will Pete Buttigieg win the 2028 US Presidential Election?",
               "yes_price": 0.0165,
-              "volume": 3843121
+              "volume": 3843233
             },
             {
               "market_id": "561252",
               "slug": "will-dwayne-the-rock-johnson-win-the-2028-us-presidential-election",
               "question": "Will Dwayne 'The Rock' Johnson win the 2028 US Presidential Election?",
               "yes_price": 0.0135,
-              "volume": 6153502
+              "volume": 6153622
             },
             {
               "market_id": "561237",
@@ -115,8 +195,8 @@
               "market_id": "561241",
               "slug": "will-jb-pritzker-win-the-2028-us-presidential-election",
               "question": "Will JB Pritzker win the 2028 US Presidential Election?",
-              "yes_price": 0.0115,
-              "volume": 10830866
+              "yes_price": 0.012,
+              "volume": 10831039
             },
             {
               "market_id": "561260",
@@ -137,7 +217,7 @@
               "slug": "will-glenn-youngkin-win-the-2028-us-presidential-election",
               "question": "Will Glenn Youngkin win the 2028 US Presidential Election?",
               "yes_price": 0.0105,
-              "volume": 20794768
+              "volume": 20794793
             },
             {
               "market_id": "561262",
@@ -151,7 +231,7 @@
               "slug": "will-elon-musk-win-the-2028-us-presidential-election",
               "question": "Will Elon Musk win the 2028 US Presidential Election?",
               "yes_price": 0.0095,
-              "volume": 22667528
+              "volume": 22667930
             },
             {
               "market_id": "561258",
@@ -165,14 +245,14 @@
               "slug": "will-greg-abbott-win-the-2028-us-presidential-election",
               "question": "Will Greg Abbott win the 2028 US Presidential Election?",
               "yes_price": 0.0095,
-              "volume": 31864778
+              "volume": 31864911
             },
             {
               "market_id": "561255",
               "slug": "will-ivanka-trump-win-the-2028-us-presidential-election",
               "question": "Will Ivanka Trump win the 2028 US Presidential Election?",
               "yes_price": 0.0085,
-              "volume": 4551531
+              "volume": 4552543
             },
             {
               "market_id": "561257",
@@ -186,156 +266,184 @@
               "slug": "will-ro-khanna-win-the-2028-us-presidential-election",
               "question": "Will Ro Khanna win the 2028 US Presidential Election?",
               "yes_price": 0.0085,
-              "volume": 7088593
+              "volume": 7091921
             },
             {
               "market_id": "561245",
               "slug": "will-nikki-haley-win-the-2028-us-presidential-election",
               "question": "Will Nikki Haley win the 2028 US Presidential Election?",
               "yes_price": 0.008,
-              "volume": 22063032
+              "volume": 22064669
             },
             {
               "market_id": "561240",
               "slug": "will-stephen-smith-win-the-2028-us-presidential-election",
               "question": "Will Stephen Smith win the 2028 US Presidential Election?",
               "yes_price": 0.0075,
-              "volume": 29601653
+              "volume": 29602056
             },
             {
               "market_id": "561244",
               "slug": "will-donald-trump-jr-win-the-2028-us-presidential-election",
               "question": "Will Donald Trump Jr. win the 2028 US Presidential Election?",
               "yes_price": 0.0075,
-              "volume": 9211749
+              "volume": 9212156
             },
             {
               "market_id": "561256",
               "slug": "will-zohran-mamdani-win-the-2028-us-presidential-election",
               "question": "Will Zohran Mamdani win the 2028 US Presidential Election?",
               "yes_price": 0.0075,
-              "volume": 17582363
+              "volume": 17585254
             },
             {
               "market_id": "561263",
               "slug": "will-eric-trump-win-the-2028-us-presidential-election",
               "question": "Will Eric Trump win the 2028 US Presidential Election?",
               "yes_price": 0.0065,
-              "volume": 6599816
+              "volume": 6600467
             },
             {
               "market_id": "561247",
               "slug": "will-tim-walz-win-the-2028-us-presidential-election",
               "question": "Will Tim Walz win the 2028 US Presidential Election?",
               "yes_price": 0.0065,
-              "volume": 39502522
+              "volume": 39505661
             },
             {
               "market_id": "561235",
               "slug": "will-wes-moore-win-the-2028-us-presidential-election",
               "question": "Will Wes Moore win the 2028 US Presidential Election?",
               "yes_price": 0.0065,
-              "volume": 6480341
+              "volume": 6482373
             },
             {
               "market_id": "561242",
               "slug": "will-tulsi-gabbard-win-the-2028-us-presidential-election",
               "question": "Will Tulsi Gabbard win the 2028 US Presidential Election?",
               "yes_price": 0.0065,
-              "volume": 28150215
+              "volume": 28150709
             },
             {
               "market_id": "561264",
               "slug": "will-pete-hegseth-win-the-2028-us-presidential-election",
               "question": "Will Pete Hegseth win the 2028 US Presidential Election?",
               "yes_price": 0.0065,
-              "volume": 4395434
+              "volume": 4399223
             },
             {
               "market_id": "561248",
               "slug": "will-vivek-ramaswamy-win-the-2028-us-presidential-election",
               "question": "Will Vivek Ramaswamy win the 2028 US Presidential Election?",
               "yes_price": 0.0065,
-              "volume": 30998878
+              "volume": 30999359
             },
             {
               "market_id": "561254",
               "slug": "will-kim-kardashian-win-the-2028-us-presidential-election",
               "question": "Will Kim Kardashian win the 2028 US Presidential Election?",
               "yes_price": 0.0065,
-              "volume": 32729259
+              "volume": 32733009
             },
             {
               "market_id": "561251",
               "slug": "will-lebron-james-win-the-2028-us-presidential-election",
               "question": "Will LeBron James win the 2028 US Presidential Election?",
               "yes_price": 0.0055,
-              "volume": 46348281
+              "volume": 46349036
             }
           ],
           "url": "https://polymarket.com/event/presidential-election-winner-2028",
-          "strategy": "Buy YES on all 36 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
+          "strategy": "Buy YES on all 36 outcomes. Total cost: $0.9005. One wins $1.00. Profit: $0.0995 (9.95%)"
         },
         {
-          "event_title": "Will Opensea launch a token by ___?",
-          "event_slug": "will-opensea-launch-a-token-by-142",
-          "yes_sum": 0.9005,
-          "profit_pct": 9.95,
-          "profit_per_dollar_pct": 11.05,
-          "num_outcomes": 4,
+          "event_title": "How many 5.5 or above earthquakes April 6 - April 12?",
+          "event_slug": "how-many-5pt5-or-above-earthquakes-april-6-april-12",
+          "yes_sum": 0.905,
+          "profit_pct": 9.5,
+          "profit_per_dollar_pct": 10.5,
+          "num_outcomes": 8,
           "outcomes": [
             {
-              "market_id": "1271613",
-              "slug": "will-opensea-launch-a-token-by-december-31-2026",
-              "question": "Will OpenSea launch a token by December 31, 2026?",
-              "yes_price": 0.5925,
-              "volume": 95305
+              "market_id": "1829846",
+              "slug": "will-there-be-exactly-3-earthquakes-of-magnitude-5pt5-or-higher-worldwide-by-april-5",
+              "question": "Will there be exactly 3 earthquakes of magnitude 5.5 or higher worldwide by Apri",
+              "yes_price": 0.5205,
+              "volume": 21681
             },
             {
-              "market_id": "1271612",
-              "slug": "will-opensea-launch-a-token-by-september-30-2026",
-              "question": "Will OpenSea launch a token by September 30, 2026?",
-              "yes_price": 0.24,
-              "volume": 66549
+              "market_id": "1829847",
+              "slug": "will-there-be-exactly-4-earthquakes-of-magnitude-5pt5-or-higher-worldwide-by-april-5",
+              "question": "Will there be exactly 4 earthquakes of magnitude 5.5 or higher worldwide by Apri",
+              "yes_price": 0.245,
+              "volume": 6251
             },
             {
-              "market_id": "1271611",
-              "slug": "will-opensea-launch-a-token-by-june-30-2026",
-              "question": "Will OpenSea launch a token by June 30, 2026?",
-              "yes_price": 0.068,
-              "volume": 188572
+              "market_id": "1829848",
+              "slug": "will-there-be-exactly-5-earthquakes-of-magnitude-5pt5-or-higher-worldwide-by-april-5",
+              "question": "Will there be exactly 5 earthquakes of magnitude 5.5 or higher worldwide by Apri",
+              "yes_price": 0.0415,
+              "volume": 7693
             },
             {
-              "market_id": "1271610",
-              "slug": "will-opensea-launch-a-token-by-march-31-2026",
-              "question": "Will OpenSea launch a token by March 31, 2026?",
-              "yes_price": 0.0,
-              "volume": 1030401
+              "market_id": "1829853",
+              "slug": "will-there-be-more-than-9-earthquakes-of-magnitude-5pt5-or-higher-worldwide-by-april-5",
+              "question": "Will there be more than 9 earthquakes of magnitude 5.5 or higher worldwide by Ap",
+              "yes_price": 0.025,
+              "volume": 29522
+            },
+            {
+              "market_id": "1829852",
+              "slug": "will-there-be-exactly-9-earthquakes-of-magnitude-5pt5-or-higher-worldwide-by-april-5",
+              "question": "Will there be exactly 9 earthquakes of magnitude 5.5 or higher worldwide by Apri",
+              "yes_price": 0.0205,
+              "volume": 10205
+            },
+            {
+              "market_id": "1829851",
+              "slug": "will-there-be-exactly-8-earthquakes-of-magnitude-5pt5-or-higher-worldwide-by-april-5",
+              "question": "Will there be exactly 8 earthquakes of magnitude 5.5 or higher worldwide by Apri",
+              "yes_price": 0.02,
+              "volume": 18331
+            },
+            {
+              "market_id": "1829850",
+              "slug": "will-there-be-exactly-7-earthquakes-of-magnitude-5pt5-or-higher-worldwide-by-april-5",
+              "question": "Will there be exactly 7 earthquakes of magnitude 5.5 or higher worldwide by Apri",
+              "yes_price": 0.018,
+              "volume": 6049
+            },
+            {
+              "market_id": "1829849",
+              "slug": "will-there-be-exactly-6-earthquakes-of-magnitude-5pt5-or-higher-worldwide-by-april-5",
+              "question": "Will there be exactly 6 earthquakes of magnitude 5.5 or higher worldwide by Apri",
+              "yes_price": 0.0145,
+              "volume": 9599
             }
           ],
-          "url": "https://polymarket.com/event/will-opensea-launch-a-token-by-142",
-          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9005. One wins $1.00. Profit: $0.0995 (9.95%)"
+          "url": "https://polymarket.com/event/how-many-5pt5-or-above-earthquakes-april-6-april-12",
+          "strategy": "Buy YES on all 8 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
         },
         {
           "event_title": "# of seats won by DP in South Korea by-elections?",
           "event_slug": "of-seats-won-by-dp-in-south-korea-by-elections-763",
-          "yes_sum": 0.9005,
-          "profit_pct": 9.95,
-          "profit_per_dollar_pct": 11.05,
+          "yes_sum": 0.9065,
+          "profit_pct": 9.35,
+          "profit_per_dollar_pct": 10.31,
           "num_outcomes": 6,
           "outcomes": [
             {
               "market_id": "1364303",
               "slug": "will-the-democratic-party-of-korea-win-10-or-more-seats-in-south-koreas-june-3-2026-parliamentary-by-elections",
               "question": "Will the Democratic Party of Korea win 10 or more seats in South Korea\u2019s June 3,",
-              "yes_price": 0.594,
+              "yes_price": 0.599,
               "volume": 10307
             },
             {
               "market_id": "1364302",
               "slug": "will-the-democratic-party-of-korea-win-8-or-9-seats-in-south-koreas-june-3-2026-parliamentary-by-elections",
               "question": "Will the Democratic Party of Korea win 8 or 9 seats in South Korea\u2019s June 3, 202",
-              "yes_price": 0.2605,
+              "yes_price": 0.2625,
               "volume": 3222
             },
             {
@@ -356,7 +464,7 @@
               "market_id": "1364300",
               "slug": "will-the-democratic-party-of-korea-win-4-or-5-seats-in-south-koreas-june-3-2026-parliamentary-by-elections",
               "question": "Will the Democratic Party of Korea win 4 or 5 seats in South Korea\u2019s June 3, 202",
-              "yes_price": 0.0055,
+              "yes_price": 0.0045,
               "volume": 2632
             },
             {
@@ -368,209 +476,7 @@
             }
           ],
           "url": "https://polymarket.com/event/of-seats-won-by-dp-in-south-korea-by-elections-763",
-          "strategy": "Buy YES on all 6 outcomes. Total cost: $0.9005. One wins $1.00. Profit: $0.0995 (9.95%)"
-        },
-        {
-          "event_title": "Montana Democratic Senate Primary Winner",
-          "event_slug": "montana-democratic-senate-primary-winner",
-          "yes_sum": 0.9005,
-          "profit_pct": 9.95,
-          "profit_per_dollar_pct": 11.05,
-          "num_outcomes": 2,
-          "outcomes": [
-            {
-              "market_id": "801938",
-              "slug": "will-reilly-neill-be-the-democratic-nominee-for-senate-in-montana",
-              "question": "Will Reilly Neill be the Democratic nominee for Senate in Montana?",
-              "yes_price": 0.83,
-              "volume": 4523
-            },
-            {
-              "market_id": "801937",
-              "slug": "will-michael-hummert-be-the-democratic-nominee-for-senate-in-montana",
-              "question": "Will Michael Hummert be the Democratic nominee for Senate in Montana?",
-              "yes_price": 0.0705,
-              "volume": 2066
-            }
-          ],
-          "url": "https://polymarket.com/event/montana-democratic-senate-primary-winner",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9005. One wins $1.00. Profit: $0.0995 (9.95%)"
-        },
-        {
-          "event_title": "Wales Parliamentary Election Winner",
-          "event_slug": "wales-parliamentary-election-winner",
-          "yes_sum": 0.9025,
-          "profit_pct": 9.75,
-          "profit_per_dollar_pct": 10.8,
-          "num_outcomes": 6,
-          "outcomes": [
-            {
-              "market_id": "922347",
-              "slug": "will-plaid-cymru-win-the-most-seats-in-the-2026-welsh-senedd-election",
-              "question": "Will Plaid Cymru win the most seats in the 2026 Welsh Senedd election?",
-              "yes_price": 0.81,
-              "volume": 8109
-            },
-            {
-              "market_id": "922349",
-              "slug": "will-reform-uk-win-the-most-seats-in-the-2026-welsh-senedd-election",
-              "question": "Will Reform UK win the most seats in the 2026 Welsh Senedd election?",
-              "yes_price": 0.0755,
-              "volume": 6002
-            },
-            {
-              "market_id": "922346",
-              "slug": "will-welsh-labour-win-the-most-seats-in-the-2026-welsh-senedd-election",
-              "question": "Will Welsh Labour win the most seats in the 2026 Welsh Senedd election?",
-              "yes_price": 0.0125,
-              "volume": 7206
-            },
-            {
-              "market_id": "922348",
-              "slug": "will-welsh-conservatives-win-the-most-seats-in-the-2026-welsh-senedd-election",
-              "question": "Will Welsh Conservatives win the most seats in the 2026 Welsh Senedd election?",
-              "yes_price": 0.0015,
-              "volume": 3200
-            },
-            {
-              "market_id": "922350",
-              "slug": "will-welsh-liberal-democrats-win-the-most-seats-in-the-2026-welsh-senedd-election",
-              "question": "Will Welsh Liberal Democrats win the most seats in the 2026 Welsh Senedd electio",
-              "yes_price": 0.0015,
-              "volume": 2591
-            },
-            {
-              "market_id": "922351",
-              "slug": "will-the-welsh-green-party-win-the-most-seats-in-the-2026-welsh-senedd-election",
-              "question": "Will the Welsh Green Party win the most seats in the 2026 Welsh Senedd election?",
-              "yes_price": 0.0015,
-              "volume": 3010
-            }
-          ],
-          "url": "https://polymarket.com/event/wales-parliamentary-election-winner",
-          "strategy": "Buy YES on all 6 outcomes. Total cost: $0.9025. One wins $1.00. Profit: $0.0975 (9.75%)"
-        },
-        {
-          "event_title": "China Annual Inflation 2026",
-          "event_slug": "china-annual-inflation-2026",
-          "yes_sum": 0.9035,
-          "profit_pct": 9.65,
-          "profit_per_dollar_pct": 10.68,
-          "num_outcomes": 9,
-          "outcomes": [
-            {
-              "market_id": "1132795",
-              "slug": "will-chinas-annual-inflation-in-2026-be-between-0pt6-and-1pt0",
-              "question": "Will China's annual inflation in 2026 be between 0.6% and 1.0%?",
-              "yes_price": 0.26,
-              "volume": 1819
-            },
-            {
-              "market_id": "1132796",
-              "slug": "will-chinas-annual-inflation-in-2026-be-between-1pt1-and-1pt5",
-              "question": "Will China's annual inflation in 2026 be between 1.1% and 1.5%?",
-              "yes_price": 0.135,
-              "volume": 2205
-            },
-            {
-              "market_id": "1132798",
-              "slug": "will-chinas-annual-inflation-in-2026-be-at-least-2pt5",
-              "question": "Will China's annual inflation in 2026 be at least 2.5%?",
-              "yes_price": 0.1285,
-              "volume": 1562
-            },
-            {
-              "market_id": "1132793",
-              "slug": "will-chinas-annual-inflation-in-2026-be-between-0pt4-and-0pt0",
-              "question": "Will China's annual inflation in 2026 be between -0.4% and 0.0%?",
-              "yes_price": 0.0815,
-              "volume": 1765
-            },
-            {
-              "market_id": "1132797",
-              "slug": "will-chinas-annual-inflation-in-2026-be-between-1pt6-and-2pt0",
-              "question": "Will China's annual inflation in 2026 be between 1.6% and 2.0%?",
-              "yes_price": 0.0815,
-              "volume": 2488
-            },
-            {
-              "market_id": "1132792",
-              "slug": "will-chinas-annual-inflation-in-2026-be-between-0pt9-and-0pt5",
-              "question": "Will China's annual inflation in 2026 be between -0.9% and -0.5%?",
-              "yes_price": 0.081,
-              "volume": 1741
-            },
-            {
-              "market_id": "1237148",
-              "slug": "will-chinas-annual-inflation-in-2026-be-between-2pt0-and-2pt4",
-              "question": "Will China's annual inflation in 2026 be between 2.0% and 2.4%?",
-              "yes_price": 0.0645,
-              "volume": 1617
-            },
-            {
-              "market_id": "1132794",
-              "slug": "will-chinas-annual-inflation-in-2026-be-between-0pt1-and-0pt5",
-              "question": "Will China's annual inflation in 2026 be between 0.1% and 0.5%?",
-              "yes_price": 0.045,
-              "volume": 1633
-            },
-            {
-              "market_id": "1132791",
-              "slug": "will-chinas-annual-inflation-in-2026-be-less-than-1pt0",
-              "question": "Will China's annual inflation in 2026 be less than -1.0%?",
-              "yes_price": 0.0265,
-              "volume": 16740
-            }
-          ],
-          "url": "https://polymarket.com/event/china-annual-inflation-2026",
-          "strategy": "Buy YES on all 9 outcomes. Total cost: $0.9035. One wins $1.00. Profit: $0.0965 (9.65%)"
-        },
-        {
-          "event_title": "Zelenskyy # posts April 7 - April 14, 2026?",
-          "event_slug": "zelenskyy-of-tweets-april-7-april-14-2026",
-          "yes_sum": 0.9035,
-          "profit_pct": 9.65,
-          "profit_per_dollar_pct": 10.68,
-          "num_outcomes": 5,
-          "outcomes": [
-            {
-              "market_id": "1854116",
-              "slug": "zelenskyy-of-tweets-april-7-april-14-2026-60-79",
-              "question": "Will Zelenskyy post 60-79 posts from April 7 to April 14, 2026?",
-              "yes_price": 0.475,
-              "volume": 1480
-            },
-            {
-              "market_id": "1854108",
-              "slug": "zelenskyy-of-tweets-april-7-april-14-2026-40-59",
-              "question": "Will Zelenskyy post 40-59 posts from April 7 to April 14, 2026?",
-              "yes_price": 0.425,
-              "volume": 2920
-            },
-            {
-              "market_id": "1854186",
-              "slug": "zelenskyy-of-tweets-april-7-april-14-2026-180-199",
-              "question": "Will Zelenskyy post 180-199 posts from April 7 to April 14, 2026?",
-              "yes_price": 0.002,
-              "volume": 1372
-            },
-            {
-              "market_id": "1854191",
-              "slug": "zelenskyy-of-tweets-april-7-april-14-2026-200plus",
-              "question": "Will Zelenskyy post 200+ posts from April 7 to April 14, 2026?",
-              "yes_price": 0.0015,
-              "volume": 2387
-            },
-            {
-              "market_id": "1854100",
-              "slug": "zelenskyy-of-tweets-april-7-april-14-2026-20-39",
-              "question": "Will Zelenskyy post 20-39 posts from April 7 to April 14, 2026?",
-              "yes_price": 0.0,
-              "volume": 1587
-            }
-          ],
-          "url": "https://polymarket.com/event/zelenskyy-of-tweets-april-7-april-14-2026",
-          "strategy": "Buy YES on all 5 outcomes. Total cost: $0.9035. One wins $1.00. Profit: $0.0965 (9.65%)"
+          "strategy": "Buy YES on all 6 outcomes. Total cost: $0.9065. One wins $1.00. Profit: $0.0935 (9.35%)"
         },
         {
           "event_title": "AZ-01 Republican Primary Winner",
@@ -669,135 +575,215 @@
           "strategy": "Buy YES on all 12 outcomes. Total cost: $0.9075. One wins $1.00. Profit: $0.0925 (9.25%)"
         },
         {
-          "event_title": "VA-02 Democratic Primary Winner",
-          "event_slug": "va-02-democratic-primary-winner",
-          "yes_sum": 0.9075,
-          "profit_pct": 9.25,
-          "profit_per_dollar_pct": 10.19,
-          "num_outcomes": 3,
+          "event_title": "How many 7.0 or above earthquakes by June 30? (Higher Strikes)",
+          "event_slug": "how-many-7pt0-or-above-earthquakes-by-june-30-higher-strikes",
+          "yes_sum": 0.9085,
+          "profit_pct": 9.15,
+          "profit_per_dollar_pct": 10.07,
+          "num_outcomes": 4,
           "outcomes": [
             {
-              "market_id": "704140",
-              "slug": "will-elaine-luria-be-the-democratic-nominee-for-va-02",
-              "question": "Will Elaine Luria be the Democratic nominee for VA-02?",
-              "yes_price": 0.825,
-              "volume": 1102
+              "market_id": "1829467",
+              "slug": "will-there-be-8-or-fewer-earthquakes-of-magnitude-7pt0-or-higher-worldwide-by-june-30",
+              "question": "Will there be 8 or fewer earthquakes of magnitude 7.0 or higher worldwide by Jun",
+              "yes_price": 0.47,
+              "volume": 17940
             },
             {
-              "market_id": "704139",
-              "slug": "will-james-osyf-be-the-democratic-nominee-for-va-02",
-              "question": "Will James Osyf be the Democratic nominee for VA-02?",
-              "yes_price": 0.062,
-              "volume": 1097
+              "market_id": "1829470",
+              "slug": "will-there-be-exactly-11-earthquakes-of-magnitude-7pt0-or-higher-worldwide-by-june-30",
+              "question": "Will there be exactly 11 earthquakes of magnitude 7.0 or higher worldwide by Jun",
+              "yes_price": 0.21,
+              "volume": 13545
             },
             {
-              "market_id": "704143",
-              "slug": "will-patrick-mosolf-be-the-democratic-nominee-for-va-02",
-              "question": "Will Patrick Mosolf be the Democratic nominee for VA-02?",
-              "yes_price": 0.0205,
-              "volume": 1490
+              "market_id": "1829468",
+              "slug": "will-there-be-exactly-9-earthquake-of-magnitude-7pt0-or-higher-worldwide-by-june-30",
+              "question": "Will there be exactly 9 earthquake of magnitude 7.0 or higher worldwide by June ",
+              "yes_price": 0.15,
+              "volume": 11188
+            },
+            {
+              "market_id": "1829471",
+              "slug": "will-there-be-exactly-12-earthquakes-of-magnitude-7pt0-or-higher-worldwide-by-june-30",
+              "question": "Will there be exactly 12 earthquakes of magnitude 7.0 or higher worldwide by Jun",
+              "yes_price": 0.0785,
+              "volume": 3138
             }
           ],
-          "url": "https://polymarket.com/event/va-02-democratic-primary-winner",
-          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9075. One wins $1.00. Profit: $0.0925 (9.25%)"
+          "url": "https://polymarket.com/event/how-many-7pt0-or-above-earthquakes-by-june-30-higher-strikes",
+          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9085. One wins $1.00. Profit: $0.0915 (9.15%)"
         },
         {
-          "event_title": "Highest temperature in Buenos Aires on April 13?",
-          "event_slug": "highest-temperature-in-buenos-aires-on-april-13-2026",
-          "yes_sum": 0.911,
-          "profit_pct": 8.9,
-          "profit_per_dollar_pct": 9.77,
-          "num_outcomes": 11,
+          "event_title": "Will Opensea launch a token by ___?",
+          "event_slug": "will-opensea-launch-a-token-by-142",
+          "yes_sum": 0.9105,
+          "profit_pct": 8.95,
+          "profit_per_dollar_pct": 9.83,
+          "num_outcomes": 4,
           "outcomes": [
             {
-              "market_id": "1924371",
-              "slug": "highest-temperature-in-buenos-aires-on-april-13-2026-25c",
-              "question": "Will the highest temperature in Buenos Aires be 25\u00b0C on April 13?",
-              "yes_price": 0.405,
-              "volume": 1679
+              "market_id": "1271613",
+              "slug": "will-opensea-launch-a-token-by-december-31-2026",
+              "question": "Will OpenSea launch a token by December 31, 2026?",
+              "yes_price": 0.5925,
+              "volume": 95305
             },
             {
-              "market_id": "1924370",
-              "slug": "highest-temperature-in-buenos-aires-on-april-13-2026-24c",
-              "question": "Will the highest temperature in Buenos Aires be 24\u00b0C on April 13?",
-              "yes_price": 0.215,
-              "volume": 1546
+              "market_id": "1271612",
+              "slug": "will-opensea-launch-a-token-by-september-30-2026",
+              "question": "Will OpenSea launch a token by September 30, 2026?",
+              "yes_price": 0.25,
+              "volume": 66549
             },
             {
-              "market_id": "1924372",
-              "slug": "highest-temperature-in-buenos-aires-on-april-13-2026-26c",
-              "question": "Will the highest temperature in Buenos Aires be 26\u00b0C on April 13?",
-              "yes_price": 0.1795,
-              "volume": 4877
+              "market_id": "1271611",
+              "slug": "will-opensea-launch-a-token-by-june-30-2026",
+              "question": "Will OpenSea launch a token by June 30, 2026?",
+              "yes_price": 0.068,
+              "volume": 188572
             },
             {
-              "market_id": "1924369",
-              "slug": "highest-temperature-in-buenos-aires-on-april-13-2026-23c",
-              "question": "Will the highest temperature in Buenos Aires be 23\u00b0C on April 13?",
-              "yes_price": 0.055,
-              "volume": 2714
-            },
-            {
-              "market_id": "1924373",
-              "slug": "highest-temperature-in-buenos-aires-on-april-13-2026-27c",
-              "question": "Will the highest temperature in Buenos Aires be 27\u00b0C on April 13?",
-              "yes_price": 0.026,
-              "volume": 2981
-            },
-            {
-              "market_id": "1924368",
-              "slug": "highest-temperature-in-buenos-aires-on-april-13-2026-22c",
-              "question": "Will the highest temperature in Buenos Aires be 22\u00b0C on April 13?",
-              "yes_price": 0.016,
-              "volume": 4711
-            },
-            {
-              "market_id": "1924374",
-              "slug": "highest-temperature-in-buenos-aires-on-april-13-2026-28corhigher",
-              "question": "Will the highest temperature in Buenos Aires be 28\u00b0C or higher on April 13?",
-              "yes_price": 0.0075,
-              "volume": 2240
-            },
-            {
-              "market_id": "1924367",
-              "slug": "highest-temperature-in-buenos-aires-on-april-13-2026-21c",
-              "question": "Will the highest temperature in Buenos Aires be 21\u00b0C on April 13?",
-              "yes_price": 0.0045,
-              "volume": 3192
-            },
-            {
-              "market_id": "1924366",
-              "slug": "highest-temperature-in-buenos-aires-on-april-13-2026-20c",
-              "question": "Will the highest temperature in Buenos Aires be 20\u00b0C on April 13?",
-              "yes_price": 0.0015,
-              "volume": 2279
-            },
-            {
-              "market_id": "1924364",
-              "slug": "highest-temperature-in-buenos-aires-on-april-13-2026-18corbelow",
-              "question": "Will the highest temperature in Buenos Aires be 18\u00b0C or below on April 13?",
-              "yes_price": 0.0005,
-              "volume": 4058
-            },
-            {
-              "market_id": "1924365",
-              "slug": "highest-temperature-in-buenos-aires-on-april-13-2026-19c",
-              "question": "Will the highest temperature in Buenos Aires be 19\u00b0C on April 13?",
-              "yes_price": 0.0005,
-              "volume": 3952
+              "market_id": "1271610",
+              "slug": "will-opensea-launch-a-token-by-march-31-2026",
+              "question": "Will OpenSea launch a token by March 31, 2026?",
+              "yes_price": 0.0,
+              "volume": 1030401
             }
           ],
-          "url": "https://polymarket.com/event/highest-temperature-in-buenos-aires-on-april-13-2026",
-          "strategy": "Buy YES on all 11 outcomes. Total cost: $0.9110. One wins $1.00. Profit: $0.0890 (8.90%)"
+          "url": "https://polymarket.com/event/will-opensea-launch-a-token-by-142",
+          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9105. One wins $1.00. Profit: $0.0895 (8.95%)"
+        },
+        {
+          "event_title": "China Annual Inflation 2026",
+          "event_slug": "china-annual-inflation-2026",
+          "yes_sum": 0.9105,
+          "profit_pct": 8.95,
+          "profit_per_dollar_pct": 9.83,
+          "num_outcomes": 9,
+          "outcomes": [
+            {
+              "market_id": "1132795",
+              "slug": "will-chinas-annual-inflation-in-2026-be-between-0pt6-and-1pt0",
+              "question": "Will China's annual inflation in 2026 be between 0.6% and 1.0%?",
+              "yes_price": 0.26,
+              "volume": 1819
+            },
+            {
+              "market_id": "1132796",
+              "slug": "will-chinas-annual-inflation-in-2026-be-between-1pt1-and-1pt5",
+              "question": "Will China's annual inflation in 2026 be between 1.1% and 1.5%?",
+              "yes_price": 0.145,
+              "volume": 2205
+            },
+            {
+              "market_id": "1132798",
+              "slug": "will-chinas-annual-inflation-in-2026-be-at-least-2pt5",
+              "question": "Will China's annual inflation in 2026 be at least 2.5%?",
+              "yes_price": 0.1285,
+              "volume": 1562
+            },
+            {
+              "market_id": "1132797",
+              "slug": "will-chinas-annual-inflation-in-2026-be-between-1pt6-and-2pt0",
+              "question": "Will China's annual inflation in 2026 be between 1.6% and 2.0%?",
+              "yes_price": 0.0815,
+              "volume": 2488
+            },
+            {
+              "market_id": "1132793",
+              "slug": "will-chinas-annual-inflation-in-2026-be-between-0pt4-and-0pt0",
+              "question": "Will China's annual inflation in 2026 be between -0.4% and 0.0%?",
+              "yes_price": 0.081,
+              "volume": 1765
+            },
+            {
+              "market_id": "1132792",
+              "slug": "will-chinas-annual-inflation-in-2026-be-between-0pt9-and-0pt5",
+              "question": "Will China's annual inflation in 2026 be between -0.9% and -0.5%?",
+              "yes_price": 0.0785,
+              "volume": 1741
+            },
+            {
+              "market_id": "1237148",
+              "slug": "will-chinas-annual-inflation-in-2026-be-between-2pt0-and-2pt4",
+              "question": "Will China's annual inflation in 2026 be between 2.0% and 2.4%?",
+              "yes_price": 0.0645,
+              "volume": 1617
+            },
+            {
+              "market_id": "1132794",
+              "slug": "will-chinas-annual-inflation-in-2026-be-between-0pt1-and-0pt5",
+              "question": "Will China's annual inflation in 2026 be between 0.1% and 0.5%?",
+              "yes_price": 0.045,
+              "volume": 1633
+            },
+            {
+              "market_id": "1132791",
+              "slug": "will-chinas-annual-inflation-in-2026-be-less-than-1pt0",
+              "question": "Will China's annual inflation in 2026 be less than -1.0%?",
+              "yes_price": 0.0265,
+              "volume": 16740
+            }
+          ],
+          "url": "https://polymarket.com/event/china-annual-inflation-2026",
+          "strategy": "Buy YES on all 9 outcomes. Total cost: $0.9105. One wins $1.00. Profit: $0.0895 (8.95%)"
+        },
+        {
+          "event_title": "Vancouver Mayoral Election Winner",
+          "event_slug": "vancouver-mayoral-election-winner",
+          "yes_sum": 0.9115,
+          "profit_pct": 8.85,
+          "profit_per_dollar_pct": 9.71,
+          "num_outcomes": 5,
+          "outcomes": [
+            {
+              "market_id": "1822537",
+              "slug": "will-ken-sim-win-the-2026-vancouver-mayoral-election",
+              "question": "Will Ken Sim win the 2026 Vancouver mayoral election?",
+              "yes_price": 0.31,
+              "volume": 5388
+            },
+            {
+              "market_id": "1822538",
+              "slug": "will-kareem-allam-win-the-2026-vancouver-mayoral-election",
+              "question": "Will Kareem Allam win the 2026 Vancouver mayoral election?",
+              "yes_price": 0.275,
+              "volume": 1349
+            },
+            {
+              "market_id": "1822542",
+              "slug": "will-pete-fry-win-the-2026-vancouver-mayoral-election",
+              "question": "Will Pete Fry win the 2026 Vancouver mayoral election?",
+              "yes_price": 0.1935,
+              "volume": 1213
+            },
+            {
+              "market_id": "1822539",
+              "slug": "will-john-coupar-win-the-2026-vancouver-mayoral-election",
+              "question": "Will John Coupar win the 2026 Vancouver mayoral election?",
+              "yes_price": 0.1175,
+              "volume": 1170
+            },
+            {
+              "market_id": "1822543",
+              "slug": "will-william-azaroff-win-the-2026-vancouver-mayoral-election",
+              "question": "Will William Azaroff win the 2026 Vancouver mayoral election?",
+              "yes_price": 0.0155,
+              "volume": 1217
+            }
+          ],
+          "url": "https://polymarket.com/event/vancouver-mayoral-election-winner",
+          "strategy": "Buy YES on all 5 outcomes. Total cost: $0.9115. One wins $1.00. Profit: $0.0885 (8.85%)"
         }
       ],
       "stats": {
         "total_events": 3000,
-        "checked_multi_outcome": 1872,
-        "skipped_single_outcome": 636,
-        "opportunities_found": 143,
+        "checked_multi_outcome": 1865,
+        "skipped_single_outcome": 638,
+        "opportunities_found": 136,
         "best_profit_pct": 10.0,
-        "scanned_at": "2026-04-13 04:16 UTC"
+        "scanned_at": "2026-04-13 04:44 UTC"
       }
     },
     {
