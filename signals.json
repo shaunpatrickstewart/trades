@@ -1,149 +1,168 @@
 {
-  "last_scan": "2026-04-13T10:58:22.432743+00:00",
-  "scan_seconds": 67.8,
-  "markets_scanned": 41,
-  "open_positions": 19,
+  "last_scan": "2026-04-13T11:08:10.835142+00:00",
+  "scan_seconds": 48.2,
+  "markets_scanned": 103,
+  "open_positions": 84,
   "signals": [
     {
-      "id": "sig_639818",
-      "timestamp": "2026-04-13T10:57:43.739153+00:00",
+      "id": "sig_225593",
+      "timestamp": "2026-04-13T11:07:29.513626+00:00",
       "source": "PERPLEXITY",
-      "headline": "No Major Announcements or Resolutions Confirmed to Move Markets RIGHT NOW | NO | HIGH confidence**",
-      "raw": "No Major Announcements or Resolutions Confirmed to Move Markets RIGHT NOW | NO | HIGH confidence**  \nNo breaking confirmations, announcements, or resolutions (e.g., X Money launch at 31% by April 30, Nikita Bier exit at 6%) are reported as just occurring to shift odds; markets like Kanye tweeting by April 30 (76%) remain steady without triggers.[1][3] Data as of April 13 reflects ongoing trading w",
-      "direction": "NO",
+      "headline": "US-Iran Ceasefire Talks Collapse; Trump Orders Naval Blockade of Strait of Hormuz | NO | HIGH confidence**",
+      "raw": "US-Iran Ceasefire Talks Collapse; Trump Orders Naval Blockade of Strait of Hormuz | NO | HIGH confidence**\n\nHigh-level US-Iran negotiations in Islamabad ended without agreement on April 12, 2026, after five days of a fragile ceasefire, with Iran rejecting US demands for nuclear facility access and reopening the Strait of Hormuz[1][2][3]. President Trump announced the US Navy will impose a full blo",
+      "direction": "YES",
       "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_630720",
-      "timestamp": "2026-04-13T10:57:34.641969+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Suns Shock Thunder 135-103 in OKC on April 12, Ending Thunder's Dominant 64-17 Streak Before Playoffs | NO | HIGH confid",
-      "raw": "Suns Shock Thunder 135-103 in OKC on April 12, Ending Thunder's Dominant 64-17 Streak Before Playoffs | NO | HIGH confidence** [1][2]\n\nThe Phoenix Suns defeated the Oklahoma City Thunder 135-103 on April 12, 2026, in Oklahoma City, dropping OKC's record to 64-18 while improving Phoenix to 45-37.[1][2] This loss by 32 points came despite strong efforts from Thunder's Branden Carlson (26 points, 10 ",
-      "direction": "YES",
-      "confidence": 0.78,
-      "matched_markets": [
-        "Will the Oklahoma City Thunder win the 2026 NBA Finals?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_620434",
-      "timestamp": "2026-04-13T10:57:24.355052+00:00",
-      "source": "PERPLEXITY",
-      "headline": "HEADLINE | NO new breaking confirmation, announcement, or resolution on Iran ceasefire as of April 13, 2026 | HIGH confi",
-      "raw": "HEADLINE | NO new breaking confirmation, announcement, or resolution on Iran ceasefire as of April 13, 2026 | HIGH confidence**\n\nNo events reported after April 12 confirm, announce, or resolve a lasting Iran ceasefire; U.S.-led talks in Islamabad collapsed on April 12 with no progress, per ILTV Israel News reporting day five of the fragile two-week truce (agreed April 8, mediated by Pakistan) endi",
-      "direction": "YES",
-      "confidence": 0.65,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Will Rocket Lab USA, Inc. (RKLB) hit (HIGH) $76 Week of April 13 2026?"
+        "Trump announces end of military operations against Iran by J"
       ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_639812",
-      "timestamp": "2026-04-13T10:57:43.733086+00:00",
+      "id": "sig_231313",
+      "timestamp": "2026-04-13T11:07:35.234010+00:00",
       "source": "PERPLEXITY",
-      "headline": "Elon Musk Tweet Count Markets Surge with $8M Volume on Polymarket's X/Tweet Bets | NO | HIGH confidence**",
-      "raw": "Elon Musk Tweet Count Markets Surge with $8M Volume on Polymarket's X/Tweet Bets | NO | HIGH confidence**  \nPolymarket traders on X are heavily focused on **Elon Musk tweet volume markets**, including \"Elon Musk # tweets April 7 - April 14, 2026?\" at 29% odds for 320-339 tweets ($8M total volume, $3M today, $1M liquidity) and \"Elon Musk # tweets April 13 - April 15, 2026?\" at 38% for leading outco",
+      "headline": "HEADLINE** | **YES or NO** | **HIGH/MED/LOW confidence**",
+      "raw": "HEADLINE** | **YES or NO** | **HIGH/MED/LOW confidence**  \nVance Hosts First White House Anti-Fraud Task Force Meeting, Vows Prosecutions and Strategy Against Benefits Corruption | NO | HIGH",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_237051",
+      "timestamp": "2026-04-13T11:07:40.971656+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**XRP inflows lead market**: XRP recorded $119",
+      "raw": "**XRP inflows lead market**: XRP recorded $119.6M in inflows last week (week ending ~April 8), surpassing Bitcoin ($107.3M) and Solana ($34.9M), amid U.S.-Iran ceasefire boosting prices (XRP at $1.38, up 5.52%; Solana at $84.47, up 6.65%). Progress on Evernorth SPAC merger for public XRP treasury noted, but no new confirmations today.[2]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Will the price of XRP be above $1.60 on April 13?",
+        "Will the price of XRP be between $1.10 and $1.20 on April 13"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_237095",
+      "timestamp": "2026-04-13T11:07:41.015260+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Senate activity today**: U",
+      "raw": "**Senate activity today**: U.S. Senate returns from recess on April 13, with Banking Committee eyeing markup on CLARITY Act (late April window) to classify XRP as digital commodity; no advancement confirmed yet\u2014analysts call April \"binary\" for XRP.[4][6]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the price of XRP be above $1.60 on April 13?",
+        "Will the price of XRP be between $1.10 and $1.20 on April 13",
+        "Will the price of XRP be above $1.70 on April 14?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_237193",
+      "timestamp": "2026-04-13T11:07:41.113964+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Other context**: Bullish April momentum for XRP/Solana from regulatory clarity, Solana adoption (Mastercard/Western Un",
+      "raw": "**Other context**: Bullish April momentum for XRP/Solana from regulatory clarity, Solana adoption (Mastercard/Western Union), NYSE tokenized assets; dated to early April or prior.[3][5]\n\nNo sources report events precisely at 11 AM UTC today; closest are anticipatory (e.g., Senate return).[1][2][4][6]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the price of XRP be above $1.60 on April 13?",
+        "Will the price of XRP be between $1.10 and $1.20 on April 13",
+        "Will the price of Solana be above $90 on April 13?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_266794",
+      "timestamp": "2026-04-13T11:08:10.714580+00:00",
+      "source": "X_GROK",
+      "headline": "NBA: Magic vs Celtics (resolved Apr 12)**",
+      "raw": "NBA: Magic vs Celtics (resolved Apr 12)**  \nWhale bet $201K on Magic win; small loss noted pre-resolution.[[1]](https://x.com/i/status/2043376770955563171)[[2]](https://x.com/i/status/2043294089395769538)  \nYES Magic (smart money signal). Confidence: MED.",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2043376770955563171)[[2]](https://x.com/i/status/2043294089395769538)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_266840",
+      "timestamp": "2026-04-13T11:08:10.760565+00:00",
+      "source": "X_GROK",
+      "headline": "Trump ends military ops (Iran-related)**",
+      "raw": "Trump ends military ops (Iran-related)**  \nSuspicious trader (prior $80k ceasefire win) bets YES on imminent announcement.[[3]](https://x.com/i/status/2042898185996173348)  \nYES end ops. Confidence: HIGH (insider flag).",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces end of military operations against Iran by J"
+      ],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2042898185996173348)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_266877",
+      "timestamp": "2026-04-13T11:08:10.797304+00:00",
+      "source": "X_GROK",
+      "headline": "US-Iran ceasefire markets**",
+      "raw": "US-Iran ceasefire markets**  \nHeavy odd buys (~$8M low-ROI); chaos bets amid talks.[[4]](https://x.com/i/status/2042748118773506502)[[5]](https://x.com/i/status/2042740957271949557)  \nNO ceasefire (trader bets). Confidence: MED.",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?"
+      ],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2042748118773506502)[[5]](https://x.com/i/status/2042740957271949557)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_266914",
+      "timestamp": "2026-04-13T11:08:10.834198+00:00",
+      "source": "X_GROK",
+      "headline": "Cross-platform arbs**",
+      "raw": "Cross-platform arbs**  \nKalshi-Polymarket sports gaps (2-5\u00a2, <60s); tools live.[[6]](https://x.com/i/status/2043289260116066486)  \nArb opportunities. Confidence: HIGH.\n\nTrending: Whale alerts (@polyuserstats), bots for momentum/arb trades, no major mispriced calls.",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
-      "x_link": null,
+      "x_link": "https://x.com/i/status/2043289260116066486)",
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_639815",
-      "timestamp": "2026-04-13T10:57:43.736054+00:00",
+      "id": "sig_237151",
+      "timestamp": "2026-04-13T11:07:41.071639+00:00",
       "source": "PERPLEXITY",
-      "headline": "Iran-Israel/US Conflict End by Dec 31 at 94% YES Draws Attention as Top X Market | YES | MED confidence**",
-      "raw": "Iran-Israel/US Conflict End by Dec 31 at 94% YES Draws Attention as Top X Market | YES | MED confidence**  \nThe \"Iran x Israel/US conflict ends by December 31?\" market leads X predictions at 94% YES probability, with high trader interest amid geopolitical tensions, though no specific whale bets or X posts on mispricing are detailed in current data.[1]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
+      "headline": "**April predictions**: Polymarket shows mixed XRP odds (69% below $1",
+      "raw": "**April predictions**: Polymarket shows mixed XRP odds (69% below $1.2, 56% above $1.4) and bullish Solana (87% above $80); no shifts or resolutions today.[1]",
+      "direction": "NO",
+      "confidence": 0.6,
+      "matched_markets": [
+        "Will the price of XRP be above $1.60 on April 13?",
+        "Will the price of XRP be between $1.10 and $1.20 on April 13",
+        "Will the price of Solana be above $90 on April 13?"
+      ],
+      "action": "WATCH",
       "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_678491",
-      "timestamp": "2026-04-13T10:58:22.412660+00:00",
-      "source": "X_GROK",
-      "headline": "Hungarian Election Resolution:** Orb\u00e1n power ends, opposition (P\u00e9ter Magyar) wins as Polymarket predicted; massive whale",
-      "raw": "Hungarian Election Resolution:** Orb\u00e1n power ends, opposition (P\u00e9ter Magyar) wins as Polymarket predicted; massive whale lost $857k-$1M betting YES on Orb\u00e1n. Means NO for Orb\u00e1n retention markets. HIGH confidence (resolved).[[1]](https://x.com/i/status/2043437592423588242)[[2]](https://x.com/i/status/2043302060288880749)[[3]](https://x.com/i/status/2043432433115082796)",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2043437592423588242)[[2]](https://x.com/i/status/2043302060288880749)[[3]](https://x.com/i/status/2043432433115082796)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_678500",
-      "timestamp": "2026-04-13T10:58:22.421392+00:00",
-      "source": "X_GROK",
-      "headline": "LoL Esports (Imminent BO3s):** AI flags mispriced YES on \"Both Teams Slay Dragon/Baron\" in Misa vs Phoenix (62% true pro",
-      "raw": "LoL Esports (Imminent BO3s):** AI flags mispriced YES on \"Both Teams Slay Dragon/Baron\" in Misa vs Phoenix (62% true prob vs 50%), PCIFIC vs Ozarox (75% vs 53%), Dark Passage vs BoostGate (62% vs 50%); whale $6.3k YES Bilibili Gaming win vs JDG at 91\u00a2. Means YES. MED confidence (AI + whale flow).[[4]](https://x.com/i/status/2043631018033467524)[[5]](https://x.com/i/status/2043630293525975216)",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2043631018033467524)[[5]](https://x.com/i/status/2043630293525975216)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_678505",
-      "timestamp": "2026-04-13T10:58:22.426454+00:00",
-      "source": "X_GROK",
-      "headline": "US Invasion of Iran by EOY 2026:** Market at 34% YES; smart money fading to 34% amid de-escalation, potential drop to 15",
-      "raw": "US Invasion of Iran by EOY 2026:** Market at 34% YES; smart money fading to 34% amid de-escalation, potential drop to 15% on diplomacy. Means NO. MED confidence (volume drift).[[6]](https://x.com/i/status/2043638363903627454)",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2043638363903627454)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_678508",
-      "timestamp": "2026-04-13T10:58:22.429393+00:00",
-      "source": "X_GROK",
-      "headline": "Soccer Halftime Draws (Apr 26):** AI undervalues Draw at Villarreal vs Celta (55% vs 40%), Rayo vs Sociedad (55% vs 43%)",
-      "raw": "Soccer Halftime Draws (Apr 26):** AI undervalues Draw at Villarreal vs Celta (55% vs 40%), Rayo vs Sociedad (55% vs 43%). Means YES Draw. LOW-MED confidence (AI stats).[[4]](https://x.com/i/status/2043631018033467524)",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2043631018033467524)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_678511",
-      "timestamp": "2026-04-13T10:58:22.432392+00:00",
-      "source": "X_GROK",
-      "headline": "MegaETH Airdrop by Jun 30:** 44% YES; repo commits spiking signals higher prob",
-      "raw": "MegaETH Airdrop by Jun 30:** 44% YES; repo commits spiking signals higher prob. Means YES. LOW confidence (dev activity proxy).[[7]](https://x.com/i/status/2043421654433325233)\n\nTrending: Copy profitable whales like @rn1 (1\u00a2 lottos, $7.2m PnL), 98% win-rate insider (low-prob hits), lazy arb on obvious 70-90\u00a2.[[8]](https://x.com/i/status/2042608257080975537)[[9]](https://x.com/i/status/204295802218",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2043421654433325233)",
-      "category": "COMMUNITY"
+      "category": "CRYPTO"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 10,
-    "watch": 0,
+    "enter": 1,
+    "alert": 8,
+    "watch": 1,
     "high_conf": 1
   }
 }
