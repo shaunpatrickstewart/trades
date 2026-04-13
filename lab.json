@@ -8,426 +8,10 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 133 categorical arb opportunities found\nScanned 3000 events (1862 multi-outcome) at 2026-04-13 11:04 UTC\nBest: 10.0% profit on 'Presidential Election Winner 2028' \u2014 buy YES on all 36 outcomes (sum=0.9)\nStrategy: Buy YES on all 36 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 9.95% on 'Next UK Prime Minister in 2026?'",
+      "result": "LIVE \u2014 139 categorical arb opportunities found\nScanned 3000 events (1863 multi-outcome) at 2026-04-13 11:09 UTC\nBest: 9.95% profit on 'Who will Petr Yan fight next?' \u2014 buy YES on all 14 outcomes (sum=0.9005)\nStrategy: Buy YES on all 14 outcomes. Total cost: $0.9005. One wins $1.00. Profit: $0.0995 (9.95%)\n2nd: 9.75% on 'AZ-01 Republican Primary Winner'",
       "priority": "HIGH",
-      "last_scan": "2026-04-13 11:04 UTC",
+      "last_scan": "2026-04-13 11:09 UTC",
       "opportunities": [
-        {
-          "event_title": "Presidential Election Winner 2028",
-          "event_slug": "presidential-election-winner-2028",
-          "yes_sum": 0.9,
-          "profit_pct": 10.0,
-          "profit_per_dollar_pct": 11.11,
-          "num_outcomes": 36,
-          "outcomes": [
-            {
-              "market_id": "561229",
-              "slug": "will-jd-vance-win-the-2028-us-presidential-election",
-              "question": "Will JD Vance win the 2028 US Presidential Election?",
-              "yes_price": 0.188,
-              "volume": 10146655
-            },
-            {
-              "market_id": "561230",
-              "slug": "will-gavin-newsom-win-the-2028-us-presidential-election",
-              "question": "Will Gavin Newsom win the 2028 US Presidential Election?",
-              "yes_price": 0.1675,
-              "volume": 13934665
-            },
-            {
-              "market_id": "561234",
-              "slug": "will-marco-rubio-win-the-2028-us-presidential-election",
-              "question": "Will Marco Rubio win the 2028 US Presidential Election?",
-              "yes_price": 0.0965,
-              "volume": 6327808
-            },
-            {
-              "market_id": "561231",
-              "slug": "will-alexandria-ocasio-cortez-win-the-2028-us-presidential-election",
-              "question": "Will Alexandria Ocasio-Cortez win the 2028 US Presidential Election?",
-              "yes_price": 0.055,
-              "volume": 10876033
-            },
-            {
-              "market_id": "561261",
-              "slug": "will-jon-ossoff-win-the-2028-us-presidential-election",
-              "question": "Will Jon Ossoff win the 2028 US Presidential Election?",
-              "yes_price": 0.0425,
-              "volume": 3444175
-            },
-            {
-              "market_id": "561239",
-              "slug": "will-kamala-harris-win-the-2028-us-presidential-election",
-              "question": "Will Kamala Harris win the 2028 US Presidential Election?",
-              "yes_price": 0.0325,
-              "volume": 6973227
-            },
-            {
-              "market_id": "561253",
-              "slug": "will-tucker-carlson-win-the-2028-us-presidential-election",
-              "question": "Will Tucker Carlson win the 2028 US Presidential Election?",
-              "yes_price": 0.0275,
-              "volume": 9873193
-            },
-            {
-              "market_id": "561233",
-              "slug": "will-josh-shapiro-win-the-2028-us-presidential-election",
-              "question": "Will Josh Shapiro win the 2028 US Presidential Election?",
-              "yes_price": 0.0215,
-              "volume": 5785958
-            },
-            {
-              "market_id": "561243",
-              "slug": "will-donald-trump-win-the-2028-us-presidential-election",
-              "question": "Will Donald Trump win the 2028 US Presidential Election?",
-              "yes_price": 0.0215,
-              "volume": 6937263
-            },
-            {
-              "market_id": "561246",
-              "slug": "will-ron-desantis-win-the-2028-us-presidential-election",
-              "question": "Will Ron DeSantis win the 2028 US Presidential Election?",
-              "yes_price": 0.0175,
-              "volume": 8706403
-            },
-            {
-              "market_id": "561232",
-              "slug": "will-pete-buttigieg-win-the-2028-us-presidential-election",
-              "question": "Will Pete Buttigieg win the 2028 US Presidential Election?",
-              "yes_price": 0.0165,
-              "volume": 3847487
-            },
-            {
-              "market_id": "561252",
-              "slug": "will-dwayne-the-rock-johnson-win-the-2028-us-presidential-election",
-              "question": "Will Dwayne 'The Rock' Johnson win the 2028 US Presidential Election?",
-              "yes_price": 0.0135,
-              "volume": 6164520
-            },
-            {
-              "market_id": "561237",
-              "slug": "will-andy-beshear-win-the-2028-us-presidential-election",
-              "question": "Will Andy Beshear win the 2028 US Presidential Election?",
-              "yes_price": 0.0125,
-              "volume": 17434233
-            },
-            {
-              "market_id": "561241",
-              "slug": "will-jb-pritzker-win-the-2028-us-presidential-election",
-              "question": "Will JB Pritzker win the 2028 US Presidential Election?",
-              "yes_price": 0.0115,
-              "volume": 10842182
-            },
-            {
-              "market_id": "561238",
-              "slug": "will-glenn-youngkin-win-the-2028-us-presidential-election",
-              "question": "Will Glenn Youngkin win the 2028 US Presidential Election?",
-              "yes_price": 0.0105,
-              "volume": 20795858
-            },
-            {
-              "market_id": "561260",
-              "slug": "will-thomas-massie-win-the-2028-us-presidential-election",
-              "question": "Will Thomas Massie win the 2028 US Presidential Election?",
-              "yes_price": 0.0105,
-              "volume": 3772003
-            },
-            {
-              "market_id": "561262",
-              "slug": "will-james-talarico-win-the-2028-us-presidential-election",
-              "question": "Will James Talarico win the 2028 US Presidential Election?",
-              "yes_price": 0.0105,
-              "volume": 4354039
-            },
-            {
-              "market_id": "561236",
-              "slug": "will-gretchen-whitmer-win-the-2028-us-presidential-election",
-              "question": "Will Gretchen Whitmer win the 2028 US Presidential Election?",
-              "yes_price": 0.01,
-              "volume": 8565823
-            },
-            {
-              "market_id": "561250",
-              "slug": "will-elon-musk-win-the-2028-us-presidential-election",
-              "question": "Will Elon Musk win the 2028 US Presidential Election?",
-              "yes_price": 0.0095,
-              "volume": 22680239
-            },
-            {
-              "market_id": "561249",
-              "slug": "will-greg-abbott-win-the-2028-us-presidential-election",
-              "question": "Will Greg Abbott win the 2028 US Presidential Election?",
-              "yes_price": 0.0095,
-              "volume": 31878423
-            },
-            {
-              "market_id": "561258",
-              "slug": "will-jamie-dimon-win-the-2028-us-presidential-election",
-              "question": "Will Jamie Dimon win the 2028 US Presidential Election?",
-              "yes_price": 0.009,
-              "volume": 7621503
-            },
-            {
-              "market_id": "561255",
-              "slug": "will-ivanka-trump-win-the-2028-us-presidential-election",
-              "question": "Will Ivanka Trump win the 2028 US Presidential Election?",
-              "yes_price": 0.0085,
-              "volume": 4568795
-            },
-            {
-              "market_id": "561257",
-              "slug": "will-michelle-obama-win-the-2028-us-presidential-election",
-              "question": "Will Michelle Obama win the 2028 US Presidential Election?",
-              "yes_price": 0.0085,
-              "volume": 13624548
-            },
-            {
-              "market_id": "561259",
-              "slug": "will-ro-khanna-win-the-2028-us-presidential-election",
-              "question": "Will Ro Khanna win the 2028 US Presidential Election?",
-              "yes_price": 0.0085,
-              "volume": 7123013
-            },
-            {
-              "market_id": "561240",
-              "slug": "will-stephen-smith-win-the-2028-us-presidential-election",
-              "question": "Will Stephen Smith win the 2028 US Presidential Election?",
-              "yes_price": 0.0075,
-              "volume": 29629389
-            },
-            {
-              "market_id": "561244",
-              "slug": "will-donald-trump-jr-win-the-2028-us-presidential-election",
-              "question": "Will Donald Trump Jr. win the 2028 US Presidential Election?",
-              "yes_price": 0.0075,
-              "volume": 9237903
-            },
-            {
-              "market_id": "561245",
-              "slug": "will-nikki-haley-win-the-2028-us-presidential-election",
-              "question": "Will Nikki Haley win the 2028 US Presidential Election?",
-              "yes_price": 0.0075,
-              "volume": 22124732
-            },
-            {
-              "market_id": "561256",
-              "slug": "will-zohran-mamdani-win-the-2028-us-presidential-election",
-              "question": "Will Zohran Mamdani win the 2028 US Presidential Election?",
-              "yes_price": 0.0075,
-              "volume": 17614188
-            },
-            {
-              "market_id": "561263",
-              "slug": "will-eric-trump-win-the-2028-us-presidential-election",
-              "question": "Will Eric Trump win the 2028 US Presidential Election?",
-              "yes_price": 0.0065,
-              "volume": 6621620
-            },
-            {
-              "market_id": "561247",
-              "slug": "will-tim-walz-win-the-2028-us-presidential-election",
-              "question": "Will Tim Walz win the 2028 US Presidential Election?",
-              "yes_price": 0.0065,
-              "volume": 39551097
-            },
-            {
-              "market_id": "561235",
-              "slug": "will-wes-moore-win-the-2028-us-presidential-election",
-              "question": "Will Wes Moore win the 2028 US Presidential Election?",
-              "yes_price": 0.0065,
-              "volume": 6508909
-            },
-            {
-              "market_id": "561242",
-              "slug": "will-tulsi-gabbard-win-the-2028-us-presidential-election",
-              "question": "Will Tulsi Gabbard win the 2028 US Presidential Election?",
-              "yes_price": 0.0065,
-              "volume": 28175568
-            },
-            {
-              "market_id": "561264",
-              "slug": "will-pete-hegseth-win-the-2028-us-presidential-election",
-              "question": "Will Pete Hegseth win the 2028 US Presidential Election?",
-              "yes_price": 0.0065,
-              "volume": 4462421
-            },
-            {
-              "market_id": "561248",
-              "slug": "will-vivek-ramaswamy-win-the-2028-us-presidential-election",
-              "question": "Will Vivek Ramaswamy win the 2028 US Presidential Election?",
-              "yes_price": 0.0065,
-              "volume": 31030779
-            },
-            {
-              "market_id": "561254",
-              "slug": "will-kim-kardashian-win-the-2028-us-presidential-election",
-              "question": "Will Kim Kardashian win the 2028 US Presidential Election?",
-              "yes_price": 0.0065,
-              "volume": 32771056
-            },
-            {
-              "market_id": "561251",
-              "slug": "will-lebron-james-win-the-2028-us-presidential-election",
-              "question": "Will LeBron James win the 2028 US Presidential Election?",
-              "yes_price": 0.0055,
-              "volume": 46393360
-            }
-          ],
-          "url": "https://polymarket.com/event/presidential-election-winner-2028",
-          "strategy": "Buy YES on all 36 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
-        },
-        {
-          "event_title": "Next UK Prime Minister in 2026?",
-          "event_slug": "next-uk-prime-minister-in-2026-122",
-          "yes_sum": 0.9005,
-          "profit_pct": 9.95,
-          "profit_per_dollar_pct": 11.05,
-          "num_outcomes": 20,
-          "outcomes": [
-            {
-              "market_id": "1343514",
-              "slug": "will-no-next-prime-minister-of-the-united-kingdom-be-appointed-in-2026",
-              "question": "Will no next Prime Minister of the United Kingdom be appointed in 2026?",
-              "yes_price": 0.49,
-              "volume": 221072
-            },
-            {
-              "market_id": "1343456",
-              "slug": "will-angela-rayner-be-the-next-prime-minister-of-the-united-kingdom-in-2026-737",
-              "question": "Will Angela Rayner be the next Prime Minister of the United Kingdom in 2026?",
-              "yes_price": 0.185,
-              "volume": 266033
-            },
-            {
-              "market_id": "1343455",
-              "slug": "will-wes-streeting-be-the-next-prime-minister-of-the-united-kingdom-in-2026-137",
-              "question": "Will Wes Streeting be the next Prime Minister of the United Kingdom in 2026?",
-              "yes_price": 0.045,
-              "volume": 63817
-            },
-            {
-              "market_id": "1343462",
-              "slug": "will-ed-miliband-be-the-next-prime-minister-of-the-united-kingdom-in-2026-745",
-              "question": "Will Ed Miliband be the next Prime Minister of the United Kingdom in 2026?",
-              "yes_price": 0.04,
-              "volume": 182187
-            },
-            {
-              "market_id": "1343457",
-              "slug": "will-nigel-farage-be-the-next-prime-minister-of-the-united-kingdom-in-2026-356",
-              "question": "Will Nigel Farage be the next Prime Minister of the United Kingdom in 2026?",
-              "yes_price": 0.0285,
-              "volume": 667447
-            },
-            {
-              "market_id": "1343466",
-              "slug": "will-rupert-lowe-be-the-next-prime-minister-of-the-united-kingdom-in-2026-515",
-              "question": "Will Rupert Lowe be the next Prime Minister of the United Kingdom in 2026?",
-              "yes_price": 0.0255,
-              "volume": 576263
-            },
-            {
-              "market_id": "1343458",
-              "slug": "will-andy-burnham-be-the-next-prime-minister-of-the-united-kingdom-in-2026-882",
-              "question": "Will Andy Burnham be the next Prime Minister of the United Kingdom in 2026?",
-              "yes_price": 0.0235,
-              "volume": 297982
-            },
-            {
-              "market_id": "1343461",
-              "slug": "will-shabana-mahmood-be-the-next-prime-minister-of-the-united-kingdom-in-2026-129",
-              "question": "Will Shabana Mahmood be the next Prime Minister of the United Kingdom in 2026?",
-              "yes_price": 0.0125,
-              "volume": 203070
-            },
-            {
-              "market_id": "1343460",
-              "slug": "will-yvette-cooper-be-the-next-prime-minister-of-the-united-kingdom-in-2026-875",
-              "question": "Will Yvette Cooper be the next Prime Minister of the United Kingdom in 2026?",
-              "yes_price": 0.0105,
-              "volume": 197082
-            },
-            {
-              "market_id": "1343472",
-              "slug": "will-al-carns-be-the-next-prime-minister-of-the-united-kingdom-in-2026-126",
-              "question": "Will Al Carns be the next Prime Minister of the United Kingdom in 2026?",
-              "yes_price": 0.01,
-              "volume": 108830
-            },
-            {
-              "market_id": "1343454",
-              "slug": "will-lucy-powell-be-the-next-prime-minister-of-the-united-kingdom-in-2026-663",
-              "question": "Will Lucy Powell be the next Prime Minister of the United Kingdom in 2026?",
-              "yes_price": 0.006,
-              "volume": 184130
-            },
-            {
-              "market_id": "1343459",
-              "slug": "will-kemi-badenoch-be-the-next-prime-minister-of-the-united-kingdom-in-2026-828",
-              "question": "Will Kemi Badenoch be the next Prime Minister of the United Kingdom in 2026?",
-              "yes_price": 0.0055,
-              "volume": 119854
-            },
-            {
-              "market_id": "1343467",
-              "slug": "will-rachel-reeves-be-the-next-prime-minister-of-the-united-kingdom-in-2026-919",
-              "question": "Will Rachel Reeves be the next Prime Minister of the United Kingdom in 2026?",
-              "yes_price": 0.0045,
-              "volume": 365273
-            },
-            {
-              "market_id": "1343469",
-              "slug": "will-david-lammy-be-the-next-prime-minister-of-the-united-kingdom-in-2026-654",
-              "question": "Will David Lammy be the next Prime Minister of the United Kingdom in 2026?",
-              "yes_price": 0.004,
-              "volume": 101547
-            },
-            {
-              "market_id": "1343471",
-              "slug": "will-darren-jones-be-the-next-prime-minister-of-the-united-kingdom-in-2026-455",
-              "question": "Will Darren Jones be the next Prime Minister of the United Kingdom in 2026?",
-              "yes_price": 0.0025,
-              "volume": 127749
-            },
-            {
-              "market_id": "1343463",
-              "slug": "will-boris-johnson-be-the-next-prime-minister-of-the-united-kingdom-in-2026-495",
-              "question": "Will Boris Johnson be the next Prime Minister of the United Kingdom in 2026?",
-              "yes_price": 0.0015,
-              "volume": 161632
-            },
-            {
-              "market_id": "1343464",
-              "slug": "will-ed-davey-be-the-next-prime-minister-of-the-united-kingdom-in-2026-255",
-              "question": "Will Ed Davey be the next Prime Minister of the United Kingdom in 2026?",
-              "yes_price": 0.0015,
-              "volume": 151752
-            },
-            {
-              "market_id": "1343465",
-              "slug": "will-bridget-phillipson-be-the-next-prime-minister-of-the-united-kingdom-in-2026-539",
-              "question": "Will Bridget Phillipson be the next Prime Minister of the United Kingdom in 2026",
-              "yes_price": 0.0015,
-              "volume": 69133
-            },
-            {
-              "market_id": "1343468",
-              "slug": "will-robert-jenrick-be-the-next-prime-minister-of-the-united-kingdom-in-2026-325",
-              "question": "Will Robert Jenrick be the next Prime Minister of the United Kingdom in 2026?",
-              "yes_price": 0.0015,
-              "volume": 250005
-            },
-            {
-              "market_id": "1343470",
-              "slug": "will-james-cleverly-be-the-next-prime-minister-of-the-united-kingdom-in-2026-292",
-              "question": "Will James Cleverly be the next Prime Minister of the United Kingdom in 2026?",
-              "yes_price": 0.0015,
-              "volume": 206049
-            }
-          ],
-          "url": "https://polymarket.com/event/next-uk-prime-minister-in-2026-122",
-          "strategy": "Buy YES on all 20 outcomes. Total cost: $0.9005. One wins $1.00. Profit: $0.0995 (9.95%)"
-        },
         {
           "event_title": "Who will Petr Yan fight next?",
           "event_slug": "who-will-petr-yan-fight-next-before-2027",
@@ -635,44 +219,18 @@
           "strategy": "Buy YES on all 12 outcomes. Total cost: $0.9025. One wins $1.00. Profit: $0.0975 (9.75%)"
         },
         {
-          "event_title": "Sabres vs. Blackhawks",
-          "event_slug": "nhl-buf-chi-2026-04-13",
-          "yes_sum": 0.91,
-          "profit_pct": 9.0,
-          "profit_per_dollar_pct": 9.89,
-          "num_outcomes": 2,
-          "outcomes": [
-            {
-              "market_id": "1628340",
-              "slug": "nhl-buf-chi-2026-04-13",
-              "question": "Sabres vs. Blackhawks",
-              "yes_price": 0.655,
-              "volume": 29187
-            },
-            {
-              "market_id": "1628347",
-              "slug": "nhl-buf-chi-2026-04-13-total-7pt5",
-              "question": "Sabres vs. Blackhawks: O/U 7.5",
-              "yes_price": 0.255,
-              "volume": 19925
-            }
-          ],
-          "url": "https://polymarket.com/event/nhl-buf-chi-2026-04-13",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9100. One wins $1.00. Profit: $0.0900 (9.00%)"
-        },
-        {
           "event_title": "# of seats won by PB in Bulgarian Parliamentary Election?",
           "event_slug": "of-seats-won-by-pb-in-bulgarian-parliamentary-election",
-          "yes_sum": 0.91,
-          "profit_pct": 9.0,
-          "profit_per_dollar_pct": 9.89,
+          "yes_sum": 0.905,
+          "profit_pct": 9.5,
+          "profit_per_dollar_pct": 10.5,
           "num_outcomes": 4,
           "outcomes": [
             {
               "market_id": "1738484",
               "slug": "will-progressive-bulgaria-pb-win-between-90-94-seats-in-the-2026-bulgarian-parliamentary-election",
               "question": "Will Progressive Bulgaria (PB) win between 90-94 seats in the 2026 Bulgarian par",
-              "yes_price": 0.325,
+              "yes_price": 0.32,
               "volume": 6362
             },
             {
@@ -698,7 +256,218 @@
             }
           ],
           "url": "https://polymarket.com/event/of-seats-won-by-pb-in-bulgarian-parliamentary-election",
-          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9100. One wins $1.00. Profit: $0.0900 (9.00%)"
+          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
+        },
+        {
+          "event_title": "Next UK Prime Minister in 2026?",
+          "event_slug": "next-uk-prime-minister-in-2026-122",
+          "yes_sum": 0.9055,
+          "profit_pct": 9.45,
+          "profit_per_dollar_pct": 10.44,
+          "num_outcomes": 20,
+          "outcomes": [
+            {
+              "market_id": "1343514",
+              "slug": "will-no-next-prime-minister-of-the-united-kingdom-be-appointed-in-2026",
+              "question": "Will no next Prime Minister of the United Kingdom be appointed in 2026?",
+              "yes_price": 0.495,
+              "volume": 221072
+            },
+            {
+              "market_id": "1343456",
+              "slug": "will-angela-rayner-be-the-next-prime-minister-of-the-united-kingdom-in-2026-737",
+              "question": "Will Angela Rayner be the next Prime Minister of the United Kingdom in 2026?",
+              "yes_price": 0.185,
+              "volume": 266033
+            },
+            {
+              "market_id": "1343455",
+              "slug": "will-wes-streeting-be-the-next-prime-minister-of-the-united-kingdom-in-2026-137",
+              "question": "Will Wes Streeting be the next Prime Minister of the United Kingdom in 2026?",
+              "yes_price": 0.045,
+              "volume": 63817
+            },
+            {
+              "market_id": "1343462",
+              "slug": "will-ed-miliband-be-the-next-prime-minister-of-the-united-kingdom-in-2026-745",
+              "question": "Will Ed Miliband be the next Prime Minister of the United Kingdom in 2026?",
+              "yes_price": 0.04,
+              "volume": 182187
+            },
+            {
+              "market_id": "1343457",
+              "slug": "will-nigel-farage-be-the-next-prime-minister-of-the-united-kingdom-in-2026-356",
+              "question": "Will Nigel Farage be the next Prime Minister of the United Kingdom in 2026?",
+              "yes_price": 0.0285,
+              "volume": 667447
+            },
+            {
+              "market_id": "1343466",
+              "slug": "will-rupert-lowe-be-the-next-prime-minister-of-the-united-kingdom-in-2026-515",
+              "question": "Will Rupert Lowe be the next Prime Minister of the United Kingdom in 2026?",
+              "yes_price": 0.0255,
+              "volume": 576263
+            },
+            {
+              "market_id": "1343458",
+              "slug": "will-andy-burnham-be-the-next-prime-minister-of-the-united-kingdom-in-2026-882",
+              "question": "Will Andy Burnham be the next Prime Minister of the United Kingdom in 2026?",
+              "yes_price": 0.0235,
+              "volume": 297982
+            },
+            {
+              "market_id": "1343461",
+              "slug": "will-shabana-mahmood-be-the-next-prime-minister-of-the-united-kingdom-in-2026-129",
+              "question": "Will Shabana Mahmood be the next Prime Minister of the United Kingdom in 2026?",
+              "yes_price": 0.0125,
+              "volume": 203070
+            },
+            {
+              "market_id": "1343460",
+              "slug": "will-yvette-cooper-be-the-next-prime-minister-of-the-united-kingdom-in-2026-875",
+              "question": "Will Yvette Cooper be the next Prime Minister of the United Kingdom in 2026?",
+              "yes_price": 0.0105,
+              "volume": 197082
+            },
+            {
+              "market_id": "1343472",
+              "slug": "will-al-carns-be-the-next-prime-minister-of-the-united-kingdom-in-2026-126",
+              "question": "Will Al Carns be the next Prime Minister of the United Kingdom in 2026?",
+              "yes_price": 0.01,
+              "volume": 108830
+            },
+            {
+              "market_id": "1343454",
+              "slug": "will-lucy-powell-be-the-next-prime-minister-of-the-united-kingdom-in-2026-663",
+              "question": "Will Lucy Powell be the next Prime Minister of the United Kingdom in 2026?",
+              "yes_price": 0.006,
+              "volume": 184130
+            },
+            {
+              "market_id": "1343459",
+              "slug": "will-kemi-badenoch-be-the-next-prime-minister-of-the-united-kingdom-in-2026-828",
+              "question": "Will Kemi Badenoch be the next Prime Minister of the United Kingdom in 2026?",
+              "yes_price": 0.0055,
+              "volume": 119854
+            },
+            {
+              "market_id": "1343467",
+              "slug": "will-rachel-reeves-be-the-next-prime-minister-of-the-united-kingdom-in-2026-919",
+              "question": "Will Rachel Reeves be the next Prime Minister of the United Kingdom in 2026?",
+              "yes_price": 0.0045,
+              "volume": 365273
+            },
+            {
+              "market_id": "1343469",
+              "slug": "will-david-lammy-be-the-next-prime-minister-of-the-united-kingdom-in-2026-654",
+              "question": "Will David Lammy be the next Prime Minister of the United Kingdom in 2026?",
+              "yes_price": 0.004,
+              "volume": 101547
+            },
+            {
+              "market_id": "1343471",
+              "slug": "will-darren-jones-be-the-next-prime-minister-of-the-united-kingdom-in-2026-455",
+              "question": "Will Darren Jones be the next Prime Minister of the United Kingdom in 2026?",
+              "yes_price": 0.0025,
+              "volume": 127749
+            },
+            {
+              "market_id": "1343463",
+              "slug": "will-boris-johnson-be-the-next-prime-minister-of-the-united-kingdom-in-2026-495",
+              "question": "Will Boris Johnson be the next Prime Minister of the United Kingdom in 2026?",
+              "yes_price": 0.0015,
+              "volume": 161632
+            },
+            {
+              "market_id": "1343464",
+              "slug": "will-ed-davey-be-the-next-prime-minister-of-the-united-kingdom-in-2026-255",
+              "question": "Will Ed Davey be the next Prime Minister of the United Kingdom in 2026?",
+              "yes_price": 0.0015,
+              "volume": 151752
+            },
+            {
+              "market_id": "1343465",
+              "slug": "will-bridget-phillipson-be-the-next-prime-minister-of-the-united-kingdom-in-2026-539",
+              "question": "Will Bridget Phillipson be the next Prime Minister of the United Kingdom in 2026",
+              "yes_price": 0.0015,
+              "volume": 69133
+            },
+            {
+              "market_id": "1343468",
+              "slug": "will-robert-jenrick-be-the-next-prime-minister-of-the-united-kingdom-in-2026-325",
+              "question": "Will Robert Jenrick be the next Prime Minister of the United Kingdom in 2026?",
+              "yes_price": 0.0015,
+              "volume": 250005
+            },
+            {
+              "market_id": "1343470",
+              "slug": "will-james-cleverly-be-the-next-prime-minister-of-the-united-kingdom-in-2026-292",
+              "question": "Will James Cleverly be the next Prime Minister of the United Kingdom in 2026?",
+              "yes_price": 0.0015,
+              "volume": 206049
+            }
+          ],
+          "url": "https://polymarket.com/event/next-uk-prime-minister-in-2026-122",
+          "strategy": "Buy YES on all 20 outcomes. Total cost: $0.9055. One wins $1.00. Profit: $0.0945 (9.45%)"
+        },
+        {
+          "event_title": "Sabres vs. Blackhawks",
+          "event_slug": "nhl-buf-chi-2026-04-13",
+          "yes_sum": 0.91,
+          "profit_pct": 9.0,
+          "profit_per_dollar_pct": 9.89,
+          "num_outcomes": 2,
+          "outcomes": [
+            {
+              "market_id": "1628340",
+              "slug": "nhl-buf-chi-2026-04-13",
+              "question": "Sabres vs. Blackhawks",
+              "yes_price": 0.655,
+              "volume": 29273
+            },
+            {
+              "market_id": "1628347",
+              "slug": "nhl-buf-chi-2026-04-13-total-7pt5",
+              "question": "Sabres vs. Blackhawks: O/U 7.5",
+              "yes_price": 0.255,
+              "volume": 19925
+            }
+          ],
+          "url": "https://polymarket.com/event/nhl-buf-chi-2026-04-13",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9100. One wins $1.00. Profit: $0.0900 (9.00%)"
+        },
+        {
+          "event_title": "LA-05 Republican Primary Winner",
+          "event_slug": "la-05-republican-primary-winner",
+          "yes_sum": 0.91,
+          "profit_pct": 9.0,
+          "profit_per_dollar_pct": 9.89,
+          "num_outcomes": 3,
+          "outcomes": [
+            {
+              "market_id": "1731841",
+              "slug": "will-blake-miguez-be-the-republican-nominee-for-la-05",
+              "question": "Will Blake Miguez be the Republican nominee for LA-05?",
+              "yes_price": 0.845,
+              "volume": 15029
+            },
+            {
+              "market_id": "1731837",
+              "slug": "will-michael-echols-be-the-republican-nominee-for-la-05",
+              "question": "Will Michael Echols be the Republican nominee for LA-05?",
+              "yes_price": 0.035,
+              "volume": 8194
+            },
+            {
+              "market_id": "1731842",
+              "slug": "will-samuel-wyatt-be-the-republican-nominee-for-la-05",
+              "question": "Will Samuel Wyatt be the Republican nominee for LA-05?",
+              "yes_price": 0.03,
+              "volume": 5125
+            }
+          ],
+          "url": "https://polymarket.com/event/la-05-republican-primary-winner",
+          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9100. One wins $1.00. Profit: $0.0900 (9.00%)"
         },
         {
           "event_title": "FL-23 Democratic Primary Winner",
@@ -760,107 +529,128 @@
           "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9100. One wins $1.00. Profit: $0.0900 (9.00%)"
         },
         {
-          "event_title": "Which CEOs will be out before 2027?",
-          "event_slug": "which-ceos-will-be-out-before-2027",
-          "yes_sum": 0.9105,
-          "profit_pct": 8.95,
-          "profit_per_dollar_pct": 9.83,
-          "num_outcomes": 6,
+          "event_title": "Highest temperature in Seattle on April 13?",
+          "event_slug": "highest-temperature-in-seattle-on-april-13-2026",
+          "yes_sum": 0.9125,
+          "profit_pct": 8.75,
+          "profit_per_dollar_pct": 9.59,
+          "num_outcomes": 11,
           "outcomes": [
             {
-              "market_id": "687555",
-              "slug": "tim-cook-out-as-apple-ceo-before-2027",
-              "question": "Tim Cook out as Apple CEO before 2027?",
-              "yes_price": 0.245,
-              "volume": 333070
+              "market_id": "1924402",
+              "slug": "highest-temperature-in-seattle-on-april-13-2026-54-55f",
+              "question": "Will the highest temperature in Seattle be between 54-55\u00b0F on April 13?",
+              "yes_price": 0.43,
+              "volume": 5174
             },
             {
-              "market_id": "687559",
-              "slug": "sam-altman-out-as-openai-ceo-before-2027",
-              "question": "Sam Altman out as OpenAI CEO before 2027?",
+              "market_id": "1924401",
+              "slug": "highest-temperature-in-seattle-on-april-13-2026-52-53f",
+              "question": "Will the highest temperature in Seattle be between 52-53\u00b0F on April 13?",
               "yes_price": 0.235,
-              "volume": 73230
+              "volume": 3602
             },
             {
-              "market_id": "687558",
-              "slug": "brian-armstrong-out-as-coinbase-ceo-before-2027",
-              "question": "Brian Armstrong out as Coinbase CEO before 2027?",
-              "yes_price": 0.135,
-              "volume": 80497
+              "market_id": "1924403",
+              "slug": "highest-temperature-in-seattle-on-april-13-2026-56-57f",
+              "question": "Will the highest temperature in Seattle be between 56-57\u00b0F on April 13?",
+              "yes_price": 0.18,
+              "volume": 4216
             },
             {
-              "market_id": "687554",
-              "slug": "sundar-pichai-out-as-google-ceo-before-2027",
-              "question": "Sundar Pichai out as Google CEO before 2027?",
-              "yes_price": 0.13,
-              "volume": 35590
+              "market_id": "1924404",
+              "slug": "highest-temperature-in-seattle-on-april-13-2026-58-59f",
+              "question": "Will the highest temperature in Seattle be between 58-59\u00b0F on April 13?",
+              "yes_price": 0.0295,
+              "volume": 4210
             },
             {
-              "market_id": "687557",
-              "slug": "andy-jassy-out-as-amazon-ceo-before-2027",
-              "question": "Andy Jassy out as Amazon CEO before 2027?",
-              "yes_price": 0.125,
-              "volume": 24383
+              "market_id": "1924400",
+              "slug": "highest-temperature-in-seattle-on-april-13-2026-50-51f",
+              "question": "Will the highest temperature in Seattle be between 50-51\u00b0F on April 13?",
+              "yes_price": 0.0185,
+              "volume": 5165
             },
             {
-              "market_id": "687556",
-              "slug": "dan-clancy-out-as-twitch-ceo-before-2027",
-              "question": "Dan Clancy out as Twitch CEO before 2027?",
-              "yes_price": 0.0405,
-              "volume": 38601
+              "market_id": "1924399",
+              "slug": "highest-temperature-in-seattle-on-april-13-2026-48-49f",
+              "question": "Will the highest temperature in Seattle be between 48-49\u00b0F on April 13?",
+              "yes_price": 0.007,
+              "volume": 3471
+            },
+            {
+              "market_id": "1924405",
+              "slug": "highest-temperature-in-seattle-on-april-13-2026-60-61f",
+              "question": "Will the highest temperature in Seattle be between 60-61\u00b0F on April 13?",
+              "yes_price": 0.007,
+              "volume": 2660
+            },
+            {
+              "market_id": "1924406",
+              "slug": "highest-temperature-in-seattle-on-april-13-2026-62-63f",
+              "question": "Will the highest temperature in Seattle be between 62-63\u00b0F on April 13?",
+              "yes_price": 0.005,
+              "volume": 2528
+            },
+            {
+              "market_id": "1924407",
+              "slug": "highest-temperature-in-seattle-on-april-13-2026-64forhigher",
+              "question": "Will the highest temperature in Seattle be 64\u00b0F or higher on April 13?",
+              "yes_price": 0.0005,
+              "volume": 2018
+            },
+            {
+              "market_id": "1924397",
+              "slug": "highest-temperature-in-seattle-on-april-13-2026-45forbelow",
+              "question": "Will the highest temperature in Seattle be 45\u00b0F or below on April 13?",
+              "yes_price": 0.0,
+              "volume": 11054
+            },
+            {
+              "market_id": "1924398",
+              "slug": "highest-temperature-in-seattle-on-april-13-2026-46-47f",
+              "question": "Will the highest temperature in Seattle be between 46-47\u00b0F on April 13?",
+              "yes_price": 0.0,
+              "volume": 1252
             }
           ],
-          "url": "https://polymarket.com/event/which-ceos-will-be-out-before-2027",
-          "strategy": "Buy YES on all 6 outcomes. Total cost: $0.9105. One wins $1.00. Profit: $0.0895 (8.95%)"
+          "url": "https://polymarket.com/event/highest-temperature-in-seattle-on-april-13-2026",
+          "strategy": "Buy YES on all 11 outcomes. Total cost: $0.9125. One wins $1.00. Profit: $0.0875 (8.75%)"
         },
         {
-          "event_title": "Who will close Warner Bros. acquisition?",
-          "event_slug": "who-will-close-warner-bros-acquisition",
-          "yes_sum": 0.9115,
-          "profit_pct": 8.85,
-          "profit_per_dollar_pct": 9.71,
-          "num_outcomes": 4,
+          "event_title": "Montana Senate Election Winner",
+          "event_slug": "montana-senate-election-winner",
+          "yes_sum": 0.9135,
+          "profit_pct": 8.65,
+          "profit_per_dollar_pct": 9.47,
+          "num_outcomes": 2,
           "outcomes": [
             {
-              "market_id": "897019",
-              "slug": "will-paramount-close-warner-bros-acquisition",
-              "question": "Will Paramount close Warner Bros acquisition?",
-              "yes_price": 0.72,
-              "volume": 440836
+              "market_id": "630832",
+              "slug": "will-the-republicans-win-the-montana-senate-race-in-2026",
+              "question": "Will the Republicans win the Montana Senate race in 2026?",
+              "yes_price": 0.795,
+              "volume": 34812
             },
             {
-              "market_id": "897030",
-              "slug": "no-listed-company-closes-warner-bros-acquisition-by-june-30-2027",
-              "question": "No listed company closes Warner Bros acquisition by June 30, 2027",
-              "yes_price": 0.165,
-              "volume": 157390
-            },
-            {
-              "market_id": "897017",
-              "slug": "will-netflix-close-warner-bros-acquisition",
-              "question": "Will Netflix close Warner Bros acquisition?",
-              "yes_price": 0.0185,
-              "volume": 219920
-            },
-            {
-              "market_id": "897018",
-              "slug": "will-comcast-close-warner-bros-acquisition",
-              "question": "Will Comcast close Warner Bros acquisition?",
-              "yes_price": 0.008,
-              "volume": 173873
+              "market_id": "630831",
+              "slug": "will-the-democrats-win-the-montana-senate-race-in-2026",
+              "question": "Will the Democrats win the Montana Senate race in 2026?",
+              "yes_price": 0.1185,
+              "volume": 26213
             }
           ],
-          "url": "https://polymarket.com/event/who-will-close-warner-bros-acquisition",
-          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9115. One wins $1.00. Profit: $0.0885 (8.85%)"
+          "url": "https://polymarket.com/event/montana-senate-election-winner",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9135. One wins $1.00. Profit: $0.0865 (8.65%)"
         }
       ],
       "stats": {
         "total_events": 3000,
-        "checked_multi_outcome": 1862,
-        "skipped_single_outcome": 634,
-        "opportunities_found": 133,
-        "best_profit_pct": 10.0,
-        "scanned_at": "2026-04-13 11:04 UTC"
+        "checked_multi_outcome": 1863,
+        "skipped_single_outcome": 633,
+        "opportunities_found": 139,
+        "best_profit_pct": 9.95,
+        "scanned_at": "2026-04-13 11:09 UTC"
       }
     },
     {
