@@ -1,16 +1,16 @@
 {
-  "last_scan": "2026-04-14T05:14:11.049544+00:00",
-  "scan_seconds": 33.3,
+  "last_scan": "2026-04-14T05:17:02.936843+00:00",
+  "scan_seconds": 29.3,
   "markets_scanned": 116,
   "open_positions": 86,
   "signals": [
     {
-      "id": "sig_408959",
-      "timestamp": "2026-04-14T05:13:52.814086+00:00",
+      "id": "sig_578564",
+      "timestamp": "2026-04-14T05:16:42.419247+00:00",
       "source": "PERPLEXITY",
-      "headline": "US Navy Blockade of Strait of Hormuz Announced After Iran Talks Collapse | YES | HIGH confidence**",
-      "raw": "US Navy Blockade of Strait of Hormuz Announced After Iran Talks Collapse | YES | HIGH confidence**\n\nPresident Trump announced on Sunday, April 13, 2026, that the **U.S. Navy will blockade ships entering or leaving the Strait of Hormuz** after U.S.-Iran ceasefire talks in Pakistan ended without agreement[1][2]. The core disagreement centers on **Iran's refusal to abandon its nuclear weapons program",
-      "direction": "YES",
+      "headline": "US Naval Blockade of Iran Officially Begins After Failed Ceasefire Talks | NO | HIGH confidence** [1][3]",
+      "raw": "US Naval Blockade of Iran Officially Begins After Failed Ceasefire Talks | NO | HIGH confidence** [1][3]\n\nPresident Trump announced the US military blockade of Iranian ports took effect late April 13 (US time), targeting maritime traffic to force Iran to reopen the Strait of Hormuz and negotiate an end to hostilities, following collapsed direct talks in Islamabad led by VP J.D. Vance.[1][3] Trump ",
+      "direction": "NO",
       "confidence": 0.9,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
@@ -22,91 +22,113 @@
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_426193",
-      "timestamp": "2026-04-14T05:14:10.048312+00:00",
+      "id": "sig_591086",
+      "timestamp": "2026-04-14T05:16:54.941731+00:00",
       "source": "PERPLEXITY",
-      "headline": "Bank of Korea Governor Warns Annual Inflation to Exceed 2",
-      "raw": "Bank of Korea Governor Warns Annual Inflation to Exceed 2.2% Forecast Due to Middle East Oil Surge | YES | HIGH confidence** [1][2][3][4]\n\nOn April 10, 2026, Bank of Korea Governor Rhee Chang-yong announced during a post-Monetary Policy Board briefing that South Korea\u2019s **2026 consumer price inflation** will significantly surpass the February forecast of 2.2%, with core inflation also higher than ",
-      "direction": "YES",
+      "headline": "XRP April 24 Options Expiry | NO | MED** - $418M open interest with $1",
+      "raw": "XRP April 24 Options Expiry | NO | MED** - $418M open interest with $1.50 call strike could drive volatility via delta-hedging, but event is scheduled, not newly confirmed[2].",
+      "direction": "NO",
       "confidence": 0.9,
       "matched_markets": [
-        "Will the price of Bitcoin be greater than $82,000 on April 1",
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+        "Will the price of XRP be above $1.10 on April 14?",
+        "Will the price of XRP be between $1.60 and $1.70 on April 14",
+        "Will the price of XRP be above $1.70 on April 15?"
       ],
       "action": "ENTER",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_408967",
-      "timestamp": "2026-04-14T05:13:52.822919+00:00",
+      "id": "sig_585214",
+      "timestamp": "2026-04-14T05:16:49.069164+00:00",
       "source": "PERPLEXITY",
-      "headline": "**Escalation confirmed**: Trump has ordered the blockade to begin immediately, with warnings that any Iranian forces fir",
-      "raw": "**Escalation confirmed**: Trump has ordered the blockade to begin immediately, with warnings that any Iranian forces firing on U.S. or peaceful vessels will face consequences[1].",
+      "headline": "**Senate outlook**: NRSC chair Tim Scott expressed optimism for holding/expanding the 53-47 GOP majority in 2026, citing",
+      "raw": "**Senate outlook**: NRSC chair Tim Scott expressed optimism for holding/expanding the 53-47 GOP majority in 2026, citing strong recruits amid challenges like Ohio's Sherrod Brown vs. Jon Husted (filling Vance's old seat)[4].",
       "direction": null,
-      "confidence": 0.9,
-      "matched_markets": [
-        "Trump announces end of military operations against Iran by A",
-        "Trump announces US x Iran ceasefire end by April 21, 2026?",
-        "Will Trump announce that the US x Iran ceasefire has been br"
-      ],
+      "confidence": 0.78,
+      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "GEOPOLITICS"
+      "category": "POLITICS"
     },
     {
-      "id": "sig_408976",
-      "timestamp": "2026-04-14T05:13:52.831871+00:00",
+      "id": "sig_585222",
+      "timestamp": "2026-04-14T05:16:49.077242+00:00",
       "source": "PERPLEXITY",
-      "headline": "**Ceasefire timeline**: A two-week ceasefire currently in place is set to expire on April 22, 2026[1], creating a defina",
-      "raw": "**Ceasefire timeline**: A two-week ceasefire currently in place is set to expire on April 22, 2026[1], creating a definable window for potential further escalation or negotiations.",
+      "headline": "**Other**: Vance's Pakistan trip for US-Iran talks (Saturday, recent) is foreign policy-focused, not domestic elections[",
+      "raw": "**Other**: Vance's Pakistan trip for US-Iran talks (Saturday, recent) is foreign policy-focused, not domestic elections[5].\n\nThese are ongoing campaign activities and commentary, not fresh confirmations (e.g., no poll shifts, endorsements, or results) likely to impact markets like Polymarket[1][2][4].",
+      "direction": "NO",
+      "confidence": 0.78,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_585197",
+      "timestamp": "2026-04-14T05:16:49.052488+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**VP JD Vance's X post (Wednesday, prior week)**: Vance emphasized affordable living as the key midterm issue after GOP",
+      "raw": "**VP JD Vance's X post (Wednesday, prior week)**: Vance emphasized affordable living as the key midterm issue after GOP losses in Virginia (Abigail Spanberger win), New Jersey (Mikie Sherrill win), and NYC mayor (Zohran Mamdani over Andrew Cuomo), urging GOP unity and voter turnout without new predictions or resolutions[2].",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_585205",
+      "timestamp": "2026-04-14T05:16:49.060951+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Campaign tours (late Feb 2026)**: Trump and Vance toured states like Wisconsin and Texas ahead of March 3 primaries; S",
+      "raw": "**Campaign tours (late Feb 2026)**: Trump and Vance toured states like Wisconsin and Texas ahead of March 3 primaries; Senate Majority Leader John Thune pushed a bipartisan housing bill, while House Democrats held a strategy conference in Virginia on affordability[1].",
       "direction": null,
       "confidence": 0.65,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces US x Iran ceasefire end by April 21, 2026?"
-      ],
+      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "GEOPOLITICS"
+      "category": "POLITICS"
     },
     {
-      "id": "sig_408985",
-      "timestamp": "2026-04-14T05:13:52.840345+00:00",
+      "id": "sig_591076",
+      "timestamp": "2026-04-14T05:16:54.932009+00:00",
       "source": "PERPLEXITY",
-      "headline": "**Diplomatic posture**: Trump stated he \"doesn't care if Iran comes back to the negotiating table,\" suggesting reduced l",
-      "raw": "**Diplomatic posture**: Trump stated he \"doesn't care if Iran comes back to the negotiating table,\" suggesting reduced likelihood of near-term diplomatic resolution[2].",
-      "direction": null,
+      "headline": "XRP April CLARITY Act Catalyst | NO | LOW** - Senate Banking Committee markup window opens latter half of April (post-Ap",
+      "raw": "XRP April CLARITY Act Catalyst | NO | LOW** - Senate Banking Committee markup window opens latter half of April (post-April 13 recess), potentially classifying XRP as digital commodity, but no confirmation of advancement yet[4].",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [
-        "Trump announces end of military operations against Iran by A",
-        "Trump announces US x Iran ceasefire end by April 21, 2026?",
-        "Will Trump announce that the US x Iran ceasefire has been br"
+        "Will the price of XRP be above $1.10 on April 14?",
+        "Will the price of XRP be between $1.60 and $1.70 on April 14",
+        "Will the price of XRP be above $1.70 on April 15?"
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "GEOPOLITICS"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_408994",
-      "timestamp": "2026-04-14T05:13:52.849061+00:00",
+      "id": "sig_591095",
+      "timestamp": "2026-04-14T05:16:54.950515+00:00",
       "source": "PERPLEXITY",
-      "headline": "**Strategic leverage**: Control of the Strait of Hormuz\u2014a critical global shipping chokepoint\u2014now represents a major str",
-      "raw": "**Strategic leverage**: Control of the Strait of Hormuz\u2014a critical global shipping chokepoint\u2014now represents a major strategic advantage for the U.S. in this conflict[1].\n\nThis announcement directly impacts markets related to oil prices, geopolitical risk, military conflict escalation, and Iran sanctions enforcement, making it highly significant for prediction market positions.",
-      "direction": null,
+      "headline": "XRP/Solana Polymarket April Price Odds | NO | HIGH** - Live odds show XRP 1",
+      "raw": "XRP/Solana Polymarket April Price Odds | NO | HIGH** - Live odds show XRP 1.30-1.40 (47%) on April 18[3]; April bets favor SOL >$80 (87%), XRP <$1.2 (69%), but these are ongoing markets, not new resolutions[1].",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [
-        "Will 30-39 ships transit the Strait of Hormuz between April 13-April 19?"
+        "Will the price of XRP be above $1.10 on April 14?",
+        "Will the price of XRP be between $1.60 and $1.70 on April 14",
+        "Will the price of Solana be above $70 on April 14?"
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "GEOPOLITICS"
+      "category": "CRYPTO"
     }
   ],
   "stats": {
     "enter": 2,
-    "alert": 4,
+    "alert": 6,
     "watch": 0,
-    "high_conf": 3
+    "high_conf": 2
   }
 }
