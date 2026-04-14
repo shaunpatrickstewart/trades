@@ -8,9 +8,9 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 132 categorical arb opportunities found\nScanned 3000 events (1939 multi-outcome) at 2026-04-14 23:08 UTC\nBest: 10.0% profit on 'Lowest temperature in Tokyo on April 15?' \u2014 buy YES on all 11 outcomes (sum=0.9)\nStrategy: Buy YES on all 11 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 10.0% on 'Rhode Island Governor Republican Primary Winner'",
+      "result": "LIVE \u2014 133 categorical arb opportunities found\nScanned 3000 events (1938 multi-outcome) at 2026-04-14 23:09 UTC\nBest: 10.0% profit on 'Lowest temperature in Tokyo on April 15?' \u2014 buy YES on all 11 outcomes (sum=0.9)\nStrategy: Buy YES on all 11 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 10.0% on 'Tochigi SC vs. SC Sagamihara'",
       "priority": "HIGH",
-      "last_scan": "2026-04-14 23:08 UTC",
+      "last_scan": "2026-04-14 23:09 UTC",
       "opportunities": [
         {
           "event_title": "Lowest temperature in Tokyo on April 15?",
@@ -100,6 +100,32 @@
           ],
           "url": "https://polymarket.com/event/lowest-temperature-in-tokyo-on-april-15-2026",
           "strategy": "Buy YES on all 11 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
+        },
+        {
+          "event_title": "Tochigi SC vs. SC Sagamihara",
+          "event_slug": "j2100-tsc-sag-2026-04-19",
+          "yes_sum": 0.9,
+          "profit_pct": 10.0,
+          "profit_per_dollar_pct": 11.11,
+          "num_outcomes": 2,
+          "outcomes": [
+            {
+              "market_id": "1685973",
+              "slug": "j2100-tsc-sag-2026-04-19-tsc",
+              "question": "Will Tochigi SC win on 2026-04-19?",
+              "yes_price": 0.515,
+              "volume": 1244
+            },
+            {
+              "market_id": "1685974",
+              "slug": "j2100-tsc-sag-2026-04-19-draw",
+              "question": "Will Tochigi SC vs. SC Sagamihara end in a draw?",
+              "yes_price": 0.385,
+              "volume": 3632
+            }
+          ],
+          "url": "https://polymarket.com/event/j2100-tsc-sag-2026-04-19",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
         },
         {
           "event_title": "Rhode Island Governor Republican Primary Winner",
@@ -442,6 +468,39 @@
           "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9060. One wins $1.00. Profit: $0.0940 (9.40%)"
         },
         {
+          "event_title": "Who will be UFC Welterweight champion at the end of 2026?",
+          "event_slug": "who-will-be-ufc-welterweight-champion-at-the-end-of-2026",
+          "yes_sum": 0.9065,
+          "profit_pct": 9.35,
+          "profit_per_dollar_pct": 10.31,
+          "num_outcomes": 3,
+          "outcomes": [
+            {
+              "market_id": "1090024",
+              "slug": "will-islam-makhachev-be-the-ufc-welterweight-champion-on-december-31-2026",
+              "question": "Will Islam Makhachev be the UFC Welterweight Champion on December 31, 2026?",
+              "yes_price": 0.75,
+              "volume": 3908
+            },
+            {
+              "market_id": "1090027",
+              "slug": "will-ian-machado-garry-be-the-ufc-welterweight-champion-on-december-31-2026",
+              "question": "Will Ian Machado Garry be the UFC Welterweight Champion on December 31, 2026?",
+              "yes_price": 0.14,
+              "volume": 1320
+            },
+            {
+              "market_id": "1090025",
+              "slug": "will-jack-della-maddalena-be-the-ufc-welterweight-champion-on-december-31-2026",
+              "question": "Will Jack Della Maddalena be the UFC Welterweight Champion on December 31, 2026?",
+              "yes_price": 0.0165,
+              "volume": 1318
+            }
+          ],
+          "url": "https://polymarket.com/event/who-will-be-ufc-welterweight-champion-at-the-end-of-2026",
+          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9065. One wins $1.00. Profit: $0.0935 (9.35%)"
+        },
+        {
           "event_title": "NBA Sixth Man of the Year Winner",
           "event_slug": "nba-2025-26-sixth-man-of-the-year",
           "yes_sum": 0.9075,
@@ -702,95 +761,15 @@
           ],
           "url": "https://polymarket.com/event/which-ceos-will-be-out-before-2027",
           "strategy": "Buy YES on all 6 outcomes. Total cost: $0.9120. One wins $1.00. Profit: $0.0880 (8.80%)"
-        },
-        {
-          "event_title": "FIFA World Cup Group K Winner",
-          "event_slug": "fifa-world-cup-group-k-winner",
-          "yes_sum": 0.9125,
-          "profit_pct": 8.75,
-          "profit_per_dollar_pct": 9.59,
-          "num_outcomes": 4,
-          "outcomes": [
-            {
-              "market_id": "840171",
-              "slug": "will-portugal-win-group-k-in-the-2026-fifa-world-cup",
-              "question": "Will Portugal win Group K in the 2026 FIFA World Cup?",
-              "yes_price": 0.65,
-              "volume": 15228
-            },
-            {
-              "market_id": "840174",
-              "slug": "will-colombia-win-group-k-in-the-2026-fifa-world-cup",
-              "question": "Will Colombia win Group K in the 2026 FIFA World Cup?",
-              "yes_price": 0.22,
-              "volume": 5186
-            },
-            {
-              "market_id": "840172",
-              "slug": "will-the-winner-of-democratic-republic-of-congojamaicanew-caledonia-playoff-win-group-k-in-the-2026-fifa-world-cup",
-              "question": "Will the winner of the Democratic Republic of Congo/Jamaica/New Caledonia playof",
-              "yes_price": 0.0315,
-              "volume": 5560
-            },
-            {
-              "market_id": "840173",
-              "slug": "will-uzbekistan-win-group-k-in-the-2026-fifa-world-cup",
-              "question": "Will Uzbekistan win Group K in the 2026 FIFA World Cup?",
-              "yes_price": 0.011,
-              "volume": 3556
-            }
-          ],
-          "url": "https://polymarket.com/event/fifa-world-cup-group-k-winner",
-          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9125. One wins $1.00. Profit: $0.0875 (8.75%)"
-        },
-        {
-          "event_title": "Will Opensea launch a token by ___?",
-          "event_slug": "will-opensea-launch-a-token-by-142",
-          "yes_sum": 0.9135,
-          "profit_pct": 8.65,
-          "profit_per_dollar_pct": 9.47,
-          "num_outcomes": 4,
-          "outcomes": [
-            {
-              "market_id": "1271613",
-              "slug": "will-opensea-launch-a-token-by-december-31-2026",
-              "question": "Will OpenSea launch a token by December 31, 2026?",
-              "yes_price": 0.616,
-              "volume": 97154
-            },
-            {
-              "market_id": "1271612",
-              "slug": "will-opensea-launch-a-token-by-september-30-2026",
-              "question": "Will OpenSea launch a token by September 30, 2026?",
-              "yes_price": 0.245,
-              "volume": 66649
-            },
-            {
-              "market_id": "1271611",
-              "slug": "will-opensea-launch-a-token-by-june-30-2026",
-              "question": "Will OpenSea launch a token by June 30, 2026?",
-              "yes_price": 0.0525,
-              "volume": 192476
-            },
-            {
-              "market_id": "1271610",
-              "slug": "will-opensea-launch-a-token-by-march-31-2026",
-              "question": "Will OpenSea launch a token by March 31, 2026?",
-              "yes_price": 0.0,
-              "volume": 1030401
-            }
-          ],
-          "url": "https://polymarket.com/event/will-opensea-launch-a-token-by-142",
-          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9135. One wins $1.00. Profit: $0.0865 (8.65%)"
         }
       ],
       "stats": {
         "total_events": 3000,
-        "checked_multi_outcome": 1939,
-        "skipped_single_outcome": 603,
-        "opportunities_found": 132,
+        "checked_multi_outcome": 1938,
+        "skipped_single_outcome": 605,
+        "opportunities_found": 133,
         "best_profit_pct": 10.0,
-        "scanned_at": "2026-04-14 23:08 UTC"
+        "scanned_at": "2026-04-14 23:09 UTC"
       }
     },
     {
