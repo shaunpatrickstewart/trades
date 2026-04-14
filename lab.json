@@ -8,174 +8,270 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 144 categorical arb opportunities found\nScanned 3000 events (1883 multi-outcome) at 2026-04-14 05:37 UTC\nBest: 10.0% profit on 'Wuning 2: Omar Jasika vs Maximus Jones' \u2014 buy YES on all 2 outcomes (sum=0.9)\nStrategy: Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 10.0% on 'Alabama Democratic Senate Primary Winner'",
+      "result": "LIVE \u2014 139 categorical arb opportunities found\nScanned 3000 events (1894 multi-outcome) at 2026-04-14 10:46 UTC\nBest: 10.0% profit on 'HUDL FDV above ___ one day after launch?' \u2014 buy YES on all 3 outcomes (sum=0.9)\nStrategy: Buy YES on all 3 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 10.0% on 'New Hampshire Governor Democratic Primary Winner'",
       "priority": "HIGH",
-      "last_scan": "2026-04-14 05:37 UTC",
+      "last_scan": "2026-04-14 10:46 UTC",
       "opportunities": [
         {
-          "event_title": "Wuning 2: Omar Jasika vs Maximus Jones",
-          "event_slug": "atp-jasika-jon-2026-04-12",
+          "event_title": "HUDL FDV above ___ one day after launch?",
+          "event_slug": "huddle-fdv-above-one-day-after-launch-864",
           "yes_sum": 0.9,
           "profit_pct": 10.0,
           "profit_per_dollar_pct": 11.11,
-          "num_outcomes": 2,
+          "num_outcomes": 3,
           "outcomes": [
             {
-              "market_id": "1948470",
-              "slug": "atp-jasika-jon-2026-04-12-first-set-winner-Jasika-vs-Jones",
-              "question": "Set 1 Winner: Jasika vs Jones",
-              "yes_price": 0.51,
-              "volume": 1063
+              "market_id": "1228207",
+              "slug": "huddle-fdv-above-10m-one-day-after-launch-881",
+              "question": "Huddle FDV above $10M one day after launch?",
+              "yes_price": 0.445,
+              "volume": 7538
             },
             {
-              "market_id": "1947875",
-              "slug": "atp-jasika-jon-2026-04-12",
-              "question": "Wuning 2: Omar Jasika vs Maximus Jones",
-              "yes_price": 0.39,
-              "volume": 45011
+              "market_id": "1229591",
+              "slug": "huddle-fdv-above-20m-one-day-after-launch",
+              "question": "Huddle FDV above $20M one day after launch?",
+              "yes_price": 0.285,
+              "volume": 4439
+            },
+            {
+              "market_id": "1228209",
+              "slug": "huddle-fdv-above-100m-one-day-after-launch-673-226",
+              "question": "Huddle FDV above $100M one day after launch?",
+              "yes_price": 0.17,
+              "volume": 19471
             }
           ],
-          "url": "https://polymarket.com/event/atp-jasika-jon-2026-04-12",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
+          "url": "https://polymarket.com/event/huddle-fdv-above-one-day-after-launch-864",
+          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
         },
         {
-          "event_title": "Alabama Democratic Senate Primary Winner",
-          "event_slug": "alabama-democratic-senate-primary-winner",
+          "event_title": "New Hampshire Governor Democratic Primary Winner",
+          "event_slug": "new-hampshire-governor-democratic-primary-winner",
           "yes_sum": 0.9,
           "profit_pct": 10.0,
           "profit_per_dollar_pct": 11.11,
-          "num_outcomes": 2,
-          "outcomes": [
-            {
-              "market_id": "679691",
-              "slug": "will-kyle-sweetser-be-the-democratic-nominee-for-senate-in-alabama",
-              "question": "Will Kyle Sweetser be the Democratic nominee for Senate in Alabama?",
-              "yes_price": 0.62,
-              "volume": 6538
-            },
-            {
-              "market_id": "679689",
-              "slug": "will-dakarai-larriett-be-the-democratic-nominee-for-senate-in-alabama",
-              "question": "Will Dakarai Larriett be the Democratic nominee for Senate in Alabama?",
-              "yes_price": 0.28,
-              "volume": 1616
-            }
-          ],
-          "url": "https://polymarket.com/event/alabama-democratic-senate-primary-winner",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
-        },
-        {
-          "event_title": "Will Opensea launch a token by ___?",
-          "event_slug": "will-opensea-launch-a-token-by-142",
-          "yes_sum": 0.9005,
-          "profit_pct": 9.95,
-          "profit_per_dollar_pct": 11.05,
           "num_outcomes": 4,
           "outcomes": [
             {
-              "market_id": "1271613",
-              "slug": "will-opensea-launch-a-token-by-december-31-2026",
-              "question": "Will OpenSea launch a token by December 31, 2026?",
-              "yes_price": 0.592,
-              "volume": 96248
+              "market_id": "824224",
+              "slug": "will-cinde-warmington-win-the-2026-new-hampshire-governor-democratic-primary-election",
+              "question": "Will Cinde Warmington win the 2026 New Hampshire Governor Democratic primary ele",
+              "yes_price": 0.725,
+              "volume": 8197
             },
             {
-              "market_id": "1271612",
-              "slug": "will-opensea-launch-a-token-by-september-30-2026",
-              "question": "Will OpenSea launch a token by September 30, 2026?",
-              "yes_price": 0.25,
-              "volume": 66549
+              "market_id": "824220",
+              "slug": "will-john-kiper-win-the-2026-new-hampshire-governor-democratic-primary-election",
+              "question": "Will John Kiper win the 2026 New Hampshire Governor Democratic primary election?",
+              "yes_price": 0.09,
+              "volume": 2105
             },
             {
-              "market_id": "1271611",
-              "slug": "will-opensea-launch-a-token-by-june-30-2026",
-              "question": "Will OpenSea launch a token by June 30, 2026?",
-              "yes_price": 0.0585,
-              "volume": 191272
+              "market_id": "824221",
+              "slug": "will-tom-sherman-win-the-2026-new-hampshire-governor-democratic-primary-election",
+              "question": "Will Tom Sherman win the 2026 New Hampshire Governor Democratic primary election",
+              "yes_price": 0.0575,
+              "volume": 1693
             },
             {
-              "market_id": "1271610",
-              "slug": "will-opensea-launch-a-token-by-march-31-2026",
-              "question": "Will OpenSea launch a token by March 31, 2026?",
+              "market_id": "824222",
+              "slug": "will-deaglan-mceachern-win-the-2026-new-hampshire-governor-democratic-primary-election",
+              "question": "Will Deaglan McEachern win the 2026 New Hampshire Governor Democratic primary el",
+              "yes_price": 0.0275,
+              "volume": 8101
+            }
+          ],
+          "url": "https://polymarket.com/event/new-hampshire-governor-democratic-primary-winner",
+          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
+        },
+        {
+          "event_title": "Miami Marlins vs. Atlanta Braves",
+          "event_slug": "mlb-mia-atl-2026-04-14",
+          "yes_sum": 0.9,
+          "profit_pct": 10.0,
+          "profit_per_dollar_pct": 11.11,
+          "num_outcomes": 2,
+          "outcomes": [
+            {
+              "market_id": "1972299",
+              "slug": "mlb-mia-atl-2026-04-14-total-8pt5",
+              "question": "Miami Marlins vs. Atlanta Braves: O/U 8.5",
+              "yes_price": 0.495,
+              "volume": 13823
+            },
+            {
+              "market_id": "1918068",
+              "slug": "mlb-mia-atl-2026-04-14",
+              "question": "Miami Marlins vs. Atlanta Braves",
+              "yes_price": 0.405,
+              "volume": 8693
+            }
+          ],
+          "url": "https://polymarket.com/event/mlb-mia-atl-2026-04-14",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
+        },
+        {
+          "event_title": "Israel military action against Yemen by...?",
+          "event_slug": "israel-strike-on-yemen-by-593",
+          "yes_sum": 0.9005,
+          "profit_pct": 9.95,
+          "profit_per_dollar_pct": 11.05,
+          "num_outcomes": 5,
+          "outcomes": [
+            {
+              "market_id": "1121887",
+              "slug": "israel-strike-on-yemen-by-june-30-2026-285-633-267-857",
+              "question": "Israel strike on Yemen by June 30, 2026?",
+              "yes_price": 0.405,
+              "volume": 433525
+            },
+            {
+              "market_id": "1641496",
+              "slug": "israel-strike-on-yemen-by-may-31-2026-588-747-911",
+              "question": "Israel strike on Yemen by May 31, 2026?",
+              "yes_price": 0.285,
+              "volume": 71165
+            },
+            {
+              "market_id": "1641497",
+              "slug": "israel-strike-on-yemen-by-april-30-2026-212-911",
+              "question": "Israel strike on Yemen by April 30, 2026?",
+              "yes_price": 0.19,
+              "volume": 186583
+            },
+            {
+              "market_id": "1796475",
+              "slug": "israel-military-action-against-yemen-by-april-15-2026",
+              "question": "Israel military action against Yemen by April 15, 2026?",
+              "yes_price": 0.0205,
+              "volume": 191881
+            },
+            {
+              "market_id": "1121884",
+              "slug": "israel-strike-on-yemen-by-march-31-2026",
+              "question": "Israel strike on Yemen by March 31, 2026?",
               "yes_price": 0.0,
-              "volume": 1030401
+              "volume": 689942
             }
           ],
-          "url": "https://polymarket.com/event/will-opensea-launch-a-token-by-142",
-          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9005. One wins $1.00. Profit: $0.0995 (9.95%)"
+          "url": "https://polymarket.com/event/israel-strike-on-yemen-by-593",
+          "strategy": "Buy YES on all 5 outcomes. Total cost: $0.9005. One wins $1.00. Profit: $0.0995 (9.95%)"
         },
         {
-          "event_title": "LA-05 Republican Primary Winner",
-          "event_slug": "la-05-republican-primary-winner",
-          "yes_sum": 0.9015,
-          "profit_pct": 9.85,
-          "profit_per_dollar_pct": 10.93,
+          "event_title": "Will a coin launched in 2026 end the year in the top ___?",
+          "event_slug": "will-a-coin-launched-in-2026-end-the-year-in-the-top",
+          "yes_sum": 0.9005,
+          "profit_pct": 9.95,
+          "profit_per_dollar_pct": 11.05,
           "num_outcomes": 3,
           "outcomes": [
             {
-              "market_id": "1731837",
-              "slug": "will-michael-echols-be-the-republican-nominee-for-la-05",
-              "question": "Will Michael Echols be the Republican nominee for LA-05?",
-              "yes_price": 0.4865,
-              "volume": 8253
+              "market_id": "1091106",
+              "slug": "will-a-coin-launched-in-2026-end-the-year-in-the-top-20",
+              "question": "Will a coin launched in 2026 end the year in the top 20?",
+              "yes_price": 0.48,
+              "volume": 3691
             },
             {
-              "market_id": "1731841",
-              "slug": "will-blake-miguez-be-the-republican-nominee-for-la-05",
-              "question": "Will Blake Miguez be the Republican nominee for LA-05?",
-              "yes_price": 0.385,
-              "volume": 15204
+              "market_id": "1091107",
+              "slug": "will-a-coin-launched-in-2026-end-the-year-in-the-top-10",
+              "question": "Will a coin launched in 2026 end the year in the top 10?",
+              "yes_price": 0.355,
+              "volume": 9433
             },
             {
-              "market_id": "1731842",
-              "slug": "will-samuel-wyatt-be-the-republican-nominee-for-la-05",
-              "question": "Will Samuel Wyatt be the Republican nominee for LA-05?",
-              "yes_price": 0.03,
-              "volume": 5125
+              "market_id": "1091108",
+              "slug": "will-a-coin-launched-in-2026-end-the-year-in-the-top-5",
+              "question": "Will a coin launched in 2026 end the year in the top 5?",
+              "yes_price": 0.0655,
+              "volume": 2656
             }
           ],
-          "url": "https://polymarket.com/event/la-05-republican-primary-winner",
-          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9015. One wins $1.00. Profit: $0.0985 (9.85%)"
+          "url": "https://polymarket.com/event/will-a-coin-launched-in-2026-end-the-year-in-the-top",
+          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9005. One wins $1.00. Profit: $0.0995 (9.95%)"
         },
         {
-          "event_title": "KY-06 Republican Primary Winner",
-          "event_slug": "ky-06-republican-primary-winner",
+          "event_title": "Lead Bank in SpaceX\u2019s IPO?",
+          "event_slug": "lead-bank-in-spacexs-ipo-836",
           "yes_sum": 0.9015,
           "profit_pct": 9.85,
           "profit_per_dollar_pct": 10.93,
-          "num_outcomes": 3,
+          "num_outcomes": 9,
           "outcomes": [
             {
-              "market_id": "959244",
-              "slug": "will-ralph-alvarado-be-the-republican-nominee-for-ky-06",
-              "question": "Will Ralph Alvarado be the Republican Nominee for KY-06?",
-              "yes_price": 0.605,
-              "volume": 6754
+              "market_id": "1021152",
+              "slug": "will-morgan-stanley-or-any-of-its-underwriting-affiliates-serve-as-the-lead-underwriter-in-spacexs-initial-public-offering-299",
+              "question": "Will Morgan Stanley or any of its underwriting affiliates serve as the lead unde",
+              "yes_price": 0.465,
+              "volume": 330167
             },
             {
-              "market_id": "959245",
-              "slug": "will-ryan-dotson-be-the-republican-nominee-for-ky-06",
-              "question": "Will Ryan Dotson be the Republican Nominee for KY-06?",
-              "yes_price": 0.183,
-              "volume": 7661
+              "market_id": "1021153",
+              "slug": "will-goldman-sachs-or-any-of-its-underwriting-affiliates-serve-as-the-lead-underwriter-in-spacexs-initial-public-offering-197",
+              "question": "Will Goldman Sachs or any of its underwriting affiliates serve as the lead under",
+              "yes_price": 0.3,
+              "volume": 242188
             },
             {
-              "market_id": "959247",
-              "slug": "will-adam-perez-arquette-be-the-republican-nominee-for-ky-06",
-              "question": "Will Adam Perez Arquette be the Republican Nominee for KY-06?",
-              "yes_price": 0.1135,
-              "volume": 1426
+              "market_id": "1021155",
+              "slug": "will-bank-of-america-or-any-of-its-underwriting-affiliates-serve-as-the-lead-underwriter-in-spacexs-initial-public-offering-433",
+              "question": "Will Bank of America or any of its underwriting affiliates serve as the lead und",
+              "yes_price": 0.0925,
+              "volume": 68156
+            },
+            {
+              "market_id": "1021154",
+              "slug": "will-jpmorgan-chase-or-any-of-its-underwriting-affiliates-serve-as-the-lead-underwriter-in-spacexs-initial-public-offering-471",
+              "question": "Will JPMorgan Chase or any of its underwriting affiliates serve as the lead unde",
+              "yes_price": 0.023,
+              "volume": 80032
+            },
+            {
+              "market_id": "1021159",
+              "slug": "will-deutsche-bank-or-any-of-its-underwriting-affiliates-serve-as-the-lead-underwriter-in-spacexs-initial-public-offering-824",
+              "question": "Will Deutsche Bank or any of its underwriting affiliates serve as the lead under",
+              "yes_price": 0.0075,
+              "volume": 307467
+            },
+            {
+              "market_id": "1021156",
+              "slug": "will-citigroup-or-any-of-its-underwriting-affiliates-serve-as-the-lead-underwriter-in-spacexs-initial-public-offering-719",
+              "question": "Will Citigroup or any of its underwriting affiliates serve as the lead underwrit",
+              "yes_price": 0.0055,
+              "volume": 98894
+            },
+            {
+              "market_id": "1021158",
+              "slug": "will-ubs-or-any-of-its-underwriting-affiliates-serve-as-the-lead-underwriter-in-spacexs-initial-public-offering-884",
+              "question": "Will UBS or any of its underwriting affiliates serve as the lead underwriter in ",
+              "yes_price": 0.004,
+              "volume": 90287
+            },
+            {
+              "market_id": "1021157",
+              "slug": "will-barclays-or-any-of-its-underwriting-affiliates-serve-as-the-lead-underwriter-in-spacexs-initial-public-offering-115",
+              "question": "Will Barclays or any of its underwriting affiliates serve as the lead underwrite",
+              "yes_price": 0.0025,
+              "volume": 64344
+            },
+            {
+              "market_id": "1021160",
+              "slug": "will-wells-fargo-or-any-of-its-underwriting-affiliates-serve-as-the-lead-underwriter-in-spacexs-initial-public-offering-174",
+              "question": "Will Wells Fargo or any of its underwriting affiliates serve as the lead underwr",
+              "yes_price": 0.0015,
+              "volume": 56292
             }
           ],
-          "url": "https://polymarket.com/event/ky-06-republican-primary-winner",
-          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9015. One wins $1.00. Profit: $0.0985 (9.85%)"
+          "url": "https://polymarket.com/event/lead-bank-in-spacexs-ipo-836",
+          "strategy": "Buy YES on all 9 outcomes. Total cost: $0.9015. One wins $1.00. Profit: $0.0985 (9.85%)"
         },
         {
           "event_title": "Oklahoma Governor Republican Primary Winner",
           "event_slug": "oklahoma-governor-republican-primary-winner",
-          "yes_sum": 0.902,
-          "profit_pct": 9.8,
-          "profit_per_dollar_pct": 10.86,
+          "yes_sum": 0.9015,
+          "profit_pct": 9.85,
+          "profit_per_dollar_pct": 10.93,
           "num_outcomes": 8,
           "outcomes": [
             {
@@ -189,7 +285,7 @@
               "market_id": "825094",
               "slug": "will-mike-mazzei-win-the-2026-oklahoma-governor-republican-primary-election",
               "question": "Will Mike Mazzei win the 2026 Oklahoma Governor Republican primary election?",
-              "yes_price": 0.32,
+              "yes_price": 0.3245,
               "volume": 3102
             },
             {
@@ -203,7 +299,7 @@
               "market_id": "825095",
               "slug": "will-charles-mccall-win-the-2026-oklahoma-governor-republican-primary-election",
               "question": "Will Charles McCall win the 2026 Oklahoma Governor Republican primary election?",
-              "yes_price": 0.09,
+              "yes_price": 0.085,
               "volume": 113964
             },
             {
@@ -236,176 +332,374 @@
             }
           ],
           "url": "https://polymarket.com/event/oklahoma-governor-republican-primary-winner",
-          "strategy": "Buy YES on all 8 outcomes. Total cost: $0.9020. One wins $1.00. Profit: $0.0980 (9.80%)"
+          "strategy": "Buy YES on all 8 outcomes. Total cost: $0.9015. One wins $1.00. Profit: $0.0985 (9.85%)"
         },
         {
-          "event_title": "Latvian Parliamentary Election Winner",
-          "event_slug": "latvian-parliamentary-election-winner",
-          "yes_sum": 0.902,
-          "profit_pct": 9.8,
-          "profit_per_dollar_pct": 10.86,
-          "num_outcomes": 4,
+          "event_title": "English Premier League - Top Goalscorer ",
+          "event_slug": "english-premier-league-top-goalscorer",
+          "yes_sum": 0.906,
+          "profit_pct": 9.4,
+          "profit_per_dollar_pct": 10.38,
+          "num_outcomes": 31,
           "outcomes": [
             {
-              "market_id": "950433",
-              "slug": "will-latvija-pirmaj-viet-lpv-win-the-most-seats-in-the-2026-latvian-parliamentary-election",
-              "question": "Will Latvija Pirmaj\u0101 Viet\u0101 (LPV) win the most seats in the 2026 Latvian parliame",
-              "yes_price": 0.35,
-              "volume": 1540
+              "market_id": "577160",
+              "slug": "will-erling-haaland-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Erling Haaland be the top goal scorer in the 2025\u201326 English Premier League",
+              "yes_price": 0.785,
+              "volume": 69707
             },
             {
-              "market_id": "950428",
-              "slug": "will-jaun-vienotba-jv-win-the-most-seats-in-the-2026-latvian-parliamentary-election",
-              "question": "Will Jaun\u0101 Vienot\u012bba (JV) win the most seats in the 2026 Latvian parliamentary e",
-              "yes_price": 0.345,
-              "volume": 3722
+              "market_id": "577162",
+              "slug": "will-viktor-gyokeres-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Viktor Gyokeres be the top goal scorer in the 2025\u201326 English Premier Leagu",
+              "yes_price": 0.008,
+              "volume": 176357
             },
             {
-              "market_id": "950431",
-              "slug": "will-nacionl-apvienba-na-win-the-most-seats-in-the-2026-latvian-parliamentary-election",
-              "question": "Will Nacion\u0101l\u0101 Apvien\u012bba (NA) win the most seats in the 2026 Latvian parliamenta",
-              "yes_price": 0.17,
-              "volume": 1647
+              "market_id": "577180",
+              "slug": "will-charalambos-kostoulas-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Charalambos Kostoulas be the top goal scorer in the 2025\u201326 English Premier",
+              "yes_price": 0.007,
+              "volume": 76309
             },
             {
-              "market_id": "950429",
-              "slug": "will-zao-un-zemnieku-savienba-zzs-win-the-most-seats-in-the-2026-latvian-parliamentary-election",
-              "question": "Will Za\u013co un Zemnieku Savien\u012bba (ZZS) win the most seats in the 2026 Latvian par",
-              "yes_price": 0.037,
-              "volume": 48212
-            }
-          ],
-          "url": "https://polymarket.com/event/latvian-parliamentary-election-winner",
-          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9020. One wins $1.00. Profit: $0.0980 (9.80%)"
-        },
-        {
-          "event_title": "#1 Free App in the US Apple App Store on April 14?",
-          "event_slug": "1-free-app-in-the-us-apple-app-store-on-april-14",
-          "yes_sum": 0.9025,
-          "profit_pct": 9.75,
-          "profit_per_dollar_pct": 10.8,
-          "num_outcomes": 3,
-          "outcomes": [
-            {
-              "market_id": "1937440",
-              "slug": "will-chatgpt-be-1-free-app-in-the-us-apple-app-store-on-april-14",
-              "question": "Will ChatGPT be #1 Free App in the US Apple App Store on April 14?",
-              "yes_price": 0.9,
-              "volume": 1819
+              "market_id": "577171",
+              "slug": "will-omar-marmoush-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Omar Marmoush be the top goal scorer in the 2025\u201326 English Premier League ",
+              "yes_price": 0.0065,
+              "volume": 19550
             },
             {
-              "market_id": "1937446",
-              "slug": "will-threads-be-1-free-app-in-the-us-apple-app-store-on-april-14",
-              "question": "Will Threads be #1 Free App in the US Apple App Store on April 14?",
+              "market_id": "577178",
+              "slug": "will-jarrod-bowen-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Jarrod Bowen be the top goal scorer in the 2025\u201326 English Premier League s",
+              "yes_price": 0.0065,
+              "volume": 13717
+            },
+            {
+              "market_id": "577168",
+              "slug": "will-ollie-watkins-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Ollie Watkins be the top goal scorer in the 2025\u201326 English Premier League ",
+              "yes_price": 0.006,
+              "volume": 34465
+            },
+            {
+              "market_id": "577163",
+              "slug": "will-alexander-isak-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Alexander Isak be the top goal scorer in the 2025\u201326 English Premier League",
+              "yes_price": 0.006,
+              "volume": 148938
+            },
+            {
+              "market_id": "577183",
+              "slug": "will-morgan-rogers-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Morgan Rogers be the top goal scorer in the 2025\u201326 English Premier League ",
+              "yes_price": 0.0055,
+              "volume": 13480
+            },
+            {
+              "market_id": "577186",
+              "slug": "will-nicolas-jackson-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Nicolas Jackson be the top goal scorer in the 2025\u201326 English Premier Leagu",
+              "yes_price": 0.0055,
+              "volume": 51093
+            },
+            {
+              "market_id": "577182",
+              "slug": "will-chris-wood-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Chris Wood be the top goal scorer in the 2025\u201326 English Premier League sea",
+              "yes_price": 0.0055,
+              "volume": 85796
+            },
+            {
+              "market_id": "577174",
+              "slug": "will-matheus-cunha-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Matheus Cunha be the top goal scorer in the 2025\u201326 English Premier League ",
+              "yes_price": 0.005,
+              "volume": 188266
+            },
+            {
+              "market_id": "577170",
+              "slug": "will-dominic-solanke-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Dominic Solanke be the top goal scorer in the 2025\u201326 English Premier Leagu",
+              "yes_price": 0.005,
+              "volume": 162096
+            },
+            {
+              "market_id": "577161",
+              "slug": "will-mohamed-salah-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Mohamed Salah be the top goal scorer in the 2025\u201326 English Premier League ",
+              "yes_price": 0.0045,
+              "volume": 236001
+            },
+            {
+              "market_id": "577172",
+              "slug": "will-jean-philippe-mateta-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Jean-Philippe Mateta be the top goal scorer in the 2025\u201326 English Premier ",
+              "yes_price": 0.0045,
+              "volume": 44476
+            },
+            {
+              "market_id": "577177",
+              "slug": "will-bryan-mbeumo-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Bryan Mbeumo be the top goal scorer in the 2025\u201326 English Premier League s",
+              "yes_price": 0.0045,
+              "volume": 41351
+            },
+            {
+              "market_id": "577181",
+              "slug": "will-bruno-fernandes-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Bruno Fernandes be the top goal scorer in the 2025\u201326 English Premier Leagu",
+              "yes_price": 0.0045,
+              "volume": 21699
+            },
+            {
+              "market_id": "577166",
+              "slug": "will-cole-palmer-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Cole Palmer be the top goal scorer in the 2025\u201326 English Premier League se",
+              "yes_price": 0.004,
+              "volume": 14950
+            },
+            {
+              "market_id": "577187",
+              "slug": "will-brennan-johnson-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Brennan Johnson be the top goal scorer in the 2025\u201326 English Premier Leagu",
+              "yes_price": 0.004,
+              "volume": 17359
+            },
+            {
+              "market_id": "577189",
+              "slug": "will-kai-havertz-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Kai Havertz be the top goal scorer in the 2025\u201326 English Premier League se",
+              "yes_price": 0.004,
+              "volume": 113968
+            },
+            {
+              "market_id": "577165",
+              "slug": "will-hugo-ekitike-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Hugo Ekitike be the top goal scorer in the 2025\u201326 English Premier League s",
+              "yes_price": 0.0025,
+              "volume": 155798
+            },
+            {
+              "market_id": "577169",
+              "slug": "will-richarlison-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Richarlison be the top goal scorer in the 2025\u201326 English Premier League se",
+              "yes_price": 0.0025,
+              "volume": 32326
+            },
+            {
+              "market_id": "577173",
+              "slug": "will-yoane-wissa-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Yoane Wissa be the top goal scorer in the 2025\u201326 English Premier League se",
+              "yes_price": 0.0025,
+              "volume": 14822
+            },
+            {
+              "market_id": "577176",
+              "slug": "will-bukayo-saka-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Bukayo Saka be the top goal scorer in the 2025\u201326 English Premier League se",
+              "yes_price": 0.0025,
+              "volume": 130682
+            },
+            {
+              "market_id": "577184",
+              "slug": "will-thierno-barry-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Thierno Barry be the top goal scorer in the 2025\u201326 English Premier League ",
+              "yes_price": 0.0025,
+              "volume": 117540
+            },
+            {
+              "market_id": "577190",
+              "slug": "will-florian-wirtz-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Florian Wirtz be the top goal scorer in the 2025\u201326 English Premier League ",
+              "yes_price": 0.0025,
+              "volume": 14528
+            },
+            {
+              "market_id": "577164",
+              "slug": "will-joao-pedro-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Joao Pedro be the top goal scorer in the 2025\u201326 English Premier League sea",
               "yes_price": 0.002,
-              "volume": 1144
+              "volume": 111697
             },
             {
-              "market_id": "1937443",
-              "slug": "will-google-be-1-free-app-in-the-us-apple-app-store-on-april-14",
-              "question": "Will Google be #1 Free App in the US Apple App Store on April 14?",
-              "yes_price": 0.0005,
-              "volume": 1330
+              "market_id": "577179",
+              "slug": "will-evanilson-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Evanilson be the top goal scorer in the 2025\u201326 English Premier League seas",
+              "yes_price": 0.0015,
+              "volume": 18383
+            },
+            {
+              "market_id": "577167",
+              "slug": "will-benjamin-sesko-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Benjamin Sesko be the top goal scorer in the 2025\u201326 English Premier League",
+              "yes_price": 0.0015,
+              "volume": 26659
+            },
+            {
+              "market_id": "577188",
+              "slug": "will-cody-gakpo-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Cody Gakpo be the top goal scorer in the 2025\u201326 English Premier League sea",
+              "yes_price": 0.0015,
+              "volume": 17276
+            },
+            {
+              "market_id": "577175",
+              "slug": "will-liam-delap-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Liam Delap be the top goal scorer in the 2025\u201326 English Premier League sea",
+              "yes_price": 0.0015,
+              "volume": 19097
+            },
+            {
+              "market_id": "577185",
+              "slug": "will-mohammed-kudus-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Mohammed Kudus be the top goal scorer in the 2025\u201326 English Premier League",
+              "yes_price": 0.0015,
+              "volume": 21298
             }
           ],
-          "url": "https://polymarket.com/event/1-free-app-in-the-us-apple-app-store-on-april-14",
-          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9025. One wins $1.00. Profit: $0.0975 (9.75%)"
+          "url": "https://polymarket.com/event/english-premier-league-top-goalscorer",
+          "strategy": "Buy YES on all 31 outcomes. Total cost: $0.9060. One wins $1.00. Profit: $0.0940 (9.40%)"
         },
         {
-          "event_title": "Bulgarian Parliamentary Election: Which Parties Enter Parliament?",
-          "event_slug": "bulgarian-parliamentary-election-which-parties-enter-parliament",
-          "yes_sum": 0.904,
-          "profit_pct": 9.6,
-          "profit_per_dollar_pct": 10.62,
-          "num_outcomes": 5,
-          "outcomes": [
-            {
-              "market_id": "1737533",
-              "slug": "will-united-left-bsp-win-at-least-one-seat-in-the-2026-bulgarian-parliamentary-election",
-              "question": "Will United Left (BSP) win at least one seat in the 2026 Bulgarian parliamentary",
-              "yes_price": 0.605,
-              "volume": 23069
-            },
-            {
-              "market_id": "1737537",
-              "slug": "will-morality-unity-honour-mech-win-at-least-one-seat-in-the-2026-bulgarian-parliamentary-election",
-              "question": "Will Morality, Unity, Honour (MECh) win at least one seat in the 2026 Bulgarian ",
-              "yes_price": 0.175,
-              "volume": 5412
-            },
-            {
-              "market_id": "1737536",
-              "slug": "will-velichie-velichie-win-at-least-one-seat-in-the-2026-bulgarian-parliamentary-election",
-              "question": "Will Velichie (Velichie) win at least one seat in the 2026 Bulgarian parliamenta",
-              "yes_price": 0.075,
-              "volume": 28794
-            },
-            {
-              "market_id": "1737535",
-              "slug": "will-there-is-such-a-people-itn-win-at-least-one-seat-in-the-2026-bulgarian-parliamentary-election",
-              "question": "Will There is Such a People (ITN) win at least one seat in the 2026 Bulgarian pa",
-              "yes_price": 0.0275,
-              "volume": 10571
-            },
-            {
-              "market_id": "1737534",
-              "slug": "will-alliance-for-rights-and-freedoms-aps-win-at-least-one-seat-in-the-2026-bulgarian-parliamentary-election",
-              "question": "Will Alliance for Rights and Freedoms (APS) win at least one seat in the 2026 Bu",
-              "yes_price": 0.0215,
-              "volume": 12579
-            }
-          ],
-          "url": "https://polymarket.com/event/bulgarian-parliamentary-election-which-parties-enter-parliament",
-          "strategy": "Buy YES on all 5 outcomes. Total cost: $0.9040. One wins $1.00. Profit: $0.0960 (9.60%)"
-        },
-        {
-          "event_title": "Who will be UFC Light Heavyweight champion at the end of 2026?",
-          "event_slug": "who-will-be-ufc-light-heavyweight-champion-at-the-end-of-2026",
-          "yes_sum": 0.9055,
-          "profit_pct": 9.45,
-          "profit_per_dollar_pct": 10.44,
+          "event_title": "Oklahoma Democratic Senate Primary Winner",
+          "event_slug": "oklahoma-democratic-senate-primary-winner",
+          "yes_sum": 0.9065,
+          "profit_pct": 9.35,
+          "profit_per_dollar_pct": 10.31,
           "num_outcomes": 4,
           "outcomes": [
             {
-              "market_id": "1090072",
-              "slug": "will-carlos-ulberg-be-the-ufc-light-heavyweight-champion-on-december-31-2026",
-              "question": "Will Carlos Ulberg be the UFC Light Heavyweight Champion on December 31, 2026?",
-              "yes_price": 0.535,
-              "volume": 2212
+              "market_id": "943396",
+              "slug": "will-nkiyla-jasmine-thomas-be-the-democratic-nominee-for-senate-in-oklahoma",
+              "question": "Will N\u2019Kiyla \u201cJasmine\u201d Thomas be the Democratic nominee for Senate in Oklahoma?",
+              "yes_price": 0.515,
+              "volume": 1820
             },
             {
-              "market_id": "1090078",
-              "slug": "will-dominick-reyes-be-the-ufc-light-heavyweight-champion-on-december-31-2026",
-              "question": "Will Dominick Reyes be the UFC Light Heavyweight Champion on December 31, 2026?",
-              "yes_price": 0.177,
-              "volume": 6452
+              "market_id": "943398",
+              "slug": "will-jim-priest-be-the-democratic-nominee-for-senate-in-oklahoma",
+              "question": "Will Jim Priest be the Democratic nominee for Senate in Oklahoma?",
+              "yes_price": 0.255,
+              "volume": 3770
             },
             {
-              "market_id": "1090069",
-              "slug": "will-alex-pereira-be-the-ufc-light-heavyweight-champion-on-december-31-2026",
-              "question": "Will Alex Pereira be the UFC Light Heavyweight Champion on December 31, 2026?",
-              "yes_price": 0.14,
-              "volume": 3209
+              "market_id": "943395",
+              "slug": "will-troy-green-be-the-democratic-nominee-for-senate-in-oklahoma",
+              "question": "Will Troy Green be the Democratic nominee for Senate in Oklahoma?",
+              "yes_price": 0.11,
+              "volume": 1901
             },
             {
-              "market_id": "1090070",
-              "slug": "will-ji-prochzka-be-the-ufc-light-heavyweight-champion-on-december-31-2026",
-              "question": "Will Ji\u0159\u00ed Proch\u00e1zka be the UFC Light Heavyweight Champion on December 31, 2026?",
-              "yes_price": 0.0535,
-              "volume": 2560
+              "market_id": "943399",
+              "slug": "will-rebekah-lavann-be-the-democratic-nominee-for-senate-in-oklahoma",
+              "question": "Will Rebekah LaVann be the Democratic nominee for Senate in Oklahoma?",
+              "yes_price": 0.0265,
+              "volume": 3477
             }
           ],
-          "url": "https://polymarket.com/event/who-will-be-ufc-light-heavyweight-champion-at-the-end-of-2026",
-          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9055. One wins $1.00. Profit: $0.0945 (9.45%)"
+          "url": "https://polymarket.com/event/oklahoma-democratic-senate-primary-winner",
+          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9065. One wins $1.00. Profit: $0.0935 (9.35%)"
+        },
+        {
+          "event_title": "Highest temperature in Denver on April 14?",
+          "event_slug": "highest-temperature-in-denver-on-april-14-2026",
+          "yes_sum": 0.907,
+          "profit_pct": 9.3,
+          "profit_per_dollar_pct": 10.25,
+          "num_outcomes": 11,
+          "outcomes": [
+            {
+              "market_id": "1953785",
+              "slug": "highest-temperature-in-denver-on-april-14-2026-60-61f",
+              "question": "Will the highest temperature in Denver be between 60-61\u00b0F on April 14?",
+              "yes_price": 0.32,
+              "volume": 3458
+            },
+            {
+              "market_id": "1953784",
+              "slug": "highest-temperature-in-denver-on-april-14-2026-58-59f",
+              "question": "Will the highest temperature in Denver be between 58-59\u00b0F on April 14?",
+              "yes_price": 0.255,
+              "volume": 5259
+            },
+            {
+              "market_id": "1953786",
+              "slug": "highest-temperature-in-denver-on-april-14-2026-62-63f",
+              "question": "Will the highest temperature in Denver be between 62-63\u00b0F on April 14?",
+              "yes_price": 0.205,
+              "volume": 2745
+            },
+            {
+              "market_id": "1953787",
+              "slug": "highest-temperature-in-denver-on-april-14-2026-64-65f",
+              "question": "Will the highest temperature in Denver be between 64-65\u00b0F on April 14?",
+              "yes_price": 0.045,
+              "volume": 3554
+            },
+            {
+              "market_id": "1953788",
+              "slug": "highest-temperature-in-denver-on-april-14-2026-66forhigher",
+              "question": "Will the highest temperature in Denver be 66\u00b0F or higher on April 14?",
+              "yes_price": 0.0395,
+              "volume": 13327
+            },
+            {
+              "market_id": "1953783",
+              "slug": "highest-temperature-in-denver-on-april-14-2026-56-57f",
+              "question": "Will the highest temperature in Denver be between 56-57\u00b0F on April 14?",
+              "yes_price": 0.0315,
+              "volume": 4047
+            },
+            {
+              "market_id": "1953782",
+              "slug": "highest-temperature-in-denver-on-april-14-2026-54-55f",
+              "question": "Will the highest temperature in Denver be between 54-55\u00b0F on April 14?",
+              "yes_price": 0.0065,
+              "volume": 4680
+            },
+            {
+              "market_id": "1953781",
+              "slug": "highest-temperature-in-denver-on-april-14-2026-52-53f",
+              "question": "Will the highest temperature in Denver be between 52-53\u00b0F on April 14?",
+              "yes_price": 0.002,
+              "volume": 13029
+            },
+            {
+              "market_id": "1953780",
+              "slug": "highest-temperature-in-denver-on-april-14-2026-50-51f",
+              "question": "Will the highest temperature in Denver be between 50-51\u00b0F on April 14?",
+              "yes_price": 0.0015,
+              "volume": 3949
+            },
+            {
+              "market_id": "1953778",
+              "slug": "highest-temperature-in-denver-on-april-14-2026-47forbelow",
+              "question": "Will the highest temperature in Denver be 47\u00b0F or below on April 14?",
+              "yes_price": 0.0005,
+              "volume": 18433
+            },
+            {
+              "market_id": "1953779",
+              "slug": "highest-temperature-in-denver-on-april-14-2026-48-49f",
+              "question": "Will the highest temperature in Denver be between 48-49\u00b0F on April 14?",
+              "yes_price": 0.0005,
+              "volume": 4241
+            }
+          ],
+          "url": "https://polymarket.com/event/highest-temperature-in-denver-on-april-14-2026",
+          "strategy": "Buy YES on all 11 outcomes. Total cost: $0.9070. One wins $1.00. Profit: $0.0930 (9.30%)"
         }
       ],
       "stats": {
         "total_events": 3000,
-        "checked_multi_outcome": 1883,
-        "skipped_single_outcome": 608,
-        "opportunities_found": 144,
+        "checked_multi_outcome": 1894,
+        "skipped_single_outcome": 611,
+        "opportunities_found": 139,
         "best_profit_pct": 10.0,
-        "scanned_at": "2026-04-14 05:37 UTC"
+        "scanned_at": "2026-04-14 10:46 UTC"
       }
     },
     {
