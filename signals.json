@@ -1,13 +1,220 @@
 {
-  "last_scan": "2026-04-14T15:55:22.589752+00:00",
-  "scan_seconds": 4.3,
-  "markets_scanned": 74,
-  "open_positions": 76,
-  "signals": [],
+  "last_scan": "2026-04-14T15:58:31.033221+00:00",
+  "scan_seconds": 44.4,
+  "markets_scanned": 116,
+  "open_positions": 85,
+  "signals": [
+    {
+      "id": "sig_86180",
+      "timestamp": "2026-04-14T15:58:29.996226+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Based on the available search results, the most recent confirmed inflation data for South Korea is from **early April 20",
+      "raw": "Based on the available search results, the most recent confirmed inflation data for South Korea is from **early April 2026**, when the Bank of Korea held its policy rate at 2.5% for the 7th consecutive month[4]. At that time, **consumer prices had climbed above the central bank's 2% target, with inflation reported at approximately 2.2%**[4].\n\nHowever, the search results do not contain any breaking",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_86194",
+      "timestamp": "2026-04-14T15:58:30.010236+00:00",
+      "source": "PERPLEXITY",
+      "headline": "HEADLINE:** Bank of Korea holds rate steady amid oil-driven inflation pressures | NO significant policy change | MED con",
+      "raw": "HEADLINE:** Bank of Korea holds rate steady amid oil-driven inflation pressures | NO significant policy change | MED confidence\n\nThe \"NO\" reflects that while inflation remains above target due to rising global oil prices and currency weakness, there was no new decision or announcement that would substantially move prediction markets beyond the widely-anticipated rate hold that was already priced i",
+      "direction": "NO",
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_72873",
+      "timestamp": "2026-04-14T15:58:16.689191+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Solana Hits Record 167M Monthly Token Holders & Alpenglow Upgrade Progress | YES | HIGH confidence**",
+      "raw": "Solana Hits Record 167M Monthly Token Holders & Alpenglow Upgrade Progress | YES | HIGH confidence**\n\nSolana reached an all-time record of 167 million monthly token holders as of April 14, 2026, with daily non-vote transactions hitting historic highs of 148 million[2]. The Alpenglow consensus upgrade is progressing toward reducing transaction finality from 12 seconds to 150 milliseconds, with stro",
+      "direction": "YES",
+      "confidence": 0.78,
+      "matched_markets": [
+        "Will the price of Solana be above $100 on April 14?",
+        "Will the price of Solana be above $100 on April 15?",
+        "Will the price of Solana be above $100 on April 17?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_52219",
+      "timestamp": "2026-04-14T15:57:56.035073+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Trump had threatened military action with escalating rhetoric, including a Tuesday morning social media post warning tha",
+      "raw": "Trump had threatened military action with escalating rhetoric, including a Tuesday morning social media post warning that \"a whole civilization will die tonight\" if Iran did not reach a deal.[1]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Trump announces end of military operations against Iran by A",
+        "Trump announces US x Iran ceasefire end by April 21, 2026?",
+        "Will Trump announce that the US x Iran ceasefire has been br"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_52227",
+      "timestamp": "2026-04-14T15:57:56.043466+00:00",
+      "source": "PERPLEXITY",
+      "headline": "The ceasefire halted hostilities after Iran's closure of the Strait of Hormuz\u2014which carries roughly 20 percent of the wo",
+      "raw": "The ceasefire halted hostilities after Iran's closure of the Strait of Hormuz\u2014which carries roughly 20 percent of the world's oil supply\u2014caused fuel prices to spike across Europe and the U.S.[1]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces US x Iran ceasefire end by April 21, 2026?",
+        "Will Trump announce that the US x Iran ceasefire has been br"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_52247",
+      "timestamp": "2026-04-14T15:57:56.063543+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Nuclear material removal from Iran remains a key sticking point in negotiations, with the U",
+      "raw": "Nuclear material removal from Iran remains a key sticking point in negotiations, with the U.S. demanding the material leave the country.[2]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_52257",
+      "timestamp": "2026-04-14T15:57:56.073460+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Prediction market implications:** The ceasefire announcement de-escalates immediate war risk and provides a diplomatic w",
+      "raw": "Prediction market implications:** The ceasefire announcement de-escalates immediate war risk and provides a diplomatic window, but the temporary nature of the agreement and unresolved nuclear negotiations create ongoing uncertainty for commodities markets (oil prices), geopolitical risk premiums, and U.S.-Iran relations forecasts.",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces US x Iran ceasefire end by April 21, 2026?",
+        "Will Trump announce that the US x Iran ceasefire has been br"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_59712",
+      "timestamp": "2026-04-14T15:58:03.528646+00:00",
+      "source": "PERPLEXITY",
+      "headline": "I cannot provide breaking news for today (April 14, 2026) based on these search results",
+      "raw": "I cannot provide breaking news for today (April 14, 2026) based on these search results. The most recent content in the provided search results is from March 31, 2026, which is approximately two weeks old. The search results include:",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_59721",
+      "timestamp": "2026-04-14T15:58:03.537382+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Vice President JD Vance chairing a task force on government fraud (March 16, 2026)[4]",
+      "raw": "Vice President JD Vance chairing a task force on government fraud (March 16, 2026)[4]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_59729",
+      "timestamp": "2026-04-14T15:58:03.545999+00:00",
+      "source": "PERPLEXITY",
+      "headline": "A presidential executive order on election integrity (March 31, 2026)[5]",
+      "raw": "A presidential executive order on election integrity (March 31, 2026)[5]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_59738",
+      "timestamp": "2026-04-14T15:58:03.554884+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Reports from November 2025 about Vance as a frontrunner for the 2028 Republican nomination[3]",
+      "raw": "Reports from November 2025 about Vance as a frontrunner for the 2028 Republican nomination[3]\n\nNone of these represent breaking news from today that would typically move prediction markets. To provide accurate breaking news information, I would need search results from today's date or very recent hours. I recommend conducting a fresh search with current news sources to find today's developments.",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will J.D. Vance win the 2028 Republican presidential nominat"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_72864",
+      "timestamp": "2026-04-14T15:58:16.680687+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Based on the search results provided, here are the most significant recent developments:",
+      "raw": "Based on the search results provided, here are the most significant recent developments:",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_72881",
+      "timestamp": "2026-04-14T15:58:16.697675+00:00",
+      "source": "PERPLEXITY",
+      "headline": "XRP Records Largest Weekly Inflows, Surpassing Bitcoin and Solana | YES | HIGH confidence**",
+      "raw": "XRP Records Largest Weekly Inflows, Surpassing Bitcoin and Solana | YES | HIGH confidence**\n\nXRP attracted $119.6 million in inflows last week\u2014its strongest weekly haul since mid-December 2025\u2014unseating both Bitcoin ($107.3 million) and Solana ($34.9 million)[5]. This positions XRP at 7% of year-to-date assets under management, driven partly by progress toward a major public XRP treasury merger an",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_72890",
+      "timestamp": "2026-04-14T15:58:16.706154+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Solana DeFi Platform Drift Protocol Hacked for $280 Million | YES | HIGH confidence**",
+      "raw": "Solana DeFi Platform Drift Protocol Hacked for $280 Million | YES | HIGH confidence**\n\nOn April 1, the Solana-based DeFi platform Drift Protocol was compromised, with attackers withdrawing at least $280 million through a sophisticated social engineering attack involving delayed transaction mechanisms and compromised security council signatories[6].\n\nThe market-moving confirmations are primarily th",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the price of XRP be above $1.10 on April 14?",
+        "Will the price of Solana be above $100 on April 14?",
+        "Will the price of Solana be above $100 on April 15?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    }
+  ],
   "stats": {
     "enter": 0,
-    "alert": 0,
+    "alert": 14,
     "watch": 0,
-    "high_conf": 0
+    "high_conf": 2
   }
 }
