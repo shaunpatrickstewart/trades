@@ -1,15 +1,15 @@
 {
-  "last_scan": "2026-04-14T17:24:36.153198+00:00",
-  "scan_seconds": 64.6,
-  "markets_scanned": 80,
-  "open_positions": 41,
+  "last_scan": "2026-04-14T17:32:29.563999+00:00",
+  "scan_seconds": 42.6,
+  "markets_scanned": 75,
+  "open_positions": 36,
   "signals": [
     {
-      "id": "sig_201974",
-      "timestamp": "2026-04-14T17:23:45.785857+00:00",
+      "id": "sig_699676",
+      "timestamp": "2026-04-14T17:32:03.487850+00:00",
       "source": "PERPLEXITY",
-      "headline": "Trump Announces Two-Week Ceasefire with Iran | YES | HIGH confidence**",
-      "raw": "Trump Announces Two-Week Ceasefire with Iran | YES | HIGH confidence**  \nPresident Donald Trump confirmed a **two-week ceasefire** agreement with Iran on Tuesday, suspending U.S. bombing and attacks to allow negotiations toward a long-term peace deal, following talks influenced by Pakistani Prime Minister Shehbaz Sharif and ahead of an 8 p.m. ET deadline[1][3].  \nTrump posted on Truth Social that ",
+      "headline": "Trump Announces Two-Week Ceasefire with Iran Ahead of 8 PM ET Deadline | YES | HIGH confidence**[1]",
+      "raw": "Trump Announces Two-Week Ceasefire with Iran Ahead of 8 PM ET Deadline | YES | HIGH confidence**[1]\n\nPresident Donald Trump confirmed Tuesday evening that the U.S. reached a **two-week ceasefire agreement** with Iran, averting escalation just before an 8 p.m. ET deadline he had set.[1] This follows Iran's closure of the Strait of Hormuz\u2014disrupting 20% of global oil supply and spiking fuel prices\u2014a",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
@@ -22,11 +22,28 @@
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_251340",
-      "timestamp": "2026-04-14T17:24:35.151889+00:00",
+      "id": "sig_717165",
+      "timestamp": "2026-04-14T17:32:20.976372+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Solana Hits All-Time Record of 167 Million Monthly Token Holders with Alpenglow Upgrade Boosting Network Performance | Y",
+      "raw": "Solana Hits All-Time Record of 167 Million Monthly Token Holders with Alpenglow Upgrade Boosting Network Performance | YES | HIGH confidence**  \nAs of April 14, 2026, Solana achieved a record 167 million monthly token holders and 148 million daily non-vote transactions, driven by the anticipated **Alpenglow consensus upgrade** reducing transaction finality to 150 milliseconds.[1]  \nInstitutional h",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will the price of Bitcoin be greater than $82,000 on April 1",
+        "Will Solana reach $90 April 13-19?",
+        "Will the price of Bitcoin be between $72,000 and $74,000 on April 17?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_724739",
+      "timestamp": "2026-04-14T17:32:28.550602+00:00",
       "source": "PERPLEXITY",
       "headline": "Germany March 2026 Inflation Confirmed at 2",
-      "raw": "Germany March 2026 Inflation Confirmed at 2.7% | YES | HIGH confidence**  \nGermany's annual inflation rate rose to 2.7% in March 2026 from 1.9% in February, the highest since January 2024 (+2.9%), driven by a 7.2% surge in energy prices (fuel +20%, heating oil +44.4%) amid the Iran war; this final figure from the Federal Statistical Office on April 10 confirmed preliminary estimates.[1][2][3]  \nCo",
+      "raw": "Germany March 2026 Inflation Confirmed at 2.7% | YES | HIGH confidence**  \nGermany's annual inflation rate rose to 2.7% in March 2026 from 1.9% in February, confirming preliminary estimates and marking the highest since January 2024, driven by a 7.2% energy price surge linked to the Iran war.[1][2][4] This official confirmation from the Federal Statistical Office on April 10 exceeds prior forecast",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
@@ -39,70 +56,42 @@
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_225776",
-      "timestamp": "2026-04-14T17:24:09.587525+00:00",
+      "id": "sig_724745",
+      "timestamp": "2026-04-14T17:32:28.556665+00:00",
       "source": "PERPLEXITY",
-      "headline": "Based on the search results provided, here are the developing stories:",
-      "raw": "Based on the search results provided, here are the developing stories:",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_225782",
-      "timestamp": "2026-04-14T17:24:09.593199+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Trump Posts Jesus-Like Image, Feuds with Pope Leo XIV | NO clear resolution | MED confidence**",
-      "raw": "Trump Posts Jesus-Like Image, Feuds with Pope Leo XIV | NO clear resolution | MED confidence**\n\nPresident Trump posted an image depicting himself as a Christ-like savior on Truth Social, attacking Pope Leo XIV (the first American pope) over his calls for peace and criticism of attitudes fueling the Iran war[2]. Trump later claimed the image was meant to show him as \"a doctor, making people better\"",
-      "direction": "NO",
+      "headline": "South Korea March 2026 Inflation at 2",
+      "raw": "South Korea March 2026 Inflation at 2.2%, Below Forecasts | YES | HIGH confidence**  \nSouth Korea's annual inflation increased to 2.2% in March 2026 from 2.0% prior, but missed market expectations of 2.4%, signaling contained pressures amid global energy volatility.[3] This recent data aligns with the central bank's 2% target and may influence markets on Bank of Korea rate decisions.[3]",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
-        "Trump announces end of military operations against Iran by A",
-        "Trump announces US x Iran ceasefire end by April 21, 2026?",
-        "Will Trump announce that the US x Iran ceasefire has been br"
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "POLITICS"
+      "category": "ECONOMICS"
     },
     {
-      "id": "sig_225787",
-      "timestamp": "2026-04-14T17:24:09.598953+00:00",
+      "id": "sig_724751",
+      "timestamp": "2026-04-14T17:32:28.562267+00:00",
       "source": "PERPLEXITY",
-      "headline": "VP Vance Assigned Conflicting Foreign Missions, Undermined by Trump | NO - situation unresolved | HIGH confidence**",
-      "raw": "VP Vance Assigned Conflicting Foreign Missions, Undermined by Trump | NO - situation unresolved | HIGH confidence**\n\nTrump assigned Vice President JD Vance two simultaneous high-profile foreign policy tasks: securing Hungary's election for Viktor Orb\u00e1n in Budapest and negotiating a peace agreement with Iran in Islamabad[1]. However, Trump spent the same period at a UFC event in Miami with Secretar",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Trump announces end of military operations against Iran by A",
-        "Trump announces US x Iran ceasefire end by April 21, 2026?",
-        "Will Trump announce that the US x Iran ceasefire has been br"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_225793",
-      "timestamp": "2026-04-14T17:24:09.604539+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Market implications:** The Pope feud signals Trump's continued conflict with religious voters ahead of midterm voting, w",
-      "raw": "Market implications:** The Pope feud signals Trump's continued conflict with religious voters ahead of midterm voting, while the Vance situation reflects internal administration tensions that could affect foreign policy credibility.",
-      "direction": null,
+      "headline": "Germany 2026 GDP Growth Forecast Halved to 0",
+      "raw": "Germany 2026 GDP Growth Forecast Halved to 0.6% | YES | MED confidence**  \nLeading institutes cut Germany's 2026 GDP growth forecast to +0.6% from +1.3%, citing the Iran war's energy shock, while expecting +0.9% in 2027.[4] This downward revision, reported in early April, counters earlier optimism and could impact markets on European recession risks.[4]",
+      "direction": "YES",
       "confidence": 0.6,
-      "matched_markets": [],
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces US x Iran ceasefire end by April 21, 2026?",
+        "US x Iran permanent peace deal by April 22, 2026?"
+      ],
       "action": "WATCH",
       "x_link": null,
-      "category": "POLITICS"
+      "category": "ECONOMICS"
     }
   ],
   "stats": {
-    "enter": 2,
-    "alert": 3,
+    "enter": 3,
+    "alert": 1,
     "watch": 1,
-    "high_conf": 2
+    "high_conf": 3
   }
 }
