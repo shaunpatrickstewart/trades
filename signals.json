@@ -1,28 +1,97 @@
 {
-  "last_scan": "2026-04-14T18:15:41.197895+00:00",
-  "scan_seconds": 41.5,
+  "last_scan": "2026-04-14T18:18:38.669720+00:00",
+  "scan_seconds": 34.7,
   "markets_scanned": 118,
   "open_positions": 87,
   "signals": [
     {
-      "id": "sig_305325",
-      "timestamp": "2026-04-14T18:15:29.133178+00:00",
+      "id": "sig_472648",
+      "timestamp": "2026-04-14T18:18:16.456829+00:00",
       "source": "PERPLEXITY",
-      "headline": "Confidence: HIGH**\u2014Search results show no qualifying updates; district leans Democratic, Mejia favored by 17 points inte",
-      "raw": "Confidence: HIGH**\u2014Search results show no qualifying updates; district leans Democratic, Mejia favored by 17 points internally.[2]",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
+      "headline": "Trump Announces Iran Ceasefire Ahead of 8 p",
+      "raw": "Trump Announces Iran Ceasefire Ahead of 8 p.m. Deadline | YES | HIGH confidence**\n\nPresident Trump has announced a **ceasefire agreement with Iran**, contingent on Iran opening the Strait of Hormuz.[1] This represents a significant de-escalation after days of escalating threats, including Trump's warning that \"a whole civilization will die tonight\" if a deal wasn't reached.[1]",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces end of military operations against Iran by A",
+        "Trump announces US x Iran ceasefire end by April 21, 2026?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_480474",
+      "timestamp": "2026-04-14T18:18:24.282854+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Trump endorses Republican Steve Hilton for California governor on Truth Social, reordering the wide-open 2026 race",
+      "raw": "Trump endorses Republican Steve Hilton for California governor on Truth Social, reordering the wide-open 2026 race.** | YES | HIGH confidence[2]\n\nTrump's endorsement, posted on his social platform, backs Steve Hilton in the competitive California gubernatorial contest ahead of the 2026 midterms, potentially consolidating Republican support and influencing down-ballot dynamics[2]. This could shift ",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will Donald Trump post 60-79 Truth Social posts from April 1"
+      ],
+      "action": "ENTER",
       "x_link": null,
       "category": "POLITICS"
     },
     {
-      "id": "sig_316389",
-      "timestamp": "2026-04-14T18:15:40.197131+00:00",
+      "id": "sig_472684",
+      "timestamp": "2026-04-14T18:18:16.492058+00:00",
       "source": "PERPLEXITY",
-      "headline": "South Korea March 2026 Inflation Rises to 2",
-      "raw": "South Korea March 2026 Inflation Rises to 2.2% YoY, Below Forecasts | YES | HIGH**  \nSouth Korea's annual inflation rate increased to 2.2% in March 2026 from 2.0% in February, but fell short of market expectations of 2.4%, signaling contained price pressures amid global energy volatility.[1]  \nAlternative sources report a precise 2.16% YoY rate with 0.34% MoM growth, confirming the upward tick fro",
+      "headline": "Despite escalating rhetoric, Trump stated on Monday that Iranian officials were \"negotiating in good faith\" with the U",
+      "raw": "Despite escalating rhetoric, Trump stated on Monday that Iranian officials were \"negotiating in good faith\" with the U.S.[1]\n\nThis ceasefire announcement would likely move prediction markets related to oil prices (currently elevated due to the strait closure), U.S.-Iran conflict escalation, and broader Middle East stability.",
+      "direction": null,
+      "confidence": 0.78,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces end of military operations against Iran by A",
+        "Trump announces US x Iran ceasefire end by April 21, 2026?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_472657",
+      "timestamp": "2026-04-14T18:18:16.465907+00:00",
+      "source": "PERPLEXITY",
+      "headline": "The ceasefire announcement came ahead of an 8 p",
+      "raw": "The ceasefire announcement came ahead of an 8 p.m. ET deadline that Trump had imposed.[1]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Trump announces US x Iran ceasefire end by April 21, 2026?",
+        "Will Trump announce that the US x Iran ceasefire has been br"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_472666",
+      "timestamp": "2026-04-14T18:18:16.474699+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Trump had threatened to strike Iranian civilian infrastructure\u2014including bridges, power plants, and desalination plants\u2014",
+      "raw": "Trump had threatened to strike Iranian civilian infrastructure\u2014including bridges, power plants, and desalination plants\u2014if Iran did not reopen the Strait of Hormuz, which Iran had closed and which handles approximately 20 percent of the world's oil supply.[1]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Trump announces end of military operations against Iran by A",
+        "Trump announces US x Iran ceasefire end by April 21, 2026?",
+        "Will Trump announce that the US x Iran ceasefire has been br"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_493844",
+      "timestamp": "2026-04-14T18:18:37.652257+00:00",
+      "source": "PERPLEXITY",
+      "headline": "South Korea March 2026 CPI inflation rises to 2",
+      "raw": "South Korea March 2026 CPI inflation rises to 2.16% YoY | YES | HIGH confidence**  \nSouth Korea's headline annual CPI inflation increased to 2.16% in March 2026 from 2.00% in February, with month-on-month inflation at 0.34%, as officially reported by Statistics Korea.[2]  \nThis uptick, amid steady February core inflation at 2.3% and rising upside risks from oil prices and KRW weakness, prompted IN",
       "direction": "YES",
       "confidence": 0.6,
       "matched_markets": [
@@ -34,9 +103,9 @@
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 1,
+    "enter": 2,
+    "alert": 3,
     "watch": 1,
-    "high_conf": 0
+    "high_conf": 2
   }
 }
