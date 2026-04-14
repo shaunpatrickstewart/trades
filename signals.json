@@ -1,38 +1,81 @@
 {
-  "last_scan": "2026-04-14T04:05:19.650598+00:00",
-  "scan_seconds": 26.3,
-  "markets_scanned": 72,
-  "open_positions": 35,
+  "last_scan": "2026-04-14T04:08:14.611504+00:00",
+  "scan_seconds": 34.1,
+  "markets_scanned": 125,
+  "open_positions": 88,
   "signals": [
     {
-      "id": "sig_278062",
-      "timestamp": "2026-04-14T04:05:01.921885+00:00",
+      "id": "sig_461458",
+      "timestamp": "2026-04-14T04:08:05.317408+00:00",
       "source": "PERPLEXITY",
-      "headline": "US Blockade of Strait of Hormuz Begins; Iran Vows Response but Reaches Out for Deal Talks Amid Fragile Ceasefire | NO |",
-      "raw": "US Blockade of Strait of Hormuz Begins; Iran Vows Response but Reaches Out for Deal Talks Amid Fragile Ceasefire | NO | HIGH confidence**  \nPresident Trump ordered a US blockade of Iranian ports in the Strait of Hormuz, effective ~8 hours ago, to force Iran to fully open the strait and accept permanent ceasefire conditions after failed weekend talks.[1][3]  \nIran condemned the blockade as \"piracy\"",
-      "direction": "NO",
+      "headline": "XRP Records Largest Weekly Inflows ($119",
+      "raw": "XRP Records Largest Weekly Inflows ($119.6M) Unseating Bitcoin & Solana; U.S.-Iran Ceasefire Confirmed Boosting Rally | YES | HIGH confidence** [1][5]\n\nXRP saw $119.6 million in inflows last week per CoinShares\u2014the strongest since mid-December 2025\u2014outpacing Bitcoin's $107.3 million and Solana's $34.9 million, amid year-to-date XRP inflows reaching $159 million (7% of AUM).[1][5] This institutiona",
+      "direction": "YES",
       "confidence": 0.9,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Will Iran strike Iraq by April 30, 2026?",
+        "Trump announces US x Iran ceasefire end by April 21, 2026?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_469727",
+      "timestamp": "2026-04-14T04:08:13.586430+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Based on the most recent search results available, the latest confirmed inflation development for South Korea is:",
+      "raw": "Based on the most recent search results available, the latest confirmed inflation development for South Korea is:",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_448257",
+      "timestamp": "2026-04-14T04:07:52.116800+00:00",
+      "source": "PERPLEXITY",
+      "headline": "US-Iran Ceasefire Talks Collapse in Pakistan; Trump Announces Navy Blockade of Strait of Hormuz | NO | HIGH confidence**",
+      "raw": "US-Iran Ceasefire Talks Collapse in Pakistan; Trump Announces Navy Blockade of Strait of Hormuz | NO | HIGH confidence** [1][2][3]\n\nA two-week ceasefire remains in place until April 22 but is described as fragile amid failed negotiations over Iran's nuclear ambitions, with no deal reached and Trump escalating by ordering a US Navy blockade of ships entering or leaving the Strait of Hormuz starting",
+      "direction": "NO",
+      "confidence": 0.78,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
         "Trump announces end of military operations against Iran by A",
         "Will Iran strike Iraq by April 30, 2026?"
       ],
-      "action": "ENTER",
+      "action": "ALERT",
       "x_link": null,
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_294788",
-      "timestamp": "2026-04-14T04:05:18.647869+00:00",
+      "id": "sig_469748",
+      "timestamp": "2026-04-14T04:08:13.607640+00:00",
       "source": "PERPLEXITY",
-      "headline": "South Korea Bank of Korea Holds Interest Rate at 2",
-      "raw": "South Korea Bank of Korea Holds Interest Rate at 2.5% Amid Iran War Inflation Risks | NO | HIGH confidence**\n\nThe Bank of Korea's Monetary Policy Board unanimously decided on April 10, 2026, to keep its benchmark rate unchanged at 2.5% for the seventh consecutive month, citing surging oil prices from the Iran conflict, a weakening won (near 1,520 per USD), and inflation rising above the 2% target ",
-      "direction": "YES",
+      "headline": "Market-moving implications:**",
+      "raw": "Market-moving implications:**\n\nThe key confirmation is that **rate cuts are off the table**\u2014the BoK remains focused on managing upside inflation risks from surging global oil costs and currency weakness (won at ~1,520 per USD).[4] The Policy Board expects inflation to trend toward the \"mid to upper two-percent range\" this year.[4] This signals the easing cycle has ended and rates will remain at 2.",
+      "direction": null,
       "confidence": 0.78,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_469738",
+      "timestamp": "2026-04-14T04:08:13.597048+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Bank of Korea Holds Rate at 2",
+      "raw": "Bank of Korea Holds Rate at 2.5% Amid 2.2% Inflation | NO (to rate cuts) | HIGH confidence**\n\nAs of **April 10, 2026**, the Bank of Korea's Monetary Policy Board unanimously decided to keep its benchmark interest rate unchanged at 2.5% for the 7th consecutive month.[4] South Korea's annual inflation rose to **2.2% in March 2026**, up from 2.0% in the previous two months but below market forecasts ",
+      "direction": "YES",
+      "confidence": 0.65,
       "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Will Iran strike Iraq by April 30, 2026?",
-        "Trump announces US x Iran ceasefire end by April 21, 2026?"
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
       ],
       "action": "ALERT",
       "x_link": null,
@@ -41,8 +84,8 @@
   ],
   "stats": {
     "enter": 1,
-    "alert": 1,
+    "alert": 4,
     "watch": 0,
-    "high_conf": 1
+    "high_conf": 2
   }
 }
