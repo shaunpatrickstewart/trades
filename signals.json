@@ -1,90 +1,78 @@
 {
-  "last_scan": "2026-04-14T20:56:35.133789+00:00",
-  "scan_seconds": 33.2,
+  "last_scan": "2026-04-14T20:57:53.913863+00:00",
+  "scan_seconds": 49.1,
   "markets_scanned": 116,
   "open_positions": 82,
   "signals": [
     {
-      "id": "sig_958690",
-      "timestamp": "2026-04-14T20:56:22.489259+00:00",
+      "id": "sig_30473",
+      "timestamp": "2026-04-14T20:57:34.271066+00:00",
       "source": "PERPLEXITY",
-      "headline": "Based on the search results provided, I cannot identify a specific breaking news announcement that has just been confirm",
-      "raw": "Based on the search results provided, I cannot identify a specific breaking news announcement that has just been confirmed or resolved today that would move prediction markets.\n\nThe search results contain information about ongoing April 2026 special elections, including:",
-      "direction": null,
+      "headline": "Today (April 14):** U",
+      "raw": "Today (April 14):** U.S. has begun **blockading the Strait of Hormuz** and clearing mines, halting Iranian port traffic after talks stalled; Trump signals possible fresh talks in Pakistan \"over the next two days\" but warns of \"quick and brutal\" action[3][5][6]. No final agreement or de-escalation confirmed\u2014**risk of renewed conflict** could shift prediction markets on war/escalation odds[3][5].",
+      "direction": "NO",
       "confidence": 0.9,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces end of military operations against Iran by A",
+        "Trump announces US x Iran ceasefire end by April 21, 2026?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_35690",
+      "timestamp": "2026-04-14T20:57:39.488138+00:00",
+      "source": "PERPLEXITY",
+      "headline": "NJ-11 Special Election Set for April 16: Republican Joe Hathaway Runs Unopposed in Primary, Faces Democrat in Key Race t",
+      "raw": "NJ-11 Special Election Set for April 16: Republican Joe Hathaway Runs Unopposed in Primary, Faces Democrat in Key Race to Replace Gov. Mikie Sherrill** | NO | HIGH confidence[1][2]\n\nNo White House involvement, April announcements, or resolutions confirmed for JD Vance or Joe Hathaway; search results detail Hathaway's uncontested GOP primary (already past) and upcoming April 16 special election in ",
+      "direction": "NO",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will J.D. Vance win the 2028 Republican presidential nominat",
+        "Trump announces US x Iran ceasefire end by April 21, 2026?",
+        "Will Joe Hathaway win the NJ-11 special election?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_43688",
+      "timestamp": "2026-04-14T20:57:47.486584+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Solana (SOL) Hits Record 167M Monthly Token Holders & 148M Daily Transactions on April 14, 2026, Fueled by Alpenglow Upg",
+      "raw": "Solana (SOL) Hits Record 167M Monthly Token Holders & 148M Daily Transactions on April 14, 2026, Fueled by Alpenglow Upgrade Slashing Finality to 150ms | YES | HIGH confidence**[1]\n\nSolana's network achieved these all-time highs today, with the Alpenglow consensus upgrade confirmed as a key driver reducing transaction finality from 12 seconds to 150 milliseconds, alongside robust institutional hol",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will the price of Solana be between $60 and $70 on April 15?",
+        "Will the price of XRP be above $1.70 on April 15?",
+        "Will the price of Solana be above $100 on April 15?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_30481",
+      "timestamp": "2026-04-14T20:57:34.279308+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Confidence: HIGH** (consistent timeline across CBS live updates and recent video reports)[1][2][3][4][5][6]",
+      "raw": "Confidence: HIGH** (consistent timeline across CBS live updates and recent video reports)[1][2][3][4][5][6].",
+      "direction": null,
+      "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_958700",
-      "timestamp": "2026-04-14T20:56:22.499155+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Joe Hathaway's NJ-11 race**: A Republican mayoral candidate running in New Jersey's 11th Congressional District specia",
-      "raw": "**Joe Hathaway's NJ-11 race**: A Republican mayoral candidate running in New Jersey's 11th Congressional District special election against Democrat Analilia Mejia, who is backed by Bernie Sanders and AOC[3]. This appears to be an upcoming election rather than a resolved outcome.",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Joe Hathaway win the NJ-11 special election?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_958709",
-      "timestamp": "2026-04-14T20:56:22.508280+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Vance and Rubio positioning**: An April 1st article discussing Vice President JD Vance and Secretary of State Marco Ru",
-      "raw": "**Vance and Rubio positioning**: An April 1st article discussing Vice President JD Vance and Secretary of State Marco Rubio's differing stances on an Iran war, with implications for potential 2028 presidential ambitions[2]. This is commentary on their roles rather than a new announcement.",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces US x Iran ceasefire end by April 21, 2026?",
-        "US x Iran permanent peace deal by April 22, 2026?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_958717",
-      "timestamp": "2026-04-14T20:56:22.516986+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Georgia runoff**: A Trump-backed candidate facing a Democratic opponent in a special election in a district formerly h",
-      "raw": "**Georgia runoff**: A Trump-backed candidate facing a Democratic opponent in a special election in a district formerly held by Marjorie Taylor Greene[3].\n\nNone of these results describe a specific outcome, confirmation, or announcement from today (April 14, 2026) that would constitute breaking news moving prediction markets. To provide the requested format (HEADLINE | YES or NO | confidence level)",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Trump announces US x Iran ceasefire end by April 21, 2026?",
-        "Will Trump say \"Discombobulator\" or \"Discombobulated\" in April?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_970334",
-      "timestamp": "2026-04-14T20:56:34.133193+00:00",
-      "source": "PERPLEXITY",
-      "headline": "South Korea March 2026 Inflation at 2",
-      "raw": "South Korea March 2026 Inflation at 2.2% (up from 2.0%, below 2.4% forecast) | NO | HIGH confidence**  \nSouth Korea's annual inflation rate increased to 2.2% in March 2026 from 2.0% in January and February, but fell short of market expectations of 2.4%, signaling contained price pressures amid global energy volatility.[1]  \nAlternative sources report slightly lower figures of 2.16% for March, conf",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
+      "category": "GEOPOLITICS"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 5,
+    "enter": 3,
+    "alert": 1,
     "watch": 0,
-    "high_conf": 1
+    "high_conf": 3
   }
 }
