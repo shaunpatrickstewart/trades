@@ -1,15 +1,15 @@
 {
-  "last_scan": "2026-04-14T19:40:46.211061+00:00",
-  "scan_seconds": 48.9,
-  "markets_scanned": 62,
-  "open_positions": 33,
+  "last_scan": "2026-04-14T19:41:38.169362+00:00",
+  "scan_seconds": 39.7,
+  "markets_scanned": 118,
+  "open_positions": 89,
   "signals": [
     {
-      "id": "sig_397753",
-      "timestamp": "2026-04-14T19:40:21.556173+00:00",
+      "id": "sig_452709",
+      "timestamp": "2026-04-14T19:41:16.512471+00:00",
       "source": "PERPLEXITY",
-      "headline": "TRUMP ANNOUNCES TWO-WEEK CEASEFIRE WITH IRAN AHEAD OF 8 P",
-      "raw": "TRUMP ANNOUNCES TWO-WEEK CEASEFIRE WITH IRAN AHEAD OF 8 P.M. DEADLINE | YES | HIGH confidence**\n\nPresident Trump announced a two-week ceasefire agreement with Iran on Tuesday evening, just before an 8 p.m. ET deadline.[1] This came after Trump had threatened Iran with catastrophic military action earlier that day, including strikes on civilian infrastructure like bridges, power plants, and desalin",
+      "headline": "US and Iran Weighing Negotiations to Extend Two-Week Ceasefire Before April 21 Expiration Amid Trump's Naval Blockade |",
+      "raw": "US and Iran Weighing Negotiations to Extend Two-Week Ceasefire Before April 21 Expiration Amid Trump's Naval Blockade | YES | MED confidence**[1][3]\n\nA two-week ceasefire between the US, Israel, and Iran\u2014set to expire around April 21\u2014remains in effect, with sources confirming both sides are considering fresh talks for a longer-term deal, including proposals for suspending Iranian nuclear activitie",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
@@ -22,58 +22,27 @@
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_409176",
-      "timestamp": "2026-04-14T19:40:32.979109+00:00",
+      "id": "sig_473344",
+      "timestamp": "2026-04-14T19:41:37.148008+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot identify any breaking news or recent announcements from the search results provided",
-      "raw": "I cannot identify any breaking news or recent announcements from the search results provided. The sources are from April 10-13, 2026, and reflect prediction market odds showing J.D. Vance leading the 2028 Republican nominee race at 37-42% implied probability, with Marco Rubio trailing at 20-21%[1][2][4].\n\nThe search results do not contain information about a specific confirmed announcement, resolu",
-      "direction": null,
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will J.D. Vance win the 2028 Republican presidential nominat",
-        "Trump announces US x Iran ceasefire end by April 21, 2026?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_415272",
-      "timestamp": "2026-04-14T19:40:39.075390+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Solana (SOL) Surges 10% on Record 167 Million Monthly Token Holders and Alpenglow Upgrade Progress to 150ms Finality** |",
-      "raw": "Solana (SOL) Surges 10% on Record 167 Million Monthly Token Holders and Alpenglow Upgrade Progress to 150ms Finality** | YES | HIGH[1]\n\nSOL hit an all-time high of 167 million monthly token holders with 148 million daily non-vote transactions as of April 14, 2026, driving the price surge amid Alpenglow consensus upgrade advancements targeting 150ms transaction finality from 12 seconds[1]. Firedanc",
+      "headline": "South Korea March 2026 Inflation at 2",
+      "raw": "South Korea March 2026 Inflation at 2.2% YoY, Below 2.4% Forecast | NO | HIGH confidence**  \nSouth Korea's annual inflation rate increased to 2.2% in March 2026 from 2.0% prior, but undershot market expectations of 2.4%, with core inflation easing to 2.2% from 2.3%.[1][2] Monthly CPI rose 0.3%, weaker than the 0.6% forecast, amid oil price surges from the Iran conflict, though fuel caps were intro",
       "direction": "YES",
-      "confidence": 0.78,
-      "matched_markets": [
-        "Solana Up or Down - April 15, 4:40AM-4:45AM ET"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_421406",
-      "timestamp": "2026-04-14T19:40:45.209849+00:00",
-      "source": "PERPLEXITY",
-      "headline": "SOUTH KOREA INFLATION RISES TO 2",
-      "raw": "SOUTH KOREA INFLATION RISES TO 2.2% IN MARCH 2026, ABOVE BOK TARGET | NO | MED confidence**\n\nSouth Korea's annual inflation rate increased to 2.2% in March 2026 from 2.0% in the prior two months (January and February), though below market forecasts of 2.4%[2]. This uptick, amid rising oil prices from global tensions like the Iran conflict and a weak won, exceeds the Bank of Korea's 2% target and f",
-      "direction": "NO",
-      "confidence": 0.6,
+      "confidence": 0.9,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
         "Trump announces US x Iran ceasefire end by April 21, 2026?",
         "US x Iran permanent peace deal by April 22, 2026?"
       ],
-      "action": "WATCH",
+      "action": "ENTER",
       "x_link": null,
       "category": "ECONOMICS"
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 2,
-    "watch": 1,
+    "enter": 2,
+    "alert": 0,
+    "watch": 0,
     "high_conf": 2
   }
 }
