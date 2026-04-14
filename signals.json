@@ -1,102 +1,65 @@
 {
-  "last_scan": "2026-04-14T21:09:38.809674+00:00",
-  "scan_seconds": 31.9,
-  "markets_scanned": 119,
+  "last_scan": "2026-04-14T21:10:37.527212+00:00",
+  "scan_seconds": 28.9,
+  "markets_scanned": 120,
   "open_positions": 84,
   "signals": [
     {
-      "id": "sig_730255",
-      "timestamp": "2026-04-14T21:09:14.053235+00:00",
+      "id": "sig_807082",
+      "timestamp": "2026-04-14T21:10:30.880180+00:00",
       "source": "PERPLEXITY",
-      "headline": "US and Iran Agree to 2-Week Ceasefire as Trump Deescalates War Threats; Talks Set for Friday in Islamabad** | **YES** |",
-      "raw": "US and Iran Agree to 2-Week Ceasefire as Trump Deescalates War Threats; Talks Set for Friday in Islamabad** | **YES** | **HIGH** confidence[1][2]\n\nTrump pulled back from strikes on Iran hours before his deadline, agreeing to a **2-week ceasefire** effective immediately, brokered with Pakistan's help and based on Iran's 10-point plan[1][2]. This includes Iran coordinating safe passage through the *",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces end of military operations against Iran by A",
-        "Trump announces US x Iran ceasefire end by April 21, 2026?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_745860",
-      "timestamp": "2026-04-14T21:09:29.658356+00:00",
-      "source": "PERPLEXITY",
-      "headline": "SOLANA ANNOUNCES INTEGRATION OF XRP LEDGER FOR BRIDGING AND DEFI APPLICATIONS | YES | LOW confidence**",
-      "raw": "SOLANA ANNOUNCES INTEGRATION OF XRP LEDGER FOR BRIDGING AND DEFI APPLICATIONS | YES | LOW confidence**  \nA YouTube video claims breaking news that Solana has officially announced using Ripple's XRP and XRP Ledger in its ecosystem, including wrapped XRP as a Solana DeFi-ready token redeemable 1:1 on the XRP Ledger, citing a Solana X post praising XRP's liquidity and utility paired with Solana's per",
+      "headline": "Solana Hits Record 167 Million Monthly Token Holders and 148 Million Daily Transactions on April 14, 2026, Boosted by Al",
+      "raw": "Solana Hits Record 167 Million Monthly Token Holders and 148 Million Daily Transactions on April 14, 2026, Boosted by Alpenglow Upgrade** | YES | HIGH  \nSolana's network achieved an all-time high of 167 million monthly token holders and 148 million daily non-vote transactions as of April 14, 2026, driven by the Alpenglow consensus upgrade reducing transaction finality to 150 milliseconds from 12 s",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
         "Will the price of Solana be between $60 and $70 on April 15?",
-        "Will the price of XRP be above $1.70 on April 15?",
-        "Will the price of Solana be above $100 on April 15?"
+        "Will the price of Solana be above $100 on April 15?",
+        "Will the price of Solana be above $100 on April 16?"
       ],
       "action": "ENTER",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_753983",
-      "timestamp": "2026-04-14T21:09:37.781663+00:00",
+      "id": "sig_812727",
+      "timestamp": "2026-04-14T21:10:36.526010+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot provide the breaking news format you've requested because the search results do not contain any announcements o",
-      "raw": "I cannot provide the breaking news format you've requested because the search results do not contain any announcements or confirmations from today (April 14, 2026). The most recent data in these results is from **March 2026**, when South Korea's annual inflation rose to 2.2%[1].\n\nThe search results show that:",
-      "direction": null,
-      "confidence": 0.65,
+      "headline": "Bank of Korea Holds Key Interest Rate at 2",
+      "raw": "Bank of Korea Holds Key Interest Rate at 2.5% for 7th Consecutive Time Amid Stable Inflation at 2.2% YoY in March 2026 | NO | HIGH confidence** [2][3][6]\n\nSouth Korea's annual inflation rate increased slightly to 2.2% in March 2026 from 2.0% in prior months, below market forecasts of 2.4% and aligning with the central bank's 2% target amid contained pressures before Middle East volatility.[2] The ",
+      "direction": "NO",
+      "confidence": 0.9,
       "matched_markets": [
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces US x Iran ceasefire end by April 21, 2026?",
+        "US x Iran permanent peace deal by April 22, 2026?"
       ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_753992",
-      "timestamp": "2026-04-14T21:09:37.790438+00:00",
+      "id": "sig_794843",
+      "timestamp": "2026-04-14T21:10:18.641706+00:00",
       "source": "PERPLEXITY",
-      "headline": "**March 2026**: Inflation reached 2",
-      "raw": "**March 2026**: Inflation reached 2.2%, up from 2.0% in January-February but below the 2.4% market forecast[1]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
+      "headline": "US-Iran Ceasefire Talks Collapse; Trump Launches Naval Blockade of Strait of Hormuz | NO | HIGH confidence**",
+      "raw": "US-Iran Ceasefire Talks Collapse; Trump Launches Naval Blockade of Strait of Hormuz | NO | HIGH confidence**  \nUS-Iran negotiations in Pakistan ended without agreement on Sunday, with no path forward on ending the war, primarily due to Iran's refusal to abandon nuclear ambitions\u2014Trump demands \"all or none.\"[1][2]  \nTrump announced a US Navy blockade of the Strait of Hormuz to pressure Iran by curb",
+      "direction": "NO",
+      "confidence": 0.6,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces end of military operations against Iran by A",
+        "Trump announces US x Iran ceasefire end by April 21, 2026?"
+      ],
+      "action": "WATCH",
       "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_754001",
-      "timestamp": "2026-04-14T21:09:37.799632+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Current policy rate**: Held steady at 2",
-      "raw": "**Current policy rate**: Held steady at 2.5% with the Bank of Korea removing language about further easing[1]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_754010",
-      "timestamp": "2026-04-14T21:09:37.808977+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Forward guidance**: The BOK raised its 2026 inflation outlook to 2",
-      "raw": "**Forward guidance**: The BOK raised its 2026 inflation outlook to 2.2% and expects inflation to \"exceed considerably\" its February forecast due to Middle East tensions affecting oil prices and won weakness[5]\n\nTo identify market-moving announcements happening \"RIGHT NOW,\" I would need search results from today's news feeds, central bank statements, or official statistics releases. The available r",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
+      "category": "GEOPOLITICS"
     }
   ],
   "stats": {
     "enter": 2,
-    "alert": 4,
-    "watch": 0,
+    "alert": 0,
+    "watch": 1,
     "high_conf": 2
   }
 }
