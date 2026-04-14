@@ -8,9 +8,9 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 130 categorical arb opportunities found\nScanned 3000 events (1940 multi-outcome) at 2026-04-14 22:06 UTC\nBest: 10.0% profit on 'How many Gold Cards will Trump sell in 2026?' \u2014 buy YES on all 9 outcomes (sum=0.9)\nStrategy: Buy YES on all 9 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 10.0% on 'GA-13 Democratic Primary Winner'",
+      "result": "LIVE \u2014 132 categorical arb opportunities found\nScanned 3000 events (1939 multi-outcome) at 2026-04-14 22:07 UTC\nBest: 10.0% profit on 'How many Gold Cards will Trump sell in 2026?' \u2014 buy YES on all 9 outcomes (sum=0.9)\nStrategy: Buy YES on all 9 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 9.6% on 'MLS Cup Winner 2026'",
       "priority": "HIGH",
-      "last_scan": "2026-04-14 22:06 UTC",
+      "last_scan": "2026-04-14 22:07 UTC",
       "opportunities": [
         {
           "event_title": "How many Gold Cards will Trump sell in 2026?",
@@ -86,65 +86,6 @@
           ],
           "url": "https://polymarket.com/event/how-many-gold-cards-will-trump-sell-in-2026",
           "strategy": "Buy YES on all 9 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
-        },
-        {
-          "event_title": "GA-13 Democratic Primary Winner",
-          "event_slug": "ga-13-democratic-primary-winner",
-          "yes_sum": 0.9,
-          "profit_pct": 10.0,
-          "profit_per_dollar_pct": 11.11,
-          "num_outcomes": 3,
-          "outcomes": [
-            {
-              "market_id": "1653180",
-              "slug": "will-jasmine-clark-be-the-democratic-nominee-for-ga-13",
-              "question": "Will Jasmine Clark be the Democratic nominee for GA-13?",
-              "yes_price": 0.38,
-              "volume": 2978
-            },
-            {
-              "market_id": "1653178",
-              "slug": "will-david-scott-be-the-democratic-nominee-for-ga-13",
-              "question": "Will David Scott be the Democratic nominee for GA-13?",
-              "yes_price": 0.35,
-              "volume": 1345
-            },
-            {
-              "market_id": "1653179",
-              "slug": "will-everton-blair-jr-be-the-democratic-nominee-for-ga-13",
-              "question": "Will Everton Blair Jr. be the Democratic nominee for GA-13?",
-              "yes_price": 0.17,
-              "volume": 1618
-            }
-          ],
-          "url": "https://polymarket.com/event/ga-13-democratic-primary-winner",
-          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
-        },
-        {
-          "event_title": "Rhode Island Governor Republican Primary Winner",
-          "event_slug": "rhode-island-governor-republican-primary-winner",
-          "yes_sum": 0.9005,
-          "profit_pct": 9.95,
-          "profit_per_dollar_pct": 11.05,
-          "num_outcomes": 2,
-          "outcomes": [
-            {
-              "market_id": "906891",
-              "slug": "will-aaron-guckian-win-the-2026-rhode-island-governor-republican-primary-election",
-              "question": "Will Aaron Guckian win the 2026 Rhode Island Governor Republican primary electio",
-              "yes_price": 0.6255,
-              "volume": 2384
-            },
-            {
-              "market_id": "906892",
-              "slug": "will-elaine-pelino-win-the-2026-rhode-island-governor-republican-primary-election",
-              "question": "Will Elaine Pelino win the 2026 Rhode Island Governor Republican primary electio",
-              "yes_price": 0.275,
-              "volume": 1796
-            }
-          ],
-          "url": "https://polymarket.com/event/rhode-island-governor-republican-primary-winner",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9005. One wins $1.00. Profit: $0.0995 (9.95%)"
         },
         {
           "event_title": "MLS Cup Winner 2026",
@@ -487,6 +428,60 @@
           "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9060. One wins $1.00. Profit: $0.0940 (9.40%)"
         },
         {
+          "event_title": "Precipitation in Seattle in April?",
+          "event_slug": "precipitation-in-seattle-in-april",
+          "yes_sum": 0.909,
+          "profit_pct": 9.1,
+          "profit_per_dollar_pct": 10.01,
+          "num_outcomes": 6,
+          "outcomes": [
+            {
+              "market_id": "1706784",
+              "slug": "will-seattle-have-between-3pt5-and-4-inches-of-precipitation-in-april",
+              "question": "Will Seattle have between 3.5 and 4 inches of precipitation in April?",
+              "yes_price": 0.237,
+              "volume": 1016
+            },
+            {
+              "market_id": "1706781",
+              "slug": "will-seattle-have-less-than-2pt5-inches-of-precipitation-in-april",
+              "question": "Will Seattle have less than 2.5 inches of precipitation in April?",
+              "yes_price": 0.225,
+              "volume": 12201
+            },
+            {
+              "market_id": "1706783",
+              "slug": "will-seattle-have-between-3-and-3pt5-inches-of-precipitation-in-april",
+              "question": "Will Seattle have between 3 and 3.5 inches of precipitation in April?",
+              "yes_price": 0.195,
+              "volume": 18622
+            },
+            {
+              "market_id": "1706782",
+              "slug": "will-seattle-have-between-2pt5-and-3-inches-of-precipitation-in-april",
+              "question": "Will Seattle have between 2.5 and 3 inches of precipitation in April?",
+              "yes_price": 0.14,
+              "volume": 8045
+            },
+            {
+              "market_id": "1706785",
+              "slug": "will-seattle-have-between-4-and-4pt5-inches-of-precipitation-in-april",
+              "question": "Will Seattle have between 4 and 4.5 inches of precipitation in April?",
+              "yes_price": 0.097,
+              "volume": 1037
+            },
+            {
+              "market_id": "1706786",
+              "slug": "will-seattle-have-between-4pt5-and-5-inches-of-precipitation-in-april",
+              "question": "Will Seattle have between 4.5 and 5 inches of precipitation in April?",
+              "yes_price": 0.015,
+              "volume": 1061
+            }
+          ],
+          "url": "https://polymarket.com/event/precipitation-in-seattle-in-april",
+          "strategy": "Buy YES on all 6 outcomes. Total cost: $0.9090. One wins $1.00. Profit: $0.0910 (9.10%)"
+        },
+        {
           "event_title": "What day will the USD.AI token launch be?",
           "event_slug": "what-day-will-the-usdai-token-launch-be",
           "yes_sum": 0.911,
@@ -663,15 +658,69 @@
           ],
           "url": "https://polymarket.com/event/precipitation-in-nyc-in-april",
           "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9125. One wins $1.00. Profit: $0.0875 (8.75%)"
+        },
+        {
+          "event_title": "Which CEOs will be out before 2027?",
+          "event_slug": "which-ceos-will-be-out-before-2027",
+          "yes_sum": 0.913,
+          "profit_pct": 8.7,
+          "profit_per_dollar_pct": 9.53,
+          "num_outcomes": 6,
+          "outcomes": [
+            {
+              "market_id": "687555",
+              "slug": "tim-cook-out-as-apple-ceo-before-2027",
+              "question": "Tim Cook out as Apple CEO before 2027?",
+              "yes_price": 0.235,
+              "volume": 334083
+            },
+            {
+              "market_id": "687559",
+              "slug": "sam-altman-out-as-openai-ceo-before-2027",
+              "question": "Sam Altman out as OpenAI CEO before 2027?",
+              "yes_price": 0.23,
+              "volume": 73263
+            },
+            {
+              "market_id": "687557",
+              "slug": "andy-jassy-out-as-amazon-ceo-before-2027",
+              "question": "Andy Jassy out as Amazon CEO before 2027?",
+              "yes_price": 0.14,
+              "volume": 25142
+            },
+            {
+              "market_id": "687554",
+              "slug": "sundar-pichai-out-as-google-ceo-before-2027",
+              "question": "Sundar Pichai out as Google CEO before 2027?",
+              "yes_price": 0.13,
+              "volume": 35678
+            },
+            {
+              "market_id": "687558",
+              "slug": "brian-armstrong-out-as-coinbase-ceo-before-2027",
+              "question": "Brian Armstrong out as Coinbase CEO before 2027?",
+              "yes_price": 0.115,
+              "volume": 81142
+            },
+            {
+              "market_id": "687556",
+              "slug": "dan-clancy-out-as-twitch-ceo-before-2027",
+              "question": "Dan Clancy out as Twitch CEO before 2027?",
+              "yes_price": 0.063,
+              "volume": 38664
+            }
+          ],
+          "url": "https://polymarket.com/event/which-ceos-will-be-out-before-2027",
+          "strategy": "Buy YES on all 6 outcomes. Total cost: $0.9130. One wins $1.00. Profit: $0.0870 (8.70%)"
         }
       ],
       "stats": {
         "total_events": 3000,
-        "checked_multi_outcome": 1940,
+        "checked_multi_outcome": 1939,
         "skipped_single_outcome": 598,
-        "opportunities_found": 130,
+        "opportunities_found": 132,
         "best_profit_pct": 10.0,
-        "scanned_at": "2026-04-14 22:06 UTC"
+        "scanned_at": "2026-04-14 22:07 UTC"
       }
     },
     {
