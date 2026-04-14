@@ -1,30 +1,64 @@
 {
-  "last_scan": "2026-04-14T02:48:27.845010+00:00",
-  "scan_seconds": 27.1,
-  "markets_scanned": 76,
+  "last_scan": "2026-04-14T02:51:21.933580+00:00",
+  "scan_seconds": 29.0,
+  "markets_scanned": 78,
   "open_positions": 35,
   "signals": [
     {
-      "id": "sig_669426",
-      "timestamp": "2026-04-14T02:48:13.290329+00:00",
+      "id": "sig_836545",
+      "timestamp": "2026-04-14T02:51:00.409854+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot provide the breaking news update you're requesting because the search results provided are significantly outdat",
-      "raw": "I cannot provide the breaking news update you're requesting because the search results provided are significantly outdated relative to the current date of April 14, 2026.\n\nThe most recent search result is from July 15, 2025, with other articles from October 2025 and February 2025. None of these results contain news from April 2026 or represent current developments that would \"just be confirmed, an",
-      "direction": "YES",
+      "headline": "Trump Orders Naval Blockade of Iran After Failed US-Iran Ceasefire Talks | NO | HIGH confidence**",
+      "raw": "Trump Orders Naval Blockade of Iran After Failed US-Iran Ceasefire Talks | NO | HIGH confidence**\n\nUS-Iran negotiations in Islamabad collapsed on April 12, 2026, with no agreement on preventing Iran's nuclear development, as confirmed by Vice President JD Vance[1]. President Trump responded by ordering a naval blockade of Iranian ports within hours, aiming to counter Iran's blockade of the Strait ",
+      "direction": "NO",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces end of military operations against Iran by A",
+        "Will Iran strike Iraq by April 30, 2026?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_857026",
+      "timestamp": "2026-04-14T02:51:20.890609+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Key confirmed developments:**",
+      "raw": "Key confirmed developments:**",
+      "direction": null,
       "confidence": 0.9,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "POLITICS"
+      "category": "ECONOMICS"
     },
     {
-      "id": "sig_682935",
-      "timestamp": "2026-04-14T02:48:26.799097+00:00",
+      "id": "sig_857021",
+      "timestamp": "2026-04-14T02:51:20.885339+00:00",
       "source": "PERPLEXITY",
-      "headline": "Based on the most recent data available in these search results, the latest confirmed inflation news from South Korea is",
-      "raw": "Based on the most recent data available in these search results, the latest confirmed inflation news from South Korea is:",
-      "direction": null,
-      "confidence": 0.9,
+      "headline": "BANK OF KOREA HOLDS RATES AT 2",
+      "raw": "BANK OF KOREA HOLDS RATES AT 2.5% AMID IRAN WAR INFLATION FEARS | NO rate change | HIGH confidence**\n\nThe **Bank of Korea kept its benchmark interest rate steady at 2.5%** on April 10, 2026, for the 7th consecutive month, with a unanimous decision among board members[5]. This decision maintains the status quo despite mounting inflationary pressures from the Iran conflict.",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Will Iran strike Iraq by April 30, 2026?",
+        "Trump announces US x Iran ceasefire end by April 21, 2026?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_857031",
+      "timestamp": "2026-04-14T02:51:20.895908+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**South Korea's March inflation rose to 2",
+      "raw": "**South Korea's March inflation rose to 2.2% year-on-year**, up from 2.0% in February but below the forecasted 2.4%[1][2]. Core inflation (excluding food and energy) declined to 2.2% in March from 2.3% in February[2].",
+      "direction": "YES",
+      "confidence": 0.65,
       "matched_markets": [
         "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
       ],
@@ -33,233 +67,24 @@
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_682940",
-      "timestamp": "2026-04-14T02:48:26.804479+00:00",
+      "id": "sig_857037",
+      "timestamp": "2026-04-14T02:51:20.901065+00:00",
       "source": "PERPLEXITY",
-      "headline": "BANK OF KOREA HOLDS RATE STEADY AS INFLATION RISES ABOVE TARGET AMID OIL PRICE SURGE | NO | HIGH confidence**",
-      "raw": "BANK OF KOREA HOLDS RATE STEADY AS INFLATION RISES ABOVE TARGET AMID OIL PRICE SURGE | NO | HIGH confidence**\n\nThe most recent announcement comes from April 10, 2026, when the **Bank of Korea's Monetary Policy Board decided to keep its benchmark interest rate unchanged at 2.5% for the 7th consecutive month**[6]. This is the breaking development most likely to move prediction markets.",
-      "direction": "NO",
-      "confidence": 0.78,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_682957",
-      "timestamp": "2026-04-14T02:48:26.821166+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Inflation is now above the BOK's 2% target**: Consumer prices have climbed above the central bank's two-percent target",
-      "raw": "**Inflation is now above the BOK's 2% target**: Consumer prices have climbed above the central bank's two-percent target, driven largely by surging oil costs[6]. The Policy Board expects inflation to rise to the mid to upper two-percent range[6].",
-      "direction": "YES",
-      "confidence": 0.78,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_682973",
-      "timestamp": "2026-04-14T02:48:26.837287+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**External risk acknowledged**: The BOK cited external risk factors (likely the Iran conflict mentioned in earlier repor",
-      "raw": "**External risk acknowledged**: The BOK cited external risk factors (likely the Iran conflict mentioned in earlier reports) as justification for maintaining the rate hold despite rising inflation pressures[6].",
-      "direction": null,
-      "confidence": 0.78,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_663588",
-      "timestamp": "2026-04-14T02:48:07.452310+00:00",
-      "source": "PERPLEXITY",
-      "headline": "US Navy Blockade of Iran Ordered After Failed Negotiations** | YES | HIGH confidence",
-      "raw": "US Navy Blockade of Iran Ordered After Failed Negotiations** | YES | HIGH confidence\n\nPresident Trump has ordered the US Navy to impose a **blockade on Iran's ports in the Strait of Hormuz**, effective immediately as of April 13, 2026, following the collapse of US-Iran negotiations over the weekend[1]. The talks broke down over Iran's refusal to renounce its nuclear weapons program, with Vice Pres",
+      "headline": "**The BOK now projects inflation to \"exceed considerably\" its February forecast of 2",
+      "raw": "**The BOK now projects inflation to \"exceed considerably\" its February forecast of 2.2%** due to higher crude oil prices and won weakness, which have increased import costs[6]. The board expects inflation to reach the \"mid to upper two-percent range\"[5].",
       "direction": "YES",
       "confidence": 0.65,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces end of military operations against Iran by A",
-        "Will Iran strike Iraq by April 30, 2026?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_669433",
-      "timestamp": "2026-04-14T02:48:13.297941+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Whether Elon Musk has testified or will testify before Congress",
-      "raw": "Whether Elon Musk has testified or will testify before Congress",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Elon Musk Testify to Congress about Epstein?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_669439",
-      "timestamp": "2026-04-14T02:48:13.303074+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Any recent Congressional actions or votes on this matter",
-      "raw": "Any recent Congressional actions or votes on this matter",
-      "direction": null,
-      "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "POLITICS"
+      "category": "ECONOMICS"
     },
     {
-      "id": "sig_669444",
-      "timestamp": "2026-04-14T02:48:13.308270+00:00",
+      "id": "sig_857042",
+      "timestamp": "2026-04-14T02:51:20.906368+00:00",
       "source": "PERPLEXITY",
-      "headline": "Updates on the Epstein files controversy as it relates to these figures",
-      "raw": "Updates on the Epstein files controversy as it relates to these figures\n\nPlease provide more recent search results to answer your query about current breaking news.",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_675875",
-      "timestamp": "2026-04-14T02:48:19.739503+00:00",
-      "source": "PERPLEXITY",
-      "headline": "I cannot identify any breaking news or recent announcements in the provided search results that would directly move pred",
-      "raw": "I cannot identify any breaking news or recent announcements in the provided search results that would directly move prediction markets as of April 14, 2026, 2 AM UTC.\n\nThe search results contain:",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_675880",
-      "timestamp": "2026-04-14T02:48:19.744813+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Price predictions from Polymarket** (prediction market odds)[1][5] showing expectations for Bitcoin, Ethereum, and XRP",
-      "raw": "**Price predictions from Polymarket** (prediction market odds)[1][5] showing expectations for Bitcoin, Ethereum, and XRP throughout April, but these reflect ongoing market sentiment rather than breaking news.",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the price of Ethereum be between $2,400 and $2,500 on April 14?",
-        "XRP Up or Down - April 14, 12:55AM-1:00AM ET",
-        "Will Bitcoin outperform Gold in April 2026?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_675886",
-      "timestamp": "2026-04-14T02:48:19.750185+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Technical analysis from April 10-13**[2][3][4] describing support levels and price movements, but no confirmed announc",
-      "raw": "**Technical analysis from April 10-13**[2][3][4] describing support levels and price movements, but no confirmed announcements or resolved events.",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_675891",
-      "timestamp": "2026-04-14T02:48:19.755209+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**YouTube commentary**[6][7] offering analysis and price targets, not breaking news events",
-      "raw": "**YouTube commentary**[6][7] offering analysis and price targets, not breaking news events.\n\nTo identify market-moving announcements, you would need to check:",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_675896",
-      "timestamp": "2026-04-14T02:48:19.760120+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Official regulatory statements or policy changes",
-      "raw": "Official regulatory statements or policy changes",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_675901",
-      "timestamp": "2026-04-14T02:48:19.765817+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Major exchange announcements",
-      "raw": "Major exchange announcements",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_675909",
-      "timestamp": "2026-04-14T02:48:19.773503+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Significant partnerships or technical upgrades",
-      "raw": "Significant partnerships or technical upgrades",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_675917",
-      "timestamp": "2026-04-14T02:48:19.781027+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Macroeconomic developments affecting crypto markets",
-      "raw": "Macroeconomic developments affecting crypto markets\n\nThe search results do mention that \"Trump's harsh statements against Iran\" previously affected prices[1], but this appears to be from earlier reporting, not an immediate breaking development as of your query timestamp.",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [
-        "Trump announces end of military operations against Iran by A",
-        "Trump announces US x Iran ceasefire end by April 21, 2026?",
-        "Will Trump announce that the US x Iran ceasefire has been br"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_675924",
-      "timestamp": "2026-04-14T02:48:19.788818+00:00",
-      "source": "PERPLEXITY",
-      "headline": "HEADLINE | Unable to confirm | LOW confidence** \u2014 No verified breaking news event identified in available search results",
-      "raw": "HEADLINE | Unable to confirm | LOW confidence** \u2014 No verified breaking news event identified in available search results.",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_682945",
-      "timestamp": "2026-04-14T02:48:26.809442+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Key market-moving factors:**",
-      "raw": "Key market-moving factors:**",
+      "headline": "**Petroleum products surged 10",
+      "raw": "**Petroleum products surged 10.4% month-on-month in March**, reflecting oil price volatility from the Iran war[2]. South Korea, the world's fourth-largest oil importer, implemented nationwide fuel price caps for the first time in nearly 30 years[2].",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
@@ -268,12 +93,12 @@
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_682967",
-      "timestamp": "2026-04-14T02:48:26.831475+00:00",
+      "id": "sig_857047",
+      "timestamp": "2026-04-14T02:51:20.911587+00:00",
       "source": "PERPLEXITY",
-      "headline": "**March 2026 inflation reached 2",
-      "raw": "**March 2026 inflation reached 2.2%**, up from 2.0% in the previous two months, though still below market forecasts of 2.4%[2].",
-      "direction": "YES",
+      "headline": "**Analysts expect no rate changes for the remainder of 2026**, with the BOK's easing cycle considered complete[3][6]",
+      "raw": "**Analysts expect no rate changes for the remainder of 2026**, with the BOK's easing cycle considered complete[3][6].\n\nThe decision signals the central bank prioritizes managing currency volatility and financial stability over addressing near-term inflation that remains above its 2% target.",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -282,9 +107,9 @@
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 20,
-    "watch": 1,
+    "enter": 1,
+    "alert": 6,
+    "watch": 0,
     "high_conf": 2
   }
 }
