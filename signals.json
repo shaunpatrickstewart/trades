@@ -1,15 +1,15 @@
 {
-  "last_scan": "2026-04-14T21:57:13.396113+00:00",
-  "scan_seconds": 33.5,
-  "markets_scanned": 69,
+  "last_scan": "2026-04-14T22:00:02.870286+00:00",
+  "scan_seconds": 31.0,
+  "markets_scanned": 71,
   "open_positions": 34,
   "signals": [
     {
-      "id": "sig_589452",
-      "timestamp": "2026-04-14T21:56:53.247559+00:00",
+      "id": "sig_759558",
+      "timestamp": "2026-04-14T21:59:43.353628+00:00",
       "source": "PERPLEXITY",
-      "headline": "Trump announces Iran ceasefire holding ahead of 8 p",
-      "raw": "Trump announces Iran ceasefire holding ahead of 8 p.m. ET deadline; new blockade on Strait of Hormuz takes effect despite talks.** | YES | HIGH confidence[1][2][3]\n\nTrump confirmed on April 7, 2026, that a ceasefire with Iran is in place and \"holding well,\" amid an 8 p.m. ET deadline tied to threats of strikes if the Strait of Hormuz isn't reopened without tolls[1][2]. The US Navy began blockading",
+      "headline": "US and Iran Agree to Two-Week Ceasefire Amid Trump Brinkmanship, Strait of Hormuz Talks, and Naval Blockade Pressure | Y",
+      "raw": "US and Iran Agree to Two-Week Ceasefire Amid Trump Brinkmanship, Strait of Hormuz Talks, and Naval Blockade Pressure | YES | HIGH confidence**\n\nA two-week ceasefire between the US and Iran was confirmed today, announced via Pakistani PM Sharif's tweet inviting delegations to Islamabad on April 10, 2026, for further negotiations, effective immediately and covering Lebanon.[1] President Trump announ",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
@@ -22,26 +22,63 @@
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_608599",
-      "timestamp": "2026-04-14T21:57:12.394845+00:00",
+      "id": "sig_778073",
+      "timestamp": "2026-04-14T22:00:01.868832+00:00",
       "source": "PERPLEXITY",
-      "headline": "South Korea's March 2026 annual inflation rate confirmed at 2",
-      "raw": "South Korea's March 2026 annual inflation rate confirmed at 2.2%** | **NO** | **HIGH** confidence\n\nSouth Korea's annual inflation rate rose to 2.2% in March 2026 from 2.0% in January and February, missing market forecasts of 2.4% and remaining near the Bank of Korea's 2% target.[1] This figure aligns closely with rateinflation.com's 2.16% report for March, confirming contained price pressures amid",
-      "direction": "NO",
+      "headline": "South Korea March 2026 Inflation Confirmed at 2",
+      "raw": "South Korea March 2026 Inflation Confirmed at 2.16-2.2% YoY (up from 2.0% Feb), Below 2.3-2.4% Forecasts | YES | HIGH**  \nSouth Korea's official CPI data for March 2026 shows annual inflation at 2.16% (RateInflation.com) or 2.2% (TradingEconomics, ING, Polymarket), rising from February's 2.0% with monthly inflation at 0.34% or 0.3%, driven by transport/housing but offset by food declines and gover",
+      "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces US x Iran ceasefire end by April 21, 2026?",
-        "US x Iran permanent peace deal by April 22, 2026?"
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
       ],
       "action": "ENTER",
       "x_link": null,
       "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_771722",
+      "timestamp": "2026-04-14T21:59:55.517918+00:00",
+      "source": "PERPLEXITY",
+      "headline": "On April 14, 92% odds for BTC at $75K by April 30 (up from prior), with 35% for $80K; downside to $65K at 20%",
+      "raw": "On April 14, 92% odds for BTC at $75K by April 30 (up from prior), with 35% for $80K; downside to $65K at 20%.[2]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_771728",
+      "timestamp": "2026-04-14T21:59:55.523340+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Bullish chart signals and 76% odds for $75K, 26% for $80K, with reduced downside odds",
+      "raw": "Bullish chart signals and 76% odds for $75K, 26% for $80K, with reduced downside odds.[3]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_771733",
+      "timestamp": "2026-04-14T21:59:55.528585+00:00",
+      "source": "PERPLEXITY",
+      "headline": "65% chance BTC price down on April 15 vs",
+      "raw": "65% chance BTC price down on April 15 vs. April 14.[6]\n\nRecent shifts (e.g., bearish repricing on April 12 dropping $75K+ odds to 53%) tied to spot price weakness around $71K-$74K, not fresh news.[1][2] No \"right now\" confirmations like regulatory decisions or macro events reported.[1][2][3][4][6] **LOW confidence** in any market-moving news due to lack of explicit breaking reports.",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
     }
   ],
   "stats": {
     "enter": 2,
-    "alert": 0,
+    "alert": 3,
     "watch": 0,
     "high_conf": 2
   }
