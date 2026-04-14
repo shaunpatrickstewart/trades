@@ -1,16 +1,16 @@
 {
-  "last_scan": "2026-04-14T05:54:53.947350+00:00",
-  "scan_seconds": 100.8,
+  "last_scan": "2026-04-14T05:57:40.023120+00:00",
+  "scan_seconds": 25.0,
   "markets_scanned": 67,
   "open_positions": 36,
   "signals": [
     {
-      "id": "sig_850619",
-      "timestamp": "2026-04-14T05:54:34.472265+00:00",
+      "id": "sig_18456",
+      "timestamp": "2026-04-14T05:57:22.308247+00:00",
       "source": "PERPLEXITY",
-      "headline": "Trump Announces U",
-      "raw": "Trump Announces U.S.-Iran Two-Week Ceasefire Ahead of Deadline | YES | HIGH confidence**\n\nPresident Donald Trump confirmed on Tuesday evening (April 7, 2026) a mutual two-week ceasefire with Iran, mediated by Pakistan, effective at 8 p.m. ET, allowing time for broader peace talks while Iran pledges safe passage through the Strait of Hormuz.[1][2] Iranian Foreign Minister Abbas Araghchi verified Te",
-      "direction": "YES",
+      "headline": "US Blockade of Iranian Ports Now in Effect After Failed Ceasefire Talks | NO | HIGH confidence**",
+      "raw": "US Blockade of Iranian Ports Now in Effect After Failed Ceasefire Talks | NO | HIGH confidence**  \nUS President Trump announced that Iran \"wants a ceasefire deal very badly,\" but direct talks in Pakistan collapsed over Iran's nuclear ambitions and Strait of Hormuz control, leading to a US naval blockade starting around midnight Australian Eastern time (late April 13 UTC).[1][2][3]  \nNo new ceasefi",
+      "direction": "NO",
       "confidence": 0.9,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
@@ -22,68 +22,57 @@
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_869093",
-      "timestamp": "2026-04-14T05:54:52.946091+00:00",
+      "id": "sig_23882",
+      "timestamp": "2026-04-14T05:57:27.734105+00:00",
       "source": "PERPLEXITY",
-      "headline": "South Korea's March 2026 annual inflation rate confirmed at 2",
-      "raw": "South Korea's March 2026 annual inflation rate confirmed at 2.2% (or 2.16%), up from 2.0% in February | YES | HIGH confidence**\n\nSouth Korea's Consumer Price Index (CPI) inflation rose to 2.2% year-over-year in March 2026 from 2.0% in February, below market forecasts of 2.4% but signaling a modest uptick amid oil price pressures and KRW weakness.[2][3] This follows steady 2.0% readings in January ",
+      "headline": "JD Vance Defends Trump Against Musk's Deleted Epstein Allegations; House Speaker Johnson Calls for Full DOJ Release** |",
+      "raw": "JD Vance Defends Trump Against Musk's Deleted Epstein Allegations; House Speaker Johnson Calls for Full DOJ Release** | **NO** | **HIGH** confidence\n\nVice President **JD Vance** publicly slammed **Elon Musk**'s now-deleted X post accusing President Trump of appearing in **Epstein** files and claiming the administration is delaying their release, calling the claims \"totally false\" on Theo Von's pod",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will J.D. Vance win the 2028 Republican presidential nominat",
+        "Will Elon Musk Testify to Congress about Epstein?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_29245",
+      "timestamp": "2026-04-14T05:57:33.097867+00:00",
+      "source": "PERPLEXITY",
+      "headline": "MicroStrategy Confirms $1 Billion Bitcoin Purchase, Adding 13,927 BTC to Holdings (Now ~781K BTC) | YES | HIGH confidenc",
+      "raw": "MicroStrategy Confirms $1 Billion Bitcoin Purchase, Adding 13,927 BTC to Holdings (Now ~781K BTC) | YES | HIGH confidence**  \nMicroStrategy's announcement of buying 13,927 BTC for $1B\u2014pushing total holdings near 781K BTC with 5.6% YTD yield\u2014has driven a short squeeze amid geopolitical tensions, propelling Bitcoin to an intraday high of $72,629 and current price of $74,313 (up 4.52% in 24h).[1][2][",
       "direction": "YES",
-      "confidence": 0.9,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Bitcoin Up or Down - April 14, 10:00PM-10:05PM ET",
+        "Bitcoin Up or Down - April 15, 12:15AM-12:20AM ET"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_35148",
+      "timestamp": "2026-04-14T05:57:39.000460+00:00",
+      "source": "PERPLEXITY",
+      "headline": "South Korea BOK Holds Benchmark Rate at 2",
+      "raw": "South Korea BOK Holds Benchmark Rate at 2.5% for 7th Month Amid Inflation Above Target and Oil Price Risks | NO | HIGH confidence**  \nThe Bank of Korea's Monetary Policy Board unanimously decided on April 10, 2026, to keep its policy rate unchanged at 2.5%, citing inflation at ~2.2% (above the 2% target), rising oil prices from Middle East conflict, and a weakened won near 1,520/USD, with expected",
+      "direction": "NO",
+      "confidence": 0.65,
       "matched_markets": [
         "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
       ],
-      "action": "ENTER",
+      "action": "ALERT",
       "x_link": null,
       "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_855840",
-      "timestamp": "2026-04-14T05:54:39.693666+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Democrats on House Ways and Means and Oversight Committees failed to secure Elon Musk's testimony or subpoena him in Mar",
-      "raw": "Democrats on House Ways and Means and Oversight Committees failed to secure Elon Musk's testimony or subpoena him in March 2025 and June 2025, respectively, due to Republican opposition[1][2].",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_855848",
-      "timestamp": "2026-04-14T05:54:39.701763+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Musk criticized Democrats' stance on violent crime in agreement with JD Vance, but this is a past social media exchange",
-      "raw": "Musk criticized Democrats' stance on violent crime in agreement with JD Vance, but this is a past social media exchange with no new congressional, midterm, or policy resolution[3].",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_862746",
-      "timestamp": "2026-04-14T05:54:46.599862+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Solana Summit: Washington x Wall Street Confirmed for April 13 with 140+ Leaders Including Amex, JP Morgan, Amazon \u2013 No",
-      "raw": "Solana Summit: Washington x Wall Street Confirmed for April 13 with 140+ Leaders Including Amex, JP Morgan, Amazon \u2013 No Price Surge or BTC Breakout Yet | NO | MED confidence**[4]\n\nSolana price holds steady around **$82-83** amid predictions tying SOL gains to Bitcoin potentially hitting **$80K in April 2026**, but no such BTC milestone has been confirmed as of early April data[1][2][3]. The **Sola",
-      "direction": "NO",
-      "confidence": 0.6,
-      "matched_markets": [
-        "Will Bitcoin outperform Gold in April 2026?",
-        "Solana Up or Down - April 14, 1:45PM-1:50PM ET",
-        "Bitcoin Up or Down - April 14, 10:00PM-10:05PM ET"
-      ],
-      "action": "WATCH",
-      "x_link": null,
-      "category": "CRYPTO"
     }
   ],
   "stats": {
-    "enter": 2,
-    "alert": 2,
-    "watch": 1,
-    "high_conf": 2
+    "enter": 1,
+    "alert": 3,
+    "watch": 0,
+    "high_conf": 1
   }
 }
