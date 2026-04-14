@@ -1,17 +1,47 @@
 {
-  "last_scan": "2026-04-14T20:47:25.771916+00:00",
-  "scan_seconds": 23.2,
-  "markets_scanned": 64,
-  "open_positions": 33,
+  "last_scan": "2026-04-14T20:48:31.780475+00:00",
+  "scan_seconds": 27.6,
+  "markets_scanned": 103,
+  "open_positions": 72,
   "signals": [
     {
-      "id": "sig_404615",
-      "timestamp": "2026-04-14T20:47:08.415009+00:00",
+      "id": "sig_486975",
+      "timestamp": "2026-04-14T20:48:30.774081+00:00",
       "source": "PERPLEXITY",
-      "headline": "US and Iran Weighing Extended Ceasefire Deal Before April 21 Expiration | PENDING | HIGH confidence**",
-      "raw": "US and Iran Weighing Extended Ceasefire Deal Before April 21 Expiration | PENDING | HIGH confidence**\n\nThe US and Iran are actively negotiating to extend their two-week ceasefire beyond its April 21 expiration date.[1] Trump is simultaneously maintaining pressure through a naval blockade of the Strait of Hormuz targeting Iranian oil exports.[1] Financial markets have already reacted positively to ",
+      "headline": "South Korea Annual Inflation Holds at 2",
+      "raw": "South Korea Annual Inflation Holds at 2.0% in February 2026, Unchanged from January and Below Expectations \u2013 BOK Rate Steady Amid Oil Risks | NO | MED confidence**\n\nSouth Korea's annual inflation rate remained at **2.0%** in February 2026, matching January's five-month low and the Bank of Korea (BOK) target, while slightly missing market forecasts of 2.1%; this was confirmed in official data relea",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces US x Iran ceasefire end by April 21, 2026?",
+        "US x Iran permanent peace deal by April 22, 2026?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_478968",
+      "timestamp": "2026-04-14T20:48:22.767148+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Confidence: HIGH** (search results lack any \"just confirmed\" updates post-April 13 discussions)",
+      "raw": "Confidence: HIGH** (search results lack any \"just confirmed\" updates post-April 13 discussions).[1][6][7]",
       "direction": null,
       "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_469469",
+      "timestamp": "2026-04-14T20:48:13.268036+00:00",
+      "source": "PERPLEXITY",
+      "headline": "US-Iran Ceasefire Talks Collapse in Islamabad; Fresh Negotiations Eyed Before April 7 Ceasefire Expires Next Week | NO |",
+      "raw": "US-Iran Ceasefire Talks Collapse in Islamabad; Fresh Negotiations Eyed Before April 7 Ceasefire Expires Next Week | NO | HIGH confidence** [1][2][3][4]\n\nWeekend negotiations between the US and Iran in Islamabad ended without a deal, marking day five of a fragile two-week ceasefire announced on April 7, 2026, which is set to expire early next week.[1][4] US officials, including Vice President JD Va",
+      "direction": "YES",
+      "confidence": 0.78,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
         "Trump announces end of military operations against Iran by A",
@@ -22,40 +52,23 @@
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_409747",
-      "timestamp": "2026-04-14T20:47:13.546281+00:00",
+      "id": "sig_473841",
+      "timestamp": "2026-04-14T20:48:17.640791+00:00",
       "source": "PERPLEXITY",
-      "headline": "Vance Casts Tie-Breaking Vote as Senate Republicans Block Venezuela War Powers Resolution Under Trump Pressure | YES | H",
-      "raw": "Vance Casts Tie-Breaking Vote as Senate Republicans Block Venezuela War Powers Resolution Under Trump Pressure | YES | HIGH confidence**  \nVice President **JD Vance** provided the decisive tie-breaking vote on January 14, 2026, enabling Senate Republicans to defeat a bipartisan war powers resolution that would have required congressional approval for any U.S. military action in **Venezuela**, dire",
-      "direction": "YES",
+      "headline": "HEADLINE: Scandal-plagued Reps",
+      "raw": "HEADLINE: Scandal-plagued Reps. Eric Swalwell (D) and Tony Gonzales (R) announce resignations from Congress over misconduct allegations; NJ-11 Republican candidate Joe Hathaway reacts.**[4][1]",
+      "direction": null,
       "confidence": 0.65,
-      "matched_markets": [
-        "Will J.D. Vance win the 2028 Republican presidential nominat",
-        "Trump announces end of military operations against Iran by A",
-        "Will Nicol\u00e1s Maduro be the leader of Venezuela end of 2026?"
-      ],
+      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "POLITICS"
-    },
-    {
-      "id": "sig_404625",
-      "timestamp": "2026-04-14T20:47:08.424285+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Market relevance:** The outcome of these talks before April 21 could significantly impact geopolitical risk premiums, oi",
-      "raw": "Market relevance:** The outcome of these talks before April 21 could significantly impact geopolitical risk premiums, oil prices, and defense sector valuations. No final agreement has been confirmed or announced\u2014only that negotiations are ongoing with mixed signals about progress.",
-      "direction": "NO",
-      "confidence": 0.6,
-      "matched_markets": [],
-      "action": "WATCH",
-      "x_link": null,
-      "category": "GEOPOLITICS"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 2,
-    "watch": 1,
-    "high_conf": 1
+    "enter": 1,
+    "alert": 3,
+    "watch": 0,
+    "high_conf": 2
   }
 }
