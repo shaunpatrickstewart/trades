@@ -8,10 +8,76 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 25 categorical arb opportunities found\nScanned 400 events (350 multi-outcome) at 2026-04-14 02:44 UTC\nBest: 9.8% profit on 'Will Opensea launch a token by ___?' \u2014 buy YES on all 4 outcomes (sum=0.902)\nStrategy: Buy YES on all 4 outcomes. Total cost: $0.9020. One wins $1.00. Profit: $0.0980 (9.80%)\n2nd: 9.7% on 'Presidential Election Winner 2028'",
+      "result": "LIVE \u2014 144 categorical arb opportunities found\nScanned 3000 events (1879 multi-outcome) at 2026-04-14 03:08 UTC\nBest: 10.0% profit on 'What floor price will Milady hit before 2027?' \u2014 buy YES on all 2 outcomes (sum=0.9)\nStrategy: Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 10.0% on 'NY-04 Democratic Primary Winner'",
       "priority": "HIGH",
-      "last_scan": "2026-04-14 02:44 UTC",
+      "last_scan": "2026-04-14 03:08 UTC",
       "opportunities": [
+        {
+          "event_title": "What floor price will Milady hit before 2027?",
+          "event_slug": "what-floor-price-will-milady-hit-before-2027",
+          "yes_sum": 0.9,
+          "profit_pct": 10.0,
+          "profit_per_dollar_pct": 11.11,
+          "num_outcomes": 2,
+          "outcomes": [
+            {
+              "market_id": "1099807",
+              "slug": "will-milady-floor-price-reach-2-eth-before-2027",
+              "question": "Will Milady floor price reach 2 ETH before 2027?",
+              "yes_price": 0.505,
+              "volume": 11530
+            },
+            {
+              "market_id": "1099806",
+              "slug": "will-milady-floor-price-reach-4-eth-before-2027",
+              "question": "Will Milady floor price reach 4 ETH before 2027?",
+              "yes_price": 0.395,
+              "volume": 1894
+            }
+          ],
+          "url": "https://polymarket.com/event/what-floor-price-will-milady-hit-before-2027",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
+        },
+        {
+          "event_title": "NY-04 Democratic Primary Winner",
+          "event_slug": "who-will-be-the-democratic-nominee-for-ny-04",
+          "yes_sum": 0.9,
+          "profit_pct": 10.0,
+          "profit_per_dollar_pct": 11.11,
+          "num_outcomes": 4,
+          "outcomes": [
+            {
+              "market_id": "787526",
+              "slug": "will-nicholas-sciretta-be-the-democratic-nominee-for-ny-04",
+              "question": "Will Nicholas Sciretta be the Democratic nominee for NY-04?",
+              "yes_price": 0.525,
+              "volume": 4597
+            },
+            {
+              "market_id": "787524",
+              "slug": "will-laura-gillen-be-the-democratic-nominee-for-ny-04",
+              "question": "Will Laura Gillen be the Democratic nominee for NY-04?",
+              "yes_price": 0.37,
+              "volume": 4037
+            },
+            {
+              "market_id": "787525",
+              "slug": "will-gian-jones-be-the-democratic-nominee-for-ny-04",
+              "question": "Will Gian Jones be the Democratic nominee for NY-04?",
+              "yes_price": 0.0025,
+              "volume": 1521
+            },
+            {
+              "market_id": "787527",
+              "slug": "will-taylor-darling-be-the-democratic-nominee-for-ny-04",
+              "question": "Will Taylor Darling be the Democratic nominee for NY-04?",
+              "yes_price": 0.0025,
+              "volume": 1806
+            }
+          ],
+          "url": "https://polymarket.com/event/who-will-be-the-democratic-nominee-for-ny-04",
+          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
+        },
         {
           "event_title": "Will Opensea launch a token by ___?",
           "event_slug": "will-opensea-launch-a-token-by-142",
@@ -53,6 +119,107 @@
           "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9020. One wins $1.00. Profit: $0.0980 (9.80%)"
         },
         {
+          "event_title": "Oklahoma Governor Republican Primary Winner",
+          "event_slug": "oklahoma-governor-republican-primary-winner",
+          "yes_sum": 0.902,
+          "profit_pct": 9.8,
+          "profit_per_dollar_pct": 10.86,
+          "num_outcomes": 8,
+          "outcomes": [
+            {
+              "market_id": "825091",
+              "slug": "will-genter-drummond-win-the-2026-oklahoma-governor-republican-primary-election",
+              "question": "Will Genter Drummond win the 2026 Oklahoma Governor Republican primary election?",
+              "yes_price": 0.38,
+              "volume": 113330
+            },
+            {
+              "market_id": "825094",
+              "slug": "will-mike-mazzei-win-the-2026-oklahoma-governor-republican-primary-election",
+              "question": "Will Mike Mazzei win the 2026 Oklahoma Governor Republican primary election?",
+              "yes_price": 0.32,
+              "volume": 3102
+            },
+            {
+              "market_id": "825092",
+              "slug": "will-chip-keating-win-the-2026-oklahoma-governor-republican-primary-election",
+              "question": "Will Chip Keating win the 2026 Oklahoma Governor Republican primary election?",
+              "yes_price": 0.0945,
+              "volume": 2602
+            },
+            {
+              "market_id": "825095",
+              "slug": "will-charles-mccall-win-the-2026-oklahoma-governor-republican-primary-election",
+              "question": "Will Charles McCall win the 2026 Oklahoma Governor Republican primary election?",
+              "yes_price": 0.09,
+              "volume": 113964
+            },
+            {
+              "market_id": "825098",
+              "slug": "will-matt-pinnell-win-the-2026-oklahoma-governor-republican-primary-election",
+              "question": "Will Matt Pinnell win the 2026 Oklahoma Governor Republican primary election?",
+              "yes_price": 0.0095,
+              "volume": 6691
+            },
+            {
+              "market_id": "825096",
+              "slug": "will-jake-merrick-win-the-2026-oklahoma-governor-republican-primary-election",
+              "question": "Will Jake Merrick win the 2026 Oklahoma Governor Republican primary election?",
+              "yes_price": 0.0035,
+              "volume": 3497
+            },
+            {
+              "market_id": "825097",
+              "slug": "will-ryan-walters-win-the-2026-oklahoma-governor-republican-primary-election",
+              "question": "Will Ryan Walters win the 2026 Oklahoma Governor Republican primary election?",
+              "yes_price": 0.0025,
+              "volume": 5321
+            },
+            {
+              "market_id": "825093",
+              "slug": "will-leisa-mitchell-haynes-win-the-2026-oklahoma-governor-republican-primary-election",
+              "question": "Will Leisa Mitchell Haynes win the 2026 Oklahoma Governor Republican primary ele",
+              "yes_price": 0.002,
+              "volume": 1610
+            }
+          ],
+          "url": "https://polymarket.com/event/oklahoma-governor-republican-primary-winner",
+          "strategy": "Buy YES on all 8 outcomes. Total cost: $0.9020. One wins $1.00. Profit: $0.0980 (9.80%)"
+        },
+        {
+          "event_title": "#1 Free App in the US Apple App Store on April 14?",
+          "event_slug": "1-free-app-in-the-us-apple-app-store-on-april-14",
+          "yes_sum": 0.9025,
+          "profit_pct": 9.75,
+          "profit_per_dollar_pct": 10.8,
+          "num_outcomes": 3,
+          "outcomes": [
+            {
+              "market_id": "1937440",
+              "slug": "will-chatgpt-be-1-free-app-in-the-us-apple-app-store-on-april-14",
+              "question": "Will ChatGPT be #1 Free App in the US Apple App Store on April 14?",
+              "yes_price": 0.9,
+              "volume": 1549
+            },
+            {
+              "market_id": "1937446",
+              "slug": "will-threads-be-1-free-app-in-the-us-apple-app-store-on-april-14",
+              "question": "Will Threads be #1 Free App in the US Apple App Store on April 14?",
+              "yes_price": 0.002,
+              "volume": 1143
+            },
+            {
+              "market_id": "1937443",
+              "slug": "will-google-be-1-free-app-in-the-us-apple-app-store-on-april-14",
+              "question": "Will Google be #1 Free App in the US Apple App Store on April 14?",
+              "yes_price": 0.0005,
+              "volume": 1330
+            }
+          ],
+          "url": "https://polymarket.com/event/1-free-app-in-the-us-apple-app-store-on-april-14",
+          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9025. One wins $1.00. Profit: $0.0975 (9.75%)"
+        },
+        {
           "event_title": "Presidential Election Winner 2028",
           "event_slug": "presidential-election-winner-2028",
           "yes_sum": 0.903,
@@ -65,77 +232,77 @@
               "slug": "will-jd-vance-win-the-2028-us-presidential-election",
               "question": "Will JD Vance win the 2028 US Presidential Election?",
               "yes_price": 0.1885,
-              "volume": 10209807
+              "volume": 10210458
             },
             {
               "market_id": "561230",
               "slug": "will-gavin-newsom-win-the-2028-us-presidential-election",
               "question": "Will Gavin Newsom win the 2028 US Presidential Election?",
               "yes_price": 0.17,
-              "volume": 14164443
+              "volume": 14168350
             },
             {
               "market_id": "561234",
               "slug": "will-marco-rubio-win-the-2028-us-presidential-election",
               "question": "Will Marco Rubio win the 2028 US Presidential Election?",
               "yes_price": 0.1005,
-              "volume": 6414381
+              "volume": 6414759
             },
             {
               "market_id": "561231",
               "slug": "will-alexandria-ocasio-cortez-win-the-2028-us-presidential-election",
               "question": "Will Alexandria Ocasio-Cortez win the 2028 US Presidential Election?",
               "yes_price": 0.0545,
-              "volume": 10883521
+              "volume": 10883586
             },
             {
               "market_id": "561261",
               "slug": "will-jon-ossoff-win-the-2028-us-presidential-election",
               "question": "Will Jon Ossoff win the 2028 US Presidential Election?",
               "yes_price": 0.0385,
-              "volume": 3561977
+              "volume": 3562431
             },
             {
               "market_id": "561239",
               "slug": "will-kamala-harris-win-the-2028-us-presidential-election",
               "question": "Will Kamala Harris win the 2028 US Presidential Election?",
               "yes_price": 0.0335,
-              "volume": 6985347
+              "volume": 6985498
             },
             {
               "market_id": "561253",
               "slug": "will-tucker-carlson-win-the-2028-us-presidential-election",
               "question": "Will Tucker Carlson win the 2028 US Presidential Election?",
               "yes_price": 0.0245,
-              "volume": 9932277
+              "volume": 9932284
             },
             {
               "market_id": "561233",
               "slug": "will-josh-shapiro-win-the-2028-us-presidential-election",
               "question": "Will Josh Shapiro win the 2028 US Presidential Election?",
               "yes_price": 0.0215,
-              "volume": 5788938
+              "volume": 5789029
             },
             {
               "market_id": "561243",
               "slug": "will-donald-trump-win-the-2028-us-presidential-election",
               "question": "Will Donald Trump win the 2028 US Presidential Election?",
               "yes_price": 0.0215,
-              "volume": 6944102
+              "volume": 6944532
             },
             {
               "market_id": "561246",
               "slug": "will-ron-desantis-win-the-2028-us-presidential-election",
               "question": "Will Ron DeSantis win the 2028 US Presidential Election?",
               "yes_price": 0.0185,
-              "volume": 8872594
+              "volume": 8873212
             },
             {
               "market_id": "561232",
               "slug": "will-pete-buttigieg-win-the-2028-us-presidential-election",
               "question": "Will Pete Buttigieg win the 2028 US Presidential Election?",
               "yes_price": 0.0165,
-              "volume": 3850207
+              "volume": 3850280
             },
             {
               "market_id": "561252",
@@ -163,7 +330,7 @@
               "slug": "will-jb-pritzker-win-the-2028-us-presidential-election",
               "question": "Will JB Pritzker win the 2028 US Presidential Election?",
               "yes_price": 0.0115,
-              "volume": 10867069
+              "volume": 10867959
             },
             {
               "market_id": "561260",
@@ -177,7 +344,7 @@
               "slug": "will-elon-musk-win-the-2028-us-presidential-election",
               "question": "Will Elon Musk win the 2028 US Presidential Election?",
               "yes_price": 0.0095,
-              "volume": 22704105
+              "volume": 22704648
             },
             {
               "market_id": "561236",
@@ -191,7 +358,7 @@
               "slug": "will-greg-abbott-win-the-2028-us-presidential-election",
               "question": "Will Greg Abbott win the 2028 US Presidential Election?",
               "yes_price": 0.0095,
-              "volume": 31909620
+              "volume": 31913492
             },
             {
               "market_id": "561262",
@@ -205,123 +372,149 @@
               "slug": "will-jamie-dimon-win-the-2028-us-presidential-election",
               "question": "Will Jamie Dimon win the 2028 US Presidential Election?",
               "yes_price": 0.009,
-              "volume": 7629672
+              "volume": 7631714
             },
             {
               "market_id": "561255",
               "slug": "will-ivanka-trump-win-the-2028-us-presidential-election",
               "question": "Will Ivanka Trump win the 2028 US Presidential Election?",
               "yes_price": 0.0085,
-              "volume": 4614189
+              "volume": 4615594
             },
             {
               "market_id": "561257",
               "slug": "will-michelle-obama-win-the-2028-us-presidential-election",
               "question": "Will Michelle Obama win the 2028 US Presidential Election?",
               "yes_price": 0.0085,
-              "volume": 13634695
+              "volume": 13638483
             },
             {
               "market_id": "561259",
               "slug": "will-ro-khanna-win-the-2028-us-presidential-election",
               "question": "Will Ro Khanna win the 2028 US Presidential Election?",
               "yes_price": 0.0085,
-              "volume": 7163234
+              "volume": 7163623
             },
             {
               "market_id": "561240",
               "slug": "will-stephen-smith-win-the-2028-us-presidential-election",
               "question": "Will Stephen Smith win the 2028 US Presidential Election?",
               "yes_price": 0.0075,
-              "volume": 29659005
+              "volume": 29663754
             },
             {
               "market_id": "561244",
               "slug": "will-donald-trump-jr-win-the-2028-us-presidential-election",
               "question": "Will Donald Trump Jr. win the 2028 US Presidential Election?",
               "yes_price": 0.0075,
-              "volume": 9260624
+              "volume": 9266850
             },
             {
               "market_id": "561245",
               "slug": "will-nikki-haley-win-the-2028-us-presidential-election",
               "question": "Will Nikki Haley win the 2028 US Presidential Election?",
               "yes_price": 0.0075,
-              "volume": 22155511
+              "volume": 22156203
             },
             {
               "market_id": "561256",
               "slug": "will-zohran-mamdani-win-the-2028-us-presidential-election",
               "question": "Will Zohran Mamdani win the 2028 US Presidential Election?",
               "yes_price": 0.0075,
-              "volume": 17636188
+              "volume": 17636758
             },
             {
               "market_id": "561263",
               "slug": "will-eric-trump-win-the-2028-us-presidential-election",
               "question": "Will Eric Trump win the 2028 US Presidential Election?",
               "yes_price": 0.0065,
-              "volume": 6651281
+              "volume": 6654866
             },
             {
               "market_id": "561247",
               "slug": "will-tim-walz-win-the-2028-us-presidential-election",
               "question": "Will Tim Walz win the 2028 US Presidential Election?",
               "yes_price": 0.0065,
-              "volume": 39590085
+              "volume": 39592164
             },
             {
               "market_id": "561235",
               "slug": "will-wes-moore-win-the-2028-us-presidential-election",
               "question": "Will Wes Moore win the 2028 US Presidential Election?",
               "yes_price": 0.0065,
-              "volume": 6541204
+              "volume": 6541598
             },
             {
               "market_id": "561242",
               "slug": "will-tulsi-gabbard-win-the-2028-us-presidential-election",
               "question": "Will Tulsi Gabbard win the 2028 US Presidential Election?",
               "yes_price": 0.0065,
-              "volume": 28319013
+              "volume": 28319515
             },
             {
               "market_id": "561264",
               "slug": "will-pete-hegseth-win-the-2028-us-presidential-election",
               "question": "Will Pete Hegseth win the 2028 US Presidential Election?",
               "yes_price": 0.0065,
-              "volume": 4495234
+              "volume": 4497487
             },
             {
               "market_id": "561248",
               "slug": "will-vivek-ramaswamy-win-the-2028-us-presidential-election",
               "question": "Will Vivek Ramaswamy win the 2028 US Presidential Election?",
               "yes_price": 0.0065,
-              "volume": 31053620
+              "volume": 31053957
             },
             {
               "market_id": "561254",
               "slug": "will-kim-kardashian-win-the-2028-us-presidential-election",
               "question": "Will Kim Kardashian win the 2028 US Presidential Election?",
               "yes_price": 0.0065,
-              "volume": 32833045
+              "volume": 32833853
             },
             {
               "market_id": "561251",
               "slug": "will-lebron-james-win-the-2028-us-presidential-election",
               "question": "Will LeBron James win the 2028 US Presidential Election?",
               "yes_price": 0.0055,
-              "volume": 46436803
+              "volume": 46437095
             }
           ],
           "url": "https://polymarket.com/event/presidential-election-winner-2028",
           "strategy": "Buy YES on all 36 outcomes. Total cost: $0.9030. One wins $1.00. Profit: $0.0970 (9.70%)"
         },
         {
+          "event_title": "VA-05 House Election Winner",
+          "event_slug": "va-05-house-election-winner",
+          "yes_sum": 0.905,
+          "profit_pct": 9.5,
+          "profit_per_dollar_pct": 10.5,
+          "num_outcomes": 2,
+          "outcomes": [
+            {
+              "market_id": "1285080",
+              "slug": "will-the-democratic-party-win-the-va-05-house-seat",
+              "question": "Will the Democratic Party win the VA-05 House seat?",
+              "yes_price": 0.685,
+              "volume": 14365
+            },
+            {
+              "market_id": "1285079",
+              "slug": "will-the-republican-party-win-the-va-05-house-seat",
+              "question": "Will the Republican Party win the VA-05 House seat?",
+              "yes_price": 0.22,
+              "volume": 12058
+            }
+          ],
+          "url": "https://polymarket.com/event/va-05-house-election-winner",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
+        },
+        {
           "event_title": "English Premier League - Top Goalscorer ",
           "event_slug": "english-premier-league-top-goalscorer",
-          "yes_sum": 0.9045,
-          "profit_pct": 9.55,
-          "profit_per_dollar_pct": 10.56,
+          "yes_sum": 0.9065,
+          "profit_pct": 9.35,
+          "profit_per_dollar_pct": 10.31,
           "num_outcomes": 31,
           "outcomes": [
             {
@@ -335,7 +528,7 @@
               "market_id": "577178",
               "slug": "will-jarrod-bowen-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
               "question": "Will Jarrod Bowen be the top goal scorer in the 2025\u201326 English Premier League s",
-              "yes_price": 0.0095,
+              "yes_price": 0.0105,
               "volume": 13575
             },
             {
@@ -399,7 +592,7 @@
               "slug": "will-chris-wood-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
               "question": "Will Chris Wood be the top goal scorer in the 2025\u201326 English Premier League sea",
               "yes_price": 0.0055,
-              "volume": 85760
+              "volume": 85796
             },
             {
               "market_id": "577181",
@@ -409,11 +602,25 @@
               "volume": 21460
             },
             {
+              "market_id": "577172",
+              "slug": "will-jean-philippe-mateta-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Jean-Philippe Mateta be the top goal scorer in the 2025\u201326 English Premier ",
+              "yes_price": 0.005,
+              "volume": 44393
+            },
+            {
+              "market_id": "577177",
+              "slug": "will-bryan-mbeumo-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Bryan Mbeumo be the top goal scorer in the 2025\u201326 English Premier League s",
+              "yes_price": 0.005,
+              "volume": 41153
+            },
+            {
               "market_id": "577161",
               "slug": "will-mohamed-salah-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
               "question": "Will Mohamed Salah be the top goal scorer in the 2025\u201326 English Premier League ",
               "yes_price": 0.0045,
-              "volume": 235470
+              "volume": 235563
             },
             {
               "market_id": "577170",
@@ -421,20 +628,6 @@
               "question": "Will Dominic Solanke be the top goal scorer in the 2025\u201326 English Premier Leagu",
               "yes_price": 0.0045,
               "volume": 162096
-            },
-            {
-              "market_id": "577172",
-              "slug": "will-jean-philippe-mateta-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Jean-Philippe Mateta be the top goal scorer in the 2025\u201326 English Premier ",
-              "yes_price": 0.0045,
-              "volume": 44393
-            },
-            {
-              "market_id": "577177",
-              "slug": "will-bryan-mbeumo-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Bryan Mbeumo be the top goal scorer in the 2025\u201326 English Premier League s",
-              "yes_price": 0.0045,
-              "volume": 41153
             },
             {
               "market_id": "577187",
@@ -543,124 +736,14 @@
             }
           ],
           "url": "https://polymarket.com/event/english-premier-league-top-goalscorer",
-          "strategy": "Buy YES on all 31 outcomes. Total cost: $0.9045. One wins $1.00. Profit: $0.0955 (9.55%)"
-        },
-        {
-          "event_title": "Highest grossing movie in 2026?",
-          "event_slug": "highest-grossing-movie-in-2026",
-          "yes_sum": 0.9055,
-          "profit_pct": 9.45,
-          "profit_per_dollar_pct": 10.44,
-          "num_outcomes": 14,
-          "outcomes": [
-            {
-              "market_id": "678414",
-              "slug": "will-spider-man-brand-new-day-be-the-top-grossing-movie-of-2026",
-              "question": "Will Spider-Man: Brand New Day be the top grossing movie of 2026?",
-              "yes_price": 0.37,
-              "volume": 142213
-            },
-            {
-              "market_id": "678416",
-              "slug": "will-avengers-doomsday-be-the-top-grossing-movie-of-2026",
-              "question": "Will Avengers: Doomsday be the top grossing movie of 2026?",
-              "yes_price": 0.275,
-              "volume": 200708
-            },
-            {
-              "market_id": "678419",
-              "slug": "will-movie-a-be-the-top-grossing-movie-of-2026",
-              "question": "Will The Super Mario Galaxy Movie be the top grossing movie of 2026?",
-              "yes_price": 0.11,
-              "volume": 144900
-            },
-            {
-              "market_id": "678412",
-              "slug": "will-toy-story-5-be-the-top-grossing-movie-of-2026",
-              "question": "Will Toy Story 5 be the top grossing movie of 2026?",
-              "yes_price": 0.0435,
-              "volume": 163128
-            },
-            {
-              "market_id": "678413",
-              "slug": "will-the-odyssey-be-the-top-grossing-movie-of-2026",
-              "question": "Will The Odyssey be the top grossing movie of 2026?",
-              "yes_price": 0.0395,
-              "volume": 349278
-            },
-            {
-              "market_id": "678410",
-              "slug": "will-michael-be-the-top-grossing-movie-of-2026",
-              "question": "Will Michael be the top grossing movie of 2026?",
-              "yes_price": 0.015,
-              "volume": 636002
-            },
-            {
-              "market_id": "678411",
-              "slug": "will-star-wars-the-mandalorian-and-grogu-be-the-top-grossing-movie-of-2026",
-              "question": "Will Star Wars: The Mandalorian and Grogu be the top grossing movie of 2026?",
-              "yes_price": 0.0145,
-              "volume": 120428
-            },
-            {
-              "market_id": "678417",
-              "slug": "will-dune-messiah-be-the-top-grossing-movie-of-2026",
-              "question": "Will Dune: Messiah be the top grossing movie of 2026?",
-              "yes_price": 0.0095,
-              "volume": 260831
-            },
-            {
-              "market_id": "678420",
-              "slug": "will-jumanji-3-be-the-top-grossing-movie-of-2026",
-              "question": "Will Jumanji 3 be the top grossing movie of 2026?",
-              "yes_price": 0.0095,
-              "volume": 91729
-            },
-            {
-              "market_id": "678415",
-              "slug": "will-the-hunger-games-sunrise-on-the-reaping-be-the-top-grossing-movie-of-2026",
-              "question": "Will The Hunger Games: Sunrise on the Reaping be the top grossing movie of 2026?",
-              "yes_price": 0.0055,
-              "volume": 226863
-            },
-            {
-              "market_id": "678418",
-              "slug": "will-project-hail-mary-be-the-top-grossing-movie-of-2026",
-              "question": "Will Project Hail Mary be the top grossing movie of 2026?",
-              "yes_price": 0.0045,
-              "volume": 204785
-            },
-            {
-              "market_id": "678408",
-              "slug": "will-wuthering-heights-be-the-top-grossing-movie-of-2026",
-              "question": "Will Wuthering Heights be the top grossing movie of 2026?",
-              "yes_price": 0.0035,
-              "volume": 382982
-            },
-            {
-              "market_id": "678407",
-              "slug": "will-wicked-for-good-be-the-top-grossing-movie-of-2026",
-              "question": "Will Wicked: For Good be the top grossing movie of 2026?",
-              "yes_price": 0.003,
-              "volume": 436107
-            },
-            {
-              "market_id": "678409",
-              "slug": "will-scream-7-be-the-top-grossing-movie-of-2026",
-              "question": "Will Scream 7 be the top grossing movie of 2026?",
-              "yes_price": 0.0025,
-              "volume": 126929
-            }
-          ],
-          "url": "https://polymarket.com/event/highest-grossing-movie-in-2026",
-          "strategy": "Buy YES on all 14 outcomes. Total cost: $0.9055. One wins $1.00. Profit: $0.0945 (9.45%)"
+          "strategy": "Buy YES on all 31 outcomes. Total cost: $0.9065. One wins $1.00. Profit: $0.0935 (9.35%)"
         },
         {
           "event_title": "MLS Cup Winner 2026",
           "event_slug": "mls-cup-winner-2026",
-          "yes_sum": 0.9075,
-          "profit_pct": 9.25,
-          "profit_per_dollar_pct": 10.19,
+          "yes_sum": 0.908,
+          "profit_pct": 9.2,
+          "profit_per_dollar_pct": 10.13,
           "num_outcomes": 30,
           "outcomes": [
             {
@@ -695,8 +778,8 @@
               "market_id": "1349158",
               "slug": "will-nashville-sc-win-the-2026-mls-cup",
               "question": "Will Nashville SC win the 2026 MLS Cup?",
-              "yes_price": 0.043,
-              "volume": 250595
+              "yes_price": 0.0435,
+              "volume": 250895
             },
             {
               "market_id": "1349171",
@@ -709,22 +792,22 @@
               "market_id": "1349168",
               "slug": "will-seattle-sounders-fc-win-the-2026-mls-cup",
               "question": "Will Seattle Sounders FC win the 2026 MLS Cup?",
-              "yes_price": 0.037,
-              "volume": 713187
+              "yes_price": 0.0365,
+              "volume": 713286
             },
             {
               "market_id": "1349147",
               "slug": "will-fc-cincinnati-win-the-2026-mls-cup",
               "question": "Will FC Cincinnati win the 2026 MLS Cup?",
               "yes_price": 0.036,
-              "volume": 985327
+              "volume": 998964
             },
             {
               "market_id": "1349160",
               "slug": "will-new-york-city-fc-win-the-2026-mls-cup",
               "question": "Will New York City FC win the 2026 MLS Cup?",
               "yes_price": 0.036,
-              "volume": 468839
+              "volume": 468993
             },
             {
               "market_id": "1349167",
@@ -793,8 +876,8 @@
               "market_id": "1349162",
               "slug": "will-orlando-city-sc-win-the-2026-mls-cup",
               "question": "Will Orlando City SC win the 2026 MLS Cup?",
-              "yes_price": 0.01,
-              "volume": 1796007
+              "yes_price": 0.0105,
+              "volume": 1796109
             },
             {
               "market_id": "1349152",
@@ -875,7 +958,7 @@
             }
           ],
           "url": "https://polymarket.com/event/mls-cup-winner-2026",
-          "strategy": "Buy YES on all 30 outcomes. Total cost: $0.9075. One wins $1.00. Profit: $0.0925 (9.25%)"
+          "strategy": "Buy YES on all 30 outcomes. Total cost: $0.9080. One wins $1.00. Profit: $0.0920 (9.20%)"
         },
         {
           "event_title": "Pro Football: 2027 NFC Champion ",
@@ -1000,301 +1083,15 @@
           ],
           "url": "https://polymarket.com/event/pro-football-2027-nfc-champion",
           "strategy": "Buy YES on all 16 outcomes. Total cost: $0.9095. One wins $1.00. Profit: $0.0905 (9.05%)"
-        },
-        {
-          "event_title": "Who will close Warner Bros. acquisition?",
-          "event_slug": "who-will-close-warner-bros-acquisition",
-          "yes_sum": 0.9125,
-          "profit_pct": 8.75,
-          "profit_per_dollar_pct": 9.59,
-          "num_outcomes": 4,
-          "outcomes": [
-            {
-              "market_id": "897019",
-              "slug": "will-paramount-close-warner-bros-acquisition",
-              "question": "Will Paramount close Warner Bros acquisition?",
-              "yes_price": 0.715,
-              "volume": 441288
-            },
-            {
-              "market_id": "897030",
-              "slug": "no-listed-company-closes-warner-bros-acquisition-by-june-30-2027",
-              "question": "No listed company closes Warner Bros acquisition by June 30, 2027",
-              "yes_price": 0.17,
-              "volume": 157569
-            },
-            {
-              "market_id": "897017",
-              "slug": "will-netflix-close-warner-bros-acquisition",
-              "question": "Will Netflix close Warner Bros acquisition?",
-              "yes_price": 0.0195,
-              "volume": 219920
-            },
-            {
-              "market_id": "897018",
-              "slug": "will-comcast-close-warner-bros-acquisition",
-              "question": "Will Comcast close Warner Bros acquisition?",
-              "yes_price": 0.008,
-              "volume": 173873
-            }
-          ],
-          "url": "https://polymarket.com/event/who-will-close-warner-bros-acquisition",
-          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9125. One wins $1.00. Profit: $0.0875 (8.75%)"
-        },
-        {
-          "event_title": "English Premier League \u2013 Last Place ",
-          "event_slug": "english-premier-league-last-place",
-          "yes_sum": 0.9215,
-          "profit_pct": 7.85,
-          "profit_per_dollar_pct": 8.52,
-          "num_outcomes": 14,
-          "outcomes": [
-            {
-              "market_id": "572833",
-              "slug": "will-wolves-finish-in-last-place-in-the-2025-26-english-premier-league",
-              "question": "Will Wolves finish in last place in the 2025-26 English Premier League?",
-              "yes_price": 0.5365,
-              "volume": 30750
-            },
-            {
-              "market_id": "572834",
-              "slug": "will-burnley-finish-in-last-place-in-the-2025-26-english-premier-league",
-              "question": "Will Burnley finish in last place in the 2025-26 English Premier League?",
-              "yes_price": 0.3625,
-              "volume": 20553
-            },
-            {
-              "market_id": "572822",
-              "slug": "will-tottenham-finish-in-last-place-in-the-2025-26-english-premier-league",
-              "question": "Will Tottenham finish in last place in the 2025-26 English Premier League?",
-              "yes_price": 0.014,
-              "volume": 61358
-            },
-            {
-              "market_id": "572824",
-              "slug": "will-nottm-forest-finish-in-last-place-in-the-2025-26-english-premier-league",
-              "question": "Will Nottm Forest finish in last place in the 2025-26 English Premier League?",
-              "yes_price": 0.005,
-              "volume": 90837
-            },
-            {
-              "market_id": "572829",
-              "slug": "will-west-ham-finish-in-last-place-in-the-2025-26-english-premier-league",
-              "question": "Will West Ham finish in last place in the 2025-26 English Premier League?",
-              "yes_price": 0.0035,
-              "volume": 195739
-            },
-            {
-              "market_id": "572816",
-              "slug": "will-liverpool-finish-in-last-place-in-the-2025-26-english-premier-league",
-              "question": "Will Liverpool finish in last place in the 2025-26 English Premier League?",
-              "yes_price": 0.0,
-              "volume": 2235
-            },
-            {
-              "market_id": "572817",
-              "slug": "will-arsenal-finish-in-last-place-in-the-2025-26-english-premier-league",
-              "question": "Will Arsenal finish in last place in the 2025-26 English Premier League?",
-              "yes_price": 0.0,
-              "volume": 12474
-            },
-            {
-              "market_id": "572818",
-              "slug": "will-manchester-city-finish-in-last-place-in-the-2025-26-english-premier-league",
-              "question": "Will Manchester City finish in last place in the 2025-26 English Premier League?",
-              "yes_price": 0.0,
-              "volume": 6008
-            },
-            {
-              "market_id": "572819",
-              "slug": "will-chelsea-finish-in-last-place-in-the-2025-26-english-premier-league",
-              "question": "Will Chelsea finish in last place in the 2025-26 English Premier League?",
-              "yes_price": 0.0,
-              "volume": 19184
-            },
-            {
-              "market_id": "572823",
-              "slug": "will-aston-villa-finish-in-last-place-in-the-2025-26-english-premier-league",
-              "question": "Will Aston Villa finish in last place in the 2025-26 English Premier League?",
-              "yes_price": 0.0,
-              "volume": 19476
-            },
-            {
-              "market_id": "572827",
-              "slug": "will-everton-finish-in-last-place-in-the-2025-26-english-premier-league",
-              "question": "Will Everton finish in last place in the 2025-26 English Premier League?",
-              "yes_price": 0.0,
-              "volume": 30853
-            },
-            {
-              "market_id": "572832",
-              "slug": "will-brentford-finish-in-last-place-in-the-2025-26-english-premier-league",
-              "question": "Will Brentford finish in last place in the 2025-26 English Premier League?",
-              "yes_price": 0.0,
-              "volume": 16707
-            },
-            {
-              "market_id": "572821",
-              "slug": "will-manchester-united-finish-in-last-place-in-the-2025-26-english-premier-league",
-              "question": "Will Manchester United finish in last place in the 2025-26 English Premier Leagu",
-              "yes_price": 0.0,
-              "volume": 4071
-            },
-            {
-              "market_id": "572830",
-              "slug": "will-leeds-finish-in-last-place-in-the-2025-26-english-premier-league",
-              "question": "Will Leeds finish in last place in the 2025-26 English Premier League?",
-              "yes_price": 0.0,
-              "volume": 104729
-            }
-          ],
-          "url": "https://polymarket.com/event/english-premier-league-last-place",
-          "strategy": "Buy YES on all 14 outcomes. Total cost: $0.9215. One wins $1.00. Profit: $0.0785 (7.85%)"
-        },
-        {
-          "event_title": "Which CEOs will be out before 2027?",
-          "event_slug": "which-ceos-will-be-out-before-2027",
-          "yes_sum": 0.9275,
-          "profit_pct": 7.25,
-          "profit_per_dollar_pct": 7.82,
-          "num_outcomes": 6,
-          "outcomes": [
-            {
-              "market_id": "687555",
-              "slug": "tim-cook-out-as-apple-ceo-before-2027",
-              "question": "Tim Cook out as Apple CEO before 2027?",
-              "yes_price": 0.245,
-              "volume": 333925
-            },
-            {
-              "market_id": "687559",
-              "slug": "sam-altman-out-as-openai-ceo-before-2027",
-              "question": "Sam Altman out as OpenAI CEO before 2027?",
-              "yes_price": 0.235,
-              "volume": 73244
-            },
-            {
-              "market_id": "687554",
-              "slug": "sundar-pichai-out-as-google-ceo-before-2027",
-              "question": "Sundar Pichai out as Google CEO before 2027?",
-              "yes_price": 0.135,
-              "volume": 35655
-            },
-            {
-              "market_id": "687557",
-              "slug": "andy-jassy-out-as-amazon-ceo-before-2027",
-              "question": "Andy Jassy out as Amazon CEO before 2027?",
-              "yes_price": 0.13,
-              "volume": 25083
-            },
-            {
-              "market_id": "687558",
-              "slug": "brian-armstrong-out-as-coinbase-ceo-before-2027",
-              "question": "Brian Armstrong out as Coinbase CEO before 2027?",
-              "yes_price": 0.12,
-              "volume": 81098
-            },
-            {
-              "market_id": "687556",
-              "slug": "dan-clancy-out-as-twitch-ceo-before-2027",
-              "question": "Dan Clancy out as Twitch CEO before 2027?",
-              "yes_price": 0.0625,
-              "volume": 38664
-            }
-          ],
-          "url": "https://polymarket.com/event/which-ceos-will-be-out-before-2027",
-          "strategy": "Buy YES on all 6 outcomes. Total cost: $0.9275. One wins $1.00. Profit: $0.0725 (7.25%)"
-        },
-        {
-          "event_title": "When will the DHS shutdown end?",
-          "event_slug": "when-will-the-dhs-shutdown-end-521",
-          "yes_sum": 0.93,
-          "profit_pct": 7.0,
-          "profit_per_dollar_pct": 7.53,
-          "num_outcomes": 10,
-          "outcomes": [
-            {
-              "market_id": "1723674",
-              "slug": "will-the-dhs-shutdown-end-after-april-30-2026-195",
-              "question": "Will the DHS shutdown end after April 30, 2026?",
-              "yes_price": 0.5575,
-              "volume": 145431
-            },
-            {
-              "market_id": "1723671",
-              "slug": "will-the-dhs-shutdown-end-between-april-21-24-2026-975",
-              "question": "Will the DHS shutdown end between April 21-24, 2026?",
-              "yes_price": 0.115,
-              "volume": 49224
-            },
-            {
-              "market_id": "1723670",
-              "slug": "will-the-dhs-shutdown-end-between-april-17-20-2026-376",
-              "question": "Will the DHS shutdown end between April 17-20, 2026?",
-              "yes_price": 0.104,
-              "volume": 400823
-            },
-            {
-              "market_id": "1723672",
-              "slug": "will-the-dhs-shutdown-end-between-april-25-28-2026-745",
-              "question": "Will the DHS shutdown end between April 25-28, 2026?",
-              "yes_price": 0.0545,
-              "volume": 12228
-            },
-            {
-              "market_id": "1723669",
-              "slug": "will-the-dhs-shutdown-end-between-april-13-16-2026-288",
-              "question": "Will the DHS shutdown end between April 13-16, 2026?",
-              "yes_price": 0.0515,
-              "volume": 44847
-            },
-            {
-              "market_id": "1723673",
-              "slug": "will-the-dhs-shutdown-end-between-april-29-30-2026-142",
-              "question": "Will the DHS shutdown end between April 29-30, 2026?",
-              "yes_price": 0.0475,
-              "volume": 12820
-            },
-            {
-              "market_id": "1723665",
-              "slug": "will-the-dhs-shutdown-end-before-april-1-2026-954",
-              "question": "Will the DHS shutdown end before April 1, 2026?",
-              "yes_price": 0.0,
-              "volume": 39006
-            },
-            {
-              "market_id": "1723666",
-              "slug": "will-the-dhs-shutdown-end-between-april-1-4-2026-864",
-              "question": "Will the DHS shutdown end between April 1-4, 2026?",
-              "yes_price": 0.0,
-              "volume": 60213
-            },
-            {
-              "market_id": "1723667",
-              "slug": "will-the-dhs-shutdown-end-between-april-5-8-2026-658",
-              "question": "Will the DHS shutdown end between April 5-8, 2026?",
-              "yes_price": 0.0,
-              "volume": 101504
-            },
-            {
-              "market_id": "1723668",
-              "slug": "will-the-dhs-shutdown-end-between-april-9-12-2026-277",
-              "question": "Will the DHS shutdown end between April 9-12, 2026?",
-              "yes_price": 0.0,
-              "volume": 38639
-            }
-          ],
-          "url": "https://polymarket.com/event/when-will-the-dhs-shutdown-end-521",
-          "strategy": "Buy YES on all 10 outcomes. Total cost: $0.9300. One wins $1.00. Profit: $0.0700 (7.00%)"
         }
       ],
       "stats": {
-        "total_events": 400,
-        "checked_multi_outcome": 350,
-        "skipped_single_outcome": 50,
-        "opportunities_found": 25,
-        "best_profit_pct": 9.8,
-        "scanned_at": "2026-04-14 02:44 UTC"
+        "total_events": 3000,
+        "checked_multi_outcome": 1879,
+        "skipped_single_outcome": 609,
+        "opportunities_found": 144,
+        "best_profit_pct": 10.0,
+        "scanned_at": "2026-04-14 03:08 UTC"
       }
     },
     {
