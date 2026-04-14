@@ -1,16 +1,16 @@
 {
-  "last_scan": "2026-04-14T20:07:01.206240+00:00",
-  "scan_seconds": 62.0,
+  "last_scan": "2026-04-14T20:07:52.196792+00:00",
+  "scan_seconds": 30.2,
   "markets_scanned": 65,
   "open_positions": 33,
   "signals": [
     {
-      "id": "sig_942851",
-      "timestamp": "2026-04-14T20:06:06.653415+00:00",
+      "id": "sig_30076",
+      "timestamp": "2026-04-14T20:07:33.877367+00:00",
       "source": "PERPLEXITY",
-      "headline": "Trump Announces 2-Week Ceasefire with Iran Ahead of Deadline | YES | HIGH confidence**",
-      "raw": "Trump Announces 2-Week Ceasefire with Iran Ahead of Deadline | YES | HIGH confidence**  \nPresident Trump announced on Truth Social a mutual 2-week ceasefire with Iran, conditional on Iran's \"COMPLETE, IMMEDIATE, and SAFE OPENING\" of the Strait of Hormuz, calling Iran's 10-point peace proposal a \"workable basis\" for negotiations mediated by Pakistan.[1]  \nIran's Foreign Minister confirmed agreement",
-      "direction": "YES",
+      "headline": "US-Iran Weigh New Talks to Extend Ceasefire Before April 21 Expiration Amid Trump's Naval Blockade | NO | MED confidence",
+      "raw": "US-Iran Weigh New Talks to Extend Ceasefire Before April 21 Expiration Amid Trump's Naval Blockade | NO | MED confidence**\n\nA two-week ceasefire between the US and Iran, expiring around April 21-22, remains in place despite collapsed talks in Pakistan, with both sides now considering fresh negotiations for extension or a larger deal[1][2][3][4]. President Trump announced a US Navy blockade of the ",
+      "direction": "NO",
       "confidence": 0.9,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
@@ -22,45 +22,43 @@
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_996361",
-      "timestamp": "2026-04-14T20:07:00.163904+00:00",
+      "id": "sig_35316",
+      "timestamp": "2026-04-14T20:07:39.117189+00:00",
       "source": "PERPLEXITY",
-      "headline": "South Korea March 2026 Annual Inflation Confirmed at 2",
-      "raw": "South Korea March 2026 Annual Inflation Confirmed at 2.2% (Up from 2.0%, Below 2.4% Forecast) | YES | HIGH confidence** [1]\n\nThis data, released around early April 2026, shows inflation rising modestly but missing higher market expectations amid Iran conflict-driven oil volatility, potentially influencing Bank of Korea rate cut odds in prediction markets.[1][3][5] The Bank of Korea held rates at 2",
-      "direction": "YES",
+      "headline": "US-Iran peace talks fail after weekend negotiations led by VP JD Vance; Vance returns empty-handed amid reports of no ag",
+      "raw": "US-Iran peace talks fail after weekend negotiations led by VP JD Vance; Vance returns empty-handed amid reports of no agreement reached.** | NO | HIGH confidence[1][4][5]\n\nVance, as Trump's Vice President, led direct US-Iran talks over the weekend but confirmed their collapse, describing any potential ceasefire as a \"fragile truce\" while accusing some Iranian parties of \"lying.\"[4][5] Chief US neg",
+      "direction": "NO",
       "confidence": 0.9,
       "matched_markets": [
+        "Will J.D. Vance win the 2028 Republican presidential nominat",
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces US x Iran ceasefire end by April 21, 2026?",
-        "US x Iran permanent peace deal by April 22, 2026?"
+        "Trump announces end of military operations against Iran by A"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_47394",
+      "timestamp": "2026-04-14T20:07:51.195738+00:00",
+      "source": "PERPLEXITY",
+      "headline": "South Korea March 2026 Inflation Confirmed at 2",
+      "raw": "South Korea March 2026 Inflation Confirmed at 2.2% | NO | HIGH confidence**  \nSouth Korea's annual inflation rate rose to 2.2% in March 2026 from 2.0% in January and February, missing market forecasts of 2.4% and remaining near the Bank of Korea's 2% target.[1] This newly released figure (as of early March 2026 data) indicates contained price pressures amid global energy volatility, potentially re",
+      "direction": "NO",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
       ],
       "action": "ENTER",
       "x_link": null,
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_982768",
-      "timestamp": "2026-04-14T20:06:46.570604+00:00",
+      "id": "sig_42152",
+      "timestamp": "2026-04-14T20:07:45.953905+00:00",
       "source": "PERPLEXITY",
-      "headline": "JD Vance confirms failure of US-Iran peace talks, calling resulting ceasefire a \"fragile truce\" amid accusations of Iran",
-      "raw": "JD Vance confirms failure of US-Iran peace talks, calling resulting ceasefire a \"fragile truce\" amid accusations of Iranian deception | YES | HIGH confidence** [1][4][5]\n\nVice President JD Vance returned empty-handed from recent Iran negotiations over the weekend, with no peace agreement reached despite intensive discussions that Trump described as \"very friendly\" until the final sticking point.[4",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will J.D. Vance win the 2028 Republican presidential nominat",
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces end of military operations against Iran by A"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_990442",
-      "timestamp": "2026-04-14T20:06:54.244070+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Solana (SOL) Surges 10% on Record 167M Token Holders and Alpenglow Upgrade Progress | YES | HIGH confidence** [1][7]",
-      "raw": "Solana (SOL) Surges 10% on Record 167M Token Holders and Alpenglow Upgrade Progress | YES | HIGH confidence** [1][7]\n\nAs of April 14, 2026, Solana hit an all-time high of 167 million monthly token holders and 148 million daily non-vote transactions, driving a 10% price surge amid robust institutional interest from BlackRock and Fidelity's SOL ETF holdings.[1][7] The Alpenglow consensus upgrade (SI",
+      "headline": "$280M+ Drift Protocol Exploit on Solana Confirmed via Social Engineering** | **YES** | **HIGH** confidence[6]",
+      "raw": "$280M+ Drift Protocol Exploit on Solana Confirmed via Social Engineering** | **YES** | **HIGH** confidence[6]\n\nSolana (SOL) faces fallout from a major exploit on its Drift protocol, where attackers used social engineering and pre-approved transactions to gain administrative control, draining over $280 million; Circle had a six-hour window to freeze $230M+ in bridged USDC but did not act[6]. This e",
       "direction": "YES",
       "confidence": 0.6,
       "matched_markets": [
@@ -72,9 +70,9 @@
     }
   ],
   "stats": {
-    "enter": 2,
-    "alert": 1,
+    "enter": 3,
+    "alert": 0,
     "watch": 1,
-    "high_conf": 2
+    "high_conf": 3
   }
 }
