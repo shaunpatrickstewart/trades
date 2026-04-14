@@ -1,48 +1,63 @@
 {
-  "last_scan": "2026-04-14T21:00:37.981509+00:00",
-  "scan_seconds": 83.1,
-  "markets_scanned": 117,
-  "open_positions": 82,
+  "last_scan": "2026-04-14T21:01:13.127930+00:00",
+  "scan_seconds": 28.9,
+  "markets_scanned": 87,
+  "open_positions": 52,
   "signals": [
     {
-      "id": "sig_185423",
-      "timestamp": "2026-04-14T21:00:09.221714+00:00",
+      "id": "sig_241027",
+      "timestamp": "2026-04-14T21:01:04.825802+00:00",
       "source": "PERPLEXITY",
-      "headline": "US-Iran Peace Talks to Resume Within Days Before April 7 Ceasefire Expires | YES | MED confidence**",
-      "raw": "US-Iran Peace Talks to Resume Within Days Before April 7 Ceasefire Expires | YES | MED confidence**\n\nA two-week ceasefire announced on **April 7** between the US and Iran is set to expire next week, with both sides planning fresh negotiations potentially as early as **Friday through Sunday**, following stalled weekend talks in Islamabad[1][2][4]. Iranian and Pakistani officials report delegations ",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces end of military operations against Iran by A",
-        "Trump announces US x Iran ceasefire end by April 21, 2026?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_213179",
-      "timestamp": "2026-04-14T21:00:36.977463+00:00",
-      "source": "PERPLEXITY",
-      "headline": "South Korea's March 2026 annual inflation rate confirmed at 2",
-      "raw": "South Korea's March 2026 annual inflation rate confirmed at 2.16% YoY, up from 2.00% in February 2026** | YES | HIGH confidence[1]\n\nThis newly released figure from Statistics Korea shows a 0.34% month-to-month rise, with the Consumer Price Index at 118.8 for March, exceeding the Bank of Korea's 2% target amid ongoing pressures from oil costs and external risks[1][4]. The uptick could influence pre",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_202890",
-      "timestamp": "2026-04-14T21:00:26.688069+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Vance-Rubio Iran Policy Clash Highlights 2028 GOP Tensions Amid Trump Admin Confidence Statement** | NO | HIGH confidenc",
-      "raw": "Vance-Rubio Iran Policy Clash Highlights 2028 GOP Tensions Amid Trump Admin Confidence Statement** | NO | HIGH confidence[2]\n\nNo new confirmations or resolutions on **JD Vance**; a White House statement on April 13-14, 2026, reaffirmed President Trump's \"full confidence\" in Vice President **Vance** and Secretary Rubio despite their public differences on the ongoing Iran war, with no impact on elec",
+      "headline": "Drift Protocol Hack on Solana Confirmed: $280M Stolen on April 1** | NO | HIGH[3]",
+      "raw": "Drift Protocol Hack on Solana Confirmed: $280M Stolen on April 1** | NO | HIGH[3]",
       "direction": "NO",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will the price of Solana be between $100 and $110 on April 1",
+        "Will the price of Solana be above $100 on April 18?",
+        "Will the price of Solana be above $130 on April 19?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_241034",
+      "timestamp": "2026-04-14T21:01:04.832073+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Solana Alpenglow Upgrade Governance Vote Passed with 98",
+      "raw": "Solana Alpenglow Upgrade Governance Vote Passed with 98.27% Approval** | YES | HIGH[4]",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_236123",
+      "timestamp": "2026-04-14T21:00:59.921246+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Trump's Partial Blockade of Strait of Hormuz Underway After Iran Peace Talks Breakdown | NO | HIGH confidence**",
+      "raw": "Trump's Partial Blockade of Strait of Hormuz Underway After Iran Peace Talks Breakdown | NO | HIGH confidence**  \nPresident Trump has initiated a blockade of Iranian ports and a partial blockade of the Strait of Hormuz following the collapse of weekend peace talks with Iran, escalating tensions amid his public criticism of Pope Leo's anti-war stance.[1]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Trump announces end of military operations against Iran by A",
+        "Trump announces US x Iran ceasefire end by April 21, 2026?",
+        "Will Trump announce that the US x Iran ceasefire has been br"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_236138",
+      "timestamp": "2026-04-14T21:00:59.936335+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Progress in US-Iran Talks Confirmed by VP JD Vance; \"Final Offer\" Extended to Tehran | YES | MED confidence**",
+      "raw": "Progress in US-Iran Talks Confirmed by VP JD Vance; \"Final Offer\" Extended to Tehran | YES | MED confidence**  \nVP JD Vance stated on April 13 Fox News that high-level US-Iran talks achieved progress, including clear red lines and a US desire for Iran's normalization, with a \"final and definitive offer\" now pending after Saturday's dialogue amid Trump's two-week ultimatum to reopen the Strait.[2][",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
@@ -54,25 +69,39 @@
       "category": "POLITICS"
     },
     {
-      "id": "sig_202881",
-      "timestamp": "2026-04-14T21:00:26.679371+00:00",
+      "id": "sig_241040",
+      "timestamp": "2026-04-14T21:01:04.838106+00:00",
       "source": "PERPLEXITY",
-      "headline": "NJ-11 Special Election Set for April: Republican Joe Hathaway Faces Democrat Analilia Mejia in Key Race to Test GOP Grip",
-      "raw": "NJ-11 Special Election Set for April: Republican Joe Hathaway Faces Democrat Analilia Mejia in Key Race to Test GOP Grip** | NO | HIGH confidence[1][3]\n\nNo confirmed results, announcements, or resolutions reported for the NJ-11 special election involving **Joe Hathaway**; the race remains undecided ahead of the April 2026 vote, pitting Hathaway (unopposed Republican primary winner and local mayor)",
-      "direction": "NO",
+      "headline": "SEC/CFTC Classify Digital Assets like Solana as Commodities, Boosting Regulatory Clarity** | YES | MED[8]",
+      "raw": "SEC/CFTC Classify Digital Assets like Solana as Commodities, Boosting Regulatory Clarity** | YES | MED[8]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_228727",
+      "timestamp": "2026-04-14T21:00:52.525355+00:00",
+      "source": "PERPLEXITY",
+      "headline": "US and Iran Weigh Negotiations to Extend Two-Week Ceasefire Before April 21 Expiration Amid Trump's Naval Blockade | YES",
+      "raw": "US and Iran Weigh Negotiations to Extend Two-Week Ceasefire Before April 21 Expiration Amid Trump's Naval Blockade | YES | MED confidence**[1]\n\nReports confirm the US and Iran are considering fresh talks for a larger ceasefire deal, as the current two-week truce nears its end around April 21, while Trump advances a naval blockade of the Strait of Hormuz to pressure Tehran's oil exports.[1] Sources",
+      "direction": "YES",
       "confidence": 0.6,
       "matched_markets": [
-        "Will Joe Hathaway win the NJ-11 special election?",
-        "Will NYC Mayor post 160-179 posts from April 10 to April 17,"
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces end of military operations against Iran by A",
+        "Trump announces US x Iran ceasefire end by April 21, 2026?"
       ],
       "action": "WATCH",
       "x_link": null,
-      "category": "POLITICS"
+      "category": "GEOPOLITICS"
     }
   ],
   "stats": {
-    "enter": 2,
-    "alert": 1,
+    "enter": 1,
+    "alert": 4,
     "watch": 1,
     "high_conf": 2
   }
