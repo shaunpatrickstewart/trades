@@ -1,77 +1,81 @@
 {
-  "last_scan": "2026-04-14T21:28:26.411693+00:00",
-  "scan_seconds": 26.6,
-  "markets_scanned": 68,
+  "last_scan": "2026-04-14T21:31:17.343292+00:00",
+  "scan_seconds": 29.6,
+  "markets_scanned": 69,
   "open_positions": 34,
   "signals": [
     {
-      "id": "sig_876296",
-      "timestamp": "2026-04-14T21:28:20.093503+00:00",
+      "id": "sig_32558",
+      "timestamp": "2026-04-14T21:30:56.354977+00:00",
       "source": "PERPLEXITY",
-      "headline": "Solana Hits All-Time Record 167 Million Monthly Token Holders on April 14, 2026, Bolstered by Alpenglow Consensus Upgrad",
-      "raw": "Solana Hits All-Time Record 167 Million Monthly Token Holders on April 14, 2026, Bolstered by Alpenglow Consensus Upgrade | YES | HIGH confidence** [2]\n\nThis breaking development, reported as occurring on April 14, 2026, includes daily non-vote transactions at historic highs of 148 million and the Alpenglow upgrade reducing transaction finality from 12 seconds to 150 milliseconds, driving a 10% SO",
+      "headline": "US and Iran Weigh Negotiations to Extend Two-Week Ceasefire Before April 21 Expiration Amid Trump's Naval Blockade | YES",
+      "raw": "US and Iran Weigh Negotiations to Extend Two-Week Ceasefire Before April 21 Expiration Amid Trump's Naval Blockade | YES | MED confidence**[1]\n\nThe US and Iran are considering fresh talks for a longer-term ceasefire deal, as the current two-week truce nears its end around April 21, while Trump advances a naval blockade of the Strait of Hormuz to pressure Tehran's oil exports.[1] This development f",
       "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Bitcoin Up or Down - April 14, 6:30PM-6:45PM ET",
-        "Solana Up or Down - April 15, 4:40AM-4:45AM ET"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_881614",
-      "timestamp": "2026-04-14T21:28:25.411063+00:00",
-      "source": "PERPLEXITY",
-      "headline": "South Korea's March 2026 annual inflation rate confirmed at 2",
-      "raw": "South Korea's March 2026 annual inflation rate confirmed at 2.2% (up from 2.0% in Jan/Feb), below market forecasts of 2.4% | NO | HIGH confidence** [1][3]\n\nThis data was released around early April 2026 (post March 5 update in source [1]), marking the most recent confirmed figure as of April 14, with slight variance to 2.16% in one source but consensus on the rise being modest and below expectatio",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces US x Iran ceasefire end by April 21, 2026?",
-        "US x Iran permanent peace deal by April 22, 2026?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_870864",
-      "timestamp": "2026-04-14T21:28:14.661558+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Confidence is LOW** due to the dated sources (January 2026) lacking any April 2026 tie-ins or real-time confirmations[1]",
-      "raw": "Confidence is LOW** due to the dated sources (January 2026) lacking any April 2026 tie-ins or real-time confirmations[1][2][3][4].",
-      "direction": null,
       "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_864729",
-      "timestamp": "2026-04-14T21:28:08.526599+00:00",
-      "source": "PERPLEXITY",
-      "headline": "US and Iran Weighing Talks to Extend Two-Week Ceasefire Before April 21 Expiration Amid Trump's Naval Blockade | NO | ME",
-      "raw": "US and Iran Weighing Talks to Extend Two-Week Ceasefire Before April 21 Expiration Amid Trump's Naval Blockade | NO | MED confidence**[1]\n\nReports indicate the US and Iran are considering fresh negotiations for a **longer-term ceasefire deal**, with discussions aimed at occurring before the current two-week truce expires around **April 21, 2026**[1]. President **Trump** is pressing ahead with a **",
-      "direction": "NO",
-      "confidence": 0.6,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
         "Trump announces end of military operations against Iran by A",
         "Trump announces US x Iran ceasefire end by April 21, 2026?"
       ],
-      "action": "WATCH",
+      "action": "ALERT",
       "x_link": null,
       "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_45149",
+      "timestamp": "2026-04-14T21:31:08.945213+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Solana (SOL) Surges 10% on Alpenglow Upgrade and Record Network Metrics | YES | HIGH confidence**",
+      "raw": "Solana (SOL) Surges 10% on Alpenglow Upgrade and Record Network Metrics | YES | HIGH confidence**  \nNo confirmed announcements for Bitcoin price movement; sources show BTC trading around $66,400-$68,758 amid conference hype but no resolution impacting prediction markets.[1][3][8]  \nSolana hit an all-time high of 167 million monthly token holders and 148 million daily non-vote transactions as of Ap",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Bitcoin Up or Down - April 14, 6:30PM-6:45PM ET",
+        "Solana Up or Down - April 15, 4:40AM-4:45AM ET"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_52522",
+      "timestamp": "2026-04-14T21:31:16.318597+00:00",
+      "source": "PERPLEXITY",
+      "headline": "South Korea's Annual Inflation Rises to 2",
+      "raw": "South Korea's Annual Inflation Rises to 2.2% in March 2026 | YES | MED confidence**\n\nSouth Korea's annual inflation rate increased to 2.2% in March 2026, up from 2.0% in the prior two months (January and February), though below market forecasts of 2.4%[2]. This newly reported figure, from data as recent as March 2026, marks a shift from the five-month low of 2.0% hit in January that aligned with t",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces US x Iran ceasefire end by April 21, 2026?",
+        "US x Iran permanent peace deal by April 22, 2026?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_39415",
+      "timestamp": "2026-04-14T21:31:03.211102+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Elon Musk reaffirms support for Republicans ahead of 2026 midterms, pledging significant funding despite past Trump feud",
+      "raw": "Elon Musk reaffirms support for Republicans ahead of 2026 midterms, pledging significant funding despite past Trump feud | YES | HIGH confidence**[1][2][3]\n\nMusk posted on X on New Year's Day: \"America is toast if the radical left wins,\" responding to claims he is \"going all-in funding Republicans to help President Trump take back full control\" in November midterms, with recent undisclosed donatio",
+      "direction": "YES",
+      "confidence": 0.6,
+      "matched_markets": [
+        "Will J.D. Vance win the 2028 Republican presidential nominat",
+        "Trump announces US x Iran ceasefire end by April 21, 2026?",
+        "Will Trump announce that the US x Iran ceasefire has been br"
+      ],
+      "action": "WATCH",
+      "x_link": null,
+      "category": "POLITICS"
     }
   ],
   "stats": {
-    "enter": 2,
-    "alert": 1,
+    "enter": 0,
+    "alert": 3,
     "watch": 1,
-    "high_conf": 2
+    "high_conf": 0
   }
 }
