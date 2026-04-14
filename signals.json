@@ -1,32 +1,48 @@
 {
-  "last_scan": "2026-04-14T22:34:14.459709+00:00",
-  "scan_seconds": 30.6,
-  "markets_scanned": 71,
+  "last_scan": "2026-04-14T22:36:59.239932+00:00",
+  "scan_seconds": 23.1,
+  "markets_scanned": 68,
   "open_positions": 33,
   "signals": [
     {
-      "id": "sig_818842",
-      "timestamp": "2026-04-14T22:34:02.635254+00:00",
+      "id": "sig_978224",
+      "timestamp": "2026-04-14T22:36:42.017478+00:00",
       "source": "PERPLEXITY",
-      "headline": "**\"Will Trump\"**: No specific context provided in the search results",
-      "raw": "**\"Will Trump\"**: No specific context provided in the search results.\n\nTo provide accurate market-moving news in your requested format, I would need search results containing newly confirmed announcements, election results, policy decisions, or political developments from today or very recently. The current results appear to be from earlier dates or lack the specificity needed for high-confidence ",
+      "headline": "US and Iran Plan Fresh Talks Before April 7 Ceasefire Expires Next Week | NO | HIGH confidence**",
+      "raw": "US and Iran Plan Fresh Talks Before April 7 Ceasefire Expires Next Week | NO | HIGH confidence**  \nNo ceasefire extension, resolution, or deal has been confirmed; weekend talks in Islamabad ended without agreement, but both sides are discussing a second round of negotiations before the two-week truce expires early next week.[1]",
       "direction": "NO",
       "confidence": 0.9,
       "matched_markets": [
-        "Will Trump announce that the US x Iran ceasefire has been br",
-        "Will Trump talk to Elon Musk in April?",
-        "Will Trump say \"Discombobulator\" or \"Discombobulated\" in April?"
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces US x Iran ceasefire end by April 21, 2026?",
+        "US x Iran permanent peace deal by April 22, 2026?"
       ],
       "action": "ENTER",
       "x_link": null,
-      "category": "POLITICS"
+      "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_829665",
-      "timestamp": "2026-04-14T22:34:13.458714+00:00",
+      "id": "sig_989683",
+      "timestamp": "2026-04-14T22:36:53.476764+00:00",
       "source": "PERPLEXITY",
-      "headline": "South Korea March 2026 annual inflation rises to 2",
-      "raw": "South Korea March 2026 annual inflation rises to 2.16% YoY (from 2.00% in Feb), with MoM at 0.34% | YES | HIGH confidence**[1]\n\nThis newly released data from Statistics Korea shows consumer prices (CPI 118.8) ticking above the Bank of Korea's 2% target, reversing the prior month's dip amid ongoing rate holds at 2.5% (7th consecutive month per recent BoK decision).[1][4] The uptick, driven by recen",
+      "headline": "Solana Hits All-Time Record 167 Million Monthly Token Holders & 148 Million Daily Non-Vote Transactions on April 14, 202",
+      "raw": "Solana Hits All-Time Record 167 Million Monthly Token Holders & 148 Million Daily Non-Vote Transactions on April 14, 2026, Bolstered by Alpenglow Upgrade** | **YES** | **HIGH** confidence[1]\n\nSolana's network activity has surged, with real-world assets (RWAs) reaching $1.71 billion (up 45% in a month) and stablecoin transactions hitting $650 billion in one month, more than double prior records[1].",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will the price of Bitcoin be above $74,000 on April 15?",
+        "Solana Up or Down - April 15, 4:40AM-4:45AM ET"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_994446",
+      "timestamp": "2026-04-14T22:36:58.239053+00:00",
+      "source": "PERPLEXITY",
+      "headline": "South Korea March 2026 CPI: Annual Inflation at 2",
+      "raw": "South Korea March 2026 CPI: Annual Inflation at 2.16% (up from 2.00% in Feb)** | NO | LOW confidence\n\nSouth Korea's year-over-year inflation rate rose slightly to 2.16% in March 2026 from 2.00% in February 2026, with month-to-month inflation at 0.34%.[2] This is the most recent monthly data available (as of search results), but no breaking announcements, confirmations, or resolutions were reported",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
@@ -37,144 +53,27 @@
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_811238",
-      "timestamp": "2026-04-14T22:33:55.031955+00:00",
+      "id": "sig_978229",
+      "timestamp": "2026-04-14T22:36:42.022865+00:00",
       "source": "PERPLEXITY",
-      "headline": "US Imposes Blockade on Iranian Ports as Ceasefire Talks Stall | ESCALATION CONFIRMED | HIGH confidence**",
-      "raw": "US Imposes Blockade on Iranian Ports as Ceasefire Talks Stall | ESCALATION CONFIRMED | HIGH confidence**\n\nPresident Trump has ordered the U.S. Central Command to maintain a blockade of all Iranian ports, with the Navy restricting maritime traffic through the Strait of Hormuz.[3][4] This blockade specifically targets Iranian oil tankers while allowing other international transit under monitoring.[4",
-      "direction": null,
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces US x Iran ceasefire end by April 21, 2026?",
-        "Trump announces end of military operations against Iran by A"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_811243",
-      "timestamp": "2026-04-14T22:33:55.036808+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Two-Week Ceasefire Announced April 7 Remains in Effect but Expires Early Next Week | STILL ACTIVE | HIGH confidence**",
-      "raw": "Two-Week Ceasefire Announced April 7 Remains in Effect but Expires Early Next Week | STILL ACTIVE | HIGH confidence**\n\nA two-week ceasefire was announced on April 7 and is set to expire in early the following week.[2] However, both the U.S. and Iran are discussing fresh negotiations before the ceasefire expires, with talks previously stalling over Iran's enriched uranium stockpile.[2][4]",
-      "direction": null,
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces US x Iran ceasefire end by April 21, 2026?",
-        "US x Iran permanent peace deal by April 22, 2026?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_818812",
-      "timestamp": "2026-04-14T22:34:02.605659+00:00",
-      "source": "PERPLEXITY",
-      "headline": "I cannot provide the breaking news format you've requested because the search results do not contain confirmed announcem",
-      "raw": "I cannot provide the breaking news format you've requested because the search results do not contain confirmed announcements or resolutions that would move prediction markets for the topics you've specified.\n\nThe search results include:",
-      "direction": null,
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_811233",
-      "timestamp": "2026-04-14T22:33:55.026866+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Based on the search results, here are the key developments:",
-      "raw": "Based on the search results, here are the key developments:",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_811248",
-      "timestamp": "2026-04-14T22:33:55.041795+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Key Pressure Point: Nuclear Material Demands | UNRESOLVED | HIGH confidence**",
-      "raw": "Key Pressure Point: Nuclear Material Demands | UNRESOLVED | HIGH confidence**\n\nThe U.S. is demanding that Iran remove its enriched uranium from the country, with Trump stating \"Iran will not have a nuclear weapon\" and that any agreement allowing Iran to retain its uranium stockpile would be considered a \"dangerous failure.\"[4] Analysts note the fundamental incompatibility between U.S. and Iranian ",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces US x Iran ceasefire end by April 21, 2026?",
-        "Trump announces end of military operations against Iran by A"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_818821",
-      "timestamp": "2026-04-14T22:34:02.614867+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Trump and Hormuz**: A statement from Trump on Truth Social regarding fuel disruptions near the Strait of Hormuz and cr",
-      "raw": "**Trump and Hormuz**: A statement from Trump on Truth Social regarding fuel disruptions near the Strait of Hormuz and criticism of allies, but this appears to be commentary rather than a breaking announcement of new policy or market-moving developments.[1]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_818828",
-      "timestamp": "2026-04-14T22:34:02.621180+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Kerala Legislative Assembly and Indian Union Muslim League**: References to the BJP's manifesto for Kerala Assembly el",
-      "raw": "**Kerala Legislative Assembly and Indian Union Muslim League**: References to the BJP's manifesto for Kerala Assembly elections (which occurred on April 9) and historical information about the IUML's seat allocation in Lok Sabha elections, but no breaking news about confirmed results or major political developments as of April 14, 2026.[1][2][4]",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the Indian Union Muslim League (IUML) win between 10 and 12 seats in the 20"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_818835",
-      "timestamp": "2026-04-14T22:34:02.628140+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Trump and Vance**: No information in the search results",
-      "raw": "**Trump and Vance**: No information in the search results.",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_823943",
-      "timestamp": "2026-04-14T22:34:07.736705+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Solana Hits All-Time Record 167 Million Monthly Token Holders and 148 Million Daily Non-Vote Transactions on April 14, 2",
-      "raw": "Solana Hits All-Time Record 167 Million Monthly Token Holders and 148 Million Daily Non-Vote Transactions on April 14, 2026, Bolstered by Alpenglow Consensus Upgrade** | YES | HIGH confidence[1]\n\nThis breaking development confirms unprecedented network growth and activity, with the **Alpenglow upgrade** set to reduce transaction finality from 12 seconds to 150 milliseconds, potentially driving ado",
+      "headline": "US Imposes Blockade on Iranian Shipping in Strait of Hormuz Amid Faltering Ceasefire Talks | NO | MED confidence**",
+      "raw": "US Imposes Blockade on Iranian Shipping in Strait of Hormuz Amid Faltering Ceasefire Talks | NO | MED confidence**  \nTensions rise as the US enacts a blockade on Iranian oil tankers (allowing other transit under monitoring), with President Trump pressuring Iran to accept terms; ceasefire talks are faltering, raising risks of renewed conflict, but no resolution announced.[2]",
       "direction": "YES",
-      "confidence": 0.6,
+      "confidence": 0.65,
       "matched_markets": [
-        "Will the price of Bitcoin be above $74,000 on April 15?",
-        "Solana Up or Down - April 15, 4:40AM-4:45AM ET"
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces US x Iran ceasefire end by April 21, 2026?",
+        "Trump announces end of military operations against Iran by A"
       ],
-      "action": "WATCH",
+      "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "GEOPOLITICS"
     }
   ],
   "stats": {
-    "enter": 2,
-    "alert": 8,
-    "watch": 1,
-    "high_conf": 5
+    "enter": 3,
+    "alert": 1,
+    "watch": 0,
+    "high_conf": 3
   }
 }
