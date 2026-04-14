@@ -8,346 +8,84 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 129 categorical arb opportunities found\nScanned 3000 events (1962 multi-outcome) at 2026-04-14 16:41 UTC\nBest: 10.0% profit on 'Vermont Governor Election Winner' \u2014 buy YES on all 2 outcomes (sum=0.9)\nStrategy: Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 9.95% on 'Presidential Election Winner 2028'",
+      "result": "LIVE \u2014 129 categorical arb opportunities found\nScanned 3000 events (1967 multi-outcome) at 2026-04-14 17:08 UTC\nBest: 9.6% profit on 'How many Gold Cards will Trump sell in 2026?' \u2014 buy YES on all 9 outcomes (sum=0.904)\nStrategy: Buy YES on all 9 outcomes. Total cost: $0.9040. One wins $1.00. Profit: $0.0960 (9.60%)\n2nd: 9.5% on '2025-2026 PFA Players' Player of the Year Winner'",
       "priority": "HIGH",
-      "last_scan": "2026-04-14 16:41 UTC",
+      "last_scan": "2026-04-14 17:08 UTC",
       "opportunities": [
         {
-          "event_title": "Vermont Governor Election Winner",
-          "event_slug": "vermont-governor-winner-2026",
-          "yes_sum": 0.9,
-          "profit_pct": 10.0,
-          "profit_per_dollar_pct": 11.11,
-          "num_outcomes": 2,
+          "event_title": "How many Gold Cards will Trump sell in 2026?",
+          "event_slug": "how-many-gold-cards-will-trump-sell-in-2026",
+          "yes_sum": 0.904,
+          "profit_pct": 9.6,
+          "profit_per_dollar_pct": 10.62,
+          "num_outcomes": 9,
           "outcomes": [
             {
-              "market_id": "629708",
-              "slug": "will-the-republicans-win-the-vermont-governor-race-in-2026",
-              "question": "Will the Republicans win the Vermont governor race in 2026?",
-              "yes_price": 0.73,
-              "volume": 10754
+              "market_id": "665316",
+              "slug": "will-trump-sell-0-gold-cards-in-2026",
+              "question": "Will Trump sell 0 Gold Cards in 2026?",
+              "yes_price": 0.41,
+              "volume": 26518
             },
             {
-              "market_id": "629707",
-              "slug": "will-the-democrats-win-the-vermont-governor-race-in-2026",
-              "question": "Will the Democrats win the Vermont governor race in 2026?",
-              "yes_price": 0.17,
-              "volume": 7238
+              "market_id": "665317",
+              "slug": "will-trump-sell-1-100-gold-cards-in-2026",
+              "question": "Will Trump sell 1-100 Gold Cards in 2026?",
+              "yes_price": 0.1815,
+              "volume": 10668
+            },
+            {
+              "market_id": "665320",
+              "slug": "will-trump-sell-2pt5k-5k-gold-cards-in-2026",
+              "question": "Will Trump sell 2.5k-5k Gold Cards in 2026?",
+              "yes_price": 0.0615,
+              "volume": 4542
+            },
+            {
+              "market_id": "665319",
+              "slug": "will-trump-sell-1k-2pt5k-gold-cards-in-2026",
+              "question": "Will Trump sell 1k-2.5k Gold Cards in 2026?",
+              "yes_price": 0.06,
+              "volume": 7586
+            },
+            {
+              "market_id": "665324",
+              "slug": "will-trump-sell-over-100k-gold-cards-in-2026",
+              "question": "Will Trump sell over 100k Gold Cards in 2026?",
+              "yes_price": 0.057,
+              "volume": 15163
+            },
+            {
+              "market_id": "665323",
+              "slug": "will-trump-sell-25k-100k-gold-cards-in-2026",
+              "question": "Will Trump sell 25k-100k Gold Cards in 2026?",
+              "yes_price": 0.044,
+              "volume": 5351
+            },
+            {
+              "market_id": "665321",
+              "slug": "will-trump-sell-5k-10k-gold-cards-in-2026",
+              "question": "Will Trump sell 5k-10k Gold Cards in 2026?",
+              "yes_price": 0.0375,
+              "volume": 6136
+            },
+            {
+              "market_id": "665322",
+              "slug": "will-trump-sell-10k-25k-gold-cards-in-2026",
+              "question": "Will Trump sell 10k-25k Gold Cards in 2026?",
+              "yes_price": 0.028,
+              "volume": 55604
+            },
+            {
+              "market_id": "665318",
+              "slug": "will-trump-sell-101-1k-gold-cards-in-2026",
+              "question": "Will Trump sell 101-1k Gold Cards in 2026?",
+              "yes_price": 0.0245,
+              "volume": 5078
             }
           ],
-          "url": "https://polymarket.com/event/vermont-governor-winner-2026",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
-        },
-        {
-          "event_title": "Presidential Election Winner 2028",
-          "event_slug": "presidential-election-winner-2028",
-          "yes_sum": 0.9005,
-          "profit_pct": 9.95,
-          "profit_per_dollar_pct": 11.05,
-          "num_outcomes": 36,
-          "outcomes": [
-            {
-              "market_id": "561229",
-              "slug": "will-jd-vance-win-the-2028-us-presidential-election",
-              "question": "Will JD Vance win the 2028 US Presidential Election?",
-              "yes_price": 0.1905,
-              "volume": 10253907
-            },
-            {
-              "market_id": "561230",
-              "slug": "will-gavin-newsom-win-the-2028-us-presidential-election",
-              "question": "Will Gavin Newsom win the 2028 US Presidential Election?",
-              "yes_price": 0.1715,
-              "volume": 14362834
-            },
-            {
-              "market_id": "561234",
-              "slug": "will-marco-rubio-win-the-2028-us-presidential-election",
-              "question": "Will Marco Rubio win the 2028 US Presidential Election?",
-              "yes_price": 0.102,
-              "volume": 6705549
-            },
-            {
-              "market_id": "561231",
-              "slug": "will-alexandria-ocasio-cortez-win-the-2028-us-presidential-election",
-              "question": "Will Alexandria Ocasio-Cortez win the 2028 US Presidential Election?",
-              "yes_price": 0.053,
-              "volume": 10894290
-            },
-            {
-              "market_id": "561261",
-              "slug": "will-jon-ossoff-win-the-2028-us-presidential-election",
-              "question": "Will Jon Ossoff win the 2028 US Presidential Election?",
-              "yes_price": 0.0365,
-              "volume": 3580205
-            },
-            {
-              "market_id": "561239",
-              "slug": "will-kamala-harris-win-the-2028-us-presidential-election",
-              "question": "Will Kamala Harris win the 2028 US Presidential Election?",
-              "yes_price": 0.0335,
-              "volume": 6995360
-            },
-            {
-              "market_id": "561253",
-              "slug": "will-tucker-carlson-win-the-2028-us-presidential-election",
-              "question": "Will Tucker Carlson win the 2028 US Presidential Election?",
-              "yes_price": 0.0235,
-              "volume": 9945436
-            },
-            {
-              "market_id": "561233",
-              "slug": "will-josh-shapiro-win-the-2028-us-presidential-election",
-              "question": "Will Josh Shapiro win the 2028 US Presidential Election?",
-              "yes_price": 0.022,
-              "volume": 5795651
-            },
-            {
-              "market_id": "561243",
-              "slug": "will-donald-trump-win-the-2028-us-presidential-election",
-              "question": "Will Donald Trump win the 2028 US Presidential Election?",
-              "yes_price": 0.0215,
-              "volume": 6950461
-            },
-            {
-              "market_id": "561232",
-              "slug": "will-pete-buttigieg-win-the-2028-us-presidential-election",
-              "question": "Will Pete Buttigieg win the 2028 US Presidential Election?",
-              "yes_price": 0.0165,
-              "volume": 3864691
-            },
-            {
-              "market_id": "561246",
-              "slug": "will-ron-desantis-win-the-2028-us-presidential-election",
-              "question": "Will Ron DeSantis win the 2028 US Presidential Election?",
-              "yes_price": 0.0165,
-              "volume": 8960524
-            },
-            {
-              "market_id": "561252",
-              "slug": "will-dwayne-the-rock-johnson-win-the-2028-us-presidential-election",
-              "question": "Will Dwayne 'The Rock' Johnson win the 2028 US Presidential Election?",
-              "yes_price": 0.0135,
-              "volume": 6211252
-            },
-            {
-              "market_id": "561237",
-              "slug": "will-andy-beshear-win-the-2028-us-presidential-election",
-              "question": "Will Andy Beshear win the 2028 US Presidential Election?",
-              "yes_price": 0.0125,
-              "volume": 17447883
-            },
-            {
-              "market_id": "561238",
-              "slug": "will-glenn-youngkin-win-the-2028-us-presidential-election",
-              "question": "Will Glenn Youngkin win the 2028 US Presidential Election?",
-              "yes_price": 0.0115,
-              "volume": 20805953
-            },
-            {
-              "market_id": "561241",
-              "slug": "will-jb-pritzker-win-the-2028-us-presidential-election",
-              "question": "Will JB Pritzker win the 2028 US Presidential Election?",
-              "yes_price": 0.0115,
-              "volume": 10890792
-            },
-            {
-              "market_id": "561260",
-              "slug": "will-thomas-massie-win-the-2028-us-presidential-election",
-              "question": "Will Thomas Massie win the 2028 US Presidential Election?",
-              "yes_price": 0.0115,
-              "volume": 3781563
-            },
-            {
-              "market_id": "561250",
-              "slug": "will-elon-musk-win-the-2028-us-presidential-election",
-              "question": "Will Elon Musk win the 2028 US Presidential Election?",
-              "yes_price": 0.0095,
-              "volume": 22752485
-            },
-            {
-              "market_id": "561236",
-              "slug": "will-gretchen-whitmer-win-the-2028-us-presidential-election",
-              "question": "Will Gretchen Whitmer win the 2028 US Presidential Election?",
-              "yes_price": 0.0095,
-              "volume": 8616999
-            },
-            {
-              "market_id": "561249",
-              "slug": "will-greg-abbott-win-the-2028-us-presidential-election",
-              "question": "Will Greg Abbott win the 2028 US Presidential Election?",
-              "yes_price": 0.0095,
-              "volume": 31939157
-            },
-            {
-              "market_id": "561262",
-              "slug": "will-james-talarico-win-the-2028-us-presidential-election",
-              "question": "Will James Talarico win the 2028 US Presidential Election?",
-              "yes_price": 0.0095,
-              "volume": 4704716
-            },
-            {
-              "market_id": "561258",
-              "slug": "will-jamie-dimon-win-the-2028-us-presidential-election",
-              "question": "Will Jamie Dimon win the 2028 US Presidential Election?",
-              "yes_price": 0.0085,
-              "volume": 7634308
-            },
-            {
-              "market_id": "561257",
-              "slug": "will-michelle-obama-win-the-2028-us-presidential-election",
-              "question": "Will Michelle Obama win the 2028 US Presidential Election?",
-              "yes_price": 0.0085,
-              "volume": 13660036
-            },
-            {
-              "market_id": "561259",
-              "slug": "will-ro-khanna-win-the-2028-us-presidential-election",
-              "question": "Will Ro Khanna win the 2028 US Presidential Election?",
-              "yes_price": 0.0085,
-              "volume": 7200073
-            },
-            {
-              "market_id": "561255",
-              "slug": "will-ivanka-trump-win-the-2028-us-presidential-election",
-              "question": "Will Ivanka Trump win the 2028 US Presidential Election?",
-              "yes_price": 0.0075,
-              "volume": 4663208
-            },
-            {
-              "market_id": "561240",
-              "slug": "will-stephen-smith-win-the-2028-us-presidential-election",
-              "question": "Will Stephen Smith win the 2028 US Presidential Election?",
-              "yes_price": 0.0075,
-              "volume": 29820060
-            },
-            {
-              "market_id": "561242",
-              "slug": "will-tulsi-gabbard-win-the-2028-us-presidential-election",
-              "question": "Will Tulsi Gabbard win the 2028 US Presidential Election?",
-              "yes_price": 0.0075,
-              "volume": 28400652
-            },
-            {
-              "market_id": "561244",
-              "slug": "will-donald-trump-jr-win-the-2028-us-presidential-election",
-              "question": "Will Donald Trump Jr. win the 2028 US Presidential Election?",
-              "yes_price": 0.0075,
-              "volume": 9319415
-            },
-            {
-              "market_id": "561245",
-              "slug": "will-nikki-haley-win-the-2028-us-presidential-election",
-              "question": "Will Nikki Haley win the 2028 US Presidential Election?",
-              "yes_price": 0.0075,
-              "volume": 22210522
-            },
-            {
-              "market_id": "561256",
-              "slug": "will-zohran-mamdani-win-the-2028-us-presidential-election",
-              "question": "Will Zohran Mamdani win the 2028 US Presidential Election?",
-              "yes_price": 0.0075,
-              "volume": 17681046
-            },
-            {
-              "market_id": "561263",
-              "slug": "will-eric-trump-win-the-2028-us-presidential-election",
-              "question": "Will Eric Trump win the 2028 US Presidential Election?",
-              "yes_price": 0.0065,
-              "volume": 6702606
-            },
-            {
-              "market_id": "561247",
-              "slug": "will-tim-walz-win-the-2028-us-presidential-election",
-              "question": "Will Tim Walz win the 2028 US Presidential Election?",
-              "yes_price": 0.0065,
-              "volume": 39662000
-            },
-            {
-              "market_id": "561235",
-              "slug": "will-wes-moore-win-the-2028-us-presidential-election",
-              "question": "Will Wes Moore win the 2028 US Presidential Election?",
-              "yes_price": 0.0065,
-              "volume": 6620436
-            },
-            {
-              "market_id": "561264",
-              "slug": "will-pete-hegseth-win-the-2028-us-presidential-election",
-              "question": "Will Pete Hegseth win the 2028 US Presidential Election?",
-              "yes_price": 0.0065,
-              "volume": 4557056
-            },
-            {
-              "market_id": "561248",
-              "slug": "will-vivek-ramaswamy-win-the-2028-us-presidential-election",
-              "question": "Will Vivek Ramaswamy win the 2028 US Presidential Election?",
-              "yes_price": 0.0065,
-              "volume": 31085535
-            },
-            {
-              "market_id": "561254",
-              "slug": "will-kim-kardashian-win-the-2028-us-presidential-election",
-              "question": "Will Kim Kardashian win the 2028 US Presidential Election?",
-              "yes_price": 0.0065,
-              "volume": 32895447
-            },
-            {
-              "market_id": "561251",
-              "slug": "will-lebron-james-win-the-2028-us-presidential-election",
-              "question": "Will LeBron James win the 2028 US Presidential Election?",
-              "yes_price": 0.0055,
-              "volume": 46517912
-            }
-          ],
-          "url": "https://polymarket.com/event/presidential-election-winner-2028",
-          "strategy": "Buy YES on all 36 outcomes. Total cost: $0.9005. One wins $1.00. Profit: $0.0995 (9.95%)"
-        },
-        {
-          "event_title": "Israel military action against Yemen by...?",
-          "event_slug": "israel-strike-on-yemen-by-593",
-          "yes_sum": 0.9045,
-          "profit_pct": 9.55,
-          "profit_per_dollar_pct": 10.56,
-          "num_outcomes": 5,
-          "outcomes": [
-            {
-              "market_id": "1121887",
-              "slug": "israel-strike-on-yemen-by-june-30-2026-285-633-267-857",
-              "question": "Israel strike on Yemen by June 30, 2026?",
-              "yes_price": 0.405,
-              "volume": 433563
-            },
-            {
-              "market_id": "1641496",
-              "slug": "israel-strike-on-yemen-by-may-31-2026-588-747-911",
-              "question": "Israel strike on Yemen by May 31, 2026?",
-              "yes_price": 0.285,
-              "volume": 71265
-            },
-            {
-              "market_id": "1641497",
-              "slug": "israel-strike-on-yemen-by-april-30-2026-212-911",
-              "question": "Israel strike on Yemen by April 30, 2026?",
-              "yes_price": 0.2,
-              "volume": 186840
-            },
-            {
-              "market_id": "1796475",
-              "slug": "israel-military-action-against-yemen-by-april-15-2026",
-              "question": "Israel military action against Yemen by April 15, 2026?",
-              "yes_price": 0.0145,
-              "volume": 192820
-            },
-            {
-              "market_id": "1121884",
-              "slug": "israel-strike-on-yemen-by-march-31-2026",
-              "question": "Israel strike on Yemen by March 31, 2026?",
-              "yes_price": 0.0,
-              "volume": 689942
-            }
-          ],
-          "url": "https://polymarket.com/event/israel-strike-on-yemen-by-593",
-          "strategy": "Buy YES on all 5 outcomes. Total cost: $0.9045. One wins $1.00. Profit: $0.0955 (9.55%)"
+          "url": "https://polymarket.com/event/how-many-gold-cards-will-trump-sell-in-2026",
+          "strategy": "Buy YES on all 9 outcomes. Total cost: $0.9040. One wins $1.00. Profit: $0.0960 (9.60%)"
         },
         {
           "event_title": "2025-2026 PFA Players' Player of the Year Winner",
@@ -383,210 +121,166 @@
           "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
         },
         {
-          "event_title": "How many cities will Waymo operate in by June 30?",
-          "event_slug": "how-many-cities-will-waymo-operate-in-by-june-30-2026",
-          "yes_sum": 0.906,
-          "profit_pct": 9.4,
-          "profit_per_dollar_pct": 10.38,
-          "num_outcomes": 8,
+          "event_title": "UEFA Europa League: Most Goal Contributions",
+          "event_slug": "uefa-europa-league-most-goal-contributions",
+          "yes_sum": 0.905,
+          "profit_pct": 9.5,
+          "profit_per_dollar_pct": 10.5,
+          "num_outcomes": 2,
           "outcomes": [
             {
-              "market_id": "675605",
-              "slug": "will-waymo-operate-in-6-cities-on-june-30-2026",
-              "question": "Will Waymo operate in 6 cities on June 30 2026?",
-              "yes_price": 0.278,
-              "volume": 16726
+              "market_id": "1420691",
+              "slug": "will-igor-jesus-record-the-most-goal-contributions-in-the-2025-26-uefa-europa-league",
+              "question": "Will Igor Jesus record the most goal contributions in the 2025-26 UEFA Europa Le",
+              "yes_price": 0.555,
+              "volume": 2952
             },
             {
-              "market_id": "675611",
-              "slug": "will-waymo-operate-in-12-or-more-cities-on-june-30-2026",
-              "question": "Will Waymo operate in 12 or more cities on June 30 2026?",
-              "yes_price": 0.22,
-              "volume": 19794
-            },
-            {
-              "market_id": "675610",
-              "slug": "will-waymo-operate-in-11-cities-on-june-30-2026",
-              "question": "Will Waymo operate in 11 cities on June 30 2026?",
-              "yes_price": 0.135,
-              "volume": 11801
-            },
-            {
-              "market_id": "675609",
-              "slug": "will-waymo-operate-in-10-cities-on-june-30-2026",
-              "question": "Will Waymo operate in 10 cities on June 30 2026?",
-              "yes_price": 0.095,
-              "volume": 9760
-            },
-            {
-              "market_id": "675604",
-              "slug": "will-waymo-operate-in-less-than-5-cities-on-june-30-2026",
-              "question": "Will Waymo operate in 5 cities or less on June 30 2026?",
-              "yes_price": 0.066,
-              "volume": 40536
-            },
-            {
-              "market_id": "675607",
-              "slug": "will-waymo-operate-in-8-cities-on-june-30-2026",
-              "question": "Will Waymo operate in 8 cities on June 30 2026?",
-              "yes_price": 0.0595,
-              "volume": 12226
-            },
-            {
-              "market_id": "675608",
-              "slug": "will-waymo-operate-in-9-cities-on-june-30-2026",
-              "question": "Will Waymo operate in 9 cities on June 30 2026?",
-              "yes_price": 0.032,
-              "volume": 15484
-            },
-            {
-              "market_id": "675606",
-              "slug": "will-waymo-operate-in-7-cities-on-june-30-2026",
-              "question": "Will Waymo operate in 7 cities on June 30 2026?",
-              "yes_price": 0.0205,
-              "volume": 11493
+              "market_id": "1420692",
+              "slug": "will-ricardo-horta-record-the-most-goal-contributions-in-the-2025-26-uefa-europa-league",
+              "question": "Will Ricardo Horta record the most goal contributions in the 2025-26 UEFA Europa",
+              "yes_price": 0.35,
+              "volume": 2740
             }
           ],
-          "url": "https://polymarket.com/event/how-many-cities-will-waymo-operate-in-by-june-30-2026",
-          "strategy": "Buy YES on all 8 outcomes. Total cost: $0.9060. One wins $1.00. Profit: $0.0940 (9.40%)"
+          "url": "https://polymarket.com/event/uefa-europa-league-most-goal-contributions",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
         },
         {
-          "event_title": "What day will the USD.AI token launch be?",
-          "event_slug": "what-day-will-the-usdai-token-launch-be",
-          "yes_sum": 0.9075,
-          "profit_pct": 9.25,
-          "profit_per_dollar_pct": 10.19,
-          "num_outcomes": 18,
+          "event_title": "Israel military action against Yemen by...?",
+          "event_slug": "israel-strike-on-yemen-by-593",
+          "yes_sum": 0.9085,
+          "profit_pct": 9.15,
+          "profit_per_dollar_pct": 10.07,
+          "num_outcomes": 5,
           "outcomes": [
             {
-              "market_id": "1861150",
-              "slug": "will-usdai-launch-a-token-on-april-21",
-              "question": "Will USD.AI launch a token on April 21?",
-              "yes_price": 0.79,
-              "volume": 3778
+              "market_id": "1121887",
+              "slug": "israel-strike-on-yemen-by-june-30-2026-285-633-267-857",
+              "question": "Israel strike on Yemen by June 30, 2026?",
+              "yes_price": 0.405,
+              "volume": 433563
             },
             {
-              "market_id": "1861160",
-              "slug": "no-token-launch-by-april-30",
-              "question": "No token launch by April 30",
-              "yes_price": 0.05,
-              "volume": 1314
+              "market_id": "1641496",
+              "slug": "israel-strike-on-yemen-by-may-31-2026-588-747-911",
+              "question": "Israel strike on Yemen by May 31, 2026?",
+              "yes_price": 0.285,
+              "volume": 71265
             },
             {
-              "market_id": "1861159",
-              "slug": "will-usdai-launch-a-token-on-april-30",
-              "question": "Will USD.AI launch a token on April 30?",
-              "yes_price": 0.0255,
-              "volume": 1820
+              "market_id": "1641497",
+              "slug": "israel-strike-on-yemen-by-april-30-2026-212-911",
+              "question": "Israel strike on Yemen by April 30, 2026?",
+              "yes_price": 0.205,
+              "volume": 186840
             },
             {
-              "market_id": "1861147",
-              "slug": "will-usdai-launch-a-token-on-april-18",
-              "question": "Will USD.AI launch a token on April 18?",
-              "yes_price": 0.016,
-              "volume": 1187
+              "market_id": "1796475",
+              "slug": "israel-military-action-against-yemen-by-april-15-2026",
+              "question": "Israel military action against Yemen by April 15, 2026?",
+              "yes_price": 0.0135,
+              "volume": 192856
             },
             {
-              "market_id": "1861145",
-              "slug": "will-usdai-launch-a-token-on-april-16",
-              "question": "Will USD.AI launch a token on April 16?",
-              "yes_price": 0.0065,
-              "volume": 1461
-            },
-            {
-              "market_id": "1861146",
-              "slug": "will-usdai-launch-a-token-on-april-17",
-              "question": "Will USD.AI launch a token on April 17?",
-              "yes_price": 0.0055,
-              "volume": 1035
-            },
-            {
-              "market_id": "1861144",
-              "slug": "will-usdai-launch-a-token-on-april-15",
-              "question": "Will USD.AI launch a token on April 15?",
-              "yes_price": 0.005,
-              "volume": 1925
-            },
-            {
-              "market_id": "1861149",
-              "slug": "will-usdai-launch-a-token-on-april-20",
-              "question": "Will USD.AI launch a token on April 20?",
-              "yes_price": 0.005,
-              "volume": 1198
-            },
-            {
-              "market_id": "1861143",
-              "slug": "will-usdai-launch-a-token-on-april-14",
-              "question": "Will USD.AI launch a token on April 14?",
-              "yes_price": 0.004,
-              "volume": 2272
-            },
-            {
-              "market_id": "1861134",
-              "slug": "will-usdai-launch-a-token-on-april-5",
-              "question": "Will USD.AI launch a token on April 5?",
+              "market_id": "1121884",
+              "slug": "israel-strike-on-yemen-by-march-31-2026",
+              "question": "Israel strike on Yemen by March 31, 2026?",
               "yes_price": 0.0,
-              "volume": 1851
-            },
-            {
-              "market_id": "1861135",
-              "slug": "will-usdai-launch-a-token-on-april-6",
-              "question": "Will USD.AI launch a token on April 6?",
-              "yes_price": 0.0,
-              "volume": 1104
-            },
-            {
-              "market_id": "1861136",
-              "slug": "will-usdai-launch-a-token-on-april-7",
-              "question": "Will USD.AI launch a token on April 7?",
-              "yes_price": 0.0,
-              "volume": 3034
-            },
-            {
-              "market_id": "1861137",
-              "slug": "will-usdai-launch-a-token-on-april-8",
-              "question": "Will USD.AI launch a token on April 8?",
-              "yes_price": 0.0,
-              "volume": 2897
-            },
-            {
-              "market_id": "1861138",
-              "slug": "will-usdai-launch-a-token-on-april-9",
-              "question": "Will USD.AI launch a token on April 9?",
-              "yes_price": 0.0,
-              "volume": 2621
-            },
-            {
-              "market_id": "1861139",
-              "slug": "will-usdai-launch-a-token-on-april-10",
-              "question": "Will USD.AI launch a token on April 10?",
-              "yes_price": 0.0,
-              "volume": 2792
-            },
-            {
-              "market_id": "1861140",
-              "slug": "will-usdai-launch-a-token-on-april-11",
-              "question": "Will USD.AI launch a token on April 11?",
-              "yes_price": 0.0,
-              "volume": 2985
-            },
-            {
-              "market_id": "1861141",
-              "slug": "will-usdai-launch-a-token-on-april-12",
-              "question": "Will USD.AI launch a token on April 12?",
-              "yes_price": 0.0,
-              "volume": 2842
-            },
-            {
-              "market_id": "1861142",
-              "slug": "will-usdai-launch-a-token-on-april-13",
-              "question": "Will USD.AI launch a token on April 13?",
-              "yes_price": 0.0,
-              "volume": 2929
+              "volume": 689942
             }
           ],
-          "url": "https://polymarket.com/event/what-day-will-the-usdai-token-launch-be",
-          "strategy": "Buy YES on all 18 outcomes. Total cost: $0.9075. One wins $1.00. Profit: $0.0925 (9.25%)"
+          "url": "https://polymarket.com/event/israel-strike-on-yemen-by-593",
+          "strategy": "Buy YES on all 5 outcomes. Total cost: $0.9085. One wins $1.00. Profit: $0.0915 (9.15%)"
+        },
+        {
+          "event_title": "Highest temperature in Dallas on April 14?",
+          "event_slug": "highest-temperature-in-dallas-on-april-14-2026",
+          "yes_sum": 0.9085,
+          "profit_pct": 9.15,
+          "profit_per_dollar_pct": 10.07,
+          "num_outcomes": 11,
+          "outcomes": [
+            {
+              "market_id": "1953494",
+              "slug": "highest-temperature-in-dallas-on-april-14-2026-82forhigher",
+              "question": "Will the highest temperature in Dallas be 82\u00b0F or higher on April 14?",
+              "yes_price": 0.47,
+              "volume": 7252
+            },
+            {
+              "market_id": "1953493",
+              "slug": "highest-temperature-in-dallas-on-april-14-2026-80-81f",
+              "question": "Will the highest temperature in Dallas be between 80-81\u00b0F on April 14?",
+              "yes_price": 0.37,
+              "volume": 4279
+            },
+            {
+              "market_id": "1953492",
+              "slug": "highest-temperature-in-dallas-on-april-14-2026-78-79f",
+              "question": "Will the highest temperature in Dallas be between 78-79\u00b0F on April 14?",
+              "yes_price": 0.035,
+              "volume": 7473
+            },
+            {
+              "market_id": "1953491",
+              "slug": "highest-temperature-in-dallas-on-april-14-2026-76-77f",
+              "question": "Will the highest temperature in Dallas be between 76-77\u00b0F on April 14?",
+              "yes_price": 0.033,
+              "volume": 6519
+            },
+            {
+              "market_id": "1953490",
+              "slug": "highest-temperature-in-dallas-on-april-14-2026-74-75f",
+              "question": "Will the highest temperature in Dallas be between 74-75\u00b0F on April 14?",
+              "yes_price": 0.0005,
+              "volume": 3610
+            },
+            {
+              "market_id": "1953484",
+              "slug": "highest-temperature-in-dallas-on-april-14-2026-63forbelow",
+              "question": "Will the highest temperature in Dallas be 63\u00b0F or below on April 14?",
+              "yes_price": 0.0,
+              "volume": 2487
+            },
+            {
+              "market_id": "1953485",
+              "slug": "highest-temperature-in-dallas-on-april-14-2026-64-65f",
+              "question": "Will the highest temperature in Dallas be between 64-65\u00b0F on April 14?",
+              "yes_price": 0.0,
+              "volume": 2508
+            },
+            {
+              "market_id": "1953486",
+              "slug": "highest-temperature-in-dallas-on-april-14-2026-66-67f",
+              "question": "Will the highest temperature in Dallas be between 66-67\u00b0F on April 14?",
+              "yes_price": 0.0,
+              "volume": 6771
+            },
+            {
+              "market_id": "1953487",
+              "slug": "highest-temperature-in-dallas-on-april-14-2026-68-69f",
+              "question": "Will the highest temperature in Dallas be between 68-69\u00b0F on April 14?",
+              "yes_price": 0.0,
+              "volume": 2376
+            },
+            {
+              "market_id": "1953488",
+              "slug": "highest-temperature-in-dallas-on-april-14-2026-70-71f",
+              "question": "Will the highest temperature in Dallas be between 70-71\u00b0F on April 14?",
+              "yes_price": 0.0,
+              "volume": 7470
+            },
+            {
+              "market_id": "1953489",
+              "slug": "highest-temperature-in-dallas-on-april-14-2026-72-73f",
+              "question": "Will the highest temperature in Dallas be between 72-73\u00b0F on April 14?",
+              "yes_price": 0.0,
+              "volume": 4514
+            }
+          ],
+          "url": "https://polymarket.com/event/highest-temperature-in-dallas-on-april-14-2026",
+          "strategy": "Buy YES on all 11 outcomes. Total cost: $0.9085. One wins $1.00. Profit: $0.0915 (9.15%)"
         },
         {
           "event_title": "Ducks vs. Wild",
@@ -601,44 +295,58 @@
               "slug": "nhl-ana-min-2026-04-14",
               "question": "Ducks vs. Wild",
               "yes_price": 0.565,
-              "volume": 278617
+              "volume": 287946
             },
             {
               "market_id": "1973178",
               "slug": "nhl-ana-min-2026-04-14-spread-away-1pt5",
               "question": "Spread: Ducks (-1.5)",
               "yes_price": 0.345,
-              "volume": 55442
+              "volume": 55456
             }
           ],
           "url": "https://polymarket.com/event/nhl-ana-min-2026-04-14",
           "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9100. One wins $1.00. Profit: $0.0900 (9.00%)"
         },
         {
-          "event_title": "Tochigi SC vs. SC Sagamihara",
-          "event_slug": "j2100-tsc-sag-2026-04-19",
+          "event_title": "Guam Governor Republican Primary Winner",
+          "event_slug": "guam-governor-republican-primary-winner-363",
           "yes_sum": 0.91,
           "profit_pct": 9.0,
           "profit_per_dollar_pct": 9.89,
-          "num_outcomes": 2,
+          "num_outcomes": 4,
           "outcomes": [
             {
-              "market_id": "1685973",
-              "slug": "j2100-tsc-sag-2026-04-19-tsc",
-              "question": "Will Tochigi SC win on 2026-04-19?",
-              "yes_price": 0.54,
-              "volume": 1236
+              "market_id": "907724",
+              "slug": "will-vicente-ada-win-the-2026-guam-governor-republican-primary-election-611",
+              "question": "Will Vicente Ada win the 2026 Guam Governor Republican primary election?",
+              "yes_price": 0.715,
+              "volume": 6726
             },
             {
-              "market_id": "1685974",
-              "slug": "j2100-tsc-sag-2026-04-19-draw",
-              "question": "Will Tochigi SC vs. SC Sagamihara end in a draw?",
-              "yes_price": 0.37,
-              "volume": 3624
+              "market_id": "907725",
+              "slug": "will-frank-f-blas-jr-win-the-2026-guam-governor-republican-primary-election-495",
+              "question": "Will Frank F. Blas Jr. win the 2026 Guam Governor Republican primary election?",
+              "yes_price": 0.17,
+              "volume": 6235
+            },
+            {
+              "market_id": "907726",
+              "slug": "will-marcel-camacho-win-the-2026-guam-governor-republican-primary-election-798",
+              "question": "Will Marcel Camacho win the 2026 Guam Governor Republican primary election?",
+              "yes_price": 0.0175,
+              "volume": 2256
+            },
+            {
+              "market_id": "907728",
+              "slug": "will-douglas-moylan-win-the-2026-guam-governor-republican-primary-election-683",
+              "question": "Will Douglas Moylan win the 2026 Guam Governor Republican primary election?",
+              "yes_price": 0.0075,
+              "volume": 8246
             }
           ],
-          "url": "https://polymarket.com/event/j2100-tsc-sag-2026-04-19",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9100. One wins $1.00. Profit: $0.0900 (9.00%)"
+          "url": "https://polymarket.com/event/guam-governor-republican-primary-winner-363",
+          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9100. One wins $1.00. Profit: $0.0900 (9.00%)"
         },
         {
           "event_title": "Rhode Island Governor Republican Primary Winner",
@@ -667,242 +375,128 @@
           "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9100. One wins $1.00. Profit: $0.0900 (9.00%)"
         },
         {
-          "event_title": "English Premier League - Top Goalscorer ",
-          "event_slug": "english-premier-league-top-goalscorer",
-          "yes_sum": 0.9135,
-          "profit_pct": 8.65,
-          "profit_per_dollar_pct": 9.47,
-          "num_outcomes": 31,
+          "event_title": "Highest temperature in Houston on April 14?",
+          "event_slug": "highest-temperature-in-houston-on-april-14-2026",
+          "yes_sum": 0.9115,
+          "profit_pct": 8.85,
+          "profit_per_dollar_pct": 9.71,
+          "num_outcomes": 11,
           "outcomes": [
             {
-              "market_id": "577160",
-              "slug": "will-erling-haaland-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Erling Haaland be the top goal scorer in the 2025\u201326 English Premier League",
-              "yes_price": 0.795,
-              "volume": 70567
+              "market_id": "1953799",
+              "slug": "highest-temperature-in-houston-on-april-14-2026-84forhigher",
+              "question": "Will the highest temperature in Houston be 84\u00b0F or higher on April 14?",
+              "yes_price": 0.455,
+              "volume": 4845
             },
             {
-              "market_id": "577162",
-              "slug": "will-viktor-gyokeres-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Viktor Gyokeres be the top goal scorer in the 2025\u201326 English Premier Leagu",
-              "yes_price": 0.008,
-              "volume": 176357
+              "market_id": "1953798",
+              "slug": "highest-temperature-in-houston-on-april-14-2026-82-83f",
+              "question": "Will the highest temperature in Houston be between 82-83\u00b0F on April 14?",
+              "yes_price": 0.4,
+              "volume": 4618
             },
             {
-              "market_id": "577171",
-              "slug": "will-omar-marmoush-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Omar Marmoush be the top goal scorer in the 2025\u201326 English Premier League ",
-              "yes_price": 0.0065,
-              "volume": 19550
+              "market_id": "1953797",
+              "slug": "highest-temperature-in-houston-on-april-14-2026-80-81f",
+              "question": "Will the highest temperature in Houston be between 80-81\u00b0F on April 14?",
+              "yes_price": 0.055,
+              "volume": 3933
             },
             {
-              "market_id": "577168",
-              "slug": "will-ollie-watkins-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Ollie Watkins be the top goal scorer in the 2025\u201326 English Premier League ",
-              "yes_price": 0.006,
-              "volume": 34465
+              "market_id": "1953794",
+              "slug": "highest-temperature-in-houston-on-april-14-2026-74-75f",
+              "question": "Will the highest temperature in Houston be between 74-75\u00b0F on April 14?",
+              "yes_price": 0.0005,
+              "volume": 1636
             },
             {
-              "market_id": "577163",
-              "slug": "will-alexander-isak-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Alexander Isak be the top goal scorer in the 2025\u201326 English Premier League",
-              "yes_price": 0.006,
-              "volume": 148938
+              "market_id": "1953795",
+              "slug": "highest-temperature-in-houston-on-april-14-2026-76-77f",
+              "question": "Will the highest temperature in Houston be between 76-77\u00b0F on April 14?",
+              "yes_price": 0.0005,
+              "volume": 2604
             },
             {
-              "market_id": "577178",
-              "slug": "will-jarrod-bowen-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Jarrod Bowen be the top goal scorer in the 2025\u201326 English Premier League s",
-              "yes_price": 0.006,
-              "volume": 15265
+              "market_id": "1953796",
+              "slug": "highest-temperature-in-houston-on-april-14-2026-78-79f",
+              "question": "Will the highest temperature in Houston be between 78-79\u00b0F on April 14?",
+              "yes_price": 0.0005,
+              "volume": 6830
             },
             {
-              "market_id": "577183",
-              "slug": "will-morgan-rogers-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Morgan Rogers be the top goal scorer in the 2025\u201326 English Premier League ",
-              "yes_price": 0.0055,
-              "volume": 13480
+              "market_id": "1953789",
+              "slug": "highest-temperature-in-houston-on-april-14-2026-65forbelow",
+              "question": "Will the highest temperature in Houston be 65\u00b0F or below on April 14?",
+              "yes_price": 0.0,
+              "volume": 1464
             },
             {
-              "market_id": "577174",
-              "slug": "will-matheus-cunha-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Matheus Cunha be the top goal scorer in the 2025\u201326 English Premier League ",
-              "yes_price": 0.0055,
-              "volume": 188266
+              "market_id": "1953790",
+              "slug": "highest-temperature-in-houston-on-april-14-2026-66-67f",
+              "question": "Will the highest temperature in Houston be between 66-67\u00b0F on April 14?",
+              "yes_price": 0.0,
+              "volume": 2186
             },
             {
-              "market_id": "577186",
-              "slug": "will-nicolas-jackson-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Nicolas Jackson be the top goal scorer in the 2025\u201326 English Premier Leagu",
-              "yes_price": 0.0055,
-              "volume": 51093
+              "market_id": "1953791",
+              "slug": "highest-temperature-in-houston-on-april-14-2026-68-69f",
+              "question": "Will the highest temperature in Houston be between 68-69\u00b0F on April 14?",
+              "yes_price": 0.0,
+              "volume": 1548
             },
             {
-              "market_id": "577182",
-              "slug": "will-chris-wood-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Chris Wood be the top goal scorer in the 2025\u201326 English Premier League sea",
-              "yes_price": 0.0055,
-              "volume": 85796
+              "market_id": "1953792",
+              "slug": "highest-temperature-in-houston-on-april-14-2026-70-71f",
+              "question": "Will the highest temperature in Houston be between 70-71\u00b0F on April 14?",
+              "yes_price": 0.0,
+              "volume": 2641
             },
             {
-              "market_id": "577180",
-              "slug": "will-charalambos-kostoulas-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Charalambos Kostoulas be the top goal scorer in the 2025\u201326 English Premier",
-              "yes_price": 0.0055,
-              "volume": 76309
-            },
-            {
-              "market_id": "577170",
-              "slug": "will-dominic-solanke-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Dominic Solanke be the top goal scorer in the 2025\u201326 English Premier Leagu",
-              "yes_price": 0.005,
-              "volume": 171708
-            },
-            {
-              "market_id": "577177",
-              "slug": "will-bryan-mbeumo-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Bryan Mbeumo be the top goal scorer in the 2025\u201326 English Premier League s",
-              "yes_price": 0.005,
-              "volume": 41351
-            },
-            {
-              "market_id": "577161",
-              "slug": "will-mohamed-salah-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Mohamed Salah be the top goal scorer in the 2025\u201326 English Premier League ",
-              "yes_price": 0.0045,
-              "volume": 236001
-            },
-            {
-              "market_id": "577172",
-              "slug": "will-jean-philippe-mateta-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Jean-Philippe Mateta be the top goal scorer in the 2025\u201326 English Premier ",
-              "yes_price": 0.0045,
-              "volume": 44558
-            },
-            {
-              "market_id": "577181",
-              "slug": "will-bruno-fernandes-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Bruno Fernandes be the top goal scorer in the 2025\u201326 English Premier Leagu",
-              "yes_price": 0.0045,
-              "volume": 21700
-            },
-            {
-              "market_id": "577189",
-              "slug": "will-kai-havertz-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Kai Havertz be the top goal scorer in the 2025\u201326 English Premier League se",
-              "yes_price": 0.0045,
-              "volume": 113973
-            },
-            {
-              "market_id": "577187",
-              "slug": "will-brennan-johnson-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Brennan Johnson be the top goal scorer in the 2025\u201326 English Premier Leagu",
-              "yes_price": 0.004,
-              "volume": 28998
-            },
-            {
-              "market_id": "577166",
-              "slug": "will-cole-palmer-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Cole Palmer be the top goal scorer in the 2025\u201326 English Premier League se",
-              "yes_price": 0.003,
-              "volume": 14950
-            },
-            {
-              "market_id": "577169",
-              "slug": "will-richarlison-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Richarlison be the top goal scorer in the 2025\u201326 English Premier League se",
-              "yes_price": 0.003,
-              "volume": 32326
-            },
-            {
-              "market_id": "577176",
-              "slug": "will-bukayo-saka-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Bukayo Saka be the top goal scorer in the 2025\u201326 English Premier League se",
-              "yes_price": 0.003,
-              "volume": 130920
-            },
-            {
-              "market_id": "577165",
-              "slug": "will-hugo-ekitike-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Hugo Ekitike be the top goal scorer in the 2025\u201326 English Premier League s",
-              "yes_price": 0.0025,
-              "volume": 155798
-            },
-            {
-              "market_id": "577173",
-              "slug": "will-yoane-wissa-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Yoane Wissa be the top goal scorer in the 2025\u201326 English Premier League se",
-              "yes_price": 0.0025,
-              "volume": 14822
-            },
-            {
-              "market_id": "577164",
-              "slug": "will-joao-pedro-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Joao Pedro be the top goal scorer in the 2025\u201326 English Premier League sea",
-              "yes_price": 0.002,
-              "volume": 111697
-            },
-            {
-              "market_id": "577179",
-              "slug": "will-evanilson-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Evanilson be the top goal scorer in the 2025\u201326 English Premier League seas",
-              "yes_price": 0.0015,
-              "volume": 18576
-            },
-            {
-              "market_id": "577167",
-              "slug": "will-benjamin-sesko-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Benjamin Sesko be the top goal scorer in the 2025\u201326 English Premier League",
-              "yes_price": 0.0015,
-              "volume": 26659
-            },
-            {
-              "market_id": "577188",
-              "slug": "will-cody-gakpo-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Cody Gakpo be the top goal scorer in the 2025\u201326 English Premier League sea",
-              "yes_price": 0.0015,
-              "volume": 17471
-            },
-            {
-              "market_id": "577175",
-              "slug": "will-liam-delap-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Liam Delap be the top goal scorer in the 2025\u201326 English Premier League sea",
-              "yes_price": 0.0015,
-              "volume": 19181
-            },
-            {
-              "market_id": "577184",
-              "slug": "will-thierno-barry-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Thierno Barry be the top goal scorer in the 2025\u201326 English Premier League ",
-              "yes_price": 0.0015,
-              "volume": 117540
-            },
-            {
-              "market_id": "577185",
-              "slug": "will-mohammed-kudus-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Mohammed Kudus be the top goal scorer in the 2025\u201326 English Premier League",
-              "yes_price": 0.0015,
-              "volume": 21298
-            },
-            {
-              "market_id": "577190",
-              "slug": "will-florian-wirtz-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Florian Wirtz be the top goal scorer in the 2025\u201326 English Premier League ",
-              "yes_price": 0.0015,
-              "volume": 14617
+              "market_id": "1953793",
+              "slug": "highest-temperature-in-houston-on-april-14-2026-72-73f",
+              "question": "Will the highest temperature in Houston be between 72-73\u00b0F on April 14?",
+              "yes_price": 0.0,
+              "volume": 4309
             }
           ],
-          "url": "https://polymarket.com/event/english-premier-league-top-goalscorer",
-          "strategy": "Buy YES on all 31 outcomes. Total cost: $0.9135. One wins $1.00. Profit: $0.0865 (8.65%)"
+          "url": "https://polymarket.com/event/highest-temperature-in-houston-on-april-14-2026",
+          "strategy": "Buy YES on all 11 outcomes. Total cost: $0.9115. One wins $1.00. Profit: $0.0885 (8.85%)"
+        },
+        {
+          "event_title": "Rhode Island Republican Senate Primary Winner",
+          "event_slug": "rhode-island-republican-senate-primary-winner",
+          "yes_sum": 0.912,
+          "profit_pct": 8.8,
+          "profit_per_dollar_pct": 9.65,
+          "num_outcomes": 2,
+          "outcomes": [
+            {
+              "market_id": "801911",
+              "slug": "will-raymond-mckay-be-the-republican-nominee-for-senate-in-rhode-island",
+              "question": "Will Raymond McKay be the Republican nominee for Senate in Rhode Island?",
+              "yes_price": 0.895,
+              "volume": 2689
+            },
+            {
+              "market_id": "801910",
+              "slug": "will-allen-waters-be-the-republican-nominee-for-senate-in-rhode-island",
+              "question": "Will Allen Waters be the Republican nominee for Senate in Rhode Island?",
+              "yes_price": 0.017,
+              "volume": 8470
+            }
+          ],
+          "url": "https://polymarket.com/event/rhode-island-republican-senate-primary-winner",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9120. One wins $1.00. Profit: $0.0880 (8.80%)"
         }
       ],
       "stats": {
         "total_events": 3000,
-        "checked_multi_outcome": 1962,
-        "skipped_single_outcome": 607,
+        "checked_multi_outcome": 1967,
+        "skipped_single_outcome": 604,
         "opportunities_found": 129,
-        "best_profit_pct": 10.0,
-        "scanned_at": "2026-04-14 16:41 UTC"
+        "best_profit_pct": 9.6,
+        "scanned_at": "2026-04-14 17:08 UTC"
       }
     },
     {
@@ -912,7 +506,7 @@
       "hypothesis": "NEAR_CERTAIN is profitable (93.6% WR, +$16.32) but makes <$0.23/trade. Research shows pros scale these to thousands of dollars per trade to generate real income. At $10/bet we need 4,000+ trades to make $1,000.",
       "source": "Paper trade analysis + Grok research",
       "action": "Test 5x bet size increase ($10\u2192$50) on NEAR_CERTAIN. Downside: avg loss goes from $2.49 to $12.45. Need 93.6%+ WR sustained at higher sizes.",
-      "result": "W=6645 L=56 PnL=$1513.91 open=50",
+      "result": "W=6772 L=56 PnL=$1559.45 open=1",
       "priority": "HIGH"
     },
     {
@@ -952,7 +546,7 @@
       "hypothesis": "Instead of independently picking markets, copy elite wallet positions expiring within 14 days. Same wallets have been scoring >60% WR on LONG_TERM trades.",
       "source": "Shaun's original intent for SHORT_TERM engine",
       "action": "Rewrite run_short_term_scan() to copy elite wallet positions with end_date within SHORT_TERM_DAYS.",
-      "result": "W=16 L=24 PnL=$-96.13",
+      "result": "W=16 L=26 PnL=$-104.09",
       "priority": "LIVE",
       "notes": "SHORT_TERM disabled (cap=0). W=12 L=21 -$71.38 total"
     },
