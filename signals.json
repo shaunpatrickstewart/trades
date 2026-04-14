@@ -1,15 +1,15 @@
 {
-  "last_scan": "2026-04-14T05:48:04.749790+00:00",
-  "scan_seconds": 27.4,
-  "markets_scanned": 66,
+  "last_scan": "2026-04-14T05:50:50.252145+00:00",
+  "scan_seconds": 25.1,
+  "markets_scanned": 67,
   "open_positions": 36,
   "signals": [
     {
-      "id": "sig_442251",
-      "timestamp": "2026-04-14T05:47:46.104545+00:00",
+      "id": "sig_607851",
+      "timestamp": "2026-04-14T05:50:31.704333+00:00",
       "source": "PERPLEXITY",
-      "headline": "US Blockade of Iranian Ports Now in Effect After Failed Ceasefire Talks; Trump Claims Iran Wants Deal 'Very Badly' | NO",
-      "raw": "US Blockade of Iranian Ports Now in Effect After Failed Ceasefire Talks; Trump Claims Iran Wants Deal 'Very Badly' | NO | HIGH confidence**  \nThe US Navy began blockading Iranian ports and the Strait of Hormuz at midnight AEST (around 2 PM ET April 13), following collapsed direct talks in Pakistan over the weekend, with no ceasefire agreement reached due to Iran's nuclear ambitions[1][2][3].  \nPre",
+      "headline": "Trump Claims Iran Wants Ceasefire Deal 'Very Badly' Despite Failed Talks and US Blockade of Strait of Hormuz | NO | HIGH",
+      "raw": "Trump Claims Iran Wants Ceasefire Deal 'Very Badly' Despite Failed Talks and US Blockade of Strait of Hormuz | NO | HIGH confidence**\n\nUS-Iran ceasefire talks collapsed over the weekend in Pakistan, with no agreement reached primarily due to Iran's refusal to abandon nuclear ambitions[2][1]. President Trump announced a US Navy blockade of the Strait of Hormuz, effective last night (April 13, 2026)",
       "direction": "NO",
       "confidence": 0.9,
       "matched_markets": [
@@ -22,75 +22,25 @@
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_459896",
-      "timestamp": "2026-04-14T05:48:03.749113+00:00",
+      "id": "sig_625398",
+      "timestamp": "2026-04-14T05:50:49.251254+00:00",
       "source": "PERPLEXITY",
-      "headline": "Confidence: HIGH** (no newer releases in results; next data likely end-April)",
-      "raw": "Confidence: HIGH** (no newer releases in results; next data likely end-April). [3]",
-      "direction": "NO",
-      "confidence": 0.78,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_453634",
-      "timestamp": "2026-04-14T05:47:57.487380+00:00",
-      "source": "PERPLEXITY",
-      "headline": "LOW confidence** in any bullish shift, as no fresh events (post-April 7) appear; results emphasize caution without resol",
-      "raw": "LOW confidence** in any bullish shift, as no fresh events (post-April 7) appear; results emphasize caution without resolutions.[1][2][3][4]",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_459882",
-      "timestamp": "2026-04-14T05:48:03.735617+00:00",
-      "source": "PERPLEXITY",
-      "headline": "March 2026 inflation rose to **2",
-      "raw": "March 2026 inflation rose to **2.2%** YoY (from 2.0% in Jan/Feb), below 2.4% forecasts; February held at **2.0%**. [1][2][3]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_459887",
-      "timestamp": "2026-04-14T05:48:03.740175+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Analysts see no rate cuts soon due to core inflation stability, weak KRW, housing pressures, and oil shocks (prices ~$15",
-      "raw": "Analysts see no rate cuts soon due to core inflation stability, weak KRW, housing pressures, and oil shocks (prices ~$150/barrel impacting growth/inflation). [2][4][5][6]",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_459891",
-      "timestamp": "2026-04-14T05:48:03.744666+00:00",
-      "source": "PERPLEXITY",
-      "headline": "January 2026 data (five-month low at **2",
-      "raw": "January 2026 data (five-month low at **2.0%**, hitting BOK target) was released earlier, not \"right now.\" [1]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
+      "headline": "South Korea March 2026 Annual Inflation Confirmed at 2",
+      "raw": "South Korea March 2026 Annual Inflation Confirmed at 2.16% YoY (Up from 2.00% in Feb)** | YES | HIGH confidence[1]\n\nSouth Korea's Consumer Price Index reached 118.8 in March 2026, with year-over-year inflation rising to 2.16% from 2.00% the prior month and month-over-month inflation at 0.34%[1]. This fresh data release exceeds the Bank of Korea's 2% target amid oil price pressures, following the B",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+      ],
+      "action": "ENTER",
       "x_link": null,
       "category": "ECONOMICS"
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 5,
+    "enter": 2,
+    "alert": 0,
     "watch": 0,
-    "high_conf": 1
+    "high_conf": 2
   }
 }
