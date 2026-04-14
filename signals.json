@@ -1,60 +1,82 @@
 {
-  "last_scan": "2026-04-14T04:14:10.340068+00:00",
-  "scan_seconds": 29.0,
+  "last_scan": "2026-04-14T04:17:09.697841+00:00",
+  "scan_seconds": 32.1,
   "markets_scanned": 125,
   "open_positions": 88,
   "signals": [
     {
-      "id": "sig_811992",
-      "timestamp": "2026-04-14T04:13:55.851152+00:00",
+      "id": "sig_998490",
+      "timestamp": "2026-04-14T04:17:02.349301+00:00",
       "source": "PERPLEXITY",
-      "headline": "Pre-election status:** Analilia **Mejia (Democrat)** is the strong favorite to win this House seat, not Joe Hathaway (Re",
-      "raw": "Pre-election status:** Analilia **Mejia (Democrat)** is the strong favorite to win this House seat, not Joe Hathaway (Republican)[2]. Recent polling shows Mejia leading 53% to 36% with 11% undecided[1]. She has substantially outraised Hathaway ($1.1 million vs. $525,000) and the district favors Democrats, having voted for Kamala Harris by 53%-44% in 2024[2].\n\nThe only confirmed development since t",
+      "headline": "XRP Records Largest Inflows, NYSE Tokenization Entry, Solana Enterprise Adoption | YES | HIGH confidence** [2][6]",
+      "raw": "XRP Records Largest Inflows, NYSE Tokenization Entry, Solana Enterprise Adoption | YES | HIGH confidence** [2][6]\n\nXRP saw $119.6 million in inflows last week (April 8, 2026), surpassing Bitcoin ($107.3M) and Solana ($34.9M), amid progress on the Evernorth SPAC merger for the largest public XRP treasury and a U.S.-Iran ceasefire boosting sentiment; price hit $1.38 (+5.52%).[2] NYSE partnered with ",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
-        "Will Joe Hathaway win the NJ-11 special election?",
-        "Will the Democratic Party control the Senate after the 2026 Midterm elections?"
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Will Iran strike Iraq by April 30, 2026?",
+        "Trump announces US x Iran ceasefire end by April 21, 2026?"
       ],
       "action": "ENTER",
       "x_link": null,
-      "category": "POLITICS"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_825479",
-      "timestamp": "2026-04-14T04:14:09.338051+00:00",
+      "id": "sig_985284",
+      "timestamp": "2026-04-14T04:16:49.143022+00:00",
       "source": "PERPLEXITY",
-      "headline": "South Korea BOK Holds Benchmark Rate at 2",
-      "raw": "South Korea BOK Holds Benchmark Rate at 2.5% for 7th Straight Month Amid Inflation Above Target and Oil Price Risks | NO | HIGH confidence**  \nThe Bank of Korea's Monetary Policy Board unanimously decided on April 10, 2026, to keep its policy rate unchanged at 2.5%, citing inflation at ~2.2% (slightly above the 2% target), rising oil costs from Middle East conflict, won weakness (~1,520/USD), and ",
-      "direction": "NO",
+      "headline": "US-Iran Ceasefire Talks Collapse in Pakistan; Trump Announces Navy Blockade of Strait of Hormuz | NO | HIGH confidence**",
+      "raw": "US-Iran Ceasefire Talks Collapse in Pakistan; Trump Announces Navy Blockade of Strait of Hormuz | NO | HIGH confidence**[1][2]\n\nUS-Iran ceasefire negotiations mediated in Pakistan ended without agreement on April 13, 2026, primarily due to Iran's refusal to abandon nuclear ambitions, as stated by President Trump**[1][2]**. Trump responded by announcing a US Navy blockade of ships entering or leavi",
+      "direction": "YES",
       "confidence": 0.78,
       "matched_markets": [
-        "Will the price of XRP be above $1.10 on April 14?",
-        "Will the price of Solana be above $70 on April 14?",
-        "Will the price of Bitcoin be above $82,000 on April 15?"
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces end of military operations against Iran by A",
+        "Will Iran strike Iraq by April 30, 2026?"
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_811982",
-      "timestamp": "2026-04-14T04:13:55.841685+00:00",
+      "id": "sig_998504",
+      "timestamp": "2026-04-14T04:17:02.363466+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot provide the breaking news format you've requested because the election hasn't occurred yet",
-      "raw": "I cannot provide the breaking news format you've requested because the election hasn't occurred yet. The **2026 New Jersey's 11th congressional district special election is scheduled for April 16, 2026**[1]\u2014two days from the current date\u2014so no results have been confirmed or announced.\n\nBased on available information before the election:",
+      "headline": "April Historical Trends & Predictions Mixed | NO | LOW confidence**",
+      "raw": "April Historical Trends & Predictions Mixed | NO | LOW confidence**  \nPast Aprils show XRP volatility (e.g., +180% in 2021, -20% in 2024, +4.87% in 2025); Polymarket odds favor XRP below $1.2 (69%) over above $1.4 (56%), Solana above $80 (87%).[1][4][5]",
       "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
+      "confidence": 0.6,
+      "matched_markets": [
+        "Will the price of XRP be above $1.10 on April 14?",
+        "Will the price of XRP be between $1.60 and $1.70 on April 14",
+        "Will the price of Solana be above $70 on April 14?"
+      ],
+      "action": "WATCH",
       "x_link": null,
-      "category": "POLITICS"
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_4832",
+      "timestamp": "2026-04-14T04:17:08.690987+00:00",
+      "source": "PERPLEXITY",
+      "headline": "South Korea March 2026 Inflation Rises to 2",
+      "raw": "South Korea March 2026 Inflation Rises to 2.2% YoY, Below Forecasts Amid Oil Shock Volatility | YES | HIGH confidence** [1][2]\n\nSouth Korea's annual CPI inflation increased to 2.2% in March 2026 from 2.0% in January-February, missing market expectations of 2.4% and aligning with the Bank of Korea's 2% target despite global energy pressures from the Iran conflict.[1][2] Monthly CPI rose 0.3-0.34%, ",
+      "direction": "YES",
+      "confidence": 0.6,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Will Iran strike Iraq by April 30, 2026?",
+        "Trump announces US x Iran ceasefire end by April 21, 2026?"
+      ],
+      "action": "WATCH",
+      "x_link": null,
+      "category": "ECONOMICS"
     }
   ],
   "stats": {
     "enter": 1,
-    "alert": 2,
-    "watch": 0,
+    "alert": 1,
+    "watch": 2,
     "high_conf": 1
   }
 }
