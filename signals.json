@@ -1,119 +1,65 @@
 {
-  "last_scan": "2026-04-14T22:39:50.434902+00:00",
-  "scan_seconds": 30.7,
+  "last_scan": "2026-04-14T22:42:43.395686+00:00",
+  "scan_seconds": 31.6,
   "markets_scanned": 114,
   "open_positions": 84,
   "signals": [
     {
-      "id": "sig_165641",
-      "timestamp": "2026-04-14T22:39:49.433992+00:00",
+      "id": "sig_326736",
+      "timestamp": "2026-04-14T22:42:30.528550+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot identify any breaking news from today (April 14, 2026) in the provided search results",
-      "raw": "I cannot identify any breaking news from today (April 14, 2026) in the provided search results. The most recent data available is from March 2026, which showed South Korea's annual inflation rate rose to 2.2%[1], but this is not today's announcement.\n\nThe search results do not contain any confirmed announcements, resolved developments, or newly released data from April 14, 2026 that would move pre",
-      "direction": "YES",
+      "headline": "NJ-11 Special Election Candidate Joe Hathaway Positions as Sole GOP Contender** | **NO** | **MED** confidence[2]",
+      "raw": "NJ-11 Special Election Candidate Joe Hathaway Positions as Sole GOP Contender** | **NO** | **MED** confidence[2].\n\nRandolph Mayor Joe Hathaway campaigns as the only Republican in the April 16 special election to replace Gov.-elect Mikie Sherrill (D), emphasizing affordability and a \"big-tent\" GOP without confirmed Trump endorsement[2]. Analysts note Democratic infighting in a 12-candidate primary,",
+      "direction": "NO",
       "confidence": 0.9,
       "matched_markets": [
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+        "Will J.D. Vance win the 2028 Republican presidential nominat",
+        "Trump announces US x Iran ceasefire end by April 21, 2026?",
+        "Will Joe Hathaway win the NJ-11 special election?"
       ],
       "action": "ENTER",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "POLITICS"
     },
     {
-      "id": "sig_155304",
-      "timestamp": "2026-04-14T22:39:39.096166+00:00",
+      "id": "sig_338602",
+      "timestamp": "2026-04-14T22:42:42.394690+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot provide the specific breaking news format you've requested based on these search results",
-      "raw": "I cannot provide the specific breaking news format you've requested based on these search results.\n\nThe search results provided contain articles from what appears to be early April 2026 regarding Vice President JD Vance's failed Iran negotiations in Pakistan and his campaign appearance before Hungarian Prime Minister Viktor Orb\u00e1n's election defeat. However, these articles do not clearly indicate w",
-      "direction": null,
+      "headline": "South Korea Annual Inflation Rises to 2",
+      "raw": "South Korea Annual Inflation Rises to 2.2% in March 2026, Below Forecasts Amid Iran Conflict Volatility | YES | MED confidence** [1]\n\nSouth Korea's annual inflation rate increased to 2.2% in March 2026 from 2.0% in January and February, missing market expectations of 2.4% and remaining near the Bank of Korea's 2% target despite global energy market pressures from the Iran conflict.[1] This data, r",
+      "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
         "Trump announces US x Iran ceasefire end by April 21, 2026?",
         "US x Iran permanent peace deal by April 22, 2026?"
       ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
-      "category": "POLITICS"
+      "category": "ECONOMICS"
     },
     {
-      "id": "sig_145986",
-      "timestamp": "2026-04-14T22:39:29.778633+00:00",
+      "id": "sig_326723",
+      "timestamp": "2026-04-14T22:42:30.515357+00:00",
       "source": "PERPLEXITY",
-      "headline": "US-Iran Ceasefire Talks Collapse; Trump Announces Navy Blockade of Strait of Hormuz | NO | HIGH confidence**",
-      "raw": "US-Iran Ceasefire Talks Collapse; Trump Announces Navy Blockade of Strait of Hormuz | NO | HIGH confidence**\n\nUS-Iran ceasefire negotiations in Pakistan ended without agreement, primarily due to Iran's refusal to abandon nuclear ambitions, prompting President Trump to order a US Navy blockade of the Strait of Hormuz starting Sunday, with any Iranian fast-attack ships approaching US vessels to be e",
-      "direction": "YES",
-      "confidence": 0.78,
+      "headline": "White House Confirms Full Confidence in VP Vance and Sec",
+      "raw": "White House Confirms Full Confidence in VP Vance and Sec. Rubio Amid Iran War Policy Differences** | **NO** | **HIGH** confidence[1].\n\nThe White House issued an unsolicited statement affirming \"President Trump has full confidence in both Vice President Vance and Secretary Rubio,\" addressing reported tensions over their hawkish (Rubio) vs. dovish (Vance) stances on the ongoing Iran war during a rec",
+      "direction": "NO",
+      "confidence": 0.6,
       "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
         "Trump announces US x Iran ceasefire end by April 21, 2026?",
-        "Trump announces end of military operations against Iran by A"
+        "Trump announces end of military operations against Iran by A",
+        "Will Trump announce that the US x Iran ceasefire has been br"
       ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_155314",
-      "timestamp": "2026-04-14T22:39:39.106480+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Search results with timestamps confirming events occurred on or very close to April 14, 2026",
-      "raw": "Search results with timestamps confirming events occurred on or very close to April 14, 2026",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
+      "action": "WATCH",
       "x_link": null,
       "category": "POLITICS"
-    },
-    {
-      "id": "sig_155325",
-      "timestamp": "2026-04-14T22:39:39.117057+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Clear information about what specific announcement, confirmation, or resolution occurred",
-      "raw": "Clear information about what specific announcement, confirmation, or resolution occurred",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_155335",
-      "timestamp": "2026-04-14T22:39:39.127897+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Context distinguishing between ongoing situations and newly resolved matters",
-      "raw": "Context distinguishing between ongoing situations and newly resolved matters\n\nThe provided sources appear to be reporting on events from several days prior, not breaking news from tonight. I recommend conducting a fresh search with more recent sources to identify what has actually moved prediction markets in the last few hours.",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_159821",
-      "timestamp": "2026-04-14T22:39:43.613133+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Solana Hits Record 167 Million Monthly Token Holders and 148 Million Daily Non-Vote Transactions on April 14, 2026, Amid",
-      "raw": "Solana Hits Record 167 Million Monthly Token Holders and 148 Million Daily Non-Vote Transactions on April 14, 2026, Amid Alpenglow Upgrade Anticipation** | YES | HIGH confidence[1]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the price of Solana be between $60 and $70 on April 15?",
-        "Will the price of Solana be above $100 on April 15?",
-        "Will the price of Solana be above $100 on April 16?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 6,
-    "watch": 0,
+    "enter": 2,
+    "alert": 0,
+    "watch": 1,
     "high_conf": 2
   }
 }
