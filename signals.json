@@ -1,16 +1,16 @@
 {
-  "last_scan": "2026-04-14T02:51:21.933580+00:00",
-  "scan_seconds": 29.0,
-  "markets_scanned": 78,
+  "last_scan": "2026-04-14T02:54:12.686929+00:00",
+  "scan_seconds": 27.9,
+  "markets_scanned": 77,
   "open_positions": 35,
   "signals": [
     {
-      "id": "sig_836545",
-      "timestamp": "2026-04-14T02:51:00.409854+00:00",
+      "id": "sig_10162",
+      "timestamp": "2026-04-14T02:53:54.025770+00:00",
       "source": "PERPLEXITY",
-      "headline": "Trump Orders Naval Blockade of Iran After Failed US-Iran Ceasefire Talks | NO | HIGH confidence**",
-      "raw": "Trump Orders Naval Blockade of Iran After Failed US-Iran Ceasefire Talks | NO | HIGH confidence**\n\nUS-Iran negotiations in Islamabad collapsed on April 12, 2026, with no agreement on preventing Iran's nuclear development, as confirmed by Vice President JD Vance[1]. President Trump responded by ordering a naval blockade of Iranian ports within hours, aiming to counter Iran's blockade of the Strait ",
-      "direction": "NO",
+      "headline": "US initiates Strait of Hormuz blockade on April 13 despite 'holding well' US-Iran ceasefire | NO | HIGH confidence** [1]",
+      "raw": "US initiates Strait of Hormuz blockade on April 13 despite 'holding well' US-Iran ceasefire | NO | HIGH confidence** [1][2][5]\n\nTrump confirmed the two-week US-Iran ceasefire (started April 7, 2026) remains in effect, but announced and began US Navy enforcement blocking Iranian ports and vessels charging tolls in the strait, with threats to eliminate approaching Iranian ships and destroy mines [1]",
+      "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
@@ -22,93 +22,58 @@
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_857026",
-      "timestamp": "2026-04-14T02:51:20.890609+00:00",
+      "id": "sig_15032",
+      "timestamp": "2026-04-14T02:53:58.895550+00:00",
       "source": "PERPLEXITY",
-      "headline": "Key confirmed developments:**",
-      "raw": "Key confirmed developments:**",
-      "direction": null,
+      "headline": "VP Vance hosts DOJ officials including AG Bondi, FBI Director Patel at VP residence to discuss Epstein fallout strategy",
+      "raw": "VP Vance hosts DOJ officials including AG Bondi, FBI Director Patel at VP residence to discuss Epstein fallout strategy | YES | HIGH confidence**[2]\n\nVice President JD Vance is holding a private dinner at his Washington, D.C. residence with top Trump administration figures\u2014Attorney General Pam Bondi, FBI Director Kash Patel, Deputy Attorney General Todd Blanche, and White House chief of staff Susi",
+      "direction": "YES",
       "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
+      "matched_markets": [
+        "Will Elon Musk Testify to Congress about Epstein?"
+      ],
+      "action": "ENTER",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "POLITICS"
     },
     {
-      "id": "sig_857021",
-      "timestamp": "2026-04-14T02:51:20.885339+00:00",
+      "id": "sig_21444",
+      "timestamp": "2026-04-14T02:54:05.307927+00:00",
       "source": "PERPLEXITY",
-      "headline": "BANK OF KOREA HOLDS RATES AT 2",
-      "raw": "BANK OF KOREA HOLDS RATES AT 2.5% AMID IRAN WAR INFLATION FEARS | NO rate change | HIGH confidence**\n\nThe **Bank of Korea kept its benchmark interest rate steady at 2.5%** on April 10, 2026, for the 7th consecutive month, with a unanimous decision among board members[5]. This decision maintains the status quo despite mounting inflationary pressures from the Iran conflict.",
-      "direction": "NO",
-      "confidence": 0.65,
+      "headline": "XRP ETFs Record $3",
+      "raw": "XRP ETFs Record $3.3M Net Inflows on April 12 Amid BTC/ETH Outflows | YES | MED confidence** [6]\n\nDetails: XRP saw selective institutional buying as a \"liquid, neutral asset\" during risk-off conditions, signaling short-term bullish rotation despite small scale.[6] Ties into broader April regulatory focus, including Senate return on April 13 for CLARITY Act discussions potentially classifying XRP a",
+      "direction": "YES",
+      "confidence": 0.78,
       "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Will Iran strike Iraq by April 30, 2026?",
-        "Trump announces US x Iran ceasefire end by April 21, 2026?"
+        "Will the price of Ethereum be between $2,400 and $2,500 on April 14?",
+        "XRP Up or Down - April 13, 11PM ET",
+        "XRP Up or Down - April 14, 12:55AM-1:00AM ET"
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_857031",
-      "timestamp": "2026-04-14T02:51:20.895908+00:00",
+      "id": "sig_21439",
+      "timestamp": "2026-04-14T02:54:05.302361+00:00",
       "source": "PERPLEXITY",
-      "headline": "**South Korea's March inflation rose to 2",
-      "raw": "**South Korea's March inflation rose to 2.2% year-on-year**, up from 2.0% in February but below the forecasted 2.4%[1][2]. Core inflation (excluding food and energy) declined to 2.2% in March from 2.3% in February[2].",
+      "headline": "Senator Cynthia Lummis Confirms U",
+      "raw": "Senator Cynthia Lummis Confirms U.S. Crypto Market Structure Legislation Nearing Approval with April Markup | YES | HIGH confidence** [1]\n\nKey details: At the DC Blockchain Summit, Lummis stated a stablecoin yield compromise has cleared political hurdles, positioning the bill for markup after Congress's Easter recess in April 2026; this advances regulatory clarity for assets like **ETH** and **XRP",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+        "XRP Up or Down - April 13, 11PM ET",
+        "XRP Up or Down - April 14, 12:55AM-1:00AM ET",
+        "XRP Up or Down - April 14, 1:00AM-1:05AM ET"
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_857037",
-      "timestamp": "2026-04-14T02:51:20.901065+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**The BOK now projects inflation to \"exceed considerably\" its February forecast of 2",
-      "raw": "**The BOK now projects inflation to \"exceed considerably\" its February forecast of 2.2%** due to higher crude oil prices and won weakness, which have increased import costs[6]. The board expects inflation to reach the \"mid to upper two-percent range\"[5].",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_857042",
-      "timestamp": "2026-04-14T02:51:20.906368+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Petroleum products surged 10",
-      "raw": "**Petroleum products surged 10.4% month-on-month in March**, reflecting oil price volatility from the Iran war[2]. South Korea, the world's fourth-largest oil importer, implemented nationwide fuel price caps for the first time in nearly 30 years[2].",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_857047",
-      "timestamp": "2026-04-14T02:51:20.911587+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Analysts expect no rate changes for the remainder of 2026**, with the BOK's easing cycle considered complete[3][6]",
-      "raw": "**Analysts expect no rate changes for the remainder of 2026**, with the BOK's easing cycle considered complete[3][6].\n\nThe decision signals the central bank prioritizes managing currency volatility and financial stability over addressing near-term inflation that remains above its 2% target.",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
+      "category": "CRYPTO"
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 6,
+    "enter": 2,
+    "alert": 2,
     "watch": 0,
     "high_conf": 2
   }
