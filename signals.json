@@ -1,46 +1,145 @@
 {
-  "last_scan": "2026-04-14T00:53:12.556285+00:00",
-  "scan_seconds": 25.9,
+  "last_scan": "2026-04-14T00:56:06.259592+00:00",
+  "scan_seconds": 31.4,
   "markets_scanned": 72,
   "open_positions": 36,
   "signals": [
     {
-      "id": "sig_767682",
-      "timestamp": "2026-04-14T00:53:11.553158+00:00",
+      "id": "sig_919641",
+      "timestamp": "2026-04-14T00:55:43.512991+00:00",
       "source": "PERPLEXITY",
-      "headline": "South Korea March 2026 Inflation Confirmed at 2",
-      "raw": "South Korea March 2026 Inflation Confirmed at 2.2% YoY (Undershot Forecasts of 2.4%) | YES | HIGH confidence**  \nSouth Korea's annual CPI inflation rose to 2.2% in March 2026 from 2.0% in February, below market expectations of 2.4% and with core inflation easing to 2.2% from 2.3%.[2][3][4] Monthly CPI increased 0.3%, weaker than the 0.6% forecast, despite petroleum jumps offset by falling agricult",
-      "direction": "YES",
+      "headline": "Trump Announces US Navy Blockade of Strait of Hormuz After Iran Talks Collapse | NO | HIGH confidence**",
+      "raw": "Trump Announces US Navy Blockade of Strait of Hormuz After Iran Talks Collapse | NO | HIGH confidence**  \nPresident Trump ordered the US Navy to begin blockading Iranian ports in the Strait of Hormuz on April 13, 2026, following failed weekend negotiations where Iran refused to abandon its nuclear program.[1][2][4] This escalates tensions amid a fragile two-week ceasefire, with US Central Command ",
+      "direction": "NO",
       "confidence": 0.9,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Will Iran strike Iraq by April 30, 2026?",
-        "Trump announces US x Iran ceasefire end by April 21, 2026?"
+        "Trump announces end of military operations against Iran by J",
+        "Trump announces end of military operations against Iran by A"
       ],
       "action": "ENTER",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_934906",
+      "timestamp": "2026-04-14T00:55:58.777866+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Based on the search results provided, the most recent \"breaking news\" material is from **April 12, 2026**, which is the",
+      "raw": "Based on the search results provided, the most recent \"breaking news\" material is from **April 12, 2026**, which is the latest dated source available. Here are the key market-moving developments:",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_934914",
+      "timestamp": "2026-04-14T00:55:58.785883+00:00",
+      "source": "PERPLEXITY",
+      "headline": "HEADLINE | Confidence Level**",
+      "raw": "HEADLINE | Confidence Level**",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_934921",
+      "timestamp": "2026-04-14T00:55:58.792990+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Bitcoin Tests $74,516 Support as Ethereum Stabilizes Above Critical 0",
+      "raw": "Bitcoin Tests $74,516 Support as Ethereum Stabilizes Above Critical 0.030 ETH/BTC Ratio | YES | HIGH** \u2014 Bitcoin recovered to $74,516 (+5.54%) on April 12, with Ethereum outperforming at $2,374 (+7.46%), marking the third consecutive session where ETH outpaced BTC on a relative basis[5]. The ETH/BTC ratio stabilized above the critical 0.030 level, a historically significant trend inflection point[",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the price of Bitcoin be above $72,000 on April 16?",
+        "Will the price of Ethereum be between $2,400 and $2,500 on April 14?",
+        "Bitcoin Up or Down - April 14, 4:00PM-8:00PM ET"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_934928",
+      "timestamp": "2026-04-14T00:55:58.799591+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Institutional Bitcoin Accumulation Accelerates Amid Extreme Fear Conditions | YES | HIGH** \u2014 Bitcoin ETFs have accumulat",
+      "raw": "Institutional Bitcoin Accumulation Accelerates Amid Extreme Fear Conditions | YES | HIGH** \u2014 Bitcoin ETFs have accumulated $86.22 billion in net assets with $55.96 billion in cumulative inflows[3]. Strategy acquired over 85,000 BTC in Q1 2026[3]. This institutional positioning during the Fear and Greed Index's 46-day extreme fear period historically signals bullish reversals, with median 90-day re",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_934933",
+      "timestamp": "2026-04-14T00:55:58.804775+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Key April Catalysts Identified for Market Recovery | YES | MED** \u2014 Analysts highlight multiple triggers: the CLARITY Act",
+      "raw": "Key April Catalysts Identified for Market Recovery | YES | MED** \u2014 Analysts highlight multiple triggers: the CLARITY Act markup scheduled for late April (targeting XRP recovery to $2.50\u2013$4.00)[3], Ethereum's Layer 2 network activity monitoring[4], and potential Fed rate softening if oil-driven inflation stabilizes[4]. The Pectra upgrade is scheduled for Q2 2026[5].",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the price of Ethereum be between $2,400 and $2,500 on April 14?",
+        "Ethereum Up or Down - April 14, 5:35AM-5:40AM ET",
+        "XRP Up or Down - April 14, 1:00AM-1:05AM ET"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_941354",
+      "timestamp": "2026-04-14T00:56:05.225913+00:00",
+      "source": "PERPLEXITY",
+      "headline": "March 2026 annual inflation at 2",
+      "raw": "March 2026 annual inflation at 2.2% (up from 2.0% in Jan/Feb, below 2.4% forecasts), with Feb steady at 2.0% near BoK's 2% target.[2]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+      ],
+      "action": "ALERT",
       "x_link": null,
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_755961",
-      "timestamp": "2026-04-14T00:52:59.832370+00:00",
+      "id": "sig_941360",
+      "timestamp": "2026-04-14T00:56:05.231038+00:00",
       "source": "PERPLEXITY",
-      "headline": "House Oversight Democrat Robert Garcia Calls for Elon Musk Testimony on Epstein Files | YES | MED confidence**",
-      "raw": "House Oversight Democrat Robert Garcia Calls for Elon Musk Testimony on Epstein Files | YES | MED confidence**\n\nDemocratic Rep. Robert Garcia, ranking member on the House Oversight Committee, stated lawmakers should hear from **Elon Musk** about his knowledge of Jeffrey Epstein's activities, citing Musk's confidence in Steve Bannon's involvement and Epstein documents mentioning Musk.[1]  \nGarcia a",
-      "direction": "YES",
-      "confidence": 0.6,
-      "matched_markets": [
-        "Will Elon Musk Testify to Congress about Epstein?"
-      ],
-      "action": "WATCH",
+      "headline": "BoK held benchmark rate at 2",
+      "raw": "BoK held benchmark rate at 2.5% on Apr 10 (7th straight month), citing inflation ~2.2%, oil price risks from Middle East tensions, and weak won (~1,520/USD).[3]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
       "x_link": null,
-      "category": "POLITICS"
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_941365",
+      "timestamp": "2026-04-14T00:56:05.236243+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Earlier Jan 2026 inflation cooled to 2",
+      "raw": "Earlier Jan 2026 inflation cooled to 2.0% YoY (core steady at 2%), unlikely to prompt rate cuts amid housing/FX concerns.[1]\n\nNo confirmations, resolutions, or announcements post-Apr 10 in results; oil shocks and OECD forecast tweaks (growth to 1.7%, inflation to 2.7%) are from Mar and predate today.[4][5][6] **LOW confidence** due to recency gap in sources (latest ~Apr 10).[2][3]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
     }
   ],
   "stats": {
     "enter": 1,
-    "alert": 0,
-    "watch": 1,
+    "alert": 8,
+    "watch": 0,
     "high_conf": 1
   }
 }
