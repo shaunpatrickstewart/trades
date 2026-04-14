@@ -8,10 +8,36 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 129 categorical arb opportunities found\nScanned 3000 events (1967 multi-outcome) at 2026-04-14 17:08 UTC\nBest: 9.6% profit on 'How many Gold Cards will Trump sell in 2026?' \u2014 buy YES on all 9 outcomes (sum=0.904)\nStrategy: Buy YES on all 9 outcomes. Total cost: $0.9040. One wins $1.00. Profit: $0.0960 (9.60%)\n2nd: 9.5% on '2025-2026 PFA Players' Player of the Year Winner'",
+      "result": "LIVE \u2014 125 categorical arb opportunities found\nScanned 3000 events (1969 multi-outcome) at 2026-04-14 17:09 UTC\nBest: 10.0% profit on 'LoL: UB Alma Mater vs Bar\u00e7a eSports (BO3) - LES Regular Season' \u2014 buy YES on all 2 outcomes (sum=0.9)\nStrategy: Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 9.6% on 'How many Gold Cards will Trump sell in 2026?'",
       "priority": "HIGH",
-      "last_scan": "2026-04-14 17:08 UTC",
+      "last_scan": "2026-04-14 17:09 UTC",
       "opportunities": [
+        {
+          "event_title": "LoL: UB Alma Mater vs Bar\u00e7a eSports (BO3) - LES Regular Season",
+          "event_slug": "lol-ub-bar-2026-04-16",
+          "yes_sum": 0.9,
+          "profit_pct": 10.0,
+          "profit_per_dollar_pct": 11.11,
+          "num_outcomes": 2,
+          "outcomes": [
+            {
+              "market_id": "1935322",
+              "slug": "lol-ub-bar-2026-04-16-game-handicap-home-1pt5",
+              "question": "Game Handicap: BAR (-1.5) vs UB Alma Mater (+1.5)",
+              "yes_price": 0.845,
+              "volume": 1907
+            },
+            {
+              "market_id": "1935318",
+              "slug": "lol-ub-bar-2026-04-16",
+              "question": "LoL: UB Alma Mater vs Bar\u00e7a eSports (BO3) - LES Regular Season",
+              "yes_price": 0.055,
+              "volume": 2406
+            }
+          ],
+          "url": "https://polymarket.com/event/lol-ub-bar-2026-04-16",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
+        },
         {
           "event_title": "How many Gold Cards will Trump sell in 2026?",
           "event_slug": "how-many-gold-cards-will-trump-sell-in-2026",
@@ -119,32 +145,6 @@
           ],
           "url": "https://polymarket.com/event/2025-2026-pfa-players-player-of-the-year-winner",
           "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
-        },
-        {
-          "event_title": "UEFA Europa League: Most Goal Contributions",
-          "event_slug": "uefa-europa-league-most-goal-contributions",
-          "yes_sum": 0.905,
-          "profit_pct": 9.5,
-          "profit_per_dollar_pct": 10.5,
-          "num_outcomes": 2,
-          "outcomes": [
-            {
-              "market_id": "1420691",
-              "slug": "will-igor-jesus-record-the-most-goal-contributions-in-the-2025-26-uefa-europa-league",
-              "question": "Will Igor Jesus record the most goal contributions in the 2025-26 UEFA Europa Le",
-              "yes_price": 0.555,
-              "volume": 2952
-            },
-            {
-              "market_id": "1420692",
-              "slug": "will-ricardo-horta-record-the-most-goal-contributions-in-the-2025-26-uefa-europa-league",
-              "question": "Will Ricardo Horta record the most goal contributions in the 2025-26 UEFA Europa",
-              "yes_price": 0.35,
-              "volume": 2740
-            }
-          ],
-          "url": "https://polymarket.com/event/uefa-europa-league-most-goal-contributions",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
         },
         {
           "event_title": "Israel military action against Yemen by...?",
@@ -492,11 +492,11 @@
       ],
       "stats": {
         "total_events": 3000,
-        "checked_multi_outcome": 1967,
-        "skipped_single_outcome": 604,
-        "opportunities_found": 129,
-        "best_profit_pct": 9.6,
-        "scanned_at": "2026-04-14 17:08 UTC"
+        "checked_multi_outcome": 1969,
+        "skipped_single_outcome": 605,
+        "opportunities_found": 125,
+        "best_profit_pct": 10.0,
+        "scanned_at": "2026-04-14 17:09 UTC"
       }
     },
     {
