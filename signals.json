@@ -1,16 +1,16 @@
 {
-  "last_scan": "2026-04-14T03:25:02.671644+00:00",
-  "scan_seconds": 26.3,
+  "last_scan": "2026-04-14T03:27:52.970714+00:00",
+  "scan_seconds": 29.0,
   "markets_scanned": 73,
   "open_positions": 35,
   "signals": [
     {
-      "id": "sig_859863",
-      "timestamp": "2026-04-14T03:24:43.725749+00:00",
+      "id": "sig_28625",
+      "timestamp": "2026-04-14T03:27:32.486538+00:00",
       "source": "PERPLEXITY",
-      "headline": "US-Iran ceasefire talks collapse in Pakistan; Trump announces Navy blockade of Strait of Hormuz",
-      "raw": "US-Iran ceasefire talks collapse in Pakistan; Trump announces Navy blockade of Strait of Hormuz.** | **NO** | **HIGH** confidence[1][2]\n\nTalks ended without agreement on April 13, 2026, due to Iran's refusal to abandon nuclear ambitions, as stated by President Trump and VP JD Vance[1][2]. Trump confirmed the US Navy will block ships entering or leaving the Strait of Hormuz, calling Iran \"extortion",
-      "direction": "YES",
+      "headline": "US-Iran ceasefire talks collapse in Pakistan; Trump announces Navy blockade of Strait of Hormuz** | **NO** | **HIGH** co",
+      "raw": "US-Iran ceasefire talks collapse in Pakistan; Trump announces Navy blockade of Strait of Hormuz** | **NO** | **HIGH** confidence[1][2]\n\nTalks ended without agreement on April 13, 2026, due to Iran's refusal to abandon nuclear ambitions, prompting President Trump to order a US Navy blockade of ships entering or leaving the Strait of Hormuz[1][2]. A fragile two-week ceasefire remains in place until ",
+      "direction": "NO",
       "confidence": 0.9,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
@@ -22,26 +22,123 @@
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_877789",
-      "timestamp": "2026-04-14T03:25:01.651859+00:00",
+      "id": "sig_48087",
+      "timestamp": "2026-04-14T03:27:51.949005+00:00",
       "source": "PERPLEXITY",
-      "headline": "South Korea Holds Interest Rate at 2",
-      "raw": "South Korea Holds Interest Rate at 2.5% Amid Rising Inflation Pressures from Oil Prices and Iran Conflict | NO | HIGH confidence**[4][5]\n\nThe Bank of Korea's Monetary Policy Board unanimously decided on April 10, 2026, to keep its benchmark rate unchanged at 2.5% for the seventh consecutive month, citing surging oil costs pushing consumer prices above the 2% target (recently at 2.2% in March 2026)",
+      "headline": "Bank of Korea Holds Rate Steady Amid Rising Inflation Risks | NO (rate unchanged) | HIGH confidence**",
+      "raw": "Bank of Korea Holds Rate Steady Amid Rising Inflation Risks | NO (rate unchanged) | HIGH confidence**\n\nThe Bank of Korea kept its benchmark interest rate at 2.5% on Friday, April 10, 2026, for the 7th consecutive month, maintaining the status quo despite mounting inflationary pressures.[4][5] However, the central bank significantly escalated its inflation outlook, now expecting headline inflation ",
       "direction": "YES",
       "confidence": 0.78,
       "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Will Iran strike Iraq by April 30, 2026?",
-        "Trump announces US x Iran ceasefire end by April 21, 2026?"
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?",
+        "Will the Central Bank of Colombia announce an increase at the April meeting?"
       ],
       "action": "ALERT",
       "x_link": null,
       "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_34787",
+      "timestamp": "2026-04-14T03:27:38.648125+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Vance Breaks Tie Vote to Block War Powers Resolution in Senate** | YES | HIGH[5]",
+      "raw": "Vance Breaks Tie Vote to Block War Powers Resolution in Senate** | YES | HIGH[5]  \nVice President **JD Vance** cast the tie-breaking vote in the **Senate** late on April 13, 2026, defeating a war powers resolution after two Republicans flipped, preventing limits on military actions amid the ongoing Iran conflict.[5] This **Republican** victory maintains executive flexibility but fuels GOP midterm ",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will J.D. Vance win the 2028 Republican presidential nominat",
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Will Iran strike Iraq by April 30, 2026?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_34792",
+      "timestamp": "2026-04-14T03:27:38.653913+00:00",
+      "source": "PERPLEXITY",
+      "headline": "No Deal in Vance-Led Iran Peace Talks** | YES | HIGH[1]",
+      "raw": "No Deal in Vance-Led Iran Peace Talks** | YES | HIGH[1]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "US x Iran permanent peace deal by April 22, 2026?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_34798",
+      "timestamp": "2026-04-14T03:27:38.659667+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Vance** emerged from 21-hour peace talks on April 12, 2026, confirming no agreement to end the Iran war, escalating poli",
+      "raw": "Vance** emerged from 21-hour peace talks on April 12, 2026, confirming no agreement to end the Iran war, escalating political risks for **Congressional Republicans** defending slim majorities in **midterms**.[1] Trump threatens Hormuz blockade, further pressuring prediction markets on GOP control.[1]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will J.D. Vance win the 2028 Republican presidential nominat",
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces end of military operations against Iran by A"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_34804",
+      "timestamp": "2026-04-14T03:27:38.665341+00:00",
+      "source": "PERPLEXITY",
+      "headline": "GOP Midterm Warnings Escalate** | YES | MED[4]",
+      "raw": "GOP Midterm Warnings Escalate** | YES | MED[4]  \nTop **Republicans** admit private polling shows risks of losing **House** and **Senate** majorities in **midterms**, despite Senate GOP optimism for expansion to 54-55 seats.[3][4] **Vance** campaigns aggressively as RNC finance chair to build alliances.[2][3]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will J.D. Vance win the 2028 Republican presidential nominat",
+        "Will the Democratic Party control the Senate after the 2026 Midterm elections?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_40135",
+      "timestamp": "2026-04-14T03:27:43.996088+00:00",
+      "source": "PERPLEXITY",
+      "headline": "XRP Tops ETF Inflows Amid BTC/ETH Outflows (April 12)** | YES | MED",
+      "raw": "XRP Tops ETF Inflows Amid BTC/ETH Outflows (April 12)** | YES | MED  \nXRP ETFs recorded $3.3M net inflows on April 12, 2026, while Bitcoin ETFs saw $159M outflows and Ethereum $64M, signaling short-term institutional rotation to XRP as a neutral asset\u2014potentially moving prediction markets on XRP resilience[1].",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the price of Ethereum be between $2,400 and $2,500 on April 14?",
+        "XRP Up or Down - April 14, 12:55AM-1:00AM ET",
+        "Will Bitcoin outperform Gold in April 2026?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_40140",
+      "timestamp": "2026-04-14T03:27:44.001412+00:00",
+      "source": "PERPLEXITY",
+      "headline": "XRP Gains Full Commodity Classification from SEC/CFTC** | YES | HIGH",
+      "raw": "XRP Gains Full Commodity Classification from SEC/CFTC** | YES | HIGH  \nXRP achieved full commodity status from both regulators, boosting ETF cumulative inflows to $1.21B and setting up bullish demand ahead of late-April CLARITY Act markup for broader institutional entry[3].",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "XRP Up or Down - April 14, 12:55AM-1:00AM ET",
+        "XRP Up or Down - April 14, 1:00AM-1:05AM ET"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
     }
   ],
   "stats": {
     "enter": 1,
-    "alert": 1,
+    "alert": 7,
     "watch": 0,
     "high_conf": 1
   }
