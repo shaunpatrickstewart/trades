@@ -1,157 +1,35 @@
 {
-  "last_scan": "2026-04-14T19:33:47.974183+00:00",
-  "scan_seconds": 38.1,
-  "markets_scanned": 65,
+  "last_scan": "2026-04-14T19:36:22.269882+00:00",
+  "scan_seconds": 62.3,
+  "markets_scanned": 64,
   "open_positions": 33,
   "signals": [
     {
-      "id": "sig_3149",
-      "timestamp": "2026-04-14T19:33:46.952387+00:00",
+      "id": "sig_136718",
+      "timestamp": "2026-04-14T19:36:00.521060+00:00",
       "source": "PERPLEXITY",
-      "headline": "South Korea March 2026 CPI Inflation Confirmed at 2",
-      "raw": "South Korea March 2026 CPI Inflation Confirmed at 2.16% YoY | YES | HIGH confidence**\n\nSouth Korea's annual consumer price inflation rose to 2.16% year-over-year in March 2026, up from 2.00% in February, with month-over-month inflation at 0.34%.[2] This follows steady 2.0% YoY headline CPI in February, where core inflation (excluding food and energy) increased to 2.3%, amid rising oil prices, KRW ",
-      "direction": "YES",
+      "headline": "US and Iran Plan Fresh Talks Before April 7 Ceasefire Expires | NO | MED confidence**",
+      "raw": "US and Iran Plan Fresh Talks Before April 7 Ceasefire Expires | NO | MED confidence**\n\nNo ceasefire resolution, extension, or breakdown has been confirmed today; instead, reports indicate both sides are discussing new negotiations this week to avert expiration next week, following collapsed weekend talks in Islamabad.[1][3] Trump has stated Iran reached out on a deal amid US blockade of Hormuz, bu",
+      "direction": "NO",
       "confidence": 0.9,
       "matched_markets": [
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces end of military operations against Iran by A",
+        "Trump announces US x Iran ceasefire end by April 21, 2026?"
       ],
       "action": "ENTER",
       "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_978087",
-      "timestamp": "2026-04-14T19:33:21.891009+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Weekend talks in Islamabad ended without a deal, but both sides are now discussing a second round of negotiations before",
-      "raw": "Weekend talks in Islamabad ended without a deal, but both sides are now discussing a second round of negotiations before the two-week ceasefire\u2014announced April 7\u2014expires early next week[1][2].",
-      "direction": null,
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces US x Iran ceasefire end by April 21, 2026?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_978091",
-      "timestamp": "2026-04-14T19:33:21.895466+00:00",
+      "id": "sig_149677",
+      "timestamp": "2026-04-14T19:36:13.480657+00:00",
       "source": "PERPLEXITY",
-      "headline": "Trump announced a US Navy blockade of Iranian ports and the Strait of Hormuz on Sunday (April 13), upheld by Central Com",
-      "raw": "Trump announced a US Navy blockade of Iranian ports and the Strait of Hormuz on Sunday (April 13), upheld by Central Command on Monday (April 14), to pressure Iran over nuclear issues after talks stalled[1][2].",
-      "direction": null,
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces end of military operations against Iran by A",
-        "Trump announces US x Iran ceasefire end by April 21, 2026?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_993415",
-      "timestamp": "2026-04-14T19:33:37.219739+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Solana Hits All-Time Record 167 Million Monthly Token Holders & 148 Million Daily Non-Vote Transactions on April 14, 202",
-      "raw": "Solana Hits All-Time Record 167 Million Monthly Token Holders & 148 Million Daily Non-Vote Transactions on April 14, 2026 | YES | HIGH confidence**  \nThis breaking network activity milestone, reported today, underscores surging adoption and performance, coinciding with a 10% SOL price surge amid anticipation for the Alpenglow upgrade targeting 150ms transaction finality.[1]",
-      "direction": "YES",
-      "confidence": 0.78,
-      "matched_markets": [
-        "Solana Up or Down - April 15, 4:40AM-4:45AM ET"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_993424",
-      "timestamp": "2026-04-14T19:33:37.228754+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Interactive Brokers Launches SOL Trading for European Investors via Zero Hash | NO | MED confidence**",
-      "raw": "Interactive Brokers Launches SOL Trading for European Investors via Zero Hash | NO | MED confidence**  \nThe brokerage expansion provides direct access but failed to drive price appreciation, with SOL compressed at $82 despite strong fundamentals like 167M users.[2]",
-      "direction": "NO",
-      "confidence": 0.78,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_978082",
-      "timestamp": "2026-04-14T19:33:21.886311+00:00",
-      "source": "PERPLEXITY",
-      "headline": "US and Iran Plan Fresh Talks Before April 7 Ceasefire Expires; Trump Maintains Port Blockade After Failed Weekend Negoti",
-      "raw": "US and Iran Plan Fresh Talks Before April 7 Ceasefire Expires; Trump Maintains Port Blockade After Failed Weekend Negotiations | NO | MED confidence**",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces end of military operations against Iran by A",
-        "Trump announces US x Iran ceasefire end by April 21, 2026?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_978096",
-      "timestamp": "2026-04-14T19:33:21.900026+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Trump stated Iran \"would like to make a deal very badly\" but emphasized no agreement allowing Iran a nuclear weapon; no",
-      "raw": "Trump stated Iran \"would like to make a deal very badly\" but emphasized no agreement allowing Iran a nuclear weapon; no resolution or extension confirmed, with ceasefire clock ticking[1][2].",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces end of military operations against Iran by A",
-        "Trump announces US x Iran ceasefire end by April 21, 2026?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_978100",
-      "timestamp": "2026-04-14T19:33:21.904566+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**No major resolution**: Markets unchanged as talks loom but blockade persists without breakthrough",
-      "raw": "**No major resolution**: Markets unchanged as talks loom but blockade persists without breakthrough. Confidence medium due to consistent reporting from Bloomberg and Fox but reliance on unnamed sources and no official statements[1][2].",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_987464",
-      "timestamp": "2026-04-14T19:33:31.268745+00:00",
-      "source": "PERPLEXITY",
-      "headline": "I cannot provide breaking news confirmation based on the search results provided",
-      "raw": "I cannot provide breaking news confirmation based on the search results provided. The most recent information available dates to March 29, 2026, when Rep. Randy Fine spoke about the SAVE America Act on the House floor[3]. The search results do not contain any announcements, confirmations, or developments from today (April 14, 2026) or the recent period that would move prediction markets.\n\nThe sear",
+      "headline": "LOW confidence** in any market-moving catalyst, as all data covers ongoing trends and forecasts through mid-April withou",
+      "raw": "LOW confidence** in any market-moving catalyst, as all data covers ongoing trends and forecasts through mid-April without real-time \"right now\" developments at 7 PM UTC.[1][8]",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_993420",
-      "timestamp": "2026-04-14T19:33:37.224329+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Solana Stablecoin Supply Reaches Record $16",
-      "raw": "Solana Stablecoin Supply Reaches Record $16.3 Billion, Overtaking Ethereum in Adjusted Volume for Second Time | YES | HIGH confidence**  \nDefiLlama data confirms a +10.87% weekly increase to $16.288 billion\u2014the fastest growth among top chains\u2014while Solana captured 32.6% of weekly adjusted stablecoin volume vs. Ethereum's 27.8% through April 12, signaling structural DeFi shift.[4]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the price of Ethereum be above $2,400 on April 19?",
-        "Solana Up or Down - April 15, 4:40AM-4:45AM ET"
-      ],
       "action": "ALERT",
       "x_link": null,
       "category": "CRYPTO"
@@ -159,8 +37,8 @@
   ],
   "stats": {
     "enter": 1,
-    "alert": 9,
+    "alert": 1,
     "watch": 0,
-    "high_conf": 3
+    "high_conf": 1
   }
 }
