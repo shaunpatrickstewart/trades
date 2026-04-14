@@ -1,28 +1,116 @@
 {
-  "last_scan": "2026-04-14T16:59:51.459011+00:00",
-  "scan_seconds": 38.0,
+  "last_scan": "2026-04-14T17:02:54.173055+00:00",
+  "scan_seconds": 40.7,
   "markets_scanned": 75,
   "open_positions": 35,
   "signals": [
     {
-      "id": "sig_760701",
-      "timestamp": "2026-04-14T16:59:44.514981+00:00",
+      "id": "sig_919511",
+      "timestamp": "2026-04-14T17:02:23.324916+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot provide \"breaking news RIGHT NOW\" from the search results provided",
-      "raw": "I cannot provide \"breaking news RIGHT NOW\" from the search results provided. The most recent information available is from **April 10, 2026**, which is four days old and does not represent current breaking developments.\n\nThe search results contain price predictions and technical analyses from early-to-mid April 2026, but no major confirmed announcements, resolutions, or events that would specifica",
-      "direction": "NO",
-      "confidence": 0.65,
+      "headline": "Trump Announces Two-Week Ceasefire with Iran Ahead of 8 p",
+      "raw": "Trump Announces Two-Week Ceasefire with Iran Ahead of 8 p.m. Deadline | YES | HIGH confidence**\n\nPresident Donald Trump announced on Tuesday evening, April 14, 2026, that the U.S. reached a two-week ceasefire agreement with Iran just before an 8 p.m. ET deadline, averting threatened strikes on Iranian civilian infrastructure and potential nuclear escalation.[1] This follows Trump's morning social ",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces end of military operations against Iran by A",
+        "Trump announces US x Iran ceasefire end by April 21, 2026?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_939880",
+      "timestamp": "2026-04-14T17:02:43.693811+00:00",
+      "source": "PERPLEXITY",
+      "headline": "I cannot provide breaking news in the format you've requested based on these search results",
+      "raw": "I cannot provide breaking news in the format you've requested based on these search results. The available sources are **price prediction articles from early April 2026**, not breaking news announcements or confirmed market-moving events.\n\nThe search results contain:",
+      "direction": null,
+      "confidence": 0.9,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_760707",
-      "timestamp": "2026-04-14T16:59:44.520149+00:00",
+      "id": "sig_939886",
+      "timestamp": "2026-04-14T17:02:43.699696+00:00",
       "source": "PERPLEXITY",
-      "headline": "Solana Status (as of early April):**",
-      "raw": "Solana Status (as of early April):**",
+      "headline": "**Predictive analysis** on potential Solana and Bitcoin price movements if certain conditions are met (e",
+      "raw": "**Predictive analysis** on potential Solana and Bitcoin price movements if certain conditions are met (e.g., \"if Bitcoin hits $80k\")[1][2][3][4]",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_939897",
+      "timestamp": "2026-04-14T17:02:43.710632+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Historical price data** from April 1, 2026, showing SOL trading around $83[1][2]",
+      "raw": "**Historical price data** from April 1, 2026, showing SOL trading around $83[1][2]\n\nNone of these represent breaking news, confirmed announcements, or resolved events that would move prediction markets. To answer your query accurately, I would need:",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_939908",
+      "timestamp": "2026-04-14T17:02:43.721149+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Confirmed regulatory decisions (like the mentioned CLARITY Act)[1]",
+      "raw": "Confirmed regulatory decisions (like the mentioned CLARITY Act)[1]",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_939919",
+      "timestamp": "2026-04-14T17:02:43.732429+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Recent price movements with confirmed catalysts",
+      "raw": "Recent price movements with confirmed catalysts\n\nIf you're looking for **current market conditions as of April 14, 2026**, the search results don't contain data from today. For breaking news, you would need real-time news feeds rather than prediction articles from the beginning of the month.",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will the price of Bitcoin be greater than $82,000 on April 1"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_927140",
+      "timestamp": "2026-04-14T17:02:30.953436+00:00",
+      "source": "PERPLEXITY",
+      "headline": "JD Vance Addresses Trump's Controversial Truth Social Post Criticizing Pope Leo XIV | NO | LOW confidence**",
+      "raw": "JD Vance Addresses Trump's Controversial Truth Social Post Criticizing Pope Leo XIV | NO | LOW confidence**\n\nVice President **JD Vance** appeared on Fox News' *Special Report* today to discuss President **Trump**'s recent **Truth Social** post, which criticized **Pope Leo XIV** and allegedly portrayed Trump as Jesus, amid ongoing **White House** and **Republican** political tensions.[1] No formal ",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will J.D. Vance win the 2028 Republican presidential nominat",
+        "Trump announces end of military operations against Iran by A",
+        "Trump announces US x Iran ceasefire end by April 21, 2026?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_939892",
+      "timestamp": "2026-04-14T17:02:43.705156+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Technical price targets** for April 2026 ranging from $75\u2013$110 for Solana[4][7]",
+      "raw": "**Technical price targets** for April 2026 ranging from $75\u2013$110 for Solana[4][7]",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [
@@ -33,11 +121,11 @@
       "category": "CRYPTO"
     },
     {
-      "id": "sig_760712",
-      "timestamp": "2026-04-14T16:59:44.525255+00:00",
+      "id": "sig_939902",
+      "timestamp": "2026-04-14T17:02:43.715809+00:00",
       "source": "PERPLEXITY",
-      "headline": "Trading around $78-$82",
-      "raw": "Trading around $78-$82.50[3][4][5]",
+      "headline": "Official announcements from exchanges, blockchain projects, or regulators",
+      "raw": "Official announcements from exchanges, blockchain projects, or regulators",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
@@ -46,92 +134,23 @@
       "category": "CRYPTO"
     },
     {
-      "id": "sig_760717",
-      "timestamp": "2026-04-14T16:59:44.530360+00:00",
+      "id": "sig_939913",
+      "timestamp": "2026-04-14T17:02:43.726752+00:00",
       "source": "PERPLEXITY",
-      "headline": "Facing a **$280M+ exploit on Drift protocol** (social engineering attack)[5]",
-      "raw": "Facing a **$280M+ exploit on Drift protocol** (social engineering attack)[5]",
+      "headline": "Unexpected market events or liquidity shifts",
+      "raw": "Unexpected market events or liquidity shifts",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "CRYPTO"
-    },
-    {
-      "id": "sig_760722",
-      "timestamp": "2026-04-14T16:59:44.535280+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Technical breakdown: head and shoulders pattern targeting $73[3]",
-      "raw": "Technical breakdown: head and shoulders pattern targeting $73[3]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_760727",
-      "timestamp": "2026-04-14T16:59:44.540276+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Support levels at $75-$80[5]",
-      "raw": "Support levels at $75-$80[5]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_760732",
-      "timestamp": "2026-04-14T16:59:44.545194+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Trading near $68,539 as of April 1[2]",
-      "raw": "Trading near $68,539 as of April 1[2]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_760737",
-      "timestamp": "2026-04-14T16:59:44.550188+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Analysts project potential push toward $70k-$75k range, with long-term projection toward $80k[2]",
-      "raw": "Analysts project potential push toward $70k-$75k range, with long-term projection toward $80k[2]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_742135",
-      "timestamp": "2026-04-14T16:59:25.949008+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Trump announces Iran ceasefire ahead of 8 p",
-      "raw": "Trump announces Iran ceasefire ahead of 8 p.m. ET deadline, conditional on Strait of Hormuz reopening | YES | HIGH confidence** [1]\n\nThis breaking announcement from President Trump on April 7, 2026, includes threats of strikes on Iranian civilian infrastructure if unmet, amid prior escalation rhetoric and oil price spikes from the strait closure.[1] A separate two-week ceasefire from April 7 is se",
-      "direction": "YES",
-      "confidence": 0.6,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces end of military operations against Iran by A",
-        "Trump announces US x Iran ceasefire end by April 21, 2026?"
-      ],
-      "action": "WATCH",
-      "x_link": null,
-      "category": "GEOPOLITICS"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 8,
-    "watch": 1,
-    "high_conf": 0
+    "enter": 1,
+    "alert": 9,
+    "watch": 0,
+    "high_conf": 6
   }
 }
