@@ -1,107 +1,200 @@
 {
-  "last_scan": "2026-04-14T19:18:38.837900+00:00",
-  "scan_seconds": 45.3,
+  "last_scan": "2026-04-14T19:19:36.674797+00:00",
+  "scan_seconds": 36.8,
   "markets_scanned": 118,
   "open_positions": 89,
   "signals": [
     {
-      "id": "sig_85658",
-      "timestamp": "2026-04-14T19:18:29.462644+00:00",
+      "id": "sig_128998",
+      "timestamp": "2026-04-14T19:19:12.802387+00:00",
       "source": "PERPLEXITY",
-      "headline": "Confidence: LOW**\u2014search results highlight price predictions and technicals (e",
-      "raw": "Confidence: LOW**\u2014search results highlight price predictions and technicals (e.g., Solana support at $72-78, record PreStocks volume)[5] but no fresh resolutions or Trump/Iran-related impacts confirmed as \"just now\" on April 14.[1][7]",
-      "direction": "NO",
+      "headline": "**Status**: Weekend talks ended without deal; US and Iran discussing new round this week as 2-week ceasefire (announced",
+      "raw": "**Status**: Weekend talks ended without deal; US and Iran discussing new round this week as 2-week ceasefire (announced April 7) nears end. Trump reports Iran calls for deal but warns of \"quick and brutal\" action, with US Central Command blockading Iranian ports and Strait of Hormuz after failed progress**[1][3].",
+      "direction": null,
       "confidence": 0.9,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
         "Trump announces end of military operations against Iran by A",
         "Trump announces US x Iran ceasefire end by April 21, 2026?"
       ],
-      "action": "ENTER",
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_151849",
+      "timestamp": "2026-04-14T19:19:35.653118+00:00",
+      "source": "PERPLEXITY",
+      "headline": "South Korea Inflation Rises to 2",
+      "raw": "South Korea Inflation Rises to 2.2% in March 2026, Above BOK Target Amid Oil Shock | NO | MED confidence**\n\nSouth Korea's annual inflation rate increased to 2.2% in March 2026 from 2.0% in January and February, missing forecasts of 2.4% but exceeding the Bank of Korea's (BOK) 2.0% target due to global energy volatility from the Iran conflict.[2][5] This follows BOK's April 10 decision to hold rate",
+      "direction": "YES",
+      "confidence": 0.78,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces US x Iran ceasefire end by April 21, 2026?",
+        "US x Iran permanent peace deal by April 22, 2026?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_128989",
+      "timestamp": "2026-04-14T19:19:12.793603+00:00",
+      "source": "PERPLEXITY",
+      "headline": "US-Iran ceasefire talks in Islamabad fail; fresh negotiations eyed before April 7 truce expires next week amid Trump-blo",
+      "raw": "US-Iran ceasefire talks in Islamabad fail; fresh negotiations eyed before April 7 truce expires next week amid Trump-blockade escalation | NO | HIGH confidence**[1][3][4]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces end of military operations against Iran by A",
+        "Trump announces US x Iran ceasefire end by April 21, 2026?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_129006",
+      "timestamp": "2026-04-14T19:19:12.811000+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Trump role**: President Trump dispatched VP Vance, Witkoff, Kushner to talks; claims Netanyahu on board, vows no nucle",
+      "raw": "**Trump role**: President Trump dispatched VP Vance, Witkoff, Kushner to talks; claims Netanyahu on board, vows no nuclear concessions; criticizes past delays using \"two weeks\" timeline**[2][3][4].",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_129016",
+      "timestamp": "2026-04-14T19:19:12.820111+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Disputes**: Iran denies violations; low ship traffic through Strait; Trump expects compliance or attacks",
+      "raw": "**Disputes**: Iran denies violations; low ship traffic through Strait; Trump expects compliance or attacks. No resolution confirmed\u2014tensions rise with blockade, no market-moving breakthrough like extension or nuclear deal**[1][4].",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Trump announces end of military operations against Iran by A",
+        "Trump announces US x Iran ceasefire end by April 21, 2026?",
+        "Will Trump announce that the US x Iran ceasefire has been br"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_129024",
+      "timestamp": "2026-04-14T19:19:12.828618+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Market impact**: Failed talks + blockade signal escalation risk (e",
+      "raw": "**Market impact**: Failed talks + blockade signal escalation risk (e.g., oil prices, war odds), not de-escalation; ceasefire holds but unresolved**[3].",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_136721",
+      "timestamp": "2026-04-14T19:19:20.525320+00:00",
+      "source": "PERPLEXITY",
+      "headline": "I cannot provide the \"breaking news\" format you've requested based on these search results",
+      "raw": "I cannot provide the \"breaking news\" format you've requested based on these search results. The results don't contain any recent announcements, confirmations, or resolutions involving the specific combination of topics you mentioned (Republican, election, Truth Social, Joe Hathaway, and Vance) that would move prediction markets.\n\nThe search results include:",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will J.D. Vance win the 2028 Republican presidential nominat"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_136729",
+      "timestamp": "2026-04-14T19:19:20.533629+00:00",
+      "source": "PERPLEXITY",
+      "headline": "A Fox News interview with Vice President JD Vance discussing his role and Trump administration policies[1]",
+      "raw": "A Fox News interview with Vice President JD Vance discussing his role and Trump administration policies[1]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_136737",
+      "timestamp": "2026-04-14T19:19:20.541754+00:00",
+      "source": "PERPLEXITY",
+      "headline": "A PolitiFact article from April 6, 2026, about 25th Amendment speculation following a Trump social media post[2]",
+      "raw": "A PolitiFact article from April 6, 2026, about 25th Amendment speculation following a Trump social media post[2]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Trump announces US x Iran ceasefire end by April 21, 2026?",
+        "Will Donald Trump post 60-79 Truth Social posts from April 1"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_136747",
+      "timestamp": "2026-04-14T19:19:20.551369+00:00",
+      "source": "PERPLEXITY",
+      "headline": "A New Jersey political article about a special election[3]",
+      "raw": "A New Jersey political article about a special election[3]\n\nNone of these contain market-moving announcements about Joe Hathaway or a specific election outcome that would warrant the headline format you're seeking. To provide accurate breaking news in the format you've requested, I would need search results with concrete, recent confirmations or announcements that directly address the specific top",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Joe Hathaway win the NJ-11 special election?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_143308",
+      "timestamp": "2026-04-14T19:19:27.112224+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Bitcoin Price Surge to $72,000 After Trump's Strait of Hormuz Blockade Order | NO | LOW confidence**",
+      "raw": "Bitcoin Price Surge to $72,000 After Trump's Strait of Hormuz Blockade Order | NO | LOW confidence**  \nBitcoin reached $71,937 on April 13, 2026, up 1.65% after recovering from a Sunday drop to $70,741 caused by President Trump's blockade order and US-Iran peace talks collapse, but no new confirmations, announcements, or resolutions were reported today (April 14) to shift prediction markets.[1][6]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces end of military operations against Iran by A",
+        "Trump announces US x Iran ceasefire end by April 21, 2026?"
+      ],
+      "action": "ALERT",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_73482",
-      "timestamp": "2026-04-14T19:18:17.287022+00:00",
+      "id": "sig_143316",
+      "timestamp": "2026-04-14T19:19:27.120541+00:00",
       "source": "PERPLEXITY",
-      "headline": "US and Iran Weighing Talks to Extend Two-Week Ceasefire Before April 21 Expiration Amid Trump's Naval Blockade** | YES |",
-      "raw": "US and Iran Weighing Talks to Extend Two-Week Ceasefire Before April 21 Expiration Amid Trump's Naval Blockade** | YES | MED confidence[1]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces end of military operations against Iran by A",
-        "Trump announces US x Iran ceasefire end by April 21, 2026?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_73500",
-      "timestamp": "2026-04-14T19:18:17.304314+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Details**: Sources confirm the US and Iran are considering fresh negotiations for a \"bigger ceasefire deal\" as the cur",
-      "raw": "**Details**: Sources confirm the US and Iran are considering fresh negotiations for a \"bigger ceasefire deal\" as the current two-week truce nears expiry around April 21, 2026, while Trump advances a naval blockade of the Strait of Hormuz to pressure Iran's oil exports; stocks rose and oil prices fell on the news[1].",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces end of military operations against Iran by A",
-        "Trump announces US x Iran ceasefire end by April 21, 2026?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_73508",
-      "timestamp": "2026-04-14T19:18:17.312404+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Prior Context**: Talks collapsed on April 12 in Islamabad with no progress, per US negotiators including VP JD Vance;",
-      "raw": "**Prior Context**: Talks collapsed on April 12 in Islamabad with no progress, per US negotiators including VP JD Vance; Trump ordered the blockade post-failure on April 13, prompting Iranian retaliation threats[2][3].",
+      "headline": "No Solana-Specific Breaking News | NO | LOW confidence**",
+      "raw": "No Solana-Specific Breaking News | NO | LOW confidence**  \nSearch results lack any recent confirmations, announcements, or events for Solana tied to April that could impact predictions; focus remains on Bitcoin volatility.[2][7]",
       "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces end of military operations against Iran by A",
-        "Trump announces US x Iran ceasefire end by April 21, 2026?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_73524",
-      "timestamp": "2026-04-14T19:18:17.328514+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Confidence Note**: MED due to anonymous \"people familiar\" sourcing in real-time reporting; no formal announcement conf",
-      "raw": "**Confidence Note**: MED due to anonymous \"people familiar\" sourcing in real-time reporting; no formal announcement confirmed resolution[1].",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_73516",
-      "timestamp": "2026-04-14T19:18:17.320426+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Market Impact Potential**: Ceasefire extension talks could shift odds on Middle East de-escalation markets, though blo",
-      "raw": "**Market Impact Potential**: Ceasefire extension talks could shift odds on Middle East de-escalation markets, though blockade offsets optimism; prior collapse drove risks higher[1][2].",
-      "direction": "YES",
       "confidence": 0.6,
-      "matched_markets": [],
+      "matched_markets": [
+        "Will Bitcoin dip to $67,000 on April 14?",
+        "Will the price of Solana be between $60 and $70 on April 15?",
+        "Will the price of Solana be above $100 on April 15?"
+      ],
       "action": "WATCH",
       "x_link": null,
-      "category": "GEOPOLITICS"
+      "category": "CRYPTO"
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 4,
+    "enter": 0,
+    "alert": 11,
     "watch": 1,
     "high_conf": 1
   }
