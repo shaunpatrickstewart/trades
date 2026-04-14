@@ -8,9 +8,9 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "Scanned 0 events at 2026-04-14 13:53 UTC \u2014 no categorical arb opportunities (sum < 0.97) found. Checked 0 multi-outcome events. NOTE: Binary YES+NO always sums to 1.0 by AMM design. Cross-platform Kalshi arb: BLOCKED (needs account).",
+      "result": "Scanned 0 events at 2026-04-14 14:03 UTC \u2014 no categorical arb opportunities (sum < 0.97) found. Checked 0 multi-outcome events. NOTE: Binary YES+NO always sums to 1.0 by AMM design. Cross-platform Kalshi arb: BLOCKED (needs account).",
       "priority": "HIGH",
-      "last_scan": "2026-04-14 13:53 UTC",
+      "last_scan": "2026-04-14 14:03 UTC",
       "opportunities": [],
       "stats": {
         "total_events": 0,
@@ -18,7 +18,7 @@
         "skipped_single_outcome": 0,
         "opportunities_found": 0,
         "best_profit_pct": 0,
-        "scanned_at": "2026-04-14 13:53 UTC"
+        "scanned_at": "2026-04-14 14:03 UTC"
       }
     },
     {
