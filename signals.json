@@ -1,16 +1,16 @@
 {
-  "last_scan": "2026-04-14T19:38:09.763106+00:00",
-  "scan_seconds": 31.1,
+  "last_scan": "2026-04-14T19:39:50.111463+00:00",
+  "scan_seconds": 66.3,
   "markets_scanned": 64,
   "open_positions": 33,
   "signals": [
     {
-      "id": "sig_244408",
-      "timestamp": "2026-04-14T19:37:48.211865+00:00",
+      "id": "sig_339422",
+      "timestamp": "2026-04-14T19:39:23.225756+00:00",
       "source": "PERPLEXITY",
-      "headline": "US Begins Blockade of Iranian Ports in Strait of Hormuz as Ceasefire Nears Expiration; Fresh Talks Eyed Before April 21",
-      "raw": "US Begins Blockade of Iranian Ports in Strait of Hormuz as Ceasefire Nears Expiration; Fresh Talks Eyed Before April 21 Deadline | NO | HIGH confidence**[1][2]\n\nUS President Trump ordered the military blockade today after weekend talks in Islamabad failed, aiming to pressure Iran amid a two-week ceasefire announced April 7 that expires early next week.[1][2] Reports confirm both sides are discussi",
-      "direction": "NO",
+      "headline": "US Implements Blockade of Iranian Ports After Failed Ceasefire Talks | YES | HIGH confidence**",
+      "raw": "US Implements Blockade of Iranian Ports After Failed Ceasefire Talks | YES | HIGH confidence**\n\nThe US military has begun a blockade of all traffic in the Strait of Hormuz targeting Iranian ports[3]. This action follows the collapse of peace negotiations in Islamabad over the weekend, where talks ended without agreement[1][4]. President Trump decided on the blockade after discussions between the t",
+      "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
@@ -22,23 +22,38 @@
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_264959",
-      "timestamp": "2026-04-14T19:38:08.762478+00:00",
+      "id": "sig_365306",
+      "timestamp": "2026-04-14T19:39:49.109515+00:00",
       "source": "PERPLEXITY",
-      "headline": "LOW confidence** in any market-moving event today, as next CPI is due early May per official schedule; forecasts vary (B",
-      "raw": "LOW confidence** in any market-moving event today, as next CPI is due early May per official schedule; forecasts vary (BoK ~2.2%, banks 2.4%, Polymarket implies ~2.8% mean) but show no fresh catalysts.[3][4][7]",
-      "direction": "NO",
+      "headline": "South Korea's annual inflation rate rose to 2",
+      "raw": "South Korea's annual inflation rate rose to 2.2% in March 2026, up from 2.0% in January and February but below market forecasts of 2.4%.** | NO | LOW confidence\n\nThis March figure, the most recent in search results (dated around early April 2026), marks a slight uptick amid oil price volatility from global conflicts but stays near the Bank of Korea's 2% target, with no new confirmations, announcem",
+      "direction": "YES",
       "confidence": 0.65,
-      "matched_markets": [],
+      "matched_markets": [
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+      ],
       "action": "ALERT",
       "x_link": null,
       "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_358878",
+      "timestamp": "2026-04-14T19:39:42.681811+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Solana Hits Record 167M Monthly Token Holders Amid Alpenglow Upgrade** | YES | HIGH confidence",
+      "raw": "Solana Hits Record 167M Monthly Token Holders Amid Alpenglow Upgrade** | YES | HIGH confidence\n\nSolana has just achieved an **all-time record of 167 million monthly token holders** with daily non-vote transactions reaching historic highs of 148 million[1]. The network's **Alpenglow consensus upgrade** is anticipated to dramatically reduce transaction finality from 12 seconds to 150 milliseconds[1]",
+      "direction": "YES",
+      "confidence": 0.6,
+      "matched_markets": [],
+      "action": "WATCH",
+      "x_link": null,
+      "category": "CRYPTO"
     }
   ],
   "stats": {
     "enter": 1,
     "alert": 1,
-    "watch": 0,
+    "watch": 1,
     "high_conf": 1
   }
 }
