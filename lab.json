@@ -8,96 +8,131 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 135 categorical arb opportunities found\nScanned 3000 events (1939 multi-outcome) at 2026-04-14 22:39 UTC\nBest: 9.9% profit on 'UFC: Who will Conor McGregor fight next?' \u2014 buy YES on all 3 outcomes (sum=0.901)\nStrategy: Buy YES on all 3 outcomes. Total cost: $0.9010. One wins $1.00. Profit: $0.0990 (9.90%)\n2nd: 9.65% on 'Bulgarian Parliamentary Election: Which Parties Enter Parliament?'",
+      "result": "LIVE \u2014 132 categorical arb opportunities found\nScanned 3000 events (1939 multi-outcome) at 2026-04-14 23:08 UTC\nBest: 10.0% profit on 'Lowest temperature in Tokyo on April 15?' \u2014 buy YES on all 11 outcomes (sum=0.9)\nStrategy: Buy YES on all 11 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 10.0% on 'Rhode Island Governor Republican Primary Winner'",
       "priority": "HIGH",
-      "last_scan": "2026-04-14 22:39 UTC",
+      "last_scan": "2026-04-14 23:08 UTC",
       "opportunities": [
         {
-          "event_title": "UFC: Who will Conor McGregor fight next?",
-          "event_slug": "ufc-who-will-conor-mcgregor-fight-next",
-          "yes_sum": 0.901,
-          "profit_pct": 9.9,
-          "profit_per_dollar_pct": 10.99,
-          "num_outcomes": 3,
+          "event_title": "Lowest temperature in Tokyo on April 15?",
+          "event_slug": "lowest-temperature-in-tokyo-on-april-15-2026",
+          "yes_sum": 0.9,
+          "profit_pct": 10.0,
+          "profit_per_dollar_pct": 11.11,
+          "num_outcomes": 11,
           "outcomes": [
             {
-              "market_id": "1747846",
-              "slug": "will-max-holloway-fight-conor-mcgregor-next",
-              "question": "Will Max Holloway fight Conor McGregor next?",
-              "yes_price": 0.52,
-              "volume": 2244
+              "market_id": "1975920",
+              "slug": "lowest-temperature-in-tokyo-on-april-15-2026-15c",
+              "question": "Will the lowest temperature in Tokyo be 15\u00b0C on April 15?",
+              "yes_price": 0.675,
+              "volume": 2567
             },
             {
-              "market_id": "1747849",
-              "slug": "will-michael-chandler-fight-conor-mcgregor-next",
-              "question": "Will Michael Chandler fight Conor McGregor next?",
-              "yes_price": 0.35,
-              "volume": 2796
+              "market_id": "1975919",
+              "slug": "lowest-temperature-in-tokyo-on-april-15-2026-14c",
+              "question": "Will the lowest temperature in Tokyo be 14\u00b0C on April 15?",
+              "yes_price": 0.1465,
+              "volume": 1886
             },
             {
-              "market_id": "1747848",
-              "slug": "will-nate-diaz-fight-conor-mcgregor-next",
-              "question": "Will Nate Diaz fight Conor McGregor next?",
-              "yes_price": 0.031,
-              "volume": 11853
+              "market_id": "1975917",
+              "slug": "lowest-temperature-in-tokyo-on-april-15-2026-12c",
+              "question": "Will the lowest temperature in Tokyo be 12\u00b0C on April 15?",
+              "yes_price": 0.0355,
+              "volume": 1916
+            },
+            {
+              "market_id": "1975918",
+              "slug": "lowest-temperature-in-tokyo-on-april-15-2026-13c",
+              "question": "Will the lowest temperature in Tokyo be 13\u00b0C on April 15?",
+              "yes_price": 0.0285,
+              "volume": 1743
+            },
+            {
+              "market_id": "1975916",
+              "slug": "lowest-temperature-in-tokyo-on-april-15-2026-11c",
+              "question": "Will the lowest temperature in Tokyo be 11\u00b0C on April 15?",
+              "yes_price": 0.0095,
+              "volume": 1265
+            },
+            {
+              "market_id": "1975915",
+              "slug": "lowest-temperature-in-tokyo-on-april-15-2026-10corbelow",
+              "question": "Will the lowest temperature in Tokyo be 10\u00b0C or below on April 15?",
+              "yes_price": 0.005,
+              "volume": 4539
+            },
+            {
+              "market_id": "1975921",
+              "slug": "lowest-temperature-in-tokyo-on-april-15-2026-16c",
+              "question": "Will the lowest temperature in Tokyo be 16\u00b0C on April 15?",
+              "yes_price": 0.0,
+              "volume": 4665
+            },
+            {
+              "market_id": "1975923",
+              "slug": "lowest-temperature-in-tokyo-on-april-15-2026-18c",
+              "question": "Will the lowest temperature in Tokyo be 18\u00b0C on April 15?",
+              "yes_price": 0.0,
+              "volume": 4005
+            },
+            {
+              "market_id": "1975925",
+              "slug": "lowest-temperature-in-tokyo-on-april-15-2026-20corhigher",
+              "question": "Will the lowest temperature in Tokyo be 20\u00b0C or higher on April 15?",
+              "yes_price": 0.0,
+              "volume": 17529
+            },
+            {
+              "market_id": "1975922",
+              "slug": "lowest-temperature-in-tokyo-on-april-15-2026-17c",
+              "question": "Will the lowest temperature in Tokyo be 17\u00b0C on April 15?",
+              "yes_price": 0.0,
+              "volume": 4384
+            },
+            {
+              "market_id": "1975924",
+              "slug": "lowest-temperature-in-tokyo-on-april-15-2026-19c",
+              "question": "Will the lowest temperature in Tokyo be 19\u00b0C on April 15?",
+              "yes_price": 0.0,
+              "volume": 7728
             }
           ],
-          "url": "https://polymarket.com/event/ufc-who-will-conor-mcgregor-fight-next",
-          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9010. One wins $1.00. Profit: $0.0990 (9.90%)"
+          "url": "https://polymarket.com/event/lowest-temperature-in-tokyo-on-april-15-2026",
+          "strategy": "Buy YES on all 11 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
         },
         {
-          "event_title": "Bulgarian Parliamentary Election: Which Parties Enter Parliament?",
-          "event_slug": "bulgarian-parliamentary-election-which-parties-enter-parliament",
-          "yes_sum": 0.9035,
-          "profit_pct": 9.65,
-          "profit_per_dollar_pct": 10.68,
-          "num_outcomes": 5,
+          "event_title": "Rhode Island Governor Republican Primary Winner",
+          "event_slug": "rhode-island-governor-republican-primary-winner",
+          "yes_sum": 0.9,
+          "profit_pct": 10.0,
+          "profit_per_dollar_pct": 11.11,
+          "num_outcomes": 2,
           "outcomes": [
             {
-              "market_id": "1737533",
-              "slug": "will-united-left-bsp-win-at-least-one-seat-in-the-2026-bulgarian-parliamentary-election",
-              "question": "Will United Left (BSP) win at least one seat in the 2026 Bulgarian parliamentary",
-              "yes_price": 0.645,
-              "volume": 23937
+              "market_id": "906891",
+              "slug": "will-aaron-guckian-win-the-2026-rhode-island-governor-republican-primary-election",
+              "question": "Will Aaron Guckian win the 2026 Rhode Island Governor Republican primary electio",
+              "yes_price": 0.625,
+              "volume": 2384
             },
             {
-              "market_id": "1737537",
-              "slug": "will-morality-unity-honour-mech-win-at-least-one-seat-in-the-2026-bulgarian-parliamentary-election",
-              "question": "Will Morality, Unity, Honour (MECh) win at least one seat in the 2026 Bulgarian ",
-              "yes_price": 0.145,
-              "volume": 6098
-            },
-            {
-              "market_id": "1737536",
-              "slug": "will-velichie-velichie-win-at-least-one-seat-in-the-2026-bulgarian-parliamentary-election",
-              "question": "Will Velichie (Velichie) win at least one seat in the 2026 Bulgarian parliamenta",
-              "yes_price": 0.07,
-              "volume": 31751
-            },
-            {
-              "market_id": "1737534",
-              "slug": "will-alliance-for-rights-and-freedoms-aps-win-at-least-one-seat-in-the-2026-bulgarian-parliamentary-election",
-              "question": "Will Alliance for Rights and Freedoms (APS) win at least one seat in the 2026 Bu",
-              "yes_price": 0.0225,
-              "volume": 12653
-            },
-            {
-              "market_id": "1737535",
-              "slug": "will-there-is-such-a-people-itn-win-at-least-one-seat-in-the-2026-bulgarian-parliamentary-election",
-              "question": "Will There is Such a People (ITN) win at least one seat in the 2026 Bulgarian pa",
-              "yes_price": 0.021,
-              "volume": 11086
+              "market_id": "906892",
+              "slug": "will-elaine-pelino-win-the-2026-rhode-island-governor-republican-primary-election",
+              "question": "Will Elaine Pelino win the 2026 Rhode Island Governor Republican primary electio",
+              "yes_price": 0.275,
+              "volume": 1796
             }
           ],
-          "url": "https://polymarket.com/event/bulgarian-parliamentary-election-which-parties-enter-parliament",
-          "strategy": "Buy YES on all 5 outcomes. Total cost: $0.9035. One wins $1.00. Profit: $0.0965 (9.65%)"
+          "url": "https://polymarket.com/event/rhode-island-governor-republican-primary-winner",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
         },
         {
           "event_title": "MLS Cup Winner 2026",
           "event_slug": "mls-cup-winner-2026",
-          "yes_sum": 0.9045,
-          "profit_pct": 9.55,
-          "profit_per_dollar_pct": 10.56,
+          "yes_sum": 0.904,
+          "profit_pct": 9.6,
+          "profit_per_dollar_pct": 10.62,
           "num_outcomes": 30,
           "outcomes": [
             {
@@ -132,8 +167,8 @@
               "market_id": "1349158",
               "slug": "will-nashville-sc-win-the-2026-mls-cup",
               "question": "Will Nashville SC win the 2026 MLS Cup?",
-              "yes_price": 0.0415,
-              "volume": 255533
+              "yes_price": 0.042,
+              "volume": 255580
             },
             {
               "market_id": "1349168",
@@ -160,22 +195,22 @@
               "market_id": "1349147",
               "slug": "will-fc-cincinnati-win-the-2026-mls-cup",
               "question": "Will FC Cincinnati win the 2026 MLS Cup?",
-              "yes_price": 0.033,
-              "volume": 1334086
+              "yes_price": 0.0325,
+              "volume": 1347845
             },
             {
               "market_id": "1349160",
               "slug": "will-new-york-city-fc-win-the-2026-mls-cup",
               "question": "Will New York City FC win the 2026 MLS Cup?",
               "yes_price": 0.032,
-              "volume": 478208
+              "volume": 478304
             },
             {
               "market_id": "1349145",
               "slug": "will-charlotte-fc-win-the-2026-mls-cup",
               "question": "Will Charlotte FC win the 2026 MLS Cup?",
               "yes_price": 0.0215,
-              "volume": 446733
+              "volume": 446748
             },
             {
               "market_id": "1349153",
@@ -230,15 +265,15 @@
               "market_id": "1349152",
               "slug": "will-houston-dynamo-fc-win-the-2026-mls-cup",
               "question": "Will Houston Dynamo FC win the 2026 MLS Cup?",
-              "yes_price": 0.0095,
-              "volume": 58686
+              "yes_price": 0.009,
+              "volume": 58817
             },
             {
               "market_id": "1349162",
               "slug": "will-orlando-city-sc-win-the-2026-mls-cup",
               "question": "Will Orlando City SC win the 2026 MLS Cup?",
               "yes_price": 0.009,
-              "volume": 1801096
+              "volume": 1801291
             },
             {
               "market_id": "1349144",
@@ -312,86 +347,39 @@
             }
           ],
           "url": "https://polymarket.com/event/mls-cup-winner-2026",
-          "strategy": "Buy YES on all 30 outcomes. Total cost: $0.9045. One wins $1.00. Profit: $0.0955 (9.55%)"
+          "strategy": "Buy YES on all 30 outcomes. Total cost: $0.9040. One wins $1.00. Profit: $0.0960 (9.60%)"
         },
         {
-          "event_title": "Will Arc launch a token by ___ ?",
-          "event_slug": "will-arc-launch-a-token-by",
-          "yes_sum": 0.905,
-          "profit_pct": 9.5,
-          "profit_per_dollar_pct": 10.5,
-          "num_outcomes": 5,
-          "outcomes": [
-            {
-              "market_id": "690675",
-              "slug": "will-arc-launch-a-token-by-december-31-2026",
-              "question": "Will Arc launch a token by December 31 2026?",
-              "yes_price": 0.5,
-              "volume": 1711
-            },
-            {
-              "market_id": "690674",
-              "slug": "will-arc-launch-a-token-by-september-30-2026",
-              "question": "Will Arc launch a token by September 30 2026?",
-              "yes_price": 0.335,
-              "volume": 6067
-            },
-            {
-              "market_id": "690673",
-              "slug": "will-arc-launch-a-token-by-june-30-2026",
-              "question": "Will Arc launch a token by June 30 2026?",
-              "yes_price": 0.07,
-              "volume": 4684
-            },
-            {
-              "market_id": "690671",
-              "slug": "will-arc-launch-a-token-by-december-31-2025",
-              "question": "Will Arc launch a token by December 31 2025?",
-              "yes_price": 0.0,
-              "volume": 16449
-            },
-            {
-              "market_id": "690672",
-              "slug": "will-arc-launch-a-token-by-march-31-2026",
-              "question": "Will Arc launch a token by March 31 2026?",
-              "yes_price": 0.0,
-              "volume": 51844
-            }
-          ],
-          "url": "https://polymarket.com/event/will-arc-launch-a-token-by",
-          "strategy": "Buy YES on all 5 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
-        },
-        {
-          "event_title": "GA-13 Democratic Primary Winner",
-          "event_slug": "ga-13-democratic-primary-winner",
+          "event_title": "Next CEO of Lululemon?",
+          "event_slug": "next-ceo-of-lululemon",
           "yes_sum": 0.905,
           "profit_pct": 9.5,
           "profit_per_dollar_pct": 10.5,
           "num_outcomes": 3,
           "outcomes": [
             {
-              "market_id": "1653180",
-              "slug": "will-jasmine-clark-be-the-democratic-nominee-for-ga-13",
-              "question": "Will Jasmine Clark be the Democratic nominee for GA-13?",
-              "yes_price": 0.375,
-              "volume": 2978
+              "market_id": "916398",
+              "slug": "will-stephanie-linnartz-be-the-next-ceo-of-lululemon",
+              "question": "Will Stephanie Linnartz be the next CEO of Lululemon?",
+              "yes_price": 0.355,
+              "volume": 2936
             },
             {
-              "market_id": "1653178",
-              "slug": "will-david-scott-be-the-democratic-nominee-for-ga-13",
-              "question": "Will David Scott be the Democratic nominee for GA-13?",
-              "yes_price": 0.35,
-              "volume": 1345
+              "market_id": "916393",
+              "slug": "will-marti-morfitt-be-the-next-ceo-of-lululemon",
+              "question": "Will Marti Morfitt be the next CEO of Lululemon?",
+              "yes_price": 0.296,
+              "volume": 5936
             },
             {
-              "market_id": "1653179",
-              "slug": "will-everton-blair-jr-be-the-democratic-nominee-for-ga-13",
-              "question": "Will Everton Blair Jr. be the Democratic nominee for GA-13?",
-              "yes_price": 0.18,
-              "volume": 1618
+              "market_id": "916392",
+              "slug": "will-meghan-frank-be-the-next-ceo-of-lululemon",
+              "question": "Will Meghan Frank be the next CEO of Lululemon?",
+              "yes_price": 0.254,
+              "volume": 50235
             }
           ],
-          "url": "https://polymarket.com/event/ga-13-democratic-primary-winner",
+          "url": "https://polymarket.com/event/next-ceo-of-lululemon",
           "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
         },
         {
@@ -421,173 +409,339 @@
           "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
         },
         {
-          "event_title": "VA-06 House Election Winner",
-          "event_slug": "va-06-house-election-winner",
-          "yes_sum": 0.91,
-          "profit_pct": 9.0,
-          "profit_per_dollar_pct": 9.89,
-          "num_outcomes": 2,
+          "event_title": "UFC: Who will Conor McGregor fight next?",
+          "event_slug": "ufc-who-will-conor-mcgregor-fight-next",
+          "yes_sum": 0.906,
+          "profit_pct": 9.4,
+          "profit_per_dollar_pct": 10.38,
+          "num_outcomes": 3,
           "outcomes": [
             {
-              "market_id": "1285088",
-              "slug": "will-the-democratic-party-win-the-va-06-house-seat",
-              "question": "Will the Democratic Party win the VA-06 House seat?",
-              "yes_price": 0.705,
-              "volume": 30493
+              "market_id": "1747846",
+              "slug": "will-max-holloway-fight-conor-mcgregor-next",
+              "question": "Will Max Holloway fight Conor McGregor next?",
+              "yes_price": 0.46,
+              "volume": 2244
             },
             {
-              "market_id": "1285087",
-              "slug": "will-the-republican-party-win-the-va-06-house-seat",
-              "question": "Will the Republican Party win the VA-06 House seat?",
-              "yes_price": 0.205,
-              "volume": 18216
+              "market_id": "1747849",
+              "slug": "will-michael-chandler-fight-conor-mcgregor-next",
+              "question": "Will Michael Chandler fight Conor McGregor next?",
+              "yes_price": 0.415,
+              "volume": 2796
+            },
+            {
+              "market_id": "1747848",
+              "slug": "will-nate-diaz-fight-conor-mcgregor-next",
+              "question": "Will Nate Diaz fight Conor McGregor next?",
+              "yes_price": 0.031,
+              "volume": 11853
             }
           ],
-          "url": "https://polymarket.com/event/va-06-house-election-winner",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9100. One wins $1.00. Profit: $0.0900 (9.00%)"
+          "url": "https://polymarket.com/event/ufc-who-will-conor-mcgregor-fight-next",
+          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9060. One wins $1.00. Profit: $0.0940 (9.40%)"
         },
         {
-          "event_title": "Highest temperature in Seattle on April 15?",
-          "event_slug": "highest-temperature-in-seattle-on-april-15-2026",
-          "yes_sum": 0.9105,
-          "profit_pct": 8.95,
-          "profit_per_dollar_pct": 9.83,
-          "num_outcomes": 8,
+          "event_title": "NBA Sixth Man of the Year Winner",
+          "event_slug": "nba-2025-26-sixth-man-of-the-year",
+          "yes_sum": 0.9075,
+          "profit_pct": 9.25,
+          "profit_per_dollar_pct": 10.19,
+          "num_outcomes": 28,
           "outcomes": [
             {
-              "market_id": "1965296",
-              "slug": "highest-temperature-in-seattle-on-april-15-2026-48-49f",
-              "question": "Will the highest temperature in Seattle be between 48-49\u00b0F on April 15?",
-              "yes_price": 0.355,
-              "volume": 2051
+              "market_id": "643634",
+              "slug": "nba-2025-26-sixth-man-of-the-year-keldon-johnson",
+              "question": "Will Keldon Johnson win the 2025\u20132026 NBA Sixth Man of the Year?",
+              "yes_price": 0.825,
+              "volume": 70075
             },
             {
-              "market_id": "1965295",
-              "slug": "highest-temperature-in-seattle-on-april-15-2026-46-47f",
-              "question": "Will the highest temperature in Seattle be between 46-47\u00b0F on April 15?",
-              "yes_price": 0.325,
-              "volume": 3335
+              "market_id": "643616",
+              "slug": "nba-2025-26-sixth-man-of-the-year-naz-reid",
+              "question": "Will Naz Reid win the 2025\u20132026 NBA Sixth Man of the Year?",
+              "yes_price": 0.0075,
+              "volume": 26826
             },
             {
-              "market_id": "1965294",
-              "slug": "highest-temperature-in-seattle-on-april-15-2026-44-45f",
-              "question": "Will the highest temperature in Seattle be between 44-45\u00b0F on April 15?",
-              "yes_price": 0.1125,
-              "volume": 2349
+              "market_id": "643618",
+              "slug": "nba-2025-26-sixth-man-of-the-year-reed-sheppard",
+              "question": "Will Reed Sheppard win the 2025\u20132026 NBA Sixth Man of the Year?",
+              "yes_price": 0.007,
+              "volume": 20121
             },
             {
-              "market_id": "1965297",
-              "slug": "highest-temperature-in-seattle-on-april-15-2026-50-51f",
-              "question": "Will the highest temperature in Seattle be between 50-51\u00b0F on April 15?",
-              "yes_price": 0.08,
-              "volume": 2680
+              "market_id": "643615",
+              "slug": "nba-2025-26-sixth-man-of-the-year-zacharie-risacher",
+              "question": "Will Zacharie Risacher win the 2025\u20132026 NBA Sixth Man of the Year?",
+              "yes_price": 0.0055,
+              "volume": 1437
             },
             {
-              "market_id": "1965293",
-              "slug": "highest-temperature-in-seattle-on-april-15-2026-43forbelow",
-              "question": "Will the highest temperature in Seattle be 43\u00b0F or below on April 15?",
-              "yes_price": 0.023,
-              "volume": 5009
+              "market_id": "643622",
+              "slug": "nba-2025-26-sixth-man-of-the-year-obi-toppin",
+              "question": "Will Obi Toppin win the 2025\u20132026 NBA Sixth Man of the Year?",
+              "yes_price": 0.0055,
+              "volume": 24106
             },
             {
-              "market_id": "1965298",
-              "slug": "highest-temperature-in-seattle-on-april-15-2026-52-53f",
-              "question": "Will the highest temperature in Seattle be between 52-53\u00b0F on April 15?",
-              "yes_price": 0.011,
-              "volume": 4431
+              "market_id": "643630",
+              "slug": "nba-2025-26-sixth-man-of-the-year-jonathan-kuminga",
+              "question": "Will Jonathan Kuminga win the 2025\u20132026 NBA Sixth Man of the Year?",
+              "yes_price": 0.005,
+              "volume": 1747
             },
             {
-              "market_id": "1965299",
-              "slug": "highest-temperature-in-seattle-on-april-15-2026-54-55f",
-              "question": "Will the highest temperature in Seattle be between 54-55\u00b0F on April 15?",
+              "market_id": "643607",
+              "slug": "nba-2025-26-sixth-man-of-the-year-anfernee-simons",
+              "question": "Will Anfernee Simons win the 2025\u20132026 NBA Sixth Man of the Year?",
+              "yes_price": 0.004,
+              "volume": 14287
+            },
+            {
+              "market_id": "643619",
+              "slug": "nba-2025-26-sixth-man-of-the-year-jared-mccain",
+              "question": "Will Jared McCain win the 2025\u20132026 NBA Sixth Man of the Year?",
+              "yes_price": 0.004,
+              "volume": 4346
+            },
+            {
+              "market_id": "643621",
+              "slug": "nba-2025-26-sixth-man-of-the-year-payton-pritchard",
+              "question": "Will Payton Pritchard win the 2025\u20132026 NBA Sixth Man of the Year?",
+              "yes_price": 0.004,
+              "volume": 2157
+            },
+            {
+              "market_id": "643608",
+              "slug": "nba-2025-26-sixth-man-of-the-year-onyeka-okongwu",
+              "question": "Will Onyeka Okongwu win the 2025\u20132026 NBA Sixth Man of the Year?",
+              "yes_price": 0.0035,
+              "volume": 6509
+            },
+            {
+              "market_id": "643629",
+              "slug": "nba-2025-26-sixth-man-of-the-year-norman-powell",
+              "question": "Will Norman Powell win the 2025\u20132026 NBA Sixth Man of the Year?",
+              "yes_price": 0.0035,
+              "volume": 31210
+            },
+            {
+              "market_id": "643625",
+              "slug": "nba-2025-26-sixth-man-of-the-year-collin-sexton",
+              "question": "Will Collin Sexton win the 2025\u20132026 NBA Sixth Man of the Year?",
+              "yes_price": 0.003,
+              "volume": 1659
+            },
+            {
+              "market_id": "643606",
+              "slug": "nba-2025-26-sixth-man-of-the-year-deandre-hunter",
+              "question": "Will DeAndre Hunter win the 2025\u20132026 NBA Sixth Man of the Year?",
               "yes_price": 0.0025,
-              "volume": 2486
+              "volume": 9569
             },
             {
-              "market_id": "1965301",
-              "slug": "highest-temperature-in-seattle-on-april-15-2026-58-59f",
-              "question": "Will the highest temperature in Seattle be between 58-59\u00b0F on April 15?",
+              "market_id": "643610",
+              "slug": "nba-2025-26-sixth-man-of-the-year-jordan-clarkson",
+              "question": "Will Jordan Clarkson win the 2025\u20132026 NBA Sixth Man of the Year?",
+              "yes_price": 0.0025,
+              "volume": 7916
+            },
+            {
+              "market_id": "643614",
+              "slug": "nba-2025-26-sixth-man-of-the-year-nikola-jovic",
+              "question": "Will Nikola Jovic win the 2025\u20132026 NBA Sixth Man of the Year?",
+              "yes_price": 0.0025,
+              "volume": 1156
+            },
+            {
+              "market_id": "643617",
+              "slug": "nba-2025-26-sixth-man-of-the-year-tari-eason",
+              "question": "Will Tari Eason win the 2025\u20132026 NBA Sixth Man of the Year?",
+              "yes_price": 0.0025,
+              "volume": 8369
+            },
+            {
+              "market_id": "643626",
+              "slug": "nba-2025-26-sixth-man-of-the-year-john-collins",
+              "question": "Will John Collins win the 2025\u20132026 NBA Sixth Man of the Year?",
+              "yes_price": 0.0025,
+              "volume": 15574
+            },
+            {
+              "market_id": "643631",
+              "slug": "nba-2025-26-sixth-man-of-the-year-santi-aldama",
+              "question": "Will Santi Aldama win the 2025\u20132026 NBA Sixth Man of the Year?",
+              "yes_price": 0.0025,
+              "volume": 1710
+            },
+            {
+              "market_id": "643635",
+              "slug": "nba-2025-26-sixth-man-of-the-year-miles-mcbride",
+              "question": "Will Miles McBride win the 2025\u20132026 NBA Sixth Man of the Year?",
+              "yes_price": 0.0025,
+              "volume": 1334
+            },
+            {
+              "market_id": "643609",
+              "slug": "nba-2025-26-sixth-man-of-the-year-bobby-portis",
+              "question": "Will Bobby Portis win the 2025\u20132026 NBA Sixth Man of the Year?",
               "yes_price": 0.0015,
-              "volume": 1137
+              "volume": 2821
+            },
+            {
+              "market_id": "643612",
+              "slug": "nba-2025-26-sixth-man-of-the-year-aaron-wiggins",
+              "question": "Will Aaron Wiggins win the 2025\u20132026 NBA Sixth Man of the Year?",
+              "yes_price": 0.0015,
+              "volume": 1906
+            },
+            {
+              "market_id": "643620",
+              "slug": "nba-2025-26-sixth-man-of-the-year-p-j-washington",
+              "question": "Will P.J. Washington win the 2025\u20132026 NBA Sixth Man of the Year?",
+              "yes_price": 0.0015,
+              "volume": 1419
+            },
+            {
+              "market_id": "643623",
+              "slug": "nba-2025-26-sixth-man-of-the-year-nickeil-alexander-walker",
+              "question": "Will Nickeil Alexander-Walker win the 2025\u20132026 NBA Sixth Man of the Year?",
+              "yes_price": 0.0015,
+              "volume": 2216
+            },
+            {
+              "market_id": "643624",
+              "slug": "nba-2025-26-sixth-man-of-the-year-jerami-grant",
+              "question": "Will Jerami Grant win the 2025\u20132026 NBA Sixth Man of the Year?",
+              "yes_price": 0.0015,
+              "volume": 31128
+            },
+            {
+              "market_id": "643627",
+              "slug": "nba-2025-26-sixth-man-of-the-year-ty-jerome",
+              "question": "Will Ty Jerome win the 2025\u20132026 NBA Sixth Man of the Year?",
+              "yes_price": 0.0015,
+              "volume": 2090
+            },
+            {
+              "market_id": "643632",
+              "slug": "nba-2025-26-sixth-man-of-the-year-caris-levert",
+              "question": "Will Caris LeVert win the 2025\u20132026 NBA Sixth Man of the Year?",
+              "yes_price": 0.0015,
+              "volume": 1479
+            },
+            {
+              "market_id": "643633",
+              "slug": "nba-2025-26-sixth-man-of-the-year-donte-divincenzo",
+              "question": "Will Donte DiVincenzo win the 2025\u20132026 NBA Sixth Man of the Year?",
+              "yes_price": 0.0015,
+              "volume": 12483
+            },
+            {
+              "market_id": "643628",
+              "slug": "nba-2025-26-sixth-man-of-the-year-bradley-beal",
+              "question": "Will Bradley Beal win the 2025\u20132026 NBA Sixth Man of the Year?",
+              "yes_price": 0.0005,
+              "volume": 4242
             }
           ],
-          "url": "https://polymarket.com/event/highest-temperature-in-seattle-on-april-15-2026",
-          "strategy": "Buy YES on all 8 outcomes. Total cost: $0.9105. One wins $1.00. Profit: $0.0895 (8.95%)"
+          "url": "https://polymarket.com/event/nba-2025-26-sixth-man-of-the-year",
+          "strategy": "Buy YES on all 28 outcomes. Total cost: $0.9075. One wins $1.00. Profit: $0.0925 (9.25%)"
         },
         {
-          "event_title": "How many Gold Cards will Trump sell in 2026?",
-          "event_slug": "how-many-gold-cards-will-trump-sell-in-2026",
+          "event_title": "Which CEOs will be out before 2027?",
+          "event_slug": "which-ceos-will-be-out-before-2027",
           "yes_sum": 0.912,
           "profit_pct": 8.8,
           "profit_per_dollar_pct": 9.65,
-          "num_outcomes": 9,
+          "num_outcomes": 6,
           "outcomes": [
             {
-              "market_id": "665316",
-              "slug": "will-trump-sell-0-gold-cards-in-2026",
-              "question": "Will Trump sell 0 Gold Cards in 2026?",
-              "yes_price": 0.415,
-              "volume": 26518
+              "market_id": "687555",
+              "slug": "tim-cook-out-as-apple-ceo-before-2027",
+              "question": "Tim Cook out as Apple CEO before 2027?",
+              "yes_price": 0.235,
+              "volume": 334083
             },
             {
-              "market_id": "665317",
-              "slug": "will-trump-sell-1-100-gold-cards-in-2026",
-              "question": "Will Trump sell 1-100 Gold Cards in 2026?",
-              "yes_price": 0.1835,
-              "volume": 10668
+              "market_id": "687559",
+              "slug": "sam-altman-out-as-openai-ceo-before-2027",
+              "question": "Sam Altman out as OpenAI CEO before 2027?",
+              "yes_price": 0.23,
+              "volume": 73263
             },
             {
-              "market_id": "665320",
-              "slug": "will-trump-sell-2pt5k-5k-gold-cards-in-2026",
-              "question": "Will Trump sell 2.5k-5k Gold Cards in 2026?",
-              "yes_price": 0.0615,
-              "volume": 4542
+              "market_id": "687557",
+              "slug": "andy-jassy-out-as-amazon-ceo-before-2027",
+              "question": "Andy Jassy out as Amazon CEO before 2027?",
+              "yes_price": 0.14,
+              "volume": 25142
             },
             {
-              "market_id": "665319",
-              "slug": "will-trump-sell-1k-2pt5k-gold-cards-in-2026",
-              "question": "Will Trump sell 1k-2.5k Gold Cards in 2026?",
-              "yes_price": 0.06,
-              "volume": 7586
+              "market_id": "687554",
+              "slug": "sundar-pichai-out-as-google-ceo-before-2027",
+              "question": "Sundar Pichai out as Google CEO before 2027?",
+              "yes_price": 0.13,
+              "volume": 35678
             },
             {
-              "market_id": "665324",
-              "slug": "will-trump-sell-over-100k-gold-cards-in-2026",
-              "question": "Will Trump sell over 100k Gold Cards in 2026?",
-              "yes_price": 0.056,
-              "volume": 15163
+              "market_id": "687558",
+              "slug": "brian-armstrong-out-as-coinbase-ceo-before-2027",
+              "question": "Brian Armstrong out as Coinbase CEO before 2027?",
+              "yes_price": 0.115,
+              "volume": 81142
             },
             {
-              "market_id": "665323",
-              "slug": "will-trump-sell-25k-100k-gold-cards-in-2026",
-              "question": "Will Trump sell 25k-100k Gold Cards in 2026?",
-              "yes_price": 0.0435,
-              "volume": 5351
-            },
-            {
-              "market_id": "665321",
-              "slug": "will-trump-sell-5k-10k-gold-cards-in-2026",
-              "question": "Will Trump sell 5k-10k Gold Cards in 2026?",
-              "yes_price": 0.037,
-              "volume": 6141
-            },
-            {
-              "market_id": "665322",
-              "slug": "will-trump-sell-10k-25k-gold-cards-in-2026",
-              "question": "Will Trump sell 10k-25k Gold Cards in 2026?",
-              "yes_price": 0.031,
-              "volume": 55604
-            },
-            {
-              "market_id": "665318",
-              "slug": "will-trump-sell-101-1k-gold-cards-in-2026",
-              "question": "Will Trump sell 101-1k Gold Cards in 2026?",
-              "yes_price": 0.0245,
-              "volume": 5078
+              "market_id": "687556",
+              "slug": "dan-clancy-out-as-twitch-ceo-before-2027",
+              "question": "Dan Clancy out as Twitch CEO before 2027?",
+              "yes_price": 0.062,
+              "volume": 38664
             }
           ],
-          "url": "https://polymarket.com/event/how-many-gold-cards-will-trump-sell-in-2026",
-          "strategy": "Buy YES on all 9 outcomes. Total cost: $0.9120. One wins $1.00. Profit: $0.0880 (8.80%)"
+          "url": "https://polymarket.com/event/which-ceos-will-be-out-before-2027",
+          "strategy": "Buy YES on all 6 outcomes. Total cost: $0.9120. One wins $1.00. Profit: $0.0880 (8.80%)"
+        },
+        {
+          "event_title": "FIFA World Cup Group K Winner",
+          "event_slug": "fifa-world-cup-group-k-winner",
+          "yes_sum": 0.9125,
+          "profit_pct": 8.75,
+          "profit_per_dollar_pct": 9.59,
+          "num_outcomes": 4,
+          "outcomes": [
+            {
+              "market_id": "840171",
+              "slug": "will-portugal-win-group-k-in-the-2026-fifa-world-cup",
+              "question": "Will Portugal win Group K in the 2026 FIFA World Cup?",
+              "yes_price": 0.65,
+              "volume": 15228
+            },
+            {
+              "market_id": "840174",
+              "slug": "will-colombia-win-group-k-in-the-2026-fifa-world-cup",
+              "question": "Will Colombia win Group K in the 2026 FIFA World Cup?",
+              "yes_price": 0.22,
+              "volume": 5186
+            },
+            {
+              "market_id": "840172",
+              "slug": "will-the-winner-of-democratic-republic-of-congojamaicanew-caledonia-playoff-win-group-k-in-the-2026-fifa-world-cup",
+              "question": "Will the winner of the Democratic Republic of Congo/Jamaica/New Caledonia playof",
+              "yes_price": 0.0315,
+              "volume": 5560
+            },
+            {
+              "market_id": "840173",
+              "slug": "will-uzbekistan-win-group-k-in-the-2026-fifa-world-cup",
+              "question": "Will Uzbekistan win Group K in the 2026 FIFA World Cup?",
+              "yes_price": 0.011,
+              "volume": 3556
+            }
+          ],
+          "url": "https://polymarket.com/event/fifa-world-cup-group-k-winner",
+          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9125. One wins $1.00. Profit: $0.0875 (8.75%)"
         },
         {
           "event_title": "Will Opensea launch a token by ___?",
@@ -633,10 +787,10 @@
       "stats": {
         "total_events": 3000,
         "checked_multi_outcome": 1939,
-        "skipped_single_outcome": 605,
-        "opportunities_found": 135,
-        "best_profit_pct": 9.9,
-        "scanned_at": "2026-04-14 22:39 UTC"
+        "skipped_single_outcome": 603,
+        "opportunities_found": 132,
+        "best_profit_pct": 10.0,
+        "scanned_at": "2026-04-14 23:08 UTC"
       }
     },
     {
