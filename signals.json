@@ -1,31 +1,82 @@
 {
-  "last_scan": "2026-04-14T00:11:00.227188+00:00",
-  "scan_seconds": 29.1,
+  "last_scan": "2026-04-14T00:13:46.107239+00:00",
+  "scan_seconds": 27.0,
   "markets_scanned": 124,
   "open_positions": 94,
   "signals": [
     {
-      "id": "sig_235353",
-      "timestamp": "2026-04-14T00:10:59.226278+00:00",
+      "id": "sig_384339",
+      "timestamp": "2026-04-14T00:13:28.212875+00:00",
       "source": "PERPLEXITY",
-      "headline": "South Korea's Annual Inflation Rises to 2",
-      "raw": "South Korea's Annual Inflation Rises to 2.2% in March 2026 | YES | MED confidence**  \nThis marks the first uptick after holding at 2.0% in January and February 2026, exceeding the Bank of Korea's 2% target but below market forecasts of 2.4%, potentially influencing prediction markets on rate cuts or currency stability[2][1].  \nThe data, from Trading Economics, reflects contained price pressures am",
-      "direction": "YES",
-      "confidence": 0.65,
+      "headline": "MED confidence**",
+      "raw": "MED confidence**  \n\nTrump's April 13 Fox News comments affirm the ceasefire\u2014announced April 7 ahead of an 8 p.m. deadline\u2014remains intact, even as weekend high-level talks in Islamabad failed without agreement and the U.S. imposed a Strait of Hormuz blockade on Iranian ports (allowing non-Iranian traffic)[1][4]. Iran warns of retaliation if threatened, while Trump vows pressure until demands like n",
+      "direction": "NO",
+      "confidence": 0.9,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Will Iran strike Iraq by April 30, 2026?",
-        "Trump announces US x Iran ceasefire end by April 21, 2026?"
+        "Trump announces end of military operations against Iran by J",
+        "Trump announces end of military operations against Iran by A"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_389773",
+      "timestamp": "2026-04-14T00:13:33.646356+00:00",
+      "source": "PERPLEXITY",
+      "headline": "NM Governor Race: Deb Haaland Leads Sam Bregman with 73",
+      "raw": "NM Governor Race: Deb Haaland Leads Sam Bregman with 73.52% in Democratic Pre-Primary Convention Delegate Vote** | YES | HIGH confidence[2]\n\nDemocratic Party of New Mexico delegates (around 1,000) voted over the weekend at the pre-primary convention, confirming Haaland's strong lead (733 votes, 73.52%) over Bregman (264 votes, 26.48%), qualifying both for the June 2, 2026 primary ballot[2]. This e",
+      "direction": "YES",
+      "confidence": 0.78,
+      "matched_markets": [
+        "Will J.D. Vance win the 2028 Republican presidential nominat",
+        "Will Duke Rodriguez win the 2026 New Mexico Governor Republi",
+        "Will the Democratic Party control the Senate after the 2026 Midterm elections?"
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_384320",
+      "timestamp": "2026-04-14T00:13:28.193068+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Trump states two-week U",
+      "raw": "Trump states two-week U.S.-Iran ceasefire is 'holding well' despite collapsed peace talks and U.S. port blockade[1][2].**",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces end of military operations against Iran by J",
+        "Trump announces end of military operations against Iran by A"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_395215",
+      "timestamp": "2026-04-14T00:13:39.088652+00:00",
+      "source": "PERPLEXITY",
+      "headline": "SENATE RETURNS APRIL 13 FOR CRYPTO MARKET-STRUCTURE LEGISLATION & CLARITY ACT VOTE | NO | MED confidence**",
+      "raw": "SENATE RETURNS APRIL 13 FOR CRYPTO MARKET-STRUCTURE LEGISLATION & CLARITY ACT VOTE | NO | MED confidence**\n\nNo confirmed announcements, resolutions, or outcomes have been reported as of April 14, 0 AM UTC that would immediately shift prediction markets for Bitcoin or XRP.[1][5] The Senate's return on April 13 is highlighted for potential progress on the CLARITY Act and crypto market-structure legi",
+      "direction": "YES",
+      "confidence": 0.6,
+      "matched_markets": [
+        "Will Bitcoin dip to $70,000 on April 13?",
+        "Will the price of XRP be above $1.10 on April 14?",
+        "Will the price of XRP be between $1.60 and $1.70 on April 14"
+      ],
+      "action": "WATCH",
+      "x_link": null,
+      "category": "CRYPTO"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 1,
-    "watch": 0,
-    "high_conf": 0
+    "enter": 1,
+    "alert": 2,
+    "watch": 1,
+    "high_conf": 1
   }
 }
