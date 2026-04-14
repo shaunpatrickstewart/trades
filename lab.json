@@ -8,7 +8,7 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 132 categorical arb opportunities found\nScanned 3000 events (1900 multi-outcome) at 2026-04-14 00:06 UTC\nBest: 10.0% profit on 'What floor price will Milady hit before 2027?' \u2014 buy YES on all 2 outcomes (sum=0.9)\nStrategy: Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 9.8% on 'Presidential Election Winner 2028'",
+      "result": "LIVE \u2014 132 categorical arb opportunities found\nScanned 3000 events (1899 multi-outcome) at 2026-04-14 00:06 UTC\nBest: 10.0% profit on 'What floor price will Milady hit before 2027?' \u2014 buy YES on all 2 outcomes (sum=0.9)\nStrategy: Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 9.8% on 'Presidential Election Winner 2028'",
       "priority": "HIGH",
       "last_scan": "2026-04-14 00:06 UTC",
       "opportunities": [
@@ -758,8 +758,8 @@
       ],
       "stats": {
         "total_events": 3000,
-        "checked_multi_outcome": 1900,
-        "skipped_single_outcome": 620,
+        "checked_multi_outcome": 1899,
+        "skipped_single_outcome": 621,
         "opportunities_found": 132,
         "best_profit_pct": 10.0,
         "scanned_at": "2026-04-14 00:06 UTC"
