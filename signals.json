@@ -1,48 +1,65 @@
 {
-  "last_scan": "2026-04-14T18:42:32.763678+00:00",
-  "scan_seconds": 30.9,
-  "markets_scanned": 122,
-  "open_positions": 90,
+  "last_scan": "2026-04-14T18:45:29.836461+00:00",
+  "scan_seconds": 31.6,
+  "markets_scanned": 119,
+  "open_positions": 89,
   "signals": [
     {
-      "id": "sig_908117",
-      "timestamp": "2026-04-14T18:42:11.924403+00:00",
+      "id": "sig_105029",
+      "timestamp": "2026-04-14T18:45:28.835768+00:00",
       "source": "PERPLEXITY",
-      "headline": "US and Iran Eye Fresh Talks Before April 7 Ceasefire Expires; Trump Confirms Iran Outreach Amid Ongoing Hormuz Blockade*",
-      "raw": "US and Iran Eye Fresh Talks Before April 7 Ceasefire Expires; Trump Confirms Iran Outreach Amid Ongoing Hormuz Blockade** | **NO** | **MED** confidence[1][2][3]\n\nA two-week ceasefire announced on **April 7, 2026**, is set to expire next week, with the US and Iran planning new negotiations this week after weekend talks in Islamabad failed, per sources cited in Bloomberg reporting[1]. **President Tr",
-      "direction": "NO",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces end of military operations against Iran by A",
-        "Trump announces US x Iran ceasefire end by April 21, 2026?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_927954",
-      "timestamp": "2026-04-14T18:42:31.761611+00:00",
-      "source": "PERPLEXITY",
-      "headline": "South Korea BOK Holds Benchmark Rate at 2",
-      "raw": "South Korea BOK Holds Benchmark Rate at 2.5% Amid Inflation Pressures from Iran Conflict (Apr 10, 2026)** | NO | HIGH confidence[5][6]\n\nThe Bank of Korea's Monetary Policy Board unanimously decided to keep its policy rate unchanged at 2.5% for the 7th straight month, citing surging oil prices, inflation above the 2% target (recently 2.2%), a weak won (near 1,520/USD), and growth below 2% amid Midd",
+      "headline": "South Korea March 2026 Annual Inflation Confirmed at 2",
+      "raw": "South Korea March 2026 Annual Inflation Confirmed at 2.2% (Up from 2.0%, Below 2.4% Forecast) | YES | HIGH confidence** [1]\n\nThis data, released around early April 2026, shows annual CPI rose to 2.2% YoY in March from 2.0% in Jan/Feb, missing market expectations of 2.4% and aligning near the Bank of Korea's 2% target amid contained pressures before Middle East volatility.[1] It follows 2025's full",
       "direction": "YES",
-      "confidence": 0.78,
+      "confidence": 0.9,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
         "Trump announces US x Iran ceasefire end by April 21, 2026?",
         "US x Iran permanent peace deal by April 22, 2026?"
       ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
       "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_97899",
+      "timestamp": "2026-04-14T18:45:21.705033+00:00",
+      "source": "PERPLEXITY",
+      "headline": "CLARITY Act Senate Discussions Resume April 13 with Confirmed Markup Vote Expected Late April | YES | HIGH confidence**",
+      "raw": "CLARITY Act Senate Discussions Resume April 13 with Confirmed Markup Vote Expected Late April | YES | HIGH confidence** [1][2][3][6]\n\nSenator Cynthia Lummis confirmed at the DC Blockchain Summit that U.S. crypto market structure legislation, including the CLARITY Act, is closer to approval after a stablecoin yield compromise cleared political hurdles, setting up an April markup post-Easter recess.",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Bitcoin dip to $67,000 on April 14?",
+        "Will the price of XRP be between $1.60 and $1.70 on April 15",
+        "Will the price of Solana be above $100 on April 15?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_84753",
+      "timestamp": "2026-04-14T18:45:08.559591+00:00",
+      "source": "PERPLEXITY",
+      "headline": "US and Iran Eye Fresh Talks Before April 7 Ceasefire Expires Next Week | YES | MED confidence**",
+      "raw": "US and Iran Eye Fresh Talks Before April 7 Ceasefire Expires Next Week | YES | MED confidence**\n\nA two-week ceasefire between the US and Iran was announced on April 7, 2026, after President Trump deescalated strike threats, but weekend talks in Islamabad collapsed without a deal on nuclear issues\u2014US demanding a 20-year moratorium, Iran offering 5 years\u2014prompting a US naval blockade of Iranian port",
+      "direction": "YES",
+      "confidence": 0.6,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces end of military operations against Iran by A",
+        "Trump announces US x Iran ceasefire end by April 21, 2026?"
+      ],
+      "action": "WATCH",
+      "x_link": null,
+      "category": "GEOPOLITICS"
     }
   ],
   "stats": {
     "enter": 1,
     "alert": 1,
-    "watch": 0,
+    "watch": 1,
     "high_conf": 1
   }
 }
