@@ -1,32 +1,15 @@
 {
-  "last_scan": "2026-04-14T19:14:28.928449+00:00",
-  "scan_seconds": 44.9,
+  "last_scan": "2026-04-14T19:17:19.081425+00:00",
+  "scan_seconds": 29.4,
   "markets_scanned": 118,
   "open_positions": 89,
   "signals": [
     {
-      "id": "sig_823604",
-      "timestamp": "2026-04-14T19:14:07.409549+00:00",
-      "source": "PERPLEXITY",
-      "headline": "US and Iran weighing further peace talks to extend two-week ceasefire before April 21 expiry, despite collapsed Pakistan",
-      "raw": "US and Iran weighing further peace talks to extend two-week ceasefire before April 21 expiry, despite collapsed Pakistan negotiations and ongoing US naval blockade of Strait of Hormuz | NO | HIGH confidence**\n\nA two-week ceasefire remains in place until around April 21-22, but recent US-Iran talks in Pakistan ended without a long-term deal, primarily due to Iran's refusal to abandon nuclear ambiti",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces end of military operations against Iran by A",
-        "Trump announces US x Iran ceasefire end by April 21, 2026?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_844121",
-      "timestamp": "2026-04-14T19:14:27.926424+00:00",
+      "id": "sig_14276",
+      "timestamp": "2026-04-14T19:17:18.080789+00:00",
       "source": "PERPLEXITY",
       "headline": "South Korea March 2026 Annual Inflation Confirmed at 2",
-      "raw": "South Korea March 2026 Annual Inflation Confirmed at 2.2% (Up from 2.0%, Below 2.4% Forecast) | YES | HIGH confidence**\n\nSouth Korea's annual inflation rate for March 2026 rose to 2.2% from 2.0% in January and February, missing market expectations of 2.4% as reported by Trading Economics on or around early April 2026.[1] A secondary source reports a precise figure of 2.16% year-over-year, with a 0",
+      "raw": "South Korea March 2026 Annual Inflation Confirmed at 2.2% | YES | HIGH confidence**  \nSouth Korea's annual inflation rate rose to 2.2% in March 2026, up from 2.0% in January and February but below market forecasts of 2.4%, as reported by Statistics Korea via Trading Economics[1]. The Bank of Korea announced its 7th consecutive interest rate freeze at 2.5% on Friday (April 10, 2026), citing this re",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
@@ -37,36 +20,44 @@
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_837727",
-      "timestamp": "2026-04-14T19:14:21.532457+00:00",
+      "id": "sig_7951",
+      "timestamp": "2026-04-14T19:17:11.755183+00:00",
       "source": "PERPLEXITY",
-      "headline": "Morgan Stanley spot BTC ETF posts record inflows on launch day | YES | HIGH confidence**",
-      "raw": "Morgan Stanley spot BTC ETF posts record inflows on launch day | YES | HIGH confidence**  \nThis breaking confirmation of institutional commitment via the strongest first-day performance for any Morgan Stanley fund directly bolsters Bitcoin's safe-haven narrative amid $71K price stability and 57% dominance, likely shifting prediction market odds higher for near-term targets like $75K-$80K[4][7].",
+      "headline": "Solana (SOL) Hits All-Time Record of 167 Million Monthly Token Holders and 148 Million Daily Non-Vote Transactions on Ap",
+      "raw": "Solana (SOL) Hits All-Time Record of 167 Million Monthly Token Holders and 148 Million Daily Non-Vote Transactions on April 14, 2026, Bolstered by Alpenglow Upgrade Progress | YES | HIGH confidence**[1]\n\nInstitutional players like BlackRock and Fidelity report record SOL ETF holdings amid network surges, with Alpenglow upgrade targeting 150ms transaction finality and Firedancer validator enhanceme",
       "direction": "YES",
-      "confidence": 0.78,
-      "matched_markets": [],
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Bitcoin dip to $67,000 on April 14?",
+        "Will the price of Solana be between $60 and $70 on April 15?",
+        "Will the price of Solana be above $100 on April 15?"
+      ],
       "action": "ALERT",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_837736",
-      "timestamp": "2026-04-14T19:14:21.541146+00:00",
+      "id": "sig_996283",
+      "timestamp": "2026-04-14T19:17:00.088318+00:00",
       "source": "PERPLEXITY",
-      "headline": "Hong Kong grants first stablecoin licenses | YES | MED confidence**",
-      "raw": "Hong Kong grants first stablecoin licenses | YES | MED confidence**  \nOpening regulated crypto access across Asia, this regulatory greenlight enhances Solana's ecosystem momentum (with SOL at $82+ and ETF assets over $1B), potentially driving altcoin sentiment and prediction markets for SOL upside to $100-$110[2][4].",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
+      "headline": "US and Iran Weighing Negotiations to Extend Two-Week Ceasefire Before April 21 Expiration Amid Trump's Naval Blockade |",
+      "raw": "US and Iran Weighing Negotiations to Extend Two-Week Ceasefire Before April 21 Expiration Amid Trump's Naval Blockade | NO | MED confidence**\n\nA two-week ceasefire between the US and Iran is in place, set to expire around April 21, with sources indicating both sides are considering fresh talks in Pakistan to extend it into a longer-term deal, though no agreement has been confirmed.[1][2][3] Presid",
+      "direction": "NO",
+      "confidence": 0.6,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces end of military operations against Iran by A",
+        "Trump announces US x Iran ceasefire end by April 21, 2026?"
+      ],
+      "action": "WATCH",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "GEOPOLITICS"
     }
   ],
   "stats": {
-    "enter": 2,
-    "alert": 2,
-    "watch": 0,
-    "high_conf": 2
+    "enter": 1,
+    "alert": 1,
+    "watch": 1,
+    "high_conf": 1
   }
 }
