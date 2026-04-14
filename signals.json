@@ -1,49 +1,16 @@
 {
-  "last_scan": "2026-04-14T05:31:15.102596+00:00",
-  "scan_seconds": 29.4,
-  "markets_scanned": 62,
+  "last_scan": "2026-04-14T05:33:59.312877+00:00",
+  "scan_seconds": 25.5,
+  "markets_scanned": 65,
   "open_positions": 35,
   "signals": [
     {
-      "id": "sig_430408",
-      "timestamp": "2026-04-14T05:30:54.262808+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Trump Announces Two-Week Ceasefire with Iran Ahead of 8 p",
-      "raw": "Trump Announces Two-Week Ceasefire with Iran Ahead of 8 p.m. Deadline | YES | HIGH confidence**  \nPresident Donald Trump announced Tuesday evening that the U.S. reached a two-week ceasefire agreement with Iran, averting escalation just before an 8 p.m. ET deadline amid threats over the Strait of Hormuz closure.[1]  \nThis follows Trump's morning social media warning of severe consequences if no dea",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces end of military operations against Iran by A",
-        "Trump announces US x Iran ceasefire end by April 21, 2026?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_436259",
-      "timestamp": "2026-04-14T05:31:00.113820+00:00",
-      "source": "PERPLEXITY",
-      "headline": "JD Vance Urges Elon Musk to Rejoin MAGA Ahead of Midterms Amid Ongoing Trump Rift | NO | LOW confidence**",
-      "raw": "JD Vance Urges Elon Musk to Rejoin MAGA Ahead of Midterms Amid Ongoing Trump Rift | NO | LOW confidence**\n\nUS Vice President **JD Vance** expressed hope that **Elon Musk**, former Department of Government Efficiency chief, will return to the MAGA movement by the **midterms**, citing a strained relationship with President Trump over the \"Big Beautiful Bill.\"[1] Vance stated, \"My hope is that by the",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will J.D. Vance win the 2028 Republican presidential nominat",
-        "Will the Democratic Party control the Senate after the 2026 Midterm elections?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_450239",
-      "timestamp": "2026-04-14T05:31:14.093799+00:00",
+      "id": "sig_614437",
+      "timestamp": "2026-04-14T05:33:58.291209+00:00",
       "source": "PERPLEXITY",
       "headline": "South Korea March 2026 Inflation at 2",
-      "raw": "South Korea March 2026 Inflation at 2.2% YoY (Released April 2) | NO | HIGH confidence**  \nSouth Korea's annual inflation rate increased to 2.2% in March 2026 from 2.0% prior, but undershot market forecasts of 2.4%; core inflation eased to 2.2% from 2.3%.[1][2] This data, released on April 2 by the Ministry of Data and Statistics, showed monthly CPI up 0.3% (below 0.6% expected), with petroleum up",
-      "direction": "YES",
+      "raw": "South Korea March 2026 Inflation at 2.2% YoY, Below 2.4% Forecast | NO | HIGH confidence**  \nSouth Korea's annual inflation rate increased to 2.2% in March 2026 from 2.0% prior, but undershot market expectations of 2.4%, with core inflation easing to 2.2% from 2.3%; this was released April 2 amid oil price surges from the Iran conflict.[1][2]  \nBank of Korea held rates at 2.5% on April 10 (7th str",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
@@ -53,25 +20,12 @@
       "action": "ALERT",
       "x_link": null,
       "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_450244",
-      "timestamp": "2026-04-14T05:31:14.098719+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Bank of Korea Holds Rate at 2",
-      "raw": "Bank of Korea Holds Rate at 2.5% (April 10 Decision) | NO | HIGH confidence**  \nThe Bank of Korea unanimously kept its benchmark rate at 2.5% for the 7th month on April 10, citing inflation above 2% target (recently 2.2%), rising oil prices, weak won (1,520/USD), and growth below 2% forecast; no easing signaled despite prior March data.[5][6] BOK now expects headline inflation to exceed prior 2.2%",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 3,
+    "enter": 0,
+    "alert": 1,
     "watch": 0,
-    "high_conf": 1
+    "high_conf": 0
   }
 }
