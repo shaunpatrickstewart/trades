@@ -1,16 +1,16 @@
 {
-  "last_scan": "2026-04-14T19:47:52.676927+00:00",
-  "scan_seconds": 38.9,
-  "markets_scanned": 119,
-  "open_positions": 90,
+  "last_scan": "2026-04-14T19:48:53.042470+00:00",
+  "scan_seconds": 37.8,
+  "markets_scanned": 97,
+  "open_positions": 68,
   "signals": [
     {
-      "id": "sig_823891",
-      "timestamp": "2026-04-14T19:47:27.694946+00:00",
+      "id": "sig_888627",
+      "timestamp": "2026-04-14T19:48:32.430094+00:00",
       "source": "PERPLEXITY",
-      "headline": "Trump Announces 2-Week Ceasefire with Iran Ahead of Deadline | YES | HIGH confidence**",
-      "raw": "Trump Announces 2-Week Ceasefire with Iran Ahead of Deadline | YES | HIGH confidence**  \nPresident Trump announced on Tuesday via Truth Social a conditional 2-week ceasefire with Iran, effective ahead of his 8 p.m. ET deadline, requiring Iran's \"COMPLETE, IMMEDIATE, and SAFE OPENING\" of the Strait of Hormuz while Pakistan-mediated negotiations continue.[1]  \nIran submitted a 10-point peace proposa",
-      "direction": "YES",
+      "headline": "US, Iran Eye Fresh Talks Before 2-Week Ceasefire Expires Next Week | NO | HIGH confidence**",
+      "raw": "US, Iran Eye Fresh Talks Before 2-Week Ceasefire Expires Next Week | NO | HIGH confidence**  \nNo new ceasefire confirmation, announcement, or resolution has occurred today; the existing 2-week ceasefire was announced April 7 and is set to expire early next week, with both sides now discussing a second round of negotiations in Islamabad to potentially extend it[2][1].  \nTrump pulled back strike thr",
+      "direction": "NO",
       "confidence": 0.9,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
@@ -22,11 +22,11 @@
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_831254",
-      "timestamp": "2026-04-14T19:47:35.057691+00:00",
+      "id": "sig_895964",
+      "timestamp": "2026-04-14T19:48:39.767257+00:00",
       "source": "PERPLEXITY",
-      "headline": "TRUMP DOUBLES DOWN ON GREENLAND ACQUISITION IN LATE-NIGHT TRUTH SOCIAL POSTS, CONFIRMS NATO MEETING AGREEMENT | NO | LOW",
-      "raw": "TRUMP DOUBLES DOWN ON GREENLAND ACQUISITION IN LATE-NIGHT TRUTH SOCIAL POSTS, CONFIRMS NATO MEETING AGREEMENT | NO | LOW confidence**\n\nTrump posted on Truth Social early Tuesday (April 14, 2026) announcing a \"very good telephone call\" with NATO Secretary General Mark Rutte, agreeing to a meeting of parties in Davos on Greenland, which he called \"imperative for National and World Security\" with \"no",
+      "headline": "Iran-US Peace Talks Fail: VP JD Vance Returns Empty-Handed from Pakistan-Facilitated Negotiations** | NO | HIGH confiden",
+      "raw": "Iran-US Peace Talks Fail: VP JD Vance Returns Empty-Handed from Pakistan-Facilitated Negotiations** | NO | HIGH confidence[1][2][6]\n\nVP **JD Vance** concluded negotiations with Iran in Islamabad, Pakistan on or around April 11, 2026, but no deal was reached as Iran refused to abandon its nuclear ambitions, despite Trump's claim of near-success on other points[1][2][3]. Trump publicly blamed Vance ",
       "direction": "NO",
       "confidence": 0.9,
       "matched_markets": [
@@ -39,27 +39,25 @@
       "category": "POLITICS"
     },
     {
-      "id": "sig_847854",
-      "timestamp": "2026-04-14T19:47:51.657313+00:00",
+      "id": "sig_908238",
+      "timestamp": "2026-04-14T19:48:52.041809+00:00",
       "source": "PERPLEXITY",
-      "headline": "South Korea Holds Rates at 2",
-      "raw": "South Korea Holds Rates at 2.5% Amid Rising Inflation Concerns | NO** | **HIGH confidence**\n\nOn April 10, 2026, the **Bank of Korea kept its benchmark interest rate unchanged at 2.5%** for the seventh consecutive month, maintaining its steady policy stance despite mounting inflationary pressures[5][6]. This decision would not move prediction markets significantly, as the hold was widely anticipate",
+      "headline": "South Korea March 2026 Annual Inflation Confirmed at 2",
+      "raw": "South Korea March 2026 Annual Inflation Confirmed at 2.16% YoY (up from 2.00% in Feb)** | YES | HIGH confidence[1]\n\nSouth Korea's Statistics Korea released Consumer Price Index data for March 2026, showing **annual inflation at 2.16%** year-over-year, a rise from February's 2.00%, with month-over-month inflation at 0.34% (CPI: 118.8).[1] This exceeds the Bank of Korea's 2% target amid oil price pr",
       "direction": "YES",
-      "confidence": 0.78,
+      "confidence": 0.9,
       "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces US x Iran ceasefire end by April 21, 2026?",
-        "US x Iran permanent peace deal by April 22, 2026?"
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
       ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
       "category": "ECONOMICS"
     }
   ],
   "stats": {
-    "enter": 2,
-    "alert": 1,
+    "enter": 3,
+    "alert": 0,
     "watch": 0,
-    "high_conf": 2
+    "high_conf": 3
   }
 }
