@@ -1,15 +1,62 @@
 {
-  "last_scan": "2026-04-14T03:42:09.442846+00:00",
-  "scan_seconds": 29.0,
-  "markets_scanned": 125,
-  "open_positions": 89,
+  "last_scan": "2026-04-14T03:45:05.444296+00:00",
+  "scan_seconds": 33.0,
+  "markets_scanned": 72,
+  "open_positions": 35,
   "signals": [
     {
-      "id": "sig_896842",
-      "timestamp": "2026-04-14T03:42:00.703855+00:00",
+      "id": "sig_56625",
+      "timestamp": "2026-04-14T03:44:40.485205+00:00",
       "source": "PERPLEXITY",
-      "headline": "Solana Benefits from Confirmed Technical Breakout and Enterprise Adoption | YES | MED**",
-      "raw": "Solana Benefits from Confirmed Technical Breakout and Enterprise Adoption | YES | MED**  \nSolana gained 6.65% to $84.47 on a \"confirmed technical breakout above key resistance,\" strong ecosystem activity, and enterprise moves like Mastercard/Western Union integration for global financial infrastructure.[1][6]",
+      "headline": "Trump Announces US Navy Blockade of Strait of Hormuz After Failed Ceasefire Talks with Iran** | **NO** | **HIGH** confid",
+      "raw": "Trump Announces US Navy Blockade of Strait of Hormuz After Failed Ceasefire Talks with Iran** | **NO** | **HIGH** confidence[1][2][3]\n\nUS-Iran ceasefire talks in Pakistan collapsed over the weekend, with no agreement reached on key issues like Iran's nuclear ambitions, prompting President Trump on April 13, 2026, to order a US Navy blockade of ships entering or leaving the Strait of Hormuz[1][2][3",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces end of military operations against Iran by A",
+        "Will Iran strike Iraq by April 30, 2026?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_80583",
+      "timestamp": "2026-04-14T03:45:04.443639+00:00",
+      "source": "PERPLEXITY",
+      "headline": "South Korea's March 2026 annual inflation rate confirmed at 2",
+      "raw": "South Korea's March 2026 annual inflation rate confirmed at 2.2% (up from 2.0% prior), below 2.4% forecasts | YES | HIGH confidence**  \nThis data, released around early April 2026 per Trading Economics update, shows contained price pressures despite global energy volatility from the Iran conflict, aligning with the Bank of Korea's 2% target and supporting the BOK's recent decision to hold rates at",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Will Iran strike Iraq by April 30, 2026?",
+        "Trump announces US x Iran ceasefire end by April 21, 2026?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_63979",
+      "timestamp": "2026-04-14T03:44:47.839490+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Confirmed wins boosting projection: Andy Barr (R) defeats Charles Booker (D) in **Kentucky**; Kurt Almy (R), picked by S",
+      "raw": "Confirmed wins boosting projection: Andy Barr (R) defeats Charles Booker (D) in **Kentucky**; Kurt Almy (R), picked by Sen. Steve Daines, wins **Montana** against independent challenger[1].",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_72643",
+      "timestamp": "2026-04-14T03:44:56.503099+00:00",
+      "source": "PERPLEXITY",
+      "headline": "SEC Confirms XRP Commodity Status | YES | HIGH confidence**",
+      "raw": "SEC Confirms XRP Commodity Status | YES | HIGH confidence**\nThe SEC confirmed XRP's commodity status on March 17, 2026[6], providing regulatory clarity that has enhanced XRP's institutional appeal and shifted market structure[4].",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [],
@@ -18,58 +65,81 @@
       "category": "CRYPTO"
     },
     {
-      "id": "sig_904562",
-      "timestamp": "2026-04-14T03:42:08.423153+00:00",
+      "id": "sig_72648",
+      "timestamp": "2026-04-14T03:44:56.508301+00:00",
       "source": "PERPLEXITY",
-      "headline": "Based on the most recent search results available, the latest confirmed inflation development for South Korea is:",
-      "raw": "Based on the most recent search results available, the latest confirmed inflation development for South Korea is:",
-      "direction": null,
+      "headline": "CME Group Launches SUI Futures | YES | HIGH confidence**",
+      "raw": "CME Group Launches SUI Futures | YES | HIGH confidence**\nCME Group confirmed regulated SUI futures launching May 4, 2026[6], reinforcing institutional infrastructure expansion and sending SUI up 7.6% on the announcement[6].",
+      "direction": "YES",
       "confidence": 0.9,
-      "matched_markets": [
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
-      ],
+      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_884599",
-      "timestamp": "2026-04-14T03:41:48.460535+00:00",
+      "id": "sig_63989",
+      "timestamp": "2026-04-14T03:44:47.849797+00:00",
       "source": "PERPLEXITY",
-      "headline": "Trump Orders US Navy Blockade of Strait of Hormuz After Failed Iran Ceasefire Talks in Pakistan | NO | HIGH confidence**",
-      "raw": "Trump Orders US Navy Blockade of Strait of Hormuz After Failed Iran Ceasefire Talks in Pakistan | NO | HIGH confidence**[1][2]\n\nUS-Iran ceasefire negotiations mediated in Pakistan collapsed on April 13, 2026, primarily due to Iran's refusal to abandon nuclear ambitions, prompting President Trump to announce and initiate a naval blockade of the Strait of Hormuz to pressure Iran into concessions**[1",
+      "headline": "No other \"right now\" confirmations resolved (e",
+      "raw": "No other \"right now\" confirmations resolved (e.g., Maine/Michigan/Alaska pending); prediction stabilizes GOP hold amid volatility, likely shifting markets toward Republican Senate odds[1].",
       "direction": "NO",
       "confidence": 0.78,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces end of military operations against Iran by A",
-        "Will Iran strike Iraq by April 30, 2026?"
-      ],
+      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "GEOPOLITICS"
+      "category": "POLITICS"
     },
     {
-      "id": "sig_904571",
-      "timestamp": "2026-04-14T03:42:08.432648+00:00",
+      "id": "sig_72658",
+      "timestamp": "2026-04-14T03:44:56.518938+00:00",
       "source": "PERPLEXITY",
-      "headline": "BANK OF KOREA HOLDS RATE AT 2",
-      "raw": "BANK OF KOREA HOLDS RATE AT 2.5% AMID RISING OIL-DRIVEN INFLATION** | NO (no rate cut) | HIGH confidence\n\nAs of April 10, 2026, the Bank of Korea's Monetary Policy Board unanimously decided to keep its benchmark interest rate at 2.5% for the 7th consecutive month.[5] This decision came despite consumer prices climbing above the central bank's 2% target, with inflation expected to rise to the mid t",
+      "headline": "Bitcoin ETF Inflows Surge | YES | HIGH confidence**",
+      "raw": "Bitcoin ETF Inflows Surge | YES | HIGH confidence**\nBitcoin ETFs saw substantial inflows totaling $117.5 million on March 31, with BlackRock's IBIT leading at $98.4 million[1], indicating strong institutional accumulation behavior[4].",
       "direction": "YES",
       "confidence": 0.78,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_63969",
+      "timestamp": "2026-04-14T03:44:47.829021+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Republicans projected to retain U",
+      "raw": "Republicans projected to retain U.S. Senate control (50 seats) in 2026 midterms with VP J.D. Vance tie-breaker after new calls in KY & MT | YES | HIGH confidence**[1]",
+      "direction": "YES",
+      "confidence": 0.65,
       "matched_markets": [
-        "Will the Central Bank of Colombia announce an increase at the April meeting?"
+        "Will J.D. Vance win the 2028 Republican presidential nominat",
+        "Will the Democratic Party control the Senate after the 2026 Midterm elections?"
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "POLITICS"
     },
     {
-      "id": "sig_890643",
-      "timestamp": "2026-04-14T03:41:54.504336+00:00",
+      "id": "sig_63974",
+      "timestamp": "2026-04-14T03:44:47.834398+00:00",
       "source": "PERPLEXITY",
-      "headline": "LOW confidence** due to lack of real-time results or market-moving updates in sources; check live wires for post-3 AM de",
-      "raw": "LOW confidence** due to lack of real-time results or market-moving updates in sources; check live wires for post-3 AM developments. [1][2][3]",
+      "headline": "Video from Election Prediction Official (EP) projects Republicans at exactly **50 Senate seats**, sufficient to hold maj",
+      "raw": "Video from Election Prediction Official (EP) projects Republicans at exactly **50 Senate seats**, sufficient to hold majority as **Vice President J.D. Vance** breaks ties; no Democratic path to 51 without further flips[1].",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will J.D. Vance win the 2028 Republican presidential nominat"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_63984",
+      "timestamp": "2026-04-14T03:44:47.844706+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Context ties to query: **Trump** as president faces midterm headwinds with GOP defending 22 of 35 seats (current 53-47 m",
+      "raw": "Context ties to query: **Trump** as president faces midterm headwinds with GOP defending 22 of 35 seats (current 53-47 majority); Ohio special context as Jon Husted (R) defends seat vacated by **Vance** against Sherrod Brown (D)[1][2].",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
@@ -78,57 +148,68 @@
       "category": "POLITICS"
     },
     {
-      "id": "sig_896833",
-      "timestamp": "2026-04-14T03:42:00.694355+00:00",
+      "id": "sig_63994",
+      "timestamp": "2026-04-14T03:44:47.854802+00:00",
       "source": "PERPLEXITY",
-      "headline": "XRP Records Largest Inflows, Outpacing Bitcoin and Solana; Boosted by Evernorth SPAC Merger Progress and U",
-      "raw": "XRP Records Largest Inflows, Outpacing Bitcoin and Solana; Boosted by Evernorth SPAC Merger Progress and U.S.-Iran Ceasefire | YES | HIGH**  \nXRP saw $119.6 million in inflows last week (ending ~April 8, 2026), the highest among digital assets and its strongest since mid-December 2025, driving year-to-date inflows to $159 million (7% of AUM); this unseated Bitcoin ($107.3M) and Solana ($34.9M).[1]",
+      "headline": "Pre-election outlook: NRSC Chair Tim Scott optimistic on expanding majority despite inflation/Trump approval challenges[",
+      "raw": "Pre-election outlook: NRSC Chair Tim Scott optimistic on expanding majority despite inflation/Trump approval challenges[2]; historical trends predict GOP losses but current math favors retention with Vance[1][4].",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_72637",
+      "timestamp": "2026-04-14T03:44:56.497840+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Based on the available search results, here are the most significant recent developments:",
+      "raw": "Based on the available search results, here are the most significant recent developments:",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_72653",
+      "timestamp": "2026-04-14T03:44:56.513802+00:00",
+      "source": "PERPLEXITY",
+      "headline": "XRP Breaks Long-Term Downtrend | YES | HIGH confidence**",
+      "raw": "XRP Breaks Long-Term Downtrend | YES | HIGH confidence**\nCrypto analyst XRP Captain identified a clear break above a long-term downtrend line that had capped XRP price movements since mid-2025, signaling a shift in market structure with potential for rapid upward trajectory toward $7.52 by end of April[5].",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Will Iran strike Iraq by April 30, 2026?",
-        "Trump announces US x Iran ceasefire end by April 21, 2026?"
+        "XRP Up or Down - April 14, 12:55AM-1:00AM ET"
       ],
       "action": "ALERT",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_904581",
-      "timestamp": "2026-04-14T03:42:08.442060+00:00",
+      "id": "sig_72664",
+      "timestamp": "2026-04-14T03:44:56.524307+00:00",
       "source": "PERPLEXITY",
-      "headline": "Key context:** March 2026 inflation reached 2",
-      "raw": "Key context:** March 2026 inflation reached 2.2%, up from 2.0% in February, driven largely by elevated global oil prices that have pressured both prices and the Korean won (trading around 1,520 won per U.S. dollar).[2][5] Experts note that rising oil prices and currency weakness continue to increase economic uncertainty, offsetting any dovish signals from moderating headline inflation earlier in t",
+      "headline": "Solana Maintains Bullish Structure | YES | MEDIUM confidence**",
+      "raw": "Solana Maintains Bullish Structure | YES | MEDIUM confidence**\nSolana is holding above $84 heading into April 2026, with the $80 zone serving as key support[3]. Polymarket data shows 87% probability Solana trades above $80 in April[2].\n\nThese developments collectively suggest institutional confidence in crypto infrastructure and regulatory clarity, particularly benefiting XRP and supporting bullis",
       "direction": "YES",
       "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_896852",
-      "timestamp": "2026-04-14T03:42:00.713427+00:00",
-      "source": "PERPLEXITY",
-      "headline": "No April-Specific Confirmations for XRP/Solana Beyond Inflows and Breakouts | NO | LOW**",
-      "raw": "No April-Specific Confirmations for XRP/Solana Beyond Inflows and Breakouts | NO | LOW**  \nPrediction markets show mixed April outlooks (e.g., 56% chance XRP >$1.4, 87% Solana >$80), but no new resolutions today; Senate crypto legislation path noted for April 13 (past event).[5][7]",
-      "direction": "NO",
-      "confidence": 0.6,
       "matched_markets": [
-        "Will the price of XRP be above $1.10 on April 14?",
-        "Will the price of XRP be between $1.60 and $1.70 on April 14",
-        "Will the price of Solana be above $70 on April 14?"
+        "Solana Up or Down - April 13, 11:45PM-12:00AM ET",
+        "XRP Up or Down - April 14, 12:55AM-1:00AM ET",
+        "Solana Up or Down - April 14, 1:45PM-1:50PM ET"
       ],
-      "action": "WATCH",
+      "action": "ALERT",
       "x_link": null,
       "category": "CRYPTO"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 7,
-    "watch": 1,
-    "high_conf": 2
+    "enter": 2,
+    "alert": 12,
+    "watch": 0,
+    "high_conf": 5
   }
 }
