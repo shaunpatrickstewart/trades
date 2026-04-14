@@ -1,50 +1,33 @@
 {
-  "last_scan": "2026-04-14T05:42:28.185592+00:00",
-  "scan_seconds": 30.6,
+  "last_scan": "2026-04-14T05:45:16.580386+00:00",
+  "scan_seconds": 26.5,
   "markets_scanned": 66,
-  "open_positions": 37,
+  "open_positions": 36,
   "signals": [
     {
-      "id": "sig_123327",
-      "timestamp": "2026-04-14T05:42:27.180337+00:00",
+      "id": "sig_285967",
+      "timestamp": "2026-04-14T05:45:09.820137+00:00",
       "source": "PERPLEXITY",
-      "headline": "South Korea March 2026 Inflation Confirmed at 2",
-      "raw": "South Korea March 2026 Inflation Confirmed at 2.2% YoY (Undershot 2.4% Forecast) | YES | HIGH confidence**  \nSouth Korea's annual inflation rate rose to 2.2% in March 2026 from 2.0% prior, below market expectations of 2.4%, with core inflation easing to 2.2% from 2.3%; data released April 2 per official statistics.[1][2] This undershoot amid Iran war-driven oil surges (petroleum +10.4% MoM) temper",
-      "direction": "YES",
+      "headline": "Bitcoin remains steady above $71K** following CPI-led rallies, profit booking, and US-Iran ceasefire boosts, with no fre",
+      "raw": "Bitcoin remains steady above $71K** following CPI-led rallies, profit booking, and US-Iran ceasefire boosts, with no fresh resolutions noted.[6][7]  \nA **$1.66B milestone** for Solana was referenced, but it's not tied to a just-confirmed event and hasn't driven sustained upside amid bearish pressures.[5]",
+      "direction": "NO",
       "confidence": 0.9,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Will Iran strike Iraq by April 30, 2026?",
-        "Trump announces US x Iran ceasefire end by April 21, 2026?"
+        "Trump announces US x Iran ceasefire end by April 21, 2026?",
+        "Will Trump announce that the US x Iran ceasefire has been br"
       ],
       "action": "ENTER",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_105881",
-      "timestamp": "2026-04-14T05:42:09.734530+00:00",
+      "id": "sig_285971",
+      "timestamp": "2026-04-14T05:45:09.824884+00:00",
       "source": "PERPLEXITY",
-      "headline": "Trump Claims Iran \"Still Wants Ceasefire Deal Very Badly\" | UNCONFIRMED | LOW confidence**",
-      "raw": "Trump Claims Iran \"Still Wants Ceasefire Deal Very Badly\" | UNCONFIRMED | LOW confidence**\nOn April 14, Trump stated Tehran wants a peace deal \"very badly,\" but this contradicts the failed negotiations and lacks independent confirmation[5].\n\nThe most significant confirmed development is the **activation of the U.S. naval blockade**, which represents a major escalation after diplomatic efforts fail",
-      "direction": null,
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces end of military operations against Iran by A",
-        "Will Iran strike Iraq by April 30, 2026?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_117633",
-      "timestamp": "2026-04-14T05:42:21.486105+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Solana Alpenglow Upgrade Passes Governance Vote with 98",
-      "raw": "Solana Alpenglow Upgrade Passes Governance Vote with 98.27% Approval | YES | HIGH confidence**  \nThe Alpenglow upgrade, targeting 100-150 millisecond transaction finality, was confirmed via a successful governance vote, strengthening Solana's position as a high-speed layer-1 blockchain amid strong network activity like $57B DEX volume in March.[2]  \nNo breaking confirmations, announcements, or res",
-      "direction": "YES",
+      "headline": "NO | LOW confidence** \u2013 Search results show market chatter and price action from April 10-14, but nothing \"just confirme",
+      "raw": "NO | LOW confidence** \u2013 Search results show market chatter and price action from April 10-14, but nothing \"just confirmed\" like policy changes or upgrades to shift predictions; data is volatile and conflicting on trends.[3]",
+      "direction": "NO",
       "confidence": 0.9,
       "matched_markets": [],
       "action": "ALERT",
@@ -52,86 +35,55 @@
       "category": "CRYPTO"
     },
     {
-      "id": "sig_105858",
-      "timestamp": "2026-04-14T05:42:09.712012+00:00",
+      "id": "sig_280058",
+      "timestamp": "2026-04-14T05:45:03.911735+00:00",
       "source": "PERPLEXITY",
-      "headline": "Based on the most recent search results available, here are the key developments that would impact prediction markets:",
-      "raw": "Based on the most recent search results available, here are the key developments that would impact prediction markets:",
-      "direction": null,
+      "headline": "Democrats on the House Oversight Committee tried to subpoena Musk over government cuts, leading to a chaotic hearing, bu",
+      "raw": "Democrats on the House Oversight Committee tried to subpoena Musk over government cuts, leading to a chaotic hearing, but no subpoena issued due to Republican control[3].",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "GEOPOLITICS"
+      "category": "POLITICS"
     },
     {
-      "id": "sig_105872",
-      "timestamp": "2026-04-14T05:42:09.725498+00:00",
+      "id": "sig_280063",
+      "timestamp": "2026-04-14T05:45:03.916812+00:00",
       "source": "PERPLEXITY",
-      "headline": "Iran Peace Talks in Islamabad Collapsed Without Deal | YES | HIGH confidence**",
-      "raw": "Iran Peace Talks in Islamabad Collapsed Without Deal | YES | HIGH confidence**\nAfter 21 hours of negotiations, the U.S.-Iran peace talks ended without reaching agreement, with nuclear weapons development as the primary sticking point[7]. President Trump stated that \"most points were agreed to, but the only point that really mattered, NUCLEAR, was not\"[4].",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Trump announces end of military operations against Iran by A",
-        "Trump announces US x Iran ceasefire end by April 21, 2026?",
-        "US x Iran permanent peace deal by April 22, 2026?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_105876",
-      "timestamp": "2026-04-14T05:42:09.729925+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Two-Week Ceasefire Remains Fragile but Holding | PARTIAL | MED confidence**",
-      "raw": "Two-Week Ceasefire Remains Fragile but Holding | PARTIAL | MED confidence**\nThe two-week ceasefire agreed to on April 8 technically remains in place[3], though negotiations have stalled. Trump cautioned Iran against charging tolls through the Strait of Hormuz and threatened \"larger\" attacks if terms aren't met[3].",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces end of military operations against Iran by A",
-        "Will Iran strike Iraq by April 30, 2026?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_112391",
-      "timestamp": "2026-04-14T05:42:16.244018+00:00",
-      "source": "PERPLEXITY",
-      "headline": "House Oversight subpoenas AG Pam Bondi to testify on Epstein files handling | NO (no Elon Musk involvement) | HIGH confi",
-      "raw": "House Oversight subpoenas AG Pam Bondi to testify on Epstein files handling | NO (no Elon Musk involvement) | HIGH confidence** [1]\n\nHouse Oversight Chair James Comer (R-Ky.) issued a subpoena Tuesday demanding AG Pam Bondi testify before the committee on her management of Epstein-related documents, following a bipartisan vote and her prior refusal to answer questions in a House Judiciary hearing.",
+      "headline": "Speaker Mike Johnson called for DOJ to release Epstein files (July 2025); Musk named in related unredacted documents and",
+      "raw": "Speaker Mike Johnson called for DOJ to release Epstein files (July 2025); Musk named in related unredacted documents and debates, with Kash Patel testifying, but no new releases confirmed[2][4][5].\nNo mentions of Senate actions, midterms, or market-moving events in available results\u2014all predate 2026 by months with no updates.",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [
-        "Will the Democratic Party control the Senate after the 2026 Midterm elections?",
-        "Will Elon Musk Testify to Congress about Epstein?"
+        "Will the Democratic Party control the Senate after the 2026 Midterm elections?"
       ],
       "action": "ALERT",
       "x_link": null,
       "category": "POLITICS"
     },
     {
-      "id": "sig_123331",
-      "timestamp": "2026-04-14T05:42:27.184998+00:00",
+      "id": "sig_273668",
+      "timestamp": "2026-04-14T05:44:57.521848+00:00",
       "source": "PERPLEXITY",
-      "headline": "Bank of Korea Holds Rates Steady at 2",
-      "raw": "Bank of Korea Holds Rates Steady at 2.5% (7th Consecutive Month) | YES | HIGH confidence**  \nUnanimous BOK decision on April 10 flagged inflation exceeding prior 2.2% forecast due to oil/won weakness (KRW ~1520/USD), but no change signaled amid growth below 2%; aligns with March data and boosts easing odds in prediction markets.[5][6] No newer confirmations post-April 10 as of now.[1][2]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
+      "headline": "US blockade of Iranian ports in Strait of Hormuz takes effect as Trump claims Iran wants ceasefire deal 'very badly'; Ir",
+      "raw": "US blockade of Iranian ports in Strait of Hormuz takes effect as Trump claims Iran wants ceasefire deal 'very badly'; Iran vows 'decisive' response** | **NO** | **HIGH** confidence[1][2]\n\nTrump stated that Iran contacted the US this morning seeking to resume talks after weekend negotiations collapsed, amid a **fragile ceasefire** now threatened by the blockade starting last night (Australian Easte",
+      "direction": "NO",
+      "confidence": 0.6,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces end of military operations against Iran by A",
+        "Will Iran strike Iraq by April 30, 2026?"
+      ],
+      "action": "WATCH",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "GEOPOLITICS"
     }
   ],
   "stats": {
     "enter": 1,
-    "alert": 7,
-    "watch": 0,
-    "high_conf": 3
+    "alert": 3,
+    "watch": 1,
+    "high_conf": 2
   }
 }
