@@ -1,16 +1,16 @@
 {
-  "last_scan": "2026-04-14T23:52:08.943109+00:00",
-  "scan_seconds": 43.9,
-  "markets_scanned": 71,
+  "last_scan": "2026-04-14T23:55:25.061786+00:00",
+  "scan_seconds": 55.7,
+  "markets_scanned": 69,
   "open_positions": 35,
   "signals": [
     {
-      "id": "sig_468881",
-      "timestamp": "2026-04-14T23:51:32.669903+00:00",
+      "id": "sig_652932",
+      "timestamp": "2026-04-14T23:54:36.720122+00:00",
       "source": "PERPLEXITY",
-      "headline": "Trump Announces Two-Week Ceasefire with Iran** | **YES** | **HIGH** confidence[1][3]",
-      "raw": "Trump Announces Two-Week Ceasefire with Iran** | **YES** | **HIGH** confidence[1][3]\n\nPresident Donald Trump confirmed on Tuesday (April 14, 2026) via Truth Social a mutual two-week ceasefire, suspending U.S. bombing of Iran after meeting military objectives and advancing long-term peace talks, including reopening the Strait of Hormuz[1][3]. This follows failed nuclear concessions in prior Islamab",
-      "direction": "YES",
+      "headline": "US-Iran ceasefire talks collapse; Trump enacts naval blockade of Strait of Hormuz after failed Pakistan mediation | NO |",
+      "raw": "US-Iran ceasefire talks collapse; Trump enacts naval blockade of Strait of Hormuz after failed Pakistan mediation | NO | HIGH confidence**  \nUS-Iran negotiations in Pakistan ended without agreement on Sunday, April 13, primarily due to Iran's refusal to abandon nuclear ambitions, prompting President Trump to announce and implement a US Navy blockade of ships entering or leaving the Strait of Hormu",
+      "direction": "NO",
       "confidence": 0.9,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
@@ -22,12 +22,12 @@
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_480693",
-      "timestamp": "2026-04-14T23:51:44.481340+00:00",
+      "id": "sig_662796",
+      "timestamp": "2026-04-14T23:54:46.584674+00:00",
       "source": "PERPLEXITY",
-      "headline": "No breaking Germany annual inflation, GDP, or related announcements confirmed | NO | LOW confidence**",
-      "raw": "No breaking Germany annual inflation, GDP, or related announcements confirmed | NO | LOW confidence**  \nSearch results lack any April 2026 updates on Germany's annual inflation or GDP; coverage focuses solely on South Korea's data, with no mentions of recent German releases, resolutions, or confirmations that could impact markets.[1][2][3][4][5] Older global data exists but nothing \"right now.\"[5]",
-      "direction": "NO",
+      "headline": "Germany March 2026 Inflation Confirmed at 2",
+      "raw": "Germany March 2026 Inflation Confirmed at 2.7% YoY, Up from 1.9% in February | YES | HIGH confidence**  \nGermany's annual inflation rate rose to 2.7% in March 2026, confirming preliminary estimates and marking the highest since January 2024, driven by a 7.2% energy price surge (fuel up 20%, heating oil up 44.4%).[1] This acceleration exceeds the ECB's 2% target and could shift prediction markets o",
+      "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
         "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
@@ -37,41 +37,57 @@
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_480687",
-      "timestamp": "2026-04-14T23:51:44.475846+00:00",
+      "id": "sig_670451",
+      "timestamp": "2026-04-14T23:54:54.239821+00:00",
       "source": "PERPLEXITY",
-      "headline": "South Korea Inflation at 2",
-      "raw": "South Korea Inflation at 2.2% YoY in March 2026 (up from 2.0%) | NO major policy shift | MED confidence**  \nSouth Korea's annual inflation rose to 2.2% in March 2026 from 2.0% in January and February, below forecasts of 2.4% but signaling persistent pressures amid oil volatility; Bank of Korea held rates at 2.5% on April 10, 2026, for the 7th month, citing inflation above 2% target and external ri",
-      "direction": "YES",
-      "confidence": 0.65,
+      "headline": "No information about a \"group,\" current finals, or world cup related to these topics",
+      "raw": "No information about a \"group,\" current finals, or world cup related to these topics\n\nThe results appear to be from different sports contexts (NFL draft coverage mixed with past NBA championship information) and don't contain a cohesive news event that matches your query parameters. Additionally, some information is dated (the 2025 NBA Finals already occurred[3]).\n\nTo provide accurate breaking new",
+      "direction": "NO",
+      "confidence": 0.9,
       "matched_markets": [
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+        "Will the Oklahoma City Thunder win the 2026 NBA Finals?",
+        "Will Germany win Group E in the 2026 FIFA World Cup?",
+        "Will Switzerland win Group B in the 2026 FIFA World Cup?"
       ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "SPORTS"
     },
     {
-      "id": "sig_487137",
-      "timestamp": "2026-04-14T23:51:50.925879+00:00",
+      "id": "sig_670437",
+      "timestamp": "2026-04-14T23:54:54.225129+00:00",
       "source": "PERPLEXITY",
-      "headline": "Based on the search results provided, I cannot identify any breaking news occurring at the current date and time (April",
-      "raw": "Based on the search results provided, I cannot identify any breaking news occurring at the current date and time (April 14, 2026, 11:51 PM UTC).\n\nThe search results reference events from 2025: the **Oklahoma City Thunder won the 2025 NBA Championship** by defeating the Indiana Pacers in Game 7, with **Isaiah Hartenstein becoming the second German player to win an NBA title** after Dirk Nowitzki.[1",
-      "direction": "YES",
+      "headline": "I cannot provide a breaking news answer in the format you've requested because the search results do not contain relevan",
+      "raw": "I cannot provide a breaking news answer in the format you've requested because the search results do not contain relevant information about the query components you've specified.\n\nThe search results mention:",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_670441",
+      "timestamp": "2026-04-14T23:54:54.229915+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**David Bailey** in relation to NFL draft prospects (edge rusher), not the Oklahoma City Thunder or a group[4]",
+      "raw": "**David Bailey** in relation to NFL draft prospects (edge rusher), not the Oklahoma City Thunder or a group[4]",
+      "direction": null,
       "confidence": 0.65,
       "matched_markets": [
-        "Will the Oklahoma City Thunder win the 2026 NBA Finals?"
+        "Will the Oklahoma City Thunder win the 2026 NBA Finals?",
+        "Will David Bailey be the second pick in the 2026 NFL draft?"
       ],
       "action": "ALERT",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_487142",
-      "timestamp": "2026-04-14T23:51:50.930624+00:00",
+      "id": "sig_670446",
+      "timestamp": "2026-04-14T23:54:54.234714+00:00",
       "source": "PERPLEXITY",
-      "headline": "Current NBA Finals happening on April 14, 2026",
-      "raw": "Current NBA Finals happening on April 14, 2026",
+      "headline": "**Oklahoma City Thunder** as the 2025 NBA champions who declined a White House visit due to timing conflicts[2], not cur",
+      "raw": "**Oklahoma City Thunder** as the 2025 NBA champions who declined a White House visit due to timing conflicts[2], not current breaking news about finals or world cup events",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [
@@ -82,92 +98,62 @@
       "category": "SPORTS"
     },
     {
-      "id": "sig_487147",
-      "timestamp": "2026-04-14T23:51:50.935317+00:00",
-      "source": "PERPLEXITY",
-      "headline": "World Cup developments",
-      "raw": "World Cup developments",
+      "id": "sig_701258",
+      "timestamp": "2026-04-14T23:55:25.046169+00:00",
+      "source": "X_GROK",
+      "headline": "Poly Terminal tool for Polymarket edges**: Scanning 100+ markets live for mispriced opportunities (e",
+      "raw": "Poly Terminal tool for Polymarket edges**: Scanning 100+ markets live for mispriced opportunities (e.g., BTC move noted). Signals potential YES/NO alpha across markets; confidence MED.[[1]](https://x.com/i/status/2044147558763688427)[[2]](https://x.com/i/status/2044125468358594763)",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2044147558763688427)[[2]](https://x.com/i/status/2044125468358594763)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_701263",
+      "timestamp": "2026-04-14T23:55:25.051228+00:00",
+      "source": "X_GROK",
+      "headline": "Top Polymarket traders spotting mispriced markets early**: Consistent 40-50% weekly returns by acting on timing/convicti",
+      "raw": "Top Polymarket traders spotting mispriced markets early**: Consistent 40-50% weekly returns by acting on timing/conviction before obvious. Implies ongoing mispricing exploitable; confidence HIGH for smart money edge.[[3]](https://x.com/i/status/2044010027850076670)",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
+      "x_link": "https://x.com/i/status/2044010027850076670)",
+      "category": "COMMUNITY"
     },
     {
-      "id": "sig_487152",
-      "timestamp": "2026-04-14T23:51:50.940198+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Germany-related announcements that would move prediction markets",
-      "raw": "Germany-related announcements that would move prediction markets\n\nTo provide the breaking news format you requested (HEADLINE | YES or NO | HIGH/MED/LOW confidence), I would need search results reflecting events occurring at or very near the current date. The available results are insufficient to answer your query about imminent market-moving announcements.",
+      "id": "sig_701268",
+      "timestamp": "2026-04-14T23:55:25.056227+00:00",
+      "source": "X_GROK",
+      "headline": "Polymarket research trends**: Top 1% capture 84% gains; avoid buying <10\u00a2 (overpriced)",
+      "raw": "Polymarket research trends**: Top 1% capture 84% gains; avoid buying <10\u00a2 (overpriced). Market makers win; signals NO for low-prob buys, YES for maker strategies. Confidence HIGH.[[4]](https://x.com/i/status/2044167305819763154)",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
+      "x_link": "https://x.com/i/status/2044167305819763154)",
+      "category": "COMMUNITY"
     },
     {
-      "id": "sig_505139",
-      "timestamp": "2026-04-14T23:52:08.927928+00:00",
+      "id": "sig_701273",
+      "timestamp": "2026-04-14T23:55:25.061550+00:00",
       "source": "X_GROK",
-      "headline": "NBA Play-in: Heat vs Hornets**",
-      "raw": "NBA Play-in: Heat vs Hornets**  \nWhale JPMorgan101 bets $732K (732K shares) on Hornets win @70\u00a2; counter-whales like surfandturf ($288K) on Heat @31\u00a2. Total vol $3.86M, split smart money signals value on underdog Heat.[[1]](https://x.com/i/status/2044198856393666873)[[2]](https://x.com/i/status/2044194265908052269) Means NO for Heat win (MED confidence: whale war).",
+      "headline": "Whale spotlight - Professional Punter ($286k profit)**: Big wins like Kevin Warsh Fed YES (+$83k at 43\u00a2), OpenAI browser",
+      "raw": "Whale spotlight - Professional Punter ($286k profit)**: Big wins like Kevin Warsh Fed YES (+$83k at 43\u00a2), OpenAI browser YES (+$24k). Monitors geopolitics/tech live; fades hype. Copy-trading tip trending; confidence HIGH for similar live plays.[[5]](https://x.com/i/status/2044078695263154178)\n\nNo specific imminent market mispricings called out; buzz on tools, research, and proven punters. Low volu",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
-      "x_link": "https://x.com/i/status/2044198856393666873)[[2]](https://x.com/i/status/2044194265908052269)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_505144",
-      "timestamp": "2026-04-14T23:52:08.932877+00:00",
-      "source": "X_GROK",
-      "headline": "MLB: Guardians vs Cardinals O/U 8",
-      "raw": "MLB: Guardians vs Cardinals O/U 8.5**  \n$119K whale on Under @46\u00a2 (multiple alerts $55K+).[[3]](https://x.com/i/status/2044201203026817187)[[4]](https://x.com/i/status/2044200805905940485) Means NO for Over (MED: decent size at even odds).",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2044201203026817187)[[4]](https://x.com/i/status/2044200805905940485)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_505149",
-      "timestamp": "2026-04-14T23:52:08.937816+00:00",
-      "source": "X_GROK",
-      "headline": "Politics: Trump ends Iran ops by Apr 15**",
-      "raw": "Politics: Trump ends Iran ops by Apr 15**  \n$23K+ No bets @88-96\u00a2 (imminent resolution).[[5]](https://x.com/i/status/2044200937460207832)[[6]](https://x.com/i/status/2044198027561173128) Means NO (HIGH: high-price conviction).",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Trump announces US x Iran ceasefire end by April 21, 2026?",
-        "Will Trump announce that the US x Iran ceasefire has been br",
-        "Trump announces end of military operations against Iran by A"
-      ],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2044200937460207832)[[6]](https://x.com/i/status/2044198027561173128)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_505154",
-      "timestamp": "2026-04-14T23:52:08.942778+00:00",
-      "source": "X_GROK",
-      "headline": "Longshots:** $21K Czechia Eurovision Yes @2\u00a2 (6000% ROI pot'l); $20K BTC 5min Up @1\u00a2",
-      "raw": "Longshots:** $21K Czechia Eurovision Yes @2\u00a2 (6000% ROI pot'l); $20K BTC 5min Up @1\u00a2.[[7]](https://x.com/i/status/2044200830555885908)[[8]](https://x.com/i/status/2044200323481247825) Spec bets (LOW: lottery plays).\n\nNo clear mispriced tips; mostly bot-reported sports whales trending now.[[9]](https://x.com/i/status/2044199944634990913)[[10]](https://x.com/i/status/2044194873666830718)",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2044200830555885908)[[8]](https://x.com/i/status/2044200323481247825)",
+      "x_link": "https://x.com/i/status/2044078695263154178)",
       "category": "COMMUNITY"
     }
   ],
   "stats": {
-    "enter": 2,
-    "alert": 9,
+    "enter": 3,
+    "alert": 7,
     "watch": 0,
-    "high_conf": 2
+    "high_conf": 3
   }
 }
