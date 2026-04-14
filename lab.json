@@ -8,9 +8,9 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 129 categorical arb opportunities found\nScanned 3000 events (1959 multi-outcome) at 2026-04-14 16:07 UTC\nBest: 10.0% profit on 'Los Angeles Angels vs. New York Yankees' \u2014 buy YES on all 2 outcomes (sum=0.9)\nStrategy: Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 10.0% on 'VA-05 House Election Winner'",
+      "result": "LIVE \u2014 131 categorical arb opportunities found\nScanned 3000 events (1958 multi-outcome) at 2026-04-14 16:08 UTC\nBest: 10.0% profit on 'Los Angeles Angels vs. New York Yankees' \u2014 buy YES on all 2 outcomes (sum=0.9)\nStrategy: Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 10.0% on 'Tochigi SC vs. SC Sagamihara'",
       "priority": "HIGH",
-      "last_scan": "2026-04-14 16:07 UTC",
+      "last_scan": "2026-04-14 16:08 UTC",
       "opportunities": [
         {
           "event_title": "Los Angeles Angels vs. New York Yankees",
@@ -39,29 +39,29 @@
           "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
         },
         {
-          "event_title": "VA-05 House Election Winner",
-          "event_slug": "va-05-house-election-winner",
+          "event_title": "Tochigi SC vs. SC Sagamihara",
+          "event_slug": "j2100-tsc-sag-2026-04-19",
           "yes_sum": 0.9,
           "profit_pct": 10.0,
           "profit_per_dollar_pct": 11.11,
           "num_outcomes": 2,
           "outcomes": [
             {
-              "market_id": "1285080",
-              "slug": "will-the-democratic-party-win-the-va-05-house-seat",
-              "question": "Will the Democratic Party win the VA-05 House seat?",
-              "yes_price": 0.685,
-              "volume": 14465
+              "market_id": "1685973",
+              "slug": "j2100-tsc-sag-2026-04-19-tsc",
+              "question": "Will Tochigi SC win on 2026-04-19?",
+              "yes_price": 0.52,
+              "volume": 1236
             },
             {
-              "market_id": "1285079",
-              "slug": "will-the-republican-party-win-the-va-05-house-seat",
-              "question": "Will the Republican Party win the VA-05 House seat?",
-              "yes_price": 0.215,
-              "volume": 12103
+              "market_id": "1685974",
+              "slug": "j2100-tsc-sag-2026-04-19-draw",
+              "question": "Will Tochigi SC vs. SC Sagamihara end in a draw?",
+              "yes_price": 0.38,
+              "volume": 3624
             }
           ],
-          "url": "https://polymarket.com/event/va-05-house-election-winner",
+          "url": "https://polymarket.com/event/j2100-tsc-sag-2026-04-19",
           "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
         },
         {
@@ -739,32 +739,6 @@
           "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
         },
         {
-          "event_title": "How many coins launched in 2026 end the year in the top 100?",
-          "event_slug": "how-many-coins-launched-in-2026-end-the-year-in-the-top-100",
-          "yes_sum": 0.905,
-          "profit_pct": 9.5,
-          "profit_per_dollar_pct": 10.5,
-          "num_outcomes": 2,
-          "outcomes": [
-            {
-              "market_id": "1091092",
-              "slug": "over-4-coins-launched-in-2026-end-the-year-in-the-top-100",
-              "question": "Over 4 coins launched in 2026 end the year in the top 100?",
-              "yes_price": 0.655,
-              "volume": 25693
-            },
-            {
-              "market_id": "1091096",
-              "slug": "over-12-coins-launched-in-2026-end-the-year-in-the-top-100",
-              "question": "Over 12 coins launched in 2026 end the year in the top 100?",
-              "yes_price": 0.25,
-              "volume": 2527
-            }
-          ],
-          "url": "https://polymarket.com/event/how-many-coins-launched-in-2026-end-the-year-in-the-top-100",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
-        },
-        {
           "event_title": "Rhode Island Republican Senate Primary Winner",
           "event_slug": "rhode-island-republican-senate-primary-winner",
           "yes_sum": 0.907,
@@ -789,15 +763,62 @@
           ],
           "url": "https://polymarket.com/event/rhode-island-republican-senate-primary-winner",
           "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9070. One wins $1.00. Profit: $0.0930 (9.30%)"
+        },
+        {
+          "event_title": "Israel military action against Yemen by...?",
+          "event_slug": "israel-strike-on-yemen-by-593",
+          "yes_sum": 0.9095,
+          "profit_pct": 9.05,
+          "profit_per_dollar_pct": 9.95,
+          "num_outcomes": 5,
+          "outcomes": [
+            {
+              "market_id": "1121887",
+              "slug": "israel-strike-on-yemen-by-june-30-2026-285-633-267-857",
+              "question": "Israel strike on Yemen by June 30, 2026?",
+              "yes_price": 0.405,
+              "volume": 433562
+            },
+            {
+              "market_id": "1641496",
+              "slug": "israel-strike-on-yemen-by-may-31-2026-588-747-911",
+              "question": "Israel strike on Yemen by May 31, 2026?",
+              "yes_price": 0.285,
+              "volume": 71265
+            },
+            {
+              "market_id": "1641497",
+              "slug": "israel-strike-on-yemen-by-april-30-2026-212-911",
+              "question": "Israel strike on Yemen by April 30, 2026?",
+              "yes_price": 0.205,
+              "volume": 186813
+            },
+            {
+              "market_id": "1796475",
+              "slug": "israel-military-action-against-yemen-by-april-15-2026",
+              "question": "Israel military action against Yemen by April 15, 2026?",
+              "yes_price": 0.0145,
+              "volume": 192820
+            },
+            {
+              "market_id": "1121884",
+              "slug": "israel-strike-on-yemen-by-march-31-2026",
+              "question": "Israel strike on Yemen by March 31, 2026?",
+              "yes_price": 0.0,
+              "volume": 689942
+            }
+          ],
+          "url": "https://polymarket.com/event/israel-strike-on-yemen-by-593",
+          "strategy": "Buy YES on all 5 outcomes. Total cost: $0.9095. One wins $1.00. Profit: $0.0905 (9.05%)"
         }
       ],
       "stats": {
         "total_events": 3000,
-        "checked_multi_outcome": 1959,
-        "skipped_single_outcome": 606,
-        "opportunities_found": 129,
+        "checked_multi_outcome": 1958,
+        "skipped_single_outcome": 605,
+        "opportunities_found": 131,
         "best_profit_pct": 10.0,
-        "scanned_at": "2026-04-14 16:07 UTC"
+        "scanned_at": "2026-04-14 16:08 UTC"
       }
     },
     {
