@@ -1,31 +1,80 @@
 {
-  "last_scan": "2026-04-14T05:33:59.312877+00:00",
-  "scan_seconds": 25.5,
-  "markets_scanned": 65,
-  "open_positions": 35,
+  "last_scan": "2026-04-14T05:36:47.663376+00:00",
+  "scan_seconds": 25.9,
+  "markets_scanned": 81,
+  "open_positions": 51,
   "signals": [
     {
-      "id": "sig_614437",
-      "timestamp": "2026-04-14T05:33:58.291209+00:00",
+      "id": "sig_782786",
+      "timestamp": "2026-04-14T05:36:46.640232+00:00",
       "source": "PERPLEXITY",
-      "headline": "South Korea March 2026 Inflation at 2",
-      "raw": "South Korea March 2026 Inflation at 2.2% YoY, Below 2.4% Forecast | NO | HIGH confidence**  \nSouth Korea's annual inflation rate increased to 2.2% in March 2026 from 2.0% prior, but undershot market expectations of 2.4%, with core inflation easing to 2.2% from 2.3%; this was released April 2 amid oil price surges from the Iran conflict.[1][2]  \nBank of Korea held rates at 2.5% on April 10 (7th str",
-      "direction": "NO",
+      "headline": "South Korea's March 2026 annual inflation rate confirmed at 2",
+      "raw": "South Korea's March 2026 annual inflation rate confirmed at 2.2% (up from 2.0% in Feb), beating forecasts of 2.4%.** | YES | HIGH confidence[2][3]\n\nThis figure, released around early April 2026, marks a slight acceleration amid oil price rises and KRW weakness, though below expectations due to government interventions on food and fuel[1][2]. Monthly CPI rose 0.34%[3], with core pressures up (e.g.,",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_775871",
+      "timestamp": "2026-04-14T05:36:39.725776+00:00",
+      "source": "PERPLEXITY",
+      "headline": "XRP Records Largest Weekly Inflows ($119",
+      "raw": "XRP Records Largest Weekly Inflows ($119.6M), Unseating Bitcoin & Solana; U.S.-Iran Ceasefire Boosts Rally | YES | HIGH**  \nXRP led digital asset inflows with $119.6M last week\u2014its strongest since mid-December 2025\u2014amid $224M total inflows, signaling institutional recovery despite macro caution; this drove a 5.52% price rise to $1.38, amplified by the U.S.-Iran ceasefire and Evernorth SPAC merger ",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Will Iran strike Iraq by April 30, 2026?",
-        "Trump announces US x Iran ceasefire end by April 21, 2026?"
+        "Trump announces US x Iran ceasefire end by April 21, 2026?",
+        "Will Trump announce that the US x Iran ceasefire has been br"
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_775877",
+      "timestamp": "2026-04-14T05:36:39.731773+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Solana Hits Record 167M Holders in April | YES | MED**",
+      "raw": "Solana Hits Record 167M Holders in April | YES | MED**  \nSolana token holders reached an all-time high of 167M in April (12% rise since October 2025), with $34.9M inflows, but $18.2B outflows tempered price gains despite a 7% surge to $87 post-ceasefire.[6][1]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces US x Iran ceasefire end by April 21, 2026?",
+        "Will the price of Solana be above $100 on April 14?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_764664",
+      "timestamp": "2026-04-14T05:36:28.518627+00:00",
+      "source": "PERPLEXITY",
+      "headline": "US Naval Blockade of Iranian Ports Officially Begins After Failed Ceasefire Talks** | **NO** | **HIGH** confidence[1][2]",
+      "raw": "US Naval Blockade of Iranian Ports Officially Begins After Failed Ceasefire Talks** | **NO** | **HIGH** confidence[1][2][3]\n\nUS Central Command (CENTCOM) confirmed the blockade took effect on April 13, 2026, targeting all maritime traffic to/from Iranian ports in the Arabian Gulf and Gulf of Oman, following collapsed US-Iran talks in Islamabad led by VP J.D. Vance[1][2][3]. President Trump announc",
+      "direction": "NO",
+      "confidence": 0.6,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces end of military operations against Iran by A",
+        "Will Iran strike Iraq by April 30, 2026?"
+      ],
+      "action": "WATCH",
+      "x_link": null,
+      "category": "GEOPOLITICS"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 1,
-    "watch": 0,
-    "high_conf": 0
+    "enter": 1,
+    "alert": 2,
+    "watch": 1,
+    "high_conf": 1
   }
 }
