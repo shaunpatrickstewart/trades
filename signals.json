@@ -1,15 +1,15 @@
 {
-  "last_scan": "2026-04-14T17:54:28.122609+00:00",
-  "scan_seconds": 33.9,
+  "last_scan": "2026-04-14T17:57:48.058705+00:00",
+  "scan_seconds": 57.8,
   "markets_scanned": 72,
   "open_positions": 34,
   "signals": [
     {
-      "id": "sig_23504",
-      "timestamp": "2026-04-14T17:54:07.313664+00:00",
+      "id": "sig_197357",
+      "timestamp": "2026-04-14T17:57:01.166193+00:00",
       "source": "PERPLEXITY",
-      "headline": "US and Iran Consider Extended Ceasefire Before April 21 Expiration | YES | HIGH confidence**",
-      "raw": "US and Iran Consider Extended Ceasefire Before April 21 Expiration | YES | HIGH confidence**\n\nThe US and Iran are actively weighing negotiations to extend a two-week ceasefire agreement, with discussions aimed at reaching a longer-term deal before the current truce expires around April 21st.[1] President Trump has simultaneously initiated a naval blockade of the Strait of Hormuz to increase pressu",
+      "headline": "Trump Announces Iran Ceasefire Ahead of 8 p",
+      "raw": "Trump Announces Iran Ceasefire Ahead of 8 p.m. Deadline, Conditional on Strait of Hormuz Reopening | YES | HIGH confidence**  \nPresident Trump announced a ceasefire with Iran just before the 8 p.m. ET deadline, stating it is subject to Iran reopening the Strait of Hormuz, amid threats of strikes on civilian infrastructure if unmet[1]. This follows failed prior talks and a U.S. Navy blockade announ",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
@@ -22,41 +22,106 @@
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_43312",
-      "timestamp": "2026-04-14T17:54:27.121561+00:00",
+      "id": "sig_206266",
+      "timestamp": "2026-04-14T17:57:10.075964+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot provide breaking news in the format you've requested because the search results do not contain information abou",
-      "raw": "I cannot provide breaking news in the format you've requested because the search results do not contain information about events occurring today or very recently that would qualify as breaking news for prediction markets.\n\nThe most recent data available shows that **South Korea's annual inflation rate was 2.16% in March 2026**[3], which is the latest confirmed reading. This represents a slight inc",
-      "direction": "YES",
+      "headline": "I cannot provide breaking news in the format you've requested based on these search results",
+      "raw": "I cannot provide breaking news in the format you've requested based on these search results.\n\nThe search results contain information from July 2024 about J.D. Vance being selected as Trump's vice presidential running mate, and a brief reference to a April 2025 Senate GOP lunch. However, none of this constitutes breaking news as of April 14, 2026, and the results do not contain any announcements or",
+      "direction": null,
       "confidence": 0.9,
       "matched_markets": [
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_29619",
-      "timestamp": "2026-04-14T17:54:13.429001+00:00",
-      "source": "PERPLEXITY",
-      "headline": "White House Confirms Full Confidence in VP Vance and Sec",
-      "raw": "White House Confirms Full Confidence in VP Vance and Sec. Rubio Amid Iran War Policy Split** | NO | LOW confidence\n\nNo major new confirmations, announcements, or resolutions today involving the White House, VP Vance, and Republicans that would shift prediction markets[1]. The most recent development is a White House statement from last Wednesday affirming President Trump's \"full confidence\" in bot",
-      "direction": "NO",
-      "confidence": 0.78,
-      "matched_markets": [
-        "Will J.D. Vance win the 2028 Republican presidential nominat",
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces end of military operations against Iran by A"
+        "Trump announces US x Iran ceasefire end by April 21, 2026?",
+        "Will White House post 100-119 posts from April 17 to April 24, 2026?"
       ],
       "action": "ALERT",
       "x_link": null,
       "category": "POLITICS"
+    },
+    {
+      "id": "sig_243227",
+      "timestamp": "2026-04-14T17:57:47.036779+00:00",
+      "source": "PERPLEXITY",
+      "headline": "BANK OF KOREA HOLDS RATE AT 2",
+      "raw": "BANK OF KOREA HOLDS RATE AT 2.5% DESPITE INFLATION SPIKE; WARNS OF UPSIDE RISKS | NO | HIGH confidence\n\nThe Bank of Korea's Monetary Policy Board kept its benchmark interest rate unchanged at 2.5% on April 10, 2026, marking the seventh consecutive month of no change.[4] This decision came as **inflation rose to 2.2% in March 2026**, exceeding the central bank's 2% target and prompting major overse",
+      "direction": "NO",
+      "confidence": 0.78,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_212710",
+      "timestamp": "2026-04-14T17:57:16.519249+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Bearish shift on April 12: Probability of Bitcoin >$75K in April dropped 25pp to 53%; >$77",
+      "raw": "Bearish shift on April 12: Probability of Bitcoin >$75K in April dropped 25pp to 53%; >$77.5K to 31% amid spot price weakness to $71,415.[1]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the price of Bitcoin be greater than $82,000 on April 1",
+        "Will the price of Bitcoin be between $72,000 and $74,000 on April 17?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_212716",
+      "timestamp": "2026-04-14T17:57:16.525133+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Earlier April bets: 98% for >$72",
+      "raw": "Earlier April bets: 98% for >$72.5K (as of April 10-11); >$62K on April 13 at 98%.[2][5]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_212721",
+      "timestamp": "2026-04-14T17:57:16.530642+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Current Polymarket (launched April 12): \u219174K at 100%, \u219172K at 100% for April 13-19 week; 65% \"Down\" for April 15 vs",
+      "raw": "Current Polymarket (launched April 12): \u219174K at 100%, \u219172K at 100% for April 13-19 week; 65% \"Down\" for April 15 vs. April 14.[4][7]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_212727",
+      "timestamp": "2026-04-14T17:57:16.536379+00:00",
+      "source": "PERPLEXITY",
+      "headline": "No FOMC, conference, or macro events resolved today; liquidity/tax catalysts eyed post-April 15",
+      "raw": "No FOMC, conference, or macro events resolved today; liquidity/tax catalysts eyed post-April 15.[3]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_212733",
+      "timestamp": "2026-04-14T17:57:16.542560+00:00",
+      "source": "PERPLEXITY",
+      "headline": "HIGH confidence** (search results lack any April 14 confirmations; all cite prior days or forward bets)",
+      "raw": "HIGH confidence** (search results lack any April 14 confirmations; all cite prior days or forward bets).[1][2][3][4][5][7]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
     }
   ],
   "stats": {
-    "enter": 2,
-    "alert": 1,
+    "enter": 1,
+    "alert": 7,
     "watch": 0,
     "high_conf": 2
   }
