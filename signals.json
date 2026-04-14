@@ -1,15 +1,32 @@
 {
-  "last_scan": "2026-04-14T16:22:59.922760+00:00",
-  "scan_seconds": 38.6,
-  "markets_scanned": 93,
-  "open_positions": 58,
+  "last_scan": "2026-04-14T16:26:51.029034+00:00",
+  "scan_seconds": 81.3,
+  "markets_scanned": 73,
+  "open_positions": 35,
   "signals": [
     {
-      "id": "sig_555104",
-      "timestamp": "2026-04-14T16:22:58.919938+00:00",
+      "id": "sig_750301",
+      "timestamp": "2026-04-14T16:26:14.116624+00:00",
       "source": "PERPLEXITY",
-      "headline": "South Korea's March 2026 annual inflation rose to 2",
-      "raw": "South Korea's March 2026 annual inflation rose to 2.2% | NO** | **MED confidence**\n\nSouth Korea's annual inflation rate increased to 2.2% in March 2026 from 2.0% in January and February, missing market forecasts of 2.4% and remaining near the Bank of Korea's 2% target despite global energy volatility.[1] This is the most recent confirmed data (published around early April 2026), showing contained ",
+      "headline": "VP Vance Ramps Up Pressure on Iran Amid Stalled Talks: 'Ball is in Their Court'** | NO | LOW confidence[2]",
+      "raw": "VP Vance Ramps Up Pressure on Iran Amid Stalled Talks: 'Ball is in Their Court'** | NO | LOW confidence[2]\n\nNo major White House announcements, confirmations, or resolutions involving Republicans or Vance have been confirmed today that would likely shift prediction markets, such as on Iran deals, funding issues, or the teased 8 PM ET event (noted for April 7)[1][2].[1] Vance's Fox News remarks emp",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will J.D. Vance win the 2028 Republican presidential nominat",
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces end of military operations against Iran by A"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_786191",
+      "timestamp": "2026-04-14T16:26:50.006856+00:00",
+      "source": "PERPLEXITY",
+      "headline": "South Korea March 2026 Annual Inflation Confirmed at 2",
+      "raw": "South Korea March 2026 Annual Inflation Confirmed at 2.2% YoY | YES | HIGH confidence**  \nSouth Korea's annual inflation rate rose to 2.2% in March 2026 from 2.0% in January and February, below market forecasts of 2.4%, as reported by Statistics Korea via Trading Economics[1][2]. This data, released recently, aligns with a Bank of Korea video update noting 2.2% consumer price growth amid Middle Ea",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
@@ -20,11 +37,24 @@
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_531712",
-      "timestamp": "2026-04-14T16:22:35.527198+00:00",
+      "id": "sig_732648",
+      "timestamp": "2026-04-14T16:25:56.463549+00:00",
       "source": "PERPLEXITY",
-      "headline": "US and Iran Weigh New Talks to Extend Ceasefire Before April 21 Expiration; Trump Advances Naval Blockade | NO | MED con",
-      "raw": "US and Iran Weigh New Talks to Extend Ceasefire Before April 21 Expiration; Trump Advances Naval Blockade | NO | MED confidence**\n\nNo confirmed ceasefire agreement, resolution, or announcement has occurred as of April 14, 2026\u2014only reports of potential further negotiations between the US and Iran to secure a \"bigger ceasefire deal\" before the current two-week truce expires around April 21.[2] U.S.",
+      "headline": "**Why MED Confidence**: Confirmed by named sources to Bloomberg (authoritative financial outlet) with market reactions,",
+      "raw": "**Why MED Confidence**: Confirmed by named sources to Bloomberg (authoritative financial outlet) with market reactions, but talks are preliminary (\"weighing negotiations\") and unfinalized; recent breakdowns lower certainty of resolution.[1][2]",
+      "direction": "NO",
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_732632",
+      "timestamp": "2026-04-14T16:25:56.447739+00:00",
+      "source": "PERPLEXITY",
+      "headline": "US and Iran Weighing Talks to Extend Two-Week Ceasefire Before April 21 Expiration Amid Trump's Naval Blockade | YES | M",
+      "raw": "US and Iran Weighing Talks to Extend Two-Week Ceasefire Before April 21 Expiration Amid Trump's Naval Blockade | YES | MED confidence**[1]",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
@@ -35,12 +65,63 @@
       "action": "ALERT",
       "x_link": null,
       "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_732638",
+      "timestamp": "2026-04-14T16:25:56.453254+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Details**: Bloomberg Television reports stocks rising and oil declining today (April 14, 2026) as sources familiar wit",
+      "raw": "**Details**: Bloomberg Television reports stocks rising and oil declining today (April 14, 2026) as sources familiar with discussions indicate the US and Iran are considering fresh negotiations for a \"bigger ceasefire deal\" before the current two-week truce ends around April 21; Trump has initiated a naval blockade of the Strait of Hormuz to pressure Iran's oil exports, while affirming the move co",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces end of military operations against Iran by A",
+        "Trump announces US x Iran ceasefire end by April 21, 2026?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_732643",
+      "timestamp": "2026-04-14T16:25:56.458393+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Market Impact Potential**: Ceasefire extension hopes have erased S&P 500's Iran war losses, with oil prices falling on",
+      "raw": "**Market Impact Potential**: Ceasefire extension hopes have erased S&P 500's Iran war losses, with oil prices falling on de-escalation signals; prior talks collapsed on April 12 (no progress in Islamabad per VP Vance), and Trump ordered the blockade after failed negotiations on April 13.[1][2][3]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces end of military operations against Iran by A",
+        "Trump announces US x Iran ceasefire end by April 21, 2026?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_768060",
+      "timestamp": "2026-04-14T16:26:31.875656+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Interactive Brokers Launches SOL Trading for European Investors | NO | LOW confidence**",
+      "raw": "Interactive Brokers Launches SOL Trading for European Investors | NO | LOW confidence**  \nNo breaking confirmations, announcements, or resolutions today (April 14, 2026) directly move prediction markets for Solana or Ethereum prices upward; Solana's recent Interactive Brokers access for Europeans via Zero Hash expanded institutional reach but left SOL price compressed at ~$82 without breakout.[3] ",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Solana reach $90 April 13-19?",
+        "Ethereum Up or Down on April 15?",
+        "Will the price of Ethereum be between $2,200 and $2,300 on April 17?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 1,
+    "enter": 2,
+    "alert": 5,
     "watch": 0,
-    "high_conf": 1
+    "high_conf": 3
   }
 }
