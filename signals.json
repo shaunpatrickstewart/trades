@@ -1,68 +1,173 @@
 {
-  "last_scan": "2026-04-14T16:04:43.214873+00:00",
-  "scan_seconds": 39.6,
+  "last_scan": "2026-04-14T16:07:44.452044+00:00",
+  "scan_seconds": 40.6,
   "markets_scanned": 117,
   "open_positions": 85,
   "signals": [
     {
-      "id": "sig_434987",
-      "timestamp": "2026-04-14T16:04:18.803474+00:00",
+      "id": "sig_631307",
+      "timestamp": "2026-04-14T16:07:35.123656+00:00",
       "source": "PERPLEXITY",
-      "headline": "Trump Implements Naval Blockade of Iran | CONFIRMED | HIGH confidence**",
-      "raw": "Trump Implements Naval Blockade of Iran | CONFIRMED | HIGH confidence**\n\nPresident Trump has begun a US naval blockade of Iranian ports and the Strait of Hormuz to increase pressure on Tehran[2][3]. Trump stated that Iran has called wanting to \"work a deal,\" indicating both sides remain open to negotiations[3].",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Trump announces end of military operations against Iran by A",
-        "Trump announces US x Iran ceasefire end by April 21, 2026?",
-        "Will Trump announce that the US x Iran ceasefire has been br"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_435013",
-      "timestamp": "2026-04-14T16:04:18.829783+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Oil Market Impact | CONFIRMED | HIGH confidence** \u2014 Oil prices have declined on ceasefire negotiation hopes, and the S",
-      "raw": "**Oil Market Impact | CONFIRMED | HIGH confidence** \u2014 Oil prices have declined on ceasefire negotiation hopes, and the S&P 500 has recovered Iran war losses[2]. A sustained blockade would support elevated oil prices; a ceasefire extension would likely pressure them.\n\nNo major breakthrough or resolution has been *confirmed* \u2014 negotiations remain in preliminary stages with the ball described as bein",
-      "direction": "NO",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces US x Iran ceasefire end by April 21, 2026?",
-        "Will Trump announce that the US x Iran ceasefire has been br"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_448114",
-      "timestamp": "2026-04-14T16:04:31.930622+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Ripple's RLUSD Stablecoin Fully Rolls Out on XRP Ledger and Ethereum | YES | MED**",
-      "raw": "Ripple's RLUSD Stablecoin Fully Rolls Out on XRP Ledger and Ethereum | YES | MED**  \nOfficial full-scale rollout confirmed as of April 13, driving record XRPL transaction volume and capital influx, with SEC lawsuit fully resolved and XRP ETF approvals in final stages.[4]",
+      "headline": "**XRP Regulatory Status** | YES | HIGH confidence \u2014 The SEC confirmed XRP's commodity status on March 17, 2026[6], which",
+      "raw": "**XRP Regulatory Status** | YES | HIGH confidence \u2014 The SEC confirmed XRP's commodity status on March 17, 2026[6], which is not \"right now\" but represents resolved regulatory clarity affecting April predictions.\n\nFor the specific assets you mentioned:",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
         "Will the price of XRP be above $1.10 on April 14?",
         "Will the price of XRP be above $1.70 on April 15?",
-        "Will the price of Ethereum be above $1,800 on April 16?"
+        "Will the price of XRP be greater than $1.80 on April 16?"
       ],
       "action": "ENTER",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_434978",
-      "timestamp": "2026-04-14T16:04:18.794555+00:00",
+      "id": "sig_639610",
+      "timestamp": "2026-04-14T16:07:43.426109+00:00",
       "source": "PERPLEXITY",
-      "headline": "US and Iran Eyeing Fresh Talks Before Ceasefire Expires | ONGOING | HIGH confidence**",
-      "raw": "US and Iran Eyeing Fresh Talks Before Ceasefire Expires | ONGOING | HIGH confidence**\n\nThe US and Iran are discussing another round of negotiations to extend or replace the two-week ceasefire announced April 7, which expires around April 21[1][2]. Recent talks in Islamabad over the weekend ended without a deal[1].",
+      "headline": "I cannot identify any breaking news or recent announcements in the provided search results that would move prediction ma",
+      "raw": "I cannot identify any breaking news or recent announcements in the provided search results that would move prediction markets today.\n\nThe most recent confirmed data available is **South Korea's March 2026 inflation at 2.16% year-over-year**[1][3], which was released in early April 2026. This represented a slight increase from February's 2.0%[1], but fell short of market forecasts of 2.4%[1].\n\nHowe",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_610692",
+      "timestamp": "2026-04-14T16:07:14.508321+00:00",
+      "source": "PERPLEXITY",
+      "headline": "A two-week ceasefire announced April 7 remains in effect but is set to expire around April 21[1][2]",
+      "raw": "A two-week ceasefire announced April 7 remains in effect but is set to expire around April 21[1][2]",
       "direction": null,
       "confidence": 0.9,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces US x Iran ceasefire end by April 21, 2026?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_610709",
+      "timestamp": "2026-04-14T16:07:14.525914+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Vice President JD Vance confirmed negotiators \"have not reached an agreement\" after 21 hours of discussions, with Iran r",
+      "raw": "Vice President JD Vance confirmed negotiators \"have not reached an agreement\" after 21 hours of discussions, with Iran refusing to accept American terms on nuclear material[3]",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_619848",
+      "timestamp": "2026-04-14T16:07:23.664596+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Resolved or newly announced information that would affect prediction markets",
+      "raw": "Resolved or newly announced information that would affect prediction markets\n\nTo provide accurate breaking news in the format you requested, I would need current search results from today (April 14, 2026) containing actual developments or confirmations.",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_631298",
+      "timestamp": "2026-04-14T16:07:35.115005+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**CME SUI Futures Launch Confirmed** | YES | HIGH confidence \u2014 CME Group confirmed regulated SUI futures launching May 4",
+      "raw": "**CME SUI Futures Launch Confirmed** | YES | HIGH confidence \u2014 CME Group confirmed regulated SUI futures launching May 4, 2026, sending SUI up 7.6% on the news[6]. However, this involves SUI, not the cryptocurrencies you specifically asked about.",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_610683",
+      "timestamp": "2026-04-14T16:07:14.499498+00:00",
+      "source": "PERPLEXITY",
+      "headline": "US and Iran Eye Fresh Talks Before Ceasefire Expires | NO | HIGH confidence**",
+      "raw": "US and Iran Eye Fresh Talks Before Ceasefire Expires | NO | HIGH confidence**\n\nNo major breakthrough has been confirmed or announced. Instead, the latest developments indicate ongoing **stalled negotiations**:[1][2]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces US x Iran ceasefire end by April 21, 2026?",
+        "Will Trump announce that the US x Iran ceasefire has been br"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_610701",
+      "timestamp": "2026-04-14T16:07:14.517079+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Recent talks in Islamabad over the weekend ended **without a deal**[2]",
+      "raw": "Recent talks in Islamabad over the weekend ended **without a deal**[2]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_610718",
+      "timestamp": "2026-04-14T16:07:14.534700+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Both sides are currently **mulling a second round of talks** before the ceasefire expires, with sources suggesting discu",
+      "raw": "Both sides are currently **mulling a second round of talks** before the ceasefire expires, with sources suggesting discussions must occur this week[2]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_610727",
+      "timestamp": "2026-04-14T16:07:14.543360+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Market-moving confirmations:**",
+      "raw": "Market-moving confirmations:**",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_610736",
+      "timestamp": "2026-04-14T16:07:14.552088+00:00",
+      "source": "PERPLEXITY",
+      "headline": "President Trump has begun a **US naval blockade of the Strait of Hormuz** aimed at pressuring Tehran on oil exports[1]",
+      "raw": "President Trump has begun a **US naval blockade of the Strait of Hormuz** aimed at pressuring Tehran on oil exports[1]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_610744",
+      "timestamp": "2026-04-14T16:07:14.560955+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Stock markets have risen and oil declined on ceasefire hopes, with the S&P 500 erasing its Iran war losses[1]",
+      "raw": "Stock markets have risen and oil declined on ceasefire hopes, with the S&P 500 erasing its Iran war losses[1]\n\nThe situation remains fluid with no resolution confirmed\u2014only renewed diplomatic efforts under time pressure as the April 21 ceasefire expiration approaches.",
+      "direction": "NO",
+      "confidence": 0.65,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
         "Will Iran strike Iraq by April 30, 2026?",
@@ -73,170 +178,126 @@
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_434969",
-      "timestamp": "2026-04-14T16:04:18.785680+00:00",
+      "id": "sig_619822",
+      "timestamp": "2026-04-14T16:07:23.638345+00:00",
       "source": "PERPLEXITY",
-      "headline": "Based on the search results from today, here are the key developments:",
-      "raw": "Based on the search results from today, here are the key developments:",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_434996",
-      "timestamp": "2026-04-14T16:04:18.812017+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Market-Moving Implications:**",
-      "raw": "Market-Moving Implications:**",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_442571",
-      "timestamp": "2026-04-14T16:04:26.387035+00:00",
-      "source": "PERPLEXITY",
-      "headline": "I cannot provide breaking news or prediction market-moving information based on these search results",
-      "raw": "I cannot provide breaking news or prediction market-moving information based on these search results. The materials available are from March 26 and early April 2026, describing the upcoming April 16 special election for New Jersey's 11th Congressional District between Republican Joe Hathaway and Democrat Analilia Mejia. They do not contain any breaking announcements, confirmations, or resolved out",
+      "headline": "I cannot provide a breaking news headline with market-moving confirmation based on these search results",
+      "raw": "I cannot provide a breaking news headline with market-moving confirmation based on these search results. The results contain outdated information (from April 1, 2026) about the NJ-11 special election scheduled for April 16, 2026, and unrelated content about Vance and Rubio's differing stances on Iran policy.\n\nNone of the search results contain:",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [
-        "Will Joe Hathaway win the NJ-11 special election?"
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Will Iran strike Iraq by April 30, 2026?",
+        "Trump announces US x Iran ceasefire end by April 21, 2026?"
       ],
       "action": "ALERT",
       "x_link": null,
       "category": "POLITICS"
     },
     {
-      "id": "sig_448104",
-      "timestamp": "2026-04-14T16:04:31.920564+00:00",
+      "id": "sig_619831",
+      "timestamp": "2026-04-14T16:07:23.647039+00:00",
       "source": "PERPLEXITY",
-      "headline": "XRP ETF Inflows Hit $119",
-      "raw": "XRP ETF Inflows Hit $119.6M for Week Ending April 11 | YES | HIGH**  \nSeven spot XRP ETFs now approach $1B in assets under management, with Switzerland directing 70% of global flows ($157M) into XRP products\u2014the strongest weekly inflow since December.[1]  \nSEC and CFTC classified XRP as a digital commodity in March, boosting institutional momentum amid market fear.[1]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the price of XRP be above $1.10 on April 14?",
-        "Will the price of XRP be above $1.70 on April 15?",
-        "Will the price of XRP be greater than $1.80 on April 16?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_458337",
-      "timestamp": "2026-04-14T16:04:42.153083+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Bank of Korea Holds Rate at 2",
-      "raw": "Bank of Korea Holds Rate at 2.5% Amid Rising Inflation Pressures | NO rate change | HIGH confidence**\n\nThe **Bank of Korea kept its benchmark interest rate unchanged at 2.5 percent on April 10, 2026**, marking the 7th consecutive month without adjustment.[4] This was a unanimous decision by the Monetary Policy Board and widely anticipated by markets.\n\nThe central bank flagged escalating inflation ",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Will Iran strike Iraq by April 30, 2026?",
-        "Trump announces US x Iran ceasefire end by April 21, 2026?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_458360",
-      "timestamp": "2026-04-14T16:04:42.176099+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Key implications for prediction markets:**",
-      "raw": "Key implications for prediction markets:**",
+      "headline": "Recent announcements or confirmations from April 14, 2026",
+      "raw": "Recent announcements or confirmations from April 14, 2026",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "POLITICS"
     },
     {
-      "id": "sig_458379",
-      "timestamp": "2026-04-14T16:04:42.195869+00:00",
+      "id": "sig_619839",
+      "timestamp": "2026-04-14T16:07:23.655811+00:00",
       "source": "PERPLEXITY",
-      "headline": "**No rate cuts expected in 2026**: Analysts expect no changes to the policy rate for the remainder of the year as inflat",
-      "raw": "**No rate cuts expected in 2026**: Analysts expect no changes to the policy rate for the remainder of the year as inflation pressures and currency weakness narrow room for monetary accommodation.[5]",
-      "direction": "NO",
+      "headline": "Market-moving developments involving Joe Hathaway, the White House, or election outcomes",
+      "raw": "Market-moving developments involving Joe Hathaway, the White House, or election outcomes",
+      "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "POLITICS"
     },
     {
-      "id": "sig_458389",
-      "timestamp": "2026-04-14T16:04:42.205439+00:00",
+      "id": "sig_631290",
+      "timestamp": "2026-04-14T16:07:35.106420+00:00",
       "source": "PERPLEXITY",
-      "headline": "**Growth concerns**: The BOK expects 2026 economic growth to fall below 2 percent due to the weakened Korean won, which",
-      "raw": "**Growth concerns**: The BOK expects 2026 economic growth to fall below 2 percent due to the weakened Korean won, which recently rose to around 1,520 won per U.S. dollar.[4]",
-      "direction": "NO",
+      "headline": "Based on the available search results, I cannot identify a specific breaking announcement or confirmation from today (Ap",
+      "raw": "Based on the available search results, I cannot identify a specific breaking announcement or confirmation from today (April 14, 2026) that would constitute \"breaking news RIGHT NOW.\"\n\nThe most recent dated content in the search results is from **April 10, 2026**, which includes:",
+      "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_458398",
-      "timestamp": "2026-04-14T16:04:42.214215+00:00",
+      "id": "sig_631316",
+      "timestamp": "2026-04-14T16:07:35.132210+00:00",
       "source": "PERPLEXITY",
-      "headline": "**Stagflation risk acknowledged**: International institutions have warned of potential stagflation (simultaneous growth",
-      "raw": "**Stagflation risk acknowledged**: International institutions have warned of potential stagflation (simultaneous growth slowdown and price increases), though the Bank of Korea currently views this as unlikely under baseline conditions.[7]\n\nThe decision reflects the central bank's prioritization of currency stability and inflation management over growth support.[3]",
+      "headline": "**Solana (SOL)**: Currently trading around $80-$86 with technical resistance at $85 and targets between $90-$100[4], but",
+      "raw": "**Solana (SOL)**: Currently trading around $80-$86 with technical resistance at $85 and targets between $90-$100[4], but no new announcement on April 14",
       "direction": "NO",
       "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_435004",
-      "timestamp": "2026-04-14T16:04:18.820844+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Ceasefire Extension Prospects | UNCERTAIN | MED confidence** \u2014 While both sides are discussing renewed talks, there is",
-      "raw": "**Ceasefire Extension Prospects | UNCERTAIN | MED confidence** \u2014 While both sides are discussing renewed talks, there is no confirmed agreement yet. The compressed timeline (talks needed before April 21 expiration) creates significant uncertainty[1][2].",
-      "direction": "NO",
-      "confidence": 0.6,
       "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces US x Iran ceasefire end by April 21, 2026?"
+        "Will the price of Solana be above $100 on April 14?",
+        "Will the price of Solana be above $100 on April 15?",
+        "Will the price of Solana be above $100 on April 17?"
       ],
-      "action": "WATCH",
+      "action": "ALERT",
       "x_link": null,
-      "category": "GEOPOLITICS"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_448123",
-      "timestamp": "2026-04-14T16:04:31.939836+00:00",
+      "id": "sig_631324",
+      "timestamp": "2026-04-14T16:07:35.140837+00:00",
       "source": "PERPLEXITY",
-      "headline": "CLARITY Act Heads to Senate Banking Committee Markup Vote in Late April | NO | LOW**",
-      "raw": "CLARITY Act Heads to Senate Banking Committee Markup Vote in Late April | NO | LOW**  \nEndorsed by Coinbase CEO Brian Armstrong and Treasury Secretary Scott Bessent; could enable banks to use XRP for liquidity, but no confirmation of passage or vote outcome yet\u2014Senate returns April 13 with midterm delays looming.[1][3][5]",
+      "headline": "**Bitcoin (BTC)**: Analysts discussing potential rally to $80K as a catalyst[4], but no confirmed announcement",
+      "raw": "**Bitcoin (BTC)**: Analysts discussing potential rally to $80K as a catalyst[4], but no confirmed announcement",
       "direction": "NO",
-      "confidence": 0.6,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_631333",
+      "timestamp": "2026-04-14T16:07:35.149406+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**XRP**: Trading at $1",
+      "raw": "**XRP**: Trading at $1.32-$1.35 with April range projected at $1.15-$1.60[6], but no new confirmation today",
+      "direction": "NO",
+      "confidence": 0.65,
       "matched_markets": [
         "Will the price of XRP be above $1.10 on April 14?",
         "Will the price of XRP be above $1.70 on April 15?",
         "Will the price of XRP be greater than $1.80 on April 16?"
       ],
-      "action": "WATCH",
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_631342",
+      "timestamp": "2026-04-14T16:07:35.158043+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Recommendation**: The search results do not contain real-time data from April 14, 2026 at 4 PM UTC",
+      "raw": "Recommendation**: The search results do not contain real-time data from April 14, 2026 at 4 PM UTC. For actual breaking news at this specific moment, you would need access to live market feeds or cryptocurrency news platforms.",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
       "x_link": null,
       "category": "CRYPTO"
     }
   ],
   "stats": {
-    "enter": 3,
-    "alert": 10,
-    "watch": 2,
-    "high_conf": 4
+    "enter": 2,
+    "alert": 21,
+    "watch": 0,
+    "high_conf": 6
   }
 }
