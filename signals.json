@@ -1,73 +1,82 @@
 {
-  "last_scan": "2026-04-15T17:00:00.547383+00:00",
-  "scan_seconds": 42.4,
-  "markets_scanned": 75,
+  "last_scan": "2026-04-15T17:02:54.573788+00:00",
+  "scan_seconds": 32.0,
+  "markets_scanned": 76,
   "open_positions": 40,
   "signals": [
     {
-      "id": "sig_159921",
-      "timestamp": "2026-04-15T16:59:43.647842+00:00",
+      "id": "sig_328872",
+      "timestamp": "2026-04-15T17:02:32.598326+00:00",
       "source": "PERPLEXITY",
-      "headline": "OKC Thunder Clinch No",
-      "raw": "OKC Thunder Clinch No. 1 Seed in Western Conference and NBA's Best Record for 2025-26 Season** | YES | HIGH confidence[1][2]\n\nThe Oklahoma City Thunder defeated the LA Clippers 128-110 on Wednesday, locking up the top overall seed in the NBA playoffs for the second straight year with a 64-17 record.[1][2] This confirmation sets their postseason path, including a revealed Round 1 schedule, potentia",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the Oklahoma City Thunder win the 2026 NBA Finals?",
-        "Will Germany win Group E in the 2026 FIFA World Cup?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_176812",
-      "timestamp": "2026-04-15T17:00:00.538464+00:00",
-      "source": "X_GROK",
-      "headline": "Megaeth April 30 Launch Market:** Whale (one entity via 8/10 top wallets) accumulated ~100k YES shares on Polymarket; si",
-      "raw": "Megaeth April 30 Launch Market:** Whale (one entity via 8/10 top wallets) accumulated ~100k YES shares on Polymarket; signals insider confidence in $MEGA launch this month. **YES.** Confidence: MED.[[1]](https://x.com/i/status/2044424795257753932)[[2]](https://x.com/i/status/2044460626538352808)",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2044424795257753932)[[2]](https://x.com/i/status/2044460626538352808)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_176820",
-      "timestamp": "2026-04-15T17:00:00.546968+00:00",
-      "source": "X_GROK",
-      "headline": "BTC Price Race ($60k dump vs $80k pump):** Polymarket odds now 38% for dump first (down from prior), rising for pump fir",
-      "raw": "BTC Price Race ($60k dump vs $80k pump):** Polymarket odds now 38% for dump first (down from prior), rising for pump first. **NO dump / YES pump.** Confidence: HIGH.[[3]](https://x.com/i/status/2044449433715081553)\n\nLimited other whale/mispricing chatter; most X activity replies to Polymarket's breaking news (e.g., bees in Israel, Tom Steyer/ICE, Zuckerberg coding).[[4]](https://x.com/i/status/204",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2044449433715081553)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_143240",
-      "timestamp": "2026-04-15T16:59:26.966245+00:00",
-      "source": "PERPLEXITY",
-      "headline": "US and Iran Plan Second Round of Ceasefire Talks in Days as Deadline Looms | YES | MED confidence**",
-      "raw": "US and Iran Plan Second Round of Ceasefire Talks in Days as Deadline Looms | YES | MED confidence**\n\nUS and Iran negotiators, after failed first-round talks in Islamabad last weekend, are preparing for a second round possibly by week's end, with exchanged proposals on Iranian nuclear suspension (Iran offers 5 years vs. US demand for 20 years)[1][2][4][5]. Pakistan pushes to host again, amid a frag",
-      "direction": "YES",
-      "confidence": 0.6,
+      "headline": "US and Iran Plan Second Round of Ceasefire Talks as Initial Deadline Looms | NO | MED confidence**",
+      "raw": "US and Iran Plan Second Round of Ceasefire Talks as Initial Deadline Looms | NO | MED confidence**\n\nNo new ceasefire agreement, confirmation, or resolution has been announced today (April 15, 2026); instead, reports confirm both sides are preparing for a second round of talks before the two-week ceasefire\u2014agreed on April 8\u2014expires next week, following the collapse of first-round negotiations in Is",
+      "direction": "NO",
+      "confidence": 0.9,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces end of military operations against Iran by A",
-        "Will Trump and Xi handshake last 15 seconds or longer during the day of their ne"
+        "US x Iran permanent peace deal by April 22, 2026?",
+        "Trump announces end of military operations against Iran by A"
       ],
-      "action": "WATCH",
+      "action": "ENTER",
       "x_link": null,
       "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_341568",
+      "timestamp": "2026-04-15T17:02:45.294025+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Bitcoin surges past $74K to one-month high amid easing U",
+      "raw": "Bitcoin surges past $74K to one-month high amid easing U.S.-Iran tensions and short liquidations | YES | HIGH confidence**[1][3]\n\nBitcoin broke key resistance at $74,000 on April 14, reaching $74,535 (up 5.34% in 24 hours, 3.7% weekly), driven by de-escalation signals in the U.S.-Iran standoff (e.g., Trump negotiation hints, Strait of Hormuz developments), $400-500M short liquidations, and ETF inf",
+      "direction": "YES",
+      "confidence": 0.78,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "US x Iran permanent peace deal by April 22, 2026?",
+        "Trump announces end of military operations against Iran by A"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_334814",
+      "timestamp": "2026-04-15T17:02:38.540108+00:00",
+      "source": "PERPLEXITY",
+      "headline": "ECI Announces 2,926 Candidates in Frays for West Bengal Assembly Polls | NO | HIGH confidence** [3]",
+      "raw": "ECI Announces 2,926 Candidates in Frays for West Bengal Assembly Polls | NO | HIGH confidence** [3]\n\nAbhishek Banerjee of All India Trinamool Congress (TMC) held a strategy meeting today, predicting TMC will exceed its 2021 performance (213 seats) amid accusations of Election Commission bias favoring BJP, voter roll manipulations targeting Muslim and Matua voters, and Amit Shah's intimidation tact",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will J.D. Vance win the 2028 Republican presidential nominat",
+        "Will the All India Trinamool Congress (AITC) win the most seats in the 2026 West",
+        "Will the Indian Union Muslim League (IUML) win between 10 and 12 seats in the 20"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_349846",
+      "timestamp": "2026-04-15T17:02:53.572816+00:00",
+      "source": "PERPLEXITY",
+      "headline": "I cannot identify breaking news from these search results that would move prediction markets as of April 15, 2026",
+      "raw": "I cannot identify breaking news from these search results that would move prediction markets as of April 15, 2026.\n\nThe search results contain information from February 2026 regarding President Trump's nomination of Kevin Warsh as Federal Reserve chair, along with economic data from that period showing inflation at 2.8% and unemployment at 4.3%[1][2]. However, these are not current developments\u2014th",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Kevin Warsh confirmed as Fed Chair by May 15?",
+        "Will Trump say \"Christian\" during TPUSA events on April 17?",
+        "Will Trump say \"Discombobulator\" or \"Discombobulated\" in April?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
     }
   ],
   "stats": {
-    "enter": 0,
+    "enter": 1,
     "alert": 3,
-    "watch": 1,
-    "high_conf": 0
+    "watch": 0,
+    "high_conf": 1
   }
 }
