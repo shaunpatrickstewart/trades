@@ -1,86 +1,133 @@
 {
-  "last_scan": "2026-04-15T22:43:12.954197+00:00",
-  "scan_seconds": 25.9,
-  "markets_scanned": 161,
-  "open_positions": 123,
+  "last_scan": "2026-04-15T22:46:01.399072+00:00",
+  "scan_seconds": 25.5,
+  "markets_scanned": 118,
+  "open_positions": 77,
   "signals": [
     {
-      "id": "sig_768243",
-      "timestamp": "2026-04-15T22:43:11.949937+00:00",
+      "id": "sig_918983",
+      "timestamp": "2026-04-15T22:45:42.689073+00:00",
       "source": "PERPLEXITY",
-      "headline": "Trump Nominates Kevin Warsh as Next Fed Chair to Replace Powell in May 2026 | YES | HIGH confidence**",
-      "raw": "Trump Nominates Kevin Warsh as Next Fed Chair to Replace Powell in May 2026 | YES | HIGH confidence**  \nKevin Warsh was just-announced by President Trump as nominee for Federal Reserve chairman upon Jerome Powell's term expiration in May, amid accelerating wholesale inflation (PPI up 0.5% monthly and 3% annually in Dec 2025, beating estimates) tied to Trump's tariff policies, posing an early chall",
-      "direction": "YES",
+      "headline": "HIGH** confidence",
+      "raw": "HIGH** confidence  \n\nUS officials report \"continued engagement\" and \"forward motion\" toward agreement, with Vice President JD Vance stating the ball is in Iran's court; both sides have shared written demands, though Iran has not publicly confirmed and Pentagon is deploying more troops.[1][3] Israel-Lebanon direct talks hosted by US Secretary Rubio also began, but Israeli strikes continue unabated ",
+      "direction": "NO",
       "confidence": 0.9,
       "matched_markets": [
-        "Kevin Warsh confirmed as Fed Chair by May 15?",
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "US x Iran permanent peace deal by April 22, 2026?",
+        "US x Iran diplomatic meeting by April 18, 2026?"
       ],
       "action": "ENTER",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_750843",
-      "timestamp": "2026-04-15T22:42:54.549891+00:00",
+      "id": "sig_932050",
+      "timestamp": "2026-04-15T22:45:55.756704+00:00",
       "source": "PERPLEXITY",
-      "headline": "Confidence: HIGH** (search results show no events post-April 11 matching \"just confirmed/resolved\" criteria)",
-      "raw": "Confidence: HIGH** (search results show no events post-April 11 matching \"just confirmed/resolved\" criteria).[1][2][3][4]",
-      "direction": "NO",
+      "headline": "I cannot identify any breaking news about Bitcoin or Solana that has just been confirmed, announced, or resolved that wo",
+      "raw": "I cannot identify any breaking news about Bitcoin or Solana that has just been confirmed, announced, or resolved that would move prediction markets based on the provided search results.\n\nThe search results contain market predictions and forecasts for April 2026, but they do not include recent announcements, confirmations, or resolutions that would constitute breaking news. The most recent dated co",
+      "direction": "YES",
       "confidence": 0.9,
-      "matched_markets": [],
+      "matched_markets": [
+        "Will the price of Bitcoin be less than $64,000 on April 17?",
+        "Will the price of Solana be above $110 on April 17?",
+        "Will the price of Solana be above $100 on April 18?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_918940",
+      "timestamp": "2026-04-15T22:45:42.646737+00:00",
+      "source": "PERPLEXITY",
+      "headline": "US and Iran confirmed seeking second round of ceasefire talks before current two-week truce expires next week, amid Horm",
+      "raw": "US and Iran confirmed seeking second round of ceasefire talks before current two-week truce expires next week, amid Hormuz blockade and ongoing tensions.[1][3][5]**",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?"
+      ],
       "action": "ALERT",
       "x_link": null,
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_763154",
-      "timestamp": "2026-04-15T22:43:06.860526+00:00",
+      "id": "sig_923731",
+      "timestamp": "2026-04-15T22:45:47.437668+00:00",
       "source": "PERPLEXITY",
-      "headline": "Ethereum Foundation Staked 70,000 ETH (~$143M), Reducing Sell-Side Pressure | YES | HIGH confidence**[1][3]",
-      "raw": "Ethereum Foundation Staked 70,000 ETH (~$143M), Reducing Sell-Side Pressure | YES | HIGH confidence**[1][3]",
+      "headline": "Impact on prediction markets: LOW confidence in movement",
+      "raw": "Impact on prediction markets: LOW confidence in movement.** These are rehashes of prior events (e.g., Iran talks collapse, poll data) without today's confirmations, resolutions, or Trump announcements\u2014unlikely to shift markets like election odds, war escalation, or midterms.[1][2][3][4]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Trump announces end of military operations against Iran by A"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_932065",
+      "timestamp": "2026-04-15T22:45:55.771964+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Recent official announcements from blockchain projects or exchanges",
+      "raw": "Recent official announcements from blockchain projects or exchanges",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_932082",
+      "timestamp": "2026-04-15T22:45:55.788099+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Regulatory developments",
+      "raw": "Regulatory developments",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_932098",
+      "timestamp": "2026-04-15T22:45:55.804804+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Market-moving events or news stories published today or very recently",
+      "raw": "Market-moving events or news stories published today or very recently\n\nIf you're looking for current market-moving news, I'd recommend checking real-time crypto news sources directly, as the search results provided appear to contain older analysis and prediction market data rather than breaking news.",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_936691",
+      "timestamp": "2026-04-15T22:46:00.397921+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Fed Chair Powell Delivers Jackson Hole Speech on Tariff-Driven Inflation and Hiring Slowdown | YES | HIGH confidence**",
+      "raw": "Fed Chair Powell Delivers Jackson Hole Speech on Tariff-Driven Inflation and Hiring Slowdown | YES | HIGH confidence**  \nFederal Reserve Chair Jerome Powell stated on Friday that the Fed faces a \"challenging situation\" from a hiring slowdown and tariff-induced price increases, with effects on consumer prices \"now clearly visible\" and expected to accumulate, while long-term inflation expectations r",
       "direction": "YES",
       "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_763168",
-      "timestamp": "2026-04-15T22:43:06.874050+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Bitcoin Stable at $70,778 Amid Macro Uncertainty, No Major Breakout | NO | MED confidence**[1][3]",
-      "raw": "Bitcoin Stable at $70,778 Amid Macro Uncertainty, No Major Breakout | NO | MED confidence**[1][3]",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_763190",
-      "timestamp": "2026-04-15T22:43:06.896504+00:00",
-      "source": "PERPLEXITY",
-      "headline": "XRP Drops Below $1",
-      "raw": "XRP Drops Below $1.33 on Bearish Momentum, Weakest Signals | NO | HIGH confidence**[1][3]\n\nPolymarket shows 93% odds BTC < $65K in April (bearish shift), XRP dominant odds for < $1.2 (69%) or > $1.4 (56%), with mixed trader bets but no resolution yet[2][4][8]. ETH technicals strongest (RSI oversold, bullish pattern forming), potentially moving DeFi bets upward[1][3]. No confirmed regulatory or mac",
-      "direction": "NO",
-      "confidence": 0.6,
       "matched_markets": [
-        "Will the price of XRP be above $1.00 on April 19?",
-        "Will the price of XRP be above $1.60 on April 19?",
-        "Will XRP reach $1.90 April 13-19?"
+        "Kevin Warsh confirmed as Fed Chair by May 15?",
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
       ],
-      "action": "WATCH",
+      "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "ECONOMICS"
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 3,
-    "watch": 1,
-    "high_conf": 2
+    "enter": 2,
+    "alert": 6,
+    "watch": 0,
+    "high_conf": 3
   }
 }
