@@ -1,73 +1,115 @@
 {
-  "last_scan": "2026-04-15T14:52:45.321759+00:00",
-  "scan_seconds": 25.7,
-  "markets_scanned": 78,
+  "last_scan": "2026-04-15T14:55:36.418984+00:00",
+  "scan_seconds": 28.9,
+  "markets_scanned": 79,
   "open_positions": 41,
   "signals": [
     {
-      "id": "sig_540586",
-      "timestamp": "2026-04-15T14:52:44.320721+00:00",
+      "id": "sig_694366",
+      "timestamp": "2026-04-15T14:55:18.100218+00:00",
       "source": "PERPLEXITY",
-      "headline": "Kevin Warsh's nomination as next Fed Chair amid surging inflation and oil shock speculation fuels rate hike bets",
-      "raw": "Kevin Warsh's nomination as next Fed Chair amid surging inflation and oil shock speculation fuels rate hike bets.** | **YES** | **HIGH** confidence[1][2]\n\nFed officials kept rates at 3.50-3.75% in their latest meeting but now project mixed paths, with seven of 19 rate-setters expecting no cuts this year amid **annual core inflation** at 3.9% (pushing 3-month annualized core PCE to 4.56%, over doub",
+      "headline": "YES** on \"Iran ceasefire active\" prediction markets (from April 8 agreement calming oil prices/markets temporarily), but",
+      "raw": "YES** on \"Iran ceasefire active\" prediction markets (from April 8 agreement calming oil prices/markets temporarily), but **NO** on permanent peace or major updates today\u2014talks continue without resolution, with a second round possibly imminent per latest reports.[3][5][6][7]",
       "direction": "YES",
-      "confidence": 0.9,
+      "confidence": 0.65,
       "matched_markets": [
-        "Kevin Warsh confirmed as Fed Chair by May 15?",
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "US x Iran permanent peace deal by April 22, 2026?",
+        "US x Iran diplomatic meeting by April 18, 2026?"
       ],
-      "action": "ENTER",
+      "action": "ALERT",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_529196",
-      "timestamp": "2026-04-15T14:52:32.930275+00:00",
+      "id": "sig_694372",
+      "timestamp": "2026-04-15T14:55:18.106254+00:00",
       "source": "PERPLEXITY",
-      "headline": "HEADLINE:** None | **YES or NO:** NO | **HIGH/MED/LOW confidence:** HIGH",
-      "raw": "HEADLINE:** None | **YES or NO:** NO | **HIGH/MED/LOW confidence:** HIGH",
-      "direction": "YES",
+      "headline": "MED confidence** (solid on April 8 event from multiple sources; low on \"RIGHT NOW\" shifts due to no April 15 specifics,",
+      "raw": "MED confidence** (solid on April 8 event from multiple sources; low on \"RIGHT NOW\" shifts due to no April 15 specifics, only UN pleas and looming talks).[1][2][3][4][5][7]",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "POLITICS"
+      "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_535461",
-      "timestamp": "2026-04-15T14:52:39.195682+00:00",
+      "id": "sig_711655",
+      "timestamp": "2026-04-15T14:55:35.389389+00:00",
       "source": "PERPLEXITY",
-      "headline": "SEC Clarifies Crypto Interface Rules at Roundtable (April 15, 2026)** | YES | HIGH",
-      "raw": "SEC Clarifies Crypto Interface Rules at Roundtable (April 15, 2026)** | YES | HIGH  \nThe SEC issued guidance today clarifying rules for crypto interfaces, directly benefiting XRP Ledger's native DEX and signaling regulatory progress.[1] This confirmation enhances XRPL's compliance outlook, potentially boosting adoption amid technical breakout signals like a bullish MACD crossover targeting $1.56 i",
-      "direction": "YES",
+      "headline": "South Korea's **headline inflation** eased to 2",
+      "raw": "South Korea's **headline inflation** eased to 2.0% YoY in January 2026 (from 2.3% in December), with **core inflation** steady at 2.0%, but the Bank of Korea plans to hold its policy rate at 2.5% with no imminent cuts.[1][6]",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [
-        "XRP Up or Down - April 16, 7:20AM-7:25AM ET"
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "ECONOMICS"
     },
     {
-      "id": "sig_535467",
-      "timestamp": "2026-04-15T14:52:39.201984+00:00",
+      "id": "sig_711665",
+      "timestamp": "2026-04-15T14:55:35.399963+00:00",
       "source": "PERPLEXITY",
-      "headline": "Rakuten Integrates XRP for 44M Users (April 14, 2026)** | YES | MED",
-      "raw": "Rakuten Integrates XRP for 44M Users (April 14, 2026)** | YES | MED  \nRakuten Wallet enabled XRP conversion to loyalty points in its Rakuten Pay system yesterday, marking major retail utility expansion alongside $119.6M U.S. XRP ETF inflows\u2014the strongest since Dec 2025.[1][3] These developments drive institutional and mainstream demand, though full impact is long-term.[1]",
-      "direction": "YES",
+      "headline": "Fed reportedly **froze rates** (maintaining 1",
+      "raw": "Fed reportedly **froze rates** (maintaining 1.25% gap with South Korea) amid Iran-related inflation fears and oil surges, dated March 19, 2026.[4]",
+      "direction": null,
       "confidence": 0.65,
       "matched_markets": [
-        "XRP Up or Down - April 16, 7:20AM-7:25AM ET"
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_711671",
+      "timestamp": "2026-04-15T14:55:35.405476+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Trump administration's **Fed Chair nomination** (possibly Kevin Warsh) triggered a >5% **KOSPI drop** in early February",
+      "raw": "Trump administration's **Fed Chair nomination** (possibly Kevin Warsh) triggered a >5% **KOSPI drop** in early February 2026, reflecting market uncertainty.[2][5]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Kevin Warsh confirmed as Fed Chair by May 15?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_711676",
+      "timestamp": "2026-04-15T14:55:35.410785+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Global **core CPI forecast** for 2026 holds at 2",
+      "raw": "Global **core CPI forecast** for 2026 holds at 2.8%, with U.S. at 3.2%; South Korea near 2% supports BoK pause.[6]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_711683",
+      "timestamp": "2026-04-15T14:55:35.417737+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Annual South Korea CPI for 2024 was 2",
+      "raw": "Annual South Korea CPI for 2024 was 2.32% (no 2025/2026 annual data).[3]\n\nNo sources indicate announcements today or in April 2026; prior events (e.g., rate freeze, nomination) are 1-3 months old and unlikely to freshly impact prediction markets.[1][2][4][5][6]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 3,
+    "enter": 0,
+    "alert": 7,
     "watch": 0,
-    "high_conf": 1
+    "high_conf": 0
   }
 }
