@@ -1,31 +1,96 @@
 {
-  "last_scan": "2026-04-15T18:32:54.566677+00:00",
-  "scan_seconds": 29.5,
+  "last_scan": "2026-04-15T18:35:45.714473+00:00",
+  "scan_seconds": 28.6,
   "markets_scanned": 78,
   "open_positions": 41,
   "signals": [
     {
-      "id": "sig_730284",
-      "timestamp": "2026-04-15T18:32:34.005941+00:00",
+      "id": "sig_920970",
+      "timestamp": "2026-04-15T18:35:44.691855+00:00",
       "source": "PERPLEXITY",
-      "headline": "YES** on original ceasefire implementation (from April 8); **NO** on any fresh announcements today that would significan",
-      "raw": "YES** on original ceasefire implementation (from April 8); **NO** on any fresh announcements today that would significantly move prediction markets like Polymarket odds on Iran conflict escalation. **LOW** confidence in market impact now, as the truce remains unstable with no updates since April 14.[2][7]",
-      "direction": "YES",
-      "confidence": 0.65,
+      "headline": "Kevin Warsh's nomination as Fed chair was announced in late January 2026[3]",
+      "raw": "Kevin Warsh's nomination as Fed chair was announced in late January 2026[3]",
+      "direction": null,
+      "confidence": 0.9,
       "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "US x Iran permanent peace deal by April 22, 2026?",
-        "US x Iran diplomatic meeting by April 18, 2026?"
+        "Kevin Warsh confirmed as Fed Chair by May 15?"
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "GEOPOLITICS"
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_920986",
+      "timestamp": "2026-04-15T18:35:44.707958+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Why this matters for your query:** To identify what \"has just been confirmed, announced, or resolved,\" I would need sear",
+      "raw": "Why this matters for your query:** To identify what \"has just been confirmed, announced, or resolved,\" I would need search results with timestamps from April 15, 2026 showing a *new* development\u2014such as Warsh's Senate confirmation vote, an unexpected inflation report, or a new Fed policy decision announced today.",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_920956",
+      "timestamp": "2026-04-15T18:35:44.677775+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Based on the search results provided, I cannot identify a **breaking news announcement TODAY** (April 15, 2026) that wou",
+      "raw": "Based on the search results provided, I cannot identify a **breaking news announcement TODAY** (April 15, 2026) that would move prediction markets.\n\nThe search results contain information from earlier dates:",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_920976",
+      "timestamp": "2026-04-15T18:35:44.697081+00:00",
+      "source": "PERPLEXITY",
+      "headline": "His expected confirmation by mid-May 2026 was previously reported[1]",
+      "raw": "His expected confirmation by mid-May 2026 was previously reported[1]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_920981",
+      "timestamp": "2026-04-15T18:35:44.702306+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Recent Fed policy decisions (keeping rates at 3",
+      "raw": "Recent Fed policy decisions (keeping rates at 3.50-3.75%) are referenced but lack today's specific date[1]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_920992",
+      "timestamp": "2026-04-15T18:35:44.713346+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Recommendation:** Provide search results dated April 15, 2026, or specify which announcement you're asking about",
+      "raw": "Recommendation:** Provide search results dated April 15, 2026, or specify which announcement you're asking about. If you're looking for market-moving developments regarding Warsh, South Korea's economic ties to Fed policy, or today's inflation data, those would require current news sources from today's date.",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
     }
   ],
   "stats": {
     "enter": 0,
-    "alert": 1,
+    "alert": 6,
     "watch": 0,
-    "high_conf": 0
+    "high_conf": 2
   }
 }
