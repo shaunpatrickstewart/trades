@@ -1,45 +1,78 @@
 {
-  "last_scan": "2026-04-15T17:26:25.154493+00:00",
-  "scan_seconds": 29.6,
+  "last_scan": "2026-04-15T17:29:18.099932+00:00",
+  "scan_seconds": 30.5,
   "markets_scanned": 73,
   "open_positions": 41,
   "signals": [
     {
-      "id": "sig_748037",
-      "timestamp": "2026-04-15T17:26:11.762864+00:00",
+      "id": "sig_924058",
+      "timestamp": "2026-04-15T17:29:07.783302+00:00",
       "source": "PERPLEXITY",
-      "headline": "No election dates announced or alliances confirmed with Republican groups",
-      "raw": "No election dates announced or alliances confirmed with Republican groups.",
-      "direction": "NO",
-      "confidence": 0.9,
-      "matched_markets": [],
+      "headline": "US Congress Set to Vote Wednesday on War Powers Resolution for Trump's Iran Strikes | YES | HIGH confidence**",
+      "raw": "US Congress Set to Vote Wednesday on War Powers Resolution for Trump's Iran Strikes | YES | HIGH confidence**  \nThe Republican-controlled Congress is scheduled for a vote today on a war powers resolution requiring approval for further US military actions against Iran, following Trump's surprise strikes on Saturday; the measure faces steep odds of passage and a likely veto.[3]  \nThis could shift pr",
+      "direction": "YES",
+      "confidence": 0.78,
+      "matched_markets": [
+        "Trump announces end of military operations against Iran by A"
+      ],
       "action": "ALERT",
       "x_link": null,
       "category": "POLITICS"
     },
     {
-      "id": "sig_760428",
-      "timestamp": "2026-04-15T17:26:24.153200+00:00",
+      "id": "sig_916640",
+      "timestamp": "2026-04-15T17:29:00.365841+00:00",
       "source": "PERPLEXITY",
-      "headline": "Kevin Warsh Fed Chair Confirmation Hearing Set for April 16 Amid Political Risks | NO | HIGH confidence**",
-      "raw": "Kevin Warsh Fed Chair Confirmation Hearing Set for April 16 Amid Political Risks | NO | HIGH confidence**  \nNo new confirmations, announcements, or resolutions today on South Korea fiscal issues, US annual inflation, or Warsh's Fed chair status that would move prediction markets; the sole development is Warsh's Senate hearing scheduled for tomorrow (April 16), with risks of Republican defection an",
-      "direction": "NO",
-      "confidence": 0.78,
+      "headline": "Trump Signals Iran War 'Very Close to Over'; In-Principle Agreement to Extend Ceasefire Beyond April 22 | YES | HIGH con",
+      "raw": "Trump Signals Iran War 'Very Close to Over'; In-Principle Agreement to Extend Ceasefire Beyond April 22 | YES | HIGH confidence**[1][2][3]",
+      "direction": "YES",
+      "confidence": 0.65,
       "matched_markets": [
-        "Kevin Warsh confirmed as Fed Chair by May 15?",
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "US x Iran permanent peace deal by April 22, 2026?",
+        "Trump announces end of military operations against Iran by A"
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_741287",
-      "timestamp": "2026-04-15T17:26:05.012199+00:00",
+      "id": "sig_916646",
+      "timestamp": "2026-04-15T17:29:00.371382+00:00",
       "source": "PERPLEXITY",
-      "headline": "US and Iran Agree to Two-Week Ceasefire in Middle East Conflict | YES | HIGH confidence**[1][2][3]",
-      "raw": "US and Iran Agree to Two-Week Ceasefire in Middle East Conflict | YES | HIGH confidence**[1][2][3]\n\nAnnounced around April 8, 2026, the ceasefire halts US strikes on Iran and includes Iran reopening the Strait of Hormuz, stopping regional attacks, mediated by Pakistan (with T\u00fcrkiye and Egypt involvement), and extends \"immediate\" to Lebanon and elsewhere per Pakistan's PM Sharif\u2014though Israel clari",
-      "direction": "YES",
+      "headline": "**Key Confirmation**: President Trump stated the war is \"very close to over,\" citing Iran's willingness for talks; regio",
+      "raw": "**Key Confirmation**: President Trump stated the war is \"very close to over,\" citing Iran's willingness for talks; regional officials report a US-Iran \"in principle agreement\" to extend the current two-week ceasefire (ending ~April 22) for further negotiations, possibly in Islamabad within days.[1][2][3]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "US x Iran permanent peace deal by April 22, 2026?",
+        "Trump announces end of military operations against Iran by A"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_916651",
+      "timestamp": "2026-04-15T17:29:00.376607+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Supporting Details**: US naval blockade of Hormuz continues but Iranian tankers have broken through; first-round talks",
+      "raw": "**Supporting Details**: US naval blockade of Hormuz continues but Iranian tankers have broken through; first-round talks collapsed over Iran's refusal to abandon nuclear program, yet second round is anticipated amid de-escalation signals.[1][2][3][5]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_924063",
+      "timestamp": "2026-04-15T17:29:07.788399+00:00",
+      "source": "PERPLEXITY",
+      "headline": "VP Vance in Pakistan for High-Stakes Iran Peace Talks | NO**",
+      "raw": "VP Vance in Pakistan for High-Stakes Iran Peace Talks | NO**  \nVice President JD Vance arrived in Pakistan on April 11 with negotiators Steve Witkoff and Jared Kushner to meet Iranian officials, but no new confirmations, announcements, or resolutions reported today.[1]",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
@@ -48,39 +81,41 @@
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "GEOPOLITICS"
+      "category": "POLITICS"
     },
     {
-      "id": "sig_748032",
-      "timestamp": "2026-04-15T17:26:11.757729+00:00",
+      "id": "sig_924068",
+      "timestamp": "2026-04-15T17:29:07.793489+00:00",
       "source": "PERPLEXITY",
-      "headline": "Routine TMC activities (e",
-      "raw": "Routine TMC activities (e.g., Mamata Banerjee's local outreach in April 2026).",
-      "direction": null,
+      "headline": "Leaked Audio Claims Trump-Vance Blocked India-US Trade Deal | NO**",
+      "raw": "Leaked Audio Claims Trump-Vance Blocked India-US Trade Deal | NO**  \nLeaked audio alleges Trump, Vance, and others stalled the US-India trade deal, tied to India's Republic Day (January 26), with no updates today.[2]  \nNo mentions of All India Trinamool Congress or White House announcements linking these terms in breaking news.[1][2][3]",
+      "direction": "NO",
       "confidence": 0.65,
-      "matched_markets": [],
+      "matched_markets": [
+        "Will the All India Trinamool Congress (AITC) win the most seats in the 2026 West"
+      ],
       "action": "ALERT",
       "x_link": null,
       "category": "POLITICS"
     },
     {
-      "id": "sig_748043",
-      "timestamp": "2026-04-15T17:26:11.768183+00:00",
+      "id": "sig_916656",
+      "timestamp": "2026-04-15T17:29:00.381679+00:00",
       "source": "PERPLEXITY",
-      "headline": "Prediction markets (e",
-      "raw": "Prediction markets (e.g., TMC hold odds ~65-70%) unchanged in last 24h per available data.\n\nIf real-time alerts emerge post-5 PM UTC (e.g., via X or official EC site), they could pivot markets\u2014monitor there for updates. No fabricated events here.",
+      "headline": "**Prediction Market Impact**: This diplomatic progress and ceasefire extension could shift markets toward de-escalation",
+      "raw": "**Prediction Market Impact**: This diplomatic progress and ceasefire extension could shift markets toward de-escalation bets (e.g., lower oil prices, reduced war risk), as it moves beyond stalled talks reported days ago.[1][2][3]",
       "direction": "NO",
       "confidence": 0.6,
       "matched_markets": [],
       "action": "WATCH",
       "x_link": null,
-      "category": "POLITICS"
+      "category": "GEOPOLITICS"
     }
   ],
   "stats": {
     "enter": 0,
-    "alert": 4,
+    "alert": 6,
     "watch": 1,
-    "high_conf": 1
+    "high_conf": 0
   }
 }
