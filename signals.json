@@ -1,15 +1,64 @@
 {
-  "last_scan": "2026-04-15T22:54:42.389206+00:00",
-  "scan_seconds": 27.8,
-  "markets_scanned": 136,
+  "last_scan": "2026-04-15T22:57:34.583680+00:00",
+  "scan_seconds": 32.1,
+  "markets_scanned": 138,
   "open_positions": 98,
   "signals": [
     {
-      "id": "sig_457632",
-      "timestamp": "2026-04-15T22:54:41.337650+00:00",
+      "id": "sig_614008",
+      "timestamp": "2026-04-15T22:57:17.713890+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot identify breaking news from these search results that would move prediction markets as of April 15, 2026",
-      "raw": "I cannot identify breaking news from these search results that would move prediction markets as of April 15, 2026.\n\nThe search results contain articles from February and early April 2026 discussing Kevin Warsh's nomination and potential appointment as Federal Reserve Chair, but they do not contain announcements, confirmations, or resolutions dated today or very recently that would constitute break",
+      "headline": "Hungarian Ally Viktor Orb\u00e1n Suffers Crushing Election Defeat Days After JD Vance Campaign Visit | NO | HIGH confidence**",
+      "raw": "Hungarian Ally Viktor Orb\u00e1n Suffers Crushing Election Defeat Days After JD Vance Campaign Visit | NO | HIGH confidence**  \nPreliminary results with over 98% of votes counted show P\u00e9ter Magyar's party winning 138 seats versus 55 for Orb\u00e1n's Fidesz, following Vance's recent trip to campaign for the pro-Putin leader, marking a major foreign policy embarrassment for the Republican VP amid Democrats' p",
+      "direction": "NO",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will J.D. Vance win the 2028 Republican presidential nominat"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_614028",
+      "timestamp": "2026-04-15T22:57:17.733654+00:00",
+      "source": "PERPLEXITY",
+      "headline": "No New White House Announcements Confirmed Today on Elections or Vance | NO | HIGH confidence**",
+      "raw": "No New White House Announcements Confirmed Today on Elections or Vance | NO | HIGH confidence**  \nThe most recent White House action is a March 31 executive order on federal election citizenship verification, predating today by over two weeks with no updates.[4] A April 7 briefing replay covers Vance but is not fresh news.[2]  \nWhite House reaffirmed confidence in Vance and Rubio amid their Iran w",
+      "direction": "NO",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "US x Iran permanent peace deal by April 22, 2026?",
+        "Will the White House call a full lid by 6:30PM on April 14?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_614038",
+      "timestamp": "2026-04-15T22:57:17.743428+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Iran Talks Collapse Confirmed, Leading to Trump Strait of Hormuz Blockade Threat | YES | MED confidence**",
+      "raw": "Iran Talks Collapse Confirmed, Leading to Trump Strait of Hormuz Blockade Threat | YES | MED confidence**  \nVance-led US negotiations in Islamabad failed Saturday, with no deal reached; Trump announced blockade threat on Truth Social April 12 after Iran cited lack of trust.[1][5]  \nThis recent escalation ties to Vance's role and ongoing war (started Feb 28), potentially impacting markets on confli",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "US x Iran permanent peace deal by April 22, 2026?",
+        "Trump announces end of military operations against Iran by A"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_629877",
+      "timestamp": "2026-04-15T22:57:33.582459+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Kevin Warsh Confirmed as New Fed Chair, Taking Office Amid Market Turmoil and Inflation Hawk Concerns | YES | HIGH confi",
+      "raw": "Kevin Warsh Confirmed as New Fed Chair, Taking Office Amid Market Turmoil and Inflation Hawk Concerns | YES | HIGH confidence** [4][5]\n\nKevin Warsh, nominated by President Trump to succeed Jerome Powell, has taken office as Federal Reserve Chair, sparking intense speculation on his hawkish stance against inflation and quantitative easing, with past advocacy for \"monetary dominance\" and balance she",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
@@ -20,133 +69,129 @@
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_445345",
-      "timestamp": "2026-04-15T22:54:29.050082+00:00",
+      "id": "sig_607246",
+      "timestamp": "2026-04-15T22:57:10.951185+00:00",
       "source": "PERPLEXITY",
-      "headline": "Search results show no matching events: [1] covers Republican Joe Hathaway's pre-election comments on a New Jersey speci",
-      "raw": "Search results show no matching events: [1] covers Republican Joe Hathaway's pre-election comments on a New Jersey special House race (election on Thursday, April 16), criticizing his Democratic opponent but announcing nothing new[1].",
+      "headline": "HIGH confidence** \u2013 Multiple sources (White House, U",
+      "raw": "HIGH confidence** \u2013 Multiple sources (White House, U.S. officials, VP Vance) explicitly rule out new agreements or extensions RIGHT NOW; no counter-reports of confirmations in April 15 headlines.[1][2][5][6] Developments like Israel-Lebanon talks and Italy suspending Israel defense ties do not involve Iran ceasefires.[5]",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [
-        "Will Joe Hathaway win the NJ-11 special election?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_445354",
-      "timestamp": "2026-04-15T22:54:29.059600+00:00",
-      "source": "PERPLEXITY",
-      "headline": "[2] describes a recent, sparsely attended JD Vance rally with Turning Point USA in Georgia amid criticism of Trump-relat",
-      "raw": "[2] describes a recent, sparsely attended JD Vance rally with Turning Point USA in Georgia amid criticism of Trump-related issues and a failed Pakistan trip on Iran war talks, but no confirmations, announcements, or resolutions today[2].",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Trump announces end of military operations against Iran by A"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_445363",
-      "timestamp": "2026-04-15T22:54:29.068947+00:00",
-      "source": "PERPLEXITY",
-      "headline": "[3] reports on a DC teen curfew expiring (unrelated to query terms), with an extension vote planned for April 21[3]",
-      "raw": "[3] reports on a DC teen curfew expiring (unrelated to query terms), with an extension vote planned for April 21[3].",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_445373",
-      "timestamp": "2026-04-15T22:54:29.078355+00:00",
-      "source": "PERPLEXITY",
-      "headline": "No White House ties, April-specific resolutions, or prediction market-impacting developments appear in results; coverage",
-      "raw": "No White House ties, April-specific resolutions, or prediction market-impacting developments appear in results; coverage is ongoing/routine, not \"right now\" breaking[1][2][3].",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "US x Iran permanent peace deal by April 22, 2026?",
         "Will the White House call a full lid by 6:30PM on April 14?"
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "POLITICS"
+      "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_457642",
-      "timestamp": "2026-04-15T22:54:41.347965+00:00",
+      "id": "sig_623115",
+      "timestamp": "2026-04-15T22:57:26.820437+00:00",
       "source": "PERPLEXITY",
-      "headline": "Senate confirmation vote results",
-      "raw": "Senate confirmation vote results",
+      "headline": "I cannot provide breaking news in the format you've requested because the search results do not contain time-stamped ann",
+      "raw": "I cannot provide breaking news in the format you've requested because the search results do not contain time-stamped announcements, confirmations, or resolutions that occurred \"right now\" or today that would move prediction markets.\n\nThe search results provide **price snapshots and analysis from mid-April 2026**, but not breaking news:",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_457653",
-      "timestamp": "2026-04-15T22:54:41.358353+00:00",
+      "id": "sig_623132",
+      "timestamp": "2026-04-15T22:57:26.837895+00:00",
       "source": "PERPLEXITY",
-      "headline": "Official appointment announcements",
-      "raw": "Official appointment announcements",
+      "headline": "**Bitcoin** is trading around $71,000 (as of mid-April)[5]",
+      "raw": "**Bitcoin** is trading around $71,000 (as of mid-April)[5]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Bitcoin reach $80,000 on April 15?",
+        "Will the price of Bitcoin be less than $64,000 on April 17?",
+        "Bitcoin Up or Down - April 16, 3:15PM-3:20PM ET"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_623150",
+      "timestamp": "2026-04-15T22:57:26.855796+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Ethereum** is trading around $2,200 (as of April 13)[6]",
+      "raw": "**Ethereum** is trading around $2,200 (as of April 13)[6]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Ethereum dip to $2,150 on April 15?",
+        "Will the price of Ethereum be above $2,100 on April 16?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_623165",
+      "timestamp": "2026-04-15T22:57:26.870693+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Solana** declined to $78 following a $280M+ exploit on the Drift protocol[4], but this appears to be earlier in April",
+      "raw": "**Solana** declined to $78 following a $280M+ exploit on the Drift protocol[4], but this appears to be earlier in April rather than a current development\n\nThe most significant market event in these results is **Solana's 13% weekly decline due to the Drift protocol exploit involving social engineering and pre-approved transaction abuse**[4], but the search results do not indicate whether this is an",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the price of Solana be between $60 and $70 on April 16?",
+        "Will the price of Solana be above $100 on April 16?",
+        "Will the price of Solana be above $70 on April 16?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_623178",
+      "timestamp": "2026-04-15T22:57:26.883681+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Real-time news alerts with specific timestamps",
+      "raw": "Real-time news alerts with specific timestamps",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_457663",
-      "timestamp": "2026-04-15T22:54:41.368480+00:00",
+      "id": "sig_623189",
+      "timestamp": "2026-04-15T22:57:26.894393+00:00",
       "source": "PERPLEXITY",
-      "headline": "New inflation data releases",
-      "raw": "New inflation data releases",
+      "headline": "Official announcements from blockchain projects or regulatory bodies",
+      "raw": "Official announcements from blockchain projects or regulatory bodies",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_457673",
-      "timestamp": "2026-04-15T22:54:41.378425+00:00",
+      "id": "sig_623199",
+      "timestamp": "2026-04-15T22:57:26.904380+00:00",
       "source": "PERPLEXITY",
-      "headline": "Federal Reserve policy decisions",
-      "raw": "Federal Reserve policy decisions",
+      "headline": "Market-moving confirmations that occurred within the last few hours",
+      "raw": "Market-moving confirmations that occurred within the last few hours\n\nThe available results are analytical articles and price reports rather than breaking news coverage.",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_457683",
-      "timestamp": "2026-04-15T22:54:41.388475+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Market-moving statements from Warsh or Fed officials",
-      "raw": "Market-moving statements from Warsh or Fed officials\n\nWithout current breaking news in these search results, I cannot responsibly generate the formatted response you're seeking.",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
+      "category": "CRYPTO"
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 9,
+    "enter": 4,
+    "alert": 8,
     "watch": 0,
-    "high_conf": 1
+    "high_conf": 4
   }
 }
