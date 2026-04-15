@@ -1,33 +1,61 @@
 {
-  "last_scan": "2026-04-15T22:51:52.658412+00:00",
-  "scan_seconds": 38.3,
+  "last_scan": "2026-04-15T22:54:42.389206+00:00",
+  "scan_seconds": 27.8,
   "markets_scanned": 136,
   "open_positions": 98,
   "signals": [
     {
-      "id": "sig_280179",
-      "timestamp": "2026-04-15T22:51:43.884207+00:00",
+      "id": "sig_457632",
+      "timestamp": "2026-04-15T22:54:41.337650+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot identify a specific breaking news event that has just been confirmed or announced today that would move predict",
-      "raw": "I cannot identify a specific breaking news event that has just been confirmed or announced today that would move prediction markets based on these search results. The results contain April 2026 market analysis and price data, but they do not reference a particular news development occurring on April 15, 2026.\n\nThe search results discuss ongoing market conditions\u2014such as **geopolitical tensions bet",
+      "headline": "I cannot identify breaking news from these search results that would move prediction markets as of April 15, 2026",
+      "raw": "I cannot identify breaking news from these search results that would move prediction markets as of April 15, 2026.\n\nThe search results contain articles from February and early April 2026 discussing Kevin Warsh's nomination and potential appointment as Federal Reserve Chair, but they do not contain announcements, confirmations, or resolutions dated today or very recently that would constitute break",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "US x Iran permanent peace deal by April 22, 2026?",
-        "US x Iran diplomatic meeting by April 18, 2026?"
+        "Kevin Warsh confirmed as Fed Chair by May 15?"
       ],
       "action": "ENTER",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "ECONOMICS"
     },
     {
-      "id": "sig_266844",
-      "timestamp": "2026-04-15T22:51:30.549229+00:00",
+      "id": "sig_445345",
+      "timestamp": "2026-04-15T22:54:29.050082+00:00",
       "source": "PERPLEXITY",
-      "headline": "| NO | HIGH confidence**",
-      "raw": "| NO | HIGH confidence**",
+      "headline": "Search results show no matching events: [1] covers Republican Joe Hathaway's pre-election comments on a New Jersey speci",
+      "raw": "Search results show no matching events: [1] covers Republican Joe Hathaway's pre-election comments on a New Jersey special House race (election on Thursday, April 16), criticizing his Democratic opponent but announcing nothing new[1].",
       "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Joe Hathaway win the NJ-11 special election?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_445354",
+      "timestamp": "2026-04-15T22:54:29.059600+00:00",
+      "source": "PERPLEXITY",
+      "headline": "[2] describes a recent, sparsely attended JD Vance rally with Turning Point USA in Georgia amid criticism of Trump-relat",
+      "raw": "[2] describes a recent, sparsely attended JD Vance rally with Turning Point USA in Georgia amid criticism of Trump-related issues and a failed Pakistan trip on Iran war talks, but no confirmations, announcements, or resolutions today[2].",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Trump announces end of military operations against Iran by A"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_445363",
+      "timestamp": "2026-04-15T22:54:29.068947+00:00",
+      "source": "PERPLEXITY",
+      "headline": "[3] reports on a DC teen curfew expiring (unrelated to query terms), with an extension vote planned for April 21[3]",
+      "raw": "[3] reports on a DC teen curfew expiring (unrelated to query terms), with an extension vote planned for April 21[3].",
+      "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -35,26 +63,90 @@
       "category": "POLITICS"
     },
     {
-      "id": "sig_287952",
-      "timestamp": "2026-04-15T22:51:51.657766+00:00",
+      "id": "sig_445373",
+      "timestamp": "2026-04-15T22:54:29.078355+00:00",
       "source": "PERPLEXITY",
-      "headline": "Kevin Warsh nomination as next Fed Chair sparks speculation on rate cuts and reforms amid Powell succession",
-      "raw": "Kevin Warsh nomination as next Fed Chair sparks speculation on rate cuts and reforms amid Powell succession.** | YES | HIGH confidence\n\nKevin Warsh, former Fed governor and current Coupang board member, has emerged as the top contender to succeed Jerome Powell as Federal Reserve Chair, with the successor announcement expected imminently (possibly tomorrow Korea time).[3][1][4] Reports highlight hi",
-      "direction": "YES",
-      "confidence": 0.6,
+      "headline": "No White House ties, April-specific resolutions, or prediction market-impacting developments appear in results; coverage",
+      "raw": "No White House ties, April-specific resolutions, or prediction market-impacting developments appear in results; coverage is ongoing/routine, not \"right now\" breaking[1][2][3].",
+      "direction": "NO",
+      "confidence": 0.65,
       "matched_markets": [
-        "Kevin Warsh confirmed as Fed Chair by May 15?",
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+        "Will the White House call a full lid by 6:30PM on April 14?"
       ],
-      "action": "WATCH",
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_457642",
+      "timestamp": "2026-04-15T22:54:41.347965+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Senate confirmation vote results",
+      "raw": "Senate confirmation vote results",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_457653",
+      "timestamp": "2026-04-15T22:54:41.358353+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Official appointment announcements",
+      "raw": "Official appointment announcements",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_457663",
+      "timestamp": "2026-04-15T22:54:41.368480+00:00",
+      "source": "PERPLEXITY",
+      "headline": "New inflation data releases",
+      "raw": "New inflation data releases",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_457673",
+      "timestamp": "2026-04-15T22:54:41.378425+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Federal Reserve policy decisions",
+      "raw": "Federal Reserve policy decisions",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_457683",
+      "timestamp": "2026-04-15T22:54:41.388475+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Market-moving statements from Warsh or Fed officials",
+      "raw": "Market-moving statements from Warsh or Fed officials\n\nWithout current breaking news in these search results, I cannot responsibly generate the formatted response you're seeking.",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
       "x_link": null,
       "category": "ECONOMICS"
     }
   ],
   "stats": {
     "enter": 1,
-    "alert": 1,
-    "watch": 1,
+    "alert": 9,
+    "watch": 0,
     "high_conf": 1
   }
 }
