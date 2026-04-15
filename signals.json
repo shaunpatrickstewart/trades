@@ -1,72 +1,63 @@
 {
-  "last_scan": "2026-04-15T13:23:32.465579+00:00",
-  "scan_seconds": 26.3,
-  "markets_scanned": 82,
-  "open_positions": 43,
+  "last_scan": "2026-04-15T13:26:27.074271+00:00",
+  "scan_seconds": 28.9,
+  "markets_scanned": 78,
+  "open_positions": 41,
   "signals": [
     {
-      "id": "sig_176957",
-      "timestamp": "2026-04-15T13:23:20.696552+00:00",
+      "id": "sig_351277",
+      "timestamp": "2026-04-15T13:26:15.016504+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot provide the breaking news format you've requested because the search results don't contain information about ma",
-      "raw": "I cannot provide the breaking news format you've requested because the search results don't contain information about market-moving confirmations, announcements, or resolutions that would specifically impact prediction markets.\n\nThe search results discuss ongoing tensions between the Trinamool Congress (TMC) and India's Election Commission regarding West Bengal's 2026 assembly elections\u2014including ",
-      "direction": null,
-      "confidence": 0.9,
+      "headline": "US launches Strait of Hormuz blockade after VP JD Vance's failed Iran talks in Pakistan** | YES | HIGH confidence[2][3]",
+      "raw": "US launches Strait of Hormuz blockade after VP JD Vance's failed Iran talks in Pakistan** | YES | HIGH confidence[2][3]\n\nVP **JD Vance** (R-Ohio), alongside envoys Steve Witkoff and Jared Kushner, led marathon US-Iran negotiations in Islamabad over the weekend that collapsed due to Iran's refusal to abandon its nuclear program[2][3]. President Trump responded by announcing and enforcing a naval **",
+      "direction": "YES",
+      "confidence": 0.65,
       "matched_markets": [
         "Will J.D. Vance win the 2028 Republican presidential nominat",
-        "Will the All India Trinamool Congress (AITC) win the most seats in the 2026 West",
-        "Will the Indian Union Muslim League (IUML) win between 10 and 12 seats in the 20"
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "US x Iran permanent peace deal by April 22, 2026?"
       ],
       "action": "ALERT",
       "x_link": null,
       "category": "POLITICS"
     },
     {
-      "id": "sig_181928",
-      "timestamp": "2026-04-15T13:23:25.667399+00:00",
+      "id": "sig_356807",
+      "timestamp": "2026-04-15T13:26:20.546735+00:00",
       "source": "PERPLEXITY",
-      "headline": "Evernode-T54 AI Partnership Confirmation** | YES | MED confidence[3]",
-      "raw": "Evernode-T54 AI Partnership Confirmation** | YES | MED confidence[3]  \nEvernode, the largest public XRP treasury company, confirmed partnership with T54 AI for AI-based agentic finance verification on the XRP Ledger, enabling real-time yield strategies, liquidity, and risk management\u2014a crucial system upgrade with market impact potential[3].",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_181933",
-      "timestamp": "2026-04-15T13:23:25.672871+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Technical Breakout Watch** | NO | HIGH confidence[1][2]",
-      "raw": "Technical Breakout Watch** | NO | HIGH confidence[1][2]  \nXRP price compresses in a symmetrical triangle with bullish MACD crossover but bearish momentum; no confirmed breakout yet, awaiting close above $1.3792 SMA50\u2014setup has potential but unresolved[1][2].",
+      "headline": "No breaking confirmations, announcements, or resolutions for XRP in April 2026 that would move prediction markets RIGHT",
+      "raw": "No breaking confirmations, announcements, or resolutions for XRP in April 2026 that would move prediction markets RIGHT NOW.**[1][2][3][4]\n\nXRP trades around **$1.35**, holding above $1.30 support amid range-bound action and anticipation of upcoming events like Senate CLARITY Act discussions (April 13), SEC roundtable (April 16), and late-April markup vote, but none have occurred or resolved as of",
       "direction": "NO",
       "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_181922",
-      "timestamp": "2026-04-15T13:23:25.661813+00:00",
-      "source": "PERPLEXITY",
-      "headline": "SEC Roundtable Guidance (15 April 2026)** | YES | HIGH confidence[1]",
-      "raw": "SEC Roundtable Guidance (15 April 2026)** | YES | HIGH confidence[1]  \nSEC clarified rules for crypto interfaces today, potentially benefiting XRPL's native DEX and signaling regulatory progress that could boost adoption and move prediction markets on XRP clarity[1].",
-      "direction": "YES",
-      "confidence": 0.6,
       "matched_markets": [
         "XRP Up or Down - April 16, 7:20AM-7:25AM ET"
       ],
-      "action": "WATCH",
+      "action": "ALERT",
       "x_link": null,
       "category": "CRYPTO"
+    },
+    {
+      "id": "sig_344079",
+      "timestamp": "2026-04-15T13:26:07.818067+00:00",
+      "source": "PERPLEXITY",
+      "headline": "US-Iran Ceasefire Talks Accelerate: Trump Announces Potential Round 2 in Pakistan Within 2 Days as 2-Week Truce Deadline",
+      "raw": "US-Iran Ceasefire Talks Accelerate: Trump Announces Potential Round 2 in Pakistan Within 2 Days as 2-Week Truce Deadline Looms** | YES | HIGH confidence[1][2][4][7]\n\nThe US-Iran two-week ceasefire, announced April 8 and mediated by Pakistan, remains in effect with no confirmed end as of April 14-15, amid UN calls for extension and reports of fragility from ongoing Israeli strikes in Lebanon[1][3][",
+      "direction": "YES",
+      "confidence": 0.6,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "US x Iran permanent peace deal by April 22, 2026?",
+        "Trump announces end of military operations against Iran by A"
+      ],
+      "action": "WATCH",
+      "x_link": null,
+      "category": "GEOPOLITICS"
     }
   ],
   "stats": {
     "enter": 0,
-    "alert": 3,
+    "alert": 2,
     "watch": 1,
-    "high_conf": 2
+    "high_conf": 0
   }
 }
