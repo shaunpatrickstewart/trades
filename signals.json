@@ -1,15 +1,15 @@
 {
-  "last_scan": "2026-04-15T13:06:49.178977+00:00",
-  "scan_seconds": 26.5,
-  "markets_scanned": 81,
-  "open_positions": 39,
+  "last_scan": "2026-04-15T13:09:35.372931+00:00",
+  "scan_seconds": 24.8,
+  "markets_scanned": 145,
+  "open_positions": 104,
   "signals": [
     {
-      "id": "sig_171121",
-      "timestamp": "2026-04-15T13:06:34.861562+00:00",
+      "id": "sig_339645",
+      "timestamp": "2026-04-15T13:09:23.385147+00:00",
       "source": "PERPLEXITY",
-      "headline": "Trump Declares 'End of Iran Conflict' Amid Second Round of Ceasefire Talks Looming Within Days | YES | MED confidence**",
-      "raw": "Trump Declares 'End of Iran Conflict' Amid Second Round of Ceasefire Talks Looming Within Days | YES | MED confidence**\n\nUS President Trump stated to Fox News that the war with Iran has ended, even as a fragile ceasefire holds following inconclusive first-round talks in Islamabad last weekend[2][1]. A second round of direct US-Iran negotiations is planned imminently\u2014potentially within days\u2014before ",
+      "headline": "Vance's Iran talks in Pakistan collapsed Saturday; Trump announced U",
+      "raw": "Vance's Iran talks in Pakistan collapsed Saturday; Trump announced U.S. Strait of Hormuz blockade Sunday amid fragile ceasefire.** | YES | HIGH confidence[2][3]",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
@@ -18,82 +18,70 @@
       ],
       "action": "ENTER",
       "x_link": null,
-      "category": "GEOPOLITICS"
+      "category": "POLITICS"
     },
     {
-      "id": "sig_179724",
-      "timestamp": "2026-04-15T13:06:43.464113+00:00",
+      "id": "sig_350621",
+      "timestamp": "2026-04-15T13:09:34.361738+00:00",
       "source": "PERPLEXITY",
-      "headline": "Ether, Solana, XRP Surge 8% as Crypto Markets Rally on Easing War Fears | YES | HIGH confidence**",
-      "raw": "Ether, Solana, XRP Surge 8% as Crypto Markets Rally on Easing War Fears | YES | HIGH confidence**  \nBitcoin broke above $72,000 for the first time since its February 5 crash, driven by reduced war anxiety, $700 million in U.S. spot bitcoin ETF inflows since March, and rebounding global equities, sparking broad altcoin gains including Ether (+7.5% to $2,114), Solana (+5.3% to $89.91), and XRP (+4.2",
+      "headline": "Kevin Warsh's nomination as next Fed Chair triggers market reactions amid inflation surge and rate hike speculation",
+      "raw": "Kevin Warsh's nomination as next Fed Chair triggers market reactions amid inflation surge and rate hike speculation.**  \nNO | HIGH confidence[1][2][3][5]\n\nKevin Warsh, former Fed governor and current Coupang director, has emerged as the top contender to succeed Jerome Powell as Fed Chair by mid-May, with his nomination already causing KOSPI to drop over 5% due to expectations of balance sheet shri",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "US x Iran permanent peace deal by April 22, 2026?",
-        "US x Iran diplomatic meeting by April 18, 2026?"
+        "Kevin Warsh confirmed as Fed Chair by May 15?"
       ],
       "action": "ENTER",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "ECONOMICS"
     },
     {
-      "id": "sig_174801",
-      "timestamp": "2026-04-15T13:06:38.541112+00:00",
+      "id": "sig_350632",
+      "timestamp": "2026-04-15T13:09:34.372322+00:00",
       "source": "PERPLEXITY",
-      "headline": "House of Representatives advances impeachment vote against President Trump",
-      "raw": "House of Representatives advances impeachment vote against President Trump.**  \nYES | HIGH confidence[3]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_174806",
-      "timestamp": "2026-04-15T13:06:38.546750+00:00",
-      "source": "PERPLEXITY",
-      "headline": "VP JD Vance's Iran negotiations in Pakistan collapse without agreement",
-      "raw": "VP JD Vance's Iran negotiations in Pakistan collapse without agreement.**  \nYES | MED confidence[2]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_174812",
-      "timestamp": "2026-04-15T13:06:38.552297+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Hungarian PM Viktor Orb\u00e1n suffers election defeat after Vance campaigned for him",
-      "raw": "Hungarian PM Viktor Orb\u00e1n suffers election defeat after Vance campaigned for him.**  \nYES | HIGH confidence[2][4]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_184437",
-      "timestamp": "2026-04-15T13:06:48.178006+00:00",
-      "source": "PERPLEXITY",
-      "headline": "NO | LOW confidence** (due to absence of real-time events in results)",
-      "raw": "NO | LOW confidence** (due to absence of real-time events in results).",
-      "direction": "NO",
-      "confidence": 0.65,
+      "headline": "Prediction market impact:** South Korean stocks (KOSPI) already moved on nomination news; US markets price in hike risks",
+      "raw": "Prediction market impact:** South Korean stocks (KOSPI) already moved on nomination news; US markets price in hike risks pre- and post-energy shock[1][5].",
+      "direction": null,
+      "confidence": 0.9,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_339656",
+      "timestamp": "2026-04-15T13:09:23.396302+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Hungarian PM Viktor Orban defeated in election days after Vance rallied for him in Budapest",
+      "raw": "Hungarian PM Viktor Orban defeated in election days after Vance rallied for him in Budapest.** | YES | HIGH confidence[2][3]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_339666",
+      "timestamp": "2026-04-15T13:09:23.406973+00:00",
+      "source": "PERPLEXITY",
+      "headline": "White House affirms Trump's full confidence in VP Vance and Sec",
+      "raw": "White House affirms Trump's full confidence in VP Vance and Sec. Rubio despite their Iran war policy differences.** | YES | MED confidence[1]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Trump announces end of military operations against Iran by A",
+        "Will the White House call a full lid by 6:30PM on April 14?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
     }
   ],
   "stats": {
     "enter": 2,
-    "alert": 4,
+    "alert": 3,
     "watch": 0,
-    "high_conf": 2
+    "high_conf": 3
   }
 }
