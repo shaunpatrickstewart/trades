@@ -604,7 +604,7 @@
       "hypothesis": "NEAR_CERTAIN is profitable (93.6% WR, +$16.32) but makes <$0.23/trade. Research shows pros scale these to thousands of dollars per trade to generate real income. At $10/bet we need 4,000+ trades to make $1,000.",
       "source": "Paper trade analysis + Grok research",
       "action": "Test 5x bet size increase ($10\u2192$50) on NEAR_CERTAIN. Downside: avg loss goes from $2.49 to $12.45. Need 93.6%+ WR sustained at higher sizes.",
-      "result": "W=8891 L=56 PnL=$2566.97 open=78",
+      "result": "W=9102 L=56 PnL=$2698.78 open=3",
       "priority": "HIGH"
     },
     {
@@ -644,7 +644,7 @@
       "hypothesis": "Instead of independently picking markets, copy elite wallet positions expiring within 14 days. Same wallets have been scoring >60% WR on LONG_TERM trades.",
       "source": "Shaun's original intent for SHORT_TERM engine",
       "action": "Rewrite run_short_term_scan() to copy elite wallet positions with end_date within SHORT_TERM_DAYS.",
-      "result": "W=25 L=31 PnL=$-60.06",
+      "result": "W=26 L=31 PnL=$-50.93",
       "priority": "LIVE",
       "notes": "SHORT_TERM disabled (cap=0). W=12 L=21 -$71.38 total"
     },
