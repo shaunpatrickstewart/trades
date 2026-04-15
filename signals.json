@@ -1,15 +1,32 @@
 {
-  "last_scan": "2026-04-15T01:15:42.726873+00:00",
-  "scan_seconds": 31.9,
+  "last_scan": "2026-04-15T01:18:29.892005+00:00",
+  "scan_seconds": 26.9,
   "markets_scanned": 120,
   "open_positions": 86,
   "signals": [
     {
-      "id": "sig_517942",
-      "timestamp": "2026-04-15T01:15:41.725875+00:00",
+      "id": "sig_666723",
+      "timestamp": "2026-04-15T01:18:10.506493+00:00",
       "source": "PERPLEXITY",
-      "headline": "Germany March 2026 Inflation Confirmed at +2",
-      "raw": "Germany March 2026 Inflation Confirmed at +2.7% | YES | HIGH confidence**  \nGermany's consumer price index rose to +2.7% year-on-year in March 2026, the highest since January 2024 (+2.9%), driven by a +7.2% surge in energy prices amid the Iran war; this exceeded February's +1.9% and pre-war expectations near 2%[1][2].  \nThis official Destatis release on April 10, 2026, marks a sharp reversal, like",
+      "headline": "US Begins Naval Blockade of Iranian Ports; Trump Warns of Eliminating Iranian Attack Ships | NO | HIGH confidence**",
+      "raw": "US Begins Naval Blockade of Iranian Ports; Trump Warns of Eliminating Iranian Attack Ships | NO | HIGH confidence**  \nPresident Donald Trump has enacted a US naval blockade on Iran's ports and coastal areas, effective immediately, with declarations that any Iranian fast attack ships approaching US vessels will be eliminated; Tehran vows retaliation.[1]  \nNo ceasefire announcements or resolutions c",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces US x Iran ceasefire end by April 21, 2026?",
+        "Will Trump announce that the US x Iran ceasefire has been br"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_672078",
+      "timestamp": "2026-04-15T01:18:15.861783+00:00",
+      "source": "PERPLEXITY",
+      "headline": "JD Vance Returns from Failed Iran Talks; Trump Announces Strait of Hormuz Blockade** | **YES** | **HIGH** confidence[2][",
+      "raw": "JD Vance Returns from Failed Iran Talks; Trump Announces Strait of Hormuz Blockade** | **YES** | **HIGH** confidence[2][3]\n\nVice President **JD Vance** has returned to the US after leading talks with Iran in Pakistan that failed to reach a deal, primarily due to disagreements on uranium enrichment, nuclear facilities, and Iran's regional activities[2][3][6]. President **Trump** responded by announ",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
@@ -19,158 +36,84 @@
       ],
       "action": "ENTER",
       "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_685090",
+      "timestamp": "2026-04-15T01:18:28.873725+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Germany Inflation Surges to 2",
+      "raw": "Germany Inflation Surges to 2.7% in March 2026 | YES | HIGH confidence**\nGermany's annual inflation rate jumped to 2.7% in March 2026, accelerating sharply from 1.9% in February and marking the highest level since January 2024[3]. The increase was primarily driven by a 7.2% spike in energy prices, with fuel costs rising 20% and heating oil surging 44.4%[3].",
+      "direction": "YES",
+      "confidence": 0.78,
+      "matched_markets": [
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_498454",
-      "timestamp": "2026-04-15T01:15:22.237694+00:00",
+      "id": "sig_685073",
+      "timestamp": "2026-04-15T01:18:28.856237+00:00",
       "source": "PERPLEXITY",
-      "headline": "**Ceasefire Status**: The original two-week ceasefire announced April 8 remains fragile but holding, though the ceasefir",
-      "raw": "**Ceasefire Status**: The original two-week ceasefire announced April 8 remains fragile but holding, though the ceasefire is set to expire early next week[2][3].",
-      "direction": null,
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces US x Iran ceasefire end by April 21, 2026?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_498497",
-      "timestamp": "2026-04-15T01:15:22.280364+00:00",
-      "source": "PERPLEXITY",
-      "headline": "No final resolution or major announcement has been confirmed as of the latest reports** (April 14, 2026), making this a",
-      "raw": "No final resolution or major announcement has been confirmed as of the latest reports** (April 14, 2026), making this a situation of escalating tensions rather than breakthrough progress.",
-      "direction": "NO",
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_498419",
-      "timestamp": "2026-04-15T01:15:22.202761+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Based on the search results, here is the latest breaking news:",
-      "raw": "Based on the search results, here is the latest breaking news:",
+      "headline": "Based on the most recent data available in the search results (through March 2026), here are the key inflation developme",
+      "raw": "Based on the most recent data available in the search results (through March 2026), here are the key inflation developments:",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "GEOPOLITICS"
+      "category": "ECONOMICS"
     },
     {
-      "id": "sig_498438",
-      "timestamp": "2026-04-15T01:15:22.221858+00:00",
+      "id": "sig_685081",
+      "timestamp": "2026-04-15T01:18:28.864995+00:00",
       "source": "PERPLEXITY",
-      "headline": "US and Iran Ceasefire Faltering as Negotiations Stall** | NO (no resolution confirmed) | HIGH confidence",
-      "raw": "US and Iran Ceasefire Faltering as Negotiations Stall** | NO (no resolution confirmed) | HIGH confidence\n\nThe most recent development is that **negotiations between the US and Iran are at a critical juncture with no deal reached**[2]. Talks held in Islamabad over the weekend ended without agreement, and both sides are now discussing another round of negotiations before the two-week ceasefire (anno",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces US x Iran ceasefire end by April 21, 2026?",
-        "US x Iran permanent peace deal by April 22, 2026?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_498467",
-      "timestamp": "2026-04-15T01:15:22.250695+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Blockade Escalation**: The US has imposed a blockade on Iranian shipping in the Strait of Hormuz, targeting Iranian oi",
-      "raw": "**Blockade Escalation**: The US has imposed a blockade on Iranian shipping in the Strait of Hormuz, targeting Iranian oil tankers while allowing other international transit under monitoring[3].",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_498479",
-      "timestamp": "2026-04-15T01:15:22.262145+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Iran's Red Lines Conflict**: Expert analysis indicates fundamental incompatibility between US and Iranian positions\u2014th",
-      "raw": "**Iran's Red Lines Conflict**: Expert analysis indicates fundamental incompatibility between US and Iranian positions\u2014the US demands removal of Iran's enriched uranium stockpile, while Iran appears unwilling to concede this[3].",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_498488",
-      "timestamp": "2026-04-15T01:15:22.272000+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Timeline Pressure**: Fresh talks must occur \"this week\" to have any chance of extending beyond the ceasefire expiratio",
-      "raw": "**Timeline Pressure**: Fresh talks must occur \"this week\" to have any chance of extending beyond the ceasefire expiration[2].",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_511315",
-      "timestamp": "2026-04-15T01:15:35.098658+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Solana Hits All-Time Record 167 Million Monthly Token Holders & 148 Million Daily Non-Vote Transactions on April 14, 202",
-      "raw": "Solana Hits All-Time Record 167 Million Monthly Token Holders & 148 Million Daily Non-Vote Transactions on April 14, 2026 | YES | HIGH confidence**  \nSolana network achieved unprecedented activity metrics as of April 14, 2026, with 167 million monthly token holders and daily non-vote transactions at historic highs of 148 million, signaling robust growth amid market consolidation[2]. This milestone",
+      "headline": "South Korea Inflation Rises to 2",
+      "raw": "South Korea Inflation Rises to 2.16% in March 2026 | YES | HIGH confidence**\nSouth Korea's annual inflation rate climbed to 2.16% in March 2026, up from 2.0% in February, though it fell short of market forecasts of 2.4%[1][2]. This represents a slight acceleration but remains relatively modest.",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
-        "Will Solana reach $105 on April 14?",
-        "Will the price of Solana be above $100 on April 16?",
-        "Will the price of Solana be between $100 and $110 on April 1"
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "ECONOMICS"
     },
     {
-      "id": "sig_511332",
-      "timestamp": "2026-04-15T01:15:35.115202+00:00",
+      "id": "sig_685099",
+      "timestamp": "2026-04-15T01:18:28.882520+00:00",
       "source": "PERPLEXITY",
-      "headline": "SEC/CFTC Classify Digital Assets like Solana as Commodities, Boosting Regulatory Clarity | YES | MED confidence**",
-      "raw": "SEC/CFTC Classify Digital Assets like Solana as Commodities, Boosting Regulatory Clarity | YES | MED confidence**  \nRecent SEC and CFTC classification of digital assets as commodities provides Solana with regulatory tailwinds, lifting price predictions and drawing institutional capital despite market fear (Fear & Greed Index at 11), with SOL trading near $82 and Standard Chartered raising 2026 tar",
-      "direction": "YES",
+      "headline": "Forecast: South Korea Inflation Expected at 2",
+      "raw": "Forecast: South Korea Inflation Expected at 2.6% by Q2 2026 End | MED confidence**\nTrading Economics projects South Korea's inflation rate to reach 2.60% by the end of the second quarter, with longer-term expectations of approximately 2.0% in 2027[2].",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_685108",
+      "timestamp": "2026-04-15T01:18:28.891333+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Forecast: Germany Inflation Expected at 3",
+      "raw": "Forecast: Germany Inflation Expected at 3.1% by Q2 2026 End | MED confidence**\nTrading Economics models forecast Germany's inflation to reach 3.10% by the end of the second quarter, with long-term projections of 2.70% in 2027[3].\n\nThe search results do not contain current GDP data or announcements from April 15, 2026.",
+      "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_511349",
-      "timestamp": "2026-04-15T01:15:35.132764+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Polymarket Odds for All-Time Highs by End-2026: BTC 14%, ETH 16%, SOL 10%, XRP 13% (April 14 Update) | NO | LOW confiden",
-      "raw": "Polymarket Odds for All-Time Highs by End-2026: BTC 14%, ETH 16%, SOL 10%, XRP 13% (April 14 Update) | NO | LOW confidence**  \nPrediction market probabilities on Polymarket show cautious optimism for ATHs by December 2026 but remain low (under 16% across assets), with no sudden shifts or resolutions to move markets significantly as of April 14[1]. Earlier April items like XRP's regulatory certaint",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Solana reach $105 on April 14?",
-        "Will the price of XRP be above $1.70 on April 15?",
-        "Will the price of XRP be above $1.00 on April 16?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
+      "category": "ECONOMICS"
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 10,
+    "enter": 2,
+    "alert": 5,
     "watch": 0,
-    "high_conf": 3
+    "high_conf": 2
   }
 }
