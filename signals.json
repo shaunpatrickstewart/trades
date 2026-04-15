@@ -1,60 +1,63 @@
 {
-  "last_scan": "2026-04-15T23:23:17.169519+00:00",
-  "scan_seconds": 26.4,
-  "markets_scanned": 138,
-  "open_positions": 96,
+  "last_scan": "2026-04-15T23:26:05.609384+00:00",
+  "scan_seconds": 26.9,
+  "markets_scanned": 80,
+  "open_positions": 38,
   "signals": [
     {
-      "id": "sig_172465",
-      "timestamp": "2026-04-15T23:23:16.168829+00:00",
+      "id": "sig_329734",
+      "timestamp": "2026-04-15T23:25:53.437565+00:00",
       "source": "PERPLEXITY",
-      "headline": "Trump Nominates Kevin Warsh as Next Fed Chair to Succeed Powell | YES | HIGH confidence** [1][2][3][4][5]",
-      "raw": "Trump Nominates Kevin Warsh as Next Fed Chair to Succeed Powell | YES | HIGH confidence** [1][2][3][4][5]\n\nPresident Trump has announced his intention to nominate Kevin Warsh, former Fed Governor (2006-2011), as the next Federal Reserve chair, sparking debate on Fed independence, inflation policy, and potential rate cuts amid annual inflation concerns.[1][2][3][4] Warsh, a past critic of prolonged",
-      "direction": "YES",
+      "headline": "King Charles Confirms US State Visit to Meet Trump on April 28 Despite UK Political Backlash and Iran Tensions | NO | LO",
+      "raw": "King Charles Confirms US State Visit to Meet Trump on April 28 Despite UK Political Backlash and Iran Tensions | NO | LOW confidence**\n\nNo breaking confirmation, announcement, or resolution today (April 15, 2026) directly involving the White House and Republicans that has \"obliterated\" expectations or shifted prediction markets[1][2][3]. UK opposition leader Ed Davey demanded cancellation of King ",
+      "direction": "NO",
       "confidence": 0.9,
       "matched_markets": [
-        "Kevin Warsh confirmed as Fed Chair by May 15?",
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces end of military operations against Iran by A",
+        "Will the White House call a full lid by 6:30PM on April 14?"
       ],
       "action": "ENTER",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_340905",
+      "timestamp": "2026-04-15T23:26:04.608472+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Kevin Warsh's nomination as next Fed Chair by President Trump, amid surging inflation and oil shock, sparks debate on po",
+      "raw": "Kevin Warsh's nomination as next Fed Chair by President Trump, amid surging inflation and oil shock, sparks debate on potential rate hikes instead of cuts.** | YES | HIGH confidence[1][2][3][4][5][6][7]\n\nWarsh, former Fed governor (2006-2011) known for hawkish inflation stance, is top contender to succeed Jerome Powell by mid-May 2026; his first act could involve rate hike as core PCE inflation hi",
+      "direction": "YES",
+      "confidence": 0.78,
+      "matched_markets": [
+        "Kevin Warsh confirmed as Fed Chair by May 15?"
+      ],
+      "action": "ALERT",
       "x_link": null,
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_156477",
-      "timestamp": "2026-04-15T23:23:00.180924+00:00",
+      "id": "sig_324520",
+      "timestamp": "2026-04-15T23:25:48.223881+00:00",
       "source": "PERPLEXITY",
-      "headline": "Impact on prediction markets: LOW confidence in movement**\u2014Easter truce was too short/fragile to qualify as the \"officia",
-      "raw": "Impact on prediction markets: LOW confidence in movement**\u2014Easter truce was too short/fragile to qualify as the \"official, mutually agreed halt\" needed for YES resolution, per market rules; no fresh announcements today. [3]",
+      "headline": "US, Israel, and Iran Agree to Two-Week Ceasefire in Last-Minute Deal; Kremlin Welcomes It as Strait of Hormuz Remains Cl",
+      "raw": "US, Israel, and Iran Agree to Two-Week Ceasefire in Last-Minute Deal; Kremlin Welcomes It as Strait of Hormuz Remains Closed | YES | HIGH confidence**[1][4]\n\nRussia, a key Iranian partner providing intelligence and drone advice, publicly welcomed the US-Israel-Iran ceasefire announced on Wednesday (April 8-15, 2026 context), which aims to halt escalation after Trump's threats to strike Iranian inf",
       "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
+      "confidence": 0.6,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Will Russia enter Ternuvate again by April 30?",
+        "Trump announces end of military operations against Iran by A"
+      ],
+      "action": "WATCH",
       "x_link": null,
       "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_161800",
-      "timestamp": "2026-04-15T23:23:05.503215+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Trump Names JD Vance 'Fraud Czar' via Truth Social, Task Force Busts $50M California Healthcare Fraud Scheme** | **YES**",
-      "raw": "Trump Names JD Vance 'Fraud Czar' via Truth Social, Task Force Busts $50M California Healthcare Fraud Scheme** | **YES** | **HIGH** confidence[1]\n\nPresident Trump officially proclaimed Vice President **JD Vance** as the nation's \"fraud czar\" in a **Truth Social** post Friday, following Vance's Thursday announcement of his anti-fraud task force suspending 221 California hospice and healthcare provi",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will J.D. Vance win the 2028 Republican presidential nominat",
-        "Will the White House call a full lid by 6:30PM on April 14?",
-        "Will Donald Trump post 40-59 Truth Social posts from April 1"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
     }
   ],
   "stats": {
     "enter": 1,
-    "alert": 2,
-    "watch": 0,
+    "alert": 1,
+    "watch": 1,
     "high_conf": 1
   }
 }
