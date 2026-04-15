@@ -1,188 +1,80 @@
 {
-  "last_scan": "2026-04-15T22:37:33.501710+00:00",
-  "scan_seconds": 38.1,
-  "markets_scanned": 143,
-  "open_positions": 107,
+  "last_scan": "2026-04-15T22:40:23.120274+00:00",
+  "scan_seconds": 26.7,
+  "markets_scanned": 159,
+  "open_positions": 123,
   "signals": [
     {
-      "id": "sig_400965",
-      "timestamp": "2026-04-15T22:37:04.671498+00:00",
+      "id": "sig_588397",
+      "timestamp": "2026-04-15T22:40:12.103864+00:00",
       "source": "PERPLEXITY",
-      "headline": "US-Iran ceasefire talks collapse in Islamabad over the weekend | NO | HIGH confidence**[9]",
-      "raw": "US-Iran ceasefire talks collapse in Islamabad over the weekend | NO | HIGH confidence**[9]\n\nNo new confirmations, announcements, or resolutions on an Iran ceasefire have occurred right now on April 15, 2026; the two-week ceasefire announced on April 8 has expired without extension, as talks failed.[2][3][4][5][9] The UN chief urged continuation on April 14 amid ongoing violations and Strait of Hor",
+      "headline": "White House Executive Order on Election Citizenship Verification (March 31)** | NO | LOW confidence[5]",
+      "raw": "White House Executive Order on Election Citizenship Verification (March 31)** | NO | LOW confidence[5]\n\nPresident Trump issued an order mandating DHS/SSA data use for voter eligibility checks and state fraud probes, but dated pre-April with no April announcements or market-moving updates confirmed[5].",
+      "direction": "NO",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will the White House call a full lid by 6:30PM on April 14?",
+        "Will Donald Trump post 40-59 Truth Social posts from April 1",
+        "Will Trump agree to unfreeze Iranian assets in April?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_593639",
+      "timestamp": "2026-04-15T22:40:17.345792+00:00",
+      "source": "PERPLEXITY",
+      "headline": "US-Iran Two-Week Ceasefire Announced, Boosting BTC to $72K, ETH to $2",
+      "raw": "US-Iran Two-Week Ceasefire Announced, Boosting BTC to $72K, ETH to $2.2K, XRP to $1.38 | YES | HIGH confidence** [4]\n\nThis breaking development eases geopolitical tensions from prior Strait of Hormuz blockade risks, sparking risk-on sentiment and price recoveries across BTC (+ rally from range-bound $70K levels), ETH (above key resistance after 6% weekly gain), and XRP (rebound from $1.30 support ",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
         "US x Iran permanent peace deal by April 22, 2026?",
-        "Trump announces end of military operations against Iran by A"
+        "US x Iran diplomatic meeting by April 18, 2026?"
       ],
       "action": "ENTER",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_420721",
-      "timestamp": "2026-04-15T22:37:24.427469+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Major Institutional Ethereum Accumulation Confirmed | YES | HIGH confidence**",
-      "raw": "Major Institutional Ethereum Accumulation Confirmed | YES | HIGH confidence**\nBitMine significantly expanded its ETH holdings by 71,524 coins this week, bringing total holdings to nearly 4.9 million ETH (almost 4% of total supply) worth approximately $10.7 billion[3]. This aggressive institutional buying signals confidence in Ethereum's near-term prospects[2].",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_428667",
-      "timestamp": "2026-04-15T22:37:32.373775+00:00",
+      "id": "sig_588372",
+      "timestamp": "2026-04-15T22:40:12.078614+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot provide a \"breaking news\" update in the format you've requested because the search results provided are dated f",
-      "raw": "I cannot provide a \"breaking news\" update in the format you've requested because the search results provided are dated from February-March 2026, which are **past events relative to your current date of April 15, 2026**.\n\nThe most recent confirmed announcement in these results is **Kevin Warsh's nomination as Federal Reserve Chair, announced January 30, 2026**[5]. This is approximately 2.5 months o",
-      "direction": null,
-      "confidence": 0.9,
-      "matched_markets": [
-        "Kevin Warsh confirmed as Fed Chair by May 15?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_412338",
-      "timestamp": "2026-04-15T22:37:16.044382+00:00",
-      "source": "PERPLEXITY",
-      "headline": "White House Confirms President Trump\u2019s Full Confidence in VP Vance and Sec",
-      "raw": "White House Confirms President Trump\u2019s Full Confidence in VP Vance and Sec. Rubio Amid Iran War Policy Differences and 2028 GOP Rivalry** | YES | HIGH confidence[1]\n\nThe White House issued an unsolicited statement on Wednesday affirming that \"President Trump has full confidence in both Vice President Vance and Secretary Rubio, who continue to be trusted voices within the administration,\" directly ",
+      "headline": "GA-14 Special Election Runoff Set: Trump-Backed Clay Fuller Advances as Frontrunner to Fill Marjorie Taylor Greene's Sea",
+      "raw": "GA-14 Special Election Runoff Set: Trump-Backed Clay Fuller Advances as Frontrunner to Fill Marjorie Taylor Greene's Seat** | YES | HIGH confidence[1]\n\nRepublicans hold a slim 218-214 House majority, making this solidly red northwest Georgia district (Trump +37 in 2024) critical; Fuller, a local prosecutor, advanced from a crowded March primary and is expected to consolidate GOP support against De",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
         "Will J.D. Vance win the 2028 Republican presidential nominat",
-        "Trump announces end of military operations against Iran by A",
-        "Will the White House call a full lid by 6:30PM on April 14?"
+        "Will Donald Trump post 40-59 Truth Social posts from April 1",
+        "Will Trump agree to unfreeze Iranian assets in April?"
       ],
       "action": "ALERT",
       "x_link": null,
       "category": "POLITICS"
     },
     {
-      "id": "sig_420659",
-      "timestamp": "2026-04-15T22:37:24.365580+00:00",
+      "id": "sig_588385",
+      "timestamp": "2026-04-15T22:40:12.091308+00:00",
       "source": "PERPLEXITY",
-      "headline": "Based on the available search results, here are the most significant recent developments affecting Ethereum and Bitcoin",
-      "raw": "Based on the available search results, here are the most significant recent developments affecting Ethereum and Bitcoin prediction markets:",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_420690",
-      "timestamp": "2026-04-15T22:37:24.396341+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Ethereum Surges Past $2,370 After Weekend Recovery | YES | HIGH confidence**",
-      "raw": "Ethereum Surges Past $2,370 After Weekend Recovery | YES | HIGH confidence**\nEthereum rallied approximately 8% from the $2,100s to $2,370.04 as of April 14, 2026, following weekend geopolitical concerns that had pressured the market[2]. This represents a $174 daily increase and marks a potential technical breakout with key resistance identified at $2,400[2].",
+      "headline": "VP JD Vance Rallies in Georgia, Urges GOP Unity for 2026 Midterms** | NO | MED confidence[2][3]",
+      "raw": "VP JD Vance Rallies in Georgia, Urges GOP Unity for 2026 Midterms** | NO | MED confidence[2][3]\n\nVance headlined a Turning Point USA event in Athens, GA, emphasizing Republican consolidation to win tight midterm races (e.g., House by 20-30 seats), but the rally saw low attendance and some frustration among young conservatives over Trump's unrelated feuds[2][3]. No new confirmations or resolutions ",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
-        "Will Ethereum dip to $2,150 on April 15?"
+        "Will J.D. Vance win the 2028 Republican presidential nominat"
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_420749",
-      "timestamp": "2026-04-15T22:37:24.455366+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Bitcoin Rebounds Above $74,000 | YES | HIGH confidence**",
-      "raw": "Bitcoin Rebounds Above $74,000 | YES | HIGH confidence**\nBitcoin climbed back above $74,000 (specifically $74,314.61 as of April 14, 2026 at 8:30 a.m. ET) following the same weekend geopolitical recovery that lifted Ethereum[1][2].",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Ethereum dip to $2,150 on April 15?",
-        "Will Bitcoin reach $80,000 on April 15?",
-        "Will the price of Bitcoin be less than $64,000 on April 17?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_420779",
-      "timestamp": "2026-04-15T22:37:24.485832+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Technical Breakout Setup for ETH | YES | MEDIUM confidence**",
-      "raw": "Technical Breakout Setup for ETH | YES | MEDIUM confidence**\nEthereum is identified as \"finally breaking out\" with established support at $2,200 and resistance at $2,400, with next target around $3,000[2]. Spot ETH ETF inflows and the upcoming Pectra upgrade are cited as supporting factors[2].\n\nThe most market-moving confirmation is the institutional accumulation pattern combined with the technica",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_428700",
-      "timestamp": "2026-04-15T22:37:32.406759+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Warsh's confirmation status** as Fed Chair (approved by Senate",
-      "raw": "**Warsh's confirmation status** as Fed Chair (approved by Senate?)",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [
-        "Kevin Warsh confirmed as Fed Chair by May 15?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_428728",
-      "timestamp": "2026-04-15T22:37:32.434156+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Recent Fed policy decisions or announcements** in April 2026",
-      "raw": "**Recent Fed policy decisions or announcements** in April 2026",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_428758",
-      "timestamp": "2026-04-15T22:37:32.464910+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Current inflation data or economic indicators**",
-      "raw": "**Current inflation data or economic indicators**",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_428794",
-      "timestamp": "2026-04-15T22:37:32.500698+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**South Korea's response or market movements** related to Fed policy",
-      "raw": "**South Korea's response or market movements** related to Fed policy\n\nPlease provide updated search results from today's date, and I can deliver the headline format you're requesting with appropriate confidence levels based on current information.",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
+      "category": "POLITICS"
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 11,
+    "enter": 2,
+    "alert": 2,
     "watch": 0,
-    "high_conf": 3
+    "high_conf": 2
   }
 }
