@@ -8,9 +8,9 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 135 categorical arb opportunities found\nScanned 3000 events (1919 multi-outcome) at 2026-04-15 01:06 UTC\nBest: 9.7% profit on 'Guam Governor Democratic Primary Winner' \u2014 buy YES on all 3 outcomes (sum=0.903)\nStrategy: Buy YES on all 3 outcomes. Total cost: $0.9030. One wins $1.00. Profit: $0.0970 (9.70%)\n2nd: 9.55% on 'ECB Interest Rates: June 2026'",
+      "result": "LIVE \u2014 135 categorical arb opportunities found\nScanned 3000 events (1919 multi-outcome) at 2026-04-15 01:07 UTC\nBest: 9.7% profit on 'Guam Governor Democratic Primary Winner' \u2014 buy YES on all 3 outcomes (sum=0.903)\nStrategy: Buy YES on all 3 outcomes. Total cost: $0.9030. One wins $1.00. Profit: $0.0970 (9.70%)\n2nd: 9.55% on 'ECB Interest Rates: June 2026'",
       "priority": "HIGH",
-      "last_scan": "2026-04-15 01:06 UTC",
+      "last_scan": "2026-04-15 01:07 UTC",
       "opportunities": [
         {
           "event_title": "Guam Governor Democratic Primary Winner",
@@ -549,10 +549,10 @@
       "stats": {
         "total_events": 3000,
         "checked_multi_outcome": 1919,
-        "skipped_single_outcome": 585,
+        "skipped_single_outcome": 587,
         "opportunities_found": 135,
         "best_profit_pct": 9.7,
-        "scanned_at": "2026-04-15 01:06 UTC"
+        "scanned_at": "2026-04-15 01:07 UTC"
       }
     },
     {
