@@ -1,32 +1,58 @@
 {
-  "last_scan": "2026-04-15T02:48:47.671476+00:00",
-  "scan_seconds": 17.4,
-  "markets_scanned": 112,
-  "open_positions": 80,
+  "last_scan": "2026-04-15T02:51:58.350468+00:00",
+  "scan_seconds": 44.3,
+  "markets_scanned": 108,
+  "open_positions": 75,
   "signals": [
     {
-      "id": "sig_89923",
-      "timestamp": "2026-04-15T02:48:33.700480+00:00",
+      "id": "sig_256798",
+      "timestamp": "2026-04-15T02:51:20.575256+00:00",
       "source": "PERPLEXITY",
-      "headline": "US signals new Iran talks within days as ceasefire holds, per Trump announcement | YES | HIGH confidence**[1][3]",
-      "raw": "US signals new Iran talks within days as ceasefire holds, per Trump announcement | YES | HIGH confidence**[1][3]\n\nPresident Trump stated that a new round of US-Iran negotiations could begin within days, with Pakistan offering to host after prior talks in Islamabad failed; VP JD Vance confirmed the current ceasefire is holding amid constructive discussions seeking limits on Iran's nuclear program i",
+      "headline": "NEW ROUND OF US-IRAN TALKS SCHEDULED FOR PAKISTAN WITHIN 48 HOURS | YES | MED confidence**",
+      "raw": "NEW ROUND OF US-IRAN TALKS SCHEDULED FOR PAKISTAN WITHIN 48 HOURS | YES | MED confidence**\n\nTrump stated on April 14 (Tuesday) that direct talks with Iran could resume in Pakistan within two days, with Pakistan's Army Chief facilitating dialogue.[4] However, earlier negotiations in Islamabad had already collapsed over disagreements on uranium enrichment, regional proxy funding, and Strait of Hormu",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
         "Trump announces US x Iran ceasefire end by April 21, 2026?",
-        "Trump announces end of military operations against Iran by A"
+        "US x Iran permanent peace deal by April 22, 2026?"
       ],
       "action": "ENTER",
       "x_link": null,
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_102861",
-      "timestamp": "2026-04-15T02:48:46.638542+00:00",
+      "id": "sig_256781",
+      "timestamp": "2026-04-15T02:51:20.558028+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot provide breaking news in the format you've requested because the search results provided do not contain informa",
-      "raw": "I cannot provide breaking news in the format you've requested because the search results provided do not contain information released today (April 15, 2026). The most recent data in these results are from early March 2026, which is over six weeks old.\n\nThe latest confirmed figures available are:",
+      "headline": "Based on the search results provided, the most recent confirmed developments are from April 13, 2026, which is two days",
+      "raw": "Based on the search results provided, the most recent confirmed developments are from April 13, 2026, which is two days before your current date:",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_293522",
+      "timestamp": "2026-04-15T02:51:57.299101+00:00",
+      "source": "PERPLEXITY",
+      "headline": "What I can confirm from the search results:**",
+      "raw": "What I can confirm from the search results:**\n\nGermany's inflation rate **climbed to 2.7% in March 2026**, confirmed and marking the highest level since January 2024[1][2]. This was driven by a 7.2% spike in energy prices, the first yearly increase since December 2023, following the Iran war[1][2].\n\nGermany's **GDP growth forecast for 2026 was significantly downgraded to just +0.6%** from the prev",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_293563",
+      "timestamp": "2026-04-15T02:51:57.340618+00:00",
+      "source": "PERPLEXITY",
+      "headline": "The results contain forecast variations (EU forecasts differ from German institute forecasts), making it unclear which r",
+      "raw": "The results contain forecast variations (EU forecasts differ from German institute forecasts), making it unclear which represents the latest \"confirmed\" announcement.",
       "direction": null,
       "confidence": 0.9,
       "matched_markets": [],
@@ -35,104 +61,122 @@
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_94046",
-      "timestamp": "2026-04-15T02:48:37.823050+00:00",
+      "id": "sig_256789",
+      "timestamp": "2026-04-15T02:51:20.566560+00:00",
       "source": "PERPLEXITY",
-      "headline": "NJ Special Election Debate Drama: Republican Joe Hathaway Slams Democrat Rival for Dodging In-Person Debates Ahead of Ap",
-      "raw": "NJ Special Election Debate Drama: Republican Joe Hathaway Slams Democrat Rival for Dodging In-Person Debates Ahead of April 16 Vote | NO | LOW confidence**\n\nJoe Hathaway, the sole **Republican** candidate in New Jersey's 11th Congressional District special election to replace Gov.-elect Mikie Sherrill, accused Sanders-backed Democrat Analilia Mejia of repeatedly declining in-person debates propose",
-      "direction": "NO",
+      "headline": "US MILITARY BLOCKADE OF STRAIT OF HORMUZ TAKES EFFECT | YES | HIGH confidence**",
+      "raw": "US MILITARY BLOCKADE OF STRAIT OF HORMUZ TAKES EFFECT | YES | HIGH confidence**\n\nThe US Navy began blockading Iranian ports on April 13, 2026, with Trump warning that any Iranian vessels approaching the blockade would be \"immediately ELIMINATED.\"[3] This represents a significant escalation despite the two-week ceasefire that began April 7, and would likely move prediction markets on regional confl",
+      "direction": "YES",
+      "confidence": 0.78,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces US x Iran ceasefire end by April 21, 2026?",
+        "US x Iran permanent peace deal by April 22, 2026?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_256807",
+      "timestamp": "2026-04-15T02:51:20.584441+00:00",
+      "source": "PERPLEXITY",
+      "headline": "CEASEFIRE DESCRIBED AS \"HOLDING WELL\" BUT FRAGILE | YES | HIGH confidence**",
+      "raw": "CEASEFIRE DESCRIBED AS \"HOLDING WELL\" BUT FRAGILE | YES | HIGH confidence**\n\nTrump characterized the ceasefire as \"holding well,\" though sporadic attacks persist and tensions remain elevated due to the new blockade measures.[3][4] The diplomatic situation remains fluid with substantive gaps between negotiating positions.\n\nThe search results do not contain information dated April 15, 2026, so no de",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
-        "Will J.D. Vance win the 2028 Republican presidential nominat",
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces US x Iran ceasefire end by April 21, 2026?"
+        "Trump announces US x Iran ceasefire end by April 21, 2026?",
+        "Will Trump talk to Elon Musk in April?"
       ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_261275",
+      "timestamp": "2026-04-15T02:51:25.052301+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Confidence: HIGH** (search results cover all angles up to immediate pre-election period with no breaking indicators)",
+      "raw": "Confidence: HIGH** (search results cover all angles up to immediate pre-election period with no breaking indicators).",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "POLITICS"
     },
     {
-      "id": "sig_97393",
-      "timestamp": "2026-04-15T02:48:41.170924+00:00",
+      "id": "sig_293513",
+      "timestamp": "2026-04-15T02:51:57.290133+00:00",
       "source": "PERPLEXITY",
-      "headline": "No breaking confirmations, announcements, or resolutions right now for Ethereum, Solana, or XRP that would move predicti",
-      "raw": "No breaking confirmations, announcements, or resolutions right now for Ethereum, Solana, or XRP that would move prediction markets.[1][2][3][4][5]",
+      "headline": "I cannot provide the breaking news format you've requested because the search results contain conflicting information wi",
+      "raw": "I cannot provide the breaking news format you've requested because the search results contain conflicting information with inconsistent timestamps, and the query mixes Germany and South Korea without clarity on what specific developments you're seeking.",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_293530",
+      "timestamp": "2026-04-15T02:51:57.307052+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Limitations preventing a breaking news answer:**",
+      "raw": "Limitations preventing a breaking news answer:**",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_293542",
+      "timestamp": "2026-04-15T02:51:57.319599+00:00",
+      "source": "PERPLEXITY",
+      "headline": "The search results lack current information for April 15, 2026 (today's date)",
+      "raw": "The search results lack current information for April 15, 2026 (today's date). The most recent data cited is from early April 2026 regarding March inflation figures.",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_293553",
+      "timestamp": "2026-04-15T02:51:57.330466+00:00",
+      "source": "PERPLEXITY",
+      "headline": "South Korea is mentioned in your query but has no coverage in these search results",
+      "raw": "South Korea is mentioned in your query but has no coverage in these search results.",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_102882",
-      "timestamp": "2026-04-15T02:48:46.659167+00:00",
-      "source": "PERPLEXITY",
-      "headline": "South Korea:** Annual inflation rose to **2",
-      "raw": "South Korea:** Annual inflation rose to **2.2% in March 2026**[1], and GDP contracted in Q4 2025 due to weaker investment and exports, though is projected to grow around 1.9% in 2026[5].",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_102893",
-      "timestamp": "2026-04-15T02:48:46.670751+00:00",
+      "id": "sig_293572",
+      "timestamp": "2026-04-15T02:51:57.349664+00:00",
       "source": "PERPLEXITY",
-      "headline": "Germany:** Annual inflation climbed to **2",
-      "raw": "Germany:** Annual inflation climbed to **2.7% in March 2026**[2], the highest level since January 2024, driven by energy price spikes.\n\nTo provide the market-moving breaking news you're seeking in the headline format specified, I would need search results containing announcements, confirmations, or resolutions released on or very near April 15, 2026. The current search results do not include such ",
+      "headline": "The query structure suggests you're looking for multiple distinct announcements, but the results don't provide today's b",
+      "raw": "The query structure suggests you're looking for multiple distinct announcements, but the results don't provide today's breaking developments.\n\nTo provide the breaking news summary you need, I would require search results with timestamps from April 15, 2026, and coverage of South Korea's economic data.",
       "direction": null,
       "confidence": 0.65,
-      "matched_markets": [
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
-      ],
+      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_97408",
-      "timestamp": "2026-04-15T02:48:41.185706+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Polymarket XRP April Price Odds Shift | NO | LOW confidence**",
-      "raw": "Polymarket XRP April Price Odds Shift | NO | LOW confidence**  \nPolymarket's \"What price will XRP hit in April?\" now leads at 74% for \"\u2191 1.40\" (up from prior ~56%), with \"\u2193 1.20\" at 27%; \"XRP on April 20\" favors 1.30-1.40 at 46%.[1][4][5] No explicit trigger confirmed in sources, but potential Senate CLARITY Act markup post-April 13 could catalyze if advanced (unconfirmed).[3]",
-      "direction": "YES",
-      "confidence": 0.6,
-      "matched_markets": [
-        "Will the price of XRP be above $1.70 on April 15?",
-        "Will the price of XRP be above $1.00 on April 16?",
-        "Will the price of XRP be above $1.80 on April 16?"
-      ],
-      "action": "WATCH",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_97419",
-      "timestamp": "2026-04-15T02:48:41.196512+00:00",
-      "source": "PERPLEXITY",
-      "headline": "No Ethereum or Solana Updates | NO | LOW confidence**",
-      "raw": "No Ethereum or Solana Updates | NO | LOW confidence**  \nInvestor predictions on Polymarket show mixed bullish/bearish for ETH/SOL April prices (e.g., SOL >$80 at 87%), but no new confirmations or resolutions; prices hover near SOL $83, XRP $1.36.[1][2]",
-      "direction": "NO",
-      "confidence": 0.6,
-      "matched_markets": [
-        "Will the price of XRP be above $1.70 on April 15?",
-        "Will the price of Solana be above $50 on April 15?",
-        "Will the price of Ethereum be above $2,700 on April 16?"
-      ],
-      "action": "WATCH",
-      "x_link": null,
-      "category": "CRYPTO"
     }
   ],
   "stats": {
     "enter": 1,
-    "alert": 5,
-    "watch": 2,
-    "high_conf": 2
+    "alert": 11,
+    "watch": 0,
+    "high_conf": 4
   }
 }
