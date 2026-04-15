@@ -1,107 +1,201 @@
 {
-  "last_scan": "2026-04-15T03:00:10.178536+00:00",
-  "scan_seconds": 24.2,
+  "last_scan": "2026-04-15T03:03:05.386112+00:00",
+  "scan_seconds": 27.3,
   "markets_scanned": 86,
   "open_positions": 53,
   "signals": [
     {
-      "id": "sig_772745",
-      "timestamp": "2026-04-15T02:59:56.522197+00:00",
+      "id": "sig_942606",
+      "timestamp": "2026-04-15T03:02:46.383021+00:00",
       "source": "PERPLEXITY",
-      "headline": "JD Vance Warns Elon Musk Against Forming New Party, Urging Loyalty to Trump and GOP | NO | HIGH confidence**",
-      "raw": "JD Vance Warns Elon Musk Against Forming New Party, Urging Loyalty to Trump and GOP | NO | HIGH confidence**  \nUS Vice President **JD Vance** publicly cautioned **Elon Musk** against launching the \"America Party,\" stating Musk could wield greater influence by staying loyal within **Trump**'s Republican Party rather than splitting votes via a third party[3]. This comes amid reports that Musk has pa",
-      "direction": "NO",
+      "headline": "US Signals New Iran Talks Within Days as Ceasefire Holds | YES | HIGH confidence**",
+      "raw": "US Signals New Iran Talks Within Days as Ceasefire Holds | YES | HIGH confidence**\n\nPresident Donald Trump has announced that a new round of negotiations with Iran could take place within days[1]. Pakistan has reportedly offered to host the talks again following recent discussions in Islamabad that failed to produce a breakthrough[1]. US Vice President JD Vance confirmed the current ceasefire is h",
+      "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
-        "Will J.D. Vance win the 2028 Republican presidential nominat",
-        "Will Trump talk to Elon Musk in April?",
-        "Will the Indian Union Muslim League (IUML) win between 10 and 12 seats in the 20"
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces US x Iran ceasefire end by April 21, 2026?",
+        "Trump announces end of military operations against Iran by A"
       ],
       "action": "ENTER",
       "x_link": null,
-      "category": "POLITICS"
+      "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_777571",
-      "timestamp": "2026-04-15T03:00:01.348036+00:00",
+      "id": "sig_954576",
+      "timestamp": "2026-04-15T03:02:58.353952+00:00",
       "source": "PERPLEXITY",
-      "headline": "Solana Hits Record 167M Monthly Token Holders Amid Alpenglow Upgrade Push | YES | HIGH confidence**",
-      "raw": "Solana Hits Record 167M Monthly Token Holders Amid Alpenglow Upgrade Push | YES | HIGH confidence**  \nOn April 14, 2026, Solana achieved an all-time high of 167 million monthly token holders and 148 million daily non-vote transactions, fueled by the anticipated **Alpenglow consensus upgrade** targeting 150ms transaction finality (down from 12 seconds), alongside Firedancer validator progress and s",
+      "headline": "Solana Alpenglow Upgrade Passes Governance Vote with 98",
+      "raw": "Solana Alpenglow Upgrade Passes Governance Vote with 98.27% Approval | YES | HIGH confidence**  \nThe Alpenglow consensus upgrade, reducing transaction finality to 100-150 milliseconds, was confirmed via a governance vote on April 14, 2026, boosting network performance expectations amid record 167 million monthly token holders and 148 million daily non-vote transactions.[4][6]",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
         "Will Solana reach $105 on April 14?",
-        "Will the price of Bitcoin be greater than $80,000 on April 1",
-        "Will the price of Solana be above $110 on April 17?"
+        "Will the price of Solana be above $110 on April 17?",
+        "Solana Up or Down - April 15, 4:40AM-4:45AM ET"
       ],
       "action": "ENTER",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_768495",
-      "timestamp": "2026-04-15T02:59:52.272075+00:00",
+      "id": "sig_942634",
+      "timestamp": "2026-04-15T03:02:46.411253+00:00",
       "source": "PERPLEXITY",
-      "headline": "Impact on prediction markets: LOW confidence in major shifts**, as the April 7 ceasefire is old news (8 days ago), talks",
-      "raw": "Impact on prediction markets: LOW confidence in major shifts**, as the April 7 ceasefire is old news (8 days ago), talks faltered last week, and no fresh confirmations, announcements, or resolutions appear in sources as of now.[1][2][7] Earlier Strait closure drove oil surges, but no updates tie to today's date.[2][4]",
+      "headline": "Military analysts note that if talks fail again, options under consideration include resuming limited strikes, full-scal",
+      "raw": "Military analysts note that if talks fail again, options under consideration include resuming limited strikes, full-scale bombing campaigns, and pressuring allies for prolonged military escorts through the Strait of Hormuz[2].\n\nThis development would likely move prediction markets toward shorter-term diplomatic scenarios while maintaining elevated volatility given the fragile nature of negotiation",
       "direction": "NO",
+      "confidence": 0.78,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_942612",
+      "timestamp": "2026-04-15T03:02:46.389601+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Market-Moving Implications:**",
+      "raw": "Market-Moving Implications:**",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_942620",
+      "timestamp": "2026-04-15T03:02:46.397591+00:00",
+      "source": "PERPLEXITY",
+      "headline": "The imminent restart of talks represents a concrete shift from the collapsed Islamabad negotiations and signals continue",
+      "raw": "The imminent restart of talks represents a concrete shift from the collapsed Islamabad negotiations and signals continued diplomatic engagement rather than immediate military escalation[1].",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_942626",
+      "timestamp": "2026-04-15T03:02:46.403741+00:00",
+      "source": "PERPLEXITY",
+      "headline": "However, significant uncertainty remains: the ceasefire is described as entering its final week[2], Trump maintains his",
+      "raw": "However, significant uncertainty remains: the ceasefire is described as entering its final week[2], Trump maintains his red line that \"Iran will not have a nuclear weapon\"[2], and deep trust deficits persist on both sides[2].",
+      "direction": null,
       "confidence": 0.65,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces US x Iran ceasefire end by April 21, 2026?"
+        "Trump announces US x Iran ceasefire end by April 21, 2026?",
+        "Trump announces end of military operations against Iran by A"
       ],
       "action": "ALERT",
       "x_link": null,
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_785384",
-      "timestamp": "2026-04-15T03:00:09.161978+00:00",
+      "id": "sig_949043",
+      "timestamp": "2026-04-15T03:02:52.820394+00:00",
       "source": "PERPLEXITY",
-      "headline": "I can address the Germany inflation component of your query, but the search results don't contain information about Sout",
-      "raw": "I can address the Germany inflation component of your query, but the search results don't contain information about South Korea's annual inflation or GDP for either country.",
+      "headline": "I cannot provide the breaking news format you've requested because the search results do not contain information matchin",
+      "raw": "I cannot provide the breaking news format you've requested because the search results do not contain information matching your specific query parameters.\n\nThe search results include political news from early-to-mid April 2026 involving Trump and elections, but they do not mention the **Indian Union Muslim League** at all. The results focus on:",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+        "Trump announces US x Iran ceasefire end by April 21, 2026?",
+        "Will Trump talk to Elon Musk in April?",
+        "Will the Indian Union Muslim League (IUML) win between 10 and 12 seats in the 20"
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "POLITICS"
     },
     {
-      "id": "sig_785394",
-      "timestamp": "2026-04-15T03:00:09.171356+00:00",
+      "id": "sig_949049",
+      "timestamp": "2026-04-15T03:02:52.826841+00:00",
       "source": "PERPLEXITY",
-      "headline": "Germany Inflation Surges to 2",
-      "raw": "Germany Inflation Surges to 2.7% in March 2026 | YES | HIGH confidence**\n\nGermany's inflation rate climbed to **2.7% year-over-year in March 2026**, the highest level since January 2024[2]. This represents a sharp acceleration from 1.9% in February 2026[2]. On a month-over-month basis, consumer prices rose 1.1% in March, compared to just 0.2% in February[3].\n\nThe primary driver was **energy prices",
-      "direction": "YES",
+      "headline": "Trump's voter ID and mail-in ballot restrictions (early April 2026)",
+      "raw": "Trump's voter ID and mail-in ballot restrictions (early April 2026)",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Trump announces US x Iran ceasefire end by April 21, 2026?",
+        "Will Trump talk to Elon Musk in April?",
+        "Will Trump say \"Discombobulator\" or \"Discombobulated\" in April?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_949059",
+      "timestamp": "2026-04-15T03:02:52.836359+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Democratic legal challenges to these orders",
+      "raw": "Democratic legal challenges to these orders",
+      "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "POLITICS"
     },
     {
-      "id": "sig_785400",
-      "timestamp": "2026-04-15T03:00:09.177507+00:00",
+      "id": "sig_949073",
+      "timestamp": "2026-04-15T03:02:52.850133+00:00",
       "source": "PERPLEXITY",
-      "headline": "Note:** The search results contain no recent data on South Korea's annual inflation or GDP figures for either Germany or",
-      "raw": "Note:** The search results contain no recent data on South Korea's annual inflation or GDP figures for either Germany or South Korea, so I cannot provide breaking news on those components of your query. To answer those parts, you would need search results covering South Korean economic data released around this date.",
-      "direction": "NO",
+      "headline": "A California Republican governor's race where Trump's endorsement had limited influence (April 12, 2026)",
+      "raw": "A California Republican governor's race where Trump's endorsement had limited influence (April 12, 2026)\n\nNone of these developments directly involve the Indian Union Muslim League, nor do they represent the type of market-moving announcement (confirmation, resolution, or major policy shift) that would typically warrant prediction market movement in the specific timeframe you're asking about.\n\nTo ",
+      "direction": null,
       "confidence": 0.65,
       "matched_markets": [
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+        "Trump announces US x Iran ceasefire end by April 21, 2026?",
+        "Will Trump talk to Elon Musk in April?",
+        "Will the Indian Union Muslim League (IUML) win between 10 and 12 seats in the 20"
       ],
       "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_954583",
+      "timestamp": "2026-04-15T03:02:58.360046+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Interactive Brokers Launches SOL Trading for European Investors | YES | HIGH confidence**",
+      "raw": "Interactive Brokers Launches SOL Trading for European Investors | YES | HIGH confidence**  \nInteractive Brokers added Solana trading for Europeans via Zero Hash, expanding institutional access as SOL trades at ~$82 with projections to $88-$100 by April end.[5]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Solana reach $105 on April 14?",
+        "Will the price of Solana be above $110 on April 17?",
+        "Solana Up or Down - April 15, 4:40AM-4:45AM ET"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_960608",
+      "timestamp": "2026-04-15T03:03:04.385505+00:00",
+      "source": "PERPLEXITY",
+      "headline": "South Korea Holds Benchmark Interest Rate at 2",
+      "raw": "South Korea Holds Benchmark Interest Rate at 2.5% for 7th Consecutive Month Amid Inflation Above Target and Oil Price Risks | YES | HIGH confidence**  \nThe Bank of Korea's Monetary Policy Board unanimously decided on April 10, 2026, to keep the policy rate unchanged at 2.5%, citing consumer price inflation at about 2.2% (above the 2% target), upside risks from rising global oil prices, a weakened ",
+      "direction": "YES",
+      "confidence": 0.6,
+      "matched_markets": [
+        "Will the price of Solana be above $110 on April 17?",
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+      ],
+      "action": "WATCH",
       "x_link": null,
       "category": "ECONOMICS"
     }
   ],
   "stats": {
     "enter": 2,
-    "alert": 4,
-    "watch": 0,
+    "alert": 9,
+    "watch": 1,
     "high_conf": 2
   }
 }
