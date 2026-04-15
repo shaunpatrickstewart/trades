@@ -1,12 +1,72 @@
 {
-  "last_scan": "2026-04-15T10:43:00.611391+00:00",
-  "scan_seconds": 4.4,
-  "markets_scanned": 77,
-  "open_positions": 77,
-  "signals": [],
+  "last_scan": "2026-04-15T10:45:46.822072+00:00",
+  "scan_seconds": 17.9,
+  "markets_scanned": 55,
+  "open_positions": 16,
+  "signals": [
+    {
+      "id": "sig_710529",
+      "timestamp": "2026-04-15T10:45:34.278875+00:00",
+      "source": "PERPLEXITY",
+      "headline": "US and Iran Plan Second Round of Ceasefire Talks in Pakistan Within Days | YES | MED confidence**",
+      "raw": "US and Iran Plan Second Round of Ceasefire Talks in Pakistan Within Days | YES | MED confidence**\n\nUS and Iran negotiators, after failed first-round talks in Islamabad over the weekend, are preparing for a second round possibly within the next two days, with Pakistan pushing to host in Islamabad amid a looming ceasefire deadline.[1][3]  \nUS President Trump stated a second round could occur in Paki",
+      "direction": "YES",
+      "confidence": 0.78,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Counter-Strike: regain vs EMPIRE (BO3) - Dust2.us Eagle Masters Playoffs",
+        "Will Trump say \"Discombobulator\" or \"Discombobulated\" in April?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_714301",
+      "timestamp": "2026-04-15T10:45:38.050579+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Congress-led UDF Finalizes Seat-Sharing for Kerala Assembly Elections: Congress 95 Seats, IUML 27 Seats** | YES | HIGH c",
+      "raw": "Congress-led UDF Finalizes Seat-Sharing for Kerala Assembly Elections: Congress 95 Seats, IUML 27 Seats** | YES | HIGH confidence[1][5]\n\nThe Congress-led United Democratic Front (UDF), including the **Indian Union Muslim League (IUML)**, has confirmed a seat pact for the 140-seat **Kerala Legislative Assembly** elections, with Congress contesting 95 seats and IUML allocated 27 seats\u2014identical to t",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the All India Trinamool Congress (AITC) win the most seats in the 2026 West",
+        "Will the Indian Union Muslim League (IUML) win between 10 and 12 seats in the 20"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_718284",
+      "timestamp": "2026-04-15T10:45:42.033665+00:00",
+      "source": "PERPLEXITY",
+      "headline": "LOW confidence** in upward catalysts due to lack of real-time confirmations as of April 15",
+      "raw": "LOW confidence** in upward catalysts due to lack of real-time confirmations as of April 15.[1][2][3]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_722072",
+      "timestamp": "2026-04-15T10:45:45.821420+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Confidence: HIGH** (search results lack any post-Apr 10 updates matching \"RIGHT NOW\" criteria)",
+      "raw": "Confidence: HIGH** (search results lack any post-Apr 10 updates matching \"RIGHT NOW\" criteria).",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    }
+  ],
   "stats": {
     "enter": 0,
-    "alert": 0,
+    "alert": 4,
     "watch": 0,
     "high_conf": 0
   }
