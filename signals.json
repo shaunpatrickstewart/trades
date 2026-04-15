@@ -1,52 +1,98 @@
 {
-  "last_scan": "2026-04-15T16:38:34.671978+00:00",
-  "scan_seconds": 32.7,
-  "markets_scanned": 145,
+  "last_scan": "2026-04-15T16:41:33.139167+00:00",
+  "scan_seconds": 32.0,
+  "markets_scanned": 144,
   "open_positions": 111,
   "signals": [
     {
-      "id": "sig_875072",
-      "timestamp": "2026-04-15T16:38:18.800438+00:00",
+      "id": "sig_51323",
+      "timestamp": "2026-04-15T16:41:15.050259+00:00",
       "source": "PERPLEXITY",
-      "headline": "Congress Ends Alliance with Left Front, Announces Candidates for All 294 Seats in West Bengal 2026 Assembly Elections |",
-      "raw": "Congress Ends Alliance with Left Front, Announces Candidates for All 294 Seats in West Bengal 2026 Assembly Elections | YES | HIGH confidence**  \nCongress has officially decided to contest all 294 seats independently, releasing a list of 284 candidates and terminating its decade-long alliance with the Left Front, reshaping the multi-cornered contest against TMC and BJP.[1]  \nThis shift, confirmed ",
+      "headline": "# HEADLINE: UN Chief Urges Extension of Fragile US-Iran Ceasefire as Negotiations Continue | YES | HIGH confidence",
+      "raw": "# HEADLINE: UN Chief Urges Extension of Fragile US-Iran Ceasefire as Negotiations Continue | YES | HIGH confidence\n\nA **two-week US-Iran ceasefire** was announced on April 8, 2026, following nearly 40 days of intense hostilities[1]. The agreement, mediated by Pakistan's Prime Minister Shehbaz Sharif and military chief Asim Munir with participation from T\u00fcrkiye and Egypt, includes the immediate ces",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
-        "Will the All India Trinamool Congress (AITC) win the most seats in the 2026 West"
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "US x Iran permanent peace deal by April 22, 2026?",
+        "US x Iran diplomatic meeting by April 18, 2026?"
       ],
       "action": "ENTER",
       "x_link": null,
-      "category": "POLITICS"
+      "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_883082",
-      "timestamp": "2026-04-15T16:38:26.810038+00:00",
+      "id": "sig_51445",
+      "timestamp": "2026-04-15T16:41:15.172645+00:00",
       "source": "PERPLEXITY",
-      "headline": "Solana (SOL) Surges 10% on Alpenglow Consensus Upgrade Announcement and Record 167 Million Monthly Token Holders as of A",
-      "raw": "Solana (SOL) Surges 10% on Alpenglow Consensus Upgrade Announcement and Record 167 Million Monthly Token Holders as of April 14, 2026 | YES | HIGH confidence**  \nThe Alpenglow upgrade, aiming to reduce transaction finality from 12 seconds to 150 milliseconds, has driven a 10% price surge alongside all-time highs in daily non-vote transactions (148 million) and token holders (167 million), confirme",
-      "direction": "YES",
-      "confidence": 0.9,
+      "headline": "**Nuclear negotiations stalled**: Direct talks between the US and Iran are progressing \"somewhat slowly,\" with Trump ind",
+      "raw": "**Nuclear negotiations stalled**: Direct talks between the US and Iran are progressing \"somewhat slowly,\" with Trump indicating new negotiations likely in Pakistan within two days (as of April 13)[3]. Trump has rejected any arrangement limiting nuclear enrichment restrictions to a fixed period like 20 years[3].",
+      "direction": null,
+      "confidence": 0.78,
       "matched_markets": [
-        "Will Bitcoin reach $81,000 on April 15?",
-        "Will the price of Solana be above $100 on April 16?",
-        "Will the price of Solana be between $100 and $110 on April 1"
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "US x Iran permanent peace deal by April 22, 2026?",
+        "Trump announces end of military operations against Iran by A"
       ],
-      "action": "ENTER",
+      "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_889940",
-      "timestamp": "2026-04-15T16:38:33.668707+00:00",
+      "id": "sig_51370",
+      "timestamp": "2026-04-15T16:41:15.097631+00:00",
       "source": "PERPLEXITY",
-      "headline": "South Korea's Annual Inflation Rate Rose to 2",
-      "raw": "South Korea's Annual Inflation Rate Rose to 2.2% in March 2026 | YES | MED confidence**\n\nSouth Korea's annual inflation rate increased to 2.2% in March 2026, up from 2.0% in January and February but below market forecasts of 2.4%, remaining near the Bank of Korea's 2% target amid contained price pressures before global energy volatility.[2] This marks a slight uptick after easing to 2% in early 20",
+      "headline": "**Ceasefire fragility**: While the UN Secretary-General welcomed the move, reports show continued Israeli strikes and ma",
+      "raw": "**Ceasefire fragility**: While the UN Secretary-General welcomed the move, reports show continued Israeli strikes and mass casualties in Lebanon, with Israeli PM Netanyahu explicitly stating the ceasefire does not include Lebanon[4].",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_51500",
+      "timestamp": "2026-04-15T16:41:15.227108+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Economic leverage**: The US maintains a blockade on Iranian ports, effectively halting Iran's business operations, whi",
+      "raw": "**Economic leverage**: The US maintains a blockade on Iranian ports, effectively halting Iran's business operations, while Iran's military capabilities have been severely degraded[3].",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Trump announces end of military operations against Iran by A"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_51554",
+      "timestamp": "2026-04-15T16:41:15.281787+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Uncertainty on extension**: As of April 14, the UN chief urged the US and Iran to continue the ceasefire and extend it",
+      "raw": "**Uncertainty on extension**: As of April 14, the UN chief urged the US and Iran to continue the ceasefire and extend it as needed, with warnings that \"there is no military solution\"[2]. Trump refused to comment on what happens if no agreement is reached by the ceasefire's end, stating only that \"it won't be pleasant for them\"[3].\n\nThe two-week window expires around April 22, 2026, making this a c",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "US x Iran permanent peace deal by April 22, 2026?",
+        "Trump announces end of military operations against Iran by A"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_68410",
+      "timestamp": "2026-04-15T16:41:32.137598+00:00",
+      "source": "PERPLEXITY",
+      "headline": "March 2026 South Korea CPI Released: Headline at 2",
+      "raw": "March 2026 South Korea CPI Released: Headline at 2.2% YoY (Up from 2.0%, Below 2.4% Consensus)** | YES | HIGH confidence[1]\n\nThis fresh data, marking a three-month high driven by energy pressures despite core easing to 2.2%, exceeds the Bank of Korea's 2% target and aligns with OECD's revised 2.7% 2026 forecast, up from prior 2.0% outlooks\u2014potentially shifting Polymarket's \"South Korea Annual Infl",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
         "Kevin Warsh confirmed as Fed Chair by May 15?",
-        "Kharg Island no longer under Iranian control by April 15?",
         "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
       ],
       "action": "ALERT",
@@ -54,12 +100,12 @@
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_868419",
-      "timestamp": "2026-04-15T16:38:12.147390+00:00",
+      "id": "sig_62029",
+      "timestamp": "2026-04-15T16:41:25.756667+00:00",
       "source": "PERPLEXITY",
-      "headline": "Trump announces potential new US-Iran talks in Pakistan within two days (by April 15, 2026), amid fragile two-week cease",
-      "raw": "Trump announces potential new US-Iran talks in Pakistan within two days (by April 15, 2026), amid fragile two-week ceasefire[3].**  \nYES | **MED** confidence  \n\nThe US-Iran two-week ceasefire, agreed on April 8, 2026, and mediated by Pakistan, remains in effect but fragile, with UN calls on April 14 for its extension and respect for international law amid ongoing regional strikes[1][2][4]. On Apri",
-      "direction": "YES",
+      "headline": "Polymarket Reveals April Price Expectations for Bitcoin and Solana Amid Market Volatility | NO | LOW confidence**",
+      "raw": "Polymarket Reveals April Price Expectations for Bitcoin and Solana Amid Market Volatility | NO | LOW confidence**\n\nPolymarket currently prices a **93% probability that Bitcoin will fall below $65,000 in April**, alongside a 65% chance of rising above $70,000 and 54% for below $60,000, reflecting dominant bearish sentiment influenced by Trump\u2019s recent statements against Iran that caused BTC and alt",
+      "direction": "NO",
       "confidence": 0.6,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
@@ -68,13 +114,13 @@
       ],
       "action": "WATCH",
       "x_link": null,
-      "category": "GEOPOLITICS"
+      "category": "CRYPTO"
     }
   ],
   "stats": {
-    "enter": 2,
-    "alert": 1,
+    "enter": 1,
+    "alert": 5,
     "watch": 1,
-    "high_conf": 2
+    "high_conf": 1
   }
 }
