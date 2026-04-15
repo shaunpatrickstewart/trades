@@ -1,78 +1,31 @@
 {
-  "last_scan": "2026-04-15T22:06:12.851839+00:00",
-  "scan_seconds": 26.4,
-  "markets_scanned": 151,
-  "open_positions": 117,
+  "last_scan": "2026-04-15T22:09:05.886348+00:00",
+  "scan_seconds": 31.6,
+  "markets_scanned": 79,
+  "open_positions": 45,
   "signals": [
     {
-      "id": "sig_543632",
-      "timestamp": "2026-04-15T22:06:07.340142+00:00",
+      "id": "sig_705986",
+      "timestamp": "2026-04-15T22:08:49.694387+00:00",
       "source": "PERPLEXITY",
-      "headline": "Solana Hits All-Time Record 167 Million Monthly Token Holders & Alpenglow Upgrade Advances to 150ms Finality | NO | HIGH",
-      "raw": "Solana Hits All-Time Record 167 Million Monthly Token Holders & Alpenglow Upgrade Advances to 150ms Finality | NO | HIGH confidence**  \nNo breaking confirmations, announcements, or resolutions today (April 15, 2026) directly move prediction markets on Solana or Bitcoin; latest developments are from April 14.[1]  \nSolana network stats surged with 167 million holders and 148 million daily non-vote t",
-      "direction": "NO",
-      "confidence": 0.78,
-      "matched_markets": [
-        "Will Bitcoin dip to $69,000 on April 15?",
-        "Will the price of Solana be between $60 and $70 on April 16?",
-        "Will the price of Bitcoin be above $68,000 on April 16?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_532264",
-      "timestamp": "2026-04-15T22:05:55.972098+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Based on the most recent search results from April 15, 2026:",
-      "raw": "Based on the most recent search results from April 15, 2026:",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_532275",
-      "timestamp": "2026-04-15T22:05:55.983087+00:00",
-      "source": "PERPLEXITY",
-      "headline": "US and Iran Seek Second Round of Ceasefire Talks Before Two-Week Deadline Expires | NO | HIGH confidence**",
-      "raw": "US and Iran Seek Second Round of Ceasefire Talks Before Two-Week Deadline Expires | NO | HIGH confidence**\n\nThe original two-week ceasefire between the US and Iran, announced on April 8, 2026, remains in effect but fragile[2]. Both sides are attempting to arrange a second round of peace talks before the ceasefire expires next week[3]. However, no new agreement has been confirmed or resolved as of ",
-      "direction": "NO",
-      "confidence": 0.65,
+      "headline": "US Strikes Obliterate Iranian Capabilities; Vance Peace Talks Fail Amid Strait of Hormuz Blockade** | **YES** | **HIGH**",
+      "raw": "US Strikes Obliterate Iranian Capabilities; Vance Peace Talks Fail Amid Strait of Hormuz Blockade** | **YES** | **HIGH** confidence\n\nTrump confirmed U.S. strikes hit over 7,000 Iranian targets, slashing missile launches by 90% and drone attacks by 95%, as the conflict enters its third week with a naval blockade on the Strait of Hormuz.[1][2] Vice President JD Vance's 21-hour peace talks with Iran ",
+      "direction": "YES",
+      "confidence": 0.9,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "US x Iran permanent peace deal by April 22, 2026?",
-        "US x Iran diplomatic meeting by April 18, 2026?"
+        "Trump announces end of military operations against Iran by A",
+        "Strait of Hormuz traffic returns to normal by end of April?"
       ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_548142",
-      "timestamp": "2026-04-15T22:06:11.850828+00:00",
-      "source": "PERPLEXITY",
-      "headline": "South Korea Annual Inflation Rises to 2",
-      "raw": "South Korea Annual Inflation Rises to 2.2% in March 2026, Below Forecasts | YES | MED confidence**  \nSouth Korea's annual inflation rate increased to 2.2% in March 2026 from 2.0% in the prior two months, missing market expectations of 2.4% amid contained price pressures before global energy volatility.[1]  \nThis recent data point, alongside the Bank of Korea's April 10 decision to hold its benchma",
-      "direction": "YES",
-      "confidence": 0.6,
-      "matched_markets": [
-        "Kevin Warsh confirmed as Fed Chair by May 15?",
-        "Will the price of Bitcoin be above $68,000 on April 16?",
-        "Will the price of Solana be above $100 on April 16?"
-      ],
-      "action": "WATCH",
-      "x_link": null,
-      "category": "ECONOMICS"
+      "category": "POLITICS"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 3,
-    "watch": 1,
-    "high_conf": 0
+    "enter": 1,
+    "alert": 0,
+    "watch": 0,
+    "high_conf": 1
   }
 }
