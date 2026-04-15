@@ -1,65 +1,131 @@
 {
-  "last_scan": "2026-04-15T11:46:57.155361+00:00",
-  "scan_seconds": 30.9,
-  "markets_scanned": 157,
-  "open_positions": 114,
+  "last_scan": "2026-04-15T11:49:49.348609+00:00",
+  "scan_seconds": 30.2,
+  "markets_scanned": 156,
+  "open_positions": 113,
   "signals": [
     {
-      "id": "sig_372707",
-      "timestamp": "2026-04-15T11:46:36.452866+00:00",
+      "id": "sig_545327",
+      "timestamp": "2026-04-15T11:49:29.072262+00:00",
       "source": "PERPLEXITY",
-      "headline": "US-Iran Ceasefire Holds Until April 22 Amid Signals of Imminent Second Round of Talks in Islamabad, Trump Says Conflict",
-      "raw": "US-Iran Ceasefire Holds Until April 22 Amid Signals of Imminent Second Round of Talks in Islamabad, Trump Says Conflict 'Close to Over'** | YES | HIGH confidence[1][2][3]\n\nPresident Trump stated the US-Iran conflict is \"very close to being over\" and new negotiations could resume within days, potentially hosted again by Pakistan after initial Islamabad talks failed[1][2][3].  \nA fragile ceasefire i",
+      "headline": "US Signals New Iran Talks Within Days as Ceasefire Holds | YES | HIGH confidence** [1][2][3]",
+      "raw": "US Signals New Iran Talks Within Days as Ceasefire Holds | YES | HIGH confidence** [1][2][3]\n\nPresident Donald Trump announced a new round of US-Iran negotiations could occur within days, with Pakistan offering to host again after last weekend's failed talks in Islamabad; Vice President JD Vance confirmed the ceasefire\u2014now 6-7 days old\u2014is holding amid ongoing US naval blockade of the Strait of Hor",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces US x Iran ceasefire end by April 21, 2026?",
-        "US x Iran permanent peace deal by April 22, 2026?"
+        "Trump announces end of military operations against Iran by A"
       ],
       "action": "ENTER",
       "x_link": null,
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_387648",
-      "timestamp": "2026-04-15T11:46:51.393134+00:00",
+      "id": "sig_559593",
+      "timestamp": "2026-04-15T11:49:43.338269+00:00",
       "source": "PERPLEXITY",
-      "headline": "HEADLINE:** Senate Banking Committee markup window opens for CLARITY Act in late April | YES | HIGH confidence",
-      "raw": "HEADLINE:** Senate Banking Committee markup window opens for CLARITY Act in late April | YES | HIGH confidence\n\nThe Senate returns from Easter recess on April 13, with the Senate Banking Committee indicating a window in the latter half of April for markup on the CLARITY Act[6]. If passed, this legislation would formally classify XRP as a digital commodity under federal law, potentially unlocking $",
+      "headline": "SEC CLARITY Act Roundtable Scheduled | YES | HIGH confidence**",
+      "raw": "SEC CLARITY Act Roundtable Scheduled | YES | HIGH confidence**\nThe SEC has scheduled a regulatory roundtable for April 16, 2026 (tomorrow) to discuss the CLARITY Act and options market structure.[1][4] This is a confirmed event that could provide regulatory clarity for XRP and Solana, though the outcome remains uncertain.",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
-        "Will the price of XRP be between $1.50 and $1.60 on April 15",
-        "Will the price of XRP be above $1.00 on April 16?",
-        "Will the price of XRP be above $1.80 on April 16?"
+        "Will the price of Solana be above $130 on April 19?",
+        "Will the price of Solana be between $90 and $100 on April 15",
+        "Will the price of XRP be between $1.50 and $1.60 on April 15"
       ],
       "action": "ENTER",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_392409",
-      "timestamp": "2026-04-15T11:46:56.154530+00:00",
+      "id": "sig_559730",
+      "timestamp": "2026-04-15T11:49:43.475809+00:00",
       "source": "PERPLEXITY",
-      "headline": "IMF Maintains South Korea's 2026 Annual Inflation Forecast at 2",
-      "raw": "IMF Maintains South Korea's 2026 Annual Inflation Forecast at 2.5% in April World Economic Outlook Release** | YES | HIGH confidence[3]\n\nThe IMF released its April 2026 World Economic Outlook on Tuesday, April 14, confirming South Korea's full-year 2026 inflation projection at 2.5%, unchanged from January despite global downgrades and Middle East-driven energy pressures[3]. This forecast, cushione",
-      "direction": "YES",
+      "headline": "Market Impact Assessment | UNCERTAIN | MED confidence**",
+      "raw": "Market Impact Assessment | UNCERTAIN | MED confidence**\nWhile these developments are confirmed, their immediate market impact remains limited. XRP and Solana both face liquidity concerns with reduced exchange buying pressure ahead of the April 16 roundtable,[1] suggesting cautious investor sentiment despite positive fundamentals.",
+      "direction": null,
       "confidence": 0.9,
+      "matched_markets": [
+        "Will the price of Solana be above $130 on April 19?",
+        "Will the price of Solana be between $90 and $100 on April 15",
+        "Will the price of XRP be between $1.50 and $1.60 on April 15"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_564602",
+      "timestamp": "2026-04-15T11:49:48.347635+00:00",
+      "source": "PERPLEXITY",
+      "headline": "South Korea March 2026 CPI Released: Inflation Rises to 2",
+      "raw": "South Korea March 2026 CPI Released: Inflation Rises to 2.16% YoY (from 2.00% in Feb), MoM +0.34% | YES | HIGH confidence** [2][1]\n\nSouth Korea's official Consumer Price Index data for March 2026, published via Statistics Korea sources, confirms headline inflation accelerated to 2.16% year-over-year, up from 2.00% in February 2026, with a 0.34% month-over-month increase.[2] Core inflation remained",
+      "direction": "YES",
+      "confidence": 0.78,
       "matched_markets": [
         "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?",
         "Will Robinhood Markets, Inc. (HOOD) hit (HIGH) $82.50 Week of April 13 2026?"
       ],
-      "action": "ENTER",
+      "action": "ALERT",
       "x_link": null,
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_387612",
-      "timestamp": "2026-04-15T11:46:51.358000+00:00",
+      "id": "sig_550798",
+      "timestamp": "2026-04-15T11:49:34.543460+00:00",
       "source": "PERPLEXITY",
-      "headline": "Based on the search results available, there are two significant developments relevant to your query:",
-      "raw": "Based on the search results available, there are two significant developments relevant to your query:",
+      "headline": "Search results highlight an ongoing split between **Vice President JD Vance** and Secretary of State Marco Rubio on the",
+      "raw": "Search results highlight an ongoing split between **Vice President JD Vance** and Secretary of State Marco Rubio on the Iran war, positioning them as frontrunners for the **2028 Republican presidential election** amid Trump administration tensions[1]. This reflects emerging GOP divisions, with a recent AP-NORC poll showing ~50% of Republicans view U.S. military action as \"about right,\" 20% say not",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will J.D. Vance win the 2028 Republican presidential nominat",
+        "Trump announces end of military operations against Iran by A"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_550829",
+      "timestamp": "2026-04-15T11:49:34.574433+00:00",
+      "source": "PERPLEXITY",
+      "headline": "No new White House announcements or resolutions today; the most recent coverage is a April 7 replay on **Vance** and Tru",
+      "raw": "No new White House announcements or resolutions today; the most recent coverage is a April 7 replay on **Vance** and Trump admin updates[2].",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the White House call a full lid by 6:30PM on April 14?",
+        "Will Donald Trump post 200+ Truth Social posts from April 10",
+        "Will Donald Trump post 20-39 Truth Social posts from April 1"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_550862",
+      "timestamp": "2026-04-15T11:49:34.607560+00:00",
+      "source": "PERPLEXITY",
+      "headline": "| NO | LOW confidence** (due to absence of real-time confirmations in results; topic activity limited to early April Ira",
+      "raw": "| NO | LOW confidence** (due to absence of real-time confirmations in results; topic activity limited to early April Iran war positioning).",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "US x Iran permanent peace deal by April 22, 2026?",
+        "US x Iran diplomatic meeting by April 22, 2026?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_559555",
+      "timestamp": "2026-04-15T11:49:43.300520+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Based on the search results, here are the key developments:",
+      "raw": "Based on the search results, here are the key developments:",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
@@ -68,27 +134,57 @@
       "category": "CRYPTO"
     },
     {
-      "id": "sig_387682",
-      "timestamp": "2026-04-15T11:46:51.427637+00:00",
+      "id": "sig_559628",
+      "timestamp": "2026-04-15T11:49:43.373908+00:00",
       "source": "PERPLEXITY",
-      "headline": "HEADLINE:** XRP records largest weekly inflows, unseating Bitcoin and Solana | YES | HIGH confidence",
-      "raw": "HEADLINE:** XRP records largest weekly inflows, unseating Bitcoin and Solana | YES | HIGH confidence\n\nXRP led digital asset investment products with $119.6 million in inflows last week (as of April 8, 2026), its strongest weekly haul since mid-December 2025[4]. This institutional interest surge, combined with a U.S.\u2013Iran ceasefire announcement, drove XRP up 5.52% to $1.38 in 24 hours[4].\n\nThe CLAR",
+      "headline": "XRP Receives Largest Weekly Inflows Since December | YES | HIGH confidence**",
+      "raw": "XRP Receives Largest Weekly Inflows Since December | YES | HIGH confidence**\nXRP recorded $119.6 million in inflows last week, marking its strongest weekly haul since mid-December 2025.[5] This represents concrete capital movement into the asset ahead of regulatory discussions.",
       "direction": "YES",
-      "confidence": 0.6,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_559665",
+      "timestamp": "2026-04-15T11:49:43.410158+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Solana Hits Record 167 Million Monthly Token Holders | YES | HIGH confidence**",
+      "raw": "Solana Hits Record 167 Million Monthly Token Holders | YES | HIGH confidence**\nSolana reached an all-time record of 167 million monthly token holders as of April 14, 2026, with daily non-vote transactions reaching historic highs of 148 million.[3] The network's Alpenglow consensus upgrade is anticipated to reduce transaction finality from 12 seconds to 150 milliseconds.[3]",
+      "direction": "YES",
+      "confidence": 0.65,
       "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces US x Iran ceasefire end by April 21, 2026?",
-        "US x Iran permanent peace deal by April 22, 2026?"
+        "Will the price of Solana be above $130 on April 19?",
+        "Will the price of Solana be between $90 and $100 on April 15",
+        "Will the price of Solana be above $100 on April 16?"
       ],
-      "action": "WATCH",
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_559700",
+      "timestamp": "2026-04-15T11:49:43.445296+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Ripple Launches Unified Treasury System | YES | HIGH confidence**",
+      "raw": "Ripple Launches Unified Treasury System | YES | HIGH confidence**\nRipple launched a new unified treasury platform on April 13, 2026 that merges SWIFT and XRP rails, targeting corporate adoption for payments and liquidity.[7]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the price of XRP be between $1.50 and $1.60 on April 15",
+        "Will the price of XRP be above $1.00 on April 16?",
+        "Will the price of XRP be above $1.80 on April 16?"
+      ],
+      "action": "ALERT",
       "x_link": null,
       "category": "CRYPTO"
     }
   ],
   "stats": {
-    "enter": 3,
-    "alert": 1,
-    "watch": 1,
+    "enter": 2,
+    "alert": 9,
+    "watch": 0,
     "high_conf": 3
   }
 }
