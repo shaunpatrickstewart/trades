@@ -1,106 +1,61 @@
 {
-  "last_scan": "2026-04-15T15:50:05.820036+00:00",
-  "scan_seconds": 29.6,
-  "markets_scanned": 95,
-  "open_positions": 61,
+  "last_scan": "2026-04-15T15:52:55.135049+00:00",
+  "scan_seconds": 28.8,
+  "markets_scanned": 72,
+  "open_positions": 41,
   "signals": [
     {
-      "id": "sig_961919",
-      "timestamp": "2026-04-15T15:49:45.650106+00:00",
+      "id": "sig_141053",
+      "timestamp": "2026-04-15T15:52:44.783196+00:00",
       "source": "PERPLEXITY",
-      "headline": "US-Iran Ceasefire Talks Restarting Imminently in Pakistan | YES | MED confidence**",
-      "raw": "US-Iran Ceasefire Talks Restarting Imminently in Pakistan | YES | MED confidence**\n\nA two-week ceasefire between the US and Iran, agreed on April 8, 2026, and mediated by Pakistan, remains in effect despite early violations like Iran's failure to fully open the Strait of Hormuz[1][2][4]. As of April 14-15, 2026, reports confirm both sides are pushing for a second round of direct talks in Pakistan ",
-      "direction": "YES",
+      "headline": "HEADLINE | NO | HIGH confidence**",
+      "raw": "HEADLINE | NO | HIGH confidence**  \nRipple announced an AI-driven security upgrade for XRPL, but this is not new or \"just confirmed\" today; it's part of ongoing April developments amid historical price trends and speculation on Clarity Act progress (e.g., Senate return April 13, potential April 16 event).[1][3][4][7] No evidence of ETF approvals, legal resolutions, or market-moving events confirme",
+      "direction": "NO",
       "confidence": 0.9,
+      "matched_markets": [
+        "XRP Up or Down - April 16, 7:20AM-7:25AM ET"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_131366",
+      "timestamp": "2026-04-15T15:52:35.096128+00:00",
+      "source": "PERPLEXITY",
+      "headline": "US and Iran Plan Second Round of Ceasefire Talks in Pakistan as Deadline Looms, Despite Failed First Round and US Naval",
+      "raw": "US and Iran Plan Second Round of Ceasefire Talks in Pakistan as Deadline Looms, Despite Failed First Round and US Naval Blockade** | **NO** | **HIGH** confidence[1][2][3]\n\nNo ceasefire has been confirmed, announced, or resolved today; instead, reports from April 14 confirm a fragile ceasefire is holding amid violations like drone attacks on Bahrain, but first-round talks in Pakistan failed without",
+      "direction": "NO",
+      "confidence": 0.65,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
         "US x Iran permanent peace deal by April 22, 2026?",
-        "Trump announces end of military operations against Iran by A"
+        "US x Iran diplomatic meeting by April 18, 2026?"
       ],
-      "action": "ENTER",
+      "action": "ALERT",
       "x_link": null,
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_981087",
-      "timestamp": "2026-04-15T15:50:04.818987+00:00",
+      "id": "sig_141024",
+      "timestamp": "2026-04-15T15:52:44.754840+00:00",
       "source": "PERPLEXITY",
-      "headline": "Trump Nominates Kevin Warsh as Next Fed Chair, Sparking KOSPI 5% Drop and Global Market Volatility** | **YES** | **HIGH*",
-      "raw": "Trump Nominates Kevin Warsh as Next Fed Chair, Sparking KOSPI 5% Drop and Global Market Volatility** | **YES** | **HIGH** confidence[1][2][5][6]\n\nPresident Trump has announced his intention to nominate Kevin Warsh, a former Fed governor known as a policy hawk on inflation control, as the next Federal Reserve Chair, fueling uncertainty in markets including a >5% plunge in South Korea's **KOSPI** an",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Kevin Warsh confirmed as Fed Chair by May 15?",
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_969187",
-      "timestamp": "2026-04-15T15:49:52.918435+00:00",
-      "source": "PERPLEXITY",
-      "headline": "ECI Confirms West Bengal Assembly Elections in Two Phases: April 23 & 29, 2026; Counting May 4 | NO | LOW confidence**",
-      "raw": "ECI Confirms West Bengal Assembly Elections in Two Phases: April 23 & 29, 2026; Counting May 4 | NO | LOW confidence**\n\nElection Commission of India (ECI) has scheduled West Bengal's 294 Assembly constituencies for polling on April 23 (152 seats) and April 29 (142 seats), with vote counting on May 4 and process completion by May 6; first phase notification issues March 30, nominations close April ",
+      "headline": "No breaking confirmations, announcements, or resolutions for XRP in April as of now",
+      "raw": "No breaking confirmations, announcements, or resolutions for XRP in April as of now.[1][2][3][4][5][6][7]",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [
-        "Will the All India Trinamool Congress (AITC) win the most seats in the 2026 West",
-        "Will the Indian Union Muslim League (IUML) win between 10 and 12 seats in the 20"
+        "XRP Up or Down - April 16, 7:20AM-7:25AM ET"
       ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_973179",
-      "timestamp": "2026-04-15T15:49:56.910221+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Solana Staking ETF Launches With SEC Approval** | YES | HIGH confidence[4]",
-      "raw": "Solana Staking ETF Launches With SEC Approval** | YES | HIGH confidence[4]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_973185",
-      "timestamp": "2026-04-15T15:49:56.916864+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Solana Hits Record 167M Token Holders in April** | YES | HIGH confidence[2]",
-      "raw": "Solana Hits Record 167M Token Holders in April** | YES | HIGH confidence[2]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the price of Solana be above $100 on April 18?",
-        "Will the price of Solana be above $130 on April 19?",
-        "Solana Up or Down - April 16, 8:35AM-8:40AM ET"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_973192",
-      "timestamp": "2026-04-15T15:49:56.923498+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Ethereum Futures Open Interest Surges 12% to $14",
-      "raw": "Ethereum Futures Open Interest Surges 12% to $14.25B** | YES | MED confidence[4]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "CRYPTO"
     }
   ],
   "stats": {
-    "enter": 2,
-    "alert": 4,
+    "enter": 1,
+    "alert": 2,
     "watch": 0,
-    "high_conf": 2
+    "high_conf": 1
   }
 }
