@@ -1,157 +1,125 @@
 {
-  "last_scan": "2026-04-14T23:58:30.936426+00:00",
-  "scan_seconds": 44.8,
-  "markets_scanned": 69,
+  "last_scan": "2026-04-15T00:01:25.485330+00:00",
+  "scan_seconds": 35.1,
+  "markets_scanned": 71,
   "open_positions": 35,
   "signals": [
     {
-      "id": "sig_850048",
-      "timestamp": "2026-04-14T23:57:53.836062+00:00",
+      "id": "sig_60690",
+      "timestamp": "2026-04-15T00:01:24.477685+00:00",
       "source": "PERPLEXITY",
-      "headline": "US, Iran Eye Fresh Talks Before 2-Week Ceasefire Expires Next Week | NO | MED confidence**",
-      "raw": "US, Iran Eye Fresh Talks Before 2-Week Ceasefire Expires Next Week | NO | MED confidence**\n\nNo new ceasefire confirmation, announcement, or resolution today (April 14, 2026); instead, reports indicate ongoing discussions for a second round of negotiations in Islamabad before the existing 2-week ceasefire\u2014announced April 7\u2014expires early next week, amid a US blockade on Iranian ports in the Strait o",
-      "direction": "NO",
+      "headline": "Germany March 2026 Inflation Confirmed at 2",
+      "raw": "Germany March 2026 Inflation Confirmed at 2.7% YoY | YES | HIGH confidence**  \nGermany's annual inflation rate rose to 2.7% in March 2026 from 1.9% in February, confirming preliminary estimates and marking the highest since January 2024, driven by a 7.2% energy price surge including 20% fuel and 44.4% heating oil increases.[1]  \nThis acceleration exceeds prior trends and could shift ECB rate cut e",
+      "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces US x Iran ceasefire end by April 21, 2026?",
-        "US x Iran permanent peace deal by April 22, 2026?"
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
       ],
       "action": "ENTER",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_60697",
+      "timestamp": "2026-04-15T00:01:24.484613+00:00",
+      "source": "PERPLEXITY",
+      "headline": "South Korea March 2026 Inflation Confirmed at 2",
+      "raw": "South Korea March 2026 Inflation Confirmed at 2.2% YoY | YES | HIGH confidence**  \nSouth Korea's annual inflation rate increased to 2.2% in March 2026 from 2.0% in prior months, below market forecasts of 2.4% but amid Middle East energy shocks.[2]  \nBank of Korea recently held rates at 2.5% and raised its 2026 inflation outlook to 2.2% from 2.1%, signaling contained pressures.[2]",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_41023",
+      "timestamp": "2026-04-15T00:01:04.810488+00:00",
+      "source": "PERPLEXITY",
+      "headline": "YES** (recent confirmed collapse would move prediction markets on ceasefire failure/escalation)",
+      "raw": "YES** (recent confirmed collapse would move prediction markets on ceasefire failure/escalation).[3]",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
       "x_link": null,
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_863356",
-      "timestamp": "2026-04-14T23:58:07.144860+00:00",
+      "id": "sig_48049",
+      "timestamp": "2026-04-15T00:01:11.836954+00:00",
       "source": "PERPLEXITY",
-      "headline": "South Korea March 2026 Inflation Confirmed at 2",
-      "raw": "South Korea March 2026 Inflation Confirmed at 2.16-2.2% YoY, Up Slightly from 2.0% but Below Forecasts | YES | HIGH confidence**  \nSouth Korea's annual inflation rate rose to 2.16% in March 2026 from 2.00% in February, with monthly inflation at 0.34%; this missed market expectations of 2.4% and remains near the Bank of Korea's 2% target.[1][2]",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_863361",
-      "timestamp": "2026-04-14T23:58:07.149927+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Germany March 2026 Inflation Confirmed at 2",
-      "raw": "Germany March 2026 Inflation Confirmed at 2.7% YoY, Up Sharply from 1.9% on Energy Spike | YES | HIGH confidence**  \nGermany's annual inflation accelerated to 2.7% in March 2026 from 1.9% in February, matching preliminary estimates and the highest since January 2024, driven by a 7.2% energy price surge including 20% in fuel.[3]  \n\nNo breaking GDP announcements for South Korea or Germany confirmed ",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_868280",
-      "timestamp": "2026-04-14T23:58:12.068530+00:00",
-      "source": "PERPLEXITY",
-      "headline": "2026 FIFA World Cup Groups Finalized After Draw Completion | YES | HIGH confidence**",
-      "raw": "2026 FIFA World Cup Groups Finalized After Draw Completion | YES | HIGH confidence**  \nThe 2026 FIFA World Cup final draw has been completed, locking in all 12 groups for the tournament starting June 11, including **Germany** in **Group E** with Cura\u00e7ao, Ivory Coast, and Ecuador.[4][5] Top two teams per group plus the eight best third-place teams advance to the Round of 32; all groups show 0 point",
-      "direction": "YES",
-      "confidence": 0.78,
-      "matched_markets": [
-        "Will Germany win Group E in the 2026 FIFA World Cup?",
-        "Will Switzerland win Group B in the 2026 FIFA World Cup?",
-        "Will France win Group I in the 2026 FIFA World Cup?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_857622",
-      "timestamp": "2026-04-14T23:58:01.410671+00:00",
-      "source": "PERPLEXITY",
-      "headline": "HIGH confidence** no matching breaking news, as results lack any unified April 2026 confirmation impacting markets like",
-      "raw": "HIGH confidence** no matching breaking news, as results lack any unified April 2026 confirmation impacting markets like those on Polymarket. [2][6]",
+      "headline": "Confidence: HIGH** (Search results show no matching breaking events; \"Vance\" absent, likely refers to future/non-Kerala",
+      "raw": "Confidence: HIGH** (Search results show no matching breaking events; \"Vance\" absent, likely refers to future/non-Kerala assembly context).",
       "direction": "NO",
-      "confidence": 0.65,
+      "confidence": 0.78,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "POLITICS"
     },
     {
-      "id": "sig_887128",
-      "timestamp": "2026-04-14T23:58:30.916668+00:00",
-      "source": "X_GROK",
-      "headline": "Polymarket traders on X focusing on whale tracking tools, sports bets, and BTC end-month prices",
-      "raw": "Polymarket traders on X focusing on whale tracking tools, sports bets, and BTC end-month prices.**",
-      "direction": null,
+      "id": "sig_41028",
+      "timestamp": "2026-04-15T00:01:04.816005+00:00",
+      "source": "PERPLEXITY",
+      "headline": "LOW** confidence (no updates in 3 days; stalemate since April 12, no fresh confirmations)",
+      "raw": "LOW** confidence (no updates in 3 days; stalemate since April 12, no fresh confirmations).[1][2][3]",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "COMMUNITY"
+      "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_887133",
-      "timestamp": "2026-04-14T23:58:30.921615+00:00",
-      "source": "X_GROK",
-      "headline": "**Whale copy-trading tools trending**: PolyTechTrade, Nansen CLI, and Whale Watcher enable real-time smart money trackin",
-      "raw": "**Whale copy-trading tools trending**: PolyTechTrade, Nansen CLI, and Whale Watcher enable real-time smart money tracking and auto-execution on Polymarket; multiple promos urge copying top wallets for alpha.[[1]](https://x.com/i/status/2044156147712561175)[[2]](https://x.com/i/status/2043960221987373224)[[3]](https://x.com/i/status/2043826495861252589) Means edge for following YES/NO on whale posi",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2044156147712561175)[[2]](https://x.com/i/status/2043960221987373224)[[3]](https://x.com/i/status/2043826495861252589)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_887138",
-      "timestamp": "2026-04-14T23:58:30.926427+00:00",
-      "source": "X_GROK",
-      "headline": "**Liverpool vs PSG UCL BTTS**: Market at 70% YES for Both Teams To Score tonight (PSG leads 2-0); top 0",
-      "raw": "**Liverpool vs PSG UCL BTTS**: Market at 70% YES for Both Teams To Score tonight (PSG leads 2-0); top 0.01% trader ($3.5M PNL) fading PSG win with $338k bet. Chaos expected.[[4]](https://x.com/i/status/2044130178784178626) YES for BTTS. Confidence: MED (whale conviction + logic).",
-      "direction": "YES",
+      "id": "sig_48034",
+      "timestamp": "2026-04-15T00:01:11.821529+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**EC notice to LDF convener (April 3):** Election Commission issued notice to TP Ramakrishnan (LDF, contesting Perambra",
+      "raw": "**EC notice to LDF convener (April 3):** Election Commission issued notice to TP Ramakrishnan (LDF, contesting Perambra assembly seat) over a campaign vehicle announcement accusing IUML of communal campaigning; LDF denies authorization, UDF complains\u2014unlikely to shift markets as it's investigative, not resolved.[1]",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [
-        "Clube N\u00e1utico Capibaribe vs. S\u00e3o Bernardo FC: Both Teams to Score"
+        "Will the Indian Union Muslim League (IUML) win between 10 and 12 seats in the 20"
       ],
       "action": "ALERT",
-      "x_link": "https://x.com/i/status/2044130178784178626)",
-      "category": "COMMUNITY"
+      "x_link": null,
+      "category": "POLITICS"
     },
     {
-      "id": "sig_887143",
-      "timestamp": "2026-04-14T23:58:30.931375+00:00",
-      "source": "X_GROK",
-      "headline": "**BTC April 2026 price target**: Volatile market amid fear (index 21, BTC ~$74k); smart money buying for $80k+ squeeze b",
-      "raw": "**BTC April 2026 price target**: Volatile market amid fear (index 21, BTC ~$74k); smart money buying for $80k+ squeeze by month-end.[[5]](https://x.com/i/status/2044000209546686501) YES for $80k+ bins. Confidence: MED (sentiment divergence).",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2044000209546686501)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_887148",
-      "timestamp": "2026-04-14T23:58:30.936123+00:00",
-      "source": "X_GROK",
-      "headline": "**Polymarket LP farming**: Passive alpha via rewards/$POLY airdrop; copy top LPs",
-      "raw": "**Polymarket LP farming**: Passive alpha via rewards/$POLY airdrop; copy top LPs.[[6]](https://x.com/i/status/2043945104814338131) Means farm high-yield pools. Confidence: LOW (general tip).",
+      "id": "sig_48039",
+      "timestamp": "2026-04-15T00:01:11.826759+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**IUML dominance claims in UDF (April 11):** Youth League leader asserts IUML deserves DyCM post if UDF wins, projecting",
+      "raw": "**IUML dominance claims in UDF (April 11):** Youth League leader asserts IUML deserves DyCM post if UDF wins, projecting 22+ seats; PK Kunhalikutty downplays, but rank-and-file pushes for power share\u2014speculative pre-election posturing, low market impact.[4]",
       "direction": null,
       "confidence": 0.65,
+      "matched_markets": [
+        "Will the Indian Union Muslim League (IUML) win between 10 and 12 seats in the 20"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_48044",
+      "timestamp": "2026-04-15T00:01:11.831932+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Other context:** Kerala Lok Sabha voting set for April 26 (not assembly); IUML strongholds noted in Ponnani/Malappuram",
+      "raw": "**Other context:** Kerala Lok Sabha voting set for April 26 (not assembly); IUML strongholds noted in Ponnani/Malappuram; Samastha critiques IUML women candidates (undated Instagram)\u2014no ties to \"Vance\" or fresh resolutions.[2][3]",
+      "direction": "NO",
+      "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
-      "x_link": "https://x.com/i/status/2043945104814338131)",
-      "category": "COMMUNITY"
+      "x_link": null,
+      "category": "POLITICS"
     }
   ],
   "stats": {
-    "enter": 3,
-    "alert": 7,
+    "enter": 2,
+    "alert": 6,
     "watch": 0,
     "high_conf": 3
   }
