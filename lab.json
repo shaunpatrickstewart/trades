@@ -8,7 +8,7 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 125 categorical arb opportunities found\nScanned 3000 events (1914 multi-outcome) at 2026-04-15 11:09 UTC\nBest: 10.0% profit on 'Wisconsin Governor Election Winner' \u2014 buy YES on all 2 outcomes (sum=0.9)\nStrategy: Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 9.9% on 'Montana Democratic Senate Primary Winner'",
+      "result": "LIVE \u2014 125 categorical arb opportunities found\nScanned 3000 events (1915 multi-outcome) at 2026-04-15 11:09 UTC\nBest: 10.0% profit on 'Wisconsin Governor Election Winner' \u2014 buy YES on all 2 outcomes (sum=0.9)\nStrategy: Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 9.9% on 'Montana Democratic Senate Primary Winner'",
       "priority": "HIGH",
       "last_scan": "2026-04-15 11:09 UTC",
       "opportunities": [
@@ -70,6 +70,116 @@
           ],
           "url": "https://polymarket.com/event/montana-democratic-senate-primary-winner",
           "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9010. One wins $1.00. Profit: $0.0990 (9.90%)"
+        },
+        {
+          "event_title": "Who will Petr Yan fight next?",
+          "event_slug": "who-will-petr-yan-fight-next-before-2027",
+          "yes_sum": 0.9045,
+          "profit_pct": 9.55,
+          "profit_per_dollar_pct": 10.56,
+          "num_outcomes": 14,
+          "outcomes": [
+            {
+              "market_id": "897241",
+              "slug": "will-petr-yan-fight-merab-dvalishvili-next",
+              "question": "Will Petr Yan fight Merab Dvalishvili next?",
+              "yes_price": 0.68,
+              "volume": 58413
+            },
+            {
+              "market_id": "897242",
+              "slug": "will-petr-yan-fight-sean-omalley-next",
+              "question": "Will Petr Yan fight Sean O\u2019Malley next?",
+              "yes_price": 0.1155,
+              "volume": 15402
+            },
+            {
+              "market_id": "897244",
+              "slug": "will-petr-yan-fight-umar-nurmagomedov-next",
+              "question": "Will Petr Yan fight Umar Nurmagomedov next?",
+              "yes_price": 0.063,
+              "volume": 12669
+            },
+            {
+              "market_id": "897249",
+              "slug": "will-petr-yan-fight-pedro-munhoz-next",
+              "question": "Will Petr Yan fight Pedro Munhoz next?",
+              "yes_price": 0.009,
+              "volume": 5365
+            },
+            {
+              "market_id": "897250",
+              "slug": "will-petr-yan-fight-payton-talbott-next",
+              "question": "Will Petr Yan fight Payton Talbott next?",
+              "yes_price": 0.007,
+              "volume": 7265
+            },
+            {
+              "market_id": "897253",
+              "slug": "will-petr-yan-fight-alexandre-pantoja-next",
+              "question": "Will Petr Yan fight Alexandre Pantoja next?",
+              "yes_price": 0.0055,
+              "volume": 7269
+            },
+            {
+              "market_id": "897254",
+              "slug": "will-petr-yan-fight-alexander-volkanovski-next",
+              "question": "Will Petr Yan fight Alexander Volkanovski next?",
+              "yes_price": 0.005,
+              "volume": 99467
+            },
+            {
+              "market_id": "897245",
+              "slug": "will-petr-yan-fight-song-yadong-next",
+              "question": "Will Petr Yan fight Song Yadong next?",
+              "yes_price": 0.0035,
+              "volume": 12427
+            },
+            {
+              "market_id": "897246",
+              "slug": "will-petr-yan-fight-deiveson-figueiredo-next",
+              "question": "Will Petr Yan fight Deiveson Figueiredo next?",
+              "yes_price": 0.0035,
+              "volume": 8590
+            },
+            {
+              "market_id": "897251",
+              "slug": "will-petr-yan-fight-dominick-cruz-next",
+              "question": "Will Petr Yan fight Dominick Cruz next?",
+              "yes_price": 0.003,
+              "volume": 14637
+            },
+            {
+              "market_id": "897243",
+              "slug": "will-petr-yan-fight-cory-sandhagen-next",
+              "question": "Will Petr Yan fight Cory Sandhagen next?",
+              "yes_price": 0.0025,
+              "volume": 7018
+            },
+            {
+              "market_id": "897247",
+              "slug": "will-petr-yan-fight-rob-font-next",
+              "question": "Will Petr Yan fight Rob Font next?",
+              "yes_price": 0.0025,
+              "volume": 4797
+            },
+            {
+              "market_id": "897248",
+              "slug": "will-petr-yan-fight-ricky-simn-next",
+              "question": "Will Petr Yan fight Ricky Sim\u00f3n next?",
+              "yes_price": 0.0025,
+              "volume": 7809
+            },
+            {
+              "market_id": "897252",
+              "slug": "will-petr-yan-fight-henry-cejudo-next",
+              "question": "Will Petr Yan fight Henry Cejudo next?",
+              "yes_price": 0.002,
+              "volume": 8706
+            }
+          ],
+          "url": "https://polymarket.com/event/who-will-petr-yan-fight-next-before-2027",
+          "strategy": "Buy YES on all 14 outcomes. Total cost: $0.9045. One wins $1.00. Profit: $0.0955 (9.55%)"
         },
         {
           "event_title": "Presidential Election Winner 2028",
@@ -362,162 +472,11 @@
           "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9075. One wins $1.00. Profit: $0.0925 (9.25%)"
         },
         {
-          "event_title": "Will Arc launch a token by ___ ?",
-          "event_slug": "will-arc-launch-a-token-by",
-          "yes_sum": 0.91,
-          "profit_pct": 9.0,
-          "profit_per_dollar_pct": 9.89,
-          "num_outcomes": 5,
-          "outcomes": [
-            {
-              "market_id": "690675",
-              "slug": "will-arc-launch-a-token-by-december-31-2026",
-              "question": "Will Arc launch a token by December 31 2026?",
-              "yes_price": 0.5,
-              "volume": 1711
-            },
-            {
-              "market_id": "690674",
-              "slug": "will-arc-launch-a-token-by-september-30-2026",
-              "question": "Will Arc launch a token by September 30 2026?",
-              "yes_price": 0.325,
-              "volume": 6067
-            },
-            {
-              "market_id": "690673",
-              "slug": "will-arc-launch-a-token-by-june-30-2026",
-              "question": "Will Arc launch a token by June 30 2026?",
-              "yes_price": 0.085,
-              "volume": 4684
-            },
-            {
-              "market_id": "690671",
-              "slug": "will-arc-launch-a-token-by-december-31-2025",
-              "question": "Will Arc launch a token by December 31 2025?",
-              "yes_price": 0.0,
-              "volume": 16449
-            },
-            {
-              "market_id": "690672",
-              "slug": "will-arc-launch-a-token-by-march-31-2026",
-              "question": "Will Arc launch a token by March 31 2026?",
-              "yes_price": 0.0,
-              "volume": 51844
-            }
-          ],
-          "url": "https://polymarket.com/event/will-arc-launch-a-token-by",
-          "strategy": "Buy YES on all 5 outcomes. Total cost: $0.9100. One wins $1.00. Profit: $0.0900 (9.00%)"
-        },
-        {
-          "event_title": "VA-05 House Election Winner",
-          "event_slug": "va-05-house-election-winner",
-          "yes_sum": 0.91,
-          "profit_pct": 9.0,
-          "profit_per_dollar_pct": 9.89,
-          "num_outcomes": 2,
-          "outcomes": [
-            {
-              "market_id": "1285080",
-              "slug": "will-the-democratic-party-win-the-va-05-house-seat",
-              "question": "Will the Democratic Party win the VA-05 House seat?",
-              "yes_price": 0.705,
-              "volume": 14478
-            },
-            {
-              "market_id": "1285079",
-              "slug": "will-the-republican-party-win-the-va-05-house-seat",
-              "question": "Will the Republican Party win the VA-05 House seat?",
-              "yes_price": 0.205,
-              "volume": 12227
-            }
-          ],
-          "url": "https://polymarket.com/event/va-05-house-election-winner",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9100. One wins $1.00. Profit: $0.0900 (9.00%)"
-        },
-        {
-          "event_title": "Chongqing Tonglianglong FC vs. Shenzhen Xinpengcheng FC - More Markets",
-          "event_slug": "chi-ton-xin-2026-04-17-more-markets",
-          "yes_sum": 0.91,
-          "profit_pct": 9.0,
-          "profit_per_dollar_pct": 9.89,
-          "num_outcomes": 2,
-          "outcomes": [
-            {
-              "market_id": "1673015",
-              "slug": "chi-ton-xin-2026-04-17-total-1pt5",
-              "question": "Chongqing Tonglianglong FC vs. Shenzhen Xinpengcheng FC: O/U 1.5",
-              "yes_price": 0.75,
-              "volume": 1088
-            },
-            {
-              "market_id": "1673009",
-              "slug": "chi-ton-xin-2026-04-17-spread-home-2pt5",
-              "question": "Spread: Chongqing Tonglianglong FC (-2.5)",
-              "yes_price": 0.16,
-              "volume": 2798
-            }
-          ],
-          "url": "https://polymarket.com/event/chi-ton-xin-2026-04-17-more-markets",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9100. One wins $1.00. Profit: $0.0900 (9.00%)"
-        },
-        {
-          "event_title": "Rhode Island Governor Republican Primary Winner",
-          "event_slug": "rhode-island-governor-republican-primary-winner",
-          "yes_sum": 0.91,
-          "profit_pct": 9.0,
-          "profit_per_dollar_pct": 9.89,
-          "num_outcomes": 2,
-          "outcomes": [
-            {
-              "market_id": "906891",
-              "slug": "will-aaron-guckian-win-the-2026-rhode-island-governor-republican-primary-election",
-              "question": "Will Aaron Guckian win the 2026 Rhode Island Governor Republican primary electio",
-              "yes_price": 0.61,
-              "volume": 2384
-            },
-            {
-              "market_id": "906892",
-              "slug": "will-elaine-pelino-win-the-2026-rhode-island-governor-republican-primary-election",
-              "question": "Will Elaine Pelino win the 2026 Rhode Island Governor Republican primary electio",
-              "yes_price": 0.3,
-              "volume": 1796
-            }
-          ],
-          "url": "https://polymarket.com/event/rhode-island-governor-republican-primary-winner",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9100. One wins $1.00. Profit: $0.0900 (9.00%)"
-        },
-        {
-          "event_title": "AK-AL House Election Winner",
-          "event_slug": "ak-al-house-election-winner",
-          "yes_sum": 0.91,
-          "profit_pct": 9.0,
-          "profit_per_dollar_pct": 9.89,
-          "num_outcomes": 2,
-          "outcomes": [
-            {
-              "market_id": "1279604",
-              "slug": "will-the-republican-party-win-the-ak-al-house-seat",
-              "question": "Will the Republican Party win the AK-AL House seat?",
-              "yes_price": 0.625,
-              "volume": 1276
-            },
-            {
-              "market_id": "1279605",
-              "slug": "will-the-democratic-party-win-the-ak-al-house-seat",
-              "question": "Will the Democratic Party win the AK-AL House seat?",
-              "yes_price": 0.285,
-              "volume": 1592
-            }
-          ],
-          "url": "https://polymarket.com/event/ak-al-house-election-winner",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9100. One wins $1.00. Profit: $0.0900 (9.00%)"
-        },
-        {
           "event_title": "NBA Sixth Man of the Year Winner",
           "event_slug": "nba-2025-26-sixth-man-of-the-year",
-          "yes_sum": 0.911,
-          "profit_pct": 8.9,
-          "profit_per_dollar_pct": 9.77,
+          "yes_sum": 0.908,
+          "profit_pct": 9.2,
+          "profit_per_dollar_pct": 10.13,
           "num_outcomes": 28,
           "outcomes": [
             {
@@ -531,7 +490,7 @@
               "market_id": "643616",
               "slug": "nba-2025-26-sixth-man-of-the-year-naz-reid",
               "question": "Will Naz Reid win the 2025\u20132026 NBA Sixth Man of the Year?",
-              "yes_price": 0.0185,
+              "yes_price": 0.016,
               "volume": 27054
             },
             {
@@ -556,13 +515,6 @@
               "volume": 1749
             },
             {
-              "market_id": "643621",
-              "slug": "nba-2025-26-sixth-man-of-the-year-payton-pritchard",
-              "question": "Will Payton Pritchard win the 2025\u20132026 NBA Sixth Man of the Year?",
-              "yes_price": 0.0045,
-              "volume": 2157
-            },
-            {
               "market_id": "643615",
               "slug": "nba-2025-26-sixth-man-of-the-year-zacharie-risacher",
               "question": "Will Zacharie Risacher win the 2025\u20132026 NBA Sixth Man of the Year?",
@@ -575,6 +527,13 @@
               "question": "Will Jared McCain win the 2025\u20132026 NBA Sixth Man of the Year?",
               "yes_price": 0.004,
               "volume": 4346
+            },
+            {
+              "market_id": "643621",
+              "slug": "nba-2025-26-sixth-man-of-the-year-payton-pritchard",
+              "question": "Will Payton Pritchard win the 2025\u20132026 NBA Sixth Man of the Year?",
+              "yes_price": 0.004,
+              "volume": 2157
             },
             {
               "market_id": "643608",
@@ -718,13 +677,138 @@
             }
           ],
           "url": "https://polymarket.com/event/nba-2025-26-sixth-man-of-the-year",
-          "strategy": "Buy YES on all 28 outcomes. Total cost: $0.9110. One wins $1.00. Profit: $0.0890 (8.90%)"
+          "strategy": "Buy YES on all 28 outcomes. Total cost: $0.9080. One wins $1.00. Profit: $0.0920 (9.20%)"
+        },
+        {
+          "event_title": "Will Arc launch a token by ___ ?",
+          "event_slug": "will-arc-launch-a-token-by",
+          "yes_sum": 0.91,
+          "profit_pct": 9.0,
+          "profit_per_dollar_pct": 9.89,
+          "num_outcomes": 5,
+          "outcomes": [
+            {
+              "market_id": "690675",
+              "slug": "will-arc-launch-a-token-by-december-31-2026",
+              "question": "Will Arc launch a token by December 31 2026?",
+              "yes_price": 0.5,
+              "volume": 1711
+            },
+            {
+              "market_id": "690674",
+              "slug": "will-arc-launch-a-token-by-september-30-2026",
+              "question": "Will Arc launch a token by September 30 2026?",
+              "yes_price": 0.325,
+              "volume": 6067
+            },
+            {
+              "market_id": "690673",
+              "slug": "will-arc-launch-a-token-by-june-30-2026",
+              "question": "Will Arc launch a token by June 30 2026?",
+              "yes_price": 0.085,
+              "volume": 4684
+            },
+            {
+              "market_id": "690671",
+              "slug": "will-arc-launch-a-token-by-december-31-2025",
+              "question": "Will Arc launch a token by December 31 2025?",
+              "yes_price": 0.0,
+              "volume": 16449
+            },
+            {
+              "market_id": "690672",
+              "slug": "will-arc-launch-a-token-by-march-31-2026",
+              "question": "Will Arc launch a token by March 31 2026?",
+              "yes_price": 0.0,
+              "volume": 51844
+            }
+          ],
+          "url": "https://polymarket.com/event/will-arc-launch-a-token-by",
+          "strategy": "Buy YES on all 5 outcomes. Total cost: $0.9100. One wins $1.00. Profit: $0.0900 (9.00%)"
+        },
+        {
+          "event_title": "VA-05 House Election Winner",
+          "event_slug": "va-05-house-election-winner",
+          "yes_sum": 0.91,
+          "profit_pct": 9.0,
+          "profit_per_dollar_pct": 9.89,
+          "num_outcomes": 2,
+          "outcomes": [
+            {
+              "market_id": "1285080",
+              "slug": "will-the-democratic-party-win-the-va-05-house-seat",
+              "question": "Will the Democratic Party win the VA-05 House seat?",
+              "yes_price": 0.705,
+              "volume": 14478
+            },
+            {
+              "market_id": "1285079",
+              "slug": "will-the-republican-party-win-the-va-05-house-seat",
+              "question": "Will the Republican Party win the VA-05 House seat?",
+              "yes_price": 0.205,
+              "volume": 12227
+            }
+          ],
+          "url": "https://polymarket.com/event/va-05-house-election-winner",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9100. One wins $1.00. Profit: $0.0900 (9.00%)"
+        },
+        {
+          "event_title": "Chongqing Tonglianglong FC vs. Shenzhen Xinpengcheng FC - More Markets",
+          "event_slug": "chi-ton-xin-2026-04-17-more-markets",
+          "yes_sum": 0.91,
+          "profit_pct": 9.0,
+          "profit_per_dollar_pct": 9.89,
+          "num_outcomes": 2,
+          "outcomes": [
+            {
+              "market_id": "1673015",
+              "slug": "chi-ton-xin-2026-04-17-total-1pt5",
+              "question": "Chongqing Tonglianglong FC vs. Shenzhen Xinpengcheng FC: O/U 1.5",
+              "yes_price": 0.75,
+              "volume": 1088
+            },
+            {
+              "market_id": "1673009",
+              "slug": "chi-ton-xin-2026-04-17-spread-home-2pt5",
+              "question": "Spread: Chongqing Tonglianglong FC (-2.5)",
+              "yes_price": 0.16,
+              "volume": 2798
+            }
+          ],
+          "url": "https://polymarket.com/event/chi-ton-xin-2026-04-17-more-markets",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9100. One wins $1.00. Profit: $0.0900 (9.00%)"
+        },
+        {
+          "event_title": "Rhode Island Governor Republican Primary Winner",
+          "event_slug": "rhode-island-governor-republican-primary-winner",
+          "yes_sum": 0.91,
+          "profit_pct": 9.0,
+          "profit_per_dollar_pct": 9.89,
+          "num_outcomes": 2,
+          "outcomes": [
+            {
+              "market_id": "906891",
+              "slug": "will-aaron-guckian-win-the-2026-rhode-island-governor-republican-primary-election",
+              "question": "Will Aaron Guckian win the 2026 Rhode Island Governor Republican primary electio",
+              "yes_price": 0.61,
+              "volume": 2384
+            },
+            {
+              "market_id": "906892",
+              "slug": "will-elaine-pelino-win-the-2026-rhode-island-governor-republican-primary-election",
+              "question": "Will Elaine Pelino win the 2026 Rhode Island Governor Republican primary electio",
+              "yes_price": 0.3,
+              "volume": 1796
+            }
+          ],
+          "url": "https://polymarket.com/event/rhode-island-governor-republican-primary-winner",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9100. One wins $1.00. Profit: $0.0900 (9.00%)"
         }
       ],
       "stats": {
         "total_events": 3000,
-        "checked_multi_outcome": 1914,
-        "skipped_single_outcome": 597,
+        "checked_multi_outcome": 1915,
+        "skipped_single_outcome": 596,
         "opportunities_found": 125,
         "best_profit_pct": 10.0,
         "scanned_at": "2026-04-15 11:09 UTC"
