@@ -1,36 +1,32 @@
 {
-  "last_scan": "2026-04-15T01:52:12.560937+00:00",
-  "scan_seconds": 26.0,
-  "markets_scanned": 70,
+  "last_scan": "2026-04-15T01:54:56.542005+00:00",
+  "scan_seconds": 26.2,
+  "markets_scanned": 68,
   "open_positions": 35,
   "signals": [
     {
-      "id": "sig_690014",
-      "timestamp": "2026-04-15T01:51:53.795897+00:00",
+      "id": "sig_853515",
+      "timestamp": "2026-04-15T01:54:37.296266+00:00",
       "source": "PERPLEXITY",
-      "headline": "US and Iran eye fresh talks before 2-week ceasefire expires next week | NO | MED confidence** [2][3]",
-      "raw": "US and Iran eye fresh talks before 2-week ceasefire expires next week | NO | MED confidence** [2][3]\n\nNo new confirmations, announcements, or resolutions reported in the last few hours as of April 15, 2026, 1 AM UTC that would shift prediction markets on Trump-Iran tensions[1][2][3][4]. The existing 2-week ceasefire, announced April 7-8 after Trump de-escalated strike threats, remains in effect bu",
-      "direction": "NO",
+      "headline": "No resolution or formal ceasefire announced; escalation via blockade overshadows talks, unlikely to move prediction mark",
+      "raw": "No resolution or formal ceasefire announced; escalation via blockade overshadows talks, unlikely to move prediction markets toward \"yes\" on ceasefire[1][2].",
+      "direction": "YES",
       "confidence": 0.9,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces US x Iran ceasefire end by April 21, 2026?",
-        "US x Iran permanent peace deal by April 22, 2026?"
-      ],
-      "action": "ENTER",
+      "matched_markets": [],
+      "action": "ALERT",
       "x_link": null,
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_695034",
-      "timestamp": "2026-04-15T01:51:58.815214+00:00",
+      "id": "sig_860162",
+      "timestamp": "2026-04-15T01:54:43.943664+00:00",
       "source": "PERPLEXITY",
-      "headline": "MEA Denies Elon Musk Participated in Modi-Trump Call on West Asia Crisis | NO | HIGH confidence**",
-      "raw": "MEA Denies Elon Musk Participated in Modi-Trump Call on West Asia Crisis | NO | HIGH confidence**  \nIndia's Ministry of External Affairs (MEA) categorically denied reports from The New York Times that Elon Musk joined the March 24, 2026, phone call between PM Narendra Modi and US President Donald Trump, confirming it was strictly bilateral and focused on West Asia tensions.[1][2][3] This official ",
-      "direction": "NO",
-      "confidence": 0.65,
+      "headline": "Elon Musk Predicts 12-Year Republican Dominance: Trump Second Term Followed by Two Vance Terms** | YES | HIGH confidence",
+      "raw": "Elon Musk Predicts 12-Year Republican Dominance: Trump Second Term Followed by Two Vance Terms** | YES | HIGH confidence[1][3]\n\nElon Musk stated at a DOGE alumni reunion in Bastrop, Texas, on November 22 that the US is entering a \"great 12-year span\" of GOP control, with Trump's current term succeeded by two consecutive terms for VP JD Vance; he also claimed to be among the top US assassination ta",
+      "direction": "YES",
+      "confidence": 0.78,
       "matched_markets": [
-        "Trump announces US x Iran ceasefire end by April 21, 2026?",
+        "Will J.D. Vance win the 2028 Republican presidential nominat",
         "Will Trump talk to Elon Musk in April?",
         "Will the Indian Union Muslim League (IUML) win between 10 and 12 seats in the 20"
       ],
@@ -39,52 +35,45 @@
       "category": "POLITICS"
     },
     {
-      "id": "sig_700226",
-      "timestamp": "2026-04-15T01:52:04.007957+00:00",
+      "id": "sig_853498",
+      "timestamp": "2026-04-15T01:54:37.279926+00:00",
       "source": "PERPLEXITY",
-      "headline": "LOW confidence** due to no real-time events in results; all cover price analysis or dated snapshots through April 13",
-      "raw": "LOW confidence** due to no real-time events in results; all cover price analysis or dated snapshots through April 13.[1][2][3][4][5][6][7]",
+      "headline": "US Begins Naval Blockade of Iranian Ports; Trump Signals Potential Ceasefire Talks** | **NO** | **HIGH** confidence[1][2",
+      "raw": "US Begins Naval Blockade of Iranian Ports; Trump Signals Potential Ceasefire Talks** | **NO** | **HIGH** confidence[1][2]",
       "direction": "NO",
       "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_707743",
-      "timestamp": "2026-04-15T01:52:11.524899+00:00",
-      "source": "PERPLEXITY",
-      "headline": "South Korea's Q2 2025 GDP growth at 0",
-      "raw": "South Korea's Q2 2025 GDP growth at 0.6% with easing inflation, from an August 2025 event projecting 1% GDP growth for 2025[1].",
-      "direction": null,
-      "confidence": 0.65,
       "matched_markets": [
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces US x Iran ceasefire end by April 21, 2026?",
+        "Will Trump announce that the US x Iran ceasefire has been br"
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_707753",
-      "timestamp": "2026-04-15T01:52:11.534817+00:00",
+      "id": "sig_853505",
+      "timestamp": "2026-04-15T01:54:37.286153+00:00",
       "source": "PERPLEXITY",
-      "headline": "Germany's January 2025 inflation at 2",
-      "raw": "Germany's January 2025 inflation at 2.1% YoY (up from 1.8%), expected to fluctuate around 2%[2].",
-      "direction": "YES",
+      "headline": "**Blockade Announcement**: President Trump has enacted a US naval blockade on Iran's ports and coastal areas, effective",
+      "raw": "**Blockade Announcement**: President Trump has enacted a US naval blockade on Iran's ports and coastal areas, effective as of April 14, 2026, declaring any Iranian fast-attack ships approaching US vessels will be \"immediately eliminated.\" Tehran vows retaliation[1].",
+      "direction": null,
       "confidence": 0.65,
-      "matched_markets": [],
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces US x Iran ceasefire end by April 21, 2026?",
+        "US x Iran permanent peace deal by April 22, 2026?"
+      ],
       "action": "ALERT",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_707761",
-      "timestamp": "2026-04-15T01:52:11.542948+00:00",
+      "id": "sig_871749",
+      "timestamp": "2026-04-15T01:54:55.530770+00:00",
       "source": "PERPLEXITY",
-      "headline": "UN forecast of 1",
-      "raw": "UN forecast of 1.8% South Korea GDP growth in 2026 with easing inflation (no new release date specified)[4].",
+      "headline": "South Korea March 2026 Inflation Rises to 2",
+      "raw": "South Korea March 2026 Inflation Rises to 2.2%, Below Forecasts | NO | LOW confidence**  \nSouth Korea's annual inflation rate increased to 2.2% in March 2026 from 2.0% prior, missing market expectations of 2.4%; this is the most recent data but not \"right now\" as of April 15 and unlikely to shift prediction markets given its alignment with the central bank's 2% target and prior contained pressures",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [
@@ -95,12 +84,12 @@
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_707771",
-      "timestamp": "2026-04-15T01:52:11.552055+00:00",
+      "id": "sig_871755",
+      "timestamp": "2026-04-15T01:54:55.536140+00:00",
       "source": "PERPLEXITY",
-      "headline": "OECD December 2025 projections: Korea GDP at 1",
-      "raw": "OECD December 2025 projections: Korea GDP at 1.0% in 2025, 2.1% in 2026-2027[6].",
-      "direction": null,
+      "headline": "Germany January 2026 Inflation at 2",
+      "raw": "Germany January 2026 Inflation at 2.1%, Above Prior Month | NO | LOW confidence**  \nGerman headline inflation rebounded to 2.1% YoY in January 2026 from 1.8% in December, with core at 2.5%; dated over two months ago with no new confirmation, and forecasts suggest fluctuation around 2% without major market-moving impact.[2]",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -108,22 +97,39 @@
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_707778",
-      "timestamp": "2026-04-15T01:52:11.560003+00:00",
+      "id": "sig_871760",
+      "timestamp": "2026-04-15T01:54:55.541296+00:00",
       "source": "PERPLEXITY",
-      "headline": "IMF January 2026 outlook: Global growth at 3",
-      "raw": "IMF January 2026 outlook: Global growth at 3.3% in 2026, euro area inflation ~2%, no Germany-specific breakout or fresh data[8].\n\nNo results indicate announcements within hours or days of now that could shift markets; all predate April 2026 significantly[1][2][4][6][8].",
+      "headline": "South Korea Q4 2025 GDP Contracts on Weak Exports/Investment Amid Oil Shock | NO | MED confidence**",
+      "raw": "South Korea Q4 2025 GDP Contracts on Weak Exports/Investment Amid Oil Shock | NO | MED confidence**  \nSouth Korea's GDP contracted in Q4 2025 (final quarter last year) at a slightly slower pace than estimated, due to weaker investment/exports and oil disruptions; reported March 10, 2026, this tempers growth outlook (projected 1.0% in 2025) but lacks fresh resolution to move markets now.[3][5]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_853510",
+      "timestamp": "2026-04-15T01:54:37.291305+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Ceasefire Developments**: Sources indicate Iran reached out to the US, with Trump telling the New York Post that talks",
+      "raw": "**Ceasefire Developments**: Sources indicate Iran reached out to the US, with Trump telling the New York Post that talks could occur within two days; this optimism is driving market reactions, though decisions remain fluid and no agreement is confirmed[2].",
       "direction": "NO",
       "confidence": 0.6,
-      "matched_markets": [],
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces US x Iran ceasefire end by April 21, 2026?",
+        "Will Trump announce that the US x Iran ceasefire has been br"
+      ],
       "action": "WATCH",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "GEOPOLITICS"
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 6,
+    "enter": 0,
+    "alert": 7,
     "watch": 1,
     "high_conf": 1
   }
