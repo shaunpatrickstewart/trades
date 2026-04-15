@@ -1,241 +1,47 @@
 {
-  "last_scan": "2026-04-15T17:49:19.315496+00:00",
-  "scan_seconds": 31.6,
-  "markets_scanned": 123,
-  "open_positions": 89,
+  "last_scan": "2026-04-15T17:52:12.010404+00:00",
+  "scan_seconds": 32.3,
+  "markets_scanned": 78,
+  "open_positions": 41,
   "signals": [
     {
-      "id": "sig_126861",
-      "timestamp": "2026-04-15T17:49:10.584067+00:00",
+      "id": "sig_307286",
+      "timestamp": "2026-04-15T17:52:11.009795+00:00",
       "source": "PERPLEXITY",
-      "headline": "Solana Alpenglow Upgrade Path Confirmed for 2026 with 150ms Finality Target | YES | MED confidence**",
-      "raw": "Solana Alpenglow Upgrade Path Confirmed for 2026 with 150ms Finality Target | YES | MED confidence**  \nThe Alpenglow consensus upgrade has been highlighted as highly anticipated, aiming to reduce Solana's transaction finality from 12 seconds to 150 milliseconds, amid a surge to 167 million monthly token holders and 148 million daily non-vote transactions as of April 14, 2026.[1]  \nThis technical m",
+      "headline": "Trump Nominates Kevin Warsh as Next Fed Chair, Sparking Uncertainty on Inflation Policy and Currency Markets | YES | HIG",
+      "raw": "Trump Nominates Kevin Warsh as Next Fed Chair, Sparking Uncertainty on Inflation Policy and Currency Markets | YES | HIGH confidence**  \nPresident Trump's nomination of former Fed Governor **Kevin Warsh** to succeed Jerome Powell as Fed Chair has been confirmed, triggering market reactions including a weakening South Korean won to 1,457 per USD amid fears of a **stronger dollar**, tighter inflatio",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
-        "Will the price of Solana be above $100 on April 16?",
-        "Will the price of Solana be between $100 and $110 on April 1",
-        "Will the price of Solana be above $100 on April 18?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_126894",
-      "timestamp": "2026-04-15T17:49:10.617578+00:00",
-      "source": "PERPLEXITY",
-      "headline": "$280M Drift Protocol Exploit Confirmed via Social Engineering | YES | HIGH confidence**",
-      "raw": "$280M Drift Protocol Exploit Confirmed via Social Engineering | YES | HIGH confidence**  \nA $280M+ exploit on Solana's Drift protocol was verified, using social engineering and pre-approved transactions for admin control, with Circle declining to freeze $230M in bridged USDC.[3]  \nThis has shaken ecosystem trust, contributing to SOL's 13% weekly drop to ~$78 and 40% DEX volume decline, likely pres",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will the price of Bitcoin be above $80,000 on April 16?",
-        "Will the price of Solana be above $100 on April 16?",
-        "Will the price of Bitcoin be above $68,000 on April 16?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_134514",
-      "timestamp": "2026-04-15T17:49:18.237587+00:00",
-      "source": "PERPLEXITY",
-      "headline": "I cannot provide the breaking news format you've requested based on these search results",
-      "raw": "I cannot provide the breaking news format you've requested based on these search results. The articles discuss Kevin Warsh's potential nomination and policies but do not contain today-dated announcements or confirmed developments that would move prediction markets.\n\nThe most recent information in these results is from early 2026, discussing:",
-      "direction": null,
-      "confidence": 0.9,
-      "matched_markets": [
-        "Kevin Warsh confirmed as Fed Chair by May 15?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_120318",
-      "timestamp": "2026-04-15T17:49:04.041622+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Congress votes on Trump\u2019s Iran war**: Republican-controlled Congress prepares House vote this week on war powers resol",
-      "raw": "**Congress votes on Trump\u2019s Iran war**: Republican-controlled Congress prepares House vote this week on war powers resolution; Speaker Johnson expects defeat, with Trump likely veto\u2014positions may impact 2028 politics.[3]",
-      "direction": null,
-      "confidence": 0.78,
-      "matched_markets": [
-        "Trump announces end of military operations against Iran by A",
-        "Will the Republican Party win the MO-05 House seat?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_112869",
-      "timestamp": "2026-04-15T17:48:56.592264+00:00",
-      "source": "PERPLEXITY",
-      "headline": "LOW confidence** in market-moving events today, as coverage emphasizes ceasefire extension talks without breakthroughs[2",
-      "raw": "LOW confidence** in market-moving events today, as coverage emphasizes ceasefire extension talks without breakthroughs[2][3].",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_120309",
-      "timestamp": "2026-04-15T17:49:04.032345+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**VP Vance leads 2028 GOP straw poll**: At CPAC (March 30, 2026), Vance won 53% among conservatives, ahead of Rubio (35%",
-      "raw": "**VP Vance leads 2028 GOP straw poll**: At CPAC (March 30, 2026), Vance won 53% among conservatives, ahead of Rubio (35%), signaling early momentum in Trump's succession race amid Iran conflict.[1][2]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [
-        "Trump announces end of military operations against Iran by A"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_120327",
-      "timestamp": "2026-04-15T17:49:04.050764+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**No TMC connection**: Search results show zero links to India's All India Trinamool Congress; no resolutions or announc",
-      "raw": "**No TMC connection**: Search results show zero links to India's All India Trinamool Congress; no resolutions or announcements tie it to these US topics.[1][2][3]\n\n| Event | YES/NO | Confidence |\n|-------|--------|------------|\n| Vance 2028 frontrunner via CPAC poll | YES (straw poll result) | MED (dated Mar 30; informal)[1] |\n| Congress defeats Iran war resolution | NO (vote pending; expected def",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the All India Trinamool Congress (AITC) win the most seats in the 2026 West"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_126877",
-      "timestamp": "2026-04-15T17:49:10.600090+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Solana Economic Activity Reaches $1",
-      "raw": "Solana Economic Activity Reaches $1.1 Trillion in Q1 2026 | YES | HIGH confidence**  \nOn-chain data confirms Solana's total economic activity hit $1.1 trillion in Q1 2026, up 6,558.6% from the prior quarter, driven by transaction throughput, DeFi, and staking growth.[2]  \nThis fundamental adoption metric signals robust network usage, potentially boosting long-term investor confidence and SOL price",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_134548",
-      "timestamp": "2026-04-15T17:49:18.271356+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Current inflation**: Core annual inflation stands at 3",
-      "raw": "**Current inflation**: Core annual inflation stands at 3.9%, with the Fed's preferred PCE measure at 4.56%\u2014more than double the 2% target[1]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [
+        "Kevin Warsh confirmed as Fed Chair by May 15?",
         "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
       ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_300627",
+      "timestamp": "2026-04-15T17:52:04.350547+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Bitcoin surges past $74K to one-month high on April 14, 2026 | YES | HIGH confidence**",
+      "raw": "Bitcoin surges past $74K to one-month high on April 14, 2026 | YES | HIGH confidence**  \nBitcoin broke key resistance at $74,000, reaching near $75,000 amid strong ETF inflows and institutional demand, confirmed as of April 14 at 8:30 a.m. ET with price at $74,314.61 (up $3,125 from prior day).[1][2]  \nThis price action could shift prediction markets on BTC bull trends or resistance breaks, though",
+      "direction": "YES",
+      "confidence": 0.78,
+      "matched_markets": [
+        "Will the price of Bitcoin be above $72,000 on April 21?",
+        "Ethereum Up or Down - April 16, 10:35AM-10:40AM ET",
+        "Ethereum Up or Down - April 16, 10:20AM-10:25AM ET"
+      ],
       "action": "ALERT",
       "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_134556",
-      "timestamp": "2026-04-15T17:49:18.279859+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Market expectations**: Major investment banks expect the Fed to begin cutting rates in June, with two quarter-point cu",
-      "raw": "**Market expectations**: Major investment banks expect the Fed to begin cutting rates in June, with two quarter-point cuts priced for 2026[2]\n\nHowever, these search results lack:",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_134565",
-      "timestamp": "2026-04-15T17:49:18.288347+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Today's (April 15, 2026) specific breaking announcements",
-      "raw": "Today's (April 15, 2026) specific breaking announcements",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_134573",
-      "timestamp": "2026-04-15T17:49:18.296987+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Confirmation of Warsh's appointment",
-      "raw": "Confirmation of Warsh's appointment",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_134582",
-      "timestamp": "2026-04-15T17:49:18.305869+00:00",
-      "source": "PERPLEXITY",
-      "headline": "New inflation data or Fed decisions released today",
-      "raw": "New inflation data or Fed decisions released today",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_134591",
-      "timestamp": "2026-04-15T17:49:18.314446+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Any South Korea-specific developments",
-      "raw": "Any South Korea-specific developments\n\nTo answer your query accurately, I would need search results containing today's news announcements or market-moving events.",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_134523",
-      "timestamp": "2026-04-15T17:49:18.246767+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Warsh's potential succession**: Warsh could become Federal Reserve chair by mid-May 2026, with speculation about his f",
-      "raw": "**Warsh's potential succession**: Warsh could become Federal Reserve chair by mid-May 2026, with speculation about his first policy moves[1][2]",
-      "direction": null,
-      "confidence": 0.6,
-      "matched_markets": [],
-      "action": "WATCH",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_134539",
-      "timestamp": "2026-04-15T17:49:18.262537+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Rate hike possibility**: His first decision might involve a rate hike, driven by inflation concerns and oil price surg",
-      "raw": "**Rate hike possibility**: His first decision might involve a rate hike, driven by inflation concerns and oil price surges above $100 per barrel[1]",
-      "direction": null,
-      "confidence": 0.6,
-      "matched_markets": [],
-      "action": "WATCH",
-      "x_link": null,
-      "category": "ECONOMICS"
+      "category": "CRYPTO"
     }
   ],
   "stats": {
-    "enter": 2,
-    "alert": 12,
-    "watch": 2,
-    "high_conf": 3
+    "enter": 1,
+    "alert": 1,
+    "watch": 0,
+    "high_conf": 1
   }
 }
