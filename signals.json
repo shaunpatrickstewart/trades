@@ -1,110 +1,74 @@
 {
-  "last_scan": "2026-04-15T15:36:01.322461+00:00",
-  "scan_seconds": 29.0,
+  "last_scan": "2026-04-15T15:38:45.346450+00:00",
+  "scan_seconds": 25.1,
   "markets_scanned": 76,
   "open_positions": 40,
   "signals": [
     {
-      "id": "sig_125779",
-      "timestamp": "2026-04-15T15:35:49.510384+00:00",
+      "id": "sig_284648",
+      "timestamp": "2026-04-15T15:38:28.379840+00:00",
       "source": "PERPLEXITY",
-      "headline": "US Congress Rejects Resolutions Limiting Trump\u2019s Venezuela Military Actions Amid Confirmed Strike Killing Four** | **YES",
-      "raw": "US Congress Rejects Resolutions Limiting Trump\u2019s Venezuela Military Actions Amid Confirmed Strike Killing Four** | **YES** | **HIGH** confidence[1]\n\nThe US military confirmed a strike on Wednesday that killed four alleged \"narco-terrorists\" on a vessel in the eastern Pacific, as described by US Southern Command with video evidence[1]. Concurrently, the Republican-controlled House narrowly defeated",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Trump announces end of military operations against Iran by A",
-        "Will the White House call a full lid by 6:30PM on April 14?",
-        "Will Nicol\u00e1s Maduro be the leader of Venezuela end of 2026?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_119886",
-      "timestamp": "2026-04-15T15:35:43.617287+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Key confirmed terms:** Iran committed to immediately reopening the Strait of Hormuz and stopping all attacks on the U",
-      "raw": "Key confirmed terms:** Iran committed to immediately reopening the Strait of Hormuz and stopping all attacks on the U.S., Israel, and regional countries.[1][2] Both sides agreed to negotiate a conclusive peace agreement, with initial talks held in Islamabad on April 11, 2026, featuring U.S. Vice President JD Vance, Trump's special envoy Steve Witkoff, and Jared Kushner alongside Iranian Foreign Mi",
-      "direction": null,
+      "headline": "US and Iran Plan Second Round of Talks Before April 21 Ceasefire Expires | NO | HIGH confidence**",
+      "raw": "US and Iran Plan Second Round of Talks Before April 21 Ceasefire Expires | NO | HIGH confidence**\n\nThe two-week ceasefire, announced April 7-8 and mediated by Pakistan, remains in effect until April 21 but is fragile with reported violations by both sides and no deal from initial Islamabad talks.[1][2][3] US and Iranian officials are now preparing for fresh negotiations within days, with Pakistan ",
+      "direction": "NO",
       "confidence": 0.9,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
         "US x Iran permanent peace deal by April 22, 2026?",
-        "Trump announces end of military operations against Iran by A"
+        "US x Iran diplomatic meeting by April 18, 2026?"
       ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_119891",
-      "timestamp": "2026-04-15T15:35:43.622984+00:00",
+      "id": "sig_300614",
+      "timestamp": "2026-04-15T15:38:44.345172+00:00",
       "source": "PERPLEXITY",
-      "headline": "Current status:** A second round of negotiations is being prepared to occur within days, though the date and venue remai",
-      "raw": "Current status:** A second round of negotiations is being prepared to occur within days, though the date and venue remain unfinalised as of April 14, 2026.[5] Both sides have already exchanged written demands and possible compromises, with clearer negotiating positions than before.[5] The ceasefire has reportedly been violated by both sides since its declaration.[2]",
-      "direction": null,
+      "headline": "Fed Holds Rates Unchanged Amid Accelerating Wholesale Inflation; Trump Nominates Kevin Warsh as Next Fed Chair | YES | H",
+      "raw": "Fed Holds Rates Unchanged Amid Accelerating Wholesale Inflation; Trump Nominates Kevin Warsh as Next Fed Chair | YES | HIGH confidence**[1][2][3]\n\nRecent Fed decision on Wednesday kept the federal funds rate steady after three prior cuts, with Powell highlighting December PCE inflation at 3% annually (up from 2.8% in November), while PPI surged 0.5% monthly and 3% annually in December\u2014exceeding es",
+      "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?"
+        "Kevin Warsh confirmed as Fed Chair by May 15?"
       ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_136590",
-      "timestamp": "2026-04-15T15:36:00.321721+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Kevin Warsh Nominated as Next Fed Chair by President Trump | NO | LOW confidence**",
-      "raw": "Kevin Warsh Nominated as Next Fed Chair by President Trump | NO | LOW confidence**\n\nNo breaking confirmations, announcements, or resolutions today (April 15, 2026) on Kevin Warsh's Fed chair nomination, annual inflation, or South Korea that would move prediction markets[1][2][3].[1] Recent coverage discusses Trump's nomination announcement and Warsh's potential policies\u2014like favoring 2-3 rate cuts",
-      "direction": "NO",
-      "confidence": 0.78,
-      "matched_markets": [
-        "Kevin Warsh confirmed as Fed Chair by May 15?",
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?",
-        "Trump announces end of military operations against Iran by April 21st?"
-      ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_119880",
-      "timestamp": "2026-04-15T15:35:43.611322+00:00",
+      "id": "sig_294579",
+      "timestamp": "2026-04-15T15:38:38.310068+00:00",
       "source": "PERPLEXITY",
-      "headline": "US-Iran Two-Week Ceasefire Agreed, Peace Talks Underway in Islamabad | YES | HIGH confidence**",
-      "raw": "US-Iran Two-Week Ceasefire Agreed, Peace Talks Underway in Islamabad | YES | HIGH confidence**\n\nThe **United States and Iran agreed to a two-week ceasefire on April 8, 2026**, mediated by Pakistan, just hours before Trump's deadline for Iran to reopen the Strait of Hormuz.[1][2] The agreement took effect immediately and includes suspension of bombing by the U.S. and Israel, contingent on Iran reop",
+      "headline": "SEC Roundtable Guidance on Crypto Interfaces (15 April 2026)** | YES | HIGH confidence",
+      "raw": "SEC Roundtable Guidance on Crypto Interfaces (15 April 2026)** | YES | HIGH confidence  \nThe SEC clarified rules for crypto interfaces today, potentially benefiting XRP Ledger's native DEX amid regulatory progress.[3]",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "US x Iran permanent peace deal by April 22, 2026?",
-        "Trump announces end of military operations against Iran by A"
+        "XRP Up or Down - April 16, 7:20AM-7:25AM ET"
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "GEOPOLITICS"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_119897",
-      "timestamp": "2026-04-15T15:35:43.628422+00:00",
+      "id": "sig_294589",
+      "timestamp": "2026-04-15T15:38:38.320492+00:00",
       "source": "PERPLEXITY",
-      "headline": "Market-moving implications:** Oil prices initially declined following the ceasefire announcement, and markets temporaril",
-      "raw": "Market-moving implications:** Oil prices initially declined following the ceasefire announcement, and markets temporarily stabilized.[4] However, the lack of a final agreement and reported violations suggest significant uncertainty remains about whether the two-week period will lead to a lasting peace settlement.",
-      "direction": null,
+      "headline": "Ripple USD (RLUSD) Stablecoin Full Rollout** | YES | MED confidence",
+      "raw": "Ripple USD (RLUSD) Stablecoin Full Rollout** | YES | MED confidence  \nRLUSD launched across XRP Ledger and Ethereum, driving capital influx post-SEC resolution and amid XRP ETF final approvals.[2]",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "GEOPOLITICS"
+      "category": "CRYPTO"
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 5,
+    "enter": 2,
+    "alert": 2,
     "watch": 0,
-    "high_conf": 3
+    "high_conf": 2
   }
 }
