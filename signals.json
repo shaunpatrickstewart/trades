@@ -1,46 +1,76 @@
 {
-  "last_scan": "2026-04-15T15:27:12.019998+00:00",
-  "scan_seconds": 32.1,
+  "last_scan": "2026-04-15T15:30:11.420162+00:00",
+  "scan_seconds": 39.5,
   "markets_scanned": 78,
   "open_positions": 40,
   "signals": [
     {
-      "id": "sig_600728",
-      "timestamp": "2026-04-15T15:27:04.460479+00:00",
+      "id": "sig_786676",
+      "timestamp": "2026-04-15T15:30:10.408116+00:00",
       "source": "PERPLEXITY",
-      "headline": "CLARITY Act Roundtable Scheduled | YES | HIGH confidence**",
-      "raw": "CLARITY Act Roundtable Scheduled | YES | HIGH confidence**\n\nThe **SEC's CLARITY Act roundtable is set for April 16** (tomorrow), with the Senate Banking Committee targeting a late-April markup[4]. The bill now has backing from Coinbase, the Treasury Secretary, the SEC Chair, and the former White House crypto czar\u2014the first time in 2026 no major player is blocking it[4]. If passed, banks gain perma",
-      "direction": "YES",
+      "headline": "A confirmed announcement of Warsh's appointment as Fed Chair (the results reference his nomination and mention that Powe",
+      "raw": "A confirmed announcement of Warsh's appointment as Fed Chair (the results reference his nomination and mention that Powell's term ends in May 2026, but no confirmation of Warsh's selection)",
+      "direction": "NO",
       "confidence": 0.9,
       "matched_markets": [
-        "Will the White House call a full lid by 6:30PM on April 14?",
-        "XRP Up or Down - April 16, 7:20AM-7:25AM ET"
+        "Kevin Warsh confirmed as Fed Chair by May 15?"
       ],
       "action": "ENTER",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "ECONOMICS"
     },
     {
-      "id": "sig_584727",
-      "timestamp": "2026-04-15T15:26:48.459656+00:00",
+      "id": "sig_770898",
+      "timestamp": "2026-04-15T15:29:54.630787+00:00",
       "source": "PERPLEXITY",
-      "headline": "HIGH/MED/LOW confidence: HIGH** \u2013 Multiple sources consistently report the April 8 ceasefire's ongoing fragility, recent",
-      "raw": "HIGH/MED/LOW confidence: HIGH** \u2013 Multiple sources consistently report the April 8 ceasefire's ongoing fragility, recent blockade implementation, and pending talks without today's breakthroughs[1][2][3][4][5]. Prediction markets would likely see no major shift absent a concrete deal.",
-      "direction": "NO",
+      "headline": "Congress Announces Full List of 294 Candidates for 2026 West Bengal Assembly Elections, Contesting Independently** | YES",
+      "raw": "Congress Announces Full List of 294 Candidates for 2026 West Bengal Assembly Elections, Contesting Independently** | YES | HIGH confidence[1]\n\nIndian National Congress released its complete candidate list today for all 294 seats in the West Bengal Legislative Assembly elections scheduled for April 23 and 29, 2026, with results on May 4[1][4]. AICC in-charge Ghulam Ahmed Mir confirmed the party wil",
+      "direction": "YES",
       "confidence": 0.78,
       "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?"
+        "Will the All India Trinamool Congress (AITC) win the most seats in the 2026 West",
+        "Will the Indian Union Muslim League (IUML) win between 10 and 12 seats in the 20"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_764955",
+      "timestamp": "2026-04-15T15:29:48.687366+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Based on the search results from April 15, 2026, here are the key developments:",
+      "raw": "Based on the search results from April 15, 2026, here are the key developments:",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_764968",
+      "timestamp": "2026-04-15T15:29:48.700662+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Ceasefire Expires April 21st Without Major Breakthrough | YES | HIGH confidence**",
+      "raw": "Ceasefire Expires April 21st Without Major Breakthrough | YES | HIGH confidence**\n\nThe temporary two-week ceasefire between the U.S. and Iran will expire on Monday, April 21st[1]. First-round negotiations ended without a deal, with major disagreements remaining over nuclear commitments and Strait of Hormuz control[1].",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "US x Iran permanent peace deal by April 22, 2026?",
+        "US x Iran diplomatic meeting by April 18, 2026?"
       ],
       "action": "ALERT",
       "x_link": null,
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_584721",
-      "timestamp": "2026-04-15T15:26:48.453249+00:00",
+      "id": "sig_764974",
+      "timestamp": "2026-04-15T15:29:48.706213+00:00",
       "source": "PERPLEXITY",
-      "headline": "YES or NO: NO** \u2013 No new developments today confirm, announce, or resolve a ceasefire; talks for a second round are plan",
-      "raw": "YES or NO: NO** \u2013 No new developments today confirm, announce, or resolve a ceasefire; talks for a second round are planned soon (possibly within days in Pakistan) but inconclusive and pre-deadline[3][4][5].",
+      "headline": "Israel-Lebanon Talks Commence | YES | HIGH confidence**",
+      "raw": "Israel-Lebanon Talks Commence | YES | HIGH confidence**\n\nSecretary of State Marco Rubio is hosting the first direct high-level talks between Israel and Lebanon[4]. This marks unprecedented direct contact between the two sides, though violence continues on the ground with Israeli strikes persisting in southern Lebanon[3].",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
@@ -49,103 +79,81 @@
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_600712",
-      "timestamp": "2026-04-15T15:27:04.444148+00:00",
+      "id": "sig_764979",
+      "timestamp": "2026-04-15T15:29:48.711617+00:00",
       "source": "PERPLEXITY",
-      "headline": "# Breaking XRP News - April 15, 2026",
-      "raw": "# Breaking XRP News - April 15, 2026",
+      "headline": "Negotiations Stalled with Iran | YES | HIGH confidence**",
+      "raw": "Negotiations Stalled with Iran | YES | HIGH confidence**\n\nU.S. negotiators left Islamabad with virtually no progress after 21 hours of talks[3]. Vice President JD Vance indicated Iran refused to accept American terms on nuclear development prevention[3].",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_786670",
+      "timestamp": "2026-04-15T15:30:10.402714+00:00",
+      "source": "PERPLEXITY",
+      "headline": "I cannot provide the breaking news format you're requesting because the search results do not contain current announceme",
+      "raw": "I cannot provide the breaking news format you're requesting because the search results do not contain current announcements, confirmations, or resolutions that would move prediction markets as of April 15, 2026.\n\nThe search results discuss Kevin Warsh's nomination by President Trump to lead the Federal Reserve and his policy positions on inflation and monetary reform, but they do not include:",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [
-        "XRP Up or Down - April 16, 7:20AM-7:25AM ET"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_600717",
-      "timestamp": "2026-04-15T15:27:04.449445+00:00",
-      "source": "PERPLEXITY",
-      "headline": "SEC Clarifies Crypto Interface Rules | YES | HIGH confidence**",
-      "raw": "SEC Clarifies Crypto Interface Rules | YES | HIGH confidence**\n\nThe SEC released roundtable guidance on April 15, 2026, clarifying rules for crypto interfaces, which potentially benefits XRPL's native DEX[2]. This regulatory clarity removes ambiguity that has constrained institutional adoption.",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "XRP Up or Down - April 16, 7:20AM-7:25AM ET"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_600722",
-      "timestamp": "2026-04-15T15:27:04.454873+00:00",
-      "source": "PERPLEXITY",
-      "headline": "ETF Inflows Surge & Rakuten Integration | YES | HIGH confidence**",
-      "raw": "ETF Inflows Surge & Rakuten Integration | YES | HIGH confidence**\n\nU.S. spot XRP ETFs attracted **$119.6 million in inflows**\u2014the strongest single-day intake since December 2025\u2014on April 14[2]. Simultaneously, **Rakuten Wallet integrated XRP** into its Rakuten Pay system, enabling its 44 million users to convert XRP into loyalty points[2]. This dual catalyst signals renewed institutional demand an",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "XRP Up or Down - April 16, 7:20AM-7:25AM ET"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_600733",
-      "timestamp": "2026-04-15T15:27:04.465638+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Technical Breakout Watch | YES | MED confidence**",
-      "raw": "Technical Breakout Watch | YES | MED confidence**\n\nXRP's price is compressing in a symmetrical triangle with the daily MACD turning bullish as of April 15[2], suggesting a potential near-term directional move.",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "XRP Up or Down - April 16, 7:20AM-7:25AM ET"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_590776",
-      "timestamp": "2026-04-15T15:26:54.508032+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Trinamool Congress (TMC) confirms it will contest all 42 West Bengal Lok Sabha seats independently, rejecting seat-shari",
-      "raw": "Trinamool Congress (TMC) confirms it will contest all 42 West Bengal Lok Sabha seats independently, rejecting seat-sharing with Congress and dashing INDIA alliance hopes.** | NO | HIGH confidence[1][2]\n\nTMC senior leader Derek O'Brien reiterated party chief Mamata Banerjee's stance with no changes, sticking to offering Congress only its 2019 tally of 2 seats despite earlier positive signals on Thu",
-      "direction": "NO",
-      "confidence": 0.6,
-      "matched_markets": [
-        "Will J.D. Vance win the 2028 Republican presidential nominat",
-        "Will the All India Trinamool Congress (AITC) win the most seats in the 2026 West",
-        "Will the Indian Union Muslim League (IUML) win between 10 and 12 seats in the 20"
-      ],
-      "action": "WATCH",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_607286",
-      "timestamp": "2026-04-15T15:27:11.018958+00:00",
-      "source": "PERPLEXITY",
-      "headline": "US March 2026 CPI Annual Inflation Jumps to 3",
-      "raw": "US March 2026 CPI Annual Inflation Jumps to 3.3%, Monthly +0.9% on Gas Surge | YES | HIGH confidence**[1][6]\n\nThe US Bureau of Labor Statistics released March 2026 CPI data today, showing **annual headline inflation** at **3.3%** (up from 2.4% in February, highest since May 2024) and a **monthly rise of 0.9%** (largest since June 2022, driven by 21.2% gas price jump).[1][6] Core annual inflation e",
-      "direction": "YES",
-      "confidence": 0.6,
-      "matched_markets": [
         "Kevin Warsh confirmed as Fed Chair by May 15?",
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+        "Will Trump say \"Christian\" during TPUSA events on April 17?",
+        "Will Trump say \"Discombobulator\" or \"Discombobulated\" in April?"
       ],
-      "action": "WATCH",
+      "action": "ALERT",
       "x_link": null,
       "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_786681",
+      "timestamp": "2026-04-15T15:30:10.413461+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Any information about South Korea or its connection to these topics",
+      "raw": "Any information about South Korea or its connection to these topics",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_786687",
+      "timestamp": "2026-04-15T15:30:10.419202+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Breaking news or real-time market-moving developments",
+      "raw": "Breaking news or real-time market-moving developments\n\nTo provide accurate prediction market information in the format you've requested, I would need search results containing today's or very recent announcements. The current results appear to be from before any final Fed Chair decision was made.",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Kevin Warsh confirmed as Fed Chair by May 15?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_764984",
+      "timestamp": "2026-04-15T15:29:48.716989+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Trump Administration Suggests Renewed Talks Possible This Week | YES | MED confidence**",
+      "raw": "Trump Administration Suggests Renewed Talks Possible This Week | YES | MED confidence**\n\nPresident Trump has suggested peace talks could re-ignite this week[4], though the timing remains uncertain with only days remaining before the ceasefire expires.",
+      "direction": "YES",
+      "confidence": 0.6,
+      "matched_markets": [],
+      "action": "WATCH",
+      "x_link": null,
+      "category": "GEOPOLITICS"
     }
   ],
   "stats": {
     "enter": 1,
-    "alert": 6,
-    "watch": 2,
+    "alert": 8,
+    "watch": 1,
     "high_conf": 1
   }
 }
