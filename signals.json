@@ -1,16 +1,16 @@
 {
-  "last_scan": "2026-04-15T10:57:08.779999+00:00",
-  "scan_seconds": 28.6,
-  "markets_scanned": 85,
-  "open_positions": 47,
+  "last_scan": "2026-04-15T10:59:56.628849+00:00",
+  "scan_seconds": 28.3,
+  "markets_scanned": 78,
+  "open_positions": 40,
   "signals": [
     {
-      "id": "sig_387653",
-      "timestamp": "2026-04-15T10:56:51.401070+00:00",
+      "id": "sig_552937",
+      "timestamp": "2026-04-15T10:59:36.685541+00:00",
       "source": "PERPLEXITY",
-      "headline": "**Context on Ceasefire/Blockade**: A prior 2-week US-Iran ceasefire (announced ~April 8) appears fragile, with ongoing m",
-      "raw": "**Context on Ceasefire/Blockade**: A prior 2-week US-Iran ceasefire (announced ~April 8) appears fragile, with ongoing mine-clearing, no direct US Navy attacks, but Iranian drone strikes on Gulf allies like Bahrain; blockade allows non-Iranian transit but fails to fully halt Iranian ships, prompting strategy recalibration[1][2][3].",
-      "direction": "NO",
+      "headline": "Trump Hints Iran Ceasefire Talks Could Resume This Week Amid US Blockade | YES | HIGH confidence**[1][2][4]",
+      "raw": "Trump Hints Iran Ceasefire Talks Could Resume This Week Amid US Blockade | YES | HIGH confidence**[1][2][4]\n\nUS President Donald Trump stated on April 15 that talks to end the US-Iran war could resume this week, following collapsed negotiations in Pakistan and the imposition of a US maritime blockade on Iranian ports.[1][2][3] Reports confirm Iran has proposed a five-year suspension of nuclear act",
+      "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
@@ -22,101 +22,57 @@
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_398784",
-      "timestamp": "2026-04-15T10:57:02.532430+00:00",
+      "id": "sig_566560",
+      "timestamp": "2026-04-15T10:59:50.308392+00:00",
       "source": "PERPLEXITY",
-      "headline": "NO | LOW confidence**\u2014Search results highlight expectations and price surges without specific \"just confirmed\" developme",
-      "raw": "NO | LOW confidence**\u2014Search results highlight expectations and price surges without specific \"just confirmed\" developments impactful enough for prediction markets like Polymarket (e.g., no CLARITY Act passage or war resolution verified).[2][3][5]",
-      "direction": "NO",
+      "headline": "I cannot identify any breaking news from the search results that would move prediction markets as of today",
+      "raw": "I cannot identify any breaking news from the search results that would move prediction markets as of today. The search results contain price tracking and analysis from April 6-13, 2026, but do not include announcements, confirmations, or resolutions from April 15, 2026.\n\nThe most recent concrete data point is from April 13, when Ethereum was trading at $2,196.04[2], showing modest daily gains. The",
+      "direction": "YES",
       "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
+      "matched_markets": [
+        "Ethereum Up or Down - April 16, 12:35AM-12:40AM ET",
+        "Will Robinhood Markets, Inc. (HOOD) hit (HIGH) $82.50 Week of April 13 2026?"
+      ],
+      "action": "ENTER",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_404030",
-      "timestamp": "2026-04-15T10:57:07.778475+00:00",
+      "id": "sig_558268",
+      "timestamp": "2026-04-15T10:59:42.016816+00:00",
       "source": "PERPLEXITY",
-      "headline": "South Korea Inflation Rate Rises to 2",
-      "raw": "South Korea Inflation Rate Rises to 2.2% in March 2026, Below Forecasts but Above BoK Target Amid Oil Shocks | NO | HIGH confidence** [1][4]\n\nSouth Korea's annual inflation rate increased to 2.2% in March 2026 from 2.0% in prior months, missing market expectations of 2.4% while exceeding the Bank of Korea's 2% target.[1] This data, released around early April 2026, aligns with the BoK's April 10 d",
-      "direction": "NO",
+      "headline": "Vance, Rubio Named GOP Frontrunners for 2028 in New CPAC Straw Poll** | NO | LOW confidence[1]",
+      "raw": "Vance, Rubio Named GOP Frontrunners for 2028 in New CPAC Straw Poll** | NO | LOW confidence[1]\n\nFox News reports a recent CPAC straw poll showing **JD Vance** and **Marco Rubio** as leading Republican contenders for the 2028 presidential nomination, with Rubio at 35% (up 3% from last year) and Vance at an implied strong position despite a personal 8% drop year-over-year[1]. No confirmed announceme",
+      "direction": "YES",
       "confidence": 0.78,
       "matched_markets": [
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?",
-        "Will Robinhood Markets, Inc. (HOOD) hit (HIGH) $82.50 Week of April 13 2026?"
+        "Will J.D. Vance win the 2028 Republican presidential nominat",
+        "Will the All India Trinamool Congress (AITC) win the most seats in the 2026 West"
       ],
       "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_571879",
+      "timestamp": "2026-04-15T10:59:55.627559+00:00",
+      "source": "PERPLEXITY",
+      "headline": "SOUTH KOREA INFLATION RISES TO 2",
+      "raw": "SOUTH KOREA INFLATION RISES TO 2.2% IN MARCH 2026, ABOVE BOK TARGET AMID OIL SHOCKS | NO | MED confidence**  \nSouth Korea's annual inflation rate increased to 2.2% in March 2026 from 2.0% in prior months, missing forecasts of 2.4% but exceeding the Bank of Korea's 2.0% target, driven by global energy volatility from Middle East conflicts.[2][4][5]  \nThis follows January's five-month low of 2.0% (h",
+      "direction": "NO",
+      "confidence": 0.6,
+      "matched_markets": [
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+      ],
+      "action": "WATCH",
       "x_link": null,
       "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_387640",
-      "timestamp": "2026-04-15T10:56:51.388447+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Trump Signals Resumed Iran Talks in Islamabad Within 2 Days Amid Failing Hormuz Blockade** | YES | MED confidence[2][3]",
-      "raw": "Trump Signals Resumed Iran Talks in Islamabad Within 2 Days Amid Failing Hormuz Blockade** | YES | MED confidence[2][3]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Trump announces US x Iran ceasefire end by April 21, 2026?",
-        "Trump announces end of military operations against Iran by A"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_387665",
-      "timestamp": "2026-04-15T10:56:51.413142+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Recency Note**: Latest updates from April 15 videos confirm the interview as breaking news RIGHT NOW; no full resoluti",
-      "raw": "**Recency Note**: Latest updates from April 15 videos confirm the interview as breaking news RIGHT NOW; no full resolution or formal announcement beyond Trump's remarks[2].",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Trump announces US x Iran ceasefire end by April 21, 2026?",
-        "Will Trump say \"Discombobulator\" or \"Discombobulated\" in April?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_387646",
-      "timestamp": "2026-04-15T10:56:51.394841+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Key Development**: In a New York Post interview reported today (April 15, 2026), President Trump stated negotiations w",
-      "raw": "**Key Development**: In a New York Post interview reported today (April 15, 2026), President Trump stated negotiations with Iran could resume within the next 2 days, potentially in Islamabad, marking a diplomatic pivot after Day 1 reports of limited success in the US naval blockade of the Strait of Hormuz launched April 13[2][3].",
-      "direction": null,
-      "confidence": 0.6,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces US x Iran ceasefire end by April 21, 2026?",
-        "US x Iran permanent peace deal by April 22, 2026?"
-      ],
-      "action": "WATCH",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_387659",
-      "timestamp": "2026-04-15T10:56:51.407148+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Prediction Market Impact**: This shift from military pressure to talks could move markets on US-Iran de-escalation, oi",
-      "raw": "**Prediction Market Impact**: This shift from military pressure to talks could move markets on US-Iran de-escalation, oil prices, or conflict resolution bets, though conflicting reports (e.g., slow/uncertain talks vs. imminent resumption) temper certainty[2].",
-      "direction": null,
-      "confidence": 0.6,
-      "matched_markets": [],
-      "action": "WATCH",
-      "x_link": null,
-      "category": "GEOPOLITICS"
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 4,
-    "watch": 2,
+    "enter": 2,
+    "alert": 1,
+    "watch": 1,
     "high_conf": 2
   }
 }
