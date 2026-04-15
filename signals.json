@@ -1,15 +1,32 @@
 {
-  "last_scan": "2026-04-15T10:54:22.288983+00:00",
-  "scan_seconds": 34.2,
-  "markets_scanned": 86,
+  "last_scan": "2026-04-15T10:57:08.779999+00:00",
+  "scan_seconds": 28.6,
+  "markets_scanned": 85,
   "open_positions": 47,
   "signals": [
     {
-      "id": "sig_232737",
-      "timestamp": "2026-04-15T10:54:16.485669+00:00",
+      "id": "sig_387653",
+      "timestamp": "2026-04-15T10:56:51.401070+00:00",
       "source": "PERPLEXITY",
-      "headline": "Based on the available search results, there is no breaking news from today (April 15, 2026) that would move prediction",
-      "raw": "Based on the available search results, there is no breaking news from today (April 15, 2026) that would move prediction markets. The most recent confirmed developments are:",
+      "headline": "**Context on Ceasefire/Blockade**: A prior 2-week US-Iran ceasefire (announced ~April 8) appears fragile, with ongoing m",
+      "raw": "**Context on Ceasefire/Blockade**: A prior 2-week US-Iran ceasefire (announced ~April 8) appears fragile, with ongoing mine-clearing, no direct US Navy attacks, but Iranian drone strikes on Gulf allies like Bahrain; blockade allows non-Iranian transit but fails to fully halt Iranian ships, prompting strategy recalibration[1][2][3].",
+      "direction": "NO",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces US x Iran ceasefire end by April 21, 2026?",
+        "US x Iran permanent peace deal by April 22, 2026?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_398784",
+      "timestamp": "2026-04-15T10:57:02.532430+00:00",
+      "source": "PERPLEXITY",
+      "headline": "NO | LOW confidence**\u2014Search results highlight expectations and price surges without specific \"just confirmed\" developme",
+      "raw": "NO | LOW confidence**\u2014Search results highlight expectations and price surges without specific \"just confirmed\" developments impactful enough for prediction markets like Polymarket (e.g., no CLARITY Act passage or war resolution verified).[2][3][5]",
       "direction": "NO",
       "confidence": 0.9,
       "matched_markets": [],
@@ -18,112 +35,59 @@
       "category": "CRYPTO"
     },
     {
-      "id": "sig_224829",
-      "timestamp": "2026-04-15T10:54:08.577736+00:00",
+      "id": "sig_404030",
+      "timestamp": "2026-04-15T10:57:07.778475+00:00",
       "source": "PERPLEXITY",
-      "headline": "US Congress** prepares to vote **today** on a war powers resolution requiring approval for further **Trump** strikes on",
-      "raw": "US Congress** prepares to vote **today** on a war powers resolution requiring approval for further **Trump** strikes on Iran amid escalating conflict, facing resistance in **Republican-controlled** chambers and likely veto; this follows surprise US strikes, US casualties (6 killed in Kuwait drone strike), and no clear exit strategy[4].\n\nNo confirmed announcements involve **All India Trinamool Cong",
+      "headline": "South Korea Inflation Rate Rises to 2",
+      "raw": "South Korea Inflation Rate Rises to 2.2% in March 2026, Below Forecasts but Above BoK Target Amid Oil Shocks | NO | HIGH confidence** [1][4]\n\nSouth Korea's annual inflation rate increased to 2.2% in March 2026 from 2.0% in prior months, missing market expectations of 2.4% while exceeding the Bank of Korea's 2% target.[1] This data, released around early April 2026, aligns with the BoK's April 10 d",
       "direction": "NO",
       "confidence": 0.78,
       "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces US x Iran ceasefire end by April 21, 2026?",
-        "US x Iran permanent peace deal by April 22, 2026?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_218693",
-      "timestamp": "2026-04-15T10:54:02.441483+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Trump Signals Second Round of US-Iran Talks in Islamabad Within 2 Days Amid Failing Hormuz Blockade and Looming Ceasefir",
-      "raw": "Trump Signals Second Round of US-Iran Talks in Islamabad Within 2 Days Amid Failing Hormuz Blockade and Looming Ceasefire Deadline | YES | HIGH confidence**[1][2]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces US x Iran ceasefire end by April 21, 2026?",
-        "Trump announces end of military operations against Iran by A"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_218706",
-      "timestamp": "2026-04-15T10:54:02.454185+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Ceasefire Context**: Talks aim toward a ceasefire, but a \"fragile\" one is holding with no direct US Navy attacks; Isra",
-      "raw": "**Ceasefire Context**: Talks aim toward a ceasefire, but a \"fragile\" one is holding with no direct US Navy attacks; Israel continues strikes (e.g., 350+ killed in one day), and red lines (e.g., Iran's uranium stockpile) remain irreconcilable per US officials.[3]",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces US x Iran ceasefire end by April 21, 2026?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_224823",
-      "timestamp": "2026-04-15T10:54:08.571455+00:00",
-      "source": "PERPLEXITY",
-      "headline": "US VP Vance Confirms Iran Peace Talks Collapse After 21 Hours; No Deal Reached** | YES | HIGH confidence[1][2]",
-      "raw": "US VP Vance Confirms Iran Peace Talks Collapse After 21 Hours; No Deal Reached** | YES | HIGH confidence[1][2]\n\nUS Vice President **JD Vance** returned to Washington, DC, after **21-hour negotiations** with Iran in Islamabad, Pakistan, explicitly confirming no agreement was reached as Iran rejected US terms despite presented red lines[1][2]. Talks involved US officials including Steve Witkoff and ",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Trump announces US x Iran ceasefire end by April 21, 2026?",
-        "US x Iran permanent peace deal by April 22, 2026?",
-        "Trump announces end of military operations against Iran by A"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_232761",
-      "timestamp": "2026-04-15T10:54:16.509688+00:00",
-      "source": "PERPLEXITY",
-      "headline": "XRP ETF Inflows Hit Weekly Record | YES | HIGH confidence**",
-      "raw": "XRP ETF Inflows Hit Weekly Record | YES | HIGH confidence**\nXRP recorded $119.6 million in net inflows to investment products for the week ending April 11, the strongest weekly figure since December[4]. Seven spot XRP ETFs have reached combined assets under management approaching $1 billion[4].",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the price of XRP be above $1.80 on April 16?",
-        "Will the price of XRP be above $1.60 on April 19?",
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?",
         "Will Robinhood Markets, Inc. (HOOD) hit (HIGH) $82.50 Week of April 13 2026?"
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "ECONOMICS"
     },
     {
-      "id": "sig_232767",
-      "timestamp": "2026-04-15T10:54:16.515619+00:00",
+      "id": "sig_387640",
+      "timestamp": "2026-04-15T10:56:51.388447+00:00",
       "source": "PERPLEXITY",
-      "headline": "SEC/CFTC Commodity Classification | YES | HIGH confidence**",
-      "raw": "SEC/CFTC Commodity Classification | YES | HIGH confidence**\nThe SEC and CFTC classified XRP as a digital commodity in March[4], with the SEC confirming commodity status on March 17[7].\n\nThese developments occurred within the past week but are not from today. The search results do not contain any announcements, confirmations, or resolutions dated April 15, 2026. Current market conditions show Bitco",
+      "headline": "Trump Signals Resumed Iran Talks in Islamabad Within 2 Days Amid Failing Hormuz Blockade** | YES | MED confidence[2][3]",
+      "raw": "Trump Signals Resumed Iran Talks in Islamabad Within 2 Days Amid Failing Hormuz Blockade** | YES | MED confidence[2][3]",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
-        "Will the price of Ethereum be above $2,100 on April 15?",
-        "Will the price of Bitcoin be greater than $82,000 on April 1",
-        "Will the price of XRP be above $1.80 on April 16?"
+        "Trump announces US x Iran ceasefire end by April 21, 2026?",
+        "Trump announces end of military operations against Iran by A"
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_218700",
-      "timestamp": "2026-04-15T10:54:02.448067+00:00",
+      "id": "sig_387665",
+      "timestamp": "2026-04-15T10:56:51.413142+00:00",
       "source": "PERPLEXITY",
-      "headline": "**Key Confirmation**: US President Trump stated in a New York Post interview that negotiations with Iran could resume wi",
-      "raw": "**Key Confirmation**: US President Trump stated in a New York Post interview that negotiations with Iran could resume within the next 2 days, potentially in Islamabad, Pakistan, following a first round over the weekend that ended without a deal. This marks a reported pivot from a Day 1 naval blockade in the Strait of Hormuz (launched April 13), which failed to stop merchant vessels despite US depl",
+      "headline": "**Recency Note**: Latest updates from April 15 videos confirm the interview as breaking news RIGHT NOW; no full resoluti",
+      "raw": "**Recency Note**: Latest updates from April 15 videos confirm the interview as breaking news RIGHT NOW; no full resolution or formal announcement beyond Trump's remarks[2].",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Trump announces US x Iran ceasefire end by April 21, 2026?",
+        "Will Trump say \"Discombobulator\" or \"Discombobulated\" in April?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_387646",
+      "timestamp": "2026-04-15T10:56:51.394841+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Key Development**: In a New York Post interview reported today (April 15, 2026), President Trump stated negotiations w",
+      "raw": "**Key Development**: In a New York Post interview reported today (April 15, 2026), President Trump stated negotiations with Iran could resume within the next 2 days, potentially in Islamabad, marking a diplomatic pivot after Day 1 reports of limited success in the US naval blockade of the Strait of Hormuz launched April 13[2][3].",
       "direction": null,
       "confidence": 0.6,
       "matched_markets": [
@@ -136,39 +100,23 @@
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_218712",
-      "timestamp": "2026-04-15T10:54:02.460187+00:00",
+      "id": "sig_387659",
+      "timestamp": "2026-04-15T10:56:51.407148+00:00",
       "source": "PERPLEXITY",
-      "headline": "**Prediction Market Impact**: Announcement of imminent talks could shift odds on de-escalation, Iran conflict resolution",
-      "raw": "**Prediction Market Impact**: Announcement of imminent talks could shift odds on de-escalation, Iran conflict resolution, or oil price stability, as blockade weakness prompts diplomacy.[1][2][3]",
+      "headline": "**Prediction Market Impact**: This shift from military pressure to talks could move markets on US-Iran de-escalation, oi",
+      "raw": "**Prediction Market Impact**: This shift from military pressure to talks could move markets on US-Iran de-escalation, oil prices, or conflict resolution bets, though conflicting reports (e.g., slow/uncertain talks vs. imminent resumption) temper certainty[2].",
       "direction": null,
       "confidence": 0.6,
       "matched_markets": [],
       "action": "WATCH",
       "x_link": null,
       "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_232752",
-      "timestamp": "2026-04-15T10:54:16.500360+00:00",
-      "source": "PERPLEXITY",
-      "headline": "CLARITY Act Senate Banking Committee Markup | YES | HIGH confidence**",
-      "raw": "CLARITY Act Senate Banking Committee Markup | YES | HIGH confidence**\nThe CLARITY Act is heading toward a Senate Banking Committee markup vote in late April[1], with endorsements from Coinbase CEO Brian Armstrong and US Treasury Secretary Scott Bessent[1]. This regulatory development could allow banks to use XRP directly for liquidity[6].",
-      "direction": "YES",
-      "confidence": 0.6,
-      "matched_markets": [
-        "Will the price of XRP be above $1.80 on April 16?",
-        "Will the price of XRP be above $1.60 on April 19?"
-      ],
-      "action": "WATCH",
-      "x_link": null,
-      "category": "CRYPTO"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 7,
-    "watch": 3,
-    "high_conf": 1
+    "enter": 1,
+    "alert": 4,
+    "watch": 2,
+    "high_conf": 2
   }
 }
