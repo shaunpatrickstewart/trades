@@ -1,63 +1,134 @@
 {
-  "last_scan": "2026-04-15T23:26:05.609384+00:00",
+  "last_scan": "2026-04-15T23:28:53.657888+00:00",
   "scan_seconds": 26.9,
   "markets_scanned": 80,
   "open_positions": 38,
   "signals": [
     {
-      "id": "sig_329734",
-      "timestamp": "2026-04-15T23:25:53.437565+00:00",
+      "id": "sig_491684",
+      "timestamp": "2026-04-15T23:28:35.387611+00:00",
       "source": "PERPLEXITY",
-      "headline": "King Charles Confirms US State Visit to Meet Trump on April 28 Despite UK Political Backlash and Iran Tensions | NO | LO",
-      "raw": "King Charles Confirms US State Visit to Meet Trump on April 28 Despite UK Political Backlash and Iran Tensions | NO | LOW confidence**\n\nNo breaking confirmation, announcement, or resolution today (April 15, 2026) directly involving the White House and Republicans that has \"obliterated\" expectations or shifted prediction markets[1][2][3]. UK opposition leader Ed Davey demanded cancellation of King ",
+      "headline": "**Russia-Ukraine Easter ceasefire** (April 11-12) unilaterally announced by Putin, ignoring prior Kyiv proposals; no ext",
+      "raw": "**Russia-Ukraine Easter ceasefire** (April 11-12) unilaterally announced by Putin, ignoring prior Kyiv proposals; no extension, with Russia advancing and stalled talks linked to Iran war.[4][5]",
       "direction": "NO",
       "confidence": 0.9,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces end of military operations against Iran by A",
-        "Will the White House call a full lid by 6:30PM on April 14?"
+        "Will Russia enter Ternuvate again by April 30?",
+        "US x Iran diplomatic meeting by April 18, 2026?"
       ],
       "action": "ENTER",
       "x_link": null,
-      "category": "POLITICS"
+      "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_340905",
-      "timestamp": "2026-04-15T23:26:04.608472+00:00",
+      "id": "sig_491677",
+      "timestamp": "2026-04-15T23:28:35.381145+00:00",
       "source": "PERPLEXITY",
-      "headline": "Kevin Warsh's nomination as next Fed Chair by President Trump, amid surging inflation and oil shock, sparks debate on po",
-      "raw": "Kevin Warsh's nomination as next Fed Chair by President Trump, amid surging inflation and oil shock, sparks debate on potential rate hikes instead of cuts.** | YES | HIGH confidence[1][2][3][4][5][6][7]\n\nWarsh, former Fed governor (2006-2011) known for hawkish inflation stance, is top contender to succeed Jerome Powell by mid-May 2026; his first act could involve rate hike as core PCE inflation hi",
+      "headline": "**US-Israel-Iran two-week ceasefire** announced around April 8-9, welcomed by Russia (Lavrov, Kremlin, Zakharova) as de-",
+      "raw": "**US-Israel-Iran two-week ceasefire** announced around April 8-9, welcomed by Russia (Lavrov, Kremlin, Zakharova) as de-escalation toward negotiations; start date unclear amid ongoing strikes and Strait of Hormuz issues.[1][2][3][6]",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Will Russia enter Ternuvate again by April 30?",
+        "US x Iran diplomatic meeting by April 18, 2026?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_508942",
+      "timestamp": "2026-04-15T23:28:52.645542+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Bank of Korea Holds Benchmark Rate at 2",
+      "raw": "Bank of Korea Holds Benchmark Rate at 2.5% for 7th Month Amid Rising Inflation and Oil Risks | NO | HIGH confidence**  \nThe Bank of Korea's Monetary Policy Board unanimously decided on April 10, 2026, to maintain its benchmark interest rate at 2.5%, citing upside inflation risks from surging oil prices due to Middle East conflict, with CPI slightly above the 2% target and expected to rise to mid-t",
       "direction": "YES",
       "confidence": 0.78,
-      "matched_markets": [
-        "Kevin Warsh confirmed as Fed Chair by May 15?"
-      ],
+      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_324520",
-      "timestamp": "2026-04-15T23:25:48.223881+00:00",
+      "id": "sig_508954",
+      "timestamp": "2026-04-15T23:28:52.657304+00:00",
       "source": "PERPLEXITY",
-      "headline": "US, Israel, and Iran Agree to Two-Week Ceasefire in Last-Minute Deal; Kremlin Welcomes It as Strait of Hormuz Remains Cl",
-      "raw": "US, Israel, and Iran Agree to Two-Week Ceasefire in Last-Minute Deal; Kremlin Welcomes It as Strait of Hormuz Remains Closed | YES | HIGH confidence**[1][4]\n\nRussia, a key Iranian partner providing intelligence and drone advice, publicly welcomed the US-Israel-Iran ceasefire announced on Wednesday (April 8-15, 2026 context), which aims to halt escalation after Trump's threats to strike Iranian inf",
-      "direction": "YES",
-      "confidence": 0.6,
+      "headline": "Incoming BOK Governor Nominee Warns of Accelerating Headline Inflation | NO | LOW confidence**",
+      "raw": "Incoming BOK Governor Nominee Warns of Accelerating Headline Inflation | NO | LOW confidence**  \nOn April 15, 2026 (per \"Wednesday\"), nominee Shin Hyun-song stated consumer inflation is likely to accelerate, amid record foreign outflows and won weakness.[2][4]  \nNo formal confirmation or policy shift; nominee status and vague timing limit immediate prediction market impact.[4]",
+      "direction": "NO",
+      "confidence": 0.78,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_491691",
+      "timestamp": "2026-04-15T23:28:35.394435+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Zelenskyy calls for reimposing US sanctions on Russian oil post-Iran ceasefire; US deadline expired April 13 without not",
+      "raw": "Zelenskyy calls for reimposing US sanctions on Russian oil post-Iran ceasefire; US deadline expired April 13 without noted resolution.[4]",
+      "direction": null,
+      "confidence": 0.65,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
         "Will Russia enter Ternuvate again by April 30?",
-        "Trump announces end of military operations against Iran by A"
+        "US x Iran diplomatic meeting by April 18, 2026?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_491697",
+      "timestamp": "2026-04-15T23:28:35.400678+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Impact: MED confidence** these early-April events (now expired) may have briefly moved markets on de-escalation but lack",
+      "raw": "Impact: MED confidence** these early-April events (now expired) may have briefly moved markets on de-escalation but lack today's confirmations or resolutions.[1][2][4][6]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_508948",
+      "timestamp": "2026-04-15T23:28:52.651509+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Fed March FOMC Minutes Show Some Rate Hike Talks if Inflation Exceeds 2% | NO | MED confidence**",
+      "raw": "Fed March FOMC Minutes Show Some Rate Hike Talks if Inflation Exceeds 2% | NO | MED confidence**  \nMarch 2026 FOMC minutes, released around April 9, revealed discussions among some participants on raising rates if inflation surpasses 2%, driven by Middle East energy price risks, though Chair Powell views disruptions as short-term.[2]  \nCME FedWatch shows 98.4% chance of April hold; dated info (pre",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_497984",
+      "timestamp": "2026-04-15T23:28:41.687327+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Trump Claims US and Allies Have \"Literally Obliterated\" Iran's Military Capabilities in Ongoing War | YES | HIGH confide",
+      "raw": "Trump Claims US and Allies Have \"Literally Obliterated\" Iran's Military Capabilities in Ongoing War | YES | HIGH confidence**\n\nPresident Trump stated at a Kennedy Center board meeting on March 16, 2026, that US and Israeli forces have \"literally obliterated\" Iran's air force, navy, radar, and anti-aircraft systems, with over 7,000 targets struck, 90% fewer ballistic missiles, 95% fewer drones, and",
+      "direction": "YES",
+      "confidence": 0.6,
+      "matched_markets": [
+        "Trump announces end of military operations against Iran by A",
+        "US x Iran diplomatic meeting by April 18, 2026?",
+        "Will Trump say \"Obliterated\" or \"Obliteration\" during King Charles visit?"
       ],
       "action": "WATCH",
       "x_link": null,
-      "category": "GEOPOLITICS"
+      "category": "POLITICS"
     }
   ],
   "stats": {
     "enter": 1,
-    "alert": 1,
+    "alert": 6,
     "watch": 1,
-    "high_conf": 1
+    "high_conf": 2
   }
 }
