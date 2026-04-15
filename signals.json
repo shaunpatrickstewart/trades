@@ -1,133 +1,47 @@
 {
-  "last_scan": "2026-04-15T16:17:28.526735+00:00",
-  "scan_seconds": 37.1,
+  "last_scan": "2026-04-15T16:20:24.530697+00:00",
+  "scan_seconds": 33.8,
   "markets_scanned": 149,
   "open_positions": 112,
   "signals": [
     {
-      "id": "sig_614497",
-      "timestamp": "2026-04-15T16:17:18.226933+00:00",
+      "id": "sig_783064",
+      "timestamp": "2026-04-15T16:20:06.793202+00:00",
       "source": "PERPLEXITY",
-      "headline": "Drift Protocol Hack Confirmed: $280M Loss on Solana DeFi Platform April 1 | YES | HIGH confidence**",
-      "raw": "Drift Protocol Hack Confirmed: $280M Loss on Solana DeFi Platform April 1 | YES | HIGH confidence**  \nSolana-based Drift Protocol suffered a $280M hack on April 1 via social engineering of its multisig, affecting user deposits but sparing insurance funds; team paused functions and engaged law enforcement.[6] This marks one of the largest crypto hacks, potentially impacting Solana sentiment amid on",
-      "direction": "YES",
+      "headline": "US-Iran Ceasefire Hangs in Balance as Blockade Violations Emerge | NO | HIGH confidence**",
+      "raw": "US-Iran Ceasefire Hangs in Balance as Blockade Violations Emerge | NO | HIGH confidence**\n\nThe two-week ceasefire announced around April 8 remains **fragile and potentially collapsing**. While initially agreed upon, multiple violations and escalations have occurred:[1][4][6]",
+      "direction": "NO",
       "confidence": 0.9,
       "matched_markets": [
-        "Will Bitcoin reach $81,000 on April 15?",
-        "Will the price of Solana be above $100 on April 16?",
-        "Will the price of Solana be above $100 on April 17?"
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "US x Iran permanent peace deal by April 22, 2026?",
+        "US x Iran diplomatic meeting by April 18, 2026?"
       ],
       "action": "ENTER",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_795108",
+      "timestamp": "2026-04-15T16:20:18.837820+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Key Announcement**: Alpenglow consensus upgrade confirmed, reducing transaction finality from 12 seconds to 150 millis",
+      "raw": "**Key Announcement**: Alpenglow consensus upgrade confirmed, reducing transaction finality from 12 seconds to 150 milliseconds, boosting performance expectations.[1]",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_600999",
-      "timestamp": "2026-04-15T16:17:04.728260+00:00",
+      "id": "sig_795097",
+      "timestamp": "2026-04-15T16:20:18.826589+00:00",
       "source": "PERPLEXITY",
-      "headline": "Key terms of the ceasefire:**",
-      "raw": "Key terms of the ceasefire:**",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_601031",
-      "timestamp": "2026-04-15T16:17:04.760770+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Two-week duration, effective immediately[1]",
-      "raw": "Two-week duration, effective immediately[1]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_601062",
-      "timestamp": "2026-04-15T16:17:04.791236+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Iran must reopen the Strait of Hormuz[1]",
-      "raw": "Iran must reopen the Strait of Hormuz[1]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Donald Trump announce that the United States blockade of the Strait of Horm"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_601087",
-      "timestamp": "2026-04-15T16:17:04.816974+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Includes cessation of attacks on the U",
-      "raw": "Includes cessation of attacks on the U.S., Israel, and regional countries[1]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_601112",
-      "timestamp": "2026-04-15T16:17:04.841756+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Applies to Lebanon and other conflict zones, though Israel stated the ceasefire does not include Lebanon operations[1]",
-      "raw": "Applies to Lebanon and other conflict zones, though Israel stated the ceasefire does not include Lebanon operations[1]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_601139",
-      "timestamp": "2026-04-15T16:17:04.868894+00:00",
-      "source": "PERPLEXITY",
-      "headline": "What happens next:**",
-      "raw": "What happens next:**\nU.S. and Iranian delegations were invited to Islamabad on April 10, 2026, for further negotiations toward a conclusive settlement of all disputes.[1] The ceasefire came shortly before President Trump's deadline and followed an Iranian rejection of a ceasefire proposal on April 6, making this reversal significant.[4]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "US x Iran permanent peace deal by April 22, 2026?",
-        "Trump announces end of military operations against Iran by A"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_601168",
-      "timestamp": "2026-04-15T16:17:04.897946+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Market impact:**",
-      "raw": "Market impact:**\nThe ceasefire announcement temporarily calmed financial markets and lowered oil prices after six weeks of conflict in the region.[2]\n\nThe substantive negotiations remain unclear, as Iran's earlier proposal reportedly included release of frozen assets and U.S. military withdrawal\u2014terms difficult to reconcile with stated U.S. objectives.[1]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_614486",
-      "timestamp": "2026-04-15T16:17:18.215957+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Solana (SOL) Hits Record 167M Monthly Token Holders & 148M Daily Non-Vote Transactions on April 14, Bolstered by Alpengl",
-      "raw": "Solana (SOL) Hits Record 167M Monthly Token Holders & 148M Daily Non-Vote Transactions on April 14, Bolstered by Alpenglow Upgrade Progress | YES | HIGH confidence**  \nSolana network achieved an all-time high of 167 million monthly token holders and 148 million daily non-vote transactions as of April 14, 2026, driven by robust activity and the anticipated Alpenglow consensus upgrade reducing final",
+      "headline": "**Breaking Confirmation (April 14, 2026)**: Solana network achieved an all-time high of 167 million monthly token holder",
+      "raw": "**Breaking Confirmation (April 14, 2026)**: Solana network achieved an all-time high of 167 million monthly token holders and 148 million daily non-vote transactions, alongside Q1 economic activity surging to $1.1 trillion (up 6,500% QoQ), signaling massive adoption and on-chain rebound.[1][2]",
       "direction": "YES",
-      "confidence": 0.65,
+      "confidence": 0.78,
       "matched_markets": [
         "Will the price of Solana be above $100 on April 16?",
         "Will the price of Solana be above $100 on April 17?",
@@ -138,57 +52,156 @@
       "category": "CRYPTO"
     },
     {
-      "id": "sig_623775",
-      "timestamp": "2026-04-15T16:17:27.504303+00:00",
+      "id": "sig_783049",
+      "timestamp": "2026-04-15T16:20:06.778273+00:00",
       "source": "PERPLEXITY",
-      "headline": "AMRO Raises South Korea 2026 Inflation Forecast to 2",
-      "raw": "AMRO Raises South Korea 2026 Inflation Forecast to 2.3% Amid Global Energy Shock | YES | HIGH confidence**  \nThe ASEAN+3 Macroeconomic Research Office (AMRO) released its '2026 Regional Economic Outlook' report on April 6, 2026, lifting South Korea's annual inflation projection by 0.4 points to 2.3% from 1.9%, citing U.S.-Iran war-driven global energy price rises; this exceeds Bank of Korea's Febr",
-      "direction": "YES",
+      "headline": "Based on the most recent search results from April 14, 2026, here are the key developments:",
+      "raw": "Based on the most recent search results from April 14, 2026, here are the key developments:",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_783078",
+      "timestamp": "2026-04-15T16:20:06.807127+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Blockade violations**: Chinese and Iranian tankers have broken through the U",
+      "raw": "**Blockade violations**: Chinese and Iranian tankers have broken through the U.S. blockade of the Strait of Hormuz, with at least one Iraqi-bound supertanker successfully making passage.[3][4]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Donald Trump announce that the United States blockade of the Strait of Horm"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_783093",
+      "timestamp": "2026-04-15T16:20:06.822475+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Ceasefire violations**: Iran allegedly failed to open the Strait of Hormuz as promised under the ceasefire agreement,",
+      "raw": "**Ceasefire violations**: Iran allegedly failed to open the Strait of Hormuz as promised under the ceasefire agreement, with one official characterizing this as \"a violation right from the get-go.\"[4]",
+      "direction": null,
       "confidence": 0.65,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "US x Iran permanent peace deal by April 22, 2026?",
-        "US x Iran diplomatic meeting by April 18, 2026?"
+        "Will Donald Trump announce that the United States blockade of the Strait of Horm"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_783107",
+      "timestamp": "2026-04-15T16:20:06.836925+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Continued military operations**: Israel intensifies strikes against Hezbollah in southern Lebanon despite ceasefire ef",
+      "raw": "**Continued military operations**: Israel intensifies strikes against Hezbollah in southern Lebanon despite ceasefire efforts, and Iran has launched drone attacks on U.S. Gulf allies including Bahrain.[4][6]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces end of military operations against Iran by A"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_783140",
+      "timestamp": "2026-04-15T16:20:06.869199+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Prediction market implications**: The ceasefire appears unlikely to hold without significant diplomatic breakthroughs",
+      "raw": "Prediction market implications**: The ceasefire appears unlikely to hold without significant diplomatic breakthroughs. Escalation risks remain high given conflicting red lines and ongoing military operations in the region.[4]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_795086",
+      "timestamp": "2026-04-15T16:20:18.815429+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Solana Hits Record 167M Monthly Token Holders & $1",
+      "raw": "Solana Hits Record 167M Monthly Token Holders & $1.1T Q1 Economic Activity Amid Alpenglow Upgrade Hype | YES | HIGH confidence** [1][2]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_795130",
+      "timestamp": "2026-04-15T16:20:18.859646+00:00",
+      "source": "PERPLEXITY",
+      "headline": "No fresh Bitcoin-specific confirmations tied to April; bearish SOL price outlooks (e",
+      "raw": "No fresh Bitcoin-specific confirmations tied to April; bearish SOL price outlooks (e.g., $73 target) noted but overshadowed by on-chain highs.[3][4][5][6]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Bitcoin reach $81,000 on April 15?",
+        "Will the price of Bitcoin be above $60,000 on April 19?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_799800",
+      "timestamp": "2026-04-15T16:20:23.529945+00:00",
+      "source": "PERPLEXITY",
+      "headline": "SOUTH KOREA MARCH 2026 INFLATION RISES TO 2",
+      "raw": "SOUTH KOREA MARCH 2026 INFLATION RISES TO 2.2%, BELOW FORECASTS | NO | HIGH confidence**  \nSouth Korea's annual inflation rate increased to 2.2% in March 2026 from 2.0% in prior months, missing market expectations of 2.4% and staying near the Bank of Korea's 2% target amid contained price pressures.[1]  \nNo mentions of Kevin Warsh, US Fed actions, or related announcements in recent data; this deve",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Kevin Warsh confirmed as Fed Chair by May 15?",
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
       ],
       "action": "ALERT",
       "x_link": null,
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_623786",
-      "timestamp": "2026-04-15T16:17:27.515178+00:00",
+      "id": "sig_783125",
+      "timestamp": "2026-04-15T16:20:06.854133+00:00",
       "source": "PERPLEXITY",
-      "headline": "February Core PPI Jumps to 3",
-      "raw": "February Core PPI Jumps to 3.9%, Fuels Speculation on Kevin Warsh Fed Rate Hike | YES | MED confidence**  \nPre-oil shock U.S. producer price data released Wednesday showed annual core inflation at 3.9%, implying 3-month annualized core PCE at 4.56%\u2014over double the Fed's 2% target\u2014prompting markets to price in potential hikes under incoming Fed chair Kevin Warsh, despite Fed's unchanged 3.50-3.75% ",
-      "direction": "YES",
-      "confidence": 0.65,
+      "headline": "Second Round of Talks Being Arranged | PENDING | HIGH confidence**",
+      "raw": "Second Round of Talks Being Arranged | PENDING | HIGH confidence**\n\nPakistan is proposing to host a second round of direct US-Iran talks within days before the ceasefire expires, though the date and venue remain unfinalized.[4][5] Both sides have reportedly shared written demands and possible compromises, entering negotiations with clearer positions than the inconclusive first meeting.[5]",
+      "direction": null,
+      "confidence": 0.6,
       "matched_markets": [
-        "Kevin Warsh confirmed as Fed Chair by May 15?"
+        "Will the US x Iran ceasefire be extended by April 21, 2026?"
       ],
-      "action": "ALERT",
+      "action": "WATCH",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_623796",
-      "timestamp": "2026-04-15T16:17:27.525700+00:00",
+      "id": "sig_795119",
+      "timestamp": "2026-04-15T16:20:18.848775+00:00",
       "source": "PERPLEXITY",
-      "headline": "Kevin Warsh Nomination Heightens Fed Policy Uncertainty, Pressuring South Korean Won | YES | HIGH confidence**",
-      "raw": "Kevin Warsh Nomination Heightens Fed Policy Uncertainty, Pressuring South Korean Won | YES | HIGH confidence**  \nTrump's nomination of Kevin Warsh as Fed chair introduces uncertainty over inflation response and rate path, contributing to the won's slip to 1,457/USD amid trade tensions, as markets anticipate a stronger dollar.[4]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Kevin Warsh confirmed as Fed Chair by May 15?"
-      ],
-      "action": "ALERT",
+      "headline": "**Market Impact**: SOL surged 10%, testing $87 resistance with $108 target; institutional ETF holdings by BlackRock/Fide",
+      "raw": "**Market Impact**: SOL surged 10%, testing $87 resistance with $108 target; institutional ETF holdings by BlackRock/Fidelity at records despite consolidation\u2014could shift prediction markets bullish on Solana vs. Bitcoin narratives.[1][2]",
+      "direction": null,
+      "confidence": 0.6,
+      "matched_markets": [],
+      "action": "WATCH",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "CRYPTO"
     }
   ],
   "stats": {
     "enter": 1,
-    "alert": 11,
-    "watch": 0,
-    "high_conf": 1
+    "alert": 10,
+    "watch": 2,
+    "high_conf": 2
   }
 }
