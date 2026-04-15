@@ -1,34 +1,45 @@
 {
-  "last_scan": "2026-04-15T17:02:54.573788+00:00",
-  "scan_seconds": 32.0,
-  "markets_scanned": 76,
+  "last_scan": "2026-04-15T17:05:57.775002+00:00",
+  "scan_seconds": 35.0,
+  "markets_scanned": 74,
   "open_positions": 40,
   "signals": [
     {
-      "id": "sig_328872",
-      "timestamp": "2026-04-15T17:02:32.598326+00:00",
+      "id": "sig_511850",
+      "timestamp": "2026-04-15T17:05:35.576450+00:00",
       "source": "PERPLEXITY",
-      "headline": "US and Iran Plan Second Round of Ceasefire Talks as Initial Deadline Looms | NO | MED confidence**",
-      "raw": "US and Iran Plan Second Round of Ceasefire Talks as Initial Deadline Looms | NO | MED confidence**\n\nNo new ceasefire agreement, confirmation, or resolution has been announced today (April 15, 2026); instead, reports confirm both sides are preparing for a second round of talks before the two-week ceasefire\u2014agreed on April 8\u2014expires next week, following the collapse of first-round negotiations in Is",
-      "direction": "NO",
+      "headline": "Ceasefire Already Violated | YES | HIGH confidence**",
+      "raw": "Ceasefire Already Violated | YES | HIGH confidence**\n\nDespite the agreement, the ceasefire **has been violated by both sides** since its declaration.[2] Additionally, Israeli Prime Minister Netanyahu stated that the two-week ceasefire does not include Lebanon, where Israeli strikes have continued, killing civilians including an infant girl on April 13.[1][4]",
+      "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "US x Iran permanent peace deal by April 22, 2026?",
-        "Trump announces end of military operations against Iran by A"
+        "Will the US x Iran ceasefire be extended by April 21, 2026?"
       ],
       "action": "ENTER",
       "x_link": null,
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_341568",
-      "timestamp": "2026-04-15T17:02:45.294025+00:00",
+      "id": "sig_511833",
+      "timestamp": "2026-04-15T17:05:35.559762+00:00",
       "source": "PERPLEXITY",
-      "headline": "Bitcoin surges past $74K to one-month high amid easing U",
-      "raw": "Bitcoin surges past $74K to one-month high amid easing U.S.-Iran tensions and short liquidations | YES | HIGH confidence**[1][3]\n\nBitcoin broke key resistance at $74,000 on April 14, reaching $74,535 (up 5.34% in 24 hours, 3.7% weekly), driven by de-escalation signals in the U.S.-Iran standoff (e.g., Trump negotiation hints, Strait of Hormuz developments), $400-500M short liquidations, and ETF inf",
+      "headline": "Based on the search results, the most recent confirmed developments are:",
+      "raw": "Based on the search results, the most recent confirmed developments are:",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_511844",
+      "timestamp": "2026-04-15T17:05:35.570912+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Peace Talks Convene in Islamabad | YES | HIGH confidence**",
+      "raw": "Peace Talks Convene in Islamabad | YES | HIGH confidence**\n\nOn April 11, 2026, U.S. Vice President JD Vance, Trump's special envoy Steve Witkoff, and Jared Kushner arrived in Islamabad for negotiations with Iranian officials, including Foreign Minister Abbas Araghchi and Parliament Speaker Mohammad Bagher Ghalibaf.[2]",
       "direction": "YES",
-      "confidence": 0.78,
+      "confidence": 0.65,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
         "US x Iran permanent peace deal by April 22, 2026?",
@@ -36,47 +47,26 @@
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_334814",
-      "timestamp": "2026-04-15T17:02:38.540108+00:00",
+      "id": "sig_511855",
+      "timestamp": "2026-04-15T17:05:35.581884+00:00",
       "source": "PERPLEXITY",
-      "headline": "ECI Announces 2,926 Candidates in Frays for West Bengal Assembly Polls | NO | HIGH confidence** [3]",
-      "raw": "ECI Announces 2,926 Candidates in Frays for West Bengal Assembly Polls | NO | HIGH confidence** [3]\n\nAbhishek Banerjee of All India Trinamool Congress (TMC) held a strategy meeting today, predicting TMC will exceed its 2021 performance (213 seats) amid accusations of Election Commission bias favoring BJP, voter roll manipulations targeting Muslim and Matua voters, and Amit Shah's intimidation tact",
-      "direction": "NO",
+      "headline": "Prediction Market Impact:** The ceasefire temporarily calmed markets and lowered oil prices,[3] but ongoing violations a",
+      "raw": "Prediction Market Impact:** The ceasefire temporarily calmed markets and lowered oil prices,[3] but ongoing violations and exclusion of Lebanon from the agreement create significant uncertainty about whether a lasting peace agreement will emerge from the Islamabad negotiations.",
+      "direction": null,
       "confidence": 0.65,
-      "matched_markets": [
-        "Will J.D. Vance win the 2028 Republican presidential nominat",
-        "Will the All India Trinamool Congress (AITC) win the most seats in the 2026 West",
-        "Will the Indian Union Muslim League (IUML) win between 10 and 12 seats in the 20"
-      ],
+      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_349846",
-      "timestamp": "2026-04-15T17:02:53.572816+00:00",
-      "source": "PERPLEXITY",
-      "headline": "I cannot identify breaking news from these search results that would move prediction markets as of April 15, 2026",
-      "raw": "I cannot identify breaking news from these search results that would move prediction markets as of April 15, 2026.\n\nThe search results contain information from February 2026 regarding President Trump's nomination of Kevin Warsh as Federal Reserve chair, along with economic data from that period showing inflation at 2.8% and unemployment at 4.3%[1][2]. However, these are not current developments\u2014th",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Kevin Warsh confirmed as Fed Chair by May 15?",
-        "Will Trump say \"Christian\" during TPUSA events on April 17?",
-        "Will Trump say \"Discombobulator\" or \"Discombobulated\" in April?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
+      "category": "GEOPOLITICS"
     }
   ],
   "stats": {
     "enter": 1,
     "alert": 3,
     "watch": 0,
-    "high_conf": 1
+    "high_conf": 2
   }
 }
