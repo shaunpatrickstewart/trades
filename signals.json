@@ -1,62 +1,142 @@
 {
-  "last_scan": "2026-04-15T23:48:15.401317+00:00",
-  "scan_seconds": 29.6,
-  "markets_scanned": 163,
-  "open_positions": 122,
+  "last_scan": "2026-04-15T23:50:58.906182+00:00",
+  "scan_seconds": 25.0,
+  "markets_scanned": 83,
+  "open_positions": 42,
   "signals": [
     {
-      "id": "sig_665911",
-      "timestamp": "2026-04-15T23:48:09.613374+00:00",
+      "id": "sig_817506",
+      "timestamp": "2026-04-15T23:50:41.208388+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot provide breaking news in the format requested because the search results do not contain information about event",
-      "raw": "I cannot provide breaking news in the format requested because the search results do not contain information about events that have just been confirmed, announced, or resolved today.\n\nThe search results primarily contain price predictions and technical analysis from early-to-mid April 2026, with the most recent specific date reference being April 13, 2026 (regarding SEC digital commodity classific",
-      "direction": null,
+      "headline": "**NO** mutual, official ceasefire agreement exists that meets prediction market criteria (e",
+      "raw": "**NO** mutual, official ceasefire agreement exists that meets prediction market criteria (e.g., Polymarket's \"Russia x Ukraine ceasefire by April 30, 2026,\" requiring publicly announced halt in military engagement by both sides).[2]",
+      "direction": "NO",
       "confidence": 0.9,
       "matched_markets": [
-        "Will Bitcoin reach $80,000 on April 15?",
-        "Will Bitcoin dip to $69,000 on April 15?",
-        "Will the price of Bitcoin be less than $64,000 on April 17?"
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Will Russia enter Ternuvate again by April 30?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_834150",
+      "timestamp": "2026-04-15T23:50:57.852955+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Kevin Warsh's path to Fed chair confirmed amid surging US inflation and oil shock, with markets pricing potential rate h",
+      "raw": "Kevin Warsh's path to Fed chair confirmed amid surging US inflation and oil shock, with markets pricing potential rate hike as his first move.** | YES | HIGH[1]",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Kevin Warsh confirmed as Fed Chair by May 15?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_817513",
+      "timestamp": "2026-04-15T23:50:41.215198+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**LOW** confidence in any market-moving resolution today, as trader consensus shows near-certainty of \"No\" due to the Ea",
+      "raw": "**LOW** confidence in any market-moving resolution today, as trader consensus shows near-certainty of \"No\" due to the Easter truce breakdown and ongoing hostilities; no new announcements reported after April 14.[2][5]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_817519",
+      "timestamp": "2026-04-15T23:50:41.221458+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Earlier Easter announcements (April 9-10) do not qualify as binding or sustained, per historical patterns of violations",
+      "raw": "Earlier Easter announcements (April 9-10) do not qualify as binding or sustained, per historical patterns of violations.[1][3][4]\n\nNo mentions of \"Ternuvate\" (possibly a misspelling, e.g., Ternopil or similar) or fresh Russia-related confirmations in April 2026 news.[1-6] Ongoing talks (e.g., Putin\u2019s June 2024 terms) remain unresolved.[6]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Russia enter Ternuvate again by April 30?"
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_665939",
-      "timestamp": "2026-04-15T23:48:09.641358+00:00",
+      "id": "sig_823396",
+      "timestamp": "2026-04-15T23:50:47.098410+00:00",
       "source": "PERPLEXITY",
-      "headline": "Regulatory decisions or policy changes announced today",
-      "raw": "Regulatory decisions or policy changes announced today",
-      "direction": null,
-      "confidence": 0.9,
+      "headline": "Trump Pushes Republicans for Clean FISA Section 702 Extension Amid Internal GOP Division | NO | MED confidence**",
+      "raw": "Trump Pushes Republicans for Clean FISA Section 702 Extension Amid Internal GOP Division | NO | MED confidence**  \nPresident Donald Trump is urging Republicans to unify and vote for a clean reauthorization of FISA Section 702 ahead of its deadline, emphasizing national security and military protection, with House Speaker Mike Johnson in support despite pushback from figures like Rep. Jim Jordan ov",
+      "direction": "NO",
+      "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "POLITICS"
     },
     {
-      "id": "sig_665952",
-      "timestamp": "2026-04-15T23:48:09.654786+00:00",
+      "id": "sig_823403",
+      "timestamp": "2026-04-15T23:50:47.105460+00:00",
       "source": "PERPLEXITY",
-      "headline": "Market-moving events confirmed in the last few hours",
-      "raw": "Market-moving events confirmed in the last few hours",
-      "direction": null,
-      "confidence": 0.9,
+      "headline": "White House Highlights Success of 2025 Tax Cuts on Tax Day | NO | LOW confidence**",
+      "raw": "White House Highlights Success of 2025 Tax Cuts on Tax Day | NO | LOW confidence**  \nIn a press briefing today, Press Secretary Karoline Leavitt, Treasury Secretary Scott Bessent, and SBA Administrator Kelly Loeffler touted the largest tax cuts in history\u2014including no tax on tips, overtime, Social Security, and relief for small businesses and families\u2014claiming they saved Americans from a $4 trilli",
+      "direction": "NO",
+      "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "POLITICS"
     },
     {
-      "id": "sig_670698",
-      "timestamp": "2026-04-15T23:48:14.400518+00:00",
+      "id": "sig_834159",
+      "timestamp": "2026-04-15T23:50:57.861533+00:00",
       "source": "PERPLEXITY",
-      "headline": "US Annual CPI Inflation Jumps to 3",
-      "raw": "US Annual CPI Inflation Jumps to 3.3% in March 2026, Highest Since May 2024, Driven by 21.2% Gas Surge | YES | HIGH confidence**  \nThe US Bureau of Labor Statistics released March 2026 CPI data today, confirming annual headline inflation at 3.3% (up sharply from 2.4% in February), with a 0.9% monthly rise\u2014the largest since June 2022\u2014fueled by a 21.2% gasoline jump and 10.9% energy increase.[1][4][",
+      "headline": "**US annual core inflation** hit 3",
+      "raw": "**US annual core inflation** hit 3.9% (pre-oil shock), pushing 3-month annualized core PCE to 4.56%\u2014over double the Fed's 2% target\u2014and has exceeded target for five years, with oil above $100/barrel signaling further rises[1].",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_834167",
+      "timestamp": "2026-04-15T23:50:57.869466+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Kevin Warsh** set to succeed Jerome Powell by mid-May 2026; Powell's final meeting was Wednesday (April 15), leaving W",
+      "raw": "**Kevin Warsh** set to succeed Jerome Powell by mid-May 2026; Powell's final meeting was Wednesday (April 15), leaving Warsh to face immediate rate decisions amid Middle East energy shock[1].",
       "direction": "YES",
-      "confidence": 0.78,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_834177",
+      "timestamp": "2026-04-15T23:50:57.879824+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Fed held rates at 3",
+      "raw": "Fed held rates at 3.50-3.75%, projecting one 25bp cut this year, but 7/19 officials expect no cuts, traders doubt easing, and officials discuss hikes if pressures persist[1].",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_834187",
+      "timestamp": "2026-04-15T23:50:57.889140+00:00",
+      "source": "PERPLEXITY",
+      "headline": "No direct South Korea inflation news, though global energy shock ties into broader **inflation** trends impacting predic",
+      "raw": "No direct South Korea inflation news, though global energy shock ties into broader **inflation** trends impacting predictions[1].",
+      "direction": "NO",
+      "confidence": 0.65,
       "matched_markets": [
-        "Kevin Warsh confirmed as Fed Chair by May 15?",
         "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
       ],
       "action": "ALERT",
@@ -64,100 +144,36 @@
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_654311",
-      "timestamp": "2026-04-15T23:47:58.013824+00:00",
+      "id": "sig_834195",
+      "timestamp": "2026-04-15T23:50:57.897595+00:00",
       "source": "PERPLEXITY",
-      "headline": "JD Vance admits young voters 'don't love' Trump administration's Middle East policy at Turning Point USA event, signalin",
-      "raw": "JD Vance admits young voters 'don't love' Trump administration's Middle East policy at Turning Point USA event, signaling slipping GOP support amid Iran tensions | NO | MED confidence**[1]",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Trump announces end of military operations against Iran by A"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_654324",
-      "timestamp": "2026-04-15T23:47:58.026761+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Details**: On April 15, 2026, Vice President **JD Vance** publicly acknowledged diminished GOP turnout and support, es",
-      "raw": "**Details**: On April 15, 2026, Vice President **JD Vance** publicly acknowledged diminished GOP turnout and support, especially among young voters, due to discontent with **Trump**'s **Middle East** (Iran) policy\u2014Trump shows no sign of changing his \"we are winning\" messaging despite this[1]. GOP lawmakers like Sen. Thom Tillis discussed Trump's Iran strategy and midterm impacts, with reports of U",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces end of military operations against Iran by A",
-        "US x Iran diplomatic meeting by April 18, 2026?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_654349",
-      "timestamp": "2026-04-15T23:47:58.051660+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Other notes**: Vance also critiqued Pope Leo's theology as needing to be \"anchored in truth,\" drawing parallels to Tru",
-      "raw": "**Other notes**: Vance also critiqued Pope Leo's theology as needing to be \"anchored in truth,\" drawing parallels to Trump accountability[2]; no major confirmations, announcements, or resolutions on **Vance**'s role or **April**-specific Trump events beyond policy critiques.",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Donald Trump post 40-59 Truth Social posts from April 1",
-        "Will Trump say \"Discombobulator\" or \"Discombobulated\" in April?",
-        "Will Donald Trump announce that the United States blockade of the Strait of Horm"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_665925",
-      "timestamp": "2026-04-15T23:48:09.627062+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Recent official announcements from Bitcoin or Solana projects",
-      "raw": "Recent official announcements from Bitcoin or Solana projects",
+      "headline": "Warsh's prior hawkish stance noted, but recent views favor cuts paired with balance-sheet shrinkage via Treasury-Fed acc",
+      "raw": "Warsh's prior hawkish stance noted, but recent views favor cuts paired with balance-sheet shrinkage via Treasury-Fed accord; consensus challenges remain[2][3].",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "ECONOMICS"
     },
     {
-      "id": "sig_665965",
-      "timestamp": "2026-04-15T23:48:09.667536+00:00",
+      "id": "sig_834203",
+      "timestamp": "2026-04-15T23:50:57.905221+00:00",
       "source": "PERPLEXITY",
-      "headline": "Major exchange or institutional developments",
-      "raw": "Major exchange or institutional developments\n\nThe current results focus on price forecasts rather than breaking news that would move prediction markets.",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_654337",
-      "timestamp": "2026-04-15T23:47:58.039168+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Market relevance**: This revelation of internal Republican doubts could shift prediction markets on **midterms**, Trum",
-      "raw": "**Market relevance**: This revelation of internal Republican doubts could shift prediction markets on **midterms**, Trump's approval, or GOP control, as it highlights voter backlash without Trump's ballot presence[1].",
+      "headline": "This shifts prediction markets: oil shock + hot inflation flip Fed outlook from cuts to possible hikes, testing Warsh ea",
+      "raw": "This shifts prediction markets: oil shock + hot inflation flip Fed outlook from cuts to possible hikes, testing Warsh early[1].",
       "direction": null,
       "confidence": 0.6,
-      "matched_markets": [
-        "Will J.D. Vance win the 2028 Republican presidential nominat"
-      ],
+      "matched_markets": [],
       "action": "WATCH",
       "x_link": null,
-      "category": "POLITICS"
+      "category": "ECONOMICS"
     }
   ],
   "stats": {
-    "enter": 0,
+    "enter": 2,
     "alert": 9,
     "watch": 1,
-    "high_conf": 3
+    "high_conf": 2
   }
 }
