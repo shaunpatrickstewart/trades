@@ -1,46 +1,73 @@
 {
-  "last_scan": "2026-04-15T21:56:41.986467+00:00",
-  "scan_seconds": 24.9,
+  "last_scan": "2026-04-15T21:59:26.818245+00:00",
+  "scan_seconds": 25.8,
   "markets_scanned": 73,
   "open_positions": 41,
   "signals": [
     {
-      "id": "sig_967004",
-      "timestamp": "2026-04-15T21:56:30.713465+00:00",
+      "id": "sig_130800",
+      "timestamp": "2026-04-15T21:59:14.508495+00:00",
       "source": "PERPLEXITY",
-      "headline": "TRUMP VOWS IRAN WAR ENDING SOON WITH 'AMAZING TWO DAYS' AHEAD; VANCE PUSHES DENUCLEARIZATION DEAL** | YES | HIGH confide",
-      "raw": "TRUMP VOWS IRAN WAR ENDING SOON WITH 'AMAZING TWO DAYS' AHEAD; VANCE PUSHES DENUCLEARIZATION DEAL** | YES | HIGH confidence[1][2]\n\nUS President Donald Trump announced the Iran conflict could conclude imminently, predicting an \"amazing two days\" ahead and deeming a ceasefire extension unnecessary, as US forces enforce a blockade on Iranian ports[1]. JD Vance stated Trump is offering Iran prosperity",
-      "direction": "YES",
+      "headline": "Context: JD Vance (VP) and Trump active in 2026 midterms rhetoric, but latest (April 14) was standard rally\u2014no \"oblitera",
+      "raw": "Context: JD Vance (VP) and Trump active in 2026 midterms rhetoric, but latest (April 14) was standard rally\u2014no \"obliteration.\" If this refers to a hypothetical April event (e.g., primary), nothing confirmed.",
+      "direction": "NO",
       "confidence": 0.9,
       "matched_markets": [
-        "Will J.D. Vance win the 2028 Republican presidential nominat",
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces end of military operations against Iran by A"
+        "Will Trump say \"Obliterated\" or \"Obliteration\" during King Charles visit?"
       ],
       "action": "ENTER",
       "x_link": null,
       "category": "POLITICS"
     },
     {
-      "id": "sig_977276",
-      "timestamp": "2026-04-15T21:56:40.985486+00:00",
+      "id": "sig_130788",
+      "timestamp": "2026-04-15T21:59:14.496590+00:00",
       "source": "PERPLEXITY",
-      "headline": "Trump Nominates Kevin Warsh as Fed Chair to Replace Powell in May | YES | HIGH confidence**",
-      "raw": "Trump Nominates Kevin Warsh as Fed Chair to Replace Powell in May | YES | HIGH confidence**  \nPresident Donald Trump has just announced his nomination of Kevin Warsh, a former Fed governor and critic of central bank policies, to become the next Federal Reserve chairman when Jerome Powell's term expires in May 2026[1][2][3]. This development coincides with rising wholesale inflation (PPI up 3% annu",
-      "direction": "YES",
-      "confidence": 0.9,
+      "headline": "Real-time scans (Reuters, AP, Fox News, CNN, X trends): Top stories are routine (e",
+      "raw": "Real-time scans (Reuters, AP, Fox News, CNN, X trends): Top stories are routine (e.g., budget talks, unrelated foreign policy). No hits for \"Trump Vance obliterated April\" or variants in last 24h.",
+      "direction": "NO",
+      "confidence": 0.65,
       "matched_markets": [
-        "Kevin Warsh confirmed as Fed Chair by May 15?"
+        "Will Trump say \"Obliterated\" or \"Obliteration\" during King Charles visit?"
       ],
-      "action": "ENTER",
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_130794",
+      "timestamp": "2026-04-15T21:59:14.502851+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Prediction markets: Polymarket Trump 2028 nominee YES at 58\u00a2 (down 1\u00a2, negligible); GOP House control YES 52\u00a2 (flat)",
+      "raw": "Prediction markets: Polymarket Trump 2028 nominee YES at 58\u00a2 (down 1\u00a2, negligible); GOP House control YES 52\u00a2 (flat). No spikes.",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_142109",
+      "timestamp": "2026-04-15T21:59:25.817527+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Kevin Warsh confirmed as top Fed Chair contender amid his fresh pitch challenging inflation dogma and eyeing AI-driven d",
+      "raw": "Kevin Warsh confirmed as top Fed Chair contender amid his fresh pitch challenging inflation dogma and eyeing AI-driven disinflation | NO new confirmation/announcement on annual inflation, South Korea, or resolutions moving prediction markets | HIGH confidence**  \nWarsh, a finalist to replace Fed Chair Jerome Powell (term ends May 2026), reiterated in recent statements that **inflation is a choice*",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Kevin Warsh confirmed as Fed Chair by May 15?",
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+      ],
+      "action": "ALERT",
       "x_link": null,
       "category": "ECONOMICS"
     }
   ],
   "stats": {
-    "enter": 2,
-    "alert": 0,
+    "enter": 1,
+    "alert": 3,
     "watch": 0,
-    "high_conf": 2
+    "high_conf": 1
   }
 }
