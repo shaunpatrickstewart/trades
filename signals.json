@@ -1,208 +1,108 @@
 {
-  "last_scan": "2026-04-15T11:29:07.571129+00:00",
-  "scan_seconds": 34.6,
-  "markets_scanned": 81,
+  "last_scan": "2026-04-15T11:31:56.096481+00:00",
+  "scan_seconds": 26.9,
+  "markets_scanned": 82,
   "open_positions": 41,
   "signals": [
     {
-      "id": "sig_300076",
-      "timestamp": "2026-04-15T11:28:43.822609+00:00",
+      "id": "sig_472441",
+      "timestamp": "2026-04-15T11:31:36.187393+00:00",
       "source": "PERPLEXITY",
-      "headline": "Negotiations resuming:** US President Donald Trump confirmed that a new round of talks with Iran could begin within days",
-      "raw": "Negotiations resuming:** US President Donald Trump confirmed that a new round of talks with Iran could begin within days, with Pakistan offering to host negotiations again after last weekend's discussions in Islamabad failed to produce a breakthrough[1][2].",
-      "direction": null,
-      "confidence": 0.9,
-      "matched_markets": [
-        "Trump announces US x Iran ceasefire end by April 21, 2026?",
-        "Trump announces end of military operations against Iran by A"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_300082",
-      "timestamp": "2026-04-15T11:28:43.828266+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Ceasefire status:** US Vice President JD Vance confirmed the current ceasefire is holding, describing it as approximatel",
-      "raw": "Ceasefire status:** US Vice President JD Vance confirmed the current ceasefire is holding, describing it as approximately six to seven days old[1]. However, tensions remain fragile with the US imposing a maritime blockade on Iranian ports[2][4].",
-      "direction": null,
+      "headline": "US and Iran signal second round of talks in days as ceasefire holds; Trump calls conflict 'close to over'** | YES | HIGH",
+      "raw": "US and Iran signal second round of talks in days as ceasefire holds; Trump calls conflict 'close to over'** | YES | HIGH confidence[1][2][3]\n\nPresident Trump announced new negotiations with Iran could resume within days, likely hosted by Pakistan in Islamabad after prior talks failed; VP JD Vance confirmed the ceasefire\u2014now 6-7 days old and set until April 22\u2014is holding amid constructive discussio",
+      "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces US x Iran ceasefire end by April 21, 2026?"
+        "Trump announces US x Iran ceasefire end by April 21, 2026?",
+        "US x Iran permanent peace deal by April 22, 2026?"
       ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_300101",
-      "timestamp": "2026-04-15T11:28:43.847168+00:00",
+      "id": "sig_485672",
+      "timestamp": "2026-04-15T11:31:49.418909+00:00",
       "source": "PERPLEXITY",
-      "headline": "Market-moving takeaway:** No substantive breakthrough has been confirmed\u2014only renewed diplomatic talks scheduled within",
-      "raw": "Market-moving takeaway:** No substantive breakthrough has been confirmed\u2014only renewed diplomatic talks scheduled within days. The ceasefire remains in place but depends on upcoming negotiations succeeding where the Islamabad round failed.",
+      "headline": "I cannot identify any breaking news, confirmed announcements, or resolved events in the search results that would move p",
+      "raw": "I cannot identify any breaking news, confirmed announcements, or resolved events in the search results that would move prediction markets as of April 15, 2026.\n\nThe search results contain price data and analyst projections from early-to-mid April 2026, but no recent announcements or confirmations. The most recent specific data points are:",
       "direction": "NO",
       "confidence": 0.9,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_317206",
-      "timestamp": "2026-04-15T11:29:00.952903+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Solana Alpenglow Upgrade Announced | YES | MED confidence**",
-      "raw": "Solana Alpenglow Upgrade Announced | YES | MED confidence**\n\nThe Alpenglow consensus upgrade aims to slash transaction finality from 12 seconds to 150 milliseconds, representing a significant performance improvement[3]. Solana has also hit 167 million monthly token holders with 148 million daily non-vote transactions[3].",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_300068",
-      "timestamp": "2026-04-15T11:28:43.814923+00:00",
+      "id": "sig_491349",
+      "timestamp": "2026-04-15T11:31:55.095428+00:00",
       "source": "PERPLEXITY",
-      "headline": "TRUMP SIGNALS NEW IRAN TALKS WITHIN DAYS AS CEASEFIRE HOLDS | NO RESOLUTION YET | HIGH confidence",
-      "raw": "TRUMP SIGNALS NEW IRAN TALKS WITHIN DAYS AS CEASEFIRE HOLDS | NO RESOLUTION YET | HIGH confidence",
+      "headline": "BOK Holds Key Rate at 2",
+      "raw": "BOK Holds Key Rate at 2.5% Amid Oil-Driven Inflation Surge Above Target | NO | HIGH confidence** [5][6]\n\nSouth Korea's Bank of Korea unanimously decided on April 10, 2026, to maintain its benchmark interest rate at 2.5% for the seventh straight month, citing surging oil prices from Middle East conflicts (Iran war) pushing consumer prices above the 2% target\u2014recent CPI at ~2.2% with expectations to",
       "direction": "NO",
-      "confidence": 0.65,
+      "confidence": 0.78,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
         "Trump announces US x Iran ceasefire end by April 21, 2026?",
-        "Trump announces end of military operations against Iran by A"
+        "US x Iran permanent peace deal by April 22, 2026?"
       ],
       "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_300089",
-      "timestamp": "2026-04-15T11:28:43.835319+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Stalled progress:** Tehran attributes the breakdown to excessive US demands and lack of political will, while Washington",
-      "raw": "Stalled progress:** Tehran attributes the breakdown to excessive US demands and lack of political will, while Washington maintains Iran's nuclear demands are the core obstacle[1][4]. Trump declared the \"end of Iran conflict\" to Fox News host Maria Bartiromo, though this appears premature given the lack of formal agreement[3].",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [
-        "Trump announces US x Iran ceasefire end by April 21, 2026?",
-        "Trump announces end of military operations against Iran by A"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_300094",
-      "timestamp": "2026-04-15T11:28:43.840946+00:00",
-      "source": "PERPLEXITY",
-      "headline": "US demands:** The Trump administration is seeking a broader agreement that includes limits on Iran's nuclear ambitions i",
-      "raw": "US demands:** The Trump administration is seeking a broader agreement that includes limits on Iran's nuclear ambitions in exchange for economic normalization, with Trump emphasizing Iran cannot retain its enriched uranium stockpile[1][4].",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [
-        "Trump announces US x Iran ceasefire end by April 21, 2026?",
-        "Trump announces end of military operations against Iran by A"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_317186",
-      "timestamp": "2026-04-15T11:29:00.932449+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Bitcoin Breaks $75,000 Amid Middle East Peace Talks | YES | HIGH confidence**",
-      "raw": "Bitcoin Breaks $75,000 Amid Middle East Peace Talks | YES | HIGH confidence**\n\nBitcoin surged above $75,000 for the first time since mid-March after Iran signaled it wants to resume peace talks with the United States[4]. This geopolitical development has lifted the entire crypto market, with Ethereum rallying 8.6% to $2,377 and Solana gaining 6.3%[4].",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_317192",
-      "timestamp": "2026-04-15T11:29:00.938152+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Ethereum Institutional Inflows Resume | YES | HIGH confidence**",
-      "raw": "Ethereum Institutional Inflows Resume | YES | HIGH confidence**\n\nEthereum funds saw $196.5 million in inflows on April 14, ending three consecutive weeks of outflows[7]. This reversal signals renewed institutional confidence, particularly as on-chain activity jumped 41%, suggesting the rally has fundamental backing beyond short squeezes[4].",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Ethereum Up or Down - April 16, 12:35AM-12:40AM ET"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_317197",
-      "timestamp": "2026-04-15T11:29:00.943973+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Solana Reclaims Stablecoin Volume Lead Over Ethereum | YES | HIGH confidence**",
-      "raw": "Solana Reclaims Stablecoin Volume Lead Over Ethereum | YES | HIGH confidence**\n\nSolana has overtaken Ethereum in adjusted stablecoin volume for the second consecutive week, capturing 32.6% versus Ethereum's 27.8%[2]. Solana's stablecoin supply hit a record $16.3 billion, growing 10.87% in the past week\u2014the fastest rate among top-10 chains\u2014driven by Circle's record $3.25 billion USDC issuance in a ",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_317215",
-      "timestamp": "2026-04-15T11:29:00.961128+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Ethereum Fed Nominee Connection | YES | MED confidence**",
-      "raw": "Ethereum Fed Nominee Connection | YES | MED confidence**\n\nA potential Federal Reserve chair nominee disclosed Ethereum-based assets in their crypto portfolio, signaling institutional acceptance at the highest policy levels[7].",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_305211",
-      "timestamp": "2026-04-15T11:28:48.957087+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Congress Confirms Solo Run in West Bengal Assembly Elections with 293 Candidates Announced** | YES | HIGH confidence[1][",
-      "raw": "Congress Confirms Solo Run in West Bengal Assembly Elections with 293 Candidates Announced** | YES | HIGH confidence[1][2]\n\nCongress has released its second list of 9 candidates (plus 1 replacement), bringing the total to 293 for the 294-seat West Bengal Legislative Assembly elections, explicitly going solo without alliances[2]. This follows reports of serious consideration for an independent cont",
-      "direction": "YES",
-      "confidence": 0.6,
-      "matched_markets": [
-        "Will J.D. Vance win the 2028 Republican presidential nominat",
-        "Will the All India Trinamool Congress (AITC) win the most seats in the 2026 West",
-        "Will Robinhood Markets, Inc. (HOOD) hit (HIGH) $82.50 Week of April 13 2026?"
-      ],
-      "action": "WATCH",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_322824",
-      "timestamp": "2026-04-15T11:29:06.570171+00:00",
-      "source": "PERPLEXITY",
-      "headline": "South Korea's March 2026 Annual Inflation Rises to 2",
-      "raw": "South Korea's March 2026 Annual Inflation Rises to 2.2% | YES | HIGH confidence**  \nSouth Korea's annual inflation rate increased to 2.2% in March 2026 from 2.0% in January and February, confirming data released around early April 2026 after the month's end; this beat the prior two months but fell short of market forecasts of 2.4%.[1]  \nA secondary source reports a precise year-over-year rate of 2",
-      "direction": "YES",
-      "confidence": 0.6,
-      "matched_markets": [
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?",
-        "Will Robinhood Markets, Inc. (HOOD) hit (HIGH) $82.50 Week of April 13 2026?"
-      ],
-      "action": "WATCH",
       "x_link": null,
       "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_485678",
+      "timestamp": "2026-04-15T11:31:49.424830+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Ethereum trading at $2,196",
+      "raw": "Ethereum trading at $2,196.04 on April 13, 2026[2]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Ethereum Up or Down - April 16, 12:35AM-12:40AM ET",
+        "Ethereum Up or Down - April 16, 6:40AM-6:45AM ET",
+        "Ethereum Up or Down - April 15, 11:00PM-11:05PM ET"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_485684",
+      "timestamp": "2026-04-15T11:31:49.430377+00:00",
+      "source": "PERPLEXITY",
+      "headline": "April trading range between $2,168 and $2,608[5]",
+      "raw": "April trading range between $2,168 and $2,608[5]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_485690",
+      "timestamp": "2026-04-15T11:31:49.436328+00:00",
+      "source": "PERPLEXITY",
+      "headline": "General analyst projections (Arthur Hayes targeting $10,000-$20,000; Standard Chartered targeting $15,000 by 2027)[5]",
+      "raw": "General analyst projections (Arthur Hayes targeting $10,000-$20,000; Standard Chartered targeting $15,000 by 2027)[5]\n\nThe search results do not include information about Solana or any market-moving news from today. To answer your query accurately, I would need access to current news sources, announcements from the Ethereum Foundation or other key stakeholders, or significant market events that oc",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the price of Solana be above $130 on April 19?",
+        "Ethereum Up or Down - April 16, 12:35AM-12:40AM ET",
+        "Ethereum Up or Down - April 16, 6:40AM-6:45AM ET"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 11,
-    "watch": 2,
-    "high_conf": 4
+    "enter": 1,
+    "alert": 5,
+    "watch": 0,
+    "high_conf": 2
   }
 }
