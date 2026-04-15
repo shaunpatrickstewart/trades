@@ -8,9 +8,9 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 137 categorical arb opportunities found\nScanned 3000 events (1928 multi-outcome) at 2026-04-15 00:06 UTC\nBest: 10.0% profit on 'FL-06 Republican Primary Winner' \u2014 buy YES on all 3 outcomes (sum=0.9)\nStrategy: Buy YES on all 3 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 10.0% on 'Rhode Island Governor Republican Primary Winner'",
+      "result": "LIVE \u2014 137 categorical arb opportunities found\nScanned 3000 events (1933 multi-outcome) at 2026-04-15 00:07 UTC\nBest: 10.0% profit on 'FL-06 Republican Primary Winner' \u2014 buy YES on all 3 outcomes (sum=0.9)\nStrategy: Buy YES on all 3 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 10.0% on 'Rhode Island Governor Republican Primary Winner'",
       "priority": "HIGH",
-      "last_scan": "2026-04-15 00:06 UTC",
+      "last_scan": "2026-04-15 00:07 UTC",
       "opportunities": [
         {
           "event_title": "FL-06 Republican Primary Winner",
@@ -202,39 +202,6 @@
           ],
           "url": "https://polymarket.com/event/fl-25-house-election-winner",
           "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
-        },
-        {
-          "event_title": "Next CEO of Lululemon?",
-          "event_slug": "next-ceo-of-lululemon",
-          "yes_sum": 0.9065,
-          "profit_pct": 9.35,
-          "profit_per_dollar_pct": 10.31,
-          "num_outcomes": 3,
-          "outcomes": [
-            {
-              "market_id": "916398",
-              "slug": "will-stephanie-linnartz-be-the-next-ceo-of-lululemon",
-              "question": "Will Stephanie Linnartz be the next CEO of Lululemon?",
-              "yes_price": 0.3445,
-              "volume": 2936
-            },
-            {
-              "market_id": "916393",
-              "slug": "will-marti-morfitt-be-the-next-ceo-of-lululemon",
-              "question": "Will Marti Morfitt be the next CEO of Lululemon?",
-              "yes_price": 0.296,
-              "volume": 5936
-            },
-            {
-              "market_id": "916392",
-              "slug": "will-meghan-frank-be-the-next-ceo-of-lululemon",
-              "question": "Will Meghan Frank be the next CEO of Lululemon?",
-              "yes_price": 0.266,
-              "volume": 50235
-            }
-          ],
-          "url": "https://polymarket.com/event/next-ceo-of-lululemon",
-          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9065. One wins $1.00. Profit: $0.0935 (9.35%)"
         },
         {
           "event_title": "MLS Cup Winner 2026",
@@ -459,51 +426,18 @@
           "strategy": "Buy YES on all 30 outcomes. Total cost: $0.9080. One wins $1.00. Profit: $0.0920 (9.20%)"
         },
         {
-          "event_title": "Guam Governor Democratic Primary Winner",
-          "event_slug": "guam-governor-democratic-primary-winner",
+          "event_title": "NBA Sixth Man of the Year Winner",
+          "event_slug": "nba-2025-26-sixth-man-of-the-year",
           "yes_sum": 0.908,
           "profit_pct": 9.2,
           "profit_per_dollar_pct": 10.13,
-          "num_outcomes": 3,
-          "outcomes": [
-            {
-              "market_id": "907695",
-              "slug": "will-therese-terlaje-win-the-2026-guam-governor-democratic-primary-election",
-              "question": "Will Therese Terlaje win the 2026 Guam Governor Democratic primary election?",
-              "yes_price": 0.485,
-              "volume": 3568
-            },
-            {
-              "market_id": "907694",
-              "slug": "will-josh-tenorio-win-the-2026-guam-governor-democratic-primary-election",
-              "question": "Will Josh Tenorio win the 2026 Guam Governor Democratic primary election?",
-              "yes_price": 0.385,
-              "volume": 9039
-            },
-            {
-              "market_id": "907693",
-              "slug": "will-joe-s-san-agustin-win-the-2026-guam-governor-democratic-primary-election",
-              "question": "Will Joe S. San Agustin win the 2026 Guam Governor Democratic primary election?",
-              "yes_price": 0.038,
-              "volume": 2367
-            }
-          ],
-          "url": "https://polymarket.com/event/guam-governor-democratic-primary-winner",
-          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9080. One wins $1.00. Profit: $0.0920 (9.20%)"
-        },
-        {
-          "event_title": "NBA Sixth Man of the Year Winner",
-          "event_slug": "nba-2025-26-sixth-man-of-the-year",
-          "yes_sum": 0.9085,
-          "profit_pct": 9.15,
-          "profit_per_dollar_pct": 10.07,
           "num_outcomes": 28,
           "outcomes": [
             {
               "market_id": "643634",
               "slug": "nba-2025-26-sixth-man-of-the-year-keldon-johnson",
               "question": "Will Keldon Johnson win the 2025\u20132026 NBA Sixth Man of the Year?",
-              "yes_price": 0.826,
+              "yes_price": 0.8265,
               "volume": 70080
             },
             {
@@ -570,13 +504,6 @@
               "volume": 6509
             },
             {
-              "market_id": "643610",
-              "slug": "nba-2025-26-sixth-man-of-the-year-jordan-clarkson",
-              "question": "Will Jordan Clarkson win the 2025\u20132026 NBA Sixth Man of the Year?",
-              "yes_price": 0.0035,
-              "volume": 7916
-            },
-            {
               "market_id": "643629",
               "slug": "nba-2025-26-sixth-man-of-the-year-norman-powell",
               "question": "Will Norman Powell win the 2025\u20132026 NBA Sixth Man of the Year?",
@@ -596,6 +523,13 @@
               "question": "Will DeAndre Hunter win the 2025\u20132026 NBA Sixth Man of the Year?",
               "yes_price": 0.0025,
               "volume": 9569
+            },
+            {
+              "market_id": "643610",
+              "slug": "nba-2025-26-sixth-man-of-the-year-jordan-clarkson",
+              "question": "Will Jordan Clarkson win the 2025\u20132026 NBA Sixth Man of the Year?",
+              "yes_price": 0.0025,
+              "volume": 7916
             },
             {
               "market_id": "643614",
@@ -697,16 +631,75 @@
             }
           ],
           "url": "https://polymarket.com/event/nba-2025-26-sixth-man-of-the-year",
-          "strategy": "Buy YES on all 28 outcomes. Total cost: $0.9085. One wins $1.00. Profit: $0.0915 (9.15%)"
+          "strategy": "Buy YES on all 28 outcomes. Total cost: $0.9080. One wins $1.00. Profit: $0.0920 (9.20%)"
+        },
+        {
+          "event_title": "Guam Governor Democratic Primary Winner",
+          "event_slug": "guam-governor-democratic-primary-winner",
+          "yes_sum": 0.908,
+          "profit_pct": 9.2,
+          "profit_per_dollar_pct": 10.13,
+          "num_outcomes": 3,
+          "outcomes": [
+            {
+              "market_id": "907695",
+              "slug": "will-therese-terlaje-win-the-2026-guam-governor-democratic-primary-election",
+              "question": "Will Therese Terlaje win the 2026 Guam Governor Democratic primary election?",
+              "yes_price": 0.485,
+              "volume": 3568
+            },
+            {
+              "market_id": "907694",
+              "slug": "will-josh-tenorio-win-the-2026-guam-governor-democratic-primary-election",
+              "question": "Will Josh Tenorio win the 2026 Guam Governor Democratic primary election?",
+              "yes_price": 0.385,
+              "volume": 9039
+            },
+            {
+              "market_id": "907693",
+              "slug": "will-joe-s-san-agustin-win-the-2026-guam-governor-democratic-primary-election",
+              "question": "Will Joe S. San Agustin win the 2026 Guam Governor Democratic primary election?",
+              "yes_price": 0.038,
+              "volume": 2367
+            }
+          ],
+          "url": "https://polymarket.com/event/guam-governor-democratic-primary-winner",
+          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9080. One wins $1.00. Profit: $0.0920 (9.20%)"
+        },
+        {
+          "event_title": "VA-06 House Election Winner",
+          "event_slug": "va-06-house-election-winner",
+          "yes_sum": 0.91,
+          "profit_pct": 9.0,
+          "profit_per_dollar_pct": 9.89,
+          "num_outcomes": 2,
+          "outcomes": [
+            {
+              "market_id": "1285088",
+              "slug": "will-the-democratic-party-win-the-va-06-house-seat",
+              "question": "Will the Democratic Party win the VA-06 House seat?",
+              "yes_price": 0.705,
+              "volume": 30493
+            },
+            {
+              "market_id": "1285087",
+              "slug": "will-the-republican-party-win-the-va-06-house-seat",
+              "question": "Will the Republican Party win the VA-06 House seat?",
+              "yes_price": 0.205,
+              "volume": 18216
+            }
+          ],
+          "url": "https://polymarket.com/event/va-06-house-election-winner",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9100. One wins $1.00. Profit: $0.0900 (9.00%)"
         }
       ],
       "stats": {
         "total_events": 3000,
-        "checked_multi_outcome": 1928,
-        "skipped_single_outcome": 590,
+        "checked_multi_outcome": 1933,
+        "skipped_single_outcome": 588,
         "opportunities_found": 137,
         "best_profit_pct": 10.0,
-        "scanned_at": "2026-04-15 00:06 UTC"
+        "scanned_at": "2026-04-15 00:07 UTC"
       }
     },
     {
