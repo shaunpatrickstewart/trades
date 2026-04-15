@@ -1,126 +1,78 @@
 {
-  "last_scan": "2026-04-15T18:12:31.184228+00:00",
-  "scan_seconds": 55.3,
+  "last_scan": "2026-04-15T18:15:20.010132+00:00",
+  "scan_seconds": 27.6,
   "markets_scanned": 149,
   "open_positions": 111,
   "signals": [
     {
-      "id": "sig_520971",
-      "timestamp": "2026-04-15T18:12:24.693851+00:00",
+      "id": "sig_678430",
+      "timestamp": "2026-04-15T18:15:02.152887+00:00",
       "source": "PERPLEXITY",
-      "headline": "Solana $80 April 2026 Prediction Market Odds Surge to 93",
-      "raw": "Solana $80 April 2026 Prediction Market Odds Surge to 93.5% from 64% in One Session | YES | HIGH confidence**  \nTraders on Lines.com rapidly shifted odds upward, signaling strong market conviction on hitting $80 by month-end despite recent price pressure around $78-$82.[6]",
-      "direction": "YES",
-      "confidence": 0.78,
-      "matched_markets": [
-        "Will the price of Solana be above $100 on April 16?",
-        "Will the price of Solana be above $70 on April 16?",
-        "Will the price of Solana be between $100 and $110 on April 1"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_479457",
-      "timestamp": "2026-04-15T18:11:43.179983+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Trump Signals Iran War 'Very Close to Over'; In-Principle Agreement to Extend Ceasefire Beyond April 22 | YES | HIGH con",
-      "raw": "Trump Signals Iran War 'Very Close to Over'; In-Principle Agreement to Extend Ceasefire Beyond April 22 | YES | HIGH confidence**[1][2]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "US x Iran permanent peace deal by April 22, 2026?",
-        "Trump announces end of military operations against Iran by A"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_479482",
-      "timestamp": "2026-04-15T18:11:43.204385+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Context**: This follows failed first-round talks on April 12[3], a US naval blockade of the Strait of Hormuz starting",
-      "raw": "**Context**: This follows failed first-round talks on April 12[3], a US naval blockade of the Strait of Hormuz starting April 13[1][2][5], and ships breaking through despite enforcement[1][2]. White House denies requesting the extension[4], but Bloomberg confirms both sides seek further ceasefire talks before the current one ends next week[2].",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Will the White House call a full lid by 6:30PM on April 14?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_520951",
-      "timestamp": "2026-04-15T18:12:24.673139+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Solana (SOL) Hits All-Time Record 167 Million Monthly Token Holders Amid Alpenglow Upgrade Hype | YES | HIGH confidence*",
-      "raw": "Solana (SOL) Hits All-Time Record 167 Million Monthly Token Holders Amid Alpenglow Upgrade Hype | YES | HIGH confidence**  \nThis breaking network milestone, reported as of April 14, 2026, coincides with daily non-vote transactions at historic highs of 148 million, fueled by the anticipated Alpenglow consensus upgrade reducing finality to 150 milliseconds.[1]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the price of Solana be above $100 on April 16?",
-        "Will the price of Solana be above $70 on April 16?",
-        "Will the price of Solana be between $100 and $110 on April 1"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_520961",
-      "timestamp": "2026-04-15T18:12:24.683554+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Interactive Brokers Launches SOL Trading for European Investors via Zero Hash | YES | MED confidence**",
-      "raw": "Interactive Brokers Launches SOL Trading for European Investors via Zero Hash | YES | MED confidence**  \nThe brokerage's expansion provides direct Solana access to European users, boosting institutional reach amid 167 million network users, though SOL price remains compressed at ~$82 without breakout.[2]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_479469",
-      "timestamp": "2026-04-15T18:11:43.191974+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Key Confirmation**: President Trump stated the war is \"very close to over,\" citing optimism for diplomacy over militar",
-      "raw": "**Key Confirmation**: President Trump stated the war is \"very close to over,\" citing optimism for diplomacy over military action, with a second round of talks possible in the next two days, potentially in Islamabad[1]. Regional officials report Washington and Tehran have an \"in-principle agreement\" to extend the current two-week ceasefire past April 22 for further negotiations[1][2].",
-      "direction": null,
-      "confidence": 0.6,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Will Trump say \"Discombobulator\" or \"Discombobulated\" in April?"
-      ],
-      "action": "WATCH",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_479494",
-      "timestamp": "2026-04-15T18:11:43.216786+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Prediction Market Impact**: Positive diplomatic signals and ceasefire extension could shift odds toward de-escalation",
-      "raw": "**Prediction Market Impact**: Positive diplomatic signals and ceasefire extension could shift odds toward de-escalation in markets on Iran conflict resolution, Trump foreign policy wins, or oil price stabilization, given the blockade's economic stakes[1][2][5]. No full resolution announced; tensions persist with Israel-Lebanon talks and ongoing strikes[5][6].",
+      "headline": "US and Iran Plan Second Round of Ceasefire Talks as Deadline Approaches | NO | HIGH confidence**[1][2][6]",
+      "raw": "US and Iran Plan Second Round of Ceasefire Talks as Deadline Approaches | NO | HIGH confidence**[1][2][6]\n\nNo ceasefire agreement, resolution, or final announcement has been confirmed today; prior talks in Islamabad ended without a deal, but both sides are now preparing for round two within days, with clearer positions shared and Pakistan pushing to host in Islamabad**[1][2][5][6]**. US officials ",
       "direction": "NO",
-      "confidence": 0.6,
+      "confidence": 0.9,
       "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces end of military operations against Iran by A"
+        "Will the US x Iran ceasefire be extended by April 21, 2026?"
       ],
-      "action": "WATCH",
+      "action": "ENTER",
       "x_link": null,
       "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_690414",
+      "timestamp": "2026-04-15T18:15:14.136354+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Solana Alpenglow Upgrade Advances Toward 150ms Finality | YES | HIGH confidence**",
+      "raw": "Solana Alpenglow Upgrade Advances Toward 150ms Finality | YES | HIGH confidence**  \nThe Alpenglow consensus upgrade for Solana, aiming to reduce transaction finality from 12 seconds to 150 milliseconds, has passed a governance vote with 98.27% approval, positioning Solana as a top high-speed blockchain amid surging network activity like 167 million monthly token holders and 148 million daily non-v",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will the price of Solana be above $100 on April 16?",
+        "Will the price of Solana be above $70 on April 16?",
+        "Will the price of Solana be between $100 and $110 on April 1"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_695286",
+      "timestamp": "2026-04-15T18:15:19.008935+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Trump Nominates Kevin Warsh as Next Fed Chair Amid Surging Inflation and Rate Hold | YES | HIGH confidence**",
+      "raw": "Trump Nominates Kevin Warsh as Next Fed Chair Amid Surging Inflation and Rate Hold | YES | HIGH confidence**  \nPresident Trump announced his intent to nominate Kevin Warsh as the next Federal Reserve Chair to replace Jerome Powell, whose term ends in May 2026, as confirmed in recent reports and video discussions.[1][4][5]  \nThis nomination comes alongside the Fed's Wednesday decision to hold rates",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Kevin Warsh confirmed as Fed Chair by May 15?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_690425",
+      "timestamp": "2026-04-15T18:15:14.147175+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Interactive Brokers Launches SOL Trading for European Investors | YES | MED confidence**",
+      "raw": "Interactive Brokers Launches SOL Trading for European Investors | YES | MED confidence**  \nInteractive Brokers enabled direct Solana (SOL) trading for European users via Zero Hash on April 14, 2026, expanding institutional access despite SOL price compression around $82 and no immediate breakout.[4]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the price of Solana be above $100 on April 16?",
+        "Will the price of Solana be above $70 on April 16?",
+        "Will the price of Solana be between $100 and $110 on April 1"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 5,
-    "watch": 2,
-    "high_conf": 0
+    "enter": 3,
+    "alert": 1,
+    "watch": 0,
+    "high_conf": 3
   }
 }
