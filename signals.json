@@ -1,87 +1,91 @@
 {
-  "last_scan": "2026-04-15T01:07:09.518114+00:00",
-  "scan_seconds": 34.6,
-  "markets_scanned": 81,
-  "open_positions": 48,
+  "last_scan": "2026-04-15T01:10:02.697302+00:00",
+  "scan_seconds": 31.7,
+  "markets_scanned": 122,
+  "open_positions": 86,
   "signals": [
     {
-      "id": "sig_4734",
-      "timestamp": "2026-04-15T01:07:08.517298+00:00",
+      "id": "sig_156600",
+      "timestamp": "2026-04-15T01:09:40.383430+00:00",
       "source": "PERPLEXITY",
-      "headline": "Global Context:** J",
-      "raw": "Global Context:** J.P. Morgan's 2026 global inflation forecast projects core CPI at 2.8% globally, with an expectation that the Bank of Korea will remain on a \"prolonged hold\" given inflation nearing 2%[5].\n\nHowever, none of these appear to be **breaking news** announced in the past hours. The South Korea inflation data from March 2026 would be weeks old by mid-April. The search results lack times",
-      "direction": null,
+      "headline": "Trump Announces Two-Week Ceasefire with Iran; Israel Joins; Predicts 'Golden Age of the Middle East' | YES | HIGH confid",
+      "raw": "Trump Announces Two-Week Ceasefire with Iran; Israel Joins; Predicts 'Golden Age of the Middle East' | YES | HIGH confidence**\n\nA two-week \"double-sided ceasefire\" between the US and Iran was confirmed by President Trump on Truth Social Tuesday night (April 14, 2026), suspending US bombing after meeting military objectives and advancing long-term peace talks, including Strait of Hormuz access[1][4",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces US x Iran ceasefire end by April 21, 2026?",
+        "US x Iran permanent peace deal by April 22, 2026?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_163457",
+      "timestamp": "2026-04-15T01:09:47.240933+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Trump teases warmer ties with Musk at Cabinet meeting, amid Polymarket buzz on April meeting (57% odds) and Musk's predi",
+      "raw": "Trump teases warmer ties with Musk at Cabinet meeting, amid Polymarket buzz on April meeting (57% odds) and Musk's prediction of 12-year Republican era with Vance succeeding Trump.** | **NO** | **HIGH** confidence\n\nNo breaking confirmations, announcements, or resolutions as of April 15, 2026, 1 AM UTC involving Trump, Elon Musk, Republicans, or April events that would shift prediction markets[1][2",
+      "direction": "NO",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will J.D. Vance win the 2028 Republican presidential nominat",
+        "Trump announces US x Iran ceasefire end by April 21, 2026?",
+        "Will Trump announce that the US x Iran ceasefire has been br"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_177894",
+      "timestamp": "2026-04-15T01:10:01.677034+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Germany March 2026 Inflation Confirmed at +2",
+      "raw": "Germany March 2026 Inflation Confirmed at +2.7% YoY | YES | HIGH confidence**  \nGermany's official inflation rate rose to +2.7% year-on-year in March 2026 (CPI), up from +1.9% in February, driven by sharp increases in motor fuel and heating oil prices amid the Iran war; this is the highest since January 2024 and confirms provisional data released earlier.[2] Core inflation (excluding food and ener",
+      "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
         "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
       ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_4716",
-      "timestamp": "2026-04-15T01:07:08.499054+00:00",
+      "id": "sig_177904",
+      "timestamp": "2026-04-15T01:10:01.687693+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot identify breaking news or market-moving announcements from these search results that would have occurred at or",
-      "raw": "I cannot identify breaking news or market-moving announcements from these search results that would have occurred at or near the current date of April 15, 2026, 1:07 AM UTC.\n\nThe most recent concrete data in the search results are:",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_4722",
-      "timestamp": "2026-04-15T01:07:08.505196+00:00",
-      "source": "PERPLEXITY",
-      "headline": "South Korea:** Annual inflation rose to **2",
-      "raw": "South Korea:** Annual inflation rose to **2.2% in March 2026**, up from 2.0% in the previous two months[1]. The Bank of Korea raised its inflation outlook for 2026 to 2.2% from 2.1% and held its policy rate steady at 2.5%[1].",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_4728",
-      "timestamp": "2026-04-15T01:07:08.511226+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Germany:** No current 2026 data provided; only historical comparisons showing Germany's debt-to-GDP ratio was revised do",
-      "raw": "Germany:** No current 2026 data provided; only historical comparisons showing Germany's debt-to-GDP ratio was revised downward by 1.2 percentage points[2].",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_990225",
-      "timestamp": "2026-04-15T01:06:54.009348+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Pakistan proposes new US-Iran peace talks as Trump and JD Vance hint at ceasefire progress | YES | HIGH confidence** [3]",
-      "raw": "Pakistan proposes new US-Iran peace talks as Trump and JD Vance hint at ceasefire progress | YES | HIGH confidence** [3][2]\n\nTrump stated \"we've been called by the other side\" and \"they want to work a deal,\" while Vance said negotiations with Iran \"did make some progress,\" signaling potential resolution to the seven-week Middle East war via talks possibly in Pakistan over the next two days.[3][2] ",
+      "headline": "South Korea March 2026 Inflation at 2",
+      "raw": "South Korea March 2026 Inflation at 2.2% YoY | YES | HIGH confidence**  \nSouth Korea's annual inflation rose to 2.2% in March 2026 from 2.0% in February, below market forecasts of 2.4% but marking a three-month high due to energy pressures from the Iran conflict; core inflation eased to 2.2%.[3][4] Polymarket odds for 2026 annual CPI at 3.0%+ stand at 36%, reflecting upside risks post-Bank of Kore",
       "direction": "YES",
       "confidence": 0.6,
       "matched_markets": [
-        "Will J.D. Vance win the 2028 Republican presidential nominat",
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces US x Iran ceasefire end by April 21, 2026?"
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
       ],
       "action": "WATCH",
       "x_link": null,
-      "category": "POLITICS"
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_177913",
+      "timestamp": "2026-04-15T01:10:01.696454+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Germany 2026 GDP Forecast Downgraded to +0",
+      "raw": "Germany 2026 GDP Forecast Downgraded to +0.6% | YES | MED confidence**  \nThe Joint Economic Forecast Spring 2026 (released April 1) cut Germany's real GDP growth projection to +0.6% for 2026 (from prior +1.2%), after 2025's near-stagnation at +0.2%, due to energy price shocks eroding purchasing power despite fiscal stimulus.[1] A working-day adjustment reduces it further by 0.2pp; 2027 forecast is",
+      "direction": "YES",
+      "confidence": 0.6,
+      "matched_markets": [],
+      "action": "WATCH",
+      "x_link": null,
+      "category": "ECONOMICS"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 4,
-    "watch": 1,
-    "high_conf": 1
+    "enter": 3,
+    "alert": 0,
+    "watch": 2,
+    "high_conf": 3
   }
 }
