@@ -1,100 +1,64 @@
 {
-  "last_scan": "2026-04-16T18:22:24.450057+00:00",
-  "scan_seconds": 25.6,
-  "markets_scanned": 146,
-  "open_positions": 109,
+  "last_scan": "2026-04-16T18:25:12.283261+00:00",
+  "scan_seconds": 29.5,
+  "markets_scanned": 110,
+  "open_positions": 71,
   "signals": [
     {
-      "id": "sig_519814",
-      "timestamp": "2026-04-16T18:22:23.449410+00:00",
+      "id": "sig_681489",
+      "timestamp": "2026-04-16T18:25:05.124767+00:00",
       "source": "PERPLEXITY",
-      "headline": "Trump nominates Kevin Warsh as next Fed Chair, replacing Powell in May 2026 amid rising inflation pressures and oil shoc",
-      "raw": "Trump nominates Kevin Warsh as next Fed Chair, replacing Powell in May 2026 amid rising inflation pressures and oil shock speculation on potential rate hikes.** | YES | HIGH confidence[1][2][3]\n\nWarsh's nomination, announced January 30-31, 2026 by President Trump, positions the former Fed governor\u2014known for favoring higher rates longer\u2014to potentially lead as early as mid-May, facing immediate deba",
+      "headline": "Polymarket April Price Prediction Markets Updated with High Confidence on Bitcoin Bearish Outlook and Solana Bullish Abo",
+      "raw": "Polymarket April Price Prediction Markets Updated with High Confidence on Bitcoin Bearish Outlook and Solana Bullish Above $80 | NO new external confirmations/announcements | HIGH confidence** [1][9]\n\nPolymarket data shows a **93% probability Bitcoin falls below $65,000 in April**, alongside a 65% chance above $70,000 and 54% below $60,000, reflecting dominant bearish sentiment amid US-Iran tensio",
       "direction": "YES",
-      "confidence": 0.9,
+      "confidence": 0.78,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces end of military operations against Iran by A",
+        "US x Iran permanent peace deal by April 30, 2026?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_687647",
+      "timestamp": "2026-04-16T18:25:11.282038+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Kevin Warsh Nominated as Next Fed Chair by President Trump, Facing Immediate Inflation Pressures from Tariffs, Oil Shock",
+      "raw": "Kevin Warsh Nominated as Next Fed Chair by President Trump, Facing Immediate Inflation Pressures from Tariffs, Oil Shock, and Rising Core PCE to 3.9-4.56% | NO | HIGH confidence**  \nNo breaking confirmations, announcements, or resolutions today (April 16, 2026) alter prior expectations like rate paths or Warsh's Senate confirmation, which remains pending for a mid-May transition from Jerome Powell",
+      "direction": "YES",
+      "confidence": 0.78,
       "matched_markets": [
         "Kevin Warsh confirmed as Fed Chair by May 15?",
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?",
         "Will Trump and Xi handshake last 15 seconds or longer during the day of their ne"
       ],
-      "action": "ENTER",
+      "action": "ALERT",
       "x_link": null,
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_510147",
-      "timestamp": "2026-04-16T18:22:13.782012+00:00",
+      "id": "sig_675331",
+      "timestamp": "2026-04-16T18:24:58.966178+00:00",
       "source": "PERPLEXITY",
-      "headline": "Government shutdown rhetoric persists on White House site, referencing past Democratic actions, but no new shutdown thre",
-      "raw": "Government shutdown rhetoric persists on White House site, referencing past Democratic actions, but no new shutdown threat or resolution announced.[4]",
-      "direction": "NO",
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_510114",
-      "timestamp": "2026-04-16T18:22:13.749536+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Trump deleted a Truth Social post on April 14 depicting him in a Jesus-like image (which he claimed was him as a Red Cro",
-      "raw": "Trump deleted a Truth Social post on April 14 depicting him in a Jesus-like image (which he claimed was him as a Red Cross doctor), addressed it publicly, and received supportive comments from a Newsmax host on April 15\u2014unlikely to shift markets as it's resolved personal controversy, not policy.[1]",
-      "direction": "NO",
-      "confidence": 0.65,
+      "headline": "Trump hints at imminent end to Iran war, predicts \"amazing two days\" ahead as ceasefire nears expiration | YES | HIGH co",
+      "raw": "Trump hints at imminent end to Iran war, predicts \"amazing two days\" ahead as ceasefire nears expiration | YES | HIGH confidence**  \nUS President Donald Trump stated the war with Iran \"can be over very soon\" and \"will end soon,\" declining to extend a two-week ceasefire expiring next week, amid a US blockade on Iranian ports.[1]  \nThis follows confirmation of a private tea meeting between Trump and",
+      "direction": "YES",
+      "confidence": 0.6,
       "matched_markets": [
-        "Will Donald Trump post 160-179 Truth Social posts from April"
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces end of military operations against Iran by A",
+        "Will Trump say \"Obliterated\" or \"Obliteration\" during King Charles visit?"
       ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_510125",
-      "timestamp": "2026-04-16T18:22:13.760540+00:00",
-      "source": "PERPLEXITY",
-      "headline": "On April 15, Trump posted on Truth Social urging GOP unity on FISA reauthorization ahead of a House vote, amid ongoing t",
-      "raw": "On April 15, Trump posted on Truth Social urging GOP unity on FISA reauthorization ahead of a House vote, amid ongoing talks to extend Section 702 spy powers before its April 20 expiration; no vote outcome or resolution confirmed today.[2]",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Donald Trump post 160-179 Truth Social posts from April"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_510136",
-      "timestamp": "2026-04-16T18:22:13.771170+00:00",
-      "source": "PERPLEXITY",
-      "headline": "White House Wire highlights unrelated items like tax refunds, military recruiting, budget pitches, and DOJ reports on pr",
-      "raw": "White House Wire highlights unrelated items like tax refunds, military recruiting, budget pitches, and DOJ reports on prior Biden-era actions, with no new Trump-specific confirmations or announcements dated today.[3]",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_510157",
-      "timestamp": "2026-04-16T18:22:13.792640+00:00",
-      "source": "PERPLEXITY",
-      "headline": "NO | LOW confidence** (search results lack any fresh, market-moving confirmations as of 6 PM UTC; closest items are 1-2",
-      "raw": "NO | LOW confidence** (search results lack any fresh, market-moving confirmations as of 6 PM UTC; closest items are 1-2 days old and minor).",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
+      "action": "WATCH",
       "x_link": null,
       "category": "POLITICS"
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 5,
-    "watch": 0,
-    "high_conf": 2
+    "enter": 0,
+    "alert": 2,
+    "watch": 1,
+    "high_conf": 0
   }
 }
