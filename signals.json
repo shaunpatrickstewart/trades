@@ -1,66 +1,68 @@
 {
-  "last_scan": "2026-04-16T06:21:20.401731+00:00",
-  "scan_seconds": 54.4,
+  "last_scan": "2026-04-16T06:24:25.401285+00:00",
+  "scan_seconds": 46.8,
   "markets_scanned": 88,
   "open_positions": 40,
   "signals": [
     {
-      "id": "sig_214561",
-      "timestamp": "2026-04-16T06:20:38.239536+00:00",
+      "id": "sig_409096",
+      "timestamp": "2026-04-16T06:23:52.774047+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot provide a comprehensive answer to this query because the search results do not contain information about \"ternu",
-      "raw": "I cannot provide a comprehensive answer to this query because the search results do not contain information about \"ternuvate\" or recent breaking news from today (April 16, 2026). The search results primarily cover events from April 8-15, 2026.\n\nBased on the available search results, the most recent confirmed developments are:",
-      "direction": null,
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will Russia enter Ternuvate again by April 30?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_214567",
-      "timestamp": "2026-04-16T06:20:38.245625+00:00",
-      "source": "PERPLEXITY",
-      "headline": "US Will Not Extend Russia Oil Sanctions Waiver | ANNOUNCED | HIGH confidence**",
-      "raw": "US Will Not Extend Russia Oil Sanctions Waiver | ANNOUNCED | HIGH confidence**\nThe U.S. Treasury chief announced on April 15, 2026, that the United States will not extend its waiver on Russia oil sanctions.[1]",
-      "direction": null,
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will Russia enter Ternuvate again by April 30?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_214574",
-      "timestamp": "2026-04-16T06:20:38.252143+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Iran-US-Israel Two-Week Ceasefire Agreed | CONFIRMED | HIGH confidence**",
-      "raw": "Iran-US-Israel Two-Week Ceasefire Agreed | CONFIRMED | HIGH confidence**\nThe United States, Israel, and Iran agreed to a two-week ceasefire on April 8, 2026, described as an \"11th-hour deal\" to prevent wider regional escalation.[2] However, questions remain about implementation, as airstrikes continued hours after the announcement and the Strait of Hormuz navigation remains effectively suspended.[",
-      "direction": null,
+      "headline": "Earlier context:** A September 2025 diplomatic incident where King Charles interrupted Trump at Windsor Castle, and an A",
+      "raw": "Earlier context:** A September 2025 diplomatic incident where King Charles interrupted Trump at Windsor Castle, and an April 14, 2026 political row where UK Liberal Democrat leader Ed Davey demanded cancellation of King Charles' planned US visit due to US-Iran tensions[1][2].\n\nHowever, neither of these constitutes breaking news about an \"obliteration\" or a confirmed resolution that would be market",
+      "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "US x Iran permanent peace deal by April 30, 2026?",
-        "US x Iran permanent peace deal by April 22, 2026?"
+        "Trump announces end of military operations against Iran by A",
+        "US x Iran permanent peace deal by April 30, 2026?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_414298",
+      "timestamp": "2026-04-16T06:23:57.976555+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Trump Nominates Kevin Warsh as Next Fed Chair Amid Surging US Inflation (Core PCE at 4",
+      "raw": "Trump Nominates Kevin Warsh as Next Fed Chair Amid Surging US Inflation (Core PCE at 4.56%, PPI Up 3% Annually); Markets Price Potential Rate Hike, South Korean Stocks Crash 5% Triggering Circuit Breaker** | YES | HIGH\n\nKevin Warsh's nomination by President Trump to replace Jerome Powell as Fed Chair (term ends May 2026) was just announced, signaling a hawkish shift defending inflation targets and",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Kevin Warsh confirmed as Fed Chair by May 15?",
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_402203",
+      "timestamp": "2026-04-16T06:23:45.881497+00:00",
+      "source": "PERPLEXITY",
+      "headline": "US signals new Iran talks within days as ceasefire holds; Russia welcomes deal; no truce exit confirmed",
+      "raw": "US signals new Iran talks within days as ceasefire holds; Russia welcomes deal; no truce exit confirmed.** | YES | HIGH confidence[1][2][3][4]\n\nThe ceasefire between US, Israel, and Iran\u2014agreed April 8, 2026, for two weeks\u2014remains in effect per US Vice President JD Vance, with Pakistan offering to host fresh negotiations possibly starting soon, as stated by President Trump[1][4]. Kremlin spokesman",
+      "direction": "YES",
+      "confidence": 0.78,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Will Russia enter Ternuvate again by April 30?",
+        "Trump announces end of military operations against Iran by A"
       ],
       "action": "ALERT",
       "x_link": null,
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_221359",
-      "timestamp": "2026-04-16T06:20:45.037713+00:00",
+      "id": "sig_409089",
+      "timestamp": "2026-04-16T06:23:52.767500+00:00",
       "source": "PERPLEXITY",
-      "headline": "Trump Claims US Strikes Have 'Literally Obliterated' Iran's Military, Achieving 90% Drop in Missile Launches and 95% in",
-      "raw": "Trump Claims US Strikes Have 'Literally Obliterated' Iran's Military, Achieving 90% Drop in Missile Launches and 95% in Drone Attacks | YES | HIGH confidence**  \nPresident Trump stated in a recent update that US strikes hit over 7,000 Iranian targets, destroying their air force, navy (including sunk warships), anti-aircraft systems, radar, and leaders, amid a conflict entering its third week with ",
-      "direction": "YES",
-      "confidence": 0.78,
+      "headline": "I cannot provide the breaking news headline you're requesting based on these search results",
+      "raw": "I cannot provide the breaking news headline you're requesting based on these search results. The available information does not contain any recent announcement, confirmation, or resolution matching your query parameters about \"obliteration\" or a definitive outcome between Trump and King Charles that would move prediction markets.\n\nThe search results show two separate incidents:",
+      "direction": null,
+      "confidence": 0.65,
       "matched_markets": [
-        "Trump announces end of military operations against Iran by A",
         "Will Trump say \"Obliterated\" or \"Obliteration\" during King Charles visit?"
       ],
       "action": "ALERT",
@@ -68,206 +70,183 @@
       "category": "POLITICS"
     },
     {
-      "id": "sig_256691",
-      "timestamp": "2026-04-16T06:21:20.369395+00:00",
+      "id": "sig_441658",
+      "timestamp": "2026-04-16T06:24:25.336900+00:00",
       "source": "X_GROK",
-      "headline": "AI Bots & Whale Copying Trending**: Traders hyping Claude-built bots to detect mispriced Polymarket odds, track whales (",
-      "raw": "AI Bots & Whale Copying Trending**: Traders hyping Claude-built bots to detect mispriced Polymarket odds, track whales (e.g., $120\u2192$1.4M wallet), and auto-copy for 50-70% win rates. Signals arb edges in crypto/econ markets. NO strong directional bets; focus on inefficiencies. MED confidence.[[1]](https://x.com/i/status/2041503776868024433)[[2]](https://x.com/i/status/2041154085563384160)[[3]](http",
-      "direction": "YES",
-      "confidence": 0.78,
+      "headline": "Esports Whales Heavy on Favorites (Imminent Matches Today):**",
+      "raw": "Esports Whales Heavy on Favorites (Imminent Matches Today):**",
+      "direction": null,
+      "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
-      "x_link": "https://x.com/i/status/2041503776868024433)[[2]](https://x.com/i/status/2041154085563384160)[[3]](https://x.com/i/status/2043706783764459618)",
+      "x_link": null,
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_226585",
-      "timestamp": "2026-04-16T06:20:50.263016+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Fed held rates steady at 4",
-      "raw": "Fed held rates steady at 4.25-4.5% (late 2024/early 2025), with Powell citing elevated inflation and no urgency for cuts, impacting South Korea's policy options[1].",
+      "id": "sig_441664",
+      "timestamp": "2026-04-16T06:24:25.342898+00:00",
+      "source": "X_GROK",
+      "headline": "XLG Gaming (Valorant VCT China): $10k whale buy @48% YES win",
+      "raw": "XLG Gaming (Valorant VCT China): $10k whale buy @48% YES win. HIGH confidence edge on underdog.[[1]](https://x.com/i/status/2044650637682434366)[[2]](https://x.com/i/status/2044661792505299249)",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2044650637682434366)[[2]](https://x.com/i/status/2044661792505299249)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_441670",
+      "timestamp": "2026-04-16T06:24:25.348885+00:00",
+      "source": "X_GROK",
+      "headline": "Hanwha Life Esports (LoL LCK): $5k whale buy @86% YES",
+      "raw": "Hanwha Life Esports (LoL LCK): $5k whale buy @86% YES. Gen.G (LoL LCK Game 1): $11k whale buy @88% YES. Smart money piling favorites. HIGH conf.[[3]](https://x.com/i/status/2044643973730386078)[[4]](https://x.com/i/status/2044647505565012105)",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2044643973730386078)[[4]](https://x.com/i/status/2044647505565012105)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_441676",
+      "timestamp": "2026-04-16T06:24:25.354735+00:00",
+      "source": "X_GROK",
+      "headline": "Aurora Gaming (CS Map 2): $11",
+      "raw": "Aurora Gaming (CS Map 2): $11.6k whale buy @66% YES. New wallet conviction. MED conf.[[5]](https://x.com/i/status/2044611773551055135)",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2044611773551055135)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_441682",
+      "timestamp": "2026-04-16T06:24:25.360600+00:00",
+      "source": "X_GROK",
+      "headline": "Tennis Whales Split on Wuning 2: Fomin vs Bouzige (Recent/Ongoing):**",
+      "raw": "Tennis Whales Split on Wuning 2: Fomin vs Bouzige (Recent/Ongoing):**",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_441688",
+      "timestamp": "2026-04-16T06:24:25.366513+00:00",
+      "source": "X_GROK",
+      "headline": "$245k + $243k on Fomin @37%; $220k + $243k on Bouzige @60-62%",
+      "raw": "$245k + $243k on Fomin @37%; $220k + $243k on Bouzige @60-62%. Huge volume (> $900k total), arb or smart divergence? Mispriced volatility. MED conf both sides.[[6]](https://x.com/i/status/2044644127078306119)[[7]](https://x.com/i/status/2044640315458351496)[[8]](https://x.com/i/status/2044640301835301062)",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2044644127078306119)[[7]](https://x.com/i/status/2044640315458351496)[[8]](https://x.com/i/status/2044640301835301062)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_441694",
+      "timestamp": "2026-04-16T06:24:25.372257+00:00",
+      "source": "X_GROK",
+      "headline": "Lucknow Weather (Apr 17): +58% edge on \"37\u00b0C or below\" YES",
+      "raw": "Lucknow Weather (Apr 17): +58% edge on \"37\u00b0C or below\" YES. Market underprices cool temps. HIGH conf model signal.[[9]](https://x.com/i/status/2044660050786922960)",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2044660050786922960)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_441699",
+      "timestamp": "2026-04-16T06:24:25.377978+00:00",
+      "source": "X_GROK",
+      "headline": "CA Gov Winner (Tom Steyer): Traders see edge @69% YES post-Swalwell exit",
+      "raw": "CA Gov Winner (Tom Steyer): Traders see edge @69% YES post-Swalwell exit. Weak rivals boost him. MED conf.[[2]](https://x.com/i/status/2044661792505299249)",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2044661792505299249)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_441705",
+      "timestamp": "2026-04-16T06:24:25.383790+00:00",
+      "source": "X_GROK",
+      "headline": "Netflix Q1 Earnings Beat (Today 4:30PM ET): Model 92% YES vs 94% market; no edge, pass",
+      "raw": "Netflix Q1 Earnings Beat (Today 4:30PM ET): Model 92% YES vs 94% market; no edge, pass.[[10]](https://x.com/i/status/2044657117081034836)",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2044657117081034836)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_441711",
+      "timestamp": "2026-04-16T06:24:25.389529+00:00",
+      "source": "X_GROK",
+      "headline": "US Strikes 8 Countries 2026: $7k whale on NO @77%",
+      "raw": "US Strikes 8 Countries 2026: $7k whale on NO @77%. Bearish on escalation. LOW conf (long-term).[[11]](https://x.com/i/status/2044629428555182109)",
       "direction": "NO",
       "confidence": 0.65,
-      "matched_markets": [
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
-      ],
+      "matched_markets": [],
       "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
+      "x_link": "https://x.com/i/status/2044629428555182109)",
+      "category": "COMMUNITY"
     },
     {
-      "id": "sig_226596",
-      "timestamp": "2026-04-16T06:20:50.274575+00:00",
-      "source": "PERPLEXITY",
-      "headline": "February 2, 2026: KOSPI dropped >5% on Trump admin's new Fed Chair nomination, sparking uncertainty and won weakening[3]",
-      "raw": "February 2, 2026: KOSPI dropped >5% on Trump admin's new Fed Chair nomination, sparking uncertainty and won weakening[3].",
-      "direction": null,
+      "id": "sig_441717",
+      "timestamp": "2026-04-16T06:24:25.395247+00:00",
+      "source": "X_GROK",
+      "headline": "AI Bubble (3 Failures in 90 Days",
+      "raw": "AI Bubble (3 Failures in 90 Days?): 19-23% YES undervalued vs 28% model. Correlation bet. MED conf.[[12]](https://x.com/i/status/2044573235291791549)",
+      "direction": "YES",
       "confidence": 0.65,
-      "matched_markets": [
-        "Kevin Warsh confirmed as Fed Chair by May 15?"
-      ],
+      "matched_markets": [],
       "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
+      "x_link": "https://x.com/i/status/2044573235291791549)",
+      "category": "COMMUNITY"
     },
     {
-      "id": "sig_226602",
-      "timestamp": "2026-04-16T06:20:50.280484+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Upcoming Jackson Hole symposium (starting a Thursday, undated but pre-April 2026) with divided rate cut expectations[4]",
-      "raw": "Upcoming Jackson Hole symposium (starting a Thursday, undated but pre-April 2026) with divided rate cut expectations[4].\n\nNo results indicate events in the last hours or days that qualify as \"right now\" breaking news capable of shifting prediction markets.",
+      "id": "sig_441723",
+      "timestamp": "2026-04-16T06:24:25.401031+00:00",
+      "source": "X_GROK",
+      "headline": "Trends:** Whale alerts dominate feeds (esports/tennis focus)",
+      "raw": "Trends:** Whale alerts dominate feeds (esports/tennis focus). Bots/liquidity edges noted in sportsbooks vs Poly. No major politics/crypto alpha today.[[13]](https://x.com/i/status/2044649663433691456)[[14]](https://x.com/i/status/2044578051099406654)",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
+      "x_link": "https://x.com/i/status/2044649663433691456)[[14]](https://x.com/i/status/2044578051099406654)",
+      "category": "COMMUNITY"
     },
     {
-      "id": "sig_231640",
-      "timestamp": "2026-04-16T06:20:55.318865+00:00",
+      "id": "sig_418691",
+      "timestamp": "2026-04-16T06:24:02.369357+00:00",
       "source": "PERPLEXITY",
-      "headline": "OKC Thunder Receive Lottery Pick After Clippers' Playoff Miss** | YES | HIGH confidence[1][5]",
-      "raw": "OKC Thunder Receive Lottery Pick After Clippers' Playoff Miss** | YES | HIGH confidence[1][5]  \nThe Clippers' failure to advance to the playoffs unlocked a lottery pick for the Thunder (from prior trade), introducing draft uncertainty and boosting OKC's asset pool in a season where they finished with the West's best 64-18 record[1][2][5].",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_256700",
-      "timestamp": "2026-04-16T06:21:20.378314+00:00",
-      "source": "X_GROK",
-      "headline": "Top 1% Dominate Profits**: Study of 72M trades shows whales capture 84% gains; avoid <10\u00a2 buys (overpriced), overtrading",
-      "raw": "Top 1% Dominate Profits**: Study of 72M trades shows whales capture 84% gains; avoid <10\u00a2 buys (overpriced), overtrading. Smart money: market makers win at most levels. NO retail edge without math. HIGH confidence.[[4]](https://x.com/i/status/2044167305819763154)[[5]](https://x.com/i/status/2042356576032358505)",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2044167305819763154)[[5]](https://x.com/i/status/2042356576032358505)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_256706",
-      "timestamp": "2026-04-16T06:21:20.384163+00:00",
-      "source": "X_GROK",
-      "headline": "Lazy Arb Strategy**: Buy \"obvious\" outcomes (70-90\u00a2) discounted by degen lottery bets on hype events",
-      "raw": "Lazy Arb Strategy**: Buy \"obvious\" outcomes (70-90\u00a2) discounted by degen lottery bets on hype events. One trader: $300\u2192$113k on 35k positions. YES on sure things like movie winners. HIGH confidence.[[6]](https://x.com/i/status/2043017194091499986)",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2043017194091499986)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_256711",
-      "timestamp": "2026-04-16T06:21:20.389902+00:00",
-      "source": "X_GROK",
-      "headline": "G7 Econ Data Mispriced**: 8-16% gaps vs Bloomberg consensus pre-release; low variance, predictable",
-      "raw": "G7 Econ Data Mispriced**: 8-16% gaps vs Bloomberg consensus pre-release; low variance, predictable. YES following pro forecasts. MED confidence.[[7]](https://x.com/i/status/2043391435437678896)",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2043391435437678896)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_256723",
-      "timestamp": "2026-04-16T06:21:20.401514+00:00",
-      "source": "X_GROK",
-      "headline": "Iran Ops End Jun 30**: 80% YES implied; sentiment strengthening",
-      "raw": "Iran Ops End Jun 30**: 80% YES implied; sentiment strengthening. YES. LOW confidence.[[11]](https://x.com/i/status/2044645964300890329)",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2044645964300890329)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_214583",
-      "timestamp": "2026-04-16T06:20:38.261637+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Ceasefire Stability Uncertain | UNRESOLVED | HIGH confidence**",
-      "raw": "Ceasefire Stability Uncertain | UNRESOLVED | HIGH confidence**\nDespite the ceasefire agreement, Middle Eastern countries continued reporting intercepted missiles and drones from Iran, and key details about the Strait of Hormuz status and fighting in Lebanon remained unresolved as of April 9.[3]\n\nTo provide accurate market-moving information about today's developments, I would need search results w",
-      "direction": null,
-      "confidence": 0.6,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "US x Iran permanent peace deal by April 30, 2026?",
-        "US x Iran permanent peace deal by April 22, 2026?"
-      ],
-      "action": "WATCH",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_221365",
-      "timestamp": "2026-04-16T06:20:45.043890+00:00",
-      "source": "PERPLEXITY",
-      "headline": "US Appeals Court Allows Trump to Resume White House Ballroom Construction | YES | MED confidence**",
-      "raw": "US Appeals Court Allows Trump to Resume White House Ballroom Construction | YES | MED confidence**  \nA D.C. Circuit appeals court ruled on Saturday to let the Trump administration temporarily proceed with the $300-400 million, 90,000-square-foot White House East Wing ballroom project, pausing a lower court's halt and extending it through April 17 for potential Supreme Court review.[2] This legal w",
+      "headline": "Switzerland shocks France 86-79 in OT, advances to FIBA U19 World Cup 2025 quarterfinals** | YES | HIGH[1]",
+      "raw": "Switzerland shocks France 86-79 in OT, advances to FIBA U19 World Cup 2025 quarterfinals** | YES | HIGH[1]\n\nSwitzerland, ranked No. 60, mounted an 18-0 run to upset No. 3 France from a 66-54 deficit, securing top-eight status and a matchup vs. New Zealand on Friday; this resolves group/knockout progression and could shift youth international prediction markets[1]. No NBA Finals breaking news confi",
       "direction": "YES",
       "confidence": 0.6,
       "matched_markets": [
-        "Will the White House call a full lid by 6:30PM on April 14?",
-        "Will Donald Trump post 120-139 Truth Social posts from April 10 to April 17, 202",
-        "Will Trump praise Allah again by April 30?"
-      ],
-      "action": "WATCH",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_226590",
-      "timestamp": "2026-04-16T06:20:50.268844+00:00",
-      "source": "PERPLEXITY",
-      "headline": "June 2025 inflation data showed core CPI at 2",
-      "raw": "June 2025 inflation data showed core CPI at 2.9% (above 2% target), with tariff effects emerging; markets eyed possible September 2025 cuts[2].",
-      "direction": null,
-      "confidence": 0.6,
-      "matched_markets": [],
-      "action": "WATCH",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_231634",
-      "timestamp": "2026-04-16T06:20:55.312414+00:00",
-      "source": "PERPLEXITY",
-      "headline": "76ers Clinch Playoff Spot, Conveying 2026 First-Round Pick to OKC Thunder** | YES | HIGH confidence[4]",
-      "raw": "76ers Clinch Playoff Spot, Conveying 2026 First-Round Pick to OKC Thunder** | YES | HIGH confidence[4]  \nThe Philadelphia 76ers' recent win secured their playoff berth, confirming they will send their 2026 first-round draft pick to the Oklahoma City Thunder, resolving a key trade asset outcome that could impact future roster-building markets[1][4].",
-      "direction": "YES",
-      "confidence": 0.6,
-      "matched_markets": [
-        "Will the Oklahoma City Thunder win the 2026 NBA Finals?"
+        "Will the Oklahoma City Thunder win the 2026 NBA Finals?",
+        "Will Switzerland win Group B in the 2026 FIFA World Cup?",
+        "Will France win Group I in the 2026 FIFA World Cup?"
       ],
       "action": "WATCH",
       "x_link": null,
       "category": "SPORTS"
-    },
-    {
-      "id": "sig_256717",
-      "timestamp": "2026-04-16T06:21:20.395813+00:00",
-      "source": "X_GROK",
-      "headline": "Live Whale Bets (Imminent Esports/NBA/BTC)**: $1M loss on Warriors upset; $14k NO BTC $90k Apr (97\u00a2); $41k sell CS:GO Au",
-      "raw": "Live Whale Bets (Imminent Esports/NBA/BTC)**: $1M loss on Warriors upset; $14k NO BTC $90k Apr (97\u00a2); $41k sell CS:GO Aurora; $132k tennis Bouzige. Mixed; fade overconfident whales? LOW confidence.[[8]](https://x.com/i/status/2044661832536018978)[[9]](https://x.com/i/status/2044658480670294399)[[10]](https://x.com/i/status/2044657066833231983)",
-      "direction": "NO",
-      "confidence": 0.6,
-      "matched_markets": [],
-      "action": "WATCH",
-      "x_link": "https://x.com/i/status/2044661832536018978)[[9]](https://x.com/i/status/2044658480670294399)[[10]](https://x.com/i/status/2044657066833231983)",
-      "category": "COMMUNITY"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 13,
-    "watch": 5,
-    "high_conf": 3
+    "enter": 2,
+    "alert": 14,
+    "watch": 1,
+    "high_conf": 2
   }
 }
