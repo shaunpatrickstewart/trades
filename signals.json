@@ -1,15 +1,15 @@
 {
-  "last_scan": "2026-04-16T22:09:00.626639+00:00",
-  "scan_seconds": 28.3,
-  "markets_scanned": 104,
-  "open_positions": 62,
+  "last_scan": "2026-04-16T22:11:42.431718+00:00",
+  "scan_seconds": 22.1,
+  "markets_scanned": 77,
+  "open_positions": 35,
   "signals": [
     {
-      "id": "sig_116004",
-      "timestamp": "2026-04-16T22:08:59.625876+00:00",
+      "id": "sig_277809",
+      "timestamp": "2026-04-16T22:11:41.430637+00:00",
       "source": "PERPLEXITY",
-      "headline": "South Korea March 2026 Annual CPI Inflation Confirmed at 2",
-      "raw": "South Korea March 2026 Annual CPI Inflation Confirmed at 2.2% YoY (Below 2.3-2.4% Consensus)** | YES | HIGH confidence[1][2][3]\n\nSouth Korea's Statistics Korea reported on April 2, 2026, that annual consumer price inflation rose to 2.2% in March 2026 from 2.0% in February, driven by oil prices but tempered by government fuel caps and food vouchers; monthly CPI rose 0.3% vs. 0.6% expected, with cor",
+      "headline": "South Korea's annual inflation rose to 2",
+      "raw": "South Korea's annual inflation rose to 2.2% in March 2026, up from 2.0% in prior months but below 2.4% forecasts | NO | HIGH confidence**[1]\n\nThis March figure, released around early April 2026, marks the latest confirmed data amid Middle East tensions driving oil volatility, staying near the Bank of Korea's 2% target but signaling contained pressures before energy shocks.[1][4] The Bank of Korea ",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
@@ -20,123 +20,23 @@
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_95432",
-      "timestamp": "2026-04-16T22:08:39.053064+00:00",
+      "id": "sig_264052",
+      "timestamp": "2026-04-16T22:11:27.673084+00:00",
       "source": "PERPLEXITY",
-      "headline": "US and Iran Agree to Two-Week Ceasefire in Middle East Conflict | YES | HIGH confidence** [1][2][3]",
-      "raw": "US and Iran Agree to Two-Week Ceasefire in Middle East Conflict | YES | HIGH confidence** [1][2][3]\n\nMediated by Pakistan's PM Shehbaz Sharif with T\u00fcrkiye and Egypt, the deal averts US strikes on Iranian infrastructure after Trump's deadline to reopen the Strait of Hormuz; it takes immediate effect, includes Lebanon per Sharif (disputed by Israel's Netanyahu), and sets US-Iran talks in Islamabad o",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Will Russia enter Ternuvate again by April 30?",
-        "US x Iran permanent peace deal by April 30, 2026?"
-      ],
+      "headline": "HEADLINE | NO | HIGH confidence**",
+      "raw": "HEADLINE | NO | HIGH confidence**  \nNo resolutions, captures, or escalations confirmed today that would move the Ternuvate market; status quo persists per latest ISW and market data.[1][2][5]",
+      "direction": "NO",
+      "confidence": 0.9,
+      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_100146",
-      "timestamp": "2026-04-16T22:08:43.767138+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Vance/CPAC Straw Poll (March 2026)**: J",
-      "raw": "**Vance/CPAC Straw Poll (March 2026)**: J.D. Vance won 53% in a CPAC straw poll for the 2028 GOP presidential nomination; not Oregon-related or election-defining.[1]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_100153",
-      "timestamp": "2026-04-16T22:08:43.774536+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Colorado GOP (April 12, 2026)**: Republicans selected Scott Bottoms (45%) and Victor Marks (39%) for their June 30 gub",
-      "raw": "**Colorado GOP (April 12, 2026)**: Republicans selected Scott Bottoms (45%) and Victor Marks (39%) for their June 30 gubernatorial primary; this is Colorado, not Oregon.[2]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_100160",
-      "timestamp": "2026-04-16T22:08:43.781987+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Oregon Context**: 2022 election info (Tina Kotek won as Democrat) and a pre-2026 forum for potential Republican challe",
-      "raw": "**Oregon Context**: 2022 election info (Tina Kotek won as Democrat) and a pre-2026 forum for potential Republican challengers to Kotek; nothing recent or resolved.[3][4]\n\nNo confirmed developments link these terms to an Oregon Republican governor race announcement. Prediction markets unchanged. **NO | LOW confidence** (due to recency check and result limits).",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Chris Dudley win the 2026 Oregon Governor Republican primary election?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_106724",
-      "timestamp": "2026-04-16T22:08:50.345436+00:00",
-      "source": "PERPLEXITY",
-      "headline": "SEC and CFTC Classify Solana (SOL) as Digital Commodity | YES | HIGH confidence**",
-      "raw": "SEC and CFTC Classify Solana (SOL) as Digital Commodity | YES | HIGH confidence**  \nRegulatory bodies have classified digital assets like Solana as commodities, providing clarity that shifts it from regulatory headwind to catalyst, with SOL trading near $82 amid institutional interest.[2]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_106736",
-      "timestamp": "2026-04-16T22:08:50.357889+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Interactive Brokers Launches SOL Trading for European Investors | YES | HIGH confidence**",
-      "raw": "Interactive Brokers Launches SOL Trading for European Investors | YES | HIGH confidence**  \nInteractive Brokers enabled direct SOL trading for Europeans via Zero Hash, expanding institutional access despite price compression at support levels.[2]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_106747",
-      "timestamp": "2026-04-16T22:08:50.368073+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Solana Hits Record 167 Million Monthly Token Holders | YES | MED confidence**",
-      "raw": "Solana Hits Record 167 Million Monthly Token Holders | YES | MED confidence**  \nNetwork reached all-time high of 167M monthly holders and 148M daily non-vote transactions as of April 14, 2026, driven by Alpenglow upgrade promising 150ms finality.[1]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the price of Solana be above $100 on April 18?",
-        "Solana Up or Down - April 17, 4:40AM-4:45AM ET"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_106754",
-      "timestamp": "2026-04-16T22:08:50.375646+00:00",
-      "source": "PERPLEXITY",
-      "headline": "$280M+ Exploit Hits Solana's Drift Protocol via Social Engineering | YES | HIGH confidence**",
-      "raw": "$280M+ Exploit Hits Solana's Drift Protocol via Social Engineering | YES | HIGH confidence**  \nAttacker seized admin control using social engineering and pre-approved transactions; Circle had 6-hour window to freeze $230M+ USDC but did not, eroding ecosystem trust with SOL at $78.[7]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
     }
   ],
   "stats": {
     "enter": 1,
-    "alert": 8,
+    "alert": 1,
     "watch": 0,
-    "high_conf": 1
+    "high_conf": 2
   }
 }
