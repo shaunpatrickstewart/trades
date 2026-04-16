@@ -1,218 +1,88 @@
 {
-  "last_scan": "2026-04-16T16:16:58.735190+00:00",
-  "scan_seconds": 40.4,
-  "markets_scanned": 84,
+  "last_scan": "2026-04-16T16:19:43.429860+00:00",
+  "scan_seconds": 24.8,
+  "markets_scanned": 81,
   "open_positions": 42,
   "signals": [
     {
-      "id": "sig_964764",
-      "timestamp": "2026-04-16T16:16:28.407394+00:00",
+      "id": "sig_158773",
+      "timestamp": "2026-04-16T16:19:42.415037+00:00",
       "source": "PERPLEXITY",
-      "headline": "**No new confirmations today**: The most recent confirmed developments are from April 15, 2026, when White House Press S",
-      "raw": "**No new confirmations today**: The most recent confirmed developments are from April 15, 2026, when White House Press Secretary Karoline Leavitt stated that a ceasefire extension is \"not true at this moment.\"[2] The two-week ceasefire is set to expire on April 21-22, 2026, with no permanent deal yet reached.[3][4]",
-      "direction": "NO",
+      "headline": "Kevin Warsh confirmed as next Fed Chair amid surging inflation data and rate hike speculation",
+      "raw": "Kevin Warsh confirmed as next Fed Chair amid surging inflation data and rate hike speculation.**",
+      "direction": null,
       "confidence": 0.9,
       "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Will the White House call a full lid by 6:30PM on April 14?",
-        "US x Iran permanent peace deal by April 30, 2026?"
+        "Kevin Warsh confirmed as Fed Chair by May 15?"
       ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_975299",
-      "timestamp": "2026-04-16T16:16:38.942922+00:00",
-      "source": "PERPLEXITY",
-      "headline": "KING CHARLES CONFIRMS LATE APRIL STATE VISIT TO US FOR TRUMP BANQUET AND CONGRESS ADDRESS, DESPITE UK TENSIONS OVER IRAN",
-      "raw": "KING CHARLES CONFIRMS LATE APRIL STATE VISIT TO US FOR TRUMP BANQUET AND CONGRESS ADDRESS, DESPITE UK TENSIONS OVER IRAN WAR | YES | HIGH confidence**  \nBuckingham Palace announced on Tuesday that King Charles and Queen Camilla's first US state visit will occur in late April (Trump specified April 27-30, including a White House banquet on April 28), at the US President's invitation and on UK gover",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces end of military operations against Iran by A",
-        "Will the White House call a full lid by 6:30PM on April 14?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_989334",
-      "timestamp": "2026-04-16T16:16:52.977743+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Solana Hits 167M Monthly Token Holders & Alpenglow Upgrade Targets 150ms Finality | YES | HIGH confidence**",
-      "raw": "Solana Hits 167M Monthly Token Holders & Alpenglow Upgrade Targets 150ms Finality | YES | HIGH confidence**\n\nAs of April 14, 2026, Solana achieved an **all-time record of 167 million monthly token holders** with daily non-vote transactions reaching 148 million\u2014historic highs for the network[1]. The **Alpenglow consensus upgrade** has been announced to slash transaction finality from 12 seconds to ",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Solana Up or Down - April 17, 4:40AM-4:45AM ET",
-        "Solana Up or Down - April 16, 4:45PM-4:50PM ET"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_994090",
-      "timestamp": "2026-04-16T16:16:57.733960+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Kevin Warsh nominated as new Fed Chair amid inflation pressures and policy uncertainty** | YES | HIGH confidence[1][2][5",
-      "raw": "Kevin Warsh nominated as new Fed Chair amid inflation pressures and policy uncertainty** | YES | HIGH confidence[1][2][5][7]\n\nKevin Warsh's nomination for Fed Chair signals a potential shift toward prioritizing **price stability** through focus on government spending and money supply as inflation drivers, rather than traditional wage or consumer models, amid persistent above-2% inflation, oil shoc",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Kevin Warsh confirmed as Fed Chair by May 15?",
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
-      ],
-      "action": "ENTER",
+      "action": "ALERT",
       "x_link": null,
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_989367",
-      "timestamp": "2026-04-16T16:16:53.010301+00:00",
+      "id": "sig_148913",
+      "timestamp": "2026-04-16T16:19:32.555983+00:00",
       "source": "PERPLEXITY",
-      "headline": "Current Price Reality vs",
-      "raw": "Current Price Reality vs. Fundamentals | Confirmed | HIGH confidence**\n\nDespite strong fundamentals, SOL remains **compressed below resistance near $82-$83**, with analysts projecting $88-$100 by end of April if a breakout confirms[4]. However, technical analysis shows a bearish head-and-shoulders breakdown projecting toward $73[5].",
-      "direction": null,
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_964720",
-      "timestamp": "2026-04-16T16:16:28.363336+00:00",
-      "source": "PERPLEXITY",
-      "headline": "I cannot provide the breaking news format you've requested because the search results do not contain information matchin",
-      "raw": "I cannot provide the breaking news format you've requested because the search results do not contain information matching your specific query criteria.",
+      "headline": "HEADLINE:** UK Liberal Democrat leader Ed Davey demands cancellation of King Charles' planned US visit amid US-UK tensio",
+      "raw": "HEADLINE:** UK Liberal Democrat leader Ed Davey demands cancellation of King Charles' planned US visit amid US-UK tensions over Trump\u2019s Iran Strait of Hormuz blockade plan[1].",
       "direction": null,
       "confidence": 0.65,
-      "matched_markets": [],
+      "matched_markets": [
+        "Trump announces end of military operations against Iran by A",
+        "Will Trump say \"Obliterated\" or \"Obliteration\" during King Charles visit?"
+      ],
       "action": "ALERT",
       "x_link": null,
-      "category": "GEOPOLITICS"
+      "category": "POLITICS"
     },
     {
-      "id": "sig_964728",
-      "timestamp": "2026-04-16T16:16:28.371569+00:00",
+      "id": "sig_148919",
+      "timestamp": "2026-04-16T16:19:32.561411+00:00",
       "source": "PERPLEXITY",
-      "headline": "Issues with the query:**",
-      "raw": "Issues with the query:**",
+      "headline": "HIGH/MED/LOW confidence:** HIGH",
+      "raw": "HIGH/MED/LOW confidence:** HIGH",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "GEOPOLITICS"
+      "category": "POLITICS"
     },
     {
-      "id": "sig_964742",
-      "timestamp": "2026-04-16T16:16:28.385429+00:00",
+      "id": "sig_158787",
+      "timestamp": "2026-04-16T16:19:42.429145+00:00",
       "source": "PERPLEXITY",
-      "headline": "**\"ternuvate\"**: This term does not appear in any search results and is unclear",
-      "raw": "**\"ternuvate\"**: This term does not appear in any search results and is unclear. It may be a misspelling or refer to something not covered in the provided sources.",
-      "direction": null,
+      "headline": "YES** | **HIGH** confidence[1][2][3][4]",
+      "raw": "YES** | **HIGH** confidence[1][2][3][4]  \n\nFed officials kept rates at 3.50-3.75% unchanged yesterday, projecting one cut this year, but seven dot plot voters now expect no cuts and markets price in hikes due to February core PPI at 3.9% (implying 4.56% core PCE), pre-energy shock[1].  \nWarsh's chairmanship\u2014following Trump's nomination and recent Senate confirmation\u2014sparks debate on his hawkish \"m",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "GEOPOLITICS"
+      "category": "ECONOMICS"
     },
     {
-      "id": "sig_964753",
-      "timestamp": "2026-04-16T16:16:28.396855+00:00",
+      "id": "sig_144884",
+      "timestamp": "2026-04-16T16:19:28.526377+00:00",
       "source": "PERPLEXITY",
-      "headline": "**Russia connection unclear**: While search results mention Russia's support for Iran and its role in providing intellig",
-      "raw": "**Russia connection unclear**: While search results mention Russia's support for Iran and its role in providing intelligence, there is no breaking news announcement from Russia today (April 16) that would move prediction markets.",
-      "direction": "NO",
-      "confidence": 0.65,
+      "headline": "Putin's Emergency Speech Warns West Against Iran Intervention | YES | HIGH confidence**",
+      "raw": "Putin's Emergency Speech Warns West Against Iran Intervention | YES | HIGH confidence**  \nRussian President Vladimir Putin delivered a live emergency speech from the Kremlin on April 16, 2026, issuing a stark warning against Western military intervention in Iran, escalating tensions amid the US-Iran conflict and directly challenging US President Trump's foreign policy.[1]  \nThis announcement signa",
+      "direction": "YES",
+      "confidence": 0.6,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
         "Will Russia enter Ternuvate again by April 30?",
-        "US x Iran permanent peace deal by April 30, 2026?"
+        "Trump announces end of military operations against Iran by A"
       ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_964773",
-      "timestamp": "2026-04-16T16:16:28.416165+00:00",
-      "source": "PERPLEXITY",
-      "headline": "What is current as of April 16:**",
-      "raw": "What is current as of April 16:**\n\nThe U.S.-Iran ceasefire remains in place but unextended, with negotiations ongoing in Pakistan. The Trump administration expressed optimism about reaching a deal, though substantial disagreements remain over Iran's nuclear program and missile capabilities.[2][7]\n\nIf you're looking for specific breaking news about a particular development, please clarify the query",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces end of military operations against Iran by A",
-        "US x Iran permanent peace deal by April 30, 2026?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_989343",
-      "timestamp": "2026-04-16T16:16:52.986511+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Institutional Interest Remains Robust Despite Price Consolidation | YES | HIGH confidence**",
-      "raw": "Institutional Interest Remains Robust Despite Price Consolidation | YES | HIGH confidence**",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_989353",
-      "timestamp": "2026-04-16T16:16:52.996720+00:00",
-      "source": "PERPLEXITY",
-      "headline": "BlackRock and Fidelity disclosed record SOL ETF holdings** despite recent market consolidation[1]",
-      "raw": "BlackRock and Fidelity disclosed record SOL ETF holdings** despite recent market consolidation[1]. Additionally, **Interactive Brokers launched SOL trading for European investors** through Zero Hash, expanding institutional access[4]. However, this brokerage expansion has not yet translated into near-term price appreciation, with SOL compressed at support levels around $82[4].",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_989360",
-      "timestamp": "2026-04-16T16:16:53.003079+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Solana Stablecoin Volume Hits Record $650 Billion | YES | HIGH confidence**",
-      "raw": "Solana Stablecoin Volume Hits Record $650 Billion | YES | HIGH confidence**\n\nSolana recorded **$650 billion in stablecoin transactions in February 2026**, marking a new monthly high[3], with activity increasing nearly 3x compared to January[3].",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_989328",
-      "timestamp": "2026-04-16T16:16:52.971637+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Based on the search results available, here are the key developments that could move prediction markets:",
-      "raw": "Based on the search results available, here are the key developments that could move prediction markets:",
-      "direction": null,
-      "confidence": 0.6,
-      "matched_markets": [],
       "action": "WATCH",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "GEOPOLITICS"
     }
   ],
   "stats": {
-    "enter": 4,
-    "alert": 9,
+    "enter": 0,
+    "alert": 4,
     "watch": 1,
-    "high_conf": 5
+    "high_conf": 1
   }
 }
