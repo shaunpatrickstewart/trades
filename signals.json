@@ -1,62 +1,63 @@
 {
-  "last_scan": "2026-04-16T01:57:30.804259+00:00",
-  "scan_seconds": 23.0,
-  "markets_scanned": 120,
-  "open_positions": 83,
+  "last_scan": "2026-04-16T02:00:17.191379+00:00",
+  "scan_seconds": 25.6,
+  "markets_scanned": 101,
+  "open_positions": 64,
   "signals": [
     {
-      "id": "sig_421681",
-      "timestamp": "2026-04-16T01:57:25.375547+00:00",
+      "id": "sig_592480",
+      "timestamp": "2026-04-16T02:00:16.174795+00:00",
       "source": "PERPLEXITY",
-      "headline": "Ethereum 22 Developments Confirmed: Scalability, Privacy, Interoperability Upgrades Drive $2,400 Prediction Market to 10",
-      "raw": "Ethereum 22 Developments Confirmed: Scalability, Privacy, Interoperability Upgrades Drive $2,400 Prediction Market to 100% YES on April 11 | YES | HIGH confidence**[1]",
+      "headline": "I cannot provide breaking news in the format you've requested based on these search results",
+      "raw": "I cannot provide breaking news in the format you've requested based on these search results. The search results are from February-March 2026 and discuss Kevin Warsh's **nomination** to succeed Jerome Powell as Fed chair, with expectations he would be confirmed and take office in May 2026[1][4].\n\nSince today is April 16, 2026, and Warsh was expected to assume the chair in May[3], the search results",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
-        "Will the price of Ethereum be less than $1,800 on April 17?",
-        "Will Ethereum reach $2,550 on April 15?",
-        "Will the price of Ethereum be less than $1,700 on April 19?"
+        "Kevin Warsh confirmed as Fed Chair by May 15?"
       ],
       "action": "ENTER",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "ECONOMICS"
     },
     {
-      "id": "sig_421690",
-      "timestamp": "2026-04-16T01:57:25.384402+00:00",
+      "id": "sig_586251",
+      "timestamp": "2026-04-16T02:00:09.945659+00:00",
       "source": "PERPLEXITY",
-      "headline": "Solana Alpenglow Consensus Upgrade Announced: Targets 150ms Finality from 12s, Amid 167M Token Holders Record | YES | ME",
-      "raw": "Solana Alpenglow Consensus Upgrade Announced: Targets 150ms Finality from 12s, Amid 167M Token Holders Record | YES | MED confidence**[2]",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_421699",
-      "timestamp": "2026-04-16T01:57:25.393556+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Solana $280M+ Drift Protocol Exploit Confirmed via Social Engineering: No Smart Contract Hack, Circle Missed Freeze Oppo",
-      "raw": "Solana $280M+ Drift Protocol Exploit Confirmed via Social Engineering: No Smart Contract Hack, Circle Missed Freeze Opportunity | NO | HIGH confidence**[5]",
+      "headline": "April Bullish Momentum Highlighted for ETH, XRP, SOL | NO | LOW**",
+      "raw": "April Bullish Momentum Highlighted for ETH, XRP, SOL | NO | LOW**  \nAnalysts note strong fundamentals (ETH L2, XRP regulatory clarity, SOL throughput) positioning these for Q2 gains post-regulatory shifts, but no specific confirmations.[2]",
       "direction": "NO",
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_426109",
-      "timestamp": "2026-04-16T01:57:29.803544+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Trump Nominates Kevin Warsh as Next Fed Chair, Speculation Rises on Rate Hike Amid Surging Inflation and Oil Shock** | Y",
-      "raw": "Trump Nominates Kevin Warsh as Next Fed Chair, Speculation Rises on Rate Hike Amid Surging Inflation and Oil Shock** | YES | HIGH confidence[1][2][5][6]\n\nKevin Warsh, former Fed governor known for hawkish views, has been nominated by President Trump to succeed Jerome Powell as Fed chair, with Senate confirmation expected by mid-May 2026; his first potential action could be an interest rate hike as",
-      "direction": "YES",
       "confidence": 0.78,
       "matched_markets": [
-        "Kevin Warsh confirmed as Fed Chair by May 15?",
+        "Will the price of XRP be above $1.60 on April 19?",
+        "Will the price of XRP be above $1.00 on April 19?",
+        "Will XRP reach $1.90 April 13-19?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_586243",
+      "timestamp": "2026-04-16T02:00:09.937194+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Geopolitical Tensions (US/Iran/Israel Strikes) Trigger Altcoin Sell-Off | NO | HIGH**",
+      "raw": "Geopolitical Tensions (US/Iran/Israel Strikes) Trigger Altcoin Sell-Off | NO | HIGH**  \nRecent US/Israel strikes on Iran caused sharp drops\u2014ETH to $1,840 (-5.2%), XRP to $1.30 (-6.6%), SOL -3.5%\u2014with BTC resilient above $64K; no new resolutions, just ongoing volatility.[5][6]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_592487",
+      "timestamp": "2026-04-16T02:00:16.181691+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**South Korea connection**: The search results cite Korean news sources but contain no information about South Korea-spe",
+      "raw": "**South Korea connection**: The search results cite Korean news sources but contain no information about South Korea-specific policy impacts or developments related to Warsh or annual inflation.",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
         "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
       ],
       "action": "ALERT",
@@ -64,36 +65,76 @@
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_421708",
-      "timestamp": "2026-04-16T01:57:25.402731+00:00",
+      "id": "sig_592496",
+      "timestamp": "2026-04-16T02:00:16.190408+00:00",
       "source": "PERPLEXITY",
-      "headline": "Interactive Brokers Launches SOL Trading for European Investors via Zero Hash | YES | HIGH confidence**[4]",
-      "raw": "Interactive Brokers Launches SOL Trading for European Investors via Zero Hash | YES | HIGH confidence**[4]",
-      "direction": "YES",
+      "headline": "**Annual inflation data**: The results discuss inflation concerns but do not provide current inflation figures or announ",
+      "raw": "**Annual inflation data**: The results discuss inflation concerns but do not provide current inflation figures or announcements from today.\n\nI recommend searching for today's date-specific news from major financial news outlets (Bloomberg, Reuters, CNBC, Wall Street Journal) to find any breaking developments related to the Fed, Warsh's chairmanship, or inflation announcements.",
+      "direction": null,
       "confidence": 0.65,
-      "matched_markets": [],
+      "matched_markets": [
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+      ],
       "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "ECONOMICS"
     },
     {
-      "id": "sig_421717",
-      "timestamp": "2026-04-16T01:57:25.411552+00:00",
+      "id": "sig_575485",
+      "timestamp": "2026-04-16T01:59:59.179616+00:00",
       "source": "PERPLEXITY",
-      "headline": "SEC/CFTC Classify Digital Assets like SOL as Commodities: Lifts Regulatory Clarity for Institutional Inflows | YES | MED",
-      "raw": "SEC/CFTC Classify Digital Assets like SOL as Commodities: Lifts Regulatory Clarity for Institutional Inflows | YES | MED confidence**[4]",
+      "headline": "US-Iran Ceasefire Holding with New Talks Signaled Amid Tensions | YES | HIGH confidence** [1][2]",
+      "raw": "US-Iran Ceasefire Holding with New Talks Signaled Amid Tensions | YES | HIGH confidence** [1][2]\n\nPresident Trump announced the Iran war is \"very close to over,\" with a second round of talks possibly in days, hosted in Islamabad; VP Vance confirmed the ceasefire\u2014now 6-7 days old\u2014is holding despite prior talks failing [1][2]. Regional officials report an \"in principle agreement\" to extend the cease",
       "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
+      "confidence": 0.6,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Will Russia enter Ternuvate again by April 30?",
+        "Trump announces end of military operations against Iran by A"
+      ],
+      "action": "WATCH",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_581114",
+      "timestamp": "2026-04-16T02:00:04.808567+00:00",
+      "source": "PERPLEXITY",
+      "headline": "King Charles' White House Visit in Doubt After Trump Fractures US-UK Ties Over Iran War** | **NO** | **HIGH** confidence",
+      "raw": "King Charles' White House Visit in Doubt After Trump Fractures US-UK Ties Over Iran War** | **NO** | **HIGH** confidence[1]\n\nKing Charles' planned spring 2026 Washington DC visit for the US 250th independence anniversary is uncertain due to strained US-UK relations following a US military operation against Iran, where Trump stated \"we obliterated them and destroyed their military.\"[1] UK Labour Mi",
+      "direction": "NO",
+      "confidence": 0.6,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces end of military operations against Iran by A",
+        "Will the White House call a full lid by 6:30PM on April 14?"
+      ],
+      "action": "WATCH",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_586234",
+      "timestamp": "2026-04-16T02:00:09.928394+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Polymarket April Price Predictions for SOL and XRP Revealed | NO | MED**",
+      "raw": "Polymarket April Price Predictions for SOL and XRP Revealed | NO | MED**  \nPolymarket data shows mixed investor expectations: SOL above $80 at 87% probability (bullish dominant), XRP below $1.2 at 69% (bearish dominant); dated April 2, amid US-Iran tensions impacting prices.[1][3]",
+      "direction": "NO",
+      "confidence": 0.6,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "US x Iran diplomatic meeting by April 18, 2026?",
+        "US x Iran permanent peace deal by April 30, 2026?"
+      ],
+      "action": "WATCH",
       "x_link": null,
       "category": "CRYPTO"
     }
   ],
   "stats": {
     "enter": 1,
-    "alert": 5,
-    "watch": 0,
-    "high_conf": 3
+    "alert": 4,
+    "watch": 3,
+    "high_conf": 1
   }
 }
