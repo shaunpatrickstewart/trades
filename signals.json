@@ -1,203 +1,292 @@
 {
-  "last_scan": "2026-04-16T03:45:00.566416+00:00",
-  "scan_seconds": 66.7,
-  "markets_scanned": 80,
+  "last_scan": "2026-04-16T03:48:13.556048+00:00",
+  "scan_seconds": 54.9,
+  "markets_scanned": 81,
   "open_positions": 40,
   "signals": [
     {
-      "id": "sig_832045",
-      "timestamp": "2026-04-16T03:44:15.733304+00:00",
+      "id": "sig_22510",
+      "timestamp": "2026-04-16T03:47:26.197538+00:00",
       "source": "PERPLEXITY",
-      "headline": "Iran Ceasefire Confirmed in Operation Epic Fury: White House Announces Achievement of All Objectives, Navy Obliterated,",
-      "raw": "Iran Ceasefire Confirmed in Operation Epic Fury: White House Announces Achievement of All Objectives, Navy Obliterated, Strait of Hormuz Reopened Amid Vance-Led Talks** | YES | HIGH confidence[2][3]\n\nWhite House releases detail President Trump's Operation Epic Fury meeting all goals in 38 days: Iran's navy fully destroyed (150 warships sunk, all subs eliminated, 97% naval mines cleared), ballistic",
+      "headline": "US-Iran Ceasefire Holding as of April 15; New Talks Signaled Within Days | YES | HIGH confidence** [1][2][3]",
+      "raw": "US-Iran Ceasefire Holding as of April 15; New Talks Signaled Within Days | YES | HIGH confidence** [1][2][3]\n\nThe US and Iran agreed to a two-week ceasefire on April 7, brokered by Pakistan, with Iran confirming acceptance and safe passage through the Strait of Hormuz; negotiations began in Islamabad on April 11 but lacked breakthrough.[1][3][4]  \nAs of April 15, the ceasefire\u2014now ~8 days old\u2014is h",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces end of military operations against Iran by A",
-        "Will the White House call a full lid by 6:30PM on April 14?"
+        "Will Russia enter Ternuvate again by April 30?",
+        "US x Iran diplomatic meeting by April 18, 2026?"
       ],
       "action": "ENTER",
       "x_link": null,
-      "category": "POLITICS"
+      "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_843745",
-      "timestamp": "2026-04-16T03:44:27.433557+00:00",
+      "id": "sig_38796",
+      "timestamp": "2026-04-16T03:47:42.483770+00:00",
       "source": "PERPLEXITY",
-      "headline": "Kevin Warsh Nominated as Next Fed Chair by Trump, Sparking Inflation and Rate Cut Debates | YES | HIGH confidence**",
-      "raw": "Kevin Warsh Nominated as Next Fed Chair by Trump, Sparking Inflation and Rate Cut Debates | YES | HIGH confidence**\n\nKevin Warsh, former Fed governor known for hawkish inflation stance and criticism of Fed's monetary dominance via QE, has been nominated to succeed Jerome Powell, with Senate confirmation expected by May 2026[1][2][4]. South Korean outlets highlight speculation on his \"Warsh era\" im",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Kevin Warsh confirmed as Fed Chair by May 15?",
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_876861",
-      "timestamp": "2026-04-16T03:45:00.549516+00:00",
-      "source": "X_GROK",
-      "headline": "Kevin Warsh Confirmed as Fed Chair:** $12k whale buy YES at $0",
-      "raw": "Kevin Warsh Confirmed as Fed Chair:** $12k whale buy YES at $0.94. Confidence in confirmation despite high price.[[4]](https://x.com/i/status/2044616528851587118) Confidence: MED.",
+      "headline": "KEVIN WARSH NOMINATED AS FEDERAL RESERVE CHAIR | YES | HIGH confidence**",
+      "raw": "KEVIN WARSH NOMINATED AS FEDERAL RESERVE CHAIR | YES | HIGH confidence**\n\nDonald Trump announced Kevin Warsh as his nominee to head the Federal Reserve and replace Jerome Powell, who is stepping aside in May[1][2]. Warsh, a former Federal Reserve Governor who served from 2006 to 2011, was the youngest governor appointed in history at age 35[2]. He is currently a fellow at the Hoover Institution an",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
         "Kevin Warsh confirmed as Fed Chair by May 15?"
       ],
       "action": "ENTER",
-      "x_link": "https://x.com/i/status/2044616528851587118)",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_46474",
+      "timestamp": "2026-04-16T03:47:50.161307+00:00",
+      "source": "PERPLEXITY",
+      "headline": "I cannot provide the breaking news you're requesting based on the available search results",
+      "raw": "I cannot provide the breaking news you're requesting based on the available search results. The search results contain only general information about the Oklahoma City Thunder's recent performance (including a 114-110 overtime victory over Detroit)[1], but they do not include any breaking news announcements about Switzerland, France, finals, or market-moving developments.\n\nTo answer your query in ",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will the Oklahoma City Thunder win the 2026 NBA Finals?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_38790",
+      "timestamp": "2026-04-16T03:47:42.477824+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Based on the search results provided, the most recent confirmed announcement is:",
+      "raw": "Based on the search results provided, the most recent confirmed announcement is:",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_38802",
+      "timestamp": "2026-04-16T03:47:42.489360+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Important caveat:** Warsh must be confirmed by the Senate before becoming Fed Chair[2], so this remains a nomination rat",
+      "raw": "Important caveat:** Warsh must be confirmed by the Senate before becoming Fed Chair[2], so this remains a nomination rather than a finalized appointment.\n\nThe search results do not contain information about annual inflation or South Korea developments that occurred recently, so I cannot address those aspects of your query.",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [
+        "Kevin Warsh confirmed as Fed Chair by May 15?",
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_32356",
+      "timestamp": "2026-04-16T03:47:36.043876+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Summary for prediction markets:** The current information suggests **unresolved tensions** rather than a decisive event",
+      "raw": "Summary for prediction markets:** The current information suggests **unresolved tensions** rather than a decisive event. Any market movement would likely depend on official announcements from the U.S. State Department, the British Foreign Office, or Buckingham Palace regarding the state visit status\u2014none of which appear in these search results.\n\nTo obtain actionable market-moving information, you ",
+      "direction": null,
+      "confidence": 0.78,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_32329",
+      "timestamp": "2026-04-16T03:47:36.016549+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Based on the available search results, there is no breaking news about \"obliteration\" or any major confirmation, announc",
+      "raw": "Based on the available search results, there is no breaking news about \"obliteration\" or any major confirmation, announcement, or resolution involving Trump, King Charles, and Republicans that would significantly move prediction markets.\n\nThe most recent relevant information is from **March 31, 2026**, indicating that **tensions exist between Washington and London over Iran-related military cooper",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Trump announces end of military operations against Iran by A",
+        "Will Trump say \"Obliterated\" or \"Obliteration\" during King Charles visit?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_32334",
+      "timestamp": "2026-04-16T03:47:36.021991+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Whether the state visit will proceed or be cancelled",
+      "raw": "Whether the state visit will proceed or be cancelled",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_32340",
+      "timestamp": "2026-04-16T03:47:36.027297+00:00",
+      "source": "PERPLEXITY",
+      "headline": "How Trump will respond",
+      "raw": "How Trump will respond",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_32345",
+      "timestamp": "2026-04-16T03:47:36.032602+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Resolution of the Iran-related disagreements",
+      "raw": "Resolution of the Iran-related disagreements",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_32350",
+      "timestamp": "2026-04-16T03:47:36.037892+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Any major political development",
+      "raw": "Any major political development",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_69819",
+      "timestamp": "2026-04-16T03:48:13.506459+00:00",
+      "source": "X_GROK",
+      "headline": "Whale Bets Trending:**",
+      "raw": "Whale Bets Trending:**",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_876846",
-      "timestamp": "2026-04-16T03:45:00.534468+00:00",
+      "id": "sig_69825",
+      "timestamp": "2026-04-16T03:48:13.512063+00:00",
       "source": "X_GROK",
-      "headline": "Glenn Youngkin 2028 GOP Nominee:** Whale loads 25k YES shares at $0",
-      "raw": "Glenn Youngkin 2028 GOP Nominee:** Whale loads 25k YES shares at $0.01 (potential $25k payout, 7043% ROI). Strong YES signal from cheap entry.[[1]](https://x.com/i/status/2044623005414768946) Confidence: HIGH.",
+      "headline": "**$36k whale on Bayern Munich YES (34\u00a2, 2025-26 UCL winner):** Smart money bullish on Bayern; implies YES undervalued",
+      "raw": "**$36k whale on Bayern Munich YES (34\u00a2, 2025-26 UCL winner):** Smart money bullish on Bayern; implies YES undervalued. MED confidence (long-term sports).[[1]](https://x.com/i/status/2044617304256778533)[[2]](https://x.com/i/status/2044616342385393674)",
       "direction": "YES",
-      "confidence": 0.78,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2044617304256778533)[[2]](https://x.com/i/status/2044616342385393674)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_69830",
+      "timestamp": "2026-04-16T03:48:13.517530+00:00",
+      "source": "X_GROK",
+      "headline": "**$25k whale on Glenn Youngkin YES (1\u00a2, 2028 GOP nom):** Extreme longshot bet; signals insider alpha on Youngkin surge",
+      "raw": "**$25k whale on Glenn Youngkin YES (1\u00a2, 2028 GOP nom):** Extreme longshot bet; signals insider alpha on Youngkin surge. LOW confidence (distant politics).[[3]](https://x.com/i/status/2044623005414768946)",
+      "direction": "YES",
+      "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": "https://x.com/i/status/2044623005414768946)",
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_816378",
-      "timestamp": "2026-04-16T03:44:00.066303+00:00",
-      "source": "PERPLEXITY",
-      "headline": "US and Iran seeking second round of ceasefire talks before two-week truce ends next week; no confirmation of extension o",
-      "raw": "US and Iran seeking second round of ceasefire talks before two-week truce ends next week; no confirmation of extension or violation resolution.**[1][2] | YES | MED[1][2]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_816384",
-      "timestamp": "2026-04-16T03:44:00.072061+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Russia warns Iran of potential US-Israel military plans during ceasefire negotiations",
-      "raw": "Russia warns Iran of potential US-Israel military plans during ceasefire negotiations.**[3] | NO | LOW[3]",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_816389",
-      "timestamp": "2026-04-16T03:44:00.077527+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Iran official issues final warning to US, hints at truce exit amid naval blockade and Hormuz tensions",
-      "raw": "Iran official issues final warning to US, hints at truce exit amid naval blockade and Hormuz tensions.**[5][1][4] | NO | MED[1][4][5]",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_816394",
-      "timestamp": "2026-04-16T03:44:00.082995+00:00",
-      "source": "PERPLEXITY",
-      "headline": "No mentions of \"Ternuvate,\" April-specific events beyond ongoing April 2026 context, or Russia-Iran ceasefire; Pentagon",
-      "raw": "No mentions of \"Ternuvate,\" April-specific events beyond ongoing April 2026 context, or Russia-Iran ceasefire; Pentagon deploying more troops to pressure Iran.**[1][2] | NO | HIGH[1][2][3]",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Will Russia enter Ternuvate again by April 30?",
-        "US x Iran diplomatic meeting by April 18, 2026?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_848837",
-      "timestamp": "2026-04-16T03:44:32.525662+00:00",
-      "source": "PERPLEXITY",
-      "headline": "OKC Thunder Clinch #1 Seed in West with 64 Wins, Securing Homecourt Throughout Playoffs | YES | HIGH confidence**",
-      "raw": "OKC Thunder Clinch #1 Seed in West with 64 Wins, Securing Homecourt Throughout Playoffs | YES | HIGH confidence**  \nThe Oklahoma City Thunder have locked in the NBA's best regular-season record at 64-16 or 64-18, earning the top Western Conference seed and homecourt advantage for the entire postseason, as confirmed by recent wins including against the Clippers (128-110)[1][2][4]. This positions th",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the Oklahoma City Thunder win the 2026 NBA Finals?",
-        "Will the Charlotte Hornets make the NBA Playoffs?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_876855",
-      "timestamp": "2026-04-16T03:45:00.543883+00:00",
+      "id": "sig_69836",
+      "timestamp": "2026-04-16T03:48:13.523042+00:00",
       "source": "X_GROK",
-      "headline": "Bayern Munich 2025-26 Champions League Winner:** $36k-$37k whale bet on YES at $0",
-      "raw": "Bayern Munich 2025-26 Champions League Winner:** $36k-$37k whale bet on YES at $0.34. Smart money bullish on Bayern.[[2]](https://x.com/i/status/2044617304256778533)[[3]](https://x.com/i/status/2044616342385393674) Confidence: MED.",
+      "headline": "**$12k whale on Kevin Warsh YES Fed Chair (94\u00a2):** Heavy bet near-certainty; smart money expects confirmation soon",
+      "raw": "**$12k whale on Kevin Warsh YES Fed Chair (94\u00a2):** Heavy bet near-certainty; smart money expects confirmation soon. HIGH confidence (imminent politics).[[4]](https://x.com/i/status/2044616528851587118)",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Kevin Warsh confirmed as Fed Chair by May 15?"
+      ],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2044616528851587118)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_69841",
+      "timestamp": "2026-04-16T03:48:13.528878+00:00",
+      "source": "X_GROK",
+      "headline": "**$21k whale on US NATO withdrawal YES by Apr 30 (1\u00a2):** Bold tail bet amid NATO news; bearish US commitment",
+      "raw": "**$21k whale on US NATO withdrawal YES by Apr 30 (1\u00a2):** Bold tail bet amid NATO news; bearish US commitment. LOW confidence (speculative geopolitics).[[5]](https://x.com/i/status/2044610679609450601)",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
-      "x_link": "https://x.com/i/status/2044617304256778533)[[3]](https://x.com/i/status/2044616342385393674)",
+      "x_link": "https://x.com/i/status/2044610679609450601)",
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_876867",
-      "timestamp": "2026-04-16T03:45:00.555154+00:00",
+      "id": "sig_69847",
+      "timestamp": "2026-04-16T03:48:13.534738+00:00",
       "source": "X_GROK",
-      "headline": "Ludvig Aberg Wins 2026 RBC Heritage (Golf):** $9k whale bet NO at $0",
-      "raw": "Ludvig Aberg Wins 2026 RBC Heritage (Golf):** $9k whale bet NO at $0.96. Bearish on Aberg.[[5]](https://x.com/i/status/2044615207842934940) Confidence: MED.",
+      "headline": "Mispriced Markets/Tips:**",
+      "raw": "Mispriced Markets/Tips:**",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_69855",
+      "timestamp": "2026-04-16T03:48:13.542216+00:00",
+      "source": "X_GROK",
+      "headline": "**Strait of Hormuz normal traffic by Apr end (74\u00a2 YES):** Trader (@badmorgan420) claims 26% edge on NO ($36k bet); cites",
+      "raw": "**Strait of Hormuz normal traffic by Apr end (74\u00a2 YES):** Trader (@badmorgan420) claims 26% edge on NO ($36k bet); cites ship data/blockade. Bearish quick recovery. MED confidence (data-backed opinion).[[6]](https://x.com/i/status/2044464413843874167)",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Donald Trump announce that the United States blockade of the Strait of Horm"
+      ],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2044464413843874167)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_69862",
+      "timestamp": "2026-04-16T03:48:13.549142+00:00",
+      "source": "X_GROK",
+      "headline": "**BTC to $80k first (odds rising vs $60k dump):** Polymarket shifting bullish; smart money fading dip",
+      "raw": "**BTC to $80k first (odds rising vs $60k dump):** Polymarket shifting bullish; smart money fading dip. Implies pump first. HIGH confidence (momentum shift).[[7]](https://x.com/i/status/2044449433715081553)",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2044449433715081553)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_69868",
+      "timestamp": "2026-04-16T03:48:13.555613+00:00",
+      "source": "X_GROK",
+      "headline": "Trends:** Whale alert bots (@WhaleAlertPoly, @polshi_xyz) dominate chatter; focus on sports/crypto shorts",
+      "raw": "Trends:** Whale alert bots (@WhaleAlertPoly, @polshi_xyz) dominate chatter; focus on sports/crypto shorts. Tips: Copy top wallets, Kelly sizing, avoid <10\u00a2 extremes. No major consensus mispricings beyond above.[[8]](https://x.com/i/status/2044219184419074477)[[9]](https://x.com/i/status/2044370645039956092)",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
-      "x_link": "https://x.com/i/status/2044615207842934940)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_876872",
-      "timestamp": "2026-04-16T03:45:00.560693+00:00",
-      "source": "X_GROK",
-      "headline": "XRP Short-Term Down Bets:** Multiple ~$5k whales on DOWN (resolved market, past signal)",
-      "raw": "XRP Short-Term Down Bets:** Multiple ~$5k whales on DOWN (resolved market, past signal).[[6]](https://x.com/i/status/2044618066873421946) Confidence: LOW (expired).",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2044618066873421946)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_876878",
-      "timestamp": "2026-04-16T03:45:00.566158+00:00",
-      "source": "X_GROK",
-      "headline": "Trending Chatter:** @WhaleAlertPoly dominating real-time whale alerts; retail losing to top 1% sharps; AI bots/copytradi",
-      "raw": "Trending Chatter:** @WhaleAlertPoly dominating real-time whale alerts; retail losing to top 1% sharps; AI bots/copytrading hype fading.[[7]](https://x.com/i/status/2044584320992690180) No major mispriced tips today. Focus: politics/sports whales.",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2044584320992690180)",
+      "x_link": "https://x.com/i/status/2044219184419074477)[[9]](https://x.com/i/status/2044370645039956092)",
       "category": "COMMUNITY"
     }
   ],
   "stats": {
     "enter": 3,
-    "alert": 10,
+    "alert": 17,
     "watch": 0,
-    "high_conf": 3
+    "high_conf": 5
   }
 }
