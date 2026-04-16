@@ -95,6 +95,20 @@
     </div>
   </div>
 
+  <!-- ── PANEL 3b: PER-WALLET FINANCIAL CARDS ────────────────────────── -->
+  <div class="panel" style="border-left:3px solid #7C3AED;grid-column:1/-1">
+    <div class="panel-hdr">
+      <div class="panel-hdr-top">
+        <span class="panel-title" style="color:#7C3AED">&#9670; Wallet Performance — Per-Account Breakdown</span>
+        <span class="panel-count" id="wallet-perf-count">—</span>
+      </div>
+      <div class="panel-desc">Each wallet's bankroll, P&amp;L, win rate, and engine breakdown. Computed from paper_trades.jsonl grouped by wallet_owner.</div>
+    </div>
+    <div id="wallet-cards" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(380px,1fr));gap:12px;padding:8px">
+      <div class="loader">Loading wallet data</div>
+    </div>
+  </div>
+
   <!-- ── PANEL 4: TOP WALLETS LEADERBOARD ───────────────────────────── -->
   <div class="panel accent-purple">
     <div class="panel-hdr">
@@ -117,6 +131,7 @@
     <div class="panel-hdr">
       <div class="panel-hdr-top">
         <span class="panel-title c-paper">&#9632; Open Positions — Live Bot Trades</span>
+        <select id="wallet-filter" style="font-size:0.7em;padding:2px 6px;border:1px solid #ccc;border-radius:3px;margin-left:8px;background:#fff"><option value="all">All Wallets</option></select>
         <span id="paper-summary" style="font-size:0.7em;color:#444">Loading...</span>
       </div>
       <div class="panel-desc">Active paper trades from all engines. Entry price, bet size, expected value (EV), and current status. Source of truth: paper_trades.jsonl — synced every 30 minutes via GitHub.</div>

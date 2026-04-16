@@ -615,6 +615,167 @@
     }
   }
 
+  // ── RENDER: Per-Wallet Financial Cards
+  async function renderWalletCards() {
+    const el = document.getElementById('wallet-cards');
+    if (!el) return;
+    try {
+      const PAPER_URL = 'https://shaunpatrickstewart.github.io/trades/paper_trades.jsonl?_w='+Date.now();
+      const resp = await fetch(P+encodeURIComponent(PAPER_URL));
+      const text = await resp.text();
+      const allTrades = text.trim().split('\n').filter(Boolean).map(l=>{try{return JSON.parse(l);}catch{return null;}}).filter(Boolean);
+
+      // Group by wallet_owner — default to "shaun_poly" for legacy trades
+      const byWallet = {};
+      allTrades.forEach(t => {
+        const owner = t.wallet_owner || 'shaun_poly';
+        if (!byWallet[owner]) byWallet[owner] = [];
+        byWallet[owner].push(t);
+      });
+
+      // Wallet config mapping (wallet_id → label + platform)
+      const WALLET_META = {
+        'shaun_poly':   { label: 'Shaun', platform: 'polymarket' },
+        'shaun_kalshi': { label: 'Shaun', platform: 'kalshi' },
+        'don_poly':     { label: 'Don S', platform: 'polymarket' },
+        'don_kalshi':   { label: 'Don S', platform: 'kalshi' },
+      };
+
+      const walletIds = Object.keys(byWallet).sort();
+      if (!walletIds.length) {
+        el.innerHTML = '<div class="empty">No wallet data yet</div>';
+        return;
+      }
+
+      document.getElementById('wallet-perf-count').textContent = '('+walletIds.length+' wallet'+(walletIds.length>1?'s':'')+')';
+
+      // Also populate wallet filter dropdown
+      const filterEl = document.getElementById('wallet-filter');
+      if (filterEl) {
+        filterEl.innerHTML = '<option value="all">All Wallets</option>';
+        walletIds.forEach(wid => {
+          const meta = WALLET_META[wid] || { label: wid, platform: '?' };
+          filterEl.innerHTML += '<option value="'+wid+'">'+esc(meta.label)+' ('+meta.platform+')</option>';
+        });
+      }
+
+      let cardsHtml = '';
+      walletIds.forEach(wid => {
+        const trades = byWallet[wid];
+        const meta = WALLET_META[wid] || { label: wid, platform: 'unknown' };
+        const won = trades.filter(t => t.status === 'WON');
+        const lost = trades.filter(t => t.status === 'LOST');
+        const open = trades.filter(t => t.status === 'OPEN');
+        const settled = won.length + lost.length;
+        const winRate = settled > 0 ? (won.length / settled * 100).toFixed(1) : '—';
+        const totalPnl = trades.reduce((s,t) => s + (t.status==='WON'||t.status==='LOST' ? (t.pnl||0) : 0), 0);
+        const deployed = open.reduce((s,t) => s + (t.paper_bet||0), 0);
+        const avgWin = won.length ? (won.reduce((s,t)=>s+(t.pnl||0),0)/won.length).toFixed(2) : '0.00';
+        const avgLoss = lost.length ? Math.abs(lost.reduce((s,t)=>s+(t.pnl||0),0)/lost.length).toFixed(2) : '0.00';
+
+        // Equity curve data
+        const sortedSettled = [...won,...lost].sort((a,b)=>(a.closed_at||a.timestamp||'').localeCompare(b.closed_at||b.timestamp||''));
+        let cum = 0;
+        const cumPts = sortedSettled.map(t => { cum += (t.pnl||0); return cum; });
+
+        // Win streak
+        let streak = 0;
+        for (let i = sortedSettled.length-1; i >= 0; i--) {
+          if (sortedSettled[i].status === 'WON') streak++; else break;
+        }
+
+        // Per-engine breakdown
+        const engines = {};
+        trades.forEach(t => {
+          const eng = t.type || t.engine || 'UNKNOWN';
+          if (!engines[eng]) engines[eng] = {w:0,l:0,o:0,pnl:0};
+          if (t.status==='WON') { engines[eng].w++; engines[eng].pnl += (t.pnl||0); }
+          else if (t.status==='LOST') { engines[eng].l++; engines[eng].pnl += (t.pnl||0); }
+          else if (t.status==='OPEN') engines[eng].o++;
+        });
+
+        // Fee stats
+        const totalFees = trades.reduce((s,t) => s + (t.estimated_fee||0), 0);
+        const totalRebates = trades.reduce((s,t) => s + (t.maker_rebate||0), 0);
+
+        const pnlColor = totalPnl >= 0 ? '#00cc66' : '#ee3344';
+        const platformClass = meta.platform === 'kalshi' ? 'kalshi' : 'polymarket';
+
+        cardsHtml += '<div class="wallet-card" data-wallet="'+wid+'">';
+        cardsHtml += '<div class="wallet-card-hdr">';
+        cardsHtml += '<span class="wallet-alias">'+esc(meta.label)+'</span>';
+        cardsHtml += '<span class="platform-badge '+platformClass+'">'+meta.platform.toUpperCase()+'</span>';
+        cardsHtml += '<span style="margin-left:auto;font-size:0.7em;color:#888">'+wid+'</span>';
+        cardsHtml += '</div>';
+
+        // Stats grid
+        const st = (lbl,val,color) =>
+          '<div style="background:#fff;border:1px solid #eee;border-radius:3px;padding:4px 6px;text-align:center">'+
+          '<div style="font-size:1.0em;font-weight:700;color:'+(color||'#222')+'">'+val+'</div>'+
+          '<div style="font-size:0.62em;color:#888;margin-top:1px">'+lbl+'</div></div>';
+
+        cardsHtml += '<div style="display:grid;grid-template-columns:repeat(4,1fr);gap:4px;margin-bottom:8px">';
+        cardsHtml += st('P&L', (totalPnl>=0?'+$':'−$')+Math.abs(totalPnl).toFixed(2), pnlColor);
+        cardsHtml += st('WIN RATE', winRate+(winRate!=='—'?'%':''), parseFloat(winRate)>=60?'#00cc66':'#ee3344');
+        cardsHtml += st('DEPLOYED', '$'+deployed.toFixed(0), '#555');
+        cardsHtml += st('STREAK', streak > 0 ? streak+'&#x1F525;' : ''+streak, streak>=10?'#ffaa00':'#888');
+        cardsHtml += st('WINS', ''+won.length, '#00cc66');
+        cardsHtml += st('LOSSES', ''+lost.length, '#ee3344');
+        cardsHtml += st('AVG WIN', '+$'+avgWin, '#00cc66');
+        cardsHtml += st('AVG LOSS', '$'+avgLoss, '#ee3344');
+        cardsHtml += '</div>';
+
+        // Mini equity curve
+        if (cumPts.length > 3) {
+          const minC = Math.min(0,...cumPts), maxC = Math.max(0,...cumPts);
+          const rangeC = (maxC-minC)||1;
+          const W=340, H=40, PAD=4;
+          const curve = cumPts.map((v,i) => {
+            const x = PAD+(i/(cumPts.length-1||1))*(W-PAD*2);
+            const y = H-PAD-((v-minC)/rangeC)*(H-PAD*2);
+            return x.toFixed(1)+','+y.toFixed(1);
+          }).join(' ');
+          const lastColor = cumPts[cumPts.length-1]>=0?'#00ff88':'#ff4444';
+          const zeroY = H-PAD-((0-minC)/rangeC)*(H-PAD*2);
+          cardsHtml += '<div style="background:#f8f8f8;border:1px solid #eee;border-radius:3px;padding:3px 6px;margin-bottom:6px">';
+          cardsHtml += '<svg width="100%" viewBox="0 0 '+W+' '+H+'" style="display:block">';
+          cardsHtml += '<line x1="'+PAD+'" y1="'+zeroY.toFixed(1)+'" x2="'+(W-PAD)+'" y2="'+zeroY.toFixed(1)+'" stroke="#ccc" stroke-width="0.5" stroke-dasharray="2,2"/>';
+          cardsHtml += '<polyline points="'+curve+'" fill="none" stroke="'+lastColor+'" stroke-width="1.5" stroke-linejoin="round"/>';
+          cardsHtml += '</svg></div>';
+        }
+
+        // Engine badges
+        cardsHtml += '<div style="display:flex;gap:4px;flex-wrap:wrap;margin-bottom:4px">';
+        Object.entries(engines).forEach(([eng, d]) => {
+          const color = engColor(eng);
+          cardsHtml += '<span style="background:'+color+'22;color:'+color+';padding:2px 6px;border-radius:3px;font-size:0.65em;font-weight:600">'+engLabel(eng)+' '+d.w+'W/'+d.l+'L</span>';
+        });
+        cardsHtml += '</div>';
+
+        // Fee summary (if any trades have fee data)
+        if (totalFees > 0 || totalRebates > 0) {
+          cardsHtml += '<div style="font-size:0.62em;color:#888;margin-top:2px">Fees: $'+totalFees.toFixed(2)+' | Rebates: $'+totalRebates.toFixed(2)+' | Net fee impact: −$'+(totalFees-totalRebates).toFixed(2)+'</div>';
+        }
+
+        cardsHtml += '</div>'; // close wallet-card
+      });
+
+      el.innerHTML = cardsHtml;
+
+      // Wire up wallet filter for open positions
+      if (filterEl) {
+        filterEl.addEventListener('change', function() {
+          const val = this.value;
+          document.querySelectorAll('#paper-trades tr[data-wallet]').forEach(row => {
+            row.style.display = (val === 'all' || row.dataset.wallet === val) ? '' : 'none';
+          });
+        });
+      }
+    } catch(e) {
+      el.innerHTML = '<div class="empty">Could not load wallet data: '+e.message+'</div>';
+    }
+  }
+
   // ── RENDER: Wallet Leaderboard (walletPositions = [{w, pos}] pre-fetched)
   function renderWallets(wallets, walletPositions) {
     document.getElementById('wallet-count').textContent = '('+wallets.length+')';
@@ -905,7 +1066,7 @@
             'style="background:#eeeeee;border:1px solid #cccccc;color:#555;padding:2px 6px;cursor:pointer;font-size:0.7em;border-radius:3px">+$</button>'
           : '<span class="dim">—</span>';
 
-        return '<tr class="paper-row">'+
+        return '<tr class="paper-row" data-wallet="'+(t.wallet_owner||'shaun_poly')+'">'+
           '<td class="dim">'+(i+1)+'</td>'+
           '<td>'+engineLabel(t)+'</td>'+
           '<td style="max-width:220px">'+(t.market||'').slice(0,55)+'</td>'+

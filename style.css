@@ -395,6 +395,37 @@
   color: #888;
 }
 
+/* ── PLATFORM BADGES & WALLET CARDS ──────────────────────────────── */
+#pm-root .platform-badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-size: 0.68em;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+#pm-root .platform-badge.polymarket { background: #7C3AED; color: #fff; }
+#pm-root .platform-badge.kalshi { background: #00A3FF; color: #fff; }
+#pm-root .wallet-card {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 12px 14px;
+  background: #fafafa;
+}
+#pm-root .wallet-card-hdr {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #eee;
+}
+#pm-root .wallet-alias {
+  font-size: 1.1em;
+  font-weight: 700;
+  color: #222;
+}
+
 /* ── RESPONSIVE ───────────────────────────────────────────────────── */
 @media (max-width: 860px) {
   #pm-root { padding: 10px 10px 20px }
