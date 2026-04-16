@@ -1,28 +1,30 @@
 {
-  "last_scan": "2026-04-16T21:43:54.676214+00:00",
-  "scan_seconds": 25.7,
-  "markets_scanned": 96,
-  "open_positions": 52,
+  "last_scan": "2026-04-16T21:46:35.629178+00:00",
+  "scan_seconds": 22.7,
+  "markets_scanned": 85,
+  "open_positions": 41,
   "signals": [
     {
-      "id": "sig_610052",
-      "timestamp": "2026-04-16T21:43:53.675574+00:00",
+      "id": "sig_771005",
+      "timestamp": "2026-04-16T21:46:34.628030+00:00",
       "source": "PERPLEXITY",
-      "headline": "Any indication of newly confirmed, announced, or resolved events",
-      "raw": "Any indication of newly confirmed, announced, or resolved events\n\nTo find current breaking news that could affect prediction markets, you would need access to real-time financial news sources, official government announcements, or market data feeds\u2014none of which are reflected in these search results.",
-      "direction": null,
+      "headline": "South Korea's annual inflation rose to 2",
+      "raw": "South Korea's annual inflation rose to 2.2% in March 2026 (released around early April), up from 2.0% in Jan-Feb but below 2.4% forecasts; Bank of Korea held benchmark rate at 2.5% on April 10 amid oil price risks from Middle East conflict | NO | HIGH confidence** [1][4][5]\n\nThis March figure marks the latest confirmed data, showing contained pressures despite global energy volatility, with core i",
+      "direction": "YES",
       "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
+      "matched_markets": [
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+      ],
+      "action": "ENTER",
       "x_link": null,
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_592317",
-      "timestamp": "2026-04-16T21:43:35.940116+00:00",
+      "id": "sig_755040",
+      "timestamp": "2026-04-16T21:46:18.663084+00:00",
       "source": "PERPLEXITY",
-      "headline": "Putin's Emergency Speech Warns West Against Iran Intervention as Ceasefire Nears Expiration | NO | LOW confidence**",
-      "raw": "Putin's Emergency Speech Warns West Against Iran Intervention as Ceasefire Nears Expiration | NO | LOW confidence**\n\nThe US-Iran two-week ceasefire, agreed on April 8, 2026, and mediated by Pakistan, is set to expire in about a week, with mediators pushing for extension amid ongoing violations, unresolved issues like Iran's nuclear program and Strait of Hormuz access, and no new confirmations or r",
+      "headline": "Russia Issues Final Ceasefire Warning Amid US-Iran Tensions | NO | LOW confidence**",
+      "raw": "Russia Issues Final Ceasefire Warning Amid US-Iran Tensions | NO | LOW confidence**  \nNo new confirmations, announcements, or resolutions today involving Russia, Iran, or a ceasefire\u2014only ongoing escalations like Lavrov's WW3 ultimatum demanding immediate ceasefire[4], Trump's Hormuz blockade threat[5], and US refusal to renew Iran/Russia oil licenses[6]. Earlier April 8 ceasefire between US, Isra",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [
@@ -33,80 +35,11 @@
       "action": "ALERT",
       "x_link": null,
       "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_599170",
-      "timestamp": "2026-04-16T21:43:42.793995+00:00",
-      "source": "PERPLEXITY",
-      "headline": "I cannot identify breaking news from these search results that would move prediction markets",
-      "raw": "I cannot identify breaking news from these search results that would move prediction markets. The most recent search result is from April 13, 2026, which describes an upcoming GOP debate that evening[3]. The search results contain no announcements, confirmations, or resolved developments dated April 16, 2026.\n\nThe available information shows that Chris Dudley is running as a Republican candidate i",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Chris Dudley win the 2026 Oregon Governor Republican primary election?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_610025",
-      "timestamp": "2026-04-16T21:43:53.648965+00:00",
-      "source": "PERPLEXITY",
-      "headline": "I cannot identify breaking news or market-moving announcements in these search results",
-      "raw": "I cannot identify breaking news or market-moving announcements in these search results. The most recent data available is from **March 2026**, showing South Korea's year-over-year inflation at **2.16%**[3], which represents a modest increase from 2.00% in February 2026[3]. However, this is routine economic data, not a breaking announcement that would typically move prediction markets.\n\nThe search ",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_610032",
-      "timestamp": "2026-04-16T21:43:53.655522+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Real-time news feeds or press releases from today",
-      "raw": "Real-time news feeds or press releases from today",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_610039",
-      "timestamp": "2026-04-16T21:43:53.662048+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Official statements from South Korea's central bank or government agencies",
-      "raw": "Official statements from South Korea's central bank or government agencies",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_610045",
-      "timestamp": "2026-04-16T21:43:53.668567+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Market reactions or analyst commentary on recent developments",
-      "raw": "Market reactions or analyst commentary on recent developments",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 7,
+    "enter": 1,
+    "alert": 1,
     "watch": 0,
     "high_conf": 1
   }
