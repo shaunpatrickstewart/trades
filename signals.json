@@ -1,171 +1,89 @@
 {
-  "last_scan": "2026-04-16T11:56:14.528690+00:00",
-  "scan_seconds": 30.8,
-  "markets_scanned": 147,
-  "open_positions": 107,
+  "last_scan": "2026-04-16T11:59:02.560207+00:00",
+  "scan_seconds": 26.6,
+  "markets_scanned": 149,
+  "open_positions": 108,
   "signals": [
     {
-      "id": "sig_344522",
-      "timestamp": "2026-04-16T11:56:08.180535+00:00",
+      "id": "sig_501194",
+      "timestamp": "2026-04-16T11:58:44.852386+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot identify any breaking news, confirmed announcements, or market-moving developments from these search results th",
-      "raw": "I cannot identify any breaking news, confirmed announcements, or market-moving developments from these search results that would impact Ethereum prediction markets as of today.\n\nThe search results contain **technical analysis and price predictions** from various dates in March and early April 2026, but they do not reference any recent announcements, confirmations, or resolved events. The most rece",
+      "headline": "Russia-Ukraine Easter ceasefire collapses after 32 hours amid mutual violation accusations | NO | HIGH confidence**",
+      "raw": "Russia-Ukraine Easter ceasefire collapses after 32 hours amid mutual violation accusations | NO | HIGH confidence**\n\nThe 32-hour Orthodox Easter truce, ordered by Putin on April 9 and starting April 11 at 4 PM local time, formally ended Sunday with both sides reporting thousands of breaches: Ukraine cited over 7,500 violations by Russia (including 469 on day one with shelling, drones, and assaults",
       "direction": "NO",
       "confidence": 0.9,
       "matched_markets": [
-        "Will the price of Ethereum be above $2,500 on April 16?",
-        "Will the price of Ethereum be above $2,000 on April 18?"
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Will Russia enter Ternuvate again by April 30?"
       ],
       "action": "ENTER",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_337839",
-      "timestamp": "2026-04-16T11:56:01.498003+00:00",
+      "id": "sig_517901",
+      "timestamp": "2026-04-16T11:59:01.559185+00:00",
       "source": "PERPLEXITY",
-      "headline": "Based on the search results provided, I cannot identify a single breaking news story that fits all your specified keywor",
-      "raw": "Based on the search results provided, I cannot identify a single breaking news story that fits all your specified keywords and would move prediction markets as of April 16, 2026.\n\nThe search results contain several related but separate developments:",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_337850",
-      "timestamp": "2026-04-16T11:56:01.508778+00:00",
-      "source": "PERPLEXITY",
-      "headline": "King Charles state visit** - King Charles will have tea and a private meeting with President Donald Trump during a US st",
-      "raw": "King Charles state visit** - King Charles will have tea and a private meeting with President Donald Trump during a US state visit later in April[3], but this appears to be a scheduled diplomatic event rather than breaking news.",
-      "direction": null,
-      "confidence": 0.65,
+      "headline": "Trump Nominates Kevin Warsh as Fed Chair Amid Rising Inflation Pressures | YES | HIGH confidence** [1][2][3][5]",
+      "raw": "Trump Nominates Kevin Warsh as Fed Chair Amid Rising Inflation Pressures | YES | HIGH confidence** [1][2][3][5]\n\nKevin Warsh's nomination by President Trump to replace Jerome Powell as Fed chair (term expires May 2026) is the key breaking development, creating uncertainty over U.S. monetary policy, inflation control, and rate paths.[1][2][3][5] This has already weakened the South Korean won to 1,4",
+      "direction": "YES",
+      "confidence": 0.9,
       "matched_markets": [
-        "Will Trump say \"Obliterated\" or \"Obliteration\" during King Charles visit?",
-        "Will Trump and Xi handshake last 15 seconds or longer during the day of their ne"
+        "Kevin Warsh confirmed as Fed Chair by May 15?",
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
       ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
-      "category": "POLITICS"
+      "category": "ECONOMICS"
     },
     {
-      "id": "sig_337861",
-      "timestamp": "2026-04-16T11:56:01.519518+00:00",
+      "id": "sig_506397",
+      "timestamp": "2026-04-16T11:58:50.055140+00:00",
       "source": "PERPLEXITY",
-      "headline": "Iran conflict escalation** - Trump issued ultimatums to Iran regarding the Strait of Hormuz with threats to strike power",
-      "raw": "Iran conflict escalation** - Trump issued ultimatums to Iran regarding the Strait of Hormuz with threats to strike power plants and bridges[2], and VP Vance made inflammatory remarks that the White House clarified[1]. However, these statements date from early-to-mid April, not \"RIGHT NOW.\"",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces end of military operations against Iran by A",
-        "Will the White House call a full lid by 6:30PM on April 14?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_337883",
-      "timestamp": "2026-04-16T11:56:01.541395+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Unable to provide the requested format** because no single confirmed announcement, resolution, or major development that",
-      "raw": "Unable to provide the requested format** because no single confirmed announcement, resolution, or major development that clearly encompasses all your keywords has been identified in these results. To provide an accurate market-moving headline assessment, I would need search results more directly addressing what was specifically announced or resolved today (April 16, 2026).",
+      "headline": "Trump: Routine campaign updates on 2026 midterms; no incidents or \"obliteration\" references",
+      "raw": "Trump: Routine campaign updates on 2026 midterms; no incidents or \"obliteration\" references.",
       "direction": "NO",
       "confidence": 0.65,
+      "matched_markets": [
+        "Will Trump say \"Obliterated\" or \"Obliteration\" during King Charles visit?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_506407",
+      "timestamp": "2026-04-16T11:58:50.065293+00:00",
+      "source": "PERPLEXITY",
+      "headline": "King Charles: Health stable post-2024 cancer diagnosis; Palace confirms minor public duties resuming",
+      "raw": "King Charles: Health stable post-2024 cancer diagnosis; Palace confirms minor public duties resuming.",
+      "direction": null,
+      "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "POLITICS"
     },
     {
-      "id": "sig_344532",
-      "timestamp": "2026-04-16T11:56:08.190821+00:00",
+      "id": "sig_506417",
+      "timestamp": "2026-04-16T11:58:50.075456+00:00",
       "source": "PERPLEXITY",
-      "headline": "Official Ethereum Foundation announcements",
-      "raw": "Official Ethereum Foundation announcements",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_344543",
-      "timestamp": "2026-04-16T11:56:08.201023+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Major exchange news feeds",
-      "raw": "Major exchange news feeds",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_344553",
-      "timestamp": "2026-04-16T11:56:08.211207+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Regulatory developments",
-      "raw": "Regulatory developments",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_344563",
-      "timestamp": "2026-04-16T11:56:08.221394+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Protocol upgrade announcements",
-      "raw": "Protocol upgrade announcements",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_344573",
-      "timestamp": "2026-04-16T11:56:08.231780+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Significant whale transactions or institutional moves",
-      "raw": "Significant whale transactions or institutional moves\n\nThe provided search results do not contain this type of time-sensitive, market-catalyzing information.",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_337872",
-      "timestamp": "2026-04-16T11:56:01.530407+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Potential ceasefire progress** - Trump indicated on April 15 that \"the war with Iran could end soon\" and referenced \"an",
-      "raw": "Potential ceasefire progress** - Trump indicated on April 15 that \"the war with Iran could end soon\" and referenced \"an amazing two days ahead\"[3], but no specific resolution has been confirmed.\n\nThe word **\"obliterated\"** does not appear in any of these search results, which may indicate you're seeking information not captured in the current results.",
+      "headline": "No links between them or April-specific \"obliteration\" (literal/figurative) in news wires",
+      "raw": "No links between them or April-specific \"obliteration\" (literal/figurative) in news wires.\n\nPrediction markets unchanged (e.g., Trump-related odds steady at ~55% for 2028 GOP nom). If fabricating, I'd say zero impact\u2014pure speculation. Latest timestamp: 10:58 UTC.",
       "direction": "NO",
-      "confidence": 0.6,
+      "confidence": 0.65,
       "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces end of military operations against Iran by A",
-        "US x Iran permanent peace deal by April 30, 2026?"
+        "Will Trump say \"Obliterated\" or \"Obliteration\" during King Charles visit?"
       ],
-      "action": "WATCH",
+      "action": "ALERT",
       "x_link": null,
       "category": "POLITICS"
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 9,
-    "watch": 1,
-    "high_conf": 1
+    "enter": 2,
+    "alert": 3,
+    "watch": 0,
+    "high_conf": 2
   }
 }
