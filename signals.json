@@ -1,44 +1,76 @@
 {
-  "last_scan": "2026-04-16T22:37:14.247220+00:00",
-  "scan_seconds": 26.1,
-  "markets_scanned": 150,
+  "last_scan": "2026-04-16T22:40:24.526629+00:00",
+  "scan_seconds": 44.4,
+  "markets_scanned": 152,
   "open_positions": 107,
   "signals": [
     {
-      "id": "sig_792821",
-      "timestamp": "2026-04-16T22:36:56.441700+00:00",
+      "id": "sig_992421",
+      "timestamp": "2026-04-16T22:40:16.041957+00:00",
       "source": "PERPLEXITY",
-      "headline": "Russia and Ukraine agreed to a temporary Easter ceasefire from 16:00 April 11 to end of April 12, 2026",
-      "raw": "Russia and Ukraine agreed to a temporary Easter ceasefire from 16:00 April 11 to end of April 12, 2026.** | YES | HIGH confidence[1][2][3][4]\n\nRussia's unilateral announcement by Putin on April 9-10 followed Ukraine's prior proposals, with Zelenskyy confirming Kyiv's reciprocal adherence, marking a short-term halt amid stalled peace talks[1][2][3][4]. This 32-hour truce echoes last year's, often v",
+      "headline": "Deutsche B\u00f6rse $200M Kraken Investment Confirmed** | YES | HIGH confidence[2]",
+      "raw": "Deutsche B\u00f6rse $200M Kraken Investment Confirmed** | YES | HIGH confidence[2]  \nInstitutional move signals crypto maturity, driving Bitcoin consolidation above $73K and prediction market repricing toward $75K-$80K breakout[2][3][6].",
       "direction": "YES",
       "confidence": 0.9,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Will Russia enter Ternuvate again by April 30?",
-        "US x Iran permanent peace deal by April 30, 2026?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_809625",
-      "timestamp": "2026-04-16T22:37:13.245999+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Confidence: LOW** \u2013 Search results lack any post-February 2026 official CPI releases or announcements; next data likely",
-      "raw": "Confidence: LOW** \u2013 Search results lack any post-February 2026 official CPI releases or announcements; next data likely pending from Statistics Korea.[8]",
-      "direction": null,
-      "confidence": 0.78,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_992439",
+      "timestamp": "2026-04-16T22:40:16.059287+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Bitcoin Spot Rally to $74,680+ on April 13-14** | YES | HIGH confidence[3][6]",
+      "raw": "Bitcoin Spot Rally to $74,680+ on April 13-14** | YES | HIGH confidence[3][6]  \nTriggered $400M-$500M short liquidations and 44pp probability jump to 66% for $73K+ by April 17, with Polymarket at 92% for $75K by April 30[3][5][6].",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Bitcoin dip to $70,000 on April 16?",
+        "Will Bitcoin dip to $69,000 on April 16?",
+        "Will Bitcoin dip to $58,000 April 13-19?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_999905",
+      "timestamp": "2026-04-16T22:40:23.525686+00:00",
+      "source": "PERPLEXITY",
+      "headline": "South Korea's annual inflation rose to 2",
+      "raw": "South Korea's annual inflation rose to 2.2% in March 2026, up from 2.0% in prior months but below 2.4% forecasts | NO | HIGH confidence**[1]\n\nThis March figure, reported around early April 2026, confirms contained price pressures amid global energy volatility from the Iran/Middle East conflict, aligning with the Bank of Korea's 2% target despite oil price surges and a weak won (near 1,520/USD)[1][",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "US x Iran permanent peace deal by April 30, 2026?",
+        "US x Iran permanent peace deal by April 22, 2026?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
       "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_982219",
+      "timestamp": "2026-04-16T22:40:05.839861+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Trump Claims Iran Agrees to Ceasefire Package and Nuclear Material Handover; Putin Warns West on Intervention; Russia Re",
+      "raw": "Trump Claims Iran Agrees to Ceasefire Package and Nuclear Material Handover; Putin Warns West on Intervention; Russia Reoffers Uranium Custody** | YES | MED confidence[1][2][3][4]\n\nU.S. President Trump stated Iran has \"agreed very powerfully\" to return nuclear material damaged by U.S. B2 strikes and supports a \"nice little package\" ceasefire involving Israel and Lebanon for about a week, amid expi",
+      "direction": "YES",
+      "confidence": 0.6,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?"
+      ],
+      "action": "WATCH",
+      "x_link": null,
+      "category": "GEOPOLITICS"
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 1,
-    "watch": 0,
+    "enter": 0,
+    "alert": 3,
+    "watch": 1,
     "high_conf": 1
   }
 }
