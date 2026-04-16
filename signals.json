@@ -1,57 +1,92 @@
 {
-  "last_scan": "2026-04-16T16:45:40.352407+00:00",
-  "scan_seconds": 21.2,
-  "markets_scanned": 134,
-  "open_positions": 95,
+  "last_scan": "2026-04-16T16:48:26.556687+00:00",
+  "scan_seconds": 23.8,
+  "markets_scanned": 85,
+  "open_positions": 45,
   "signals": [
     {
-      "id": "sig_715701",
-      "timestamp": "2026-04-16T16:45:39.342423+00:00",
+      "id": "sig_877225",
+      "timestamp": "2026-04-16T16:48:20.866980+00:00",
       "source": "PERPLEXITY",
-      "headline": "Incoming Bank of Korea Governor Nominee Warns of Accelerating Consumer Inflation Amid Middle East Shocks | NO | HIGH con",
-      "raw": "Incoming Bank of Korea Governor Nominee Warns of Accelerating Consumer Inflation Amid Middle East Shocks | NO | HIGH confidence**  \nBank of Korea Governor nominee Shin Hyun-song stated on April 14, 2026, that headline consumer inflation is likely to accelerate, driven by surging import prices from the Middle East conflict, marking the sharpest jump in nearly three decades[1][3][5].  \nThis follows ",
-      "direction": "NO",
-      "confidence": 0.78,
-      "matched_markets": [],
-      "action": "ALERT",
+      "headline": "Alpenglow Upgrade Passes Governance Vote with 98",
+      "raw": "Alpenglow Upgrade Passes Governance Vote with 98.27% Approval | YES | HIGH confidence**  \nThe Alpenglow upgrade, aimed at reducing Solana transaction finality to 100-150 milliseconds, was confirmed via a governance vote securing 98.27% support, positioning Solana as a top execution layer and potentially driving price recovery amid its hover near $80 after a 70% peak decline[5].  \nNo other confirma",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will the price of Ethereum be above $2,400 on April 20?",
+        "Solana Up or Down - April 17, 4:40AM-4:45AM ET",
+        "Solana Up or Down - April 16, 4:45PM-4:50PM ET"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_881908",
+      "timestamp": "2026-04-16T16:48:25.549509+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Kevin Warsh confirmed as Trump's nominee for next Fed Chair, succeeding Jerome Powell by mid-May 2026 amid surging infla",
+      "raw": "Kevin Warsh confirmed as Trump's nominee for next Fed Chair, succeeding Jerome Powell by mid-May 2026 amid surging inflation and oil shock.** | YES | HIGH confidence[1][2][3][4]",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Kevin Warsh confirmed as Fed Chair by May 15?"
+      ],
+      "action": "ENTER",
       "x_link": null,
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_706783",
-      "timestamp": "2026-04-16T16:45:30.424399+00:00",
+      "id": "sig_872141",
+      "timestamp": "2026-04-16T16:48:15.782996+00:00",
       "source": "PERPLEXITY",
-      "headline": "VP JD Vance** on **April 10 warned Iran** against \"playing\" the U",
-      "raw": "VP JD Vance** on **April 10 warned Iran** against \"playing\" the U.S. ahead of failed Pakistan talks, amid **Trump's threats** to reload warships and \"obliterate\" Iran if negotiations collapse.[1]  \nA **2-week US-Israel-Iran ceasefire** was agreed post-Pakistan talks (date unspecified, but recent), though no new Vance-White House obliteration-related updates today.[3]",
-      "direction": "NO",
-      "confidence": 0.65,
+      "headline": "HEADLINE: Trump threatens to obliterate Iranian civilization by 8pm deadline amid US bombing of Iran's bridges; VP JD Va",
+      "raw": "HEADLINE: Trump threatens to obliterate Iranian civilization by 8pm deadline amid US bombing of Iran's bridges; VP JD Vance caught off-guard in real-time, unaware of plans until notified onstage in Budapest | NO | HIGH confidence**\n\nNo confirmed resolution, announcement, or de-escalation has occurred\u2014Trump's threat stands active with US strikes underway, Vance's exclusion highlights internal disar",
+      "direction": "YES",
+      "confidence": 0.78,
       "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces end of military operations against Iran by A",
-        "Will the White House call a full lid by 6:30PM on April 14?"
+        "Will J.D. Vance win the 2028 Republican presidential nominat",
+        "Trump announces end of military operations against Iran by A"
       ],
       "action": "ALERT",
       "x_link": null,
       "category": "POLITICS"
     },
     {
-      "id": "sig_706792",
-      "timestamp": "2026-04-16T16:45:30.433739+00:00",
+      "id": "sig_866469",
+      "timestamp": "2026-04-16T16:48:10.110533+00:00",
       "source": "PERPLEXITY",
-      "headline": "LOW confidence** in market-moving events today, as latest sourced info is 6 days old with no fresh confirmations",
-      "raw": "LOW confidence** in market-moving events today, as latest sourced info is 6 days old with no fresh confirmations.[1][2][3]",
-      "direction": "NO",
+      "headline": "LOW confidence** in any market-moving Russia events now, as results lack post-April 11 confirmations",
+      "raw": "LOW confidence** in any market-moving Russia events now, as results lack post-April 11 confirmations. [1][2][3]",
+      "direction": null,
       "confidence": 0.65,
-      "matched_markets": [],
+      "matched_markets": [
+        "Will Russia enter Ternuvate again by April 30?"
+      ],
       "action": "ALERT",
       "x_link": null,
-      "category": "POLITICS"
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_881914",
+      "timestamp": "2026-04-16T16:48:25.555483+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Key details:** Warsh, former Fed governor and hawkish on inflation, tops contender lists with Senate confirmation expect",
+      "raw": "Key details:** Warsh, former Fed governor and hawkish on inflation, tops contender lists with Senate confirmation expected soon; his first act could be a rate hike as core PCE hits 4.56% (pre-oil shock), oil exceeds $100/barrel, and Fed holds rates at 3.50-3.75% while traders price no further cuts[1][4]. South Korean reports highlight his Coupang board role, tying to local market speculation on Fe",
+      "direction": "NO",
+      "confidence": 0.6,
+      "matched_markets": [
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+      ],
+      "action": "WATCH",
+      "x_link": null,
+      "category": "ECONOMICS"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 3,
-    "watch": 0,
-    "high_conf": 0
+    "enter": 2,
+    "alert": 2,
+    "watch": 1,
+    "high_conf": 2
   }
 }
