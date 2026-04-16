@@ -1,15 +1,15 @@
 {
-  "last_scan": "2026-04-16T22:34:26.805554+00:00",
-  "scan_seconds": 26.5,
-  "markets_scanned": 79,
-  "open_positions": 36,
+  "last_scan": "2026-04-16T22:37:14.247220+00:00",
+  "scan_seconds": 26.1,
+  "markets_scanned": 150,
+  "open_positions": 107,
   "signals": [
     {
-      "id": "sig_624682",
-      "timestamp": "2026-04-16T22:34:08.302553+00:00",
+      "id": "sig_792821",
+      "timestamp": "2026-04-16T22:36:56.441700+00:00",
       "source": "PERPLEXITY",
-      "headline": "US-Iran Ceasefire Announced (April 8-9); Russia Welcomes It | YES | HIGH confidence**",
-      "raw": "US-Iran Ceasefire Announced (April 8-9); Russia Welcomes It | YES | HIGH confidence**",
+      "headline": "Russia and Ukraine agreed to a temporary Easter ceasefire from 16:00 April 11 to end of April 12, 2026",
+      "raw": "Russia and Ukraine agreed to a temporary Easter ceasefire from 16:00 April 11 to end of April 12, 2026.** | YES | HIGH confidence[1][2][3][4]\n\nRussia's unilateral announcement by Putin on April 9-10 followed Ukraine's prior proposals, with Zelenskyy confirming Kyiv's reciprocal adherence, marking a short-term halt amid stalled peace talks[1][2][3][4]. This 32-hour truce echoes last year's, often v",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
@@ -22,59 +22,23 @@
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_636925",
-      "timestamp": "2026-04-16T22:34:20.545799+00:00",
+      "id": "sig_809625",
+      "timestamp": "2026-04-16T22:37:13.245999+00:00",
       "source": "PERPLEXITY",
-      "headline": "Iran Signals Resumption of Peace Talks with US, Triggering Crypto Surge: BTC Hits $75K, SOL Up 6",
-      "raw": "Iran Signals Resumption of Peace Talks with US, Triggering Crypto Surge: BTC Hits $75K, SOL Up 6.3%, ETH Up 8.6%, XRP Up 4.2% | YES | HIGH confidence** [1]\n\nThis breaking development\u2014confirmed via Iran's signal to resume talks\u2014has eased Middle East war pressures that previously capped rallies, driving broad market gains with **Ethereum outperforming at +8.6% to $2,377**, **Solana +6.3%**, and **XR",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "US x Iran permanent peace deal by April 30, 2026?",
-        "US x Iran permanent peace deal by April 22, 2026?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_642184",
-      "timestamp": "2026-04-16T22:34:25.804859+00:00",
-      "source": "PERPLEXITY",
-      "headline": "South Korea March 2026 Annual Inflation Confirmed at 2",
-      "raw": "South Korea March 2026 Annual Inflation Confirmed at 2.2% YoY (Below 2.3-2.4% Consensus)** | YES | HIGH confidence[1][2][4]\n\nSouth Korea's consumer price index rose 2.2% year-on-year in March 2026, up from 2.0% in February but undershooting market forecasts of 2.3-2.4%, driven by oil prices partially offset by government fuel caps and food vouchers[1][2][4]. Core inflation (ex-food/energy) fell to",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
-      ],
-      "action": "ENTER",
+      "headline": "Confidence: LOW** \u2013 Search results lack any post-February 2026 official CPI releases or announcements; next data likely",
+      "raw": "Confidence: LOW** \u2013 Search results lack any post-February 2026 official CPI releases or announcements; next data likely pending from Statistics Korea.[8]",
+      "direction": null,
+      "confidence": 0.78,
+      "matched_markets": [],
+      "action": "ALERT",
       "x_link": null,
       "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_624691",
-      "timestamp": "2026-04-16T22:34:08.311810+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Putin Declares Unilateral Easter Ceasefire in Ukraine (April 11-12) | YES | HIGH confidence**",
-      "raw": "Putin Declares Unilateral Easter Ceasefire in Ukraine (April 11-12) | YES | HIGH confidence**  \n\nA two-week ceasefire between the US, Israel, and Iran was confirmed on April 8-9, 2026, welcomed by Russia as a step toward de-escalation and negotiations, with FM Lavrov expressing hopes for success during talks with Iran's counterpart.[1][2][3]  \nThe Kremlin supported the deal to avoid wider war and ",
-      "direction": "YES",
-      "confidence": 0.6,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Will Russia enter Ternuvate again by April 30?",
-        "US x Iran permanent peace deal by April 30, 2026?"
-      ],
-      "action": "WATCH",
-      "x_link": null,
-      "category": "GEOPOLITICS"
     }
   ],
   "stats": {
-    "enter": 3,
-    "alert": 0,
-    "watch": 1,
-    "high_conf": 3
+    "enter": 1,
+    "alert": 1,
+    "watch": 0,
+    "high_conf": 1
   }
 }
