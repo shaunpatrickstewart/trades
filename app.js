@@ -610,10 +610,17 @@
     const el = document.getElementById('wallet-cards');
     if (!el) return;
     try {
-      const PAPER_URL = 'https://shaunpatrickstewart.github.io/trades/paper_trades.jsonl?_w='+Date.now();
-      const resp = await fetch(P+encodeURIComponent(PAPER_URL));
-      const text = await resp.text();
-      const allTrades = text.trim().split('\n').filter(Boolean).map(l=>{try{return JSON.parse(l);}catch{return null;}}).filter(Boolean);
+      const BASE = 'https://shaunpatrickstewart.github.io/trades/';
+      const bust = '?_w='+Date.now();
+      const [paperTxt, kalshiTxt] = await Promise.all([
+        fetch(P+encodeURIComponent(BASE+'paper_trades.jsonl'+bust)).then(r=>r.text()).catch(()=>''),
+        fetch(P+encodeURIComponent(BASE+'kalshi_paper_trades.jsonl'+bust)).then(r=>r.text()).catch(()=>'')
+      ]);
+      const parseJsonl = txt => txt.trim().split('\n').filter(Boolean).map(l=>{try{return JSON.parse(l);}catch{return null;}}).filter(Boolean);
+      const polyTrades = parseJsonl(paperTxt);
+      // Kalshi trades don't carry wallet_owner — default to shaun_kalshi (only active Kalshi wallet)
+      const kalshiTrades = parseJsonl(kalshiTxt).map(t => ({...t, wallet_owner: t.wallet_owner || 'shaun_kalshi'}));
+      const allTrades = polyTrades.concat(kalshiTrades);
 
       // Group by wallet_owner — default to "shaun_poly" for legacy trades
       const byWallet = {};
@@ -630,6 +637,9 @@
         'don_poly':     { label: 'Don S', platform: 'polymarket' },
         'don_kalshi':   { label: 'Don S', platform: 'kalshi' },
       };
+
+      // Always render all four configured wallets, even if $0 — Shaun directive
+      Object.keys(WALLET_META).forEach(wid => { if (!byWallet[wid]) byWallet[wid] = []; });
 
       const walletIds = Object.keys(byWallet).sort();
       if (!walletIds.length) {
@@ -1117,11 +1127,20 @@
     const el = document.getElementById('audit-panel');
     if (!el) return;
     try {
-      const PAPER_URL = 'https://shaunpatrickstewart.github.io/trades/paper_trades.jsonl?_a='+Date.now();
-      const resp = await fetch(P+encodeURIComponent(PAPER_URL));
-      const text = await resp.text();
-      const trades = text.trim().split('\n').filter(Boolean)
+      const BASE = 'https://shaunpatrickstewart.github.io/trades/';
+      const bust = '?_a='+Date.now();
+      const parseJsonl = txt => txt.trim().split('\n').filter(Boolean)
         .map(l=>{try{return JSON.parse(l);}catch{return null;}}).filter(Boolean);
+      const [paperTxt, kalshiTxt, arbTxt, cfgJson] = await Promise.all([
+        fetch(P+encodeURIComponent(BASE+'paper_trades.jsonl'+bust)).then(r=>r.text()).catch(()=>''),
+        fetch(P+encodeURIComponent(BASE+'kalshi_paper_trades.jsonl'+bust)).then(r=>r.text()).catch(()=>''),
+        fetch(P+encodeURIComponent(BASE+'arb_paper_trades.jsonl'+bust)).then(r=>r.text()).catch(()=>''),
+        fetch(P+encodeURIComponent(BASE+'config.json'+bust)).then(r=>r.json()).catch(()=>({}))
+      ]);
+      const trades = parseJsonl(paperTxt);
+      const kalshiTrades = parseJsonl(kalshiTxt);
+      const arbTrades = parseJsonl(arbTxt);
+      const cfg = cfgJson || {};
 
       // ── US Eastern Time helpers (bot operates on ET wall clock)
       const ET_OFFSET_H = -4; // EDT in April
@@ -1256,18 +1275,124 @@
       });
       html += '</div>';
 
-      // Live issues
-      if (issues.length) {
-        html += '<div style="color:#ff8844;font-weight:700;margin-bottom:4px">Live Issues ('+issues.length+')</div>';
-        issues.slice(0,8).forEach(s=>{ html += '<div style="color:#ff8844;font-size:0.78em;margin-bottom:2px">⚠ '+esc(s)+'</div>'; });
-        if (issues.length>8) html += '<div style="color:#555;font-size:0.72em">(+'+(issues.length-8)+' more)</div>';
-      } else {
-        html += '<div style="color:#555;font-size:0.78em">✓ No live issues detected</div>';
+      // ── CAPITAL ALLOCATION (live: config targets vs actual deployed)
+      const alloc = cfg.capital_allocation || {};
+      const caps  = cfg.engine_caps || {};
+      const deployedByEng = {};
+      openTrades.forEach(t => {
+        const e = t.engine || t.type || 'UNKNOWN';
+        deployedByEng[e] = (deployedByEng[e]||0) + (t.paper_bet||0);
+      });
+      const allocRows = Object.entries(alloc).filter(([k])=>!k.startsWith('_'));
+      if (allocRows.length) {
+        html += '<div style="color:#88aaff;font-weight:700;margin-bottom:4px;margin-top:12px">Capital Allocation (targets vs live)</div>';
+        html += '<div style="display:flex;flex-direction:column;gap:3px;margin-bottom:10px">';
+        allocRows.forEach(([eng, pct]) => {
+          const target = bankroll * (pct||0);
+          const actual = deployedByEng[eng] || 0;
+          const cap    = caps[eng] || 0;
+          const util   = target>0 ? (actual/target*100) : 0;
+          const barColor = util>100 ? '#ee3344' : util>80 ? '#ffaa00' : util>30 ? '#00cc66' : '#888';
+          const barW = Math.min(100, util).toFixed(0);
+          html += '<div style="display:flex;align-items:center;gap:8px;font-size:0.74em">';
+          html += '<span style="min-width:95px;color:'+engColor(eng)+';font-weight:600">'+engLabel(eng)+'</span>';
+          html += '<span style="min-width:70px;color:#555">target $'+target.toFixed(0)+'</span>';
+          html += '<span style="min-width:70px;color:#111">live $'+actual.toFixed(0)+'</span>';
+          html += '<span style="min-width:55px;color:'+barColor+';font-weight:600">'+util.toFixed(0)+'%</span>';
+          html += '<div style="flex:1;background:#eee;height:6px;border-radius:3px;overflow:hidden"><div style="width:'+barW+'%;height:100%;background:'+barColor+'"></div></div>';
+          html += '<span style="min-width:60px;color:#888;text-align:right">cap '+cap+'</span>';
+          html += '</div>';
+        });
+        // Kalshi + Arb lines (separate pools, not in capital_allocation config)
+        const kalshiOpen = kalshiTrades.filter(t=>t.status==='OPEN');
+        const arbOpen    = arbTrades.filter(t=>t.status==='OPEN');
+        const kalshiDeployed = kalshiOpen.reduce((s,t)=>s+(t.paper_bet||0),0);
+        const arbDeployed    = arbOpen.reduce((s,t)=>s+((t.leg_a&&t.leg_a.bet)||0)+((t.leg_b&&t.leg_b.bet)||0),0);
+        html += '<div style="display:flex;align-items:center;gap:8px;font-size:0.74em">';
+        html += '<span style="min-width:95px;color:#1d9bf0;font-weight:600">KALSHI</span>';
+        html += '<span style="min-width:70px;color:#555">paper pool</span>';
+        html += '<span style="min-width:70px;color:#111">live $'+kalshiDeployed.toFixed(0)+'</span>';
+        html += '<span style="min-width:55px;color:#888">'+kalshiTrades.length+' trades</span>';
+        html += '<span style="color:#555;font-size:0.92em">'+kalshiOpen.length+' open</span></div>';
+        html += '<div style="display:flex;align-items:center;gap:8px;font-size:0.74em">';
+        html += '<span style="min-width:95px;color:#ffaa00;font-weight:600">ARBITRAGE</span>';
+        html += '<span style="min-width:70px;color:#555">2-leg pool</span>';
+        html += '<span style="min-width:70px;color:#111">live $'+arbDeployed.toFixed(0)+'</span>';
+        html += '<span style="min-width:55px;color:#888">'+arbTrades.length+' trades</span>';
+        html += '<span style="color:#555;font-size:0.92em">'+arbOpen.length+' open</span></div>';
+        html += '</div>';
       }
+
+      // ── WARNINGS / SUGGESTIONS / OK (computed live from data)
+      const warnings = [...issues];  // carry over live issues
+      const suggestions = [];
+      const oks = [];
+
+      // Engine-level warnings & oks
+      Object.entries(engines).forEach(([eng, d]) => {
+        const settled = d.w + d.l;
+        if (settled >= 5) {
+          const wr = d.w / settled * 100;
+          if (wr < 45) warnings.push(eng+' WR '+wr.toFixed(0)+'% on '+settled+' settled — review strategy');
+          else if (wr >= 80 && d.pnl > 5) oks.push(eng+' healthy: '+wr.toFixed(0)+'% WR · +$'+d.pnl.toFixed(0));
+        }
+        if (d.pnl < -20) warnings.push(eng+' drawdown '+fmtPnl(d.pnl).replace(/<[^>]+>/g,'').replace(/\$/,'$')+' — engine bleeding');
+      });
+
+      // Concentration
+      const exposurePct = bankroll>0 ? (deployed/bankroll*100) : 0;
+      if (exposurePct > 70) warnings.push('High exposure: $'+deployed.toFixed(0)+' deployed ('+exposurePct.toFixed(0)+'% of bankroll)');
+      else if (exposurePct > 20) oks.push('Balanced exposure: '+exposurePct.toFixed(0)+'% of bankroll deployed');
+
+      // Suggestions — NC headroom
+      const ncDeployed = deployedByEng['NEAR_CERTAIN'] || 0;
+      const ncTarget = bankroll * (alloc.NEAR_CERTAIN || 0);
+      if (ncTarget > 0 && ncDeployed < ncTarget * 0.5 && (engines.NEAR_CERTAIN?.w || 0) > (engines.NEAR_CERTAIN?.l || 0)) {
+        suggestions.push('NC underdeployed: $'+ncDeployed.toFixed(0)+' of $'+ncTarget.toFixed(0)+' target — room to scale if markets available');
+      }
+      // Kalshi suggestion
+      const kSettled = kalshiTrades.filter(t=>t.status==='WON'||t.status==='LOST');
+      const kWon = kSettled.filter(t=>t.status==='WON').length;
+      const kPnl = kSettled.reduce((s,t)=>s+(t.pnl||0),0);
+      if (kSettled.length >= 3) {
+        const kwr = kWon/kSettled.length*100;
+        suggestions.push('Kalshi paper: '+kWon+'W/'+(kSettled.length-kWon)+'L ('+kwr.toFixed(0)+'% WR · '+(kPnl>=0?'+$':'-$')+Math.abs(kPnl).toFixed(2)+') — evaluate for live funding');
+      } else if (kalshiTrades.length > 0) {
+        suggestions.push('Kalshi paper collecting data: '+kalshiTrades.length+' trades, '+kSettled.length+' settled so far');
+      }
+      // Arb suggestion
+      const arbSettled = arbTrades.filter(t=>t.status==='WON'||t.status==='LOST'||t.status==='CLOSED');
+      const arbProfit  = arbTrades.reduce((s,t)=>s+(t.guaranteed_profit||0),0);
+      if (arbTrades.length > 0) {
+        suggestions.push('Arbitrage captured $'+arbProfit.toFixed(2)+' guaranteed across '+arbTrades.length+' opportunities ('+arbSettled.length+' closed) — consider scaling leg size');
+      }
+
+      // OKs — bankroll, settles today, gap clean
+      if (realized > 0) oks.push('Bankroll up '+fmtPnl(realized).replace(/<[^>]+>/g,'')+' since start');
+      if (todaySettles >= 10) oks.push('Active day: '+todaySettles+' settles so far');
+      if (longestGapMin <= 20 && last24.length > 5) oks.push('No trading gaps in last 24h (longest '+Math.round(longestGapMin)+'min)');
+
+      // Render blocks
+      const blockHeader = (color, title, count) =>
+        '<div style="color:'+color+';font-weight:700;margin-bottom:4px;margin-top:10px">'+title+' ('+count+')</div>';
+      const line = (color, prefix, text) =>
+        '<div style="color:'+color+';font-size:0.78em;margin-bottom:2px">'+prefix+' '+esc(text)+'</div>';
+
+      html += blockHeader('#ee3344', 'Warnings', warnings.length);
+      if (warnings.length) warnings.slice(0,10).forEach(s=>{ html += line('#ee3344', '⚠', s); });
+      else html += '<div style="color:#555;font-size:0.78em">✓ No warnings</div>';
+
+      html += blockHeader('#ffaa00', 'Suggestions', suggestions.length);
+      if (suggestions.length) suggestions.forEach(s=>{ html += line('#ffaa00', '→', s); });
+      else html += '<div style="color:#555;font-size:0.78em">No suggestions — nothing to optimize right now</div>';
+
+      html += blockHeader('#00cc66', 'Healthy / OK', oks.length);
+      if (oks.length) oks.forEach(s=>{ html += line('#00cc66', '✓', s); });
+      else html += '<div style="color:#555;font-size:0.78em">No healthy signals computed (need more data)</div>';
 
       el.innerHTML = html;
       const countEl = document.getElementById('audit-count');
-      if (countEl) countEl.textContent = issues.length+' issues · live';
+      if (countEl) countEl.textContent = warnings.length+' warn · '+suggestions.length+' sug · '+oks.length+' ok';
     } catch(e) {
       if (el) el.innerHTML = '<div class="dim">Audit error: '+e.message+'</div>';
     }
