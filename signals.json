@@ -1,32 +1,15 @@
 {
-  "last_scan": "2026-04-16T18:45:13.399786+00:00",
-  "scan_seconds": 30.6,
-  "markets_scanned": 83,
+  "last_scan": "2026-04-16T18:48:03.627139+00:00",
+  "scan_seconds": 24.7,
+  "markets_scanned": 85,
   "open_positions": 43,
   "signals": [
     {
-      "id": "sig_871181",
-      "timestamp": "2026-04-16T18:44:54.815324+00:00",
+      "id": "sig_48700",
+      "timestamp": "2026-04-16T18:47:52.333478+00:00",
       "source": "PERPLEXITY",
-      "headline": "Based on the available search results, I cannot identify a breaking news announcement from today (April 16, 2026) that w",
-      "raw": "Based on the available search results, I cannot identify a breaking news announcement from today (April 16, 2026) that would move prediction markets on these topics.\n\nThe most recent search results are from **April 15, 2026**, which report that **mediators are working to extend the Iran ceasefire for another two weeks**, with the ceasefire set to expire in approximately one week. Iran has rejected",
-      "direction": "NO",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Will Russia enter Ternuvate again by April 30?",
-        "US x Iran permanent peace deal by April 30, 2026?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_876547",
-      "timestamp": "2026-04-16T18:45:00.181116+00:00",
-      "source": "PERPLEXITY",
-      "headline": "HEADLINE | YES | HIGH confidence**",
-      "raw": "HEADLINE | YES | HIGH confidence**  \nIran has agreed to a ceasefire and reopening of the Strait of Hormuz after the U.S. achieved all core military objectives in Operation Epic Fury in just 38 days, including obliterating Iran's navy (150 warships destroyed, all submarines sunk), ballistic missiles, air force (flights reduced to zero), and defense industrial base[3][4].  \nWhite House confirms this",
+      "headline": "King Charles Confirmed for Late April State Visit to Trump White House Amid US-UK Tensions Over Iran Conflict | YES | ME",
+      "raw": "King Charles Confirmed for Late April State Visit to Trump White House Amid US-UK Tensions Over Iran Conflict | YES | MED confidence**\n\nKing Charles is scheduled to arrive in the U.S. for an official state visit at the end of April 2026, as stated by President Trump in a Telegraph interview and corroborated by UK media reports[1][2]. Trump praised Charles as a \"good man\" and \"great gentleman\" whil",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
@@ -39,43 +22,55 @@
       "category": "POLITICS"
     },
     {
-      "id": "sig_883773",
-      "timestamp": "2026-04-16T18:45:07.407578+00:00",
+      "id": "sig_58993",
+      "timestamp": "2026-04-16T18:48:02.626457+00:00",
       "source": "PERPLEXITY",
-      "headline": "Solana (SOL) Hits Record 167 Million Monthly Token Holders on April 14, 2026 | YES | HIGH confidence**",
-      "raw": "Solana (SOL) Hits Record 167 Million Monthly Token Holders on April 14, 2026 | YES | HIGH confidence**  \nThis milestone, confirmed as of April 14 alongside daily non-vote transactions at historic highs of 148 million, reflects surging network activity amid the Alpenglow consensus upgrade aiming to reduce transaction finality to 150 milliseconds[1]. Institutional holdings by BlackRock and Fidelity ",
+      "headline": "Trump Nominates Kevin Warsh as Next Fed Chair, Signaling Potential Shift to Rate Cuts Amid AI-Driven Productivity and Cr",
+      "raw": "Trump Nominates Kevin Warsh as Next Fed Chair, Signaling Potential Shift to Rate Cuts Amid AI-Driven Productivity and Critique of Inflation Models** | YES | HIGH confidence[1][2][4][5]\n\nWarsh's nomination, announced by President Trump on or around January 30, 2026, positions him to replace Jerome Powell whose term ends in May 2026, if confirmed by the Senate[2][5]. He advocates viewing **inflation",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
-        "Solana Up or Down - April 17, 4:40AM-4:45AM ET",
-        "Solana Up or Down - April 16, 4:45PM-4:50PM ET"
+        "Kevin Warsh confirmed as Fed Chair by May 15?",
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
       ],
       "action": "ENTER",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "ECONOMICS"
     },
     {
-      "id": "sig_883779",
-      "timestamp": "2026-04-16T18:45:07.413837+00:00",
+      "id": "sig_54058",
+      "timestamp": "2026-04-16T18:47:57.691236+00:00",
       "source": "PERPLEXITY",
-      "headline": "No major confirmed announcements today on Solana price surge, XRP, or prediction market movers | NO | HIGH confidence**",
-      "raw": "No major confirmed announcements today on Solana price surge, XRP, or prediction market movers | NO | HIGH confidence**  \nSOL price analyses indicate bearish pressure entering April, with a head-and-shoulders breakdown targeting $73 and consolidation near $78\u2013$95 support, though some project $88\u2013$100 by month-end if breakout occurs[2][3][4][5][6]. XRP mentions CLARITY Act vote in late April and ET",
-      "direction": "NO",
-      "confidence": 0.65,
+      "headline": "Solana Alpenglow Consensus Upgrade Advances with Firedancer Progress and Governance Approval | YES | HIGH confidence**",
+      "raw": "Solana Alpenglow Consensus Upgrade Advances with Firedancer Progress and Governance Approval | YES | HIGH confidence**  \nSolana's network hit a record 167 million monthly token holders and 148 million daily non-vote transactions as of April 14, 2026, fueled by the Alpenglow upgrade slashing finality to 150 milliseconds and Firedancer validator developments.[2][6]  \nA governance vote for Alpenglow ",
+      "direction": "YES",
+      "confidence": 0.78,
       "matched_markets": [
         "Will the price of XRP be above $0.90 on April 21?",
-        "Solana Up or Down - April 17, 4:40AM-4:45AM ET",
-        "Solana Up or Down - April 16, 4:45PM-4:50PM ET"
+        "Solana Up or Down - April 17, 4:40AM-4:45AM ET"
       ],
       "action": "ALERT",
       "x_link": null,
       "category": "CRYPTO"
+    },
+    {
+      "id": "sig_44288",
+      "timestamp": "2026-04-16T18:47:47.921049+00:00",
+      "source": "PERPLEXITY",
+      "headline": "LOW confidence** in any market-moving development today, as searches yield no events post-April 13[1][3][7]",
+      "raw": "LOW confidence** in any market-moving development today, as searches yield no events post-April 13[1][3][7].",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
     }
   ],
   "stats": {
-    "enter": 3,
-    "alert": 1,
+    "enter": 2,
+    "alert": 2,
     "watch": 0,
-    "high_conf": 3
+    "high_conf": 2
   }
 }
