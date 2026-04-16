@@ -1,30 +1,51 @@
 {
-  "last_scan": "2026-04-16T18:08:18.304665+00:00",
-  "scan_seconds": 31.4,
+  "last_scan": "2026-04-16T18:11:05.552197+00:00",
+  "scan_seconds": 26.6,
   "markets_scanned": 76,
   "open_positions": 41,
   "signals": [
     {
-      "id": "sig_654721",
-      "timestamp": "2026-04-16T18:07:58.357655+00:00",
+      "id": "sig_826961",
+      "timestamp": "2026-04-16T18:10:50.597317+00:00",
       "source": "PERPLEXITY",
-      "headline": "HEADLINE:** US Ends Sanctions Waivers for Russian and Iranian Oil Imports | CONFIRMED | HIGH confidence",
-      "raw": "HEADLINE:** US Ends Sanctions Waivers for Russian and Iranian Oil Imports | CONFIRMED | HIGH confidence",
-      "direction": null,
+      "headline": "King Charles' US State Visit and Meeting with President Trump Confirmed for Late April 2026** | YES | HIGH confidence[1]",
+      "raw": "King Charles' US State Visit and Meeting with President Trump Confirmed for Late April 2026** | YES | HIGH confidence[1][2][3][4]\n\nKing Charles is set to make his first official US state visit, addressing Congress the week of April 27 and meeting President Trump to celebrate America's 250th independence anniversary, despite UK political backlash and Gulf tensions[1][2][3][4]. The trip remains on t",
+      "direction": "YES",
       "confidence": 0.9,
-      "matched_markets": [],
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces end of military operations against Iran by A",
+        "US x Iran permanent peace deal by April 30, 2026?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_821025",
+      "timestamp": "2026-04-16T18:10:44.661798+00:00",
+      "source": "PERPLEXITY",
+      "headline": "HEADLINE: Turkish President Erdo\u011fan Issues \"Be Ready for All Scenarios\" Directive to Military Amid Escalating Tensions w",
+      "raw": "HEADLINE: Turkish President Erdo\u011fan Issues \"Be Ready for All Scenarios\" Directive to Military Amid Escalating Tensions with Israel Following Iran Strikes (April 15, 2026)** | **YES** | **HIGH** confidence[1][2]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "US x Iran permanent peace deal by April 30, 2026?",
+        "US x Iran permanent peace deal by April 22, 2026?"
+      ],
       "action": "ALERT",
       "x_link": null,
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_654727",
-      "timestamp": "2026-04-16T18:07:58.363252+00:00",
+      "id": "sig_821031",
+      "timestamp": "2026-04-16T18:10:44.667175+00:00",
       "source": "PERPLEXITY",
-      "headline": "Treasury Secretary Scott Bessent confirmed that the U",
-      "raw": "Treasury Secretary Scott Bessent confirmed that the U.S. will not extend sanctions waivers that previously allowed limited purchases of Russian and Iranian oil.**[3] The waiver for Russian oil expired on April 11th, while the Iranian oil waiver is set to lapse on April 19th.[3]",
-      "direction": null,
-      "confidence": 0.9,
+      "headline": "HEADLINE: Russian and Turkish FMs Discuss Iran Crisis Resolution and Ukraine Talks on April 14, with Turkey Offering Ist",
+      "raw": "HEADLINE: Russian and Turkish FMs Discuss Iran Crisis Resolution and Ukraine Talks on April 14, with Turkey Offering Istanbul as Venue** | **YES** | **MED** confidence[2]",
+      "direction": "YES",
+      "confidence": 0.65,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
         "Will Russia enter Ternuvate again by April 30?",
@@ -35,144 +56,99 @@
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_654743",
-      "timestamp": "2026-04-16T18:07:58.379498+00:00",
+      "id": "sig_821037",
+      "timestamp": "2026-04-16T18:10:44.673353+00:00",
       "source": "PERPLEXITY",
-      "headline": "**Energy Market Implications:** The expiration of waivers raises concerns over global energy supply and the impact on co",
-      "raw": "**Energy Market Implications:** The expiration of waivers raises concerns over global energy supply and the impact on countries relying on discounted oil imports, likely to affect crude oil prices and energy markets.[3]",
-      "direction": null,
-      "confidence": 0.78,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_654748",
-      "timestamp": "2026-04-16T18:07:58.384746+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Broader Context:** The waivers were introduced to stabilize global oil prices during conflict, but faced strong critic",
-      "raw": "**Broader Context:** The waivers were introduced to stabilize global oil prices during conflict, but faced strong criticism from U.S. lawmakers who argued they benefited Russia's war efforts.[3]\n\nThis development tightens sanctions enforcement and eliminates a significant loophole in the U.S. sanctions regime against Russia and Iran, representing a material shift in energy market dynamics and geop",
-      "direction": null,
-      "confidence": 0.78,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_673667",
-      "timestamp": "2026-04-16T18:08:17.303722+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Kevin Warsh's first move as Fed chair could be a rate hike amid surging U",
-      "raw": "Kevin Warsh's first move as Fed chair could be a rate hike amid surging U.S. core inflation at 3.9% (pre-oil shock) and global energy shocks pushing oil above $100/barrel | NO | HIGH confidence**  \nU.S. annual core inflation has jumped to 3.9%, with Morgan Stanley estimating 3-month annualized core PCE at 4.56%\u2014more than double the Fed's 2% target\u2014prompting Fed discussions and market pricing of a ",
+      "headline": "HEADLINE: US-Led Iran Ceasefire Talks Collapse in Islamabad (Reported April 12), Fueling Escalation Fears in Strait of H",
+      "raw": "HEADLINE: US-Led Iran Ceasefire Talks Collapse in Islamabad (Reported April 12), Fueling Escalation Fears in Strait of Hormuz** | **YES** | **HIGH** confidence[3]",
       "direction": "YES",
-      "confidence": 0.78,
+      "confidence": 0.65,
       "matched_markets": [
-        "Kevin Warsh confirmed as Fed Chair by May 15?",
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "US x Iran permanent peace deal by April 30, 2026?",
+        "US x Iran permanent peace deal by April 22, 2026?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_834030",
+      "timestamp": "2026-04-16T18:10:57.666693+00:00",
+      "source": "PERPLEXITY",
+      "headline": "CLARITY Act** nears Senate Banking markup vote in late April (endorsed by Brian Armstrong on April 9), with XRP at $1",
+      "raw": "CLARITY Act** nears Senate Banking markup vote in late April (endorsed by Brian Armstrong on April 9), with XRP at $1.35 seeing $119.6M inflows and $1B in spot ETFs\u2014but no \"just confirmed\" resolution or Bitcoin news.[5]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the price of Bitcoin be above $62,000 on April 20?",
+        "Will the price of XRP be above $0.90 on April 21?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_834035",
+      "timestamp": "2026-04-16T18:10:57.671941+00:00",
+      "source": "PERPLEXITY",
+      "headline": "LOW confidence** in market-moving events today; reports reflect mid-April analysis (e",
+      "raw": "LOW confidence** in market-moving events today; reports reflect mid-April analysis (e.g., April 14), not real-time \"RIGHT NOW\" announcements\u2014all sources predate 6 PM UTC.[1][5]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_840898",
+      "timestamp": "2026-04-16T18:11:04.534924+00:00",
+      "source": "PERPLEXITY",
+      "headline": "I cannot provide the breaking news headline you're requesting in the format specified",
+      "raw": "I cannot provide the breaking news headline you're requesting in the format specified.\n\nThe search results provided do not contain information about events breaking \"RIGHT NOW\" on April 16, 2026. Instead, they contain articles from earlier dates (February-March 2026 and earlier) discussing Kevin Warsh's nomination as Federal Reserve chair, inflation concerns, and his potential policy direction.\n\nT",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Kevin Warsh confirmed as Fed Chair by May 15?"
       ],
       "action": "ALERT",
       "x_link": null,
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_654732",
-      "timestamp": "2026-04-16T18:07:58.368873+00:00",
+      "id": "sig_840909",
+      "timestamp": "2026-04-16T18:11:04.545674+00:00",
       "source": "PERPLEXITY",
-      "headline": "Key Market-Moving Details:**",
-      "raw": "Key Market-Moving Details:**",
+      "headline": "**Current market-moving announcements** about inflation, the Fed, or Kevin Warsh on April 16, 2026, please provide more",
+      "raw": "**Current market-moving announcements** about inflation, the Fed, or Kevin Warsh on April 16, 2026, please provide more recent search results.",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Kevin Warsh confirmed as Fed Chair by May 15?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_840915",
+      "timestamp": "2026-04-16T18:11:04.551067+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Analysis of existing information** about Warsh's nomination and Fed policy direction from the earlier articles, I can",
+      "raw": "**Analysis of existing information** about Warsh's nomination and Fed policy direction from the earlier articles, I can help with that using the current search results.\n\nWhich would be most helpful?",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_654738",
-      "timestamp": "2026-04-16T18:07:58.374186+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**India Impact:** India, a major beneficiary of the temporary relief, had imported large volumes of discounted Russian o",
-      "raw": "**India Impact:** India, a major beneficiary of the temporary relief, had imported large volumes of discounted Russian oil under these waivers.[3]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_661383",
-      "timestamp": "2026-04-16T18:08:05.019030+00:00",
-      "source": "PERPLEXITY",
-      "headline": "King Charles' White House visit remains in doubt amid US-UK tensions post-Iran war, but he won't budge on planned Trump",
-      "raw": "King Charles' White House visit remains in doubt amid US-UK tensions post-Iran war, but he won't budge on planned Trump meeting for US 250th anniversary.** | NO | MED confidence[1][2]\n\nUK-US relations fractured after reported US military action (\"obliterated\" Iran's military), prompting Labour figures like Emily Thornberry to urge delaying King Charles' spring 2026 Washington DC visit to avoid emb",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces end of military operations against Iran by A",
-        "Will the White House call a full lid by 6:30PM on April 14?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_668663",
-      "timestamp": "2026-04-16T18:08:12.299209+00:00",
-      "source": "PERPLEXITY",
-      "headline": "XRP Records Largest Weekly Inflows ($119",
-      "raw": "XRP Records Largest Weekly Inflows ($119.6M) Unseating Bitcoin and Solana | YES | HIGH confidence**  \nXRP led digital asset investment products with $119.6 million in inflows last week per CoinShares data, its strongest since mid-December 2025, amid a $224 million total market inflow and year-to-date XRP inflows reaching 7% of assets under management; Bitcoin had $107.3 million, Solana $34.9 milli",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_668679",
-      "timestamp": "2026-04-16T18:08:12.315602+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Solana Teases XRP Integration via Cryptic X Post (April 15) | NO | LOW confidence**",
-      "raw": "Solana Teases XRP Integration via Cryptic X Post (April 15) | NO | LOW confidence**  \nSolana's official X post with a \"XRP\"-tagged video sparked cross-chain speculation, boosting XRP 2.4% to $1.39 and excitement from Phantom/Raydium, but no formal partnership confirmed\u2014purely sentiment-driven.[2][6] Solana benefits from ETF assets over $1B and record fees.[5]",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the price of XRP be above $0.90 on April 21?",
-        "Solana Up or Down - April 17, 4:40AM-4:45AM ET",
-        "Solana Up or Down - April 16, 4:45PM-4:50PM ET"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_668674",
-      "timestamp": "2026-04-16T18:08:12.310085+00:00",
-      "source": "PERPLEXITY",
-      "headline": "SEC CLARITY Act Roundtable Today (April 16) on Crypto Regulation | NO | MED confidence**",
-      "raw": "SEC CLARITY Act Roundtable Today (April 16) on Crypto Regulation | NO | MED confidence**  \nXRP and Solana prices steadied ahead of the SEC-led roundtable today, with hopes for clarity boosting sentiment, whale accumulation, and Solana holding above $80 support toward $86-$100 potential; no outcomes confirmed yet.[3] The bill could cement XRP's commodity status if advancing.[4]",
-      "direction": "NO",
-      "confidence": 0.6,
-      "matched_markets": [
-        "Will the price of XRP be above $0.90 on April 21?",
-        "Solana Up or Down - April 17, 4:40AM-4:45AM ET",
-        "Solana Up or Down - April 16, 4:45PM-4:50PM ET"
-      ],
-      "action": "WATCH",
-      "x_link": null,
-      "category": "CRYPTO"
+      "category": "ECONOMICS"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 10,
-    "watch": 1,
-    "high_conf": 2
+    "enter": 1,
+    "alert": 8,
+    "watch": 0,
+    "high_conf": 1
   }
 }
