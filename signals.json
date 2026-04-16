@@ -1,64 +1,101 @@
 {
-  "last_scan": "2026-04-16T01:02:32.249592+00:00",
-  "scan_seconds": 29.1,
+  "last_scan": "2026-04-16T01:05:29.205685+00:00",
+  "scan_seconds": 34.9,
   "markets_scanned": 74,
   "open_positions": 39,
   "signals": [
     {
-      "id": "sig_107698",
-      "timestamp": "2026-04-16T01:02:11.395222+00:00",
+      "id": "sig_287884",
+      "timestamp": "2026-04-16T01:05:11.581745+00:00",
       "source": "PERPLEXITY",
-      "headline": "Kremlin Welcomes U",
-      "raw": "Kremlin Welcomes U.S.-Israel-Iran Two-Week Ceasefire Deal Amid Ongoing Strait of Hormuz Tensions | YES | MED confidence**\n\nThe Kremlin publicly welcomed a two-week ceasefire agreement between the United States, Israel, and Iran, announced on Wednesday (April 8, 2026), emphasizing de-escalation and a shift to diplomatic talks while supporting non-escalation without mutual defense commitments to Ira",
-      "direction": "YES",
+      "headline": "**Ukraine's response**: Zelenskyy confirmed mirroring the ceasefire, emphasizing peace progress",
+      "raw": "**Ukraine's response**: Zelenskyy confirmed mirroring the ceasefire, emphasizing peace progress. [2][3]",
+      "direction": null,
       "confidence": 0.9,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Will Russia enter Ternuvate again by April 30?",
-        "US x Iran diplomatic meeting by April 18, 2026?"
-      ],
-      "action": "ENTER",
+      "matched_markets": [],
+      "action": "ALERT",
       "x_link": null,
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_127551",
-      "timestamp": "2026-04-16T01:02:31.248883+00:00",
+      "id": "sig_304507",
+      "timestamp": "2026-04-16T01:05:28.204722+00:00",
       "source": "PERPLEXITY",
-      "headline": "Kevin Warsh Appointed New Federal Reserve Chair** | YES | HIGH confidence[4]",
-      "raw": "Kevin Warsh Appointed New Federal Reserve Chair** | YES | HIGH confidence[4]  \nKevin Warsh's appointment as Fed chair, announced by President Trump, marks a confirmed leadership shift succeeding Jerome Powell in May 2026 (pending Senate confirmation), signaling potential policy evolution including rate cuts, balance sheet reduction, and a new inflation framework blaming fiscal mismanagement over l",
+      "headline": "Kevin Warsh's nomination as next Fed Chair amid surging annual inflation (core PCE at 4",
+      "raw": "Kevin Warsh's nomination as next Fed Chair amid surging annual inflation (core PCE at 4.56%, pre-oil shock) and potential rate hike signals \"Warsh era\" challenges | YES | HIGH confidence**\n\nKevin Warsh is positioned to succeed Jerome Powell as Fed Chair by mid-May 2026, facing immediate pressure from annual core inflation hitting 3.9% (translating to 4.56% 3-month annualized core PCE, over double ",
       "direction": "YES",
-      "confidence": 0.9,
+      "confidence": 0.78,
       "matched_markets": [
         "Kevin Warsh confirmed as Fed Chair by May 15?",
         "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
       ],
-      "action": "ENTER",
+      "action": "ALERT",
       "x_link": null,
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_113481",
-      "timestamp": "2026-04-16T01:02:17.178709+00:00",
+      "id": "sig_287879",
+      "timestamp": "2026-04-16T01:05:11.576148+00:00",
       "source": "PERPLEXITY",
-      "headline": "Explanation**: A comprehensive real-time search across major news outlets (e",
-      "raw": "Explanation**: A comprehensive real-time search across major news outlets (e.g., Reuters, AP, BBC, Fox, CNN), White House press releases, Polymarket/ PredictIt updates, and official statements from involved parties shows zero new confirmations, announcements, or resolutions matching these terms in the last hour. No events involving JD Vance (VP), April (month or otherwise), White House, King Charl",
+      "headline": "**Russia's unilateral declaration**: Ordered pause for Easter, expecting Ukraine reciprocity; troops instructed to stop",
+      "raw": "**Russia's unilateral declaration**: Ordered pause for Easter, expecting Ukraine reciprocity; troops instructed to stop operations. [1]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_287890",
+      "timestamp": "2026-04-16T01:05:11.587107+00:00",
+      "source": "PERPLEXITY",
+      "headline": "No updates post-April 12 in results; nothing ties to \"Ternuvate,\" ongoing April talks, or Russian commitment beyond East",
+      "raw": "No updates post-April 12 in results; nothing ties to \"Ternuvate,\" ongoing April talks, or Russian commitment beyond Easter. [1][2][3]",
       "direction": "NO",
-      "confidence": 0.6,
+      "confidence": 0.65,
       "matched_markets": [
-        "Will the White House call a full lid by 6:30PM on April 14?",
-        "Will Trump say \"Obliterated\" or \"Obliteration\" during King Charles visit?",
-        "Will Trump say \"Discombobulator\" or \"Discombobulated\" in April?"
+        "Will Russia enter Ternuvate again by April 30?"
       ],
-      "action": "WATCH",
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_287895",
+      "timestamp": "2026-04-16T01:05:11.592679+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Market movement potential: LOW**\u2014short-term holiday pause already priced in days ago, no new resolutions confirmed",
+      "raw": "Market movement potential: LOW**\u2014short-term holiday pause already priced in days ago, no new resolutions confirmed. [1][2][3]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_294331",
+      "timestamp": "2026-04-16T01:05:18.028433+00:00",
+      "source": "PERPLEXITY",
+      "headline": "King Charles to Visit US to Engage Trump Amid Iran Conflict Tensions | NO | HIGH confidence**",
+      "raw": "King Charles to Visit US to Engage Trump Amid Iran Conflict Tensions | NO | HIGH confidence**  \nBuckingham Palace rebuked President Trump's claim that King Charles would oppose the UK government's stance on the Iran war, with a source stating \"The King is above politics.\"[1]  \nSeparately, reports confirm King Charles plans a US trip to \"woo Trump and restore 'closest of friendships'\" as the confli",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces end of military operations against Iran by A",
+        "US x Iran diplomatic meeting by April 18, 2026?"
+      ],
+      "action": "ALERT",
       "x_link": null,
       "category": "POLITICS"
     }
   ],
   "stats": {
-    "enter": 2,
-    "alert": 0,
-    "watch": 1,
-    "high_conf": 2
+    "enter": 0,
+    "alert": 6,
+    "watch": 0,
+    "high_conf": 1
   }
 }
