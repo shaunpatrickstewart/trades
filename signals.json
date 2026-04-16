@@ -1,19 +1,33 @@
 {
-  "last_scan": "2026-04-16T11:33:24.251725+00:00",
-  "scan_seconds": 32.7,
+  "last_scan": "2026-04-16T11:36:10.184476+00:00",
+  "scan_seconds": 26.6,
   "markets_scanned": 83,
   "open_positions": 41,
   "signals": [
     {
-      "id": "sig_979590",
-      "timestamp": "2026-04-16T11:33:23.250451+00:00",
+      "id": "sig_145518",
+      "timestamp": "2026-04-16T11:36:09.177689+00:00",
       "source": "PERPLEXITY",
-      "headline": "Kevin Warsh Confirmation Hearing Scheduled for Next Week | CONFIRMED | HIGH confidence**",
-      "raw": "Kevin Warsh Confirmation Hearing Scheduled for Next Week | CONFIRMED | HIGH confidence**\n\nSenate Banking Committee Chairman Tim Scott announced that **Kevin Warsh's confirmation hearing is set for next Tuesday** (April 22, 2026) to consider Trump's nomination as Federal Reserve chair.[1][5] This hearing represents a significant procedural milestone, as Warsh has completed the required financial di",
+      "headline": "I cannot identify a specific breaking news event from today (April 16, 2026) in the provided search results",
+      "raw": "I cannot identify a specific breaking news event from today (April 16, 2026) in the provided search results. The most recent article is dated April 6, 2026, which discusses Kevin Warsh's nomination as Fed chair and the challenges he faces given current inflation and geopolitical tensions, but this predates today by 10 days and would not constitute breaking news at this moment.\n\nTo provide the head",
       "direction": null,
-      "confidence": 0.9,
+      "confidence": 0.65,
       "matched_markets": [
-        "Kevin Warsh confirmed as Fed Chair by May 15?",
+        "Kevin Warsh confirmed as Fed Chair by May 15?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_145524",
+      "timestamp": "2026-04-16T11:36:09.183534+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**April 6 context**: Market participants were pricing a 70% probability of the Fed holding rates steady through year-end",
+      "raw": "**April 6 context**: Market participants were pricing a 70% probability of the Fed holding rates steady through year-end[1], and annual inflation stood at 2.8% as of February 2026[2].\n\nIf there has been a significant announcement today regarding Warsh's confirmation, a major inflation data release, or a Fed policy decision, it is not reflected in these search results. I recommend checking real-tim",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
         "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
       ],
       "action": "ALERT",
@@ -21,56 +35,27 @@
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_966075",
-      "timestamp": "2026-04-16T11:33:09.735249+00:00",
+      "id": "sig_133416",
+      "timestamp": "2026-04-16T11:35:57.075483+00:00",
       "source": "PERPLEXITY",
-      "headline": "OPERATION EPIC FURY OBLITERATES IRANIAN REGIME ASSETS; NO CEASEFIRE DEAL AFTER 21-HOUR TALKS | NO | HIGH confidence**",
-      "raw": "OPERATION EPIC FURY OBLITERATES IRANIAN REGIME ASSETS; NO CEASEFIRE DEAL AFTER 21-HOUR TALKS | NO | HIGH confidence**\n\nWhite House confirms **Operation Epic Fury** under President Trump has **obliterated** Iran's air/naval capabilities, ballistic missile arsenal/production, and 7,000+ targets in three weeks, crippling its terrorism funding\u2014polls show 77-94% Republican/**Vance**/MAGA support.[1]  \n",
+      "headline": "Trump Announces Iran War Could End Soon Amid US Blockade and Vance-Led Talks | YES | HIGH confidence**",
+      "raw": "Trump Announces Iran War Could End Soon Amid US Blockade and Vance-Led Talks | YES | HIGH confidence**  \nUS President Donald Trump stated the conflict with Iran \"can be over very soon\" and \"will end soon,\" predicting an \"amazing two days ahead\" without needing to extend the expiring two-week ceasefire, as US forces enforce a blockade on Iranian ports[2].  \nThis follows VP JD Vance leading US-Iran ",
       "direction": "YES",
-      "confidence": 0.78,
+      "confidence": 0.6,
       "matched_markets": [
         "Will J.D. Vance win the 2028 Republican presidential nominat",
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
         "Trump announces end of military operations against Iran by A"
       ],
-      "action": "ALERT",
+      "action": "WATCH",
       "x_link": null,
       "category": "POLITICS"
-    },
-    {
-      "id": "sig_971194",
-      "timestamp": "2026-04-16T11:33:14.854475+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Solana (SOL) hits all-time high of 167 million monthly token holders with daily non-vote transactions at 148 million, am",
-      "raw": "Solana (SOL) hits all-time high of 167 million monthly token holders with daily non-vote transactions at 148 million, amid Alpenglow upgrade progress to 150ms finality and institutional ETF holdings by BlackRock/Fidelity | YES | MED confidence** [1][5]\n\nNo confirmed breaking announcements today (April 16, 2026) for Ethereum; recent Solana network records from April 14 drive bullish momentum, while",
-      "direction": "YES",
-      "confidence": 0.78,
-      "matched_markets": [
-        "Solana Up or Down - April 17, 4:40AM-4:45AM ET",
-        "Ethereum Up or Down - April 16, 7AM ET"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_961097",
-      "timestamp": "2026-04-16T11:33:04.757067+00:00",
-      "source": "PERPLEXITY",
-      "headline": "LOW confidence** in any market-moving resolution soon, as trilateral US-Ukraine-Russia talks (e",
-      "raw": "LOW confidence** in any market-moving resolution soon, as trilateral US-Ukraine-Russia talks (e.g., Geneva rounds) discuss ceasefire monitoring but face impasses on Donbas withdrawal and elections, with no new announcements today.[3]",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
     }
   ],
   "stats": {
     "enter": 0,
-    "alert": 4,
-    "watch": 0,
-    "high_conf": 1
+    "alert": 2,
+    "watch": 1,
+    "high_conf": 0
   }
 }
