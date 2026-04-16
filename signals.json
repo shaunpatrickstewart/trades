@@ -1,63 +1,123 @@
 {
-  "last_scan": "2026-04-16T18:13:58.956391+00:00",
-  "scan_seconds": 32.1,
+  "last_scan": "2026-04-16T18:16:47.157758+00:00",
+  "scan_seconds": 24.1,
   "markets_scanned": 77,
   "open_positions": 40,
   "signals": [
     {
-      "id": "sig_996438",
-      "timestamp": "2026-04-16T18:13:40.074112+00:00",
+      "id": "sig_170716",
+      "timestamp": "2026-04-16T18:16:34.351647+00:00",
       "source": "PERPLEXITY",
-      "headline": "Russia and Ukraine Agree to Easter Ceasefire** | YES | HIGH confidence[1]",
-      "raw": "Russia and Ukraine Agree to Easter Ceasefire** | YES | HIGH confidence[1]\n\nRussia announced a temporary ceasefire for Orthodox Easter, starting 4:00 p.m. Saturday April 11 and lasting until Sunday end, with Ukraine's Zelensky confirming reciprocation hours later[1]. This mutual agreement marks a confirmed short-term halt amid ongoing war, contrasting recent deadly Russian strikes reported today[3]",
+      "headline": "King Charles III State Visit to White House Confirmed for April 27-30, Hosted by President Trump to Mark US 250th Annive",
+      "raw": "King Charles III State Visit to White House Confirmed for April 27-30, Hosted by President Trump to Mark US 250th Anniversary** | YES | HIGH confidence[1][2][4]\n\nBuckingham Palace announced King Charles III and Queen Camilla's first US state visit, including a White House banquet on April 28, following Trump's UK visit and amid GOP pushes for election reforms like voter ID via reconciliation[1][2]",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Will Russia enter Ternuvate again by April 30?"
+        "Will the White House call a full lid by 6:30PM on April 14?",
+        "Will Trump say \"Obliterated\" or \"Obliteration\" during King Charles visit?",
+        "Will Chris Dudley win the 2026 Oregon Governor Republican primary election?"
       ],
       "action": "ENTER",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_177088",
+      "timestamp": "2026-04-16T18:16:40.723655+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Minor catalysts: Rakuten Wallet XRP listing (yesterday), U",
+      "raw": "Minor catalysts: Rakuten Wallet XRP listing (yesterday), U.S.-Iran ceasefire rally[1][2].\n\nNo sources report fresh confirmations, announcements, or resolutions post-6 PM UTC today; buzz remains speculative (e.g., unconfirmed Solana-XRP ties, pending CLARITY markup)[1][2][3][4]. Price action ties to yesterday's events and macro relief, not \"just confirmed\" news[1][5].",
+      "direction": "NO",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_166118",
+      "timestamp": "2026-04-16T18:16:29.753470+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Confidence: HIGH**\u2014based on consistent reporting of post-Easter escalations across sources, with no new official announc",
+      "raw": "Confidence: HIGH**\u2014based on consistent reporting of post-Easter escalations across sources, with no new official announcements.[1][2][3][4]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
       "x_link": null,
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_14320",
-      "timestamp": "2026-04-16T18:13:57.955395+00:00",
+      "id": "sig_177071",
+      "timestamp": "2026-04-16T18:16:40.707005+00:00",
       "source": "PERPLEXITY",
-      "headline": "Kevin Warsh Named Next Fed Chair, Sparking Rate Hike Fears Amid Surging Inflation** | YES | HIGH confidence[1][2][3]",
-      "raw": "Kevin Warsh Named Next Fed Chair, Sparking Rate Hike Fears Amid Surging Inflation** | YES | HIGH confidence[1][2][3]\n\nKevin Warsh's appointment as the successor to Jerome Powell as Federal Reserve chair has been confirmed, triggering global market turmoil including a 5.3% plunge in South Korea's Kospi index below 5,000 points[3]. Annual core inflation has jumped to 3.9% (pre-oil shock), pushing 3-",
-      "direction": "YES",
-      "confidence": 0.9,
+      "headline": "**XRP's record $119",
+      "raw": "**XRP's record $119.6M inflows** last week (ending April 11), unseating Bitcoin and Solana, amid Evernorth SPAC merger progress for a public XRP treasury[1][2].",
+      "direction": null,
+      "confidence": 0.65,
       "matched_markets": [
-        "Kevin Warsh confirmed as Fed Chair by May 15?",
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+        "Will the price of XRP be above $0.90 on April 21?",
+        "Solana Up or Down - April 17, 4:40AM-4:45AM ET",
+        "Solana Up or Down - April 16, 4:45PM-4:50PM ET"
       ],
-      "action": "ENTER",
+      "action": "ALERT",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_3119",
-      "timestamp": "2026-04-16T18:13:46.754563+00:00",
+      "id": "sig_177077",
+      "timestamp": "2026-04-16T18:16:40.712468+00:00",
       "source": "PERPLEXITY",
-      "headline": "KING CHARLES TO ADDRESS CONGRESS IN HISTORIC FIRST STATE VISIT DURING LAST WEEK OF APRIL AMID TRUMP-STARMER TENSIONS** |",
-      "raw": "KING CHARLES TO ADDRESS CONGRESS IN HISTORIC FIRST STATE VISIT DURING LAST WEEK OF APRIL AMID TRUMP-STARMER TENSIONS** | YES | HIGH confidence\n\nKing Charles III's visit to Washington, including a speech to Congress\u2014the first by a British monarch since 1991\u2014is planned for the last week of April, as exclusively learned by Fox News[1]. No specific date or time is confirmed yet[1]. The announcement co",
-      "direction": "YES",
-      "confidence": 0.6,
+      "headline": "**Solana's XRP tease** (April 15): Official Solana X post with \"XRP\" video sparking viral speculation of integration, bo",
+      "raw": "**Solana's XRP tease** (April 15): Official Solana X post with \"XRP\" video sparking viral speculation of integration, boosting both tokens 2.4%+ without confirmation[4][7][8][9].",
+      "direction": null,
+      "confidence": 0.65,
       "matched_markets": [
-        "Will J.D. Vance win the 2028 Republican presidential nominat",
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces end of military operations against Iran by A"
+        "Will the price of XRP be above $0.90 on April 21?",
+        "Solana Up or Down - April 17, 4:40AM-4:45AM ET",
+        "Solana Up or Down - April 16, 4:45PM-4:50PM ET"
       ],
-      "action": "WATCH",
+      "action": "ALERT",
       "x_link": null,
-      "category": "POLITICS"
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_177082",
+      "timestamp": "2026-04-16T18:16:40.717932+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**SEC CLARITY Act roundtable today (April 16)**: Ongoing event driving anticipation for regulatory clarity, with XRP/Sol",
+      "raw": "**SEC CLARITY Act roundtable today (April 16)**: Ongoing event driving anticipation for regulatory clarity, with XRP/Solana holding supports ($1.30/$80) and eyeing $1.50/$100[2][3].",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the price of XRP be above $0.90 on April 21?",
+        "Solana Up or Down - April 17, 4:40AM-4:45AM ET",
+        "Solana Up or Down - April 16, 4:45PM-4:50PM ET"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_182522",
+      "timestamp": "2026-04-16T18:16:46.157156+00:00",
+      "source": "PERPLEXITY",
+      "headline": "NO | LOW confidence** \u2013 No \"just confirmed/resolved\" events; nomination is old news (2",
+      "raw": "NO | LOW confidence** \u2013 No \"just confirmed/resolved\" events; nomination is old news (2.5 months ago), with speculation on inflation (persistent ~3% floor) but nothing market-moving today.[1][2][5]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
     }
   ],
   "stats": {
     "enter": 2,
-    "alert": 0,
-    "watch": 1,
+    "alert": 5,
+    "watch": 0,
     "high_conf": 2
   }
 }
