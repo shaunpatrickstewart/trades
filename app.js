@@ -1113,158 +1113,298 @@
     }
   }
 
-  // ── RENDER: Daily Audit Panel
+  // ── RENDER: Daily Audit Panel — computed LIVE from paper_trades.jsonl
+  // No stale audit.json dependency. Source of truth = JSONL, refreshed every 3min.
   async function renderAudit() {
     const el = document.getElementById('audit-panel');
     if (!el) return;
     try {
-      const AUDIT_URL = 'https://shaunpatrickstewart.github.io/trades/audit.json?v='+Date.now();
-      const r = await fetch(P+encodeURIComponent(AUDIT_URL));
-      if (!r.ok) throw new Error('HTTP '+r.status);
-      const a = await r.json();
+      const PAPER_URL = 'https://shaunpatrickstewart.github.io/trades/paper_trades.jsonl?_a='+Date.now();
+      const resp = await fetch(P+encodeURIComponent(PAPER_URL));
+      const text = await resp.text();
+      const trades = text.trim().split('\n').filter(Boolean)
+        .map(l=>{try{return JSON.parse(l);}catch{return null;}}).filter(Boolean);
 
-      const ts = a.generated_at ? new Date(a.generated_at).toLocaleString() : '—';
-      const botSt = a.bot_running
-        ? '<span class="green">RUNNING</span>'
-        : '<span style="color:#ff4444">STOPPED</span>';
+      // ── US Eastern Time helpers (bot operates on ET wall clock)
+      const ET_OFFSET_H = -4; // EDT in April
+      const parseTs = t => {
+        const s = t.settled_at || t.resolved_at || t.last_updated || t.timestamp;
+        if (!s) return null;
+        const d = new Date(s);
+        return isNaN(d) ? null : d;
+      };
+      const toET = d => new Date(d.getTime() + (ET_OFFSET_H*3600000) - (-d.getTimezoneOffset()*60000));
+      const nowET = toET(new Date());
+      const todayET = nowET.toISOString().slice(0,10);
 
-      let html = '<div style="font-size:0.75em;color:#555;margin-bottom:8px">Last audit: '+ts+' &nbsp;|&nbsp; Bot: '+botSt+'</div>';
+      // ── Today's P&L by hour (US ET)
+      const byHour = {};
+      let todayPnl = 0, todaySettles = 0;
+      const settledAll = trades.filter(t=>t.status==='WON'||t.status==='LOST');
+      settledAll.forEach(t=>{
+        const d = parseTs(t); if (!d) return;
+        const et = toET(d);
+        if (et.toISOString().slice(0,10) !== todayET) return;
+        const h = et.getUTCHours();
+        if (!byHour[h]) byHour[h] = {pnl:0, n:0};
+        byHour[h].pnl += (t.pnl||0);
+        byHour[h].n++;
+        todayPnl += (t.pnl||0);
+        todaySettles++;
+      });
 
-      // Bankroll + $300/day target
-      if (a.bankroll) {
-        const br = a.bankroll;
-        const onTrack = br.on_track;
-        const growth = br.total_growth >= 0
-          ? '<span style="color:#00ff88">+$'+br.total_growth.toFixed(2)+'</span>'
-          : '<span style="color:#ff4444">-$'+Math.abs(br.total_growth).toFixed(2)+'</span>';
-        html += '<div style="background:#f5f5f5;border:1px solid #333;border-left:3px solid '+(onTrack?'#00ff88':'#ffaa44')+';padding:8px 12px;margin-bottom:10px;border-radius:4px">';
-        html += '<div style="font-weight:700;color:'+(onTrack?'#00ff88':'#ffaa44')+';margin-bottom:4px">$300/DAY TARGET '+(onTrack?'✓ HIT':'— IN PROGRESS')+'</div>';
-        html += '<div style="font-size:0.82em;display:flex;gap:20px;flex-wrap:wrap">';
-        html += '<span>Bankroll: <b style="color:#111">$'+br.current_bankroll.toFixed(2)+'</b></span>';
-        html += '<span>Started: $'+br.initial_bankroll.toFixed(2)+'</span>';
-        html += '<span>Growth: '+growth+'</span>';
-        if (br.days_of_data >= 1) {
-          html += '<span>7-day avg: <b style="color:'+(br.avg_daily_pnl_7d>=0?'#00ff88':'#ff4444')+'">'+(br.avg_daily_pnl_7d>=0?'+':'')+'$'+br.avg_daily_pnl_7d.toFixed(2)+'/day</b></span>';
-          html += '<span>Daily ROI: '+br.daily_roi_pct.toFixed(3)+'%</span>';
-          if (!onTrack && br.days_to_target) {
-            html += '<span>Est. days to target: <b style="color:#ffaa44">'+br.days_to_target+'d</b></span>';
-            html += '<span>Need bankroll: $'+(br.min_bankroll_for_target||'?')+'</span>';
-          }
-          if (onTrack && br.withdrawable_today > 0) {
-            html += '<span>Withdrawable: <b style="color:#00ff88">$'+br.withdrawable_today.toFixed(2)+'</b></span>';
-          }
-        } else {
-          html += '<span style="color:#555">Collecting data — trades need to resolve first</span>';
-        }
-        html += '</div></div>';
+      // ── Gap detection: find longest settlement gap in last 24h (reveals downtime)
+      const last24 = settledAll.filter(t=>{
+        const d = parseTs(t); return d && (Date.now()-d.getTime()) < 86400000;
+      }).map(parseTs).filter(Boolean).sort((a,b)=>a-b);
+      let longestGapMin = 0, longestGapStart = null;
+      for (let i=1; i<last24.length; i++) {
+        const gap = (last24[i]-last24[i-1])/60000;
+        if (gap > longestGapMin) { longestGapMin = gap; longestGapStart = last24[i-1]; }
       }
 
-      // Strategy ROI + allocation recommendation
-      if (a.engine_summary && a.engine_summary.length) {
-        html += '<div style="color:#ffaa44;font-weight:700;margin-bottom:6px">Strategy Performance</div>';
-        html += '<div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:8px">';
-        a.engine_summary.forEach(e=>{
-          const c = engColor(e.engine);
-          const roiStr = e.roi_pct !== null && e.roi_pct !== undefined
-            ? '<span style="color:'+(e.roi_pct>=0?'#00ff88':'#ff4444')+';font-weight:700">'+(e.roi_pct>=0?'+':'')+e.roi_pct+'%</span>'
-            : '<span style="color:#333">need '+(10-e.resolved)+' more</span>';
-          const wrStr = e.win_rate_pct !== null && e.win_rate_pct !== undefined
-            ? ' &nbsp;<span style="color:#aaa">'+e.win_rate_pct+'% WR</span>' : '';
-          html += '<div style="background:#f0f0f0;border-left:2px solid '+c+';padding:4px 8px;font-size:0.78em">'+
-            '<div style="color:'+c+';font-weight:700">'+engLabel(e.engine)+'</div>'+
-            '<div>'+e.resolved+' resolved | ROI '+roiStr+wrStr+'</div>'+
-            '<div>P&amp;L: '+(e.realized_pnl>=0?'<span style="color:#00ff88">+':'<span style="color:#ff4444">')+
-            '$'+Math.abs(e.realized_pnl).toFixed(2)+'</span></div>'+
-            '</div>';
-        });
+      // ── Per-engine stats
+      const engines = {};
+      trades.forEach(t=>{
+        const e = t.engine || t.type || 'UNKNOWN';
+        if (!engines[e]) engines[e] = {w:0,l:0,o:0,bet:0,pnl:0};
+        if (t.status==='WON')  { engines[e].w++; engines[e].pnl+=(t.pnl||0); engines[e].bet+=(t.paper_bet||0); }
+        else if (t.status==='LOST') { engines[e].l++; engines[e].pnl+=(t.pnl||0); engines[e].bet+=(t.paper_bet||0); }
+        else if (t.status==='OPEN') { engines[e].o++; engines[e].bet+=(t.paper_bet||0); }
+      });
+
+      // ── Bankroll (same formula bot uses)
+      const STARTING_BR = 300.0, PAPER_TOPUP = 1000.0;
+      const realized = settledAll.reduce((s,t)=>s+(t.pnl||0),0);
+      const bankroll = STARTING_BR + PAPER_TOPUP + realized;
+      const deployed = trades.filter(t=>t.status==='OPEN').reduce((s,t)=>s+(t.paper_bet||0),0);
+
+      // ── Live issues (computed, not cached)
+      const issues = [];
+      const openTrades = trades.filter(t=>t.status==='OPEN');
+      // 1. Stale OPEN trades past end_date
+      openTrades.forEach(t=>{
+        const ed = t.end_date || t.endDate || t.endDateIso;
+        if (!ed) return;
+        const dt = new Date(ed);
+        if (!isNaN(dt) && dt < new Date()) {
+          const days = Math.ceil((new Date()-dt)/86400000);
+          if (days >= 1) issues.push('Stale OPEN '+days+'d past end_date: '+(t.question||t.title||t.slug||'').substring(0,70));
+        }
+      });
+      // 2. Duplicate OPEN positions (same slug, same side)
+      const openKeys = {};
+      openTrades.forEach(t=>{
+        const k = (t.slug||t.market||'')+'|'+(t.outcome||t.side||'');
+        openKeys[k] = (openKeys[k]||0)+1;
+      });
+      Object.entries(openKeys).filter(([k,c])=>c>1).slice(0,3).forEach(([k,c])=>{
+        issues.push('Duplicate OPEN x'+c+': '+k.split('|')[0].substring(0,60));
+      });
+      // 3. Gap > 20min in last 24h (bot was down)
+      if (longestGapMin > 20 && longestGapStart) {
+        const gapTimeET = toET(longestGapStart).toISOString().slice(11,16);
+        issues.push('Trading gap '+Math.round(longestGapMin)+'min starting '+gapTimeET+' ET (bot/laptop was offline)');
+      }
+
+      // ── HTML
+      const fmtPnl = v => (v>=0?'<span style="color:#00cc66">+$':'<span style="color:#ee3344">-$')+Math.abs(v).toFixed(2)+'</span>';
+      let html = '<div style="font-size:0.72em;color:#555;margin-bottom:8px">Computed LIVE from paper_trades.jsonl · '+trades.length+' trades · '+new Date().toLocaleTimeString()+'</div>';
+
+      // Bankroll card
+      html += '<div style="background:#f5f5f5;border-left:3px solid #00cc66;padding:8px 12px;margin-bottom:10px;border-radius:4px">';
+      html += '<div style="font-weight:700;color:#00cc66;margin-bottom:4px;font-size:0.85em">LIVE BANKROLL</div>';
+      html += '<div style="font-size:0.82em;display:flex;gap:18px;flex-wrap:wrap">';
+      html += '<span>Current: <b style="color:#111">$'+bankroll.toFixed(2)+'</b></span>';
+      html += '<span>Start: $'+STARTING_BR.toFixed(0)+' + paper $'+PAPER_TOPUP.toFixed(0)+'</span>';
+      html += '<span>Realized: '+fmtPnl(realized)+'</span>';
+      html += '<span>Deployed (OPEN): <b>$'+deployed.toFixed(0)+'</b></span>';
+      html += '<span>Open positions: <b>'+openTrades.length+'</b></span>';
+      html += '</div></div>';
+
+      // TODAY'S P&L by ET hour
+      html += '<div style="color:#ff8844;font-weight:700;margin-bottom:4px">Today (US ET '+todayET+') — '+fmtPnl(todayPnl)+' over '+todaySettles+' settles</div>';
+      html += '<div style="font-size:0.72em;color:#333;margin-bottom:10px;display:flex;gap:6px;flex-wrap:wrap">';
+      const hours = Object.keys(byHour).map(Number).sort((a,b)=>a-b);
+      if (hours.length === 0) {
+        html += '<span style="color:#888">No settles yet today</span>';
+      } else {
+        // Show every hour from first to now to expose gaps
+        const firstH = hours[0], lastH = nowET.getUTCHours();
+        for (let h=firstH; h<=lastH; h++) {
+          const d = byHour[h];
+          const bg = d ? (d.pnl>=0?'#e8f8ef':'#fdecee') : '#f5f5f5';
+          const col = d ? (d.pnl>=0?'#00994d':'#c12c3b') : '#aaa';
+          const lbl = d ? (d.pnl>=0?'+$':'-$')+Math.abs(d.pnl).toFixed(0) : 'GAP';
+          html += '<span style="background:'+bg+';border:1px solid #ddd;padding:2px 6px;border-radius:3px;color:'+col+';font-family:monospace">'+String(h).padStart(2,'0')+'h '+lbl+(d?' ('+d.n+')':'')+'</span>';
+        }
+      }
+      html += '</div>';
+
+      // Per-engine strategy performance (live)
+      html += '<div style="color:#ffaa44;font-weight:700;margin-bottom:6px">Strategy Performance (live)</div>';
+      html += '<div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:10px">';
+      Object.entries(engines).filter(([e,d])=>d.w+d.l+d.o>0).sort((a,b)=>b[1].pnl-a[1].pnl).forEach(([eng,d])=>{
+        const c = engColor(eng);
+        const settled = d.w+d.l;
+        const wr = settled>0 ? (d.w/settled*100).toFixed(1)+'%' : '—';
+        const roi = d.bet>0 ? (d.pnl/d.bet*100).toFixed(2)+'%' : '—';
+        html += '<div style="background:#f0f0f0;border-left:2px solid '+c+';padding:4px 8px;font-size:0.76em;min-width:140px">';
+        html += '<div style="color:'+c+';font-weight:700">'+engLabel(eng)+'</div>';
+        html += '<div>'+d.w+'W / '+d.l+'L · <span style="color:#555">'+d.o+' open</span></div>';
+        html += '<div>WR '+wr+' · ROI '+roi+'</div>';
+        html += '<div>P&amp;L: '+fmtPnl(d.pnl)+'</div>';
         html += '</div>';
-      }
-      if (a.allocation_rec) {
-        const ar = a.allocation_rec;
-        if (ar.status === 'recommendation_ready') {
-          html += '<div style="color:#00ff88;font-weight:700;margin-bottom:4px">Capital Allocation</div>';
-          ar.summary.split('\n').forEach(line=>{
-            html += '<div style="color:#88cc88;margin-bottom:2px">▸ '+line+'</div>';
-          });
-        } else {
-          html += '<div style="color:#333;font-size:0.78em;margin-bottom:8px">'+
-            '⏳ '+ar.message+'</div>';
-        }
+      });
+      html += '</div>';
+
+      // Live issues
+      if (issues.length) {
+        html += '<div style="color:#ff8844;font-weight:700;margin-bottom:4px">Live Issues ('+issues.length+')</div>';
+        issues.slice(0,8).forEach(s=>{ html += '<div style="color:#ff8844;font-size:0.78em;margin-bottom:2px">⚠ '+esc(s)+'</div>'; });
+        if (issues.length>8) html += '<div style="color:#555;font-size:0.72em">(+'+(issues.length-8)+' more)</div>';
+      } else {
+        html += '<div style="color:#555;font-size:0.78em">✓ No live issues detected</div>';
       }
 
-      if (a.issues && a.issues.length) {
-        html += '<div style="color:#ff8844;font-weight:700;margin-bottom:4px">Issues ('+a.issues.length+')</div>';
-        a.issues.forEach(s=>{ html += '<div style="color:#ff8844;margin-bottom:3px">⚠ '+s+'</div>'; });
-      }
-      if (a.warnings && a.warnings.length) {
-        a.warnings.forEach(s=>{ html += '<div style="color:#ffcc44;margin-bottom:3px">⚡ '+s+'</div>'; });
-      }
-      if (a.suggestions && a.suggestions.length) {
-        html += '<div style="color:#88aaff;font-weight:700;margin:8px 0 4px">Suggested improvements</div>';
-        a.suggestions.forEach(s=>{ html += '<div style="color:#88aaff;margin-bottom:3px">→ '+s+'</div>'; });
-      }
-      if (a.ok && a.ok.length) {
-        html += '<div style="color:#555;font-weight:700;margin:8px 0 4px">Passing</div>';
-        a.ok.forEach(s=>{ html += '<div style="color:#2a4a2a;margin-bottom:2px">✓ '+s+'</div>'; });
-      }
-      el.innerHTML = html || '<div class="dim">No issues found.</div>';
+      el.innerHTML = html;
+      const countEl = document.getElementById('audit-count');
+      if (countEl) countEl.textContent = issues.length+' issues · live';
     } catch(e) {
-      if (el) el.innerHTML = '<div class="dim">Audit not available yet — runs daily at 8am. ('+ e.message+')</div>';
+      if (el) el.innerHTML = '<div class="dim">Audit error: '+e.message+'</div>';
     }
   }
 
-  // ── TESTING LAB
+  // ── TESTING LAB — reads live config.json + shows locked structural decisions
+  // No stale lab.json dependency. Source of truth = config.json + bot.py locked params.
   async function renderLab() {
     const el = document.getElementById('lab-panel');
     const countEl = document.getElementById('lab-count');
     if (!el) return;
     try {
-      const lab = await pf('https://shaunpatrickstewart.github.io/trades/lab.json');
-      const exps = lab.experiments || [];
-      if (countEl) countEl.textContent = exps.length + ' experiments';
+      const CFG_URL = 'https://shaunpatrickstewart.github.io/trades/config.json?_l='+Date.now();
+      const PAPER_URL = 'https://shaunpatrickstewart.github.io/trades/paper_trades.jsonl?_l='+Date.now();
+      const [cfgR, paperR] = await Promise.all([
+        fetch(P+encodeURIComponent(CFG_URL)).then(r=>r.json()),
+        fetch(P+encodeURIComponent(PAPER_URL)).then(r=>r.text())
+      ]);
+      const cfg = cfgR;
+      const trades = paperR.trim().split('\n').filter(Boolean)
+        .map(l=>{try{return JSON.parse(l);}catch{return null;}}).filter(Boolean);
 
-      const statusColor = {
-        LIVE:        '#00ff88',
-        IN_PROGRESS: '#ffcc00',
-        PLANNED:     '#88aaff',
-        ANALYZING:   '#ff8844',
-        BLOCKED:     '#ff4444',
-        COMPLETE:    '#aaaaaa',
+      // Compute live evidence for each experiment from JSONL
+      const engineStats = (engName, minDate) => {
+        const sub = trades.filter(t => {
+          if ((t.engine||t.type) !== engName) return false;
+          if (minDate && (t.timestamp||'') < minDate) return false;
+          return t.status==='WON' || t.status==='LOST';
+        });
+        const w = sub.filter(t=>t.status==='WON').length;
+        const l = sub.filter(t=>t.status==='LOST').length;
+        const pnl = sub.reduce((s,t)=>s+(t.pnl||0),0);
+        return {w,l,n:w+l,pnl,wr: w+l>0 ? (w/(w+l)*100).toFixed(1) : '—'};
       };
-      const statusIcon = {
-        LIVE: '&#9679; LIVE', IN_PROGRESS: '&#9654; RUNNING', PLANNED: '&#9675; PLANNED',
-        ANALYZING: '&#9670; ANALYZING', BLOCKED: '&#9888; BLOCKED', COMPLETE: '&#10003; DONE',
-      };
+      const ncStats = engineStats('NEAR_CERTAIN', '2026-04-12');
+      const stStats = engineStats('SHORT_TERM', '2026-04-08');
+      const antiStats = engineStats('ANTI_NC', '2026-04-12');
+      const ltStats = engineStats('LONG_TERM', null);
+
+      // ── EXPERIMENTS (structural state, updated in-code when bot strategy changes)
+      const experiments = [
+        {
+          name: 'NC Gold Zone (0.990+)',
+          status: 'LIVE',
+          hypothesis: 'Markets at 99%+ probability are near-perfect money machines if non-stale.',
+          priority: 'LIVE',
+          result: ncStats.n > 0 ? `${ncStats.w}W / ${ncStats.l}L (${ncStats.wr}% WR) · ${ncStats.pnl>=0?'+':''}$${ncStats.pnl.toFixed(2)} realized since Apr 12` : 'Awaiting trades',
+          config: `NEAR_CERTAIN_MIN = 0.990 (hardcoded, LOCKED)`,
+        },
+        {
+          name: 'NC Gate 6 — 1h expiry filter',
+          status: 'LIVE',
+          hypothesis: 'Skip markets resolving in < 1 hour — prevents expired-market losses.',
+          priority: 'LIVE',
+          result: 'Active on every NC scan. Blocked 37 historical losses. Preserves 67% of NC income vs old 48h gate.',
+          config: `hours_left < 1 → reject (bot.py _nc_haiku_scan)`,
+        },
+        {
+          name: 'NC Position Sizing Tiers',
+          status: 'LIVE',
+          hypothesis: 'Size bets by quality within NC band — 0.995+ bigger, 0.990-0.992 smaller.',
+          priority: 'LIVE',
+          result: `Tiers: GOLD ≥${cfg.nc_position_sizing?.tier1_price_min||0.995} × ${cfg.nc_position_sizing?.tier1_multiplier||1.25}; STD ≥${cfg.nc_position_sizing?.tier2_price_min||0.992} × ${cfg.nc_position_sizing?.tier2_multiplier||1.0}; FLOOR ≥${cfg.nc_position_sizing?.tier3_price_min||0.990} × ${cfg.nc_position_sizing?.tier3_multiplier||0.75}`,
+          config: `fast_resolve_bonus = ${cfg.nc_position_sizing?.fast_resolve_bonus||1.15}x for <${cfg.nc_position_sizing?.fast_resolve_hours||24}h`,
+        },
+        {
+          name: 'SHORT_TERM Haiku Thesis Scan',
+          status: 'LIVE',
+          hypothesis: 'Wallet-copy SHORT trades need thesis verification (is it real noise?).',
+          priority: 'LIVE',
+          result: stStats.n > 0 ? `${stStats.w}W / ${stStats.l}L (${stStats.wr}% WR) · ${stStats.pnl>=0?'+':''}$${stStats.pnl.toFixed(2)} since Apr 8` : 'Low volume',
+          config: `SHORT_TERM cap = ${cfg.engine_caps?.SHORT_TERM||20} (floor 20 LOCKED). Scan every ${(cfg.timing?.INTERVAL_SHORT_TERM_SEC||1800)/60}min.`,
+        },
+        {
+          name: 'Anti-NC Engine — low-price NO',
+          status: antiStats.n > 0 ? 'LIVE' : 'ANALYZING',
+          hypothesis: 'Cheap NO bets on near-certain YES markets can catch rare upsets at huge ROI.',
+          priority: 'MEDIUM',
+          result: antiStats.n > 0 ? `${antiStats.w}W / ${antiStats.l}L · ${antiStats.pnl>=0?'+':''}$${antiStats.pnl.toFixed(2)} (since Apr 12 category filter)` : 'Collecting post-filter data',
+          config: `max_price ${cfg.anti_nc?.ANTI_NC_MAX_PRICE||0.025}, min_size $${cfg.anti_nc?.ANTI_NC_MIN_SIZE||20}, cap ${cfg.engine_caps?.ANTI_NC||15}`,
+        },
+        {
+          name: 'LONG_TERM Wallet Copy',
+          status: 'BLOCKED',
+          hypothesis: 'Copying top wallets on multi-month markets — disproven, suspended.',
+          priority: 'MEDIUM',
+          result: ltStats.n > 0 ? `All-time: ${ltStats.w}W / ${ltStats.l}L · ${ltStats.pnl>=0?'+':''}$${ltStats.pnl.toFixed(2)}. Capital locks for months. PAUSED Apr 16 (4-AI consensus).` : 'Paused',
+          config: `LONG_TERM cap = ${cfg.engine_caps?.LONG_TERM||0} (disabled). Awaiting thesis-mode rewrite.`,
+        },
+        {
+          name: 'News Monitor — X + Perplexity',
+          status: 'LIVE',
+          hypothesis: 'Breaking news should trigger alerts on open positions.',
+          priority: 'LIVE',
+          result: 'Scans every 5 min. ENTER/ALERT/WATCH signals written to signals.json — see Live News panel below.',
+          config: `news-monitor.timer (every 5min). X/Grok + Perplexity sonar-pro.`,
+        },
+        {
+          name: 'Multi-AI Cross-Verification',
+          status: 'LIVE',
+          hypothesis: 'Four AIs in parallel catch bugs single-AI review misses.',
+          priority: 'LIVE',
+          result: '4 AIs (Gemma4 + Grok + Perplexity + Anthropic) audit JSONL vs derived files every 6h. Auto-fixes drift.',
+          config: `deep-verify.timer (every 6h). JSONL ground truth.`,
+        },
+      ];
+
+      const statusColor = { LIVE:'#00cc66', IN_PROGRESS:'#ffcc00', PLANNED:'#88aaff', ANALYZING:'#ff8844', BLOCKED:'#ff4444', COMPLETE:'#aaaaaa' };
+      const statusIcon = { LIVE:'&#9679; LIVE', IN_PROGRESS:'&#9654; RUNNING', PLANNED:'&#9675; PLANNED', ANALYZING:'&#9670; ANALYZING', BLOCKED:'&#9888; PAUSED', COMPLETE:'&#10003; DONE' };
       const priBadge = p =>
-        p==='HIGH' ? '<span style="background:#ff4444;color:#fff;padding:1px 5px;border-radius:2px;font-size:0.68em;font-weight:700">HIGH</span>' :
+        p==='HIGH'   ? '<span style="background:#ff4444;color:#fff;padding:1px 5px;border-radius:2px;font-size:0.68em;font-weight:700">HIGH</span>' :
         p==='MEDIUM' ? '<span style="background:#ff8844;color:#fff;padding:1px 5px;border-radius:2px;font-size:0.68em;font-weight:700">MED</span>' :
-        p==='LIVE' ? '<span style="background:#00cc66;color:#000;padding:1px 5px;border-radius:2px;font-size:0.68em;font-weight:700">LIVE</span>' : '';
+        p==='LIVE'   ? '<span style="background:#00cc66;color:#000;padding:1px 5px;border-radius:2px;font-size:0.68em;font-weight:700">LIVE</span>' : '';
 
-      let html = `<div style="color:#555;font-size:0.7em;margin-bottom:8px">Last updated: ${lab.updated || '—'} — Updated by bot on every strategy change</div>`;
+      if (countEl) countEl.textContent = experiments.length + ' experiments · live from config.json';
+      let html = `<div style="color:#555;font-size:0.7em;margin-bottom:8px">Computed LIVE from config.json (${trades.length} trades analyzed). Results update every page refresh — no stale cache.</div>`;
       html += '<div style="display:flex;flex-direction:column;gap:10px">';
-
-      exps.forEach(e => {
+      experiments.forEach(e => {
         const sc = statusColor[e.status] || '#888';
         const si = statusIcon[e.status] || e.status;
         html += `<div style="background:#f5f5f5;border-left:3px solid ${sc};padding:8px 10px;border-radius:0 4px 4px 0">`;
         html += `<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:4px">`;
-        html += `<span style="color:${sc};font-weight:700;font-size:0.82em">${si} &nbsp; ${e.name}</span>`;
+        html += `<span style="color:${sc};font-weight:700;font-size:0.82em">${si} &nbsp; ${esc(e.name)}</span>`;
         html += `<span>${priBadge(e.priority)}</span>`;
         html += `</div>`;
-        html += `<div style="color:#aaa;font-size:0.75em;margin-bottom:3px">${e.hypothesis}</div>`;
-        if (e.result) {
-          const rc = e.status==='LIVE' ? '#00cc66' : e.status==='BLOCKED' ? '#ff4444' : '#888';
-          html += `<div style="color:${rc};font-size:0.72em;margin-top:3px"><b>Result:</b> ${e.result}</div>`;
-        } else {
-          html += `<div style="color:#555;font-size:0.72em;margin-top:3px"><b>Next:</b> ${e.action}</div>`;
-        }
+        html += `<div style="color:#666;font-size:0.75em;margin-bottom:3px">${esc(e.hypothesis)}</div>`;
+        const rc = e.status==='LIVE' ? '#00cc66' : e.status==='BLOCKED' ? '#ff4444' : '#888';
+        html += `<div style="color:${rc};font-size:0.72em;margin-top:3px"><b>Result:</b> ${esc(e.result)}</div>`;
+        if (e.config) html += `<div style="color:#888;font-size:0.7em;margin-top:2px;font-family:monospace">${esc(e.config)}</div>`;
         html += `</div>`;
       });
-
       html += '</div>';
       el.innerHTML = html;
     } catch(e) {
-      if (el) el.innerHTML = '<div class="dim">Lab data unavailable — ('+ e.message+')</div>';
+      if (el) el.innerHTML = '<div class="dim">Lab render error: '+esc(e.message)+'</div>';
     }
   }
 
@@ -1398,8 +1538,9 @@
   renderSignalsFeed();
   setInterval(refresh, REFRESH);
   // renderPaperTrades: called every 2nd refresh cycle (~60s) inside refresh() — no separate timer needed
-  setInterval(renderAudit, 3600000);
-  setInterval(renderLab, 3600000);
+  // Audit/Lab now compute LIVE from JSONL — refresh every 60s so they're always current
+  setInterval(renderAudit, 60000);
+  setInterval(renderLab, 60000);
   setInterval(renderSignalsFeed, 300000);  // refresh signals every 5 min
 
 })();

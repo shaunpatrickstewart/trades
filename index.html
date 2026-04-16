@@ -150,7 +150,7 @@
         <span class="panel-title" style="color:#ff8844">&#9670; Daily Bot Audit — Automated Health Check</span>
         <span class="panel-count" id="audit-count">—</span>
       </div>
-      <div class="panel-desc">Runs every morning at 8am. Checks engine health, stale trades, duplicates, and P&L accuracy. Issues and recommendations appear here automatically.</div>
+      <div class="panel-desc">Computed LIVE from paper_trades.jsonl on every refresh. Today's P&amp;L by US ET hour, per-engine stats, bankroll, live issue detection. No stale cache — updates every 60s.</div>
     </div>
     <div class="panel-body" id="audit-panel" style="max-height:260px">
       <div class="loader">Loading audit...</div>
@@ -166,7 +166,7 @@
         <span class="panel-title" style="color:#cc44ff">&#9650; Testing Lab — Algorithm Experiments</span>
         <span class="panel-count" id="lab-count">—</span>
       </div>
-      <div class="panel-desc">New strategy ideas and algorithm experiments. Each theory is tracked with hypothesis, current status, and early results. Bot runs these in parallel with main engines.</div>
+      <div class="panel-desc">Active strategy experiments with LIVE results computed from paper_trades.jsonl + config.json. When bot strategy changes, this reflects it immediately — no stale lab.json file.</div>
     </div>
     <div class="panel-body" id="lab-panel" style="max-height:400px">
       <div class="loader">Loading experiments...</div>
