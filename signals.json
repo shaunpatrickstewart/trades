@@ -1,64 +1,97 @@
 {
-  "last_scan": "2026-04-16T11:13:32.416239+00:00",
-  "scan_seconds": 45.1,
+  "last_scan": "2026-04-16T11:16:19.956367+00:00",
+  "scan_seconds": 28.3,
   "markets_scanned": 82,
   "open_positions": 40,
   "signals": [
     {
-      "id": "sig_757142",
-      "timestamp": "2026-04-16T11:13:00.803049+00:00",
+      "id": "sig_935771",
+      "timestamp": "2026-04-16T11:15:59.432631+00:00",
       "source": "PERPLEXITY",
-      "headline": "YES** | **HIGH confidence**",
-      "raw": "YES** | **HIGH confidence**\n\nThe White House confirmed on April 8, 2026, that **Operation Epic Fury successfully obliterated Iran's military infrastructure** over 38 days of combat operations.[1] According to Chairman of the Joint Chiefs of Staff General Dan Caine, the joint force achieved all three defined military objectives: destroying Iran's ballistic missile and drone capabilities, obliterati",
-      "direction": "YES",
+      "headline": "**Russia-Ukraine Easter ceasefire (April 11-12, 2026):** Putin announced a 32-hour halt for Orthodox Easter, halting ope",
+      "raw": "**Russia-Ukraine Easter ceasefire (April 11-12, 2026):** Putin announced a 32-hour halt for Orthodox Easter, halting operations but staying ready for aggression; experts call it humanitarian but no negotiation breakthrough.[1][2]",
+      "direction": "NO",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Will Russia enter Ternuvate again by April 30?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_935801",
+      "timestamp": "2026-04-16T11:15:59.462909+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Iran talks collapse (April 12, 2026):** Pakistan negotiations failed over Iran's nuclear stance; Trump announced US na",
+      "raw": "**Iran talks collapse (April 12, 2026):** Pakistan negotiations failed over Iran's nuclear stance; Trump announced US naval blockade of Hormuz.[5]",
+      "direction": "NO",
       "confidence": 0.9,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
         "Trump announces end of military operations against Iran by A",
-        "Will the White House call a full lid by 6:30PM on April 14?"
+        "US x Iran permanent peace deal by April 30, 2026?"
       ],
       "action": "ENTER",
       "x_link": null,
-      "category": "POLITICS"
+      "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_787753",
-      "timestamp": "2026-04-16T11:13:31.414986+00:00",
+      "id": "sig_946092",
+      "timestamp": "2026-04-16T11:16:09.753634+00:00",
       "source": "PERPLEXITY",
-      "headline": "Trump Nominates Kevin Warsh as Next Fed Chair to Replace Powell in May | YES | HIGH confidence**",
-      "raw": "Trump Nominates Kevin Warsh as Next Fed Chair to Replace Powell in May | YES | HIGH confidence**\n\nPresident Trump announced on January 31, 2026, his intention to nominate Kevin Warsh as the next Federal Reserve chair, succeeding Jerome Powell when his term ends in May 2026; Warsh is likely to be confirmed by the Senate.[3][4][5] This breaking nomination has sparked debate on Fed independence, pote",
+      "headline": "Drift Protocol Exploit Confirmed at $280M+ Loss | YES | HIGH confidence**",
+      "raw": "Drift Protocol Exploit Confirmed at $280M+ Loss | YES | HIGH confidence**  \nOn April 1, Solana's Drift Protocol suffered a $280M hack via social engineering on pre-approved transactions involving Security Council members, eroding ecosystem trust, dropping DEX volumes 40%, and pressuring SOL to $75-80 support.[4][6]",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
-        "Kevin Warsh confirmed as Fed Chair by May 15?",
-        "Will the People Power Party win 2 seats in South Korea\u2019s June 3, 2026 parliament",
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+        "Solana Up or Down - April 17, 4:40AM-4:45AM ET"
       ],
       "action": "ENTER",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_955281",
+      "timestamp": "2026-04-16T11:16:18.942177+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Kevin Warsh as Fed Chair**: His nomination was announced, but the search results show he has not yet assumed the posit",
+      "raw": "**Kevin Warsh as Fed Chair**: His nomination was announced, but the search results show he has not yet assumed the position as of the articles' publication dates.[1]",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [
+        "Kevin Warsh confirmed as Fed Chair by May 15?"
+      ],
+      "action": "ALERT",
       "x_link": null,
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_757130",
-      "timestamp": "2026-04-16T11:13:00.791112+00:00",
+      "id": "sig_935813",
+      "timestamp": "2026-04-16T11:15:59.474114+00:00",
       "source": "PERPLEXITY",
-      "headline": "Based on the search results provided, here are the key developments:",
-      "raw": "Based on the search results provided, here are the key developments:",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
+      "headline": "**Potential new Iran-US talks:** Rumored for April 16 as two-week ceasefire deadline nears, per AP, but unconfirmed as o",
+      "raw": "**Potential new Iran-US talks:** Rumored for April 16 as two-week ceasefire deadline nears, per AP, but unconfirmed as of now.[6]\n\nNo \"Ternuvate\" mentions; likely no market-moving resolutions today.[1-6] **Confidence: HIGH** (based on latest reports up to April 12; nothing post-dates 11 AM UTC today).",
+      "direction": "YES",
+      "confidence": 0.78,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Will Russia enter Ternuvate again by April 30?",
+        "US x Iran permanent peace deal by April 30, 2026?"
+      ],
       "action": "ALERT",
       "x_link": null,
-      "category": "POLITICS"
+      "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_757135",
-      "timestamp": "2026-04-16T11:13:00.796821+00:00",
+      "id": "sig_940709",
+      "timestamp": "2026-04-16T11:16:04.370280+00:00",
       "source": "PERPLEXITY",
-      "headline": "HEADLINE:** Operation Epic Fury concludes with Iran's military capabilities destroyed; ceasefire takes hold after failed",
-      "raw": "HEADLINE:** Operation Epic Fury concludes with Iran's military capabilities destroyed; ceasefire takes hold after failed nuclear negotiations",
-      "direction": null,
-      "confidence": 0.65,
+      "headline": "**Vance on Failed Talks**: VP Vance stated no deal emerged from 21-hour negotiations with Iran, amid Netanyahu's support",
+      "raw": "**Vance on Failed Talks**: VP Vance stated no deal emerged from 21-hour negotiations with Iran, amid Netanyahu's support for a ceasefire (though Israeli strikes continue in Lebanon); this resolves uncertainty around diplomacy, likely moving prediction markets on war/ceasefire odds[2].",
+      "direction": "NO",
+      "confidence": 0.78,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?"
       ],
@@ -67,42 +100,122 @@
       "category": "POLITICS"
     },
     {
-      "id": "sig_782032",
-      "timestamp": "2026-04-16T11:13:25.693287+00:00",
+      "id": "sig_935788",
+      "timestamp": "2026-04-16T11:15:59.449329+00:00",
       "source": "PERPLEXITY",
-      "headline": "LOW** confidence - Search results lack post-April 14 updates; no fresh confirmations today, with SOL compressed ~$82 and",
-      "raw": "LOW** confidence - Search results lack post-April 14 updates; no fresh confirmations today, with SOL compressed ~$82 and bearish signals noted.[2][4][5] Ethereum prices shown fluctuating ($2,196-$2,332) through April 15, no new catalysts.[6][7] Earlier Drift hack (April 1) resolved via multisig update, but not bullish.[3]",
-      "direction": "NO",
+      "headline": "**Iran-US-Israel ceasefire (agreed April 8, 2026):** Two-week deal mediated by Pakistan/T\u00fcrkiye/Egypt to reopen Strait o",
+      "raw": "**Iran-US-Israel ceasefire (agreed April 8, 2026):** Two-week deal mediated by Pakistan/T\u00fcrkiye/Egypt to reopen Strait of Hormuz and pause strikes (excluding Lebanon per Israel); faltering with violations, Hormuz still blocked, markets briefly calmed (Brent crude -15% to $93.82).[3][4]",
+      "direction": null,
       "confidence": 0.65,
       "matched_markets": [
-        "Ethereum Up or Down - April 16, 10:20AM-10:25AM ET",
-        "Ethereum Up or Down - April 16, 11:00AM-11:05AM ET",
-        "Ethereum Up or Down - April 16, 10:30AM-10:45AM ET"
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "US x Iran permanent peace deal by April 30, 2026?",
+        "US x Iran permanent peace deal by April 22, 2026?"
       ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_940714",
+      "timestamp": "2026-04-16T11:16:04.375881+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Related Coverage**: Vance addressed Trump's comments in a recent PBS interview, tying into ongoing conflict narrative[",
+      "raw": "**Related Coverage**: Vance addressed Trump's comments in a recent PBS interview, tying into ongoing conflict narrative[3]. No other confirmed resolutions match \"April\" timing precisely, but events align with \"right now\" breaking context.",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_946075",
+      "timestamp": "2026-04-16T11:16:09.736897+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Interactive Brokers Opens Solana Trading to European Investors | NO | HIGH confidence**",
+      "raw": "Interactive Brokers Opens Solana Trading to European Investors | NO | HIGH confidence**  \nInteractive Brokers launched SOL trading for European traders via Zero Hash, expanding access on one of the world's largest brokerage platforms, but SOL price remained compressed at $82.08 without breaking higher.[1]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_782026",
-      "timestamp": "2026-04-16T11:13:25.687612+00:00",
+      "id": "sig_946081",
+      "timestamp": "2026-04-16T11:16:09.742654+00:00",
       "source": "PERPLEXITY",
-      "headline": "YES** - Recent developments like Solana's Alpenglow upgrade (targeting 150ms finality), Firedancer progress, record 167M",
-      "raw": "YES** - Recent developments like Solana's Alpenglow upgrade (targeting 150ms finality), Firedancer progress, record 167M holders, and Interactive Brokers' SOL access for Europeans could influence markets, but all dated April 1-14.[1][2][4]",
-      "direction": "YES",
-      "confidence": 0.6,
-      "matched_markets": [
-        "Solana Up or Down - April 17, 4:40AM-4:45AM ET"
-      ],
-      "action": "WATCH",
+      "headline": "Solana DEX Volume Hits $117B, Surpassing Ethereum's $52B | NO | MED confidence**",
+      "raw": "Solana DEX Volume Hits $117B, Surpassing Ethereum's $52B | NO | MED confidence**  \nOver recent weeks, Solana achieved $117 billion in DEX volume\u2014more than double Ethereum's\u2014amid network activity peaks like 160 million daily transactions, though both ETH ($2,039, down 12%) and SOL (down 17%) declined in price.[2]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
       "x_link": null,
       "category": "CRYPTO"
+    },
+    {
+      "id": "sig_946087",
+      "timestamp": "2026-04-16T11:16:09.748264+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Alpenglow Upgrade Passes Governance Vote with 98",
+      "raw": "Alpenglow Upgrade Passes Governance Vote with 98.27% Approval | NO | HIGH confidence**  \nSolana's Alpenglow upgrade, targeting 100-150ms transaction finality, secured overwhelming governance support, positioning it as a fast execution layer, yet SOL trades near $80 after a 70% peak decline with no immediate price reaction.[3]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_955275",
+      "timestamp": "2026-04-16T11:16:18.936541+00:00",
+      "source": "PERPLEXITY",
+      "headline": "I cannot provide the breaking news format you're requesting because the search results do not contain current announceme",
+      "raw": "I cannot provide the breaking news format you're requesting because the search results do not contain current announcements or confirmations from today that would move prediction markets.\n\nThe search results primarily discuss **Kevin Warsh's nomination as Federal Reserve Chair** (expected by mid-May 2026) and debates about his potential policy approach, but these are older articles from January-Fe",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Kevin Warsh confirmed as Fed Chair by May 15?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_955289",
+      "timestamp": "2026-04-16T11:16:18.950030+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Annual inflation and Fed policy**: The most recent data in the search results is from early 2026, showing core PCE inf",
+      "raw": "**Annual inflation and Fed policy**: The most recent data in the search results is from early 2026, showing core PCE inflation at 3.9% with concerns about oil price shocks.[1]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_955294",
+      "timestamp": "2026-04-16T11:16:18.955495+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**South Korea**: The search results mention South Korea only as a source of analysis about Fed policy expectations, not",
+      "raw": "**South Korea**: The search results mention South Korea only as a source of analysis about Fed policy expectations, not as breaking news.[2]\n\nTo provide accurate breaking news in the format you requested (HEADLINE | YES or NO | Confidence level), I would need search results with today's date or very recent announcements. The current results are outdated for real-time market-moving events.",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
     }
   ],
   "stats": {
-    "enter": 2,
-    "alert": 3,
-    "watch": 1,
-    "high_conf": 2
+    "enter": 3,
+    "alert": 11,
+    "watch": 0,
+    "high_conf": 4
   }
 }
