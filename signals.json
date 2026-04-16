@@ -1,16 +1,33 @@
 {
-  "last_scan": "2026-04-16T21:29:40.745620+00:00",
-  "scan_seconds": 27.5,
+  "last_scan": "2026-04-16T21:32:27.015745+00:00",
+  "scan_seconds": 21.6,
   "markets_scanned": 85,
   "open_positions": 39,
   "signals": [
     {
-      "id": "sig_751578",
-      "timestamp": "2026-04-16T21:29:35.202193+00:00",
+      "id": "sig_908031",
+      "timestamp": "2026-04-16T21:32:11.655032+00:00",
       "source": "PERPLEXITY",
-      "headline": "# Breaking Crypto Market Developments - April 2026",
-      "raw": "# Breaking Crypto Market Developments - April 2026\n\n| **Development** | **Confirmed/Announced** | **Confidence** |\n|---|---|---|\n| **Solana Alpenglow Upgrade - Transaction Finality Cut to 150ms** | YES | HIGH |\n| **Solana Hits 167M Monthly Token Holders (ATH)** | YES | HIGH |\n| **XRP-Solana DeFi Integration Across Multiple Chains** | YES | HIGH |\n| **CLARITY Act Markup (Late April) - 72% Polymarke",
+      "headline": "Trump announced new executive orders, sanctions, and pressure on Iran (April 16 live), signaling escalation not de-escal",
+      "raw": "Trump announced new executive orders, sanctions, and pressure on Iran (April 16 live), signaling escalation not de-escalation.[6]  \nEarlier Russia welcomed the initial US-Iran two-week ceasefire (April 8) but blamed the US; no updates tie to Russia ceasing involvement or prediction-market-moving resolutions like mutual defense shifts.[1][2] These developments may shift markets toward higher confli",
       "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Will Russia enter Ternuvate again by April 30?",
+        "US x Iran permanent peace deal by April 30, 2026?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_922390",
+      "timestamp": "2026-04-16T21:32:26.015006+00:00",
+      "source": "PERPLEXITY",
+      "headline": "South Korea's annual inflation rose to 2",
+      "raw": "South Korea's annual inflation rose to 2.2% in March 2026 (from 2.0% prior), below market forecasts of 2.4% | NO | HIGH confidence**[1]\n\nThis March figure, reported around early April 2026, marks the most recent confirmed data and stayed near the Bank of Korea's 2% target amid global energy volatility from the Iran/Middle East conflict, unlikely to shift prediction markets as it missed expectation",
+      "direction": "NO",
       "confidence": 0.9,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
@@ -19,31 +36,105 @@
       ],
       "action": "ENTER",
       "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_756120",
-      "timestamp": "2026-04-16T21:29:39.744912+00:00",
-      "source": "PERPLEXITY",
-      "headline": "South Korea March 2026 Annual Inflation Confirmed at 2",
-      "raw": "South Korea March 2026 Annual Inflation Confirmed at 2.2% YoY (Up from 2.0%, Below 2.3-2.4% Consensus)** | YES | HIGH confidence[1][2][3]\n\nSouth Korea's official CPI data, released today by the Ministry of Data and Statistics, shows annual inflation rose to 2.2% in March 2026 from 2.0% in February, driven by oil prices but tempered by government fuel caps and food vouchers; monthly CPI rose 0.3% v",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_751586",
-      "timestamp": "2026-04-16T21:29:35.210635+00:00",
+      "id": "sig_918104",
+      "timestamp": "2026-04-16T21:32:21.728097+00:00",
       "source": "PERPLEXITY",
-      "headline": "Solana's Alpenglow Consensus Upgrade** was confirmed as of April 14, 2026, with the network achieving an all-time record",
-      "raw": "Solana's Alpenglow Consensus Upgrade** was confirmed as of April 14, 2026, with the network achieving an all-time record of 167 million monthly token holders and 148 million daily non-vote transactions.[5] The upgrade is designed to reduce transaction finality from 12 seconds to just 150 milliseconds, representing a major technical breakthrough.[5]",
-      "direction": null,
+      "headline": "Goldman Sachs Applies for Bitcoin ETF | YES | HIGH confidence**",
+      "raw": "Goldman Sachs Applies for Bitcoin ETF | YES | HIGH confidence**  \nWall Street giant Goldman Sachs has applied for a Bitcoin ETF, as confirmed in recent breaking news, potentially driving institutional inflows and shifting prediction markets on BTC adoption[1].",
+      "direction": "YES",
       "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_918119",
+      "timestamp": "2026-04-16T21:32:21.743917+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Major Partnership Announced Between XRP and Rakuten | YES | HIGH confidence**",
+      "raw": "Major Partnership Announced Between XRP and Rakuten | YES | HIGH confidence**  \nXRP secured a partnership with Japanese e-commerce giant Rakuten, opening payments to 44 million users and unlocking billions in potential volume, boosting XRP's enterprise utility and market sentiment[1][3][4].",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_918126",
+      "timestamp": "2026-04-16T21:32:21.750834+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Tether Purchases Significant Amount of Bitcoin | YES | MED confidence**",
+      "raw": "Tether Purchases Significant Amount of Bitcoin | YES | MED confidence**  \nTether announced a large Bitcoin purchase, adding to BTC reserves and signaling stablecoin issuer confidence amid market recovery[1].",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_908010",
+      "timestamp": "2026-04-16T21:32:11.634595+00:00",
+      "source": "PERPLEXITY",
+      "headline": "LAVROV ISSUES FINAL ULTIMATUM: IMMEDIATE CEASEFIRE OR RISK WW3 | NO | HIGH**",
+      "raw": "LAVROV ISSUES FINAL ULTIMATUM: IMMEDIATE CEASEFIRE OR RISK WW3 | NO | HIGH**  \nRussian Foreign Minister Sergey Lavrov demanded an immediate ceasefire in ongoing conflicts on April 16, 2026, warning of catastrophic global war, including potential nuclear escalation, amid US-Iran tensions.[3] This escalates rhetoric without confirming any resolution, truce extension, or deal involving Russia, Iran, ",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Will Russia enter Ternuvate again by April 30?",
+        "US x Iran permanent peace deal by April 30, 2026?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_908017",
+      "timestamp": "2026-04-16T21:32:11.642009+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Pentagon briefing (April 16) paused US operations for ceasefire talks but warned Iran to \"choose wisely\" with readiness",
+      "raw": "Pentagon briefing (April 16) paused US operations for ceasefire talks but warned Iran to \"choose wisely\" with readiness to resume strikes.[5]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "US x Iran permanent peace deal by April 30, 2026?",
+        "US x Iran permanent peace deal by April 22, 2026?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_908024",
+      "timestamp": "2026-04-16T21:32:11.648276+00:00",
+      "source": "PERPLEXITY",
+      "headline": "White House (April 15) denied formal ceasefire extension request, noting ongoing talks possibly in Pakistan",
+      "raw": "White House (April 15) denied formal ceasefire extension request, noting ongoing talks possibly in Pakistan.[4]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Will the White House call a full lid by 6:30PM on April 14?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_918134",
+      "timestamp": "2026-04-16T21:32:21.758740+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Solana Hits Record 167M Monthly Token Holders & Alpenglow Upgrade Advances | YES | HIGH confidence**",
+      "raw": "Solana Hits Record 167M Monthly Token Holders & Alpenglow Upgrade Advances | YES | HIGH confidence**  \nSolana achieved an all-time high of 167 million monthly token holders with 148 million daily non-vote transactions as of April 14, 2026, fueled by the Alpenglow consensus upgrade reducing finality to 150ms, alongside record SOL ETF holdings from BlackRock and Fidelity[2].",
+      "direction": "YES",
+      "confidence": 0.65,
       "matched_markets": [
         "Solana Up or Down - April 17, 4:40AM-4:45AM ET"
       ],
@@ -52,44 +143,27 @@
       "category": "CRYPTO"
     },
     {
-      "id": "sig_751594",
-      "timestamp": "2026-04-16T21:29:35.218045+00:00",
+      "id": "sig_918142",
+      "timestamp": "2026-04-16T21:32:21.766556+00:00",
       "source": "PERPLEXITY",
-      "headline": "XRP Expanding DeFi Footprint** across Solana, Ethereum, Optimism, and Hyper EVM via Hex Trust has been announced, with b",
-      "raw": "XRP Expanding DeFi Footprint** across Solana, Ethereum, Optimism, and Hyper EVM via Hex Trust has been announced, with both ecosystems publicly signaling support on X.[6] This cross-chain integration signals growing institutional collaboration between major blockchain networks.",
-      "direction": null,
-      "confidence": 0.9,
+      "headline": "Interactive Brokers Launches SOL Trading for Europeans | YES | MED confidence**",
+      "raw": "Interactive Brokers Launches SOL Trading for Europeans | YES | MED confidence**  \nInteractive Brokers enabled Solana trading for European investors via Zero Hash, expanding institutional access despite price compression[4].",
+      "direction": "YES",
+      "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_751600",
-      "timestamp": "2026-04-16T21:29:35.224028+00:00",
+      "id": "sig_918149",
+      "timestamp": "2026-04-16T21:32:21.773113+00:00",
       "source": "PERPLEXITY",
-      "headline": "CLARITY Act Markup Scheduled for Late April** carries 72% odds on Polymarket and could unlock $4-8 billion in dedicated",
-      "raw": "CLARITY Act Markup Scheduled for Late April** carries 72% odds on Polymarket and could unlock $4-8 billion in dedicated XRP ETF capital if passed, formally classifying XRP as a digital commodity.[2] This regulatory clarity event is a primary market catalyst expected within days.",
-      "direction": null,
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will the price of XRP be above $0.90 on April 21?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_751606",
-      "timestamp": "2026-04-16T21:29:35.230394+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Geopolitical Catalyst** - A U",
-      "raw": "Geopolitical Catalyst** - A U.S.\u2013Iran ceasefire announcement triggered a risk-on shift across crypto markets, amplifying price rallies across Bitcoin, XRP, and Solana.[1]\n\n## Price Movement Context\n\nXRP led institutional inflows with $119.6 million weekly (strongest since mid-December 2025).[1] Bitcoin rose 4.87% to $71,671.90, while Solana climbed 6.65% to $84.47.[1] These movements reflect both ",
-      "direction": null,
+      "headline": "Kraken Confirms $12B IPO Filing | NO | LOW confidence**",
+      "raw": "Kraken Confirms $12B IPO Filing | NO | LOW confidence**  \nKraken's IPO filing values the exchange at $12 billion, a broad market maturity signal but not directly tied to BTC/SOL/XRP price catalysts or prediction markets[3].",
+      "direction": "NO",
       "confidence": 0.65,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?"
-      ],
+      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "CRYPTO"
@@ -97,7 +171,7 @@
   ],
   "stats": {
     "enter": 2,
-    "alert": 4,
+    "alert": 9,
     "watch": 0,
     "high_conf": 5
   }
