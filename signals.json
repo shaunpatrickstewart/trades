@@ -1,66 +1,53 @@
 {
-  "last_scan": "2026-04-16T19:27:55.486987+00:00",
-  "scan_seconds": 32.6,
-  "markets_scanned": 101,
-  "open_positions": 59,
+  "last_scan": "2026-04-16T19:30:40.845979+00:00",
+  "scan_seconds": 26.0,
+  "markets_scanned": 87,
+  "open_positions": 44,
   "signals": [
     {
-      "id": "sig_433511",
-      "timestamp": "2026-04-16T19:27:37.142636+00:00",
+      "id": "sig_616213",
+      "timestamp": "2026-04-16T19:30:39.844725+00:00",
       "source": "PERPLEXITY",
-      "headline": "Confidence: HIGH** (search results cover latest available info up to April 11; no fresher hits on queried topics)",
-      "raw": "Confidence: HIGH** (search results cover latest available info up to April 11; no fresher hits on queried topics).",
+      "headline": "South Korea March 2026 CPI Inflation at 2",
+      "raw": "South Korea March 2026 CPI Inflation at 2.16% YoY, Up from 2.00% in Feb | NO | HIGH confidence** [3]\n\nSouth Korea's Consumer Price Index reached 118.8 in March 2026, with year-over-year inflation rising to 2.16% from 2.00% the prior month and monthly inflation at 0.34%.[3] This is the most recent data point available as of April 16, 2026, confirming a slight acceleration but remaining below the 20",
       "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_439593",
-      "timestamp": "2026-04-16T19:27:43.224298+00:00",
-      "source": "PERPLEXITY",
-      "headline": "XRPL Launches On-Ledger RISC-V ZK Verifier for Programmable Privacy | YES | HIGH confidence**",
-      "raw": "XRPL Launches On-Ledger RISC-V ZK Verifier for Programmable Privacy | YES | HIGH confidence**  \nXRPL Commons and Boundless have collaborated to deploy a RISC-V zero-knowledge (ZK) verifier directly on the XRP Ledger, making it the first public blockchain with built-in programmable privacy and compliance controls; rollout includes Q2 2026 \"Smart Escrows\" requiring ZK proofs for fund release, follow",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the price of XRP be above $1.00 on April 19?",
-        "Will XRP dip to $0.80 April 13-19?",
-        "Will the price of XRP be above $0.90 on April 21?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_450855",
-      "timestamp": "2026-04-16T19:27:54.486320+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Based on the available search results, there is no breaking news from today (April 16, 2026) about South Korean inflatio",
-      "raw": "Based on the available search results, there is no breaking news from today (April 16, 2026) about South Korean inflation. The most recent data in the search results is from **March 2026**, which showed South Korea's consumer price inflation rose to **2.2% year-on-year**[1][2][3].\n\nThe March inflation data itself was notable because it **undershot market forecasts of 2.4%**[2][3], primarily due to",
-      "direction": "NO",
-      "confidence": 0.65,
+      "confidence": 0.9,
       "matched_markets": [
         "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
       ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_439600",
-      "timestamp": "2026-04-16T19:27:43.231898+00:00",
+      "id": "sig_601720",
+      "timestamp": "2026-04-16T19:30:25.351159+00:00",
       "source": "PERPLEXITY",
-      "headline": "Bybit Launches XRPfi Yield Product with Doppler Finance (Up to 5% APR) | YES | MED confidence**",
-      "raw": "Bybit Launches XRPfi Yield Product with Doppler Finance (Up to 5% APR) | YES | MED confidence**  \nBybit rolled out XRPfi on April 14, 2026\u2014a 90-day fixed-term yield strategy offering up to 5% APR (including 2.5% bonus from 30,000 XRP pool) through July 12, 2026; assets stay on-platform with market-neutral execution by Doppler Finance.[4]  \nThis boosts XRP holder incentives amid April price stabili",
+      "headline": "Kremlin Welcomes US-Israel-Iran Ceasefire Deal as Fragile Truce Holds Amid Ongoing Tensions | YES | MED confidence**",
+      "raw": "Kremlin Welcomes US-Israel-Iran Ceasefire Deal as Fragile Truce Holds Amid Ongoing Tensions | YES | MED confidence**\n\nA two-week ceasefire between the United States, Israel, and Iran was agreed on Wednesday (April 8, 2026), pulling the region from wider war risks and addressing the severe oil supply shock from the Strait of Hormuz blockade; Russia's Kremlin spokesman Dmitry Peskov explicitly welco",
       "direction": "YES",
       "confidence": 0.6,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "US x Iran permanent peace deal by April 30, 2026?",
-        "US x Iran permanent peace deal by April 22, 2026?"
+        "Will Russia enter Ternuvate again by April 30?",
+        "Trump announces end of military operations against Iran by A"
+      ],
+      "action": "WATCH",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_611593",
+      "timestamp": "2026-04-16T19:30:35.224464+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Solana (SOL) Hits Record 167 Million Monthly Token Holders and Surges 10% on Alpenglow Upgrade Confirmation | YES | HIGH",
+      "raw": "Solana (SOL) Hits Record 167 Million Monthly Token Holders and Surges 10% on Alpenglow Upgrade Confirmation | YES | HIGH confidence** [1][5]\n\nInteractive Brokers has launched SOL trading for European investors via Zero Hash, expanding institutional access on April 14, 2026.[5] Solana network achieved an all-time high of 167 million monthly token holders with 148 million daily non-vote transactions",
+      "direction": "YES",
+      "confidence": 0.6,
+      "matched_markets": [
+        "Will the price of XRP be above $0.90 on April 21?",
+        "Solana Up or Down - April 17, 4:40AM-4:45AM ET",
+        "Ethereum Up or Down - April 17, 1:30PM-1:45PM ET"
       ],
       "action": "WATCH",
       "x_link": null,
@@ -68,9 +55,9 @@
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 3,
-    "watch": 1,
-    "high_conf": 0
+    "enter": 1,
+    "alert": 0,
+    "watch": 2,
+    "high_conf": 1
   }
 }
