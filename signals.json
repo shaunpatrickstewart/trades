@@ -1,48 +1,62 @@
 {
-  "last_scan": "2026-04-16T02:11:06.272009+00:00",
-  "scan_seconds": 23.3,
-  "markets_scanned": 140,
+  "last_scan": "2026-04-16T02:13:46.153665+00:00",
+  "scan_seconds": 19.4,
+  "markets_scanned": 139,
   "open_positions": 103,
   "signals": [
     {
-      "id": "sig_230345",
-      "timestamp": "2026-04-16T02:10:54.038927+00:00",
+      "id": "sig_389029",
+      "timestamp": "2026-04-16T02:13:32.722544+00:00",
       "source": "PERPLEXITY",
-      "headline": "Trump Announces Suspension of US Bombing Campaign on Iran with Two-Week Ceasefire After Talks | YES | HIGH confidence**[",
-      "raw": "Trump Announces Suspension of US Bombing Campaign on Iran with Two-Week Ceasefire After Talks | YES | HIGH confidence**[1]\n\nPresident Donald Trump confirmed via Truth Social that the US bombing campaign against Iran is suspended, following a 10-point proposal from Iran and talks with Pakistani leaders, allowing two weeks to finalize an agreement on reopening the Strait of Hormuz and resolving long",
+      "headline": "Russia and Ukraine agreed to a 32-hour ceasefire for Orthodox Easter, from 16:00 on April 11 until the end of April 12,",
+      "raw": "Russia and Ukraine agreed to a 32-hour ceasefire for Orthodox Easter, from 16:00 on April 11 until the end of April 12, 2026.** | YES | HIGH confidence[1][2][4][5]\n\nRussia's Kremlin announced the unilateral pause by Putin, expecting Ukraine to reciprocate, after Zelenskiy proposed it via the US; Zelenskiy confirmed Ukraine would act symmetrically for a \"real progress toward peace.\"[1][2][5]  \nThis",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Will Russia enter Ternuvate again by April 30?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_393164",
+      "timestamp": "2026-04-16T02:13:36.857845+00:00",
+      "source": "PERPLEXITY",
+      "headline": "KING CHARLES CONFIRMED FOR HISTORIC STATE VISIT TO WASHINGTON IN LATE APRIL, INCLUDING ADDRESS TO CONGRESS | YES | HIGH",
+      "raw": "KING CHARLES CONFIRMED FOR HISTORIC STATE VISIT TO WASHINGTON IN LATE APRIL, INCLUDING ADDRESS TO CONGRESS | YES | HIGH confidence**  \nFox News reports that King Charles III will visit Washington in the last week of April 2026\u2014his first state visit since ascending the throne\u2014and address Congress, marking the first such address by a British monarch since Queen Elizabeth II in 1991[3]. No exact date",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
         "Trump announces end of military operations against Iran by A",
-        "Will Donald Trump announce that the United States blockade of the Strait of Horm"
+        "US x Iran diplomatic meeting by April 18, 2026?"
       ],
       "action": "ENTER",
       "x_link": null,
       "category": "POLITICS"
     },
     {
-      "id": "sig_241578",
-      "timestamp": "2026-04-16T02:11:05.271367+00:00",
+      "id": "sig_401459",
+      "timestamp": "2026-04-16T02:13:45.152970+00:00",
       "source": "PERPLEXITY",
-      "headline": "Kevin Warsh Federal Reserve Chair Confirmation Hearings Scheduled for April 16 | NO | HIGH confidence**",
-      "raw": "Kevin Warsh Federal Reserve Chair Confirmation Hearings Scheduled for April 16 | NO | HIGH confidence**  \nNo confirmed announcements, resolutions, or new data releases on inflation, Fed policy, Kevin Warsh, or South Korea's annual inflation as of April 16, 2026, 2 AM UTC that would move prediction markets[1][2][3][4].  \n\nWarsh's confirmation hearings are set for April 16, with markets watching for",
+      "headline": "Trump Nominates Kevin Warsh as Next Fed Chair, Signaling Potential Shift in Inflation Policy and Rate Cuts** | **YES** |",
+      "raw": "Trump Nominates Kevin Warsh as Next Fed Chair, Signaling Potential Shift in Inflation Policy and Rate Cuts** | **YES** | **HIGH** confidence[1][2][3]\n\nPresident Trump announced on January 30, 2026, his nomination of Kevin Warsh\u2014former Fed governor and inflation hawk\u2014to succeed Jerome Powell as Fed Chair when Powell's term ends in mid-May 2026[2][3]. This development, amid persistent ~3% inflation,",
       "direction": "YES",
-      "confidence": 0.65,
+      "confidence": 0.9,
       "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "US x Iran diplomatic meeting by April 18, 2026?",
         "Kevin Warsh confirmed as Fed Chair by May 15?"
       ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
       "category": "ECONOMICS"
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 1,
+    "enter": 3,
+    "alert": 0,
     "watch": 0,
-    "high_conf": 1
+    "high_conf": 3
   }
 }
