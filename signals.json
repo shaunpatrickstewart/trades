@@ -1,240 +1,110 @@
 {
-  "last_scan": "2026-04-16T05:31:23.813525+00:00",
-  "scan_seconds": 52.0,
-  "markets_scanned": 80,
-  "open_positions": 39,
+  "last_scan": "2026-04-16T05:34:08.341772+00:00",
+  "scan_seconds": 23.9,
+  "markets_scanned": 127,
+  "open_positions": 88,
   "signals": [
     {
-      "id": "sig_216030",
-      "timestamp": "2026-04-16T05:30:39.711618+00:00",
+      "id": "sig_408871",
+      "timestamp": "2026-04-16T05:33:52.552380+00:00",
       "source": "PERPLEXITY",
-      "headline": "Mentions of stalled U",
-      "raw": "Mentions of stalled U.S.-led Ukraine talks and Russia's past support to Iran (e.g., targeting intel) appear in older contexts, with no resolutions or new confirmations.[4]\n\nThese events (all 5-8 days old) showed brief de-escalation signals but did not sustain, per reports of post-ceasefire escalations; nothing \"just\" confirmed impacts markets like ceasefire permanence or Ternuvate breakthroughs.[1",
-      "direction": "NO",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Will Russia enter Ternuvate again by April 30?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_222151",
-      "timestamp": "2026-04-16T05:30:45.832528+00:00",
-      "source": "PERPLEXITY",
-      "headline": "JD Vance Warns King Charles Directly on Starmer 'Ruining Britain' \u2013 US VP Bypasses UK PM in Unprecedented White House Ou",
-      "raw": "JD Vance Warns King Charles Directly on Starmer 'Ruining Britain' \u2013 US VP Bypasses UK PM in Unprecedented White House Outreach** | YES | HIGH confidence[1]\n\nJD Vance, as US Vice President, has delivered a direct and deliberate warning to **King Charles**, bypassing UK Prime Minister Keir Starmer, stating that Starmer is ruining Britain amid claims of national chaos[1]. This calculated message from",
+      "headline": "US and Iran Plan Second Round of Ceasefire Talks Before 2-Week Truce Expires; Trump Signals New Negotiations in Days | Y",
+      "raw": "US and Iran Plan Second Round of Ceasefire Talks Before 2-Week Truce Expires; Trump Signals New Negotiations in Days | YES | HIGH confidence**[1][2][4]\n\nA fragile **2-week ceasefire** in the US-Iran war, announced by President Trump on April 7, remains in effect as of April 15 reports, with Vice President JD Vance confirming it is holding after constructive talks in Islamabad.[1][2][4] US and Iran",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
-        "Will Trump say \"Obliterated\" or \"Obliteration\" during King Charles visit?"
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces end of military operations against Iran by A",
+        "US x Iran permanent peace deal by April 30, 2026?"
       ],
       "action": "ENTER",
       "x_link": null,
-      "category": "POLITICS"
+      "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_216018",
-      "timestamp": "2026-04-16T05:30:39.699468+00:00",
+      "id": "sig_408881",
+      "timestamp": "2026-04-16T05:33:52.562010+00:00",
       "source": "PERPLEXITY",
-      "headline": "Russia announced a temporary **32-hour ceasefire** in Ukraine for Orthodox Easter on April 10, ordered by Putin and reci",
-      "raw": "Russia announced a temporary **32-hour ceasefire** in Ukraine for Orthodox Easter on April 10, ordered by Putin and reciprocated by Zelenskyy, but it ended amid reported Ukrainian strikes on Russian infrastructure by April 11.[2][3]",
-      "direction": null,
+      "headline": "Russia defends Iran's nuclear enrichment rights** and warns of a US-Israel \"grand plan\" for military action post-ceasefi",
+      "raw": "Russia defends Iran's nuclear enrichment rights** and warns of a US-Israel \"grand plan\" for military action post-ceasefire, per Foreign Minister Lavrov and Russian security sources, deepening Moscow-Tehran alignment.[3][5] No mentions of \"Ternuvate\" appear in reports; query may contain a misspelling.[1][2][3][4][5] These developments\u2014confirmed ceasefire stability and imminent talks\u2014could shift pre",
+      "direction": "NO",
       "confidence": 0.9,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
         "Will Russia enter Ternuvate again by April 30?"
       ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_234649",
-      "timestamp": "2026-04-16T05:30:58.330827+00:00",
+      "id": "sig_418770",
+      "timestamp": "2026-04-16T05:34:02.451550+00:00",
       "source": "PERPLEXITY",
-      "headline": "Any recent announcements or confirmations that would typically move prediction markets",
-      "raw": "Any recent announcements or confirmations that would typically move prediction markets\n\nThe most recent substantive information in the search results is that the **Oklahoma City Thunder have clinched the #1 seed in the Western Conference with a 64-18 record**[1][3], which occurred approximately one week ago and is already reflected in current standings.",
-      "direction": null,
+      "headline": "No breaking Bitcoin-specific news confirmed",
+      "raw": "No breaking Bitcoin-specific news confirmed.**",
+      "direction": "NO",
       "confidence": 0.9,
-      "matched_markets": [
-        "Will the Oklahoma City Thunder win the 2026 NBA Finals?"
-      ],
+      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "SPORTS"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_216011",
-      "timestamp": "2026-04-16T05:30:39.692993+00:00",
+      "id": "sig_413496",
+      "timestamp": "2026-04-16T05:33:57.177640+00:00",
       "source": "PERPLEXITY",
-      "headline": "Russia welcomed the **U",
-      "raw": "Russia welcomed the **U.S.-Iran ceasefire** on April 8, with Foreign Ministry spokeswoman Maria Zakharova praising Pakistan's mediation role while blaming the U.S. and Israel; no new updates since.[1]",
-      "direction": "NO",
+      "headline": "US-Iran Peace Talks Obliterated: VP Vance Announces Failure After 21 Hours; Trump Imposes Naval Blockade on Strait of Ho",
+      "raw": "US-Iran Peace Talks Obliterated: VP Vance Announces Failure After 21 Hours; Trump Imposes Naval Blockade on Strait of Hormuz | YES | HIGH confidence** [1]\n\nVP JD Vance confirmed on April 13, 2026, that US-Iran negotiations in Pakistan collapsed due to Iran's refusal to abandon nuclear weapons pursuit, prompting President Trump to order a US Navy blockade starting immediately, without impeding non-",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Will Russia enter Ternuvate again by April 30?",
+        "Trump announces end of military operations against Iran by A",
         "US x Iran permanent peace deal by April 30, 2026?"
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "GEOPOLITICS"
+      "category": "POLITICS"
     },
     {
-      "id": "sig_216024",
-      "timestamp": "2026-04-16T05:30:39.705552+00:00",
+      "id": "sig_423659",
+      "timestamp": "2026-04-16T05:34:07.340542+00:00",
       "source": "PERPLEXITY",
-      "headline": "Zelenskyy highlighted Ukraine's use of unmanned systems to retake Russian positions without infantry losses, calling it",
-      "raw": "Zelenskyy highlighted Ukraine's use of unmanned systems to retake Russian positions without infantry losses, calling it a war first; this ties to ongoing attrition but lacks fresh Iran/Russia links.[5]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_234633",
-      "timestamp": "2026-04-16T05:30:58.314478+00:00",
-      "source": "PERPLEXITY",
-      "headline": "I cannot identify any breaking news matching your query parameters",
-      "raw": "I cannot identify any breaking news matching your query parameters. The search results provided contain information about the Oklahoma City Thunder's regular season performance (64-18 record, #1 seed clinched), but they do not mention:",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the Oklahoma City Thunder win the 2026 NBA Finals?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_234638",
-      "timestamp": "2026-04-16T05:30:58.319867+00:00",
-      "source": "PERPLEXITY",
-      "headline": "A specific \"group\" related to the Thunder",
-      "raw": "A specific \"group\" related to the Thunder",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_234644",
-      "timestamp": "2026-04-16T05:30:58.325275+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Switzerland or France in any relevant context",
-      "raw": "Switzerland or France in any relevant context",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_234655",
-      "timestamp": "2026-04-16T05:30:58.336409+00:00",
-      "source": "PERPLEXITY",
-      "headline": "HEADLINE | Cannot Determine | LOW confidence**",
-      "raw": "HEADLINE | Cannot Determine | LOW confidence**\n\nThe search results are insufficient to answer your query as structured. To provide accurate breaking news, I would need either: (1) search results explicitly referencing Switzerland, France, and a specific Thunder-related group, or (2) clarification on what entity or announcement you're seeking.",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_260103",
-      "timestamp": "2026-04-16T05:31:23.784837+00:00",
-      "source": "X_GROK",
-      "headline": "Polymarket X buzz (Apr 10-16, 2026): Sports whales dominating, weather edges, fade favorites strat trending",
-      "raw": "Polymarket X buzz (Apr 10-16, 2026): Sports whales dominating, weather edges, fade favorites strat trending. No major new whale bets today; focus on proven performers.[[1]](https://x.com/i/status/2044219184419074477)[[2]](https://x.com/i/status/2043351708471001358)[[3]](https://x.com/i/status/2042886437163438287)**",
+      "headline": "South Korea's March 2026 Annual Inflation Rises to 2",
+      "raw": "South Korea's March 2026 Annual Inflation Rises to 2.2%, Below Forecasts | NO | HIGH confidence**  \nSouth Korea's annual inflation rate increased to 2.2% in March 2026 from 2.0% in prior months, missing market expectations of 2.4% and remaining near the Bank of Korea's 2% target amid contained price pressures.[1]  \nNo new announcements from the US Fed or Fed Chair on inflation or policy; latest Ba",
       "direction": "NO",
       "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2044219184419074477)[[2]](https://x.com/i/status/2043351708471001358)[[3]](https://x.com/i/status/2042886437163438287)**",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_260109",
-      "timestamp": "2026-04-16T05:31:23.790476+00:00",
-      "source": "X_GROK",
-      "headline": "**NHL whale \"weflyhigh\" drops $847k on 10 games (Blues, Bruins up big):** Smart money model > crowd; bet underdogs/model",
-      "raw": "**NHL whale \"weflyhigh\" drops $847k on 10 games (Blues, Bruins up big):** Smart money model > crowd; bet underdogs/models. YES on their picks (ongoing). Confidence HIGH (2M+ all-time PNL).[[4]](https://x.com/i/status/2044213457675796750)",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2044213457675796750)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_260120",
-      "timestamp": "2026-04-16T05:31:23.801692+00:00",
-      "source": "X_GROK",
-      "headline": "**Fade overpriced favorites (88-95\u00a2 YES \u2192 buy cheap NO):** @swisstony $500\u2192$6M strat; EV+175% if true prob < market",
-      "raw": "**Fade overpriced favorites (88-95\u00a2 YES \u2192 buy cheap NO):** @swisstony $500\u2192$6M strat; EV+175% if true prob < market. NO on hyped outcomes. Trending tip. Confidence HIGH (math-backed).[[2]](https://x.com/i/status/2043351708471001358)",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2043351708471001358)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_260126",
-      "timestamp": "2026-04-16T05:31:23.807429+00:00",
-      "source": "X_GROK",
-      "headline": "**Weather bots/traders: $49k PNL on low-\u00a2 temps, coverage plays:** Asymmetric volume bets (e",
-      "raw": "**Weather bots/traders: $49k PNL on low-\u00a2 temps, coverage plays:** Asymmetric volume bets (e.g., Poligarch +$107k politics\u2192weather). YES/NO on precise ranges. Confidence MED (daily edges).[[6]](https://x.com/i/status/2043694377143296153)[[7]](https://x.com/i/status/2044530812410814618)",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2043694377143296153)[[7]](https://x.com/i/status/2044530812410814618)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_260132",
-      "timestamp": "2026-04-16T05:31:23.813142+00:00",
-      "source": "X_GROK",
-      "headline": "**US-Iran ceasefire: 70% extended by Apr21 (pre-Hegseth presser tomorrow):** Imminent news; market steady",
-      "raw": "**US-Iran ceasefire: 70% extended by Apr21 (pre-Hegseth presser tomorrow):** Imminent news; market steady. YES. Confidence HIGH (volume + timing).[[8]](https://x.com/i/status/2044578759987036492)\n\nCopy trading sports/weather whales via bots trending; top 1% take 84% gains.[[9]](https://x.com/i/status/2044167305819763154)",
-      "direction": "YES",
-      "confidence": 0.65,
       "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?"
+        "Kevin Warsh confirmed as Fed Chair by May 15?",
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
       ],
       "action": "ALERT",
-      "x_link": "https://x.com/i/status/2044578759987036492)",
-      "category": "COMMUNITY"
+      "x_link": null,
+      "category": "ECONOMICS"
     },
     {
-      "id": "sig_260115",
-      "timestamp": "2026-04-16T05:31:23.796090+00:00",
-      "source": "X_GROK",
-      "headline": "**MegaETH TGE: 7 new accounts buy 100k+ YES shares, odds 9\u00a2\u219253\u00a2:** Whale conviction on launch by Apr 30",
-      "raw": "**MegaETH TGE: 7 new accounts buy 100k+ YES shares, odds 9\u00a2\u219253\u00a2:** Whale conviction on launch by Apr 30. YES. Confidence MED (possible coordination).[[5]](https://x.com/i/status/2044560909365088628)",
+      "id": "sig_418761",
+      "timestamp": "2026-04-16T05:34:02.442582+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Ethereum Foundation Completes 70,000 ETH Staking Commitment Worth $143M | YES | MED confidence**",
+      "raw": "Ethereum Foundation Completes 70,000 ETH Staking Commitment Worth $143M | YES | MED confidence**  \nThe Ethereum Foundation has finalized staking 70,000 ETH (valued at $143 million), a structural shift in treasury management that bolsters network security and could signal confidence amid price recovery from February 2026 lows of $1,800 to current levels around $2,250.[4]  \nThis announcement, report",
       "direction": "YES",
       "confidence": 0.6,
-      "matched_markets": [],
+      "matched_markets": [
+        "Will the price of Bitcoin be above $82,000 on April 17?",
+        "Will the price of Ethereum be less than $1,800 on April 17?",
+        "Will the price of Ethereum be less than $1,700 on April 19?"
+      ],
       "action": "WATCH",
-      "x_link": "https://x.com/i/status/2044560909365088628)",
-      "category": "COMMUNITY"
+      "x_link": null,
+      "category": "CRYPTO"
     }
   ],
   "stats": {
     "enter": 2,
-    "alert": 13,
+    "alert": 3,
     "watch": 1,
-    "high_conf": 4
+    "high_conf": 3
   }
 }
