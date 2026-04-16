@@ -1,96 +1,154 @@
 {
-  "last_scan": "2026-04-16T20:07:42.154035+00:00",
-  "scan_seconds": 27.2,
+  "last_scan": "2026-04-16T20:10:33.953444+00:00",
+  "scan_seconds": 28.7,
   "markets_scanned": 83,
   "open_positions": 39,
   "signals": [
     {
-      "id": "sig_819886",
-      "timestamp": "2026-04-16T20:07:23.515130+00:00",
+      "id": "sig_998892",
+      "timestamp": "2026-04-16T20:10:22.521312+00:00",
       "source": "PERPLEXITY",
-      "headline": "Erdo\u011fan Issues \"Be Ready for All Scenarios\" Directive Amid Israel Tensions, Russian-Turkish FMs Discuss Iran Crisis Reso",
-      "raw": "Erdo\u011fan Issues \"Be Ready for All Scenarios\" Directive Amid Israel Tensions, Russian-Turkish FMs Discuss Iran Crisis Resolution | NO | HIGH confidence**\n\nNo confirmed announcements, resolutions, or breakthroughs involving **Russia**, **Iran**, or **Turkey** (interpreting \"ternuvate\" as likely \"terminate\" or \"Turkey\" based on search context) on April 16, 2026, that resolve conflicts or shift predict",
-      "direction": "NO",
-      "confidence": 0.78,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Will Russia enter Ternuvate again by April 30?",
-        "US x Iran permanent peace deal by April 30, 2026?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_823781",
-      "timestamp": "2026-04-16T20:07:27.410044+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Confidence: HIGH** (search results cover up-to-date events with no later developments)",
-      "raw": "Confidence: HIGH** (search results cover up-to-date events with no later developments).",
+      "headline": "Christine Drazan, Oregon Republican gubernatorial candidate, announces 2026 run against Gov",
+      "raw": "Christine Drazan, Oregon Republican gubernatorial candidate, announces 2026 run against Gov. Tina Kotek** | YES | MED confidence[2][6]\n\nChristine Drazan, former Oregon House Republican leader and 2022 nominee, announced her candidacy for governor earlier (video dated Oct 27, 2025), entering a crowded primary with challengers like Danielle Bethell[3][6]. This could shift Oregon 2026 prediction mark",
       "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will Chris Dudley win the 2026 Oregon Governor Republican primary election?"
+      ],
+      "action": "ENTER",
       "x_link": null,
       "category": "POLITICS"
     },
     {
-      "id": "sig_830643",
-      "timestamp": "2026-04-16T20:07:34.272879+00:00",
+      "id": "sig_4005",
+      "timestamp": "2026-04-16T20:10:27.633938+00:00",
       "source": "PERPLEXITY",
-      "headline": "Confidence: HIGH** (no real-time sources indicate fresh, market-moving confirmations today; reports are from April 14 or",
-      "raw": "Confidence: HIGH** (no real-time sources indicate fresh, market-moving confirmations today; reports are from April 14 or earlier/forecasts).[1][2][3][4][5][6]",
+      "headline": "Solana Teases XRP Integration | NO | LOW confidence**",
+      "raw": "Solana Teases XRP Integration | NO | LOW confidence**  \nNo official confirmation, partnership, or resolution of the teased Solana-XRP integration has been announced as of April 16, 2026; it remains speculative based on a cryptic post.[4][8]",
       "direction": "NO",
-      "confidence": 0.65,
+      "confidence": 0.9,
+      "matched_markets": [
+        "Solana Up or Down - April 16, 4:00PM-8:00PM ET",
+        "Will the price of XRP be above $0.90 on April 21?",
+        "Solana Up or Down - April 17, 4:40AM-4:45AM ET"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_4023",
+      "timestamp": "2026-04-16T20:10:27.651873+00:00",
+      "source": "PERPLEXITY",
+      "headline": "CLARITY Act Progress for XRP | NO | LOW confidence**",
+      "raw": "CLARITY Act Progress for XRP | NO | LOW confidence**  \nNo markup, passage, or final endorsements confirmed yet; Senate Banking Committee targets late April discussions, with analysts split on impact.[2][3]",
+      "direction": "NO",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will the price of XRP be above $0.90 on April 21?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_9324",
+      "timestamp": "2026-04-16T20:10:32.952503+00:00",
+      "source": "PERPLEXITY",
+      "headline": "South Korea's March 2026 annual inflation confirmed at 2",
+      "raw": "South Korea's March 2026 annual inflation confirmed at 2.2% YoY, up from 2.0% in February but below market forecasts of 2.3-2.4%** | YES | HIGH confidence[1][2][4]\n\nThis data, released Thursday by the Ministry of Data and Statistics, shows monthly CPI rose 0.3% (vs. 0.6% expected), driven by oil prices but curbed by government fuel caps and vouchers; core inflation dipped to 2.2% YoY[1][4]. Bank o",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_4012",
+      "timestamp": "2026-04-16T20:10:27.640110+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Tether Backs Drift Relaunch on Solana | YES | MED confidence**",
+      "raw": "Tether Backs Drift Relaunch on Solana | YES | MED confidence**  \nTether confirmed a $150M recovery plan for users after a $285M exploit, expanding USDT's role on Solana, which could boost network activity and sentiment.[4]",
+      "direction": "YES",
+      "confidence": 0.9,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_837496",
-      "timestamp": "2026-04-16T20:07:41.125485+00:00",
+      "id": "sig_993821",
+      "timestamp": "2026-04-16T20:10:17.450860+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot provide breaking news or real-time market-moving announcements based on the search results provided",
-      "raw": "I cannot provide breaking news or real-time market-moving announcements based on the search results provided. The available data is historical and outdated relative to the query's request:",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
+      "headline": "Market implications**: The ceasefire's failure and Russia's documented violations would likely move prediction markets t",
+      "raw": "Market implications**: The ceasefire's failure and Russia's documented violations would likely move prediction markets toward outcomes predicting continued conflict rather than negotiated settlements. The Ternuvate prediction market (asking whether Russia captures the village by April 30, 2026) reflects trader consensus favoring Ukrainian defenses at 3% probability for Russian capture, which may s",
+      "direction": "NO",
+      "confidence": 0.78,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Will Russia enter Ternuvate again by April 30?"
+      ],
       "action": "ALERT",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_837502",
-      "timestamp": "2026-04-16T20:07:41.131133+00:00",
+      "id": "sig_993814",
+      "timestamp": "2026-04-16T20:10:17.443626+00:00",
       "source": "PERPLEXITY",
-      "headline": "The most recent inflation figure is from **March 2026** (2",
-      "raw": "The most recent inflation figure is from **March 2026** (2.16% year-over-year)[2], which is approximately 3 weeks old.",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_837507",
-      "timestamp": "2026-04-16T20:07:41.136891+00:00",
-      "source": "PERPLEXITY",
-      "headline": "The search results contain no information about prediction market movements or analyst consensus changes",
-      "raw": "The search results contain no information about prediction market movements or analyst consensus changes.\n\nTo answer your query in the requested format, I would need:",
+      "headline": "Easter Ceasefire Collapsed With Massive Violations | NO (Russia did not honor ceasefire) | HIGH confidence**",
+      "raw": "Easter Ceasefire Collapsed With Massive Violations | NO (Russia did not honor ceasefire) | HIGH confidence**\n\nThe Orthodox Easter ceasefire between Russia and Ukraine ended on April 12, 2026, after just 32 hours, with both sides accusing each other of extensive breaches.[4] Ukraine documented approximately 10,721 Russian violations during the ceasefire period from April 11-12, with 469 breaches oc",
       "direction": "NO",
       "confidence": 0.65,
-      "matched_markets": [],
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Will Russia enter Ternuvate again by April 30?"
+      ],
       "action": "ALERT",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_998901",
+      "timestamp": "2026-04-16T20:10:22.530238+00:00",
+      "source": "PERPLEXITY",
+      "headline": "No other confirmed announcements today tie April, Oregon governor race, election, White House, and Vance** | NO | HIGH c",
+      "raw": "No other confirmed announcements today tie April, Oregon governor race, election, White House, and Vance** | NO | HIGH confidence[1][4][7]\n\nVance won CPAC 2028 GOP straw poll (53%) on March 13, 2026, boosting his early frontrunner status but predates today[1]. Recent Vance-Oregon AG spat over H-1B fees and White House election integrity order (March 2025) lack new confirmations impacting markets[4",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the White House call a full lid by 6:30PM on April 14?",
+        "Will Chris Dudley win the 2026 Oregon Governor Republican primary election?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_4018",
+      "timestamp": "2026-04-16T20:10:27.646090+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Solana Spot ETF Inflows | YES | HIGH confidence**",
+      "raw": "Solana Spot ETF Inflows | YES | HIGH confidence**  \nSolana ETFs recorded $5.04M in net inflows on April 16, 2026, confirming sustained institutional demand amid mixed price predictions.[4]",
+      "direction": "YES",
+      "confidence": 0.6,
+      "matched_markets": [
+        "Solana Up or Down - April 16, 4:00PM-8:00PM ET",
+        "Solana Up or Down - April 17, 4:40AM-4:45AM ET",
+        "Solana Up or Down - April 16, 4:45PM-4:50PM ET"
+      ],
+      "action": "WATCH",
+      "x_link": null,
+      "category": "CRYPTO"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 6,
-    "watch": 0,
-    "high_conf": 0
+    "enter": 4,
+    "alert": 4,
+    "watch": 1,
+    "high_conf": 5
   }
 }
