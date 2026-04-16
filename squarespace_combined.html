@@ -561,18 +561,11 @@
       for (let i = settledByTime.length-1; i >= 0; i--) {
         if (settledByTime[i].status === 'WON') winStreak++; else break;
       }
-      const organicPnl = bankroll - (STARTING_BR + PAPER_TOPUP);
-
       // bot_stats.json: ONLY for daily_log chart (supplementary, never for financials)
-      let dailyLog = [], bsLastUpdated = null;
+      let dailyLog = [];
       try {
         const bs = await pf('https://shaunpatrickstewart.github.io/trades/bot_stats.json');
-        if (bs) {
-          if (bs.daily_log) dailyLog = bs.daily_log;
-          if (bs.last_updated) bsLastUpdated = bs.last_updated;
-          // bot_stats.bankroll is a cross-check only — never override JSONL-computed value.
-          // JSONL is ground truth (structural rule); bot_stats can lag or have drift.
-        }
+        if (bs && bs.daily_log) dailyLog = bs.daily_log;
       } catch(e) { /* chart unavailable, all other data still correct */ }
 
       // Post-filter PnL (Apr 5+) — the meaningful number
