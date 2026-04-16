@@ -1,29 +1,48 @@
 {
-  "last_scan": "2026-04-16T02:46:27.394696+00:00",
-  "scan_seconds": 43.3,
-  "markets_scanned": 71,
+  "last_scan": "2026-04-16T02:49:09.820674+00:00",
+  "scan_seconds": 21.4,
+  "markets_scanned": 75,
   "open_positions": 39,
   "signals": [
     {
-      "id": "sig_330811",
-      "timestamp": "2026-04-16T02:45:54.502116+00:00",
+      "id": "sig_510250",
+      "timestamp": "2026-04-16T02:48:53.941461+00:00",
       "source": "PERPLEXITY",
-      "headline": "Tax Cuts Delivering Record Refunds | YES (confirmed in WH briefing/releases) | HIGH confidence** [3][4]",
-      "raw": "Tax Cuts Delivering Record Refunds | YES (confirmed in WH briefing/releases) | HIGH confidence** [3][4]",
+      "headline": "Kremlin Welcomes US-Israel-Iran Two-Week Ceasefire Deal | YES | HIGH confidence**",
+      "raw": "Kremlin Welcomes US-Israel-Iran Two-Week Ceasefire Deal | YES | HIGH confidence**  \nThe Kremlin confirmed on April 8, 2026, that it welcomes the last-minute two-week ceasefire agreement between the US, Israel, and Iran, emphasizing de-escalation and a shift to diplomatic talks while supporting no further military escalation.[1]  \nRussian Foreign Ministry spokesperson Maria Zakharova echoed this on",
       "direction": "YES",
       "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Will Russia enter Ternuvate again by April 30?",
+        "US x Iran diplomatic meeting by April 18, 2026?"
+      ],
+      "action": "ENTER",
       "x_link": null,
-      "category": "POLITICS"
+      "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_335305",
-      "timestamp": "2026-04-16T02:45:58.997008+00:00",
+      "id": "sig_520962",
+      "timestamp": "2026-04-16T02:49:04.653154+00:00",
       "source": "PERPLEXITY",
-      "headline": "Incoming Bank of Korea Governor Nominee Warns of Accelerating Headline Inflation | YES | HIGH confidence** [1]",
-      "raw": "Incoming Bank of Korea Governor Nominee Warns of Accelerating Headline Inflation | YES | HIGH confidence** [1]\n\nSouth Korea's incoming Bank of Korea chief, Shin Hyun-song, stated on April 14, 2026, that consumer inflation is likely to accelerate, amid oil price shocks elevating expectations per Standard Chartered analysis. [1][2] This confirmation of upside inflation risks follows the Bank's April",
-      "direction": "YES",
+      "headline": "Solana (SOL) Surges 10% on Record 167M Monthly Token Holders and Alpenglow Upgrade Progress | NO | HIGH confidence**",
+      "raw": "Solana (SOL) Surges 10% on Record 167M Monthly Token Holders and Alpenglow Upgrade Progress | NO | HIGH confidence**  \nNo breaking confirmations, announcements, or resolutions reported right now (as of April 16, 2026) that would move prediction markets; recent network stats from April 14 show all-time highs in holders (167 million) and daily non-vote transactions (148 million), alongside anticipat",
+      "direction": "NO",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Solana Up or Down - April 15, 10:40PM-10:45PM ET"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_525128",
+      "timestamp": "2026-04-16T02:49:08.819702+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Incoming Bank of Korea Governor Nominee Warns Headline Inflation Likely to Accelerate | NO | HIGH confidence**",
+      "raw": "Incoming Bank of Korea Governor Nominee Warns Headline Inflation Likely to Accelerate | NO | HIGH confidence**  \nShin Hyun-song, the incoming Bank of Korea chief, stated on Wednesday that consumer inflation is likely to accelerate, amid oil price shocks elevating South Korea's inflation expectations per Standard Chartered analysis.[1][4] This follows March FOMC minutes confirming some participants",
+      "direction": "NO",
       "confidence": 0.78,
       "matched_markets": [
         "Kevin Warsh confirmed as Fed Chair by May 15?",
@@ -32,118 +51,12 @@
       "action": "ALERT",
       "x_link": null,
       "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_363671",
-      "timestamp": "2026-04-16T02:46:27.362368+00:00",
-      "source": "X_GROK",
-      "headline": "Warriors vs Clippers NBA game (imminent):** Multiple whales piling into Clippers moneyline ($19k-$40k at 67\u00a2), spreads (",
-      "raw": "Warriors vs Clippers NBA game (imminent):** Multiple whales piling into Clippers moneyline ($19k-$40k at 67\u00a2), spreads (-4.5 at 54\u00a2 $80k, -5.5 at 50\u00a2 $74k). Signals strong YES on Clippers win/cover. Confidence: HIGH.[[1]](https://x.com/i/status/2044602199121002578)[[2]](https://x.com/i/status/2044601139157422133)[[3]](https://x.com/i/status/2044601139149099329)[[4]](https://x.com/i/status/20446011",
-      "direction": "YES",
-      "confidence": 0.78,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2044602199121002578)[[2]](https://x.com/i/status/2044601139157422133)[[3]](https://x.com/i/status/2044601139149099329)[[4]](https://x.com/i/status/2044601139086192925)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_330803",
-      "timestamp": "2026-04-16T02:45:54.494913+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Iran Ceasefire Progress | YES (productive talks ongoing, no extension requested) | MED confidence** [1][5][7]",
-      "raw": "Iran Ceasefire Progress | YES (productive talks ongoing, no extension requested) | MED confidence** [1][5][7]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_363677",
-      "timestamp": "2026-04-16T02:46:27.368160+00:00",
-      "source": "X_GROK",
-      "headline": "Bitcoin 5-min candle (April 15, past but recent):** Whale bought 28k shares Down at 1\u00a2 (9900% ROI potential)",
-      "raw": "Bitcoin 5-min candle (April 15, past but recent):** Whale bought 28k shares Down at 1\u00a2 (9900% ROI potential). Signaled NO uptick. Resolved? Confidence: LOW (expired).[[5]](https://x.com/i/status/2044607620107940078)",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2044607620107940078)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_363682",
-      "timestamp": "2026-04-16T02:46:27.373301+00:00",
-      "source": "X_GROK",
-      "headline": "P\u00e9ter Magyar next Hungary PM:** $35k No at 1\u00a2 (7000% ROI)",
-      "raw": "P\u00e9ter Magyar next Hungary PM:** $35k No at 1\u00a2 (7000% ROI). Smart money bets against. Confidence: MED.[[6]](https://x.com/i/status/2044606814143025315)",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2044606814143025315)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_363687",
-      "timestamp": "2026-04-16T02:46:27.378666+00:00",
-      "source": "X_GROK",
-      "headline": "Glenn Youngkin 2028 GOP nominee:** 37k Yes at 1\u00a2",
-      "raw": "Glenn Youngkin 2028 GOP nominee:** 37k Yes at 1\u00a2. Heavy long-shot bet YES. Confidence: LOW (distant).[[7]](https://x.com/i/status/2044604631427256417)",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2044604631427256417)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_363693",
-      "timestamp": "2026-04-16T02:46:27.384062+00:00",
-      "source": "X_GROK",
-      "headline": "US confirms aliens by 2027:** $7",
-      "raw": "US confirms aliens by 2027:** $7.3k No at 82\u00a2. Bearish on disclosure. Confidence: MED.[[8]](https://x.com/i/status/2044604261787435162)",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2044604261787435162)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_363698",
-      "timestamp": "2026-04-16T02:46:27.389124+00:00",
-      "source": "X_GROK",
-      "headline": "Kharg Island Iranian control by May 31:** $6",
-      "raw": "Kharg Island Iranian control by May 31:** $6.9k No at 92\u00a2. Expects loss of control. Confidence: MED.[[9]](https://x.com/i/status/2044602970428289405)",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2044602970428289405)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_363703",
-      "timestamp": "2026-04-16T02:46:27.394331+00:00",
-      "source": "X_GROK",
-      "headline": "MegaETH FDV >$2B day 1 post-launch:** $8",
-      "raw": "MegaETH FDV >$2B day 1 post-launch:** $8.6k No at 86\u00a2. Doubts hype. Confidence: HIGH (if launch imminent).[[10]](https://x.com/i/status/2044605360984506654)\n\nTrending chatter: Whale alerts dominate (@WhaleAlertPoly), Polymarket news hooks (e.g., Pete Hegseth presser tomorrow: 70% ceasefire extension implied). No major mispriced calls; criticism on whales dominating profits (top 0.04% take 70%).[[1",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2044605360984506654)",
-      "category": "COMMUNITY"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 10,
+    "enter": 2,
+    "alert": 1,
     "watch": 0,
-    "high_conf": 1
+    "high_conf": 2
   }
 }
