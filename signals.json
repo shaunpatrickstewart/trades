@@ -1,222 +1,149 @@
 {
-  "last_scan": "2026-04-16T02:43:25.170428+00:00",
-  "scan_seconds": 20.7,
-  "markets_scanned": 132,
-  "open_positions": 100,
+  "last_scan": "2026-04-16T02:46:27.394696+00:00",
+  "scan_seconds": 43.3,
+  "markets_scanned": 71,
+  "open_positions": 39,
   "signals": [
     {
-      "id": "sig_166166",
-      "timestamp": "2026-04-16T02:43:09.857767+00:00",
+      "id": "sig_330811",
+      "timestamp": "2026-04-16T02:45:54.502116+00:00",
       "source": "PERPLEXITY",
-      "headline": "Earlier April: Russia/China vetoed UN resolution to reopen Strait of Hormuz (date unspecified, post-ceasefire talks)",
-      "raw": "Earlier April: Russia/China vetoed UN resolution to reopen Strait of Hormuz (date unspecified, post-ceasefire talks).[8]\n\nThese are not \"right now\" (post-April 12) updates; no fresh resolutions or market-moving escalations/de-escalations confirmed, limiting prediction market impact.[1][2][3][4][5]",
-      "direction": "NO",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Will Russia enter Ternuvate again by April 30?",
-        "Will Donald Trump announce that the United States blockade of the Strait of Horm"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_180478",
-      "timestamp": "2026-04-16T02:43:24.169453+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Kevin Warsh confirmed as next Fed Chair, potentially facing immediate rate hike decision amid surging inflation and oil",
-      "raw": "Kevin Warsh confirmed as next Fed Chair, potentially facing immediate rate hike decision amid surging inflation and oil shock.** | **YES** | **HIGH** confidence[1][6]\n\nWarsh's nomination by President Trump to succeed Jerome Powell\u2014expected by mid-May 2026\u2014has been widely reported as advancing toward Senate confirmation, easing weak-dollar pressures and sparking debate on Fed independence and hawki",
+      "headline": "Tax Cuts Delivering Record Refunds | YES (confirmed in WH briefing/releases) | HIGH confidence** [3][4]",
+      "raw": "Tax Cuts Delivering Record Refunds | YES (confirmed in WH briefing/releases) | HIGH confidence** [3][4]",
       "direction": "YES",
       "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_335305",
+      "timestamp": "2026-04-16T02:45:58.997008+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Incoming Bank of Korea Governor Nominee Warns of Accelerating Headline Inflation | YES | HIGH confidence** [1]",
+      "raw": "Incoming Bank of Korea Governor Nominee Warns of Accelerating Headline Inflation | YES | HIGH confidence** [1]\n\nSouth Korea's incoming Bank of Korea chief, Shin Hyun-song, stated on April 14, 2026, that consumer inflation is likely to accelerate, amid oil price shocks elevating expectations per Standard Chartered analysis. [1][2] This confirmation of upside inflation risks follows the Bank's April",
+      "direction": "YES",
+      "confidence": 0.78,
       "matched_markets": [
         "Kevin Warsh confirmed as Fed Chair by May 15?",
-        "Will Trump and Xi handshake last 15 seconds or longer during the day of their ne"
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
       ],
-      "action": "ENTER",
+      "action": "ALERT",
       "x_link": null,
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_166116",
-      "timestamp": "2026-04-16T02:43:09.807913+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**April 7**: US President Trump announced US-Iran ceasefire deal; Russia welcomed it in Foreign Ministry briefing, propo",
-      "raw": "**April 7**: US President Trump announced US-Iran ceasefire deal; Russia welcomed it in Foreign Ministry briefing, proposing diplomatic focus on Gulf de-escalation.[4][5]",
-      "direction": null,
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Will Russia enter Ternuvate again by April 30?",
-        "Trump announces end of military operations against Iran by A"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_175947",
-      "timestamp": "2026-04-16T02:43:19.638463+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Historical context** about tariff-related market volatility around April 7, 2026[6]",
-      "raw": "**Historical context** about tariff-related market volatility around April 7, 2026[6].\n\nNone of these represent newly confirmed events or market-moving announcements. The prediction market odds reflect ongoing trader sentiment rather than resolved outcomes or breaking news.\n\nTo find actual breaking news about cryptocurrency markets, you would need real-time news sources, official exchange announce",
-      "direction": null,
-      "confidence": 0.9,
+      "id": "sig_363671",
+      "timestamp": "2026-04-16T02:46:27.362368+00:00",
+      "source": "X_GROK",
+      "headline": "Warriors vs Clippers NBA game (imminent):** Multiple whales piling into Clippers moneyline ($19k-$40k at 67\u00a2), spreads (",
+      "raw": "Warriors vs Clippers NBA game (imminent):** Multiple whales piling into Clippers moneyline ($19k-$40k at 67\u00a2), spreads (-4.5 at 54\u00a2 $80k, -5.5 at 50\u00a2 $74k). Signals strong YES on Clippers win/cover. Confidence: HIGH.[[1]](https://x.com/i/status/2044602199121002578)[[2]](https://x.com/i/status/2044601139157422133)[[3]](https://x.com/i/status/2044601139149099329)[[4]](https://x.com/i/status/20446011",
+      "direction": "YES",
+      "confidence": 0.78,
       "matched_markets": [],
       "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
+      "x_link": "https://x.com/i/status/2044602199121002578)[[2]](https://x.com/i/status/2044601139157422133)[[3]](https://x.com/i/status/2044601139149099329)[[4]](https://x.com/i/status/2044601139086192925)",
+      "category": "COMMUNITY"
     },
     {
-      "id": "sig_166105",
-      "timestamp": "2026-04-16T02:43:09.797009+00:00",
+      "id": "sig_330803",
+      "timestamp": "2026-04-16T02:45:54.494913+00:00",
       "source": "PERPLEXITY",
-      "headline": "Key recent developments (April 1-12):**",
-      "raw": "Key recent developments (April 1-12):**",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_166126",
-      "timestamp": "2026-04-16T02:43:09.817404+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**April 8**: Russia and Iran urged avoiding actions undermining Mideast diplomacy",
-      "raw": "**April 8**: Russia and Iran urged avoiding actions undermining Mideast diplomacy.[7]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Will Russia enter Ternuvate again by April 30?",
-        "US x Iran diplomatic meeting by April 18, 2026?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_166136",
-      "timestamp": "2026-04-16T02:43:09.827654+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**April 12**: Ceasefire strained; no Iran talks deal reached as Russia advances (Ukraine context)",
-      "raw": "**April 12**: Ceasefire strained; no Iran talks deal reached as Russia advances (Ukraine context).[3]",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Will Russia enter Ternuvate again by April 30?",
-        "US x Iran diplomatic meeting by April 18, 2026?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_166146",
-      "timestamp": "2026-04-16T02:43:09.837535+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Ongoing: Ukraine reports **Russia** sharing satellite intel with **Iran** on Israeli/US sites (March surveys, reported A",
-      "raw": "Ongoing: Ukraine reports **Russia** sharing satellite intel with **Iran** on Israeli/US sites (March surveys, reported April 7) and possibly shipping attacks in Strait of Hormuz; ties deepened by 2025 strategic treaty.[1][6]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Will Russia enter Ternuvate again by April 30?",
-        "US x Iran diplomatic meeting by April 18, 2026?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_166156",
-      "timestamp": "2026-04-16T02:43:09.847587+00:00",
-      "source": "PERPLEXITY",
-      "headline": "No **Turkmenistan** mentions beyond Russia's April 8 briefing noting its CIS chair role for foreign ministers' talks (un",
-      "raw": "No **Turkmenistan** mentions beyond Russia's April 8 briefing noting its CIS chair role for foreign ministers' talks (unrelated to Iran crisis).[4]",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Will Russia enter Ternuvate again by April 30?",
-        "US x Iran diplomatic meeting by April 18, 2026?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_170265",
-      "timestamp": "2026-04-16T02:43:13.956052+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Buckingham Palace Confirms King Charles and Queen Camilla's State Visit to White House for April 28 Banquet with Trump |",
-      "raw": "Buckingham Palace Confirms King Charles and Queen Camilla's State Visit to White House for April 28 Banquet with Trump | YES | HIGH confidence** [2]\n\nKing Charles is set to meet US President Donald Trump in Washington DC next month, celebrating America's 250th birthday with a \"beautiful Banquet Dinner,\" despite political backlash over Trump\u2019s Iran rhetoric and a federal judge halting Trump\u2019s East ",
+      "headline": "Iran Ceasefire Progress | YES (productive talks ongoing, no extension requested) | MED confidence** [1][5][7]",
+      "raw": "Iran Ceasefire Progress | YES (productive talks ongoing, no extension requested) | MED confidence** [1][5][7]",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces end of military operations against Iran by A",
-        "Will the White House call a full lid by 6:30PM on April 14?"
+        "Will the US x Iran ceasefire be extended by April 21, 2026?"
       ],
       "action": "ALERT",
       "x_link": null,
       "category": "POLITICS"
     },
     {
-      "id": "sig_175911",
-      "timestamp": "2026-04-16T02:43:19.602501+00:00",
-      "source": "PERPLEXITY",
-      "headline": "I cannot provide breaking news in the format you've requested because the search results do not contain recent announcem",
-      "raw": "I cannot provide breaking news in the format you've requested because the search results do not contain recent announcements, confirmations, or resolutions that would move prediction markets.\n\nThe search results primarily contain:",
-      "direction": null,
+      "id": "sig_363677",
+      "timestamp": "2026-04-16T02:46:27.368160+00:00",
+      "source": "X_GROK",
+      "headline": "Bitcoin 5-min candle (April 15, past but recent):** Whale bought 28k shares Down at 1\u00a2 (9900% ROI potential)",
+      "raw": "Bitcoin 5-min candle (April 15, past but recent):** Whale bought 28k shares Down at 1\u00a2 (9900% ROI potential). Signaled NO uptick. Resolved? Confidence: LOW (expired).[[5]](https://x.com/i/status/2044607620107940078)",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
+      "x_link": "https://x.com/i/status/2044607620107940078)",
+      "category": "COMMUNITY"
     },
     {
-      "id": "sig_175926",
-      "timestamp": "2026-04-16T02:43:19.617839+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Polymarket prediction odds** for Solana price targets in April 2026, showing traders currently assign an 80% probabili",
-      "raw": "**Polymarket prediction odds** for Solana price targets in April 2026, showing traders currently assign an 80% probability to Solana trading in the $80-90 range on April 19[4], and a 62% probability of reaching $90 by month-end[2].",
-      "direction": null,
+      "id": "sig_363682",
+      "timestamp": "2026-04-16T02:46:27.373301+00:00",
+      "source": "X_GROK",
+      "headline": "P\u00e9ter Magyar next Hungary PM:** $35k No at 1\u00a2 (7000% ROI)",
+      "raw": "P\u00e9ter Magyar next Hungary PM:** $35k No at 1\u00a2 (7000% ROI). Smart money bets against. Confidence: MED.[[6]](https://x.com/i/status/2044606814143025315)",
+      "direction": "NO",
       "confidence": 0.65,
-      "matched_markets": [
-        "Will the price of Solana be above $100 on April 17?",
-        "Will the price of Solana be above $100 on April 18?",
-        "Will the price of Solana be above $130 on April 19?"
-      ],
+      "matched_markets": [],
       "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
+      "x_link": "https://x.com/i/status/2044606814143025315)",
+      "category": "COMMUNITY"
     },
     {
-      "id": "sig_175937",
-      "timestamp": "2026-04-16T02:43:19.628412+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Technical analysis** from early April indicating Solana was trading around $82-84 with neutral momentum[1][5]",
-      "raw": "**Technical analysis** from early April indicating Solana was trading around $82-84 with neutral momentum[1][5].",
-      "direction": null,
+      "id": "sig_363687",
+      "timestamp": "2026-04-16T02:46:27.378666+00:00",
+      "source": "X_GROK",
+      "headline": "Glenn Youngkin 2028 GOP nominee:** 37k Yes at 1\u00a2",
+      "raw": "Glenn Youngkin 2028 GOP nominee:** 37k Yes at 1\u00a2. Heavy long-shot bet YES. Confidence: LOW (distant).[[7]](https://x.com/i/status/2044604631427256417)",
+      "direction": "YES",
       "confidence": 0.65,
-      "matched_markets": [
-        "Will the price of Solana be above $100 on April 17?",
-        "Will the price of Solana be above $100 on April 18?",
-        "Will the price of Solana be above $130 on April 19?"
-      ],
+      "matched_markets": [],
       "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
+      "x_link": "https://x.com/i/status/2044604631427256417)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_363693",
+      "timestamp": "2026-04-16T02:46:27.384062+00:00",
+      "source": "X_GROK",
+      "headline": "US confirms aliens by 2027:** $7",
+      "raw": "US confirms aliens by 2027:** $7.3k No at 82\u00a2. Bearish on disclosure. Confidence: MED.[[8]](https://x.com/i/status/2044604261787435162)",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2044604261787435162)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_363698",
+      "timestamp": "2026-04-16T02:46:27.389124+00:00",
+      "source": "X_GROK",
+      "headline": "Kharg Island Iranian control by May 31:** $6",
+      "raw": "Kharg Island Iranian control by May 31:** $6.9k No at 92\u00a2. Expects loss of control. Confidence: MED.[[9]](https://x.com/i/status/2044602970428289405)",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2044602970428289405)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_363703",
+      "timestamp": "2026-04-16T02:46:27.394331+00:00",
+      "source": "X_GROK",
+      "headline": "MegaETH FDV >$2B day 1 post-launch:** $8",
+      "raw": "MegaETH FDV >$2B day 1 post-launch:** $8.6k No at 86\u00a2. Doubts hype. Confidence: HIGH (if launch imminent).[[10]](https://x.com/i/status/2044605360984506654)\n\nTrending chatter: Whale alerts dominate (@WhaleAlertPoly), Polymarket news hooks (e.g., Pete Hegseth presser tomorrow: 70% ceasefire extension implied). No major mispriced calls; criticism on whales dominating profits (top 0.04% take 70%).[[1",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2044605360984506654)",
+      "category": "COMMUNITY"
     }
   ],
   "stats": {
-    "enter": 2,
-    "alert": 11,
+    "enter": 0,
+    "alert": 10,
     "watch": 0,
-    "high_conf": 4
+    "high_conf": 1
   }
 }
