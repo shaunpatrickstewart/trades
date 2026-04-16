@@ -1,75 +1,108 @@
 {
-  "last_scan": "2026-04-16T11:10:26.165182+00:00",
-  "scan_seconds": 26.0,
-  "markets_scanned": 81,
+  "last_scan": "2026-04-16T11:13:32.416239+00:00",
+  "scan_seconds": 45.1,
+  "markets_scanned": 82,
   "open_positions": 40,
   "signals": [
     {
-      "id": "sig_601503",
-      "timestamp": "2026-04-16T11:10:25.164452+00:00",
+      "id": "sig_757142",
+      "timestamp": "2026-04-16T11:13:00.803049+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot provide the breaking news format you've requested because the search results do not contain information about e",
-      "raw": "I cannot provide the breaking news format you've requested because the search results do not contain information about events occurring on or immediately before April 16, 2026 at 11 AM UTC.\n\nThe search results reference Kevin Warsh's nomination and anticipated May 2026 confirmation as Federal Reserve Chair, along with market reactions to his announcement[1][2][3]. However, these appear to be from ",
-      "direction": null,
-      "confidence": 0.9,
-      "matched_markets": [
-        "Kevin Warsh confirmed as Fed Chair by May 15?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_583965",
-      "timestamp": "2026-04-16T11:10:07.626909+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Polymarket impact: NO movement expected**\u2014the Easter truce is disqualified as a \"humanitarian pause\" (not official, mutu",
-      "raw": "Polymarket impact: NO movement expected**\u2014the Easter truce is disqualified as a \"humanitarian pause\" (not official, mutually agreed halt), so \"Russia x Ukraine ceasefire by April 30, 2026\" stays at ~1.7% Yes (traders cite stalled diplomacy, no summits).[3]",
+      "headline": "YES** | **HIGH confidence**",
+      "raw": "YES** | **HIGH confidence**\n\nThe White House confirmed on April 8, 2026, that **Operation Epic Fury successfully obliterated Iran's military infrastructure** over 38 days of combat operations.[1] According to Chairman of the Joint Chiefs of Staff General Dan Caine, the joint force achieved all three defined military objectives: destroying Iran's ballistic missile and drone capabilities, obliterati",
       "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Will Russia enter Ternuvate again by April 30?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_583992",
-      "timestamp": "2026-04-16T11:10:07.653555+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Confidence: HIGH**\u2014sources align on no new events since April 12, with Polymarket explicitly ruling out the truce",
-      "raw": "Confidence: HIGH**\u2014sources align on no new events since April 12, with Polymarket explicitly ruling out the truce.[1][2][3]",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_589920",
-      "timestamp": "2026-04-16T11:10:13.581030+00:00",
-      "source": "PERPLEXITY",
-      "headline": "King Charles White House Visit Faces Mounting Pressure Amid Trump Tensions and Legal Blocks, But No Cancellation Confirm",
-      "raw": "King Charles White House Visit Faces Mounting Pressure Amid Trump Tensions and Legal Blocks, But No Cancellation Confirmed | NO | HIGH confidence**\n\nNo breaking confirmation, announcement, or resolution today links Trump, King Charles, the White House, and \"obliteration\" (referring to Trump's past Iran military claims) in a way that resolves ongoing disputes or moves prediction markets.[1][2][3] K",
-      "direction": "NO",
-      "confidence": 0.65,
+      "confidence": 0.9,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
         "Trump announces end of military operations against Iran by A",
         "Will the White House call a full lid by 6:30PM on April 14?"
       ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_787753",
+      "timestamp": "2026-04-16T11:13:31.414986+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Trump Nominates Kevin Warsh as Next Fed Chair to Replace Powell in May | YES | HIGH confidence**",
+      "raw": "Trump Nominates Kevin Warsh as Next Fed Chair to Replace Powell in May | YES | HIGH confidence**\n\nPresident Trump announced on January 31, 2026, his intention to nominate Kevin Warsh as the next Federal Reserve chair, succeeding Jerome Powell when his term ends in May 2026; Warsh is likely to be confirmed by the Senate.[3][4][5] This breaking nomination has sparked debate on Fed independence, pote",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Kevin Warsh confirmed as Fed Chair by May 15?",
+        "Will the People Power Party win 2 seats in South Korea\u2019s June 3, 2026 parliament",
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_757130",
+      "timestamp": "2026-04-16T11:13:00.791112+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Based on the search results provided, here are the key developments:",
+      "raw": "Based on the search results provided, here are the key developments:",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "POLITICS"
+    },
+    {
+      "id": "sig_757135",
+      "timestamp": "2026-04-16T11:13:00.796821+00:00",
+      "source": "PERPLEXITY",
+      "headline": "HEADLINE:** Operation Epic Fury concludes with Iran's military capabilities destroyed; ceasefire takes hold after failed",
+      "raw": "HEADLINE:** Operation Epic Fury concludes with Iran's military capabilities destroyed; ceasefire takes hold after failed nuclear negotiations",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_782032",
+      "timestamp": "2026-04-16T11:13:25.693287+00:00",
+      "source": "PERPLEXITY",
+      "headline": "LOW** confidence - Search results lack post-April 14 updates; no fresh confirmations today, with SOL compressed ~$82 and",
+      "raw": "LOW** confidence - Search results lack post-April 14 updates; no fresh confirmations today, with SOL compressed ~$82 and bearish signals noted.[2][4][5] Ethereum prices shown fluctuating ($2,196-$2,332) through April 15, no new catalysts.[6][7] Earlier Drift hack (April 1) resolved via multisig update, but not bullish.[3]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Ethereum Up or Down - April 16, 10:20AM-10:25AM ET",
+        "Ethereum Up or Down - April 16, 11:00AM-11:05AM ET",
+        "Ethereum Up or Down - April 16, 10:30AM-10:45AM ET"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_782026",
+      "timestamp": "2026-04-16T11:13:25.687612+00:00",
+      "source": "PERPLEXITY",
+      "headline": "YES** - Recent developments like Solana's Alpenglow upgrade (targeting 150ms finality), Firedancer progress, record 167M",
+      "raw": "YES** - Recent developments like Solana's Alpenglow upgrade (targeting 150ms finality), Firedancer progress, record 167M holders, and Interactive Brokers' SOL access for Europeans could influence markets, but all dated April 1-14.[1][2][4]",
+      "direction": "YES",
+      "confidence": 0.6,
+      "matched_markets": [
+        "Solana Up or Down - April 17, 4:40AM-4:45AM ET"
+      ],
+      "action": "WATCH",
+      "x_link": null,
+      "category": "CRYPTO"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 4,
-    "watch": 0,
-    "high_conf": 1
+    "enter": 2,
+    "alert": 3,
+    "watch": 1,
+    "high_conf": 2
   }
 }
