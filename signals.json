@@ -1,172 +1,80 @@
 {
-  "last_scan": "2026-04-16T02:21:50.717784+00:00",
-  "scan_seconds": 24.8,
-  "markets_scanned": 99,
-  "open_positions": 62,
+  "last_scan": "2026-04-16T02:24:29.942178+00:00",
+  "scan_seconds": 20.2,
+  "markets_scanned": 77,
+  "open_positions": 40,
   "signals": [
     {
-      "id": "sig_886023",
-      "timestamp": "2026-04-16T02:21:49.716562+00:00",
+      "id": "sig_31003",
+      "timestamp": "2026-04-16T02:24:14.695406+00:00",
       "source": "PERPLEXITY",
-      "headline": "South Korea March 2026 Inflation Rises to 2",
-      "raw": "South Korea March 2026 Inflation Rises to 2.2%, Below Forecasts; Fed Freezes Rates Amid Iran-Driven Oil Surge** | **YES** | **HIGH** confidence\n\nSouth Korea's annual inflation rate increased to 2.2% in March 2026 from 2.0% in prior months, missing market expectations of 2.4% and staying near the Bank of Korea's 2% target despite global energy volatility from the Iran conflict.[1] This softer-than-",
+      "headline": "Iran-US-Israel Ceasefire Deal Confirmed | YES | HIGH confidence**",
+      "raw": "Iran-US-Israel Ceasefire Deal Confirmed | YES | HIGH confidence**  \nThe United States, Israel, and Iran agreed to a two-week ceasefire on April 8, 2026, welcomed by the Kremlin as a de-escalation move amid risks of wider war and oil supply shocks; questions persist on exact start time due to ongoing airstrikes and suspended Strait of Hormuz shipping.[4]",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
-        "Kevin Warsh confirmed as Fed Chair by May 15?",
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "US x Iran diplomatic meeting by April 18, 2026?",
+        "US x Iran permanent peace deal by April 30, 2026?"
       ],
       "action": "ENTER",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_874665",
-      "timestamp": "2026-04-16T02:21:38.358485+00:00",
+      "id": "sig_31009",
+      "timestamp": "2026-04-16T02:24:14.701556+00:00",
       "source": "PERPLEXITY",
-      "headline": "Any announcement that has been \"confirmed\" or \"resolved\" in the past few hours",
-      "raw": "Any announcement that has been \"confirmed\" or \"resolved\" in the past few hours",
-      "direction": null,
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_881138",
-      "timestamp": "2026-04-16T02:21:44.831296+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Current Prediction Market Consensus:**",
-      "raw": "Current Prediction Market Consensus:**\nThe strongest consensus from Polymarket (as of April 14) projects Bitcoin reaching **$75,000 by April 30 with 92% probability**[1], with $80,000 at 35% probability[1]. However, these are forward-looking predictions rather than confirmed announcements.\n\nThe search results do not contain any breaking news about Solana or Ethereum specific developments, nor do t",
-      "direction": null,
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will the price of Ethereum be less than $1,800 on April 17?",
-        "Will the price of Solana be above $100 on April 18?",
-        "Will the price of Solana be above $130 on April 19?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_874641",
-      "timestamp": "2026-04-16T02:21:38.334328+00:00",
-      "source": "PERPLEXITY",
-      "headline": "I cannot identify any breaking news matching your query parameters",
-      "raw": "I cannot identify any breaking news matching your query parameters. The search results contain information about **King Charles III's scheduled address to U.S. Congress later in April 2026**[1], but they do not include:",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_874650",
-      "timestamp": "2026-04-16T02:21:38.343525+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Any \"obliteration\" event involving King Charles or Trump",
-      "raw": "Any \"obliteration\" event involving King Charles or Trump",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Trump say \"Obliterated\" or \"Obliteration\" during King Charles visit?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_874678",
-      "timestamp": "2026-04-16T02:21:38.371051+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Any development that would materially move prediction markets",
-      "raw": "Any development that would materially move prediction markets\n\nThe most recent substantive news in these results is from **April 15, 2026**, confirming that King Charles will deliver a rare joint address to Congress during his state visit later that month[1], and that President Trump has expressed positive sentiment about the visit[2]. These are scheduled future events rather than breaking develop",
+      "headline": "Russia-Ukraine 32-Hour Easter Ceasefire Announced (April 10) | YES | MED confidence**",
+      "raw": "Russia-Ukraine 32-Hour Easter Ceasefire Announced (April 10) | YES | MED confidence**  \nPutin ordered a temporary halt to operations from 1600 April 11 to end of April 12 for Orthodox Easter, with Ukraine cautiously agreeing to mirror steps; post-announcement Ukrainian drone strikes on Russian targets suggest fragility, not a lasting resolution.[1][2][3]",
       "direction": "YES",
-      "confidence": 0.65,
+      "confidence": 0.9,
       "matched_markets": [
-        "Will Trump say \"Obliterated\" or \"Obliteration\" during King Charles visit?",
-        "Will Donald Trump announce that the United States blockade of the Strait of Horm"
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Will Russia enter Ternuvate again by April 30?"
       ],
-      "action": "ALERT",
+      "action": "ENTER",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_36245",
+      "timestamp": "2026-04-16T02:24:19.937028+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Trump Threatens UK Meltdown Over Potential King Charles State Visit Cancellation Amid Iran Tensions | NO | LOW confidenc",
+      "raw": "Trump Threatens UK Meltdown Over Potential King Charles State Visit Cancellation Amid Iran Tensions | NO | LOW confidence**\n\nNo breaking confirmations, announcements, or resolutions reported right now linking Republicans, Trump, \"obliteration,\" or King Charles that would move prediction markets\u2014only ongoing speculation about a possible U.S. state visit cancellation due to U.S.-UK disagreements on ",
+      "direction": "NO",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Trump announces end of military operations against Iran by A",
+        "Will Trump say \"Obliterated\" or \"Obliteration\" during King Charles visit?",
+        "Will Chris Dudley win the 2026 Oregon Governor Republican primary election?"
+      ],
+      "action": "ENTER",
       "x_link": null,
       "category": "POLITICS"
     },
     {
-      "id": "sig_881103",
-      "timestamp": "2026-04-16T02:21:44.796918+00:00",
+      "id": "sig_40852",
+      "timestamp": "2026-04-16T02:24:24.544979+00:00",
       "source": "PERPLEXITY",
-      "headline": "Based on the search results provided, I cannot identify any breaking news from today (April 16, 2026) that would move pr",
-      "raw": "Based on the search results provided, I cannot identify any breaking news from today (April 16, 2026) that would move prediction markets. The most recent information available is from April 14-15, 2026, which includes:",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_881110",
-      "timestamp": "2026-04-16T02:21:44.803613+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Recent Market Movements (April 14-15):**",
-      "raw": "Recent Market Movements (April 14-15):**",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_881117",
-      "timestamp": "2026-04-16T02:21:44.810739+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Bitcoin broke through $74,000 resistance, reaching a one-month high near $75,000[5]",
-      "raw": "Bitcoin broke through $74,000 resistance, reaching a one-month high near $75,000[5]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_881124",
-      "timestamp": "2026-04-16T02:21:44.817558+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Bitcoin was trading at $74,286",
-      "raw": "Bitcoin was trading at $74,286.71 on April 15[2]",
-      "direction": null,
-      "confidence": 0.65,
+      "headline": "Bitcoin Surges Past $74K Resistance to One-Month High on April 14 Amid ETF Inflows | NO | LOW confidence**",
+      "raw": "Bitcoin Surges Past $74K Resistance to One-Month High on April 14 Amid ETF Inflows | NO | LOW confidence**\n\nNo breaking confirmations, announcements, or resolutions reported right now (April 16, 2 AM UTC) that would newly move prediction markets; recent price action from April 13-14\u2014rallying 5.22% to $74,450 close and breaking $74K resistance\u2014already triggered broad repricing earlier this week, sh",
+      "direction": "NO",
+      "confidence": 0.9,
       "matched_markets": [
         "Bitcoin Up or Down - April 16, 4:15AM-4:30AM ET",
         "Will the price of Bitcoin be above $72,000 on April 20?"
       ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_881131",
-      "timestamp": "2026-04-16T02:21:44.824232+00:00",
-      "source": "PERPLEXITY",
-      "headline": "This followed a relief rally driven by $400-500 million in short position liquidations[1]",
-      "raw": "This followed a relief rally driven by $400-500 million in short position liquidations[1]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
       "category": "CRYPTO"
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 10,
+    "enter": 4,
+    "alert": 0,
     "watch": 0,
-    "high_conf": 3
+    "high_conf": 4
   }
 }
