@@ -1324,11 +1324,20 @@
     const el = document.getElementById('audit-panel');
     if (!el) return;
     try {
-      const PAPER_URL = 'https://shaunpatrickstewart.github.io/trades/paper_trades.jsonl?_a='+Date.now();
-      const resp = await fetch(P+encodeURIComponent(PAPER_URL));
-      const text = await resp.text();
-      const trades = text.trim().split('\n').filter(Boolean)
+      const BASE = 'https://shaunpatrickstewart.github.io/trades/';
+      const bust = '?_a='+Date.now();
+      const parseJsonl = txt => txt.trim().split('\n').filter(Boolean)
         .map(l=>{try{return JSON.parse(l);}catch{return null;}}).filter(Boolean);
+      const [paperTxt, kalshiTxt, arbTxt, cfgJson] = await Promise.all([
+        fetch(P+encodeURIComponent(BASE+'paper_trades.jsonl'+bust)).then(r=>r.text()).catch(()=>''),
+        fetch(P+encodeURIComponent(BASE+'kalshi_paper_trades.jsonl'+bust)).then(r=>r.text()).catch(()=>''),
+        fetch(P+encodeURIComponent(BASE+'arb_paper_trades.jsonl'+bust)).then(r=>r.text()).catch(()=>''),
+        fetch(P+encodeURIComponent(BASE+'config.json'+bust)).then(r=>r.json()).catch(()=>({}))
+      ]);
+      const trades = parseJsonl(paperTxt);
+      const kalshiTrades = parseJsonl(kalshiTxt);
+      const arbTrades = parseJsonl(arbTxt);
+      const cfg = cfgJson || {};
 
       // ── US Eastern Time helpers (bot operates on ET wall clock)
       const ET_OFFSET_H = -4; // EDT in April
