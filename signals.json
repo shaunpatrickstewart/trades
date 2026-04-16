@@ -1,59 +1,81 @@
 {
-  "last_scan": "2026-04-16T00:08:19.724234+00:00",
-  "scan_seconds": 50.1,
-  "markets_scanned": 76,
-  "open_positions": 38,
+  "last_scan": "2026-04-16T00:11:10.702021+00:00",
+  "scan_seconds": 28.5,
+  "markets_scanned": 159,
+  "open_positions": 121,
   "signals": [
     {
-      "id": "sig_863166",
-      "timestamp": "2026-04-16T00:08:06.867999+00:00",
+      "id": "sig_29428",
+      "timestamp": "2026-04-16T00:10:53.128220+00:00",
       "source": "PERPLEXITY",
-      "headline": "YES or NO: NO** | **Confidence: HIGH** (search results lack any \"just confirmed\" developments post-April 15)",
-      "raw": "YES or NO: NO** | **Confidence: HIGH** (search results lack any \"just confirmed\" developments post-April 15).[1][2][3][4][5]",
-      "direction": "YES",
+      "headline": "I cannot provide the format you requested because the search results do not contain breaking news from today (April 16,",
+      "raw": "I cannot provide the format you requested because the search results do not contain breaking news from today (April 16, 2026) that would move prediction markets. The most recent information available is from April 15, 2026, when White House Press Secretary Karoline Leavitt confirmed that the United States has not formally requested an extension of the Iran ceasefire, which is set to expire on Apri",
+      "direction": "NO",
       "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Will Russia enter Ternuvate again by April 30?",
+        "Will the White House call a full lid by 6:30PM on April 14?"
+      ],
+      "action": "ENTER",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_853997",
-      "timestamp": "2026-04-16T00:07:57.698357+00:00",
+      "id": "sig_34594",
+      "timestamp": "2026-04-16T00:10:58.295014+00:00",
       "source": "PERPLEXITY",
-      "headline": "JD Vance** leads 2028 US presidential odds at 24% as a **Republican**, unchanged and unrelated to Peru[2]",
-      "raw": "JD Vance** leads 2028 US presidential odds at 24% as a **Republican**, unchanged and unrelated to Peru[2].  \nOlder Peru election coverage (pre-2026, referencing April 10 first round) provides no fresh updates[3].  \nNo connections found across terms; markets reflect ongoing trading, not breaking events[1][2][4].",
+      "headline": "VP JD Vance admits at Turning Point USA event young voters reject current Middle East policy amid Iran tensions, signali",
+      "raw": "VP JD Vance admits at Turning Point USA event young voters reject current Middle East policy amid Iran tensions, signaling GOP midterm turnout risks | NO | HIGH confidence** [2][4]\n\nVance faced heckling at the April 15, 2026, event over **Iran policy divergences** with President Trump, urging Republican votes despite disagreements and noting youth discontent[2][4]. Analysts highlight slipping GOP ",
       "direction": "NO",
-      "confidence": 0.65,
+      "confidence": 0.9,
       "matched_markets": [
         "Will J.D. Vance win the 2028 Republican presidential nominat",
-        "Will Roberto S\u00e1nchez Palomino finish in second place in the first round of the 2"
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces end of military operations against Iran by A"
       ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
       "category": "POLITICS"
     },
     {
-      "id": "sig_875022",
-      "timestamp": "2026-04-16T00:08:18.723630+00:00",
+      "id": "sig_46000",
+      "timestamp": "2026-04-16T00:11:09.700756+00:00",
       "source": "PERPLEXITY",
-      "headline": "Kevin Warsh Nominated by President Trump to Succeed Jerome Powell as Fed Chair, Pending Senate Confirmation (Set for May",
-      "raw": "Kevin Warsh Nominated by President Trump to Succeed Jerome Powell as Fed Chair, Pending Senate Confirmation (Set for May 2026)** | YES | HIGH confidence[1][2][3][4][5][6][7][8]\n\nThis nomination has sparked market speculation on a potential \"Warsh era\" involving balance sheet reduction (quantitative tightening) to combat inflation, followed by rate cuts, though FOMC constraints and Warsh's hawkish ",
+      "headline": "Trump Nominates Kevin Warsh as Next Fed Chair, Sparking Debate on Inflation Policy and Fed Independence** | **YES** | **",
+      "raw": "Trump Nominates Kevin Warsh as Next Fed Chair, Sparking Debate on Inflation Policy and Fed Independence** | **YES** | **HIGH** confidence[1][2][3][4][5]\n\nPresident Trump's announcement of Kevin Warsh's nomination for Federal Reserve Chair\u2014described as occurring \"Friday morning\" in recent reports\u2014has triggered market reactions, including lower front-end yields on expectations of earlier rate cuts a",
       "direction": "YES",
-      "confidence": 0.65,
+      "confidence": 0.9,
       "matched_markets": [
         "Kevin Warsh confirmed as Fed Chair by May 15?",
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+        "Will Trump and Xi handshake last 15 seconds or longer during the day of their ne"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_39935",
+      "timestamp": "2026-04-16T00:11:03.635151+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Interactive Brokers Launches SOL Trading for European Investors | YES | MED confidence**",
+      "raw": "Interactive Brokers Launches SOL Trading for European Investors | YES | MED confidence**  \nInteractive Brokers has added Solana (SOL) trading for European investors via Zero Hash, expanding institutional access on one of the world's largest brokerage platforms.[3]  \nSOL trades at $82.08 amid this news, with analysts targeting $88-$100 by April end if breakout confirms, though price remains compres",
+      "direction": "YES",
+      "confidence": 0.78,
+      "matched_markets": [
+        "Will Bitcoin reach $80,000 on April 15?",
+        "Will the price of Solana be between $60 and $70 on April 16?",
+        "Will the price of Solana be above $100 on April 16?"
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "CRYPTO"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 3,
+    "enter": 3,
+    "alert": 1,
     "watch": 0,
-    "high_conf": 1
+    "high_conf": 3
   }
 }
