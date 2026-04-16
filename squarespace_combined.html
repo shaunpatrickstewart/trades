@@ -1210,8 +1210,6 @@
       }
       signalHtml += '</div></div>';
 
-      // Trade table — uses global engLabel()/engColor() as single source of truth
-      // (removed local engineLabel duplicate that had wrong colors and missing engines)
       const engineLabel = t => {
         const s = t.source||t.type||'';
         if (s.startsWith('copy:')) return '<span style="color:#88aaff;font-size:0.75em">COPY: '+s.slice(5).slice(0,14)+'</span>';
