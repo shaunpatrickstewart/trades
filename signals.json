@@ -1,58 +1,115 @@
 {
-  "last_scan": "2026-04-16T23:16:54.630230+00:00",
-  "scan_seconds": 22.6,
-  "markets_scanned": 79,
+  "last_scan": "2026-04-16T23:19:48.908967+00:00",
+  "scan_seconds": 33.0,
+  "markets_scanned": 77,
   "open_positions": 38,
   "signals": [
     {
-      "id": "sig_175730",
-      "timestamp": "2026-04-16T23:16:39.347097+00:00",
+      "id": "sig_341563",
+      "timestamp": "2026-04-16T23:19:25.180850+00:00",
       "source": "PERPLEXITY",
-      "headline": "Impact on prediction markets: LOW confidence in any shift, as no fresh confirmations; prior ceasefire reactions already",
-      "raw": "Impact on prediction markets: LOW confidence in any shift, as no fresh confirmations; prior ceasefire reactions already priced in.**[1][2][5]",
-      "direction": "NO",
+      "headline": "US-Iran Two-Week Ceasefire Agreement Confirmed (April 8, 2026), Welcomed by Russia and Allies; Trump Issues New Ultimatu",
+      "raw": "US-Iran Two-Week Ceasefire Agreement Confirmed (April 8, 2026), Welcomed by Russia and Allies; Trump Issues New Ultimatum on Strait of Hormuz Blockade (April 16)** | YES | HIGH confidence[1][2][3][5]\n\nThe US, Iran, and Israel agreed to an immediate two-week ceasefire on April 8, 2026, mediated by Pakistan, T\u00fcrkiye, and Egypt, averting escalation after Trump's ultimatum on reopening the Strait of H",
+      "direction": "YES",
       "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Will Russia enter Ternuvate again by April 30?",
+        "US x Iran permanent peace deal by April 30, 2026?"
+      ],
+      "action": "ENTER",
       "x_link": null,
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_180357",
-      "timestamp": "2026-04-16T23:16:43.974354+00:00",
+      "id": "sig_359597",
+      "timestamp": "2026-04-16T23:19:43.214603+00:00",
       "source": "PERPLEXITY",
-      "headline": "California GOP Convention Declines to Endorse Trump's Preferred Candidate in Governor Race** | NO | HIGH confidence[1][2",
-      "raw": "California GOP Convention Declines to Endorse Trump's Preferred Candidate in Governor Race** | NO | HIGH confidence[1][2]\n\nThe California Republican Party convention in San Diego ended on April 12, 2026, without endorsing either top contender in the June primary for governor: Sheriff Chad Bianco received 49% of delegate votes, Steve Hilton (endorsed by President Trump) got 44%, and neither hit the",
+      "headline": "Solana Hits 167M Monthly Token Holders & Alpenglow Upgrade Targets 150ms Finality | YES | HIGH confidence**",
+      "raw": "Solana Hits 167M Monthly Token Holders & Alpenglow Upgrade Targets 150ms Finality | YES | HIGH confidence**\nAs of April 14, 2026, Solana achieved an all-time record of 167 million monthly token holders with daily non-vote transactions reaching 148 million.[2] The highly anticipated **Alpenglow consensus upgrade** has been confirmed to slash transaction finality from 12 seconds to just 150 millisec",
       "direction": "YES",
-      "confidence": 0.65,
+      "confidence": 0.9,
       "matched_markets": [
-        "Will the White House call a full lid by 6:30PM on April 14?",
-        "Will Chris Dudley win the 2026 Oregon Governor Republican primary election?"
+        "Solana Up or Down - April 17, 4:40AM-4:45AM ET"
       ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
-      "category": "POLITICS"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_190011",
-      "timestamp": "2026-04-16T23:16:53.628905+00:00",
+      "id": "sig_364291",
+      "timestamp": "2026-04-16T23:19:47.908371+00:00",
       "source": "PERPLEXITY",
       "headline": "South Korea's annual inflation rose to 2",
-      "raw": "South Korea's annual inflation rose to 2.2% in March 2026, up from 2.0% in prior months but below 2.4% forecasts | YES | HIGH confidence** [1]\n\nThis March figure, released around early April 2026 per source timing, marks the latest confirmed data amid Middle East-driven oil shocks pushing import prices up sharply\u2014the steepest in nearly three decades\u2014potentially sustaining inflation above the Bank ",
+      "raw": "South Korea's annual inflation rose to 2.2% in March 2026, up from 2.0% in prior months but below 2.4% forecasts | NO | HIGH confidence** [1]\n\nThis March figure, released around early April 2026 per standard schedules, marks the latest confirmed data amid Middle East tensions boosting energy costs, yet it stayed under expectations and near the Bank of Korea's 2% target [1][4]. The Bank of Korea he",
       "direction": "YES",
-      "confidence": 0.6,
+      "confidence": 0.9,
       "matched_markets": [
         "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
       ],
-      "action": "WATCH",
+      "action": "ENTER",
       "x_link": null,
       "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_359603",
+      "timestamp": "2026-04-16T23:19:43.220561+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Ethereum Reclaims Transaction Activity Leadership | YES | HIGH confidence**",
+      "raw": "Ethereum Reclaims Transaction Activity Leadership | YES | HIGH confidence**\nEthereum transactions jumped 41% over the past seven days, reclaiming activity leadership from Solana after ceding it through much of 2025.[1] ETH posted an 8.6% daily gain, pushing price above $2,350 resistance.[1] A close above $2,500 would confirm a breakout and likely drive rotation from ETH shorts into spot accumulati",
+      "direction": "YES",
+      "confidence": 0.78,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_359591",
+      "timestamp": "2026-04-16T23:19:43.208175+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Based on the search results provided, here are the key market-moving developments:",
+      "raw": "Based on the search results provided, here are the key market-moving developments:",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_359609",
+      "timestamp": "2026-04-16T23:19:43.226174+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Solana Reclaims $85 Support Level | YES | MEDIUM confidence**",
+      "raw": "Solana Reclaims $85 Support Level | YES | MEDIUM confidence**\nSOL climbed 6.3% on the day to $86.55, reclaiming the $85 level that acted as resistance through March.[1] A weekly close above $92 opens room toward $105, where Q4 2025 ETF launch highs sit.[1] Funding rates on SOL perps remain slightly positive, indicating leveraged longs have not yet crowded the trade, favoring upside asymmetry.[1]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_359614",
+      "timestamp": "2026-04-16T23:19:43.231878+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Drift Protocol $280M Hack on Solana | YES | HIGH confidence**",
+      "raw": "Drift Protocol $280M Hack on Solana | YES | HIGH confidence**\nOn April 1, the Solana-based DeFi platform Drift Protocol was hacked with $280 million withdrawn, involving sophisticated social engineering of Drift Security Council members.[5] This represents a significant risk event for the ecosystem.",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Solana Up or Down - April 17, 4:40AM-4:45AM ET"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 2,
-    "watch": 1,
-    "high_conf": 1
+    "enter": 3,
+    "alert": 4,
+    "watch": 0,
+    "high_conf": 3
   }
 }
