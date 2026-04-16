@@ -1,131 +1,61 @@
 {
-  "last_updated": "2026-04-16T15:36:05.681457+00:00",
+  "last_updated": "2026-04-16T15:36:50.203233+00:00",
   "bankroll": 4947.81,
+  "total_trades": 10750,
+  "settled_trades": 10605,
+  "wins": 10490,
+  "losses": 115,
+  "win_rate": 98.92,
+  "win_streak": 282,
   "starting_bankroll": 300.0,
   "paper_topup": 1000.0,
   "organic_pnl": 3647.81,
+  "true_realized_pnl": 3647.81,
+  "open_trades": 39,
+  "open_capital_deployed": 1242.01,
+  "post_filter_pnl": 3788.5,
   "engines": {
+    "ANTI_NC": {
+      "won": 0,
+      "lost": 3,
+      "pnl": -60.0,
+      "open": 11
+    },
     "LONG_TERM": {
       "won": 15,
       "lost": 21,
-      "open": 16,
-      "pnl": -92.22
+      "pnl": -92.22,
+      "open": 12
     },
     "NEAR_CERTAIN": {
       "won": 10445,
       "lost": 56,
-      "open": 87,
-      "pnl": 3830.5500000000425
-    },
-    "SHORT_TERM": {
-      "won": 30,
-      "lost": 35,
-      "open": 30,
-      "pnl": -30.520000000000017
-    },
-    "ANTI_NC": {
-      "won": 0,
-      "lost": 3,
-      "open": 11,
-      "pnl": -60.0
+      "pnl": 3830.5500000000425,
+      "open": 3
     },
     "NEWS": {
       "won": 0,
       "lost": 0,
-      "open": 1,
-      "pnl": 0.0
+      "pnl": 0.0,
+      "open": 1
+    },
+    "SHORT_TERM": {
+      "won": 30,
+      "lost": 35,
+      "pnl": -30.520000000000017,
+      "open": 12
     }
   },
-  "total_trades": 10750,
-  "win_streak": 282,
-  "true_realized_pnl": 3647.81,
-  "open_capital_deployed": 1242.01,
-  "post_filter_pnl": 3788.5,
-  "daily_log": [
-    {
-      "date": "2026-04-03",
-      "starting": 300.0,
-      "pnl": -13.07,
-      "ending": 286.93
-    },
-    {
-      "date": "2026-04-04",
-      "starting": 286.93,
-      "pnl": -64.67,
-      "ending": 222.26
-    },
-    {
-      "date": "2026-04-05",
-      "starting": 222.26,
-      "pnl": 24.37,
-      "ending": 246.63
-    },
-    {
-      "date": "2026-04-06",
-      "starting": 246.63,
-      "pnl": 1006.53,
-      "ending": 1253.16,
-      "note": "+$1000 paper top-up added"
-    },
-    {
-      "date": "2026-04-07",
-      "starting": 1253.16,
-      "pnl": 60.6,
-      "ending": 1313.76
-    },
-    {
-      "date": "2026-04-08",
-      "starting": 1313.76,
-      "pnl": 236.21,
-      "ending": 1549.97
-    },
-    {
-      "date": "2026-04-09",
-      "starting": 1549.97,
-      "pnl": 134.22,
-      "ending": 1684.19
-    },
-    {
-      "date": "2026-04-10",
-      "starting": 1684.19,
-      "pnl": 130.29,
-      "ending": 1814.48
-    },
-    {
-      "date": "2026-04-11",
-      "starting": 1814.48,
-      "pnl": -118.1,
-      "ending": 1657.18
-    },
-    {
-      "date": "2026-04-12",
-      "starting": 1657.18,
-      "pnl": 5.63,
-      "ending": 1662.81
-    },
-    {
-      "date": "2026-04-13",
-      "starting": 1662.81,
-      "pnl": 669.4,
-      "ending": 2332.21
-    },
-    {
-      "date": "2026-04-14",
-      "starting": 2332.21,
-      "pnl": 446.2,
-      "ending": 2778.41
-    },
-    {
-      "date": "2026-04-15",
-      "starting": 2778.41,
-      "pnl": 881.67,
-      "ending": 3660.08
-    },
-    {
-      "date": "2026-04-16",
-      "starting": 3660.08,
-      "pnl": 1288.48,
-      "ending": 4947.81
-    }
-  ]
+  "today_roi": 0.33,
+  "today_pnl": 1280.53,
+  "today_deployed": 392446.46,
+  "today_trades": 1561,
+  "week_roi": 0.3,
+  "week_pnl": 3463.02,
+  "week_deployed": 1166155.1,
+  "week_trades": 8425,
+  "month_roi": 0.3,
+  "month_pnl": 3647.81,
+  "month_deployed": 1230664.61,
+  "month_trades": 10605
 }
