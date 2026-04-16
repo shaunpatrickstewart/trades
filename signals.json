@@ -1,31 +1,238 @@
 {
-  "last_scan": "2026-04-16T04:50:23.621417+00:00",
-  "scan_seconds": 45.3,
-  "markets_scanned": 81,
+  "last_scan": "2026-04-16T04:53:39.592252+00:00",
+  "scan_seconds": 57.0,
+  "markets_scanned": 83,
   "open_positions": 41,
   "signals": [
     {
-      "id": "sig_766572",
-      "timestamp": "2026-04-16T04:49:50.256995+00:00",
+      "id": "sig_950394",
+      "timestamp": "2026-04-16T04:52:54.078422+00:00",
       "source": "PERPLEXITY",
-      "headline": "King Charles US Visit Faces Pressure to Cancel Amid Trump Tensions | NO | LOW confidence**",
-      "raw": "King Charles US Visit Faces Pressure to Cancel Amid Trump Tensions | NO | LOW confidence**  \nNo confirmed announcements, resolutions, or breaking developments as of now involving Trump \"obliterating\" Vance or obliteration themes; the sole relevant update is pressure on King Charles to cancel his planned US visit for the 250th American independence anniversary due to Trump's vocal irritation with t",
+      "headline": "# CEASEFIRE BETWEEN US AND IRAN AGREED | YES | HIGH confidence",
+      "raw": "# CEASEFIRE BETWEEN US AND IRAN AGREED | YES | HIGH confidence\n\nThe **United States and Iran agreed to a two-week ceasefire on April 8, 2026**, mediated by Pakistan.[1] Trump announced the agreement on Truth Social, and Iranian Foreign Minister Abbas Araghchi confirmed Iran's acceptance the same day.[1]\n\nKey developments affecting prediction markets:",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces end of military operations against Iran by A",
+        "US x Iran diplomatic meeting by April 18, 2026?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_950411",
+      "timestamp": "2026-04-16T04:52:54.095791+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**The ceasefire has already been violated by both sides** since its declaration[1]",
+      "raw": "**The ceasefire has already been violated by both sides** since its declaration[1]",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_950451",
+      "timestamp": "2026-04-16T04:52:54.135269+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Russia welcomed the ceasefire and called for de-escalation and diplomatic solutions[2]",
+      "raw": "Russia welcomed the ceasefire and called for de-escalation and diplomatic solutions[2]\n\nThe fragility of the ceasefire\u2014with violations already occurring and stalled negotiations by mid-April\u2014suggests significant uncertainty about whether this agreement will hold or expand into a lasting resolution.",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Will Russia enter Ternuvate again by April 30?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_995887",
+      "timestamp": "2026-04-16T04:53:39.571988+00:00",
+      "source": "X_GROK",
+      "headline": "Pacers vs Thunder NBA:** Price shocks to 100\u00a2 YES (53\u2192100\u00a2, $593k vol); likely resolved win",
+      "raw": "Pacers vs Thunder NBA:** Price shocks to 100\u00a2 YES (53\u2192100\u00a2, $593k vol); likely resolved win.[[4]](https://x.com/i/status/2044634420691288097) YES confirmed. Confidence: HIGH.",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2044634420691288097)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_950400",
+      "timestamp": "2026-04-16T04:52:54.084806+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Iran agreed to immediately **open the Strait of Hormuz** (critical for global oil markets)[1]",
+      "raw": "Iran agreed to immediately **open the Strait of Hormuz** (critical for global oil markets)[1]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_950406",
+      "timestamp": "2026-04-16T04:52:54.090321+00:00",
+      "source": "PERPLEXITY",
+      "headline": "The agreement includes a framework for finalizing a broader peace agreement[1]",
+      "raw": "The agreement includes a framework for finalizing a broader peace agreement[1]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_950417",
+      "timestamp": "2026-04-16T04:52:54.101585+00:00",
+      "source": "PERPLEXITY",
+      "headline": "By April 12 (day five), U",
+      "raw": "By April 12 (day five), U.S.-led negotiations in Islamabad had stalled with \"virtually no progress\"[4]",
       "direction": "NO",
       "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_950423",
+      "timestamp": "2026-04-16T04:52:54.107363+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Iran was reportedly about to retaliate on April 8-9 against Israeli violations in Lebanon before Pakistani diplomatic in",
+      "raw": "Iran was reportedly about to retaliate on April 8-9 against Israeli violations in Lebanon before Pakistani diplomatic intervention[1]",
+      "direction": null,
+      "confidence": 0.65,
       "matched_markets": [
-        "Trump announces end of military operations against Iran by A",
-        "Will Trump say \"Obliterated\" or \"Obliteration\" during King Charles visit?"
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "US x Iran diplomatic meeting by April 18, 2026?",
+        "US x Iran permanent peace deal by April 30, 2026?"
       ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_950428",
+      "timestamp": "2026-04-16T04:52:54.112916+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Ship navigation in the Strait of Hormuz remains suspended as of the ceasefire announcement, with shipping companies citi",
+      "raw": "Ship navigation in the Strait of Hormuz remains suspended as of the ceasefire announcement, with shipping companies citing insufficient security despite the agreement[2]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_950439",
+      "timestamp": "2026-04-16T04:52:54.123984+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Iran claimed victory, asserting it forced the U",
+      "raw": "Iran claimed victory, asserting it forced the U.S. to accept its terms including lifting all sanctions and withdrawing U.S. forces[1]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_950445",
+      "timestamp": "2026-04-16T04:52:54.129557+00:00",
+      "source": "PERPLEXITY",
+      "headline": "International Response:**",
+      "raw": "International Response:**",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_957013",
+      "timestamp": "2026-04-16T04:53:00.697599+00:00",
+      "source": "PERPLEXITY",
+      "headline": "I cannot provide the breaking news alert you've requested based on these search results",
+      "raw": "I cannot provide the breaking news alert you've requested based on these search results.\n\nThe search results contain articles from April 1-2, 2026, which are **past events** relative to the current date (April 16, 2026). They describe:",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "POLITICS"
     },
     {
-      "id": "sig_779279",
-      "timestamp": "2026-04-16T04:50:02.963849+00:00",
+      "id": "sig_963910",
+      "timestamp": "2026-04-16T04:53:07.594121+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot provide the breaking news you're requesting based on the available search results",
-      "raw": "I cannot provide the breaking news you're requesting based on the available search results. The search results provided focus exclusively on the Oklahoma City Thunder's 2025-26 NBA season performance and do not contain any information about France, a World Cup, or any breaking news that would move prediction markets.\n\nThe search results show that the Thunder currently hold a 64-18 record and the N",
+      "headline": "Based on the search results provided, I cannot identify any breaking news from today (April 16, 2026) that would move pr",
+      "raw": "Based on the search results provided, I cannot identify any breaking news from today (April 16, 2026) that would move prediction markets. The search results contain information from late January through early February 2026 regarding Kevin Warsh's nomination as Fed Chair and general economic conditions at that time, but nothing dated to April 16, 2026.\n\nThe most recent concrete data in the results ",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Kevin Warsh confirmed as Fed Chair by May 15?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_963915",
+      "timestamp": "2026-04-16T04:53:07.599891+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Annual inflation at 2",
+      "raw": "Annual inflation at 2.8% as of February 2026 (above the Fed's 2% target)",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_963921",
+      "timestamp": "2026-04-16T04:53:07.605747+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Unemployment at 4",
+      "raw": "Unemployment at 4.3%",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_963927",
+      "timestamp": "2026-04-16T04:53:07.611501+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Payroll employment declining in five of the last 12 months",
+      "raw": "Payroll employment declining in five of the last 12 months\n\nTo provide the headline format you requested with market-moving confirmation, I would need search results containing announcements or data released today. The current results do not contain breaking news from this date.",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_970668",
+      "timestamp": "2026-04-16T04:53:14.352664+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**2026 NBA Champion (Oklahoma City Thunder at 42-45% odds)**: High volume ($260-269M total, $4-6M today) with Thunder fa",
+      "raw": "**2026 NBA Champion (Oklahoma City Thunder at 42-45% odds)**: High volume ($260-269M total, $4-6M today) with Thunder favored in Western Conference (57%), but no game outcomes, injuries, or announcements reported. [1][2]",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [
@@ -36,118 +243,55 @@
       "category": "SPORTS"
     },
     {
-      "id": "sig_779285",
-      "timestamp": "2026-04-16T04:50:02.969396+00:00",
+      "id": "sig_970677",
+      "timestamp": "2026-04-16T04:53:14.361559+00:00",
       "source": "PERPLEXITY",
-      "headline": "Recent France-related announcements",
-      "raw": "Recent France-related announcements",
-      "direction": null,
+      "headline": "**2026 FIFA World Cup Winner (France at 16%, Spain 17%)**: Steady futures trading ($657M total vol, $8",
+      "raw": "**2026 FIFA World Cup Winner (France at 16%, Spain 17%)**: Steady futures trading ($657M total vol, $8.9-10M today), no qualifiers, draws, or host news (Switzerland not listed prominently). [1][3]",
+      "direction": "NO",
       "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_779290",
-      "timestamp": "2026-04-16T04:50:02.974794+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Any World Cup developments",
-      "raw": "Any World Cup developments",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_779296",
-      "timestamp": "2026-04-16T04:50:02.980238+00:00",
-      "source": "PERPLEXITY",
-      "headline": "News about a \"France\" group or entity",
-      "raw": "News about a \"France\" group or entity",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_779301",
-      "timestamp": "2026-04-16T04:50:02.985749+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Current market-moving events",
-      "raw": "Current market-moving events\n\nI recommend refining your search query to target the specific breaking news event you're interested in tracking.",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_799925",
-      "timestamp": "2026-04-16T04:50:23.609350+00:00",
-      "source": "X_GROK",
-      "headline": "Polymarket on X today (Apr 16):** Official @Polymarket posting breaking news (DNC bans ChatGPT/Claude, bees swarm Israel",
-      "raw": "Polymarket on X today (Apr 16):** Official @Polymarket posting breaking news (DNC bans ChatGPT/Claude, bees swarm Israel, Australia +A$53B defense spend, Disney revives greeting).[[1]](https://x.com/i/status/2044639445425475790)[[2]](https://x.com/i/status/2044639334754898332)[[3]](https://x.com/i/status/2044638162706948218)",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2044639445425475790)[[2]](https://x.com/i/status/2044639334754898332)[[3]](https://x.com/i/status/2044638162706948218)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_799931",
-      "timestamp": "2026-04-16T04:50:23.615431+00:00",
-      "source": "X_GROK",
-      "headline": "Trending (last week):** Claude AI bots hyped for spotting mispriced Polymarket BTC/ETH 5-min markets & copying \"whale\" a",
-      "raw": "Trending (last week):** Claude AI bots hyped for spotting mispriced Polymarket BTC/ETH 5-min markets & copying \"whale\" arb wallets (e.g., $50\u2192$52k, $120\u2192$1.4M claims). Means: Arb YES/NO edges on short-term crypto. Confidence: LOW (heavy promo/spam).[[4]](https://x.com/i/status/2040838229373669613)[[5]](https://x.com/i/status/2033645432585265287)[[6]](https://x.com/i/status/2042678618837451158)",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2040838229373669613)[[5]](https://x.com/i/status/2033645432585265287)[[6]](https://x.com/i/status/2042678618837451158)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_799937",
-      "timestamp": "2026-04-16T04:50:23.621156+00:00",
-      "source": "X_GROK",
-      "headline": "Specific tip:** Strait of Hormuz shipping market (needs 60 ships/day avg for YES) at ~15/day; \"No smartest play\" per dat",
-      "raw": "Specific tip:** Strait of Hormuz shipping market (needs 60 ships/day avg for YES) at ~15/day; \"No smartest play\" per data. Means: NO. Confidence: MED (logistics gap vs headlines).[[7]](https://x.com/i/status/2044421755234918418)\n\nNo fresh whale bets or big moves spotted today. Quiet morning.",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2044421755234918418)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_762393",
-      "timestamp": "2026-04-16T04:49:46.077608+00:00",
-      "source": "PERPLEXITY",
-      "headline": "US-Iran Two-Week Ceasefire Announced; Russia Labels It 'Extreme Defeat' for Trump | YES | MED confidence**",
-      "raw": "US-Iran Two-Week Ceasefire Announced; Russia Labels It 'Extreme Defeat' for Trump | YES | MED confidence**\n\nA temporary two-week ceasefire between the US and Iran was agreed upon around April 1-8, 2026, pausing military strikes amid Middle East conflict, with both sides claiming victory but reports of ongoing incidents like missile interceptions and post-ceasefire strikes on Iran's Levin Island oi",
-      "direction": "YES",
-      "confidence": 0.6,
       "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Will Russia enter Ternuvate again by April 30?",
-        "Trump announces end of military operations against Iran by A"
+        "Will Switzerland win Group B in the 2026 FIFA World Cup?",
+        "Will France win Group I in the 2026 FIFA World Cup?"
       ],
-      "action": "WATCH",
+      "action": "ALERT",
       "x_link": null,
-      "category": "GEOPOLITICS"
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_970683",
+      "timestamp": "2026-04-16T04:53:14.367208+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**NBA general markets**: Recent high-volume games like Warriors vs",
+      "raw": "**NBA general markets**: Recent high-volume games like Warriors vs. Clippers (83% Clippers) and Magic vs. 76ers (100% 76ers) appear resolved or near-close, but no Thunder-specific results or NBA-wide news. [1]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_970688",
+      "timestamp": "2026-04-16T04:53:14.372741+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Other markets (e",
+      "raw": "Other markets (e.g., Champions League, Mbappe return for Real Madrid) unrelated to query topics. [1][4]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Atletico Madrid win the 2025\u201326 Champions League?",
+        "Will Real Madrid win the 2025\u201326 Champions League?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 9,
-    "watch": 1,
-    "high_conf": 0
+    "enter": 1,
+    "alert": 24,
+    "watch": 0,
+    "high_conf": 4
   }
 }
