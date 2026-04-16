@@ -1,63 +1,79 @@
 {
-  "last_scan": "2026-04-16T00:02:17.773788+00:00",
-  "scan_seconds": 28.0,
+  "last_scan": "2026-04-16T00:05:09.815794+00:00",
+  "scan_seconds": 28.1,
   "markets_scanned": 77,
   "open_positions": 38,
   "signals": [
     {
-      "id": "sig_499583",
-      "timestamp": "2026-04-16T00:02:03.284895+00:00",
+      "id": "sig_667872",
+      "timestamp": "2026-04-16T00:04:51.573518+00:00",
       "source": "PERPLEXITY",
-      "headline": "HEADLINE | President Trump to Address Nation Tonight on Operation Epic Fury Success; Vance Confirms Iran's Military 'Eff",
-      "raw": "HEADLINE | President Trump to Address Nation Tonight on Operation Epic Fury Success; Vance Confirms Iran's Military 'Effectively Destroyed' | YES | HIGH confidence**\n\nPresident Trump is scheduled to address the nation tonight on **Operation Epic Fury**, a U.S. military campaign that has achieved decisive success in **obliterating** Iran's ballistic missile arsenal and production, **annihilating** ",
+      "headline": "US-Iran Ceasefire Holds Fragilely Until April 22 Amid New Talks Signals, But Trump Rules Out Extension; Russia Announces",
+      "raw": "US-Iran Ceasefire Holds Fragilely Until April 22 Amid New Talks Signals, But Trump Rules Out Extension; Russia Announces Separate Easter Ceasefire with Ukraine (April 11-12, Now Lapsed)** | YES | MED\n\nUS Vice President JD Vance confirmed on April 15 that the US-Iran ceasefire\u2014established around April 8 and set to last until April 22\u2014is currently holding, describing recent Islamabad talks as constr",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Will Russia enter Ternuvate again by April 30?",
         "Trump announces end of military operations against Iran by A"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_673125",
+      "timestamp": "2026-04-16T00:04:56.826414+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Buckingham Palace Confirms King Charles and Queen Camilla's State Visit to US for Late April Meeting with President Trum",
+      "raw": "Buckingham Palace Confirms King Charles and Queen Camilla's State Visit to US for Late April Meeting with President Trump Amid UK Political Row** | YES | HIGH confidence[1][2]\n\nBuckingham Palace has officially confirmed the state visit, scheduled for late April 2026, despite opposition calls to cancel it due to US-UK tensions over the US-Iran conflict, Trump's April 7 threat to Iran, and UK reject",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces end of military operations against Iran by A",
+        "US x Iran diplomatic meeting by April 18, 2026?"
       ],
       "action": "ENTER",
       "x_link": null,
       "category": "POLITICS"
     },
     {
-      "id": "sig_494127",
-      "timestamp": "2026-04-16T00:01:57.828189+00:00",
+      "id": "sig_679675",
+      "timestamp": "2026-04-16T00:05:03.376577+00:00",
       "source": "PERPLEXITY",
-      "headline": "US-Iran-Israel Ceasefire Announced April 8; Russia Welcomes It and Hopes for Resumed US-Russia-Ukraine Talks | NO | HIGH",
-      "raw": "US-Iran-Israel Ceasefire Announced April 8; Russia Welcomes It and Hopes for Resumed US-Russia-Ukraine Talks | NO | HIGH confidence** [1][2][3][4]\n\nA two-week ceasefire between the US, Iran, and Israel was confirmed on April 8, 2026, unblocking the Strait of Hormuz and averting wider war, with mediation by Pakistan.[2][3] Russia\u2019s Kremlin spokesman Dmitry Peskov expressed satisfaction, stating it ",
+      "headline": "I cannot identify any breaking news from the search results that has been confirmed, announced, or resolved as of April",
+      "raw": "I cannot identify any breaking news from the search results that has been confirmed, announced, or resolved as of April 16, 2026, 12 AM UTC.\n\nThe most recent dated information in the search results is from April 14, 2026, which shows prediction market data indicating a 92% probability that Bitcoin will reach $75,000 by April 30[3]. However, this represents market expectations rather than a confirm",
       "direction": "YES",
-      "confidence": 0.65,
+      "confidence": 0.9,
       "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Will Russia enter Ternuvate again by April 30?",
-        "US x Iran diplomatic meeting by April 18, 2026?"
+        "Will the price of Bitcoin be above $72,000 on April 20?"
       ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
-      "category": "GEOPOLITICS"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_513072",
-      "timestamp": "2026-04-16T00:02:16.773023+00:00",
+      "id": "sig_685113",
+      "timestamp": "2026-04-16T00:05:08.814487+00:00",
       "source": "PERPLEXITY",
-      "headline": "Trump Nominates Kevin Warsh as Next Fed Chair to Replace Powell by Mid-May 2026 | YES | HIGH confidence**",
-      "raw": "Trump Nominates Kevin Warsh as Next Fed Chair to Replace Powell by Mid-May 2026 | YES | HIGH confidence**  \nKevin Warsh, former Fed governor and current Hoover Institution fellow, has been officially nominated by President Trump as the new Federal Reserve chair, with Senate confirmation expected and a start date around May amid rising inflation (core PCE at 4.56%, oil over $100/barrel) and Middle ",
+      "headline": "Trump Nominates Kevin Warsh as Next Fed Chair Amid Surging Inflation and Rate Hike Speculation** | YES | HIGH confidence",
+      "raw": "Trump Nominates Kevin Warsh as Next Fed Chair Amid Surging Inflation and Rate Hike Speculation** | YES | HIGH confidence[1][2][3][5][6]\n\nKevin Warsh's nomination to succeed Jerome Powell as Fed chair, expected by mid-May 2026, has been highlighted in multiple reports as a major development, with his first potential action being an interest rate hike amid oil prices over $100/barrel and annual core",
       "direction": "YES",
-      "confidence": 0.6,
+      "confidence": 0.78,
       "matched_markets": [
         "Kevin Warsh confirmed as Fed Chair by May 15?",
         "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
       ],
-      "action": "WATCH",
+      "action": "ALERT",
       "x_link": null,
       "category": "ECONOMICS"
     }
   ],
   "stats": {
-    "enter": 1,
+    "enter": 3,
     "alert": 1,
-    "watch": 1,
-    "high_conf": 1
+    "watch": 0,
+    "high_conf": 3
   }
 }
