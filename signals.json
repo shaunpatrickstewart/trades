@@ -1,66 +1,46 @@
 {
-  "last_scan": "2026-04-16T00:05:09.815794+00:00",
-  "scan_seconds": 28.1,
-  "markets_scanned": 77,
+  "last_scan": "2026-04-16T00:08:19.724234+00:00",
+  "scan_seconds": 50.1,
+  "markets_scanned": 76,
   "open_positions": 38,
   "signals": [
     {
-      "id": "sig_667872",
-      "timestamp": "2026-04-16T00:04:51.573518+00:00",
+      "id": "sig_863166",
+      "timestamp": "2026-04-16T00:08:06.867999+00:00",
       "source": "PERPLEXITY",
-      "headline": "US-Iran Ceasefire Holds Fragilely Until April 22 Amid New Talks Signals, But Trump Rules Out Extension; Russia Announces",
-      "raw": "US-Iran Ceasefire Holds Fragilely Until April 22 Amid New Talks Signals, But Trump Rules Out Extension; Russia Announces Separate Easter Ceasefire with Ukraine (April 11-12, Now Lapsed)** | YES | MED\n\nUS Vice President JD Vance confirmed on April 15 that the US-Iran ceasefire\u2014established around April 8 and set to last until April 22\u2014is currently holding, describing recent Islamabad talks as constr",
+      "headline": "YES or NO: NO** | **Confidence: HIGH** (search results lack any \"just confirmed\" developments post-April 15)",
+      "raw": "YES or NO: NO** | **Confidence: HIGH** (search results lack any \"just confirmed\" developments post-April 15).[1][2][3][4][5]",
       "direction": "YES",
       "confidence": 0.9,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Will Russia enter Ternuvate again by April 30?",
-        "Trump announces end of military operations against Iran by A"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_673125",
-      "timestamp": "2026-04-16T00:04:56.826414+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Buckingham Palace Confirms King Charles and Queen Camilla's State Visit to US for Late April Meeting with President Trum",
-      "raw": "Buckingham Palace Confirms King Charles and Queen Camilla's State Visit to US for Late April Meeting with President Trump Amid UK Political Row** | YES | HIGH confidence[1][2]\n\nBuckingham Palace has officially confirmed the state visit, scheduled for late April 2026, despite opposition calls to cancel it due to US-UK tensions over the US-Iran conflict, Trump's April 7 threat to Iran, and UK reject",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces end of military operations against Iran by A",
-        "US x Iran diplomatic meeting by April 18, 2026?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_679675",
-      "timestamp": "2026-04-16T00:05:03.376577+00:00",
-      "source": "PERPLEXITY",
-      "headline": "I cannot identify any breaking news from the search results that has been confirmed, announced, or resolved as of April",
-      "raw": "I cannot identify any breaking news from the search results that has been confirmed, announced, or resolved as of April 16, 2026, 12 AM UTC.\n\nThe most recent dated information in the search results is from April 14, 2026, which shows prediction market data indicating a 92% probability that Bitcoin will reach $75,000 by April 30[3]. However, this represents market expectations rather than a confirm",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will the price of Bitcoin be above $72,000 on April 20?"
-      ],
-      "action": "ENTER",
+      "matched_markets": [],
+      "action": "ALERT",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_685113",
-      "timestamp": "2026-04-16T00:05:08.814487+00:00",
+      "id": "sig_853997",
+      "timestamp": "2026-04-16T00:07:57.698357+00:00",
       "source": "PERPLEXITY",
-      "headline": "Trump Nominates Kevin Warsh as Next Fed Chair Amid Surging Inflation and Rate Hike Speculation** | YES | HIGH confidence",
-      "raw": "Trump Nominates Kevin Warsh as Next Fed Chair Amid Surging Inflation and Rate Hike Speculation** | YES | HIGH confidence[1][2][3][5][6]\n\nKevin Warsh's nomination to succeed Jerome Powell as Fed chair, expected by mid-May 2026, has been highlighted in multiple reports as a major development, with his first potential action being an interest rate hike amid oil prices over $100/barrel and annual core",
+      "headline": "JD Vance** leads 2028 US presidential odds at 24% as a **Republican**, unchanged and unrelated to Peru[2]",
+      "raw": "JD Vance** leads 2028 US presidential odds at 24% as a **Republican**, unchanged and unrelated to Peru[2].  \nOlder Peru election coverage (pre-2026, referencing April 10 first round) provides no fresh updates[3].  \nNo connections found across terms; markets reflect ongoing trading, not breaking events[1][2][4].",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will J.D. Vance win the 2028 Republican presidential nominat",
+        "Will Roberto S\u00e1nchez Palomino finish in second place in the first round of the 2"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_875022",
+      "timestamp": "2026-04-16T00:08:18.723630+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Kevin Warsh Nominated by President Trump to Succeed Jerome Powell as Fed Chair, Pending Senate Confirmation (Set for May",
+      "raw": "Kevin Warsh Nominated by President Trump to Succeed Jerome Powell as Fed Chair, Pending Senate Confirmation (Set for May 2026)** | YES | HIGH confidence[1][2][3][4][5][6][7][8]\n\nThis nomination has sparked market speculation on a potential \"Warsh era\" involving balance sheet reduction (quantitative tightening) to combat inflation, followed by rate cuts, though FOMC constraints and Warsh's hawkish ",
       "direction": "YES",
-      "confidence": 0.78,
+      "confidence": 0.65,
       "matched_markets": [
         "Kevin Warsh confirmed as Fed Chair by May 15?",
         "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
@@ -71,9 +51,9 @@
     }
   ],
   "stats": {
-    "enter": 3,
-    "alert": 1,
+    "enter": 0,
+    "alert": 3,
     "watch": 0,
-    "high_conf": 3
+    "high_conf": 1
   }
 }
