@@ -1,96 +1,63 @@
 {
-  "last_scan": "2026-04-16T01:30:41.243989+00:00",
-  "scan_seconds": 23.2,
-  "markets_scanned": 82,
-  "open_positions": 43,
+  "last_scan": "2026-04-16T01:33:26.611830+00:00",
+  "scan_seconds": 24.7,
+  "markets_scanned": 80,
+  "open_positions": 40,
   "signals": [
     {
-      "id": "sig_802112",
-      "timestamp": "2026-04-16T01:30:25.808375+00:00",
+      "id": "sig_965359",
+      "timestamp": "2026-04-16T01:33:09.055157+00:00",
       "source": "PERPLEXITY",
-      "headline": "Russia-Ukraine Easter Ceasefire (32 hours, Apr 11-12, 2026) Confirmed in Force | NO (Temporary Holiday Pause, Not Perman",
-      "raw": "Russia-Ukraine Easter Ceasefire (32 hours, Apr 11-12, 2026) Confirmed in Force | NO (Temporary Holiday Pause, Not Permanent) | HIGH confidence** [2][4]\n\nRussia's Defense Ministry announced a 32-hour ceasefire with Ukraine starting 4pm Moscow time (1300 GMT) on April 11, 2026, until end of April 12, tied to Orthodox Easter; Zelenskyy responded with a \"mirror manner\" pledge, expressing skepticism.[2",
-      "direction": "NO",
+      "headline": "Kremlin Welcomes US-Israel-Iran Two-Week Ceasefire Deal Amid Ongoing Strait of Hormuz Tensions | YES | HIGH confidence**",
+      "raw": "Kremlin Welcomes US-Israel-Iran Two-Week Ceasefire Deal Amid Ongoing Strait of Hormuz Tensions | YES | HIGH confidence**\n\nThe US, Israel, and Iran agreed to a two-week ceasefire on Wednesday (April 8, 2026), announced as an 11th-hour deal to avert wider war and address the worst oil supply shock in history, with Kremlin spokesman Dmitry Peskov explicitly welcoming it and urging diplomatic talks ov",
+      "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Will Russia enter Ternuvate again by April 30?"
+        "Will Russia enter Ternuvate again by April 30?",
+        "Trump announces end of military operations against Iran by A"
       ],
       "action": "ENTER",
       "x_link": null,
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_812964",
-      "timestamp": "2026-04-16T01:30:36.660558+00:00",
+      "id": "sig_976695",
+      "timestamp": "2026-04-16T01:33:20.392011+00:00",
       "source": "PERPLEXITY",
-      "headline": "Ethereum Foundation Locks 70,000 ETH ($143M) in Staking | YES | HIGH confidence**",
-      "raw": "Ethereum Foundation Locks 70,000 ETH ($143M) in Staking | YES | HIGH confidence**  \nThe Ethereum Foundation has confirmed staking 70,000 ETH worth $143 million, halting years of token sales that pressured prices and signaling a shift to earning yields as the network's largest holder.[3]  \nThis mid-April 2026 development, with ETH trading near $2,332 after a recovery from February lows, strengthens",
+      "headline": "Bitcoin Surges Past $74K to One-Month High on April 14, 2026 Amid Strong ETF Inflows | YES | HIGH confidence** [3][1]",
+      "raw": "Bitcoin Surges Past $74K to One-Month High on April 14, 2026 Amid Strong ETF Inflows | YES | HIGH confidence** [3][1]\n\nBitcoin broke key resistance at $74,000 on April 14, reaching ~$74,314-$75,000, up ~4-5% daily and marking a one-month high driven by institutional ETF inflows and whale accumulation[1][3]. This follows a $427M short liquidation cascade earlier in April from Iran ceasefire collaps",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
-        "Will Ethereum reach $2,550 on April 15?",
-        "Will the price of Bitcoin be above $72,000 on April 20?"
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "US x Iran diplomatic meeting by April 18, 2026?",
+        "US x Iran permanent peace deal by April 30, 2026?"
       ],
       "action": "ENTER",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_816547",
-      "timestamp": "2026-04-16T01:30:40.243136+00:00",
+      "id": "sig_981914",
+      "timestamp": "2026-04-16T01:33:25.610932+00:00",
       "source": "PERPLEXITY",
-      "headline": "Trump Nominates Kevin Warsh as Next Fed Chair, Signaling Potential Shift in Inflation Policy and Rate Flexibility** | YE",
-      "raw": "Trump Nominates Kevin Warsh as Next Fed Chair, Signaling Potential Shift in Inflation Policy and Rate Flexibility** | YES | HIGH confidence[1][2][3]\n\nPresident Trump announced Kevin Warsh, a former Fed governor and inflation hawk, as his nominee to succeed Jerome Powell, whose term ends in May 2026[2][3]. This nomination, dated January 30, 2026, highlights Warsh's views rethinking inflation driver",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Kevin Warsh confirmed as Fed Chair by May 15?",
-        "Will Donald Trump announce that the United States blockade of the Strait of Horm"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_802119",
-      "timestamp": "2026-04-16T01:30:25.815406+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Trump-Iran Ceasefire Apparent, Praised by Ukraine as Model for Russia | YES (Apparent US-Israel-Iran Truce Holding) | ME",
-      "raw": "Trump-Iran Ceasefire Apparent, Praised by Ukraine as Model for Russia | YES (Apparent US-Israel-Iran Truce Holding) | MED confidence** [1][3]\n\nUkraine's Foreign Minister Andrii Sybiha praised an \"apparent ceasefire\" between US, Israel, and Iran, stating \"American decisiveness works\" and \"now it\u2019s Russia\u2019s turn\"; a related 2-week ceasefire is noted amid US-Iran talks in Islamabad, with Trump signal",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Will Russia enter Ternuvate again by April 30?",
-        "Trump announces end of military operations against Iran by A"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_807230",
-      "timestamp": "2026-04-16T01:30:30.926883+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Vance Diplomacy Fails: Trump Convenes War Cabinet After 20+ Hour Iran Talks Collapse in Pakistan, Signaling Potential 'T",
-      "raw": "Vance Diplomacy Fails: Trump Convenes War Cabinet After 20+ Hour Iran Talks Collapse in Pakistan, Signaling Potential 'Total Destruction' Strikes** | NO | HIGH confidence[1][3]\n\nVP JD Vance returned empty-handed from marathon negotiations with Iranian officials in Pakistan, failing to secure a peace deal on key demands like opening the Strait of Hormuz and halting uranium enrichment[1][3]. Analyst",
+      "headline": "I cannot provide breaking news in the format you've requested because the search results do not contain information from",
+      "raw": "I cannot provide breaking news in the format you've requested because the search results do not contain information from April 16, 2026 (today). The most recent sources available are from early 2026, with the latest being a February 2, 2026 report on KOSPI market movements and a June 1, 2025 speech on inflation.\n\nThe search results do reference a **Fed Chair transition scheduled for May 2026**[5],",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [
-        "Trump announces end of military operations against Iran by A",
-        "US x Iran permanent peace deal by April 30, 2026?",
-        "US x Iran permanent peace deal by April 22, 2026?"
+        "Kevin Warsh confirmed as Fed Chair by May 15?"
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "POLITICS"
+      "category": "ECONOMICS"
     }
   ],
   "stats": {
-    "enter": 3,
-    "alert": 2,
+    "enter": 2,
+    "alert": 1,
     "watch": 0,
-    "high_conf": 3
+    "high_conf": 2
   }
 }
