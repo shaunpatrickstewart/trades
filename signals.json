@@ -1,47 +1,72 @@
 {
-  "last_scan": "2026-04-16T21:06:54.881387+00:00",
-  "scan_seconds": 25.7,
+  "last_scan": "2026-04-16T21:09:53.299615+00:00",
+  "scan_seconds": 36.2,
   "markets_scanned": 162,
-  "open_positions": 117,
+  "open_positions": 119,
   "signals": [
     {
-      "id": "sig_374287",
-      "timestamp": "2026-04-16T21:06:37.912964+00:00",
+      "id": "sig_549016",
+      "timestamp": "2026-04-16T21:09:32.641408+00:00",
       "source": "PERPLEXITY",
-      "headline": "Russia announced a unilateral Easter ceasefire in Ukraine from April 11-12, 2026, which has now ended without extension,",
-      "raw": "Russia announced a unilateral Easter ceasefire in Ukraine from April 11-12, 2026, which has now ended without extension, amid prior rejections of broader truce proposals.** | **NO** | **HIGH** confidence[1][2][6]\n\nRussia's President Putin ordered forces to halt operations from 16:00 on April 11 until midnight April 12-13 for \"humanitarian\" Easter purposes, expecting Ukraine to reciprocate while re",
+      "headline": "US-Iran Two-Week Ceasefire Announced April 7-9, Welcomed by Russia; Fragile as of April 16** | YES | HIGH confidence",
+      "raw": "US-Iran Two-Week Ceasefire Announced April 7-9, Welcomed by Russia; Fragile as of April 16** | YES | HIGH confidence\n\nRussia's Foreign Minister Sergei Lavrov welcomed the US-Iran two-week ceasefire announcement on April 9, expressing hope for successful negotiations and offering assistance to address US-Israeli aggression consequences[1][4]. The Kremlin also endorsed the deal on April 8, stressing",
       "direction": "YES",
-      "confidence": 0.65,
+      "confidence": 0.9,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Will Russia enter Ternuvate again by April 30?"
+        "Will Russia enter Ternuvate again by April 30?",
+        "US x Iran permanent peace deal by April 30, 2026?"
       ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_390255",
-      "timestamp": "2026-04-16T21:06:53.880772+00:00",
+      "id": "sig_554874",
+      "timestamp": "2026-04-16T21:09:38.499822+00:00",
       "source": "PERPLEXITY",
-      "headline": "South Korea's annual inflation rose to 2",
-      "raw": "South Korea's annual inflation rose to 2.2% in March 2026, up from 2.0% in prior months but below 2.4% forecasts | NO | HIGH confidence**[1]\n\nThis March figure, reported around early April 2026, confirms contained price pressures despite global energy volatility from the Iran/Middle East conflict, aligning with the Bank of Korea's 2% target and supporting its decision to hold rates at 2.5% on Apri",
-      "direction": "YES",
+      "headline": "Chris Dudley Announces Republican Bid for Oregon Governor (January 2026)** | NO | HIGH confidence",
+      "raw": "Chris Dudley Announces Republican Bid for Oregon Governor (January 2026)** | NO | HIGH confidence\n\nNo breaking news today (April 16, 2026) confirms, announces, or resolves anything new about Chris Dudley, the April Oregon governor Republican election, or prediction markets[1][2][3]. His candidacy launch\u2014entering a crowded GOP primary against candidates like Christine Drazan\u2014was reported in late Ja",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "US x Iran permanent peace deal by April 30, 2026?",
-        "US x Iran permanent peace deal by April 22, 2026?"
+        "Will Chris Dudley win the 2026 Oregon Governor Republican primary election?"
       ],
       "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_561770",
+      "timestamp": "2026-04-16T21:09:45.395984+00:00",
+      "source": "PERPLEXITY",
+      "headline": "NO | LOW confidence** \u2013 Latest data is from April 14; no fresh catalysts confirmed",
+      "raw": "NO | LOW confidence** \u2013 Latest data is from April 14; no fresh catalysts confirmed.[6][7]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_568673",
+      "timestamp": "2026-04-16T21:09:52.298680+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Bank of Korea Holds Benchmark Interest Rate at 2",
+      "raw": "Bank of Korea Holds Benchmark Interest Rate at 2.5% for 7th Consecutive Month (April 10, 2026)** | NO | HIGH confidence[3][4]\n\nThe Bank of Korea's Monetary Policy Board unanimously decided to keep the policy rate unchanged at 2.5%, citing inflationary pressures above the 2% target (recent CPI at ~2.2%), rising oil prices from Middle East conflict, and a weakened won near 1,520/USD, dimming rate cu",
+      "direction": "NO",
+      "confidence": 0.6,
+      "matched_markets": [],
+      "action": "WATCH",
       "x_link": null,
       "category": "ECONOMICS"
     }
   ],
   "stats": {
-    "enter": 0,
+    "enter": 1,
     "alert": 2,
-    "watch": 0,
-    "high_conf": 0
+    "watch": 1,
+    "high_conf": 1
   }
 }
