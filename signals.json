@@ -1,42 +1,163 @@
 {
-  "last_scan": "2026-04-16T01:46:53.925979+00:00",
-  "scan_seconds": 21.0,
-  "markets_scanned": 78,
-  "open_positions": 40,
+  "last_scan": "2026-04-16T01:49:33.122263+00:00",
+  "scan_seconds": 20.4,
+  "markets_scanned": 147,
+  "open_positions": 109,
   "signals": [
     {
-      "id": "sig_776653",
-      "timestamp": "2026-04-16T01:46:40.348816+00:00",
+      "id": "sig_940024",
+      "timestamp": "2026-04-16T01:49:23.719161+00:00",
       "source": "PERPLEXITY",
-      "headline": "HEADLINE** | **YES or NO** | **HIGH/MED/LOW confidence**",
-      "raw": "HEADLINE** | **YES or NO** | **HIGH/MED/LOW confidence**",
+      "headline": "White House Denies Confirmed Ceasefire with Iran; Talks Ongoing but No Final Deal** | NO | HIGH confidence[1][2][3]",
+      "raw": "White House Denies Confirmed Ceasefire with Iran; Talks Ongoing but No Final Deal** | NO | HIGH confidence[1][2][3]\n\nWhite House Press Secretary Karoline Leavitt confirmed in an April 15 briefing that U.S.-Iran peace negotiations are progressing with mediators like Pakistan involved, but explicitly denied reports of a confirmed ceasefire request or final agreement, as a framework is still being ne",
+      "direction": "NO",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will J.D. Vance win the 2028 Republican presidential nominat",
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces end of military operations against Iran by A"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_943775",
+      "timestamp": "2026-04-16T01:49:27.470320+00:00",
+      "source": "PERPLEXITY",
+      "headline": "$280M+ Drift Protocol Exploit on Solana via Social Engineering Confirmed, Shaking Ecosystem Confidence | YES | HIGH conf",
+      "raw": "$280M+ Drift Protocol Exploit on Solana via Social Engineering Confirmed, Shaking Ecosystem Confidence | YES | HIGH confidence** [4]",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_948379",
+      "timestamp": "2026-04-16T01:49:32.074660+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Nomination confirmed in recent reports, with Warsh viewed as top contender; Senate confirmation expected, potentially st",
+      "raw": "Nomination confirmed in recent reports, with Warsh viewed as top contender; Senate confirmation expected, potentially starting role in May 2026[1][3][4].",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_943764",
+      "timestamp": "2026-04-16T01:49:27.459571+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Solana (SOL) Trading Now Open on Interactive Brokers for European Investors | NO | HIGH confidence** [3]",
+      "raw": "Solana (SOL) Trading Now Open on Interactive Brokers for European Investors | NO | HIGH confidence** [3]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_943785",
+      "timestamp": "2026-04-16T01:49:27.480968+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Bitcoin (BTC) Hits $74,200 with 4% Weekly Gain After Testing $71K Support and Short Liquidations | YES | MED confidence*",
+      "raw": "Bitcoin (BTC) Hits $74,200 with 4% Weekly Gain After Testing $71K Support and Short Liquidations | YES | MED confidence** [7]",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "POLITICS"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_776659",
-      "timestamp": "2026-04-16T01:46:40.354660+00:00",
+      "id": "sig_943796",
+      "timestamp": "2026-04-16T01:49:27.491589+00:00",
       "source": "PERPLEXITY",
-      "headline": "King Charles' US Visit Faces Trump Rhetoric Challenges** | **NO** | **HIGH**",
-      "raw": "King Charles' US Visit Faces Trump Rhetoric Challenges** | **NO** | **HIGH**",
-      "direction": "NO",
+      "headline": "SEC/CFTC Classify Digital Assets Like Solana as Commodities, Boosting Regulatory Clarity | YES | MED confidence** [6]",
+      "raw": "SEC/CFTC Classify Digital Assets Like Solana as Commodities, Boosting Regulatory Clarity | YES | MED confidence** [6]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_948368",
+      "timestamp": "2026-04-16T01:49:32.063485+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Kevin Warsh nominated by President Trump as next Fed Chair to succeed Jerome Powell, sparking debates on inflation polic",
+      "raw": "Kevin Warsh nominated by President Trump as next Fed Chair to succeed Jerome Powell, sparking debates on inflation policy and Fed independence.** | NO | HIGH confidence[1][2][3][4]",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
-        "Will Trump say \"Obliterated\" or \"Obliteration\" during King Charles visit?"
+        "Kevin Warsh confirmed as Fed Chair by May 15?"
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "POLITICS"
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_948389",
+      "timestamp": "2026-04-16T01:49:32.084843+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Warsh's hawkish history (2006-2011) favors monetary tightening, balance sheet shrinkage, and \"monetary dominance\" over f",
+      "raw": "Warsh's hawkish history (2006-2011) favors monetary tightening, balance sheet shrinkage, and \"monetary dominance\" over fiscal dominance, raising concerns on rate cuts amid sticky inflation from tariffs[2][4][5].",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_948403",
+      "timestamp": "2026-04-16T01:49:32.098292+00:00",
+      "source": "PERPLEXITY",
+      "headline": "South Korean markets reacted: KOSPI dropped over 5% on fears of higher long-term rates; speculation ties Warsh's Coupang",
+      "raw": "South Korean markets reacted: KOSPI dropped over 5% on fears of higher long-term rates; speculation ties Warsh's Coupang board role to potential local benefits[3][5].",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_948415",
+      "timestamp": "2026-04-16T01:49:32.110250+00:00",
+      "source": "PERPLEXITY",
+      "headline": "No new Fed rate announcements or inflation data resolutions; focus on Warsh's impact on dual mandate (price stability, e",
+      "raw": "No new Fed rate announcements or inflation data resolutions; focus on Warsh's impact on dual mandate (price stability, employment) and Trump-era pressures[1][2].",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_948426",
+      "timestamp": "2026-04-16T01:49:32.121542+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Prediction markets could shift on Fed independence, rate cut odds, and global spillovers, but no formal confirmation or",
+      "raw": "Prediction markets could shift on Fed independence, rate cut odds, and global spillovers, but no formal confirmation or resolution beyond nomination[4].",
+      "direction": "NO",
+      "confidence": 0.6,
+      "matched_markets": [],
+      "action": "WATCH",
+      "x_link": null,
+      "category": "ECONOMICS"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 2,
-    "watch": 0,
-    "high_conf": 0
+    "enter": 1,
+    "alert": 9,
+    "watch": 1,
+    "high_conf": 3
   }
 }
