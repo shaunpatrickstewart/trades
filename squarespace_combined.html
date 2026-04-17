@@ -1110,10 +1110,10 @@
       });
 
       // ── Bankroll (from bankroll.json + realized PnL)
-      let auditInitial = 300.0;
+      let auditInitial = 0;
       try {
         const brData = await pf(BASE+'bankroll.json?v='+Date.now());
-        auditInitial = brData.initial || brData.current || 300;
+        auditInitial = brData.initial || brData.current || 0;
       } catch(e) {}
       const realized = settledAll.reduce((s,t)=>s+(t.pnl||0),0);
       const bankroll = auditInitial + realized;
@@ -1233,7 +1233,7 @@
         const arbDeployed    = arbOpen.reduce((s,t)=>s+((t.leg_a&&t.leg_a.bet)||0)+((t.leg_b&&t.leg_b.bet)||0),0);
         html += '<div style="display:flex;align-items:center;gap:8px;font-size:0.74em">';
         html += '<span style="min-width:95px;color:#1d9bf0;font-weight:600">KALSHI</span>';
-        html += '<span style="min-width:70px;color:#555">paper pool</span>';
+        html += '<span style="min-width:70px;color:#555">live pool</span>';
         html += '<span style="min-width:70px;color:#111">live $'+kalshiDeployed.toFixed(0)+'</span>';
         html += '<span style="min-width:55px;color:#888">'+kalshiTrades.length+' trades</span>';
         html += '<span style="color:#555;font-size:0.92em">'+kalshiOpen.length+' open</span></div>';
@@ -1279,9 +1279,9 @@
       const kPnl = kSettled.reduce((s,t)=>s+(t.pnl||0),0);
       if (kSettled.length >= 3) {
         const kwr = kWon/kSettled.length*100;
-        suggestions.push('Kalshi paper: '+kWon+'W/'+(kSettled.length-kWon)+'L ('+kwr.toFixed(0)+'% WR · '+(kPnl>=0?'+$':'-$')+Math.abs(kPnl).toFixed(2)+') — evaluate for live funding');
+        suggestions.push('Kalshi: '+kWon+'W/'+(kSettled.length-kWon)+'L ('+kwr.toFixed(0)+'% WR · '+(kPnl>=0?'+$':'-$')+Math.abs(kPnl).toFixed(2)+')');
       } else if (kalshiTrades.length > 0) {
-        suggestions.push('Kalshi paper collecting data: '+kalshiTrades.length+' trades, '+kSettled.length+' settled so far');
+        suggestions.push('Kalshi collecting data: '+kalshiTrades.length+' trades, '+kSettled.length+' settled so far');
       }
       // Arb suggestion
       const arbSettled = arbTrades.filter(t=>t.status==='WON'||t.status==='LOST'||t.status==='CLOSED');
