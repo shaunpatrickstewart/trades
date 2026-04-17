@@ -1,15 +1,30 @@
 {
-  "last_scan": "2026-04-17T14:34:36.114076+00:00",
-  "scan_seconds": 27.5,
+  "last_scan": "2026-04-17T14:37:23.451285+00:00",
+  "scan_seconds": 27.1,
   "markets_scanned": 38,
   "open_positions": 0,
   "signals": [
     {
-      "id": "sig_1776436470063_0",
-      "timestamp": "2026-04-17T14:34:30.063572+00:00",
+      "id": "sig_1776436630076_0",
+      "timestamp": "2026-04-17T14:37:10.076315+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Pectra (Prague-Electra) Upgrade Now Influencing Ethereum Mainnet Efficiency and Gas Costs | YES | MED confidence**",
+      "raw": "Pectra (Prague-Electra) Upgrade Now Influencing Ethereum Mainnet Efficiency and Gas Costs | YES | MED confidence**  \nThe Pectra upgrade's impact on mainnet has been confirmed as of April 16, 2026, with ETH gas fees surging due to high network activity and shifts in Gwei calculations for smart contracts via new EIPs, potentially affecting transaction costs and ecosystem activity.[3]  \nNo other conf",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Ethereum above 2,350 on April 17, 11AM ET?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776436635852_0",
+      "timestamp": "2026-04-17T14:37:15.852906+00:00",
       "source": "PERPLEXITY",
       "headline": "South Korea's annual inflation rose to 2",
-      "raw": "South Korea's annual inflation rose to 2.2% in March 2026 (up from 2.0% in Jan-Feb), missing forecasts of 2.4% | NO | HIGH confidence**[1]\n\nThis March figure\u2014released around early April 2026 per the source's update\u2014marks the latest confirmed data point amid Middle East tensions pushing energy costs higher, with Bank of Korea holding rates at 2.5% as of April 10 (7th straight hold) and lifting its ",
+      "raw": "South Korea's annual inflation rose to 2.2% in March 2026, up from 2.0% in prior months but below 2.4% forecasts | NO | HIGH confidence**[1]\n\nThis March figure, reported by Statistics Korea via Trading Economics, marks the latest confirmed data as of early 2026 amid Middle East-driven energy shocks, with the Bank of Korea holding rates at 2.5% for a sixth meeting and raising its 2026 inflation out",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
@@ -20,38 +35,25 @@
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_1776436464873_0",
-      "timestamp": "2026-04-17T14:34:24.873012+00:00",
+      "id": "sig_1776436625715_0",
+      "timestamp": "2026-04-17T14:37:05.715613+00:00",
       "source": "PERPLEXITY",
-      "headline": "HEADLINE | NO | HIGH confidence**",
-      "raw": "HEADLINE | NO | HIGH confidence**  \nThe most recent relevant development was 22 Ethereum ecosystem announcements (scalability, privacy, interoperability) around April 11, settling the \"$2,400 by April 11\" prediction market at 100% YES, but this is outdated and did not extend to later dates like April 12+.[1] Current Polymarket odds (e.g., April 20 price bins, April 16 thresholds) show no sudden sh",
+      "headline": "IUML Internal Revolt Confirmed Over Kerala Assembly 2026 Candidate List | YES | MED confidence**",
+      "raw": "IUML Internal Revolt Confirmed Over Kerala Assembly 2026 Candidate List | YES | MED confidence**\n\nIUML faces a confirmed internal crisis after announcing its candidate list for the Kerala Legislative Assembly elections, with Noorbina Rasheed (women's wing national general secretary) resigning Thursday over lack of representation for deserving women candidates and specifically criticizing Fathima T",
       "direction": "YES",
-      "confidence": 0.65,
+      "confidence": 0.6,
       "matched_markets": [
-        "Ethereum above 2,350 on April 17, 11AM ET?"
+        "Will the Indian Union Muslim League (IUML) win between 10 and 12 seats in the 20"
       ],
-      "action": "ALERT",
+      "action": "WATCH",
       "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776436475111_0",
-      "timestamp": "2026-04-17T14:34:35.111862+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Confidence: HIGH** (no recent updates in sources; qualification is historical)",
-      "raw": "Confidence: HIGH** (no recent updates in sources; qualification is historical).",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
+      "category": "POLITICS"
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 2,
-    "watch": 0,
-    "high_conf": 1
+    "enter": 2,
+    "alert": 0,
+    "watch": 1,
+    "high_conf": 2
   }
 }
