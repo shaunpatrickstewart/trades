@@ -1,70 +1,60 @@
 {
-  "last_scan": "2026-04-17T17:22:35.579161+00:00",
-  "scan_seconds": 24.1,
-  "markets_scanned": 45,
+  "last_scan": "2026-04-17T17:25:33.296971+00:00",
+  "scan_seconds": 27.3,
+  "markets_scanned": 43,
   "open_positions": 0,
   "signals": [
     {
-      "id": "sig_1776446549648_0",
-      "timestamp": "2026-04-17T17:22:29.648866+00:00",
+      "id": "sig_1776446716232_0",
+      "timestamp": "2026-04-17T17:25:16.232662+00:00",
       "source": "PERPLEXITY",
-      "headline": "South Korea's annual inflation rose to 2",
-      "raw": "South Korea's annual inflation rose to 2.2% in March 2026, up from 2.0% in prior months but below 2.4% forecasts\u2014no major breaking announcement today impacts prediction markets.[1]**  \nThis March figure, the most recent confirmed data, signals contained price pressures amid Middle East-driven energy volatility, aligning with the Bank of Korea's 2.2% yearly outlook after holding rates at 2.5% for a",
+      "headline": "IUML Releases First List of 25 Candidates for Kerala Assembly Election 2026, Confirms Contesting 27 Seats with Key Chang",
+      "raw": "IUML Releases First List of 25 Candidates for Kerala Assembly Election 2026, Confirms Contesting 27 Seats with Key Changes Including Women Candidates | YES | MED confidence**\n\nThe Indian Union Muslim League (IUML) announced its initial candidate list on March 17, 2026, naming contenders for 25 of 27 planned seats in the Kerala Legislative Assembly election set for April 9, 2026.[1][2][5] Notable d",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776446540567_0",
-      "timestamp": "2026-04-17T17:22:20.567499+00:00",
-      "source": "PERPLEXITY",
-      "headline": "IUML Releases First Candidates List for 27 Seats in Kerala Assembly Election; UDF Seat-Sharing Confirmed with Congress o",
-      "raw": "IUML Releases First Candidates List for 27 Seats in Kerala Assembly Election; UDF Seat-Sharing Confirmed with Congress on 95 Seats | YES | HIGH confidence** [1][2]\n\nIUML announced its initial list of candidates for 25 of 27 planned constituencies in the Kerala Legislative Assembly election set for April 9, 2026, signaling a youth-focused revamp with two women candidates for the first time. [1][4][",
-      "direction": "YES",
-      "confidence": 0.78,
-      "matched_markets": [
         "Will the Indian Union Muslim League (IUML) win between 10 and 12 seats in the 20"
       ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
       "category": "POLITICS"
     },
     {
-      "id": "sig_1776446544872_0",
-      "timestamp": "2026-04-17T17:22:24.872264+00:00",
+      "id": "sig_1776446732294_0",
+      "timestamp": "2026-04-17T17:25:32.294564+00:00",
       "source": "PERPLEXITY",
-      "headline": "NO | LOW confidence** \u2013 Results lack real-time (post-April 16) confirmations; prices and speculation dominate without ma",
-      "raw": "NO | LOW confidence** \u2013 Results lack real-time (post-April 16) confirmations; prices and speculation dominate without market-moving events.[2][4]",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
+      "headline": "Clippers Select Swiss Rookie Yanic Konan Niederhauser at No",
+      "raw": "Clippers Select Swiss Rookie Yanic Konan Niederhauser at No. 30 in 2025 NBA Draft | YES | HIGH confidence**  \nThe Los Angeles Clippers drafted 7-foot Swiss center Yanic Konan Niederhauser, a former Penn State player averaging 12.9 points, 6.3 rebounds, and 2.3 blocks in his junior year, with the 30th pick acquired via prior trade.[2]  \nThis recent confirmation adds a **rookie** from **Switzerland*",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will Switzerland win Group B in the 2026 FIFA World Cup?",
+        "Will Kon Knueppel win the 2025\u201326 NBA Rookie of the Year award?"
+      ],
+      "action": "ENTER",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "SPORTS"
     },
     {
-      "id": "sig_1776446549659_1",
-      "timestamp": "2026-04-17T17:22:29.659593+00:00",
+      "id": "sig_1776446727298_0",
+      "timestamp": "2026-04-17T17:25:27.298030+00:00",
       "source": "PERPLEXITY",
-      "headline": "| NO | LOW confidence**\u2014No new resolutions, announcements, or confirmations today (April 17, 2026); latest BoK rate hold",
-      "raw": "| NO | LOW confidence**\u2014No new resolutions, announcements, or confirmations today (April 17, 2026); latest BoK rate hold was April 10, and March CPI lacks intraday updates to shift markets.[3][1]",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
+      "headline": "South Korea's annual CPI inflation rose to 2",
+      "raw": "South Korea's annual CPI inflation rose to 2.2% YoY in March 2026 (from 2.0% in Feb, below 2.3-2.4% consensus)** | **NO** | **HIGH** confidence[1][2]\n\nThis March figure, just released, confirms inflation ticked up due to oil prices amid Middle East tensions but was contained below expectations by government fuel caps and vouchers, with core CPI at 2.2% YoY (down slightly from Feb)[1][2]. Monthly C",
+      "direction": "YES",
+      "confidence": 0.78,
+      "matched_markets": [
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+      ],
       "action": "ALERT",
       "x_link": null,
       "category": "ECONOMICS"
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 3,
+    "enter": 2,
+    "alert": 1,
     "watch": 0,
-    "high_conf": 1
+    "high_conf": 2
   }
 }
