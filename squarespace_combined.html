@@ -712,7 +712,7 @@
             const pr=parseFloat(p.curPrice||p.price||0);
             const oc=(p.outcome||'').toUpperCase();
             const cls=oc==='YES'?'by':'bn';
-            return '<span class="badge '+cls+'">'+oc+'</span> '+(p.title||'').slice(0,36)+' <span class="dim">@'+pr.toFixed(2)+'</span>';
+            return '<span class="badge '+cls+'">'+oc+'</span> '+esc((p.title||'').slice(0,36))+' <span class="dim">@'+pr.toFixed(2)+'</span>';
           }).join('<br>')
         : '<span class="dim">—</span>';
       return {i,name,pnl,roi,vol,posHtml};
