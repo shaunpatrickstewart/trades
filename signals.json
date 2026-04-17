@@ -1,112 +1,83 @@
 {
-  "last_scan": "2026-04-17T19:12:36.239362+00:00",
-  "scan_seconds": 33.2,
-  "markets_scanned": 39,
+  "last_scan": "2026-04-17T19:15:28.730687+00:00",
+  "scan_seconds": 29.3,
+  "markets_scanned": 37,
   "open_positions": 0,
   "signals": [
     {
-      "id": "sig_1776453134232_0",
-      "timestamp": "2026-04-17T19:12:14.232020+00:00",
+      "id": "sig_1776453327723_0",
+      "timestamp": "2026-04-17T19:15:27.723699+00:00",
       "source": "PERPLEXITY",
-      "headline": "IUML Releases First List of 25 Candidates for Kerala Assembly 2026, Confirms 27 Total Seats in UDF Alliance | YES | MED",
-      "raw": "IUML Releases First List of 25 Candidates for Kerala Assembly 2026, Confirms 27 Total Seats in UDF Alliance | YES | MED confidence**\n\nThe Indian Union Muslim League (IUML), a key UDF partner, announced its initial candidates for 25 of 27 planned constituencies on March 17, 2026, introducing youth, new faces, and two women candidates for the first time\u2014Fathima Thahliya (Perambra) and Jayanthi Rajan",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will the Indian Union Muslim League (IUML) win between 10 and 12 seats in the 20"
-      ],
-      "action": "ENTER",
+      "headline": "Iran x Israel/US Conflict Market Dominates X Chatter | NO | HIGH confidence**",
+      "raw": "Iran x Israel/US Conflict Market Dominates X Chatter | NO | HIGH confidence**  \nPolymarket's most active X-related market is \"Iran x Israel/US conflict ends by...?\", with crowd odds at 97% for resolution by December 31, 2026, reflecting over $121M in total X market volume and real-time trader sentiment on escalating tensions.[1]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
       "x_link": null,
-      "category": "POLITICS"
+      "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776453146722_0",
-      "timestamp": "2026-04-17T19:12:26.722625+00:00",
+      "id": "sig_1776453327726_1",
+      "timestamp": "2026-04-17T19:15:27.726632+00:00",
       "source": "PERPLEXITY",
-      "headline": "UEFA Playoff A Winner for Switzerland's World Cup 2026 Group B Confirmed as Bosnia and Herzegovina** | YES | HIGH confid",
-      "raw": "UEFA Playoff A Winner for Switzerland's World Cup 2026 Group B Confirmed as Bosnia and Herzegovina** | YES | HIGH confidence[4][5]\n\nSwitzerland's **Group B** opponents are now fully set: Canada, Qatar, **Bosnia and Herzegovina** (UEFA Playoff A winner), and Switzerland, resolving the last uncertain slot previously listed as a playoff outcome in March 2026[2][4][5]. This confirmation completes the ",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will Switzerland win Group B in the 2026 FIFA World Cup?",
-        "Will Kon Knueppel win the 2025\u201326 NBA Rookie of the Year award?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776453141094_0",
-      "timestamp": "2026-04-17T19:12:21.094969+00:00",
-      "source": "PERPLEXITY",
-      "headline": "South Korea's annual inflation rose to 2",
-      "raw": "South Korea's annual inflation rose to 2.2% in March 2026 (latest data), up from 2.0% in Jan-Feb but below 2.4% forecasts; no breaking announcements today on new data, resolutions, or policy shifts to move prediction markets.[1]**  \nBank of Korea held rates at 2.5% last week (6th meeting), raising 2026 inflation outlook to 2.2% from 2.1% amid Middle East oil shocks.[1][3]  \nNo confirmed intraday e",
+      "headline": "Elon Musk Tweet Count Bets Surge with High Volume | YES | MED confidence**",
+      "raw": "Elon Musk Tweet Count Bets Surge with High Volume | YES | MED confidence**  \nTraders on X are buzzing about \"Elon Musk # tweets April 10 - April 17, 2026?\", pricing 300-319 tweets at 88% odds on $13M volume within 28 active Tweet Markets, as users track his posting patterns amid X product rumors like Nikita Bier's potential exit by June 30.[1][4]",
       "direction": "YES",
       "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776453327729_2",
+      "timestamp": "2026-04-17T19:15:27.729664+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Top Leaderboard Whales Signal Smart Money in Broader Markets | NO specific X bets | LOW confidence**",
+      "raw": "Top Leaderboard Whales Signal Smart Money in Broader Markets | NO specific X bets | LOW confidence**  \nPolymarket's monthly profit leaderboard highlights whales like 0x492442EaB586F242B53bDa933fD5dE859c8A3782 (+$7.1M) and HorizonSplendidView (+$4M), but no direct X posts tie their wins to current X markets; traders may follow them for mispriced tips in trending areas like Nasdaq 24/7 trading.[3][2",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776453314459_0",
+      "timestamp": "2026-04-17T19:15:14.459180+00:00",
+      "source": "PERPLEXITY",
+      "headline": "South Korea Annual Inflation Rises to 2",
+      "raw": "South Korea Annual Inflation Rises to 2.2% in March 2026 | YES | MED confidence**\n\nSouth Korea's annual inflation rate increased to 2.2% in March 2026 from 2.0% in the prior two months, missing market forecasts of 2.4% but signaling a pickup amid Middle East tensions driving energy costs higher.[1] This follows steady 2% readings in January and February 2026, with the Bank of Korea holding rates a",
+      "direction": "YES",
+      "confidence": 0.6,
       "matched_markets": [
         "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
       ],
-      "action": "ALERT",
+      "action": "WATCH",
       "x_link": null,
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_1776453155229_0",
-      "timestamp": "2026-04-17T19:12:35.229611+00:00",
+      "id": "sig_1776453320597_0",
+      "timestamp": "2026-04-17T19:15:20.597878+00:00",
       "source": "PERPLEXITY",
-      "headline": "Iran x Israel/US Conflict Market Dominates X Chatter | NO | HIGH confidence**",
-      "raw": "Iran x Israel/US Conflict Market Dominates X Chatter | NO | HIGH confidence**  \nPolymarket's most active X-related market is \"Iran x Israel/US conflict ends by...?\", with crowd odds at 97% for resolution by December 31, 2026, amid $121M+ total X market volume; traders on X are buzzing about this as a key sentiment gauge for escalating tensions.[1]",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776453155232_1",
-      "timestamp": "2026-04-17T19:12:35.232577+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Elon Musk Tweet Count Market Hits $13M Volume | NO | HIGH confidence**",
-      "raw": "Elon Musk Tweet Count Market Hits $13M Volume | NO | HIGH confidence**  \nThe \"Elon Musk # tweets April 10 - April 17, 2026?\" market leads Tweet Markets with 88% odds on 300-319 tweets, drawing heavy X discussion on Musk's posting frenzy and X product shifts like Nikita Bier's potential exit by June 30.[1][4]",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776453155235_2",
-      "timestamp": "2026-04-17T19:12:35.235378+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Top Leaderboard Whales Signal Smart Money in Geopolitics/Tech | YES | MED confidence**",
-      "raw": "Top Leaderboard Whales Signal Smart Money in Geopolitics/Tech | YES | MED confidence**  \nPolymarket's monthly profit leaderboard highlights whales like 0x492442... (+$7.1M) and HorizonSplendidView (+$4M) as potential smart money; X posts speculate their bets cluster in high-volume markets like Iran-Israel and Musk tweets, though specific positions aren't public.[3]",
+      "headline": "Kon Knueppel becomes first rookie in NBA history to lead league in made 3-pointers, capping superb rookie season with un",
+      "raw": "Kon Knueppel becomes first rookie in NBA history to lead league in made 3-pointers, capping superb rookie season with unprecedented feat | YES | HIGH confidence**[1][3]\n\nThis breaking confirmation from Hornets' official site and NBA on NBC highlights Knueppel's elite performance, including 206 three-pointers made through 59 games, solidifying his status as the betting favorite for Rookie of the Ye",
       "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
+      "confidence": 0.6,
+      "matched_markets": [
+        "Will Kon Knueppel win the 2025\u201326 NBA Rookie of the Year award?"
+      ],
+      "action": "WATCH",
       "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776453155238_3",
-      "timestamp": "2026-04-17T19:12:35.238168+00:00",
-      "source": "PERPLEXITY",
-      "headline": "X Traders Flag Potential Mispricing in Conflict End Date | YES | LOW confidence**",
-      "raw": "X Traders Flag Potential Mispricing in Conflict End Date | YES | LOW confidence**  \nSome X sentiment questions the 97% December 31 odds on Iran x Israel/US conflict as overpriced given ongoing escalations, with tips to bet NO on early resolutions; multi-outcome structure amplifies trader debates on mispriced tails.[1]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
+      "category": "SPORTS"
     }
   ],
   "stats": {
-    "enter": 2,
-    "alert": 5,
-    "watch": 0,
-    "high_conf": 2
+    "enter": 0,
+    "alert": 3,
+    "watch": 2,
+    "high_conf": 0
   }
 }
