@@ -1,62 +1,46 @@
 {
-  "last_scan": "2026-04-17T01:09:59.056542+00:00",
-  "scan_seconds": 26.1,
-  "markets_scanned": 71,
-  "open_positions": 35,
+  "last_scan": "2026-04-17T01:19:40.679285+00:00",
+  "scan_seconds": 21.5,
+  "markets_scanned": 75,
+  "open_positions": 37,
   "signals": [
     {
-      "id": "sig_974444",
-      "timestamp": "2026-04-17T01:09:58.055946+00:00",
+      "id": "sig_543682",
+      "timestamp": "2026-04-17T01:19:27.292524+00:00",
       "source": "PERPLEXITY",
-      "headline": "South Korea's March 2026 inflation rate confirmed at 2",
-      "raw": "South Korea's March 2026 inflation rate confirmed at 2.16% YoY, up from 2.00% in February** | YES | HIGH confidence[1]\n\nSouth Korea's Consumer Price Index reached 118.8 in March 2026, with month-to-month inflation at 0.34% from February, marking a recent uptick that could influence prediction markets on annual inflation forecasts amid stabilizing trends from 2025's 2.13% average[1]. This data, new",
+      "headline": "Kremlin Welcomes US-Israel-Iran Two-Week Ceasefire Deal | YES | HIGH confidence** [1]",
+      "raw": "Kremlin Welcomes US-Israel-Iran Two-Week Ceasefire Deal | YES | HIGH confidence** [1]\n\nThe Kremlin publicly endorsed a two-week ceasefire agreement between the US, Israel, and Iran, announced on Wednesday (April 8, 2026), emphasizing de-escalation and a shift to diplomatic talks while supporting non-escalation[1]. This 11th-hour deal aims to avert wider war amid an oil supply shock from Strait of ",
       "direction": "YES",
       "confidence": 0.9,
-      "matched_markets": [
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_968946",
-      "timestamp": "2026-04-17T01:09:52.557682+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Solana Hits Record 167 Million Token Holders Amid Alpenglow Upgrade Hype | YES | HIGH confidence**",
-      "raw": "Solana Hits Record 167 Million Token Holders Amid Alpenglow Upgrade Hype | YES | HIGH confidence**  \nSolana's network reached an all-time high of 167 million monthly token holders as of April 14, 2026, with daily non-vote transactions hitting 148 million, driven by the Alpenglow consensus upgrade reducing finality to 150 milliseconds[1][6].  \nInteractive Brokers launched SOL trading for European i",
-      "direction": "YES",
-      "confidence": 0.78,
-      "matched_markets": [
-        "Solana Up or Down - April 17, 4:40AM-4:45AM ET",
-        "Ethereum Up or Down - April 17, 1:25PM-1:30PM ET"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_959217",
-      "timestamp": "2026-04-17T01:09:42.828577+00:00",
-      "source": "PERPLEXITY",
-      "headline": "US-Iran Two-Week Ceasefire Deal Welcomed by Russia and Kremlin (Announced April 8, 2026)** | YES | HIGH confidence",
-      "raw": "US-Iran Two-Week Ceasefire Deal Welcomed by Russia and Kremlin (Announced April 8, 2026)** | YES | HIGH confidence\n\nThe United States, Israel, and Iran agreed to a **two-week ceasefire** on April 8, 2026 (April 7 in some time zones), mediated by Pakistan, following US President Trump's threats and negotiations involving Pakistani officials, US Vice President JD Vance, and Iranian Foreign Minister ",
-      "direction": "YES",
-      "confidence": 0.6,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
         "Will Russia enter Ternuvate again by April 30?",
         "US x Iran permanent peace deal by April 30, 2026?"
       ],
-      "action": "WATCH",
+      "action": "ENTER",
       "x_link": null,
       "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_556068",
+      "timestamp": "2026-04-17T01:19:39.678631+00:00",
+      "source": "PERPLEXITY",
+      "headline": "South Korea's March 2026 Annual Inflation Confirmed at 2",
+      "raw": "South Korea's March 2026 Annual Inflation Confirmed at 2.2% YoY (Up from 2.0%, Below 2.3-2.4% Consensus)** | YES | HIGH confidence[1][2]\n\nThis data, released around April 2026, shows inflation rose due to oil prices but was contained by government measures like fuel caps and vouchers, with core inflation at 2.2% (down from 2.3%) and monthly CPI up 0.3% (below 0.6% expected)[1][2]. Bank of Korea li",
+      "direction": "YES",
+      "confidence": 0.78,
+      "matched_markets": [
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
     }
   ],
   "stats": {
     "enter": 1,
     "alert": 1,
-    "watch": 1,
+    "watch": 0,
     "high_conf": 1
   }
 }
