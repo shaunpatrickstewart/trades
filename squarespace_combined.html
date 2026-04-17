@@ -118,11 +118,11 @@
   <div class="panel accent-paper">
     <div class="panel-hdr">
       <div class="panel-hdr-top">
-        <span class="panel-title c-paper">&#9632; Open Positions — Live Bot Trades</span>
+        <span class="panel-title c-paper">&#9632; Open Positions — Live Trades</span>
         <select id="wallet-filter" style="font-size:0.7em;padding:2px 6px;border:1px solid #ccc;border-radius:3px;margin-left:8px;background:#fff"><option value="all">All Wallets</option></select>
         <span id="paper-summary" style="font-size:0.7em;color:#444">Loading...</span>
       </div>
-      <div class="panel-desc">Active paper trades from all engines. Entry price, bet size, expected value (EV), and current status. Source of truth: paper_trades.jsonl — synced every 30 minutes via GitHub.</div>
+      <div class="panel-desc">Active trades from all engines. Entry price, bet size, expected value (EV), and current status. Source of truth: paper_trades.jsonl — synced every 30 minutes via GitHub.</div>
     </div>
     <div class="panel-body" style="max-height:280px" id="paper-trades">
       <div class="loader">Loading</div>
@@ -138,7 +138,7 @@
         <span class="panel-title" style="color:#ff8844">&#9670; Daily Bot Audit — Automated Health Check</span>
         <span class="panel-count" id="audit-count">—</span>
       </div>
-      <div class="panel-desc">Computed LIVE from paper_trades.jsonl on every refresh. Today's P&amp;L by US ET hour, per-engine stats, bankroll, live issue detection. No stale cache — updates every 60s.</div>
+      <div class="panel-desc">Computed LIVE from trades on every refresh. Today's P&amp;L by US ET hour, per-engine stats, bankroll, live issue detection. No stale cache — updates every 60s.</div>
     </div>
     <div class="panel-body" id="audit-panel" style="max-height:260px">
       <div class="loader">Loading audit...</div>
@@ -186,7 +186,7 @@
   </span>
   <span>
     <span class="kbd">R</span> refresh &nbsp;|&nbsp;
-    Not financial advice. Paper trading only.
+    Not financial advice.
   </span>
 </footer>
 
@@ -818,18 +818,17 @@
         byWallet[owner].push(t);
       });
 
-      // Wallet config mapping (wallet_id → label + platform)
       const WALLET_META = {
-        'shaun_poly':   { label: 'Shaun', platform: 'polymarket' },
-        'shaun_kalshi': { label: 'Shaun', platform: 'kalshi' },
-        'don_poly':     { label: 'Don S', platform: 'polymarket' },
-        'don_kalshi':   { label: 'Don S', platform: 'kalshi' },
+        'shaun_poly':   { label: 'Shaun', platform: 'polymarket', initial: 300 },
+        'shaun_kalshi': { label: 'Shaun', platform: 'kalshi', initial: 0 },
+        'don_poly':     { label: 'Don S', platform: 'polymarket', initial: 0 },
+        'don_kalshi':   { label: 'Don S', platform: 'kalshi', initial: 0 },
       };
+      const WALLET_ORDER = ['shaun_poly','shaun_kalshi','don_poly','don_kalshi'];
 
-      // Always render all four configured wallets, even if $0 — Shaun directive
-      Object.keys(WALLET_META).forEach(wid => { if (!byWallet[wid]) byWallet[wid] = []; });
+      WALLET_ORDER.forEach(wid => { if (!byWallet[wid]) byWallet[wid] = []; });
 
-      const walletIds = Object.keys(byWallet).sort();
+      const walletIds = WALLET_ORDER.concat(Object.keys(byWallet).filter(w => !WALLET_ORDER.includes(w)));
       if (!walletIds.length) {
         el.innerHTML = '<div class="empty">No wallet data yet</div>';
         return;
@@ -860,6 +859,20 @@
         const deployed = open.reduce((s,t) => s + (t.paper_bet||0), 0);
         const avgWin = won.length ? (won.reduce((s,t)=>s+(t.pnl||0),0)/won.length).toFixed(2) : '0.00';
         const avgLoss = lost.length ? Math.abs(lost.reduce((s,t)=>s+(t.pnl||0),0)/lost.length).toFixed(2) : '0.00';
+
+        // Per-wallet bankroll = initial deposit + sum(settled pnl)
+        const walletBankroll = (meta.initial || 0) + totalPnl;
+
+        // Time-window PnL (24h / 7d / 30d)
+        const now = Date.now();
+        const pnlWindow = (ms) => {
+          const cutoff = new Date(now - ms).toISOString();
+          return trades.filter(t => (t.status==='WON'||t.status==='LOST') && (t.closed_at||t.timestamp||'') >= cutoff)
+                       .reduce((s,t) => s + (t.pnl||0), 0);
+        };
+        const pnl24h = pnlWindow(24*3600*1000);
+        const pnl7d  = pnlWindow(7*24*3600*1000);
+        const pnl30d = pnlWindow(30*24*3600*1000);
 
         // Equity curve data
         const sortedSettled = [...won,...lost].sort((a,b)=>(a.closed_at||a.timestamp||'').localeCompare(b.closed_at||b.timestamp||''));
@@ -902,15 +915,18 @@
           '<div style="font-size:1.0em;font-weight:700;color:'+(color||'#222')+'">'+val+'</div>'+
           '<div style="font-size:0.62em;color:#888;margin-top:1px">'+lbl+'</div></div>';
 
+        const pnlFmt = (v) => (v>=0?'+$':'−$')+Math.abs(v).toFixed(2);
+        const pnlClr = (v) => v>=0?'#00cc66':'#ee3344';
+
         cardsHtml += '<div style="display:grid;grid-template-columns:repeat(4,1fr);gap:4px;margin-bottom:8px">';
-        cardsHtml += st('P&L', (totalPnl>=0?'+$':'−$')+Math.abs(totalPnl).toFixed(2), pnlColor);
+        cardsHtml += st('BANKROLL', '$'+walletBankroll.toFixed(2), walletBankroll>0?'#00cc66':'#888');
+        cardsHtml += st('TOTAL P&L', pnlFmt(totalPnl), pnlColor);
         cardsHtml += st('WIN RATE', winRate+(winRate!=='—'?'%':''), parseFloat(winRate)>=60?'#00cc66':'#ee3344');
         cardsHtml += st('DEPLOYED', '$'+deployed.toFixed(0), '#555');
+        cardsHtml += st('24H P&L', pnlFmt(pnl24h), pnlClr(pnl24h));
+        cardsHtml += st('7D P&L', pnlFmt(pnl7d), pnlClr(pnl7d));
+        cardsHtml += st('30D P&L', pnlFmt(pnl30d), pnlClr(pnl30d));
         cardsHtml += st('STREAK', streak > 0 ? streak+'&#x1F525;' : ''+streak, streak>=10?'#ffaa00':'#888');
-        cardsHtml += st('WINS', ''+won.length, '#00cc66');
-        cardsHtml += st('LOSSES', ''+lost.length, '#ee3344');
-        cardsHtml += st('AVG WIN', '+$'+avgWin, '#00cc66');
-        cardsHtml += st('AVG LOSS', '$'+avgLoss, '#ee3344');
         cardsHtml += '</div>';
 
         // Mini equity curve
@@ -1733,7 +1749,6 @@
       ]);
       renderHeaderStats(wallets, allMarkets);
       renderScanner(allMarkets, forexMarkets);
-      renderPerformance();
       renderWalletCards();
 
       // Copy Signals: use elite wallets (local scrape — real win rates, active filter)
