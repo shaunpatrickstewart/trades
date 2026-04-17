@@ -1,12 +1,43 @@
 {
-  "last_scan": "2026-04-17T23:05:36.968283+00:00",
-  "scan_seconds": 1.6,
-  "markets_scanned": 0,
+  "last_scan": "2026-04-17T23:10:35.617069+00:00",
+  "scan_seconds": 18.3,
+  "markets_scanned": 44,
   "open_positions": 0,
-  "signals": [],
+  "signals": [
+    {
+      "id": "sig_1776467422091_0",
+      "timestamp": "2026-04-17T23:10:22.091869+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Iran Denies US Talks Despite Trump Claims of Kushner-Witkoff Meetings | NO | HIGH confidence** [1][4]",
+      "raw": "Iran Denies US Talks Despite Trump Claims of Kushner-Witkoff Meetings | NO | HIGH confidence** [1][4]\n\nNo confirmed resolutions, announcements, or breakthroughs in Jared Kushner or April-related Iran developments as of April 17, 2026; Iranian officials explicitly denied engaging in any talks with Kushner and Steve Witkoff, contradicting Trump's statements about \"very strong talks\" and \"major point",
+      "direction": "NO",
+      "confidence": 0.78,
+      "matched_markets": [
+        "Will Jared Kushner have a diplomatic meeting with Iran by April 30?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_1776467434616_0",
+      "timestamp": "2026-04-17T23:10:34.616158+00:00",
+      "source": "PERPLEXITY",
+      "headline": "South Korea March 2026 CPI: Annual Inflation at 2",
+      "raw": "South Korea March 2026 CPI: Annual Inflation at 2.2% YoY (up from 2.0%, below 2.3-2.4% consensus)** | NO | HIGH confidence[1][2]\n\nSouth Korea's Statistics Korea released March 2026 consumer price data today, confirming annual inflation rose to 2.2% from 2.0% in February but missed market forecasts of 2.3-2.4%; monthly CPI gained 0.3% vs. 0.6% expected[1][2]. Oil price surges from Middle East tensi",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    }
+  ],
   "stats": {
     "enter": 0,
-    "alert": 0,
+    "alert": 2,
     "watch": 0,
     "high_conf": 0
   }
