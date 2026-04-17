@@ -115,16 +115,16 @@
 
 <!-- ═══ OPEN POSITIONS — FULL WIDTH ════════════════════════════════════ -->
 <div class="pm-full">
-  <div class="panel accent-paper">
+  <div class="panel accent-live">
     <div class="panel-hdr">
       <div class="panel-hdr-top">
-        <span class="panel-title c-paper">&#9632; Open Positions — Live Trades</span>
+        <span class="panel-title c-live">&#9632; Open Positions — Live Trades</span>
         <select id="wallet-filter" style="font-size:0.7em;padding:2px 6px;border:1px solid #ccc;border-radius:3px;margin-left:8px;background:#fff"><option value="all">All Wallets</option></select>
-        <span id="paper-summary" style="font-size:0.7em;color:#444">Loading...</span>
+        <span id="live-summary" style="font-size:0.7em;color:#444">Loading...</span>
       </div>
-      <div class="panel-desc">Active trades from all engines. Entry price, bet size, expected value (EV), and current status. Source of truth: paper_trades.jsonl — synced every 30 minutes via GitHub.</div>
+      <div class="panel-desc">Active trades from all engines. Entry price, bet size, expected value (EV), and current status. Synced every 60 seconds via GitHub.</div>
     </div>
-    <div class="panel-body" style="max-height:280px" id="paper-trades">
+    <div class="panel-body" style="max-height:280px" id="live-trades">
       <div class="loader">Loading</div>
     </div>
   </div>
@@ -154,7 +154,7 @@
         <span class="panel-title" style="color:#cc44ff">&#9650; Testing Lab — Algorithm Experiments</span>
         <span class="panel-count" id="lab-count">—</span>
       </div>
-      <div class="panel-desc">Active strategy experiments with LIVE results computed from paper_trades.jsonl + config.json. When bot strategy changes, this reflects it immediately — no stale lab.json file.</div>
+      <div class="panel-desc">Active strategy experiments with LIVE results computed from trades + config.json. When bot strategy changes, this reflects it immediately.</div>
     </div>
     <div class="panel-body" id="lab-panel" style="max-height:400px">
       <div class="loader">Loading experiments...</div>

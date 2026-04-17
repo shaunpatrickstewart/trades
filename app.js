@@ -216,7 +216,7 @@
       return (
         '<div class="signal-card">'+
           '<div class="sig-top">'+
-            '<div class="sig-title">'+s.title.slice(0,74)+'</div>'+
+            '<div class="sig-title">'+esc(s.title.slice(0,74))+'</div>'+
             '<div style="flex-shrink:0"><span class="badge '+cls+'">BET '+s.outcome+'</span></div>'+
           '</div>'+
           '<div class="sig-meta">'+
@@ -227,7 +227,7 @@
               '<span style="color:#444">'+Math.round(unc)+'%</span>'+
             '</span>'+
             evH+
-            '<span class="dim">▸</span><span class="blue">'+s.name.slice(0,14)+'</span>'+
+            '<span class="dim">▸</span><span class="blue">'+esc(s.name.slice(0,14))+'</span>'+
             roiS+
             (s.realWR!=null ? '<span style="color:#aaffaa;font-size:0.72em">WR '+(s.realWR*100).toFixed(0)+'% '+s.sampleBadge+'</span>' : '')+
           '</div>'+
@@ -250,7 +250,7 @@
       const barW = Math.round((vol/maxVol)*40);
       html += '<tr>'+
         '<td class="dim">'+(i+1)+'</td>'+
-        '<td style="max-width:260px">'+(m.question||m.title||'').slice(0,62)+'</td>'+
+        '<td style="max-width:260px">'+esc((m.question||m.title||'').slice(0,62))+'</td>'+
         '<td><span class="badge '+cls+'">'+outcome+'</span></td>'+
         '<td style="color:'+pctColor(price)+'">'+(price*100).toFixed(0)+'%</td>'+
         '<td class="blue hm">'+
@@ -315,12 +315,12 @@
     try {
       const BASE = 'https://shaunpatrickstewart.github.io/trades/';
       const bust = '?_w='+Date.now();
-      const [paperTxt, kalshiTxt] = await Promise.all([
+      const [polyTxt, kalshiTxt] = await Promise.all([
         fetch(P+encodeURIComponent(BASE+'paper_trades.jsonl'+bust)).then(r=>r.text()).catch(()=>''),
         fetch(P+encodeURIComponent(BASE+'kalshi_paper_trades.jsonl'+bust)).then(r=>r.text()).catch(()=>'')
       ]);
       const parseJsonl = txt => txt.trim().split('\n').filter(Boolean).map(l=>{try{return JSON.parse(l);}catch{return null;}}).filter(Boolean);
-      const polyTrades = parseJsonl(paperTxt);
+      const polyTrades = parseJsonl(polyTxt);
       // Kalshi trades don't carry wallet_owner — default to shaun_kalshi (only active Kalshi wallet)
       const kalshiTrades = parseJsonl(kalshiTxt).map(t => ({...t, wallet_owner: t.wallet_owner || 'shaun_kalshi'}));
       const allTrades = polyTrades.concat(kalshiTrades);
@@ -487,17 +487,17 @@
 
       el.innerHTML = cardsHtml;
 
-      // Wire up wallet filter for open positions
+      // Wire up wallet filter for open positions (replace handler to prevent stacking)
       if (filterEl) {
-        filterEl.addEventListener('change', function() {
+        filterEl.onchange = function() {
           const val = this.value;
-          document.querySelectorAll('#paper-trades tr[data-wallet]').forEach(row => {
+          document.querySelectorAll('#live-trades tr[data-wallet]').forEach(row => {
             row.style.display = (val === 'all' || row.dataset.wallet === val) ? '' : 'none';
           });
-        });
+        };
       }
     } catch(e) {
-      el.innerHTML = '<div class="empty">Could not load wallet data: '+e.message+'</div>';
+      el.innerHTML = '<div class="empty">Could not load wallet data: '+esc(e.message)+'</div>';
     }
   }
 
@@ -517,7 +517,7 @@
             const pr=parseFloat(p.curPrice||p.price||0);
             const oc=(p.outcome||'').toUpperCase();
             const cls=oc==='YES'?'by':'bn';
-            return '<span class="badge '+cls+'">'+oc+'</span> '+(p.title||'').slice(0,36)+' <span class="dim">@'+pr.toFixed(2)+'</span>';
+            return '<span class="badge '+cls+'">'+oc+'</span> '+esc((p.title||'').slice(0,36))+' <span class="dim">@'+pr.toFixed(2)+'</span>';
           }).join('<br>')
         : '<span class="dim">—</span>';
       return {i,name,pnl,roi,vol,posHtml};
@@ -575,12 +575,12 @@
     }
   };
 
-  // ── RENDER: Paper Trade Tracker
-  async function renderPaperTrades() {
-    const el = document.getElementById('paper-trades');
+  // ── RENDER: Open Positions
+  async function renderOpenTrades() {
+    const el = document.getElementById('live-trades');
     try {
-      const PAPER_URL = 'https://shaunpatrickstewart.github.io/trades/paper_trades.jsonl?v='+Date.now();
-      const r = await fetch(P+encodeURIComponent(PAPER_URL));
+      const TRADES_URL = 'https://shaunpatrickstewart.github.io/trades/paper_trades.jsonl?v='+Date.now();
+      const r = await fetch(P+encodeURIComponent(TRADES_URL));
       if (!r.ok) throw new Error('HTTP '+r.status);
       const raw = await r.text();
       let text = raw;
@@ -612,7 +612,7 @@
 
       if (!trades.length) {
         el.innerHTML='<div class="empty">No trades logged yet — bot is running, trades will appear here.</div>';
-        document.getElementById('paper-summary').textContent='0 trades';
+        document.getElementById('live-summary').textContent='0 trades';
         return;
       }
 
@@ -631,7 +631,7 @@
         pnlEl.className   = realizedPnl>=0?'':'loss';
       }
 
-      document.getElementById('paper-summary').innerHTML =
+      document.getElementById('live-summary').innerHTML =
         '<span class="green">'+open.length+' open</span> &nbsp;|&nbsp; '+
         '<span class="green">'+totalWonAll+' won</span> &nbsp;|&nbsp; '+
         '<span style="color:#ff6655">'+totalLostAll+' lost</span> &nbsp;|&nbsp; '+
@@ -789,7 +789,7 @@
             'style="background:#eeeeee;border:1px solid #cccccc;color:#555;padding:2px 6px;cursor:pointer;font-size:0.7em;border-radius:3px">+$</button>'
           : '<span class="dim">—</span>';
 
-        return '<tr class="paper-row" data-wallet="'+(t.wallet_owner||'shaun_poly')+'">'+
+        return '<tr class="trade-row" data-wallet="'+(t.wallet_owner||'shaun_poly')+'">'+
           '<td class="dim">'+(i+1)+'</td>'+
           '<td>'+engineLabel(t)+'</td>'+
           '<td style="max-width:220px">'+esc((t.market||'').slice(0,55))+'</td>'+
@@ -830,7 +830,7 @@
       if (showBtn) {
         showBtn.addEventListener('click', function() {
           window._showAllTrades = true;
-          renderPaperTrades();
+          renderOpenTrades();
         });
       }
 
@@ -842,7 +842,7 @@
       });
 
     } catch(e) {
-      el.innerHTML='<div class="err">Trades unavailable: '+e.message+'</div>';
+      el.innerHTML='<div class="err">Trades unavailable: '+esc(e.message)+'</div>';
     }
   }
 
@@ -855,26 +855,28 @@
       const bust = '?_a='+Date.now();
       const parseJsonl = txt => txt.trim().split('\n').filter(Boolean)
         .map(l=>{try{return JSON.parse(l);}catch{return null;}}).filter(Boolean);
-      const [paperTxt, kalshiTxt, arbTxt, cfgJson] = await Promise.all([
+      const [polyTxt, kalshiTxt, arbTxt, cfgJson] = await Promise.all([
         fetch(P+encodeURIComponent(BASE+'paper_trades.jsonl'+bust)).then(r=>r.text()).catch(()=>''),
         fetch(P+encodeURIComponent(BASE+'kalshi_paper_trades.jsonl'+bust)).then(r=>r.text()).catch(()=>''),
         fetch(P+encodeURIComponent(BASE+'arb_paper_trades.jsonl'+bust)).then(r=>r.text()).catch(()=>''),
         fetch(P+encodeURIComponent(BASE+'config.json'+bust)).then(r=>r.json()).catch(()=>({}))
       ]);
-      const trades = parseJsonl(paperTxt);
+      const trades = parseJsonl(polyTxt);
       const kalshiTrades = parseJsonl(kalshiTxt);
       const arbTrades = parseJsonl(arbTxt);
       const cfg = cfgJson || {};
 
       // ── US Eastern Time helpers (bot operates on ET wall clock)
-      const ET_OFFSET_H = -4; // EDT in April
       const parseTs = t => {
         const s = t.settled_at || t.resolved_at || t.last_updated || t.timestamp;
         if (!s) return null;
         const d = new Date(s);
         return isNaN(d) ? null : d;
       };
-      const toET = d => new Date(d.getTime() + (ET_OFFSET_H*3600000) - (-d.getTimezoneOffset()*60000));
+      const toET = d => {
+        const etStr = d.toLocaleString('en-US', {timeZone: 'America/New_York'});
+        return new Date(etStr);
+      };
       const nowET = toET(new Date());
       const todayET = nowET.toISOString().slice(0,10);
 
@@ -915,10 +917,10 @@
       });
 
       // ── Bankroll (from bankroll.json + realized PnL)
-      let auditInitial = 300.0;
+      let auditInitial = 0;
       try {
         const brData = await pf(BASE+'bankroll.json?v='+Date.now());
-        auditInitial = brData.initial || brData.current || 300;
+        auditInitial = brData.initial || brData.current || 0;
       } catch(e) {}
       const realized = settledAll.reduce((s,t)=>s+(t.pnl||0),0);
       const bankroll = auditInitial + realized;
@@ -1038,7 +1040,7 @@
         const arbDeployed    = arbOpen.reduce((s,t)=>s+((t.leg_a&&t.leg_a.bet)||0)+((t.leg_b&&t.leg_b.bet)||0),0);
         html += '<div style="display:flex;align-items:center;gap:8px;font-size:0.74em">';
         html += '<span style="min-width:95px;color:#1d9bf0;font-weight:600">KALSHI</span>';
-        html += '<span style="min-width:70px;color:#555">paper pool</span>';
+        html += '<span style="min-width:70px;color:#555">live pool</span>';
         html += '<span style="min-width:70px;color:#111">live $'+kalshiDeployed.toFixed(0)+'</span>';
         html += '<span style="min-width:55px;color:#888">'+kalshiTrades.length+' trades</span>';
         html += '<span style="color:#555;font-size:0.92em">'+kalshiOpen.length+' open</span></div>';
@@ -1084,9 +1086,9 @@
       const kPnl = kSettled.reduce((s,t)=>s+(t.pnl||0),0);
       if (kSettled.length >= 3) {
         const kwr = kWon/kSettled.length*100;
-        suggestions.push('Kalshi paper: '+kWon+'W/'+(kSettled.length-kWon)+'L ('+kwr.toFixed(0)+'% WR · '+(kPnl>=0?'+$':'-$')+Math.abs(kPnl).toFixed(2)+') — evaluate for live funding');
+        suggestions.push('Kalshi: '+kWon+'W/'+(kSettled.length-kWon)+'L ('+kwr.toFixed(0)+'% WR · '+(kPnl>=0?'+$':'-$')+Math.abs(kPnl).toFixed(2)+')');
       } else if (kalshiTrades.length > 0) {
-        suggestions.push('Kalshi paper collecting data: '+kalshiTrades.length+' trades, '+kSettled.length+' settled so far');
+        suggestions.push('Kalshi collecting data: '+kalshiTrades.length+' trades, '+kSettled.length+' settled so far');
       }
       // Arb suggestion
       const arbSettled = arbTrades.filter(t=>t.status==='WON'||t.status==='LOST'||t.status==='CLOSED');
@@ -1122,7 +1124,7 @@
       const countEl = document.getElementById('audit-count');
       if (countEl) countEl.textContent = warnings.length+' warn · '+suggestions.length+' sug · '+oks.length+' ok';
     } catch(e) {
-      if (el) el.innerHTML = '<div class="dim">Audit error: '+e.message+'</div>';
+      if (el) el.innerHTML = '<div class="dim">Audit error: '+esc(e.message)+'</div>';
     }
   }
 
@@ -1134,13 +1136,13 @@
     if (!el) return;
     try {
       const CFG_URL = 'https://shaunpatrickstewart.github.io/trades/config.json?_l='+Date.now();
-      const PAPER_URL = 'https://shaunpatrickstewart.github.io/trades/paper_trades.jsonl?_l='+Date.now();
-      const [cfgR, paperR] = await Promise.all([
+      const TRADES_URL = 'https://shaunpatrickstewart.github.io/trades/paper_trades.jsonl?_l='+Date.now();
+      const [cfgR, tradesR] = await Promise.all([
         fetch(P+encodeURIComponent(CFG_URL)).then(r=>r.json()),
-        fetch(P+encodeURIComponent(PAPER_URL)).then(r=>r.text())
+        fetch(P+encodeURIComponent(TRADES_URL)).then(r=>r.text())
       ]);
       const cfg = cfgR;
-      const trades = paperR.trim().split('\n').filter(Boolean)
+      const trades = tradesR.trim().split('\n').filter(Boolean)
         .map(l=>{try{return JSON.parse(l);}catch{return null;}}).filter(Boolean);
 
       // Compute live evidence for each experiment from JSONL
@@ -1298,8 +1300,8 @@
       }));
       const walletPositions = lbPosResults.filter(r=>r.status==='fulfilled').map(r=>r.value);
       renderWallets(wallets, walletPositions);
-      // Every other refresh cycle (~60s), also refresh paper trades
-      if (_refreshCount % 2 === 0) renderPaperTrades();
+      // Every other refresh cycle (~60s), also refresh open trades
+      if (_refreshCount % 2 === 0) renderOpenTrades();
     } catch(e) {
       console.error('Refresh error:', e);
       document.getElementById('hdr-updated').textContent = 'Error: '+e.message+' — press R to retry';
@@ -1376,18 +1378,17 @@
       html += '</div>';
       el.innerHTML = html;
     } catch(e) {
-      if (el) el.innerHTML = '<div class="dim">Signals loading... ('+e.message+')</div>';
+      if (el) el.innerHTML = '<div class="dim">Signals loading... ('+esc(e.message)+')</div>';
     }
   }
 
   refresh();
-  renderPaperTrades();
-  renderWalletCards();
+  renderOpenTrades();
   renderAudit();
   renderLab();
   renderSignalsFeed();
   setInterval(refresh, REFRESH);
-  // renderPaperTrades: called every 2nd refresh cycle (~60s) inside refresh() — no separate timer needed
+  // renderOpenTrades: called every 2nd refresh cycle (~60s) inside refresh() — no separate timer needed
   // Audit/Lab now compute LIVE from JSONL — refresh every 60s so they're always current
   setInterval(renderAudit, 60000);
   setInterval(renderLab, 60000);

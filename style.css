@@ -148,9 +148,8 @@
 /* Colored left accent border per panel type */
 #pm-root .panel.accent-green { border-left: 2px solid var(--g) }
 #pm-root .panel.accent-blue  { border-left: 2px solid var(--b) }
-#pm-root .panel.accent-yellow{ border-left: 2px solid var(--y) }
 #pm-root .panel.accent-purple{ border-left: 2px solid #7744cc }
-#pm-root .panel.accent-paper { border-left: 2px solid var(--g) }
+#pm-root .panel.accent-live  { border-left: 2px solid var(--g) }
 
 /* ── PANEL HEADER ─────────────────────────────────────────────────── */
 #pm-root .panel-hdr {
@@ -173,9 +172,8 @@
 }
 #pm-root .panel-title.c-green  { color: var(--g) }
 #pm-root .panel-title.c-blue   { color: var(--b) }
-#pm-root .panel-title.c-yellow { color: var(--y) }
 #pm-root .panel-title.c-purple { color: #7744cc }
-#pm-root .panel-title.c-paper  { color: var(--g) }
+#pm-root .panel-title.c-live   { color: var(--g) }
 #pm-root .panel-count { color: #888; font-size: 0.75em }
 #pm-root .panel-desc {
   color: #999;
@@ -371,7 +369,7 @@
 #pm-root .loader::after { content: '...'; animation: blink 1.2s infinite }
 #pm-root .err   { color: var(--r); padding: 12px; font-size: 0.78em; background: #fff0f0; border-radius: 4px; margin: 8px }
 #pm-root .empty { color: #aaaaaa; padding: 18px 12px; font-size: 0.75em; font-style: italic }
-#pm-root .paper-row td { border-left: 2px solid var(--g) }
+#pm-root .trade-row td { border-left: 2px solid var(--g) }
 
 /* ── FOOTER ───────────────────────────────────────────────────────── */
 #pm-root footer {
