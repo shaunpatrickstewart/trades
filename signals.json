@@ -1,43 +1,89 @@
 {
-  "last_scan": "2026-04-17T10:44:34.994219+00:00",
-  "scan_seconds": 43.5,
+  "last_scan": "2026-04-17T10:47:35.249975+00:00",
+  "scan_seconds": 38.1,
   "markets_scanned": 46,
   "open_positions": 0,
   "signals": [
     {
-      "id": "sig_451384",
-      "timestamp": "2026-04-17T10:44:34.960271+00:00",
-      "source": "X_GROK",
-      "headline": "**Whale Alert: $5,873 BUY on YES \"Bitcoin above $74k on April 17\" @93\u00a2",
-      "raw": "**Whale Alert: $5,873 BUY on YES \"Bitcoin above $74k on April 17\" @93\u00a2.** Strong conviction BTC holds above threshold today. YES for BTC >$74k today. Confidence: MED.[[1]](https://x.com/i/status/2045090710806782445)[[2]](https://x.com/i/status/2045087015222337995)",
+      "id": "sig_610306",
+      "timestamp": "2026-04-17T10:47:13.882133+00:00",
+      "source": "PERPLEXITY",
+      "headline": "South Korea March 2026 Inflation Confirmed at 2",
+      "raw": "South Korea March 2026 Inflation Confirmed at 2.2% YoY (vs. 2.0% Prior, 2.4% Forecast)** | YES | HIGH confidence[1]\n\nThis data, released around early April 2026, shows inflation rising modestly but undershooting expectations amid global energy volatility from the Iran/Middle East conflict, potentially impacting Bank of Korea rate cut bets as it held rates at 2.5% on April 10[1][3].[3]",
       "direction": "YES",
-      "confidence": 0.78,
+      "confidence": 0.9,
       "matched_markets": [
-        "Will the price of Bitcoin be between $76,000 and $78,000 on April 19?"
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
       ],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2045090710806782445)[[2]](https://x.com/i/status/2045087015222337995)",
-      "category": "COMMUNITY"
+      "action": "ENTER",
+      "x_link": null,
+      "category": "ECONOMICS"
     },
     {
-      "id": "sig_421968",
-      "timestamp": "2026-04-17T10:44:05.544808+00:00",
+      "id": "sig_614493",
+      "timestamp": "2026-04-17T10:47:18.069138+00:00",
       "source": "PERPLEXITY",
-      "headline": "Confidence: HIGH** (search results lack any April 17 announcements or market-moving resolutions)",
-      "raw": "Confidence: HIGH** (search results lack any April 17 announcements or market-moving resolutions).",
-      "direction": null,
+      "headline": "Bosnia-Herzegovina confirmed as Switzerland's Group B opponent for 2026 FIFA World Cup** | **YES** | **HIGH** confidence",
+      "raw": "Bosnia-Herzegovina confirmed as Switzerland's Group B opponent for 2026 FIFA World Cup** | **YES** | **HIGH** confidence[1][4]\n\nThe UEFA Playoff A qualifier has been resolved with Bosnia-Herzegovina advancing to face Switzerland, Canada, and Qatar in Group B, completing the group draw announced earlier[1][4]. This resolution, reported today, finalizes all 12 groups for the June 11\u2013July 19, 2026 to",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will Switzerland win Group B in the 2026 FIFA World Cup?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_605265",
+      "timestamp": "2026-04-17T10:47:08.841917+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Ethereum ETFs Record 4th Straight Day of Inflows on April 14, Totaling $212M Streak Amid ETH Price Push to $2,400** | YE",
+      "raw": "Ethereum ETFs Record 4th Straight Day of Inflows on April 14, Totaling $212M Streak Amid ETH Price Push to $2,400** | YES | HIGH[1][3]\n\nU.S. spot Ethereum ETFs saw $53M net inflows on April 14, led by Fidelity ($38M) and BlackRock ($10.49M), with no outflows across funds, marking the fourth consecutive inflow day and reversing prior negative trends[1]. Ethereum tested $2,400 resistance for the fir",
+      "direction": "YES",
       "confidence": 0.65,
-      "matched_markets": [],
+      "matched_markets": [
+        "Will the price of Ethereum be between $2,300 and $2,400 on April 20?",
+        "Will the price of Bitcoin be between $76,000 and $78,000 on April 19?"
+      ],
       "action": "ALERT",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_451377",
-      "timestamp": "2026-04-17T10:44:34.953864+00:00",
+      "id": "sig_605269",
+      "timestamp": "2026-04-17T10:47:08.845789+00:00",
+      "source": "PERPLEXITY",
+      "headline": "No New April-Specific Resolutions for Ethereum Beyond ETF Data** | NO | MED[1][2]",
+      "raw": "No New April-Specific Resolutions for Ethereum Beyond ETF Data** | NO | MED[1][2]\n\nApril ETF inflows reached $171M after months of $2.8B outflows, with Bitmine expanding ETH holdings to 4.87M tokens (3M staked), but no major regulatory or upgrade confirmations reported[1][2]. Older recaps note ETH rebound to $1,650 by May 1 (2025 context), not right-now breaking news[2].",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the price of Ethereum be between $2,300 and $2,400 on April 20?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_610309",
+      "timestamp": "2026-04-17T10:47:13.885637+00:00",
+      "source": "PERPLEXITY",
+      "headline": "No newer confirmations post-March as of April 17** | NO | HIGH confidence[1][3][4]",
+      "raw": "No newer confirmations post-March as of April 17** | NO | HIGH confidence[1][3][4]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_631643",
+      "timestamp": "2026-04-17T10:47:35.219915+00:00",
       "source": "X_GROK",
-      "headline": "Polymarket Whale Activity & Signals (as of Apr 17, 2026):**",
-      "raw": "Polymarket Whale Activity & Signals (as of Apr 17, 2026):**",
+      "headline": "Whale Bets (Smart Money Signals):**",
+      "raw": "Whale Bets (Smart Money Signals):**",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
@@ -46,11 +92,24 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_451390",
-      "timestamp": "2026-04-17T10:44:34.966985+00:00",
+      "id": "sig_631648",
+      "timestamp": "2026-04-17T10:47:35.224112+00:00",
       "source": "X_GROK",
-      "headline": "**Whale Alert: $9,676 BUY on NO \"WTI Crude Oil hit HIGH $140 in April\" @96\u00a2",
-      "raw": "**Whale Alert: $9,676 BUY on NO \"WTI Crude Oil hit HIGH $140 in April\" @96\u00a2.** Bets against extreme oil spike this month. NO for WTI high $140 Apr. Confidence: MED.[[3]](https://x.com/i/status/2045089701980262560)",
+      "headline": "**BTC >$74k on Apr 17",
+      "raw": "**BTC >$74k on Apr 17?** Whale buys $5.9k YES @93\u00a2 \u2192 YES (bullish BTC close), MED confidence (high-conviction entry, market imminent).[[1]](https://x.com/i/status/2045090710806782445)",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2045090710806782445)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_631651",
+      "timestamp": "2026-04-17T10:47:35.227747+00:00",
+      "source": "X_GROK",
+      "headline": "**WTI Oil HIGH $140 in Apr",
+      "raw": "**WTI Oil HIGH $140 in Apr?** Whale buys $9.7k NO @96\u00a2 \u2192 NO (unlikely peak), HIGH confidence (near-certainty pricing).[[2]](https://x.com/i/status/2045089701980262560)",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
@@ -59,37 +118,63 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_451404",
-      "timestamp": "2026-04-17T10:44:34.980633+00:00",
+      "id": "sig_631655",
+      "timestamp": "2026-04-17T10:47:35.231344+00:00",
       "source": "X_GROK",
-      "headline": "**Weather snipers crushing: New trader +$23k in 2 weeks on temp markets (Paris/London etc",
-      "raw": "**Weather snipers crushing: New trader +$23k in 2 weeks on temp markets (Paris/London etc.); asymmetry plays like $42\u2192$2.7k.** Edge in model vs crowd mispricing. Buy cheap YES/NO temps 1-3 days out. Confidence: HIGH (multiple proofs).[[7]](https://x.com/i/status/2045080630443089990)[[8]](https://x.com/i/status/2044889027405656304)",
+      "headline": "**LoL Dplus KIA vs T1 G1 Winner:** Whale buys $12",
+      "raw": "**LoL Dplus KIA vs T1 G1 Winner:** Whale buys $12.6k T1 @54\u00a2 \u2192 T1 wins (YES for T1), MED confidence (even odds bet).[[3]](https://x.com/i/status/2045088640137625808)",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
-      "x_link": "https://x.com/i/status/2045080630443089990)[[8]](https://x.com/i/status/2044889027405656304)",
+      "x_link": "https://x.com/i/status/2045088640137625808)",
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_451411",
-      "timestamp": "2026-04-17T10:44:34.987051+00:00",
+      "id": "sig_631658",
+      "timestamp": "2026-04-17T10:47:35.235002+00:00",
       "source": "X_GROK",
-      "headline": "**Tennis markets \"consistently mispriced\"; liquidity issues distort YES/NO prices (e",
-      "raw": "**Tennis markets \"consistently mispriced\"; liquidity issues distort YES/NO prices (e.g., NO@98\u00a2 but YES@10\u00a2).** Avoid thin markets or arb gaps. NO edge without tools. Confidence: MED.[[9]](https://x.com/i/status/2044796178941010115)[[10]](https://x.com/i/status/2045058873199866116)",
+      "headline": "Mispriced Markets/Tips Trending:**",
+      "raw": "Mispriced Markets/Tips Trending:**",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_631662",
+      "timestamp": "2026-04-17T10:47:35.238667+00:00",
+      "source": "X_GROK",
+      "headline": "General liquidity issues causing mispricing (e",
+      "raw": "General liquidity issues causing mispricing (e.g., YES @66\u00a2 vs fair 2\u00a2); traders sitting out \u2192 Avoid thin markets, LOW edge signals.[[4]](https://x.com/i/status/2045058873199866116)",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
-      "x_link": "https://x.com/i/status/2044796178941010115)[[10]](https://x.com/i/status/2045058873199866116)",
+      "x_link": "https://x.com/i/status/2045058873199866116)",
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_451417",
-      "timestamp": "2026-04-17T10:44:34.993710+00:00",
+      "id": "sig_631666",
+      "timestamp": "2026-04-17T10:47:35.242228+00:00",
       "source": "X_GROK",
-      "headline": "**AI bubble market undervalued @19-23% vs 28% modeled odds",
-      "raw": "**AI bubble market undervalued @19-23% vs 28% modeled odds.** Correlation bet on capex failures. YES for failures in 90 days. Confidence: LOW (opinion-based).[[11]](https://x.com/i/status/2044573235291791549)\n\nWhales focused on sports/esports (high vol), weather arb. Copy via @WhaleAlertPoly/@Chance_. Bots/math edges beating vibes.[[12]](https://x.com/i/status/2044386446174515373)[[13]](https://x.",
+      "headline": "Tennis markets \"consistently mispriced\" \u2192 Buy bad prices over predicting winners (YES/NO value), MED confidence",
+      "raw": "Tennis markets \"consistently mispriced\" \u2192 Buy bad prices over predicting winners (YES/NO value), MED confidence.[[5]](https://x.com/i/status/2044796178941010115)",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2044796178941010115)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_631669",
+      "timestamp": "2026-04-17T10:47:35.245795+00:00",
+      "source": "X_GROK",
+      "headline": "AI bubble burst (3 failures/90d): Market 19-23% vs 28% modeled \u2192 Mild YES (bubble bursts), LOW confidence (modeled opini",
+      "raw": "AI bubble burst (3 failures/90d): Market 19-23% vs 28% modeled \u2192 Mild YES (bubble bursts), LOW confidence (modeled opinion).[[6]](https://x.com/i/status/2044573235291791549)",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
@@ -98,38 +183,23 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_426965",
-      "timestamp": "2026-04-17T10:44:10.541508+00:00",
-      "source": "PERPLEXITY",
-      "headline": "South Korea March 2026 CPI confirms inflation at 2",
-      "raw": "South Korea March 2026 CPI confirms inflation at 2.16% YoY (up from 2.00% in Feb), with MoM rise of 0.34% | YES | HIGH confidence** [2][6]\n\nSouth Korea's Statistics Korea released the **Consumer Price Index for March 2026** on April 2, 2026, showing headline **annual inflation at 2.16%**\u2014a 0.16 percentage point increase from February's 2.00%\u2014alongside a **0.34% month-on-month gain** (CPI at 118.8)",
-      "direction": "YES",
-      "confidence": 0.6,
-      "matched_markets": [
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
-      ],
-      "action": "WATCH",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_451397",
-      "timestamp": "2026-04-17T10:44:34.973888+00:00",
+      "id": "sig_631673",
+      "timestamp": "2026-04-17T10:47:35.249597+00:00",
       "source": "X_GROK",
-      "headline": "**Multiple whales pile into LoL esports today: $12k+ T1 vs Dplus KIA G1 @54\u00a2; $28k T1 BO3; bets on ThunderTalk/OMG G2",
-      "raw": "**Multiple whales pile into LoL esports today: $12k+ T1 vs Dplus KIA G1 @54\u00a2; $28k T1 BO3; bets on ThunderTalk/OMG G2.** Heavy smart money on T1 and mixed OMG. YES T1 wins; split OMG G2. Confidence: HIGH (volume + timing).[[4]](https://x.com/i/status/2045088640137625808)[[5]](https://x.com/i/status/2045085691164393810)[[6]](https://x.com/i/status/2045085710219198545)",
+      "headline": "Systematic strategy: Buy prob dislocations (win rate > implied), Kelly sizing \u2192 General alpha tip, no specific markets",
+      "raw": "Systematic strategy: Buy prob dislocations (win rate > implied), Kelly sizing \u2192 General alpha tip, no specific markets.[[7]](https://x.com/i/status/2045073200392945855)",
       "direction": "YES",
-      "confidence": 0.6,
+      "confidence": 0.65,
       "matched_markets": [],
-      "action": "WATCH",
-      "x_link": "https://x.com/i/status/2045088640137625808)[[5]](https://x.com/i/status/2045085691164393810)[[6]](https://x.com/i/status/2045085710219198545)",
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2045073200392945855)",
       "category": "COMMUNITY"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 7,
-    "watch": 2,
-    "high_conf": 0
+    "enter": 2,
+    "alert": 12,
+    "watch": 0,
+    "high_conf": 2
   }
 }
