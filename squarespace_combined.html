@@ -529,12 +529,18 @@
       });
 
       const WALLET_META = {
-        'shaun_poly':   { label: 'Shaun', platform: 'polymarket', initial: 300 },
-        'shaun_kalshi': { label: 'Shaun', platform: 'kalshi', initial: 0 },
-        'don_poly':     { label: 'Don S', platform: 'polymarket', initial: 0 },
-        'don_kalshi':   { label: 'Don S', platform: 'kalshi', initial: 0 },
+        'shaun_poly':   { label: 'Shaun', platform: 'polymarket' },
+        'shaun_kalshi': { label: 'Shaun', platform: 'kalshi' },
+        'don_poly':     { label: 'Don S', platform: 'polymarket' },
+        'don_kalshi':   { label: 'Don S', platform: 'kalshi' },
       };
       const WALLET_ORDER = ['shaun_poly','shaun_kalshi','don_poly','don_kalshi'];
+
+      let liveBankroll = 0;
+      try {
+        const brJson = await pf(BASE+'bankroll.json?v='+Date.now());
+        liveBankroll = brJson.initial || brJson.current || 0;
+      } catch(e) {}
 
       WALLET_ORDER.forEach(wid => { if (!byWallet[wid]) byWallet[wid] = []; });
 
@@ -570,8 +576,8 @@
         const avgWin = won.length ? (won.reduce((s,t)=>s+(t.pnl||0),0)/won.length).toFixed(2) : '0.00';
         const avgLoss = lost.length ? Math.abs(lost.reduce((s,t)=>s+(t.pnl||0),0)/lost.length).toFixed(2) : '0.00';
 
-        // Per-wallet bankroll = initial deposit + sum(settled pnl)
-        const walletBankroll = (meta.initial || 0) + totalPnl;
+        const walletInitial = (wid === 'shaun_poly') ? liveBankroll : 0;
+        const walletBankroll = walletInitial + totalPnl;
 
         // Time-window PnL (24h / 7d / 30d)
         const now = Date.now();
@@ -1103,10 +1109,14 @@
         else if (t.status==='OPEN') { engines[e].o++; engines[e].bet+=(t.paper_bet||0); }
       });
 
-      // ── Bankroll (initial deposit + realized PnL)
-      const INITIAL_DEPOSIT = 300.0;
+      // ── Bankroll (from bankroll.json + realized PnL)
+      let auditInitial = 300.0;
+      try {
+        const brData = await pf(BASE+'bankroll.json?v='+Date.now());
+        auditInitial = brData.initial || brData.current || 300;
+      } catch(e) {}
       const realized = settledAll.reduce((s,t)=>s+(t.pnl||0),0);
-      const bankroll = INITIAL_DEPOSIT + realized;
+      const bankroll = auditInitial + realized;
       const deployed = trades.filter(t=>t.status==='OPEN').reduce((s,t)=>s+(t.paper_bet||0),0);
 
       // ── Live issues (computed, not cached)
@@ -1146,7 +1156,7 @@
       html += '<div style="font-weight:700;color:#00cc66;margin-bottom:4px;font-size:0.85em">LIVE BANKROLL</div>';
       html += '<div style="font-size:0.82em;display:flex;gap:18px;flex-wrap:wrap">';
       html += '<span>Current: <b style="color:#111">$'+bankroll.toFixed(2)+'</b></span>';
-      html += '<span>Initial deposit: $'+INITIAL_DEPOSIT.toFixed(0)+'</span>';
+      html += '<span>Initial deposit: $'+auditInitial.toFixed(0)+'</span>';
       html += '<span>Realized: '+fmtPnl(realized)+'</span>';
       html += '<span>Deployed (OPEN): <b>$'+deployed.toFixed(0)+'</b></span>';
       html += '<span>Open positions: <b>'+openTrades.length+'</b></span>';
