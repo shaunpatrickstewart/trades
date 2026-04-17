@@ -115,10 +115,10 @@
 
 <!-- ═══ OPEN POSITIONS — FULL WIDTH ════════════════════════════════════ -->
 <div class="pm-full">
-  <div class="panel accent-paper">
+  <div class="panel accent-live">
     <div class="panel-hdr">
       <div class="panel-hdr-top">
-        <span class="panel-title c-paper">&#9632; Open Positions — Live Trades</span>
+        <span class="panel-title c-live">&#9632; Open Positions — Live Trades</span>
         <select id="wallet-filter" style="font-size:0.7em;padding:2px 6px;border:1px solid #ccc;border-radius:3px;margin-left:8px;background:#fff"><option value="all">All Wallets</option></select>
         <span id="paper-summary" style="font-size:0.7em;color:#444">Loading...</span>
       </div>
@@ -984,7 +984,7 @@
             'style="background:#eeeeee;border:1px solid #cccccc;color:#555;padding:2px 6px;cursor:pointer;font-size:0.7em;border-radius:3px">+$</button>'
           : '<span class="dim">—</span>';
 
-        return '<tr class="paper-row" data-wallet="'+(t.wallet_owner||'shaun_poly')+'">'+
+        return '<tr class="trade-row" data-wallet="'+(t.wallet_owner||'shaun_poly')+'">'+
           '<td class="dim">'+(i+1)+'</td>'+
           '<td>'+engineLabel(t)+'</td>'+
           '<td style="max-width:220px">'+esc((t.market||'').slice(0,55))+'</td>'+
