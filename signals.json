@@ -1,97 +1,109 @@
 {
-  "last_scan": "2026-04-18T18:13:02.019381+00:00",
-  "scan_seconds": 34.7,
+  "last_scan": "2026-04-18T18:16:09.401462+00:00",
+  "scan_seconds": 45.9,
   "markets_scanned": 31,
   "open_positions": 1,
   "signals": [
     {
-      "id": "sig_1776535981013_1",
-      "timestamp": "2026-04-18T18:13:01.013673+00:00",
+      "id": "sig_1776536151412_0",
+      "timestamp": "2026-04-18T18:15:51.412955+00:00",
       "source": "PERPLEXITY",
-      "headline": "No Recent Confirmations, Announcements, or Resolutions Reported | NO | LOW confidence**",
-      "raw": "No Recent Confirmations, Announcements, or Resolutions Reported | NO | LOW confidence**\n\nSearch results highlight ongoing markets without mentions of just-resolved events impacting odds, such as Russia x Ukraine ceasefire by April 30 or Israel x Hezbollah ceasefire; no breaking news triggers like official announcements are confirmed[1]. Broader trending markets include Nasdaq round-the-clock tradi",
-      "direction": "NO",
+      "headline": "South Korea March 2026 CPI inflation confirmed at 2",
+      "raw": "South Korea March 2026 CPI inflation confirmed at 2.16% YoY, up from 2.00% in February | NO** | **MED confidence**\n\nSouth Korea's Statistics Korea released Consumer Price Index data on April 2, 2026, showing annual inflation rose to 2.16% in March 2026 from 2.00% the prior month, with month-to-month inflation at 0.34%.[2] No further releases or announcements appear between April 2 and today (April",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776536161030_0",
+      "timestamp": "2026-04-18T18:16:01.030613+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Raptors-Cavaliers First-Round NBA Playoff Series Officially Confirmed: Game 1 Set for Today (April 18, 1 p",
+      "raw": "Raptors-Cavaliers First-Round NBA Playoff Series Officially Confirmed: Game 1 Set for Today (April 18, 1 p.m. ET in Cleveland)** | YES | HIGH confidence[1][4][6]\n\nToronto Raptors (No. 5 seed, 46-36) face Cleveland Cavaliers (No. 4 seed, 52-30) in a best-of-7 first-round matchup, with full schedule announced: Game 1 Sat. Apr. 18 @ CLE (1 p.m. ET), Game 2 Mon. Apr. 20 @ CLE (7 p.m.), Game 3 Thu. Apr",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "NBA Playoffs: Raptors vs. Cavaliers Total Games O/U 5.5"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776536140374_0",
+      "timestamp": "2026-04-18T18:15:40.374594+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Pectra Upgrade**: Entering final testing phase (not confirmed live), boosting institutional demand and ETF inflows, wi",
+      "raw": "**Pectra Upgrade**: Entering final testing phase (not confirmed live), boosting institutional demand and ETF inflows, with YouTube analysis noting ETH testing resistance amid $10K predictions as of April 18[3].",
+      "direction": null,
       "confidence": 0.9,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "COMMUNITY"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_1776535973534_0",
-      "timestamp": "2026-04-18T18:12:53.534947+00:00",
+      "id": "sig_1776536140377_1",
+      "timestamp": "2026-04-18T18:15:40.377293+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot provide the breaking news format you've requested because the search results don't contain information about a",
-      "raw": "I cannot provide the breaking news format you've requested because the search results don't contain information about a specific announcement, confirmation, or market-moving event that occurred today.\n\nThe search results indicate that the **Cleveland Cavaliers and Toronto Raptors are set to begin their first-round playoff series tomorrow** (April 19, 2026)[3][4]. The Cavaliers finished the regular",
+      "headline": "**Prediction Markets**: Polymarket shows 56% YES for ETH hitting $4,000 by April 30 (up from recent 14% weekly surge), d",
+      "raw": "**Prediction Markets**: Polymarket shows 56% YES for ETH hitting $4,000 by April 30 (up from recent 14% weekly surge), driven by geopolitical de-escalation and trading volume, but no fresh triggers confirmed[4].",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776536140379_2",
+      "timestamp": "2026-04-18T18:15:40.379578+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Confidence: LOW** \u2013 Search results lack RIGHT NOW confirmations (latest data April 17); price uptrend continues withou",
+      "raw": "**Confidence: LOW** \u2013 Search results lack RIGHT NOW confirmations (latest data April 17); price uptrend continues without resolved events like regulatory news or Vitalik statements[1][2][4].",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776535981010_0",
-      "timestamp": "2026-04-18T18:13:01.010774+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Iran x Israel/US Conflict Markets Heating Up | NO whale bets or tips reported | LOW confidence**",
-      "raw": "Iran x Israel/US Conflict Markets Heating Up | NO whale bets or tips reported | LOW confidence**\n\nPolymarket's X predictions page shows active markets like \"Iran x Israel/US conflict ends by...?\" at 35% YES odds and \"Trump announces US x Iran ceasefire broken by...?\" at 99% YES odds, reflecting trader sentiment on escalating tensions with over $161.4M total volume across 1378 X-related markets[1].",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776535981016_2",
-      "timestamp": "2026-04-18T18:13:01.016872+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Tweet Markets Active but No Whale Activity Noted | NO | MED confidence**",
-      "raw": "Tweet Markets Active but No Whale Activity Noted | NO | MED confidence**\n\nPop culture and tweet markets feature high engagement, e.g., \"Elon Musk # tweets April 14 - April 21, 2026?\" with binned odds like 260-279 at 28%, and \"Will Kanye tweet again by April 30?\" amid $16.2M volume across 130 markets, but no reports of mispriced bets or smart money shifts on X[3][4]. Mentions markets like Sidemen C",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776535958486_0",
-      "timestamp": "2026-04-18T18:12:38.486268+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Pectra Upgrade Enters Final Testing Phase Amid ETH Surge to $6K | YES | HIGH confidence**[1]",
-      "raw": "Pectra Upgrade Enters Final Testing Phase Amid ETH Surge to $6K | YES | HIGH confidence**[1]\n\nEthereum (ETH) price has surged to $6,000 as of April 18, 2026, driven by massive institutional demand, record Spot ETH ETF inflows, and Layer 2 TVL milestones like Base and Arbitrum[1]. The key recent development is the **Pectra (Prague-Electra) Upgrade** reaching its final testing phase, promising walle",
-      "direction": "YES",
-      "confidence": 0.6,
-      "matched_markets": [
-        "Ethereum Up or Down - April 18, 4PM ET",
-        "Ethereum Up or Down - April 18, 10:15PM-10:20PM ET"
-      ],
-      "action": "WATCH",
-      "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776535967699_0",
-      "timestamp": "2026-04-18T18:12:47.699093+00:00",
+      "id": "sig_1776536168397_0",
+      "timestamp": "2026-04-18T18:16:08.397253+00:00",
       "source": "PERPLEXITY",
-      "headline": "NO recent breaking news (as of April 18, 2026, 6 PM UTC) on South Korea's annual inflation",
-      "raw": "NO recent breaking news (as of April 18, 2026, 6 PM UTC) on South Korea's annual inflation.**[1][2][3]\n\nThe most recent data is March 2026 CPI at **2.16%** year-over-year (up from 2.00% in February), reported April 2, 2026\u2014too outdated for \"right now\" news.[2] No confirmations, announcements, or resolutions today that could shift prediction markets; next update expected May 6, 2026.[2] 2024 full-y",
+      "headline": "Iran x Israel/US Conflict Markets Trending on Polymarket X Predictions | NO | HIGH confidence**",
+      "raw": "Iran x Israel/US Conflict Markets Trending on Polymarket X Predictions | NO | HIGH confidence**  \nPolymarket's X predictions page highlights \"Iran x Israel/US conflict ends by...?\" at 35% YES odds and \"Trump announces US x Iran ceasefire broken by...?\" at 99% YES odds, indicating active trader interest in these geopolitical events amid 1378 live X markets and $161.4M volume.[1]",
       "direction": "YES",
-      "confidence": 0.6,
-      "matched_markets": [
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
-      ],
-      "action": "WATCH",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776536168399_1",
+      "timestamp": "2026-04-18T18:16:08.399801+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Elon Musk Tweet Count Markets Heating Up | NO | MED confidence**",
+      "raw": "Elon Musk Tweet Count Markets Heating Up | NO | MED confidence**  \nTweet Markets show \"Elon Musk # tweets April 14 - April 21, 2026?\" active with 1240-1279 tweets at 17% odds across 22-30 markets and $18.1M volume; related Nikita Bier exit market at X sits at 7% YES.[1][3][4] No whale bets or smart money moves specified.",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 4,
-    "watch": 2,
-    "high_conf": 1
+    "enter": 2,
+    "alert": 5,
+    "watch": 0,
+    "high_conf": 3
   }
 }
