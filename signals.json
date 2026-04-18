@@ -1,16 +1,16 @@
 {
-  "last_scan": "2026-04-18T04:05:20.425929+00:00",
-  "scan_seconds": 24.9,
+  "last_scan": "2026-04-18T04:08:06.020016+00:00",
+  "scan_seconds": 26.7,
   "markets_scanned": 49,
   "open_positions": 0,
   "signals": [
     {
-      "id": "sig_1776485102912_0",
-      "timestamp": "2026-04-18T04:05:02.912577+00:00",
+      "id": "sig_1776485266187_0",
+      "timestamp": "2026-04-18T04:07:46.187229+00:00",
       "source": "PERPLEXITY",
-      "headline": "US-Iran Peace Talks Collapse in Pakistan; Vance Announces Failure with Kushner and Witkoff Present | NO | HIGH confidenc",
-      "raw": "US-Iran Peace Talks Collapse in Pakistan; Vance Announces Failure with Kushner and Witkoff Present | NO | HIGH confidence** [1][2][5]\n\nRecent reports confirm the breakdown of marathon US-Iran negotiations in Islamabad after 21 hours, announced by Vice President JD Vance\u2014with Jared Kushner and Steve Witkoff at his side\u2014stating Iran rejected US terms demanding capitulation, including nuclear dismant",
-      "direction": "NO",
+      "headline": "US, Iran Growing Closer to Framework Agreement to End War | YES | MED confidence** [7]",
+      "raw": "US, Iran Growing Closer to Framework Agreement to End War | YES | MED confidence** [7]\n\nRecent reports indicate progress in back-channel US-Iran communications toward a framework deal to end the ongoing war, potentially impacting prediction markets on de-escalation or ceasefire resolutions.[7] This follows stalled direct talks in Islamabad around April 11, where US envoys including **Jared Kushner",
+      "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
         "Will 40 ships transit the Strait of Hormuz on any day by April 30?",
@@ -21,12 +21,88 @@
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_1776485119425_1",
-      "timestamp": "2026-04-18T04:05:19.425276+00:00",
+      "id": "sig_1776485278555_0",
+      "timestamp": "2026-04-18T04:07:58.555762+00:00",
       "source": "PERPLEXITY",
-      "headline": "MED** confidence (events 3-7 days old; no confirmations/announcements since April 14 per results)[1][2][3][5]",
-      "raw": "MED** confidence (events 3-7 days old; no confirmations/announcements since April 14 per results)[1][2][3][5].",
+      "headline": "I cannot identify a specific breaking news announcement that has just been confirmed or resolved based on the available",
+      "raw": "I cannot identify a specific breaking news announcement that has just been confirmed or resolved based on the available search results. The most recent data provided is from April 17, 2026, which shows Ethereum trading at $2,358.26[1] with a 14% weekly surge[2], but no new event announced after that date is documented in these results.\n\nThe search results reference potential market movers\u2014includin",
       "direction": "NO",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will Jared Kushner have a diplomatic meeting with Iran by April 30?",
+        "Ethereum Up or Down - April 18, 6:45PM-6:50PM ET",
+        "Ethereum Up or Down - April 18, 6:20PM-6:25PM ET"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776485285008_0",
+      "timestamp": "2026-04-18T04:08:05.008429+00:00",
+      "source": "PERPLEXITY",
+      "headline": "I cannot provide breaking news in the format requested because the search results do not contain information recent enou",
+      "raw": "I cannot provide breaking news in the format requested because the search results do not contain information recent enough to constitute \"breaking news\" as of April 18, 2026.\n\nThe most recent data in the search results is from **March 2026**, which is nearly three weeks old. The latest confirmed inflation figure available is South Korea's **February 2026 headline CPI at 2.0% year-on-year**, with c",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776485285018_3",
+      "timestamp": "2026-04-18T04:08:05.018825+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Real-time market reaction data",
+      "raw": "Real-time market reaction data\n\nWithout access to current information from April 18, 2026, I cannot responsibly format a headline claiming something has \"just been confirmed\" or assess its market impact with confidence.",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776485272246_1",
+      "timestamp": "2026-04-18T04:07:52.246205+00:00",
+      "source": "PERPLEXITY",
+      "headline": "House Republicans Block Democratic Bid to Limit Trump's Iran War Powers | YES | HIGH confidence**",
+      "raw": "House Republicans Block Democratic Bid to Limit Trump's Iran War Powers | YES | HIGH confidence**",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the Republican Party win the NV-02 House seat?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_1776485272250_2",
+      "timestamp": "2026-04-18T04:07:52.250099+00:00",
+      "source": "PERPLEXITY",
+      "headline": "House** **Republicans** defeated a Democratic measure to curb President **Trump**'s authority for military actions again",
+      "raw": "House** **Republicans** defeated a Democratic measure to curb President **Trump**'s authority for military actions against Iran, preserving his flexibility amid **Strait of Hormuz** tensions where **Trump** warned allies to buy U.S. fuel and reduce reliance on American protection.[1][4] This **Republican Party** action sustains U.S. pressure on Iran, potentially impacting markets on escalation ris",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will 40 ships transit the Strait of Hormuz on any day by April 30?",
+        "Will the Republican Party win the NV-02 House seat?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_1776485285011_1",
+      "timestamp": "2026-04-18T04:08:05.011909+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Today's or very recent inflation data release",
+      "raw": "Today's or very recent inflation data release",
+      "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -34,23 +110,38 @@
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_1776485119421_0",
-      "timestamp": "2026-04-18T04:05:19.421771+00:00",
+      "id": "sig_1776485285015_2",
+      "timestamp": "2026-04-18T04:08:05.015322+00:00",
       "source": "PERPLEXITY",
-      "headline": "YES** (recent upward forecast revisions could move prediction markets, where 3",
-      "raw": "YES** (recent upward forecast revisions could move prediction markets, where 3.0%+ trades at 35% and 2.4-2.6% at 24%)[2].",
-      "direction": "YES",
-      "confidence": 0.6,
+      "headline": "Any official Bank of Korea announcements",
+      "raw": "Any official Bank of Korea announcements",
+      "direction": null,
+      "confidence": 0.65,
       "matched_markets": [],
-      "action": "WATCH",
+      "action": "ALERT",
       "x_link": null,
       "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776485272242_0",
+      "timestamp": "2026-04-18T04:07:52.242721+00:00",
+      "source": "PERPLEXITY",
+      "headline": "BJP Releases Kerala Assembly Election Manifesto with Rs 3,000 Pension and Free Water Promises | YES | MED confidence**",
+      "raw": "BJP Releases Kerala Assembly Election Manifesto with Rs 3,000 Pension and Free Water Promises | YES | MED confidence**  \nThe Bharatiya Janata Party (**BJP**) released its manifesto for the 2026 **Kerala legislative assembly** elections, pledging **Rs 3,000** monthly pensions for needy women, widows, and seniors over 70, plus 20,000 liters of free water per household monthly, alongside welfare and ",
+      "direction": "YES",
+      "confidence": 0.6,
+      "matched_markets": [
+        "Will the Indian Union Muslim League (IUML) win between 10 and 12 seats in the 20"
+      ],
+      "action": "WATCH",
+      "x_link": null,
+      "category": "POLITICS"
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 1,
+    "enter": 2,
+    "alert": 6,
     "watch": 1,
-    "high_conf": 1
+    "high_conf": 4
   }
 }
