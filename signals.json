@@ -1,16 +1,44 @@
 {
-  "last_scan": "2026-04-18T18:45:18.949730+00:00",
-  "scan_seconds": 26.0,
-  "markets_scanned": 34,
+  "last_scan": "2026-04-18T18:48:10.342296+00:00",
+  "scan_seconds": 29.4,
+  "markets_scanned": 33,
   "open_positions": 1,
   "signals": [
     {
-      "id": "sig_1776537899603_0",
-      "timestamp": "2026-04-18T18:44:59.603974+00:00",
+      "id": "sig_1776538077033_1",
+      "timestamp": "2026-04-18T18:47:57.033608+00:00",
       "source": "PERPLEXITY",
-      "headline": "LOW confidence** in any upward catalyst, as results show price stability, not a breakout[3][4]",
-      "raw": "LOW confidence** in any upward catalyst, as results show price stability, not a breakout[3][4].",
+      "headline": "BANK OF KOREA PROJECTS INFLATION TO EXCEED 2",
+      "raw": "BANK OF KOREA PROJECTS INFLATION TO EXCEED 2.2% FORECAST | YES | HIGH confidence**\n\nThe Bank of Korea's April 10, 2026 meeting statement confirmed that **price pressures have risen significantly since early March**, with annual consumer price index growth now likely to exceed February's 2.2% forecast.[4] The BoK projects both headline and core inflation will rise more than previously forecasted, s",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776538077041_4",
+      "timestamp": "2026-04-18T18:47:57.041413+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Most recent confirmed data: March 2026 inflation at 2",
+      "raw": "Most recent confirmed data: March 2026 inflation at 2.2%[1]**, marking the highest reading in several months as energy-related price pressures intensified.",
       "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776538068522_0",
+      "timestamp": "2026-04-18T18:47:48.522049+00:00",
+      "source": "PERPLEXITY",
+      "headline": "US-Iran Grand Deal Fuels Crypto Rally: Ethereum Nears $2,400, Solana Surges** | YES | HIGH confidence[4]",
+      "raw": "US-Iran Grand Deal Fuels Crypto Rally: Ethereum Nears $2,400, Solana Surges** | YES | HIGH confidence[4]",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -18,11 +46,80 @@
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776537917945_0",
-      "timestamp": "2026-04-18T18:45:17.945312+00:00",
+      "id": "sig_1776538068524_1",
+      "timestamp": "2026-04-18T18:47:48.524492+00:00",
       "source": "PERPLEXITY",
-      "headline": "Iran x Israel/US Conflict Markets Heating Up | NO whale bets or tips reported | LOW confidence**",
-      "raw": "Iran x Israel/US Conflict Markets Heating Up | NO whale bets or tips reported | LOW confidence**\n\nPolymarket's X predictions page shows high activity in geopolitical markets like \"Iran x Israel/US conflict ends by...?\" at 35% yes odds and \"Trump announces US x Iran ceasefire broken by...?\" at 99% yes odds, reflecting trader sentiment on escalating tensions with over $161.4M total volume across 137",
+      "headline": "Solana Hits Record 167M Monthly Token Holders Amid Alpenglow Upgrade Hype** | YES | MED confidence[2]",
+      "raw": "Solana Hits Record 167M Monthly Token Holders Amid Alpenglow Upgrade Hype** | YES | MED confidence[2]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776538068527_2",
+      "timestamp": "2026-04-18T18:47:48.527118+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Ethereum Ecosystem Hit by Hacks and Shutdowns (Drift Protocol $280M Loss, Foundation Closes)** | NO | HIGH confidence[5]",
+      "raw": "Ethereum Ecosystem Hit by Hacks and Shutdowns (Drift Protocol $280M Loss, Foundation Closes)** | NO | HIGH confidence[5]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776538077030_0",
+      "timestamp": "2026-04-18T18:47:57.030806+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Based on the most recent search results available, here are the key inflation developments for South Korea:",
+      "raw": "Based on the most recent search results available, here are the key inflation developments for South Korea:",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776538077036_2",
+      "timestamp": "2026-04-18T18:47:57.036214+00:00",
+      "source": "PERPLEXITY",
+      "headline": "IMF RAISES SOUTH KOREA'S 2026 INFLATION FORECAST TO 2",
+      "raw": "IMF RAISES SOUTH KOREA'S 2026 INFLATION FORECAST TO 2.5% | YES | HIGH confidence**\n\nIn its April 15, 2026 World Economic Outlook, the IMF projected South Korea's inflation rate for 2026 at 2.5%, higher than earlier expectations.[3] This reflects upward pressure from Middle East conflict-driven energy prices, though the IMF noted this is being partially offset by chip export strength and supplement",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776538077038_3",
+      "timestamp": "2026-04-18T18:47:57.038852+00:00",
+      "source": "PERPLEXITY",
+      "headline": "AMRO RAISES 2026 INFLATION FORECAST TO 2",
+      "raw": "AMRO RAISES 2026 INFLATION FORECAST TO 2.3% | YES | HIGH confidence**\n\nThe ASEAN+3 Macroeconomic Research Office raised its inflation forecast by 0.4 percentage points in April to 2.3%, citing global energy price rises from the U.S.-Iran war.[2] Eight major investment banks, including Goldman Sachs, similarly raised their average inflation forecasts from 2% to 2.4% between late February and late M",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776538089335_0",
+      "timestamp": "2026-04-18T18:48:09.336006+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Iran x Israel/US Conflict Markets Heating Up | NO whale bets or confirmed announcements reported | LOW confidence**",
+      "raw": "Iran x Israel/US Conflict Markets Heating Up | NO whale bets or confirmed announcements reported | LOW confidence**\n\nPolymarket's X predictions page shows active markets like \"Iran x Israel/US conflict ends by...?\" at 35% YES odds and \"Trump announces US x Iran ceasefire broken by...?\" at 99% YES odds, indicating trader focus on Middle East tensions with high conviction on a broken ceasefire but l",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
@@ -31,12 +128,25 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776537917948_1",
-      "timestamp": "2026-04-18T18:45:17.948437+00:00",
+      "id": "sig_1776538089338_1",
+      "timestamp": "2026-04-18T18:48:09.338704+00:00",
       "source": "PERPLEXITY",
-      "headline": "No Recent Confirmations or Announcements Impacting Markets | NO resolutions noted | LOW confidence**",
-      "raw": "No Recent Confirmations or Announcements Impacting Markets | NO resolutions noted | LOW confidence**\n\nSearch results highlight active but unresolved markets such as \"Russia x Ukraine ceasefire by April 30, 2026?\" and multi-outcome \"Israel x Hezbollah ceasefire by...?\", with no mentions of just-confirmed events, announcements, or resolutions moving odds as of April 18, 2026[1]. Tweet markets like \"",
-      "direction": "NO",
+      "headline": "Elon Musk Tweet Volume Bets Trending | NO resolutions or tips shared | MED confidence**",
+      "raw": "Elon Musk Tweet Volume Bets Trending | NO resolutions or tips shared | MED confidence**\n\nMarkets on \"Elon Musk # tweets in April 2026?\" lead activity, with 17% odds on 1240-1279 tweets, alongside related bets like \"Elon Musk # tweets April 14 - April 21, 2026?\" over $18.1M volume, but no X chatter on whales, mispricing, or recent confirmations driving shifts[3][4]. Nikita Bier \"out as Head of Prod",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776538089341_2",
+      "timestamp": "2026-04-18T18:48:09.341299+00:00",
+      "source": "PERPLEXITY",
+      "headline": "No Breaking Confirmations or Resolutions Impacting Markets | NO tips or whale activity confirmed | LOW confidence**",
+      "raw": "No Breaking Confirmations or Resolutions Impacting Markets | NO tips or whale activity confirmed | LOW confidence**\n\nSearch data lacks reports of just-confirmed announcements, resolutions, or events moving Polymarket odds; general trending markets like \"Nasdaq round-the-clock trading by June 30?\" at 13% YES ($43.8K volume) appear without X trader hype on mispricing[2]. Coverage is limited to platf",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -45,9 +155,9 @@
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 3,
+    "enter": 1,
+    "alert": 10,
     "watch": 0,
-    "high_conf": 0
+    "high_conf": 2
   }
 }
