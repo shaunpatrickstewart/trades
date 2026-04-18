@@ -1,154 +1,140 @@
 {
-  "last_scan": "2026-04-18T05:28:52.175672+00:00",
-  "scan_seconds": 60.7,
-  "markets_scanned": 48,
+  "last_scan": "2026-04-18T05:31:57.411157+00:00",
+  "scan_seconds": 44.6,
+  "markets_scanned": 49,
   "open_positions": 0,
   "signals": [
     {
-      "id": "sig_1776490095488_0",
-      "timestamp": "2026-04-18T05:28:15.488190+00:00",
+      "id": "sig_1776490279302_0",
+      "timestamp": "2026-04-18T05:31:19.302675+00:00",
       "source": "PERPLEXITY",
-      "headline": "South Korea March 2026 Inflation Confirmed at 2",
-      "raw": "South Korea March 2026 Inflation Confirmed at 2.2% (Up from 2.0%, Below 2.4% Forecast)** | NO | HIGH confidence[1][2]\n\nSouth Korea's annual inflation rate rose to 2.2% in March 2026 from 2.0% in January and February, per Statistics Korea data reported April 2, 2026\u2014less than the 2.4% market consensus and aligning with the Bank of Korea's 2.2% yearly outlook amid Middle East energy shocks[1][2]. Th",
+      "headline": "US, Iran Growing Closer to Framework Agreement to End War | YES | MED confidence** [8]",
+      "raw": "US, Iran Growing Closer to Framework Agreement to End War | YES | MED confidence** [8]\n\nRecent reports indicate progress in back-channel US-Iran communications toward a framework to end the ongoing war, potentially impacting prediction markets on de-escalation or ceasefire resolutions.[8] This follows a temporary two-week ceasefire announced on April 7, 2026, amid stalled direct talks in Islamabad",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+        "Will 40 ships transit the Strait of Hormuz on any day by April 30?",
+        "Will Jared Kushner have a diplomatic meeting with Iran by April 30?"
       ],
       "action": "ENTER",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_1776490285243_0",
+      "timestamp": "2026-04-18T05:31:25.243170+00:00",
+      "source": "PERPLEXITY",
+      "headline": "I cannot provide the requested breaking news format because the search results do not contain information about current",
+      "raw": "I cannot provide the requested breaking news format because the search results do not contain information about current developments that would move prediction markets as of April 18, 2026.\n\nThe search results are from April 9, 2026 (polling day for Kerala's 140 assembly seats) and cover campaign issues from that period, including a controversy over a communal campaign against IUML candidate Fathi",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will the Indian Union Muslim League (IUML) win between 10 and 12 seats in the 20"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_1776490290362_0",
+      "timestamp": "2026-04-18T05:31:30.362993+00:00",
+      "source": "PERPLEXITY",
+      "headline": "LOW confidence** in any \"just confirmed\" catalyst, as results cover price updates through Apr 17 only\u2014no Apr 18 UTC deve",
+      "raw": "LOW confidence** in any \"just confirmed\" catalyst, as results cover price updates through Apr 17 only\u2014no Apr 18 UTC developments or resolved events impacting markets.[1][2][3][5][8]",
+      "direction": "NO",
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776490294965_0",
+      "timestamp": "2026-04-18T05:31:34.965053+00:00",
+      "source": "PERPLEXITY",
+      "headline": "South Korea March 2026 Annual Inflation at 2",
+      "raw": "South Korea March 2026 Annual Inflation at 2.2% YoY, Below 2.3-2.4% Consensus | NO | HIGH confidence**\n\nSouth Korea's annual CPI inflation rose to 2.2% in March 2026 from 2.0% in February, driven by oil prices but tempered by government fuel caps and food vouchers, missing market forecasts of 2.3-2.4%.[1][2][3] Monthly CPI gained 0.3%, under the 0.6% expected, with core inflation (ex-food/energy) ",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+      ],
+      "action": "ALERT",
       "x_link": null,
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_1776490132146_0",
-      "timestamp": "2026-04-18T05:28:52.146838+00:00",
+      "id": "sig_1776490317397_0",
+      "timestamp": "2026-04-18T05:31:57.397484+00:00",
       "source": "X_GROK",
-      "headline": "Whale Bets & Smart Money:**",
-      "raw": "Whale Bets & Smart Money:**",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776490132150_1",
-      "timestamp": "2026-04-18T05:28:52.150267+00:00",
-      "source": "X_GROK",
-      "headline": "**$365k whale bet on YES for \"US and Iran reach peace this April\"** (down $96k currently, potential conviction play)",
-      "raw": "**$365k whale bet on YES for \"US and Iran reach peace this April\"** (down $96k currently, potential conviction play). Means **YES**. Confidence: **MED**.[[1]](https://x.com/i/status/2045227069265641632)[[2]](https://x.com/i/status/2045226674866852152)",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Jared Kushner have a diplomatic meeting with Iran by April 30?"
-      ],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2045227069265641632)[[2]](https://x.com/i/status/2045226674866852152)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776490132153_2",
-      "timestamp": "2026-04-18T05:28:52.153631+00:00",
-      "source": "X_GROK",
-      "headline": "**$100k whale on Team Spirit to advance in IEM Rio esports** (live market, followed by traders)",
-      "raw": "**$100k whale on Team Spirit to advance in IEM Rio esports** (live market, followed by traders). Means **YES** for Spirit win. Confidence: **MED**.[[3]](https://x.com/i/status/2045235117254180973)[[4]](https://x.com/i/status/2045172479195218133)",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2045235117254180973)[[4]](https://x.com/i/status/2045172479195218133)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776490132156_3",
-      "timestamp": "2026-04-18T05:28:52.156943+00:00",
-      "source": "X_GROK",
-      "headline": "**$10k new wallet buys NO on \"Mazatl\u00e1n FC win 2026-04-17\"** (resolved",
-      "raw": "**$10k new wallet buys NO on \"Mazatl\u00e1n FC win 2026-04-17\"** (resolved?). Means **NO**. Confidence: **LOW** (small size).[[5]](https://x.com/i/status/2045336541157847359)",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2045336541157847359)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776490132163_4",
-      "timestamp": "2026-04-18T05:28:52.163418+00:00",
-      "source": "X_GROK",
-      "headline": "Mispriced/Tips Trending:**",
-      "raw": "Mispriced/Tips Trending:**",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776490132166_5",
-      "timestamp": "2026-04-18T05:28:52.166715+00:00",
-      "source": "X_GROK",
-      "headline": "**Strait of Hormuz reopening & US Cuba invasion mispriced high** (PM 39%/25% vs analyst 2%/7%)",
-      "raw": "**Strait of Hormuz reopening & US Cuba invasion mispriced high** (PM 39%/25% vs analyst 2%/7%). Means **NO** / sell. Confidence: **MED**.[[7]](https://x.com/i/status/2045292141346164809)",
+      "headline": "Taiwan Invasion by 2026 (NO):** 4 alpha wallets fully on NO amid China military news; all profitable, signaling restrain",
+      "raw": "Taiwan Invasion by 2026 (NO):** 4 alpha wallets fully on NO amid China military news; all profitable, signaling restraint. Means NO. Confidence: MED.[[1]](https://x.com/i/status/2045374092035956995)",
       "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2045374092035956995)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776490317400_1",
+      "timestamp": "2026-04-18T05:31:57.400893+00:00",
+      "source": "X_GROK",
+      "headline": "Strait of Hormuz Traffic Normal by Apr End (YES):** Whale buys $13",
+      "raw": "Strait of Hormuz Traffic Normal by Apr End (YES):** Whale buys $13.4k Yes @39\u00a2 (78% accumulation score). Means YES. Confidence: LOW.[[2]](https://x.com/i/status/2045373143380791580)",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
         "Will 40 ships transit the Strait of Hormuz on any day by April 30?"
       ],
       "action": "ALERT",
-      "x_link": "https://x.com/i/status/2045292141346164809)",
+      "x_link": "https://x.com/i/status/2045373143380791580)",
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776490132170_6",
-      "timestamp": "2026-04-18T05:28:52.170043+00:00",
+      "id": "sig_1776490317404_2",
+      "timestamp": "2026-04-18T05:31:57.404276+00:00",
       "source": "X_GROK",
-      "headline": "**BTC short-term markets mispriced** via bots/arbs on timed windows (ongoing edge per quants)",
-      "raw": "**BTC short-term markets mispriced** via bots/arbs on timed windows (ongoing edge per quants). Means **varies** (hedge imbalances). Confidence: **HIGH**.[[8]](https://x.com/i/status/2045202572848644388)[[9]](https://x.com/i/status/2045236463890309292)",
-      "direction": null,
+      "headline": "Weather Markets (NO on tight temps):** Traders/bots grind 80% win rates betting NO small ranges via GFS/ECMWF models; co",
+      "raw": "Weather Markets (NO on tight temps):** Traders/bots grind 80% win rates betting NO small ranges via GFS/ECMWF models; copy whales up $21k. Means NO. Confidence: HIGH.[[3]](https://x.com/i/status/2045101206461137101)",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
-      "x_link": "https://x.com/i/status/2045202572848644388)[[9]](https://x.com/i/status/2045236463890309292)",
+      "x_link": "https://x.com/i/status/2045101206461137101)",
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776490132175_7",
-      "timestamp": "2026-04-18T05:28:52.175371+00:00",
+      "id": "sig_1776490317407_3",
+      "timestamp": "2026-04-18T05:31:57.407524+00:00",
       "source": "X_GROK",
-      "headline": "Trending Tools:** Whale trackers (@PolyWhaleAlerts, Predictr/PolyAlertHub) for copy-trading live signals",
-      "raw": "Trending Tools:** Whale trackers (@PolyWhaleAlerts, Predictr/PolyAlertHub) for copy-trading live signals.[[10]](https://x.com/i/status/2045232987072020510) No major breaking events; focus geopolitics/esports.",
-      "direction": "NO",
+      "headline": "World Cup Winners (YES early):** Whale +$343k unrealized buying 1-5\u00a2 long-term YES; sell at 30-90\u00a2",
+      "raw": "World Cup Winners (YES early):** Whale +$343k unrealized buying 1-5\u00a2 long-term YES; sell at 30-90\u00a2. Means early YES. Confidence: MED.[[4]](https://x.com/i/status/2045158595331862785)",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
-      "x_link": "https://x.com/i/status/2045232987072020510)",
+      "x_link": "https://x.com/i/status/2045158595331862785)",
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776490086491_0",
-      "timestamp": "2026-04-18T05:28:06.491038+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Trump Impeachment Vote Underway in House | NO | HIGH confidence**",
-      "raw": "Trump Impeachment Vote Underway in House | NO | HIGH confidence**  \nThe U.S. House of Representatives is conducting a historic floor debate and vote on articles of impeachment against President Trump as of April 17, 2026, potentially making him the third impeached president, though no final outcome or confirmation has occurred yet[2]. This live proceeding involves partisan clashes, with the White ",
-      "direction": "NO",
-      "confidence": 0.6,
-      "matched_markets": [
-        "Will Trump post \"Stupid\" this week on Truth Social?",
-        "Will Trump\u2019s approval rating be between 39.0 and 39.4 on April 24, 2026?",
-        "Will Donald Trump post 180-199 Truth Social posts from April 17 to April 24, 202"
-      ],
-      "action": "WATCH",
-      "x_link": null,
-      "category": "POLITICS"
+      "id": "sig_1776490317410_4",
+      "timestamp": "2026-04-18T05:31:57.410932+00:00",
+      "source": "X_GROK",
+      "headline": "Trending Tips:** Copy profitable wallets (e",
+      "raw": "Trending Tips:** Copy profitable wallets (e.g., $25\u2192$12k), probability dislocations (win rate > implied odds), EV/Kelly sizing. Mispriced lags post-news.[[5]](https://x.com/i/status/2045155603517948326)[[6]](https://x.com/i/status/2045073200392945855)[[7]](https://x.com/i/status/2045099435152044483)\n\nPolymarket odds: AI bubble burst 9% YES; SPX $800 EOY Jun 5% YES; WTI <$85 Apr 62% YES.[[8]](https",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2045155603517948326)[[6]](https://x.com/i/status/2045073200392945855)[[7]](https://x.com/i/status/2045099435152044483)",
+      "category": "COMMUNITY"
     }
   ],
   "stats": {
     "enter": 1,
     "alert": 8,
-    "watch": 1,
-    "high_conf": 1
+    "watch": 0,
+    "high_conf": 3
   }
 }
