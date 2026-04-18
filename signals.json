@@ -1,27 +1,94 @@
 {
-  "last_scan": "2026-04-18T19:35:22.424075+00:00",
-  "scan_seconds": 21.1,
+  "last_scan": "2026-04-18T19:40:27.275512+00:00",
+  "scan_seconds": 26.8,
   "markets_scanned": 36,
   "open_positions": 1,
   "signals": [
     {
-      "id": "sig_1776540921421_0",
-      "timestamp": "2026-04-18T19:35:21.422007+00:00",
+      "id": "sig_1776541219848_1",
+      "timestamp": "2026-04-18T19:40:19.848170+00:00",
       "source": "PERPLEXITY",
-      "headline": "Limited trader buzz on mispriced opportunities | NO | MED confidence**",
-      "raw": "Limited trader buzz on mispriced opportunities | NO | MED confidence**\n\nResults show high-volume markets like X predictions ($161.4M total) and tweet bets ($16.2M), with examples like 7% on \"Nikita Bier out as Head of Product at X by June 30?\" or 62% on Kinetiq price hitting $0.5 in 2026, but no X-specific posts calling these mispriced or predicting moves.[1][2][4] Absence of direct X trader data ",
+      "headline": "NO** | **MED** confidence",
+      "raw": "NO** | **MED** confidence  \n\nGovernment interventions limited the oil price shock's impact, with core inflation dipping to 2.2% YoY and food prices falling to 0.5% YoY; Bank of Korea likely holds rates at 2.5% in April, adopting a wait-and-see stance amid contained pressures.[1] This print beat expectations on the downside despite energy rises, unlikely to shift prediction markets significantly as",
       "direction": "NO",
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776541226273_3",
+      "timestamp": "2026-04-18T19:40:26.273052+00:00",
+      "source": "PERPLEXITY",
+      "headline": "X launches USD stablecoin in 2026 | NO | MED confidence**",
+      "raw": "X launches USD stablecoin in 2026 | NO | MED confidence**  \nYES at 23% indicates skepticism on this tech/Elon Musk market, trending as undervalued for bears given X's product shifts like Nikita Bier's potential exit (7% YES by June 30)[1].  \n\nNo whale bets, specific X posts, or confirmed announcements appear in real-time data; these reflect crowd odds as proxies for trader focus on X and trending ",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776541226265_0",
+      "timestamp": "2026-04-18T19:40:26.265431+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Israel x Hezbollah ceasefire by June 30 | YES | HIGH confidence**",
+      "raw": "Israel x Hezbollah ceasefire by June 30 | YES | HIGH confidence**  \nPolymarket's most active X-related market assigns 100% odds to a ceasefire by June 30, reflecting strong trader consensus amid real-time updates from new information; this tops 1378 live X markets with over $161.4M volume[1]. Traders on X are likely buzzing about this near-certainty as a mispriced opportunity if external news shif",
+      "direction": "YES",
+      "confidence": 0.78,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776541219845_0",
+      "timestamp": "2026-04-18T19:40:19.845140+00:00",
+      "source": "PERPLEXITY",
+      "headline": "South Korea's March 2026 CPI inflation rose to 2",
+      "raw": "South Korea's March 2026 CPI inflation rose to 2.2% YoY (from 2.0% in Feb), below 2.3% consensus, driven by oil but curbed by government measures like fuel caps.**[1][3]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776541226270_2",
+      "timestamp": "2026-04-18T19:40:26.270505+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Trump announces US x Iran ceasefire broken by December 31 | NO | HIGH confidence**",
+      "raw": "Trump announces US x Iran ceasefire broken by December 31 | NO | HIGH confidence**  \nYES at 15% suggests traders doubt a near-term announcement, a potential smart money play for NO positions amid geopolitical tensions[1].",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776541226267_1",
+      "timestamp": "2026-04-18T19:40:26.267984+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Iran x Israel/US conflict ends by April 30 | NO | MED confidence**",
+      "raw": "Iran x Israel/US conflict ends by April 30 | NO | MED confidence**  \nYES shares trade at 35%, implying low probability of resolution soon, positioning it as a highlighted X market where contrarian bets could pay off if de-escalation rumors emerge[1].",
+      "direction": "YES",
+      "confidence": 0.6,
+      "matched_markets": [],
+      "action": "WATCH",
       "x_link": null,
       "category": "COMMUNITY"
     }
   ],
   "stats": {
     "enter": 0,
-    "alert": 1,
-    "watch": 0,
-    "high_conf": 0
+    "alert": 5,
+    "watch": 1,
+    "high_conf": 2
   }
 }
