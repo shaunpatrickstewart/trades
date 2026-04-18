@@ -1,29 +1,78 @@
 {
-  "last_scan": "2026-04-18T15:09:48.880891+00:00",
-  "scan_seconds": 26.8,
-  "markets_scanned": 47,
+  "last_scan": "2026-04-18T15:12:35.609347+00:00",
+  "scan_seconds": 25.8,
+  "markets_scanned": 44,
   "open_positions": 1,
   "signals": [
     {
-      "id": "sig_1776524970178_0",
-      "timestamp": "2026-04-18T15:09:30.178229+00:00",
+      "id": "sig_1776525154607_0",
+      "timestamp": "2026-04-18T15:12:34.607847+00:00",
       "source": "PERPLEXITY",
-      "headline": "US and Iran to Hold Second Round of Talks Before Ceasefire Expires | YES | HIGH confidence**",
-      "raw": "US and Iran to Hold Second Round of Talks Before Ceasefire Expires | YES | HIGH confidence**  \nSources confirm Washington and Tehran are arranging discussions before the current ceasefire ends next week, driving a risk rally in markets with S&P 500 near records, Asian stocks gaining, and oil prices steadying as worst-case scenarios fade.[2][3]  \nThis development, reported April 15-17, 2026, could ",
+      "headline": "South Korea's annual inflation rose to 2",
+      "raw": "South Korea's annual inflation rose to 2.2% in March 2026 (latest data), up from 2.0% in Jan-Feb but below 2.4% forecasts | NO** | MED confidence[1]\n\nThis March figure, reported by Statistics Korea via Trading Economics, marks the most recent confirmed annual inflation rate as of available data (last updated March 2026), showing contained pressures despite Middle East-driven energy shocks; no newe",
       "direction": "YES",
-      "confidence": 0.6,
+      "confidence": 0.78,
+      "matched_markets": [
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776525136673_0",
+      "timestamp": "2026-04-18T15:12:16.673077+00:00",
+      "source": "PERPLEXITY",
+      "headline": "US-Iran Ceasefire Talks Advance Toward New Round Before Expiration | YES | HIGH confidence**",
+      "raw": "US-Iran Ceasefire Talks Advance Toward New Round Before Expiration | YES | HIGH confidence**  \nBloomberg reports sources confirming the US and Iran are discussing face-to-face negotiations before the current ceasefire expires next week, with Trump noting Iran reached out on a deal; this has driven market rallies as oil drops and S&P 500 surges on peace prospects[1][2].  \nWang Yi urged sustaining t",
+      "direction": "YES",
+      "confidence": 0.65,
       "matched_markets": [
         "US x Iran permanent peace deal by April 22, 2026?"
       ],
-      "action": "WATCH",
+      "action": "ALERT",
       "x_link": null,
       "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_1776525141285_0",
+      "timestamp": "2026-04-18T15:12:21.285819+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Kerala Assembly Elections 2026: Voting Underway Across All 140 Seats in High-Stakes Three-Way Contest | NO | LOW confide",
+      "raw": "Kerala Assembly Elections 2026: Voting Underway Across All 140 Seats in High-Stakes Three-Way Contest | NO | LOW confidence**  \nVoting is currently in progress for the Kerala Legislative Assembly Elections 2026, featuring a tight race between the Left Democratic Front (LDF, led by Pinarayi Vijayan seeking a third term), United Democratic Front (UDF), and National Democratic Alliance (NDA/BJP aimin",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Progressive Bulgaria (PB) win between 85-89 seats in the 2026 Bulgarian par",
+        "Will the Indian Union Muslim League (IUML) win between 10 and 12 seats in the 20",
+        "Will Sarah Huckabee Sanders be the 2028 Republican Vice-Presidential nominee?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_1776525147931_0",
+      "timestamp": "2026-04-18T15:12:27.931419+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Ethereum Price Surge to $6K Amid Pectra Upgrade Final Testing and Record ETF Inflows | YES | HIGH confidence** [3]",
+      "raw": "Ethereum Price Surge to $6K Amid Pectra Upgrade Final Testing and Record ETF Inflows | YES | HIGH confidence** [3]\n\nAs of April 18, 2026, Ethereum has hit $6K, driven by a massive surge in institutional demand, Spot Ethereum ETF inflows at all-time highs, and the Pectra (Prague-Electra) Upgrade entering its final testing phase, which promises wallet abstraction and validator efficiency improvement",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Ethereum Up or Down - April 18, 8:45PM-8:50PM ET",
+        "Ethereum Up or Down - April 18, 10:15PM-10:20PM ET",
+        "Ethereum Up or Down - April 18, 10:35PM-10:40PM ET"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
     }
   ],
   "stats": {
     "enter": 0,
-    "alert": 0,
-    "watch": 1,
+    "alert": 4,
+    "watch": 0,
     "high_conf": 0
   }
 }
