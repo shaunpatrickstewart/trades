@@ -1,87 +1,81 @@
 {
-  "last_scan": "2026-04-18T10:06:09.320122+00:00",
-  "scan_seconds": 26.5,
+  "last_scan": "2026-04-18T10:08:54.277457+00:00",
+  "scan_seconds": 23.5,
   "markets_scanned": 42,
   "open_positions": 1,
   "signals": [
     {
-      "id": "sig_1776506751111_0",
-      "timestamp": "2026-04-18T10:05:51.111733+00:00",
+      "id": "sig_1776506933276_1",
+      "timestamp": "2026-04-18T10:08:53.276033+00:00",
       "source": "PERPLEXITY",
-      "headline": "House GOP relents on DHS funding plan after Trump intervention, unveiling dual-track strategy to end shutdown via approp",
-      "raw": "House GOP relents on DHS funding plan after Trump intervention, unveiling dual-track strategy to end shutdown via appropriations and reconciliation by June 1.** | **YES** | **HIGH** confidence[1][2]\n\nTrump demanded on Wednesday via Truth Social that Republicans use reconciliation\u2014a procedural tool bypassing Democratic Senate filibuster\u2014to fund ICE and Border Patrol, while funding most of DHS throu",
-      "direction": "YES",
+      "headline": "Elon Musk Tweet Count Bets Surge with $5M Volume | NO | MED confidence**",
+      "raw": "Elon Musk Tweet Count Bets Surge with $5M Volume | NO | MED confidence**\n\nTraders on X are buzzing about \"Elon Musk # tweets April 14 - April 21, 2026?\" where the 260-279 range trades at 24%, part of high-volume tweet markets totaling over $16M, but lacking confirmed whale moves or tips in available results.[4][5]",
+      "direction": "NO",
       "confidence": 0.9,
-      "matched_markets": [
-        "Will the Republican Party win the NY-21 House seat?",
-        "Will Trump\u2019s approval rating be between 39.0 and 39.4 on April 24, 2026?",
-        "Will Donald Trump post 100-119 Truth Social posts from April 21 to April 28, 202"
-      ],
-      "action": "ENTER",
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776506917504_0",
+      "timestamp": "2026-04-18T10:08:37.504463+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Confidence: HIGH** (based on absence of qualifying updates in real-time sources)",
+      "raw": "Confidence: HIGH** (based on absence of qualifying updates in real-time sources).",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
       "x_link": null,
       "category": "POLITICS"
     },
     {
-      "id": "sig_1776506768317_2",
-      "timestamp": "2026-04-18T10:06:08.317789+00:00",
+      "id": "sig_1776506923441_0",
+      "timestamp": "2026-04-18T10:08:43.441083+00:00",
       "source": "PERPLEXITY",
-      "headline": "Trending Markets Like Nasdaq 24/7 Trading at 13% | NO announcements impacting odds | LOW confidence**",
-      "raw": "Trending Markets Like Nasdaq 24/7 Trading at 13% | NO announcements impacting odds | LOW confidence**  \nBroader trending markets include \"Nasdaq round-the-clock trading by June 30?\" at 13% yes ($43.8K volume) and Kinetiq price targets, with $3.1M total volume, but no evidence of recent confirmations, resolutions, or X-discussed mispricings[2]. No breaking news on ceasefires, Trump announcements, o",
-      "direction": "YES",
-      "confidence": 0.9,
+      "headline": "LOW confidence** in any market-moving development, as search results lack announcements post-April 17 and focus on analy",
+      "raw": "LOW confidence** in any market-moving development, as search results lack announcements post-April 17 and focus on analysis/prices rather than resolved events.",
+      "direction": null,
+      "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "COMMUNITY"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_1776506768311_0",
-      "timestamp": "2026-04-18T10:06:08.311229+00:00",
+      "id": "sig_1776506927944_0",
+      "timestamp": "2026-04-18T10:08:47.945009+00:00",
       "source": "PERPLEXITY",
-      "headline": "Iran x Israel/US Conflict Market Dominates X Predictions at 97% Odds for End by Dec 31 | NO whale bets or tips reported",
-      "raw": "Iran x Israel/US Conflict Market Dominates X Predictions at 97% Odds for End by Dec 31 | NO whale bets or tips reported | LOW confidence**  \nPolymarket's X predictions page shows 1379 live markets, with the most active being \"Iran x Israel/US conflict ends by...?\" at 97% probability for December 31, reflecting strong trader consensus on prolonged tensions rather than imminent resolution[1]. No spe",
+      "headline": "South Korea's annual inflation rose to 2",
+      "raw": "South Korea's annual inflation rose to 2.2% in March 2026 (up from 2.0% in Jan-Feb), below market forecasts of 2.4% amid Middle East energy shocks | NO | HIGH confidence**[1][2][3]  \nBank of Korea held policy rate at 2.5% for 7th straight meeting (Apr 10, 2026), citing oil-driven inflation risks above 2% target despite moderation, with no rate cut signaled**[1][3][4].  \nForecasts project 2.6% by Q",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776506933272_0",
+      "timestamp": "2026-04-18T10:08:53.272760+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Iran x Israel/US Conflict Market Dominates X Chatter | NO | LOW confidence**",
+      "raw": "Iran x Israel/US Conflict Market Dominates X Chatter | NO | LOW confidence**\n\nPolymarket's most active X-related market assigns 97% odds to the \"Iran x Israel/US conflict ends by December 31,\" reflecting heavy trader conviction amid real-time volume, though no specific X posts on whale bets or mispricing are detailed in current data.[1]",
       "direction": "NO",
-      "confidence": 0.78,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776506768314_1",
-      "timestamp": "2026-04-18T10:06:08.314555+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Elon Musk Tweet Counts Lead Tweet Markets | NO confirmed moves or resolutions | LOW confidence**",
-      "raw": "Elon Musk Tweet Counts Lead Tweet Markets | NO confirmed moves or resolutions | LOW confidence**  \nTweet markets feature 22-30 active ones like \"Elon Musk # tweets April 14 - April 21, 2026?\" with 17% odds for 1240-1279 tweets, and broader April 2026 counts, backed by $18.1M volume, but no X chatter on whales or tips noted[3][4]. Nikita Bier as X Head of Product exit by June 30 trades at 7% yes, u",
-      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776506756504_0",
-      "timestamp": "2026-04-18T10:05:56.504917+00:00",
-      "source": "PERPLEXITY",
-      "headline": "US Nearing $20B Deal for Iran to Surrender Uranium Stockpile, Fueling Crypto Rally | YES | HIGH confidence**[2]",
-      "raw": "US Nearing $20B Deal for Iran to Surrender Uranium Stockpile, Fueling Crypto Rally | YES | HIGH confidence**[2]\n\nReports on April 17 confirm the US is close to a $20 billion agreement with Iran to relinquish its uranium stockpile, with weekend talks anticipated, leading to de-escalated oil prices and a risk-on surge in cryptocurrencies[2]. Bitcoin hit $76,370 and Ethereum approached $2,400 amid th",
-      "direction": "YES",
-      "confidence": 0.6,
-      "matched_markets": [
-        "Will the price of Bitcoin be above $74,000 on April 21?",
-        "Ethereum Up or Down - April 18, 8:45PM-8:50PM ET",
-        "Ethereum Up or Down - April 18, 10:15PM-10:20PM ET"
-      ],
-      "action": "WATCH",
-      "x_link": null,
-      "category": "CRYPTO"
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 3,
-    "watch": 1,
-    "high_conf": 2
+    "enter": 0,
+    "alert": 5,
+    "watch": 0,
+    "high_conf": 1
   }
 }
