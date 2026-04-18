@@ -1,76 +1,44 @@
 {
-  "last_scan": "2026-04-18T16:31:39.666008+00:00",
-  "scan_seconds": 30.8,
+  "last_scan": "2026-04-18T16:34:27.395922+00:00",
+  "scan_seconds": 26.5,
   "markets_scanned": 34,
   "open_positions": 1,
   "signals": [
     {
-      "id": "sig_1776529893752_0",
-      "timestamp": "2026-04-18T16:31:33.752467+00:00",
+      "id": "sig_1776530066394_0",
+      "timestamp": "2026-04-18T16:34:26.394827+00:00",
       "source": "PERPLEXITY",
-      "headline": "ETH Price Rally on Pectra Upgrade Momentum & ETF Inflows | YES | HIGH confidence**",
-      "raw": "ETH Price Rally on Pectra Upgrade Momentum & ETF Inflows | YES | HIGH confidence**  \nEthereum is surging as of April 18, 2026, driven by the **Pectra (Prague-Electra) Upgrade** entering its final testing phase, boosting wallet abstraction and validator efficiency, alongside record **Spot Ethereum ETF inflows** and Layer 2 TVL milestones like Base and Arbitrum[4].  \nETH price rose to $2,358.26 on A",
+      "headline": "South Korea March 2026 Inflation Confirmed at 2",
+      "raw": "South Korea March 2026 Inflation Confirmed at 2.2% YoY | YES | HIGH confidence**  \nSouth Korea's annual inflation rate rose to 2.2% in March 2026, up from 2.0% in January and February but below market forecasts of 2.4%; this is the latest reported figure from Statistics Korea, updated in early April 2026[1].  \nBank of Korea held its policy rate at 2.5% last week (around April 10, 2026) for a sixth",
       "direction": "YES",
-      "confidence": 0.78,
-      "matched_markets": [
-        "Ethereum Up or Down - April 18, 10:15PM-10:20PM ET",
-        "Ethereum Up or Down - April 18, 10:35PM-10:40PM ET",
-        "Ethereum Up or Down - April 18, 6:20PM-6:25PM ET"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776529880957_0",
-      "timestamp": "2026-04-18T16:31:20.957033+00:00",
-      "source": "PERPLEXITY",
-      "headline": "HEADLINE | NO | HIGH confidence**",
-      "raw": "HEADLINE | NO | HIGH confidence**  \nRecent reports (up to April 9, 2026) highlight prediction market scrutiny over suspicious bets on a fragile Iran war ceasefire around April 7, with profits from well-timed trades (e.g., $600K+ on Polymarket) raising insider trading fears tied to Trump administration leaks, but no new confirmations, announcements, or resolutions today.[2][3][4] White House warnin",
-      "direction": "YES",
-      "confidence": 0.6,
-      "matched_markets": [
-        "Will Trump say \"The War Is Over\" this week? (April 20 - 26)"
-      ],
-      "action": "WATCH",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_1776529886687_0",
-      "timestamp": "2026-04-18T16:31:26.687696+00:00",
-      "source": "PERPLEXITY",
-      "headline": "IUML Releases First List of 25 Candidates for Kerala Assembly Election 2026, Plans to Contest 27 Seats** | YES | HIGH co",
-      "raw": "IUML Releases First List of 25 Candidates for Kerala Assembly Election 2026, Plans to Contest 27 Seats** | YES | HIGH confidence[1][2]\n\nThis announcement, featuring a youth push and new faces as part of UDF strategy, confirms IUML's early campaign moves ahead of the April 9, 2026, polling date, potentially signaling stronger UDF consolidation in Muslim-heavy areas like Malabar districts[1][2]. No ",
-      "direction": "YES",
-      "confidence": 0.6,
-      "matched_markets": [
-        "Will the Indian Union Muslim League (IUML) win between 10 and 12 seats in the 20"
-      ],
-      "action": "WATCH",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_1776529898663_0",
-      "timestamp": "2026-04-18T16:31:38.663611+00:00",
-      "source": "PERPLEXITY",
-      "headline": "South Korea's annual inflation rose to 2",
-      "raw": "South Korea's annual inflation rose to 2.2% in March 2026 | YES | MED confidence**\n\nSouth Korea's annual inflation rate increased to 2.2% year-over-year in March 2026, up from 2.0% in January and February, though below market forecasts of 2.4%[2]. This followed steady 2.0% readings in prior months amid government efforts to stabilize food prices, with core inflation (excluding food and energy) at ",
-      "direction": "YES",
-      "confidence": 0.6,
+      "confidence": 0.9,
       "matched_markets": [
         "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
       ],
-      "action": "WATCH",
+      "action": "ENTER",
       "x_link": null,
       "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776530049534_0",
+      "timestamp": "2026-04-18T16:34:09.534936+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Israel Agrees to 10-Day Ceasefire in Lebanon; Iran Declares Strait of Hormuz Open for Commercial Shipping** | **YES** |",
+      "raw": "Israel Agrees to 10-Day Ceasefire in Lebanon; Iran Declares Strait of Hormuz Open for Commercial Shipping** | **YES** | **HIGH** confidence\n\nIsrael has agreed to a **10-day ceasefire** in Lebanon following U.S.-brokered talks, ending seven weeks of conflict that killed nearly 2,200 people, amid ongoing Israeli occupation of 10% of Lebanese territory and recent airstrikes.[2] Iran's foreign ministe",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Trump say \"The War Is Over\" this week? (April 20 - 26)"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
     }
   ],
   "stats": {
-    "enter": 0,
+    "enter": 1,
     "alert": 1,
-    "watch": 3,
-    "high_conf": 0
+    "watch": 0,
+    "high_conf": 1
   }
 }
