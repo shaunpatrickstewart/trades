@@ -1,40 +1,188 @@
 {
-  "last_scan": "2026-04-18T04:10:48.898229+00:00",
-  "scan_seconds": 25.7,
+  "last_scan": "2026-04-18T04:13:35.043260+00:00",
+  "scan_seconds": 28.1,
   "markets_scanned": 49,
   "open_positions": 0,
   "signals": [
     {
-      "id": "sig_1776485447897_0",
-      "timestamp": "2026-04-18T04:10:47.897173+00:00",
+      "id": "sig_1776485595905_0",
+      "timestamp": "2026-04-18T04:13:15.905165+00:00",
       "source": "PERPLEXITY",
-      "headline": "LOW confidence**\u2014no confirmations, announcements, or resolutions since April 14 likely to move Polymarket odds (currentl",
-      "raw": "LOW confidence**\u2014no confirmations, announcements, or resolutions since April 14 likely to move Polymarket odds (currently 35% for 3.0%+, 24% for 2.4-2.6%)[3].",
+      "headline": "US-Iran peace talks in Pakistan collapsed after 21 hours, with Iran distrusting Jared Kushner and Steve Witkoff for perc",
+      "raw": "US-Iran peace talks in Pakistan collapsed after 21 hours, with Iran distrusting Jared Kushner and Steve Witkoff for perceived Israeli bias; Trump announced a US blockade of the Strait of Hormuz.** | **NO** | **HIGH** confidence[1][2][3]\n\nRecent reports confirm the talks, hosted by Pakistan, ended Saturday without agreement on core issues like sanctions relief, missile limits, and Hormuz shipping, ",
       "direction": "NO",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will 40 ships transit the Strait of Hormuz on any day by April 30?",
+        "Will Jared Kushner have a diplomatic meeting with Iran by April 30?",
+        "Will Trump\u2019s approval rating be between 39.0 and 39.4 on April 24, 2026?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_1776485614024_0",
+      "timestamp": "2026-04-18T04:13:34.024789+00:00",
+      "source": "PERPLEXITY",
+      "headline": "I cannot provide breaking news about South Korea's inflation with the format you've requested because the most recent da",
+      "raw": "I cannot provide breaking news about South Korea's inflation with the format you've requested because the most recent data in the search results is from early April 2026, which is now 2 weeks old from your current date (April 18, 2026).\n\nThe latest confirmed figures available are:",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776485602058_3",
+      "timestamp": "2026-04-18T04:13:22.058690+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Trump says he's \"not sure\" ceasefire with Iran needs to be extended | YES | MED confidence**",
+      "raw": "Trump says he's \"not sure\" ceasefire with Iran needs to be extended | YES | MED confidence**\n\nTrump stated uncertainty about extending a ceasefire with Iran, while simultaneously telling ABC News he believes he can trust the Iranians and that the situation will be resolved \"very soon\"[3]. The administration is actively seeking a deal with Iranian leadership[3]. This conflicting messaging creates u",
+      "direction": "YES",
       "confidence": 0.78,
+      "matched_markets": [
+        "Will Jared Kushner have a diplomatic meeting with Iran by April 30?",
+        "Will Trump\u2019s approval rating be between 39.0 and 39.4 on April 24, 2026?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_1776485602047_0",
+      "timestamp": "2026-04-18T04:13:22.047824+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Based on the current search results, here are the breaking developments relevant to prediction markets:",
+      "raw": "Based on the current search results, here are the breaking developments relevant to prediction markets:",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_1776485602051_1",
+      "timestamp": "2026-04-18T04:13:22.051454+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Congress approves short-term FISA spy powers extension amid GOP infighting | YES | HIGH confidence**",
+      "raw": "Congress approves short-term FISA spy powers extension amid GOP infighting | YES | HIGH confidence**\n\nThe Senate agreed to a temporary extension of the Foreign Intelligence Surveillance Act until April 30[1]. Trump had sought a clean extension of the program, which was set to expire Monday[3]. This represents a resolution to immediate legislative deadlock, though the divide among House Republicans",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Trump\u2019s approval rating be between 39.0 and 39.4 on April 24, 2026?",
+        "Will the Republican Party win the NV-02 House seat?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_1776485607882_0",
+      "timestamp": "2026-04-18T04:13:27.882065+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Ethereum Price Surge Amid Geopolitical De-escalation | YES | HIGH confidence**",
+      "raw": "Ethereum Price Surge Amid Geopolitical De-escalation | YES | HIGH confidence**  \nEthereum's price jumped 14% over the past week to around $2,358 as of April 17, 2026, driven by de-escalation signals in U.S.-Iran tensions following Trump's ultimatum, boosting trader sentiment and pushing Polymarket odds to 56% YES for ETH reaching $4,000 by April 30[1][2][4].  \nNo specific new confirmations, announ",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Jared Kushner have a diplomatic meeting with Iran by April 30?",
+        "Will Trump\u2019s approval rating be between 39.0 and 39.4 on April 24, 2026?",
+        "Ethereum Up or Down - April 18, 6:45PM-6:50PM ET"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776485614028_1",
+      "timestamp": "2026-04-18T04:13:34.028389+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Most Recent Official Data:**",
+      "raw": "Most Recent Official Data:**\nSouth Korea's **annual inflation rate rose to 2.2% in March 2026**, up from 2.0% in February[3][4]. The Consumer Price Index was 118.8 for March 2026[1].",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776485614031_2",
+      "timestamp": "2026-04-18T04:13:34.031875+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Forecast Updates:**",
+      "raw": "Forecast Updates:**\nMultiple organizations have recently raised their 2026 inflation forecasts due to rising global energy prices from the U.S.-Iran conflict:",
+      "direction": null,
+      "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_1776485437386_0",
-      "timestamp": "2026-04-18T04:10:37.386312+00:00",
+      "id": "sig_1776485614035_3",
+      "timestamp": "2026-04-18T04:13:34.035242+00:00",
       "source": "PERPLEXITY",
-      "headline": "HEADLINE**: None | **NO** | **HIGH** confidence",
-      "raw": "HEADLINE**: None | **NO** | **HIGH** confidence",
-      "direction": "NO",
+      "headline": "AMRO raised its forecast to **2",
+      "raw": "AMRO raised its forecast to **2.3%** (up 0.4 percentage points)[2]",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776485614038_4",
+      "timestamp": "2026-04-18T04:13:34.038584+00:00",
+      "source": "PERPLEXITY",
+      "headline": "The IMF projects **2",
+      "raw": "The IMF projects **2.5%** for the year[5]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776485614042_5",
+      "timestamp": "2026-04-18T04:13:34.042126+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Eight major investment banks raised forecasts to an average of **2",
+      "raw": "Eight major investment banks raised forecasts to an average of **2.4%**[2]\n\nHowever, these are projections and analysis from early-to-mid April, not breaking news from today. To provide genuine breaking news that would move prediction markets, I would need access to search results published on or after April 18, 2026, which are not included in the current results.",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776485602054_2",
+      "timestamp": "2026-04-18T04:13:22.054994+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Trump nominates Dr",
+      "raw": "Trump nominates Dr. Erica Schwartz as new CDC director | YES | HIGH confidence**\n\nPresident Trump officially nominated Dr. Erica Schwartz as the new CDC director[3], a personnel decision that could affect health policy prediction markets.",
+      "direction": "YES",
+      "confidence": 0.6,
+      "matched_markets": [],
+      "action": "WATCH",
       "x_link": null,
       "category": "POLITICS"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 2,
-    "watch": 0,
-    "high_conf": 0
+    "enter": 1,
+    "alert": 10,
+    "watch": 1,
+    "high_conf": 2
   }
 }
