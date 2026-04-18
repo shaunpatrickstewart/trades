@@ -1,30 +1,72 @@
 {
-  "last_scan": "2026-04-18T13:55:05.656688+00:00",
-  "scan_seconds": 34.5,
-  "markets_scanned": 46,
+  "last_scan": "2026-04-18T14:02:46.517704+00:00",
+  "scan_seconds": 34.2,
+  "markets_scanned": 47,
   "open_positions": 1,
   "signals": [
     {
-      "id": "sig_1776520496945_0",
-      "timestamp": "2026-04-18T13:54:56.945986+00:00",
+      "id": "sig_1776520946705_1",
+      "timestamp": "2026-04-18T14:02:26.705161+00:00",
       "source": "PERPLEXITY",
-      "headline": "South Korea March 2026 CPI Inflation Confirmed at 2",
-      "raw": "South Korea March 2026 CPI Inflation Confirmed at 2.16% YoY (Up from 2.00% in Feb)** | NO | HIGH confidence[2]\n\nSouth Korea's inflation rose to 2.16% year-over-year in March 2026 from 2.00% in February, with monthly inflation at 0.34%; data updated April 2, 2026[2]. No breaking announcements today (April 18, 2026) on annual 2026 inflation, which remains unconfirmed beyond partial monthly figures (",
-      "direction": "YES",
+      "headline": "Context of the reversal:**",
+      "raw": "Context of the reversal:**\n\nOn Friday, April 17, Iran's Foreign Minister Abbas Araghchi announced the strait would be fully reopened to commercial vessels as a confidence-building measure tied to the ceasefire.[6] However, President Trump immediately stated the U.S. blockade would remain \"in full force\" until Iran reaches a comprehensive deal including nuclear concessions.[1] Iran's parliamentary ",
+      "direction": null,
       "confidence": 0.9,
       "matched_markets": [
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+        "Will Donald Trump post 100-119 Truth Social posts from April 21 to April 28, 202",
+        "US x Iran permanent peace deal by April 22, 2026?"
       ],
-      "action": "ENTER",
+      "action": "ALERT",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_1776520490401_0",
-      "timestamp": "2026-04-18T13:54:50.401836+00:00",
+      "id": "sig_1776520946716_2",
+      "timestamp": "2026-04-18T14:02:26.716213+00:00",
       "source": "PERPLEXITY",
-      "headline": "US Nears $20B Deal with Iran to Surrender Uranium Stockpile | YES | HIGH confidence**",
-      "raw": "US Nears $20B Deal with Iran to Surrender Uranium Stockpile | YES | HIGH confidence**  \nReports on April 17, 2026, confirm the U.S. is close to a $20 billion agreement for Iran to relinquish its uranium stockpile, with weekend talks anticipated, sparking a broad crypto rally.[4]  \nThis de-escalation lowered oil prices and boosted risk assets, driving Bitcoin to $76,370 and Ethereum near $2,400, am",
+      "headline": "Market implications:**",
+      "raw": "Market implications:**\n\nOil prices fell 9% and U.S. stocks surged when the strait briefly opened Friday, as markets assessed the potential resumption of petroleum exports\u2014nearly 20% of global daily oil supply flows through the strait.[1] The renewed closure likely reverses these gains and reintroduces supply-chain uncertainty.",
+      "direction": null,
+      "confidence": 0.78,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_1776520946695_0",
+      "timestamp": "2026-04-18T14:02:26.695114+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Iran Closes Strait of Hormuz Again After Brief Reopening | NO | HIGH confidence**",
+      "raw": "Iran Closes Strait of Hormuz Again After Brief Reopening | NO | HIGH confidence**\n\nIran has reversed its decision to reopen the Strait of Hormuz, closing the critical waterway again on Saturday in response to the continued U.S. blockade on Iranian ports and ships.[1][9] The Iranian military stated the strait \"returned to its previous state.\"[9]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_1776520952516_0",
+      "timestamp": "2026-04-18T14:02:32.516580+00:00",
+      "source": "PERPLEXITY",
+      "headline": "NO BREAKING TRUMP PRESIDENTIAL NEWS ON TRUTH SOCIAL OR ELSEWHERE RIGHT NOW THAT MOVES PREDICTION MARKETS | NO | N/A**",
+      "raw": "NO BREAKING TRUMP PRESIDENTIAL NEWS ON TRUTH SOCIAL OR ELSEWHERE RIGHT NOW THAT MOVES PREDICTION MARKETS | NO | N/A**\n\nAs of April 18, 2026, 2 PM UTC, there are no confirmed announcements, resolutions, or new posts from Donald Trump on Truth Social (or major outlets like AP, Reuters, Fox, CNN) tied to presidential matters\u2014such as 2028 campaign moves, legal resolutions, or policy shifts\u2014that would ",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Donald Trump post 100-119 Truth Social posts from April 21 to April 28, 202"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_1776520958250_0",
+      "timestamp": "2026-04-18T14:02:38.250757+00:00",
+      "source": "PERPLEXITY",
+      "headline": "US Nearing $20B Deal with Iran to Surrender Uranium Stockpile | YES | HIGH confidence**",
+      "raw": "US Nearing $20B Deal with Iran to Surrender Uranium Stockpile | YES | HIGH confidence**  \nReports on April 17, 2026, confirm the U.S. is close to a $20 billion agreement for Iran to relinquish its uranium, with weekend talks planned, driving a broad crypto rally including Ethereum to ~$2,400.[3]  \nThis de-escalation lowered oil prices and boosted risk assets, with Bitcoin hitting $76,370 and Ether",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
@@ -37,62 +79,40 @@
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776520504624_0",
-      "timestamp": "2026-04-18T13:55:04.624927+00:00",
+      "id": "sig_1776520958256_1",
+      "timestamp": "2026-04-18T14:02:38.256953+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot provide the real-time breaking news, whale bets, or current trader sentiment you're requesting based on the sea",
-      "raw": "I cannot provide the real-time breaking news, whale bets, or current trader sentiment you're requesting based on the search results provided. The search results contain only general information about how Polymarket operates as a prediction market platform, not current live market activity or trader discussions.\n\nTo get the information you're looking for, you would need to:",
-      "direction": null,
+      "headline": "Pectra Upgrade Enters Final Testing Phase | YES | MED confidence**",
+      "raw": "Pectra Upgrade Enters Final Testing Phase | YES | MED confidence**  \nAs of April 17-18, 2026, Ethereum's Pectra (Prague-Electra) upgrade is in final tests, enhancing wallet abstraction and validator efficiency amid record Spot ETH ETF inflows and L2 TVL highs, fueling institutional demand and price tests near resistance.[4]",
+      "direction": "YES",
       "confidence": 0.65,
-      "matched_markets": [],
+      "matched_markets": [
+        "Ethereum Up or Down - April 18, 8:45PM-8:50PM ET",
+        "Ethereum Up or Down - April 18, 10:15PM-10:20PM ET",
+        "Ethereum Up or Down - April 18, 10:35PM-10:40PM ET"
+      ],
       "action": "ALERT",
       "x_link": null,
-      "category": "COMMUNITY"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_1776520504633_1",
-      "timestamp": "2026-04-18T13:55:04.633304+00:00",
+      "id": "sig_1776520946728_3",
+      "timestamp": "2026-04-18T14:02:26.728981+00:00",
       "source": "PERPLEXITY",
-      "headline": "**Visit Polymarket directly** to see live market prices, trading volumes, and which markets are currently experiencing t",
-      "raw": "**Visit Polymarket directly** to see live market prices, trading volumes, and which markets are currently experiencing the most activity[1][2][5]",
+      "headline": "Diplomatic status:**",
+      "raw": "Diplomatic status:**\n\nTrump signaled potential direct talks could occur this weekend and hinted he may not extend the ceasefire deadline beyond Wednesday if a deal isn't reached.[7] A separate 10-day Israel-Lebanon ceasefire began Friday and remains in place.[1]",
       "direction": null,
-      "confidence": 0.65,
+      "confidence": 0.6,
       "matched_markets": [],
-      "action": "ALERT",
+      "action": "WATCH",
       "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776520504642_2",
-      "timestamp": "2026-04-18T13:55:04.642755+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Check social media platforms** where traders discuss prediction markets, such as Twitter/X or crypto-focused forums",
-      "raw": "**Check social media platforms** where traders discuss prediction markets, such as Twitter/X or crypto-focused forums",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776520504654_3",
-      "timestamp": "2026-04-18T13:55:04.654515+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Monitor financial news outlets** for breaking announcements that typically move prediction markets",
-      "raw": "**Monitor financial news outlets** for breaking announcements that typically move prediction markets\n\nThe search results show that Polymarket hosts thousands of active markets across various categories including tech, politics, and finance[1], but they don't capture real-time trader commentary, recent whale movements, or markets identified as mispriced by the trading community. This type of granul",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
+      "category": "GEOPOLITICS"
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 5,
-    "watch": 0,
+    "enter": 0,
+    "alert": 6,
+    "watch": 1,
     "high_conf": 1
   }
 }
