@@ -1,113 +1,64 @@
 {
-  "last_scan": "2026-04-18T14:11:20.568731+00:00",
-  "scan_seconds": 29.0,
+  "last_scan": "2026-04-18T14:14:15.874838+00:00",
+  "scan_seconds": 32.3,
   "markets_scanned": 52,
   "open_positions": 1,
   "signals": [
     {
-      "id": "sig_1776521479566_0",
-      "timestamp": "2026-04-18T14:11:19.566679+00:00",
+      "id": "sig_1776521639926_0",
+      "timestamp": "2026-04-18T14:13:59.926778+00:00",
       "source": "PERPLEXITY",
-      "headline": "South Korea's annual inflation rose to 2",
-      "raw": "South Korea's annual inflation rose to 2.2% in March 2026, up from 2.0% in prior months but below 2.4% forecasts | NO | HIGH confidence**[1]\n\nThis March figure, the most recent reported from Statistics Korea, signals contained price pressures amid Middle East-driven energy volatility, aligning with the Bank of Korea's 2.2% yearly outlook after holding rates at 2.5% for a sixth meeting last week[1]",
-      "direction": "YES",
+      "headline": "Democratic Wins by Indian-Origin Muslim Candidates Deliver First Major Setback to Trump Republicans** | **NO** | **HIGH*",
+      "raw": "Democratic Wins by Indian-Origin Muslim Candidates Deliver First Major Setback to Trump Republicans** | **NO** | **HIGH** confidence[1]\n\nGhazala Hashmi defeated Republican John Reid to become Virginia's first Indian-American and Muslim Lieutenant Governor; Aftab Pureval (Cincinnati Mayor) secured re-election over Cory Bowman, half-brother of VP JD Vance[1]. These off-year victories by Democrats\u2014am",
+      "direction": "NO",
       "confidence": 0.9,
       "matched_markets": [
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+        "Will the Indian Union Muslim League (IUML) win between 10 and 12 seats in the 20",
+        "Will Sarah Huckabee Sanders be the 2028 Republican Vice-Presidential nominee?",
+        "Will Mike Pence be the 2028 Republican Vice-Presidential nominee?"
       ],
       "action": "ENTER",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "POLITICS"
     },
     {
-      "id": "sig_1776521462199_2",
-      "timestamp": "2026-04-18T14:11:02.199766+00:00",
+      "id": "sig_1776521647196_0",
+      "timestamp": "2026-04-18T14:14:07.196232+00:00",
       "source": "PERPLEXITY",
-      "headline": "Israel-Hezbollah ceasefire confirmed by April 18**[5] | YES | HIGH confidence",
-      "raw": "Israel-Hezbollah ceasefire confirmed by April 18**[5] | YES | HIGH confidence\nPrediction markets show 100% probability assigned to an Israel-Hezbollah ceasefire by April 18, 2026, indicating this has been resolved[5].",
+      "headline": "ETH Price Rally to $6K Amid Pectra Upgrade Final Testing & Record ETF Inflows | YES | HIGH confidence** [3]",
+      "raw": "ETH Price Rally to $6K Amid Pectra Upgrade Final Testing & Record ETF Inflows | YES | HIGH confidence** [3]\n\nEthereum's price has surged to $6K as of April 18, 2026, driven by the **Pectra (Prague-Electra) Upgrade** entering its final testing phase, boosting wallet abstraction and validator efficiency.[3] Spot Ethereum ETF inflows hit all-time highs, with Layer 2 TVL (e.g., Base, Arbitrum) surpass",
       "direction": "YES",
       "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
+      "matched_markets": [
+        "Ethereum Up or Down - April 18, 8:45PM-8:50PM ET",
+        "Ethereum Up or Down - April 18, 10:15PM-10:20PM ET",
+        "Ethereum Up or Down - April 18, 10:35PM-10:40PM ET"
+      ],
+      "action": "ENTER",
       "x_link": null,
-      "category": "GEOPOLITICS"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_1776521462192_0",
-      "timestamp": "2026-04-18T14:11:02.192251+00:00",
+      "id": "sig_1776521633277_0",
+      "timestamp": "2026-04-18T14:13:53.277091+00:00",
       "source": "PERPLEXITY",
-      "headline": "Based on the search results from mid-April 2026, here are the key developments:",
-      "raw": "Based on the search results from mid-April 2026, here are the key developments:",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_1776521462196_1",
-      "timestamp": "2026-04-18T14:11:02.196041+00:00",
-      "source": "PERPLEXITY",
-      "headline": "US and Iran discussing second round of negotiations before ceasefire expires**[1][3] | YES | HIGH confidence",
-      "raw": "US and Iran discussing second round of negotiations before ceasefire expires**[1][3] | YES | HIGH confidence\nA ceasefire between the US and Iran is set to expire within days, and sources indicate both sides are arranging face-to-face discussions to extend talks[1][3]. This directly contrasts with earlier tensions that included a Trump naval blockade of the Strait of Hormuz[1].",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_1776521462208_3",
-      "timestamp": "2026-04-18T14:11:02.208934+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Key sticking points in Iran nuclear negotiations**[1] | IDENTIFIED | HIGH confidence",
-      "raw": "Key sticking points in Iran nuclear negotiations**[1] | IDENTIFIED | HIGH confidence\nThe central disputes remain Iran's nuclear program enrichment capabilities, with the US demanding Iran cannot possess nuclear weapons and must surrender enriched uranium stocks, while Iran claims these are for energy purposes[1].",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_1776521462216_4",
-      "timestamp": "2026-04-18T14:11:02.216781+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Market impact: S&P 500 wipes out 2026 losses on peace prospects**[1] | YES | HIGH confidence",
-      "raw": "Market impact: S&P 500 wipes out 2026 losses on peace prospects**[1] | YES | HIGH confidence\nStock markets have rallied significantly on hopes of Iran deal resolution, with the S&P 500 recovering all 2026 losses as of mid-April[1]. Oil prices have also declined on these de-escalation hopes[1].\n\nThe prediction market activity shows traders are pricing in a higher probability of diplomatic resolutio",
+      "headline": "US and Iran in discussions for second round of face-to-face negotiations before ceasefire expires next week | YES | HIGH",
+      "raw": "US and Iran in discussions for second round of face-to-face negotiations before ceasefire expires next week | YES | HIGH confidence** [1][3]\n\nSources confirm Bloomberg reporting that Washington and Tehran are arranging further talks on Iran's nuclear program and enriched uranium stocks, amid cooled tensions post-naval blockade, lifting stocks and oil prices on peace prospects [1][3]. Trump stated ",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
+        "Will Donald Trump post 100-119 Truth Social posts from April 21 to April 28, 202",
         "US x Iran permanent peace deal by April 22, 2026?"
       ],
       "action": "ALERT",
       "x_link": null,
       "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_1776521466970_0",
-      "timestamp": "2026-04-18T14:11:06.970511+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Trump Endorses Sarah Huckabee Sanders for Re-Election as Arkansas Governor** | YES | HIGH confidence[1]",
-      "raw": "Trump Endorses Sarah Huckabee Sanders for Re-Election as Arkansas Governor** | YES | HIGH confidence[1]\n\nPresident Donald Trump issued Truth Social posts on Sunday endorsing Arkansas Gov. Sarah Huckabee Sanders for re-election in the 2026 midterms, stating \"Sarah Huckabee Sanders has my Complete and Total Endorsement for Re-Election \u2014 SHE WILL NOT LET YOU DOWN!\"[1]. Sanders responded gratefully on",
-      "direction": "YES",
-      "confidence": 0.6,
-      "matched_markets": [
-        "Will Donald Trump post 100-119 Truth Social posts from April 21 to April 28, 202",
-        "Will the Indian Union Muslim League (IUML) win between 10 and 12 seats in the 20",
-        "Will Sarah Huckabee Sanders be the 2028 Republican Vice-Presidential nominee?"
-      ],
-      "action": "WATCH",
-      "x_link": null,
-      "category": "POLITICS"
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 5,
-    "watch": 1,
+    "enter": 2,
+    "alert": 1,
+    "watch": 0,
     "high_conf": 2
   }
 }
