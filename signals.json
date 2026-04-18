@@ -1,46 +1,91 @@
 {
-  "last_scan": "2026-04-18T14:55:28.530408+00:00",
-  "scan_seconds": 26.8,
+  "last_scan": "2026-04-18T14:58:14.368379+00:00",
+  "scan_seconds": 24.7,
   "markets_scanned": 43,
   "open_positions": 1,
   "signals": [
     {
-      "id": "sig_1776524127528_2",
-      "timestamp": "2026-04-18T14:55:27.528938+00:00",
+      "id": "sig_1776524277238_0",
+      "timestamp": "2026-04-18T14:57:57.238470+00:00",
       "source": "PERPLEXITY",
-      "headline": "Details:** Statistics Korea confirmed the data today, showing headline CPI at 2",
-      "raw": "Details:** Statistics Korea confirmed the data today, showing headline CPI at 2.2% YoY and 0.3% MoM (vs 0.6% expected), with core CPI at 2.2% YoY (down slightly from Feb).[1][3] Oil/transport prices rose sharply (+5% YoY), offset by falling food (+0.5% YoY) and policy interventions; Bank of Korea likely holds rates at 2.5% in April.[1][2] This softer-than-expected print amid energy shocks could sh",
-      "direction": "NO",
+      "headline": "US and Iran in talks for face-to-face negotiations before ceasefire expires; Trump claims Iran agreed to no nuclear weap",
+      "raw": "US and Iran in talks for face-to-face negotiations before ceasefire expires; Trump claims Iran agreed to no nuclear weapon and return enriched uranium.** | YES | HIGH confidence[2][3]\n\nMarkets are repricing lower risks with stocks surging (S&P 500 wiping 2026 losses), oil dropping on deal hopes, and Polymarket showing 73% odds for US-Iran permanent peace by June 30 (up from prior levels) plus 67% ",
+      "direction": "YES",
       "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
+      "matched_markets": [
+        "US x Iran permanent peace deal by April 22, 2026?"
+      ],
+      "action": "ENTER",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_1776524121065_0",
-      "timestamp": "2026-04-18T14:55:21.065788+00:00",
+      "id": "sig_1776524288410_0",
+      "timestamp": "2026-04-18T14:58:08.410744+00:00",
       "source": "PERPLEXITY",
-      "headline": "ETH Price Rally on Pectra Upgrade Final Testing & ETF Inflows | YES | HIGH confidence**",
-      "raw": "ETH Price Rally on Pectra Upgrade Final Testing & ETF Inflows | YES | HIGH confidence**  \nEthereum is surging as of April 18, 2026, driven by the **Pectra (Prague-Electra) Upgrade** entering its final testing phase, boosting wallet abstraction and validator efficiency, alongside record Spot Ethereum ETF inflows and Layer 2 TVL milestones like Base and Arbitrum.[3]  \nETH price rose to ~$2,376 on Ap",
+      "headline": "ETH Price Rally to ~$6K Amid Pectra Upgrade Final Testing & Record ETF Inflows | YES | HIGH confidence** [3]",
+      "raw": "ETH Price Rally to ~$6K Amid Pectra Upgrade Final Testing & Record ETF Inflows | YES | HIGH confidence** [3]\n\nEthereum is experiencing a significant price surge as of April 18, 2026, hitting $6K due to confirmed final testing of the **Pectra (Prague-Electra) Upgrade**, which advances wallet abstraction and validator efficiency, alongside all-time high Spot Ethereum ETF inflows and surging Layer 2 ",
       "direction": "YES",
-      "confidence": 0.78,
+      "confidence": 0.9,
       "matched_markets": [
         "Ethereum Up or Down - April 18, 8:45PM-8:50PM ET",
         "Ethereum Up or Down - April 18, 10:15PM-10:20PM ET",
         "Ethereum Up or Down - April 18, 10:35PM-10:40PM ET"
       ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776524127522_0",
-      "timestamp": "2026-04-18T14:55:27.522695+00:00",
+      "id": "sig_1776524282516_0",
+      "timestamp": "2026-04-18T14:58:02.516267+00:00",
       "source": "PERPLEXITY",
-      "headline": "South Korea's March 2026 CPI inflation rose to 2",
-      "raw": "South Korea's March 2026 CPI inflation rose to 2.2% YoY (from 2.0% in Feb), below 2.3% consensus, driven by oil but curbed by government measures like fuel caps.**[1][3]",
+      "headline": "I cannot provide breaking news matching your query based on the search results provided",
+      "raw": "I cannot provide breaking news matching your query based on the search results provided. The search results contain only historical information from 2022-2024 and do not include any current announcements or confirmations from April 2026.\n\nThe available information shows:",
       "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_1776524282519_1",
+      "timestamp": "2026-04-18T14:58:02.519507+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Mike Pence**: He ran for the 2024 presidential nomination but dropped out months before the Iowa caucuses due to low s",
+      "raw": "**Mike Pence**: He ran for the 2024 presidential nomination but dropped out months before the Iowa caucuses due to low support among Trump voters[3].",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Mike Pence be the 2028 Republican Vice-Presidential nominee?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_1776524282522_2",
+      "timestamp": "2026-04-18T14:58:02.522835+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Sarah Huckabee Sanders**: She was elected Arkansas governor in 2022 and has served in that role, with no indication of",
+      "raw": "**Sarah Huckabee Sanders**: She was elected Arkansas governor in 2022 and has served in that role, with no indication of presidential aspirations in the search results[1][3].\n\nTo answer your question about current market-moving announcements, I would need search results with today's date or recent developments. The search results provided do not contain any breaking news from April 2026.",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Sarah Huckabee Sanders be the 2028 Republican Vice-Presidential nominee?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_1776524293366_0",
+      "timestamp": "2026-04-18T14:58:13.366874+00:00",
+      "source": "PERPLEXITY",
+      "headline": "South Korea March 2026 Annual Inflation at 2",
+      "raw": "South Korea March 2026 Annual Inflation at 2.2% YoY, Below Forecasts Due to Fuel Caps Despite Oil Surge | NO | HIGH confidence**[1][2][3]\n\nSouth Korea's consumer price index rose to **2.2% year-on-year** in March 2026 from 2.0% in February, missing market consensus of 2.3-2.4% as government fuel price caps and food vouchers limited the pass-through from global oil prices exceeding $100/barrel amid",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
         "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
@@ -48,40 +93,12 @@
       "action": "ALERT",
       "x_link": null,
       "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776524127525_1",
-      "timestamp": "2026-04-18T14:55:27.525677+00:00",
-      "source": "PERPLEXITY",
-      "headline": "YES** | **MED** confidence",
-      "raw": "YES** | **MED** confidence",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776524110626_0",
-      "timestamp": "2026-04-18T14:55:10.626448+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Iran re-closes Strait of Hormuz in response to ongoing US blockade | YES | HIGH confidence** [1][4][5][6]",
-      "raw": "Iran re-closes Strait of Hormuz in response to ongoing US blockade | YES | HIGH confidence** [1][4][5][6]\n\nIran announced the re-closure of the Strait of Hormuz early Saturday, April 18, 2026, reversing Friday's reopening to commercial vessels, due to President Trump's insistence on maintaining the US blockade of Iranian ships and ports until a nuclear deal is reached.[1][5][6] Iranian officials, ",
-      "direction": "YES",
-      "confidence": 0.6,
-      "matched_markets": [
-        "US x Iran permanent peace deal by April 22, 2026?"
-      ],
-      "action": "WATCH",
-      "x_link": null,
-      "category": "GEOPOLITICS"
     }
   ],
   "stats": {
-    "enter": 0,
+    "enter": 2,
     "alert": 4,
-    "watch": 1,
-    "high_conf": 1
+    "watch": 0,
+    "high_conf": 2
   }
 }
