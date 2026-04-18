@@ -1,113 +1,78 @@
 {
-  "last_scan": "2026-04-18T16:23:00.268762+00:00",
-  "scan_seconds": 28.4,
-  "markets_scanned": 38,
+  "last_scan": "2026-04-18T16:25:53.453731+00:00",
+  "scan_seconds": 28.6,
+  "markets_scanned": 42,
   "open_positions": 1,
   "signals": [
     {
-      "id": "sig_1776529360659_0",
-      "timestamp": "2026-04-18T16:22:40.659553+00:00",
+      "id": "sig_1776529546207_0",
+      "timestamp": "2026-04-18T16:25:46.207015+00:00",
       "source": "PERPLEXITY",
-      "headline": "Strait of Hormuz Declared Open by Iran and Trump Amid Ceasefire; Deal \"Very Close\" but Not Finalized | NO | HIGH confide",
-      "raw": "Strait of Hormuz Declared Open by Iran and Trump Amid Ceasefire; Deal \"Very Close\" but Not Finalized | NO | HIGH confidence**  \nIran's foreign minister announced on April 17, 2026, that passage through the **Strait of Hormuz** is \"completely open\" for commercial vessels during the remaining ceasefire period, confirmed by **President Trump** who stated Iran agreed to \"virtually everything\" the U.S.",
-      "direction": "NO",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will Trump say \"The War Is Over\" this week? (April 20 - 26)"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_1776529360662_1",
-      "timestamp": "2026-04-18T16:22:40.662652+00:00",
-      "source": "PERPLEXITY",
-      "headline": "No evidence confirms \"the war is over\"**; developments signal progress but sustain prediction market uncertainty on full",
-      "raw": "No evidence confirms \"the war is over\"**; developments signal progress but sustain prediction market uncertainty on full resolution (e.g., ceasefire extension or deal markets likely hold or dip slightly on open Strait news)[1][2][3][6].",
-      "direction": "NO",
-      "confidence": 0.78,
-      "matched_markets": [
-        "Will Trump say \"The War Is Over\" this week? (April 20 - 26)"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_1776529371920_0",
-      "timestamp": "2026-04-18T16:22:51.920032+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Ethereum (ETH) Hits $6K Milestone Amid Pectra Upgrade Final Testing Phase and Record ETF Inflows | YES | HIGH confidence",
-      "raw": "Ethereum (ETH) Hits $6K Milestone Amid Pectra Upgrade Final Testing Phase and Record ETF Inflows | YES | HIGH confidence**[3]\n\nEthereum's price has surged dramatically, reaching $6K as of April 18, 2026, driven by the **Pectra (Prague-Electra) Upgrade** entering its final testing phase, which promises wallet abstraction and validator efficiency improvements[3]. This coincides with **spot Ethereum ",
+      "headline": "US-Iran Deal Nearing Confirmation on Uranium Surrender, Fueling Crypto Rally with ETH Up to $2,400 | YES | HIGH confiden",
+      "raw": "US-Iran Deal Nearing Confirmation on Uranium Surrender, Fueling Crypto Rally with ETH Up to $2,400 | YES | HIGH confidence** [3]\n\nEthereum price has risen amid reports of a US-Iran deal for Iran to surrender its uranium stockpile, valued at $20 billion, with talks ongoing this weekend (April 17, 2026), driving Bitcoin to $76,370 and ETH near $2,400 as risk assets rally on de-escalation.[3] This ge",
       "direction": "YES",
-      "confidence": 0.78,
+      "confidence": 0.9,
       "matched_markets": [
         "Will Trump say \"The War Is Over\" this week? (April 20 - 26)",
         "Ethereum Up or Down - April 18, 10:15PM-10:20PM ET",
         "Ethereum Up or Down - April 18, 10:35PM-10:40PM ET"
       ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776529379258_0",
-      "timestamp": "2026-04-18T16:22:59.258254+00:00",
+      "id": "sig_1776529552451_0",
+      "timestamp": "2026-04-18T16:25:52.451554+00:00",
       "source": "PERPLEXITY",
-      "headline": "**March 2026 CPI at 2",
-      "raw": "**March 2026 CPI at 2.2% YoY**: Released earlier in April, up from 2.0% but below 2.4% forecasts; driven by oil but contained by government measures like fuel caps.[2][3][4]",
+      "headline": "South Korea's annual inflation rose to 2",
+      "raw": "South Korea's annual inflation rose to 2.2% in March 2026 | NO | HIGH confidence**\n\nSouth Korea's inflation rate increased to 2.2% year-on-year in March 2026 from 2.0% in the prior two months, missing market forecasts of 2.4% but signaling a shift amid Middle East tensions driving energy prices higher[2][1]. The Bank of Korea recently raised its 2026 inflation outlook to 2.2% from 2.1% while holdi",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776529540882_0",
+      "timestamp": "2026-04-18T16:25:40.882715+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Mike Pence Will Not Endorse Trump or Vote for Biden in 2024 Election** | **YES** | **HIGH** confidence[1]",
+      "raw": "Mike Pence Will Not Endorse Trump or Vote for Biden in 2024 Election** | **YES** | **HIGH** confidence[1]\n\nFormer Vice President **Mike Pence**, a Republican, announced on Friday to Fox News that he will not endorse Donald Trump for the 2024 presidential race, citing Trump's shift away from commitments on the sanctity of human life and deviation from the conservative agenda of their administration",
       "direction": "YES",
       "confidence": 0.65,
-      "matched_markets": [],
+      "matched_markets": [
+        "Will the Indian Union Muslim League (IUML) win between 10 and 12 seats in the 20",
+        "Will Sarah Huckabee Sanders be the 2028 Republican Vice-Presidential nominee?",
+        "Will Mike Pence be the 2028 Republican Vice-Presidential nominee?"
+      ],
       "action": "ALERT",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "POLITICS"
     },
     {
-      "id": "sig_1776529379261_1",
-      "timestamp": "2026-04-18T16:22:59.261025+00:00",
+      "id": "sig_1776529535761_0",
+      "timestamp": "2026-04-18T16:25:35.761824+00:00",
       "source": "PERPLEXITY",
-      "headline": "**Bank of Korea (April 11)**: Held rates at 2",
-      "raw": "**Bank of Korea (April 11)**: Held rates at 2.50%, projecting 2.2% CPI for 2026.[2][4]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776529379263_2",
-      "timestamp": "2026-04-18T16:22:59.263796+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Forecast upgrades**: Major IBs to 2",
-      "raw": "**Forecast upgrades**: Major IBs to 2.4% avg (end-March, JP Morgan/Citi at 2.6%, potential >3% May-Sep); IMF to 2.5% (April 14); OECD to 2.7%.[1][2][5][6]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776529379266_3",
-      "timestamp": "2026-04-18T16:22:59.266628+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Polymarket odds (as of latest)**: 3",
-      "raw": "Polymarket odds (as of latest)**: 3.0%+ at 35% (highest), 1.5-1.7% at 38%; no shift from new events post-April 14.[2] These updates are 1-2 weeks old, not \"right now,\" with no fresh announcements today impacting markets (LOW confidence in any immediate movement).[1][2]",
+      "headline": "Strait of Hormuz Declared Open by Trump and Iran Amid Israel-Lebanon Ceasefire | NO | HIGH confidence**",
+      "raw": "Strait of Hormuz Declared Open by Trump and Iran Amid Israel-Lebanon Ceasefire | NO | HIGH confidence**  \nPresident Trump and Iran announced on April 17, 2026, that the Strait of Hormuz is now fully open following an Israel-Lebanon ceasefire, easing a key naval blockade despite ongoing questions about traffic flow and no confirmed date for broader negotiations.[5]  \nThis partial de-escalation in I",
       "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
+      "confidence": 0.6,
+      "matched_markets": [
+        "Will Trump say \"The War Is Over\" this week? (April 20 - 26)"
+      ],
+      "action": "WATCH",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "GEOPOLITICS"
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 6,
-    "watch": 0,
-    "high_conf": 1
+    "enter": 2,
+    "alert": 1,
+    "watch": 1,
+    "high_conf": 2
   }
 }
