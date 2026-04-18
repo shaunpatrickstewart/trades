@@ -1,165 +1,55 @@
 {
-  "last_scan": "2026-04-18T16:37:18.815848+00:00",
-  "scan_seconds": 29.8,
+  "last_scan": "2026-04-18T16:40:14.122401+00:00",
+  "scan_seconds": 29.4,
   "markets_scanned": 35,
   "open_positions": 1,
   "signals": [
     {
-      "id": "sig_1776530225934_0",
-      "timestamp": "2026-04-18T16:37:05.934094+00:00",
+      "id": "sig_1776530395629_0",
+      "timestamp": "2026-04-18T16:39:55.629425+00:00",
       "source": "PERPLEXITY",
-      "headline": "Based on the search results provided, I cannot identify breaking news from today (April 18, 2026) that would move predic",
-      "raw": "Based on the search results provided, I cannot identify breaking news from today (April 18, 2026) that would move prediction markets. \n\nThe Kerala Legislative Assembly Election has **already occurred**\u2014it was held on April 9, 2026, with results declared on May 3, 2026[1]. The search results contain candidate information and pre-election coverage, but no reports of today's developments.\n\nThe most r",
+      "headline": "Israel-Lebanon 10-Day Ceasefire Agreed | YES | HIGH confidence**",
+      "raw": "Israel-Lebanon 10-Day Ceasefire Agreed | YES | HIGH confidence**  \nIsrael and Lebanon have agreed to a 10-day ceasefire, as reported in breaking coverage on April 18, 2026, amid ongoing U.S.-Iran diplomacy.[6]  \nThis development, confirmed by Fox News citing senior correspondent Greg Palkot, involves U.S. pressure on Israel to pause strikes near Beirut while awaiting a framework from Secretary of ",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_1776530395636_1",
+      "timestamp": "2026-04-18T16:39:55.636647+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Iran War Not Over; Trump Signals No Ceasefire Extension | NO | HIGH confidence**",
+      "raw": "Iran War Not Over; Trump Signals No Ceasefire Extension | NO | HIGH confidence**  \nPresident Trump portrays the Iran war as \"basically over\" and a success, claiming Iran agreed to key U.S. demands like stopping proxy funding and nuclear concessions, but no formal deal or end is confirmed\u2014ceasefire may lapse by Wednesday without extension.[1][2][5]  \nReality undercuts Trump's messaging: U.S. naval ",
       "direction": "NO",
-      "confidence": 0.9,
+      "confidence": 0.65,
       "matched_markets": [
-        "Will the Indian Union Muslim League (IUML) win between 10 and 12 seats in the 20"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_1776530232187_3",
-      "timestamp": "2026-04-18T16:37:12.187992+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Confirmed statements from key figures like Vitalik Buterin or SEC Chair Gary Gensler[2]",
-      "raw": "Confirmed statements from key figures like Vitalik Buterin or SEC Chair Gary Gensler[2]",
-      "direction": null,
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776530232190_4",
-      "timestamp": "2026-04-18T16:37:12.190545+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Resolution of the geopolitical situations mentioned as potential market movers[2]",
-      "raw": "Resolution of the geopolitical situations mentioned as potential market movers[2]\n\nThe search results do not contain information about what has been \"just confirmed, announced, or resolved\" today that would drive prediction market movements.",
-      "direction": null,
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776530237811_0",
-      "timestamp": "2026-04-18T16:37:17.811220+00:00",
-      "source": "PERPLEXITY",
-      "headline": "South Korea's annual inflation rate rose to 2",
-      "raw": "South Korea's annual inflation rate rose to 2.2% in March 2026 (from 2.0% in February), confirmed by Statistics Korea data.**[2][4]",
-      "direction": null,
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+        "Will Trump say \"The War Is Over\" this week? (April 20 - 26)"
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_1776530225940_1",
-      "timestamp": "2026-04-18T16:37:05.940331+00:00",
+      "id": "sig_1776530407700_0",
+      "timestamp": "2026-04-18T16:40:07.700218+00:00",
       "source": "PERPLEXITY",
-      "headline": "IUML's candidate strategy and youth-focused positioning ahead of the election[3]",
-      "raw": "IUML's candidate strategy and youth-focused positioning ahead of the election[3]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_1776530225946_2",
-      "timestamp": "2026-04-18T16:37:05.946426+00:00",
-      "source": "PERPLEXITY",
-      "headline": "A controversy over communal campaigning against IUML woman candidate Fathima Thahliya[4]",
-      "raw": "A controversy over communal campaigning against IUML woman candidate Fathima Thahliya[4]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_1776530225949_3",
-      "timestamp": "2026-04-18T16:37:05.949162+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Internal criticism from IUML's women's wing regarding candidate selection[4]",
-      "raw": "Internal criticism from IUML's women's wing regarding candidate selection[4]\n\nHowever, none of these constitute breaking news from today that would influence prediction markets, as they preceded the April 9 election date. To provide accurate breaking news analysis, I would need search results with today's timestamp or very recent developments post-election.",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_1776530232179_0",
-      "timestamp": "2026-04-18T16:37:12.179902+00:00",
-      "source": "PERPLEXITY",
-      "headline": "I cannot provide breaking news in the format you've requested based on these search results",
-      "raw": "I cannot provide breaking news in the format you've requested based on these search results. The available data is from April 15-17, 2026, and does not contain information about events occurring on April 18 that would move prediction markets.\n\nThe search results show that Ethereum was trading around **$2,358 on April 17**[1] with a 14% weekly surge[2], and there was discussion of geopolitical tens",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Trump say \"The War Is Over\" this week? (April 20 - 26)",
-        "Ethereum Up or Down - April 18, 10:15PM-10:20PM ET",
-        "Ethereum Up or Down - April 18, 10:35PM-10:40PM ET"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776530232182_1",
-      "timestamp": "2026-04-18T16:37:12.182579+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Real-time market data from April 18, 2026",
-      "raw": "Real-time market data from April 18, 2026",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776530232185_2",
-      "timestamp": "2026-04-18T16:37:12.185209+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Recent official announcements from regulatory bodies, major exchanges, or protocol developers",
-      "raw": "Recent official announcements from regulatory bodies, major exchanges, or protocol developers",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776530237813_1",
-      "timestamp": "2026-04-18T16:37:17.813976+00:00",
-      "source": "PERPLEXITY",
-      "headline": "YES** | **MED** confidence",
-      "raw": "YES** | **MED** confidence  \n\nThis marks a slight acceleration\u2014up from 2.0% in January and February 2026, though below market forecasts of 2.4%\u2014potentially moving prediction markets on BoK rate cuts or KRW stability amid noted upside risks from oil prices and currency weakness.[1][2] No newer April 2026 data (as of 4 PM UTC) confirms further changes; February held steady at 2.0% YoY despite holida",
+      "headline": "YES or NO: NO | Confidence: HIGH** (based on absence of time-stamped breaking confirmations in results)",
+      "raw": "YES or NO: NO | Confidence: HIGH** (based on absence of time-stamped breaking confirmations in results).[1][2][3][4]",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "CRYPTO"
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 10,
+    "enter": 0,
+    "alert": 3,
     "watch": 0,
-    "high_conf": 4
+    "high_conf": 1
   }
 }
