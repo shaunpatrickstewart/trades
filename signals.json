@@ -1,130 +1,88 @@
 {
-  "last_scan": "2026-04-18T03:56:55.107527+00:00",
-  "scan_seconds": 24.5,
-  "markets_scanned": 48,
+  "last_scan": "2026-04-18T03:59:41.572357+00:00",
+  "scan_seconds": 26.1,
+  "markets_scanned": 47,
   "open_positions": 0,
   "signals": [
     {
-      "id": "sig_1776484597682_0",
-      "timestamp": "2026-04-18T03:56:37.682417+00:00",
+      "id": "sig_1776484780570_0",
+      "timestamp": "2026-04-18T03:59:40.570796+00:00",
       "source": "PERPLEXITY",
-      "headline": "HEADLINE** | **YES or NO** | **HIGH/MED/LOW confidence**",
-      "raw": "HEADLINE** | **YES or NO** | **HIGH/MED/LOW confidence**  \nUS-Iran Pakistan talks collapse; Kushner team stays on despite criticism | **NO** | **HIGH**",
+      "headline": "South Korea March 2026 Annual Inflation at 2",
+      "raw": "South Korea March 2026 Annual Inflation at 2.2% YoY, Below Consensus Forecasts | NO | HIGH confidence**\n\nSouth Korea's annual consumer price inflation rose to 2.2% in March 2026 from 2.0% in February, driven by higher oil prices amid Middle East tensions, but undershot market expectations of 2.3-2.4% due to government fuel price caps and food vouchers that contained the rise.[1][2][3] Monthly CPI ",
+      "direction": "YES",
+      "confidence": 0.78,
+      "matched_markets": [
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776484769820_0",
+      "timestamp": "2026-04-18T03:59:29.820181+00:00",
+      "source": "PERPLEXITY",
+      "headline": "I cannot provide a headline with a YES/NO answer for this query because the search results do not contain relevant infor",
+      "raw": "I cannot provide a headline with a YES/NO answer for this query because the search results do not contain relevant information about the Indian Union Muslim League, Republicans, Trump, or House announcements from April 2026 that would move prediction markets.\n\nThe search results primarily cover a U.S.-Israel-Iran military conflict from March 2026, which does not address your specific query about t",
       "direction": "YES",
       "confidence": 0.65,
-      "matched_markets": [],
+      "matched_markets": [
+        "Will Jared Kushner have a diplomatic meeting with Iran by April 30?",
+        "Will Trump\u2019s approval rating be between 39.0 and 39.4 on April 24, 2026?",
+        "Will the Indian Union Muslim League (IUML) win between 10 and 12 seats in the 20"
+      ],
       "action": "ALERT",
       "x_link": null,
-      "category": "GEOPOLITICS"
+      "category": "POLITICS"
     },
     {
-      "id": "sig_1776484614083_0",
-      "timestamp": "2026-04-18T03:56:54.083358+00:00",
+      "id": "sig_1776484769823_1",
+      "timestamp": "2026-04-18T03:59:29.823668+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot provide breaking news or market-moving announcements based on these search results",
-      "raw": "I cannot provide breaking news or market-moving announcements based on these search results. The most recent data available is from **February 2026**, which is over two months old relative to the current date of April 18, 2026.\n\nThe search results show:",
+      "headline": "Recent Indian Union Muslim League activities or statements",
+      "raw": "Recent Indian Union Muslim League activities or statements",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the Indian Union Muslim League (IUML) win between 10 and 12 seats in the 20"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_1776484769827_2",
+      "timestamp": "2026-04-18T03:59:29.827012+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Current House Republican actions or announcements from April 2026",
+      "raw": "Current House Republican actions or announcements from April 2026",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the Republican Party win the NV-02 House seat?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_1776484769830_3",
+      "timestamp": "2026-04-18T03:59:29.830325+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Trump administration developments relevant to these topics",
+      "raw": "Trump administration developments relevant to these topics\n\nWithout relevant sources, I cannot responsibly format a breaking news headline with confidence levels as requested.",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776484614086_1",
-      "timestamp": "2026-04-18T03:56:54.086681+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**February 2026 CPI**: Headline inflation remained at 2",
-      "raw": "**February 2026 CPI**: Headline inflation remained at 2.0% year-on-year, with core inflation at 2.3%[1]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776484614089_2",
-      "timestamp": "2026-04-18T03:56:54.089946+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**2026 CPI forecast**: Updated to 2",
-      "raw": "**2026 CPI forecast**: Updated to 2.2% from 2.0%[1]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776484614093_3",
-      "timestamp": "2026-04-18T03:56:54.093301+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Bank of Korea policy rate**: Expected to remain at 2",
-      "raw": "**Bank of Korea policy rate**: Expected to remain at 2.5% throughout 2026[1]\n\nHowever, these are historical data points and forecasts, not breaking news or recent announcements. To identify current market-moving developments, you would need access to:",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776484614096_4",
-      "timestamp": "2026-04-18T03:56:54.096521+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Official Bank of Korea statements or policy decisions from April 2026",
-      "raw": "Official Bank of Korea statements or policy decisions from April 2026",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776484614099_5",
-      "timestamp": "2026-04-18T03:56:54.099841+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Latest CPI releases (typically monthly)",
-      "raw": "Latest CPI releases (typically monthly)",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776484614103_6",
-      "timestamp": "2026-04-18T03:56:54.103074+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Recent government or central bank announcements",
-      "raw": "Recent government or central bank announcements",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776484614106_7",
-      "timestamp": "2026-04-18T03:56:54.106381+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Current geopolitical developments affecting oil prices and the Korean won",
-      "raw": "Current geopolitical developments affecting oil prices and the Korean won\n\nThe search results do not contain information from April 2026 that would qualify as breaking news or recent market-moving events.",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
+      "category": "POLITICS"
     }
   ],
   "stats": {
     "enter": 0,
-    "alert": 9,
+    "alert": 5,
     "watch": 0,
     "high_conf": 0
   }
