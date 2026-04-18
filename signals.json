@@ -1,61 +1,97 @@
 {
-  "last_scan": "2026-04-18T09:27:24.971979+00:00",
+  "last_scan": "2026-04-18T09:30:10.024152+00:00",
   "scan_seconds": 25.8,
   "markets_scanned": 43,
   "open_positions": 1,
   "signals": [
     {
-      "id": "sig_1776504424922_0",
-      "timestamp": "2026-04-18T09:27:04.922505+00:00",
+      "id": "sig_1776504591511_0",
+      "timestamp": "2026-04-18T09:29:51.511436+00:00",
       "source": "PERPLEXITY",
-      "headline": "Trump Confirms Strait of Hormuz Fully Open and Most Iran Deal Points Negotiated on Truth Social** | YES | HIGH confidenc",
-      "raw": "Trump Confirms Strait of Hormuz Fully Open and Most Iran Deal Points Negotiated on Truth Social** | YES | HIGH confidence[2]  \nUS President Donald Trump (Republican) posted on Truth Social yesterday (April 17, 2026) that the Strait of Hormuz is \"completely open and ready for business,\" with naval blockade on Iran continuing only until the deal is finalized, and \"most points already negotiated\" for",
+      "headline": "House Rejects Iran War Powers Resolution by 1 Vote, Preserving Trump's Authority | NO | HIGH confidence**",
+      "raw": "House Rejects Iran War Powers Resolution by 1 Vote, Preserving Trump's Authority | NO | HIGH confidence**  \nThe Republican-controlled House voted 213-214 against a war powers resolution ordering President Trump to end the Iran war, with only Rep. Thomas Massie (R-KY) defecting from Republicans and one Democrat joining them; this follows a similar Senate rejection.[1][2]  \nTrump claims a deal with ",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
-        "Will Trump\u2019s approval rating be between 39.0 and 39.4 on April 24, 2026?",
-        "Will Donald Trump post 100-119 Truth Social posts from April 21 to April 28, 202"
+        "Will the Republican Party win the NY-21 House seat?"
       ],
       "action": "ENTER",
       "x_link": null,
       "category": "POLITICS"
     },
     {
-      "id": "sig_1776504424926_1",
-      "timestamp": "2026-04-18T09:27:04.926033+00:00",
+      "id": "sig_1776504603082_2",
+      "timestamp": "2026-04-18T09:30:03.082958+00:00",
       "source": "PERPLEXITY",
-      "headline": "MAGA Supporters Turning on Trump over Iran Ceasefire Criticism on Truth Social** | NO | MED confidence[1]",
-      "raw": "MAGA Supporters Turning on Trump over Iran Ceasefire Criticism on Truth Social** | NO | MED confidence[1]  \nAnalysis of 40,000 Truth Social posts shows die-hard MAGA base expressing anger and heartbreak at Trump's Iran strategy post-fragile two-week US-Iran ceasefire (signed ~April 9), with users like one saying \"Mr. President, you are losing me as a supporter,\" per NYT and press reviews[1]. No di",
-      "direction": "NO",
+      "headline": "HEADLINE | YES** (fresh inflation data + BoK decision confirmed) **| MED** confidence (latest from Mar/Apr 2026, no intr",
+      "raw": "HEADLINE | YES** (fresh inflation data + BoK decision confirmed) **| MED** confidence (latest from Mar/Apr 2026, no intra-day breaking news)[1][3]",
+      "direction": "YES",
       "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776504603076_0",
+      "timestamp": "2026-04-18T09:30:03.076432+00:00",
+      "source": "PERPLEXITY",
+      "headline": "South Korea's annual inflation rose to 2",
+      "raw": "South Korea's annual inflation rose to 2.2% in March 2026, up from 2.0% in prior months but below 2.4% forecasts[1].**",
+      "direction": "YES",
+      "confidence": 0.65,
       "matched_markets": [
-        "Will the Republican Party win the NY-21 House seat?",
-        "Will NYC Mayor post 20-39 posts from April 14 to April 21, 2026?",
-        "Will Trump\u2019s approval rating be between 39.0 and 39.4 on April 24, 2026?"
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
       ],
-      "action": "ENTER",
+      "action": "ALERT",
       "x_link": null,
-      "category": "POLITICS"
+      "category": "ECONOMICS"
     },
     {
-      "id": "sig_1776504443966_0",
-      "timestamp": "2026-04-18T09:27:23.966059+00:00",
+      "id": "sig_1776504603079_1",
+      "timestamp": "2026-04-18T09:30:03.079813+00:00",
       "source": "PERPLEXITY",
-      "headline": "Iran x Israel/US Conflict Market Dominates X Predictions Activity | NO (No Specific X Posts or Whale Bets Confirmed) | L",
-      "raw": "Iran x Israel/US Conflict Market Dominates X Predictions Activity | NO (No Specific X Posts or Whale Bets Confirmed) | LOW confidence**\n\nPolymarket's X predictions page shows 1379 live markets as of April 18, 2026, with the most active being \"Iran x Israel/US conflict ends by...?\" at 97% odds for December 31, reflecting high trader conviction amid over $121M total volume across X-related markets[1",
+      "headline": "Bank of Korea held policy rate at 2",
+      "raw": "Bank of Korea held policy rate at 2.5% for 7th month on Apr 10, 2026, citing oil-driven inflation risks from Middle East conflict[3][1].**  \nNo newer confirmations or resolutions as of Apr 18, 2026; these updates signal contained pressures amid external shocks, potentially steadying prediction markets on rate cuts[1][2][3].",
       "direction": "NO",
-      "confidence": 0.9,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776504609015_0",
+      "timestamp": "2026-04-18T09:30:09.015091+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Iran x Israel/US Conflict Market Dominates X Chatter | NO | HIGH confidence**",
+      "raw": "Iran x Israel/US Conflict Market Dominates X Chatter | NO | HIGH confidence**  \nPolymarket's most active X-related market is \"Iran x Israel/US conflict ends by...?\", with traders pricing a 97% chance on December 31, reflecting heavy real-time trading volume and sentiment shifts on X as users discuss prolonged timelines amid no recent resolutions[1].",
+      "direction": "NO",
+      "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776504443969_1",
-      "timestamp": "2026-04-18T09:27:23.969658+00:00",
+      "id": "sig_1776504609018_1",
+      "timestamp": "2026-04-18T09:30:09.018577+00:00",
       "source": "PERPLEXITY",
-      "headline": "No Recent Confirmations, Announcements, or Resolutions Noted | NO | LOW confidence**",
-      "raw": "No Recent Confirmations, Announcements, or Resolutions Noted | NO | LOW confidence**\n\nSearch results highlight dynamic real-time odds on Polymarket but report no just-confirmed events (e.g., ceasefires, product launches like Nikita Bier out at X by June 30 at 7%, or Trump-related announcements) impacting markets[1][5]. Limitations: Results describe Polymarket pages without direct X trader sentimen",
+      "headline": "Elon Musk Tweet Count Bets Surge with High Volume | NO | MED confidence**",
+      "raw": "Elon Musk Tweet Count Bets Surge with High Volume | NO | MED confidence**  \nTraders on X are buzzing about \"Elon Musk # tweets April 10 - April 17, 2026?\", where 88% odds favor 300-319 tweets ($13M volume, $3M today), and \"Elon Musk # tweets April 14 - April 21, 2026?\" ($5M volume), with posts highlighting whale-sized positions on over/under ranges as tweet data updates[4][5].",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776504609021_2",
+      "timestamp": "2026-04-18T09:30:09.021910+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Limited Whale Bets or Mispricing Tips Trending on X | NO | LOW confidence**",
+      "raw": "Limited Whale Bets or Mispricing Tips Trending on X | NO | LOW confidence**  \nNo specific whale bets, smart money moves, or mispriced market calls (e.g., Nasdaq 24/7 trading) are detailed in real-time X posts within results; activity centers on high-volume Elon tweet and Iran conflict markets, implying potential edges where sentiment lags news[2][5].",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
@@ -65,9 +101,9 @@
     }
   ],
   "stats": {
-    "enter": 2,
-    "alert": 2,
+    "enter": 1,
+    "alert": 6,
     "watch": 0,
-    "high_conf": 3
+    "high_conf": 2
   }
 }
