@@ -1,144 +1,81 @@
 {
-  "last_scan": "2026-04-19T00:35:35.989721+00:00",
-  "scan_seconds": 48.5,
-  "markets_scanned": 65,
+  "last_scan": "2026-04-19T00:38:35.959748+00:00",
+  "scan_seconds": 40.1,
+  "markets_scanned": 64,
   "open_positions": 14,
   "signals": [
     {
-      "id": "sig_1776558901353_0",
-      "timestamp": "2026-04-19T00:35:01.353620+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Based on the search results provided, the most recent confirmed developments that would likely move prediction markets a",
-      "raw": "Based on the search results provided, the most recent confirmed developments that would likely move prediction markets are:",
-      "direction": null,
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_1776558913513_1",
-      "timestamp": "2026-04-19T00:35:13.513934+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Elon Musk Tweet Count Markets Active | NO | LOW confidence**",
-      "raw": "Elon Musk Tweet Count Markets Active | NO | LOW confidence**  \nMarkets like \"Elon Musk # tweets April 14 - April 21, 2026?\" (17% on 1240-1279 range) and \"Elon Musk # tweets in April 2026?\" (19% on 1240-1279) lead tweet predictions with $17.8M-$18.1M volume across 28-130 markets, but no recent X chatter on smart money moves, tips, or resolutions confirmed[2][3][4].",
-      "direction": "NO",
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776558913518_2",
-      "timestamp": "2026-04-19T00:35:13.518696+00:00",
-      "source": "PERPLEXITY",
-      "headline": "No Whale Bets, Mispriced Markets, or Confirmed Events Reported | NO | LOW confidence**",
-      "raw": "No Whale Bets, Mispriced Markets, or Confirmed Events Reported | NO | LOW confidence**  \nSearch results show no breaking X posts from Polymarket traders on whales, tips, or imminent moves; Nikita Bier \"out as Head of Product at X by June 30?\" sits at 7% YES, and Kanye \"tweet again by April 30?\" at 79% YES, with odds as of April 18 but lacking real-time social confirmation or announcements[1][3].",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776558901358_1",
-      "timestamp": "2026-04-19T00:35:01.358898+00:00",
-      "source": "PERPLEXITY",
-      "headline": "HEADLINE:** Trump Administration Revokes Visas and Green Cards of Iranian Nationals Connected to Tehran Government | YES",
-      "raw": "HEADLINE:** Trump Administration Revokes Visas and Green Cards of Iranian Nationals Connected to Tehran Government | YES | HIGH confidence\n\nThe Trump administration revoked green cards and visas of at least four Iranian nationals connected to the Iranian government in early April 2026, including relatives of deceased IRGC chief Qassem Soleimani and the daughter of Iran's former national security a",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Trump agree to unfreeze Iranian assets in April?",
-        "Will Trump say \"Genius\" this week? (April 20 - 26)"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_1776558901363_2",
-      "timestamp": "2026-04-19T00:35:01.363759+00:00",
-      "source": "PERPLEXITY",
-      "headline": "HEADLINE:** Operation Epic Fury Against Iran Continues with Four Clear Objectives | YES | HIGH confidence",
-      "raw": "HEADLINE:** Operation Epic Fury Against Iran Continues with Four Clear Objectives | YES | HIGH confidence\n\nOn April 1, 2026, President Trump addressed the nation on \"Operation Epic Fury,\" a military campaign with four stated objectives: obliterate Iran's ballistic missile arsenal and production capability, annihilate its navy, sever support for terrorist proxies, and ensure Iran never acquires nuc",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Trump agree to unfreeze Iranian assets in April?",
-        "Will Trump say \"Genius\" this week? (April 20 - 26)"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_1776558901368_3",
-      "timestamp": "2026-04-19T00:35:01.368775+00:00",
-      "source": "PERPLEXITY",
-      "headline": "HEADLINE:** Trump Tariffs on Eight NATO Nations Over Greenland Acquisition Remain in Effect (10% starting Feb",
-      "raw": "HEADLINE:** Trump Tariffs on Eight NATO Nations Over Greenland Acquisition Remain in Effect (10% starting Feb. 1, escalating to 25% June 1) | YES | HIGH confidence\n\nThe U.S. imposed tariffs on Denmark, Norway, Sweden, France, Germany, the United Kingdom, the Netherlands, and Finland, starting February 1, 2026, with plans to increase to 25% on June 1 until a deal is reached for Greenland acquisitio",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "How many Gold Cards will Trump sell this year?",
-        "Will Trump buy Greenland?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_1776558906753_0",
-      "timestamp": "2026-04-19T00:35:06.753245+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Solana Stablecoin Supply Surges 15x to $3",
-      "raw": "Solana Stablecoin Supply Surges 15x to $3.8B, Surpassing Ethereum in February 2026 Volume | NO | HIGH confidence**  \nNo breaking confirmations, announcements, or resolutions today move prediction markets; recent data shows Solana's non-USDC/USDT stablecoin supply grew 15x since January 2025 to $3.8B, with $650B February volume exceeding Ethereum's $525\u2013551B, but this is reported growth without new",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the 7-day moving average of transit calls through the Strait of Hormuz as r",
-        "Will the price of Bitcoin be above $72,000 on April 25?",
-        "Will the price of Bitcoin be above $76,000 on April 21?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776558913509_0",
-      "timestamp": "2026-04-19T00:35:13.509044+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Iran x Israel/US Conflict Markets Trending on Polymarket X Predictions | NO | LOW confidence**",
-      "raw": "Iran x Israel/US Conflict Markets Trending on Polymarket X Predictions | NO | LOW confidence**  \nPolymarket's X predictions page highlights \"Iran x Israel/US conflict ends by...?\" at 35% YES odds and \"Trump announces US x Iran ceasefire broken by...?\" at 99% YES odds among 1380 live markets with $161.4M volume, indicating trader focus on Middle East tensions without specific X posts on whale bets ",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776558935982_0",
-      "timestamp": "2026-04-19T00:35:35.982767+00:00",
+      "id": "sig_1776559115940_0",
+      "timestamp": "2026-04-19T00:38:35.940487+00:00",
       "source": "X_GROK",
-      "headline": "Hyperliquid Airdrop by Dec 31, 2026 (Polymarket):** Trader @Crypto_Pranjal pitches NO shares as \"no-loss play\" for activ",
-      "raw": "Hyperliquid Airdrop by Dec 31, 2026 (Polymarket):** Trader @Crypto_Pranjal pitches NO shares as \"no-loss play\" for active Hyperliquid users\u2014airdrop covers any loss; took position, calls it asymmetric value bet.[[1]](https://x.com/i/status/2045662437576450419)[[2]](https://x.com/i/status/2045616553308147936) **NO lean, MED confidence** (single tip, no volume data).",
-      "direction": "NO",
+      "headline": "Iran Closes Strait of Hormuz (Confirmed Event)**: Bearish for US-Iran peace deal markets (68% YES pre-event now pressure",
+      "raw": "Iran Closes Strait of Hormuz (Confirmed Event)**: Bearish for US-Iran peace deal markets (68% YES pre-event now pressured); bullish for conflict/escalation bets. Imminent volatility in related PMs.[[1]](https://x.com/i/status/2045492571024081001)[[2]](https://x.com/i/status/2045654608022794479)[[3]](https://x.com/i/status/2045657347712815575) Confidence: HIGH",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will the 7-day moving average of transit calls through the Strait of Hormuz as r"
+      ],
+      "action": "ENTER",
+      "x_link": "https://x.com/i/status/2045492571024081001)[[2]](https://x.com/i/status/2045654608022794479)[[3]](https://x.com/i/status/2045657347712815575)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776559099041_0",
+      "timestamp": "2026-04-19T00:38:19.041427+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Polymarket X-Related Markets Trending on Traders' Radar** | NO | LOW confidence",
+      "raw": "Polymarket X-Related Markets Trending on Traders' Radar** | NO | LOW confidence\n\nNo direct real-time posts from Polymarket traders on X about whale bets, smart money moves, tips, mispriced markets, or recent confirmations/announcements are available in current search results, limiting insights to Polymarket's own platform data as of April 18, 2026[1][2][3][4][5]. Key active X prediction markets in",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
-      "x_link": "https://x.com/i/status/2045662437576450419)[[2]](https://x.com/i/status/2045616553308147936)",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776559115945_1",
+      "timestamp": "2026-04-19T00:38:35.945217+00:00",
+      "source": "X_GROK",
+      "headline": "$716K Whale Bet YES on OKC Thunder 2026 NBA Finals** (46\u00a2 entry): Smart money conviction on Thunder championship; potent",
+      "raw": "$716K Whale Bet YES on OKC Thunder 2026 NBA Finals** (46\u00a2 entry): Smart money conviction on Thunder championship; potential mispriced underdog. F-grade trader noted.[[4]](https://x.com/i/status/2045654597876793544) Confidence: MED",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2045654597876793544)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776559115954_2",
+      "timestamp": "2026-04-19T00:38:35.954827+00:00",
+      "source": "X_GROK",
+      "headline": "WWE WrestleMania Markets Live**: Traders excited for new sports/entertainment PMs; fun alpha for fans during event",
+      "raw": "WWE WrestleMania Markets Live**: Traders excited for new sports/entertainment PMs; fun alpha for fans during event.[[6]](https://x.com/i/status/2045611344490340716) Confidence: MED",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2045611344490340716)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776559115959_3",
+      "timestamp": "2026-04-19T00:38:35.959421+00:00",
+      "source": "X_GROK",
+      "headline": "Whale Trackers Trending Tip**: Follow real-time $5K+ bets (e",
+      "raw": "Whale Trackers Trending Tip**: Follow real-time $5K+ bets (e.g., Iran ceasefire precursors); tools spotting insiders early.[[7]](https://x.com/i/status/2045588771358347619) Confidence: HIGH",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2045588771358347619)",
       "category": "COMMUNITY"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 9,
+    "enter": 1,
+    "alert": 4,
     "watch": 0,
-    "high_conf": 3
+    "high_conf": 1
   }
 }
