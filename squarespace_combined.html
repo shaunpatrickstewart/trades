@@ -326,20 +326,12 @@
     } catch(e) { return []; }
   }
 
-  async function fetchAllMarkets() {
-    return toArr(await pf(GAMMA+'/markets?active=true&closed=false&limit=500&order=volume&ascending=false'));
-  }
-
-  async function fetchForex() {
-    const [fx,curr] = await Promise.all([
-      pf(GAMMA+'/markets?active=true&closed=false&tag=forex&limit=200').then(toArr).catch(()=>[]),
-      pf(GAMMA+'/markets?active=true&closed=false&tag=currencies&limit=200').then(toArr).catch(()=>[]),
-    ]);
-    const map = new Map();
-    [...fx,...curr].forEach(m=>{ if(m.id) map.set(m.id,m); });
-    return [...map.values()]
-      .filter(m=>FOREX_RE.test(m.question||m.title||m.slug||''))
-      .sort((a,b)=>parseFloat(b.volumeNum||0)-parseFloat(a.volumeNum||0));
+  async function fetchScannerData() {
+    try {
+      const BASE = 'https://shaunpatrickstewart.github.io/trades/';
+      const data = await fetch(BASE+'scanner_data.json?v='+Date.now()).then(r=>r.json());
+      return data;
+    } catch(e) { return {week:[],day48:[],swing:[],forex:[],total_markets:0}; }
   }
 
   async function fetchPositions(addr) {
@@ -349,18 +341,16 @@
   }
 
   // ── RENDER: Header stats
-  function renderHeaderStats(wallets, allMarkets) {
+  function renderHeaderStats(wallets, scannerData) {
     const totalPnl = wallets.reduce((s,w)=>s+parseFloat(w.pnl||0),0);
     const topPnl   = parseFloat(wallets[0]?.pnl||0);
-    const uncertain = allMarkets.filter(m=>{
-      let p=[]; try{p=JSON.parse(m.outcomePrices||'[]').map(Number)}catch(e){}
-      return p.some(v=>v>=0.25&&v<=0.75) && parseFloat(m.volumeNum||0)>25000;
-    }).length;
+    const totalMarkets = scannerData.total_markets || 0;
+    const uncertain = (scannerData.week||[]).length;
     document.getElementById('hdr-stats').innerHTML = [
       ['Wallets',        wallets.length],
       ['Combined PnL',   '<span class="green">'+fmt(totalPnl)+'</span>'],
       ['Top Wallet',     '<span class="green">'+fmt(topPnl)+'</span>'],
-      ['Active Markets', allMarkets.length],
+      ['Active Markets', totalMarkets],
       ['Uncertain Plays','<span class="yellow">'+uncertain+'</span>'],
     ].map(([l,v])=>'<div class="stat"><div class="val">'+v+'</div><div class="lbl">'+l+'</div></div>').join('');
   }
@@ -460,38 +450,25 @@
     return html+'</table>';
   }
 
-  function renderScanner(allMarkets, forexMarkets) {
-    // Prefer endDate (has time component) over endDateIso (date-only, defaults to midnight UTC)
-    const ed = m => m.endDate || m.endDateIso || '';
+  function renderScanner(scannerData) {
+    const week = scannerData.week || [];
+    const day48 = scannerData.day48 || [];
+    const swing = scannerData.swing || [];
+    const forex = scannerData.forex || [];
 
-    const week = allMarkets.filter(m=>{
-      const h=hours(ed(m)), vol=parseFloat(m.volumeNum||0);
-      if(h<0||h>168||vol<1000) return false;
-      let p=[]; try{p=JSON.parse(m.outcomePrices||'[]').map(Number)}catch(e){}
-      return p.some(v=>v>=0.15&&v<=0.85);
-    }).sort((a,b)=>parseFloat(b.volumeNum||0)-parseFloat(a.volumeNum||0));
+    const toMarketObj = (m) => ({
+      question: m.question, slug: m.slug, volumeNum: m.volume, volume: m.volume,
+      outcomePrices: JSON.stringify([String(m.price), String(1-m.price)]),
+      outcomes: JSON.stringify([m.outcome, m.outcome==='YES'?'No':'Yes']),
+      endDate: m.endDate, endDateIso: m.endDate
+    });
 
-    const day48 = allMarkets.filter(m=>{
-      const h=hours(ed(m)), vol=parseFloat(m.volumeNum||0);
-      if(h<0||h>48||vol<500) return false;
-      let p=[]; try{p=JSON.parse(m.outcomePrices||'[]').map(Number)}catch(e){}
-      return p.some(v=>v>=0.10&&v<=0.90);
-    }).sort((a,b)=>parseFloat(b.volumeNum||0)-parseFloat(a.volumeNum||0));
+    document.getElementById('tab-week').innerHTML  = marketTable(week.map(toMarketObj),20);
+    document.getElementById('tab-day48').innerHTML = marketTable(day48.map(toMarketObj),20);
+    document.getElementById('tab-swing').innerHTML = marketTable(swing.map(toMarketObj),15);
+    document.getElementById('tab-forex').innerHTML = marketTable(forex.map(toMarketObj),20);
 
-    const swing = allMarkets.filter(m=>{
-      const h=hours(ed(m)), vol=parseFloat(m.volumeNum||0);
-      if(h<168||h>720||vol<5000) return false;
-      let p=[]; try{p=JSON.parse(m.outcomePrices||'[]').map(Number)}catch(e){}
-      return p.some(v=>v>=0.15&&v<=0.85);
-    }).sort((a,b)=>parseFloat(b.volumeNum||0)-parseFloat(a.volumeNum||0));
-
-    document.getElementById('tab-week').innerHTML  = marketTable(week,20);
-    document.getElementById('tab-day48').innerHTML = marketTable(day48,20);
-    document.getElementById('tab-swing').innerHTML = marketTable(swing,15);
-    document.getElementById('tab-forex').innerHTML = marketTable(forexMarkets,20);
-
-    // Hidden counts for tab header
-    const counts = {week:week.length, day48:day48.length, swing:swing.length, forex:forexMarkets.length};
+    const counts = {week:week.length, day48:day48.length, swing:swing.length, forex:forex.length};
     Object.entries(counts).forEach(([k,n])=>{
       let el = document.getElementById('pm-count-'+k);
       if (!el) {
@@ -1468,15 +1445,14 @@
       'Updated '+new Date().toLocaleTimeString()+' — next in 30s  |  press R to force refresh';
     try {
       const results = await Promise.allSettled([
-        fetchAllWallets(), fetchAllMarkets(), fetchForex(), fetchEliteWallets()
+        fetchAllWallets(), fetchScannerData(), fetchEliteWallets()
       ]);
       const wallets      = results[0].status==='fulfilled' ? results[0].value : [];
-      const allMarkets   = results[1].status==='fulfilled' ? results[1].value : [];
-      const forexMarkets = results[2].status==='fulfilled' ? results[2].value : [];
-      const eliteWallets = results[3].status==='fulfilled' ? results[3].value : [];
+      const scannerData  = results[1].status==='fulfilled' ? results[1].value : {};
+      const eliteWallets = results[2].status==='fulfilled' ? results[2].value : [];
 
-      renderHeaderStats(wallets, allMarkets);
-      renderScanner(allMarkets, forexMarkets);
+      renderHeaderStats(wallets, scannerData);
+      renderScanner(scannerData);
       renderWalletCards();
       renderOpenTrades();
       renderAudit();
