@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-04-19T16:18:57.681344+00:00",
+  "last_updated": "2026-04-19T16:30:21.107141+00:00",
   "bankroll": 186.2,
-  "total_trades": 0,
+  "total_trades": 20,
   "settled_trades": 0,
   "wins": 0,
   "losses": 0,
@@ -10,8 +10,15 @@
   "starting_bankroll": 186.2,
   "organic_pnl": 0.0,
   "true_realized_pnl": 0.0,
-  "open_trades": 0,
-  "open_capital_deployed": 0.0,
+  "open_trades": 20,
+  "open_capital_deployed": 100.0,
   "post_filter_pnl": 0.0,
-  "engines": {}
+  "engines": {
+    "KALSHI_ST": {
+      "won": 0,
+      "lost": 0,
+      "pnl": 0.0,
+      "open": 20
+    }
+  }
 }
