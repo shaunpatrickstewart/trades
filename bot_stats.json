@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-04-20T01:14:13.917887+00:00",
+  "last_updated": "2026-04-20T01:15:16.599607+00:00",
   "bankroll": 186.2,
   "total_trades": 223,
   "settled_trades": 213,
   "wins": 211,
   "losses": 2,
-  "win_rate": 99.06,
-  "win_streak": 0,
+  "win_rate": 99.1,
+  "win_streak": 78,
   "starting_bankroll": 186.2,
   "organic_pnl": 46.86,
   "true_realized_pnl": 46.86,
@@ -26,39 +26,5 @@
       "pnl": 9.44,
       "open": 0
     }
-  },
-  "registry": {
-    "NEAR_CERTAIN": {
-      "platform": "polymarket",
-      "engine_type": "nc",
-      "enabled": true
-    },
-    "SHORT_TERM": {
-      "platform": "polymarket",
-      "engine_type": "st",
-      "enabled": true
-    },
-    "LONG_TERM": {
-      "platform": "polymarket",
-      "engine_type": "lt",
-      "enabled": false
-    },
-    "ANTI_NC": {
-      "platform": "polymarket",
-      "engine_type": "anti_nc",
-      "enabled": false
-    },
-    "KALSHI_NC": {
-      "platform": "kalshi",
-      "engine_type": "nc",
-      "enabled": false
-    },
-    "KALSHI_ST": {
-      "platform": "kalshi",
-      "engine_type": "st",
-      "enabled": false
-    }
-  },
-  "daily_log": [],
-  "_note": "restored from backup; stripped 31 Kalshi phantoms ($0 deposit). NC WON records may include premature signals \u2014 separate audit pending."
+  }
 }
