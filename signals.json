@@ -1,144 +1,74 @@
 {
-  "last_scan": "2026-04-21T15:57:53.768532+00:00",
-  "scan_seconds": 51.9,
-  "markets_scanned": 61,
+  "last_scan": "2026-04-21T16:01:05.448868+00:00",
+  "scan_seconds": 55.2,
+  "markets_scanned": 60,
   "open_positions": 22,
   "signals": [
     {
-      "id": "sig_1776787049333_3",
-      "timestamp": "2026-04-21T15:57:29.333361+00:00",
+      "id": "sig_1776787222347_0",
+      "timestamp": "2026-04-21T16:00:22.347269+00:00",
       "source": "PERPLEXITY",
-      "headline": "**New developments** in the Conference Semifinals that represent just-announced information",
-      "raw": "**New developments** in the Conference Semifinals that represent just-announced information\n\nThe results reference past playoff games and ongoing series analysis, but lack the time-stamped breaking news content needed to answer your query in the format requested (HEADLINE | YES/NO | confidence level).\n\nTo get current market-moving announcements, you would need real-time sources such as official NB",
+      "headline": "Kansas Senate President Ty Masterson launches Republican campaign for governor, backs Trump amid tariff setback",
+      "raw": "Kansas Senate President Ty Masterson launches Republican campaign for governor, backs Trump amid tariff setback.** | YES | HIGH confidence[2][1]\n\nTy Masterson, Kansas Senate president and a leading **Republican gubernatorial candidate** for 2026, officially announced his campaign on Sunday, positioning himself as strongly pro-Trump by pledging to work with the president on economic restoration, ag",
       "direction": "YES",
       "confidence": 0.9,
-      "matched_markets": [
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
-        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs",
-        "Will Detroit Pistons advance to the Conference Semifinals in the 2026 NBA Playof"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776787029938_1",
-      "timestamp": "2026-04-21T15:57:09.938678+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Israel-Lebanon Second Round of Talks Confirmed for Washington** | YES | HIGH confidence",
-      "raw": "Israel-Lebanon Second Round of Talks Confirmed for Washington** | YES | HIGH confidence\n\nA second round of negotiations between Israel and Lebanon has been confirmed to take place in Washington, D.C.[4] Lebanon's president has appointed former ambassador Simon Karam to lead negotiations, with talks aimed at ending hostilities, withdrawing Israeli forces from southern Lebanon, and deploying the Leb",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_1776787029948_3",
-      "timestamp": "2026-04-21T15:57:09.948801+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Critical Market Mover: Hezbollah Disarmament Demand** | SIGNIFICANT RISK | HIGH confidence",
-      "raw": "Critical Market Mover: Hezbollah Disarmament Demand** | SIGNIFICANT RISK | HIGH confidence\n\nIsrael continues to demand Hezbollah's disarmament as a condition for full peace, which analysts warn could destabilize Lebanon and risk civil war.[4] Israeli military estimates indicate that disarming Hezbollah through military operations is not achievable.[4] This maximalist Israeli position creates subst",
-      "direction": null,
-      "confidence": 0.9,
-      "matched_markets": [
-        "Israel x Hezbollah Ceasefire extended by April 26, 2026?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_1776787049323_1",
-      "timestamp": "2026-04-21T15:57:29.323997+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Confirmed announcements or resolutions** regarding who will win the Raptors-Lakers series specifically",
-      "raw": "**Confirmed announcements or resolutions** regarding who will win the Raptors-Lakers series specifically",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776787073752_0",
-      "timestamp": "2026-04-21T15:57:53.752503+00:00",
-      "source": "X_GROK",
-      "headline": "Esports LoL Whales (Apr 20 markets, likely resolved):** Multiple $5k+ buys on Weibo Gaming Game Handicap WB (-1",
-      "raw": "Esports LoL Whales (Apr 20 markets, likely resolved):** Multiple $5k+ buys on Weibo Gaming Game Handicap WB (-1.5) vs OMG (+1.5) @ ~56-57\u00a2 (two whales: $5.7k & $5.2k).[[1]](https://x.com/i/status/2046145030465671251)[[2]](https://x.com/i/status/2046150550237151366) Also $7.5k Over 27.5 kills G1 SK vs KC @52\u00a2; $5k Over G2 @50\u00a2.[[3]](https://x.com/i/status/2046277448694710367)[[4]](https://x.com/i/s",
-      "direction": "YES",
-      "confidence": 0.78,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2046145030465671251)[[2]](https://x.com/i/status/2046150550237151366)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776787029933_0",
-      "timestamp": "2026-04-21T15:57:09.933710+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Based on the search results, here are the key developments that would move prediction markets:",
-      "raw": "Based on the search results, here are the key developments that would move prediction markets:",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_1776787029943_2",
-      "timestamp": "2026-04-21T15:57:09.943498+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Ceasefire Remains Fragile Despite Holdings** | YES (holds, but fragile) | HIGH confidence",
-      "raw": "Ceasefire Remains Fragile Despite Holdings** | YES (holds, but fragile) | HIGH confidence\n\nThe 10-day US-brokered ceasefire that began April 16 is largely holding, though Israeli military operations continue in southern Lebanon.[2][3] Despite the ceasefire, two IDF soldiers have been killed and several wounded in incidents in southern Lebanon,[2][5] and Israeli troops remain deeply occupied in Leb",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Israel x Hezbollah Ceasefire extended by April 26, 2026?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_1776787029953_4",
-      "timestamp": "2026-04-21T15:57:09.953547+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Key Uncertainty: Hezbollah's Role**",
-      "raw": "Key Uncertainty: Hezbollah's Role**\n\nHezbollah remains excluded from direct negotiations and questions the legitimacy of talks, creating fundamental fragility in any agreement.[1][4]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_1776787036430_0",
-      "timestamp": "2026-04-21T15:57:16.430333+00:00",
-      "source": "PERPLEXITY",
-      "headline": "IUML Confident of Sweeping Wins in Kerala & Tamil Nadu Lok Sabha Seats Despite LDF CAA Push | NO | LOW confidence**",
-      "raw": "IUML Confident of Sweeping Wins in Kerala & Tamil Nadu Lok Sabha Seats Despite LDF CAA Push | NO | LOW confidence**\n\nP.K. Kunhalikutty, IUML national general secretary, announced on April 16 that the party expects to win all contested seats\u2014two in Kerala (Malappuram, Ponnani) and one in Tamil Nadu\u2014as part of UDF/DMK alliances, dismissing LDF tactics on CAA and affirming loyalty to Congress.[1] Ker",
-      "direction": "YES",
-      "confidence": 0.65,
       "matched_markets": [
         "Will Trump agree to Iranian enrichment of uranium in April?",
-        "Will Ty Masterson win the 2026 Kansas Governor Republican primary election?",
-        "Will the Indian Union Muslim League (IUML) win between 10 and 12 seats in the 20"
+        "Will Ty Masterson win the 2026 Kansas Governor Republican primary election?"
       ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
       "category": "POLITICS"
     },
     {
-      "id": "sig_1776787049319_0",
-      "timestamp": "2026-04-21T15:57:29.319441+00:00",
+      "id": "sig_1776787228474_0",
+      "timestamp": "2026-04-21T16:00:28.474208+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot provide the breaking news headline and market-moving confirmation you're requesting based on these search resul",
-      "raw": "I cannot provide the breaking news headline and market-moving confirmation you're requesting based on these search results.\n\nThe search results contain information about NBA playoff series currently underway (Lakers vs. Rockets, Cavaliers vs. Raptors, and others), but they do not include:",
+      "headline": "RLUSD Stablecoin Full-Scale Rollout Confirmed on XRPL & Ethereum | YES | HIGH confidence**",
+      "raw": "RLUSD Stablecoin Full-Scale Rollout Confirmed on XRPL & Ethereum | YES | HIGH confidence**  \nThe official full-scale rollout of Ripple USD (RLUSD) across the XRP Ledger and Ethereum has been confirmed as of April 18, 2026, driving massive capital influx, record XRPL transaction volume, and XRP surges amid heightened institutional adoption.[1]  \nThis development coincides with the SEC legal battle'",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
+        "XRP Up or Down - April 22, 8:20AM-8:25AM ET",
+        "XRP Up or Down - April 22, 8:25AM-8:30AM ET"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776787265429_0",
+      "timestamp": "2026-04-21T16:01:05.429779+00:00",
+      "source": "X_GROK",
+      "headline": "US-Iran Permanent Peace Deal Market:** Two whales with strong track records dumped $465k on NO, fading recent diplomatic",
+      "raw": "US-Iran Permanent Peace Deal Market:** Two whales with strong track records dumped $465k on NO, fading recent diplomatic headlines despite thin orderbooks.[[1]](https://x.com/i/status/2046263334194893208)[[2]](https://x.com/i/status/2046242833581871585) **NO** signal. Confidence: **HIGH** (fresh conviction bets by low-volume pros).",
+      "direction": "NO",
+      "confidence": 0.78,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2046263334194893208)[[2]](https://x.com/i/status/2046242833581871585)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776787240969_0",
+      "timestamp": "2026-04-21T16:00:40.969156+00:00",
+      "source": "PERPLEXITY",
+      "headline": "I cannot provide the \"breaking news\" format you've requested based on these search results",
+      "raw": "I cannot provide the \"breaking news\" format you've requested based on these search results. The available information covers the **Eastern Conference first round** (not semifinals), and the most recent updates are from April 20, 2026\u2014yesterday\u2014rather than \"RIGHT NOW\" breaking developments.\n\nHere's what the search results confirm about the Cavaliers' first-round series:",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776787240973_1",
+      "timestamp": "2026-04-21T16:00:40.973653+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Current Status:** The **(4) Cleveland Cavaliers lead (5) Toronto Raptors 2-0**[1] after dominant victories, with Mitchel",
+      "raw": "Current Status:** The **(4) Cleveland Cavaliers lead (5) Toronto Raptors 2-0**[1] after dominant victories, with Mitchell scoring 30+ points in Game 2[1] and 32 points in Game 1[3].",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [
@@ -149,11 +79,26 @@
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776787049328_2",
-      "timestamp": "2026-04-21T15:57:29.328545+00:00",
+      "id": "sig_1776787240978_2",
+      "timestamp": "2026-04-21T16:00:40.978179+00:00",
       "source": "PERPLEXITY",
-      "headline": "**Breaking news** about Cooper Flagg that would move prediction markets",
-      "raw": "**Breaking news** about Cooper Flagg that would move prediction markets",
+      "headline": "Key Development:** Donovan Mitchell has extended his NBA playoff record with his ninth consecutive Game 1 performance of",
+      "raw": "Key Development:** Donovan Mitchell has extended his NBA playoff record with his ninth consecutive Game 1 performance of 30+ points[3], and has surpassed Kyrie Irving for the most 30-point playoff games in Cavaliers franchise history[4].\n\nThe search results do not contain:",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776787240984_3",
+      "timestamp": "2026-04-21T16:00:40.984423+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Conference semifinals information",
+      "raw": "Conference semifinals information",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
@@ -162,36 +107,101 @@
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776787073761_1",
-      "timestamp": "2026-04-21T15:57:53.761724+00:00",
+      "id": "sig_1776787240989_4",
+      "timestamp": "2026-04-21T16:00:40.989034+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Series predictions or market-moving announcements",
+      "raw": "Series predictions or market-moving announcements",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776787240994_5",
+      "timestamp": "2026-04-21T16:00:40.994333+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Today's (April 21) developments",
+      "raw": "Today's (April 21) developments",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776787241001_6",
+      "timestamp": "2026-04-21T16:00:41.001085+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Injury reports or roster changes that would affect odds",
+      "raw": "Injury reports or roster changes that would affect odds\n\nTo get the breaking news and market-moving information you're seeking, you would need current updates from today's playoff games or official announcements.",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776787265434_1",
+      "timestamp": "2026-04-21T16:01:05.434596+00:00",
       "source": "X_GROK",
-      "headline": "SPY Weekly Markets (week Apr 20):** Trader Jason San's options model flags mispricings both directions on Polymarket SPY",
-      "raw": "SPY Weekly Markets (week Apr 20):** Trader Jason San's options model flags mispricings both directions on Polymarket SPY hits; early markets, arb + airdrop alpha.[[5]](https://x.com/i/status/2046156150341787861) **YES/NO** varies by strike. Confidence: MED (model-based).",
+      "headline": "Historical Whale Alpha (US-Iran Ceasefire):** Unknown wallet loaded $80k YES 4hrs pre-announcement, profiting instantly;",
+      "raw": "Historical Whale Alpha (US-Iran Ceasefire):** Unknown wallet loaded $80k YES 4hrs pre-announcement, profiting instantly; markets move *before* news.[[2]](https://x.com/i/status/2046242833581871585) Past **YES** hit. Confidence: **HIGH**.",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
-      "x_link": "https://x.com/i/status/2046156150341787861)",
+      "x_link": "https://x.com/i/status/2046242833581871585)",
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776787073768_2",
-      "timestamp": "2026-04-21T15:57:53.768139+00:00",
+      "id": "sig_1776787265439_2",
+      "timestamp": "2026-04-21T16:01:05.439246+00:00",
       "source": "X_GROK",
-      "headline": "Meta Trends:** Leaderboards fake high win rates via \"zombie orders\" (unclosed losses); real top 1% 55-67% win rate",
-      "raw": "Meta Trends:** Leaderboards fake high win rates via \"zombie orders\" (unclosed losses); real top 1% 55-67% win rate. Specialize in 1-2 categories, 2-7% sizing, trade 18-72hr windows, enter at 88/12% extremes. Copy-trading traps; arb > prediction (e.g. $40M arb profits per study).[[6]](https://x.com/i/status/2046242514961871276)[[7]](https://x.com/i/status/2046216070663651474) Niche 0.2-11\u00a2 misprici",
+      "headline": "Polymarket Platform Growth:** Raising $400M at $15B val post-$600M NYSE bet; institutions piling in, flipping sportsbook",
+      "raw": "Polymarket Platform Growth:** Raising $400M at $15B val post-$600M NYSE bet; institutions piling in, flipping sportsbooks long-term.[[3]](https://x.com/i/status/2046219920375988590)[[4]](https://x.com/i/status/2046260011135889601) **YES** on prediction market dominance. Confidence: **MED** (talks stage).",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
-      "x_link": "https://x.com/i/status/2046242514961871276)[[7]](https://x.com/i/status/2046216070663651474)",
+      "x_link": "https://x.com/i/status/2046219920375988590)[[4]](https://x.com/i/status/2046260011135889601)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776787265443_3",
+      "timestamp": "2026-04-21T16:01:05.443975+00:00",
+      "source": "X_GROK",
+      "headline": "Trading Tips Trending:** Leaderboards fake (zombie orders hide losses, real top winrates 55-67%); niche focus, 2-7% sizi",
+      "raw": "Trading Tips Trending:** Leaderboards fake (zombie orders hide losses, real top winrates 55-67%); niche focus, 2-7% sizing, enter at 12-88% extremes vs model, track Safes via Arkham/Dune.[[5]](https://x.com/i/status/2046242514961871276)[[6]](https://x.com/i/status/2046031153098793316) Use @PolyTapBot for live whales.[[2]](https://x.com/i/status/2046242833581871585) No specific mispriceds, but fade",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2046242514961871276)[[6]](https://x.com/i/status/2046031153098793316)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776787265448_4",
+      "timestamp": "2026-04-21T16:01:05.448453+00:00",
+      "source": "X_GROK",
+      "headline": "$POLY Token:** Smart money \"positioning hard\" pre-raise",
+      "raw": "$POLY Token:** Smart money \"positioning hard\" pre-raise.[[7]](https://x.com/i/status/2046224864596636018) **YES** upside. Confidence: **LOW** (hype).",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2046224864596636018)",
       "category": "COMMUNITY"
     }
   ],
   "stats": {
-    "enter": 1,
+    "enter": 2,
     "alert": 12,
     "watch": 0,
-    "high_conf": 4
+    "high_conf": 2
   }
 }
