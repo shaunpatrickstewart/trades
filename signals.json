@@ -1,49 +1,160 @@
 {
-  "last_scan": "2026-04-21T09:59:12.802320+00:00",
-  "scan_seconds": 34.9,
+  "last_scan": "2026-04-21T10:02:16.595116+00:00",
+  "scan_seconds": 34.5,
   "markets_scanned": 64,
   "open_positions": 22,
   "signals": [
     {
-      "id": "sig_1776765529505_0",
-      "timestamp": "2026-04-21T09:58:49.505401+00:00",
+      "id": "sig_1776765715208_0",
+      "timestamp": "2026-04-21T10:01:55.208264+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot provide breaking news in the format you've requested based on these search results",
-      "raw": "I cannot provide breaking news in the format you've requested based on these search results.\n\nThe search results contain information about the **2022 Kansas gubernatorial election** (where Laura Kelly won re-election)[1] and references to **2026 Republican gubernatorial candidates**[4][7], but they do not contain any breaking news announcements, confirmations, or resolutions from today that would ",
-      "direction": null,
-      "confidence": 0.65,
+      "headline": "Kansas Republicans Override Gov",
+      "raw": "Kansas Republicans Override Gov. Laura Kelly's Vetoes on Dozens of Bills, Including Election Reforms and Welfare Changes | YES | HIGH confidence**[2]\n\nKansas Republicans successfully overrode a majority of Democratic Gov. Laura Kelly's vetoes during the 2026 legislative session, enacting laws on voter registration checks (mirroring federal SAVE Act with noncitizen driver\u2019s license reporting and da",
+      "direction": "YES",
+      "confidence": 0.9,
       "matched_markets": [
         "Will Trump agree to Iranian enrichment of uranium in April?",
         "Will Donald Trump post 200+ Truth Social posts from April 17 to April 24, 2026?",
         "Will Ty Masterson win the 2026 Kansas Governor Republican primary election?"
       ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
       "category": "POLITICS"
     },
     {
-      "id": "sig_1776765544416_0",
-      "timestamp": "2026-04-21T09:59:04.416088+00:00",
+      "id": "sig_1776765724115_0",
+      "timestamp": "2026-04-21T10:02:04.115596+00:00",
       "source": "PERPLEXITY",
-      "headline": "Lakers Take 1-0 Lead Over Rockets in Game 1 Despite Key Injuries on Both Sides | NO Major Shift for Lakers Series Win (R",
-      "raw": "Lakers Take 1-0 Lead Over Rockets in Game 1 Despite Key Injuries on Both Sides | NO Major Shift for Lakers Series Win (Rockets Now Slight Favorites Per Analysts) | MED Confidence**\n\nLakers defeated Houston Rockets 107-98 in Game 1 of Western Conference first-round playoffs on April 18, powered by Luke Kennard's 27 points (9-13 FG, perfect 5-5 from three) and LeBron James' 19 points with 13 assists",
+      "headline": "# Recent Ethereum and Bitcoin Market Developments",
+      "raw": "# Recent Ethereum and Bitcoin Market Developments\n\nBased on the available search results from mid-April 2026, here are the confirmed market-moving events:",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [
+        "Bitcoin above 77,600 on April 21, 6AM ET?",
+        "Ethereum above 2,365 on April 21, 6AM ET?",
+        "Will the price of Bitcoin be between $74,000 and $76,000 on April 23?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776765735583_1",
+      "timestamp": "2026-04-21T10:02:15.583411+00:00",
+      "source": "PERPLEXITY",
+      "headline": "GTA VI Release Odds Plunge to 1% Before June 2026 | NO | MED confidence**",
+      "raw": "GTA VI Release Odds Plunge to 1% Before June 2026 | NO | MED confidence**  \n\"GTA VI released before June 2026?\" trades at 1% yes with $14M volume, signaling strong consensus against an imminent launch amid high liquidity ($69.7K).[4]",
+      "direction": "YES",
+      "confidence": 0.78,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776765724120_1",
+      "timestamp": "2026-04-21T10:02:04.120695+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Pectra (Prague-Electra) Upgrade Entering Final Testing** | YES | HIGH confidence",
+      "raw": "Pectra (Prague-Electra) Upgrade Entering Final Testing** | YES | HIGH confidence\nThe Ethereum network's Pectra upgrade is in its final testing phase, promising wallet abstraction and validator efficiency improvements[1]. This development has contributed to Ethereum's surge toward $6,000 as of mid-April[1].",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
+        "Ethereum above 2,365 on April 21, 6AM ET?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776765724125_2",
+      "timestamp": "2026-04-21T10:02:04.125263+00:00",
+      "source": "PERPLEXITY",
+      "headline": "DeFi Exploit: Kelpdao Attack on Aave** | YES | HIGH confidence",
+      "raw": "DeFi Exploit: Kelpdao Attack on Aave** | YES | HIGH confidence\nA significant DeFi exploit involving Kelpdao has caused mass withdrawals from Aave and other associated protocols, with Aave losing its top position in total value locked (TVL)[3]. This represents another major security incident affecting the Ethereum DeFi ecosystem.",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776765724129_3",
+      "timestamp": "2026-04-21T10:02:04.129715+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Rave Token Collapse** | YES | HIGH confidence",
+      "raw": "Rave Token Collapse** | YES | HIGH confidence\nThe Rave token lost 95% of its value, declining from approximately $22 to $1 over 24 hours as of April 18, 2026[3].",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776765724134_4",
+      "timestamp": "2026-04-21T10:02:04.134219+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Spot Ethereum ETF Inflows at All-Time Highs** | YES | HIGH confidence",
+      "raw": "Spot Ethereum ETF Inflows at All-Time Highs** | YES | HIGH confidence\nInstitutional demand for Ethereum through spot ETFs has reached record levels, with Layer 2 ecosystems like Base and Arbitrum surpassing major TVL milestones[1].",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776765724138_5",
+      "timestamp": "2026-04-21T10:02:04.138779+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Important Context:** The search results contain conflicting price predictions from earlier in April",
+      "raw": "Important Context:** The search results contain conflicting price predictions from earlier in April. Polymarket data showed bearish expectations with 96% probability of Ethereum staying below $2,000[2], yet other analyses discuss prices at $6,000[1], suggesting significant market volatility during April 2026.",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Ethereum above 2,365 on April 21, 6AM ET?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776765729235_0",
+      "timestamp": "2026-04-21T10:02:09.235190+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Cavaliers beat Raptors 115-105 in Game 2, take 2-0 series lead** | YES | HIGH confidence[2]",
+      "raw": "Cavaliers beat Raptors 115-105 in Game 2, take 2-0 series lead** | YES | HIGH confidence[2]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
       ],
       "action": "ALERT",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776765551768_0",
-      "timestamp": "2026-04-21T09:59:11.768775+00:00",
+      "id": "sig_1776765729246_1",
+      "timestamp": "2026-04-21T10:02:09.246636+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot provide the breaking news and real-time market sentiment you're requesting based on these search results",
-      "raw": "I cannot provide the breaking news and real-time market sentiment you're requesting based on these search results. The search results contain only general information about Polymarket's structure and historical snapshots of market activity from April 9-20, 2026, but they don't include:",
-      "direction": null,
+      "headline": "Lakers win Game 1 over Rockets 107-98 without Doncic and Reaves; Durant out with minor knee injury expected back Game 2*",
+      "raw": "Lakers win Game 1 over Rockets 107-98 without Doncic and Reaves; Durant out with minor knee injury expected back Game 2** | YES | HIGH confidence[1][4]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776765735578_0",
+      "timestamp": "2026-04-21T10:02:15.578689+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Elon Musk Tweet Count Market Leads Polymarket Activity as April 21 Deadline Approaches | NO | HIGH confidence**",
+      "raw": "Elon Musk Tweet Count Market Leads Polymarket Activity as April 21 Deadline Approaches | NO | HIGH confidence**  \nPolymarket's most active market is \"Elon Musk # tweets April 14 - April 21, 2026?\", with the 220-239 range at 76% probability and $10M volume; odds shift in real-time with new tweets, drawing trader focus.[1][2]",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -51,12 +162,12 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776765551773_1",
-      "timestamp": "2026-04-21T09:59:11.773476+00:00",
+      "id": "sig_1776765735588_2",
+      "timestamp": "2026-04-21T10:02:15.588196+00:00",
       "source": "PERPLEXITY",
-      "headline": "Current social media discussions or whale bets happening right now",
-      "raw": "Current social media discussions or whale bets happening right now",
-      "direction": null,
+      "headline": "No Whale Bets, Smart Money Moves, or X Chatter on Mispriced Markets in Current Data | NO | HIGH confidence**",
+      "raw": "No Whale Bets, Smart Money Moves, or X Chatter on Mispriced Markets in Current Data | NO | HIGH confidence**  \nSearch results highlight active Polymarket volumes in tweet and news markets (e.g., $27M+ total tweet volume, Kanye tweet by April 30 at implied low odds) but lack specifics on X posts, whale activity, tips, or recent confirmations resolving markets.[1][2][3][4][5]",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -64,38 +175,12 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776765551778_2",
-      "timestamp": "2026-04-21T09:59:11.778023+00:00",
+      "id": "sig_1776765735593_3",
+      "timestamp": "2026-04-21T10:02:15.593133+00:00",
       "source": "PERPLEXITY",
-      "headline": "Real-time trader commentary on X (Twitter) about specific markets",
-      "raw": "Real-time trader commentary on X (Twitter) about specific markets",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776765551782_3",
-      "timestamp": "2026-04-21T09:59:11.782638+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Recent announcements or resolutions that would move markets",
-      "raw": "Recent announcements or resolutions that would move markets",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776765551787_4",
-      "timestamp": "2026-04-21T09:59:11.787053+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Analysis of mispriced markets or predicted movements",
-      "raw": "Analysis of mispriced markets or predicted movements\n\nTo get the information you're looking for, you would need to:",
-      "direction": null,
+      "headline": "MegaETH Airdrop by June 30 at 60% Draws News Story Bets | NO (not confirmed/announced) | LOW confidence**",
+      "raw": "MegaETH Airdrop by June 30 at 60% Draws News Story Bets | NO (not confirmed/announced) | LOW confidence**  \nThis market shows 60% odds in news stories category, but no evidence of trader buzz on X or fresh resolutions impacting prices.[4]",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -104,9 +189,9 @@
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 7,
+    "enter": 1,
+    "alert": 12,
     "watch": 0,
-    "high_conf": 0
+    "high_conf": 2
   }
 }
