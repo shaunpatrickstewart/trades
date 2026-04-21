@@ -1,182 +1,230 @@
 {
-  "last_scan": "2026-04-21T15:48:14.262638+00:00",
-  "scan_seconds": 37.8,
-  "markets_scanned": 61,
+  "last_scan": "2026-04-21T15:51:31.622113+00:00",
+  "scan_seconds": 59.0,
+  "markets_scanned": 60,
   "open_positions": 22,
   "signals": [
     {
-      "id": "sig_1776786484538_0",
-      "timestamp": "2026-04-21T15:48:04.538529+00:00",
+      "id": "sig_1776786652889_0",
+      "timestamp": "2026-04-21T15:50:52.889212+00:00",
       "source": "PERPLEXITY",
-      "headline": "Cavaliers Defeat Raptors 115-105 in Game 2, Take 2-0 Series Lead in NBA Playoffs** | NO | HIGH confidence[1][2][6][7]",
-      "raw": "Cavaliers Defeat Raptors 115-105 in Game 2, Take 2-0 Series Lead in NBA Playoffs** | NO | HIGH confidence[1][2][6][7]\n\nThe Cleveland Cavaliers won Game 2 against the Toronto Raptors on Monday (April 20, 2026), 115-105 at Rocket Mortgage FieldHouse, with Donovan Mitchell scoring 30 points in a dominant performance that tied a Cavaliers postseason record[1][3]. This result, confirmed via post-game r",
-      "direction": "NO",
+      "headline": "Fed Chair Powell warns of 'very unusual' economy with tariff-driven goods inflation peaking Q1 2026, amid rate cut and l",
+      "raw": "Fed Chair Powell warns of 'very unusual' economy with tariff-driven goods inflation peaking Q1 2026, amid rate cut and labor market fragility | NO | HIGH confidence**[1]\n\nPowell, in a Wednesday statement (likely recent given 2026 context), described the U.S. economy as navigating tariff-induced goods inflation\u2014elevated but excluding tariff-affected goods at low 2%\u2014while official payrolls overstate",
+      "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
-        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
+        "Will Powell say \"Tariff inflation\" during April press conference?"
       ],
       "action": "ENTER",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776786647444_0",
+      "timestamp": "2026-04-21T15:50:47.444447+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Based on the search results available, here are the confirmed developments in April 2026 that have market-moving implica",
+      "raw": "Based on the search results available, here are the confirmed developments in April 2026 that have market-moving implications:",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776786647448_1",
+      "timestamp": "2026-04-21T15:50:47.448901+00:00",
+      "source": "PERPLEXITY",
+      "headline": "RAKUTEN WALLET LAUNCHES WITH XRP INTEGRATION | YES | HIGH confidence**",
+      "raw": "RAKUTEN WALLET LAUNCHES WITH XRP INTEGRATION | YES | HIGH confidence**\nRakuten Wallet went live on April 15, 2026, with XRP integration, triggering institutional inflows and contributing to XRP's first test of the $1.50 level since February.[3]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
+        "XRP Up or Down - April 22, 8:20AM-8:25AM ET",
+        "XRP Up or Down - April 22, 8:25AM-8:30AM ET"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776786647457_2",
+      "timestamp": "2026-04-21T15:50:47.457855+00:00",
+      "source": "PERPLEXITY",
+      "headline": "INSTITUTIONAL ETF INFLOWS REVERSE RETAIL-LED RALLIES | YES | HIGH confidence**",
+      "raw": "INSTITUTIONAL ETF INFLOWS REVERSE RETAIL-LED RALLIES | YES | HIGH confidence**\nXRP investment products pulled in $224 million in the first week of April\u2014the largest single-country-led inflow rebound since December\u2014with spot ETF inflows leading before futures followed, indicating structural support.[3]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
+        "XRP Up or Down - April 22, 8:20AM-8:25AM ET",
+        "XRP Up or Down - April 22, 8:25AM-8:30AM ET"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776786647462_3",
+      "timestamp": "2026-04-21T15:50:47.462150+00:00",
+      "source": "PERPLEXITY",
+      "headline": "RLUSD STABLECOIN FULL-SCALE ROLLOUT ACROSS XRPL AND ETHEREUM | YES | MEDIUM confidence**",
+      "raw": "RLUSD STABLECOIN FULL-SCALE ROLLOUT ACROSS XRPL AND ETHEREUM | YES | MEDIUM confidence**\nRipple USD (RLUSD) has completed official full-scale rollout across the XRP Ledger and Ethereum, driving massive capital influx to the ecosystem.[1]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776786647466_4",
+      "timestamp": "2026-04-21T15:50:47.466665+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Current price action (as of April 19):** XRP traded at $1",
+      "raw": "Current price action (as of April 19):** XRP traded at $1.4278, representing a 4% pullback from the April 17 high but maintaining 12.7% gains from the April 12 low of $1.3250.[3]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
+        "XRP Up or Down - April 22, 8:20AM-8:25AM ET",
+        "XRP Up or Down - April 22, 8:25AM-8:30AM ET"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776786657594_0",
+      "timestamp": "2026-04-21T15:50:57.594868+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Cavaliers take 2-0 series lead over Raptors after 115-105 Game 2 win** | **YES** | **HIGH** confidence",
+      "raw": "Cavaliers take 2-0 series lead over Raptors after 115-105 Game 2 win** | **YES** | **HIGH** confidence\n\nThe Cleveland Cavaliers defeated the Toronto Raptors 115-105 in Game 2 on Monday night, securing a 2-0 lead in their Eastern Conference first-round playoff series, with Donovan Mitchell scoring 30 points, James Harden adding 28, and Evan Mobley contributing 25 points and eight rebounds.[2][3] Th",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
+      ],
+      "action": "ALERT",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776786465715_6",
-      "timestamp": "2026-04-21T15:47:45.715492+00:00",
-      "source": "PERPLEXITY",
-      "headline": "My recommendation:**",
-      "raw": "My recommendation:**\n\nTo answer your query accurately, I would need search results from today (April 21, 2026, after 3 PM UTC) containing actual breaking news about these topics. The current results don't provide sufficient information to identify what has been \"just confirmed, announced, or resolved\" in real-time market-moving developments.",
-      "direction": null,
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_1776786470831_2",
-      "timestamp": "2026-04-21T15:47:50.831818+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Price predictions for April (SOL $75\u2013$100, ETH $1,800\u2013$2,400) and catalysts like Firedancer, but these are forecasts ami",
-      "raw": "Price predictions for April (SOL $75\u2013$100, ETH $1,800\u2013$2,400) and catalysts like Firedancer, but these are forecasts amid bearish pressure, ETF outflows, and no strong conviction[1][4][5][6].\n\nNo evidence of \"just confirmed\" events (e.g., ETF approvals, outage resolutions, or regulatory wins) in results to shift prediction markets today[1][2][3][4][5][6].",
-      "direction": "NO",
-      "confidence": 0.78,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776786465688_0",
-      "timestamp": "2026-04-21T15:47:45.688511+00:00",
-      "source": "PERPLEXITY",
-      "headline": "I cannot provide a meaningful answer to this query based on the available search results",
-      "raw": "I cannot provide a meaningful answer to this query based on the available search results. Here's why:",
-      "direction": null,
+      "id": "sig_1776786691585_0",
+      "timestamp": "2026-04-21T15:51:31.585848+00:00",
+      "source": "X_GROK",
+      "headline": "SPY Weekly Markets Mispriced (Apr 20, 2026):** Top 1% Polymarket MM Jason San built options model revealing arb ops both",
+      "raw": "SPY Weekly Markets Mispriced (Apr 20, 2026):** Top 1% Polymarket MM Jason San built options model revealing arb ops both directions; markets inefficient, farm mispricings + $POLY airdrop.[[1]](https://x.com/i/status/2046156150341787861) Arb YES (profit either side), confidence HIGH.",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
+      "x_link": "https://x.com/i/status/2046156150341787861)",
+      "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776786465693_1",
-      "timestamp": "2026-04-21T15:47:45.693025+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Limitations of the search results:**",
-      "raw": "Limitations of the search results:**\n\nThe search results contain only fragmented information that doesn't support actionable breaking news claims:",
-      "direction": null,
+      "id": "sig_1776786691590_1",
+      "timestamp": "2026-04-21T15:51:31.590133+00:00",
+      "source": "X_GROK",
+      "headline": "Crypto 15m/1h \"Up/Down\" HFT Bot:** Trader printed $500k in 25 days on BTC/ETH/SOL/XRP short-term; absorbs fees, 24k pred",
+      "raw": "Crypto 15m/1h \"Up/Down\" HFT Bot:** Trader printed $500k in 25 days on BTC/ETH/SOL/XRP short-term; absorbs fees, 24k preds, quant edge on volume/micro-inefficiencies.[[2]](https://x.com/i/status/2046241387742708008) Smart money YES short-term crypto PMs, confidence HIGH.",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
+      "x_link": "https://x.com/i/status/2046241387742708008)",
+      "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776786465697_2",
-      "timestamp": "2026-04-21T15:47:45.697599+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Trump and Ty Masterson**: Result [1] discusses Trump's political network supporting Masterson in the Kansas governor's",
-      "raw": "**Trump and Ty Masterson**: Result [1] discusses Trump's political network supporting Masterson in the Kansas governor's race, but this article appears to be from an earlier date in 2026 and doesn't represent breaking news \"right now.\"",
-      "direction": null,
+      "id": "sig_1776786691594_2",
+      "timestamp": "2026-04-21T15:51:31.594392+00:00",
+      "source": "X_GROK",
+      "headline": "Celtics vs 76ers Whale Bet:** $44k into Celtics win @89\u00a2; clean fave play",
+      "raw": "Celtics vs 76ers Whale Bet:** $44k into Celtics win @89\u00a2; clean fave play.[[3]](https://x.com/i/status/2046616838881091947) YES Celtics, confidence HIGH.",
+      "direction": "YES",
       "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2046616838881091947)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776786691598_3",
+      "timestamp": "2026-04-21T15:51:31.598655+00:00",
+      "source": "X_GROK",
+      "headline": "Fed Rates No Change (Apr 2026 Mtg) Whale:** $103k sell YES @99",
+      "raw": "Fed Rates No Change (Apr 2026 Mtg) Whale:** $103k sell YES @99.3\u00a2 (locking profit on near-certainty?).[[4]](https://x.com/i/status/2046615903346024753) YES no change, confidence HIGH (but exit signal?).",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2046615903346024753)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776786691605_4",
+      "timestamp": "2026-04-21T15:51:31.605694+00:00",
+      "source": "X_GROK",
+      "headline": "US-Iran Ceasefire Pre-News Whale:** $80k YES stacked 4hrs before announcement; conviction/informed flow beats headlines",
+      "raw": "US-Iran Ceasefire Pre-News Whale:** $80k YES stacked 4hrs before announcement; conviction/informed flow beats headlines.[[5]](https://x.com/i/status/2046242833581871585) YES ceasefire (resolved?), confidence HIGH (hindsight).",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2046242833581871585)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776786691614_5",
+      "timestamp": "2026-04-21T15:51:31.614139+00:00",
+      "source": "X_GROK",
+      "headline": "Politics Arb Rich:** Study shows $40M arb profits (bots $4",
+      "raw": "Politics Arb Rich:** Study shows $40M arb profits (bots $4.2M); mispricings in thin political mkts, cross-mkt gaps.[[6]](https://x.com/i/status/2046216070663651474) Arb YES politics, confidence MED.",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2046216070663651474)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776786691621_6",
+      "timestamp": "2026-04-21T15:51:31.621723+00:00",
+      "source": "X_GROK",
+      "headline": "General Tips Trending:** Track whales via tools (PolyTap, FlowPredict); avoid leaderboard copytrade (zombie orders fake",
+      "raw": "General Tips Trending:** Track whales via tools (PolyTap, FlowPredict); avoid leaderboard copytrade (zombie orders fake win rates 50-67% real top); focus arb/CLV vs news-chasing.[[7]](https://x.com/i/status/2046031153098793316)[[8]](https://x.com/i/status/2046605957036490886) Mispriced opps > prediction, confidence MED.",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2046031153098793316)[[8]](https://x.com/i/status/2046605957036490886)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776786639370_0",
+      "timestamp": "2026-04-21T15:50:39.370238+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Kansas Governor's Race Heats Up as 2026 Legislative Session Ends Without Key Republican Tax Reforms, Boosting Outsider C",
+      "raw": "Kansas Governor's Race Heats Up as 2026 Legislative Session Ends Without Key Republican Tax Reforms, Boosting Outsider Candidate Philip Sarni | YES | MED confidence**\n\nThe Kansas legislature concluded its 2026 session without passing property tax relief, income tax cuts, or reductions in state budget waste, despite a Republican supermajority\u2014outcomes aligning closely with Democratic Governor Laura",
+      "direction": "YES",
+      "confidence": 0.6,
       "matched_markets": [
-        "Will Ty Masterson win the 2026 Kansas Governor Republican primary election?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_1776786465702_3",
-      "timestamp": "2026-04-21T15:47:45.702112+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**US-Iran talks**: Result [2] mentions collapsed US-Iran negotiations from April 13, 2026, but this is over a week old r",
-      "raw": "**US-Iran talks**: Result [2] mentions collapsed US-Iran negotiations from April 13, 2026, but this is over a week old relative to the stated current date (April 21, 2026) and doesn't constitute current breaking news.",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_1776786465706_4",
-      "timestamp": "2026-04-21T15:47:45.706588+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Kerala Legislative Assembly**: No relevant information appears in the search results",
-      "raw": "**Kerala Legislative Assembly**: No relevant information appears in the search results.",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
+        "Will Trump agree to Iranian enrichment of uranium in April?",
+        "Will Ty Masterson win the 2026 Kansas Governor Republican primary election?",
         "Will the Indian Union Muslim League (IUML) win between 10 and 12 seats in the 20"
       ],
-      "action": "ALERT",
+      "action": "WATCH",
       "x_link": null,
       "category": "POLITICS"
-    },
-    {
-      "id": "sig_1776786465710_5",
-      "timestamp": "2026-04-21T15:47:45.710917+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Governor race confirmation/announcement**: No new confirmation or announcement is evident in these results that would",
-      "raw": "**Governor race confirmation/announcement**: No new confirmation or announcement is evident in these results that would move prediction markets today.\n\nResults [3], [4], [5], and [6] are vocabulary/word lists with no news value.",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_1776786470822_0",
-      "timestamp": "2026-04-21T15:47:50.822718+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Solana's Alpenglow upgrade** (aiming for 150ms finality) and network records (167M token holders, 148M daily transacti",
-      "raw": "**Solana's Alpenglow upgrade** (aiming for 150ms finality) and network records (167M token holders, 148M daily transactions) noted around April 14, with institutional ETF holdings from BlackRock/Fidelity, but no new April 21 updates[2].",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Solana Up or Down - April 21, 11:40AM-11:45AM ET"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776786470827_1",
-      "timestamp": "2026-04-21T15:47:50.827228+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Interactive Brokers' SOL trading launch** for Europeans via Zero Hash, enabling direct access, yet price remains compr",
-      "raw": "**Interactive Brokers' SOL trading launch** for Europeans via Zero Hash, enabling direct access, yet price remains compressed at ~$80\u2013$83 without breakout[3].",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776786478402_0",
-      "timestamp": "2026-04-21T15:47:58.402773+00:00",
-      "source": "PERPLEXITY",
-      "headline": "I cannot provide the breaking news update you're requesting because the search results available to me are from 2025 and",
-      "raw": "I cannot provide the breaking news update you're requesting because the search results available to me are from 2025 and early 2025, while today's date is April 21, 2026. The most recent content in these results is from October 29, 2025, which is nearly six months old.\n\nTo get current breaking news about Powell, inflation, and tariffs from today, you would need to search current news sources direc",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Powell say \"Tariff inflation\" during April press conference?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
     }
   ],
   "stats": {
     "enter": 1,
-    "alert": 11,
-    "watch": 0,
+    "alert": 13,
+    "watch": 1,
     "high_conf": 2
   }
 }
