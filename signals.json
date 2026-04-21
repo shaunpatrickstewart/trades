@@ -1,47 +1,111 @@
 {
-  "last_scan": "2026-04-21T16:12:17.368561+00:00",
-  "scan_seconds": 22.6,
-  "markets_scanned": 58,
+  "last_scan": "2026-04-21T16:15:19.375938+00:00",
+  "scan_seconds": 40.7,
+  "markets_scanned": 59,
   "open_positions": 22,
   "signals": [
     {
-      "id": "sig_1776787931457_0",
-      "timestamp": "2026-04-21T16:12:11.457496+00:00",
+      "id": "sig_1776788085155_0",
+      "timestamp": "2026-04-21T16:14:45.155828+00:00",
       "source": "PERPLEXITY",
-      "headline": "SEC Drops Long-Running Lawsuit Against Ripple Labs | YES | HIGH confidence**",
-      "raw": "SEC Drops Long-Running Lawsuit Against Ripple Labs | YES | HIGH confidence**  \nThe SEC's decision to drop its lawsuit against Ripple has been confirmed as a key catalyst for XRP's April 2026 surge, with the token gaining nearly 10% in the past week to ~$1.42 after breaking $1.50 resistance[1]. This regulatory resolution signals a fundamental shift in market sentiment, removing a multi-year overhan",
+      "headline": "Kansas Senate President Ty Masterson Announces 2026 Gubernatorial Bid | YES | HIGH confidence**",
+      "raw": "Kansas Senate President Ty Masterson Announces 2026 Gubernatorial Bid | YES | HIGH confidence**  \nTy Masterson, current Kansas state Senate president and a Republican, officially announced his candidacy for Kansas governor on Sunday, joining other GOP contenders like Jeff Colyer, Scott Schwab, and Vicki Schmidt to challenge term-limited Democratic Gov. Laura Kelly in the 2026 race.[1][2][3]  \nThis",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
-        "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
-        "XRP Up or Down - April 22, 8:20AM-8:25AM ET",
-        "XRP Up or Down - April 22, 8:25AM-8:30AM ET"
+        "Will Trump agree to Iranian enrichment of uranium in April?",
+        "Will Ty Masterson win the 2026 Kansas Governor Republican primary election?",
+        "Will the Indian Union Muslim League (IUML) win between 10 and 12 seats in the 20"
       ],
       "action": "ENTER",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "POLITICS"
     },
     {
-      "id": "sig_1776787920300_0",
-      "timestamp": "2026-04-21T16:12:00.300037+00:00",
+      "id": "sig_1776788103073_0",
+      "timestamp": "2026-04-21T16:15:03.073234+00:00",
       "source": "PERPLEXITY",
-      "headline": "YES** on prediction markets for \"ceasefire holding short-term\" or \"talks advancing\" (e",
-      "raw": "YES** on prediction markets for \"ceasefire holding short-term\" or \"talks advancing\" (e.g., confirmed second round of **Israel-Lebanon talks** in Washington on Thursday, April 23, led by Lebanon's Simon Karam; U.S.-Iran talks this week amid Trump's deadline pressure), but **NO** on permanent resolution, Hezbollah disarmament, or full Israeli withdrawal\u2014tensions high, divisions persist[1][2][3][4]. ",
+      "headline": "Cavaliers Defeat Raptors 115-105 in Game 2, Lead Series 2-0 | YES (Cavaliers favored to win series) | HIGH confidence**[",
+      "raw": "Cavaliers Defeat Raptors 115-105 in Game 2, Lead Series 2-0 | YES (Cavaliers favored to win series) | HIGH confidence**[1][2]\n\nDonovan Mitchell scored 30 points with 7 rebounds and 5 assists, while James Harden added 28 points on efficient shooting to power the Cavaliers' victory in Cleveland on April 20, 2026.[1][2] Scottie Barnes led the Raptors with 26 points and 5 assists, but they fell short ",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776788119355_0",
+      "timestamp": "2026-04-21T16:15:19.355884+00:00",
+      "source": "X_GROK",
+      "headline": "US-Iran Peace Deal Market:** Whale loaded ~$500k into NO shares hours before CIA analyst leak on Trump nuclear codes att",
+      "raw": "US-Iran Peace Deal Market:** Whale loaded ~$500k into NO shares hours before CIA analyst leak on Trump nuclear codes attempt; wallet 100% accurate on 8 prior conflict markets. Signals NO resolution imminent. YES on \"no peace\" / NO on peace deal. Confidence: HIGH.[[1]](https://x.com/i/status/2046587901383770623)[[2]](https://x.com/i/status/2046581411243516144)",
       "direction": "YES",
       "confidence": 0.65,
-      "matched_markets": [
-        "Will Trump agree to Iranian enrichment of uranium in April?",
-        "Israel x Hezbollah Ceasefire extended by April 26, 2026?"
-      ],
+      "matched_markets": [],
       "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
+      "x_link": "https://x.com/i/status/2046587901383770623)[[2]](https://x.com/i/status/2046581411243516144)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776788119360_1",
+      "timestamp": "2026-04-21T16:15:19.360323+00:00",
+      "source": "X_GROK",
+      "headline": "OpenAI Surpasses Anthropic (April):** $20k whale bet on YES amid ChatGPT \"Spud\" API leaks and 83% release odds for Apr 2",
+      "raw": "OpenAI Surpasses Anthropic (April):** $20k whale bet on YES amid ChatGPT \"Spud\" API leaks and 83% release odds for Apr 23 (previously faded). Gap narrowing to 30% YES. Potential edge if model drops. Confidence: MED.[[2]](https://x.com/i/status/2046581411243516144)",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2046581411243516144)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776788119364_2",
+      "timestamp": "2026-04-21T16:15:19.364785+00:00",
+      "source": "X_GROK",
+      "headline": "Weather Markets:** Trader @wegotit2green up $19k+ spotting hourly forecast divergences (e",
+      "raw": "Weather Markets:** Trader @wegotit2green up $19k+ spotting hourly forecast divergences (e.g., $32 rain bet \u2192 $664). Markets lag updates. Buy YES/NO mismatches. Untapped edge. Confidence: HIGH.[[3]](https://x.com/i/status/2046161670397952457)",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2046161670397952457)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776788119371_3",
+      "timestamp": "2026-04-21T16:15:19.371213+00:00",
+      "source": "X_GROK",
+      "headline": "Football Favorites:** Top trader jtwyslljy ($1",
+      "raw": "Football Favorites:** Top trader jtwyslljy ($1.1M profit, 39% win) fades NO on Man City/Real Madrid etc. Asymmetry: pay 20\u00a2 for 5x when upsets hit. Weekend plays. Confidence: HIGH.[[4]](https://x.com/i/status/2046613764699767169)",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2046613764699767169)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776788119375_4",
+      "timestamp": "2026-04-21T16:15:19.375695+00:00",
+      "source": "X_GROK",
+      "headline": "NBA/Sports Edge:** Claude framework +6k profit (62/14 days), lifetime +31k from $1",
+      "raw": "NBA/Sports Edge:** Claude framework +6k profit (62/14 days), lifetime +31k from $1.6k seed. Models detect mispricings. Trending tool.[[5]](https://x.com/i/status/2046608647111995808)\n\nTips: Track whales/bots for odds (Lark guide), Elon tweet tools (@elon_tracker), asymmetry over win rate.[[6]](https://x.com/i/status/2046031153098793316)[[7]](https://x.com/i/status/2046607166904131813)",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2046608647111995808)",
+      "category": "COMMUNITY"
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 1,
+    "enter": 2,
+    "alert": 5,
     "watch": 0,
-    "high_conf": 1
+    "high_conf": 2
   }
 }
