@@ -1,5 +1,5 @@
 {
-  "ts": 1776813558,
+  "ts": 1776814190,
   "stale": false,
   "feed_ages": {
     "prices_age_s": 0,
@@ -7,7 +7,7 @@
     "usdc_age_s": 0
   },
   "prices": {
-    "usdc_usd": 0.999825
+    "usdc_usd": 0.999869
   },
   "polymarket": {
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
@@ -53,10 +53,10 @@
         "slug": "highest-temperature-in-houston-on-april-22-2026-68-69f",
         "title": "Will the highest temperature in Houston be between 68-69\u00b0F on April 22?",
         "size": 25.4899,
-        "cur_price": 0.995,
-        "nav_usdc": 25.3625,
+        "cur_price": 0.996,
+        "nav_usdc": 25.3879,
         "cost_basis": 25.2351,
-        "unrealized_pnl": 0.1274
+        "unrealized_pnl": 0.1528
       },
       {
         "slug": "highest-temperature-in-wellington-on-april-20-2026-16c",
@@ -116,10 +116,10 @@
         "slug": "will-montreal-canadiens-advance-to-round-2-of-the-2026-nhl-playoffs",
         "title": "Will Montreal Canadiens advance to Round 2 of the 2026 NHL Playoffs?",
         "size": 7.5664,
-        "cur_price": 0.515,
-        "nav_usdc": 3.8967,
+        "cur_price": 0.525,
+        "nav_usdc": 3.9724,
         "cost_basis": 4.1615,
-        "unrealized_pnl": -0.2648
+        "unrealized_pnl": -0.1891
       },
       {
         "slug": "highest-temperature-in-paris-on-april-20-2026-13c",
@@ -134,10 +134,10 @@
         "slug": "will-trump-agree-to-iranian-enrichment-of-uranium-in-april",
         "title": "Will Trump agree to Iranian enrichment of uranium in April?",
         "size": 5.05,
-        "cur_price": 0.1855,
-        "nav_usdc": 0.9368,
+        "cur_price": 0.1825,
+        "nav_usdc": 0.9216,
         "cost_basis": 1.6917,
-        "unrealized_pnl": -0.7549
+        "unrealized_pnl": -0.7701
       },
       {
         "slug": "deepseek-v4-released-by-april-30-896",
@@ -152,19 +152,19 @@
         "slug": "will-cooper-flagg-win-the-202526-nba-rookie-of-the-year-award",
         "title": "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
         "size": 5.05,
-        "cur_price": 0.3175,
-        "nav_usdc": 1.6034,
+        "cur_price": 0.316,
+        "nav_usdc": 1.5958,
         "cost_basis": 1.7624,
-        "unrealized_pnl": -0.159
+        "unrealized_pnl": -0.1666
       },
       {
         "slug": "nba-playoffs-who-will-win-series-raptors-vs-cavaliers",
         "title": "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
         "size": 5.0348,
-        "cur_price": 0.9595,
-        "nav_usdc": 4.8309,
+        "cur_price": 0.9615,
+        "nav_usdc": 4.841,
         "cost_basis": 4.5313,
-        "unrealized_pnl": 0.2996
+        "unrealized_pnl": 0.3097
       },
       {
         "slug": "mlb-bal-cle-2026-04-19",
@@ -285,16 +285,886 @@
       }
     ],
     "position_count": 30,
-    "positions_nav_usdc": 228.5972,
-    "total_usdc": 402.4261,
-    "total_usd": 402.3556
+    "positions_nav_usdc": 228.6857,
+    "total_usdc": 402.5146,
+    "total_usd": 402.4618
   },
   "kalshi": {
     "funded": false,
     "total_usd": 0.0
   },
+  "pnl": {
+    "ts": 1776814191,
+    "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
+    "activity_rows": 48,
+    "today": {
+      "window": "today",
+      "window_start_ts": 1776729600,
+      "realized_usdc": 0.4633,
+      "trade_count": 15,
+      "buy_volume_usdc": 150.7566,
+      "sell_volume_usdc": 180.4188,
+      "closed_positions": 2,
+      "winning_positions": 2,
+      "win_rate_pct": 100.0,
+      "per_position": [
+        {
+          "title": "Will the highest temperature in Cape Town be 22\u00b0C or higher on April 21?",
+          "slug": "highest-temperature-in-cape-town-on-april-21-2026-22corhigher",
+          "outcome_index": 1,
+          "buys_usdc": 29.0268,
+          "sells_usdc": 29.2584,
+          "net_size": 0.0,
+          "closed": true,
+          "realized_usdc": 0.2316
+        },
+        {
+          "title": "Will the highest temperature in Lucknow be 45\u00b0C on April 21?",
+          "slug": "highest-temperature-in-lucknow-on-april-21-2026-45c",
+          "outcome_index": 1,
+          "buys_usdc": 29.0268,
+          "sells_usdc": 29.2584,
+          "net_size": 0.0,
+          "closed": true,
+          "realized_usdc": 0.2316
+        },
+        {
+          "title": "Will Russia enter Ternuvate again by April 30?",
+          "slug": "will-russia-enter-ternuvate-again-by-april-30",
+          "outcome_index": 0,
+          "buys_usdc": 1.7618,
+          "sells_usdc": 0.0,
+          "net_size": 7.66,
+          "closed": false,
+          "realized_usdc": 0.0
+        },
+        {
+          "title": "Will Montreal Canadiens advance to Round 2 of the 2026 NHL Playoffs?",
+          "slug": "will-montreal-canadiens-advance-to-round-2-of-the-2026-nhl-playoffs",
+          "outcome_index": 1,
+          "buys_usdc": 4.2185,
+          "sells_usdc": 0.0,
+          "net_size": 7.5665,
+          "closed": false,
+          "realized_usdc": 0.0
+        },
+        {
+          "title": "Strait of Hormuz traffic returns to normal by end of April?",
+          "slug": "strait-of-hormuz-traffic-returns-to-normal-by-april-30",
+          "outcome_index": 0,
+          "buys_usdc": 2.295,
+          "sells_usdc": 0.0,
+          "net_size": 7.65,
+          "closed": false,
+          "realized_usdc": 0.0
+        },
+        {
+          "title": "Will the highest temperature in Madrid be 31\u00b0C on April 21?",
+          "slug": "highest-temperature-in-madrid-on-april-21-2026-31c",
+          "outcome_index": 1,
+          "buys_usdc": 28.9476,
+          "sells_usdc": 0.0,
+          "net_size": 29.24,
+          "closed": false,
+          "realized_usdc": 0.0
+        },
+        {
+          "title": "Will the highest temperature in Houston be between 68-69\u00b0F on April 22?",
+          "slug": "highest-temperature-in-houston-on-april-22-2026-68-69f",
+          "outcome_index": 1,
+          "buys_usdc": 25.2351,
+          "sells_usdc": 0.0,
+          "net_size": 25.49,
+          "closed": false,
+          "realized_usdc": 0.0
+        },
+        {
+          "title": "Will the highest temperature in Miami be between 86-87\u00b0F on April 21?",
+          "slug": "highest-temperature-in-miami-on-april-21-2026-86-87f",
+          "outcome_index": 1,
+          "buys_usdc": 28.9476,
+          "sells_usdc": 0.0,
+          "net_size": 29.24,
+          "closed": false,
+          "realized_usdc": 0.0
+        },
+        {
+          "title": "Will the highest temperature in Austin be between 72-73\u00b0F on April 20?",
+          "slug": "highest-temperature-in-austin-on-april-20-2026-72-73f",
+          "outcome_index": 1,
+          "buys_usdc": 0.0,
+          "sells_usdc": 121.9019,
+          "net_size": -122.03,
+          "closed": false,
+          "realized_usdc": 0.0
+        },
+        {
+          "title": "Will April 2026 be the 4th or lower hottest on record?",
+          "slug": "will-april-2026-be-the-4th-or-lower-hottest-on-record",
+          "outcome_index": 0,
+          "buys_usdc": 1.2974,
+          "sells_usdc": 0.0,
+          "net_size": 8.16,
+          "closed": false,
+          "realized_usdc": 0.0
+        }
+      ]
+    },
+    "24h": {
+      "window": "24h",
+      "window_start_ts": 1776727791,
+      "realized_usdc": 0.4633,
+      "trade_count": 15,
+      "buy_volume_usdc": 150.7566,
+      "sell_volume_usdc": 180.4188,
+      "closed_positions": 2,
+      "winning_positions": 2,
+      "win_rate_pct": 100.0,
+      "per_position": [
+        {
+          "title": "Will the highest temperature in Cape Town be 22\u00b0C or higher on April 21?",
+          "slug": "highest-temperature-in-cape-town-on-april-21-2026-22corhigher",
+          "outcome_index": 1,
+          "buys_usdc": 29.0268,
+          "sells_usdc": 29.2584,
+          "net_size": 0.0,
+          "closed": true,
+          "realized_usdc": 0.2316
+        },
+        {
+          "title": "Will the highest temperature in Lucknow be 45\u00b0C on April 21?",
+          "slug": "highest-temperature-in-lucknow-on-april-21-2026-45c",
+          "outcome_index": 1,
+          "buys_usdc": 29.0268,
+          "sells_usdc": 29.2584,
+          "net_size": 0.0,
+          "closed": true,
+          "realized_usdc": 0.2316
+        },
+        {
+          "title": "Will Russia enter Ternuvate again by April 30?",
+          "slug": "will-russia-enter-ternuvate-again-by-april-30",
+          "outcome_index": 0,
+          "buys_usdc": 1.7618,
+          "sells_usdc": 0.0,
+          "net_size": 7.66,
+          "closed": false,
+          "realized_usdc": 0.0
+        },
+        {
+          "title": "Will Montreal Canadiens advance to Round 2 of the 2026 NHL Playoffs?",
+          "slug": "will-montreal-canadiens-advance-to-round-2-of-the-2026-nhl-playoffs",
+          "outcome_index": 1,
+          "buys_usdc": 4.2185,
+          "sells_usdc": 0.0,
+          "net_size": 7.5665,
+          "closed": false,
+          "realized_usdc": 0.0
+        },
+        {
+          "title": "Strait of Hormuz traffic returns to normal by end of April?",
+          "slug": "strait-of-hormuz-traffic-returns-to-normal-by-april-30",
+          "outcome_index": 0,
+          "buys_usdc": 2.295,
+          "sells_usdc": 0.0,
+          "net_size": 7.65,
+          "closed": false,
+          "realized_usdc": 0.0
+        },
+        {
+          "title": "Will the highest temperature in Madrid be 31\u00b0C on April 21?",
+          "slug": "highest-temperature-in-madrid-on-april-21-2026-31c",
+          "outcome_index": 1,
+          "buys_usdc": 28.9476,
+          "sells_usdc": 0.0,
+          "net_size": 29.24,
+          "closed": false,
+          "realized_usdc": 0.0
+        },
+        {
+          "title": "Will the highest temperature in Houston be between 68-69\u00b0F on April 22?",
+          "slug": "highest-temperature-in-houston-on-april-22-2026-68-69f",
+          "outcome_index": 1,
+          "buys_usdc": 25.2351,
+          "sells_usdc": 0.0,
+          "net_size": 25.49,
+          "closed": false,
+          "realized_usdc": 0.0
+        },
+        {
+          "title": "Will the highest temperature in Miami be between 86-87\u00b0F on April 21?",
+          "slug": "highest-temperature-in-miami-on-april-21-2026-86-87f",
+          "outcome_index": 1,
+          "buys_usdc": 28.9476,
+          "sells_usdc": 0.0,
+          "net_size": 29.24,
+          "closed": false,
+          "realized_usdc": 0.0
+        },
+        {
+          "title": "Will the highest temperature in Austin be between 72-73\u00b0F on April 20?",
+          "slug": "highest-temperature-in-austin-on-april-20-2026-72-73f",
+          "outcome_index": 1,
+          "buys_usdc": 0.0,
+          "sells_usdc": 121.9019,
+          "net_size": -122.03,
+          "closed": false,
+          "realized_usdc": 0.0
+        },
+        {
+          "title": "Will April 2026 be the 4th or lower hottest on record?",
+          "slug": "will-april-2026-be-the-4th-or-lower-hottest-on-record",
+          "outcome_index": 0,
+          "buys_usdc": 1.2974,
+          "sells_usdc": 0.0,
+          "net_size": 8.16,
+          "closed": false,
+          "realized_usdc": 0.0
+        }
+      ]
+    },
+    "7d": {
+      "window": "7d",
+      "window_start_ts": 1776209391,
+      "realized_usdc": 1.5555,
+      "trade_count": 48,
+      "buy_volume_usdc": 407.8273,
+      "sell_volume_usdc": 180.4188,
+      "closed_positions": 3,
+      "winning_positions": 3,
+      "win_rate_pct": 100.0,
+      "per_position": [
+        {
+          "title": "Will the highest temperature in Austin be between 72-73\u00b0F on April 20?",
+          "slug": "highest-temperature-in-austin-on-april-20-2026-72-73f",
+          "outcome_index": 1,
+          "buys_usdc": 120.8097,
+          "sells_usdc": 121.9019,
+          "net_size": -0.0,
+          "closed": true,
+          "realized_usdc": 1.0922
+        },
+        {
+          "title": "Will the highest temperature in Cape Town be 22\u00b0C or higher on April 21?",
+          "slug": "highest-temperature-in-cape-town-on-april-21-2026-22corhigher",
+          "outcome_index": 1,
+          "buys_usdc": 29.0268,
+          "sells_usdc": 29.2584,
+          "net_size": 0.0,
+          "closed": true,
+          "realized_usdc": 0.2316
+        },
+        {
+          "title": "Will the highest temperature in Lucknow be 45\u00b0C on April 21?",
+          "slug": "highest-temperature-in-lucknow-on-april-21-2026-45c",
+          "outcome_index": 1,
+          "buys_usdc": 29.0268,
+          "sells_usdc": 29.2584,
+          "net_size": 0.0,
+          "closed": true,
+          "realized_usdc": 0.2316
+        },
+        {
+          "title": "Will Russia enter Ternuvate again by April 30?",
+          "slug": "will-russia-enter-ternuvate-again-by-april-30",
+          "outcome_index": 0,
+          "buys_usdc": 1.7618,
+          "sells_usdc": 0.0,
+          "net_size": 7.66,
+          "closed": false,
+          "realized_usdc": 0.0
+        },
+        {
+          "title": "Will Montreal Canadiens advance to Round 2 of the 2026 NHL Playoffs?",
+          "slug": "will-montreal-canadiens-advance-to-round-2-of-the-2026-nhl-playoffs",
+          "outcome_index": 1,
+          "buys_usdc": 4.2185,
+          "sells_usdc": 0.0,
+          "net_size": 7.5665,
+          "closed": false,
+          "realized_usdc": 0.0
+        },
+        {
+          "title": "Strait of Hormuz traffic returns to normal by end of April?",
+          "slug": "strait-of-hormuz-traffic-returns-to-normal-by-april-30",
+          "outcome_index": 0,
+          "buys_usdc": 2.295,
+          "sells_usdc": 0.0,
+          "net_size": 7.65,
+          "closed": false,
+          "realized_usdc": 0.0
+        },
+        {
+          "title": "Will the highest temperature in Madrid be 31\u00b0C on April 21?",
+          "slug": "highest-temperature-in-madrid-on-april-21-2026-31c",
+          "outcome_index": 1,
+          "buys_usdc": 28.9476,
+          "sells_usdc": 0.0,
+          "net_size": 29.24,
+          "closed": false,
+          "realized_usdc": 0.0
+        },
+        {
+          "title": "Will the highest temperature in Houston be between 68-69\u00b0F on April 22?",
+          "slug": "highest-temperature-in-houston-on-april-22-2026-68-69f",
+          "outcome_index": 1,
+          "buys_usdc": 25.2351,
+          "sells_usdc": 0.0,
+          "net_size": 25.49,
+          "closed": false,
+          "realized_usdc": 0.0
+        },
+        {
+          "title": "Will the highest temperature in Miami be between 86-87\u00b0F on April 21?",
+          "slug": "highest-temperature-in-miami-on-april-21-2026-86-87f",
+          "outcome_index": 1,
+          "buys_usdc": 28.9476,
+          "sells_usdc": 0.0,
+          "net_size": 29.24,
+          "closed": false,
+          "realized_usdc": 0.0
+        },
+        {
+          "title": "Will April 2026 be the 4th or lower hottest on record?",
+          "slug": "will-april-2026-be-the-4th-or-lower-hottest-on-record",
+          "outcome_index": 0,
+          "buys_usdc": 1.2974,
+          "sells_usdc": 0.0,
+          "net_size": 8.16,
+          "closed": false,
+          "realized_usdc": 0.0
+        },
+        {
+          "title": "Will the highest temperature in Hong Kong be 31\u00b0C or higher on April 21?",
+          "slug": "highest-temperature-in-hong-kong-on-april-21-2026-31corhigher",
+          "outcome_index": 1,
+          "buys_usdc": 28.9476,
+          "sells_usdc": 0.0,
+          "net_size": 29.24,
+          "closed": false,
+          "realized_usdc": 0.0
+        },
+        {
+          "title": "Will the highest temperature in Paris be 13\u00b0C on April 20?",
+          "slug": "highest-temperature-in-paris-on-april-20-2026-13c",
+          "outcome_index": 1,
+          "buys_usdc": 5.2074,
+          "sells_usdc": 0.0,
+          "net_size": 5.26,
+          "closed": false,
+          "realized_usdc": 0.0
+        },
+        {
+          "title": "Will the highest temperature in Cape Town be 21\u00b0C or higher on April 20?",
+          "slug": "highest-temperature-in-cape-town-on-april-20-2026-21corhigher",
+          "outcome_index": 1,
+          "buys_usdc": 14.0679,
+          "sells_usdc": 0.0,
+          "net_size": 14.21,
+          "closed": false,
+          "realized_usdc": 0.0
+        },
+        {
+          "title": "Will the highest temperature in Wellington be 16\u00b0C on April 20?",
+          "slug": "highest-temperature-in-wellington-on-april-20-2026-16c",
+          "outcome_index": 1,
+          "buys_usdc": 16.0677,
+          "sells_usdc": 0.0,
+          "net_size": 16.23,
+          "closed": false,
+          "realized_usdc": 0.0
+        },
+        {
+          "title": "Will the highest temperature in Atlanta be 69\u00b0F or below on April 20?",
+          "slug": "highest-temperature-in-atlanta-on-april-20-2026-69forbelow",
+          "outcome_index": 1,
+          "buys_usdc": 10.1475,
+          "sells_usdc": 0.0,
+          "net_size": 10.25,
+          "closed": false,
+          "realized_usdc": 0.0
+        },
+        {
+          "title": "Atlanta Braves vs. Philadelphia Phillies",
+          "slug": "mlb-atl-phi-2026-04-19",
+          "outcome_index": 1,
+          "buys_usdc": 2.4745,
+          "sells_usdc": 0.0,
+          "net_size": 4.9727,
+          "closed": false,
+          "realized_usdc": 0.0
+        },
+        {
+          "title": "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
+          "slug": "will-los-angeles-lakers-advance-to-the-conference-semifinals-in-the-2026-nba-playoffs",
+          "outcome_index": 0,
+          "buys_usdc": 1.717,
+          "sells_usdc": 0.0,
+          "net_size": 4.95,
+          "closed": false,
+          "realized_usdc": 0.0
+        },
+        {
+          "title": "Detroit Tigers vs. Boston Red Sox",
+          "slug": "mlb-det-bos-2026-04-19",
+          "outcome_index": 1,
+          "buys_usdc": 2.9795,
+          "sells_usdc": 0.0,
+          "net_size": 4.9879,
+          "closed": false,
+          "realized_usdc": 0.0
+        },
+        {
+          "title": "Chicago White Sox vs. Athletics",
+          "slug": "mlb-cws-oak-2026-04-19",
+          "outcome_index": 1,
+          "buys_usdc": 2.2725,
+          "sells_usdc": 0.0,
+          "net_size": 4.9667,
+          "closed": false,
+          "realized_usdc": 0.0
+        },
+        {
+          "title": "NBA Playoffs: Who Will Win Series? - Pistons vs. Magic ",
+          "slug": "nba-playoffs-who-will-win-series-pistons-vs-magic",
+          "outcome_index": 1,
+          "buys_usdc": 0.909,
+          "sells_usdc": 0.0,
+          "net_size": 4.9258,
+          "closed": false,
+          "realized_usdc": 0.0
+        }
+      ]
+    },
+    "30d": {
+      "window": "30d",
+      "window_start_ts": 1774222191,
+      "realized_usdc": 1.5555,
+      "trade_count": 48,
+      "buy_volume_usdc": 407.8273,
+      "sell_volume_usdc": 180.4188,
+      "closed_positions": 3,
+      "winning_positions": 3,
+      "win_rate_pct": 100.0,
+      "per_position": [
+        {
+          "title": "Will the highest temperature in Austin be between 72-73\u00b0F on April 20?",
+          "slug": "highest-temperature-in-austin-on-april-20-2026-72-73f",
+          "outcome_index": 1,
+          "buys_usdc": 120.8097,
+          "sells_usdc": 121.9019,
+          "net_size": -0.0,
+          "closed": true,
+          "realized_usdc": 1.0922
+        },
+        {
+          "title": "Will the highest temperature in Cape Town be 22\u00b0C or higher on April 21?",
+          "slug": "highest-temperature-in-cape-town-on-april-21-2026-22corhigher",
+          "outcome_index": 1,
+          "buys_usdc": 29.0268,
+          "sells_usdc": 29.2584,
+          "net_size": 0.0,
+          "closed": true,
+          "realized_usdc": 0.2316
+        },
+        {
+          "title": "Will the highest temperature in Lucknow be 45\u00b0C on April 21?",
+          "slug": "highest-temperature-in-lucknow-on-april-21-2026-45c",
+          "outcome_index": 1,
+          "buys_usdc": 29.0268,
+          "sells_usdc": 29.2584,
+          "net_size": 0.0,
+          "closed": true,
+          "realized_usdc": 0.2316
+        },
+        {
+          "title": "Will Russia enter Ternuvate again by April 30?",
+          "slug": "will-russia-enter-ternuvate-again-by-april-30",
+          "outcome_index": 0,
+          "buys_usdc": 1.7618,
+          "sells_usdc": 0.0,
+          "net_size": 7.66,
+          "closed": false,
+          "realized_usdc": 0.0
+        },
+        {
+          "title": "Will Montreal Canadiens advance to Round 2 of the 2026 NHL Playoffs?",
+          "slug": "will-montreal-canadiens-advance-to-round-2-of-the-2026-nhl-playoffs",
+          "outcome_index": 1,
+          "buys_usdc": 4.2185,
+          "sells_usdc": 0.0,
+          "net_size": 7.5665,
+          "closed": false,
+          "realized_usdc": 0.0
+        },
+        {
+          "title": "Strait of Hormuz traffic returns to normal by end of April?",
+          "slug": "strait-of-hormuz-traffic-returns-to-normal-by-april-30",
+          "outcome_index": 0,
+          "buys_usdc": 2.295,
+          "sells_usdc": 0.0,
+          "net_size": 7.65,
+          "closed": false,
+          "realized_usdc": 0.0
+        },
+        {
+          "title": "Will the highest temperature in Madrid be 31\u00b0C on April 21?",
+          "slug": "highest-temperature-in-madrid-on-april-21-2026-31c",
+          "outcome_index": 1,
+          "buys_usdc": 28.9476,
+          "sells_usdc": 0.0,
+          "net_size": 29.24,
+          "closed": false,
+          "realized_usdc": 0.0
+        },
+        {
+          "title": "Will the highest temperature in Houston be between 68-69\u00b0F on April 22?",
+          "slug": "highest-temperature-in-houston-on-april-22-2026-68-69f",
+          "outcome_index": 1,
+          "buys_usdc": 25.2351,
+          "sells_usdc": 0.0,
+          "net_size": 25.49,
+          "closed": false,
+          "realized_usdc": 0.0
+        },
+        {
+          "title": "Will the highest temperature in Miami be between 86-87\u00b0F on April 21?",
+          "slug": "highest-temperature-in-miami-on-april-21-2026-86-87f",
+          "outcome_index": 1,
+          "buys_usdc": 28.9476,
+          "sells_usdc": 0.0,
+          "net_size": 29.24,
+          "closed": false,
+          "realized_usdc": 0.0
+        },
+        {
+          "title": "Will April 2026 be the 4th or lower hottest on record?",
+          "slug": "will-april-2026-be-the-4th-or-lower-hottest-on-record",
+          "outcome_index": 0,
+          "buys_usdc": 1.2974,
+          "sells_usdc": 0.0,
+          "net_size": 8.16,
+          "closed": false,
+          "realized_usdc": 0.0
+        },
+        {
+          "title": "Will the highest temperature in Hong Kong be 31\u00b0C or higher on April 21?",
+          "slug": "highest-temperature-in-hong-kong-on-april-21-2026-31corhigher",
+          "outcome_index": 1,
+          "buys_usdc": 28.9476,
+          "sells_usdc": 0.0,
+          "net_size": 29.24,
+          "closed": false,
+          "realized_usdc": 0.0
+        },
+        {
+          "title": "Will the highest temperature in Paris be 13\u00b0C on April 20?",
+          "slug": "highest-temperature-in-paris-on-april-20-2026-13c",
+          "outcome_index": 1,
+          "buys_usdc": 5.2074,
+          "sells_usdc": 0.0,
+          "net_size": 5.26,
+          "closed": false,
+          "realized_usdc": 0.0
+        },
+        {
+          "title": "Will the highest temperature in Cape Town be 21\u00b0C or higher on April 20?",
+          "slug": "highest-temperature-in-cape-town-on-april-20-2026-21corhigher",
+          "outcome_index": 1,
+          "buys_usdc": 14.0679,
+          "sells_usdc": 0.0,
+          "net_size": 14.21,
+          "closed": false,
+          "realized_usdc": 0.0
+        },
+        {
+          "title": "Will the highest temperature in Wellington be 16\u00b0C on April 20?",
+          "slug": "highest-temperature-in-wellington-on-april-20-2026-16c",
+          "outcome_index": 1,
+          "buys_usdc": 16.0677,
+          "sells_usdc": 0.0,
+          "net_size": 16.23,
+          "closed": false,
+          "realized_usdc": 0.0
+        },
+        {
+          "title": "Will the highest temperature in Atlanta be 69\u00b0F or below on April 20?",
+          "slug": "highest-temperature-in-atlanta-on-april-20-2026-69forbelow",
+          "outcome_index": 1,
+          "buys_usdc": 10.1475,
+          "sells_usdc": 0.0,
+          "net_size": 10.25,
+          "closed": false,
+          "realized_usdc": 0.0
+        },
+        {
+          "title": "Atlanta Braves vs. Philadelphia Phillies",
+          "slug": "mlb-atl-phi-2026-04-19",
+          "outcome_index": 1,
+          "buys_usdc": 2.4745,
+          "sells_usdc": 0.0,
+          "net_size": 4.9727,
+          "closed": false,
+          "realized_usdc": 0.0
+        },
+        {
+          "title": "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
+          "slug": "will-los-angeles-lakers-advance-to-the-conference-semifinals-in-the-2026-nba-playoffs",
+          "outcome_index": 0,
+          "buys_usdc": 1.717,
+          "sells_usdc": 0.0,
+          "net_size": 4.95,
+          "closed": false,
+          "realized_usdc": 0.0
+        },
+        {
+          "title": "Detroit Tigers vs. Boston Red Sox",
+          "slug": "mlb-det-bos-2026-04-19",
+          "outcome_index": 1,
+          "buys_usdc": 2.9795,
+          "sells_usdc": 0.0,
+          "net_size": 4.9879,
+          "closed": false,
+          "realized_usdc": 0.0
+        },
+        {
+          "title": "Chicago White Sox vs. Athletics",
+          "slug": "mlb-cws-oak-2026-04-19",
+          "outcome_index": 1,
+          "buys_usdc": 2.2725,
+          "sells_usdc": 0.0,
+          "net_size": 4.9667,
+          "closed": false,
+          "realized_usdc": 0.0
+        },
+        {
+          "title": "NBA Playoffs: Who Will Win Series? - Pistons vs. Magic ",
+          "slug": "nba-playoffs-who-will-win-series-pistons-vs-magic",
+          "outcome_index": 1,
+          "buys_usdc": 0.909,
+          "sells_usdc": 0.0,
+          "net_size": 4.9258,
+          "closed": false,
+          "realized_usdc": 0.0
+        }
+      ]
+    },
+    "all": {
+      "window": "all",
+      "window_start_ts": 0,
+      "realized_usdc": 1.5555,
+      "trade_count": 48,
+      "buy_volume_usdc": 407.8273,
+      "sell_volume_usdc": 180.4188,
+      "closed_positions": 3,
+      "winning_positions": 3,
+      "win_rate_pct": 100.0,
+      "per_position": [
+        {
+          "title": "Will the highest temperature in Austin be between 72-73\u00b0F on April 20?",
+          "slug": "highest-temperature-in-austin-on-april-20-2026-72-73f",
+          "outcome_index": 1,
+          "buys_usdc": 120.8097,
+          "sells_usdc": 121.9019,
+          "net_size": -0.0,
+          "closed": true,
+          "realized_usdc": 1.0922
+        },
+        {
+          "title": "Will the highest temperature in Cape Town be 22\u00b0C or higher on April 21?",
+          "slug": "highest-temperature-in-cape-town-on-april-21-2026-22corhigher",
+          "outcome_index": 1,
+          "buys_usdc": 29.0268,
+          "sells_usdc": 29.2584,
+          "net_size": 0.0,
+          "closed": true,
+          "realized_usdc": 0.2316
+        },
+        {
+          "title": "Will the highest temperature in Lucknow be 45\u00b0C on April 21?",
+          "slug": "highest-temperature-in-lucknow-on-april-21-2026-45c",
+          "outcome_index": 1,
+          "buys_usdc": 29.0268,
+          "sells_usdc": 29.2584,
+          "net_size": 0.0,
+          "closed": true,
+          "realized_usdc": 0.2316
+        },
+        {
+          "title": "Will Russia enter Ternuvate again by April 30?",
+          "slug": "will-russia-enter-ternuvate-again-by-april-30",
+          "outcome_index": 0,
+          "buys_usdc": 1.7618,
+          "sells_usdc": 0.0,
+          "net_size": 7.66,
+          "closed": false,
+          "realized_usdc": 0.0
+        },
+        {
+          "title": "Will Montreal Canadiens advance to Round 2 of the 2026 NHL Playoffs?",
+          "slug": "will-montreal-canadiens-advance-to-round-2-of-the-2026-nhl-playoffs",
+          "outcome_index": 1,
+          "buys_usdc": 4.2185,
+          "sells_usdc": 0.0,
+          "net_size": 7.5665,
+          "closed": false,
+          "realized_usdc": 0.0
+        },
+        {
+          "title": "Strait of Hormuz traffic returns to normal by end of April?",
+          "slug": "strait-of-hormuz-traffic-returns-to-normal-by-april-30",
+          "outcome_index": 0,
+          "buys_usdc": 2.295,
+          "sells_usdc": 0.0,
+          "net_size": 7.65,
+          "closed": false,
+          "realized_usdc": 0.0
+        },
+        {
+          "title": "Will the highest temperature in Madrid be 31\u00b0C on April 21?",
+          "slug": "highest-temperature-in-madrid-on-april-21-2026-31c",
+          "outcome_index": 1,
+          "buys_usdc": 28.9476,
+          "sells_usdc": 0.0,
+          "net_size": 29.24,
+          "closed": false,
+          "realized_usdc": 0.0
+        },
+        {
+          "title": "Will the highest temperature in Houston be between 68-69\u00b0F on April 22?",
+          "slug": "highest-temperature-in-houston-on-april-22-2026-68-69f",
+          "outcome_index": 1,
+          "buys_usdc": 25.2351,
+          "sells_usdc": 0.0,
+          "net_size": 25.49,
+          "closed": false,
+          "realized_usdc": 0.0
+        },
+        {
+          "title": "Will the highest temperature in Miami be between 86-87\u00b0F on April 21?",
+          "slug": "highest-temperature-in-miami-on-april-21-2026-86-87f",
+          "outcome_index": 1,
+          "buys_usdc": 28.9476,
+          "sells_usdc": 0.0,
+          "net_size": 29.24,
+          "closed": false,
+          "realized_usdc": 0.0
+        },
+        {
+          "title": "Will April 2026 be the 4th or lower hottest on record?",
+          "slug": "will-april-2026-be-the-4th-or-lower-hottest-on-record",
+          "outcome_index": 0,
+          "buys_usdc": 1.2974,
+          "sells_usdc": 0.0,
+          "net_size": 8.16,
+          "closed": false,
+          "realized_usdc": 0.0
+        },
+        {
+          "title": "Will the highest temperature in Hong Kong be 31\u00b0C or higher on April 21?",
+          "slug": "highest-temperature-in-hong-kong-on-april-21-2026-31corhigher",
+          "outcome_index": 1,
+          "buys_usdc": 28.9476,
+          "sells_usdc": 0.0,
+          "net_size": 29.24,
+          "closed": false,
+          "realized_usdc": 0.0
+        },
+        {
+          "title": "Will the highest temperature in Paris be 13\u00b0C on April 20?",
+          "slug": "highest-temperature-in-paris-on-april-20-2026-13c",
+          "outcome_index": 1,
+          "buys_usdc": 5.2074,
+          "sells_usdc": 0.0,
+          "net_size": 5.26,
+          "closed": false,
+          "realized_usdc": 0.0
+        },
+        {
+          "title": "Will the highest temperature in Cape Town be 21\u00b0C or higher on April 20?",
+          "slug": "highest-temperature-in-cape-town-on-april-20-2026-21corhigher",
+          "outcome_index": 1,
+          "buys_usdc": 14.0679,
+          "sells_usdc": 0.0,
+          "net_size": 14.21,
+          "closed": false,
+          "realized_usdc": 0.0
+        },
+        {
+          "title": "Will the highest temperature in Wellington be 16\u00b0C on April 20?",
+          "slug": "highest-temperature-in-wellington-on-april-20-2026-16c",
+          "outcome_index": 1,
+          "buys_usdc": 16.0677,
+          "sells_usdc": 0.0,
+          "net_size": 16.23,
+          "closed": false,
+          "realized_usdc": 0.0
+        },
+        {
+          "title": "Will the highest temperature in Atlanta be 69\u00b0F or below on April 20?",
+          "slug": "highest-temperature-in-atlanta-on-april-20-2026-69forbelow",
+          "outcome_index": 1,
+          "buys_usdc": 10.1475,
+          "sells_usdc": 0.0,
+          "net_size": 10.25,
+          "closed": false,
+          "realized_usdc": 0.0
+        },
+        {
+          "title": "Atlanta Braves vs. Philadelphia Phillies",
+          "slug": "mlb-atl-phi-2026-04-19",
+          "outcome_index": 1,
+          "buys_usdc": 2.4745,
+          "sells_usdc": 0.0,
+          "net_size": 4.9727,
+          "closed": false,
+          "realized_usdc": 0.0
+        },
+        {
+          "title": "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
+          "slug": "will-los-angeles-lakers-advance-to-the-conference-semifinals-in-the-2026-nba-playoffs",
+          "outcome_index": 0,
+          "buys_usdc": 1.717,
+          "sells_usdc": 0.0,
+          "net_size": 4.95,
+          "closed": false,
+          "realized_usdc": 0.0
+        },
+        {
+          "title": "Detroit Tigers vs. Boston Red Sox",
+          "slug": "mlb-det-bos-2026-04-19",
+          "outcome_index": 1,
+          "buys_usdc": 2.9795,
+          "sells_usdc": 0.0,
+          "net_size": 4.9879,
+          "closed": false,
+          "realized_usdc": 0.0
+        },
+        {
+          "title": "Chicago White Sox vs. Athletics",
+          "slug": "mlb-cws-oak-2026-04-19",
+          "outcome_index": 1,
+          "buys_usdc": 2.2725,
+          "sells_usdc": 0.0,
+          "net_size": 4.9667,
+          "closed": false,
+          "realized_usdc": 0.0
+        },
+        {
+          "title": "NBA Playoffs: Who Will Win Series? - Pistons vs. Magic ",
+          "slug": "nba-playoffs-who-will-win-series-pistons-vs-magic",
+          "outcome_index": 1,
+          "buys_usdc": 0.909,
+          "sells_usdc": 0.0,
+          "net_size": 4.9258,
+          "closed": false,
+          "realized_usdc": 0.0
+        }
+      ]
+    }
+  },
   "summary": {
-    "total_usd": 402.3556,
-    "total_usdc": 402.4261
+    "total_usd": 402.4618,
+    "total_usdc": 402.5146
   }
 }
