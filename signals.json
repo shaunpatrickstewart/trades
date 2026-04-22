@@ -1,45 +1,33 @@
 {
-  "last_scan": "2026-04-22T05:28:37.672504+00:00",
-  "scan_seconds": 17.1,
-  "markets_scanned": 80,
+  "last_scan": "2026-04-22T05:29:48.296271+00:00",
+  "scan_seconds": 17.7,
+  "markets_scanned": 81,
   "open_positions": 37,
   "signals": [
     {
-      "id": "sig_1776835716666_1",
-      "timestamp": "2026-04-22T05:28:36.666423+00:00",
+      "id": "sig_1776835781255_0",
+      "timestamp": "2026-04-22T05:29:41.255140+00:00",
       "source": "PERPLEXITY",
-      "headline": "No whale bets, smart money moves, or confirmed announcements in search results | NO | HIGH confidence**",
-      "raw": "No whale bets, smart money moves, or confirmed announcements in search results | NO | HIGH confidence**  \nSearch results show no mentions of whale activity, prediction tips, mispriced markets, or recent resolutions moving odds; instead, they highlight general platform stats like 166 trending markets (e.g., \"Nasdaq round-the-clock trading by June 30?\") with $3M volume, but nothing X-specific from t",
-      "direction": "NO",
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776835712092_0",
-      "timestamp": "2026-04-22T05:28:32.092976+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Cavaliers defeat Raptors 115-105 in Game 2, take 2-0 series lead | YES (Cavaliers favored to win series) | HIGH confiden",
-      "raw": "Cavaliers defeat Raptors 115-105 in Game 2, take 2-0 series lead | YES (Cavaliers favored to win series) | HIGH confidence**  \nThe Cleveland Cavaliers secured a wire-to-wire victory on April 21, 2026, with Donovan Mitchell scoring 30 points, James Harden adding 28, and Evan Mobley contributing 25 points and 8 rebounds, marking the second straight game with three Cavaliers scoring 25+ points[1][2][",
+      "headline": "Cavaliers Secure 2-0 Series Lead Over Raptors in Eastern Conference First Round** | YES | HIGH confidence[1][2]",
+      "raw": "Cavaliers Secure 2-0 Series Lead Over Raptors in Eastern Conference First Round** | YES | HIGH confidence[1][2]\n\nThe Cleveland Cavaliers defeated the Toronto Raptors 115-105 in Game 2 on Monday night, April 20, 2026, taking a 2-0 lead in their Eastern Conference first-round playoff series, powered by Donovan Mitchell's 30 points and James Harden's 28 points and four assists[1][2]. This extends Cle",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
         "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
-        "Will the highest temperature in Toronto be 14\u00b0C on April 22?"
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
+        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
       ],
       "action": "ALERT",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776835716663_0",
-      "timestamp": "2026-04-22T05:28:36.663246+00:00",
+      "id": "sig_1776835787267_0",
+      "timestamp": "2026-04-22T05:29:47.267074+00:00",
       "source": "PERPLEXITY",
-      "headline": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | HIGH confidence**",
-      "raw": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | HIGH confidence**  \nPolymarket's most active markets right now focus on **Elon Musk tweet predictions**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" (29% on a specific range) and \"Elon Musk # tweets in April 2026?\" (18% chance on 1080-1119 tweets), with over $17.1M in trading volume across 130+ related markets[2][3][4].",
-      "direction": "NO",
+      "headline": "I cannot provide the information you're requesting because the search results do not contain real-time data about what P",
+      "raw": "I cannot provide the information you're requesting because the search results do not contain real-time data about what Polymarket traders are currently posting on X, specific whale bets, smart money moves, or breaking market developments.\n\nThe search results describe Polymarket's general functionality\u2014how prediction markets work, available market categories, and that trading volume exists\u2014but they",
+      "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -47,12 +35,64 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776835716669_2",
-      "timestamp": "2026-04-22T05:28:36.669555+00:00",
+      "id": "sig_1776835787270_1",
+      "timestamp": "2026-04-22T05:29:47.270005+00:00",
       "source": "PERPLEXITY",
-      "headline": "Analytics tools for tracking top traders gaining quiet buzz | NO direct whale info | MED confidence**",
-      "raw": "Analytics tools for tracking top traders gaining quiet buzz | NO direct whale info | MED confidence**  \nA Binance post notes a **Polymarket analytics tool** providing \"x-ray vision\" into how serious traders win, implying potential smart money insights available but without specifics on current bets or moves[5]. No evidence of mispriced markets or about-to-move predictions from X posts in results.",
-      "direction": "YES",
+      "headline": "Current trader sentiment or posts on X/Twitter",
+      "raw": "Current trader sentiment or posts on X/Twitter",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776835787272_2",
+      "timestamp": "2026-04-22T05:29:47.272902+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Active whale positions or large bets",
+      "raw": "Active whale positions or large bets",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776835787275_3",
+      "timestamp": "2026-04-22T05:29:47.275768+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Market movements or mispriced outcomes",
+      "raw": "Market movements or mispriced outcomes",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776835787278_4",
+      "timestamp": "2026-04-22T05:29:47.278657+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Recent announcements or resolutions affecting markets",
+      "raw": "Recent announcements or resolutions affecting markets",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776835787281_5",
+      "timestamp": "2026-04-22T05:29:47.281619+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Real-time commentary from market participants",
+      "raw": "Real-time commentary from market participants\n\nTo obtain this information, you would need to:",
+      "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -62,8 +102,8 @@
   ],
   "stats": {
     "enter": 0,
-    "alert": 4,
+    "alert": 7,
     "watch": 0,
-    "high_conf": 1
+    "high_conf": 0
   }
 }
