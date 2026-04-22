@@ -1,162 +1,33 @@
 {
-  "last_scan": "2026-04-22T02:18:38.676608+00:00",
-  "scan_seconds": 22.1,
-  "markets_scanned": 78,
+  "last_scan": "2026-04-22T02:19:37.399775+00:00",
+  "scan_seconds": 16.7,
+  "markets_scanned": 77,
   "open_positions": 36,
   "signals": [
     {
-      "id": "sig_1776824307288_0",
-      "timestamp": "2026-04-22T02:18:27.288874+00:00",
+      "id": "sig_1776824372631_0",
+      "timestamp": "2026-04-22T02:19:32.631351+00:00",
       "source": "PERPLEXITY",
-      "headline": "China's Q1 2026 GDP grows 5% year-on-year, beating expectations of 4",
-      "raw": "China's Q1 2026 GDP grows 5% year-on-year, beating expectations of 4.8% | YES | HIGH confidence**  \nChina's National Bureau of Statistics released official data on April 16, 2026, showing Q1 GDP growth at 5.0%, up from 4.5% in Q4 2025 and exceeding Bloomberg estimates; this aligns with Beijing's full-year target of 4.5-5% amid Middle East conflict risks.[1]  \nRetail sales rose 1.7% (missing 2.4% e",
+      "headline": "Cavaliers Defeat Raptors 115-105 in Game 2, Take 2-0 Lead in Eastern Conference First-Round Series** | NO | HIGH confide",
+      "raw": "Cavaliers Defeat Raptors 115-105 in Game 2, Take 2-0 Lead in Eastern Conference First-Round Series** | NO | HIGH confidence[1][4][5]\n\nThe Cleveland Cavaliers won Game 2 on Monday (April 20, 2026) behind **30 points from Donovan Mitchell**, **28 from James Harden**, and **25 from Evan Mobley**, never trailing in the victory and extending their playoff win streak against Toronto to 12 straight games",
       "direction": "YES",
-      "confidence": 0.78,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776824302754_0",
-      "timestamp": "2026-04-22T02:18:22.754352+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Based on the most recent search results from April 20-21, 2026, here are the key developments:",
-      "raw": "Based on the most recent search results from April 20-21, 2026, here are the key developments:",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776824302757_1",
-      "timestamp": "2026-04-22T02:18:22.757374+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Ripple Unveils Quantum-Resistant Roadmap for XRPL by 2028 | YES | HIGH confidence**",
-      "raw": "Ripple Unveils Quantum-Resistant Roadmap for XRPL by 2028 | YES | HIGH confidence**\n\nRipple published a detailed four-phase roadmap on April 20, 2026, to make the XRP Ledger quantum-ready by 2028, positioning it ahead of Bitcoin and Ethereum on this technological timeline[1][5]. Phase 3, beginning in the second half of 2026, will involve deploying and testing hybrid signature schemes on Devnet[1].",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Ethereum above 2,275 on April 21, 11PM ET?",
-        "Will Ethereum reach $2,400 April 20-26?",
-        "XRP Up or Down - April 22, 8:40AM-8:45AM ET"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776824302760_2",
-      "timestamp": "2026-04-22T02:18:22.760318+00:00",
-      "source": "PERPLEXITY",
-      "headline": "XRP Outperforms Major Cryptos with 6",
-      "raw": "XRP Outperforms Major Cryptos with 6.7% Weekly Gains | YES | HIGH confidence**\n\nXRP gained 6.7% over seven days through April 20, 2026, driven by its listing on Japan's Rakuten Wallet, integration of zero-knowledge technology on XRPL, and four consecutive days of US ETF inflows totaling $38.86 million[1]. European institutions also contributed significant capital[1].",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
-        "XRP Up or Down - April 22, 8:20AM-8:25AM ET",
-        "XRP Up or Down - April 22, 8:25AM-8:30AM ET"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776824302763_3",
-      "timestamp": "2026-04-22T02:18:22.763254+00:00",
-      "source": "PERPLEXITY",
-      "headline": "SEC Regulatory Clarity Roundtable Scheduled | YES | MED confidence**",
-      "raw": "SEC Regulatory Clarity Roundtable Scheduled | YES | MED confidence**\n\nThe SEC scheduled a roundtable for April 16, 2026, to discuss the CLARITY Act, which aims to determine regulatory oversight of digital assets between the SEC and CFTC[1]. This reduces long-term institutional adoption uncertainty for XRP[1].",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
-        "XRP Up or Down - April 22, 8:20AM-8:25AM ET",
-        "XRP Up or Down - April 22, 8:25AM-8:30AM ET"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776824302766_4",
-      "timestamp": "2026-04-22T02:18:22.766148+00:00",
-      "source": "PERPLEXITY",
-      "headline": "XRP Price Action at Technical Inflection Point | YES | MED confidence**",
-      "raw": "XRP Price Action at Technical Inflection Point | YES | MED confidence**\n\nXRP is testing a symmetrical triangle pattern with a bearish MACD signal, creating tension between short-term chart pressure and longer-term institutional demand fundamentals[1]. The token is near $1.43 resistance levels[1][4].",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776824307291_1",
-      "timestamp": "2026-04-22T02:18:27.291943+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Russia's GDP contracts 1",
-      "raw": "Russia's GDP contracts 1.8% in Jan-Feb 2026 vs. 2025 | YES | MED confidence**  \nPutin acknowledged the contraction during an economic meeting, noting losses in manufacturing, industry, and construction; this follows 1% growth in 2025 and reflects war economy strains.[2]  \nCentral Bank forecasts 1.6% Q1 growth, but Russian Academy of Sciences predicts a 1.5% year-on-year decline, highlighting data ",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776824312326_0",
-      "timestamp": "2026-04-22T02:18:32.326345+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Cavaliers take 2-0 series lead over Raptors in Eastern Conference first-round playoffs after 115-105 Game 2 win** | **YE",
-      "raw": "Cavaliers take 2-0 series lead over Raptors in Eastern Conference first-round playoffs after 115-105 Game 2 win** | **YES** | **HIGH** confidence\n\nThe Cleveland Cavaliers defeated the Toronto Raptors 115-105 on Monday, April 20, 2026, securing a 2-0 lead in their Eastern Conference first-round series, with Donovan Mitchell scoring 30 points, James Harden adding 28, and Evan Mobley posting 25 point",
-      "direction": "YES",
-      "confidence": 0.65,
+      "confidence": 0.9,
       "matched_markets": [
         "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
         "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
         "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
       ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776824317667_0",
-      "timestamp": "2026-04-22T02:18:37.667380+00:00",
+      "id": "sig_1776824376396_0",
+      "timestamp": "2026-04-22T02:19:36.396343+00:00",
       "source": "PERPLEXITY",
-      "headline": "Elon Musk Tweet Count Markets Dominate Polymarket Trending Activity | NO | HIGH confidence**",
-      "raw": "Elon Musk Tweet Count Markets Dominate Polymarket Trending Activity | NO | HIGH confidence**  \nPolymarket's top trending markets focus on **Elon Musk tweet predictions**, including \"Elon Musk # tweets April 17 - April 24, 2026?\" (30% odds for 200-219 tweets, $5M volume) and \"Elon Musk # tweets in April 2026?\" (18% for 1080-1119 tweets, $9M volume, $501K today).[1][3][4]  \nThese high-volume markets",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776824317670_1",
-      "timestamp": "2026-04-22T02:18:37.670570+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Nasdaq Round-the-Clock Trading & Kinetiq Price Bets Gain Traction | NO whale bets or tips confirmed | MED confidence**",
-      "raw": "Nasdaq Round-the-Clock Trading & Kinetiq Price Bets Gain Traction | NO whale bets or tips confirmed | MED confidence**  \nOther trending markets include \"Nasdaq round-the-clock trading by June 30?\" (22% yes, $43.9K volume) and \"What price will Kinetiq hit in 2026?\" (59% at $0.5), but no specific whale moves, smart money tips, or mispricing calls are detailed in current data.[1]  \nA Polymarket analy",
+      "headline": "Elon Musk Tweet Count Markets Dominate Polymarket Trending Activity** | NO | HIGH confidence[1][3][4]",
+      "raw": "Elon Musk Tweet Count Markets Dominate Polymarket Trending Activity** | NO | HIGH confidence[1][3][4]\n\nPolymarket's top trending markets focus on **Elon Musk tweet predictions**, including \"Elon Musk # tweets April 17 - April 24, 2026?\" (30% on 200-219 tweets, $5M volume) and \"Elon Musk # tweets in April 2026?\" (18% on 1080-1119 tweets, $9M volume, $501K today)[1][3][4]. These reflect high trader ",
       "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776824317673_2",
-      "timestamp": "2026-04-22T02:18:37.673504+00:00",
-      "source": "PERPLEXITY",
-      "headline": "No Recent Confirmations, Announcements, or Resolutions Reported | NO | HIGH confidence**",
-      "raw": "No Recent Confirmations, Announcements, or Resolutions Reported | NO | HIGH confidence**  \nSearch results show no breaking confirmations, resolved markets, or events (e.g., tweet milestones or Nasdaq updates) impacting odds right now; activity centers on ongoing, high-liquidity pop culture and finance predictions as of April 21, 2026.[1][3][4]",
-      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -165,9 +36,9 @@
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 11,
+    "enter": 1,
+    "alert": 1,
     "watch": 0,
-    "high_conf": 0
+    "high_conf": 1
   }
 }
