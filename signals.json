@@ -1,56 +1,100 @@
 {
-  "last_scan": "2026-04-22T03:01:28.836120+00:00",
-  "scan_seconds": 18.2,
+  "last_scan": "2026-04-22T03:02:39.043714+00:00",
+  "scan_seconds": 18.5,
   "markets_scanned": 76,
   "open_positions": 36,
   "signals": [
     {
-      "id": "sig_1776826882602_0",
-      "timestamp": "2026-04-22T03:01:22.602810+00:00",
+      "id": "sig_1776826943602_0",
+      "timestamp": "2026-04-22T03:02:23.602709+00:00",
       "source": "PERPLEXITY",
-      "headline": "NO NBA BREAKING NEWS RIGHT NOW confirming Lakers series/playoff wins, rookie impacts, or prediction market shifts | NO |",
-      "raw": "NO NBA BREAKING NEWS RIGHT NOW confirming Lakers series/playoff wins, rookie impacts, or prediction market shifts | NO | HIGH confidence**  \nNo search results report any confirmed announcements, resolutions, or just-broken developments on April 22, 2026, about the Los Angeles Lakers winning a playoff series, advancing further, or rookie-related factors moving NBA futures markets[1][2][3][4][5][6][",
+      "headline": "SEC Drops Long-Running Lawsuit Against Ripple Labs** | **YES** | **HIGH** confidence[1][2]",
+      "raw": "SEC Drops Long-Running Lawsuit Against Ripple Labs** | **YES** | **HIGH** confidence[1][2]\n\nThe SEC's decision to fully drop its multi-year case against Ripple has been confirmed as resolved in April 2026, removing a major regulatory overhang and driving XRP's ~10% weekly surge to ~$1.42 after breaking $1.50 resistance[1][2][6]. This fundamental shift boosts institutional adoption and market senti",
       "direction": "YES",
-      "confidence": 0.65,
+      "confidence": 0.9,
       "matched_markets": [
-        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
+        "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
+        "XRP Up or Down - April 22, 8:20AM-8:25AM ET",
+        "XRP Up or Down - April 22, 8:35AM-8:40AM ET"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776826958034_0",
+      "timestamp": "2026-04-22T03:02:38.034604+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Elon Musk April 2026 Tweet Count Markets Lead Polymarket Activity | NO | LOW confidence**",
+      "raw": "Elon Musk April 2026 Tweet Count Markets Lead Polymarket Activity | NO | LOW confidence**\n\nPolymarket's most active markets right now focus on **Elon Musk's total # tweets in April 2026**, with the 1080-1119 range priced at 18% implied probability amid $17.1M total trading volume across 130+ tweet-related markets[1][2][3]. No specific X posts from Polymarket traders, whale bets, smart money moves,",
+      "direction": "NO",
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776826947911_0",
+      "timestamp": "2026-04-22T03:02:27.911885+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Fed Chair Powell Speech on April 16 Confirms Wait-and-See Stance Amid Tariff-Driven Inflation and Q1 GDP Slowdown | NO |",
+      "raw": "Fed Chair Powell Speech on April 16 Confirms Wait-and-See Stance Amid Tariff-Driven Inflation and Q1 GDP Slowdown | NO | HIGH confidence**  \nJerome Powell's April 16, 2026, speech at Harvard stated the Fed will monitor impacts from the Iran war, new tariffs (adding 0.5-1% to inflation as a one-time effect), and rising gas prices before policy changes, with inflation at 2.3% PCE headline and 2.6% c",
+      "direction": "YES",
+      "confidence": 0.78,
+      "matched_markets": [
+        "Will Powell say \"Tariff inflation\" during April press conference?"
       ],
       "action": "ALERT",
       "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776826958037_1",
+      "timestamp": "2026-04-22T03:02:38.037523+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Kanye West Tweet Return Market Active | NO | LOW confidence**",
+      "raw": "Kanye West Tweet Return Market Active | NO | LOW confidence**  \nA yes/no market on \"Will Kanye tweet again by April 30?\" remains live among 132 tweet markets, but lacks trending trader discussion, whale activity, or price shift signals on X[3]. Data shows general sentiment tracking without highlighted smart money or tips.",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776826958040_2",
+      "timestamp": "2026-04-22T03:02:38.040460+00:00",
+      "source": "PERPLEXITY",
+      "headline": "No Whale Bets or Breaking Resolutions Detected | NO | LOW confidence**",
+      "raw": "No Whale Bets or Breaking Resolutions Detected | NO | LOW confidence**  \nSearch results highlight tweet markets' real-time nature (prices 0\u00a2-100\u00a2 reflecting crowd probability) but reveal zero mentions of whales, mispriced opportunities, or resolved events impacting odds\u2014no CS IEM Rio mentions tie to current moves[4]. Confidence low due to absence of real-time X trader posts or fresh announcements ",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776826951968_0",
+      "timestamp": "2026-04-22T03:02:31.968790+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Cooper Flagg scores 45 points (9 assists, 8 rebounds) to lead Mavericks past injury-depleted Lakers 134-128, ending Dall",
+      "raw": "Cooper Flagg scores 45 points (9 assists, 8 rebounds) to lead Mavericks past injury-depleted Lakers 134-128, ending Dallas' 14-game home losing streak** | **NO** | **HIGH** confidence[1][2][3][4][5]\n\nLakers missing two leading scorers (Luka Don\u010di\u0107 and Austin Reaves out), confirming their vulnerability ahead of playoffs; game occurred Sunday (April 5, 2026), not playoffs but shifts series win odds ",
+      "direction": "YES",
+      "confidence": 0.6,
+      "matched_markets": [
+        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?"
+      ],
+      "action": "WATCH",
+      "x_link": null,
       "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776826887829_0",
-      "timestamp": "2026-04-22T03:01:27.829294+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Elon Musk April Tweet Count Markets Heating Up | NO whale bets or tips reported | LOW confidence**",
-      "raw": "Elon Musk April Tweet Count Markets Heating Up | NO whale bets or tips reported | LOW confidence**\n\nPolymarket's most active markets right now focus on **Elon Musk's tweet volumes**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" where the 1080-1119 range trades at 18% implied probability, and broader \"Elon Musk musk # tweets in April 2026?\" also at 18% for 1080-1119[1][2][3]. These pop c",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776826887832_1",
-      "timestamp": "2026-04-22T03:01:27.832775+00:00",
-      "source": "PERPLEXITY",
-      "headline": "GTA VI Release Before June 2026",
-      "raw": "GTA VI Release Before June 2026? | NO recent buzz | LOW confidence**\n\nThis news story market has 1% odds on YES with $14M volume and $61.4K liquidity, ending in ~1 month, amid 102 active news markets ($56.2M total volume), yet search results lack X chatter on **whale activity**, tips, or mispricing[4].",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 3,
-    "watch": 0,
-    "high_conf": 0
+    "enter": 1,
+    "alert": 4,
+    "watch": 1,
+    "high_conf": 2
   }
 }
