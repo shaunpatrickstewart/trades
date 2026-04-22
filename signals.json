@@ -1,28 +1,32 @@
 {
-  "last_scan": "2026-04-22T02:07:20.755964+00:00",
-  "scan_seconds": 20.2,
+  "last_scan": "2026-04-22T02:08:59.703770+00:00",
+  "scan_seconds": 49.1,
   "markets_scanned": 79,
   "open_positions": 36,
   "signals": [
     {
-      "id": "sig_1776823624544_3",
-      "timestamp": "2026-04-22T02:07:04.544776+00:00",
+      "id": "sig_1776823734468_0",
+      "timestamp": "2026-04-22T02:08:54.468630+00:00",
       "source": "PERPLEXITY",
-      "headline": "Confidence: LOW**\u2014All data is speculative forecasting (e",
-      "raw": "Confidence: LOW**\u2014All data is speculative forecasting (e.g., patterns, on-chain metrics) without fresh confirmations like ETF approvals, regulatory wins, or partnerships announced today.[1][2][3][4][5]",
-      "direction": null,
+      "headline": "Cavaliers advance to Eastern Conference Semifinals after 138-83 Game 1 rout of Heat** | YES | HIGH confidence[1][3]",
+      "raw": "Cavaliers advance to Eastern Conference Semifinals after 138-83 Game 1 rout of Heat** | YES | HIGH confidence[1][3]\n\nIn the **NBA playoffs** on April 22, 2026, the **1-seed Cavaliers** crushed the **8-seed Heat** 138-83 in Game 1 of their first-round series, a confirmed blowout win positioning Cleveland strongly for a quick series close and entry into the **conference semifinals** against the winn",
+      "direction": "YES",
       "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
+      "matched_markets": [
+        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
+      ],
+      "action": "ENTER",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "SPORTS"
     },
     {
-      "id": "sig_1776823639752_1",
-      "timestamp": "2026-04-22T02:07:19.752956+00:00",
+      "id": "sig_1776823738700_2",
+      "timestamp": "2026-04-22T02:08:58.700576+00:00",
       "source": "PERPLEXITY",
-      "headline": "No Recent Confirmations, Announcements, or Resolutions Impacting Markets | NO | MED confidence**",
-      "raw": "No Recent Confirmations, Announcements, or Resolutions Impacting Markets | NO | MED confidence**  \nNo breaking confirmations (e.g., events resolving tweet markets) appear in results; odds shift dynamically with new data, but nothing \"just confirmed\" like bans or product changes is tied to immediate moves (e.g., X ban market at 37%, Nikita Bier market at 6%).[3]  \nData as of early April 2026 listin",
+      "headline": "Kanye West Tweet Return | NO | LOW confidence**",
+      "raw": "Kanye West Tweet Return | NO | LOW confidence**\n\n\"Will Kanye tweet again by April 30?\" is active among 130+ tweet markets (total $17.1M volume), but lacks specific odds, trader buzz on X, or new triggers in results.[2] Overall, data reflects Polymarket pages as of early April 2026 with no \"right now\" X sentiment, whale moves, or confirmed news\u2014limiting insights to platform odds only.[1][2][3][4]",
       "direction": "NO",
       "confidence": 0.9,
       "matched_markets": [],
@@ -31,104 +35,50 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776823639749_0",
-      "timestamp": "2026-04-22T02:07:19.749723+00:00",
+      "id": "sig_1776823738694_0",
+      "timestamp": "2026-04-22T02:08:58.694259+00:00",
       "source": "PERPLEXITY",
-      "headline": "Elon Musk Tweet Count Markets Surge with High Volume on Polymarket | NO | HIGH confidence**",
-      "raw": "Elon Musk Tweet Count Markets Surge with High Volume on Polymarket | NO | HIGH confidence**  \nPolymarket's most active markets right now focus on **Elon Musk's tweet counts**, including \"Elon Musk # tweets April 17 - April 24, 2026?\" (30% odds for 200-219, $5M volume) and \"Elon Musk musk # tweets in April 2026?\" (18% for 1080-1119, $9M volume, $501K today).[1][2][4]  \nCrowd odds update in real-tim",
-      "direction": "NO",
-      "confidence": 0.78,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776823624525_0",
-      "timestamp": "2026-04-22T02:07:04.525646+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Ethereum**: Analysts note a potential 170% rally to $8,500 in 2026 after breaking a 5-month downtrend in April, with e",
-      "raw": "**Ethereum**: Analysts note a potential 170% rally to $8,500 in 2026 after breaking a 5-month downtrend in April, with early recovery signs at $2,184 (RSI oversold, Ethereum Foundation staking 70,000 ETH reducing sell pressure), and institutional buying despite losses.[1][3][4]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [
-        "Ethereum above 2,275 on April 21, 11PM ET?",
-        "Will Ethereum reach $2,400 April 20-26?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776823624530_1",
-      "timestamp": "2026-04-22T02:07:04.530622+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**XRP**: Predictions split between $1",
-      "raw": "**XRP**: Predictions split between $1.15 bearish and $1.60 conservative for April 2026 (trading ~$1.30, testing $1.28 support, whale accumulation, but 60% holders underwater); weaker signals vs. ETH/BTC, critical support at $1.27 for potential breakout to $8-$27 long-term.[3][4][5][6]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [
-        "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
-        "XRP Up or Down - April 22, 8:20AM-8:25AM ET",
-        "XRP Up or Down - April 22, 8:25AM-8:30AM ET"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776823634794_0",
-      "timestamp": "2026-04-22T02:07:14.794308+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Cavaliers Lead Raptors 2-0 in First-Round Series After Dominant Game 2 Victory | YES | HIGH confidence**",
-      "raw": "Cavaliers Lead Raptors 2-0 in First-Round Series After Dominant Game 2 Victory | YES | HIGH confidence**\n\nThe **Cleveland Cavaliers have taken a commanding 2-0 lead** in their Eastern Conference first-round matchup against the Toronto Raptors, defeating them 115-105 on Monday night[1]. Donovan Mitchell scored 30 points, James Harden added 28, and Evan Mobley contributed 25 points and eight rebound",
+      "headline": "Elon Musk April Tweet Count Markets Heating Up | NO | LOW confidence**",
+      "raw": "Elon Musk April Tweet Count Markets Heating Up | NO | LOW confidence**\n\nPolymarket's most active markets focus on **Elon Musk tweet volumes**, including \"Elon Musk # tweets April 17 - April 24, 2026?\" (30% odds on 200-219 tweets, $5M volume) and \"Elon Musk # tweets in April 2026?\" (18% on 1080-1119 tweets, $9M volume, $501K today).[1][2][4] These dominate Tweet Markets with over $17.1M total volum",
       "direction": "YES",
       "confidence": 0.65,
-      "matched_markets": [
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
-      ],
+      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "SPORTS"
+      "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776823634797_1",
-      "timestamp": "2026-04-22T02:07:14.797374+00:00",
+      "id": "sig_1776823738697_1",
+      "timestamp": "2026-04-22T02:08:58.697318+00:00",
       "source": "PERPLEXITY",
-      "headline": "Note:** The search results address the first-round series between these teams, not the conference semifinals",
-      "raw": "Note:** The search results address the first-round series between these teams, not the conference semifinals. Conference semifinals would only occur if both teams advance past their respective first-round opponents.",
-      "direction": null,
+      "headline": "X/Twitter Ban Risks in Europe | NO | LOW confidence**",
+      "raw": "X/Twitter Ban Risks in Europe | NO | LOW confidence**\n\n\"X banned in any European country by December 31?\" trades at 37% yes ($7.2K volume, $17.2K liquidity).[3] Other markets like \"Nikita Bier out as Head of Product at X by June 30?\" sit at 6%, but no evidence of trending X discussions, whale activity, tips, or resolved events impacting odds.[3]",
+      "direction": "YES",
       "confidence": 0.65,
-      "matched_markets": [
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
-        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs",
-        "Will Detroit Pistons advance to the Conference Semifinals in the 2026 NBA Playof"
-      ],
+      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "SPORTS"
+      "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776823624533_2",
-      "timestamp": "2026-04-22T02:07:04.533572+00:00",
+      "id": "sig_1776823698653_0",
+      "timestamp": "2026-04-22T02:08:18.653321+00:00",
       "source": "PERPLEXITY",
-      "headline": "**April context**: Polymarket odds show bearish ETH (<$2,000 at 96% probability) and mixed XRP (drop below $1",
-      "raw": "**April context**: Polymarket odds show bearish ETH (<$2,000 at 96% probability) and mixed XRP (drop below $1.20 at 69%), influenced by macro factors like US-Iran tensions, FOMC April 28-29, CLARITY Act\u2014no resolutions yet.[2][5]",
-      "direction": "NO",
+      "headline": "IMF Article IV Consultation Confirms Limited Fed Rate Cuts in 2026 Despite Tariffs, Persistent Inflation at 2",
+      "raw": "IMF Article IV Consultation Confirms Limited Fed Rate Cuts in 2026 Despite Tariffs, Persistent Inflation at 2.6% End-2026, and GDP Growth at 2.4% | YES | HIGH confidence**  \nThe IMF Executive Board concluded its 2026 Article IV Consultation with the U.S. on April 2, 2026, projecting fed funds rate easing from 3.6% to only 3.4% for the full year\u2014described as \"little room to cut\" unless labor market",
+      "direction": "YES",
       "confidence": 0.6,
       "matched_markets": [
-        "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
-        "XRP Up or Down - April 22, 8:20AM-8:25AM ET",
-        "XRP Up or Down - April 22, 8:25AM-8:30AM ET"
+        "Will Powell say \"Tariff inflation\" during April press conference?"
       ],
       "action": "WATCH",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "ECONOMICS"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 7,
+    "enter": 1,
+    "alert": 3,
     "watch": 1,
     "high_conf": 2
   }
