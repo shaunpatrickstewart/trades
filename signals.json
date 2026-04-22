@@ -1,60 +1,31 @@
 {
-  "last_scan": "2026-04-22T11:15:13.088670+00:00",
-  "scan_seconds": 22.5,
+  "last_scan": "2026-04-22T11:16:20.145152+00:00",
+  "scan_seconds": 19.6,
   "markets_scanned": 82,
   "open_positions": 38,
   "signals": [
     {
-      "id": "sig_1776856500853_1",
-      "timestamp": "2026-04-22T11:15:00.853581+00:00",
+      "id": "sig_1776856579126_4",
+      "timestamp": "2026-04-22T11:16:19.126987+00:00",
       "source": "PERPLEXITY",
-      "headline": "**Inflation concerns**: Economists forecast a 0",
-      "raw": "**Inflation concerns**: Economists forecast a 0.9% monthly increase in March inflation from February, with prices rising 3.4% year-over-year, compared to 2.4% in February[2]",
-      "direction": "YES",
-      "confidence": 0.65,
+      "headline": "Breaking news or recently confirmed announcements that would move prediction markets",
+      "raw": "Breaking news or recently confirmed announcements that would move prediction markets",
+      "direction": null,
+      "confidence": 0.9,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776856500868_2",
-      "timestamp": "2026-04-22T11:15:00.868838+00:00",
+      "id": "sig_1776856573722_0",
+      "timestamp": "2026-04-22T11:16:13.722373+00:00",
       "source": "PERPLEXITY",
-      "headline": "**Fed's cautious stance**: Officials are taking a \"wait-and-see\" approach amid competing risks from rising energy prices",
-      "raw": "**Fed's cautious stance**: Officials are taking a \"wait-and-see\" approach amid competing risks from rising energy prices (due to the Iran conflict) and potential employment weakness[4]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776856500871_3",
-      "timestamp": "2026-04-22T11:15:00.871989+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Tariff impacts**: Powell has acknowledged that tariffs are fueling goods inflation, with effects expected to accumulat",
-      "raw": "**Tariff impacts**: Powell has acknowledged that tariffs are fueling goods inflation, with effects expected to accumulate over coming months[1][6]\n\nTo identify today's breaking news, you would need search results published within the last few hours on April 22, 2026, which are not available in these results.",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Powell say \"Tariff inflation\" during April press conference?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776856507085_0",
-      "timestamp": "2026-04-22T11:15:07.085513+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Cooper Flagg Surpasses Kon Knueppel as ROY Favorite After 45-Point Statement Game** | **NO** | **HIGH** confidence",
-      "raw": "Cooper Flagg Surpasses Kon Knueppel as ROY Favorite After 45-Point Statement Game** | **NO** | **HIGH** confidence\n\nCooper Flagg passed Kon Knueppel as the **Rookie of the Year** favorite with -250 odds on DraftKings after scoring 45 points, nine assists, and eight rebounds in Dallas Mavericks' win over the Lakers on Sunday, marking his second straight 45+ point game as a teenager[1]. This histori",
+      "headline": "Victor Wembanyama ruled out with concussion after Game 2 exit vs",
+      "raw": "Victor Wembanyama ruled out with concussion after Game 2 exit vs. Trail Blazers** | **YES** | **HIGH** confidence[4].  \nSan Antonio Spurs' rookie star and MVP finalist suffered a concussion from a hard fall in his postseason debut during Game 2 of their Western Conference Semifinals series against Portland, confirming his absence and shifting series odds heavily against the No. 2 seed Spurs (who l",
       "direction": "YES",
-      "confidence": 0.65,
+      "confidence": 0.78,
       "matched_markets": [
-        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
         "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
       ],
       "action": "ALERT",
@@ -62,49 +33,75 @@
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776856512082_0",
-      "timestamp": "2026-04-22T11:15:12.082389+00:00",
+      "id": "sig_1776856579115_0",
+      "timestamp": "2026-04-22T11:16:19.115050+00:00",
       "source": "PERPLEXITY",
-      "headline": "Elon Musk April Tweets Market Dominates Polymarket Activity | NO | HIGH confidence**",
-      "raw": "Elon Musk April Tweets Market Dominates Polymarket Activity | NO | HIGH confidence**  \nPolymarket's most active markets focus on **Elon Musk tweet counts**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" and \"Elon Musk # tweets in April 2026?\", with the 1120-1159 range priced at 18-28% probability and volumes up to $9M.[1][2][3] No specific X posts from traders, whale bets, smart money mo",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776856512085_1",
-      "timestamp": "2026-04-22T11:15:12.085538+00:00",
-      "source": "PERPLEXITY",
-      "headline": "GTA VI Release and Crypto Airdrops Draw News Story Volume | NO | MED confidence**",
-      "raw": "GTA VI Release and Crypto Airdrops Draw News Story Volume | NO | MED confidence**  \nMarkets like \"GTA VI released before June 2026?\" trade at 1% YES with $14M volume, alongside \"MegaETH airdrop by June 30, 2026?\" at 60%, but no confirmed events, resolutions, or trending X discussions on mispricing or big bets are reported.[4] Tweet-related markets (130+ active) and news stories (102 markets) show ",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776856500831_0",
-      "timestamp": "2026-04-22T11:15:00.831931+00:00",
-      "source": "PERPLEXITY",
-      "headline": "I cannot identify breaking news from these search results that would move prediction markets today",
-      "raw": "I cannot identify breaking news from these search results that would move prediction markets today. The most recent content is from April 8, 2026\u2014two weeks ago\u2014which reported that more Federal Reserve officials see possible rate hikes this year[2]. The next significant event is the **Federal Reserve's April 28-29 meeting**, where interest rates are expected to remain unchanged with a 99% chance ac",
+      "headline": "I cannot provide the specific real-time information you're requesting based on the available search results",
+      "raw": "I cannot provide the specific real-time information you're requesting based on the available search results.\n\nThe search results describe Polymarket's general functionality and mention some active markets (such as \"Elon Musk # tweets in April 2026?\" trading at 28% for the 1120-1159 outcome range as of April 21, 2026[3]), but they do not contain:",
       "direction": null,
-      "confidence": 0.6,
+      "confidence": 0.65,
       "matched_markets": [],
-      "action": "WATCH",
+      "action": "ALERT",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776856579118_1",
+      "timestamp": "2026-04-22T11:16:19.118018+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Current X/Twitter posts from Polymarket traders discussing markets right now",
+      "raw": "Current X/Twitter posts from Polymarket traders discussing markets right now",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776856579121_2",
+      "timestamp": "2026-04-22T11:16:19.121034+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Information about whale bets or recent smart money moves",
+      "raw": "Information about whale bets or recent smart money moves",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776856579124_3",
+      "timestamp": "2026-04-22T11:16:19.124006+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Current market mispricing discussions or predictions about imminent market movements",
+      "raw": "Current market mispricing discussions or predictions about imminent market movements",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776856579129_5",
+      "timestamp": "2026-04-22T11:16:19.129979+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Real-time social media sentiment analysis",
+      "raw": "Real-time social media sentiment analysis\n\nTo get this information, you would need to:",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
     }
   ],
   "stats": {
     "enter": 0,
-    "alert": 6,
-    "watch": 1,
-    "high_conf": 0
+    "alert": 7,
+    "watch": 0,
+    "high_conf": 1
   }
 }
