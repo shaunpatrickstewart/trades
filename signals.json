@@ -1,114 +1,61 @@
 {
-  "last_scan": "2026-04-22T23:13:16.741691+00:00",
-  "scan_seconds": 18.1,
+  "last_scan": "2026-04-22T23:14:14.756901+00:00",
+  "scan_seconds": 14.2,
   "markets_scanned": 50,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776899589909_1",
-      "timestamp": "2026-04-22T23:13:09.909244+00:00",
+      "id": "sig_1776899643880_0",
+      "timestamp": "2026-04-22T23:14:03.880942+00:00",
       "source": "PERPLEXITY",
-      "headline": "**Prediction market odds** from Polymarket and ESPN betting pages reflecting odds as of earlier today, but no new develo",
-      "raw": "**Prediction market odds** from Polymarket and ESPN betting pages reflecting odds as of earlier today, but no new developments or confirmations announced since then[2][3]",
-      "direction": "NO",
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776899589917_5",
-      "timestamp": "2026-04-22T23:13:09.917104+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Los Angeles Lakers:** The Lakers were 150-1 long shots entering the playoffs but improved to 35-1 odds after taking a",
-      "raw": "**Los Angeles Lakers:** The Lakers were 150-1 long shots entering the playoffs but improved to 35-1 odds after taking a 2-0 series lead against Houston[3]. This represents a significant odds shift, but it's from Game 2 results, not breaking news announced after the game.",
-      "direction": null,
+      "headline": "Bitcoin and Ethereum Price Surge on Institutional ETF Inflows and Regulatory Clarity | YES | HIGH confidence** [2][6]",
+      "raw": "Bitcoin and Ethereum Price Surge on Institutional ETF Inflows and Regulatory Clarity | YES | HIGH confidence** [2][6]\n\nBitcoin has rallied past $75,000 in mid-April 2026, driven by record ETF inflows, corporate accumulation like MicroStrategy's 300,000+ BTC holdings, and regulatory advancements enabling institutional entry[2][6]. Ethereum has followed with gains to ~$2,358 by April 17-18, boosted ",
+      "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
+        "Bitcoin Up or Down - April 22, 7:30PM-7:35PM ET",
+        "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET"
       ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
-      "category": "SPORTS"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_1776899589907_0",
-      "timestamp": "2026-04-22T23:13:09.907118+00:00",
+      "id": "sig_1776899653746_5",
+      "timestamp": "2026-04-22T23:14:13.746195+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot provide the breaking news headline format you've requested because the search results do not contain real-time",
-      "raw": "I cannot provide the breaking news headline format you've requested because the search results do not contain real-time updates or recent announcements that would move prediction markets.\n\nThe search results are dated April 22, 2026, and show:",
+      "headline": "Breaking news or just-confirmed events",
+      "raw": "Breaking news or just-confirmed events\n\nThe search results only provide general information about Polymarket's platform structure, market categories, and trading volume aggregates\u2014not the real-time sentiment, discussions, or market movements you're asking about.\n\nTo get this information, you would need to:",
       "direction": null,
-      "confidence": 0.65,
+      "confidence": 0.9,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "SPORTS"
+      "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776899589911_2",
-      "timestamp": "2026-04-22T23:13:09.911153+00:00",
+      "id": "sig_1776899648010_0",
+      "timestamp": "2026-04-22T23:14:08.010541+00:00",
       "source": "PERPLEXITY",
-      "headline": "**Playoff predictions** from analysts and sources, but these are forecasts rather than breaking news[1][4][5][6]",
-      "raw": "**Playoff predictions** from analysts and sources, but these are forecasts rather than breaking news[1][4][5][6]\n\nRegarding your specific queries:",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776899589913_3",
-      "timestamp": "2026-04-22T23:13:09.913214+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Conference Semifinals:** The playoffs appear to be in the first round currently, with Game 2s being played in several",
-      "raw": "**Conference Semifinals:** The playoffs appear to be in the first round currently, with Game 2s being played in several matchups[3][4]. Conference semifinals have not yet begun.",
-      "direction": null,
+      "headline": "Cavaliers defeat Raptors 115-105 in Game 2, securing 2-0 lead in Eastern Conference first-round playoffs** | YES | HIGH",
+      "raw": "Cavaliers defeat Raptors 115-105 in Game 2, securing 2-0 lead in Eastern Conference first-round playoffs** | YES | HIGH confidence[1][2][3][4][5]\n\nThe Cleveland Cavaliers won wire-to-wire on Monday, powered by **Donovan Mitchell (30 points)**, **James Harden (28 points)**, and **Evan Mobley (25 points)**, marking the second straight playoff game with three players scoring 25+ points[1][2][3][5]. T",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
         "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
-        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs",
-        "Will Detroit Pistons advance to the Conference Semifinals in the 2026 NBA Playof"
+        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
       ],
       "action": "ALERT",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776899589915_4",
-      "timestamp": "2026-04-22T23:13:09.915173+00:00",
+      "id": "sig_1776899653736_0",
+      "timestamp": "2026-04-22T23:14:13.736888+00:00",
       "source": "PERPLEXITY",
-      "headline": "**Toronto Raptors:** No information appears in the search results about Raptors' playoff status or recent developments",
-      "raw": "**Toronto Raptors:** No information appears in the search results about Raptors' playoff status or recent developments.",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776899589919_6",
-      "timestamp": "2026-04-22T23:13:09.919104+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Cooper Flagg:** Listed as NBA Rookie of the Year favorite at 62% odds, but no recent announcement or confirmation in t",
-      "raw": "**Cooper Flagg:** Listed as NBA Rookie of the Year favorite at 62% odds, but no recent announcement or confirmation in these results[2].\n\nTo find genuine breaking news that would move markets, you would need real-time sports news sources or live updates from the past few hours that aren't captured in these search results.",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776899595722_0",
-      "timestamp": "2026-04-22T23:13:15.722351+00:00",
-      "source": "PERPLEXITY",
-      "headline": "I cannot provide the real-time breaking news and market sentiment you're requesting based on these search results",
-      "raw": "I cannot provide the real-time breaking news and market sentiment you're requesting based on these search results. The search results only show general information about Polymarket's structure and some example markets (like Elon Musk tweet counts and Kanye West tweets), but they don't contain:",
+      "headline": "I cannot provide the specific real-time information you're requesting based on the available search results",
+      "raw": "I cannot provide the specific real-time information you're requesting based on the available search results. The search results show that Polymarket hosts various prediction markets[1][2][3][4], but they don't contain:",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
@@ -117,11 +64,11 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776899595724_1",
-      "timestamp": "2026-04-22T23:13:15.724192+00:00",
+      "id": "sig_1776899653738_1",
+      "timestamp": "2026-04-22T23:14:13.738767+00:00",
       "source": "PERPLEXITY",
-      "headline": "Current trader discussions or posts on X about specific market moves",
-      "raw": "Current trader discussions or posts on X about specific market moves",
+      "headline": "Current trader discussions or social media posts about specific markets",
+      "raw": "Current trader discussions or social media posts about specific markets",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
@@ -130,11 +77,11 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776899595726_2",
-      "timestamp": "2026-04-22T23:13:15.726085+00:00",
+      "id": "sig_1776899653740_2",
+      "timestamp": "2026-04-22T23:14:13.740593+00:00",
       "source": "PERPLEXITY",
-      "headline": "Information about whale bets or smart money positioning",
-      "raw": "Information about whale bets or smart money positioning",
+      "headline": "Information about recent whale bets or smart money movements",
+      "raw": "Information about recent whale bets or smart money movements",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
@@ -143,11 +90,11 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776899595727_3",
-      "timestamp": "2026-04-22T23:13:15.727890+00:00",
+      "id": "sig_1776899653742_3",
+      "timestamp": "2026-04-22T23:14:13.742401+00:00",
       "source": "PERPLEXITY",
-      "headline": "Analysis of mispriced markets or predicted movements",
-      "raw": "Analysis of mispriced markets or predicted movements",
+      "headline": "Analysis of which markets traders believe are mispriced",
+      "raw": "Analysis of which markets traders believe are mispriced",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
@@ -156,11 +103,11 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776899595729_4",
-      "timestamp": "2026-04-22T23:13:15.729790+00:00",
+      "id": "sig_1776899653744_4",
+      "timestamp": "2026-04-22T23:14:13.744226+00:00",
       "source": "PERPLEXITY",
-      "headline": "Recent announcements, confirmations, or resolved events that would move markets",
-      "raw": "Recent announcements, confirmations, or resolved events that would move markets",
+      "headline": "Recent announcements or resolutions that would immediately impact markets",
+      "raw": "Recent announcements or resolutions that would immediately impact markets",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
@@ -169,11 +116,50 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776899595731_5",
-      "timestamp": "2026-04-22T23:13:15.731703+00:00",
+      "id": "sig_1776899653748_6",
+      "timestamp": "2026-04-22T23:14:13.748194+00:00",
       "source": "PERPLEXITY",
-      "headline": "Live market sentiment or trending discussions",
-      "raw": "Live market sentiment or trending discussions\n\nThe search results describe Polymarket as a prediction market platform but don't provide the real-time intelligence, breaking news, or trader commentary you're looking for. To get this information, you would need to:",
+      "headline": "Visit Polymarket directly and check individual market comment sections",
+      "raw": "Visit Polymarket directly and check individual market comment sections",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776899653750_7",
+      "timestamp": "2026-04-22T23:14:13.750053+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Search X (Twitter) for real-time trader discussions with hashtags like #Polymarket",
+      "raw": "Search X (Twitter) for real-time trader discussions with hashtags like #Polymarket",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776899653751_8",
+      "timestamp": "2026-04-22T23:14:13.751886+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Check crypto and prediction market community forums or Discord servers",
+      "raw": "Check crypto and prediction market community forums or Discord servers",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776899653753_9",
+      "timestamp": "2026-04-22T23:14:13.753906+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Look at recent market resolutions and volume spikes on the platform itself",
+      "raw": "Look at recent market resolutions and volume spikes on the platform itself\n\nThe information you're seeking requires access to live, constantly-updating sources that aren't captured in these search results.",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
@@ -183,8 +169,8 @@
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 13,
+    "enter": 1,
+    "alert": 11,
     "watch": 0,
     "high_conf": 2
   }
