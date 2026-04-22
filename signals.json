@@ -1,46 +1,134 @@
 {
-  "last_scan": "2026-04-22T02:37:47.873915+00:00",
-  "scan_seconds": 17.3,
+  "last_scan": "2026-04-22T02:38:56.848582+00:00",
+  "scan_seconds": 20.3,
   "markets_scanned": 81,
   "open_positions": 36,
   "signals": [
     {
-      "id": "sig_1776825463336_0",
-      "timestamp": "2026-04-22T02:37:43.336135+00:00",
+      "id": "sig_1776825531689_0",
+      "timestamp": "2026-04-22T02:38:51.689905+00:00",
       "source": "PERPLEXITY",
-      "headline": "CAVS ADVANCE TO EAST FINALS OVER PACERS (138-91 GAME 4 WIN); NO RAPTOR INVOLVEMENT CONFIRMED | NO | HIGH confidence**",
-      "raw": "CAVS ADVANCE TO EAST FINALS OVER PACERS (138-91 GAME 4 WIN); NO RAPTOR INVOLVEMENT CONFIRMED | NO | HIGH confidence**  \nThe Cavaliers swept the Eastern Conference Semifinals vs. the #4 Pacers with a dominant 138-91 Game 4 victory in Oklahoma City, OK, advancing to the Eastern Conference Championship[1].  \nNo Raptors appear in the 2025-26 playoff bracket or results; they are absent from first-round",
+      "headline": "Lakers Shock Rockets in Game 1 Playoff Upset (107-98), Despite Key Injuries to Doncic & Reaves | NO (Rockets Still Heavi",
+      "raw": "Lakers Shock Rockets in Game 1 Playoff Upset (107-98), Despite Key Injuries to Doncic & Reaves | NO (Rockets Still Heavily Favored to Win Series) | HIGH confidence**  \nThe Los Angeles Lakers, as the No. 4 Western Conference seed, pulled off a surprising Game 1 victory over the No. 5 Houston Rockets on April 21, 2026, winning 107-98 as +2.5 underdogs (under the 208.5 total), led by Luke Kennard's 2",
       "direction": "YES",
-      "confidence": 0.65,
+      "confidence": 0.9,
       "matched_markets": [
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
-        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
+        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?"
       ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776825466867_0",
-      "timestamp": "2026-04-22T02:37:46.867152+00:00",
+      "id": "sig_1776825519505_0",
+      "timestamp": "2026-04-22T02:38:39.505659+00:00",
       "source": "PERPLEXITY",
-      "headline": "Nasdaq Round-the-Clock Trading by June 30",
-      "raw": "Nasdaq Round-the-Clock Trading by June 30? | NO | HIGH confidence**  \nPolymarket's top trending market assigns only a 22% YES probability to Nasdaq implementing round-the-clock trading by June 30, 2026, with $43.9K volume indicating trader skepticism despite niche interest[1].",
+      "headline": "XRP ETF Inflows Surge with 6-Day Streak Amid CLARITY Act Progress | YES | HIGH confidence**",
+      "raw": "XRP ETF Inflows Surge with 6-Day Streak Amid CLARITY Act Progress | YES | HIGH confidence**  \nXRP ETFs recorded $55.39 million in inflows last week, marking a 6-day positive streak and $65.89 million total for April, signaling strong institutional rotation beyond Bitcoin and Ethereum amid fragile macro relief.[4][5]  \nThe CLARITY Act markup vote is days away, with Treasury Secretary urging passage",
+      "direction": "YES",
+      "confidence": 0.78,
+      "matched_markets": [
+        "Ethereum above 2,275 on April 21, 11PM ET?",
+        "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
+        "XRP Up or Down - April 22, 8:20AM-8:25AM ET"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776825519509_1",
+      "timestamp": "2026-04-22T02:38:39.509721+00:00",
+      "source": "PERPLEXITY",
+      "headline": "April Market Momentum Highlights XRP, Ethereum Stability | NO | MED confidence**",
+      "raw": "April Market Momentum Highlights XRP, Ethereum Stability | NO | MED confidence**  \nBroader April bullishness noted for XRP, Ethereum due to regulatory clarity and fundamentals, with XRP holding $1.30\u2013$1.50 support ahead of April 16 SEC roundtable and Fed meeting; no fresh confirmations to shift predictions immediately.[1][2][3]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Ethereum above 2,275 on April 21, 11PM ET?",
+        "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
+        "XRP Up or Down - April 22, 8:20AM-8:25AM ET"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776825527052_0",
+      "timestamp": "2026-04-22T02:38:47.052652+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Based on the search results provided, the most recent substantive development is:",
+      "raw": "Based on the search results provided, the most recent substantive development is:",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776825527055_1",
+      "timestamp": "2026-04-22T02:38:47.055816+00:00",
+      "source": "PERPLEXITY",
+      "headline": "IMF Explicitly Warns Against Rate Cuts in 2026 | NO | HIGH confidence**",
+      "raw": "IMF Explicitly Warns Against Rate Cuts in 2026 | NO | HIGH confidence**\n\nThe International Monetary Fund's Executive Board concluded its 2026 Article IV Consultation on April 2, 2026, stating there is \"little room to cut interest rates in 2026.\"[1] This represents a formal institutional constraint on Fed policy expectations. The IMF projects the fed funds rate will move only from 3.6% to 3.4% acro",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776825527059_2",
+      "timestamp": "2026-04-22T02:38:47.059044+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Core inflation remains sticky",
+      "raw": "Core inflation remains sticky.** Core PCE inflation sat at 2.9% in 2025 and the IMF projects it will only decline to 2.6% by end-2026, falling short of the 2% target.[1] Powell himself has been hinting at higher inflation in coming quarters.[1]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Powell say \"Tariff inflation\" during April press conference?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776825527062_3",
+      "timestamp": "2026-04-22T02:38:47.062123+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Tariffs are a structural headwind",
+      "raw": "Tariffs are a structural headwind.** The effective tariff rate is settling at 7-8.5%, and the IMF flagged that tariff increases and trade policy uncertainty \"are expected to reduce U.S. activity and create sizable negative spillovers on its trading partners.\"[1] Energy prices from the Iran conflict are adding upside inflation risk.[1]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Powell say \"Tariff inflation\" during April press conference?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776825527065_4",
+      "timestamp": "2026-04-22T02:38:47.065218+00:00",
+      "source": "PERPLEXITY",
+      "headline": "GDP growth is moderating",
+      "raw": "GDP growth is moderating.** The IMF projects U.S. GDP growth of 2.4% in 2026 (up from 2.0% in 2025), but growth is expected to peak this year and then slowly decay toward 1.8%.[1]\n\nThe rate cut pathway is effectively frozen absent a \"material worsening in labor market prospects alongside a decline in inflationary pressures\"\u2014a high bar unlikely to be met given current conditions.[1]",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "COMMUNITY"
+      "category": "ECONOMICS"
     },
     {
-      "id": "sig_1776825466870_1",
-      "timestamp": "2026-04-22T02:37:46.870670+00:00",
+      "id": "sig_1776825535845_0",
+      "timestamp": "2026-04-22T02:38:55.845331+00:00",
       "source": "PERPLEXITY",
-      "headline": "Elon Musk Tweet Volume in April 2026 | NO (for 1080-1119 range) | MED confidence**",
-      "raw": "Elon Musk Tweet Volume in April 2026 | NO (for 1080-1119 range) | MED confidence**  \nActive Tweet Markets show traders pricing an 18% chance for Elon Musk posting 1080-1119 tweets in April 2026 (most active outcome), with real-time updates from $17.1M total volume reflecting crowd sentiment on his posting habits[3][4].  \n\nNo whale bets, smart money moves, mispriced markets, or recent confirmations",
-      "direction": "NO",
+      "headline": "Polymarket Traders on X Focus on Elon Musk Tweet Volume Markets Amid High Activity in Pop Culture Bets** | NO | LOW conf",
+      "raw": "Polymarket Traders on X Focus on Elon Musk Tweet Volume Markets Amid High Activity in Pop Culture Bets** | NO | LOW confidence\n\nNo breaking news, whale bets, smart money moves, prediction tips, mispriced markets, or recent confirmations/announcements are detailed in current search results to indicate real-time X posts from traders.[1][2][4] Active Polymarket markets center on **Elon Musk tweet cou",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -49,9 +137,9 @@
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 3,
+    "enter": 1,
+    "alert": 8,
     "watch": 0,
-    "high_conf": 0
+    "high_conf": 1
   }
 }
