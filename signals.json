@@ -1,81 +1,60 @@
 {
-  "last_scan": "2026-04-22T18:10:26.348986+00:00",
-  "scan_seconds": 15.6,
+  "last_scan": "2026-04-22T18:11:34.701121+00:00",
+  "scan_seconds": 14.2,
   "markets_scanned": 50,
   "open_positions": 14,
   "signals": [
     {
-      "id": "sig_1776881419921_0",
-      "timestamp": "2026-04-22T18:10:19.921096+00:00",
+      "id": "sig_1776881488936_0",
+      "timestamp": "2026-04-22T18:11:28.936106+00:00",
       "source": "PERPLEXITY",
-      "headline": "Cavaliers Take 2-0 Series Lead Over Raptors After Game 2 Win | NO (Raptors will not win series; Cavaliers favored) | HIG",
-      "raw": "Cavaliers Take 2-0 Series Lead Over Raptors After Game 2 Win | NO (Raptors will not win series; Cavaliers favored) | HIGH confidence** [1][2][3]\n\nThe Cleveland Cavaliers defeated the Toronto Raptors 115-105 in Game 2 on April 21, 2026, in Cleveland, with Donovan Mitchell scoring 30 points, James Harden adding 28, and Evan Mobley contributing 25 for a combined 83 points from the star trio[1][2][3][",
+      "headline": "Lakers Lead Rockets 2-0 in Western Conference Semifinals; Cavaliers Advance Past Heat in East** | YES | HIGH confidence[",
+      "raw": "Lakers Lead Rockets 2-0 in Western Conference Semifinals; Cavaliers Advance Past Heat in East** | YES | HIGH confidence[2][3]\n\nLakers hold a **2-0 series lead** over the Houston Rockets after Game 3 scheduled for Apr 24, with no new losses reported, positioning them favorably against potential OKC-Thunder matchup[2]. Cavaliers secured a dominant **138-83 win** over the Heat, advancing to face Pace",
       "direction": "YES",
-      "confidence": 0.9,
+      "confidence": 0.78,
       "matched_markets": [
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
+        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
       ],
-      "action": "ENTER",
+      "action": "ALERT",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776881425339_0",
-      "timestamp": "2026-04-22T18:10:25.339629+00:00",
+      "id": "sig_1776881483984_0",
+      "timestamp": "2026-04-22T18:11:23.984332+00:00",
       "source": "PERPLEXITY",
-      "headline": "Nasdaq Round-the-Clock Trading by June 30",
-      "raw": "Nasdaq Round-the-Clock Trading by June 30? | NO | HIGH confidence**  \nPolymarket's top trending market shows 20% YES odds with $43.9K volume, signaling traders bet heavily against Nasdaq implementing 24/7 trading by June 30, 2026\u2014potential **mispriced** if recent exchange rumors confirm feasibility.[1]",
+      "headline": "Interactive Brokers Launches SOL Trading for European Investors | YES | MED confidence**",
+      "raw": "Interactive Brokers Launches SOL Trading for European Investors | YES | MED confidence**\n\nInteractive Brokers, a major brokerage, recently launched Solana (SOL) trading for European investors via Zero Hash, expanding institutional access amid SOL trading around $82\u2013$88[1][2]. This development aligns with April 2026 analyst targets of $88\u2013$100 if a breakout occurs, driven by catalysts like the Fire",
       "direction": "YES",
       "confidence": 0.65,
-      "matched_markets": [],
+      "matched_markets": [
+        "Will the price of Solana be above $90 on April 28?",
+        "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET"
+      ],
       "action": "ALERT",
       "x_link": null,
-      "category": "COMMUNITY"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_1776881425341_1",
-      "timestamp": "2026-04-22T18:10:25.341639+00:00",
+      "id": "sig_1776881493698_0",
+      "timestamp": "2026-04-22T18:11:33.698100+00:00",
       "source": "PERPLEXITY",
-      "headline": "GTA VI Released Before June 2026",
-      "raw": "GTA VI Released Before June 2026? | NO | HIGH confidence**  \nNews Stories market at 1% YES with massive $14M volume and $67.2K liquidity indicates overwhelming trader consensus it's not releasing soon, despite 29 days left\u2014watch for **announcements** as volume spikes on delays.[4]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776881425345_3",
-      "timestamp": "2026-04-22T18:10:25.345781+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Elon Musk # Tweets in April 2026 (1120-1159 Range) | NO | MED confidence**",
-      "raw": "Elon Musk # Tweets in April 2026 (1120-1159 Range) | NO | MED confidence**  \nTweet Markets' most active at 18% for this bin with high platform volume ($22.2M total), reflecting bets on Musk's posting frenzy\u2014traders may see **mispricing** if tweet count surges post-6 PM UTC.[2]",
+      "headline": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | LOW confidence**",
+      "raw": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | LOW confidence**\n\nPolymarket's most active markets right now focus on **Elon Musk tweet counts** in April 2026, such as \"Elon Musk # tweets April 20 - April 22, 2026?\" (priced at 40-64%) and \"Elon Musk # tweets April 17 - April 24, 2026?\" with 1120-1159 at 18%[2][3][4]. These dominate Tweet and Pop Culture categories with over $22M in vol",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776881425343_2",
-      "timestamp": "2026-04-22T18:10:25.343522+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Monero Hits $1000 in 2026",
-      "raw": "Monero Hits $1000 in 2026? | NO | MED confidence**  \nTrending at 19% YES with $94.3K volume, crypto traders on Polymarket view XMR moonshot as unlikely amid market sentiment\u2014**smart money** leaning NO, possible tip if privacy coin news breaks.[1]",
-      "direction": "YES",
-      "confidence": 0.6,
-      "matched_markets": [],
-      "action": "WATCH",
-      "x_link": null,
-      "category": "COMMUNITY"
     }
   ],
   "stats": {
-    "enter": 1,
+    "enter": 0,
     "alert": 3,
-    "watch": 1,
-    "high_conf": 1
+    "watch": 0,
+    "high_conf": 0
   }
 }
