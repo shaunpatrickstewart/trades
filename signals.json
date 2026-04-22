@@ -1,32 +1,58 @@
 {
-  "last_scan": "2026-04-22T12:05:53.590816+00:00",
-  "scan_seconds": 17.0,
+  "last_scan": "2026-04-22T12:06:58.702729+00:00",
+  "scan_seconds": 18.2,
   "markets_scanned": 79,
   "open_positions": 38,
   "signals": [
     {
-      "id": "sig_1776859548445_0",
-      "timestamp": "2026-04-22T12:05:48.445080+00:00",
+      "id": "sig_1776859608517_0",
+      "timestamp": "2026-04-22T12:06:48.517690+00:00",
       "source": "PERPLEXITY",
-      "headline": "Mavericks Upgrade Cooper Flagg to AVAILABLE for Sunday's Game vs",
-      "raw": "Mavericks Upgrade Cooper Flagg to AVAILABLE for Sunday's Game vs. Raptors | YES | HIGH confidence** [1]\n\nThe Dallas Mavericks' official injury report has confirmed rookie Cooper Flagg is now available for their matchup against the Toronto Raptors, upgrading him from questionable due to injury management for his midfoot sprain\u2014no new injury reported [1]. This resolution of his status could shift pr",
-      "direction": "YES",
+      "headline": "Kevin Warsh Faces Tough Senate Confirmation Hearing on April 21, 2026, Amid Pressure on Fed Independence and Rate Cuts |",
+      "raw": "Kevin Warsh Faces Tough Senate Confirmation Hearing on April 21, 2026, Amid Pressure on Fed Independence and Rate Cuts | NO | HIGH confidence**  \nNo breaking announcements today (April 22, 2026) on inflation, tariffs, or Jerome Powell actions that resolve key uncertainties\u2014recent developments center on yesterday's hearing for Warsh as Trump's Fed chair nominee[3][4][5].[1][2]  \nPowell's Fed held r",
+      "direction": "NO",
       "confidence": 0.9,
       "matched_markets": [
-        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
+        "Will Trump agree to Iranian enrichment of uranium in April?",
+        "Will Powell say \"Tariff inflation\" during April press conference?"
       ],
       "action": "ENTER",
       "x_link": null,
-      "category": "SPORTS"
+      "category": "ECONOMICS"
     },
     {
-      "id": "sig_1776859552582_0",
-      "timestamp": "2026-04-22T12:05:52.582440+00:00",
+      "id": "sig_1776859602914_0",
+      "timestamp": "2026-04-22T12:06:42.914658+00:00",
       "source": "PERPLEXITY",
-      "headline": "Elon Musk April Tweets Market Leads Polymarket Activity | NO whale bets or confirmed announcements reported | LOW confid",
-      "raw": "Elon Musk April Tweets Market Leads Polymarket Activity | NO whale bets or confirmed announcements reported | LOW confidence**\n\nPolymarket's most active markets focus on **Elon Musk tweet counts**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" and \"Elon Musk # tweets in April 2026?\", with the 1120-1159 range trading at 28% odds and $9M volume as of April 21[3][2][1]. No search results me",
+      "headline": "HEADLINE | NO | HIGH confidence**",
+      "raw": "HEADLINE | NO | HIGH confidence**  \nSearch results show only price predictions (e.g., $1.52 target by April end), technical analyses (death cross, bullish April patterns), and unconfirmed speculations (quantum resistance roadmap, potential bank-crypto markup vote), with no evidence of fresh confirmations or official resolutions today.[1][2][3][4][5][6]",
       "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776859617697_0",
+      "timestamp": "2026-04-22T12:06:57.697148+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | LOW confidence**",
+      "raw": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | LOW confidence**\n\nPolymarket's most active prediction markets right now focus on **Elon Musk's tweet volumes**, including \"Elon Musk # tweets April 17 - April 24, 2026?\" (with \"1120-1159\" at 28% odds) and \"Elon Musk # tweets in April 2026?\" (with \"1120-1159\" at 18% odds), reflecting over $19M-$21M in trading volume across 20-131 active tw",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776859617700_1",
+      "timestamp": "2026-04-22T12:06:57.700151+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Nasdaq round-the-clock trading by June 30",
+      "raw": "Nasdaq round-the-clock trading by June 30?** appears among 166 broader Trending Markets, but lacks highlighted trader buzz or volume spikes[1].  \nConfidence remains **low** due to absence of real-time X sentiment or whale activity in results, with data slightly dated to April 21[1][4].",
+      "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -36,7 +62,7 @@
   ],
   "stats": {
     "enter": 1,
-    "alert": 1,
+    "alert": 3,
     "watch": 0,
     "high_conf": 1
   }
