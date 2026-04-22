@@ -1,13 +1,44 @@
 {
-  "last_scan": "2026-04-22T04:20:58.245302+00:00",
-  "scan_seconds": 17.7,
+  "last_scan": "2026-04-22T04:22:07.835411+00:00",
+  "scan_seconds": 17.3,
   "markets_scanned": 77,
   "open_positions": 37,
-  "signals": [],
+  "signals": [
+    {
+      "id": "sig_1776831726831_0",
+      "timestamp": "2026-04-22T04:22:06.831794+00:00",
+      "source": "PERPLEXITY",
+      "headline": "ELON MUSK TWEET COUNT MARKETS DOMINATE POLYMARKET BUZZ | NO | HIGH confidence**",
+      "raw": "ELON MUSK TWEET COUNT MARKETS DOMINATE POLYMARKET BUZZ | NO | HIGH confidence**\n\nPolymarket's most active markets right now focus on **Elon Musk tweet predictions**, including \"Elon Musk # tweets April 17 - April 24, 2026?\" (e.g., \"200-219\" at 29%) and the top market \"Elon Musk musk # tweets in April 2026?\" with 18% odds on 1080-1119 tweets[1][2][3]. These reflect real-time trader sentiment on pop",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776831722053_0",
+      "timestamp": "2026-04-22T04:22:02.054005+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Cooper Flagg overtakes Kon Knueppel as NBA Rookie of the Year betting favorite after historic 96-point weekend",
+      "raw": "Cooper Flagg overtakes Kon Knueppel as NBA Rookie of the Year betting favorite after historic 96-point weekend.** | YES | HIGH confidence[2][3]\n\nFlagg's odds shifted to -250 on DraftKings (from +225 pre-weekend), ahead of Knueppel's +180, following 51 points vs. Orlando Magic and 45 points (near triple-double) vs. Lakers\u2014first teenager since Allen Iverson to average 45+ points, 5+ rebounds, 5+ ass",
+      "direction": "YES",
+      "confidence": 0.6,
+      "matched_markets": [
+        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
+      ],
+      "action": "WATCH",
+      "x_link": null,
+      "category": "SPORTS"
+    }
+  ],
   "stats": {
     "enter": 0,
-    "alert": 0,
-    "watch": 0,
+    "alert": 1,
+    "watch": 1,
     "high_conf": 0
   }
 }
