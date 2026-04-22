@@ -1,116 +1,44 @@
 {
-  "last_scan": "2026-04-22T18:03:48.869213+00:00",
-  "scan_seconds": 18.3,
+  "last_scan": "2026-04-22T18:04:56.733585+00:00",
+  "scan_seconds": 15.7,
   "markets_scanned": 51,
   "open_positions": 14,
   "signals": [
     {
-      "id": "sig_1776881027861_0",
-      "timestamp": "2026-04-22T18:03:47.861987+00:00",
+      "id": "sig_1776881089826_0",
+      "timestamp": "2026-04-22T18:04:49.826590+00:00",
       "source": "PERPLEXITY",
-      "headline": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | LOW confidence**",
-      "raw": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | LOW confidence**\n\nPolymarket's top active markets focus on **Elon Musk's tweet volumes** in April 2026, such as \"Elon Musk # tweets April 20 - April 22, 2026?\" (priced at 40-64\u00a2 implying ~40-64% probability for that range) and \"Elon Musk # tweets April 17 - April 24, 2026?\" with 18% odds on 1120-1159 tweets[2][3][4]. These dominate Tweet ",
-      "direction": "NO",
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776881017787_0",
-      "timestamp": "2026-04-22T18:03:37.787510+00:00",
-      "source": "PERPLEXITY",
-      "headline": "# Recent Crypto Market Developments (Mid-April 2026)",
-      "raw": "# Recent Crypto Market Developments (Mid-April 2026)",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776881017789_1",
-      "timestamp": "2026-04-22T18:03:37.789608+00:00",
-      "source": "PERPLEXITY",
-      "headline": "HEADLINE:** Spot Bitcoin ETFs Record $471M Inflows After Iran Ceasefire; Short Squeeze Pushes BTC Past $74,600 | YES | H",
-      "raw": "HEADLINE:** Spot Bitcoin ETFs Record $471M Inflows After Iran Ceasefire; Short Squeeze Pushes BTC Past $74,600 | YES | HIGH confidence\n\nOn April 6, 2026, spot Bitcoin ETFs saw substantial institutional inflows of $471 million in a single day, triggered by collapsing oil prices following Iran ceasefire talks[2]. BlackRock's IBIT led with $181 million, followed by Fidelity at $147 million and Ark 21",
+      "headline": "Raptors Lose Game 2 to Cavaliers, Now Down 0-2 in First-Round Playoffs | NO | HIGH confidence** [1][3][4]",
+      "raw": "Raptors Lose Game 2 to Cavaliers, Now Down 0-2 in First-Round Playoffs | NO | HIGH confidence** [1][3][4]\n\nThe Toronto Raptors fell 115-105 to the Cleveland Cavaliers in Game 2 on Monday, confirming their 0-2 series deficit after a 126-113 loss in Game 1; they are described as huge underdogs lacking playoff experience against the more seasoned Cavs [1][3][4]. Rookie **Collin Murray-Boyles** has sh",
       "direction": "YES",
-      "confidence": 0.65,
+      "confidence": 0.78,
       "matched_markets": [
-        "Bitcoin Up or Down - April 22, 2:55PM-3:00PM ET"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776881017791_2",
-      "timestamp": "2026-04-22T18:03:37.791685+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Secondary Development:** Ethereum surged over 50% in a single week during early April following the same ceasefire annou",
-      "raw": "Secondary Development:** Ethereum surged over 50% in a single week during early April following the same ceasefire announcement, significantly outperforming Bitcoin's 8% gain over the identical period[4]. ETH recovered to approximately $2,358 by April 17[3], though it remains down 27% year-to-date compared to Bitcoin's 19% decline[4].",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Bitcoin Up or Down - April 22, 2:55PM-3:00PM ET",
-        "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776881017793_3",
-      "timestamp": "2026-04-22T18:03:37.793603+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Institutional Catalyst:** Morgan Stanley launched its MSBT ETF on April 8 with $34 million in day-one inflows, providing",
-      "raw": "Institutional Catalyst:** Morgan Stanley launched its MSBT ETF on April 8 with $34 million in day-one inflows, providing access for 16,000 advisors[2].",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776881017795_4",
-      "timestamp": "2026-04-22T18:03:37.795583+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Pending Catalysts for Prediction Markets:** The CLARITY Act carries a 65% probability of passage this year and would est",
-      "raw": "Pending Catalysts for Prediction Markets:** The CLARITY Act carries a 65% probability of passage this year and would establish regulatory frameworks cited as prerequisites for larger institutional allocations[4]. Additionally, the Federal Reserve chair transition occurs May 15, 2026, with Jerome Powell chairing his final FOMC meeting April 28-29[4].",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776881022479_0",
-      "timestamp": "2026-04-22T18:03:42.479769+00:00",
-      "source": "PERPLEXITY",
-      "headline": "CAVS TAKE 2-0 SERIES LEAD OVER RAPTORS IN NBA FIRST-ROUND PLAYOFFS** | **YES** | **HIGH** confidence[4][5]",
-      "raw": "CAVS TAKE 2-0 SERIES LEAD OVER RAPTORS IN NBA FIRST-ROUND PLAYOFFS** | **YES** | **HIGH** confidence[4][5]\n\nThe Cleveland Cavaliers defeated the Toronto Raptors 115-105 in Game 2 on April 21, 2026, with Donovan Mitchell scoring 30 points, James Harden adding 28, and Evan Mobley posting 25, securing a 2-0 lead in their Eastern Conference first-round series[4][5]. Game 3 is set for April 23 in Toron",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
-        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
       ],
       "action": "ALERT",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776881027864_1",
-      "timestamp": "2026-04-22T18:03:47.864008+00:00",
+      "id": "sig_1776881095724_0",
+      "timestamp": "2026-04-22T18:04:55.724322+00:00",
       "source": "PERPLEXITY",
-      "headline": "Nasdaq Round-the-Clock Trading Market Active | NO | LOW confidence**",
-      "raw": "Nasdaq Round-the-Clock Trading Market Active | NO | LOW confidence**\n\nTrending markets include \u201c**Nasdaq round-the-clock trading by June 30?**\u201d among 166 live options with $2.8M volume, but no X chatter on whale moves, smart tips, or recent triggers like confirmations noted[1].",
-      "direction": "NO",
+      "headline": "Iran x Israel/US Conflict Ends by April 30: Traders Pricing at 100% YES | YES | HIGH confidence**",
+      "raw": "Iran x Israel/US Conflict Ends by April 30: Traders Pricing at 100% YES | YES | HIGH confidence**  \nPolymarket's X predictions show this market at 100% YES odds with $12.3K liquidity and 116 traders, indicating strong consensus it's resolved or imminent, likely moving related geopolitics bets.[2]",
+      "direction": "YES",
+      "confidence": 0.78,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776881095726_1",
+      "timestamp": "2026-04-22T18:04:55.726324+00:00",
+      "source": "PERPLEXITY",
+      "headline": "\ud835\udd4f Money Launched by April 30: Low Odds at 16% YES | NO | MED confidence**",
+      "raw": "\ud835\udd4f Money Launched by April 30: Low Odds at 16% YES | NO | MED confidence**  \nActive X market with $33.6K volume and $4.4K liquidity; traders on X are discussing potential delays in Elon Musk's \ud835\udd4f initiatives, positioning as undervalued NO bet.[2]",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -118,23 +46,52 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776881027866_2",
-      "timestamp": "2026-04-22T18:03:47.866087+00:00",
+      "id": "sig_1776881095728_2",
+      "timestamp": "2026-04-22T18:04:55.728290+00:00",
       "source": "PERPLEXITY",
-      "headline": "Kanye Tweet Return Market Live | NO | LOW confidence**",
-      "raw": "Kanye Tweet Return Market Live | NO | LOW confidence**\n\nMarket \u201c**Will Kanye tweet again by April 30?**\u201d at 60% yes odds is active in 130+ Tweet predictions ($22.8M volume), yet no evidence of trending X discussion, big bets, or resolutions[3].\n\nNo whale bets, smart money signals, mispriced calls, or breaking confirmations appear in results; data as of April 21 lacks 6 PM UTC April 22 X insights[1",
+      "headline": "Nikita Bier Out as Head of Product at X by June 30: 7% YES Odds | NO | HIGH confidence**",
+      "raw": "Nikita Bier Out as Head of Product at X by June 30: 7% YES Odds | NO | HIGH confidence**  \nTrending X tech market with $1.4K volume; low YES pricing suggests traders view stability under Bier, with smart money avoiding YES shares amid no recent drama.[2]",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776881095730_3",
+      "timestamp": "2026-04-22T18:04:55.730431+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Elon Musk # Tweets April 20-22, 2026: Locked at 40-64 Range (100%) | YES (for range) | HIGH confidence**",
+      "raw": "Elon Musk # Tweets April 20-22, 2026: Locked at 40-64 Range (100%) | YES (for range) | HIGH confidence**  \nTweet markets resolved or near-resolution at 100% for 40-64 tweets, with related April 17-24 market at 33% for 200-219; X posts highlight this as mispriced daily trackers before close.[3][4][5]  \n\nNo whale bets, explicit smart money moves, or fresh confirmations (e.g., announcements) detailed",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776881085196_0",
+      "timestamp": "2026-04-22T18:04:45.196328+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Strategy Discloses $2",
+      "raw": "Strategy Discloses $2.54B Bitcoin Purchase (April 13-19), Third Largest on Record, Total Holdings Exceed 815,061 BTC | YES | HIGH**  \nThis fresh disclosure today confirms massive institutional accumulation by Strategy, pushing BTC holdings to a new milestone amid ongoing ETF inflows (e.g., $238M BTC ETFs on April 20, 8th straight day for ETH ETFs).[1][4]  \nIt could move prediction markets on BTC p",
+      "direction": "YES",
+      "confidence": 0.6,
+      "matched_markets": [
+        "Strait of Hormuz traffic returns to normal by end of April?",
+        "Bitcoin Up or Down - April 22, 2:55PM-3:00PM ET"
+      ],
+      "action": "WATCH",
+      "x_link": null,
+      "category": "CRYPTO"
     }
   ],
   "stats": {
     "enter": 0,
-    "alert": 9,
-    "watch": 0,
-    "high_conf": 1
+    "alert": 5,
+    "watch": 1,
+    "high_conf": 0
   }
 }
