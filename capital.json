@@ -1,5 +1,5 @@
 {
-  "ts": 1776844090,
+  "ts": 1776844160,
   "stale": false,
   "feed_ages": {
     "prices_age_s": 0,
@@ -7,7 +7,7 @@
     "usdc_age_s": 0
   },
   "prices": {
-    "usdc_usd": 0.999673
+    "usdc_usd": 0.999827
   },
   "polymarket": {
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
@@ -305,14 +305,14 @@
     "position_count": 32,
     "positions_nav_usdc": 286.8383,
     "total_usdc": 402.8611,
-    "total_usd": 402.7294
+    "total_usd": 402.7914
   },
   "kalshi": {
     "funded": false,
     "total_usd": 0.0
   },
   "pnl": {
-    "ts": 1776844091,
+    "ts": 1776844161,
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
     "activity_rows": 52,
     "today": {
@@ -350,11 +350,11 @@
     },
     "24h": {
       "window": "24h",
-      "window_start_ts": 1776757691,
+      "window_start_ts": 1776757761,
       "realized_usdc": 0.2316,
-      "trade_count": 12,
+      "trade_count": 11,
       "buy_volume_usdc": 92.8132,
-      "sell_volume_usdc": 58.5169,
+      "sell_volume_usdc": 29.2584,
       "closed_positions": 1,
       "winning_positions": 1,
       "win_rate_pct": 100.0,
@@ -408,22 +408,12 @@
           "net_size": 7.5665,
           "closed": false,
           "realized_usdc": 0.0
-        },
-        {
-          "title": "Will the highest temperature in Lucknow be 45\u00b0C on April 21?",
-          "slug": "highest-temperature-in-lucknow-on-april-21-2026-45c",
-          "outcome_index": 1,
-          "buys_usdc": 0.0,
-          "sells_usdc": 29.2584,
-          "net_size": -29.32,
-          "closed": false,
-          "realized_usdc": 0.0
         }
       ]
     },
     "7d": {
       "window": "7d",
-      "window_start_ts": 1776239291,
+      "window_start_ts": 1776239361,
       "realized_usdc": 1.5555,
       "trade_count": 52,
       "buy_volume_usdc": 465.6334,
@@ -636,7 +626,7 @@
     },
     "30d": {
       "window": "30d",
-      "window_start_ts": 1774252091,
+      "window_start_ts": 1774252161,
       "realized_usdc": 1.5555,
       "trade_count": 52,
       "buy_volume_usdc": 465.6334,
@@ -1062,7 +1052,7 @@
     }
   },
   "summary": {
-    "total_usd": 402.7294,
+    "total_usd": 402.7914,
     "total_usdc": 402.8611
   }
 }
