@@ -1,35 +1,79 @@
 {
-  "last_scan": "2026-04-22T18:48:33.775152+00:00",
-  "scan_seconds": 13.2,
+  "last_scan": "2026-04-22T18:49:44.105752+00:00",
+  "scan_seconds": 13.6,
   "markets_scanned": 52,
   "open_positions": 14,
   "signals": [
     {
-      "id": "sig_1776883707761_0",
-      "timestamp": "2026-04-22T18:48:27.761926+00:00",
+      "id": "sig_1776883778923_0",
+      "timestamp": "2026-04-22T18:49:38.923185+00:00",
       "source": "PERPLEXITY",
-      "headline": "Cavaliers take 2-0 series lead over Raptors after 115-105 Game 2 win on Monday** | **YES** | **HIGH** confidence[1][2][3",
-      "raw": "Cavaliers take 2-0 series lead over Raptors after 115-105 Game 2 win on Monday** | **YES** | **HIGH** confidence[1][2][3]\n\nCleveland's star trio\u2014Donovan Mitchell (30 points), James Harden (28 points), and Evan Mobley (25 points)\u2014combined for 83 points in a wire-to-wire victory, marking the second straight season with three players scoring 25+ in a playoff game[1][2][3]. This extends Cleveland's NB",
+      "headline": "Cavaliers Tie NBA Record with 12th Straight Playoff Win Over Raptors, Leading Series 2-0 After Game 2 Victory | YES | HI",
+      "raw": "Cavaliers Tie NBA Record with 12th Straight Playoff Win Over Raptors, Leading Series 2-0 After Game 2 Victory | YES | HIGH confidence**[1][2][4]\n\nGame 2 on Monday resulted in a 115-105 Cavaliers win, marked by 22 Raptors turnovers (season-high) and dominant performances from Donovan Mitchell (37 points), James Harden, and Jarrett Mobley (combined 83 points), extending Cleveland's playoff winning s",
       "direction": "YES",
-      "confidence": 0.65,
+      "confidence": 0.9,
       "matched_markets": [
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
+        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
+        "NBA Playoffs: Who Will Win Series? - Pistons vs. Magic "
       ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776883712769_0",
-      "timestamp": "2026-04-22T18:48:32.769935+00:00",
+      "id": "sig_1776883774253_0",
+      "timestamp": "2026-04-22T18:49:34.253459+00:00",
       "source": "PERPLEXITY",
-      "headline": "Elon Musk Tweet Count Markets Trending on Polymarket | NO whale bets or confirmed announcements reported | MED confidenc",
-      "raw": "Elon Musk Tweet Count Markets Trending on Polymarket | NO whale bets or confirmed announcements reported | MED confidence**\n\nPolymarket's most active markets right now focus on **Elon Musk tweet predictions**, such as \"Elon Musk # tweets April 20 - April 22, 2026?\" (priced at 40-64% implied probability in pop culture tweet markets) and \"Elon Musk # tweets April 17 - April 24, 2026?\" with 1120-1159",
+      "headline": "Ethereum faces price pressure around $2,038\u2013$2,400 amid ETF outflows and upgrades like Pectra (final testing as of April",
+      "raw": "Ethereum faces price pressure around $2,038\u2013$2,400 amid ETF outflows and upgrades like Pectra (final testing as of April 18) and Glamsterdam/Hegota, with no new resolutions[1][3].",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [
-        "Will Trump name \"Elon\" or \"Musk\" in April?",
-        "Will Ted Cruz post 120-139 posts from April 17 to April 24, 2026?"
+        "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776883774255_1",
+      "timestamp": "2026-04-22T18:49:34.255489+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Solana trades near $82\u2013$88, boosted by Alpenglow upgrade anticipation (noted April 14), record 167M token holders, and $",
+      "raw": "Solana trades near $82\u2013$88, boosted by Alpenglow upgrade anticipation (noted April 14), record 167M token holders, and $650B stablecoin volume (February milestone), but offset by a April 1 Drift Protocol hack ($280M loss)[1][4][5][7].",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the price of Solana be above $90 on April 28?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776883774257_2",
+      "timestamp": "2026-04-22T18:49:34.257601+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Price predictions vary (e",
+      "raw": "Price predictions vary (e.g., ETH $1,800\u2013$2,400, SOL $75\u2013$95 for April), with no just-confirmed events like ETF approvals or outage fixes[1][6].\nAll items predate today, showing market consolidation rather than catalysts for prediction market shifts[2][6].",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776883783102_0",
+      "timestamp": "2026-04-22T18:49:43.102764+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | LOW confidence**",
+      "raw": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | LOW confidence**\n\nPolymarket's top active markets focus on **Elon Musk's tweet volumes** in April 2026, such as \"Elon Musk # tweets April 20 - April 22, 2026?\" (priced at 40-64% implied probability in examples) and \"Elon Musk # tweets April 17 - April 24, 2026?\", with the 1120-1159 range at 18-19% odds and over $22M in volume across 130+ ",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Trump name \"Elon\" or \"Musk\" in April?"
       ],
       "action": "ALERT",
       "x_link": null,
@@ -37,9 +81,9 @@
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 2,
+    "enter": 1,
+    "alert": 4,
     "watch": 0,
-    "high_conf": 0
+    "high_conf": 1
   }
 }
