@@ -1,55 +1,49 @@
 {
-  "last_scan": "2026-04-22T11:01:32.260397+00:00",
-  "scan_seconds": 21.3,
+  "last_scan": "2026-04-22T11:02:28.869089+00:00",
+  "scan_seconds": 16.3,
   "markets_scanned": 82,
   "open_positions": 38,
   "signals": [
     {
-      "id": "sig_1776855684750_0",
-      "timestamp": "2026-04-22T11:01:24.750831+00:00",
+      "id": "sig_1776855743800_0",
+      "timestamp": "2026-04-22T11:02:23.800951+00:00",
       "source": "PERPLEXITY",
-      "headline": "Based on the search results provided, I cannot identify any breaking news that would move prediction markets at this mom",
-      "raw": "Based on the search results provided, I cannot identify any breaking news that would move prediction markets at this moment. The search results contain highlights and recaps from recent playoff games (April 19-21, 2026) rather than new announcements or confirmations from today.\n\nThe most recent confirmed information includes:",
-      "direction": null,
+      "headline": "Cavaliers defeat Raptors in Game 1 of Eastern Conference first-round playoffs | NO series win for Raptors | HIGH confide",
+      "raw": "Cavaliers defeat Raptors in Game 1 of Eastern Conference first-round playoffs | NO series win for Raptors | HIGH confidence**  \nDonovan Mitchell and James Harden led the Cleveland Cavaliers to a Game 1 victory over the Toronto Raptors, as confirmed in recent analysis, with the duo outperforming Raptors stars Brandon Ingram and Scottie Barnes.[3]  \nThis matchup stems from Toronto securing the Easte",
+      "direction": "YES",
       "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
+      "matched_markets": [
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
+        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
+      ],
+      "action": "ENTER",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776855691253_1",
-      "timestamp": "2026-04-22T11:01:31.253940+00:00",
+      "id": "sig_1776855739950_0",
+      "timestamp": "2026-04-22T11:02:19.950206+00:00",
       "source": "PERPLEXITY",
-      "headline": "Elon Musk Tweet Count Markets Lead Volume on Polymarket | NO | MED confidence**",
-      "raw": "Elon Musk Tweet Count Markets Lead Volume on Polymarket | NO | MED confidence**  \nPolymarket hosts 130+ active tweet prediction markets with $21M+ volume, topping with \"Elon Musk # tweets in April 2026?\" at 18-28% odds for 1120-1159 tweets; related markets like \"Elon Musk # tweets April 17-24, 2026?\" and \"Will Kanye tweet by April 30?\" (60% yes) draw real-time trader action.[2][3]  \nX users may be",
+      "headline": "Fed Chair Powell warns tariffs will drive higher inflation and slower growth, fueling market plunge** | YES | HIGH confi",
+      "raw": "Fed Chair Powell warns tariffs will drive higher inflation and slower growth, fueling market plunge** | YES | HIGH confidence[1][2][4][5]\n\nPowell stated in recent speeches that Trump's tariffs\u2014now significantly larger than expected, including 245% on some China imports like EVs\u2014are **highly likely to cause at least temporary inflation rises**, complicating Fed efforts to anchor expectations and ri",
       "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776855691249_0",
-      "timestamp": "2026-04-22T11:01:31.249667+00:00",
-      "source": "PERPLEXITY",
-      "headline": "'Informed' Polymarket Traders Net $143M Since 2024 Per New Study | NO | HIGH confidence**",
-      "raw": "'Informed' Polymarket Traders Net $143M Since 2024 Per New Study | NO | HIGH confidence**  \nA Columbia Law School and University of Haifa study, published this month, analyzed over 210,000 suspicious trades on Polymarket from 2024-2026, revealing \"informed\" accounts profited $143 million\u2014often flagged by X and Discord observers as insider-like moves, such as ricosuave666's $155k gain on Israel's J",
-      "direction": "NO",
       "confidence": 0.78,
-      "matched_markets": [],
+      "matched_markets": [
+        "Will Trump agree to Iranian enrichment of uranium in April?",
+        "Will Powell say \"Tariff inflation\" during April press conference?"
+      ],
       "action": "ALERT",
       "x_link": null,
-      "category": "COMMUNITY"
+      "category": "ECONOMICS"
     },
     {
-      "id": "sig_1776855675008_0",
-      "timestamp": "2026-04-22T11:01:15.008701+00:00",
+      "id": "sig_1776855735403_0",
+      "timestamp": "2026-04-22T11:02:15.403336+00:00",
       "source": "PERPLEXITY",
-      "headline": "BlackRock Buys $900M in Bitcoin via IBIT ETF, Boosting Polymarket Odds for $80K in April 2026 to 71",
-      "raw": "BlackRock Buys $900M in Bitcoin via IBIT ETF, Boosting Polymarket Odds for $80K in April 2026 to 71.5% | YES | HIGH confidence** [2]\n\nThis purchase, reported as recent (with odds spiking 24 hours ago and a 5-point jump at 8:48 AM), directly moved prediction markets on Polymarket, climbing from mid-40s% to over 70% YES for Bitcoin hitting $80,000 in April amid institutional buying and geopolitical ",
-      "direction": "YES",
+      "headline": "Bitcoin Surges Past $75K in Mid-April 2026 on Institutional ETF Inflows and Regulatory Clarity | NO | LOW confidence**",
+      "raw": "Bitcoin Surges Past $75K in Mid-April 2026 on Institutional ETF Inflows and Regulatory Clarity | NO | LOW confidence**\n\nBitcoin has rallied above $75,000 in mid-April 2026, driven by record ETF inflows, corporate accumulation (e.g., MicroStrategy holding over 300,000 BTC), and newfound regulatory clarity creating a supply-demand imbalance[1][3][4][5]. No specific confirmations, announcements, or r",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [
         "Bitcoin Up or Down - April 22, 7AM ET",
@@ -61,65 +55,11 @@
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776855684754_1",
-      "timestamp": "2026-04-22T11:01:24.754131+00:00",
+      "id": "sig_1776855747865_0",
+      "timestamp": "2026-04-22T11:02:27.865543+00:00",
       "source": "PERPLEXITY",
-      "headline": "**Cavaliers lead Raptors 2-0** in their first-round series, with Cleveland winning Game 2 by 115-105[2]",
-      "raw": "**Cavaliers lead Raptors 2-0** in their first-round series, with Cleveland winning Game 2 by 115-105[2]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776855684757_2",
-      "timestamp": "2026-04-22T11:01:24.757111+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Lakers and Rockets** played on April 21, 2026, but specific game outcomes aren't detailed in these results[4]",
-      "raw": "**Lakers and Rockets** played on April 21, 2026, but specific game outcomes aren't detailed in these results[4]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776855684760_3",
-      "timestamp": "2026-04-22T11:01:24.760230+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Raptors' regular season record** was 46-36, finishing 5th in the Eastern Conference[2]",
-      "raw": "**Raptors' regular season record** was 46-36, finishing 5th in the Eastern Conference[2]\n\nHowever, these are retrospective game results from the past few days, not breaking news that would move markets. To provide the headline format you requested with market-moving confirmation, I would need search results containing actual new announcements or resolutions from today (April 22, 2026 at 11 AM UTC)",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776855684763_4",
-      "timestamp": "2026-04-22T11:01:24.763376+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Recommendation:** Search for news specifically dated April 22, 2026, or check official NBA sources for today's announcem",
-      "raw": "Recommendation:** Search for news specifically dated April 22, 2026, or check official NBA sources for today's announcements to identify market-moving developments.",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776855691257_2",
-      "timestamp": "2026-04-22T11:01:31.257271+00:00",
-      "source": "PERPLEXITY",
-      "headline": "No Fresh Confirmations, Announcements, or Resolutions Moving Markets Right Now | NO | HIGH confidence**",
-      "raw": "No Fresh Confirmations, Announcements, or Resolutions Moving Markets Right Now | NO | HIGH confidence**  \nSearch results lack breaking X posts on whale bets, smart money tips, or just-resolved events shifting odds as of April 22, 2026; focus remains on historical study and ongoing tweet markets without new catalysts.[1][2][3][4]",
+      "headline": "Elon Musk April Tweets Market Leads Polymarket Trends | NO whale bets, smart money moves, or mispriced tips reported on",
+      "raw": "Elon Musk April Tweets Market Leads Polymarket Trends | NO whale bets, smart money moves, or mispriced tips reported on X | LOW confidence**  \nPolymarket's trending markets as of April 21, 2026, highlight **Tweet Markets** with over 20 active predictions, including the most active \"Elon Musk # tweets April 17 - April 24, 2026?\" (28% odds for 1120-1159 range) and \"Elon Musk # tweets in April 2026?\"",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
@@ -129,9 +69,9 @@
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 9,
+    "enter": 1,
+    "alert": 3,
     "watch": 0,
-    "high_conf": 2
+    "high_conf": 1
   }
 }
