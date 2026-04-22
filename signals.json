@@ -1,16 +1,16 @@
 {
-  "last_scan": "2026-04-22T21:03:34.578577+00:00",
-  "scan_seconds": 23.9,
+  "last_scan": "2026-04-22T21:04:36.881854+00:00",
+  "scan_seconds": 16.3,
   "markets_scanned": 53,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776891802201_0",
-      "timestamp": "2026-04-22T21:03:22.201362+00:00",
+      "id": "sig_1776891864508_0",
+      "timestamp": "2026-04-22T21:04:24.508921+00:00",
       "source": "PERPLEXITY",
-      "headline": "Based on the search results provided, there is **no breaking news as of April 22, 2026, 9 PM UTC** that meets the criter",
-      "raw": "Based on the search results provided, there is **no breaking news as of April 22, 2026, 9 PM UTC** that meets the criteria of a confirmed announcement or resolution that would move prediction markets.\n\nThe most recent dated information available is from **April 21, 2026**, which shows Ethereum trading at $2,305.04[5] \u2014 a relatively minor daily fluctuation of -$12.76[5].\n\nThe closest to \"breaking\" ",
-      "direction": "NO",
+      "headline": "ETH ETF Inflows Hit $275M Weekly High, Strongest Since January, Driving Price to $2,288 Amid Institutional Rally | YES |",
+      "raw": "ETH ETF Inflows Hit $275M Weekly High, Strongest Since January, Driving Price to $2,288 Amid Institutional Rally | YES | HIGH**  \nEthereum ETFs recorded over $275 million in weekly inflows\u2014the highest since January 2026\u2014led by Fidelity\u2019s FETH and BlackRock\u2019s ETHA, coinciding with a 7% ETH price climb to nearly $2,400 before stabilizing near $2,288.[1] This marks confirmed institutional demand resu",
+      "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
         "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET"
@@ -20,55 +20,53 @@
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776891806915_0",
-      "timestamp": "2026-04-22T21:03:26.915423+00:00",
+      "id": "sig_1776891875870_0",
+      "timestamp": "2026-04-22T21:04:35.870010+00:00",
       "source": "PERPLEXITY",
-      "headline": "Lakers Lead Rockets 2-0 in Western Conference First Round After Game 2 Win; No Conference Semifinals Matchup or Raptors",
-      "raw": "Lakers Lead Rockets 2-0 in Western Conference First Round After Game 2 Win; No Conference Semifinals Matchup or Raptors Involvement Confirmed** | **NO** | **HIGH** confidence[1][2][3]\n\nLakers secured a 101-94 victory in Game 2 on Tuesday, April 21, taking a 2-0 series lead over the Houston Rockets in the first round, with LeBron James scoring 28 points and Rui Hachimura adding 13 in 43 minutes[3].",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
-        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776891802203_1",
-      "timestamp": "2026-04-22T21:03:22.203698+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Ethereum ETF Inflows Surge** | YES | HIGH confidence",
-      "raw": "Ethereum ETF Inflows Surge** | YES | HIGH confidence\nStrong institutional demand with ETF inflows crossing $275 million weekly (strongest since January)[1], supporting price stability above $2,288[1].",
+      "headline": "Nasdaq Round-the-Clock Trading by June 30",
+      "raw": "Nasdaq Round-the-Clock Trading by June 30? | NO | HIGH confidence**  \nPolymarket's top trending market shows 20% YES odds with $43.9K volume, signaling strong trader skepticism on Nasdaq extending to 24/7 trading soon[1].",
       "direction": "YES",
       "confidence": 0.78,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776891802206_2",
-      "timestamp": "2026-04-22T21:03:22.206156+00:00",
+      "id": "sig_1776891875872_1",
+      "timestamp": "2026-04-22T21:04:35.872399+00:00",
       "source": "PERPLEXITY",
-      "headline": "Pectra Upgrade in Final Testing** | YES | MED confidence",
-      "raw": "Pectra Upgrade in Final Testing** | YES | MED confidence\nThe Prague-Electra upgrade is entering final testing phases as of mid-April, promising wallet abstraction and validator efficiency improvements[4], though no confirmed deployment date is specified.\n\nHowever, neither of these represent *today's* announcements. The search results lack real-time data for April 22, 2026, after 9 PM UTC, so any b",
+      "headline": "\ud835\udd4f Money Launched by April 30",
+      "raw": "\ud835\udd4f Money Launched by April 30? | NO | HIGH confidence**  \nX-specific market at 16% YES odds with $33.6K volume; traders on Polymarket doubt Elon Musk's payment system rollout by month-end[2].",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Trump name \"Elon\" or \"Musk\" in April?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776891875874_2",
+      "timestamp": "2026-04-22T21:04:35.874580+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Monero Hits $1000 in 2026",
+      "raw": "Monero Hits $1000 in 2026? | NO | MED confidence**  \nTrending at 19% YES with $94.3K volume; crypto traders view $XMR moonshot as unlikely amid market dynamics[1].",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776891813556_0",
-      "timestamp": "2026-04-22T21:03:33.556598+00:00",
+      "id": "sig_1776891875876_3",
+      "timestamp": "2026-04-22T21:04:35.876693+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot provide the specific real-time information you're requesting based on these search results",
-      "raw": "I cannot provide the specific real-time information you're requesting based on these search results.\n\nThe search results describe Polymarket's general platform features and show that 168 trending markets, 130 tweet-related markets, and 20 tweet markets are active as of mid-to-late April 2026[1][2][3]. However, they do not contain:",
-      "direction": null,
+      "headline": "Iran x Israel/US Conflict Ends by",
+      "raw": "Iran x Israel/US Conflict Ends by...? | YES (resolved) | HIGH confidence**  \nMarket at 100% YES, indicating recent confirmation or resolution of conflict timeline, drawing $12.3K liquidity[2].",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -76,75 +74,25 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776891813558_1",
-      "timestamp": "2026-04-22T21:03:33.558879+00:00",
+      "id": "sig_1776891875878_4",
+      "timestamp": "2026-04-22T21:04:35.878895+00:00",
       "source": "PERPLEXITY",
-      "headline": "Current social media posts from X (Twitter) about Polymarket trading activity",
-      "raw": "Current social media posts from X (Twitter) about Polymarket trading activity",
-      "direction": null,
+      "headline": "Nikita Bier Out as X Head of Product by June 30",
+      "raw": "Nikita Bier Out as X Head of Product by June 30? | NO | HIGH confidence**  \nLow 7% YES odds with $1.4K volume; minimal trader bets on leadership shakeup at X[2].  \n\nNo direct X posts on whale bets, smart money, mispriced markets, or tips in results; focus is Polymarket's real-time odds from high-volume trades aggregating trader sentiment[1][2]. Active tweet markets like Elon Musk's April tweet cou",
+      "direction": "YES",
       "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776891813561_2",
-      "timestamp": "2026-04-22T21:03:33.561194+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Specific whale bets or smart money moves happening right now",
-      "raw": "Specific whale bets or smart money moves happening right now",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776891813563_3",
-      "timestamp": "2026-04-22T21:03:33.563831+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Which markets traders consider mispriced",
-      "raw": "Which markets traders consider mispriced",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776891813566_4",
-      "timestamp": "2026-04-22T21:03:33.566077+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Recent breaking news, announcements, or market resolutions that would affect prediction markets",
-      "raw": "Recent breaking news, announcements, or market resolutions that would affect prediction markets",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776891813568_5",
-      "timestamp": "2026-04-22T21:03:33.568194+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Individual trader commentary or market tips",
-      "raw": "Individual trader commentary or market tips\n\nTo get this information, you would need to:",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
+      "matched_markets": [
+        "Will Trump name \"Elon\" or \"Musk\" in April?"
+      ],
       "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
     }
   ],
   "stats": {
-    "enter": 2,
-    "alert": 8,
+    "enter": 1,
+    "alert": 5,
     "watch": 0,
-    "high_conf": 2
+    "high_conf": 1
   }
 }
