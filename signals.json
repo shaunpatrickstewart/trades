@@ -1,32 +1,30 @@
 {
-  "last_scan": "2026-04-22T07:57:17.215619+00:00",
-  "scan_seconds": 16.7,
+  "last_scan": "2026-04-22T07:58:28.779596+00:00",
+  "scan_seconds": 18.2,
   "markets_scanned": 74,
   "open_positions": 37,
   "signals": [
     {
-      "id": "sig_1776844631931_0",
-      "timestamp": "2026-04-22T07:57:11.931782+00:00",
+      "id": "sig_1776844698409_0",
+      "timestamp": "2026-04-22T07:58:18.409656+00:00",
       "source": "PERPLEXITY",
-      "headline": "Cavaliers take 2-0 series lead over Raptors after 115-105 Game 2 win on Monday** | YES | HIGH confidence[1][2]",
-      "raw": "Cavaliers take 2-0 series lead over Raptors after 115-105 Game 2 win on Monday** | YES | HIGH confidence[1][2]\n\nThe Cleveland Cavaliers defeated the Toronto Raptors 115-105 in Game 2 of their Eastern Conference first-round playoff series on April 21, 2026, securing a commanding 2-0 lead with standout performances from Donovan Mitchell (30 points), James Harden (28 points), and Evan Mobley (25 poin",
+      "headline": "Fed Chair Powell Describes 'Very Unusual' Economy with Tariff-Driven Goods Inflation Peaking Q1 2026, Amid Rate Cut and",
+      "raw": "Fed Chair Powell Describes 'Very Unusual' Economy with Tariff-Driven Goods Inflation Peaking Q1 2026, Amid Rate Cut and Labor Market Warnings | YES | HIGH**  \nPowell announced on Wednesday that the U.S. economy faces tariff-induced goods inflation, expected to peak around Q1 2026 assuming no new tariffs, while inflation excluding tariff-affected goods is in the low 2% range.[1]  \nHe framed the lat",
       "direction": "YES",
-      "confidence": 0.78,
+      "confidence": 0.9,
       "matched_markets": [
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
-        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
+        "Will Powell say \"Tariff inflation\" during April press conference?"
       ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
-      "category": "SPORTS"
+      "category": "ECONOMICS"
     },
     {
-      "id": "sig_1776844636212_0",
-      "timestamp": "2026-04-22T07:57:16.212924+00:00",
+      "id": "sig_1776844707776_0",
+      "timestamp": "2026-04-22T07:58:27.776406+00:00",
       "source": "PERPLEXITY",
-      "headline": "Elon Musk April Tweet Volume Markets Lead Polymarket Activity | NO whale bets or tips reported | LOW confidence**",
-      "raw": "Elon Musk April Tweet Volume Markets Lead Polymarket Activity | NO whale bets or tips reported | LOW confidence**\n\nPolymarket hosts 130+ active **tweet prediction markets**, primarily on **Elon Musk's tweet counts**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" and \"Elon Musk # tweets in April 2026?\", with high trading volumes over $17M-$19M[1][2][3]. Current crowd odds include 29% for ",
+      "headline": "Elon Musk April Tweet Count Markets Trending on Polymarket | NO | LOW confidence**",
+      "raw": "Elon Musk April Tweet Count Markets Trending on Polymarket | NO | LOW confidence**\n\nPolymarket's most active markets right now focus on **Elon Musk's tweet volumes**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" (29% on 180-199 range) and \"Elon Musk musk # tweets in April 2026?\" (28% on 1120-1159, 18% on 1080-1119), with over $19.1M in trading volume across 20+ active Tweet Markets[2][3",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
@@ -36,9 +34,9 @@
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 2,
+    "enter": 1,
+    "alert": 1,
     "watch": 0,
-    "high_conf": 0
+    "high_conf": 1
   }
 }
