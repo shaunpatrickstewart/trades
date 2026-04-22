@@ -1,57 +1,59 @@
 {
-  "last_scan": "2026-04-22T17:50:15.967337+00:00",
-  "scan_seconds": 25.4,
+  "last_scan": "2026-04-22T17:51:19.273570+00:00",
+  "scan_seconds": 18.7,
   "markets_scanned": 51,
   "open_positions": 15,
   "signals": [
     {
-      "id": "sig_1776880214964_5",
-      "timestamp": "2026-04-22T17:50:14.964178+00:00",
+      "id": "sig_1776880263312_0",
+      "timestamp": "2026-04-22T17:51:03.312058+00:00",
       "source": "PERPLEXITY",
-      "headline": "Elon Musk Tweet Volume Markets (e",
-      "raw": "Elon Musk Tweet Volume Markets (e.g., April 2026 Total) | MIXED | LOW confidence**  \nActive with 18-19% on high ranges like 1120-1159 tweets or 200-219 weekly; $22M+ category volume[3][4]. Traders tracking patterns\u2014**smart money** on under if posting slows; real-time shifts from news.\n\nNo whale bets, explicit X posts, or fresh announcements (e.g., Trump WHCA Dinner April 25 predictions upcoming[5]",
+      "headline": "Solana (SOL) hits all-time high of 167 million token holders in April 2026, amid Alpenglow upgrade hype and institutiona",
+      "raw": "Solana (SOL) hits all-time high of 167 million token holders in April 2026, amid Alpenglow upgrade hype and institutional ETF holdings, driving 10% surge.** | YES | HIGH[1][5]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the price of Solana be above $90 on April 28?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776880263314_1",
+      "timestamp": "2026-04-22T17:51:03.314006+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Ethereum and Solana surge on US-Iran \"Grand Deal\" optimism, with ETH nearing $2,400 and SOL up 7% to $87 post-ceasefire",
+      "raw": "Ethereum and Solana surge on US-Iran \"Grand Deal\" optimism, with ETH nearing $2,400 and SOL up 7% to $87 post-ceasefire.** | YES | MED[4][5]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776880263315_2",
+      "timestamp": "2026-04-22T17:51:03.315882+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Solana leads tokenized stock trading volume across blockchains since July 2025, with prediction markets at 100% YES for",
+      "raw": "Solana leads tokenized stock trading volume across blockchains since July 2025, with prediction markets at 100% YES for $40+ by April 15 and eyeing $110 by April 18.** | YES | MED[2]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the price of Solana be above $90 on April 28?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776880268531_0",
+      "timestamp": "2026-04-22T17:51:08.531669+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Impact on prediction markets: LOW confidence** in any immediate shift, as March data is ~12 days old with no new resolut",
+      "raw": "Impact on prediction markets: LOW confidence** in any immediate shift, as March data is ~12 days old with no new resolutions today.[1][2][3]",
       "direction": "NO",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will Trump agree to Iranian enrichment of uranium in April?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776880214953_0",
-      "timestamp": "2026-04-22T17:50:14.953916+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Nasdaq Round-the-Clock Trading by June 30",
-      "raw": "Nasdaq Round-the-Clock Trading by June 30? | NO | HIGH confidence**  \nPolymarket's trending markets list this as the top prediction with **20% YES odds**, $43.9K volume, and $1.8K liquidity, signaling strong trader skepticism on Nasdaq implementing 24/7 trading soon[1]. No X posts or whale activity noted in results, but low YES price suggests **mispriced for NO buyers** if no major announcements e",
-      "direction": "YES",
-      "confidence": 0.78,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776880214960_3",
-      "timestamp": "2026-04-22T17:50:14.960088+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Iran x Israel/US Conflict Ends by",
-      "raw": "Iran x Israel/US Conflict Ends by...? | YES (resolved) | HIGH confidence**  \nGeopolitics market shows **100% YES** on ending by specified date, with $12.3K liquidity across 116 outcomes; implies **recent confirmation or resolution** shifting odds fully[2]. Likely triggered market move\u2014traders calling it closed bet.",
-      "direction": "YES",
-      "confidence": 0.78,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776880202394_0",
-      "timestamp": "2026-04-22T17:50:02.394403+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Fed Rate Cuts Delayed as Inflation Accelerates on Energy Shock | YES | HIGH confidence**",
-      "raw": "Fed Rate Cuts Delayed as Inflation Accelerates on Energy Shock | YES | HIGH confidence**\n\nThe Federal Reserve is holding its benchmark rate at 3.50%\u20133.75% as inflation accelerates, with most policymakers now expecting at most one rate cut in 2026, and a growing minority seeing no cuts at all.[2] This represents a significant shift from earlier expectations. The trigger was March's Consumer Price I",
-      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -59,118 +61,12 @@
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_1776880202398_1",
-      "timestamp": "2026-04-22T17:50:02.398034+00:00",
+      "id": "sig_1776880278270_0",
+      "timestamp": "2026-04-22T17:51:18.270330+00:00",
       "source": "PERPLEXITY",
-      "headline": "Market-Moving Details:**",
-      "raw": "Market-Moving Details:**",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776880202401_2",
-      "timestamp": "2026-04-22T17:50:02.401066+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Headline inflation:** 3",
-      "raw": "**Headline inflation:** 3.3% year-over-year in March; 0.9% monthly[1]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776880202404_3",
-      "timestamp": "2026-04-22T17:50:02.404167+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Core inflation:** 2",
-      "raw": "**Core inflation:** 2.6% year-over-year, suggesting the shock is energy-driven rather than broad-based[2]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776880202407_4",
-      "timestamp": "2026-04-22T17:50:02.407413+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Financial market expectations:** Year-over-year headline CPI inflation expectations rose 0",
-      "raw": "**Financial market expectations:** Year-over-year headline CPI inflation expectations rose 0.8 percentage points to 3.3% since the war began[4]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776880202411_5",
-      "timestamp": "2026-04-22T17:50:02.411047+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Consumer sentiment impact:** Short-term inflation expectations jumped one percentage point to 4",
-      "raw": "**Consumer sentiment impact:** Short-term inflation expectations jumped one percentage point to 4.8% in the University of Michigan survey[4]\n\nGoldman Sachs forecasts core inflation will ease later in 2026, potentially enabling rate cuts, but only if oil prices pull back as expected.[4] The conflicting signals\u2014elevated headline inflation versus contained core inflation\u2014have left FOMC members openly",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776880207779_0",
-      "timestamp": "2026-04-22T17:50:07.779011+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Raptors' Rookie Collin Murray-Boyles Delivers Breakout 17-Point Performance Stepping In for Injured Poeltl in Playoff Lo",
-      "raw": "Raptors' Rookie Collin Murray-Boyles Delivers Breakout 17-Point Performance Stepping In for Injured Poeltl in Playoff Loss to Cavs | NO | MED confidence**\n\nRookie center **Collin Murray-Boyles** filled in for injured Jakob Poeltl, scoring 17 points with 7 rebounds, 1 block, and 1 steal in 26 minutes during Toronto's 126-113 Game 1 loss to Cleveland on April 18[1][3]. Raptors bench showed promise i",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776880214955_1",
-      "timestamp": "2026-04-22T17:50:14.955953+00:00",
-      "source": "PERPLEXITY",
-      "headline": "\ud835\udd4f Money Launched by April 30",
-      "raw": "\ud835\udd4f Money Launched by April 30? | NO | HIGH confidence**  \nX-specific markets highlight this with **16% YES odds**, $33.6K volume, $4.4K liquidity, ending in 7 days; traders on Polymarket doubt Elon Musk's payment feature rollout by deadline[2]. Potential **smart money move** on NO amid no confirmations; mispriced if X delays persist.",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776880214958_2",
-      "timestamp": "2026-04-22T17:50:14.958028+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Monero Hits $1000 in 2026",
-      "raw": "Monero Hits $1000 in 2026? | NO | MED confidence**  \nTrending crypto market at **19% YES odds**, $94.3K volume, $6.7K liquidity, ending in 8 months; reflects bearish sentiment despite volatility[1]. Watch for whale bets if price pumps, as crowd views it undervalued for NO.",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776880214962_4",
-      "timestamp": "2026-04-22T17:50:14.962054+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Nikita Bier Out as X Head of Product by June 30",
-      "raw": "Nikita Bier Out as X Head of Product by June 30? | NO | HIGH confidence**  \nAt **7% YES odds**, $1.4K volume, $2.9K liquidity; low conviction on internal X shakeup[2]. **Prediction tip**: NO heavily favored, potential misprice if stability rumors confirm.",
-      "direction": "YES",
+      "headline": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | LOW confidence**",
+      "raw": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | LOW confidence**\n\nPolymarket's most active markets right now focus on **Elon Musk's tweet volumes**, such as \"Elon Musk # tweets April 20 - April 22, 2026?\" (priced at 40-64% implied probability in pop culture tweet markets) and \"Elon Musk # tweets April 17 - April 24, 2026?\" with 1120-1159 tweets at **18% chance**[2][3][4]. These dominat",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -179,9 +75,9 @@
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 12,
+    "enter": 0,
+    "alert": 5,
     "watch": 0,
-    "high_conf": 1
+    "high_conf": 0
   }
 }
