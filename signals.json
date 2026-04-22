@@ -1,32 +1,15 @@
 {
-  "last_scan": "2026-04-22T00:48:19.094192+00:00",
-  "scan_seconds": 33.5,
+  "last_scan": "2026-04-22T00:49:27.009493+00:00",
+  "scan_seconds": 40.3,
   "markets_scanned": 68,
   "open_positions": 26,
   "signals": [
     {
-      "id": "sig_1776818870230_0",
-      "timestamp": "2026-04-22T00:47:50.230503+00:00",
+      "id": "sig_1776818943432_0",
+      "timestamp": "2026-04-22T00:49:03.432885+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot identify any breaking news or recent confirmations/announcements in the search results that would move predicti",
-      "raw": "I cannot identify any breaking news or recent confirmations/announcements in the search results that would move prediction markets for Ethereum or XRP as of April 22, 2026.\n\nThe search results contain prediction market data from Polymarket showing trader expectations for these assets through the end of April, but they do not include any newly confirmed events, announcements, or resolved developmen",
-      "direction": null,
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will Ethereum reach $2,400 April 20-26?",
-        "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
-        "XRP Up or Down - April 22, 8:20AM-8:25AM ET"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776818882609_1",
-      "timestamp": "2026-04-22T00:48:02.609447+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Elon Musk # Tweets April 14-21, 2026",
-      "raw": "Elon Musk # Tweets April 14-21, 2026? | YES (220-239 range) | HIGH confidence**  \nThis market recently resolved at 100% for the 220-239 tweet bucket (some sources note 70% pre-resolution), with over $28M total volume across tweet markets, signaling strong trader consensus on Elon's posting volume as data confirmed the count.[3][4] No whale bets or X posts detailed in results, but resolution moves ",
+      "headline": "Elon Musk Tweet Count Market Resolves at 220-239 | YES (100%) | HIGH confidence**",
+      "raw": "Elon Musk Tweet Count Market Resolves at 220-239 | YES (100%) | HIGH confidence**  \nPolymarket's most active tweet market, \"Elon Musk # tweets April 14 - April 21, 2026?\", has reached 100% odds on the 220-239 outcome as of the latest data, indicating near-certain resolution there with over $28M in trading volume across tweet markets[1][2][3]. This likely just resolved or is on the verge, driving t",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [],
@@ -35,165 +18,121 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776818899090_4",
-      "timestamp": "2026-04-22T00:48:19.090964+00:00",
+      "id": "sig_1776818934273_0",
+      "timestamp": "2026-04-22T00:48:54.273700+00:00",
+      "source": "PERPLEXITY",
+      "headline": "I cannot provide breaking news for today (April 22, 2026) based on these search results",
+      "raw": "I cannot provide breaking news for today (April 22, 2026) based on these search results. The search results contain information from April 2025\u2014approximately one year ago\u2014when Federal Reserve Chair Jerome Powell warned about President Trump's tariffs raising inflation and slowing economic growth.\n\nThe most recent information in these results is from mid-April 2025, which is outdated relative to yo",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Trump agree to Iranian enrichment of uranium in April?",
+        "Will Powell say \"Tariff inflation\" during April press conference?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776818938664_0",
+      "timestamp": "2026-04-22T00:48:58.664262+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Cavaliers Beat Raptors 115-105 in Game 2, Take 2-0 Series Lead | NO (Lakers Not Involved) | HIGH confidence** [1][2][3][",
+      "raw": "Cavaliers Beat Raptors 115-105 in Game 2, Take 2-0 Series Lead | NO (Lakers Not Involved) | HIGH confidence** [1][2][3][4]\n\nDonovan Mitchell scored 30 points with 7 rebounds and 5 assists, while James Harden added 28 points on 9-14 shooting to secure the win in Cleveland on April 21, 2026.[1][2][3][4] Evan Mobley contributed 25 points in the victory, marking the 4th historic trio performance with ",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776818943435_1",
+      "timestamp": "2026-04-22T00:49:03.435497+00:00",
+      "source": "PERPLEXITY",
+      "headline": "GTA VI Release Before June 2026 | NO (99%) | MED confidence**",
+      "raw": "GTA VI Release Before June 2026 | NO (99%) | MED confidence**  \nNews stories market on \"GTA VI released before June 2026?\" trades at 1% YES ($14M volume), implying traders see it as highly unlikely soon, potentially trending as mispriced for NO bets amid $51.8M total volume[4].",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776818943438_2",
+      "timestamp": "2026-04-22T00:49:03.438142+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Kanye West Tweets by April 30 | YES (~30-70% implied) | LOW confidence**",
+      "raw": "Kanye West Tweets by April 30 | YES (~30-70% implied) | LOW confidence**  \nActive \"Will Kanye tweet again by April 30?\" market reflects crowd odds around 30%+ based on similar tweet predictions, part of 138 live markets with $27.3M volume, but no fresh X chatter or moves noted[2].",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776818966995_0",
+      "timestamp": "2026-04-22T00:49:26.995372+00:00",
       "source": "X_GROK",
-      "headline": "General Arb Profits Confirmed**: $40M realized arb (bots took $4",
-      "raw": "General Arb Profits Confirmed**: $40M realized arb (bots took $4.2M), esp. politics; structural mispricings persist. Hunt related markets. HIGH confidence (2025 study).[[6]](https://x.com/i/status/2046216070663651474)[[7]](https://x.com/i/status/2046671318050066936)",
+      "headline": "Recent Polymarket whale bets (sports/esports focus, per alerts):**",
+      "raw": "Recent Polymarket whale bets (sports/esports focus, per alerts):**",
       "direction": null,
-      "confidence": 0.9,
+      "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
-      "x_link": "https://x.com/i/status/2046216070663651474)[[7]](https://x.com/i/status/2046671318050066936)",
+      "x_link": null,
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776818870233_1",
-      "timestamp": "2026-04-22T00:47:50.233333+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**XRP trading at $1",
-      "raw": "**XRP trading at $1.31** with a 65% probability assigned to the $1.40 price level by end of April[1]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [
-        "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
-        "XRP Up or Down - April 22, 8:20AM-8:25AM ET",
-        "XRP Up or Down - April 22, 8:25AM-8:30AM ET"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776818870235_2",
-      "timestamp": "2026-04-22T00:47:50.235784+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Ethereum bearish forecasts** showing a 96% probability of trading below $2,000 in April[2]",
-      "raw": "**Ethereum bearish forecasts** showing a 96% probability of trading below $2,000 in April[2]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Ethereum reach $2,400 April 20-26?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776818870238_3",
-      "timestamp": "2026-04-22T00:47:50.238397+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**XRP outflows** of $3",
-      "raw": "**XRP outflows** of $3.56 million from XRP-linked funds, marking the first weekly withdrawal of April[1]\n\nThese represent market conditions and historical trader positioning rather than new developments that would trigger immediate price movements. To receive current breaking news, you would need real-time news sources or live market feeds beyond these prediction market snapshots.",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [
-        "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
-        "XRP Up or Down - April 22, 8:20AM-8:25AM ET",
-        "XRP Up or Down - April 22, 8:25AM-8:30AM ET"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776818882606_0",
-      "timestamp": "2026-04-22T00:48:02.606802+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Nasdaq Round-the-Clock Trading by June 30",
-      "raw": "Nasdaq Round-the-Clock Trading by June 30? | NO | HIGH confidence**  \nPolymarket's top trending market shows \"Nasdaq round-the-clock trading by June 30?\" at 22% YES odds (78% NO implied), with $43.9K volume and $1.5K liquidity, indicating traders price low likelihood despite buzz.[1]",
+      "id": "sig_1776818967000_1",
+      "timestamp": "2026-04-22T00:49:27.000694+00:00",
+      "source": "X_GROK",
+      "headline": "**Whale $91k buys Spurs win vs Trail Blazers @73",
+      "raw": "**Whale $91k buys Spurs win vs Trail Blazers @73.4\u00a2.** YES for Spurs win (NBA game imminent). Confidence: HIGH (large position).[[3]](https://x.com/i/status/2046749072325828814)",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
-      "x_link": null,
+      "x_link": "https://x.com/i/status/2046749072325828814)",
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776818882612_2",
-      "timestamp": "2026-04-22T00:48:02.612085+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Kinetiq Price in 2026",
-      "raw": "Kinetiq Price in 2026? | NO (above $0.5?) | MED confidence**  \nTrending at 59% for hitting $0.5, but low volume ($ unspecified beyond market) suggests limited conviction; traders on X not highlighted, potential mispricing if sentiment shifts post-announcements.[1]  \n\nNo recent confirmations, whale moves, or X-trending tips in results; tweet markets dominate activity with real-time odds reflecting ",
+      "id": "sig_1776818967003_2",
+      "timestamp": "2026-04-22T00:49:27.003511+00:00",
+      "source": "X_GROK",
+      "headline": "**Whale $40k buys South America Rejects win vs MOUZ (Dota 2 BO3) @48",
+      "raw": "**Whale $40k buys South America Rejects win vs MOUZ (Dota 2 BO3) @48.3\u00a2.** YES for underdog win (group stage match). Confidence: MED.[[4]](https://x.com/i/status/2046751609569398943)",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Dota 2: South America Rejects vs ALIS VENTORUS (BO3) - DreamLeague Division 2 Gr"
+      ],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2046751609569398943)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776818967008_3",
+      "timestamp": "2026-04-22T00:49:27.008813+00:00",
+      "source": "X_GROK",
+      "headline": "Trending chatter:** Bots dominate alerts; humans discuss whale tracking tools, avoiding low-\u00a2 bets, SPY options arb (old",
+      "raw": "Trending chatter:** Bots dominate alerts; humans discuss whale tracking tools, avoiding low-\u00a2 bets, SPY options arb (older). No fresh mispriced tips or big moves on politics/crypto. Virginia redistricting news may shift related markets (Dems gain edge).[[6]](https://x.com/i/status/2046751674010685535) Focus sports for signals.",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776818899079_0",
-      "timestamp": "2026-04-22T00:48:19.079409+00:00",
-      "source": "X_GROK",
-      "headline": "SPY Weekly Markets Mispriced**: Jason San built an options pricing model revealing multiple mispriced opportunities in P",
-      "raw": "SPY Weekly Markets Mispriced**: Jason San built an options pricing model revealing multiple mispriced opportunities in Polymarket's $SPY week-of-April-20 markets (e.g., https://polymarket.com/event/will-spy-hit-week-of-april-20-2026). Buy undervalued YES/NO sides for arb edge + $POLY farm. HIGH confidence (top 1% MM claim).[[1]](https://x.com/i/status/2046156150341787861)[[2]](https://x.com/i/stat",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2046156150341787861)[[2]](https://x.com/i/status/2046714183710842952)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776818899083_1",
-      "timestamp": "2026-04-22T00:48:19.083106+00:00",
-      "source": "X_GROK",
-      "headline": "BTC/ETH 5min Arb Edge**: Oracle Boar uncovers 21",
-      "raw": "BTC/ETH 5min Arb Edge**: Oracle Boar uncovers 21.6% disagreement rate in paired markets; exploit BTC reversals before ETH adjusts (76.7% correlation post-upset). Buy lagging ETH side. MED confidence (historical data, execution race).[[3]](https://x.com/i/status/2046699740088189119)",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2046699740088189119)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776818899085_2",
-      "timestamp": "2026-04-22T00:48:19.085837+00:00",
-      "source": "X_GROK",
-      "headline": "Iran Ceasefire Deal Undervalued",
-      "raw": "Iran Ceasefire Deal Undervalued?**: Trump extends ceasefire but keeps blockade until Iran proposal; Polymarket April 30 deal odds at 26%. YES if Tehran submits soon (ball in their court). LOW confidence (speculative).[[4]](https://x.com/i/status/2046751097231118612)",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Trump agree to Iranian enrichment of uranium in April?"
-      ],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2046751097231118612)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776818899088_3",
-      "timestamp": "2026-04-22T00:48:19.088413+00:00",
-      "source": "X_GROK",
-      "headline": "Saylor 1M BTC EOY at 58%**: Traders note MicroStrategy odds steady; potential whale interest if BTC rally",
-      "raw": "Saylor 1M BTC EOY at 58%**: Traders note MicroStrategy odds steady; potential whale interest if BTC rally. Neutral hold. LOW confidence (volume watch).[[5]](https://x.com/i/status/2046700619554050330)",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2046700619554050330)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776818899093_5",
-      "timestamp": "2026-04-22T00:48:19.093516+00:00",
-      "source": "X_GROK",
-      "headline": "Trending Tips**: Bots/pipelines for edges (@antpalkin), whale tracking guides (@LarkDavis), $POLY airdrop farm",
-      "raw": "Trending Tips**: Bots/pipelines for edges (@antpalkin), whale tracking guides (@LarkDavis), $POLY airdrop farm. No major whale bets spotted today.[[8]](https://x.com/i/status/2046031153098793316)",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2046031153098793316)",
+      "x_link": "https://x.com/i/status/2046751674010685535)",
       "category": "COMMUNITY"
     }
   ],
   "stats": {
     "enter": 0,
-    "alert": 13,
+    "alert": 9,
     "watch": 0,
-    "high_conf": 3
+    "high_conf": 1
   }
 }
