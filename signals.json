@@ -1,60 +1,47 @@
 {
-  "last_scan": "2026-04-22T22:44:22.165674+00:00",
-  "scan_seconds": 13.6,
-  "markets_scanned": 45,
+  "last_scan": "2026-04-22T22:45:26.293006+00:00",
+  "scan_seconds": 15.5,
+  "markets_scanned": 46,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776897861157_0",
-      "timestamp": "2026-04-22T22:44:21.157859+00:00",
+      "id": "sig_1776897918238_0",
+      "timestamp": "2026-04-22T22:45:18.238542+00:00",
       "source": "PERPLEXITY",
-      "headline": "Nasdaq Round-the-Clock Trading by June 30",
-      "raw": "Nasdaq Round-the-Clock Trading by June 30? | NO | HIGH confidence**  \nPolymarket's top trending market shows 20% YES odds with $43.9K volume, indicating strong trader consensus against Nasdaq implementing 24-hour trading by June 30, 2026\u2014likely a **mispriced opportunity** if you believe regulatory hurdles are overstated.[1]",
+      "headline": "Cavaliers lead Raptors 2-0 after Game 2 win (115-105) on April 20** | **YES** | **HIGH** confidence[3][5][6]",
+      "raw": "Cavaliers lead Raptors 2-0 after Game 2 win (115-105) on April 20** | **YES** | **HIGH** confidence[3][5][6]\n\nDonovan Mitchell scored 30 points with 7 rebounds and 5 assists, James Harden added 28 points on 9-14 shooting, and Evan Mobley contributed significantly in the victory, marking the second straight win over Toronto (Game 1: 126-113 on April 18)[3][5]. This confirmed result strengthens Cava",
       "direction": "YES",
-      "confidence": 0.78,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776897861161_2",
-      "timestamp": "2026-04-22T22:44:21.161508+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Robinhood (HOOD) Up or Down on April 22",
-      "raw": "Robinhood (HOOD) Up or Down on April 22? | YES (Up) | HIGH confidence**  \nResolved market hit 100% Up with $4.7K volume and $57.2K liquidity, confirming HOOD closed higher today\u2014traders on X likely celebrating this **just-resolved win** as validation of intraday momentum plays.[1]",
-      "direction": "YES",
-      "confidence": 0.78,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776897856498_0",
-      "timestamp": "2026-04-22T22:44:16.498605+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Cooper Flagg's historic 45-point game vs",
-      "raw": "Cooper Flagg's historic 45-point game vs. Lakers (following 51 vs. Magic) flips NBA Rookie of the Year betting odds, making him favorite (-250 on FanDuel) over Kon Knueppel** | YES | HIGH confidence[1][2][4]\n\nFlagg's performances\u2014first teen with 50+ points, first rookie since Iverson (1996-97) with back-to-back 40+ point games\u2014have separated him statistically (26.5 PPG last 10 games), solidifying ",
-      "direction": "YES",
-      "confidence": 0.65,
+      "confidence": 0.9,
       "matched_markets": [
-        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
-        "NBA Playoffs: Who Will Win Series? - Pistons vs. Magic "
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
       ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776897861159_1",
-      "timestamp": "2026-04-22T22:44:21.159779+00:00",
+      "id": "sig_1776897925282_1",
+      "timestamp": "2026-04-22T22:45:25.282514+00:00",
       "source": "PERPLEXITY",
-      "headline": "\ud835\udd4f Money Launched by April 30",
-      "raw": "\ud835\udd4f Money Launched by April 30? | NO | MED confidence**  \nX-specific predictions highlight 16% YES odds on \ud835\udd4f Money launch by April 30 with $33.6K volume, drawing trader buzz as **smart money bets NO** amid Elon Musk-related delays, positioning it as a potential short-term edge.[2]",
+      "headline": "Trump announces US blockade of Hormuz lifted by May 31",
+      "raw": "Trump announces US blockade of Hormuz lifted by May 31? | YES | MED confidence**  \nGeopolitics-related market in Social Media predictions at 76% Yes odds and massive $5M volume, signaling strong trader conviction on this near-term resolution amid high activity.[2]",
       "direction": "YES",
-      "confidence": 0.65,
+      "confidence": 0.78,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776897925290_5",
+      "timestamp": "2026-04-22T22:45:25.290024+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Elon Musk tweet volume in April 2026 (e",
+      "raw": "Elon Musk tweet volume in April 2026 (e.g., 1120-1159 range) | NO | MED confidence**  \nTweet Markets' top active at 21% for this bin amid $20.7M volume, tracking real-time Musk activity in 20 live markets.[3]  \n\nNo direct X posts from Polymarket traders, whale bets, or mispriced market tips in results; data shows high-volume conviction on Trump/geopolitics over others. Trump post mentions resolved",
+      "direction": "NO",
+      "confidence": 0.78,
       "matched_markets": [
+        "Will Trump agree to Iranian enrichment of uranium in April?",
         "Will Trump name \"Elon\" or \"Musk\" in April?"
       ],
       "action": "ALERT",
@@ -62,12 +49,54 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776897861163_3",
-      "timestamp": "2026-04-22T22:44:21.163516+00:00",
+      "id": "sig_1776897925280_0",
+      "timestamp": "2026-04-22T22:45:25.280694+00:00",
       "source": "PERPLEXITY",
-      "headline": "Iran x Israel/US Conflict Ends by",
-      "raw": "Iran x Israel/US Conflict Ends by...? | NO (Not by soonest date) | LOW confidence**  \n100% odds on an unspecified end date in geopolitics X markets with $12.3K liquidity suggest resolution unlikely short-term, trending as a **whale hedge** amid escalating tensions\u2014no fresh confirmations noted.[2]",
+      "headline": "Trump Media x TAE Technologies merger by June 30",
+      "raw": "Trump Media x TAE Technologies merger by June 30? | NO | HIGH confidence**  \nPolymarket's Social Media markets show this at 38% Yes odds with $65K volume, indicating traders lean No on the merger closing soon; it's listed among active markets with real-time sentiment from $98.8M total category volume.[2]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776897925284_2",
+      "timestamp": "2026-04-22T22:45:25.284525+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Law banning sports prediction markets enacted in 2026",
+      "raw": "Law banning sports prediction markets enacted in 2026? | NO | MED confidence**  \nTrending Markets highlight this as active, with real-time odds reflecting crowd skepticism on enactment amid 168 live markets and $3M+ volume; ties to broader regulatory debates.[1]",
       "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776897925286_3",
+      "timestamp": "2026-04-22T22:45:25.286262+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Will Trump acquire Greenland before 2027",
+      "raw": "Will Trump acquire Greenland before 2027? | NO | HIGH confidence**  \nMost active Social Media market at 93% No odds, backed by substantial trading conviction as a dynamic indicator of trader sentiment versus polls.[2]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Trump agree to Iranian enrichment of uranium in April?",
+        "Will Trump name \"Elon\" or \"Musk\" in April?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776897925288_4",
+      "timestamp": "2026-04-22T22:45:25.288041+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Nasdaq round-the-clock trading by June 30",
+      "raw": "Nasdaq round-the-clock trading by June 30? | NO (implied low Yes) | LOW confidence**  \nFeatured in Trending Markets as a key prediction (e.g., at example 30% Yes), with 168 active markets aggregating investor views on tech/finance shifts via $3M volume.[1]",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -76,9 +105,9 @@
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 5,
+    "enter": 1,
+    "alert": 6,
     "watch": 0,
-    "high_conf": 0
+    "high_conf": 1
   }
 }
