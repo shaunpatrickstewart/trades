@@ -1,32 +1,63 @@
 {
-  "last_scan": "2026-04-22T21:37:01.282145+00:00",
-  "scan_seconds": 20.3,
+  "last_scan": "2026-04-22T21:37:57.276301+00:00",
+  "scan_seconds": 15.7,
   "markets_scanned": 48,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776893809549_0",
-      "timestamp": "2026-04-22T21:36:49.549690+00:00",
+      "id": "sig_1776893869316_0",
+      "timestamp": "2026-04-22T21:37:49.316027+00:00",
       "source": "PERPLEXITY",
-      "headline": "CAVS TAKE 1-0 SERIES LEAD OVER RAPTORS IN PLAYOFFS | YES (Cavs lead series) | HIGH confidence** [6]",
-      "raw": "CAVS TAKE 1-0 SERIES LEAD OVER RAPTORS IN PLAYOFFS | YES (Cavs lead series) | HIGH confidence** [6]\n\nCooper Flagg dropped 45 points (near triple-double with 9 assists, 8 rebounds) to lead Mavericks past injury-depleted Lakers 134-128, ending Dallas' 14-game home losing streak; Flagg made history as first rookie with back-to-back 40+ point games since Allen Iverson[1][2][3]. No series win confirmed",
+      "headline": "Lakers Advance to Western Conference Semifinals with 32-Point Game 1 Blowout Over Rockets | YES | HIGH confidence**[2][3",
+      "raw": "Lakers Advance to Western Conference Semifinals with 32-Point Game 1 Blowout Over Rockets | YES | HIGH confidence**[2][3]  \nLuke Kennard, in his Lakers playoff debut, scored 27 points (second-most in franchise debut history), while LeBron James led with 31 points and 11 assists in the dominant win[1][3][4].  \nNo rookie-specific breaking news confirmed; results focus on veteran performances in firs",
       "direction": "YES",
-      "confidence": 0.65,
+      "confidence": 0.9,
       "matched_markets": [
-        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
+        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs",
+        "Will Detroit Pistons advance to the Conference Semifinals in the 2026 NBA Playof"
       ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776893820259_0",
-      "timestamp": "2026-04-22T21:37:00.259579+00:00",
+      "id": "sig_1776893876267_0",
+      "timestamp": "2026-04-22T21:37:56.267059+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot provide the specific breaking news, real-time trader commentary, or current social media discussion you're requ",
-      "raw": "I cannot provide the specific breaking news, real-time trader commentary, or current social media discussion you're requesting based on the available search results.\n\nThe search results provide general information about Polymarket's platform and structure\u2014including that it hosts 168 trending markets, 130 tweet-related markets, and 20 tweet markets with over $20.7M in trading volume[1][4]\u2014but they ",
-      "direction": null,
+      "headline": "Iran x Israel/US Conflict Ends by April 30: YES at 100% | YES | HIGH confidence**",
+      "raw": "Iran x Israel/US Conflict Ends by April 30: YES at 100% | YES | HIGH confidence**  \nPolymarket's X-related markets show this geopolitics market resolved to 100% YES, likely due to a recent ceasefire or confirmation, with $12.3K liquidity and trader conviction reflected in real-time odds[2]. This resolution would immediately move related prediction markets as funds settle and sentiment shifts to ad",
+      "direction": "YES",
+      "confidence": 0.78,
+      "matched_markets": [
+        "Will Russia enter Ternuvate again by April 30?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776893876269_1",
+      "timestamp": "2026-04-22T21:37:56.269209+00:00",
+      "source": "PERPLEXITY",
+      "headline": "\ud835\udd4f Money Launched by April 30: Low Odds at 16% | NO | MED confidence**",
+      "raw": "\ud835\udd4f Money Launched by April 30: Low Odds at 16% | NO | MED confidence**  \nTop X market on Polymarket with $33.6K volume and $4.4K liquidity prices \"\ud835\udd4f Money launched by April 30\" at just 16% YES, signaling traders doubt an imminent announcement from Elon Musk's platform despite hype[2]. X posts may highlight this as **mispriced low** for smart money betting NO, given thin liquidity and ends in 7 days",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Trump name \"Elon\" or \"Musk\" in April?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776893876273_3",
+      "timestamp": "2026-04-22T21:37:56.273298+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Trending Markets Category Active but No Specific X Buzz | N/A | LOW confidence**",
+      "raw": "Trending Markets Category Active but No Specific X Buzz | N/A | LOW confidence**  \n168 live Trending Markets (e.g., \"Nasdaq round-the-clock trading by June 30\") hold $2.8M volume, but lacks X-specific whale moves or mispricing calls[1]. Nikita Bier as X Head of Product market at 7% YES ($1.4K vol) may spark niche tips, ends in 2 months[2]. No fresh announcements or resolutions beyond Iran market n",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -34,127 +65,25 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776893820261_1",
-      "timestamp": "2026-04-22T21:37:00.261526+00:00",
+      "id": "sig_1776893876271_2",
+      "timestamp": "2026-04-22T21:37:56.271359+00:00",
       "source": "PERPLEXITY",
-      "headline": "Current posts or commentary from traders on X (formerly Twitter)",
-      "raw": "Current posts or commentary from traders on X (formerly Twitter)",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776893820263_2",
-      "timestamp": "2026-04-22T21:37:00.263389+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Real-time \"whale\" bets or large smart money moves happening now",
-      "raw": "Real-time \"whale\" bets or large smart money moves happening now",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776893820265_3",
-      "timestamp": "2026-04-22T21:37:00.265289+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Active discussions about mispriced markets",
-      "raw": "Active discussions about mispriced markets",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776893820267_4",
-      "timestamp": "2026-04-22T21:37:00.267159+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Recent market resolutions or confirmations that would trigger price movements",
-      "raw": "Recent market resolutions or confirmations that would trigger price movements",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776893820269_5",
-      "timestamp": "2026-04-22T21:37:00.269327+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Breaking news that's moving prediction markets at this moment",
-      "raw": "Breaking news that's moving prediction markets at this moment\n\nTo get this information, you would need to:",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776893820272_6",
-      "timestamp": "2026-04-22T21:37:00.272497+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Monitor Polymarket's platform directly for live market prices and recent activity",
-      "raw": "Monitor Polymarket's platform directly for live market prices and recent activity",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776893820274_7",
-      "timestamp": "2026-04-22T21:37:00.274353+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Search X/Twitter for hashtags like #Polymarket or #PredictionMarkets to see trader commentary",
-      "raw": "Search X/Twitter for hashtags like #Polymarket or #PredictionMarkets to see trader commentary",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776893820276_8",
-      "timestamp": "2026-04-22T21:37:00.276273+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Check crypto trading platforms and news aggregators for breaking developments",
-      "raw": "Check crypto trading platforms and news aggregators for breaking developments",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776893820278_9",
-      "timestamp": "2026-04-22T21:37:00.278286+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Review Polymarket's resolution log for recently settled markets",
-      "raw": "Review Polymarket's resolution log for recently settled markets\n\nThe search results are descriptive overviews rather than real-time market feeds, so they cannot fulfill your request for current breaking news and live trader sentiment.",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
+      "headline": "Elon Musk Tweet Volume Markets Trending | MIXED | LOW confidence**",
+      "raw": "Elon Musk Tweet Volume Markets Trending | MIXED | LOW confidence**  \nActive Tweet Markets track \"Elon Musk # tweets April 17-24, 2026\" and total April 2026 volume (e.g., 21% on 1120-1159 range) with $20.7M total volume; one range at 100% suggests partial resolution from recent data[3][4]. Traders on X could be posting these as **volatile for short-term moves**, especially post-April 22 updates, bu",
+      "direction": "NO",
+      "confidence": 0.6,
+      "matched_markets": [
+        "Will Trump name \"Elon\" or \"Musk\" in April?"
+      ],
+      "action": "WATCH",
       "x_link": null,
       "category": "COMMUNITY"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 11,
-    "watch": 0,
-    "high_conf": 0
+    "enter": 1,
+    "alert": 3,
+    "watch": 1,
+    "high_conf": 1
   }
 }
