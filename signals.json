@@ -1,30 +1,60 @@
 {
-  "last_scan": "2026-04-22T02:14:09.126773+00:00",
-  "scan_seconds": 22.6,
-  "markets_scanned": 79,
-  "open_positions": 36,
+  "last_scan": "2026-04-22T02:15:08.293896+00:00",
+  "scan_seconds": 17.7,
+  "markets_scanned": 56,
+  "open_positions": 14,
   "signals": [
     {
-      "id": "sig_1776824032119_0",
-      "timestamp": "2026-04-22T02:13:52.119806+00:00",
+      "id": "sig_1776824098375_0",
+      "timestamp": "2026-04-22T02:14:58.375435+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot identify breaking news that has \"just been confirmed, announced, or resolved\" from these search results",
-      "raw": "I cannot identify breaking news that has \"just been confirmed, announced, or resolved\" from these search results. The most recent dated information available is from April 21, 2026, which includes:",
-      "direction": null,
+      "headline": "Based on the search results provided, there is no breaking news from today (April 22, 2026) about GDP that would move pr",
+      "raw": "Based on the search results provided, there is no breaking news from today (April 22, 2026) about GDP that would move prediction markets. The most recent GDP-related news in these results is from **April 9, 2026**, which reported that **US fourth-quarter 2025 GDP growth was downgraded to 0.5%**[1], but this is nearly two weeks old and would have already been priced into markets.\n\nThe search result",
+      "direction": "NO",
       "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776824094184_0",
+      "timestamp": "2026-04-22T02:14:54.184967+00:00",
+      "source": "PERPLEXITY",
+      "headline": "No breaking confirmations, announcements, or resolutions reported right now for XRP or Ethereum that would move predicti",
+      "raw": "No breaking confirmations, announcements, or resolutions reported right now for XRP or Ethereum that would move prediction markets.[1][2][3][4][5][6][7][8][9]",
+      "direction": "NO",
+      "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776824032148_9",
-      "timestamp": "2026-04-22T02:13:52.148623+00:00",
+      "id": "sig_1776824094187_1",
+      "timestamp": "2026-04-22T02:14:54.187150+00:00",
       "source": "PERPLEXITY",
-      "headline": "Ethereum price prediction markets assign 26% probability each to $2,200-$2,300 and $2,300-$2,400 ranges for April 26[5]",
-      "raw": "Ethereum price prediction markets assign 26% probability each to $2,200-$2,300 and $2,300-$2,400 ranges for April 26[5]\n\nNone of these constitute confirmed breaking developments that would definitively move prediction markets. The search results lack information from April 22, 2026 (today's date), which would be necessary to identify current breaking news.",
-      "direction": null,
-      "confidence": 0.9,
+      "headline": "Polymarket Launches New ETH/XRP April 2026 Price Markets | NO | LOW confidence**",
+      "raw": "Polymarket Launches New ETH/XRP April 2026 Price Markets | NO | LOW confidence**  \nActive prediction markets on Polymarket (launched Apr 19-20, 2026) show traders betting ETH at $2,200-2,400 (26% each) by Apr 26 and XRP \u2191$1.50 (46%) for Apr 20-26, but these reflect sentiment, not news events.[4][6][8]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
+        "XRP Up or Down - April 22, 8:20AM-8:25AM ET",
+        "XRP Up or Down - April 22, 8:25AM-8:30AM ET"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776824094189_2",
+      "timestamp": "2026-04-22T02:14:54.189250+00:00",
+      "source": "PERPLEXITY",
+      "headline": "ETH Technical Pattern Signals 170% Rally Potential to $8,500 in 2026 | NO | MED confidence**",
+      "raw": "ETH Technical Pattern Signals 170% Rally Potential to $8,500 in 2026 | NO | MED confidence**  \nAnalysis cites ETH/BTC bottoming in April 2026 matching 2021 bull pattern, with support retest; on-chain data shows Ethereum Foundation staking 70K ETH ($143M) and ETF inflows ($11.6B total).[1][3] No firm confirmation of execution.",
+      "direction": "YES",
+      "confidence": 0.65,
       "matched_markets": [
         "Ethereum above 2,275 on April 21, 11PM ET?",
         "Will Ethereum reach $2,400 April 20-26?"
@@ -34,255 +64,49 @@
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776824036368_0",
-      "timestamp": "2026-04-22T02:13:56.368132+00:00",
+      "id": "sig_1776824094191_3",
+      "timestamp": "2026-04-22T02:14:54.191468+00:00",
       "source": "PERPLEXITY",
-      "headline": "Fed Chair Powell's April 16, 2026 speech noting Q1 GDP growth slowed due to pre-tariff imports, with tariffs likely caus",
-      "raw": "Fed Chair Powell's April 16, 2026 speech noting Q1 GDP growth slowed due to pre-tariff imports, with tariffs likely causing higher inflation and slower growth; inflation at 2.3% total PCE and 2.6% core PCE[4].",
+      "headline": "XRP Institutional Adoption Grows with 5 Spot ETFs Holding $1B | NO | LOW confidence**",
+      "raw": "XRP Institutional Adoption Grows with 5 Spot ETFs Holding $1B | NO | LOW confidence**  \nUS spot XRP ETFs manage over $1B in XRP amid price testing $2.00 support; broader 2026 predictions target $1.80-$5, but recent drops to $1.33 signal weakness.[1][2][3][5] No new resolutions announced.",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776824107290_1",
+      "timestamp": "2026-04-22T02:15:07.290487+00:00",
+      "source": "PERPLEXITY",
+      "headline": "GTA VI Release Odds Languishing | NO mispricing calls | LOW confidence**",
+      "raw": "GTA VI Release Odds Languishing | NO mispricing calls | LOW confidence**  \nCrowd prices GTA VI before June 2026? at just 1% amid $14M volume, yet no X chatter flags it as mispriced or poised to move.[4]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776824107288_0",
+      "timestamp": "2026-04-22T02:15:07.288411+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Elon Musk April Tweet Count Markets Heating Up | NO whale bets or tips reported | LOW confidence**",
+      "raw": "Elon Musk April Tweet Count Markets Heating Up | NO whale bets or tips reported | LOW confidence**\n\nPolymarket's most active markets right now focus on **Elon Musk tweet predictions**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" (with \"200-219\" at 29%) and overall \"Elon Musk musk # tweets in April 2026?\" (18% on 1080-1119 outcome).[1][2][3] These dominate pop culture and tweet categori",
       "direction": "YES",
-      "confidence": 0.78,
-      "matched_markets": [
-        "Will Powell say \"Tariff inflation\" during April press conference?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776824036373_2",
-      "timestamp": "2026-04-22T02:13:56.373895+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Older events: July 2025 Fed holding rates citing Trump's tariffs amid strong Q2 GDP (+3%) and new 25% India/50% Brazil t",
-      "raw": "Older events: July 2025 Fed holding rates citing Trump's tariffs amid strong Q2 GDP (+3%) and new 25% India/50% Brazil tariffs[1]; June 2025 Powell warning on incomplete tariff effects[3].",
-      "direction": null,
-      "confidence": 0.78,
-      "matched_markets": [
-        "Will Powell say \"Tariff inflation\" during April press conference?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776824032122_1",
-      "timestamp": "2026-04-22T02:13:52.122999+00:00",
-      "source": "PERPLEXITY",
-      "headline": "April 21, 2026 updates:**",
-      "raw": "April 21, 2026 updates:**",
-      "direction": null,
-      "confidence": 0.65,
+      "confidence": 0.6,
       "matched_markets": [],
-      "action": "ALERT",
+      "action": "WATCH",
       "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776824032125_2",
-      "timestamp": "2026-04-22T02:13:52.125877+00:00",
-      "source": "PERPLEXITY",
-      "headline": "XRP's price is consolidating in a narrow range with a symmetrical triangle reaching its climax and a bearish MACD signal",
-      "raw": "XRP's price is consolidating in a narrow range with a symmetrical triangle reaching its climax and a bearish MACD signal[2]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776824032128_3",
-      "timestamp": "2026-04-22T02:13:52.128665+00:00",
-      "source": "PERPLEXITY",
-      "headline": "A directional move appears imminent but has not yet occurred[2]",
-      "raw": "A directional move appears imminent but has not yet occurred[2]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776824032131_4",
-      "timestamp": "2026-04-22T02:13:52.131408+00:00",
-      "source": "PERPLEXITY",
-      "headline": "April 20, 2026 updates:**",
-      "raw": "April 20, 2026 updates:**",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776824032137_5",
-      "timestamp": "2026-04-22T02:13:52.137159+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Bitcoin held steady around $74,500 and Ethereum was near the 50-day EMA at $2,210[7]",
-      "raw": "Bitcoin held steady around $74,500 and Ethereum was near the 50-day EMA at $2,210[7]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776824032139_6",
-      "timestamp": "2026-04-22T02:13:52.139915+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Key unresolved issues:**",
-      "raw": "Key unresolved issues:**",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776824032142_7",
-      "timestamp": "2026-04-22T02:13:52.142731+00:00",
-      "source": "PERPLEXITY",
-      "headline": "The US Senate's CLARITY Act missed its April deadline, with no confirmation of passage or failure[4]",
-      "raw": "The US Senate's CLARITY Act missed its April deadline, with no confirmation of passage or failure[4]",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776824032145_8",
-      "timestamp": "2026-04-22T02:13:52.145563+00:00",
-      "source": "PERPLEXITY",
-      "headline": "XRP remains at a critical technical juncture within its symmetrical triangle, awaiting a breakout confirmation[2][4]",
-      "raw": "XRP remains at a critical technical juncture within its symmetrical triangle, awaiting a breakout confirmation[2][4]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776824036371_1",
-      "timestamp": "2026-04-22T02:13:56.371026+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Powell's Jan 28, 2026 comments attributing most goods price overruns to tariffs (one-time effect), with core inflation s",
-      "raw": "Powell's Jan 28, 2026 comments attributing most goods price overruns to tariffs (one-time effect), with core inflation slightly above 2% excluding tariffs[2].",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Powell say \"Tariff inflation\" during April press conference?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776824036376_3",
-      "timestamp": "2026-04-22T02:13:56.376758+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Undated report of Supreme Court striking down Trump's tariffs after weak GDP/inflation data, boosting markets[5]",
-      "raw": "Undated report of Supreme Court striking down Trump's tariffs after weak GDP/inflation data, boosting markets[5].\n\nNo sources indicate events on or immediately before April 22, 2026[1][2][3][4][5].",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Trump agree to Iranian enrichment of uranium in April?",
-        "Will Powell say \"Tariff inflation\" during April press conference?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776824041905_0",
-      "timestamp": "2026-04-22T02:14:01.905827+00:00",
-      "source": "PERPLEXITY",
-      "headline": "I cannot provide the breaking news you're requesting based on these search results",
-      "raw": "I cannot provide the breaking news you're requesting based on these search results. The available information is outdated and does not contain current developments as of April 22, 2026.\n\nThe search results primarily cover:",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776824041908_1",
-      "timestamp": "2026-04-22T02:14:01.908697+00:00",
-      "source": "PERPLEXITY",
-      "headline": "A Lakers-Raptors regular season game from April 6, 2021[1]",
-      "raw": "A Lakers-Raptors regular season game from April 6, 2021[1]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776824041911_2",
-      "timestamp": "2026-04-22T02:14:01.911556+00:00",
-      "source": "PERPLEXITY",
-      "headline": "NBA Playoff Game 1 matchups from a past season featuring the Lakers, Rockets, Cavaliers, Raptors, and Nuggets[2][4]",
-      "raw": "NBA Playoff Game 1 matchups from a past season featuring the Lakers, Rockets, Cavaliers, Raptors, and Nuggets[2][4]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776824041914_3",
-      "timestamp": "2026-04-22T02:14:01.914413+00:00",
-      "source": "PERPLEXITY",
-      "headline": "General Raptors team information[5][6]",
-      "raw": "General Raptors team information[5][6]\n\nNone of these results contain information about:",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776824041917_4",
-      "timestamp": "2026-04-22T02:14:01.917406+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Current playoff developments between the Raptors and Lakers",
-      "raw": "Current playoff developments between the Raptors and Lakers",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776824041920_5",
-      "timestamp": "2026-04-22T02:14:01.920279+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Cooper Flagg (a player whose current status or involvement is not mentioned)",
-      "raw": "Cooper Flagg (a player whose current status or involvement is not mentioned)",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
+      "category": "COMMUNITY"
     }
   ],
   "stats": {
     "enter": 0,
-    "alert": 26,
-    "watch": 0,
-    "high_conf": 2
+    "alert": 6,
+    "watch": 1,
+    "high_conf": 1
   }
 }
