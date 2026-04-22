@@ -1,61 +1,59 @@
 {
-  "last_scan": "2026-04-22T13:51:20.451067+00:00",
-  "scan_seconds": 19.9,
+  "last_scan": "2026-04-22T13:52:31.046476+00:00",
+  "scan_seconds": 20.4,
   "markets_scanned": 76,
   "open_positions": 38,
   "signals": [
     {
-      "id": "sig_1776865864740_0",
-      "timestamp": "2026-04-22T13:51:04.740852+00:00",
+      "id": "sig_1776865944423_0",
+      "timestamp": "2026-04-22T13:52:24.423950+00:00",
       "source": "PERPLEXITY",
-      "headline": "Overall: NO | LOW confidence** (search results outdated, no real-time confirmations as of 1 PM UTC)",
-      "raw": "Overall: NO | LOW confidence** (search results outdated, no real-time confirmations as of 1 PM UTC).[1][2][3][4][5]",
+      "headline": "I cannot provide breaking news matching your query criteria based on the available search results",
+      "raw": "I cannot provide breaking news matching your query criteria based on the available search results.\n\nThe search results show that the **Toronto Raptors are currently down 2-0 to the Cleveland Cavaliers in the Eastern Conference first-round playoffs**[2][3], not in the conference semifinals. The Cavaliers won Game 2 on Monday, April 20 with a 115-105 victory[3], and Game 3 is scheduled for Thursday,",
+      "direction": "NO",
+      "confidence": 0.9,
+      "matched_markets": [
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
+        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776865950031_5",
+      "timestamp": "2026-04-22T13:52:30.031662+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Recently resolved markets or confirmed events",
+      "raw": "Recently resolved markets or confirmed events\n\nTo get this information, you would need to:",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776865939155_0",
+      "timestamp": "2026-04-22T13:52:19.155831+00:00",
+      "source": "PERPLEXITY",
+      "headline": "NO** | **LOW** confidence (no confirmed announcements, resolutions, or events today that would move prediction markets;",
+      "raw": "NO** | **LOW** confidence (no confirmed announcements, resolutions, or events today that would move prediction markets; latest sourced updates are 5 months old).",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "ECONOMICS"
     },
     {
-      "id": "sig_1776865874915_0",
-      "timestamp": "2026-04-22T13:51:14.915874+00:00",
+      "id": "sig_1776865950017_0",
+      "timestamp": "2026-04-22T13:52:30.017254+00:00",
       "source": "PERPLEXITY",
-      "headline": "Cooper Flagg Delivers Historic Back-to-Back 40+ Point Games, Vaulting Him to NBA Rookie of the Year Favorite | NO | HIGH",
-      "raw": "Cooper Flagg Delivers Historic Back-to-Back 40+ Point Games, Vaulting Him to NBA Rookie of the Year Favorite | NO | HIGH confidence**\n\nCooper Flagg scored 45 points, 9 assists, and 8 rebounds in the Dallas Mavericks' 134-128 win over the Los Angeles Lakers on April 5-6, 2026, following his 51-point game against Orlando\u2014marking the first rookie back-to-back 40-point performances since Allen Iverson",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776865874918_1",
-      "timestamp": "2026-04-22T13:51:14.918824+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Lakers' Luka Don\u010di\u0107 Ruled Out for Season with Injury, Crushing Playoff Odds | YES | MED confidence**",
-      "raw": "Lakers' Luka Don\u010di\u0107 Ruled Out for Season with Injury, Crushing Playoff Odds | YES | MED confidence**  \nDon\u010di\u0107's season-ending injury was highlighted alongside Flagg's dominance, amplifying Lakers' injury crisis in the West's final playoff races[1][2]. \n\nNo resolutions on playoffs, semifinals, or markets-moving confirmations beyond these performances/injuries; Flagg (20.8 PPG) leads a struggling Ma",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776865879447_0",
-      "timestamp": "2026-04-22T13:51:19.447879+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Elon Musk April 2026 Tweet Count Markets Surge in Activity | NO | LOW confidence**",
-      "raw": "Elon Musk April 2026 Tweet Count Markets Surge in Activity | NO | LOW confidence**\n\nPolymarket's most active markets right now center on **Elon Musk's total tweets in April 2026**, with the \"1120-1159\" outcome trading at 28% probability and $9M volume, amid 20 live Tweet Markets totaling $19.1M volume as of April 21[1][2][3]. No specific X posts from Polymarket traders, whale bets, smart money mov",
-      "direction": "NO",
+      "headline": "I cannot provide the information you're requesting based on the available search results",
+      "raw": "I cannot provide the information you're requesting based on the available search results. The search results contain only general information about how Polymarket operates and some historical market data from April 2026, but they do not include:",
+      "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -63,26 +61,62 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776865869028_0",
-      "timestamp": "2026-04-22T13:51:09.028658+00:00",
+      "id": "sig_1776865950020_1",
+      "timestamp": "2026-04-22T13:52:30.020108+00:00",
       "source": "PERPLEXITY",
-      "headline": "Kevin Warsh Faces Tough Senate Confirmation Hearing for Fed Chair to Replace Powell (April 21, 2026)** | **YES** | **HIG",
-      "raw": "Kevin Warsh Faces Tough Senate Confirmation Hearing for Fed Chair to Replace Powell (April 21, 2026)** | **YES** | **HIGH** confidence[2][3][4]\n\nFederal Reserve Chair Jerome Powell is under investigation by the Trump administration, with Republican Sen. Thom Tillis pledging to block Warsh's confirmation until resolved; hearings occurred April 21 with criticism of Warsh's past views on rate cuts am",
-      "direction": "YES",
-      "confidence": 0.6,
-      "matched_markets": [
-        "Will Trump agree to Iranian enrichment of uranium in April?",
-        "Will Powell say \"Tariff inflation\" during April press conference?"
-      ],
-      "action": "WATCH",
+      "headline": "Real-time social media posts or discussions from traders on X (Twitter)",
+      "raw": "Real-time social media posts or discussions from traders on X (Twitter)",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776865950023_2",
+      "timestamp": "2026-04-22T13:52:30.023041+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Current \"whale\" bets or large trades happening right now",
+      "raw": "Current \"whale\" bets or large trades happening right now",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776865950025_3",
+      "timestamp": "2026-04-22T13:52:30.025933+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Breaking news or recent announcements that would move markets",
+      "raw": "Breaking news or recent announcements that would move markets",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776865950028_4",
+      "timestamp": "2026-04-22T13:52:30.028725+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Analysis of mispriced markets or predictions about imminent market movements",
+      "raw": "Analysis of mispriced markets or predictions about imminent market movements",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 4,
-    "watch": 1,
-    "high_conf": 0
+    "enter": 1,
+    "alert": 7,
+    "watch": 0,
+    "high_conf": 2
   }
 }
