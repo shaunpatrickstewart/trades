@@ -1,76 +1,63 @@
 {
-  "last_scan": "2026-04-22T05:57:00.084223+00:00",
-  "scan_seconds": 19.5,
+  "last_scan": "2026-04-22T05:58:14.783176+00:00",
+  "scan_seconds": 24.1,
   "markets_scanned": 82,
   "open_positions": 37,
   "signals": [
     {
-      "id": "sig_1776837405498_0",
-      "timestamp": "2026-04-22T05:56:45.498209+00:00",
+      "id": "sig_1776837474719_0",
+      "timestamp": "2026-04-22T05:57:54.719231+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot identify any breaking news or confirmed announcements that would move prediction markets based on these search",
-      "raw": "I cannot identify any breaking news or confirmed announcements that would move prediction markets based on these search results. The articles are from early-to-mid April 2026 (April 2-16), discussing *anticipated* events rather than resolved outcomes.\n\nThe search results reference two key April events that were speculated to move XRP's price:",
-      "direction": null,
+      "headline": "SEC Drops Long-Running Lawsuit Against Ripple Labs, Fueling XRP's April 2026 Surge Above $1",
+      "raw": "SEC Drops Long-Running Lawsuit Against Ripple Labs, Fueling XRP's April 2026 Surge Above $1.50 | YES | HIGH confidence** [1][2]\n\nThe U.S. SEC's **decision to drop its lawsuit** against Ripple Labs\u2014confirmed as a key catalyst in April 2026\u2014has shifted market sentiment, driving **XRP's strongest monthly performance since September 2025** with a nearly **10% weekly gain** and a breakthrough above the",
+      "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
         "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
         "XRP Up or Down - April 22, 8:20AM-8:25AM ET",
         "XRP Up or Down - April 22, 8:35AM-8:40AM ET"
       ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776837415116_1",
-      "timestamp": "2026-04-22T05:56:55.116351+00:00",
+      "id": "sig_1776837493773_1",
+      "timestamp": "2026-04-22T05:58:13.773178+00:00",
       "source": "PERPLEXITY",
-      "headline": "Confirmed announcements about rookie performances or injuries in the conference semifinals",
-      "raw": "Confirmed announcements about rookie performances or injuries in the conference semifinals",
-      "direction": null,
+      "headline": "Iran x Israel/US Conflict Ends by",
+      "raw": "Iran x Israel/US Conflict Ends by...? Near-Certain Resolution | YES 100% | MED confidence**  \nGeopolitics market \"Iran x Israel/US conflict ends by...?\" hit 100% YES (snippet), topping X predictions list with high trader activity (116 bets noted), indicating possible recent confirmation or de-escalation shifting odds dramatically[1]. Traders may view this as resolved or overpriced NO decay; monito",
+      "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "SPORTS"
+      "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776837415113_0",
-      "timestamp": "2026-04-22T05:56:55.113321+00:00",
+      "id": "sig_1776837486008_0",
+      "timestamp": "2026-04-22T05:58:06.008140+00:00",
       "source": "PERPLEXITY",
-      "headline": "Based on the available search results, I cannot identify breaking news that meets your specific criteria of market-movin",
-      "raw": "Based on the available search results, I cannot identify breaking news that meets your specific criteria of market-moving developments about conference semifinals involving a rookie and the Cavaliers.\n\nThe search results show that the **2026 NBA Playoffs are underway**, with the Cavaliers currently leading their first-round series 1-0 against the Pacers[2]. However, the results do not contain:",
-      "direction": null,
+      "headline": "Cooper Flagg's Historic 45-Point Performance Leads Mavericks Over Injury-Depleted Lakers | NO (no series win confirmed f",
+      "raw": "Cooper Flagg's Historic 45-Point Performance Leads Mavericks Over Injury-Depleted Lakers | NO (no series win confirmed for Lakers; Flagg surges in Rookie of the Year race) | HIGH confidence** [1][2][3]\n\nOn April 5, 2026, rookie **Cooper Flagg** scored 45 points, 9 assists, and 8 rebounds to power the Dallas Mavericks to a 134-128 victory against the Los Angeles Lakers, snapping Dallas's 14-game ho",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
         "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
+        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
       ],
       "action": "ALERT",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776837415119_2",
-      "timestamp": "2026-04-22T05:56:55.119370+00:00",
+      "id": "sig_1776837493768_0",
+      "timestamp": "2026-04-22T05:58:13.768862+00:00",
       "source": "PERPLEXITY",
-      "headline": "Specific Cavaliers-related breaking news that would move prediction markets",
-      "raw": "Specific Cavaliers-related breaking news that would move prediction markets",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776837419078_0",
-      "timestamp": "2026-04-22T05:56:59.078124+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | HIGH confidence**",
-      "raw": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | HIGH confidence**  \nPolymarket's most active markets right now focus on **Elon Musk's tweet volumes**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" (29% on \"180-199\") and \"Elon Musk # tweets in April 2026?\" (18% on \"1080-1119\"), with over $17.1M in trading volume across 130+ related markets[2][3][4].  \nNo whale bets, smart mone",
-      "direction": "NO",
+      "headline": "\ud835\udd4f Money Launch by April 30",
+      "raw": "\ud835\udd4f Money Launch by April 30? Traders Eyeing Elon Musk's Crypto Play | YES 12% | HIGH confidence**  \nPolymarket's top X-related market shows \"\ud835\udd4f Money launched by...?\" at 12% YES odds with $33.6K volume and $4.6K liquidity, ending in 8 days, drawing real-time trader focus amid 1370+ live X prediction markets as of April 19, 2026[1]. No whale bets or X posts detailed in results, but low YES price sign",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -78,12 +65,12 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776837419081_1",
-      "timestamp": "2026-04-22T05:56:59.081295+00:00",
+      "id": "sig_1776837493776_2",
+      "timestamp": "2026-04-22T05:58:13.776843+00:00",
       "source": "PERPLEXITY",
-      "headline": "Trending Markets Category Active | NO | MED confidence**",
-      "raw": "Trending Markets Category Active | NO | MED confidence**  \n166 live markets under Trending Markets, including niche bets like \u201cNasdaq round-the-clock trading by June 30?\u201d with $3.0M volume, but no real-time X trader buzz or resolutions noted[1].",
-      "direction": "NO",
+      "headline": "Nikita Bier Out as X Head of Product by June 30",
+      "raw": "Nikita Bier Out as X Head of Product by June 30? Low Odds, Niche Bet | YES 7% | LOW confidence**  \nX Tech market at 7% YES with $1.4K volume/$4.5K liquidity, ending in 2 months, buzzing as a speculative personnel move amid Elon-focused X markets[1]. Potential tip for contrarian plays if insider rumors on X confirm Bier exit.",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -91,22 +78,38 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776837415122_3",
-      "timestamp": "2026-04-22T05:56:55.122663+00:00",
+      "id": "sig_1776837493780_3",
+      "timestamp": "2026-04-22T05:58:13.780153+00:00",
       "source": "PERPLEXITY",
-      "headline": "Recent developments (the results lack timestamps for most information, making recency uncertain)",
-      "raw": "Recent developments (the results lack timestamps for most information, making recency uncertain)\n\nOne potentially relevant mention is that **Vic Wembanyama suffered a concussion after a hard fall in Game 2 vs. the Trail Blazers**[4], though this involves the Spurs rather than the Cavaliers and is not explicitly labeled as breaking news with a timestamp.\n\nTo provide the market-moving headline you'r",
-      "direction": "NO",
+      "headline": "Elon Musk Tweet Counts Dominating Volume | NO specific misprice | MED confidence**",
+      "raw": "Elon Musk Tweet Counts Dominating Volume | NO specific misprice | MED confidence**  \nHigh-volume markets like \"Elon Musk # tweets April 17-24, 2026?\" (30% on 200-219, $5M vol) and April totals (18% on 1080-1119) lead Tweet Predictions (130+ markets, $17.1M total vol), with traders pricing daily ranges amid pop culture bets[2][3][4]. No fresh announcements confirmed to move these; odds shift on twe",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776837480228_0",
+      "timestamp": "2026-04-22T05:58:00.228831+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Kevin Warsh, Trump's Fed Chair Nominee, Calls for \"Regime Change\" on Inflation Framework in April 21 Senate Hearing Amid",
+      "raw": "Kevin Warsh, Trump's Fed Chair Nominee, Calls for \"Regime Change\" on Inflation Framework in April 21 Senate Hearing Amid Powell Standoff and Tariff-Driven Price Pressures | NO | HIGH confidence**\n\nKevin Warsh testified before the Senate Banking Committee on April 21, 2026, advocating a major **\"regime change\"** at the Fed, including a new inflation framework (preferring ranges over the 2% target d",
+      "direction": "YES",
       "confidence": 0.6,
-      "matched_markets": [],
+      "matched_markets": [
+        "Will Trump agree to Iranian enrichment of uranium in April?",
+        "Will Powell say \"Tariff inflation\" during April press conference?"
+      ],
       "action": "WATCH",
       "x_link": null,
-      "category": "SPORTS"
+      "category": "ECONOMICS"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 6,
+    "enter": 1,
+    "alert": 5,
     "watch": 1,
     "high_conf": 2
   }
