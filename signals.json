@@ -1,97 +1,20 @@
 {
-  "last_scan": "2026-04-22T22:42:13.177938+00:00",
-  "scan_seconds": 12.6,
+  "last_scan": "2026-04-22T22:43:14.628488+00:00",
+  "scan_seconds": 13.1,
   "markets_scanned": 45,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776897732174_1",
-      "timestamp": "2026-04-22T22:42:12.174946+00:00",
+      "id": "sig_1776897793625_0",
+      "timestamp": "2026-04-22T22:43:13.625285+00:00",
       "source": "PERPLEXITY",
-      "headline": "Trending Markets** category shows 168 live options like \u201cNasdaq round-the-clock trading by June 30",
-      "raw": "Trending Markets** category shows 168 live options like \u201cNasdaq round-the-clock trading by June 30?\u201d with $3M volume, but no real-time X chatter or resolutions confirmed[1].  \nNo breaking announcements, confirmations, or events noted that would shift odds as of April 22, 2026[1][2][3][4].",
-      "direction": "NO",
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776897724213_0",
-      "timestamp": "2026-04-22T22:42:04.213674+00:00",
-      "source": "PERPLEXITY",
-      "headline": "LOW confidence** in any market-moving event today, as results are outdated (no post-April 20 data) and highlight volatil",
-      "raw": "LOW confidence** in any market-moving event today, as results are outdated (no post-April 20 data) and highlight volatility without fresh catalysts.[1][2][4]",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776897727827_0",
-      "timestamp": "2026-04-22T22:42:07.827429+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Lakers take 2-0 series lead over Rockets in playoffs** | YES | HIGH confidence[1]",
-      "raw": "Lakers take 2-0 series lead over Rockets in playoffs** | YES | HIGH confidence[1]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776897727829_1",
-      "timestamp": "2026-04-22T22:42:07.829168+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Spurs' Wembanyama ruled out with concussion after Game 2 fall vs",
-      "raw": "Spurs' Wembanyama ruled out with concussion after Game 2 fall vs. Trail Blazers** | YES | HIGH confidence[1][4]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776897727830_2",
-      "timestamp": "2026-04-22T22:42:07.830858+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Raptors lead Eastern Conference playoff matchup (2nd seed, 10-5 record)** | YES | MED confidence[2]",
-      "raw": "Raptors lead Eastern Conference playoff matchup (2nd seed, 10-5 record)** | YES | MED confidence[2]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776897727832_3",
-      "timestamp": "2026-04-22T22:42:07.832572+00:00",
-      "source": "PERPLEXITY",
-      "headline": "No confirmation or news on Cooper Flagg in playoffs or drafts** | NO | HIGH confidence[4]",
-      "raw": "No confirmation or news on Cooper Flagg in playoffs or drafts** | NO | HIGH confidence[4]",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776897732173_0",
-      "timestamp": "2026-04-22T22:42:12.173017+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | LOW confidence**",
-      "raw": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | LOW confidence**\n\nPolymarket's most active markets right now focus on **Elon Musk's tweet volumes**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" and \"Elon Musk # tweets in April 2026?\", with the 1120-1159 tweet range priced at 20-21% probability and over $20M in trading volume[2][3][4].  \nNo specific whale bets, smart money mo",
+      "headline": "Elon Musk Tweets Market Leads Polymarket Chatter | NO whale bets or confirmed resolutions reported | MED confidence**",
+      "raw": "Elon Musk Tweets Market Leads Polymarket Chatter | NO whale bets or confirmed resolutions reported | MED confidence**\n\nPolymarket's \"Elon Musk # tweets April 24 - May 1, 2026?\" market, launched April 21 with $638.5K volume, tops discussions with \"240-259\" at 18% odds and \"220-239\" at 14%; no X posts on whale bets, mispriced odds, or smart money moves noted in results.[1]\n\nTrending markets include ",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [
-        "Will Trump name \"Elon\" or \"Musk\" in April?"
+        "Will Trump name \"Elon\" or \"Musk\" in April?",
+        "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET"
       ],
       "action": "ALERT",
       "x_link": null,
@@ -100,8 +23,8 @@
   ],
   "stats": {
     "enter": 0,
-    "alert": 7,
+    "alert": 1,
     "watch": 0,
-    "high_conf": 1
+    "high_conf": 0
   }
 }
