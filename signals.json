@@ -1,154 +1,151 @@
 {
-  "last_scan": "2026-04-22T15:10:52.728304+00:00",
-  "scan_seconds": 22.2,
+  "last_scan": "2026-04-22T15:12:07.806196+00:00",
+  "scan_seconds": 27.2,
   "markets_scanned": 56,
   "open_positions": 17,
   "signals": [
     {
-      "id": "sig_1776870641667_0",
-      "timestamp": "2026-04-22T15:10:41.667933+00:00",
+      "id": "sig_1776870716582_0",
+      "timestamp": "2026-04-22T15:11:56.582755+00:00",
       "source": "PERPLEXITY",
-      "headline": "US-Iran Ceasefire Extended (April 22, 2026)** | YES | MED confidence[3]",
-      "raw": "US-Iran Ceasefire Extended (April 22, 2026)** | YES | MED confidence[3]\n\nGoldman Sachs' U.S. Inflation Monitor (released April 20) highlights headline CPI at 3.29% YoY in March due to Iran war-driven energy spike (oil from $71 to $103/barrel), but core PCE decelerating toward 2.2% (ex-tariffs), with forecasts for core goods easing to 0.6% by Dec 2026 and Brent crude falling to $80/barrel Q4[1]. Ma",
-      "direction": "YES",
+      "headline": "Lakers Lead Rockets 1-0 in Western Conference First Round; Austin Reaves and Luka Doncic Confirmed Out for Game 2 | NO |",
+      "raw": "Lakers Lead Rockets 1-0 in Western Conference First Round; Austin Reaves and Luka Doncic Confirmed Out for Game 2 | NO | LOW confidence**",
+      "direction": "NO",
       "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776870716587_2",
+      "timestamp": "2026-04-22T15:11:56.587452+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Austin Reaves (oblique)** and **Luka Doncic (Grade 2 hamstring)** were officially ruled out for Game 2 on April 21, as",
+      "raw": "**Austin Reaves (oblique)** and **Luka Doncic (Grade 2 hamstring)** were officially ruled out for Game 2 on April 21, as confirmed in recent updates, with return timelines expected soon but no advancement to semifinals yet[3].",
+      "direction": "NO",
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776870711351_0",
+      "timestamp": "2026-04-22T15:11:51.351076+00:00",
+      "source": "PERPLEXITY",
+      "headline": "US\u2013Iran ceasefire extended (April 22, 2026)** | YES | HIGH confidence[3]",
+      "raw": "US\u2013Iran ceasefire extended (April 22, 2026)** | YES | HIGH confidence[3]\n\nGoldman Sachs' U.S. Inflation Monitor (released April 20) highlights Iran war-driven energy spikes as the key factor pushing headline CPI to 3.29% YoY and PCE to 3.45% in March, with oil jumping 45% to $103/barrel, though core inflation decelerates toward 2.2% excluding tariffs[1]. The fresh XTB report confirms the **US\u2013Iran",
+      "direction": "YES",
+      "confidence": 0.78,
       "matched_markets": [
         "Will annual inflation increase by 3.8% in April?"
       ],
-      "action": "ENTER",
+      "action": "ALERT",
       "x_link": null,
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_1776870636922_0",
-      "timestamp": "2026-04-22T15:10:36.922295+00:00",
+      "id": "sig_1776870716585_1",
+      "timestamp": "2026-04-22T15:11:56.585241+00:00",
       "source": "PERPLEXITY",
-      "headline": "Based on the search results provided, here are the key developments:",
-      "raw": "Based on the search results provided, here are the key developments:",
+      "headline": "The **Los Angeles Lakers** defeated the Houston Rockets 107-98 in Game 1 of the Western Conference first-round playoffs",
+      "raw": "The **Los Angeles Lakers** defeated the Houston Rockets 107-98 in Game 1 of the Western Conference first-round playoffs on April 18, with LeBron James recording 19 points, 8 rebounds, and 13 assists, and Luke Kennard scoring 27 points[1][3].",
       "direction": null,
       "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776870636924_1",
-      "timestamp": "2026-04-22T15:10:36.924530+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Rakuten Wallet Lists XRP in Japan | YES | HIGH confidence**",
-      "raw": "Rakuten Wallet Lists XRP in Japan | YES | HIGH confidence**\n\nRakuten Wallet, serving 44 million users in Japan, listed XRP in mid-April, adding major retail distribution in Asia.[1]",
-      "direction": "YES",
-      "confidence": 0.65,
       "matched_markets": [
-        "Will XRP reach $1.50 April 20-26?"
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
+        "Will Vegas Golden Knights advance to Round 2 of the 2026 NHL Playoffs?"
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "SPORTS"
     },
     {
-      "id": "sig_1776870636926_2",
-      "timestamp": "2026-04-22T15:10:36.926597+00:00",
+      "id": "sig_1776870716589_3",
+      "timestamp": "2026-04-22T15:11:56.589545+00:00",
       "source": "PERPLEXITY",
-      "headline": "XRP Ledger Integrates Boundless Privacy Technology | YES | HIGH confidence**",
-      "raw": "XRP Ledger Integrates Boundless Privacy Technology | YES | HIGH confidence**\n\nThe XRP Ledger integrated Boundless on April 14, bringing zero-knowledge proof technology for institutional confidential transactions.[1]",
-      "direction": "YES",
+      "headline": "Game 2 is scheduled for April 21 at 10:30 PM ET (just concluded or ongoing as of query time), with Lakers favored by 4",
+      "raw": "Game 2 is scheduled for April 21 at 10:30 PM ET (just concluded or ongoing as of query time), with Lakers favored by 4.5 points; no conference semifinals matchup resolved[3].",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [
-        "Will XRP reach $1.50 April 20-26?"
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "SPORTS"
     },
     {
-      "id": "sig_1776870636928_3",
-      "timestamp": "2026-04-22T15:10:36.928749+00:00",
+      "id": "sig_1776870716591_4",
+      "timestamp": "2026-04-22T15:11:56.591588+00:00",
       "source": "PERPLEXITY",
-      "headline": "CLARITY Act SEC Roundtable Avoids Negative XRP Signals | YES | HIGH confidence**",
-      "raw": "CLARITY Act SEC Roundtable Avoids Negative XRP Signals | YES | HIGH confidence**\n\nThe CLARITY Act roundtable held at the SEC on April 16 contained no negative signals toward XRP's commodity classification, maintaining institutional confidence in regulatory trajectory.[1]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will XRP reach $1.50 April 20-26?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776870636930_4",
-      "timestamp": "2026-04-22T15:10:36.930804+00:00",
-      "source": "PERPLEXITY",
-      "headline": "XRP Outperforms Bitcoin and Ethereum Weekly | YES | HIGH confidence**",
-      "raw": "XRP Outperforms Bitcoin and Ethereum Weekly | YES | HIGH confidence**\n\nXRP gained 6.7% over seven days to $1.43, outperforming Bitcoin (7%) and Ethereum (9%), with 24-hour trading volume jumping 23% to $3.79 billion.[1]",
-      "direction": "YES",
+      "headline": "No mentions of **Cooper Flagg** or **Toronto Raptors** in current Lakers-related news; Flagg (prospect) and Raptors (Eas",
+      "raw": "No mentions of **Cooper Flagg** or **Toronto Raptors** in current Lakers-related news; Flagg (prospect) and Raptors (Eastern Conference) unrelated to this series[1][2][3].",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "SPORTS"
     },
     {
-      "id": "sig_1776870636932_5",
-      "timestamp": "2026-04-22T15:10:36.932959+00:00",
+      "id": "sig_1776870726798_0",
+      "timestamp": "2026-04-22T15:12:06.798944+00:00",
       "source": "PERPLEXITY",
-      "headline": "US XRP ETFs Record Strongest Inflow Day Since February | YES | HIGH confidence**",
-      "raw": "US XRP ETFs Record Strongest Inflow Day Since February | YES | HIGH confidence**\n\nXRP ETF inflows hit $17.11 million on April 15 alone, with four consecutive inflow days totaling $38.86 million, lifting total ETF assets under management above $1.25 billion.[1]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will XRP reach $1.50 April 20-26?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776870636935_6",
-      "timestamp": "2026-04-22T15:10:36.935048+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Ethereum Shows Early Recovery Signs | YES | HIGH confidence**",
-      "raw": "Ethereum Shows Early Recovery Signs | YES | HIGH confidence**\n\nEthereum is trading at $2,184 with bullish technical patterns forming after two weeks of decline, with RSI near oversold levels and major moving averages converging.[2]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776870651722_0",
-      "timestamp": "2026-04-22T15:10:51.722892+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Elon Musk April Tweet Count Markets Trending on Polymarket with High Volume** | YES | **HIGH** confidence[1][2][3]",
-      "raw": "Elon Musk April Tweet Count Markets Trending on Polymarket with High Volume** | YES | **HIGH** confidence[1][2][3]\n\nPolymarket's **Tweet Markets** are among the most active, featuring real-time odds on **Elon Musk's tweet counts**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" (32% on 220-239 range) and \"Elon Musk # tweets in April 2026?\" (28% on 1120-1159, $9M volume, total category $19",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776870651725_1",
-      "timestamp": "2026-04-22T15:10:51.725170+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Trending Markets** category hosts 166 live markets (as of April 21, 2026) with $3M+ volume, including niche bets like \u201cN",
-      "raw": "Trending Markets** category hosts 166 live markets (as of April 21, 2026) with $3M+ volume, including niche bets like \u201cNasdaq round-the-clock trading by June 30?\u201d and \u201cSCOTUS accepts sports event contract case\u201d[1].  \nNo specific X posts from Polymarket traders, whale bets, smart money moves, mispriced markets, or recent confirmations/announcements are detailed in current data; XTracker notes socia",
+      "headline": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | MED confidence**",
+      "raw": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | MED confidence**\n\nPolymarket's most active markets right now focus on **Elon Musk's tweet volume**, including \"Elon Musk # tweets April 17 - April 24, 2026?\" (priced at 32% for 220-239 range) and \"Elon Musk # tweets in April 2026?\" (18-28% for 1120-1159 range), with over $19-21M in trading volume across 20-131 related markets[2][3][4]. Th",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776870726801_1",
+      "timestamp": "2026-04-22T15:12:06.801034+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Kanye West Tweet Market Active | NO | LOW confidence**",
+      "raw": "Kanye West Tweet Market Active | NO | LOW confidence**  \n\"Will Kanye tweet again by April 30?\" remains live at unspecified odds within 131 tweet markets, but no volume spikes, tips, or resolutions noted[3].",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776870726803_2",
+      "timestamp": "2026-04-22T15:12:06.803111+00:00",
+      "source": "PERPLEXITY",
+      "headline": "General Trending Markets Heating Up | NO | LOW confidence**",
+      "raw": "General Trending Markets Heating Up | NO | LOW confidence**  \n160+ markets like \u201cNasdaq round-the-clock trading by June 30?\u201d show activity, but no X-reported mispricings or moves[1]. Data is slightly dated, limiting real-time precision[1][4].",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776870716593_5",
+      "timestamp": "2026-04-22T15:11:56.593627+00:00",
+      "source": "PERPLEXITY",
+      "headline": "This injury confirmation and Game 1 win could slightly shift prediction markets on Lakers series odds but lacks major re",
+      "raw": "This injury confirmation and Game 1 win could slightly shift prediction markets on Lakers series odds but lacks major resolution like a sweep or trade[3].",
+      "direction": "YES",
+      "confidence": 0.6,
+      "matched_markets": [],
+      "action": "WATCH",
+      "x_link": null,
+      "category": "SPORTS"
     }
   ],
   "stats": {
-    "enter": 1,
+    "enter": 0,
     "alert": 9,
-    "watch": 0,
-    "high_conf": 1
+    "watch": 1,
+    "high_conf": 2
   }
 }
