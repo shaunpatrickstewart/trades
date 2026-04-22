@@ -1,72 +1,44 @@
 {
-  "last_scan": "2026-04-22T03:15:03.675042+00:00",
-  "scan_seconds": 17.1,
+  "last_scan": "2026-04-22T03:16:07.390764+00:00",
+  "scan_seconds": 16.8,
   "markets_scanned": 78,
   "open_positions": 38,
   "signals": [
     {
-      "id": "sig_1776827697510_0",
-      "timestamp": "2026-04-22T03:14:57.510062+00:00",
+      "id": "sig_1776827761764_0",
+      "timestamp": "2026-04-22T03:16:01.764048+00:00",
       "source": "PERPLEXITY",
-      "headline": "Cooper Flagg's 45-point performance leads Mavericks to 134-128 win over injury-depleted Lakers** | NO | HIGH confidence[",
-      "raw": "Cooper Flagg's 45-point performance leads Mavericks to 134-128 win over injury-depleted Lakers** | NO | HIGH confidence[1][2][3]\n\nNo confirmed announcements, trades, or resolutions involving Cooper Flagg, NBA draft, Raptors, Lakers, or Cavaliers that would shift prediction markets; coverage centers on Flagg's recent dominance (45 points, 9 assists, 8 rebounds on Sunday after 51 vs. Orlando Friday)",
+      "headline": "Thunder Advance to Western Conference Semifinals After 124-94 Game 3 Win Over Timberwolves | YES (OKC series win confirm",
+      "raw": "Thunder Advance to Western Conference Semifinals After 124-94 Game 3 Win Over Timberwolves | YES (OKC series win confirmed) | HIGH confidence** [1]\n\nOKC Thunder defeated the Timberwolves 124-94 in Game 3, completing a 3-0 series sweep in the first round after prior wins of 117-115 over Grizzlies and 125-93 over Nuggets, positioning OKC as heavy favorites (78% chance) for Western semifinals vs. lik",
       "direction": "YES",
-      "confidence": 0.65,
+      "confidence": 0.9,
       "matched_markets": [
         "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
       ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776827702665_0",
-      "timestamp": "2026-04-22T03:15:02.665905+00:00",
+      "id": "sig_1776827766387_0",
+      "timestamp": "2026-04-22T03:16:06.387617+00:00",
       "source": "PERPLEXITY",
-      "headline": "Elon Musk April Tweet Volume Markets Lead Polymarket Activity | NO | HIGH confidence**",
-      "raw": "Elon Musk April Tweet Volume Markets Lead Polymarket Activity | NO | HIGH confidence**  \nPolymarket's most active markets as of early April 2026 focus on **Elon Musk tweet counts**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" (with outcomes like 200-219 at 29%) and the overall \"Elon Musk musk # tweets in April 2026?\" (1080-1119 at 18%).[1][2][4] These dominate Tweet Markets (20-132 act",
+      "headline": "Elon Musk April Tweet Count Markets Lead Polymarket Activity | NO whale bets or tips reported | LOW confidence**",
+      "raw": "Elon Musk April Tweet Count Markets Lead Polymarket Activity | NO whale bets or tips reported | LOW confidence**\n\nPolymarket's most active markets focus on **Elon Musk tweet predictions**, such as \"# tweets April 17-24, 2026?\" (e.g., \"200-219\" at 29%) and overall \"Elon Musk # tweets in April 2026?\" (e.g., \"1080-1119\" at 18%), with prices reflecting real-time trader sentiment across 130+ live Tweet",
       "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776827702670_1",
-      "timestamp": "2026-04-22T03:15:02.670969+00:00",
-      "source": "PERPLEXITY",
-      "headline": "GTA VI Release and Crypto Airdrops Draw High Volume in News Stories | NO | MED confidence**",
-      "raw": "GTA VI Release and Crypto Airdrops Draw High Volume in News Stories | NO | MED confidence**  \nNews Stories markets (102 active, $56.2M+ volume) highlight **GTA VI released before June 2026?** at 1% YES ($14M volume, $61.4K liquidity) and **MegaETH airdrop by June 30, 2026?** at 57%.[3] No whale bets, smart money moves, mispriced alerts, or tips are detailed in current data.[3]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776827693682_0",
-      "timestamp": "2026-04-22T03:14:53.682695+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Fed Chair Powell confirms on April 19, 2026, that tariffs are driving up goods prices and inflation, while housing servi",
-      "raw": "Fed Chair Powell confirms on April 19, 2026, that tariffs are driving up goods prices and inflation, while housing services inflation cools, with core PCE excluding tariffs near 2% target.** | YES | HIGH[3][1][2]\n\nPowell stated in recent remarks that goods prices are increasing due to tariffs\u2014reversing prior deflation trends\u2014pushing overall inflation higher, though non-tariff inflation remains clo",
-      "direction": "YES",
       "confidence": 0.6,
-      "matched_markets": [
-        "Will Trump agree to Iranian enrichment of uranium in April?",
-        "Will Powell say \"Tariff inflation\" during April press conference?"
-      ],
+      "matched_markets": [],
       "action": "WATCH",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "COMMUNITY"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 3,
+    "enter": 1,
+    "alert": 0,
     "watch": 1,
-    "high_conf": 0
+    "high_conf": 1
   }
 }
