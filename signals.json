@@ -1,130 +1,61 @@
 {
-  "last_scan": "2026-04-22T10:36:22.445775+00:00",
-  "scan_seconds": 21.9,
+  "last_scan": "2026-04-22T10:37:27.248437+00:00",
+  "scan_seconds": 16.7,
   "markets_scanned": 80,
   "open_positions": 38,
   "signals": [
     {
-      "id": "sig_1776854163809_0",
-      "timestamp": "2026-04-22T10:36:03.809445+00:00",
+      "id": "sig_1776854240575_0",
+      "timestamp": "2026-04-22T10:37:20.575585+00:00",
       "source": "PERPLEXITY",
-      "headline": "SEC Lawsuit Against Ripple Fully Resolved, Triggering XRP Surge to $1",
-      "raw": "SEC Lawsuit Against Ripple Fully Resolved, Triggering XRP Surge to $1.50+ | YES | HIGH confidence**  \nThe SEC has dropped its long-running lawsuit against Ripple Labs, removing a major regulatory overhang and driving a 10% XRP price surge in April 2026, with the token breaking above $1.50 before consolidating at ~$1.42.[1] This resolution, confirmed as final, has shifted market sentiment toward in",
+      "headline": "Cavaliers Lead Raptors 2-0 After Game 2 Win in NBA Playoffs** | **YES** | **HIGH** confidence[1][2][3]",
+      "raw": "Cavaliers Lead Raptors 2-0 After Game 2 Win in NBA Playoffs** | **YES** | **HIGH** confidence[1][2][3]\n\nThe Cleveland Cavaliers defeated the Toronto Raptors in Game 2 of their first-round NBA playoff series, taking a 2-0 lead as confirmed by post-game highlights and analysis. James Harden, Donovan Mitchell, and Evan Mobley combined for 83 of Cleveland's 115 points in a dominant performance that sh",
       "direction": "YES",
       "confidence": 0.9,
+      "matched_markets": [
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
+        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776854246245_0",
+      "timestamp": "2026-04-22T10:37:26.245433+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Elon Musk April Tweets Market Heating Up | YES | HIGH confidence**",
+      "raw": "Elon Musk April Tweets Market Heating Up | YES | HIGH confidence**  \nPolymarket's most active markets focus on **Elon Musk tweet counts**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" and \"Elon Musk # tweets in April 2026?\", with the 1120-1159 range trading at **28% probability** and over **$9M volume** as of April 21, 2026[1][2][3]. Traders are betting heavily on these pop culture outc",
+      "direction": "YES",
+      "confidence": 0.78,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776854233061_0",
+      "timestamp": "2026-04-22T10:37:13.061649+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Ripple Reveals Four-Phase Plan to Secure XRP Ledger Against Quantum Attacks by 2028 | YES | HIGH confidence**[5]",
+      "raw": "Ripple Reveals Four-Phase Plan to Secure XRP Ledger Against Quantum Attacks by 2028 | YES | HIGH confidence**[5]  \nXRP price holds steady around $1.30\u2013$1.39 amid choppy trading, with no confirmed resolutions or announcements today directly tied to prediction market shifts beyond this quantum security roadmap[1][2][5].  \nUpcoming events like the SEC roundtable on April 16 and Fed meeting later in A",
+      "direction": "YES",
+      "confidence": 0.6,
       "matched_markets": [
         "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
         "XRP Up or Down - April 22, 8:20AM-8:25AM ET",
         "XRP Up or Down - April 22, 8:35AM-8:40AM ET"
       ],
-      "action": "ENTER",
+      "action": "WATCH",
       "x_link": null,
       "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776854170685_3",
-      "timestamp": "2026-04-22T10:36:10.685074+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Goods Prices Increasing Due to Tariffs, Housing Services Inflation Lowering** | YES | HIGH confidence[5]",
-      "raw": "Goods Prices Increasing Due to Tariffs, Housing Services Inflation Lowering** | YES | HIGH confidence[5]\n\nFed Chair Powell confirmed that goods prices are rising specifically due to tariffs, while housing services inflation is declining\u2014offsetting some inflationary pressure.[5]\n\nThe most market-moving confirmation appears to be the solidified expectation of a Fed hold through at least late April, ",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will Powell say \"Tariff inflation\" during April press conference?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776854170675_0",
-      "timestamp": "2026-04-22T10:36:10.675781+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Based on the search results provided, the most recent confirmed developments are:",
-      "raw": "Based on the search results provided, the most recent confirmed developments are:",
-      "direction": null,
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776854170679_1",
-      "timestamp": "2026-04-22T10:36:10.679013+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Fed Chair Powell Warns Trump's Tariffs Will Cause 'Higher Inflation And Slower Growth'** | YES | HIGH confidence[1]",
-      "raw": "Fed Chair Powell Warns Trump's Tariffs Will Cause 'Higher Inflation And Slower Growth'** | YES | HIGH confidence[1]\n\nThis statement from April 8, 2026 represents a direct warning about tariff impacts on the economy.[1]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Trump agree to Iranian enrichment of uranium in April?",
-        "Will Donald Trump publicly insult someone on April 26, 2026?",
-        "Will Powell say \"Tariff inflation\" during April press conference?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776854170682_2",
-      "timestamp": "2026-04-22T10:36:10.682040+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Inflation Rose 3",
-      "raw": "Inflation Rose 3.3% Over Past 12 Months; Fed Expected to Hold Rates at April 28 Meeting** | YES | HIGH confidence[2]\n\nAs of April 13, 2026, traders were pricing in a 97% probability that the Federal Reserve would maintain the base interest rate between 3.5% and 3.75% at its next FOMC meeting on April 28.[2] This followed Friday's inflation data showing the 3.3% year-over-year increase, driven sign",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Powell say \"Tariff inflation\" during April press conference?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776854181436_0",
-      "timestamp": "2026-04-22T10:36:21.436037+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Elon Musk Tweet Count Markets Trending on Polymarket | YES | HIGH confidence**",
-      "raw": "Elon Musk Tweet Count Markets Trending on Polymarket | YES | HIGH confidence**  \nPolymarket's most active markets focus on **Elon Musk's tweet volumes**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" (29% odds for 180-199 range) and \"Elon Musk # tweets in April 2026?\" (18-28% odds for 1120-1159 range), with over $19-21M in trading volume across 130+ related markets.[2][3][4]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776854181439_1",
-      "timestamp": "2026-04-22T10:36:21.439094+00:00",
-      "source": "PERPLEXITY",
-      "headline": "High Tweet Volume Bets Driving Activity | YES | MED confidence**",
-      "raw": "High Tweet Volume Bets Driving Activity | YES | MED confidence**  \nTraders are heavily engaged in ranges like **1120-1159 tweets** (18-28% implied probability), reflecting real-time sentiment shifts on Musk's posting habits amid pop culture buzz, with prices updating continuously on new data.[2][3][4] No specific whale bets or X posts are detailed, but massive volumes ($3M+ overall) suggest smart ",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776854181442_2",
-      "timestamp": "2026-04-22T10:36:21.442150+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Trending Tweet Markets Dominate Over Others | YES | HIGH confidence**",
-      "raw": "Trending Tweet Markets Dominate Over Others | YES | HIGH confidence**  \nBeyond Musk, **Kanye tweet markets** like \"Will Kanye tweet again by April 30?\" remain active (131 markets total), but Musk-focused ones lead with top odds and volume; broader \"Trending Markets\" (166 live) include niche events like Nasdaq trading changes, lacking specific X chatter or moves.[1][3]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
     }
   ],
   "stats": {
-    "enter": 2,
-    "alert": 6,
-    "watch": 0,
-    "high_conf": 3
+    "enter": 1,
+    "alert": 1,
+    "watch": 1,
+    "high_conf": 1
   }
 }
