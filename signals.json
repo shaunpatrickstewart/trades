@@ -1,16 +1,31 @@
 {
-  "last_scan": "2026-04-22T22:23:00.716828+00:00",
-  "scan_seconds": 19.1,
+  "last_scan": "2026-04-22T22:24:03.206782+00:00",
+  "scan_seconds": 12.7,
   "markets_scanned": 47,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776896579704_4",
-      "timestamp": "2026-04-22T22:22:59.704867+00:00",
+      "id": "sig_1776896633654_0",
+      "timestamp": "2026-04-22T22:23:53.654236+00:00",
       "source": "PERPLEXITY",
-      "headline": "Recently confirmed news or announcements that would move prediction markets",
-      "raw": "Recently confirmed news or announcements that would move prediction markets",
-      "direction": null,
+      "headline": "Ethereum Price Surge Above $2,200 on U",
+      "raw": "Ethereum Price Surge Above $2,200 on U.S.-Iran Ceasefire Announcement | YES | HIGH confidence** [3]\n\nEthereum's price has risen +3.43% in the last 24 hours to $2,395.42, explicitly linked to a U.S.-Iran ceasefire announcement boosting market sentiment, alongside record $500M+ net inflows into spot Ether ETFs this week[3]. This follows a $98.74 daily gain confirmed at 9:15 a.m. ET on April 22 to $2",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776896642203_2",
+      "timestamp": "2026-04-22T22:24:02.203805+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Limited Visibility on X Chatter or Whale Activity | NO | LOW confidence**",
+      "raw": "Limited Visibility on X Chatter or Whale Activity | NO | LOW confidence**  \nSearch results lack direct X posts from Polymarket traders, whale bets, tips, or confirmed events; focus remains on platform odds for tweets, crypto prices, and niche events like Kanye tweeting by April 30 (78% yes, $393 vol) without evidence of broader social buzz or resolutions[2][4].",
+      "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [],
       "action": "ALERT",
@@ -18,80 +33,44 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776896569555_0",
-      "timestamp": "2026-04-22T22:22:49.555452+00:00",
+      "id": "sig_1776896637512_0",
+      "timestamp": "2026-04-22T22:23:57.512642+00:00",
       "source": "PERPLEXITY",
-      "headline": "Raptors Coach Darko Rajakovic Confirms Jakob Poeltl as \"Big Part\" of Game 3 vs Cavaliers | NO | LOW confidence**",
-      "raw": "Raptors Coach Darko Rajakovic Confirms Jakob Poeltl as \"Big Part\" of Game 3 vs Cavaliers | NO | LOW confidence**  \nToronto Raptors head coach Darko Rajakovic stated pre-Game 3 (April 23) that center Jakob Poeltl will play a significant role despite his slow series start, alongside support for Brandon Ingram amid their first-round matchup with Cleveland (down 0-2 after Game 1 loss where Scottie Bar",
-      "direction": "NO",
-      "confidence": 0.65,
+      "headline": "OKC Thunder Advance to Western Conference Semifinals After Game 3 Win Over Timberwolves | YES | HIGH confidence**",
+      "raw": "OKC Thunder Advance to Western Conference Semifinals After Game 3 Win Over Timberwolves | YES | HIGH confidence**  \nOklahoma City defeated Minnesota 124-94 in Game 3, completing a sweep (15-1 playoff record shown) and securing their spot in the semifinals, a major resolution likely shifting prediction markets on Western Conference outcomes.[1][2]",
+      "direction": "YES",
+      "confidence": 0.78,
       "matched_markets": [
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
+        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs",
+        "Will Detroit Pistons advance to the Conference Semifinals in the 2026 NBA Playof"
       ],
       "action": "ALERT",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776896579696_0",
-      "timestamp": "2026-04-22T22:22:59.696139+00:00",
+      "id": "sig_1776896642199_0",
+      "timestamp": "2026-04-22T22:24:02.199840+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot provide the real-time information you're requesting based on the available search results",
-      "raw": "I cannot provide the real-time information you're requesting based on the available search results. The search results show general information about Polymarket's structure and some markets as of April 19-22, 2026, but they do not contain:",
-      "direction": null,
+      "headline": "Elon Musk April 2026 Tweet Count Markets Dominating Polymarket Trending Activity | NO | HIGH confidence**",
+      "raw": "Elon Musk April 2026 Tweet Count Markets Dominating Polymarket Trending Activity | NO | HIGH confidence**  \nPolymarket's top trending markets as of April 22, 2026, heavily feature Elon Musk's tweet volume predictions, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" (21% odds on 1120-1159 range) and \"Elon Musk musk # tweets in April 2026?\" (20-21% on 1120-1159), with over $20.7M-$20.8M in t",
+      "direction": "NO",
       "confidence": 0.65,
-      "matched_markets": [],
+      "matched_markets": [
+        "Will Trump name \"Elon\" or \"Musk\" in April?"
+      ],
       "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776896579697_1",
-      "timestamp": "2026-04-22T22:22:59.697913+00:00",
+      "id": "sig_1776896642201_1",
+      "timestamp": "2026-04-22T22:24:02.201798+00:00",
       "source": "PERPLEXITY",
-      "headline": "Current trader discussions or social media posts about X predictions",
-      "raw": "Current trader discussions or social media posts about X predictions",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776896579699_2",
-      "timestamp": "2026-04-22T22:22:59.699719+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Specific whale bets or large trades happening right now",
-      "raw": "Specific whale bets or large trades happening right now",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776896579702_3",
-      "timestamp": "2026-04-22T22:22:59.702927+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Real-time market movement analysis or trader commentary",
-      "raw": "Real-time market movement analysis or trader commentary",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776896579706_5",
-      "timestamp": "2026-04-22T22:22:59.706663+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Information about markets traders consider mispriced",
-      "raw": "Information about markets traders consider mispriced\n\nTo get this information, you would need to:",
-      "direction": null,
+      "headline": "Monero $1000 Price Target and Sports Betting Ban Bets Seeing Traction | NO | MED confidence**",
+      "raw": "Monero $1000 Price Target and Sports Betting Ban Bets Seeing Traction | NO | MED confidence**  \nOther active trending markets include \"Will Monero hit $1000 in 2026?\" and \"Law banning sports prediction markets enacted in 2026?\" (11% yes odds), part of 168 live trending markets with $3.0M+ volume, but no specific whale bets, smart money moves, or X posts highlighted in real-time data[1]. No mention",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -100,9 +79,9 @@
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 7,
+    "enter": 1,
+    "alert": 4,
     "watch": 0,
-    "high_conf": 1
+    "high_conf": 2
   }
 }
