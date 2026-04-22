@@ -1,36 +1,19 @@
 {
-  "last_scan": "2026-04-22T14:16:29.600010+00:00",
-  "scan_seconds": 19.0,
+  "last_scan": "2026-04-22T14:17:40.357801+00:00",
+  "scan_seconds": 19.8,
   "markets_scanned": 78,
   "open_positions": 38,
   "signals": [
     {
-      "id": "sig_1776867374421_0",
-      "timestamp": "2026-04-22T14:16:14.421087+00:00",
+      "id": "sig_1776867454545_0",
+      "timestamp": "2026-04-22T14:17:34.545286+00:00",
       "source": "PERPLEXITY",
-      "headline": "BTC Tops $77K on Peace Developments, Ethereum Up, XRP Follows | YES | HIGH confidence** [1][4]",
-      "raw": "BTC Tops $77K on Peace Developments, Ethereum Up, XRP Follows | YES | HIGH confidence** [1][4]\n\nBitcoin has surged past $77,000 today amid reports of de-escalating geopolitical tensions (referred to as \"peace\"), driving broad crypto gains with Ethereum rising 2.70% to around $2,217 (INR equivalent) and XRP advancing 2.52% [1][4]. This aligns with recent ETF inflows supporting Bitcoin near $76K and",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Bitcoin above 76,800 on April 22, 11AM ET?",
-        "Will XRP reach $1.50 April 20-26?",
-        "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776867383982_0",
-      "timestamp": "2026-04-22T14:16:23.982591+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Cavs Take 2-0 Lead Over Raptors in First-Round Series After Game 2 Win on Monday | NO (No Conference Semifinals Involvem",
-      "raw": "Cavs Take 2-0 Lead Over Raptors in First-Round Series After Game 2 Win on Monday | NO (No Conference Semifinals Involvement; Cavs Lead Raptors Series)** | HIGH confidence[1][2][3]\n\nCavaliers defeated Toronto 115-105 in Game 2, with Donovan Mitchell (30 pts), James Harden (28 pts), and Evan Mobley (25 pts) leading a dominant performance for a 2-0 first-round lead; this marks their 12th straight pla",
+      "headline": "Wembanyama Suffers Concussion, Ruled Out After Hard Fall in Spurs-Trail Blazers Game 2 | YES | HIGH confidence**",
+      "raw": "Wembanyama Suffers Concussion, Ruled Out After Hard Fall in Spurs-Trail Blazers Game 2 | YES | HIGH confidence**  \nVictor Wembanyama, the Spurs' star rookie and MVP finalist, exited Game 2 of their Western Conference first-round playoff series against the Trail Blazers due to a concussion from a hard fall and was quickly ruled out for the remainder of the game.[4]  \nThis injury confirmation in the",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
+        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
         "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
         "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
       ],
@@ -39,12 +22,38 @@
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776867388596_0",
-      "timestamp": "2026-04-22T14:16:28.596977+00:00",
+      "id": "sig_1776867459348_0",
+      "timestamp": "2026-04-22T14:17:39.348842+00:00",
       "source": "PERPLEXITY",
-      "headline": "Elon Musk April Tweet Count Markets Lead Polymarket Activity | NO | LOW confidence**",
-      "raw": "Elon Musk April Tweet Count Markets Lead Polymarket Activity | NO | LOW confidence**\n\nPolymarket's most active markets focus on **Elon Musk tweet predictions**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" and \"Elon Musk # tweets in April 2026?\", with the 1120-1159 range trading at 18-28% implied probability and over $19M in volume across related tweet markets[1][2][3]. No specific X po",
+      "headline": "Elon Musk April Tweets Dominate Polymarket Trending Markets | NO | LOW confidence**",
+      "raw": "Elon Musk April Tweets Dominate Polymarket Trending Markets | NO | LOW confidence**\n\nPolymarket's most active markets right now focus on **Elon Musk's tweet volume**, including \"Elon Musk # tweets April 17 - April 24, 2026?\" (with \"220-239\" at 32% odds) and \"Elon Musk musk # tweets in April 2026?\" (1120-1159 at 28% or 18% in related bins)[2][3][4].",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776867459351_1",
+      "timestamp": "2026-04-22T14:17:39.351681+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Tweet Markets** overall see $19",
+      "raw": "Tweet Markets** overall see $19.1M+ volume across 20-131 active predictions, like Kanye West tweeting by April 30 (yes/no at varying odds up to 60%), reflecting trader bets on pop culture metrics[2][3][4].",
       "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776867459354_2",
+      "timestamp": "2026-04-22T14:17:39.354788+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Trending Markets** encompass 160-166 live options with $3M+ volume, spanning Nasdaq trading changes by June 30 and other",
+      "raw": "Trending Markets** encompass 160-166 live options with $3M+ volume, spanning Nasdaq trading changes by June 30 and other niche events, but no specific whale bets, smart money moves, mispriced alerts, or recent confirmations/announcements noted in real-time data[1].  \nNo X posts or breaking resolutions detailed; data as of April 21 shows sentiment-driven odds without trader tips or big moves highli",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -53,9 +62,9 @@
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 2,
+    "enter": 0,
+    "alert": 4,
     "watch": 0,
-    "high_conf": 1
+    "high_conf": 0
   }
 }
