@@ -1,15 +1,32 @@
 {
-  "last_scan": "2026-04-22T10:21:34.010067+00:00",
-  "scan_seconds": 17.5,
+  "last_scan": "2026-04-22T10:22:36.910779+00:00",
+  "scan_seconds": 16.3,
   "markets_scanned": 80,
   "open_positions": 38,
   "signals": [
     {
-      "id": "sig_1776853292997_0",
-      "timestamp": "2026-04-22T10:21:32.997651+00:00",
+      "id": "sig_1776853344036_0",
+      "timestamp": "2026-04-22T10:22:24.036208+00:00",
       "source": "PERPLEXITY",
-      "headline": "X Money Launch by April 30",
-      "raw": "X Money Launch by April 30? | NO | HIGH confidence**  \nPolymarket's top X-related market shows **12% odds** for \"\ud835\udd4f Money launched by April 30,\" with $33.6K volume and $4.6K liquidity, signaling traders' strong skepticism on this Elon Musk tech event ending in 8 days.[1]",
+      "headline": "RLUSD Stablecoin Full-Scale Rollout Confirmed on XRPL & Ethereum | YES | HIGH confidence**",
+      "raw": "RLUSD Stablecoin Full-Scale Rollout Confirmed on XRPL & Ethereum | YES | HIGH confidence**  \nThe official full-scale rollout of Ripple USD (RLUSD) stablecoin across the XRP Ledger and Ethereum has been confirmed as of April 18, 2026, driving massive capital influx, record XRPL transaction volume, and XRP surges amid heightened institutional adoption.[1]",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
+        "XRP Up or Down - April 22, 8:20AM-8:25AM ET",
+        "XRP Up or Down - April 22, 8:35AM-8:40AM ET"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776853355905_0",
+      "timestamp": "2026-04-22T10:22:35.905593+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Elon Musk April Tweets Dominate Polymarket Chatter | NO | LOW confidence**",
+      "raw": "Elon Musk April Tweets Dominate Polymarket Chatter | NO | LOW confidence**\n\nPolymarket's trending markets heavily feature **Tweet Markets**, with the most active being \"Elon Musk # tweets April 17 - April 24, 2026?\" (28% odds on 1120-1159 range) and \"Elon Musk # tweets in April 2026?\" (18-28% on similar ranges across snippets).[1][2][3][4] These have high volumes ($19.1M+), suggesting traders on X",
       "direction": "NO",
       "confidence": 0.78,
       "matched_markets": [],
@@ -18,11 +35,58 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776853287790_0",
-      "timestamp": "2026-04-22T10:21:27.790667+00:00",
+      "id": "sig_1776853344039_1",
+      "timestamp": "2026-04-22T10:22:24.039542+00:00",
       "source": "PERPLEXITY",
-      "headline": "Cavaliers lead Raptors 2-0 in NBA playoffs first-round series after 115-105 Game 2 win on Monday",
-      "raw": "Cavaliers lead Raptors 2-0 in NBA playoffs first-round series after 115-105 Game 2 win on Monday.**  \nYES | HIGH confidence[2][3]",
+      "headline": "Spot XRP ETFs Reach 6 Active in U",
+      "raw": "Spot XRP ETFs Reach 6 Active in U.S. with $1B AUM | YES | HIGH confidence**  \nSix U.S. spot XRP ETFs are now active by mid-April 2026 (including debuts from Franklin Templeton, Grayscale, Bitwise, 21Shares, Amplify, and XRPC with $250M first-day AUM), holding ~787M XRP in custody and pulling $224M inflows in early April, shifting rally dynamics to spot-led flows.[3]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
+        "XRP Up or Down - April 22, 8:20AM-8:25AM ET",
+        "XRP Up or Down - April 22, 8:35AM-8:40AM ET"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776853344042_2",
+      "timestamp": "2026-04-22T10:22:24.042566+00:00",
+      "source": "PERPLEXITY",
+      "headline": "SEC Legal Battle Officially Resolved | YES | HIGH confidence**",
+      "raw": "SEC Legal Battle Officially Resolved | YES | HIGH confidence**  \nRipple's long-standing SEC lawsuit is now \"officially in the rearview mirror,\" clearing regulatory hurdles alongside XRP ETF approvals entering final stages and SEC-CFTC framework progress.[1][3]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776853344045_3",
+      "timestamp": "2026-04-22T10:22:24.045508+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Rakuten Wallet Launch on April 15 | YES | MED confidence**",
+      "raw": "Rakuten Wallet Launch on April 15 | YES | MED confidence**  \nRakuten Wallet launched on April 15, 2026, coinciding with XRP's first 2026 touch above $1.50 (intraday high $1.51094 on April 17), though followed by a pullback to ~$1.43 by April 19.[3]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
+        "XRP Up or Down - April 22, 8:20AM-8:25AM ET",
+        "XRP Up or Down - April 22, 8:35AM-8:40AM ET"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776853351763_0",
+      "timestamp": "2026-04-22T10:22:31.763677+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Cavaliers defeat Raptors 115-105 in Game 2, take 2-0 series lead in Eastern Conference first-round playoffs** | YES | HI",
+      "raw": "Cavaliers defeat Raptors 115-105 in Game 2, take 2-0 series lead in Eastern Conference first-round playoffs** | YES | HIGH confidence[1][2][3]\n\nThe Cavaliers' star trio\u2014Donovan Mitchell (30 points), James Harden (28 points), and Evan Mobley (25 points)\u2014combined for 83 points in a wire-to-wire win on Monday night, marking Cleveland's 12th straight playoff victory over Toronto and tying an NBA recor",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
@@ -33,83 +97,12 @@
       "action": "ALERT",
       "x_link": null,
       "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776853287793_1",
-      "timestamp": "2026-04-22T10:21:27.793604+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Cavaliers tie NBA record with 12th straight playoff win over Raptors",
-      "raw": "Cavaliers tie NBA record with 12th straight playoff win over Raptors.**  \nYES | HIGH confidence[2]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776853287796_2",
-      "timestamp": "2026-04-22T10:21:27.796834+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Mavs (with Cooper Flagg) beat Raptors 139-129 on Oct 26, 2025\u2014not playoffs-related",
-      "raw": "Mavs (with Cooper Flagg) beat Raptors 139-129 on Oct 26, 2025\u2014not playoffs-related.**  \nNO | HIGH confidence[1]  \n\nNo confirmed Cavaliers playoff news or other resolutions found in results. No mentions of \"will cooper flagg\" markets or active NBA playoffs beyond Cavs-Raptors series[1][2][3].",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776853293000_1",
-      "timestamp": "2026-04-22T10:21:33.000693+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Iran x Israel/US Conflict Ends Soon",
-      "raw": "Iran x Israel/US Conflict Ends Soon? | YES (by some date) | HIGH confidence**  \nOne market hits **100% YES** for \"Iran x Israel/US conflict ends by...?\" amid 116 related options, indicating recent confirmation or resolution driving geopolitics bets to near-certainty on Polymarket's X predictions page.[1]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776853293003_2",
-      "timestamp": "2026-04-22T10:21:33.003684+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Nikita Bier Out as X Head of Product by June 30",
-      "raw": "Nikita Bier Out as X Head of Product by June 30? | NO | MED confidence**  \nMarket at **7% YES** with $1.4K volume and $4.5K liquidity reflects low trader conviction in this leadership shakeup, potentially a smart money lean against amid X tech drama.[1]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776853293006_3",
-      "timestamp": "2026-04-22T10:21:33.006851+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Elon Musk Tweet Volume April 2026 (1120-1159 Range) | NO | MED confidence**",
-      "raw": "Elon Musk Tweet Volume April 2026 (1120-1159 Range) | NO | MED confidence**  \nTweet Markets give **28% odds** to Elon Musk hitting 1120-1159 tweets, topping $9M volume in active ranges; conflicting snapshots show 18% for 1080-1119, hinting mispriced volatility as traders bet on his posting habits.[2][3]  \n\nNo direct X posts from Polymarket traders, whale bets, or tips in results; data snapshots fr",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 7,
+    "enter": 1,
+    "alert": 5,
     "watch": 0,
-    "high_conf": 0
+    "high_conf": 1
   }
 }
