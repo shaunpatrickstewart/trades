@@ -1,11 +1,11 @@
 {
-  "last_updated": "2026-04-22T15:13:10.619915+00:00",
-  "bankroll": 418.77,
+  "last_updated": "2026-04-22T15:15:01.174318+00:00",
+  "bankroll": 404.2151,
   "total_trades": 312,
   "settled_trades": 295,
   "wins": 28,
   "losses": 267,
-  "win_rate": 9.49,
+  "win_rate": 9.5,
   "win_streak": 0,
   "starting_bankroll": 186.2,
   "organic_pnl": 37.44,
@@ -14,29 +14,17 @@
   "open_capital_deployed": 102.84,
   "post_filter_pnl": 37.44,
   "engines": {
+    "SHORT_TERM": {
+      "won": 10,
+      "lost": 6,
+      "pnl": 34.98,
+      "open": 13
+    },
     "NEAR_CERTAIN": {
       "won": 18,
       "lost": 261,
       "pnl": 2.46,
       "open": 4
-    },
-    "SHORT_TERM": {
-      "won": 10,
-      "lost": 6,
-      "pnl": 34.980000000000004,
-      "open": 13
     }
-  },
-  "today_roi": 0.0,
-  "today_pnl": 0.18,
-  "today_deployed": 3610.14,
-  "today_trades": 258,
-  "week_roi": 0.88,
-  "week_pnl": 37.44,
-  "week_deployed": 4277.31,
-  "week_trades": 295,
-  "month_roi": 0.88,
-  "month_pnl": 37.44,
-  "month_deployed": 4277.31,
-  "month_trades": 295
+  }
 }
