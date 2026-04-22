@@ -1,55 +1,48 @@
 {
-  "last_scan": "2026-04-22T21:17:01.282740+00:00",
-  "scan_seconds": 24.7,
+  "last_scan": "2026-04-22T21:17:54.650767+00:00",
+  "scan_seconds": 13.7,
   "markets_scanned": 50,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776892614569_1",
-      "timestamp": "2026-04-22T21:16:54.569078+00:00",
+      "id": "sig_1776892664646_0",
+      "timestamp": "2026-04-22T21:17:44.646832+00:00",
       "source": "PERPLEXITY",
-      "headline": "**Confirmed announcements or resolved outcomes** involving the Cavaliers in the conference semifinals that would move pr",
-      "raw": "**Confirmed announcements or resolved outcomes** involving the Cavaliers in the conference semifinals that would move prediction markets",
-      "direction": null,
+      "headline": "ETH ETF Inflows Hit $275M Weekly High (Strongest Since January), Driving 7% Price Surge to ~$2,400 | YES | HIGH confiden",
+      "raw": "ETH ETF Inflows Hit $275M Weekly High (Strongest Since January), Driving 7% Price Surge to ~$2,400 | YES | HIGH confidence** [1]\n\nEthereum ETFs recorded over $275 million in weekly inflows, the largest since January 2026, led by Fidelity\u2019s FETH and BlackRock\u2019s ETHA, coinciding with a 7% ETH price climb to nearly $2,400 amid a broader market rally.[1] This institutional demand signal, reported via ",
+      "direction": "YES",
       "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
+      "matched_markets": [
+        "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET"
+      ],
+      "action": "ENTER",
       "x_link": null,
-      "category": "SPORTS"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_1776892614562_0",
-      "timestamp": "2026-04-22T21:16:54.562807+00:00",
+      "id": "sig_1776892668977_0",
+      "timestamp": "2026-04-22T21:17:48.977191+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot provide breaking news matching your query parameters based on these search results",
-      "raw": "I cannot provide breaking news matching your query parameters based on these search results.\n\nThe search results show the NBA playoff bracket and standings from the 2025-26 season, but they do not contain:",
-      "direction": null,
+      "headline": "Lakers Confirm 2-0 Series Lead Over Rockets in NBA Playoffs** | YES | HIGH confidence[1][4][5]",
+      "raw": "Lakers Confirm 2-0 Series Lead Over Rockets in NBA Playoffs** | YES | HIGH confidence[1][4][5]\n\nThe Los Angeles Lakers have taken a 2-0 lead against the Houston Rockets in their Western Conference first-round series, with Game 3 scheduled for April 24[4]. Colin Cowherd highlighted LeBron James as the series' top player and a coaching edge for the Lakers, while Kendrick Perkins called the Rockets t",
+      "direction": "YES",
       "confidence": 0.65,
-      "matched_markets": [],
+      "matched_markets": [
+        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
+      ],
       "action": "ALERT",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776892614570_2",
-      "timestamp": "2026-04-22T21:16:54.570983+00:00",
+      "id": "sig_1776892673645_0",
+      "timestamp": "2026-04-22T21:17:53.645695+00:00",
       "source": "PERPLEXITY",
-      "headline": "**Rookie-related breaking news** tied to Cavaliers playoff performance",
-      "raw": "**Rookie-related breaking news** tied to Cavaliers playoff performance",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776892620270_0",
-      "timestamp": "2026-04-22T21:17:00.270121+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | HIGH confidence**",
-      "raw": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | HIGH confidence**\n\nPolymarket's most active markets right now focus on **Elon Musk's tweet volumes**, such as \"Elon Musk # tweets April 20 - April 22, 2026?\" (priced at 40-64\u00a2 implying ~40-64% probability for that range) and \"Elon Musk # tweets April 17 - April 24, 2026?\" with 1120-1159 tweets at 18% odds[2][3][4]. These dominate Tweet an",
-      "direction": "NO",
+      "headline": "Polymarket Trending Markets Heating Up on X: Nasdaq 24/7 Trading and Monero $1000 Surge in Focus | NO whale bets or tips",
+      "raw": "Polymarket Trending Markets Heating Up on X: Nasdaq 24/7 Trading and Monero $1000 Surge in Focus | NO whale bets or tips confirmed | LOW confidence**\n\nPolymarket's top trending markets include **Nasdaq round-the-clock trading by June 30?** at 20% YES odds with $43.9K volume and **Will Monero hit $1000 in 2026?** at 19% YES odds with $94.3K volume, signaling trader interest in finance and crypto sh",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
         "Will Trump name \"Elon\" or \"Musk\" in April?"
@@ -57,53 +50,12 @@
       "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776892620272_1",
-      "timestamp": "2026-04-22T21:17:00.272170+00:00",
-      "source": "PERPLEXITY",
-      "headline": "No whale bets, smart money moves, or mispriced markets reported | NO | HIGH confidence**",
-      "raw": "No whale bets, smart money moves, or mispriced markets reported | NO | HIGH confidence**\n\nSearch results show no mentions of specific **whale activity, smart money signals, prediction tips, or claims of mispriced markets** on X; focus is solely on Polymarket's internal trending odds for tweet predictions[1][2][3][4].",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776892620278_2",
-      "timestamp": "2026-04-22T21:17:00.278323+00:00",
-      "source": "PERPLEXITY",
-      "headline": "No recent confirmations, announcements, or resolutions impacting markets | NO | MEDIUM confidence**",
-      "raw": "No recent confirmations, announcements, or resolutions impacting markets | NO | MEDIUM confidence**\n\nNo breaking news, confirmed events, or resolutions (e.g., Nasdaq trading or Kanye tweets) are noted as just occurring to shift odds; markets like \"Nasdaq round-the-clock trading by June 30?\" remain open-ended with general $2.8M volume across 168 trending markets[1][3]. Real-time odds continue updat",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776892614577_3",
-      "timestamp": "2026-04-22T21:16:54.577255+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Recent developments** (the results appear to show completed games from earlier in the playoffs, not real-time updates",
-      "raw": "**Recent developments** (the results appear to show completed games from earlier in the playoffs, not real-time updates from tonight)\n\nThe only current information visible is that the Celtics-76ers Game 2 is scheduled for later tonight (around 7:12 PM ET according to search result [2]), but this does not directly address your Cavaliers/rookie query.\n\nTo get the breaking news you're seeking, you wo",
-      "direction": null,
-      "confidence": 0.6,
-      "matched_markets": [
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
-      ],
-      "action": "WATCH",
-      "x_link": null,
-      "category": "SPORTS"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 6,
-    "watch": 1,
+    "enter": 1,
+    "alert": 2,
+    "watch": 0,
     "high_conf": 1
   }
 }
