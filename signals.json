@@ -1,53 +1,74 @@
 {
-  "last_scan": "2026-04-22T07:34:39.894109+00:00",
-  "scan_seconds": 19.2,
+  "last_scan": "2026-04-22T07:35:44.239150+00:00",
+  "scan_seconds": 17.7,
   "markets_scanned": 77,
   "open_positions": 37,
   "signals": [
     {
-      "id": "sig_1776843264054_0",
-      "timestamp": "2026-04-22T07:34:24.054661+00:00",
+      "id": "sig_1776843335527_0",
+      "timestamp": "2026-04-22T07:35:35.527366+00:00",
       "source": "PERPLEXITY",
-      "headline": "Confidence: HIGH** (search results lack any post-April 21 updates matching \"right now\" criteria)",
-      "raw": "Confidence: HIGH** (search results lack any post-April 21 updates matching \"right now\" criteria).",
+      "headline": "Fed Holds Rates Steady at 3",
+      "raw": "Fed Holds Rates Steady at 3.5-3.75% in March 2026 Meeting | NO rate cuts | HIGH confidence** [4]\n\nThe Federal Reserve's FOMC statement on March 18, 2026, confirmed no change to the federal funds rate target range amid solid GDP expansion, low job gains, stable unemployment, and somewhat elevated inflation, with heightened uncertainty from Middle East developments.[4] This aligns with IMF's April 2",
+      "direction": "NO",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will Powell say \"Tariff inflation\" during April press conference?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776843335530_1",
+      "timestamp": "2026-04-22T07:35:35.530945+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Powell Reiterates Tariffs as One-Time Inflation Shock, Expecting Peak Q1 2026 | NO persistent tariff inflation | MED con",
+      "raw": "Powell Reiterates Tariffs as One-Time Inflation Shock, Expecting Peak Q1 2026 | NO persistent tariff inflation | MED confidence** [2][3]\n\nJerome Powell described the economy as \"very unusual\" with tariff-driven goods inflation (peaking Q1 2026, assuming no new rounds) offsetting cooled services and easing wages/labor, while excluding tariff goods shows low-2% inflation; he affirmed tariffs as a \"c",
+      "direction": "YES",
+      "confidence": 0.78,
+      "matched_markets": [
+        "Will Powell say \"Tariff inflation\" during April press conference?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776843343235_0",
+      "timestamp": "2026-04-22T07:35:43.235635+00:00",
+      "source": "PERPLEXITY",
+      "headline": "HIGH** confidence, as search results focus solely on market listings without social media buzz or resolutions",
+      "raw": "HIGH** confidence, as search results focus solely on market listings without social media buzz or resolutions.[1][2][3][4][5]",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776843278886_0",
-      "timestamp": "2026-04-22T07:34:38.886330+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | HIGH confidence**",
-      "raw": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | HIGH confidence**  \nPolymarket's most active markets right now focus on **Elon Musk's tweet volume**, including \"Elon Musk # tweets April 17 - April 24, 2026?\" (e.g., 1080-1119 at 18% probability) and the broader \"Elon Musk # tweets in April 2026?\", with over $17.1M in trading volume across 20+ active Tweet Markets[2][3][4].  \nNo specific",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776843278891_1",
-      "timestamp": "2026-04-22T07:34:38.891626+00:00",
+      "id": "sig_1776843339601_0",
+      "timestamp": "2026-04-22T07:35:39.601792+00:00",
       "source": "PERPLEXITY",
-      "headline": "Trending Markets** category shows 166 live markets (e",
-      "raw": "Trending Markets** category shows 166 live markets (e.g., \u201cNasdaq round-the-clock trading by June 30?\u201d) with $3M+ volume, but no X posts or resolutions detailed[1].",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
+      "headline": "Cavaliers take 2-0 series lead over Raptors in Eastern Conference Semifinals with 115-105 Game 2 win** | YES | HIGH",
+      "raw": "Cavaliers take 2-0 series lead over Raptors in Eastern Conference Semifinals with 115-105 Game 2 win** | YES | HIGH\n\nCleveland Cavaliers defeated Toronto Raptors 115-105 in Game 2 of their Eastern Conference Semifinals playoff series on April 21, 2026, securing a commanding 2-0 lead, with the series shifting to Toronto for Game 3 on Thursday[1][2].[1][2] Donovan Mitchell scored 30 points, James Ha",
+      "direction": "YES",
+      "confidence": 0.6,
+      "matched_markets": [
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
+        "Will the highest temperature in Toronto be 14\u00b0C on April 22?"
+      ],
+      "action": "WATCH",
       "x_link": null,
-      "category": "COMMUNITY"
+      "category": "SPORTS"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 3,
-    "watch": 0,
-    "high_conf": 0
+    "enter": 1,
+    "alert": 2,
+    "watch": 1,
+    "high_conf": 1
   }
 }
