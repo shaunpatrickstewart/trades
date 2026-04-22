@@ -1,72 +1,53 @@
 {
-  "last_scan": "2026-04-22T14:34:40.059526+00:00",
-  "scan_seconds": 18.5,
-  "markets_scanned": 76,
+  "last_scan": "2026-04-22T14:35:46.737779+00:00",
+  "scan_seconds": 16.2,
+  "markets_scanned": 77,
   "open_positions": 38,
   "signals": [
     {
-      "id": "sig_1776868470116_1",
-      "timestamp": "2026-04-22T14:34:30.116850+00:00",
+      "id": "sig_1776868545735_2",
+      "timestamp": "2026-04-22T14:35:45.735337+00:00",
       "source": "PERPLEXITY",
-      "headline": "XRP-Specific Event (Confirmed):** The SEC dropped its long-running lawsuit against Ripple Labs[1], which has been cited",
-      "raw": "XRP-Specific Event (Confirmed):** The SEC dropped its long-running lawsuit against Ripple Labs[1], which has been cited as a major catalyst for XRP's April rally and shift in market sentiment.",
-      "direction": null,
+      "headline": "GTA VI released before June 2026",
+      "raw": "GTA VI released before June 2026?** sits at **1% Yes** with massive $14M volume and $67.2K liquidity in News Stories category (102 markets, $56.6M total vol), signaling trader skepticism but potential mispricing chatter if delays confirmed[4]. No resolved announcements or whale activity noted.  \n\nNo breaking confirmations, whale bets, or trending tips on X in results; tweet markets dominate as cro",
+      "direction": "YES",
       "confidence": 0.9,
-      "matched_markets": [
-        "Will XRP reach $1.50 April 20-26?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776868470113_0",
-      "timestamp": "2026-04-22T14:34:30.113819+00:00",
-      "source": "PERPLEXITY",
-      "headline": "I cannot provide breaking news or immediate market-moving confirmations based on the search results provided",
-      "raw": "I cannot provide breaking news or immediate market-moving confirmations based on the search results provided. The search results contain analysis and predictions from early-to-mid April 2026, but they do not include specific announcements, confirmations, or resolutions that have occurred as of April 22, 2026.\n\nThe most recent concrete information in the search results indicates:",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776868479056_0",
-      "timestamp": "2026-04-22T14:34:39.056264+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Elon Musk April 2026 Tweet Count Markets Trending on Polymarket | NO | LOW confidence**",
-      "raw": "Elon Musk April 2026 Tweet Count Markets Trending on Polymarket | NO | LOW confidence**\n\nPolymarket's most active markets right now focus on \"Elon Musk # tweets in April 2026,\" with traders pricing 1120-1159 tweets at 28% probability in Tweet Markets (20 active markets, $19.1M volume) and similar ranges at 18-60% in broader Tweet predictions (130+ markets, $21.1M volume).[3][4]  \nNo specific X pos",
-      "direction": "NO",
-      "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776868470119_2",
-      "timestamp": "2026-04-22T14:34:30.119910+00:00",
+      "id": "sig_1776868545729_0",
+      "timestamp": "2026-04-22T14:35:45.729145+00:00",
       "source": "PERPLEXITY",
-      "headline": "Potential April Catalyst:** The CLARITY Act markup and FOMC meeting (April 28-29) are mentioned as upcoming events that",
-      "raw": "Potential April Catalyst:** The CLARITY Act markup and FOMC meeting (April 28-29) are mentioned as upcoming events that could influence XRP price direction[3], but these have not yet occurred or been resolved as of your query date.\n\nFor real-time breaking news on market-moving announcements regarding XRP, Ethereum, or Bitcoin as of April 22, 2026, you would need to consult current financial news s",
-      "direction": null,
-      "confidence": 0.6,
-      "matched_markets": [
-        "Will XRP reach $1.50 April 20-26?",
-        "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET",
-        "Bitcoin Up or Down - April 22, 10:50AM-10:55AM ET"
-      ],
-      "action": "WATCH",
+      "headline": "Elon Musk April Tweets Markets Heating Up on Polymarket | NO | MED confidence**",
+      "raw": "Elon Musk April Tweets Markets Heating Up on Polymarket | NO | MED confidence**  \nPolymarket's most active markets focus on **Elon Musk tweet counts**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" and \"Elon Musk # tweets in April 2026?\", with the 1120-1159 range trading at **28%** (up from prior snapshots) amid $19.1M+ volume across 20-131 live tweet markets[1][2][3]. Traders on X are l",
+      "direction": "YES",
+      "confidence": 0.78,
+      "matched_markets": [],
+      "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776868545732_1",
+      "timestamp": "2026-04-22T14:35:45.732290+00:00",
+      "source": "PERPLEXITY",
+      "headline": "GTA VI Release Odds Near Floor | NO | LOW confidence**",
+      "raw": "GTA VI Release Odds Near Floor | NO | LOW confidence**",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
     }
   ],
   "stats": {
     "enter": 0,
     "alert": 3,
-    "watch": 1,
+    "watch": 0,
     "high_conf": 1
   }
 }
