@@ -1,31 +1,48 @@
 {
-  "last_scan": "2026-04-22T11:45:15.101725+00:00",
-  "scan_seconds": 18.4,
+  "last_scan": "2026-04-22T11:46:17.382829+00:00",
+  "scan_seconds": 16.8,
   "markets_scanned": 80,
   "open_positions": 37,
   "signals": [
     {
-      "id": "sig_1776858305742_0",
-      "timestamp": "2026-04-22T11:45:05.742591+00:00",
+      "id": "sig_1776858363774_0",
+      "timestamp": "2026-04-22T11:46:03.774927+00:00",
       "source": "PERPLEXITY",
-      "headline": "Powell Warns of Tariff-Driven Goods Inflation Peaking Q1 2026, Amid Weakening Labor Market and Fed Rate Cut with Dissent",
-      "raw": "Powell Warns of Tariff-Driven Goods Inflation Peaking Q1 2026, Amid Weakening Labor Market and Fed Rate Cut with Dissents | NO | HIGH confidence**  \nFederal Reserve Chair Jerome Powell described the U.S. economy as \"very unusual\" due to high **tariff-driven goods inflation** combined with a potentially weaker labor market than official data shows, during a Wednesday statement alongside a third con",
-      "direction": "NO",
-      "confidence": 0.78,
+      "headline": "SEC Drops Long-Running Lawsuit Against Ripple Labs | YES | HIGH confidence** [1]",
+      "raw": "SEC Drops Long-Running Lawsuit Against Ripple Labs | YES | HIGH confidence** [1]\n\nThe SEC's decision to drop its lawsuit against Ripple has been confirmed as a key catalyst driving XRP's April 2026 surge, with the token gaining nearly 10% in the past week to around $1.42 after breaking $1.50 resistance[1]. This regulatory resolution signals a fundamental shift in market sentiment, removing a multi",
+      "direction": "YES",
+      "confidence": 0.9,
       "matched_markets": [
-        "Will Trump agree to Iranian enrichment of uranium in April?",
-        "Will Powell say \"Tariff inflation\" during April press conference?"
+        "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
+        "XRP Up or Down - April 22, 8:20AM-8:25AM ET",
+        "XRP Up or Down - April 22, 8:35AM-8:40AM ET"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776858371989_0",
+      "timestamp": "2026-04-22T11:46:11.989422+00:00",
+      "source": "PERPLEXITY",
+      "headline": "YES confidence: LOW** \u2013 Search results confirm Flagg was drafted #1 by the **Dallas Mavericks** in the 2025 NBA Draft af",
+      "raw": "YES confidence: LOW** \u2013 Search results confirm Flagg was drafted #1 by the **Dallas Mavericks** in the 2025 NBA Draft after a controversial lottery (1.8% odds), and he remains their rookie star in the 2025-26 season, with no mentions of trades to **Lakers** or **Cavaliers**.[1][4] Recent highlights include his 51-point game vs. Orlando (Game 77) and Rookie of the Year buzz alongside teammates Kyri",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "SPORTS"
     },
     {
-      "id": "sig_1776858314098_0",
-      "timestamp": "2026-04-22T11:45:14.098041+00:00",
+      "id": "sig_1776858376379_0",
+      "timestamp": "2026-04-22T11:46:16.379784+00:00",
       "source": "PERPLEXITY",
-      "headline": "Trending Polymarket Focus: Elon Musk Tweet Counts | NO whale bets or resolutions confirmed | LOW confidence**",
-      "raw": "Trending Polymarket Focus: Elon Musk Tweet Counts | NO whale bets or resolutions confirmed | LOW confidence**  \nPolymarket's most active markets right now center on **Elon Musk tweet volume predictions**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" (trading at 32% for 220-239 range) and \"Elon Musk # tweets in April 2026?\" (28% for 1120-1159, previously noted at 18%)[2][3][4].  \nThese t",
+      "headline": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | LOW confidence**",
+      "raw": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | LOW confidence**\n\nPolymarket's most active markets right now focus on **Elon Musk's tweet volumes**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" (32% odds for 220-239 range) and \"Elon Musk # tweets in April 2026?\" (18-28% odds for 1120-1159 range), with over $19-21M in trading volume across 20-131 related markets[2][3][4]. The",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
@@ -35,9 +52,9 @@
     }
   ],
   "stats": {
-    "enter": 0,
+    "enter": 1,
     "alert": 2,
     "watch": 0,
-    "high_conf": 0
+    "high_conf": 1
   }
 }
