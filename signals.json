@@ -1,30 +1,34 @@
 {
-  "last_scan": "2026-04-22T18:37:42.240960+00:00",
-  "scan_seconds": 21.5,
+  "last_scan": "2026-04-22T18:38:41.573404+00:00",
+  "scan_seconds": 15.0,
   "markets_scanned": 54,
   "open_positions": 14,
   "signals": [
     {
-      "id": "sig_1776883061229_4",
-      "timestamp": "2026-04-22T18:37:41.229645+00:00",
+      "id": "sig_1776883115409_0",
+      "timestamp": "2026-04-22T18:38:35.409197+00:00",
       "source": "PERPLEXITY",
-      "headline": "Breaking news or recently confirmed events that would move markets",
-      "raw": "Breaking news or recently confirmed events that would move markets\n\nTo get this information, you would need to:",
-      "direction": null,
+      "headline": "Cavs Lead Raptors 2-0 in 2026 First-Round Playoff Series After Straight Wins | YES (Cavs favored to win series) | HIGH c",
+      "raw": "Cavs Lead Raptors 2-0 in 2026 First-Round Playoff Series After Straight Wins | YES (Cavs favored to win series) | HIGH confidence** [1][4]\n\nThe Cleveland Cavaliers have secured a 2-0 series lead over the Toronto Raptors in their ongoing first-round matchup of the 2026 NBA playoffs, with confirmed victories in both games (W W).[4] Game 1 ended 123-113 (or reported as 126-113), as the Cavs dominated",
+      "direction": "YES",
       "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
+      "matched_markets": [
+        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
+      ],
+      "action": "ENTER",
       "x_link": null,
-      "category": "COMMUNITY"
+      "category": "SPORTS"
     },
     {
-      "id": "sig_1776883049676_1",
-      "timestamp": "2026-04-22T18:37:29.676308+00:00",
+      "id": "sig_1776883110820_0",
+      "timestamp": "2026-04-22T18:38:30.820116+00:00",
       "source": "PERPLEXITY",
-      "headline": "Solana Hits Record 167M Monthly Token Holders & Alpenglow Upgrade Progress | YES | HIGH confidence**",
-      "raw": "Solana Hits Record 167M Monthly Token Holders & Alpenglow Upgrade Progress | YES | HIGH confidence**\n\nAs of April 14, 2026, Solana reached an all-time record of **167 million monthly token holders** with daily non-vote transactions hitting historic highs of 148 million.[2] The **Alpenglow consensus upgrade** is progressing, aiming to reduce transaction finality from 12 seconds to 150 milliseconds.",
-      "direction": "YES",
-      "confidence": 0.78,
+      "headline": "**Solana (SOL) surges and records:** On April 14, SOL hit 167 million monthly token holders and 148 million daily non-vo",
+      "raw": "**Solana (SOL) surges and records:** On April 14, SOL hit 167 million monthly token holders and 148 million daily non-vote transactions, driven by the anticipated Alpenglow upgrade (targeting 150ms finality) and institutional ETF holdings from BlackRock/Fidelity; price around $88[1][2].",
+      "direction": null,
+      "confidence": 0.65,
       "matched_markets": [
         "Solana Up or Down - April 22, 2:30PM-2:35PM ET",
         "Will the price of Solana be above $90 on April 28?"
@@ -34,24 +38,42 @@
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776883049674_0",
-      "timestamp": "2026-04-22T18:37:29.674176+00:00",
+      "id": "sig_1776883110822_1",
+      "timestamp": "2026-04-22T18:38:30.822257+00:00",
       "source": "PERPLEXITY",
-      "headline": "Based on the search results provided, here are the key developments:",
-      "raw": "Based on the search results provided, here are the key developments:",
+      "headline": "**Ethereum (ETH) updates:** Pectra upgrade in final testing as of April 18 (enhancing wallets/validators); price at $2,3",
+      "raw": "**Ethereum (ETH) updates:** Pectra upgrade in final testing as of April 18 (enhancing wallets/validators); price at $2,305 on April 21, with AI predictions of $1,800-$2,400 range for April[2][5][6].",
       "direction": null,
       "confidence": 0.65,
-      "matched_markets": [],
+      "matched_markets": [
+        "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET"
+      ],
       "action": "ALERT",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776883049688_3",
-      "timestamp": "2026-04-22T18:37:29.688655+00:00",
+      "id": "sig_1776883110824_2",
+      "timestamp": "2026-04-22T18:38:30.824479+00:00",
       "source": "PERPLEXITY",
-      "headline": "Solana Vastly Outpaces Ethereum in Transaction Volume | YES | HIGH confidence**",
-      "raw": "Solana Vastly Outpaces Ethereum in Transaction Volume | YES | HIGH confidence**\n\nSolana processed **25.3 billion transactions in Q1 2026** compared to Ethereum's **200 million**\u2014a 125x difference.[3] This is attributed to new developer influx and booming stablecoin volume, representing a shift in developer momentum.[3]",
+      "headline": "**Earlier incidents:** Solana's Drift Protocol hack on April 1 ($280M loss, under investigation); no resolutions confirm",
+      "raw": "**Earlier incidents:** Solana's Drift Protocol hack on April 1 ($280M loss, under investigation); no resolutions confirmed[3].",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Solana Up or Down - April 22, 2:30PM-2:35PM ET",
+        "Will the price of Solana be above $90 on April 28?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776883110826_3",
+      "timestamp": "2026-04-22T18:38:30.826534+00:00",
+      "source": "PERPLEXITY",
+      "headline": "YES or NO: NO** | **HIGH/MED/LOW confidence: HIGH** (No events post-April 21 in results match \"right now\" or prediction-",
+      "raw": "YES or NO: NO** | **HIGH/MED/LOW confidence: HIGH** (No events post-April 21 in results match \"right now\" or prediction-market-moving confirmations like upgrades live or ETF approvals).",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
@@ -60,25 +82,12 @@
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776883049690_4",
-      "timestamp": "2026-04-22T18:37:29.690995+00:00",
+      "id": "sig_1776883120570_0",
+      "timestamp": "2026-04-22T18:38:40.570382+00:00",
       "source": "PERPLEXITY",
-      "headline": "Current Price Movement**",
-      "raw": "Current Price Movement**\n\nETH: $2,327.97 (as of April 22, +0.63% in 24 hours)[6]\nSOL: $88.31[1]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776883061220_0",
-      "timestamp": "2026-04-22T18:37:41.220707+00:00",
-      "source": "PERPLEXITY",
-      "headline": "I cannot provide the real-time information you're requesting based on the available search results",
-      "raw": "I cannot provide the real-time information you're requesting based on the available search results.\n\nThe search results provided contain only general information about Polymarket's structure and some historical snapshot data from April 9-22, 2026 (such as Elon Musk tweet prediction markets). They do not include:",
-      "direction": null,
+      "headline": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | LOW confidence**",
+      "raw": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | LOW confidence**\n\nPolymarket's most active prediction markets right now focus on **Elon Musk's tweet volumes**, such as \"Elon Musk # tweets April 20 - April 22, 2026?\" (priced at 40-64% implied probability in one outcome) and \"Elon Musk # tweets April 17 - April 24, 2026?\" with 18% odds on 1120-1159 tweets[2][3][4]. These dominate Tweet a",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [
         "Will Trump name \"Elon\" or \"Musk\" in April?"
@@ -86,66 +95,12 @@
       "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776883061222_1",
-      "timestamp": "2026-04-22T18:37:41.222725+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Current social media discussions or posts from Polymarket traders on X (Twitter)",
-      "raw": "Current social media discussions or posts from Polymarket traders on X (Twitter)",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776883061225_2",
-      "timestamp": "2026-04-22T18:37:41.225062+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Information about specific whale bets or large trades happening right now",
-      "raw": "Information about specific whale bets or large trades happening right now",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776883061227_3",
-      "timestamp": "2026-04-22T18:37:41.227272+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Real-time market movements or which predictions traders believe are mispriced",
-      "raw": "Real-time market movements or which predictions traders believe are mispriced",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776883049682_2",
-      "timestamp": "2026-04-22T18:37:29.682492+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Ethereum Dominates Smart Contract Sector Amid Pectra Upgrade Testing | YES | HIGH confidence**",
-      "raw": "Ethereum Dominates Smart Contract Sector Amid Pectra Upgrade Testing | YES | HIGH confidence**\n\nEthereum is experiencing **massive institutional demand** as the **Pectra (Prague-Electra) Upgrade enters final testing phase** as of April 18, 2026.[5] This upgrade promises to revolutionize wallet abstraction and validator efficiency.[5] A research report backed by Vitalik Buterin suggests ETH could r",
-      "direction": "YES",
-      "confidence": 0.6,
-      "matched_markets": [
-        "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET"
-      ],
-      "action": "WATCH",
-      "x_link": null,
-      "category": "CRYPTO"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 9,
-    "watch": 1,
+    "enter": 1,
+    "alert": 5,
+    "watch": 0,
     "high_conf": 1
   }
 }
