@@ -1,55 +1,70 @@
 {
-  "last_scan": "2026-04-22T02:29:54.579723+00:00",
-  "scan_seconds": 18.0,
+  "last_scan": "2026-04-22T02:30:59.876094+00:00",
+  "scan_seconds": 19.3,
   "markets_scanned": 79,
   "open_positions": 36,
   "signals": [
     {
-      "id": "sig_1776824988136_0",
-      "timestamp": "2026-04-22T02:29:48.136219+00:00",
+      "id": "sig_1776825044789_0",
+      "timestamp": "2026-04-22T02:30:44.789241+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot provide the breaking news headline you're requesting based on these search results",
-      "raw": "I cannot provide the breaking news headline you're requesting based on these search results. The available information is from late March 2026 and does not contain current announcements or developments that would affect prediction markets as of April 22, 2026.\n\nThe search results only show:",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776824988139_1",
-      "timestamp": "2026-04-22T02:29:48.139211+00:00",
-      "source": "PERPLEXITY",
-      "headline": "A Lakers victory over the Cavaliers on March 31, 2026, where LA clinched a playoff spot[1][2]",
-      "raw": "A Lakers victory over the Cavaliers on March 31, 2026, where LA clinched a playoff spot[1][2]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776824988142_2",
-      "timestamp": "2026-04-22T02:29:48.142178+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Lakers playoff seeding discussions from that time period[1]",
-      "raw": "Lakers playoff seeding discussions from that time period[1]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776824988145_3",
-      "timestamp": "2026-04-22T02:29:48.145231+00:00",
-      "source": "PERPLEXITY",
-      "headline": "No information about Cooper Flagg or conference semifinals matchups[1][2][3]",
-      "raw": "No information about Cooper Flagg or conference semifinals matchups[1][2][3]\n\nTo provide accurate breaking news with market-moving implications, I would need current search results from April 22, 2026. I recommend running a fresh search for the latest NBA news to find recent announcements about Cavaliers, Lakers, conference semifinals, or Cooper Flagg developments.",
+      "headline": "Confidence: HIGH**\u2014search results lack any \"just confirmed\" events post-April 20; all are routine market snapshots or fo",
+      "raw": "Confidence: HIGH**\u2014search results lack any \"just confirmed\" events post-April 20; all are routine market snapshots or forecasts, unlikely to shift markets now. [1][2][3][4][5][6][7]",
       "direction": "NO",
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776825058860_3",
+      "timestamp": "2026-04-22T02:30:58.860842+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Recently announced events or market resolutions that would move odds",
+      "raw": "Recently announced events or market resolutions that would move odds",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776825053884_2",
+      "timestamp": "2026-04-22T02:30:53.885003+00:00",
+      "source": "PERPLEXITY",
+      "headline": "HEADLINE | NO** (Raptors trail 0-2; no advancement)",
+      "raw": "HEADLINE | NO** (Raptors trail 0-2; no advancement). **HIGH** confidence.[1][4]  \n\nNo breaking news on **Cooper Flagg** (absent from results; likely draft prospect, no 2026 playoff link).[1-5]",
+      "direction": "NO",
+      "confidence": 0.78,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776825053874_0",
+      "timestamp": "2026-04-22T02:30:53.874958+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Cavaliers lead Raptors 2-0 in Eastern Conference first-round series after 115-105 Game 2 win on Monday",
+      "raw": "Cavaliers lead Raptors 2-0 in Eastern Conference first-round series after 115-105 Game 2 win on Monday.**[1][4][5]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776825053880_1",
+      "timestamp": "2026-04-22T02:30:53.880122+00:00",
+      "source": "PERPLEXITY",
+      "headline": "HEADLINE | YES** (Cavaliers now host Game 3 on Thu Apr 23 with 12-game playoff win streak vs Raptors, shifting series od",
+      "raw": "HEADLINE | YES** (Cavaliers now host Game 3 on Thu Apr 23 with 12-game playoff win streak vs Raptors, shifting series odds heavily).[1][4] **HIGH** confidence (multiple sources confirm final score, stats, and streak tying NBA record).[1][4]  \n\nNo confirmed news on **conference semifinals** (series still in first round, Game 3 pending).[4]",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
         "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
@@ -61,11 +76,52 @@
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776824993549_0",
-      "timestamp": "2026-04-22T02:29:53.549527+00:00",
+      "id": "sig_1776825053889_3",
+      "timestamp": "2026-04-22T02:30:53.889901+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot provide the information you're requesting",
-      "raw": "I cannot provide the information you're requesting. The search results contain only general information about Polymarket's platform structure and current market listings as of April 19-22, 2026, but they do not include:",
+      "headline": "HEADLINE | NO**",
+      "raw": "HEADLINE | NO**. **HIGH** confidence (zero mentions).[1-5]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776825053894_4",
+      "timestamp": "2026-04-22T02:30:53.894066+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Who will win series:** Cavaliers favored after 2-0 lead, dominant performances (Mitchell 30pts, Harden 28pts, Mobley 25p",
+      "raw": "Who will win series:** Cavaliers favored after 2-0 lead, dominant performances (Mitchell 30pts, Harden 28pts, Mobley 25pts), never trailing, and historic streak vs Toronto.[1][4] Raptors' stars struggled (Ingram 7pts on 3-15 FG).[4]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776825053898_5",
+      "timestamp": "2026-04-22T02:30:53.898922+00:00",
+      "source": "PERPLEXITY",
+      "headline": "HEADLINE | YES** (CLE series win market moves up post-Game 2)",
+      "raw": "HEADLINE | YES** (CLE series win market moves up post-Game 2). **MED** confidence (simulations/odds noted but early; Game 3 at TOR).[4]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776825058851_0",
+      "timestamp": "2026-04-22T02:30:58.851520+00:00",
+      "source": "PERPLEXITY",
+      "headline": "I cannot provide the real-time information you're requesting based on these search results",
+      "raw": "I cannot provide the real-time information you're requesting based on these search results. The search results describe Polymarket's platform and general market structure, but they don't contain:",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
@@ -74,11 +130,11 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776824993552_1",
-      "timestamp": "2026-04-22T02:29:53.552492+00:00",
+      "id": "sig_1776825058854_1",
+      "timestamp": "2026-04-22T02:30:58.854550+00:00",
       "source": "PERPLEXITY",
-      "headline": "Real-time social media posts or discussions from traders on X (Twitter)",
-      "raw": "Real-time social media posts or discussions from traders on X (Twitter)",
+      "headline": "Current trader discussions or posts on X (formerly Twitter) about prediction markets",
+      "raw": "Current trader discussions or posts on X (formerly Twitter) about prediction markets",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
@@ -87,11 +143,11 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776824993555_2",
-      "timestamp": "2026-04-22T02:29:53.555693+00:00",
+      "id": "sig_1776825058857_2",
+      "timestamp": "2026-04-22T02:30:58.857580+00:00",
       "source": "PERPLEXITY",
-      "headline": "Information about specific whale bets or smart money moves",
-      "raw": "Information about specific whale bets or smart money moves",
+      "headline": "Information about active whale bets or smart money positioning",
+      "raw": "Information about active whale bets or smart money positioning",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
@@ -100,37 +156,11 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776824993558_3",
-      "timestamp": "2026-04-22T02:29:53.558725+00:00",
+      "id": "sig_1776825058863_4",
+      "timestamp": "2026-04-22T02:30:58.863814+00:00",
       "source": "PERPLEXITY",
-      "headline": "Commentary about mispriced markets or imminent market movements",
-      "raw": "Commentary about mispriced markets or imminent market movements",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776824993561_4",
-      "timestamp": "2026-04-22T02:29:53.561728+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Breaking news or recent announcements that would move prediction markets",
-      "raw": "Breaking news or recent announcements that would move prediction markets",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776824993564_5",
-      "timestamp": "2026-04-22T02:29:53.564622+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Trader sentiment or tips currently trending on social platforms",
-      "raw": "Trader sentiment or tips currently trending on social platforms\n\nTo find this information, you would need to:",
+      "headline": "Analysis of potentially mispriced markets",
+      "raw": "Analysis of potentially mispriced markets\n\nTo get this information, you would need to:",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
@@ -141,8 +171,8 @@
   ],
   "stats": {
     "enter": 0,
-    "alert": 10,
+    "alert": 12,
     "watch": 0,
-    "high_conf": 0
+    "high_conf": 2
   }
 }
