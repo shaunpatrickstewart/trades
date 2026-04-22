@@ -1,5 +1,5 @@
 {
-  "ts": 1776824375,
+  "ts": 1776824440,
   "stale": false,
   "feed_ages": {
     "prices_age_s": 0,
@@ -7,7 +7,7 @@
     "usdc_age_s": 0
   },
   "prices": {
-    "usdc_usd": 0.999866
+    "usdc_usd": 0.999855
   },
   "polymarket": {
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
@@ -296,34 +296,45 @@
     "position_count": 31,
     "positions_nav_usdc": 256.8521,
     "total_usdc": 401.7928,
-    "total_usd": 401.739
+    "total_usd": 401.7345
   },
   "kalshi": {
     "funded": false,
     "total_usd": 0.0
   },
   "pnl": {
-    "ts": 1776824376,
+    "ts": 1776824441,
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
-    "activity_rows": 48,
+    "activity_rows": 50,
     "today": {
       "window": "today",
       "window_start_ts": 1776816000,
       "realized_usdc": 0.0,
-      "trade_count": 0,
-      "buy_volume_usdc": 0.0,
+      "trade_count": 2,
+      "buy_volume_usdc": 28.8882,
       "sell_volume_usdc": 0.0,
       "closed_positions": 0,
       "winning_positions": 0,
       "win_rate_pct": 0.0,
-      "per_position": []
+      "per_position": [
+        {
+          "title": "Will the highest temperature in Shenzhen be 32\u00b0C or higher on April 22?",
+          "slug": "highest-temperature-in-shenzhen-on-april-22-2026-32corhigher",
+          "outcome_index": 1,
+          "buys_usdc": 28.8882,
+          "sells_usdc": 0.0,
+          "net_size": 29.18,
+          "closed": false,
+          "realized_usdc": 0.0
+        }
+      ]
     },
     "24h": {
       "window": "24h",
-      "window_start_ts": 1776737976,
+      "window_start_ts": 1776738041,
       "realized_usdc": 0.4633,
-      "trade_count": 12,
-      "buy_volume_usdc": 120.5116,
+      "trade_count": 14,
+      "buy_volume_usdc": 149.3998,
       "sell_volume_usdc": 58.5169,
       "closed_positions": 2,
       "winning_positions": 2,
@@ -348,6 +359,16 @@
           "net_size": 0.0,
           "closed": true,
           "realized_usdc": 0.2316
+        },
+        {
+          "title": "Will the highest temperature in Shenzhen be 32\u00b0C or higher on April 22?",
+          "slug": "highest-temperature-in-shenzhen-on-april-22-2026-32corhigher",
+          "outcome_index": 1,
+          "buys_usdc": 28.8882,
+          "sells_usdc": 0.0,
+          "net_size": 29.18,
+          "closed": false,
+          "realized_usdc": 0.0
         },
         {
           "title": "Will Russia enter Ternuvate again by April 30?",
@@ -403,10 +424,10 @@
     },
     "7d": {
       "window": "7d",
-      "window_start_ts": 1776219576,
+      "window_start_ts": 1776219641,
       "realized_usdc": 1.5555,
-      "trade_count": 48,
-      "buy_volume_usdc": 407.8273,
+      "trade_count": 50,
+      "buy_volume_usdc": 436.7155,
       "sell_volume_usdc": 180.4188,
       "closed_positions": 3,
       "winning_positions": 3,
@@ -441,6 +462,16 @@
           "net_size": 0.0,
           "closed": true,
           "realized_usdc": 0.2316
+        },
+        {
+          "title": "Will the highest temperature in Shenzhen be 32\u00b0C or higher on April 22?",
+          "slug": "highest-temperature-in-shenzhen-on-april-22-2026-32corhigher",
+          "outcome_index": 1,
+          "buys_usdc": 28.8882,
+          "sells_usdc": 0.0,
+          "net_size": 29.18,
+          "closed": false,
+          "realized_usdc": 0.0
         },
         {
           "title": "Will Russia enter Ternuvate again by April 30?",
@@ -599,16 +630,6 @@
           "buys_usdc": 2.2725,
           "sells_usdc": 0.0,
           "net_size": 4.9667,
-          "closed": false,
-          "realized_usdc": 0.0
-        },
-        {
-          "title": "NBA Playoffs: Who Will Win Series? - Pistons vs. Magic ",
-          "slug": "nba-playoffs-who-will-win-series-pistons-vs-magic",
-          "outcome_index": 1,
-          "buys_usdc": 0.909,
-          "sells_usdc": 0.0,
-          "net_size": 4.9258,
           "closed": false,
           "realized_usdc": 0.0
         }
@@ -616,10 +637,10 @@
     },
     "30d": {
       "window": "30d",
-      "window_start_ts": 1774232376,
+      "window_start_ts": 1774232441,
       "realized_usdc": 1.5555,
-      "trade_count": 48,
-      "buy_volume_usdc": 407.8273,
+      "trade_count": 50,
+      "buy_volume_usdc": 436.7155,
       "sell_volume_usdc": 180.4188,
       "closed_positions": 3,
       "winning_positions": 3,
@@ -654,6 +675,16 @@
           "net_size": 0.0,
           "closed": true,
           "realized_usdc": 0.2316
+        },
+        {
+          "title": "Will the highest temperature in Shenzhen be 32\u00b0C or higher on April 22?",
+          "slug": "highest-temperature-in-shenzhen-on-april-22-2026-32corhigher",
+          "outcome_index": 1,
+          "buys_usdc": 28.8882,
+          "sells_usdc": 0.0,
+          "net_size": 29.18,
+          "closed": false,
+          "realized_usdc": 0.0
         },
         {
           "title": "Will Russia enter Ternuvate again by April 30?",
@@ -812,16 +843,6 @@
           "buys_usdc": 2.2725,
           "sells_usdc": 0.0,
           "net_size": 4.9667,
-          "closed": false,
-          "realized_usdc": 0.0
-        },
-        {
-          "title": "NBA Playoffs: Who Will Win Series? - Pistons vs. Magic ",
-          "slug": "nba-playoffs-who-will-win-series-pistons-vs-magic",
-          "outcome_index": 1,
-          "buys_usdc": 0.909,
-          "sells_usdc": 0.0,
-          "net_size": 4.9258,
           "closed": false,
           "realized_usdc": 0.0
         }
@@ -831,8 +852,8 @@
       "window": "all",
       "window_start_ts": 0,
       "realized_usdc": 1.5555,
-      "trade_count": 48,
-      "buy_volume_usdc": 407.8273,
+      "trade_count": 50,
+      "buy_volume_usdc": 436.7155,
       "sell_volume_usdc": 180.4188,
       "closed_positions": 3,
       "winning_positions": 3,
@@ -867,6 +888,16 @@
           "net_size": 0.0,
           "closed": true,
           "realized_usdc": 0.2316
+        },
+        {
+          "title": "Will the highest temperature in Shenzhen be 32\u00b0C or higher on April 22?",
+          "slug": "highest-temperature-in-shenzhen-on-april-22-2026-32corhigher",
+          "outcome_index": 1,
+          "buys_usdc": 28.8882,
+          "sells_usdc": 0.0,
+          "net_size": 29.18,
+          "closed": false,
+          "realized_usdc": 0.0
         },
         {
           "title": "Will Russia enter Ternuvate again by April 30?",
@@ -1027,22 +1058,12 @@
           "net_size": 4.9667,
           "closed": false,
           "realized_usdc": 0.0
-        },
-        {
-          "title": "NBA Playoffs: Who Will Win Series? - Pistons vs. Magic ",
-          "slug": "nba-playoffs-who-will-win-series-pistons-vs-magic",
-          "outcome_index": 1,
-          "buys_usdc": 0.909,
-          "sells_usdc": 0.0,
-          "net_size": 4.9258,
-          "closed": false,
-          "realized_usdc": 0.0
         }
       ]
     }
   },
   "summary": {
-    "total_usd": 401.739,
+    "total_usd": 401.7345,
     "total_usdc": 401.7928
   }
 }
