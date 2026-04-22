@@ -1,79 +1,102 @@
 {
-  "last_scan": "2026-04-22T03:27:39.670515+00:00",
-  "scan_seconds": 19.1,
-  "markets_scanned": 70,
-  "open_positions": 28,
+  "last_scan": "2026-04-22T03:28:46.423190+00:00",
+  "scan_seconds": 15.8,
+  "markets_scanned": 58,
+  "open_positions": 16,
   "signals": [
     {
-      "id": "sig_1776828443205_0",
-      "timestamp": "2026-04-22T03:27:23.205023+00:00",
+      "id": "sig_1776828521101_0",
+      "timestamp": "2026-04-22T03:28:41.101274+00:00",
       "source": "PERPLEXITY",
-      "headline": "LOW confidence** in market-moving news, as coverage focuses on analysis and anticipation rather than fresh confirmations",
-      "raw": "LOW confidence** in market-moving news, as coverage focuses on analysis and anticipation rather than fresh confirmations[5].",
-      "direction": null,
-      "confidence": 0.65,
+      "headline": "Cavaliers Defeat Raptors 115-105 in Game 2, Take 2-0 Series Lead** | YES | HIGH confidence[1][2][3][4]",
+      "raw": "Cavaliers Defeat Raptors 115-105 in Game 2, Take 2-0 Series Lead** | YES | HIGH confidence[1][2][3][4]\n\nCavaliers stars Donovan Mitchell (30 pts, 7 reb, 5 ast), James Harden (28 pts, 9-14 FG), and Evan Mobley (25 pts, 8 reb) combined for 83 points in a wire-to-wire win, extending Cleveland's playoff win streak vs. Toronto to 12 straight (NBA record tie)[1][3][4]. Raptors' Scottie Barnes led with 2",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776828525417_1",
+      "timestamp": "2026-04-22T03:28:45.417418+00:00",
+      "source": "PERPLEXITY",
+      "headline": "No Whale Bets or Smart Money Moves Confirmed Right Now | NO | HIGH confidence**",
+      "raw": "No Whale Bets or Smart Money Moves Confirmed Right Now | NO | HIGH confidence**  \nSearch results show no specific X posts about recent whale bets, smart money flows, or analytics tools revealing big trades, though one Binance post hypes a Polymarket analytics tool for spotting winning strategies retrospectively.[6] No evidence of trending tips or mispriced markets like GTA VI release (1% before Ju",
+      "direction": "NO",
+      "confidence": 0.9,
       "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776828517381_0",
+      "timestamp": "2026-04-22T03:28:37.381049+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Fed Chair Powell confirms in April 16 speech that tariffs are larger than expected, likely causing higher inflation and",
+      "raw": "Fed Chair Powell confirms in April 16 speech that tariffs are larger than expected, likely causing higher inflation and slower growth amid Q1 GDP slowdown signals.** | NO | HIGH confidence[3][2][1]\n\nPowell stated the US economy remains solid with inflation at 2.3% PCE (2.6% core) through March, but Q1 GDP growth has slowed due to strong imports ahead of tariffs, with initial data due soon[3][1]. H",
+      "direction": "YES",
+      "confidence": 0.78,
+      "matched_markets": [
+        "Will Powell say \"Tariff inflation\" during April press conference?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776828525415_0",
+      "timestamp": "2026-04-22T03:28:45.415179+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Elon Musk Tweet Count Markets Lead Polymarket Buzz on X | NO | HIGH confidence**",
+      "raw": "Elon Musk Tweet Count Markets Lead Polymarket Buzz on X | NO | HIGH confidence**  \nPolymarket traders on X are heavily discussing active tweet prediction markets, especially \"Elon Musk # tweets April 17 - April 24, 2026?\" (trading at 29% for 200-219 range) and the top market \"Elon Musk musk # tweets in April 2026?\" (18% on 1080-1119), with over $17.1M volume signaling strong trader conviction.[1][",
+      "direction": "NO",
+      "confidence": 0.78,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776828512823_0",
+      "timestamp": "2026-04-22T03:28:32.823559+00:00",
+      "source": "PERPLEXITY",
+      "headline": "HEADLINE**: XRP holds steady at ~$1",
+      "raw": "HEADLINE**: XRP holds steady at ~$1.30-$1.39 amid April policy waits (Clarity Act, SEC roundtable Apr 16, Fed meeting end-April); no fresh catalysts confirmed[1][2][5]. | **NO** | **HIGH** confidence",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
+        "XRP Up or Down - April 22, 8:20AM-8:25AM ET",
+        "XRP Up or Down - April 22, 8:35AM-8:40AM ET"
+      ],
       "action": "ALERT",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776828453404_0",
-      "timestamp": "2026-04-22T03:27:33.404201+00:00",
+      "id": "sig_1776828525420_2",
+      "timestamp": "2026-04-22T03:28:45.420123+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot provide the specific breaking news format you've requested because the search results contain information that",
-      "raw": "I cannot provide the specific breaking news format you've requested because the search results contain information that appears to be from **April 19-22, 2026** (Game 1 and Game 2 of Lakers-Rockets series), but they do not include:",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776828453417_1",
-      "timestamp": "2026-04-22T03:27:33.417320+00:00",
-      "source": "PERPLEXITY",
-      "headline": "What the search results do confirm:**",
-      "raw": "What the search results do confirm:**",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776828458667_1",
-      "timestamp": "2026-04-22T03:27:38.667457+00:00",
-      "source": "PERPLEXITY",
-      "headline": "XTRACKER FOR SOCIAL INSIGHTS | NO trending tips | LOW confidence**",
-      "raw": "XTRACKER FOR SOCIAL INSIGHTS | NO trending tips | LOW confidence**  \nPolymarket's XTracker tool tracks social media metrics, potentially revealing what traders post on X, but results lack specifics on current buzz, whales, or predictions.[5] No evidence of breaking resolutions in news stories markets.[4] Confidence low due to absence of direct X posts or real-time whale data in results.",
+      "headline": "No Fresh Confirmations, Announcements, or Resolutions Impacting Markets | NO | HIGH confidence**",
+      "raw": "No Fresh Confirmations, Announcements, or Resolutions Impacting Markets | NO | HIGH confidence**  \nNo breaking news, resolved events, or announcements in results that would shift odds; markets like Kanye tweeting by April 30 remain active without updates, and all data is as of April 9-19, 2026, pre-dating now.[2][3][4] Real-time odds continue updating via trader activity on pop culture and news st",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776828458664_0",
-      "timestamp": "2026-04-22T03:27:38.664768+00:00",
-      "source": "PERPLEXITY",
-      "headline": "ELON MUSK TWEET COUNT MARKETS DOMINATE POLYMARKET ACTIVITY | NO whale bets or confirmed announcements reported | LOW con",
-      "raw": "ELON MUSK TWEET COUNT MARKETS DOMINATE POLYMARKET ACTIVITY | NO whale bets or confirmed announcements reported | LOW confidence**\n\nPolymarket's most active markets right now focus on **Elon Musk tweet predictions**, including \"Elon Musk # tweets April 17 - April 24, 2026?\" (with \"200-219\" at 29%) and the overall \"Elon Musk musk # tweets in April 2026?\" (18% on 1080-1119).[1][2][3] These reflect re",
-      "direction": "YES",
-      "confidence": 0.6,
-      "matched_markets": [],
-      "action": "WATCH",
-      "x_link": null,
-      "category": "COMMUNITY"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 4,
-    "watch": 1,
-    "high_conf": 0
+    "enter": 1,
+    "alert": 5,
+    "watch": 0,
+    "high_conf": 2
   }
 }
