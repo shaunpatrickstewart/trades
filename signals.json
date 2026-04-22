@@ -1,15 +1,15 @@
 {
-  "last_scan": "2026-04-22T04:15:26.621459+00:00",
-  "scan_seconds": 15.8,
+  "last_scan": "2026-04-22T04:16:35.302122+00:00",
+  "scan_seconds": 18.5,
   "markets_scanned": 78,
   "open_positions": 37,
   "signals": [
     {
-      "id": "sig_1776831317411_0",
-      "timestamp": "2026-04-22T04:15:17.411317+00:00",
+      "id": "sig_1776831385378_0",
+      "timestamp": "2026-04-22T04:16:25.378341+00:00",
       "source": "PERPLEXITY",
-      "headline": "Fed Chair Powell Describes 'Very Unusual' Economy Amid Tariff-Driven Goods Inflation, Expects Peak in Q1 2026; Cuts Rate",
-      "raw": "Fed Chair Powell Describes 'Very Unusual' Economy Amid Tariff-Driven Goods Inflation, Expects Peak in Q1 2026; Cuts Rates Defensively as Job Growth May Be Negative | NO | HIGH**  \nPowell announced on Wednesday a third consecutive quarter-point rate cut, framing it as defensive to support a labor market weaker than official data (overstating job growth by ~60,000/month), while inflation excluding t",
+      "headline": "**IMF Article IV Consultation (April 2, 2026)**: Confirmed U",
+      "raw": "**IMF Article IV Consultation (April 2, 2026)**: Confirmed U.S. GDP growth at 2.0% for 2025, projecting 2.4% in 2026; core PCE inflation at 2.9% in 2025, forecasted to 2.6% by end-2026 due to tariffs pushing goods prices higher (offset by cooling services); limited Fed rate cuts (fed funds from 3.6% to 3.4%); tariffs at 7-8.5% effective rate dragging growth and risking spillovers**[1].",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
@@ -20,68 +20,72 @@
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_1776831321635_0",
-      "timestamp": "2026-04-22T04:15:21.635277+00:00",
+      "id": "sig_1776831390430_0",
+      "timestamp": "2026-04-22T04:16:30.430416+00:00",
       "source": "PERPLEXITY",
-      "headline": "Cooper Flagg Ruled Out for Season Finale with Ankle Injury** | NO (no conference semifinals news on Raptors, Lakers seri",
-      "raw": "Cooper Flagg Ruled Out for Season Finale with Ankle Injury** | NO (no conference semifinals news on Raptors, Lakers series wins, or Flagg's playoff participation) | HIGH confidence[1][2]\n\nDallas Mavericks rookie Cooper Flagg, the No. 1 pick, exited Sunday's regular season finale against the Chicago Bulls early in the second quarter with a left ankle injury and will not return, ending his standout ",
-      "direction": "YES",
+      "headline": "I cannot provide breaking news in the format you've requested based on these search results",
+      "raw": "I cannot provide breaking news in the format you've requested based on these search results. The search results contain information about the **2025 NBA playoffs** (which concluded in the past) and **2026 NBA regular season standings** (with games still remaining), but they do not include any breaking news about Cooper Flagg, conference semifinals, or recent announcements that would affect predict",
+      "direction": "NO",
       "confidence": 0.9,
       "matched_markets": [
-        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
         "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
+        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
       ],
       "action": "ENTER",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776831325609_0",
-      "timestamp": "2026-04-22T04:15:25.609309+00:00",
+      "id": "sig_1776831385381_1",
+      "timestamp": "2026-04-22T04:16:25.381957+00:00",
       "source": "PERPLEXITY",
-      "headline": "Nasdaq Round-the-Clock Trading by June 30",
-      "raw": "Nasdaq Round-the-Clock Trading by June 30? | NO | HIGH confidence**  \nPolymarket's top trending market prices \"Nasdaq round-the-clock trading by June 30?\" at 22% YES (78% NO), with $43.9K volume, signaling traders view it as unlikely despite buzz[1].",
+      "headline": "**Powell statements (Dec 2025)**: Described economy as \"very unusual\" with tariffs driving most inflation overshoot (goo",
+      "raw": "**Powell statements (Dec 2025)**: Described economy as \"very unusual\" with tariffs driving most inflation overshoot (goods peak Q1 2026, assuming no new rounds); core inflation excluding tariff goods in low 2%s; third 25bp rate cut to defend labor market amid overstated job growth and downside employment risks**[2][3].",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Powell say \"Tariff inflation\" during April press conference?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776831385384_2",
+      "timestamp": "2026-04-22T04:16:25.384945+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**FOMC statement (March 18, 2026)**: Economic activity solid, job gains low, unemployment stable, inflation somewhat ele",
+      "raw": "**FOMC statement (March 18, 2026)**: Economic activity solid, job gains low, unemployment stable, inflation somewhat elevated; high uncertainty from Middle East developments affecting outlook**[4].",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776831385387_3",
+      "timestamp": "2026-04-22T04:16:25.387858+00:00",
+      "source": "PERPLEXITY",
+      "headline": "No April 2026-specific announcements in results; Goldman Sachs (pre-April) projected tariffs add 1% to inflation from H2",
+      "raw": "No April 2026-specific announcements in results; Goldman Sachs (pre-April) projected tariffs add 1% to inflation from H2 2025**[5].",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Powell say \"Tariff inflation\" during April press conference?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776831394298_0",
+      "timestamp": "2026-04-22T04:16:34.298885+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Elon Musk April Tweet Count Markets Lead Polymarket Buzz on X | NO | LOW confidence**",
+      "raw": "Elon Musk April Tweet Count Markets Lead Polymarket Buzz on X | NO | LOW confidence**\n\nPolymarket's most active markets as of early April 2026 focus on **Elon Musk's tweet volumes**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" (e.g., 200-219 at 29%) and \"Elon Musk musk # tweets in April 2026?\" (1080-1119 at 18%), with over $17.1M in trading volume across 130+ tweet prediction markets[1",
       "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776831325612_1",
-      "timestamp": "2026-04-22T04:15:25.612491+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Elon Musk # Tweets April 17-24, 2026",
-      "raw": "Elon Musk # Tweets April 17-24, 2026? | NO (for high ranges) | MED confidence**  \nHigh-volume tweet market \"Elon Musk # tweets April 17 - April 24, 2026?\" prices 200-219 tweets at 30% and lower ranges like 40-64 at 79%, with $5M volume; no whale bets or mispricing tips noted in real-time data[2][4].",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776831325615_2",
-      "timestamp": "2026-04-22T04:15:25.615385+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Elon Musk Total # Tweets in April 2026",
-      "raw": "Elon Musk Total # Tweets in April 2026? | NO (for 1080-1119) | MED confidence**  \nMost active market \"Elon Musk # tweets in April 2026?\" gives 18% to 1080-1119 range amid $9M volume ($501K today), reflecting trader skepticism on high totals; pop culture tweet bets dominate trends[3][4].",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776831325618_3",
-      "timestamp": "2026-04-22T04:15:25.618340+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Kinetiq Price in 2026",
-      "raw": "Kinetiq Price in 2026? | NO (above $0.5?) | LOW confidence**  \nTrending \"What price will Kinetiq hit in 2026?\" at 59% for $0.5, but low volume ($ unspecified) limits signals on mispricing or smart money[1]. No confirmed announcements, whale moves, or resolutions in results to shift odds; analytics tools teased for tracking top traders[5].",
-      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
