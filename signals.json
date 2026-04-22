@@ -1,15 +1,15 @@
 {
-  "last_scan": "2026-04-22T17:38:54.046422+00:00",
-  "scan_seconds": 23.5,
+  "last_scan": "2026-04-22T17:39:59.162907+00:00",
+  "scan_seconds": 18.6,
   "markets_scanned": 50,
   "open_positions": 15,
   "signals": [
     {
-      "id": "sig_1776879513774_0",
-      "timestamp": "2026-04-22T17:38:33.774553+00:00",
+      "id": "sig_1776879583990_0",
+      "timestamp": "2026-04-22T17:39:43.990889+00:00",
       "source": "PERPLEXITY",
-      "headline": "US Regulators Confirmed SOL and ETH as Commodities in March 2026 | YES | HIGH confidence**",
-      "raw": "US Regulators Confirmed SOL and ETH as Commodities in March 2026 | YES | HIGH confidence**  \nThis classification eliminates major legal uncertainty for allocators, following spot ETF approvals (ETH in 2024, SOL in Oct 2025), enabling clearer institutional flows amid April price gains: SOL +6.3% to $86.55, ETH +8.6% to $2,377.[1]",
+      "headline": "US Regulators Officially Classified SOL and ETH as Commodities in March 2026 | YES | HIGH confidence**",
+      "raw": "US Regulators Officially Classified SOL and ETH as Commodities in March 2026 | YES | HIGH confidence**  \nThis classification, confirmed in March 2026, eliminated major legal uncertainty for allocators, enabling clearer institutional investment paths alongside existing spot ETF approvals (ETH in 2024, SOL in Oct 2025).[1]",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [],
@@ -18,24 +18,37 @@
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776879522012_1",
-      "timestamp": "2026-04-22T17:38:42.012844+00:00",
+      "id": "sig_1776879583995_2",
+      "timestamp": "2026-04-22T17:39:43.995307+00:00",
       "source": "PERPLEXITY",
-      "headline": "Core inflation (excluding volatile food and energy) came in at 2",
-      "raw": "Core inflation (excluding volatile food and energy) came in at 2.6% year-over-year**, which is notably elevated and likely to make the Federal Reserve cautious about further interest rate cuts.[5] Monthly core inflation showed only 0.2% gains, slightly better than expected, but the persistence of core price pressures alongside headline inflation volatility creates uncertainty for monetary policy.[",
+      "headline": "Solana Hits All-Time Record 167M Monthly Token Holders & 148M Daily Non-Vote Transactions (Apr 14) | YES | MED confidenc",
+      "raw": "Solana Hits All-Time Record 167M Monthly Token Holders & 148M Daily Non-Vote Transactions (Apr 14) | YES | MED confidence**  \nAnnounced Apr 14, 2026, this record activity coincides with Alpenglow upgrade anticipation (slashing finality to 150ms from 12s), fueling 6.3% SOL price climb to $86.55 and tokenized stock trading dominance.[3][1][2]",
       "direction": "YES",
-      "confidence": 0.78,
+      "confidence": 0.9,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_1776879533041_0",
-      "timestamp": "2026-04-22T17:38:53.041329+00:00",
+      "id": "sig_1776879593746_0",
+      "timestamp": "2026-04-22T17:39:53.746154+00:00",
       "source": "PERPLEXITY",
-      "headline": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | LOW confidence**",
-      "raw": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | LOW confidence**\n\nPolymarket's most active markets right now focus on **Elon Musk tweet counts**, such as \"Elon Musk # tweets April 20 - April 22, 2026?\" (priced at 40-64% implied probability in related outcomes) and \"Elon Musk # tweets April 17 - April 24, 2026?\" with the 1120-1159 range at **18%** odds[2][3][4]. These have seen high tra",
+      "headline": "Lakers Take 2-0 Lead Over Rockets in Western Conference First Round | YES (Lakers lead series 2-0, boosting advance odds",
+      "raw": "Lakers Take 2-0 Lead Over Rockets in Western Conference First Round | YES (Lakers lead series 2-0, boosting advance odds) | HIGH confidence** [2][3]\n\nThe Los Angeles Lakers defeated the Houston Rockets 101-94 in Game 2 on Tuesday, April 21, securing a surprise 2-0 series lead despite injuries to Luka Doncic (hamstring, ruled out) and Austin Reaves (oblique, ruled out).[2][3] LeBron James scored 28",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776879598159_0",
+      "timestamp": "2026-04-22T17:39:58.159861+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Elon Musk Tweet Count Markets Trending on Polymarket | NO whale bets or smart money moves reported | MED confidence**",
+      "raw": "Elon Musk Tweet Count Markets Trending on Polymarket | NO whale bets or smart money moves reported | MED confidence**\n\nPolymarket's most active markets right now focus on **Elon Musk's tweet volumes**, such as \"Elon Musk # tweets April 20 - April 22, 2026?\" (priced at 40-64% implied probability in some outcomes) and \"Elon Musk # tweets April 17 - April 24, 2026?\" with 1120-1159 tweets at 18% odds[",
       "direction": "NO",
       "confidence": 0.78,
       "matched_markets": [],
@@ -44,11 +57,11 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776879513780_1",
-      "timestamp": "2026-04-22T17:38:33.780890+00:00",
+      "id": "sig_1776879583993_1",
+      "timestamp": "2026-04-22T17:39:43.993246+00:00",
       "source": "PERPLEXITY",
-      "headline": "Solana Validators Approved Alpenglow Upgrade Last Week | YES | HIGH confidence**",
-      "raw": "Solana Validators Approved Alpenglow Upgrade Last Week | YES | HIGH confidence**  \nAlpenglow reworks consensus to cut finality from 12s to <200ms, positioning SOL for high-frequency trading and real-time payments; it boosts network records like 167M monthly token holders and 148M daily non-vote txns as of Apr 14.[1][3]",
+      "headline": "Ethereum Transactions Jump 41% in Past Seven Days, Reclaiming Activity Leadership | YES | HIGH confidence**",
+      "raw": "Ethereum Transactions Jump 41% in Past Seven Days, Reclaiming Activity Leadership | YES | HIGH confidence**  \nETH daily transactions surged 41% weekly, driven by L2 bridging (Base/Arbitrum fee rebates) and tokenized treasury issuance settling exclusively on Ethereum, boosting on-chain activity amid 8.6% price rise to $2,377.[1]",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
@@ -57,39 +70,11 @@
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776879513783_2",
-      "timestamp": "2026-04-22T17:38:33.783089+00:00",
+      "id": "sig_1776879593752_1",
+      "timestamp": "2026-04-22T17:39:53.752679+00:00",
       "source": "PERPLEXITY",
-      "headline": "Ethereum Transactions Surged 41% Weekly | NO | MED confidence**",
-      "raw": "Ethereum Transactions Surged 41% Weekly | NO | MED confidence**  \nNo new confirmation or announcement; surge ties to L2 fee rebates (Base, Arbitrum) and tokenized treasuries, reclaiming activity from SOL but not a resolved prediction event.[1]",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776879522010_0",
-      "timestamp": "2026-04-22T17:38:42.010602+00:00",
-      "source": "PERPLEXITY",
-      "headline": "US-Iran War Drives Inflation to 3",
-      "raw": "US-Iran War Drives Inflation to 3.3% in March, Highest in Nearly 2 Years | YES | HIGH confidence**\n\nThe most significant recent development is the confirmation that **headline inflation surged to 3.3% year-over-year in March 2026**, representing the largest annual increase in nearly two years.[1][5] This marks a sharp acceleration from February's 2.4%, driven primarily by energy prices spiking 10.",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will annual inflation increase by 3.8% in April?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776879527321_0",
-      "timestamp": "2026-04-22T17:38:47.321055+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Lakers Clinch Top-6 West Playoff Spot & 50 Wins with 127-113 Domination Over Cavaliers | NO (No Series Winner Confirmed;",
-      "raw": "Lakers Clinch Top-6 West Playoff Spot & 50 Wins with 127-113 Domination Over Cavaliers | NO (No Series Winner Confirmed; Regular Season Game Only) | HIGH confidence** [1][2][3][5]\n\nThe Los Angeles Lakers defeated the Cleveland Cavaliers 127-113 on Tuesday, March 31, 2026, securing their 50th win (50-26 record), a top-6 seed in the Western Conference playoffs (no lower than #6, nudging toward #3 wi",
+      "headline": "Cavaliers Defeat Raptors 115-105 in Eastern Conference First Round Game 2 | NO (Raptors trail 0-2, lowers win odds) | HI",
+      "raw": "Cavaliers Defeat Raptors 115-105 in Eastern Conference First Round Game 2 | NO (Raptors trail 0-2, lowers win odds) | HIGH confidence** [4]\n\nCleveland Cavaliers won Game 2 over the Toronto Raptors 115-105 in the first round, putting Toronto down 0-2 in the series.[4] No mentions of Cooper Flagg, conference semifinals advancements, or resolutions involving Lakers/Raptors matchups.[1][4] Raptors rec",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
@@ -100,25 +85,12 @@
       "action": "ALERT",
       "x_link": null,
       "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776879533043_1",
-      "timestamp": "2026-04-22T17:38:53.043343+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Trending Tweet Markets Dominate | NO whale bets or smart money moves reported | LOW confidence**",
-      "raw": "Trending Tweet Markets Dominate | NO whale bets or smart money moves reported | LOW confidence**\n\nNo specific X posts from Polymarket traders about whale bets, smart money, mispriced markets, or tips appear in current data; instead, platforms highlight **trending tweet markets** (130-168 active) and general trending predictions (166 markets) with $2.8M+ volume[1][3][4]. Examples include niche bets",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
     }
   ],
   "stats": {
     "enter": 0,
-    "alert": 8,
+    "alert": 6,
     "watch": 0,
-    "high_conf": 1
+    "high_conf": 3
   }
 }
