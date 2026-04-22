@@ -1,107 +1,44 @@
 {
-  "last_scan": "2026-04-22T23:03:04.111363+00:00",
-  "scan_seconds": 17.6,
+  "last_scan": "2026-04-22T23:04:15.213118+00:00",
+  "scan_seconds": 14.6,
   "markets_scanned": 49,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776898975751_0",
-      "timestamp": "2026-04-22T23:02:55.751602+00:00",
+      "id": "sig_1776899048867_0",
+      "timestamp": "2026-04-22T23:04:08.867819+00:00",
       "source": "PERPLEXITY",
-      "headline": "Cavaliers Defeat Raptors 115-105 in Game 2, Take 2-0 Series Lead | YES | HIGH confidence**",
-      "raw": "Cavaliers Defeat Raptors 115-105 in Game 2, Take 2-0 Series Lead | YES | HIGH confidence**  \nThe Cleveland Cavaliers won Game 2 of their first-round NBA playoff series against the Toronto Raptors on Monday, led by Donovan Mitchell (30 points), James Harden (28 points), and Evan Mobley (25 points), extending their playoff winning streak against Toronto to 12 games.[4]  \nRaptors' Immanuel Quickley w",
+      "headline": "Cavaliers defeat Raptors 115-105 in Game 2, take 2-0 series lead | YES (Cavaliers favored to win series) | HIGH confiden",
+      "raw": "Cavaliers defeat Raptors 115-105 in Game 2, take 2-0 series lead | YES (Cavaliers favored to win series) | HIGH confidence**[1][2][3]\n\nGame 2 on Monday saw Cleveland's Donovan Mitchell (30 pts), James Harden (28 pts), and Evan Mobley (25 pts) combine for 83 points in a wire-to-wire win, extending their playoff win streak vs. Toronto to 12 games (NBA record tie).[1][2][3] Toronto's Scottie Barnes s",
       "direction": "YES",
-      "confidence": 0.9,
+      "confidence": 0.65,
       "matched_markets": [
         "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
       ],
-      "action": "ENTER",
+      "action": "ALERT",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776898971453_0",
-      "timestamp": "2026-04-22T23:02:51.453202+00:00",
+      "id": "sig_1776899054209_0",
+      "timestamp": "2026-04-22T23:04:14.209946+00:00",
       "source": "PERPLEXITY",
-      "headline": "Confidence: HIGH** (no results match \"right now\" breaking news criteria)",
-      "raw": "Confidence: HIGH** (no results match \"right now\" breaking news criteria).",
-      "direction": "NO",
+      "headline": "Polymarket Traders on X Focus on Tweet Markets, Especially Elon Musk's April 2026 Posting Volume, with High Activity in",
+      "raw": "Polymarket Traders on X Focus on Tweet Markets, Especially Elon Musk's April 2026 Posting Volume, with High Activity in Trending Predictions[1][2][3][4]** | NO confirmed whale bets, smart money moves, or specific mispriced markets in recent posts | **MED** confidence (search results highlight platform trends but lack direct X posts or real-time trader chatter[5])\n\nTrending Polymarket categories in",
+      "direction": "YES",
       "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776898983100_0",
-      "timestamp": "2026-04-22T23:03:03.100467+00:00",
-      "source": "PERPLEXITY",
-      "headline": "I cannot provide real-time information about what Polymarket traders are currently posting on X or discussing in live co",
-      "raw": "I cannot provide real-time information about what Polymarket traders are currently posting on X or discussing in live conversations[1][2][3][4]. The search results describe Polymarket as a prediction market platform but don't contain current social media discussions, whale activity, or trader commentary from this moment.\n\nTo get this information, you would need to:",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776898983102_1",
-      "timestamp": "2026-04-22T23:03:03.102268+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Check X (Twitter) directly using relevant hashtags like #Polymarket or #PredictionMarkets",
-      "raw": "Check X (Twitter) directly using relevant hashtags like #Polymarket or #PredictionMarkets",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776898983104_2",
-      "timestamp": "2026-04-22T23:03:03.104042+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Visit Polymarket's Discord or Telegram communities where traders actively discuss market movements",
-      "raw": "Visit Polymarket's Discord or Telegram communities where traders actively discuss market movements",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776898983105_3",
-      "timestamp": "2026-04-22T23:03:03.105901+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Monitor Polymarket's platform directly for real-time market activity and price movements[1][4]",
-      "raw": "Monitor Polymarket's platform directly for real-time market activity and price movements[1][4]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776898983107_4",
-      "timestamp": "2026-04-22T23:03:03.107854+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Review prediction market analytics tools that track large trades and market shifts[5]",
-      "raw": "Review prediction market analytics tools that track large trades and market shifts[5]\n\nThe search results confirm that Polymarket hosts active markets with over $20M in trading volume[3][4], but they don't capture the live, moment-to-moment discussions or breaking announcements that would answer your question. For breaking news and real-time trader sentiment, you'll need to access live social medi",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
+      "matched_markets": [
+        "Will Trump name \"Elon\" or \"Musk\" in April?"
+      ],
       "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 6,
+    "enter": 0,
+    "alert": 2,
     "watch": 0,
-    "high_conf": 1
+    "high_conf": 0
   }
 }
