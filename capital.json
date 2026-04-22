@@ -1,5 +1,5 @@
 {
-  "ts": 1776838900,
+  "ts": 1776838967,
   "stale": false,
   "feed_ages": {
     "prices_age_s": 0,
@@ -7,7 +7,7 @@
     "usdc_age_s": 0
   },
   "prices": {
-    "usdc_usd": 0.999758
+    "usdc_usd": 0.999571
   },
   "polymarket": {
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
@@ -161,19 +161,19 @@
         "slug": "deepseek-v4-released-by-april-30-896",
         "title": "DeepSeek V4 released by April 30?",
         "size": 5.05,
-        "cur_price": 0.22,
-        "nav_usdc": 1.111,
+        "cur_price": 0.215,
+        "nav_usdc": 1.0857,
         "cost_basis": 1.212,
-        "unrealized_pnl": -0.101
+        "unrealized_pnl": -0.1262
       },
       {
         "slug": "will-cooper-flagg-win-the-202526-nba-rookie-of-the-year-award",
         "title": "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
         "size": 5.05,
-        "cur_price": 0.376,
-        "nav_usdc": 1.8988,
+        "cur_price": 0.3765,
+        "nav_usdc": 1.9013,
         "cost_basis": 1.7624,
-        "unrealized_pnl": 0.1364
+        "unrealized_pnl": 0.1389
       },
       {
         "slug": "nba-playoffs-who-will-win-series-raptors-vs-cavaliers",
@@ -287,10 +287,10 @@
         "slug": "will-detroit-pistons-advance-to-the-conference-semifinals-in-the-2026-nba-playoffs",
         "title": "Will Detroit Pistons advance to the Conference Semifinals in the 2026 NBA Playoffs?",
         "size": 4.9242,
-        "cur_price": 0.275,
-        "nav_usdc": 1.3542,
+        "cur_price": 0.2,
+        "nav_usdc": 0.9848,
         "cost_basis": 0.8371,
-        "unrealized_pnl": 0.5171
+        "unrealized_pnl": 0.1477
       },
       {
         "slug": "will-boston-celtics-advance-to-the-conference-semifinals-in-the-2026-nba-playoffs",
@@ -303,16 +303,16 @@
       }
     ],
     "position_count": 32,
-    "positions_nav_usdc": 288.4751,
-    "total_usdc": 404.4979,
-    "total_usd": 404.4
+    "positions_nav_usdc": 288.083,
+    "total_usdc": 404.1058,
+    "total_usd": 403.9325
   },
   "kalshi": {
     "funded": false,
     "total_usd": 0.0
   },
   "pnl": {
-    "ts": 1776838901,
+    "ts": 1776838968,
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
     "activity_rows": 52,
     "today": {
@@ -350,10 +350,10 @@
     },
     "24h": {
       "window": "24h",
-      "window_start_ts": 1776752501,
+      "window_start_ts": 1776752568,
       "realized_usdc": 0.2316,
-      "trade_count": 14,
-      "buy_volume_usdc": 124.0558,
+      "trade_count": 13,
+      "buy_volume_usdc": 95.1082,
       "sell_volume_usdc": 58.5169,
       "closed_positions": 1,
       "winning_positions": 1,
@@ -428,22 +428,12 @@
           "net_size": 7.65,
           "closed": false,
           "realized_usdc": 0.0
-        },
-        {
-          "title": "Will the highest temperature in Madrid be 31\u00b0C on April 21?",
-          "slug": "highest-temperature-in-madrid-on-april-21-2026-31c",
-          "outcome_index": 1,
-          "buys_usdc": 28.9476,
-          "sells_usdc": 0.0,
-          "net_size": 29.24,
-          "closed": false,
-          "realized_usdc": 0.0
         }
       ]
     },
     "7d": {
       "window": "7d",
-      "window_start_ts": 1776234101,
+      "window_start_ts": 1776234168,
       "realized_usdc": 1.5555,
       "trade_count": 52,
       "buy_volume_usdc": 465.6334,
@@ -656,7 +646,7 @@
     },
     "30d": {
       "window": "30d",
-      "window_start_ts": 1774246901,
+      "window_start_ts": 1774246968,
       "realized_usdc": 1.5555,
       "trade_count": 52,
       "buy_volume_usdc": 465.6334,
@@ -1082,7 +1072,7 @@
     }
   },
   "summary": {
-    "total_usd": 404.4,
-    "total_usdc": 404.4979
+    "total_usd": 403.9325,
+    "total_usdc": 404.1058
   }
 }
