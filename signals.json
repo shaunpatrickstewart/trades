@@ -1,75 +1,57 @@
 {
-  "last_scan": "2026-04-22T16:22:32.708033+00:00",
-  "scan_seconds": 22.1,
+  "last_scan": "2026-04-22T16:23:40.537251+00:00",
+  "scan_seconds": 19.9,
   "markets_scanned": 55,
   "open_positions": 15,
   "signals": [
     {
-      "id": "sig_1776874935481_0",
-      "timestamp": "2026-04-22T16:22:15.481280+00:00",
+      "id": "sig_1776875014071_0",
+      "timestamp": "2026-04-22T16:23:34.071529+00:00",
       "source": "PERPLEXITY",
-      "headline": "Solana (SOL) Hits Record 167 Million Monthly Token Holders Amid Alpenglow Upgrade Surge | YES | MED**",
-      "raw": "Solana (SOL) Hits Record 167 Million Monthly Token Holders Amid Alpenglow Upgrade Surge | YES | MED**  \nOn April 14, 2026, Solana achieved an all-time high of 167 million monthly token holders and 148 million daily non-vote transactions, driven by the Alpenglow consensus upgrade reducing finality to 150 milliseconds[1]. This confirmed network milestone boosts performance metrics and could shift pr",
+      "headline": "Mavs' Cooper Flagg drops 45 pts (back-to-back 40+ games) to beat injury-depleted Lakers 134-128, ending 14-game home ski",
+      "raw": "Mavs' Cooper Flagg drops 45 pts (back-to-back 40+ games) to beat injury-depleted Lakers 134-128, ending 14-game home skid | NO (no playoffs/series win impact) | HIGH confidence** [1][2][4]\n\nThis Sunday night regular-season game highlighted Lakers' vulnerabilities without key players like Doncic (mentioned in context) and Reaves, but no new injuries, trades, or playoff confirmations were announced\u2014",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
-        "Will the price of Solana be above $90 on April 28?"
+        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
       ],
       "action": "ENTER",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "SPORTS"
     },
     {
-      "id": "sig_1776874935484_1",
-      "timestamp": "2026-04-22T16:22:15.484055+00:00",
+      "id": "sig_1776875019533_2",
+      "timestamp": "2026-04-22T16:23:39.533912+00:00",
       "source": "PERPLEXITY",
-      "headline": "Solana Faces $280M+ Drift Protocol Exploit via Social Engineering | YES | HIGH**",
-      "raw": "Solana Faces $280M+ Drift Protocol Exploit via Social Engineering | YES | HIGH**  \nA recent $280M+ exploit on Drift protocol used social engineering and pre-approved transactions for admin control, with Circle declining to freeze $230M+ USDC, eroding ecosystem trust as SOL drops 13% to ~$78[4]. On-chain data shows RSI at 34.55 and 40% DEX volume drop, confirming bearish pressure that may move mark",
-      "direction": "YES",
-      "confidence": 0.65,
+      "headline": "Trending Markets Category Booming | NO specific whale bets or resolutions | HIGH confidence**",
+      "raw": "Trending Markets Category Booming | NO specific whale bets or resolutions | HIGH confidence**\n\n166+ Trending Markets (e.g., \u201cNasdaq round-the-clock trading by June 30?\u201d) show $2.8M volume, with odds updating on breaking news like finance and tech, but search results lack X posts on whales, smart money, tips, or confirmed events moving prices as of April 21 data.[1]\n\nNo direct X trader posts, whale",
+      "direction": "NO",
+      "confidence": 0.9,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776874940139_0",
-      "timestamp": "2026-04-22T16:22:20.139668+00:00",
+      "id": "sig_1776875008914_0",
+      "timestamp": "2026-04-22T16:23:28.914119+00:00",
       "source": "PERPLEXITY",
-      "headline": "US-Iran Ceasefire Extended (April 22, 2026)** | YES | HIGH confidence[3]",
-      "raw": "US-Iran Ceasefire Extended (April 22, 2026)** | YES | HIGH confidence[3]\n\nGoldman Sachs' U.S. Inflation Monitor (released April 20) confirms March 2026 headline CPI at 3.29% YoY (up 0.87% MoM) and PCE at 3.45% YoY, driven by 45% oil spike to $103/barrel from Iran war, though core inflation decelerates with forecasts for 2.2% core PCE and potential Fed cuts later in 2026[1][2]. S&P Global and IMF r",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will annual inflation increase by 3.8% in April?"
-      ],
+      "headline": "HIGH confidence** (no confirmed April CPI release or resolution today; next data likely May for April figures)",
+      "raw": "HIGH confidence** (no confirmed April CPI release or resolution today; next data likely May for April figures).",
+      "direction": "NO",
+      "confidence": 0.78,
+      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_1776874946117_0",
-      "timestamp": "2026-04-22T16:22:26.117180+00:00",
+      "id": "sig_1776875019529_0",
+      "timestamp": "2026-04-22T16:23:39.529272+00:00",
       "source": "PERPLEXITY",
-      "headline": "Raptors vs Cavaliers Game 1 Loss Confirmed: Raptors Down 0-1 in First Round** | NO | HIGH confidence[5][6]",
-      "raw": "Raptors vs Cavaliers Game 1 Loss Confirmed: Raptors Down 0-1 in First Round** | NO | HIGH confidence[5][6]\n\nThe Toronto **Raptors** lost Game 1 of their first-round playoff series to the Cleveland Cavaliers, as just reported in playoff recaps and odds updates, dropping their Polymarket odds to advance past the first round to **4%** (from implied higher pre-game levels)[3][5][6]. This eliminates an",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
-        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776874951702_0",
-      "timestamp": "2026-04-22T16:22:31.702730+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | LOW confidence**",
-      "raw": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | LOW confidence**\n\nPolymarket's most active markets right now focus on **Elon Musk's tweet volume**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" (priced at 32% for 220-239 range) and \"Elon Musk # tweets in April 2026?\" (19% for 1120-1159, 18% in related Tweet Markets).[2][3][4] These dominate Tweet and Pop Culture categories wi",
+      "headline": "Elon Musk Tweet Volume Markets Trending on Polymarket | NO | MED confidence**",
+      "raw": "Elon Musk Tweet Volume Markets Trending on Polymarket | NO | MED confidence**\n\nPolymarket's most active markets right now focus on **Elon Musk's tweet counts**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" (trading at 32% for 220-239 range) and \"Elon Musk # tweets in April 2026?\" (19% for 1120-1159, 18% in related markets).[2][3][4] These dominate Tweet and Pop Culture categories with o",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
@@ -78,11 +60,11 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776874951704_1",
-      "timestamp": "2026-04-22T16:22:31.704954+00:00",
+      "id": "sig_1776875019531_1",
+      "timestamp": "2026-04-22T16:23:39.531664+00:00",
       "source": "PERPLEXITY",
-      "headline": "Kanye West Tweet Market Active | NO | LOW confidence**",
-      "raw": "Kanye West Tweet Market Active | NO | LOW confidence**\n\n\"Will Kanye tweet again by April 30?\" trades at 60% YES, part of 130+ Tweet markets as of early April, but lacks evidence of X buzz, whale activity, or recent news triggers.[3] Overall, results show no breaking confirmations or trader posts on **mispriced opportunities or imminent moves**.[1][2][3][4]",
+      "headline": "Kanye West Tweet Return Market Active | NO | LOW confidence**",
+      "raw": "Kanye West Tweet Return Market Active | NO | LOW confidence**\n\n\"Will Kanye tweet again by April 30?\" trades at 60% YES, part of 130+ Tweet markets, but no whale activity or mispricing buzz noted in current data.[3]",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
@@ -93,8 +75,8 @@
   ],
   "stats": {
     "enter": 1,
-    "alert": 5,
+    "alert": 4,
     "watch": 0,
-    "high_conf": 1
+    "high_conf": 2
   }
 }
