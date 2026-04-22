@@ -1,15 +1,15 @@
 {
-  "last_scan": "2026-04-22T06:10:31.265668+00:00",
-  "scan_seconds": 20.7,
+  "last_scan": "2026-04-22T06:11:41.611419+00:00",
+  "scan_seconds": 21.1,
   "markets_scanned": 83,
   "open_positions": 37,
   "signals": [
     {
-      "id": "sig_1776838219573_0",
-      "timestamp": "2026-04-22T06:10:19.574003+00:00",
+      "id": "sig_1776838289506_0",
+      "timestamp": "2026-04-22T06:11:29.506057+00:00",
       "source": "PERPLEXITY",
-      "headline": "Kevin Warsh Faces Tough Senate Confirmation Hearing on April 21, 2026, as Potential Replacement for Fed Chair Jerome Pow",
-      "raw": "Kevin Warsh Faces Tough Senate Confirmation Hearing on April 21, 2026, as Potential Replacement for Fed Chair Jerome Powell Amid Inflation and Tariff Pressures | YES | HIGH confidence**  \nRecent Senate Banking Committee hearings on April 21 featured intense questioning of Kevin Warsh, Trump's nominee to replace Jerome Powell, focusing on past Fed policy errors that allowed inflation to soar, his s",
+      "headline": "Fed Chair Powell Confirms Tariffs Will Drive Additional Inflation in Coming Months** | YES | HIGH confidence[1][2][3]",
+      "raw": "Fed Chair Powell Confirms Tariffs Will Drive Additional Inflation in Coming Months** | YES | HIGH confidence[1][2][3]\n\nPowell testified to Congress on Wednesday that tariffs\u2014rolling out since February through April and beyond\u2014will produce \"some inflation\" as they pass through production chains to consumers, with effects visible now and persisting into spring[1][3]. He described these as modest ove",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
@@ -21,40 +21,117 @@
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_1776838224833_0",
-      "timestamp": "2026-04-22T06:10:24.833749+00:00",
+      "id": "sig_1776838284899_1",
+      "timestamp": "2026-04-22T06:11:24.899141+00:00",
       "source": "PERPLEXITY",
-      "headline": "76ers Edgecombe-Maxey duo upsets Celtics in Game 1, advancing 76ers to Eastern Conference Semifinals | YES (76ers win se",
-      "raw": "76ers Edgecombe-Maxey duo upsets Celtics in Game 1, advancing 76ers to Eastern Conference Semifinals | YES (76ers win series) | HIGH confidence** [4][3]\n\nVictor **Wembanyama** (Spurs rookie/MVP finalist) ruled out with concussion after Game 2 exit vs. Trail Blazers, confirmed post-debut impact on West play-in[4].",
+      "headline": "Ripple Launches Digital Asset Accounts and Unified Treasury | YES | MED confidence**",
+      "raw": "Ripple Launches Digital Asset Accounts and Unified Treasury | YES | MED confidence**  \nRipple announced native digital asset capabilities in Ripple Treasury, integrating XRP and RLUSD balances with cash in real-time treasury management\u2014the first of its kind.[2]  \nThis enhances institutional utility amid XRP's price at $1.31 (down 0.63% in last 24h), targeting short-term resistance at $1.4\u2013$1.6.[2]",
       "direction": "YES",
       "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776838284895_0",
+      "timestamp": "2026-04-22T06:11:24.895896+00:00",
+      "source": "PERPLEXITY",
+      "headline": "XRP ETF Inflows Surge to $41",
+      "raw": "XRP ETF Inflows Surge to $41.64M for Week Ending April 16 | YES | HIGH confidence**  \nU.S. spot ETFs saw $41.64 million in net inflows\u2014the largest single-week inflow in three months and a 254% jump from the prior week's $11.75 million\u2014driving XRP's 12.5% surge from April lows to around $1.44, with cumulative inflows at $1.26 billion.[1]  \nThis acceleration precedes a potential cup-and-handle break",
+      "direction": "YES",
+      "confidence": 0.65,
       "matched_markets": [
-        "Will Boston Celtics advance to the Conference Semifinals in the 2026 NBA Playoff"
+        "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
+        "XRP Up or Down - April 22, 8:20AM-8:25AM ET",
+        "XRP Up or Down - April 22, 8:35AM-8:40AM ET"
       ],
-      "action": "ENTER",
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776838284902_2",
+      "timestamp": "2026-04-22T06:11:24.902385+00:00",
+      "source": "PERPLEXITY",
+      "headline": "CLARITY Act Markup Vote Imminent; Polymarket Odds Shift Bullish | NO | LOW confidence**",
+      "raw": "CLARITY Act Markup Vote Imminent; Polymarket Odds Shift Bullish | NO | LOW confidence**  \nApril 2026 developments cite upcoming CLARITY Act markup reducing legal risks, with $119M+ XRP ETF inflows and South Korean volume spikes (e.g., Upbit FOMO, Kyobo Life pilot), but no formal confirmation or resolution today.[7]  \nBitcoin holds above $76K with no XRP-specific announcements tied to it.[5]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Bitcoin above 80,000 on April 22, 3AM ET?",
+        "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
+        "XRP Up or Down - April 22, 8:20AM-8:25AM ET"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776838295331_0",
+      "timestamp": "2026-04-22T06:11:35.331866+00:00",
+      "source": "PERPLEXITY",
+      "headline": "I cannot provide the breaking news you're requesting because the search results do not contain information about Cavalie",
+      "raw": "I cannot provide the breaking news you're requesting because the search results do not contain information about Cavaliers-Lakers Conference Semifinals matchups or market-moving announcements as of your query time.\n\nThe available search results only cover the **Cavaliers' Eastern Conference First Round series against the Toronto Raptors**, where Cleveland leads 2-0 after wins on April 18 and April",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
+        "Will the highest temperature in Toronto be 14\u00b0C on April 22?"
+      ],
+      "action": "ALERT",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776838224836_1",
-      "timestamp": "2026-04-22T06:10:24.836901+00:00",
+      "id": "sig_1776838295337_1",
+      "timestamp": "2026-04-22T06:11:35.337062+00:00",
       "source": "PERPLEXITY",
-      "headline": "Edgecombe** (76ers rookie) + Maxey lead Game 1 win over Celtics (14",
-      "raw": "Edgecombe** (76ers rookie) + Maxey lead Game 1 win over Celtics (14.5-pt favorites), with Tatum 20 pts, Brown 25, Maxey/Edgecombe 20/15; Game 2 tip-off ~7 PM ET on Peacock[3][4].  \nThis rookie-driven upset resolves 76ers advancing past 2nd-round opponent, shifting prediction markets on East semis (e.g., vs. Knicks/Pacers winners)[2][4].  \nWestern updates: Lakers lead Rockets 1-0 (LeBron strong, Du",
+      "headline": "Any Cavaliers-Lakers Conference Semifinals matchup",
+      "raw": "Any Cavaliers-Lakers Conference Semifinals matchup",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776838295342_2",
+      "timestamp": "2026-04-22T06:11:35.342066+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Series predictions or confirmation of playoff advancement",
+      "raw": "Series predictions or confirmation of playoff advancement",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776838295347_3",
+      "timestamp": "2026-04-22T06:11:35.347502+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Market-moving announcements or recent confirmations",
+      "raw": "Market-moving announcements or recent confirmations\n\nTo answer your query in the requested format (HEADLINE | YES/NO | confidence level), I would need search results containing current playoff bracket developments, team advancement confirmations, or recent announcements about later-round matchups. The current results only address the first-round series still in progress.",
       "direction": "YES",
-      "confidence": 0.9,
+      "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776838230233_0",
-      "timestamp": "2026-04-22T06:10:30.233647+00:00",
+      "id": "sig_1776838300602_0",
+      "timestamp": "2026-04-22T06:11:40.602070+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot provide the specific real-time information you're requesting based on the available search results",
-      "raw": "I cannot provide the specific real-time information you're requesting based on the available search results. The search results contain only general information about Polymarket's platform structure and some dated snapshot data from early-to-mid April 2026, but they do not include:",
-      "direction": null,
+      "headline": "Elon Musk April Tweet Count Markets Lead Polymarket Activity | NO | HIGH confidence**",
+      "raw": "Elon Musk April Tweet Count Markets Lead Polymarket Activity | NO | HIGH confidence**  \nPolymarket's most active markets focus on **Elon Musk # tweets** for periods like April 17-24, 2026, and overall April 2026, with traders pricing \"1080-1119\" tweets at 18% and other ranges like \"180-199\" at 29%[1][2][3]. These reflect real-time crowd sentiment on pop culture events, backed by $17.1M volume acro",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -62,12 +139,12 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776838230238_1",
-      "timestamp": "2026-04-22T06:10:30.238988+00:00",
+      "id": "sig_1776838300605_1",
+      "timestamp": "2026-04-22T06:11:40.605168+00:00",
       "source": "PERPLEXITY",
-      "headline": "Current X (Twitter) posts from Polymarket traders",
-      "raw": "Current X (Twitter) posts from Polymarket traders",
-      "direction": null,
+      "headline": "No Whale Bets, Smart Money, or Mispriced Markets Reported on X | NO | HIGH confidence**",
+      "raw": "No Whale Bets, Smart Money, or Mispriced Markets Reported on X | NO | HIGH confidence**  \nSearch results show no current X posts from Polymarket traders discussing whale bets, smart money moves, prediction tips, or mispriced markets like GTA VI release (1% before June 2026, $14M vol) or MegaETH airdrop (57% by June 30)[4]. One Binance post highlights a Polymarket analytics tool for tracking top tr",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -75,51 +152,12 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776838230243_2",
-      "timestamp": "2026-04-22T06:10:30.243852+00:00",
+      "id": "sig_1776838300608_2",
+      "timestamp": "2026-04-22T06:11:40.608336+00:00",
       "source": "PERPLEXITY",
-      "headline": "Active whale bets or large trades happening right now",
-      "raw": "Active whale bets or large trades happening right now",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776838230246_3",
-      "timestamp": "2026-04-22T06:10:30.246809+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Smart money commentary or prediction market tips",
-      "raw": "Smart money commentary or prediction market tips",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776838230249_4",
-      "timestamp": "2026-04-22T06:10:30.249779+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Information about mispriced markets or anticipated moves",
-      "raw": "Information about mispriced markets or anticipated moves",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776838230253_5",
-      "timestamp": "2026-04-22T06:10:30.253149+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Recent news, confirmations, or market resolutions",
-      "raw": "Recent news, confirmations, or market resolutions\n\nTo get this information, you would need to:",
-      "direction": null,
+      "headline": "No Recent Confirmations, Announcements, or Resolutions Impacting Markets | NO | HIGH confidence**",
+      "raw": "No Recent Confirmations, Announcements, or Resolutions Impacting Markets | NO | HIGH confidence**  \nNo breaking news, confirmed events, or resolutions (e.g., tweet counts, news stories) are noted that would shift odds; markets update dynamically on new data but none specified as of April 19-22, 2026[1][2][3][4]. XTracker exists for social analytics but yields no live buzz[5].",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -128,9 +166,9 @@
     }
   ],
   "stats": {
-    "enter": 2,
-    "alert": 7,
+    "enter": 1,
+    "alert": 10,
     "watch": 0,
-    "high_conf": 3
+    "high_conf": 2
   }
 }
