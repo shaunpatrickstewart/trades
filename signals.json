@@ -1,58 +1,73 @@
 {
-  "last_scan": "2026-04-22T16:44:32.390043+00:00",
-  "scan_seconds": 31.8,
-  "markets_scanned": 15,
+  "last_scan": "2026-04-22T16:45:31.445678+00:00",
+  "scan_seconds": 20.1,
+  "markets_scanned": 47,
   "open_positions": 15,
   "signals": [
     {
-      "id": "sig_1776876271383_0",
-      "timestamp": "2026-04-22T16:44:31.383215+00:00",
+      "id": "sig_1776876330443_5",
+      "timestamp": "2026-04-22T16:45:30.443278+00:00",
       "source": "PERPLEXITY",
-      "headline": "Nasdaq Round-the-Clock Trading by June 30",
-      "raw": "Nasdaq Round-the-Clock Trading by June 30? | NO | HIGH confidence**  \nPolymarket's top trending market shows 20% YES odds with $43.9K volume, signaling strong trader consensus against implementation soon; high conviction from liquidity ($1.8K) and ranking.[1]",
-      "direction": "YES",
-      "confidence": 0.78,
-      "matched_markets": [],
-      "action": "ALERT",
+      "headline": "Elon Musk Tweet Volume Markets | MIXED (under ranges) | MED confidence**",
+      "raw": "Elon Musk Tweet Volume Markets | MIXED (under ranges) | MED confidence**  \nActive bets like April 2026 total (19% on 1120-1159 tweets) and April 17-24 (33% on 200-219) suggest traders pricing below recent norms, potential mispricing if activity spikes.[3][4]  \n\nNo whale bets, smart money moves, or X posts on mispriced markets confirmed in real-time data; upcoming events like Trump WHCA Dinner (Apr",
+      "direction": "NO",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will Trump agree to Iranian enrichment of uranium in April?"
+      ],
+      "action": "ENTER",
       "x_link": null,
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776876271385_3",
-      "timestamp": "2026-04-22T16:44:31.385241+00:00",
+      "id": "sig_1776876330439_3",
+      "timestamp": "2026-04-22T16:45:30.439302+00:00",
       "source": "PERPLEXITY",
       "headline": "Iran x Israel/US Conflict Ends by",
-      "raw": "Iran x Israel/US Conflict Ends by...? | YES (resolved) | HIGH confidence**  \nMarket at 100% YES, fully resolved per odds, with $11.9K liquidity; recent confirmation likely shifted prediction sentiment in geopolitics category.[2]",
+      "raw": "Iran x Israel/US Conflict Ends by...? | YES (resolved) | HIGH confidence**  \nMarket at 100% YES, confirmed resolved with $11.9K liquidity, likely shifting related geopolitics bets.[2]",
       "direction": "YES",
-      "confidence": 0.78,
+      "confidence": 0.9,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776876264754_0",
-      "timestamp": "2026-04-22T16:44:24.754127+00:00",
+      "id": "sig_1776876325315_0",
+      "timestamp": "2026-04-22T16:45:25.315713+00:00",
       "source": "PERPLEXITY",
-      "headline": "Cooper Flagg's Historic 45-Point Performance vs",
-      "raw": "Cooper Flagg's Historic 45-Point Performance vs. Lakers Ends Mavs' Home Losing Streak | NO | LOW confidence**  \nDallas Mavericks rookie **Cooper Flagg** scored 45 points (plus 9 assists, 8 rebounds) in a 134-128 win over the Los Angeles **Lakers** on April 5, 2026, marking back-to-back 40+ point games (after 51 vs. Orlando) and making him the first teenager with consecutive 40-point outings since ",
+      "headline": "Lakers Eliminated from 2025-26 Playoffs by Timberwolves in Conference Semifinals Game 3, YES on Loss Confirmed** | **YES",
+      "raw": "Lakers Eliminated from 2025-26 Playoffs by Timberwolves in Conference Semifinals Game 3, YES on Loss Confirmed** | **YES** | **HIGH** confidence[3]\n\nIn the Western Conference semifinals, the No. 6 Timberwolves defeated the No. 3 **Los Angeles Lakers** 103-96 in Game 3, following prior wins by OKC over Grizzlies, Nuggets over Clippers, and Timberwolves over Warriors, confirming Lakers' series exit ",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
-        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
         "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
+        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
       ],
       "action": "ALERT",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776876271383_1",
-      "timestamp": "2026-04-22T16:44:31.383920+00:00",
+      "id": "sig_1776876330433_0",
+      "timestamp": "2026-04-22T16:45:30.433839+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Nasdaq Round-the-Clock Trading by June 30",
+      "raw": "Nasdaq Round-the-Clock Trading by June 30? | NO | HIGH confidence**  \nPolymarket's top trending market shows 20% YES odds with $43.9K volume, signaling traders view it as unlikely despite buzz.[1]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776876330435_1",
+      "timestamp": "2026-04-22T16:45:30.435661+00:00",
       "source": "PERPLEXITY",
       "headline": "\ud835\udd4f Money Launched by April 30",
-      "raw": "\ud835\udd4f Money Launched by April 30? | NO | HIGH confidence**  \nX-specific market at 12% YES with $33.6K volume and $4.5K liquidity indicates low expectations for launch in 8 days, topping X predictions amid Elon Musk tech bets.[2]",
+      "raw": "\ud835\udd4f Money Launched by April 30? | NO | HIGH confidence**  \nX-specific market at 12% YES with $33.6K volume and ending in 8 days, indicating low trader expectation for imminent launch.[2]",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
@@ -61,11 +76,11 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776876271384_2",
-      "timestamp": "2026-04-22T16:44:31.384617+00:00",
+      "id": "sig_1776876330437_2",
+      "timestamp": "2026-04-22T16:45:30.437463+00:00",
       "source": "PERPLEXITY",
       "headline": "Monero Hits $1000 in 2026",
-      "raw": "Monero Hits $1000 in 2026? | NO | MED confidence**  \nTrending at 19% YES with highest volume ($94.3K) and $6.7K liquidity among crypto markets, but no whale activity or X posts noted in real-time data; moderate due to longer 8-month horizon.[1]",
+      "raw": "Monero Hits $1000 in 2026? | NO | MED confidence**  \nTrending at 19% YES odds and $94.3K volume, reflecting cautious crypto sentiment amid volatility.[1]",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
@@ -74,36 +89,23 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776876271385_4",
-      "timestamp": "2026-04-22T16:44:31.385891+00:00",
+      "id": "sig_1776876330441_4",
+      "timestamp": "2026-04-22T16:45:30.441151+00:00",
       "source": "PERPLEXITY",
       "headline": "Nikita Bier Out as X Head of Product by June 30",
-      "raw": "Nikita Bier Out as X Head of Product by June 30? | NO | MED confidence**  \n7% YES odds with $1.4K volume/$4.8K liquidity in trending X markets; insider buzz potential but low activity suggests limited mispricing chatter.[2]",
+      "raw": "Nikita Bier Out as X Head of Product by June 30? | NO | HIGH confidence**  \nLow 7% YES odds and $1.4K volume in X tech market, minimal trader conviction for change.[2]",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776876271386_5",
-      "timestamp": "2026-04-22T16:44:31.386917+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Elon Musk Tweet Volume Markets (e",
-      "raw": "Elon Musk Tweet Volume Markets (e.g., April 2026 Total) | NO (specific buckets) | LOW confidence**  \nActive tweet markets like \"Elon Musk # tweets in April 2026?\" at 19% for 1120-1159 range ($22.8M+ category volume); real-time shifts possible but no confirmed resolutions or whale tips in data.[3][4]  \n\nNo direct X posts from Polymarket traders, whale bets, or mispricing tips in results; focus on p",
-      "direction": "NO",
-      "confidence": 0.6,
-      "matched_markets": [],
-      "action": "WATCH",
       "x_link": null,
       "category": "COMMUNITY"
     }
   ],
   "stats": {
-    "enter": 0,
+    "enter": 1,
     "alert": 6,
-    "watch": 1,
-    "high_conf": 0
+    "watch": 0,
+    "high_conf": 2
   }
 }
