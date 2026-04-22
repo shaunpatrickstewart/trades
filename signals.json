@@ -1,88 +1,102 @@
 {
-  "last_scan": "2026-04-22T15:26:40.240387+00:00",
-  "scan_seconds": 22.7,
+  "last_scan": "2026-04-22T15:27:40.205573+00:00",
+  "scan_seconds": 19.6,
   "markets_scanned": 52,
   "open_positions": 16,
   "signals": [
     {
-      "id": "sig_1776871593545_0",
-      "timestamp": "2026-04-22T15:26:33.545226+00:00",
+      "id": "sig_1776871644309_0",
+      "timestamp": "2026-04-22T15:27:24.309834+00:00",
       "source": "PERPLEXITY",
-      "headline": "Cavaliers Take 2-0 Lead Over Raptors in Eastern Conference First-Round Series After Game 2 Win | YES (Cavaliers Win Seri",
-      "raw": "Cavaliers Take 2-0 Lead Over Raptors in Eastern Conference First-Round Series After Game 2 Win | YES (Cavaliers Win Series) | HIGH confidence**[1][2][4][6]\n\nThe Cleveland Cavaliers defeated the Toronto Raptors 115-105 in Game 2 on Monday, April 20, securing a 2-0 lead with dominant performances from **Donovan Mitchell (30 points)**, **James Harden (28 points)**, and **Evan Mobley (25 points, 8 reb",
+      "headline": "Bitcoin ETF Inflows Reach Nearly $1B Weekly as of April 22, 2026 | YES | HIGH confidence**",
+      "raw": "Bitcoin ETF Inflows Reach Nearly $1B Weekly as of April 22, 2026 | YES | HIGH confidence**  \nAmerican spot Bitcoin ETFs have seen nearly one billion dollars in weekly inflows, signaling persistent large investor interest amid volatility and supporting Bitcoin's surge with institutional capital returning through ETFs.[5]",
       "direction": "YES",
-      "confidence": 0.9,
+      "confidence": 0.65,
       "matched_markets": [
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
-        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
+        "Bitcoin Up or Down - April 22, 11:30AM-11:35AM ET"
       ],
-      "action": "ENTER",
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776871644311_1",
+      "timestamp": "2026-04-22T15:27:24.311991+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Strategy (MicroStrategy) Announces Large-Scale Bitcoin Purchase as of April 22, 2026 | YES | HIGH confidence**",
+      "raw": "Strategy (MicroStrategy) Announces Large-Scale Bitcoin Purchase as of April 22, 2026 | YES | HIGH confidence**  \nPublic company Strategy has doubled down with a new large-scale Bitcoin purchase, viewing market dips as buying opportunities and reinforcing Bitcoin accumulation by major corporations.[5]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Bitcoin Up or Down - April 22, 11:30AM-11:35AM ET"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776871644314_2",
+      "timestamp": "2026-04-22T15:27:24.314283+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Ethereum Network Activity and Transaction Numbers Rising as of Mid-April 2026 | NO | MED confidence**",
+      "raw": "Ethereum Network Activity and Transaction Numbers Rising as of Mid-April 2026 | NO | MED confidence**  \nEthereum shows strengthening fundamentals with increasing network activity, transactions, and ecosystem interest in stablecoins, DeFi, and tokenization, despite price underperformance vs. Bitcoin\u2014no specific new confirmation today.[5]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Bitcoin Up or Down - April 22, 11:30AM-11:35AM ET",
+        "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776871649217_0",
+      "timestamp": "2026-04-22T15:27:29.217586+00:00",
+      "source": "PERPLEXITY",
+      "headline": "US-Iran Ceasefire Extended | NO | HIGH confidence**",
+      "raw": "US-Iran Ceasefire Extended | NO | HIGH confidence**  \nNo breaking inflation news confirmed, announced, or resolved today (April 22, 2026) that would move prediction markets; the sole relevant update is a market note on the US-Iran ceasefire extension supporting Wall Street gains, but it lacks inflation specifics or new data releases[3].  \nRecent context includes Goldman's April 20 inflation monito",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will annual inflation increase by 3.8% in April?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776871654048_0",
+      "timestamp": "2026-04-22T15:27:34.048721+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Confidence: HIGH** (search results cover up to April 6; nothing confirms playoffs/semifinals resolutions or market-movin",
+      "raw": "Confidence: HIGH** (search results cover up to April 6; nothing confirms playoffs/semifinals resolutions or market-moving events today).[1][2]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776871599236_4",
-      "timestamp": "2026-04-22T15:26:39.236811+00:00",
+      "id": "sig_1776871659197_0",
+      "timestamp": "2026-04-22T15:27:39.197533+00:00",
       "source": "PERPLEXITY",
-      "headline": "Elon Musk Tweet Volume in April 2026 (1120-1159 Range) | NO | LOW confidence**",
-      "raw": "Elon Musk Tweet Volume in April 2026 (1120-1159 Range) | NO | LOW confidence**  \nTweet market at 18% for this bin amid $22.2M category volume; tracks Musk's April activity but lacks fresh X posts on mispricing or moves.[3]  \n\nNo search results show recent X posts from Polymarket traders on whale bets, smart money tips, mispriced markets, or confirmed announcements resolving these; data reflects pl",
+      "headline": "Elon Musk Tweet Volume Markets Trending on Polymarket | NO | LOW confidence**",
+      "raw": "Elon Musk Tweet Volume Markets Trending on Polymarket | NO | LOW confidence**\n\nPolymarket's most active markets right now focus on **Elon Musk's tweet counts**, including \"Elon Musk # tweets April 17 - April 24, 2026?\" (trading at 32% for 220-239 range) and \"Elon Musk # tweets in April 2026?\" (18% for 1120-1159 range), with over $21M-$22M in volume across 20-131 related markets[2][3][4].",
       "direction": "NO",
-      "confidence": 0.9,
+      "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776871588555_0",
-      "timestamp": "2026-04-22T15:26:28.555431+00:00",
+      "id": "sig_1776871659200_1",
+      "timestamp": "2026-04-22T15:27:39.200237+00:00",
       "source": "PERPLEXITY",
-      "headline": "Based on the search results, the most recent breaking inflation news is from April 10, 2026:",
-      "raw": "Based on the search results, the most recent breaking inflation news is from April 10, 2026:",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will annual inflation increase by 3.8% in April?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776871588557_1",
-      "timestamp": "2026-04-22T15:26:28.557457+00:00",
-      "source": "PERPLEXITY",
-      "headline": "HEADLINE | March 2026 CPI Data Released: Headline Inflation Surges to 3",
-      "raw": "HEADLINE | March 2026 CPI Data Released: Headline Inflation Surges to 3.29% Year-Over-Year, Driven by Iran War Energy Spike**",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776871588559_2",
-      "timestamp": "2026-04-22T15:26:28.559727+00:00",
-      "source": "PERPLEXITY",
-      "headline": "YES | HIGH confidence**",
-      "raw": "YES | HIGH confidence**\n\nOn April 10, 2026, the U.S. Consumer Price Index for March was released, confirming that headline inflation rose sharply to 3.29% year-over-year, significantly above the previous month's 2.4%.[1] The monthly headline CPI jumped 0.87%, the largest monthly gain since 2022.[2] This surge was primarily driven by a 10.9% monthly increase in energy prices, with gasoline prices u",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will annual inflation increase by 3.8% in April?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776871599228_0",
-      "timestamp": "2026-04-22T15:26:39.228384+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Iran x Israel/US Conflict Ends by December 31 | YES | HIGH confidence**",
-      "raw": "Iran x Israel/US Conflict Ends by December 31 | YES | HIGH confidence**  \nPolymarket's X predictions show this market at 100% YES odds with $11.9K liquidity and 116 traders, topping activity as the most engaged X-related market.[2]",
+      "headline": "Kanye West tweet market** (\"Will Kanye tweet again by April 30",
+      "raw": "Kanye West tweet market** (\"Will Kanye tweet again by April 30?\") at 60% yes is active but less dominant[3].",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
@@ -91,38 +105,12 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776871599230_1",
-      "timestamp": "2026-04-22T15:26:39.230458+00:00",
+      "id": "sig_1776871659202_2",
+      "timestamp": "2026-04-22T15:27:39.202351+00:00",
       "source": "PERPLEXITY",
-      "headline": "\ud835\udd4f Money Launched by April 30 | NO | HIGH confidence**",
-      "raw": "\ud835\udd4f Money Launched by April 30 | NO | HIGH confidence**  \nMarket trades at 12% YES with $33.6K volume and $4.5K liquidity, ending in 8 days; low YES price signals trader skepticism on timely launch.[2]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776871599232_2",
-      "timestamp": "2026-04-22T15:26:39.232739+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Nikita Bier Out as X Head of Product by June 30 | NO | MED confidence**",
-      "raw": "Nikita Bier Out as X Head of Product by June 30 | NO | MED confidence**  \nOdds at 7% YES with $1.4K volume and $4.8K liquidity, ending in 2 months; thin volume tempers conviction on this Elon Musk/X tech bet.[2]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776871599234_3",
-      "timestamp": "2026-04-22T15:26:39.234700+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Nasdaq Round-the-Clock Trading by June 30 | NO (implied under 30%) | MED confidence**",
-      "raw": "Nasdaq Round-the-Clock Trading by June 30 | NO (implied under 30%) | MED confidence**  \nTrending market example at ~30\u00a2 YES (30% chance); part of 166 active trending markets with $3M+ volume, but no X-specific whale chatter noted.[1]",
-      "direction": "YES",
+      "headline": "Trending Markets** category has 166 live options like \u201cNasdaq round-the-clock trading by June 30",
+      "raw": "Trending Markets** category has 166 live options like \u201cNasdaq round-the-clock trading by June 30?\u201d with $3M volume, but no specific whale bets, smart money moves, mispriced tips, or recent confirmations/announcements noted in real-time X posts[1].  \nData as of April 21, 2026; lacks direct X trader sentiment or breaking resolutions[1][2][3][4].",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -131,9 +119,9 @@
     }
   ],
   "stats": {
-    "enter": 1,
+    "enter": 0,
     "alert": 8,
     "watch": 0,
-    "high_conf": 2
+    "high_conf": 0
   }
 }
