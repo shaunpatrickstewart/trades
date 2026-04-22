@@ -1,16 +1,33 @@
 {
-  "last_scan": "2026-04-22T13:23:33.611504+00:00",
-  "scan_seconds": 23.1,
+  "last_scan": "2026-04-22T13:24:43.110792+00:00",
+  "scan_seconds": 22.6,
   "markets_scanned": 75,
   "open_positions": 38,
   "signals": [
     {
-      "id": "sig_1776864212594_4",
-      "timestamp": "2026-04-22T13:23:32.594564+00:00",
+      "id": "sig_1776864265668_0",
+      "timestamp": "2026-04-22T13:24:25.668280+00:00",
       "source": "PERPLEXITY",
-      "headline": "Recent breaking news or just-announced events",
-      "raw": "Recent breaking news or just-announced events",
-      "direction": null,
+      "headline": "Trump Extends Iran Ceasefire Indefinitely, Strategy Discloses $2",
+      "raw": "Trump Extends Iran Ceasefire Indefinitely, Strategy Discloses $2.54B BTC Buy \u2013 Crypto Rally Confirmed with Ethereum Up 0.7% to $2,390, XRP Up 1.5% to $1.45 | YES | HIGH confidence**[1]\n\nEthereum and XRP are rising today amid broader market gains driven by the indefinite extension of the Iran ceasefire, which removes geopolitical risk premiums, and Strategy's BTC purchase lifting holdings past 815,",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will Trump agree to Iranian enrichment of uranium in April?",
+        "Ethereum above 2,340 on April 22, 10AM ET?",
+        "Will XRP reach $1.50 April 20-26?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776864282107_0",
+      "timestamp": "2026-04-22T13:24:42.107653+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Elon Musk April Tweet Count Markets Lead Polymarket Activity | NO | LOW confidence**",
+      "raw": "Elon Musk April Tweet Count Markets Lead Polymarket Activity | NO | LOW confidence**\n\nPolymarket's most active markets as of April 21, 2026, focus on \"Elon Musk # tweets April 17 - April 24, 2026?\" and \"Elon Musk # tweets in April 2026?\", with the 1120-1159 range trading at 28% probability and $9M volume in one market[1][2][3].  \nNo whale bets, smart money moves, prediction tips, mispriced markets",
+      "direction": "NO",
       "confidence": 0.9,
       "matched_markets": [],
       "action": "ALERT",
@@ -18,29 +35,12 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776864195103_0",
-      "timestamp": "2026-04-22T13:23:15.103193+00:00",
+      "id": "sig_1776864277576_0",
+      "timestamp": "2026-04-22T13:24:37.576820+00:00",
       "source": "PERPLEXITY",
-      "headline": "Ethereum Shows Early Recovery with High Network Growth and ETF Inflows; XRP Sees ETF Inflows and XRPL Privacy Upgrades |",
-      "raw": "Ethereum Shows Early Recovery with High Network Growth and ETF Inflows; XRP Sees ETF Inflows and XRPL Privacy Upgrades | YES | HIGH confidence** [1][2]\n\nEthereum is trading at $2,184, forming a bullish pattern after declines, with RSI near oversold, easing supply pressure from 70,000 ETH staked by the Ethereum Foundation ($143M+), and $11.6B cumulative U.S. spot ETH ETF inflows (BlackRock at $6.5B",
-      "direction": "YES",
-      "confidence": 0.78,
-      "matched_markets": [
-        "Ethereum above 2,340 on April 22, 10AM ET?",
-        "Will XRP reach $1.50 April 20-26?",
-        "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776864205719_0",
-      "timestamp": "2026-04-22T13:23:25.719160+00:00",
-      "source": "PERPLEXITY",
-      "headline": "YES or NO: NO** | **Confidence: HIGH** (no relevant recent confirmations in results)",
-      "raw": "YES or NO: NO** | **Confidence: HIGH** (no relevant recent confirmations in results).",
-      "direction": "YES",
+      "headline": "I cannot provide the breaking news headline format you requested because the search results don't contain information ma",
+      "raw": "I cannot provide the breaking news headline format you requested because the search results don't contain information matching your query parameters.\n\nThe search results show **2025-26 NBA playoff information** (Eastern Conference first-round matchups and Western Conference results), but they lack:",
+      "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -48,143 +48,66 @@
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776864212583_0",
-      "timestamp": "2026-04-22T13:23:32.583317+00:00",
+      "id": "sig_1776864277580_1",
+      "timestamp": "2026-04-22T13:24:37.580584+00:00",
       "source": "PERPLEXITY",
-      "headline": "I don't have access to real-time information about what Polymarket traders are currently posting on X (formerly Twitter)",
-      "raw": "I don't have access to real-time information about what Polymarket traders are currently posting on X (formerly Twitter), active whale bets, or live market movements happening right now.\n\nThe search results provided describe how Polymarket operates as a prediction market platform[1][2][3], but they don't contain:",
+      "headline": "**Cooper Flagg coverage**: No mention of this player or any news about him",
+      "raw": "**Cooper Flagg coverage**: No mention of this player or any news about him",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776864277583_2",
+      "timestamp": "2026-04-22T13:24:37.583460+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Los Angeles Lakers information**: The Lakers don't appear in the playoff bracket results provided",
+      "raw": "**Los Angeles Lakers information**: The Lakers don't appear in the playoff bracket results provided",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "COMMUNITY"
+      "category": "SPORTS"
     },
     {
-      "id": "sig_1776864212586_1",
-      "timestamp": "2026-04-22T13:23:32.586049+00:00",
+      "id": "sig_1776864277586_3",
+      "timestamp": "2026-04-22T13:24:37.586482+00:00",
       "source": "PERPLEXITY",
-      "headline": "Current social media discussions or trader commentary from X",
-      "raw": "Current social media discussions or trader commentary from X",
-      "direction": null,
+      "headline": "**Toronto Raptors news**: No Raptors content is included",
+      "raw": "**Toronto Raptors news**: No Raptors content is included",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "COMMUNITY"
+      "category": "SPORTS"
     },
     {
-      "id": "sig_1776864212588_2",
-      "timestamp": "2026-04-22T13:23:32.588839+00:00",
+      "id": "sig_1776864277589_4",
+      "timestamp": "2026-04-22T13:24:37.589626+00:00",
       "source": "PERPLEXITY",
-      "headline": "Active whale positions or large money movements",
-      "raw": "Active whale positions or large money movements",
-      "direction": null,
+      "headline": "**Conference semifinals details**: Only first-round results are shown; semifinals haven't occurred yet in the bracket da",
+      "raw": "**Conference semifinals details**: Only first-round results are shown; semifinals haven't occurred yet in the bracket data\n\nThe most recent concrete information in the results is that the **Philadelphia 76ers defeated the Orlando Magic 109-97** on Wednesday to secure the No. 7 Eastern Conference seed and will face the second-seeded Boston Celtics[1], but this doesn't match your specific query focu",
+      "direction": "NO",
       "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776864212591_3",
-      "timestamp": "2026-04-22T13:23:32.591600+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Real-time market mispricing opportunities",
-      "raw": "Real-time market mispricing opportunities",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776864212597_5",
-      "timestamp": "2026-04-22T13:23:32.597315+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Markets about to experience significant price shifts",
-      "raw": "Markets about to experience significant price shifts\n\nTo find this information, you would need to:",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776864212600_6",
-      "timestamp": "2026-04-22T13:23:32.600041+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Check X/Twitter directly for discussions using hashtags like #Polymarket or #PredictionMarkets",
-      "raw": "Check X/Twitter directly for discussions using hashtags like #Polymarket or #PredictionMarkets",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776864212602_7",
-      "timestamp": "2026-04-22T13:23:32.602812+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Visit Polymarket's live markets page to see real-time price movements and trading volume",
-      "raw": "Visit Polymarket's live markets page to see real-time price movements and trading volume",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776864212608_9",
-      "timestamp": "2026-04-22T13:23:32.608392+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Review Polymarket's XTracker tool[4], which provides social media analytics that may show trending market discussions",
-      "raw": "Review Polymarket's XTracker tool[4], which provides social media analytics that may show trending market discussions\n\nThe search results only show that as of April 21, 2026, Polymarket had 160 active Trending Markets and 20 Tweet Markets with over $19.1M in trading volume on Tweet Markets specifically[3], but this doesn't reflect what's happening at this exact moment.",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776864201142_0",
-      "timestamp": "2026-04-22T13:23:21.142521+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Kevin Warsh confirmation hearing for Fed Chair underway amid inflation critiques | NO | HIGH confidence**",
-      "raw": "Kevin Warsh confirmation hearing for Fed Chair underway amid inflation critiques | NO | HIGH confidence**  \nNo breaking announcements today (April 22, 2026) on inflation, tariffs, or Powell's policy; latest developments from April 21 involve Senate questioning of Kevin Warsh\u2014Trump's nominee to replace Jerome Powell\u2014on past support for rate cuts during high inflation and Fed independence[3][4][5]. ",
-      "direction": "YES",
-      "confidence": 0.6,
       "matched_markets": [
-        "Will Trump agree to Iranian enrichment of uranium in April?",
-        "Will Powell say \"Tariff inflation\" during April press conference?"
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
+        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs",
+        "Will Boston Celtics advance to the Conference Semifinals in the 2026 NBA Playoff"
       ],
-      "action": "WATCH",
+      "action": "ALERT",
       "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776864212605_8",
-      "timestamp": "2026-04-22T13:23:32.605529+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Monitor crypto and finance news outlets for breaking announcements that might affect prediction market prices",
-      "raw": "Monitor crypto and finance news outlets for breaking announcements that might affect prediction market prices",
-      "direction": null,
-      "confidence": 0.6,
-      "matched_markets": [],
-      "action": "WATCH",
-      "x_link": null,
-      "category": "COMMUNITY"
+      "category": "SPORTS"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 11,
-    "watch": 2,
-    "high_conf": 1
+    "enter": 1,
+    "alert": 6,
+    "watch": 0,
+    "high_conf": 2
   }
 }
