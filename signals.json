@@ -1,20 +1,18 @@
 {
-  "last_scan": "2026-04-22T03:16:07.390764+00:00",
-  "scan_seconds": 16.8,
-  "markets_scanned": 78,
-  "open_positions": 38,
+  "last_scan": "2026-04-22T03:17:17.184170+00:00",
+  "scan_seconds": 16.6,
+  "markets_scanned": 56,
+  "open_positions": 16,
   "signals": [
     {
-      "id": "sig_1776827761764_0",
-      "timestamp": "2026-04-22T03:16:01.764048+00:00",
+      "id": "sig_1776827831652_0",
+      "timestamp": "2026-04-22T03:17:11.652863+00:00",
       "source": "PERPLEXITY",
-      "headline": "Thunder Advance to Western Conference Semifinals After 124-94 Game 3 Win Over Timberwolves | YES (OKC series win confirm",
-      "raw": "Thunder Advance to Western Conference Semifinals After 124-94 Game 3 Win Over Timberwolves | YES (OKC series win confirmed) | HIGH confidence** [1]\n\nOKC Thunder defeated the Timberwolves 124-94 in Game 3, completing a 3-0 series sweep in the first round after prior wins of 117-115 over Grizzlies and 125-93 over Nuggets, positioning OKC as heavy favorites (78% chance) for Western semifinals vs. lik",
+      "headline": "Kevin Durant Confirmed to Return for Game 2 vs",
+      "raw": "Kevin Durant Confirmed to Return for Game 2 vs. Lakers | YES (Rockets win series odds improve) | HIGH confidence** [4]  \nRockets star Kevin Durant, out for Game 1 (Lakers lead 1-0), is returning for Game 2 after a pregame workout, shifting series predictions as Houston's home math favors them even without him previously.[2][4] This first-round update impacts Western Conference semifinals paths, wi",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
-        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
         "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
       ],
       "action": "ENTER",
@@ -22,23 +20,62 @@
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776827766387_0",
-      "timestamp": "2026-04-22T03:16:06.387617+00:00",
+      "id": "sig_1776827831655_1",
+      "timestamp": "2026-04-22T03:17:11.655289+00:00",
       "source": "PERPLEXITY",
-      "headline": "Elon Musk April Tweet Count Markets Lead Polymarket Activity | NO whale bets or tips reported | LOW confidence**",
-      "raw": "Elon Musk April Tweet Count Markets Lead Polymarket Activity | NO whale bets or tips reported | LOW confidence**\n\nPolymarket's most active markets focus on **Elon Musk tweet predictions**, such as \"# tweets April 17-24, 2026?\" (e.g., \"200-219\" at 29%) and overall \"Elon Musk # tweets in April 2026?\" (e.g., \"1080-1119\" at 18%), with prices reflecting real-time trader sentiment across 130+ live Tweet",
-      "direction": "NO",
-      "confidence": 0.6,
+      "headline": "Victor Wembanyama in Concussion Protocol, Ruled Out Game 2 vs",
+      "raw": "Victor Wembanyama in Concussion Protocol, Ruled Out Game 2 vs. Trail Blazers | NO (Spurs advance odds drop) | HIGH confidence** [4]  \nSpurs rookie and MVP finalist Wembanyama exited Game 2 after a hard fall post-Game 1 win, entering protocol and ruled out, hurting their series outlook despite early playoff tone-setting.[3][4] Affects potential Western matchup seeding.",
+      "direction": "YES",
+      "confidence": 0.65,
       "matched_markets": [],
-      "action": "WATCH",
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776827836175_0",
+      "timestamp": "2026-04-22T03:17:16.175610+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Elon Musk April Tweet Count Markets Lead Polymarket Activity | NO | HIGH confidence**",
+      "raw": "Elon Musk April Tweet Count Markets Lead Polymarket Activity | NO | HIGH confidence**  \nPolymarket's most active markets right now focus on **Elon Musk's tweet volumes**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" (e.g., 200-219 at 29%) and the overall \"Elon Musk # tweets in April 2026?\" with 1080-1119 at 18%[1][2][3]. These reflect real-time trader sentiment across 130+ live tweet pr",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776827836178_1",
+      "timestamp": "2026-04-22T03:17:16.178309+00:00",
+      "source": "PERPLEXITY",
+      "headline": "No Recent Confirmations or Announcements Impacting Markets | NO | HIGH confidence**",
+      "raw": "No Recent Confirmations or Announcements Impacting Markets | NO | HIGH confidence**  \nSearch results show no breaking confirmations, resolutions, or events (e.g., data releases) moving these markets as of now; odds update continuously with trader activity but lack reports of whale activity or X buzz on mispricings[1][2][3].",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776827836181_2",
+      "timestamp": "2026-04-22T03:17:16.181030+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Polymarket Analytics Tools Trending Among Traders | YES | MED confidence**",
+      "raw": "Polymarket Analytics Tools Trending Among Traders | YES | MED confidence**  \nX posts highlight tools like Polymarket analytics and XTracker for tracking top traders' moves, giving \"x-ray vision\" into winning strategies\u2014potentially useful for spotting smart money or tips, though not tied to specific bets[4][5].",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
     }
   ],
   "stats": {
     "enter": 1,
-    "alert": 0,
-    "watch": 1,
+    "alert": 4,
+    "watch": 0,
     "high_conf": 1
   }
 }
