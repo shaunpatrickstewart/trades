@@ -1,5 +1,5 @@
 {
-  "ts": 1776870295,
+  "ts": 1776870365,
   "stale": false,
   "feed_ages": {
     "prices_age_s": 0,
@@ -7,7 +7,7 @@
     "usdc_age_s": 0
   },
   "prices": {
-    "usdc_usd": 0.99978
+    "usdc_usd": 0.999797
   },
   "polymarket": {
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
@@ -134,10 +134,10 @@
         "slug": "will-russia-enter-ternuvate-again-by-april-30",
         "title": "Will Russia enter Ternuvate again by April 30?",
         "size": 7.66,
-        "cur_price": 0.195,
-        "nav_usdc": 1.4937,
+        "cur_price": 0.19,
+        "nav_usdc": 1.4554,
         "cost_basis": 1.7618,
-        "unrealized_pnl": -0.2681
+        "unrealized_pnl": -0.3064
       },
       {
         "slug": "strait-of-hormuz-traffic-returns-to-normal-by-april-30",
@@ -170,10 +170,10 @@
         "slug": "will-trump-agree-to-iranian-enrichment-of-uranium-in-april",
         "title": "Will Trump agree to Iranian enrichment of uranium in April?",
         "size": 5.05,
-        "cur_price": 0.1409,
-        "nav_usdc": 0.7115,
+        "cur_price": 0.1424,
+        "nav_usdc": 0.7191,
         "cost_basis": 1.6917,
-        "unrealized_pnl": -0.9802
+        "unrealized_pnl": -0.9726
       },
       {
         "slug": "deepseek-v4-released-by-april-30-896",
@@ -321,16 +321,16 @@
       }
     ],
     "position_count": 34,
-    "positions_nav_usdc": 317.299,
-    "total_usdc": 404.2356,
-    "total_usd": 404.1467
+    "positions_nav_usdc": 317.2683,
+    "total_usdc": 404.2049,
+    "total_usd": 404.1229
   },
   "kalshi": {
     "funded": false,
     "total_usd": 0.0
   },
   "pnl": {
-    "ts": 1776870296,
+    "ts": 1776870366,
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
     "activity_rows": 54,
     "today": {
@@ -388,25 +388,15 @@
     },
     "24h": {
       "window": "24h",
-      "window_start_ts": 1776783896,
-      "realized_usdc": 0.2316,
-      "trade_count": 12,
-      "buy_volume_usdc": 117.6809,
+      "window_start_ts": 1776783966,
+      "realized_usdc": 0.0,
+      "trade_count": 8,
+      "buy_volume_usdc": 88.6541,
       "sell_volume_usdc": 29.2584,
-      "closed_positions": 1,
-      "winning_positions": 1,
-      "win_rate_pct": 100.0,
+      "closed_positions": 0,
+      "winning_positions": 0,
+      "win_rate_pct": 0.0,
       "per_position": [
-        {
-          "title": "Will the highest temperature in Cape Town be 22\u00b0C or higher on April 21?",
-          "slug": "highest-temperature-in-cape-town-on-april-21-2026-22corhigher",
-          "outcome_index": 1,
-          "buys_usdc": 29.0268,
-          "sells_usdc": 29.2584,
-          "net_size": 0.0,
-          "closed": true,
-          "realized_usdc": 0.2316
-        },
         {
           "title": "Will the highest temperature in Dallas be between 68-69\u00b0F on April 22?",
           "slug": "highest-temperature-in-dallas-on-april-22-2026-68-69f",
@@ -448,6 +438,16 @@
           "realized_usdc": 0.0
         },
         {
+          "title": "Will the highest temperature in Cape Town be 22\u00b0C or higher on April 21?",
+          "slug": "highest-temperature-in-cape-town-on-april-21-2026-22corhigher",
+          "outcome_index": 1,
+          "buys_usdc": 0.0,
+          "sells_usdc": 29.2584,
+          "net_size": -29.32,
+          "closed": false,
+          "realized_usdc": 0.0
+        },
+        {
           "title": "Will Russia enter Ternuvate again by April 30?",
           "slug": "will-russia-enter-ternuvate-again-by-april-30",
           "outcome_index": 0,
@@ -461,7 +461,7 @@
     },
     "7d": {
       "window": "7d",
-      "window_start_ts": 1776265496,
+      "window_start_ts": 1776265566,
       "realized_usdc": 1.5555,
       "trade_count": 54,
       "buy_volume_usdc": 494.7196,
@@ -674,7 +674,7 @@
     },
     "30d": {
       "window": "30d",
-      "window_start_ts": 1774278296,
+      "window_start_ts": 1774278366,
       "realized_usdc": 1.5555,
       "trade_count": 54,
       "buy_volume_usdc": 494.7196,
@@ -1100,7 +1100,7 @@
     }
   },
   "summary": {
-    "total_usd": 404.1467,
-    "total_usdc": 404.2356
+    "total_usd": 404.1229,
+    "total_usdc": 404.2049
   }
 }
