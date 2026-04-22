@@ -1,16 +1,16 @@
 {
-  "last_scan": "2026-04-22T05:33:09.005393+00:00",
-  "scan_seconds": 22.4,
+  "last_scan": "2026-04-22T05:34:08.412273+00:00",
+  "scan_seconds": 17.9,
   "markets_scanned": 81,
   "open_positions": 37,
   "signals": [
     {
-      "id": "sig_1776835979517_3",
-      "timestamp": "2026-04-22T05:32:59.517067+00:00",
+      "id": "sig_1776836043310_0",
+      "timestamp": "2026-04-22T05:34:03.310594+00:00",
       "source": "PERPLEXITY",
-      "headline": "Any confirmed announcements or resolutions from April 22, 2026",
-      "raw": "Any confirmed announcements or resolutions from April 22, 2026",
-      "direction": null,
+      "headline": "OKC Thunder advance to Western Conference Finals after defeating Nuggets 4-3 | YES (series winner confirmed) | HIGH conf",
+      "raw": "OKC Thunder advance to Western Conference Finals after defeating Nuggets 4-3 | YES (series winner confirmed) | HIGH confidence** [1]",
+      "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [],
       "action": "ALERT",
@@ -18,40 +18,132 @@
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776835979520_4",
-      "timestamp": "2026-04-22T05:32:59.520204+00:00",
+      "id": "sig_1776836039050_2",
+      "timestamp": "2026-04-22T05:33:59.050230+00:00",
       "source": "PERPLEXITY",
-      "headline": "Any developments that would specifically move prediction markets",
-      "raw": "Any developments that would specifically move prediction markets\n\nTo provide accurate breaking news in the headline format you requested, I would need search results containing current announcements or confirmed developments from today. The existing results appear to be from an earlier date focused on Flagg's scoring achievement and ROY candidacy.\n\nIf you're looking for specific breaking news abou",
+      "headline": "**Apr 4, 2025: Powell warns tariffs will raise inflation and slow growth amid high uncertainty; too soon for rate decisi",
+      "raw": "**Apr 4, 2025: Powell warns tariffs will raise inflation and slow growth amid high uncertainty; too soon for rate decisions; Dow drops 2,200 points.**[1]\n\n| Date | Headline | YES/NO (New Confirmation?) | Confidence |\n|------|----------|-----------------------------|------------|\n| Dec 10, 2025 | Powell: Tariffs drive most inflation overshoot; rate cut despite risks[2] | NO | HIGH |\n| Oct 29, 2025 ",
+      "direction": "YES",
+      "confidence": 0.78,
+      "matched_markets": [
+        "Will Powell say \"Tariff inflation\" during April press conference?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776836033615_0",
+      "timestamp": "2026-04-22T05:33:53.615086+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Latest relevant developments (all pre-April 22):**",
+      "raw": "Latest relevant developments (all pre-April 22):**",
       "direction": null,
-      "confidence": 0.9,
+      "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "SPORTS"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_1776835979508_0",
-      "timestamp": "2026-04-22T05:32:59.508214+00:00",
+      "id": "sig_1776836033621_2",
+      "timestamp": "2026-04-22T05:33:53.621105+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot provide the breaking news format you've requested because the search results do not contain information about r",
-      "raw": "I cannot provide the breaking news format you've requested because the search results do not contain information about recent confirmations, announcements, or resolutions involving the Cavaliers, Los Angeles Lakers, or market-moving developments from today.\n\nThe available search results discuss Cooper Flagg's historic 51-point performance and his position in the Rookie of the Year race against Kon",
+      "headline": "**HEADLINE: XRP hit intraday high of $1",
+      "raw": "**HEADLINE: XRP hit intraday high of $1.51 on April 17, first time in 2026 above $1.50** | **NO** (price action, not new confirmation) | **HIGH** confidence[1]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
+        "XRP Up or Down - April 22, 8:20AM-8:25AM ET",
+        "XRP Up or Down - April 22, 8:35AM-8:40AM ET"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776836033624_3",
+      "timestamp": "2026-04-22T05:33:53.624042+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**HEADLINE: Six U",
+      "raw": "**HEADLINE: Six U.S. spot XRP ETFs reached ~$1B AUM with $119.6M inflows week-ending April 11** | **NO** (ongoing, not newly resolved) | **HIGH** confidence[1]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
+        "XRP Up or Down - April 22, 8:20AM-8:25AM ET",
+        "XRP Up or Down - April 22, 8:35AM-8:40AM ET"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776836039043_0",
+      "timestamp": "2026-04-22T05:33:59.043823+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Dec 10, 2025: Powell attributes 'most' of inflation overshoot above 2% target to Trump's tariffs; Fed cuts rates by 25",
+      "raw": "**Dec 10, 2025: Powell attributes 'most' of inflation overshoot above 2% target to Trump's tariffs; Fed cuts rates by 25bps to 3.5-3.75% amid upside inflation risks and downside employment risks.** Expects tariff effects to be short-lived, with non-tariff inflation in low 2s.[2]",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [
-        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?"
+        "Will Powell say \"Tariff inflation\" during April press conference?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776836039046_1",
+      "timestamp": "2026-04-22T05:33:59.046988+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Oct 29, 2025: Powell notes expectation of additional modest inflation (0",
+      "raw": "**Oct 29, 2025: Powell notes expectation of additional modest inflation (0.2-0.4%) from ongoing tariffs into spring 2026, but views as one-time price level shift, not persistent; follows second straight rate cut to 3.75-4%.** Non-tariff inflation near 2%.[3]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Powell say \"Tariff inflation\" during April press conference?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776836043313_1",
+      "timestamp": "2026-04-22T05:34:03.313559+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Cavaliers eliminated by Pacers after ECF loss 91-103 | NO (won't win conference semifinals) | HIGH confidence** [2]",
+      "raw": "Cavaliers eliminated by Pacers after ECF loss 91-103 | NO (won't win conference semifinals) | HIGH confidence** [2]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776836043316_2",
+      "timestamp": "2026-04-22T05:34:03.316558+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Lakers eliminated in Western Conference Semis by Timberwolves (3-96 loss shown in bracket) | NO (won't win conference se",
+      "raw": "Lakers eliminated in Western Conference Semis by Timberwolves (3-96 loss shown in bracket) | NO (won't win conference semifinals) | HIGH confidence** [2]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
       ],
       "action": "ALERT",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776835979511_1",
-      "timestamp": "2026-04-22T05:32:59.511148+00:00",
+      "id": "sig_1776836043319_3",
+      "timestamp": "2026-04-22T05:34:03.319467+00:00",
       "source": "PERPLEXITY",
-      "headline": "Any Cavaliers-related news",
-      "raw": "Any Cavaliers-related news",
-      "direction": null,
+      "headline": "No breaking confirmation on Cooper Flagg (no recent results mention him in playoffs) | N/A | LOW confidence** [1][2][3][",
+      "raw": "No breaking confirmation on Cooper Flagg (no recent results mention him in playoffs) | N/A | LOW confidence** [1][2][3][4][5]",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -59,36 +151,40 @@
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776835979514_2",
-      "timestamp": "2026-04-22T05:32:59.514072+00:00",
+      "id": "sig_1776836047409_0",
+      "timestamp": "2026-04-22T05:34:07.409378+00:00",
       "source": "PERPLEXITY",
-      "headline": "Any Lakers-related news",
-      "raw": "Any Lakers-related news",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776835988002_0",
-      "timestamp": "2026-04-22T05:33:08.002102+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Polymarket Traders on X Focus on Elon Musk Tweet Volume Markets Amid High Trading Activity** | NO | HIGH confidence[1][2",
-      "raw": "Polymarket Traders on X Focus on Elon Musk Tweet Volume Markets Amid High Trading Activity** | NO | HIGH confidence[1][2][3]\n\nTraders are heavily discussing **Elon Musk # tweets** markets for April 2026 periods, including \"Elon Musk musk # tweets in April 2026?\" (18% odds on 1080-1119 tweets) and weekly bins like April 17-24, with over $17.1M total volume across 130+ live tweet markets[1][2][3]. N",
-      "direction": "YES",
+      "headline": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | HIGH confidence**",
+      "raw": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | HIGH confidence**  \nPolymarket's most active markets right now focus on **Elon Musk's tweet volumes**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" (29% on 180-199 outcome) and \"Elon Musk # tweets in April 2026?\" (18% on 1080-1119 range), with over $17.1M in trading volume across 130+ related markets.[2][3][4]  \n\nNo specific wh",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776836033618_1",
+      "timestamp": "2026-04-22T05:33:53.618085+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**HEADLINE: Rakuten Wallet launched XRP support for 44M users and 5M merchants on April 15** | **YES** (could drive adop",
+      "raw": "**HEADLINE: Rakuten Wallet launched XRP support for 44M users and 5M merchants on April 15** | **YES** (could drive adoption flows) | **MED** confidence[1]",
+      "direction": "YES",
+      "confidence": 0.6,
+      "matched_markets": [
+        "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
+        "XRP Up or Down - April 22, 8:20AM-8:25AM ET",
+        "XRP Up or Down - April 22, 8:35AM-8:40AM ET"
+      ],
+      "action": "WATCH",
+      "x_link": null,
+      "category": "CRYPTO"
     }
   ],
   "stats": {
     "enter": 0,
-    "alert": 6,
-    "watch": 0,
-    "high_conf": 2
+    "alert": 11,
+    "watch": 1,
+    "high_conf": 1
   }
 }
