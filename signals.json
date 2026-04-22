@@ -1,30 +1,15 @@
 {
-  "last_scan": "2026-04-22T21:32:44.125502+00:00",
-  "scan_seconds": 42.5,
+  "last_scan": "2026-04-22T21:33:27.540057+00:00",
+  "scan_seconds": 17.0,
   "markets_scanned": 47,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776893552780_0",
-      "timestamp": "2026-04-22T21:32:32.780283+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Based on the available search results, I cannot identify any breaking news announcement, confirmation, or resolution tha",
-      "raw": "Based on the available search results, I cannot identify any breaking news announcement, confirmation, or resolution that would move prediction markets for Ethereum today.\n\nThe search results show that **Ethereum is up $98.74 (4.3%) from yesterday**, trading at $2,403.78 as of 9:15 a.m. Eastern Time on April 22, 2026[1]. However, this price movement appears to reflect normal market activity rather",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776893563113_0",
-      "timestamp": "2026-04-22T21:32:43.113014+00:00",
+      "id": "sig_1776893606529_0",
+      "timestamp": "2026-04-22T21:33:26.529190+00:00",
       "source": "PERPLEXITY",
       "headline": "Nasdaq Round-the-Clock Trading by June 30",
-      "raw": "Nasdaq Round-the-Clock Trading by June 30? | NO | HIGH confidence**  \nPolymarket's top trending market shows 20% YES odds with $43.9K volume, indicating strong trader consensus against implementation by the deadline.[1]",
+      "raw": "Nasdaq Round-the-Clock Trading by June 30? | NO | HIGH confidence**  \nPolymarket's top trending market shows **20% YES odds** with $43.9K volume and $1.8K liquidity, indicating strong trader consensus against implementation by the deadline.[1]",
       "direction": "YES",
       "confidence": 0.78,
       "matched_markets": [],
@@ -33,65 +18,69 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776893552782_1",
-      "timestamp": "2026-04-22T21:32:32.782630+00:00",
+      "id": "sig_1776893606535_3",
+      "timestamp": "2026-04-22T21:33:26.535015+00:00",
       "source": "PERPLEXITY",
-      "headline": "HEADLINE | Cannot Confirm | LOW confidence**",
-      "raw": "HEADLINE | Cannot Confirm | LOW confidence**\n\nThere is insufficient information in the search results to identify breaking news that would move prediction markets at this time.",
-      "direction": null,
-      "confidence": 0.65,
+      "headline": "Iran x Israel/US Conflict Ends by",
+      "raw": "Iran x Israel/US Conflict Ends by...? | YES (resolved) | HIGH confidence**  \nGeopolitics market at **100%** (likely on an end date), with $12.3K liquidity, points to recent confirmation or resolution shifting odds dramatically.[2]",
+      "direction": "YES",
+      "confidence": 0.78,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776893558262_0",
-      "timestamp": "2026-04-22T21:32:38.262523+00:00",
+      "id": "sig_1776893601398_0",
+      "timestamp": "2026-04-22T21:33:21.398868+00:00",
       "source": "PERPLEXITY",
-      "headline": "Mavs Rookie Cooper Flagg Posts 27-10 Double-Double in Stunning 130-120 Win Over Cavs, Splitting Home-and-Home Series** |",
-      "raw": "Mavs Rookie Cooper Flagg Posts 27-10 Double-Double in Stunning 130-120 Win Over Cavs, Splitting Home-and-Home Series** | NO | HIGH confidence[1]\n\nRookie **Cooper Flagg** delivered 27 points, 10 assists, 6 rebounds, and 2 blocks in 33 minutes, powering the visiting Dallas Mavericks to a 130-120 upset victory against the Cleveland Cavaliers on March 15, 2026, ending Cleveland's seven-game win streak",
+      "headline": "Thunder Advance to Western Conference Semifinals After Sweeping Grizzlies | YES (OKC wins series) | HIGH confidence** [2",
+      "raw": "Thunder Advance to Western Conference Semifinals After Sweeping Grizzlies | YES (OKC wins series) | HIGH confidence** [2]\n\nIn the ongoing 2025-26 NBA playoffs, the **Oklahoma City Thunder** (1 seed) have defeated the Memphis Grizzlies (8 seed) 3-0, with scores of 117-115 (Game 1), 125-? (Game 2 vs. Nuggets mislisted but context shows progression), and 124-94 (Game 3 vs. Timberwolves, confirming se",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
-        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?"
+        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
       ],
       "action": "ALERT",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776893563114_1",
-      "timestamp": "2026-04-22T21:32:43.114854+00:00",
+      "id": "sig_1776893601400_1",
+      "timestamp": "2026-04-22T21:33:21.400942+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Pacers Advance in East After Key Wins | YES (Pacers win series vs",
+      "raw": "Pacers Advance in East After Key Wins | YES (Pacers win series vs. Knicks) | MED confidence** [1][2]\n\nIndiana Pacers (4 seed) beat Knicks (3 seed) multiple times (125-108, 114-?, 119-118), positioning them strongly in Eastern semifinals path, though full series outcome pending; no market-shifting finals yet.[1][2]\n\nNo confirmed series wins, rookie impacts, or announcements for Lakers/Raptors that ",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776893606531_1",
+      "timestamp": "2026-04-22T21:33:26.531162+00:00",
       "source": "PERPLEXITY",
       "headline": "\ud835\udd4f Money Launched by April 30",
-      "raw": "\ud835\udd4f Money Launched by April 30? | NO | HIGH confidence**  \nX-specific predictions list 16% YES odds and $33.6K volume, with the market ending in 7 days; traders on Polymarket view launch as unlikely soon.[2]",
+      "raw": "\ud835\udd4f Money Launched by April 30? | NO | HIGH confidence**  \nX-specific market at **16% YES odds** with $33.6K volume and $4.4K liquidity reflects low expectations for timely launch amid Elon Musk-related tech bets.[2]",
       "direction": "YES",
       "confidence": 0.65,
-      "matched_markets": [],
+      "matched_markets": [
+        "Will Trump name \"Elon\" or \"Musk\" in April?"
+      ],
       "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776893563116_2",
-      "timestamp": "2026-04-22T21:32:43.116694+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Iran x Israel/US Conflict Ends by",
-      "raw": "Iran x Israel/US Conflict Ends by...? | YES (resolved) | HIGH confidence**  \nMarket at 100% YES with $12.3K liquidity, signaling recent confirmation or resolution driving full trader agreement.[2]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776893563118_3",
-      "timestamp": "2026-04-22T21:32:43.118466+00:00",
+      "id": "sig_1776893606533_2",
+      "timestamp": "2026-04-22T21:33:26.533151+00:00",
       "source": "PERPLEXITY",
       "headline": "Monero Hits $1000 in 2026",
-      "raw": "Monero Hits $1000 in 2026? | NO | MED confidence**  \nTrending at 19% YES odds and $94.3K volume over 8 months; crypto sentiment leans bearish amid ongoing price debates.[1]",
+      "raw": "Monero Hits $1000 in 2026? | NO | MED confidence**  \nTrending crypto market at **19% YES odds** with $94.3K volume and $6.7K liquidity suggests skepticism on price surge, though higher volume hints at debate.[1]",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
@@ -100,24 +89,11 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776893563120_4",
-      "timestamp": "2026-04-22T21:32:43.120316+00:00",
+      "id": "sig_1776893606536_4",
+      "timestamp": "2026-04-22T21:33:26.536961+00:00",
       "source": "PERPLEXITY",
-      "headline": "Nikita Bier Out as Head of Product at X by June 30",
-      "raw": "Nikita Bier Out as Head of Product at X by June 30? | NO | HIGH confidence**  \nX predictions give 7% YES odds with $1.4K volume; low probability reflects stability expectations.[2]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776893563122_5",
-      "timestamp": "2026-04-22T21:32:43.122117+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Kanye Tweets Again by April 30",
-      "raw": "Kanye Tweets Again by April 30? | YES | MED confidence**  \nTweet markets at 60% YES odds; active trader interest in celebrity behavior without whale signals noted.[3]",
+      "headline": "Nikita Bier Out as X Head of Product by June 30",
+      "raw": "Nikita Bier Out as X Head of Product by June 30? | NO | HIGH confidence**  \nLow **7% YES odds** with $1.4K volume and $2.9K liquidity in X tech market shows minimal trader belief in leadership change soon.[2]  \n\nNo whale bets, smart money moves, or X posts on mispriced markets appear in real-time data; trends focus on low-YES probabilities for tech/finance/crypto events with volumes under $100K. N",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
@@ -127,9 +103,9 @@
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 8,
+    "enter": 0,
+    "alert": 7,
     "watch": 0,
-    "high_conf": 1
+    "high_conf": 0
   }
 }
