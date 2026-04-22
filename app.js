@@ -808,7 +808,7 @@
       // Event delegation for capital buttons (avoids inline onclick XSS)
       el.querySelectorAll('.cap-btn').forEach(btn => {
         btn.addEventListener('click', function() {
-          pmSetCapital(this.dataset.slug, this.dataset.outcome, parseFloat(this.dataset.bet));
+          window.pmSetCapital(this.dataset.slug, this.dataset.outcome, parseFloat(this.dataset.bet));
         });
       });
 
