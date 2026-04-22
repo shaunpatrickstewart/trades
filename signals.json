@@ -1,44 +1,42 @@
 {
-  "last_scan": "2026-04-22T20:40:51.864384+00:00",
-  "scan_seconds": 15.2,
+  "last_scan": "2026-04-22T20:41:56.729237+00:00",
+  "scan_seconds": 16.2,
   "markets_scanned": 48,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776890440033_0",
-      "timestamp": "2026-04-22T20:40:40.033237+00:00",
+      "id": "sig_1776890515718_4",
+      "timestamp": "2026-04-22T20:41:55.718764+00:00",
       "source": "PERPLEXITY",
-      "headline": "Ethereum price up $98",
-      "raw": "Ethereum price up $98.74 today (April 22, 2026) to $2,403.78 amid ongoing volatility | NO | HIGH confidence**\n\nNo breaking confirmations, announcements, or resolutions today directly tied to Ethereum's price movement or prediction markets; the uptick reflects short-term trader sentiment and speculation rather than new events.[1][3] Ethereum rose from $2,305.04 yesterday (April 21), marking daily v",
-      "direction": "YES",
+      "headline": "Recently announced events or market resolutions",
+      "raw": "Recently announced events or market resolutions",
+      "direction": null,
       "confidence": 0.9,
-      "matched_markets": [
-        "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET"
-      ],
-      "action": "ENTER",
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776890503290_0",
+      "timestamp": "2026-04-22T20:41:43.290565+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Confidence: HIGH** (based on absence of timely confirmations across sources)",
+      "raw": "Confidence: HIGH** (based on absence of timely confirmations across sources).",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776890450859_1",
-      "timestamp": "2026-04-22T20:40:50.859200+00:00",
+      "id": "sig_1776890515711_0",
+      "timestamp": "2026-04-22T20:41:55.711054+00:00",
       "source": "PERPLEXITY",
-      "headline": "X-Related Bets Surge: \ud835\udd4f Money Launch by April 30 at 16% | NO | MED confidence**",
-      "raw": "X-Related Bets Surge: \ud835\udd4f Money Launch by April 30 at 16% | NO | MED confidence**  \nX prediction markets highlight \"\ud835\udd4f Money launched by...?\" at 16% YES with $33.6K volume, ending in 7 days, as traders bet against imminent rollout[2]. \"Nikita Bier out as Head of Product at X by June 30?\" sits at 7% YES with $1.4K volume, indicating stability expectations[2]. \"Iran x Israel/US conflict ends by...?\" re",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776890450857_0",
-      "timestamp": "2026-04-22T20:40:50.857056+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Polymarket Trending Markets Heating Up: Nasdaq 24/7 Trading Odds at 20% | NO | HIGH confidence**",
-      "raw": "Polymarket Trending Markets Heating Up: Nasdaq 24/7 Trading Odds at 20% | NO | HIGH confidence**  \nPolymarket's top trending markets as of April 22, 2026, feature \"Nasdaq round-the-clock trading by June 30?\" at 20% YES odds with $43.9K volume and $1.8K liquidity, signaling trader skepticism on near-term implementation[1]. \"Will Monero hit $1000 in 2026?\" trades at 19% YES with $94.3K volume and $6",
-      "direction": "YES",
+      "headline": "I cannot provide the real-time information you're requesting based on the available search results",
+      "raw": "I cannot provide the real-time information you're requesting based on the available search results. The search results contain only general information about Polymarket's structure and some historical market data from April 2026, but they do not include:",
+      "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -46,25 +44,62 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776890450861_2",
-      "timestamp": "2026-04-22T20:40:50.861156+00:00",
+      "id": "sig_1776890515712_1",
+      "timestamp": "2026-04-22T20:41:55.712903+00:00",
       "source": "PERPLEXITY",
-      "headline": "Tweet Bets Active but Stable: Kanye Tweets by April 30 at 60% | YES | LOW confidence**",
-      "raw": "Tweet Bets Active but Stable: Kanye Tweets by April 30 at 60% | YES | LOW confidence**  \nTweet markets show \"Will Kanye tweet again by April 30?\" at 60% YES, with active Elon Musk tweet volume bets like \"Elon Musk # tweets April 17-24, 2026?\" drawing $22M+ cumulative interest across categories[3][4]. No fresh confirmations, announcements, or resolutions noted to spike these, and no X posts on whal",
-      "direction": "YES",
+      "headline": "Current social media posts from X (Twitter) by Polymarket traders",
+      "raw": "Current social media posts from X (Twitter) by Polymarket traders",
+      "direction": null,
       "confidence": 0.65,
-      "matched_markets": [
-        "Will Trump name \"Elon\" or \"Musk\" in April?"
-      ],
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776890515714_2",
+      "timestamp": "2026-04-22T20:41:55.714731+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Active whale bets or large position movements",
+      "raw": "Active whale bets or large position movements",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776890515716_3",
+      "timestamp": "2026-04-22T20:41:55.716528+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Real-time market commentary or tips",
+      "raw": "Real-time market commentary or tips",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776890515720_5",
+      "timestamp": "2026-04-22T20:41:55.720704+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Information about potentially mispriced markets",
+      "raw": "Information about potentially mispriced markets\n\nTo get this information, you would need to:",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 3,
+    "enter": 0,
+    "alert": 7,
     "watch": 0,
-    "high_conf": 2
+    "high_conf": 1
   }
 }
