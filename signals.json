@@ -1,42 +1,160 @@
 {
-  "last_scan": "2026-04-22T19:07:47.926387+00:00",
-  "scan_seconds": 17.2,
+  "last_scan": "2026-04-22T19:08:56.900105+00:00",
+  "scan_seconds": 16.3,
   "markets_scanned": 54,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776884856068_0",
-      "timestamp": "2026-04-22T19:07:36.068264+00:00",
+      "id": "sig_1776884930224_0",
+      "timestamp": "2026-04-22T19:08:50.224993+00:00",
       "source": "PERPLEXITY",
-      "headline": "Based on the search results provided, I cannot identify any breaking news from today (April 22, 2026) that has just been",
-      "raw": "Based on the search results provided, I cannot identify any breaking news from today (April 22, 2026) that has just been confirmed, announced, or resolved. The most recent data in the search results is from mid-April 2026, which is several days old.\n\nThe search results contain market analysis and price data from April 18-20, 2026, but no announcements or confirmations from April 22. The only upcom",
-      "direction": "NO",
+      "headline": "Cooper Flagg's 45-point explosion leads Mavericks to 134-128 win over injury-depleted Lakers, breaking LeBron James' tee",
+      "raw": "Cooper Flagg's 45-point explosion leads Mavericks to 134-128 win over injury-depleted Lakers, breaking LeBron James' teenage 40-point game record and boosting Rookie of the Year buzz | NO (no new trades, injuries, or standings shifts confirmed; game from Apr 6) | LOW confidence**\n\nNo breaking announcements today (Apr 22, 2026) involving Lakers, Cavaliers, or Raptors that resolve predictions like p",
+      "direction": "YES",
       "confidence": 0.9,
+      "matched_markets": [
+        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776884935887_4",
+      "timestamp": "2026-04-22T19:08:55.887997+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Recently confirmed announcements or resolutions",
+      "raw": "Recently confirmed announcements or resolutions",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776884924936_0",
+      "timestamp": "2026-04-22T19:08:44.936123+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Confidence: HIGH** \u2013 Search results lack any fresh announcements, resolutions, or confirmations tied to price movement a",
+      "raw": "Confidence: HIGH** \u2013 Search results lack any fresh announcements, resolutions, or confirmations tied to price movement as of now.[1][2][3][4]",
+      "direction": null,
+      "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776884866923_0",
-      "timestamp": "2026-04-22T19:07:46.923182+00:00",
+      "id": "sig_1776884935880_0",
+      "timestamp": "2026-04-22T19:08:55.880219+00:00",
       "source": "PERPLEXITY",
-      "headline": "Polymarket Traders on X Focus on Tweet Markets Amid High Trading Volume** | NO | MED confidence",
-      "raw": "Polymarket Traders on X Focus on Tweet Markets Amid High Trading Volume** | NO | MED confidence\n\nPolymarket's trending markets emphasize **tweet prediction markets**, particularly those tracking **Elon Musk's tweet counts** (e.g., \"Elon Musk # tweets April 20 - April 22, 2026?\" at 40-64% implied odds, \"Elon Musk # tweets April 17 - April 24, 2026?\", and \"Elon Musk # tweets in April 2026?\" with 18-",
-      "direction": "NO",
+      "headline": "I cannot provide the real-time information you're requesting based on the available search results",
+      "raw": "I cannot provide the real-time information you're requesting based on the available search results. The search results show Polymarket's market structure and some trending markets as of April 21-22, 2026, but they do **not** contain:",
+      "direction": null,
       "confidence": 0.65,
-      "matched_markets": [
-        "Will Trump name \"Elon\" or \"Musk\" in April?"
-      ],
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776884935882_1",
+      "timestamp": "2026-04-22T19:08:55.882161+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Current trader discussions or posts on X (formerly Twitter)",
+      "raw": "Current trader discussions or posts on X (formerly Twitter)",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776884935884_2",
+      "timestamp": "2026-04-22T19:08:55.884127+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Specific whale bets or smart money moves happening right now",
+      "raw": "Specific whale bets or smart money moves happening right now",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776884935886_3",
+      "timestamp": "2026-04-22T19:08:55.886072+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Real-time market commentary or analysis from traders",
+      "raw": "Real-time market commentary or analysis from traders",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776884935890_5",
+      "timestamp": "2026-04-22T19:08:55.890295+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Identified mispriced markets or imminent price movements",
+      "raw": "Identified mispriced markets or imminent price movements\n\nThe search results only display market names, odds percentages, and general platform information\u2014not the active conversation or breaking developments you're asking about.\n\nTo get this information, you would need to:",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776884935893_6",
+      "timestamp": "2026-04-22T19:08:55.893119+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Check X directly for traders discussing Polymarket markets",
+      "raw": "Check X directly for traders discussing Polymarket markets",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776884935895_7",
+      "timestamp": "2026-04-22T19:08:55.895071+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Visit Polymarket's platform to see live order flow and recent trades",
+      "raw": "Visit Polymarket's platform to see live order flow and recent trades",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776884935897_8",
+      "timestamp": "2026-04-22T19:08:55.897087+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Monitor prediction market news sources or trading communities in real time",
+      "raw": "Monitor prediction market news sources or trading communities in real time\n\nIf you're interested in specific Polymarket markets or want to understand how prediction markets work, I can help with that based on the available information.",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 2,
+    "enter": 1,
+    "alert": 10,
     "watch": 0,
-    "high_conf": 1
+    "high_conf": 2
   }
 }
