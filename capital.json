@@ -1,5 +1,5 @@
 {
-  "ts": 1776855185,
+  "ts": 1776855255,
   "stale": false,
   "feed_ages": {
     "prices_age_s": 0,
@@ -7,7 +7,7 @@
     "usdc_age_s": 0
   },
   "prices": {
-    "usdc_usd": 0.999671
+    "usdc_usd": 0.99976
   },
   "polymarket": {
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
@@ -323,27 +323,37 @@
     "position_count": 34,
     "positions_nav_usdc": 317.3213,
     "total_usdc": 404.2579,
-    "total_usd": 404.1249
+    "total_usd": 404.1609
   },
   "kalshi": {
     "funded": false,
     "total_usd": 0.0
   },
   "pnl": {
-    "ts": 1776855186,
+    "ts": 1776855256,
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
-    "activity_rows": 53,
+    "activity_rows": 54,
     "today": {
       "window": "today",
       "window_start_ts": 1776816000,
       "realized_usdc": 0.0,
-      "trade_count": 5,
-      "buy_volume_usdc": 72.3492,
+      "trade_count": 6,
+      "buy_volume_usdc": 86.8923,
       "sell_volume_usdc": 0.0,
       "closed_positions": 0,
       "winning_positions": 0,
       "win_rate_pct": 0.0,
       "per_position": [
+        {
+          "title": "Will the highest temperature in Dallas be between 68-69\u00b0F on April 22?",
+          "slug": "highest-temperature-in-dallas-on-april-22-2026-68-69f",
+          "outcome_index": 1,
+          "buys_usdc": 14.5431,
+          "sells_usdc": 0.0,
+          "net_size": 14.69,
+          "closed": false,
+          "realized_usdc": 0.0
+        },
         {
           "title": "Will the lowest temperature in Shanghai be 11\u00b0C on April 22?",
           "slug": "lowest-temperature-in-shanghai-on-april-22-2026-11c",
@@ -378,10 +388,10 @@
     },
     "24h": {
       "window": "24h",
-      "window_start_ts": 1776768786,
+      "window_start_ts": 1776768856,
       "realized_usdc": 0.2316,
-      "trade_count": 12,
-      "buy_volume_usdc": 107.3563,
+      "trade_count": 13,
+      "buy_volume_usdc": 121.8994,
       "sell_volume_usdc": 29.2584,
       "closed_positions": 1,
       "winning_positions": 1,
@@ -396,6 +406,16 @@
           "net_size": 0.0,
           "closed": true,
           "realized_usdc": 0.2316
+        },
+        {
+          "title": "Will the highest temperature in Dallas be between 68-69\u00b0F on April 22?",
+          "slug": "highest-temperature-in-dallas-on-april-22-2026-68-69f",
+          "outcome_index": 1,
+          "buys_usdc": 14.5431,
+          "sells_usdc": 0.0,
+          "net_size": 14.69,
+          "closed": false,
+          "realized_usdc": 0.0
         },
         {
           "title": "Will the lowest temperature in Shanghai be 11\u00b0C on April 22?",
@@ -451,10 +471,10 @@
     },
     "7d": {
       "window": "7d",
-      "window_start_ts": 1776250386,
+      "window_start_ts": 1776250456,
       "realized_usdc": 1.5555,
-      "trade_count": 53,
-      "buy_volume_usdc": 480.1765,
+      "trade_count": 54,
+      "buy_volume_usdc": 494.7196,
       "sell_volume_usdc": 180.4188,
       "closed_positions": 3,
       "winning_positions": 3,
@@ -489,6 +509,16 @@
           "net_size": 0.0,
           "closed": true,
           "realized_usdc": 0.2316
+        },
+        {
+          "title": "Will the highest temperature in Dallas be between 68-69\u00b0F on April 22?",
+          "slug": "highest-temperature-in-dallas-on-april-22-2026-68-69f",
+          "outcome_index": 1,
+          "buys_usdc": 14.5431,
+          "sells_usdc": 0.0,
+          "net_size": 14.69,
+          "closed": false,
+          "realized_usdc": 0.0
         },
         {
           "title": "Will the lowest temperature in Shanghai be 11\u00b0C on April 22?",
@@ -647,16 +677,6 @@
           "buys_usdc": 2.4745,
           "sells_usdc": 0.0,
           "net_size": 4.9727,
-          "closed": false,
-          "realized_usdc": 0.0
-        },
-        {
-          "title": "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
-          "slug": "will-los-angeles-lakers-advance-to-the-conference-semifinals-in-the-2026-nba-playoffs",
-          "outcome_index": 0,
-          "buys_usdc": 1.717,
-          "sells_usdc": 0.0,
-          "net_size": 4.95,
           "closed": false,
           "realized_usdc": 0.0
         }
@@ -664,10 +684,10 @@
     },
     "30d": {
       "window": "30d",
-      "window_start_ts": 1774263186,
+      "window_start_ts": 1774263256,
       "realized_usdc": 1.5555,
-      "trade_count": 53,
-      "buy_volume_usdc": 480.1765,
+      "trade_count": 54,
+      "buy_volume_usdc": 494.7196,
       "sell_volume_usdc": 180.4188,
       "closed_positions": 3,
       "winning_positions": 3,
@@ -702,6 +722,16 @@
           "net_size": 0.0,
           "closed": true,
           "realized_usdc": 0.2316
+        },
+        {
+          "title": "Will the highest temperature in Dallas be between 68-69\u00b0F on April 22?",
+          "slug": "highest-temperature-in-dallas-on-april-22-2026-68-69f",
+          "outcome_index": 1,
+          "buys_usdc": 14.5431,
+          "sells_usdc": 0.0,
+          "net_size": 14.69,
+          "closed": false,
+          "realized_usdc": 0.0
         },
         {
           "title": "Will the lowest temperature in Shanghai be 11\u00b0C on April 22?",
@@ -860,16 +890,6 @@
           "buys_usdc": 2.4745,
           "sells_usdc": 0.0,
           "net_size": 4.9727,
-          "closed": false,
-          "realized_usdc": 0.0
-        },
-        {
-          "title": "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
-          "slug": "will-los-angeles-lakers-advance-to-the-conference-semifinals-in-the-2026-nba-playoffs",
-          "outcome_index": 0,
-          "buys_usdc": 1.717,
-          "sells_usdc": 0.0,
-          "net_size": 4.95,
           "closed": false,
           "realized_usdc": 0.0
         }
@@ -879,8 +899,8 @@
       "window": "all",
       "window_start_ts": 0,
       "realized_usdc": 1.5555,
-      "trade_count": 53,
-      "buy_volume_usdc": 480.1765,
+      "trade_count": 54,
+      "buy_volume_usdc": 494.7196,
       "sell_volume_usdc": 180.4188,
       "closed_positions": 3,
       "winning_positions": 3,
@@ -915,6 +935,16 @@
           "net_size": 0.0,
           "closed": true,
           "realized_usdc": 0.2316
+        },
+        {
+          "title": "Will the highest temperature in Dallas be between 68-69\u00b0F on April 22?",
+          "slug": "highest-temperature-in-dallas-on-april-22-2026-68-69f",
+          "outcome_index": 1,
+          "buys_usdc": 14.5431,
+          "sells_usdc": 0.0,
+          "net_size": 14.69,
+          "closed": false,
+          "realized_usdc": 0.0
         },
         {
           "title": "Will the lowest temperature in Shanghai be 11\u00b0C on April 22?",
@@ -1075,22 +1105,12 @@
           "net_size": 4.9727,
           "closed": false,
           "realized_usdc": 0.0
-        },
-        {
-          "title": "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
-          "slug": "will-los-angeles-lakers-advance-to-the-conference-semifinals-in-the-2026-nba-playoffs",
-          "outcome_index": 0,
-          "buys_usdc": 1.717,
-          "sells_usdc": 0.0,
-          "net_size": 4.95,
-          "closed": false,
-          "realized_usdc": 0.0
         }
       ]
     }
   },
   "summary": {
-    "total_usd": 404.1249,
+    "total_usd": 404.1609,
     "total_usdc": 404.2579
   }
 }
