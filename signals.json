@@ -1,141 +1,31 @@
 {
-  "last_scan": "2026-04-22T23:00:03.334606+00:00",
-  "scan_seconds": 34.8,
-  "markets_scanned": 47,
+  "last_scan": "2026-04-22T23:00:44.294235+00:00",
+  "scan_seconds": 13.8,
+  "markets_scanned": 49,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776898791692_0",
-      "timestamp": "2026-04-22T22:59:51.692992+00:00",
+      "id": "sig_1776898839020_0",
+      "timestamp": "2026-04-22T23:00:39.020237+00:00",
       "source": "PERPLEXITY",
-      "headline": "Based on the search results provided, here are the key confirmed developments:",
-      "raw": "Based on the search results provided, here are the key confirmed developments:",
-      "direction": null,
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776898791702_5",
-      "timestamp": "2026-04-22T22:59:51.702459+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Current ETH Price: $2,305-$2,317 | Confirmed | HIGH confidence**",
-      "raw": "Current ETH Price: $2,305-$2,317 | Confirmed | HIGH confidence**\n\nAs of April 20-21, 2026, Ethereum was trading between $2,305.04 and $2,317.80[3][4], representing approximately a $725 year-over-year gain[3][4].\n\nThese developments suggest institutional money is returning to Ethereum despite the price remaining 52% below its November 2021 all-time high of $4,891[1].",
-      "direction": null,
-      "confidence": 0.9,
-      "matched_markets": [
-        "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776898802326_0",
-      "timestamp": "2026-04-22T23:00:02.326558+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Trending Polymarket Discussions on X: Limited Real-Time Whale Bets or Tips Visible | NO major whale moves or mispriced m",
-      "raw": "Trending Polymarket Discussions on X: Limited Real-Time Whale Bets or Tips Visible | NO major whale moves or mispriced markets confirmed | LOW confidence**\n\nPolymarket's **trending markets** as of April 22, 2026, include 168 active predictions on topics like \"Nasdaq round-the-clock trading by June 30?\" with over $3.0M in volume, but no specific X posts about whale bets or smart money moves are det",
+      "headline": "Lakers Superstar Luka Don\u010di\u0107 Suffers Season-Ending Injury in Loss to Mavericks; Cooper Flagg Drops 45 Points** | **NO**",
+      "raw": "Lakers Superstar Luka Don\u010di\u0107 Suffers Season-Ending Injury in Loss to Mavericks; Cooper Flagg Drops 45 Points** | **NO** | **HIGH** confidence[1][2][4][5]\n\nLuka Don\u010di\u0107, a key Lakers scorer, has a confirmed season-ending injury, alongside Austin Reaves also out, severely weakening Los Angeles in their 134-128 loss to Dallas where rookie Cooper Flagg scored 45 points (near triple-double) after a prio",
       "direction": "NO",
       "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776898791695_1",
-      "timestamp": "2026-04-22T22:59:51.695211+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Ethereum ETF Inflows Hit $275M Weekly - Strongest Since January | YES | HIGH confidence**",
-      "raw": "Ethereum ETF Inflows Hit $275M Weekly - Strongest Since January | YES | HIGH confidence**\n\nEthereum-based ETFs recorded more than $275 million in weekly inflows, marking the strongest performance since January 2026, with Fidelity's FETH and BlackRock's ETHA leading institutional demand[1]. The ethereum price climbed 7% to nearly $2,400 during this period as the broader crypto market cap rose 4% to",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776898791697_2",
-      "timestamp": "2026-04-22T22:59:51.697020+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Pectra Upgrade Enters Final Testing Phase | YES | HIGH confidence**",
-      "raw": "Pectra Upgrade Enters Final Testing Phase | YES | HIGH confidence**\n\nThe Prague-Electra (Pectra) Upgrade is in its final testing stages, promising to revolutionize wallet abstraction and validator efficiency on the Ethereum network[2].",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776898791698_3",
-      "timestamp": "2026-04-22T22:59:51.698854+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Layer 2 TVL Surpasses Major Milestones | YES | MED confidence**",
-      "raw": "Layer 2 TVL Surpasses Major Milestones | YES | MED confidence**\n\nTotal value locked (TVL) in Layer 2 ecosystems like Base and Arbitrum has surpassed significant milestones, reflecting growing institutional adoption[2].",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776898791700_4",
-      "timestamp": "2026-04-22T22:59:51.700630+00:00",
-      "source": "PERPLEXITY",
-      "headline": "JPMorgan Settlement Pilots Signal Long-Term Confidence | YES | HIGH confidence**",
-      "raw": "JPMorgan Settlement Pilots Signal Long-Term Confidence | YES | HIGH confidence**\n\nInstitutional settlement pilots from JPMorgan on Ethereum infrastructure demonstrate serious institutional confidence in the network's future[1].",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776898797208_0",
-      "timestamp": "2026-04-22T22:59:57.208885+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Cooper Flagg overtakes Kon Knueppel as betting favorite for NBA Rookie of the Year after scoring 96 points over two game",
-      "raw": "Cooper Flagg overtakes Kon Knueppel as betting favorite for NBA Rookie of the Year after scoring 96 points over two games** | YES | HIGH[1]\n\nFlagg's odds shifted to -250 on DraftKings (from +225 pre-weekend), passing Knueppel's +180, driven by his 51-point record against Orlando Magic and 45-point near triple-double versus Lakers\u2014first teenager since Allen Iverson to average 45+ points, 5+ rebound",
-      "direction": "YES",
-      "confidence": 0.65,
       "matched_markets": [
         "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
-        "NBA Playoffs: Who Will Win Series? - Pistons vs. Magic "
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
       ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776898797211_1",
-      "timestamp": "2026-04-22T22:59:57.211051+00:00",
+      "id": "sig_1776898843289_0",
+      "timestamp": "2026-04-22T23:00:43.289449+00:00",
       "source": "PERPLEXITY",
-      "headline": "Reggie Miller flips Rookie of the Year vote to Flagg post-play-in struggles by Knueppel** | YES | MED[2]",
-      "raw": "Reggie Miller flips Rookie of the Year vote to Flagg post-play-in struggles by Knueppel** | YES | MED[2]\n\nHall of Famer Reggie Miller switched from Knueppel (\"Two weeks ago, I had Kon\") to Flagg after delayed ballots (due to Doncic/Cunningham arbitration) captured Knueppel's poor play-in vs. Heat (benched in OT) and loss to Orlando[2]. Flagg's end-season dominance vs. teams like Cavaliers (27/10/6",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776898802330_1",
-      "timestamp": "2026-04-22T23:00:02.330392+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Tweet Markets** are a hotspot, with 20 live markets (e",
-      "raw": "Tweet Markets** are a hotspot, with 20 live markets (e.g., \"Elon Musk # tweets April 17 - April 24, 2026?\") showing odds like 38% or 21% on ranges such as 1120-1159 tweets in April, backed by $20.7M volume; the most active is \"Elon Musk # tweets in April 2026?\"[2][3].  \nX discussions highlight Polymarket analytics tools providing \"x-ray vision\" into top traders' strategies, with posts claiming the",
+      "headline": "Elon Musk April 2026 Tweet Count Markets Trending on Polymarket | NO | LOW confidence**",
+      "raw": "Elon Musk April 2026 Tweet Count Markets Trending on Polymarket | NO | LOW confidence**\n\nPolymarket's most active markets right now focus on **Elon Musk's tweet volume in April 2026**, with the \"Elon Musk # tweets in April 2026?\" market showing high trading volume over $20M and the 1120-1159 tweet range priced at 20-21% implied probability[3][4].  \nOther trending categories include **Tweet Markets",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [
@@ -144,12 +34,25 @@
       "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776898843291_1",
+      "timestamp": "2026-04-22T23:00:43.291270+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Pop Culture tweet markets** like Kanye or Elon-specific counts update dynamically with trader sentiment but show no high",
+      "raw": "Pop Culture tweet markets** like Kanye or Elon-specific counts update dynamically with trader sentiment but show no highlighted tips or big moves[2][3].",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 10,
+    "enter": 1,
+    "alert": 2,
     "watch": 0,
-    "high_conf": 3
+    "high_conf": 1
   }
 }
