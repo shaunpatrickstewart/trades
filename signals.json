@@ -1,48 +1,214 @@
 {
-  "last_scan": "2026-04-22T07:52:48.508706+00:00",
-  "scan_seconds": 18.0,
+  "last_scan": "2026-04-22T07:54:03.008093+00:00",
+  "scan_seconds": 22.5,
   "markets_scanned": 77,
   "open_positions": 37,
   "signals": [
     {
-      "id": "sig_1776844362802_0",
-      "timestamp": "2026-04-22T07:52:42.802462+00:00",
+      "id": "sig_1776844432106_3",
+      "timestamp": "2026-04-22T07:53:52.106793+00:00",
       "source": "PERPLEXITY",
-      "headline": "Cavaliers Defeat Raptors 126-113 in Game 1 of Eastern Conference First Round, Taking 1-0 Series Lead | NO | LOW confiden",
-      "raw": "Cavaliers Defeat Raptors 126-113 in Game 1 of Eastern Conference First Round, Taking 1-0 Series Lead | NO | LOW confidence**\n\nGame 1 occurred on Saturday, April 18, 2026, in Cleveland, with Donovan Mitchell scoring 32 points and James Harden contributing significantly in the win over Toronto, where RJ Barrett led with 24 points[1][2][4].  \nThis advances the Cavaliers (52-30, 4th seed) against the ",
+      "headline": "Inflation trajectory confirmed | YES | HIGH confidence**",
+      "raw": "Inflation trajectory confirmed | YES | HIGH confidence**\nCore PCE inflation remains stuck at 2.9% (2025) with IMF projections of 2.6% by end-2026\u2014well above the 2% target. The IMF flagged \"upside risks to global commodity prices\" from the Iran conflict keeping oil elevated.[1]",
       "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776844437045_5",
+      "timestamp": "2026-04-22T07:53:57.045325+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Unrelated: Wembanyama concussion in non-playoff context (Spurs vs Blazers)[5]",
+      "raw": "Unrelated: Wembanyama concussion in non-playoff context (Spurs vs Blazers)[5]. No resolved series wins or market-shifting announcements confirmed right now[1][2][3].",
+      "direction": "NO",
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776844432109_4",
+      "timestamp": "2026-04-22T07:53:52.109846+00:00",
+      "source": "PERPLEXITY",
+      "headline": "GDP growth projection | YES | HIGH confidence**",
+      "raw": "GDP growth projection | YES | HIGH confidence**\nThe IMF projects modest U.S. GDP growth of 2.4% in 2026, with tariffs expected to reduce activity and create \"sizable negative spillovers\" on trading partners.[1]\n\nThese April 2 developments would likely move markets given the hawkish Fed stance, elevated tariff rates at 43-year highs, and sticky inflation\u2014but I cannot confirm what has occurred since",
+      "direction": "YES",
+      "confidence": 0.78,
+      "matched_markets": [
+        "Will Powell say \"Tariff inflation\" during April press conference?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776844441995_0",
+      "timestamp": "2026-04-22T07:54:01.995399+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Elon Musk # Tweets April 17-24, 2026",
+      "raw": "Elon Musk # Tweets April 17-24, 2026? | NO | HIGH confidence**  \nPolymarket's most active X-related market shows traders pricing \"220-239 tweets\" at 29% and \"40-64\" at 76%, with $6M total volume and $2M traded today, signaling strong sentiment on low tweet counts as the week (ending soon) nears completion\u2014traders on X likely buzzing about this as a mispriced edge or smart money play amid real-time",
+      "direction": "NO",
+      "confidence": 0.78,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776844432096_0",
+      "timestamp": "2026-04-22T07:53:52.096197+00:00",
+      "source": "PERPLEXITY",
+      "headline": "I cannot provide breaking news from April 22, 2026, as the search results only contain information through April 2, 2026",
+      "raw": "I cannot provide breaking news from April 22, 2026, as the search results only contain information through April 2, 2026. The most recent substantive announcements in these results are:",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776844432099_1",
+      "timestamp": "2026-04-22T07:53:52.099234+00:00",
+      "source": "PERPLEXITY",
+      "headline": "IMF Article IV Consultation findings (April 2, 2026) | YES | HIGH confidence**",
+      "raw": "IMF Article IV Consultation findings (April 2, 2026) | YES | HIGH confidence**\nThe IMF's Executive Board explicitly stated there is \"little room to cut interest rates in 2026,\" with rate cuts only appropriate if labor market conditions materially worsen alongside declining inflation. The Fed funds rate is projected to move only from 3.6% to 3.4% in 2026.[1]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Powell say \"Tariff inflation\" during April press conference?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776844432103_2",
+      "timestamp": "2026-04-22T07:53:52.103246+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Tariff rate confirmation (April 2, 2026) | YES | HIGH confidence**",
+      "raw": "Tariff rate confirmation (April 2, 2026) | YES | HIGH confidence**\nThe U.S. average effective tariff rate stands at **11.0%, the highest since 1943** (excluding 2025). If Section 122 tariffs expire as scheduled in 150 days, the rate will fall to 8.2%.[2]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Powell say \"Tariff inflation\" during April press conference?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776844437030_0",
+      "timestamp": "2026-04-22T07:53:57.030870+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Lakers Lead Rockets 2-0 in Western Conference First Round After Game 2 Win; No Conference Semifinals Yet** | NO | HIGH c",
+      "raw": "Lakers Lead Rockets 2-0 in Western Conference First Round After Game 2 Win; No Conference Semifinals Yet** | NO | HIGH confidence[2]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776844437033_1",
+      "timestamp": "2026-04-22T07:53:57.033827+00:00",
+      "source": "PERPLEXITY",
+      "headline": "NBA Playoffs 2025-26 are in **first round** as of April 22, 2026; Western Conference semifinals not reached (e",
+      "raw": "NBA Playoffs 2025-26 are in **first round** as of April 22, 2026; Western Conference semifinals not reached (e.g., Thunder lead Grizzlies/Suns 1-0 or advancing, Lakers lead Rockets 2-0, Nuggets lead Clippers, Timberwolves lead Warriors)[2][1].",
+      "direction": null,
       "confidence": 0.65,
       "matched_markets": [
         "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
         "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
-        "Will the highest temperature in Toronto be 14\u00b0C on April 22?"
+        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
       ],
       "action": "ALERT",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776844362805_1",
-      "timestamp": "2026-04-22T07:52:42.805559+00:00",
+      "id": "sig_1776844437036_2",
+      "timestamp": "2026-04-22T07:53:57.036738+00:00",
       "source": "PERPLEXITY",
-      "headline": "Raptors Streak Ends vs Cavaliers in Playoffs",
-      "raw": "Raptors Streak Ends vs Cavaliers in Playoffs? | NO | LOW confidence** (Raptors have lost 11 straight playoff games to Cleveland, now 12[4]).",
+      "headline": "No breaking confirmations on **conference semifinals** series outcomes, **Raptors** (not in playoffs per bracket/standin",
+      "raw": "No breaking confirmations on **conference semifinals** series outcomes, **Raptors** (not in playoffs per bracket/standings), or **rookie** impacts moving prediction markets[2][4].",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
+        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
       ],
       "action": "ALERT",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776844367505_0",
-      "timestamp": "2026-04-22T07:52:47.505518+00:00",
+      "id": "sig_1776844437039_3",
+      "timestamp": "2026-04-22T07:53:57.039646+00:00",
       "source": "PERPLEXITY",
-      "headline": "Elon Musk Tweet Count Markets Lead Polymarket Activity | NO whale bets or tips reported | LOW confidence**",
-      "raw": "Elon Musk Tweet Count Markets Lead Polymarket Activity | NO whale bets or tips reported | LOW confidence**  \nPolymarket's most active X-related markets focus on **Elon Musk # tweets April 17-24, 2026?**, with \"220-239\" at 29% and high volume ($6M total, $2M today), alongside \"40-64\" at 76%[1][4]. Other buzzing markets include **\ud835\udd4f Money launched by...?** (12%, $33.6K vol, ends April 30) and **Nikit",
-      "direction": "NO",
+      "headline": "Recent: Lakers capitalize on Nuggets' Game 1 loss and Rockets' context (Durant injuries noted); Game 3 at HOU Apr 24[1][",
+      "raw": "Recent: Lakers capitalize on Nuggets' Game 1 loss and Rockets' context (Durant injuries noted); Game 3 at HOU Apr 24[1][2].",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776844437042_4",
+      "timestamp": "2026-04-22T07:53:57.042512+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Eastern: Pacers up 2-1 on Knicks/Cavs, Celtics lead Magic 1-0; 76ers vs Celtics Game 2 upcoming (Embiid out)[2][3]",
+      "raw": "Eastern: Pacers up 2-1 on Knicks/Cavs, Celtics lead Magic 1-0; 76ers vs Celtics Game 2 upcoming (Embiid out)[2][3].",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776844441998_1",
+      "timestamp": "2026-04-22T07:54:01.998393+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Iran x Israel/US Conflict Ends by",
+      "raw": "Iran x Israel/US Conflict Ends by...? | YES | HIGH confidence**  \nThis geopolitics market hit 100% \"YES\" probability, implying recent confirmation or resolution of the conflict (exact date unspecified), poised to drive immediate trader posts on X about resolved bets, whale closes, or related market moves.[2]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776844442001_2",
+      "timestamp": "2026-04-22T07:54:02.001910+00:00",
+      "source": "PERPLEXITY",
+      "headline": "\ud835\udd4f Money Launched by",
+      "raw": "\ud835\udd4f Money Launched by...? | NO (for April 30) | MED confidence**  \nTrading at 12% \"YES\" for launch by April 30 (ends in 8 days, $33.6K vol.), with low liquidity ($4.6K)\u2014X chatter may highlight this as undervalued \"NO\" bet or tip for smart money fade on X product delays.[2]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776844442004_3",
+      "timestamp": "2026-04-22T07:54:02.004982+00:00",
+      "source": "PERPLEXITY",
+      "headline": "GTA VI Released Before June 2026",
+      "raw": "GTA VI Released Before June 2026? | NO | HIGH confidence**  \nOdds at 1% \"YES\" ($14M vol.), drawing news story traders to X discussions on mispriced gaming hype or whale shorts ahead of the ~1-month resolution.[5]",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -52,8 +218,8 @@
   ],
   "stats": {
     "enter": 0,
-    "alert": 3,
+    "alert": 15,
     "watch": 0,
-    "high_conf": 0
+    "high_conf": 2
   }
 }
