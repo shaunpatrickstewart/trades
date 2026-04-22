@@ -1,47 +1,69 @@
 {
-  "last_scan": "2026-04-22T18:46:31.480268+00:00",
-  "scan_seconds": 14.9,
+  "last_scan": "2026-04-22T18:47:38.031332+00:00",
+  "scan_seconds": 18.3,
   "markets_scanned": 52,
   "open_positions": 14,
   "signals": [
     {
-      "id": "sig_1776883585115_0",
-      "timestamp": "2026-04-22T18:46:25.115412+00:00",
+      "id": "sig_1776883657018_3",
+      "timestamp": "2026-04-22T18:47:37.018061+00:00",
       "source": "PERPLEXITY",
-      "headline": "Pacers Advance to Eastern Conference Finals After Beating Cavaliers; Cavaliers Eliminated in Semifinals** | NO | HIGH co",
-      "raw": "Pacers Advance to Eastern Conference Finals After Beating Cavaliers; Cavaliers Eliminated in Semifinals** | NO | HIGH confidence[2]\n\nCurrent 2025-26 NBA playoffs bracket shows Cleveland Cavaliers (1 seed East) lost to Indiana Pacers (4 seed East) 114-105 in a key game, with Pacers now positioned to advance alongside wins over Knicks (3 seed)[2]. No mentions of Toronto Raptors, Cooper Flagg, or ser",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776883590472_0",
-      "timestamp": "2026-04-22T18:46:30.472716+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Elon Musk Tweets Market Leads Polymarket Activity | NO whale bets or confirmed announcements reported | MED confidence**",
-      "raw": "Elon Musk Tweets Market Leads Polymarket Activity | NO whale bets or confirmed announcements reported | MED confidence**\n\nPolymarket's \"Elon Musk # tweets April 24 - May 1, 2026?\" market shows top trader consensus on **240-259 tweets (18%)** and **220-239 (14%)**, with $638.5K volume as of April 22; aligns with his recent 25-35 daily pace (e.g., 270 posts April 10-17).[1]",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Trump name \"Elon\" or \"Musk\" in April?"
-      ],
+      "headline": "**Recently confirmed announcements or resolved markets** that would move prices",
+      "raw": "**Recently confirmed announcements or resolved markets** that would move prices",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776883590474_1",
-      "timestamp": "2026-04-22T18:46:30.474943+00:00",
+      "id": "sig_1776883646400_0",
+      "timestamp": "2026-04-22T18:47:26.400868+00:00",
       "source": "PERPLEXITY",
-      "headline": "Ethereum & Bitcoin Short-Term Direction Bets Active | NO specific whale moves or tips trending on X | LOW confidence**",
-      "raw": "Ethereum & Bitcoin Short-Term Direction Bets Active | NO specific whale moves or tips trending on X | LOW confidence**\n\nTraders are active in timed crypto markets like **\"Ethereum Up or Down - April 23, 2:15PM-2:30PM ET\"** and **\"Bitcoin Up or Down - April 23, 12:00PM-4:00PM ET\"**, with real-time odds shifting on price data; no mispriced calls or resolutions noted.[4][6]",
+      "headline": "Based on the search results, here are the key developments from April 2026:",
+      "raw": "Based on the search results, here are the key developments from April 2026:",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776883646402_1",
+      "timestamp": "2026-04-22T18:47:26.402938+00:00",
+      "source": "PERPLEXITY",
+      "headline": "SOLANA HITS RECORD 167 MILLION TOKEN HOLDERS | YES | HIGH confidence**",
+      "raw": "SOLANA HITS RECORD 167 MILLION TOKEN HOLDERS | YES | HIGH confidence**\nSolana reached an all-time record of 167 million monthly token holders in April, with daily non-vote transactions hitting historic highs of 148 million.[1][4] This represents a 12% increase since October 2025.[4]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the price of Solana be above $90 on April 28?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776883646404_2",
+      "timestamp": "2026-04-22T18:47:26.404933+00:00",
+      "source": "PERPLEXITY",
+      "headline": "ALPENGLOW CONSENSUS UPGRADE TARGETS 150MS TRANSACTION FINALITY | YES | HIGH confidence**",
+      "raw": "ALPENGLOW CONSENSUS UPGRADE TARGETS 150MS TRANSACTION FINALITY | YES | HIGH confidence**\nThe highly anticipated Alpenglow upgrade aims to reduce transaction finality from 12 seconds to just 150 milliseconds, addressing Solana's historical stability issues.[1]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776883646406_3",
+      "timestamp": "2026-04-22T18:47:26.406932+00:00",
+      "source": "PERPLEXITY",
+      "headline": "ETHEREUM HITS $6K FOLLOWING PECTRA UPGRADE PROGRESS | YES | HIGH confidence**",
+      "raw": "ETHEREUM HITS $6K FOLLOWING PECTRA UPGRADE PROGRESS | YES | HIGH confidence**\nEthereum surged to $6,000 as of April 18, driven by massive institutional demand and the Pectra (Prague-Electra) Upgrade entering its final testing phase, which promises wallet abstraction and validator efficiency improvements.[5]",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
@@ -49,26 +71,108 @@
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "COMMUNITY"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_1776883590477_2",
-      "timestamp": "2026-04-22T18:46:30.477321+00:00",
+      "id": "sig_1776883646408_4",
+      "timestamp": "2026-04-22T18:47:26.408932+00:00",
       "source": "PERPLEXITY",
-      "headline": "US-Iran Diplomacy Market Sees \"No Meeting Before May 11\" at 28% | NO resolutions or smart money signals | MED confidence",
-      "raw": "US-Iran Diplomacy Market Sees \"No Meeting Before May 11\" at 28% | NO resolutions or smart money signals | MED confidence**\n\nLeading outcome is **No Meeting before May 11 (28%)**, ahead of **April 26 (12%)**; traders react to developments but no confirmed meetings or X buzz on mispricing.[5]\n\nNo search results mention **whale bets, smart money moves, prediction tips, or recent confirmations/announc",
-      "direction": "NO",
+      "headline": "XRP BREAKS ABOVE $1",
+      "raw": "XRP BREAKS ABOVE $1.41 ON DUAL CATALYSTS | YES | HIGH confidence**\nXRP climbed 4% to $1.41, outperforming Bitcoin, Ethereum, and Solana, driven by Rakuten Wallet's XRP listing and the SEC's crypto roundtable.[3] The critical resistance level of $1.45 remains the key breakout target.",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776883646410_5",
+      "timestamp": "2026-04-22T18:47:26.410896+00:00",
+      "source": "PERPLEXITY",
+      "headline": "INSTITUTIONAL INFLOWS ACCELERATE ACROSS MAJOR ALTCOINS | YES | MEDIUM confidence**",
+      "raw": "INSTITUTIONAL INFLOWS ACCELERATE ACROSS MAJOR ALTCOINS | YES | MEDIUM confidence**\nBlackRock and Fidelity disclosed record SOL ETF holdings, while CoinShares data shows Solana and XRP led last week's altcoin inflows with $34.9 million and $120 million respectively.[1][4]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776883657011_0",
+      "timestamp": "2026-04-22T18:47:37.011966+00:00",
+      "source": "PERPLEXITY",
+      "headline": "I cannot provide the real-time information you're requesting based on these search results",
+      "raw": "I cannot provide the real-time information you're requesting based on these search results. The search results show Polymarket's market catalog and historical data as of April 9-22, 2026, but they do not contain:",
+      "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776883657013_1",
+      "timestamp": "2026-04-22T18:47:37.013964+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Current trader discussions or posts** on X (formerly Twitter) about prediction markets",
+      "raw": "**Current trader discussions or posts** on X (formerly Twitter) about prediction markets",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776883657015_2",
+      "timestamp": "2026-04-22T18:47:37.015938+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Whale bets or smart money moves** happening right now",
+      "raw": "**Whale bets or smart money moves** happening right now",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776883657019_4",
+      "timestamp": "2026-04-22T18:47:37.019965+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Trader commentary on mispriced markets**",
+      "raw": "**Trader commentary on mispriced markets**\n\nTo get this information, you would need to:",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776883650519_0",
+      "timestamp": "2026-04-22T18:47:30.519781+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Cavaliers Defeat Raptors 115-105 in Game 2, Take 2-0 Lead in Eastern Conference First-Round Playoffs | YES | HIGH confid",
+      "raw": "Cavaliers Defeat Raptors 115-105 in Game 2, Take 2-0 Lead in Eastern Conference First-Round Playoffs | YES | HIGH confidence**  \nThe Cleveland Cavaliers won Game 2 against the Toronto Raptors 115-105 on the road, confirming a 2-0 series lead in the first round, with Raptors now down 0-2 after an uninspiring loss on Monday evening[2][3][5].  \nThis result advances Cavaliers toward semifinals while p",
+      "direction": "YES",
+      "confidence": 0.6,
+      "matched_markets": [
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
+        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
+      ],
+      "action": "WATCH",
+      "x_link": null,
+      "category": "SPORTS"
     }
   ],
   "stats": {
     "enter": 0,
-    "alert": 4,
-    "watch": 0,
-    "high_conf": 0
+    "alert": 11,
+    "watch": 1,
+    "high_conf": 1
   }
 }
