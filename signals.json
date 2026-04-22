@@ -1,111 +1,74 @@
 {
-  "last_scan": "2026-04-22T12:42:59.771084+00:00",
-  "scan_seconds": 19.2,
+  "last_scan": "2026-04-22T12:44:10.449325+00:00",
+  "scan_seconds": 19.9,
   "markets_scanned": 76,
   "open_positions": 38,
   "signals": [
     {
-      "id": "sig_1776861778759_0",
-      "timestamp": "2026-04-22T12:42:58.759187+00:00",
+      "id": "sig_1776861833781_0",
+      "timestamp": "2026-04-22T12:43:53.781752+00:00",
       "source": "PERPLEXITY",
-      "headline": "Iran x Israel/US Conflict End Date at 100% YES by Dec 31 | YES | HIGH confidence**",
-      "raw": "Iran x Israel/US Conflict End Date at 100% YES by Dec 31 | YES | HIGH confidence**  \nPolymarket's top X-related market prices \"Iran x Israel/US conflict ends by Dec 31\" at 100% YES probability, with $11.9K liquidity and 116 traders, signaling strong crowd consensus on resolution timing amid real-time trading.[1]",
+      "headline": "SEC Drops Long-Running Lawsuit Against Ripple Labs | YES | HIGH confidence**",
+      "raw": "SEC Drops Long-Running Lawsuit Against Ripple Labs | YES | HIGH confidence**  \nThe SEC's decision to drop its lawsuit against Ripple has been confirmed as resolved in April 2026, removing a major regulatory overhang and driving XRP's ~10% weekly price gain to $1.42 after breaking $1.50 resistance[1]. This fundamental shift boosts institutional sentiment amid broader crypto inflows, with analysts c",
       "direction": "YES",
-      "confidence": 0.78,
+      "confidence": 0.9,
+      "matched_markets": [
+        "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
+        "XRP Up or Down - April 22, 8:45AM-9:00AM ET",
+        "Will XRP reach $1.50 April 20-26?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776861849446_1",
+      "timestamp": "2026-04-22T12:44:09.446276+00:00",
+      "source": "PERPLEXITY",
+      "headline": "No Recent Confirmations, Announcements, or Resolutions Impacting Markets | NO | LOW confidence**",
+      "raw": "No Recent Confirmations, Announcements, or Resolutions Impacting Markets | NO | LOW confidence**\n\nSearch results show no breaking news, resolved events, or announcements (e.g., no GTA VI updates, Kanye tweets, or Bitcoin milestones) confirmed today that would shift odds; markets like \"Elon Musk # tweets in April 2026?\" update dynamically on ongoing tweet activity without tied external triggers[1][",
+      "direction": "NO",
+      "confidence": 0.9,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776861773189_0",
-      "timestamp": "2026-04-22T12:42:53.189816+00:00",
+      "id": "sig_1776861833784_1",
+      "timestamp": "2026-04-22T12:43:53.784983+00:00",
       "source": "PERPLEXITY",
-      "headline": "Cavaliers defeat Raptors 115-105 in Game 2, take 2-0 series lead | YES (Raptors down 0-2 in first round) | HIGH confiden",
-      "raw": "Cavaliers defeat Raptors 115-105 in Game 2, take 2-0 series lead | YES (Raptors down 0-2 in first round) | HIGH confidence** [3]",
+      "headline": "Ripple USD (RLUSD) Stablecoin Full-Scale Rollout on XRP Ledger and Ethereum | YES | MED confidence**",
+      "raw": "Ripple USD (RLUSD) Stablecoin Full-Scale Rollout on XRP Ledger and Ethereum | YES | MED confidence**  \nOfficial launch of RLUSD on April 19, 2026, coincides with record XRPL transaction volumes and XRP ETF approvals nearing final stages, fueling capital influx and payment rail adoption by central banks[2]. Supporting price momentum noted in late April analyses, though dated slightly earlier[1][3].",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
+        "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
+        "XRP Up or Down - April 22, 8:45AM-9:00AM ET",
+        "Will XRP reach $1.50 April 20-26?"
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "SPORTS"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_1776861773192_1",
-      "timestamp": "2026-04-22T12:42:53.192983+00:00",
+      "id": "sig_1776861849443_0",
+      "timestamp": "2026-04-22T12:44:09.443368+00:00",
       "source": "PERPLEXITY",
-      "headline": "Lakers defeat Rockets in Game 2, series tied 1-1 heading to Game 3 on Apr 24 | YES (Lakers even series) | HIGH confidenc",
-      "raw": "Lakers defeat Rockets in Game 2, series tied 1-1 heading to Game 3 on Apr 24 | YES (Lakers even series) | HIGH confidence** [5][6]\n\nNo confirmed news on **Raptors**, **Lakers**, or **Cooper Flagg** advancing to conference semifinals; series ongoing in first round with no resolutions beyond these Game 2 outcomes | NO | HIGH confidence [1][4][6][7]\n\nKevin Durant injury not serious, expected back for",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776861778762_1",
-      "timestamp": "2026-04-22T12:42:58.762023+00:00",
-      "source": "PERPLEXITY",
-      "headline": "\ud835\udd4f Money Launch by April 30 at 12% YES | NO | HIGH confidence**",
-      "raw": "\ud835\udd4f Money Launch by April 30 at 12% YES | NO | HIGH confidence**  \nTraders price \"\ud835\udd4f Money launched by April 30?\" at just 12% YES ($33.6K volume, $4.5K liquidity), indicating low expectations for imminent X payment feature rollout despite ongoing buzz.[1]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776861778764_2",
-      "timestamp": "2026-04-22T12:42:58.764824+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Nikita Bier Out as X Head of Product by June 30 at 7% YES | NO | MED confidence**",
-      "raw": "Nikita Bier Out as X Head of Product by June 30 at 7% YES | NO | MED confidence**  \nMarket on \"Nikita Bier out as Head of Product at X by June 30?\" trades at 7% YES ($1.4K volume, $4.8K liquidity), reflecting minimal bets on near-term X leadership shakeup.[1]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776861778767_3",
-      "timestamp": "2026-04-22T12:42:58.767888+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Elon Musk Tweet Counts Mispriced",
-      "raw": "Elon Musk Tweet Counts Mispriced? 220-239 or 1120-1159 Buckets Active | NO CLEAR WHALE BETS | LOW confidence**  \nActive tweet markets like \"Elon Musk # tweets April 17-24, 2026?\" (31% on 220-239) and April totals (28% on 1120-1159) show shifting odds from $19M+ volume, but no specific whale moves or X posts on mispricing noted in real-time data.[2][3][4]  \n\nNo recent confirmations, announcements, ",
+      "headline": "Elon Musk April 2026 Tweet Count Markets Surge in Volume | NO | LOW confidence**",
+      "raw": "Elon Musk April 2026 Tweet Count Markets Surge in Volume | NO | LOW confidence**\n\nPolymarket's most active markets right now focus on **Elon Musk's total tweets in April 2026**, with the \"1120-1159\" outcome trading at **28% probability** and **$9M volume**\u2014the highest among 20 live Tweet Markets as of April 21, 2026[2][1][3]. Crowd odds for this range shifted from 18% (noted April 9) to 28%, signa",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776861768652_0",
-      "timestamp": "2026-04-22T12:42:48.652263+00:00",
-      "source": "PERPLEXITY",
-      "headline": "I cannot provide breaking news for April 22, 2026, because the search results available are from late 2025 (October-Dece",
-      "raw": "I cannot provide breaking news for April 22, 2026, because the search results available are from late 2025 (October-December 2025) and do not contain information about events occurring in April 2026.\n\nThe search results discuss Federal Reserve Chair Jerome Powell's statements about tariffs and inflation from the fall of 2025, but these are historical relative to your query date and would not const",
-      "direction": "NO",
-      "confidence": 0.6,
-      "matched_markets": [
-        "Will Powell say \"Tariff inflation\" during April press conference?"
-      ],
-      "action": "WATCH",
-      "x_link": null,
-      "category": "ECONOMICS"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 6,
-    "watch": 1,
-    "high_conf": 0
+    "enter": 1,
+    "alert": 3,
+    "watch": 0,
+    "high_conf": 2
   }
 }
