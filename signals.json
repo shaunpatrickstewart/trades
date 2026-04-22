@@ -1,57 +1,105 @@
 {
-  "last_scan": "2026-04-22T06:13:55.772669+00:00",
-  "scan_seconds": 19.2,
-  "markets_scanned": 83,
+  "last_scan": "2026-04-22T06:15:02.398405+00:00",
+  "scan_seconds": 21.8,
+  "markets_scanned": 79,
   "open_positions": 37,
   "signals": [
     {
-      "id": "sig_1776838434766_0",
-      "timestamp": "2026-04-22T06:13:54.766369+00:00",
+      "id": "sig_1776838491475_3",
+      "timestamp": "2026-04-22T06:14:51.475268+00:00",
       "source": "PERPLEXITY",
-      "headline": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | HIGH confidence**",
-      "raw": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | HIGH confidence**  \nPolymarket's most active markets right now focus on **Elon Musk's tweet volumes**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" (29% on 180-199 range) and \"Elon Musk # tweets in April 2026?\" (18% on 1080-1119 range), with over $17.1M in trading volume across 130+ related markets[2][3][4].  \n\nNo whale bets, s",
+      "headline": "Powell presser clip addressing Supreme Court tariff decision: tariffs seen as one-time price shocks (not ongoing inflati",
+      "raw": "Powell presser clip addressing Supreme Court tariff decision: tariffs seen as one-time price shocks (not ongoing inflation), with passthrough expected to fade mid-2026 despite admin plans to reinstate levels[4].\n\nThese are not \"just confirmed/resolved\" today; latest is April 8 minutes and prior projections. No April inflation data released yet (March report due ~April 12 per [2], but not breaking ",
       "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776838434769_1",
-      "timestamp": "2026-04-22T06:13:54.769597+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Trending Markets Category Active** with 166 live markets (e",
-      "raw": "Trending Markets Category Active** with 166 live markets (e.g., \u201cNasdaq round-the-clock trading by June 30?\u201d) and $3.0M volume, but no X posts on mispriced opportunities or imminent moves[1].",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776838420808_0",
-      "timestamp": "2026-04-22T06:13:40.808376+00:00",
-      "source": "PERPLEXITY",
-      "headline": "SEC Drops Long-Running Lawsuit Against Ripple Labs, Fueling XRP's April 2026 Rally** | **YES** | **HIGH** confidence[1]",
-      "raw": "SEC Drops Long-Running Lawsuit Against Ripple Labs, Fueling XRP's April 2026 Rally** | **YES** | **HIGH** confidence[1]\n\nThe U.S. SEC's confirmed decision to drop its multi-year lawsuit against Ripple Labs has removed a major regulatory overhang, driving XRP's strongest monthly performance since September 2025 with a nearly 10% weekly gain to around $1.42 after breaking $1.50 resistance[1]. This r",
-      "direction": "YES",
-      "confidence": 0.6,
+      "confidence": 0.9,
       "matched_markets": [
-        "Bitcoin above 80,000 on April 22, 3AM ET?",
-        "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
-        "XRP Up or Down - April 22, 8:20AM-8:25AM ET"
+        "Will Powell say \"Tariff inflation\" during April press conference?"
       ],
-      "action": "WATCH",
+      "action": "ENTER",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776838495912_0",
+      "timestamp": "2026-04-22T06:14:55.912959+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Lakers Take 2-0 Series Lead Over Rockets in Playoffs | YES (Lakers winning series odds boosted) | HIGH confidence** [1][",
+      "raw": "Lakers Take 2-0 Series Lead Over Rockets in Playoffs | YES (Lakers winning series odds boosted) | HIGH confidence** [1][2][5]\n\nThe Los Angeles Lakers, seeded 4th in the Western Conference, defeated the 5th-seeded Houston Rockets 101-94 in Game 2 on April 21, securing a 2-0 lead in their first-round playoff series despite being short-handed without Luka Doncic (Grade 2 hamstring strain) and Austin ",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
+        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs",
+        "Will Detroit Pistons advance to the Conference Semifinals in the 2026 NBA Playof"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776838491466_0",
+      "timestamp": "2026-04-22T06:14:51.466169+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Powell's December 2025 remarks on a \"very unusual\" economy with tariff-driven goods inflation peaking in Q1 2026 (assumi",
+      "raw": "Powell's December 2025 remarks on a \"very unusual\" economy with tariff-driven goods inflation peaking in Q1 2026 (assuming no new tariffs), labor market weakness (official jobs data overstated by ~60k/month), and rates at the \"high end\" of neutral[1].",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Powell say \"Tariff inflation\" during April press conference?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776838491469_1",
+      "timestamp": "2026-04-22T06:14:51.469191+00:00",
+      "source": "PERPLEXITY",
+      "headline": "March 2026 FOMC minutes (released ~April 8) showing more officials open to 2026 rate hikes due to persistent inflation,",
+      "raw": "March 2026 FOMC minutes (released ~April 8) showing more officials open to 2026 rate hikes due to persistent inflation, oil/gas spikes from Iran conflict, and no cuts expected until late 2027 per markets; key rate held at 3.6%[2].",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Powell say \"Tariff inflation\" during April press conference?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776838491472_2",
+      "timestamp": "2026-04-22T06:14:51.472122+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Fed's latest projections (pre-April 22) raising 2026 inflation forecasts while penciling in one H2 2026 rate cut at earl",
+      "raw": "Fed's latest projections (pre-April 22) raising 2026 inflation forecasts while penciling in one H2 2026 rate cut at earliest, citing tariffs (e.g., Trump's 15% blanket) and Middle East risks[3].",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Trump agree to Iranian enrichment of uranium in April?",
+        "Will Powell say \"Tariff inflation\" during April press conference?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776838501394_0",
+      "timestamp": "2026-04-22T06:15:01.394272+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Elon Musk April Tweet Count Markets Lead Polymarket Buzz | NO | LOW confidence**",
+      "raw": "Elon Musk April Tweet Count Markets Lead Polymarket Buzz | NO | LOW confidence**\n\nPolymarket's most active markets as of early April 2026 focus on **Elon Musk's tweet volumes**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" (priced at 29% for 180-199 tweets) and the overall \"Elon Musk # tweets in April 2026?\" (18% on 1080-1119 range), with real-time odds shifting on new posts amid $17.1M",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 2,
-    "watch": 1,
-    "high_conf": 0
+    "enter": 2,
+    "alert": 4,
+    "watch": 0,
+    "high_conf": 2
   }
 }
