@@ -1,74 +1,31 @@
 {
-  "last_scan": "2026-04-22T11:44:07.562911+00:00",
-  "scan_seconds": 17.0,
-  "markets_scanned": 81,
+  "last_scan": "2026-04-22T11:45:15.101725+00:00",
+  "scan_seconds": 18.4,
+  "markets_scanned": 80,
   "open_positions": 37,
   "signals": [
     {
-      "id": "sig_1776858237848_0",
-      "timestamp": "2026-04-22T11:43:57.848030+00:00",
+      "id": "sig_1776858305742_0",
+      "timestamp": "2026-04-22T11:45:05.742591+00:00",
       "source": "PERPLEXITY",
-      "headline": "Kevin Warsh's Senate Confirmation Hearing for Fed Chair Underway Amid Criticism of Powell's Inflation Handling | NO | HI",
-      "raw": "Kevin Warsh's Senate Confirmation Hearing for Fed Chair Underway Amid Criticism of Powell's Inflation Handling | NO | HIGH confidence**  \nRecent Senate Banking Committee hearings (April 21, 2026) feature Kevin Warsh, Trump's nominee to replace Jerome Powell, facing questions on past Fed policy errors allowing inflation to soar, interest rate cuts despite high inflation, and Fed independence under ",
+      "headline": "Powell Warns of Tariff-Driven Goods Inflation Peaking Q1 2026, Amid Weakening Labor Market and Fed Rate Cut with Dissent",
+      "raw": "Powell Warns of Tariff-Driven Goods Inflation Peaking Q1 2026, Amid Weakening Labor Market and Fed Rate Cut with Dissents | NO | HIGH confidence**  \nFederal Reserve Chair Jerome Powell described the U.S. economy as \"very unusual\" due to high **tariff-driven goods inflation** combined with a potentially weaker labor market than official data shows, during a Wednesday statement alongside a third con",
       "direction": "NO",
-      "confidence": 0.9,
+      "confidence": 0.78,
       "matched_markets": [
         "Will Trump agree to Iranian enrichment of uranium in April?",
         "Will Powell say \"Tariff inflation\" during April press conference?"
       ],
-      "action": "ENTER",
+      "action": "ALERT",
       "x_link": null,
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_1776858241440_0",
-      "timestamp": "2026-04-22T11:44:01.440199+00:00",
+      "id": "sig_1776858314098_0",
+      "timestamp": "2026-04-22T11:45:14.098041+00:00",
       "source": "PERPLEXITY",
-      "headline": "Raptors Place 4 Players on Waivers Today | NO | HIGH confidence**",
-      "raw": "Raptors Place 4 Players on Waivers Today | NO | HIGH confidence**  \nThe Toronto Raptors confirmed today they placed the contracts of Olivier Sarr, David Roddy, Jared Rhoden, and A.J. Lawson on waivers, plus ended Ulrich Chomche's two-way contract\u2014roster moves ahead of their playoff series vs. Cavaliers (down 0-2).[5]  \nNo mentions of Los Angeles Lakers, Cooper Flagg, or series win predictions shif",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776858246553_0",
-      "timestamp": "2026-04-22T11:44:06.553613+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Elon Musk April Tweets Market Leads Polymarket Activity | NO | HIGH confidence**",
-      "raw": "Elon Musk April Tweets Market Leads Polymarket Activity | NO | HIGH confidence**  \nPolymarket's most active markets focus on **Elon Musk tweet counts**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" and broader \"Elon Musk # tweets in April 2026?\", with the 1120-1159 range priced at **28%** probability and **$9M volume**[1][3]. These dominate Tweet Markets (20-131 active as of April 21, 2",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776858246556_1",
-      "timestamp": "2026-04-22T11:44:06.556676+00:00",
-      "source": "PERPLEXITY",
-      "headline": "No Whale Bets, Smart Money, or Mispricing Tips Reported on X | NO | HIGH confidence**",
-      "raw": "No Whale Bets, Smart Money, or Mispricing Tips Reported on X | NO | HIGH confidence**  \nSearch results show no current X posts from Polymarket traders about **whale bets**, **smart money moves**, **prediction tips**, or **mispriced markets**; activity centers on Polymarket's own pages tracking tweet odds without social buzz details[1][2][3][5]. XTracker exists for social analytics but lacks specif",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776858246559_2",
-      "timestamp": "2026-04-22T11:44:06.559688+00:00",
-      "source": "PERPLEXITY",
-      "headline": "No Recent Confirmations, Announcements, or Resolutions Impacting Markets | NO | HIGH confidence**",
-      "raw": "No Recent Confirmations, Announcements, or Resolutions Impacting Markets | NO | HIGH confidence**  \nNo breaking news, confirmed events, or resolutions (e.g., announcements moving odds) appear in results; markets like Kanye tweeting by April 30 or GTA VI release remain open without updates as of April 19-21, 2026[2][3][4]. Odds update dynamically on trader activity alone[1][2].",
+      "headline": "Trending Polymarket Focus: Elon Musk Tweet Counts | NO whale bets or resolutions confirmed | LOW confidence**",
+      "raw": "Trending Polymarket Focus: Elon Musk Tweet Counts | NO whale bets or resolutions confirmed | LOW confidence**  \nPolymarket's most active markets right now center on **Elon Musk tweet volume predictions**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" (trading at 32% for 220-239 range) and \"Elon Musk # tweets in April 2026?\" (28% for 1120-1159, previously noted at 18%)[2][3][4].  \nThese t",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
@@ -78,9 +35,9 @@
     }
   ],
   "stats": {
-    "enter": 2,
-    "alert": 3,
+    "enter": 0,
+    "alert": 2,
     "watch": 0,
-    "high_conf": 2
+    "high_conf": 0
   }
 }
