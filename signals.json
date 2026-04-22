@@ -1,82 +1,108 @@
 {
-  "last_scan": "2026-04-22T23:34:14.914509+00:00",
+  "last_scan": "2026-04-22T23:35:24.854420+00:00",
   "scan_seconds": 14.3,
   "markets_scanned": 49,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776900849266_0",
-      "timestamp": "2026-04-22T23:34:09.266301+00:00",
+      "id": "sig_1776900918254_0",
+      "timestamp": "2026-04-22T23:35:18.254478+00:00",
       "source": "PERPLEXITY",
-      "headline": "Based on the search results provided, I cannot identify any breaking news that has been confirmed, announced, or resolve",
-      "raw": "Based on the search results provided, I cannot identify any breaking news that has been confirmed, announced, or resolved today (April 22, 2026) that would move prediction markets.\n\nThe most recent search result with a specific date is from April 17, 2026, which previews an Eastern Conference first round matchup between the Raptors and Cavaliers scheduled for Saturday at 1 p.m. EDT[2]. This is a p",
-      "direction": null,
+      "headline": "Cavaliers lead Raptors 2-0 in Eastern Conference first-round series after Game 2 win; no conference semifinals advanceme",
+      "raw": "Cavaliers lead Raptors 2-0 in Eastern Conference first-round series after Game 2 win; no conference semifinals advancement or Lakers involvement confirmed | NO | HIGH confidence**[2][3][4][5]\n\nGame 2 ended Monday with Cleveland defeating Toronto 115-105, as Donovan Mitchell scored 30 points, James Harden added 28, and Evan Mobley contributed 25, giving the Cavaliers a 2-0 lead\u2014they've now won 12 s",
+      "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
+        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
       ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776900849268_1",
-      "timestamp": "2026-04-22T23:34:09.268497+00:00",
+      "id": "sig_1776900923841_0",
+      "timestamp": "2026-04-22T23:35:23.841787+00:00",
       "source": "PERPLEXITY",
-      "headline": "Conference semifinals involving these teams",
-      "raw": "Conference semifinals involving these teams",
-      "direction": null,
-      "confidence": 0.65,
+      "headline": "Nasdaq Round-the-Clock Trading by June 30",
+      "raw": "Nasdaq Round-the-Clock Trading by June 30? | NO | HIGH confidence**  \nPolymarket's top trending market shows 20% YES odds with $43.9K volume, indicating strong trader consensus against implementation by June 30, 2026[1].",
+      "direction": "YES",
+      "confidence": 0.78,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "SPORTS"
+      "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776900849270_2",
-      "timestamp": "2026-04-22T23:34:09.270334+00:00",
+      "id": "sig_1776900923843_1",
+      "timestamp": "2026-04-22T23:35:23.843850+00:00",
       "source": "PERPLEXITY",
-      "headline": "Any announcements or confirmations made on April 22, 2026",
-      "raw": "Any announcements or confirmations made on April 22, 2026",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776900849272_3",
-      "timestamp": "2026-04-22T23:34:09.272248+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Resolved playoff games or trades that would move markets today",
-      "raw": "Resolved playoff games or trades that would move markets today\n\nTo provide the breaking news headline format you requested, I would need search results with current information from today's date. The available results are either from the 2025 preseason (October 26, 2025)[1] or playoff previews from mid-April 2026[2], neither of which constitutes breaking news from right now.",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776900853911_0",
-      "timestamp": "2026-04-22T23:34:13.911549+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Polymarket Traders on X Focus on Elon Musk Tweet Counts and X Platform Bets Amid High Trading Volume** | NO | MED",
-      "raw": "Polymarket Traders on X Focus on Elon Musk Tweet Counts and X Platform Bets Amid High Trading Volume** | NO | MED\n\nPolymarket's trending markets emphasize **X-related predictions** like \"\ud835\udd4f Money launched by April 30?\" at 16% YES odds with $33.6K volume and \"Nikita Bier out as Head of Product at X by June 30?\" at 7% odds, alongside tweet markets such as \"**Elon Musk # tweets April 17 - April 24, 20",
+      "headline": "\ud835\udd4f Money Launched by April 30",
+      "raw": "\ud835\udd4f Money Launched by April 30? | NO | HIGH confidence**  \nX-specific market at 16% YES odds with $33.6K volume and $3.9K liquidity reflects low expectations for launch within 7 days[2].",
       "direction": "YES",
       "confidence": 0.65,
-      "matched_markets": [
-        "Will Trump name \"Elon\" or \"Musk\" in April?"
-      ],
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776900923845_2",
+      "timestamp": "2026-04-22T23:35:23.845690+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Robinhood (HOOD) Up or Down on April 22",
+      "raw": "Robinhood (HOOD) Up or Down on April 22? | YES (Up) | HIGH confidence**  \nMarket resolved 100% UP with $4.7K volume and $57.2K liquidity, confirming stock closed higher today[1].",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776900923847_3",
+      "timestamp": "2026-04-22T23:35:23.847593+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Monero Hit $1000 in 2026",
+      "raw": "Monero Hit $1000 in 2026? | NO | MED confidence**  \nTrending crypto market (ends in 8 months) shows implied low odds based on trader sentiment, though exact YES % not specified amid active volume[1].",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776900923849_4",
+      "timestamp": "2026-04-22T23:35:23.849467+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Iran x Israel/US Conflict Ends by",
+      "raw": "Iran x Israel/US Conflict Ends by...? | YES (Resolved) | HIGH confidence**  \nMarket at 100% with $11.4K liquidity, signaling recent confirmation or resolution of end date[2].",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776900923851_5",
+      "timestamp": "2026-04-22T23:35:23.851387+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Nikita Bier Out as Head of Product at X by June 30",
+      "raw": "Nikita Bier Out as Head of Product at X by June 30? | NO | MED confidence**  \nLow 7% YES odds with $1.4K volume and $3.0K liquidity in X markets indicate traders betting against removal in 2 months[2].  \n\nNo direct X posts on whale bets, smart money moves, mispriced markets, or tips in results; focus is Polymarket's real-time odds across 168+ trending, 1370 X, and tweet markets totaling millions i",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 5,
+    "enter": 1,
+    "alert": 6,
     "watch": 0,
     "high_conf": 1
   }
