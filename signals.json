@@ -1,48 +1,68 @@
 {
-  "last_scan": "2026-04-22T15:37:00.091654+00:00",
-  "scan_seconds": 19.5,
+  "last_scan": "2026-04-22T15:38:11.745400+00:00",
+  "scan_seconds": 21.2,
   "markets_scanned": 55,
   "open_positions": 16,
   "signals": [
     {
-      "id": "sig_1776872205038_0",
-      "timestamp": "2026-04-22T15:36:45.038241+00:00",
+      "id": "sig_1776872281344_1",
+      "timestamp": "2026-04-22T15:38:01.344619+00:00",
       "source": "PERPLEXITY",
-      "headline": "Ethereum Price Surge Confirmed: Up 2",
-      "raw": "Ethereum Price Surge Confirmed: Up 2.7-4.51% in Last 24 Hours as of April 22, 2026** | YES | HIGH confidence\n\nEthereum's price is rising today, with live updates showing a **2.70% increase** to Rs 2,21,701 (approx. $2,600 USD equivalent) as of 09:29 AM on April 22[4], a **4.51% gain** per CoinMarketCap with market cap at $291B USD[5], and a **1% rise** to $2,297.50 on Coinbase from yesterday's $2,",
+      "headline": "Recent Confirmed Data:**",
+      "raw": "Recent Confirmed Data:**\n\nThe U.S. Bureau of Labor Statistics released March 2026 CPI data showing **headline inflation jumped 0.87% monthly**, with the year-over-year rate reaching 3.29%[1]. Energy prices spiked 10.9% in March alone, led by a 21.2% surge in gasoline prices, accounting for nearly three-quarters of the monthly increase[2]. Oil prices jumped from $71/barrel in February to $103/barre",
       "direction": "YES",
       "confidence": 0.9,
-      "matched_markets": [
-        "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET"
-      ],
-      "action": "ENTER",
+      "matched_markets": [],
+      "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "ECONOMICS"
     },
     {
-      "id": "sig_1776872214812_0",
-      "timestamp": "2026-04-22T15:36:54.812851+00:00",
+      "id": "sig_1776872281349_3",
+      "timestamp": "2026-04-22T15:38:01.349483+00:00",
       "source": "PERPLEXITY",
-      "headline": "Cavaliers lead Raptors 2-0 in Eastern Conference first-round playoffs after Game 2 win (115-105); Raptors face eliminati",
-      "raw": "Cavaliers lead Raptors 2-0 in Eastern Conference first-round playoffs after Game 2 win (115-105); Raptors face elimination risk in Game 3** | NO | HIGH confidence[3][4]\n\nToronto Raptors, the #5 seed (46-36 regular season), trail the #4 Cleveland Cavaliers 0-2 in their first-round series, with Game 2 ending 115-105 in Cleveland[3][4]. Cavaliers dominated via aggressive play, featuring Donovan Mitch",
+      "headline": "Contrasting Silver Lining:**",
+      "raw": "Contrasting Silver Lining:**\n\nCore CPI stands at 2.6% year-over-year (more benign than headline), and Goldman forecasts core goods inflation will decelerate sharply from 2.7% in March to just 0.6% by December 2026 as tariff effects wane[1]. The bank's base case remains a \"gradual return to the Fed's comfort zone\" if geopolitical risks don't escalate further[1].\n\nThis represents a major upward revi",
+      "direction": null,
+      "confidence": 0.78,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776872281342_0",
+      "timestamp": "2026-04-22T15:38:01.342314+00:00",
+      "source": "PERPLEXITY",
+      "headline": "HEADLINE | Headline CPI surged to 3",
+      "raw": "HEADLINE | Headline CPI surged to 3.29% year-over-year in March 2026, driven by Iran war energy spike; Goldman raises December inflation forecast by a full percentage point | YES | HIGH confidence",
       "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
-        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
-      ],
-      "action": "ENTER",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
       "x_link": null,
-      "category": "SPORTS"
+      "category": "ECONOMICS"
     },
     {
-      "id": "sig_1776872219088_0",
-      "timestamp": "2026-04-22T15:36:59.088626+00:00",
+      "id": "sig_1776872281347_2",
+      "timestamp": "2026-04-22T15:38:01.347100+00:00",
       "source": "PERPLEXITY",
-      "headline": "Elon Musk April 2026 Tweet Count Markets Trending on Polymarket | NO | LOW confidence**",
-      "raw": "Elon Musk April 2026 Tweet Count Markets Trending on Polymarket | NO | LOW confidence**\n\nPolymarket's most active markets right now focus on **Elon Musk's tweet volume**, including \"Elon Musk # tweets in April 2026?\" (18% odds for 1120-1159 tweets) and \"Elon Musk # tweets April 17 - April 24, 2026?\" (e.g., 32% for 220-239), with over $22.2M in trading volume across 20+ related markets[3][4]. These",
-      "direction": "NO",
+      "headline": "Market-Moving Implications:**",
+      "raw": "Market-Moving Implications:**\n\nGoldman Sachs explicitly raised its December 2026 headline PCE inflation forecast by one full percentage point since the Iran war began, with most attributable to energy[1]. Short-term inflation expectations from consumers jumped sharply: the University of Michigan survey rose one percentage point to 4.8%, while financial market-implied expectations for 2026 headline",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776872290742_0",
+      "timestamp": "2026-04-22T15:38:10.742970+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Polymarket Traders on X Focusing on Elon Musk Tweet Volume Markets as Top Trend; No Specific Whale Bets or Recent Confir",
+      "raw": "Polymarket Traders on X Focusing on Elon Musk Tweet Volume Markets as Top Trend; No Specific Whale Bets or Recent Confirmations Reported** | NO | LOW confidence\n\nSearch results highlight **trending Polymarket markets** centered on **Elon Musk tweet predictions**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" (priced at 32% for 220-239 tweets) and \"Elon Musk # tweets in April 2026?\" (18% ",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -51,9 +71,9 @@
     }
   ],
   "stats": {
-    "enter": 2,
-    "alert": 1,
+    "enter": 0,
+    "alert": 5,
     "watch": 0,
-    "high_conf": 2
+    "high_conf": 1
   }
 }
