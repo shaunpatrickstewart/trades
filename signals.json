@@ -1,73 +1,102 @@
 {
-  "last_scan": "2026-04-22T18:34:13.678337+00:00",
-  "scan_seconds": 13.1,
+  "last_scan": "2026-04-22T18:35:24.826709+00:00",
+  "scan_seconds": 13.8,
   "markets_scanned": 54,
   "open_positions": 14,
   "signals": [
     {
-      "id": "sig_1776882847971_0",
-      "timestamp": "2026-04-22T18:34:07.971723+00:00",
+      "id": "sig_1776882919169_0",
+      "timestamp": "2026-04-22T18:35:19.169975+00:00",
       "source": "PERPLEXITY",
-      "headline": "Lakers take 2-0 series lead over Rockets in NBA playoffs first round after Game 2 win | NO** | HIGH confidence[1][3]",
-      "raw": "Lakers take 2-0 series lead over Rockets in NBA playoffs first round after Game 2 win | NO** | HIGH confidence[1][3]\n\nThe Los Angeles Lakers defeated the Houston Rockets 101-94 in Game 2 on Tuesday, April 21, securing a commanding 2-0 lead in their Western Conference first-round series, with LeBron James scoring 28 points and Luka Kennard adding 23[1][3]. No matchup with the Cavaliers (Eastern Con",
-      "direction": "YES",
-      "confidence": 0.9,
+      "headline": "Cooper Flagg's rookie season with Dallas Mavericks ends due to sprained ankle, sidelining him for playoffs amid Cavalier",
+      "raw": "Cooper Flagg's rookie season with Dallas Mavericks ends due to sprained ankle, sidelining him for playoffs amid Cavaliers-Thunder playoff context** | NO | HIGH confidence[1][3]",
+      "direction": "NO",
+      "confidence": 0.65,
       "matched_markets": [
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
-        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
+        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
       ],
-      "action": "ENTER",
+      "action": "ALERT",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776882852671_1",
-      "timestamp": "2026-04-22T18:34:12.671365+00:00",
+      "id": "sig_1776882919176_1",
+      "timestamp": "2026-04-22T18:35:19.176675+00:00",
       "source": "PERPLEXITY",
-      "headline": "Trending categories** include 168+ general Trending Markets (e",
-      "raw": "Trending categories** include 168+ general Trending Markets (e.g., \u201cNasdaq round-the-clock trading by June 30?\u201d with $2.8M volume) and pop culture/tweet-specific bets like \u201cWill Kanye tweet again by April 30?\u201d at 60% YES ($390 vol.)[1][3].  \nNo **recent confirmations, announcements, or resolutions** moving markets are confirmed in real-time data; odds update dynamically with new info or trades[1][",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776882852667_0",
-      "timestamp": "2026-04-22T18:34:12.667870+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | MED confidence**",
-      "raw": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | MED confidence**  \nPolymarket's most active markets right now focus on **Elon Musk's tweet volume**, such as \"Elon Musk # tweets April 20 - April 22, 2026?\" (e.g., \"40-64\" outcome) and \"Elon Musk # tweets April 17 - April 24, 2026?\", with the 1120-1159 range priced at **18-19%** implied probability and over **$22M+ in total trading volume",
-      "direction": "NO",
+      "headline": "**Recent Confirmation (9 hours ago):** Cooper Flagg ended his Monday game with 12 points in a 124-94 loss to Minnesota,",
+      "raw": "**Recent Confirmation (9 hours ago):** Cooper Flagg ended his Monday game with 12 points in a 124-94 loss to Minnesota, but his 2025-26 rookie season has now concluded with a sprained ankle from a Sunday 149-128 loss, placing him in historic company with Michael Jordan[1][3].",
+      "direction": null,
       "confidence": 0.65,
       "matched_markets": [
-        "Will Trump name \"Elon\" or \"Musk\" in April?",
-        "Will Ted Cruz post 120-139 posts from April 17 to April 24, 2026?"
+        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?"
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "COMMUNITY"
+      "category": "SPORTS"
     },
     {
-      "id": "sig_1776882852674_2",
-      "timestamp": "2026-04-22T18:34:12.674834+00:00",
+      "id": "sig_1776882919178_2",
+      "timestamp": "2026-04-22T18:35:19.178742+00:00",
       "source": "PERPLEXITY",
-      "headline": "Mispriced or upcoming moves**: Crowd assigns low odds (18-19%) to high tweet counts like 1120-1159, potentially signalin",
-      "raw": "Mispriced or upcoming moves**: Crowd assigns low odds (18-19%) to high tweet counts like 1120-1159, potentially signaling trader bets on lower activity\u2014no explicit tips or mispricing calls noted[3][4].",
+      "headline": "**Series Impact:** No Cavaliers series mentioned in breaking updates; Flagg (Mavericks forward, not Cavaliers) is out fo",
+      "raw": "**Series Impact:** No Cavaliers series mentioned in breaking updates; Flagg (Mavericks forward, not Cavaliers) is out for playoffs, irrelevant to any Cavs prediction markets like \"who will win series.\" Cavaliers noted with \"Big 4\" roster strength in discussions, but no new series resolution or win confirmation[4].",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
+        "NBA Playoffs: Who Will Win Series? - Pistons vs. Magic "
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776882919185_3",
+      "timestamp": "2026-04-22T18:35:19.185097+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**ROY Race & Markets:** Flagg was a ROY favorite in tight race with Kon Knueppel, with recent hot streak (e",
+      "raw": "**ROY Race & Markets:** Flagg was a ROY favorite in tight race with Kon Knueppel, with recent hot streak (e.g., 50-point game) debated, but injury ends his push\u2014no awards announced or resolved to shift markets[1][2][5].",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776882919187_4",
+      "timestamp": "2026-04-22T18:35:19.187250+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**No Other Breaking Resolutions:** No confirmed announcements on Cavaliers series wins, Flagg's future, or market-moving",
+      "raw": "**No Other Breaking Resolutions:** No confirmed announcements on Cavaliers series wins, Flagg's future, or market-moving playoff outcomes as of now[1][2][3][4][5].",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776882923823_0",
+      "timestamp": "2026-04-22T18:35:23.823015+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Elon Musk Tweet Count Markets Trending on Polymarket | NO whale bets, smart money moves, or mispriced alerts confirmed i",
+      "raw": "Elon Musk Tweet Count Markets Trending on Polymarket | NO whale bets, smart money moves, or mispriced alerts confirmed in recent data | MED confidence**\n\nPolymarket's most active markets as of April 22, 2026, focus on **Elon Musk tweet predictions**, including \"Elon Musk # tweets April 20 - April 22, 2026?\" (e.g., \"40-64\" outcome) and broader April 2026 totals like \"1120-1159\" at 19% implied proba",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Trump name \"Elon\" or \"Musk\" in April?"
+      ],
       "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 3,
+    "enter": 0,
+    "alert": 6,
     "watch": 0,
-    "high_conf": 2
+    "high_conf": 0
   }
 }
