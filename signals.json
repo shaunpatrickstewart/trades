@@ -1,204 +1,62 @@
 {
-  "last_scan": "2026-04-22T02:11:50.443443+00:00",
-  "scan_seconds": 19.9,
+  "last_scan": "2026-04-22T02:12:55.838103+00:00",
+  "scan_seconds": 15.1,
   "markets_scanned": 79,
   "open_positions": 36,
   "signals": [
     {
-      "id": "sig_1776823903363_0",
-      "timestamp": "2026-04-22T02:11:43.363615+00:00",
+      "id": "sig_1776823967182_0",
+      "timestamp": "2026-04-22T02:12:47.182721+00:00",
       "source": "PERPLEXITY",
-      "headline": "Kevin Durant Cleared to Return for Lakers-Rockets Game 2 | NO | HIGH confidence**",
-      "raw": "Kevin Durant Cleared to Return for Lakers-Rockets Game 2 | NO | HIGH confidence**  \nHouston Rockets star Kevin Durant has been cleared to play in Game 2 against the Los Angeles Lakers on April 21, after missing Game 1 due to a knee tendon bruise, per Shams Charania reports from 38-41 minutes ago.[6] This breaking news could shift prediction markets toward Houston, as it pits Durant against LeBron ",
+      "headline": "Fed Chair Powell Confirms Tariffs as Primary Driver of Inflation Overshoot Above 2% Target, Warns of Slower Q1 GDP Growt",
+      "raw": "Fed Chair Powell Confirms Tariffs as Primary Driver of Inflation Overshoot Above 2% Target, Warns of Slower Q1 GDP Growth and Higher Uncertainty** | YES | HIGH\n\nPowell stated on April 16, 2026, at the Economic Club of Chicago that tariff increases are \"significantly larger than anticipated,\" likely causing higher inflation and slower growth, with Q1 GDP data showing modest consumer spending and st",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
-        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
+        "Will Trump agree to Iranian enrichment of uranium in April?",
+        "Will Powell say \"Tariff inflation\" during April press conference?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776823970542_0",
+      "timestamp": "2026-04-22T02:12:50.542224+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Cavaliers advance past Raptors in East first round (series win confirmed)** | YES | HIGH confidence[4]",
+      "raw": "Cavaliers advance past Raptors in East first round (series win confirmed)** | YES | HIGH confidence[4]",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
       ],
       "action": "ENTER",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776823909416_0",
-      "timestamp": "2026-04-22T02:11:49.416681+00:00",
+      "id": "sig_1776823970545_1",
+      "timestamp": "2026-04-22T02:12:50.545394+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot provide the real-time \"breaking news\" or current trader sentiment you're requesting based on these search resul",
-      "raw": "I cannot provide the real-time \"breaking news\" or current trader sentiment you're requesting based on these search results. The results show **Polymarket market listings and historical data from April 21, 2026**, but they don't contain live commentary, recent announcements, confirmed resolutions, or information about which markets traders currently consider mispriced.\n\nThe search results reveal se",
-      "direction": null,
+      "headline": "Pacers defeat Cavaliers in East Conference Semifinals (series ongoing, Game 1: Pacers 125-105)** | NO (Raptors eliminate",
+      "raw": "Pacers defeat Cavaliers in East Conference Semifinals (series ongoing, Game 1: Pacers 125-105)** | NO (Raptors eliminated) | HIGH confidence[4]  \nNo rookie-led series resolutions confirmed; Raptors (weakest East playoff team) out, but no specific rookie impact announced[1][4][3]",
+      "direction": "NO",
       "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776823899470_0",
-      "timestamp": "2026-04-22T02:11:39.470888+00:00",
-      "source": "PERPLEXITY",
-      "headline": "I cannot provide the breaking news analysis you've requested",
-      "raw": "I cannot provide the breaking news analysis you've requested. The search results provided are from **December 2025 and July 2025**\u2014substantially outdated relative to the current date of April 22, 2026. They do not contain information about events happening \"right now\" or recent announcements that would move prediction markets today.\n\nTo answer your query accurately, I would need search results fro",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776823899473_1",
-      "timestamp": "2026-04-22T02:11:39.473863+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Recent Federal Reserve announcements or Powell statements",
-      "raw": "Recent Federal Reserve announcements or Powell statements",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776823899476_2",
-      "timestamp": "2026-04-22T02:11:39.476710+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Current GDP data or forecasts",
-      "raw": "Current GDP data or forecasts",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776823899479_3",
-      "timestamp": "2026-04-22T02:11:39.479538+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Latest inflation reports or tariff policy changes",
-      "raw": "Latest inflation reports or tariff policy changes",
-      "direction": null,
-      "confidence": 0.65,
       "matched_markets": [
-        "Will Powell say \"Tariff inflation\" during April press conference?"
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
       ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "SPORTS"
     },
     {
-      "id": "sig_1776823899482_4",
-      "timestamp": "2026-04-22T02:11:39.482452+00:00",
+      "id": "sig_1776823974834_0",
+      "timestamp": "2026-04-22T02:12:54.834941+00:00",
       "source": "PERPLEXITY",
-      "headline": "Market-moving economic developments from the past few days",
-      "raw": "Market-moving economic developments from the past few days\n\nI recommend performing a fresh search with current news sources to capture today's breaking developments.",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776823909419_1",
-      "timestamp": "2026-04-22T02:11:49.419752+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Elon Musk's tweet volume** (April 24-May 1): Trader consensus clusters around 240-299 tweets, based on his recent aver",
-      "raw": "**Elon Musk's tweet volume** (April 24-May 1): Trader consensus clusters around 240-299 tweets, based on his recent average of 29 daily posts[3]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776823909422_2",
-      "timestamp": "2026-04-22T02:11:49.422694+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Zelenskyy's posts** (April 24-May 1): Leading outcomes split between \"60-79\" and \"100-119\" at 26% each[4]",
-      "raw": "**Zelenskyy's posts** (April 24-May 1): Leading outcomes split between \"60-79\" and \"100-119\" at 26% each[4]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776823909425_3",
-      "timestamp": "2026-04-22T02:11:49.425706+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**White House posts** (April 24-May 1): Tight consensus around 100-199 posts, with \"120-139\" and \"140-159\" each at 50%[5",
-      "raw": "**White House posts** (April 24-May 1): Tight consensus around 100-199 posts, with \"120-139\" and \"140-159\" each at 50%[5]\n\nHowever, these results don't include:",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776823909428_4",
-      "timestamp": "2026-04-22T02:11:49.428855+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Live trader discussions or sentiment analysis",
-      "raw": "Live trader discussions or sentiment analysis",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776823909431_5",
-      "timestamp": "2026-04-22T02:11:49.431729+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Information about alleged \"whale bets\" or smart money positioning",
-      "raw": "Information about alleged \"whale bets\" or smart money positioning",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776823909434_6",
-      "timestamp": "2026-04-22T02:11:49.434550+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Analysis of which markets are considered mispriced",
-      "raw": "Analysis of which markets are considered mispriced",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776823909437_7",
-      "timestamp": "2026-04-22T02:11:49.437444+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Recent announcements or resolutions that would move markets",
-      "raw": "Recent announcements or resolutions that would move markets",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776823909440_8",
-      "timestamp": "2026-04-22T02:11:49.440444+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Breaking news that traders are discussing right now",
-      "raw": "Breaking news that traders are discussing right now\n\nTo get the real-time information you're seeking, you would need to access Polymarket directly, monitor crypto/prediction market Twitter accounts, or check trading forums where participants discuss current positioning and market opportunities.",
-      "direction": null,
+      "headline": "Elon Musk April Tweet Count Markets Heating Up | NO whale bets or smart money moves reported | LOW confidence**",
+      "raw": "Elon Musk April Tweet Count Markets Heating Up | NO whale bets or smart money moves reported | LOW confidence**\n\nPolymarket's active **tweet markets**, especially \"Elon Musk # tweets April 17 - April 24, 2026?\" and \"Elon Musk musk # tweets in April 2026?\", dominate current activity with outcomes like 1080-1119 at 18% implied probability and over $17.1M total trading volume across 130+ related mark",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -207,9 +65,9 @@
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 14,
+    "enter": 3,
+    "alert": 1,
     "watch": 0,
-    "high_conf": 2
+    "high_conf": 3
   }
 }
