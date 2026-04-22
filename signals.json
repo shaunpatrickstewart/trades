@@ -1,179 +1,139 @@
 {
-  "last_scan": "2026-04-22T04:26:49.826474+00:00",
-  "scan_seconds": 19.2,
+  "last_scan": "2026-04-22T04:27:58.192204+00:00",
+  "scan_seconds": 17.6,
   "markets_scanned": 76,
   "open_positions": 37,
   "signals": [
     {
-      "id": "sig_1776831996611_1",
-      "timestamp": "2026-04-22T04:26:36.611405+00:00",
+      "id": "sig_1776832077188_1",
+      "timestamp": "2026-04-22T04:27:57.188140+00:00",
       "source": "PERPLEXITY",
-      "headline": "RLUSD Stablecoin Full Rollout Confirmed | YES | HIGH confidence**",
-      "raw": "RLUSD Stablecoin Full Rollout Confirmed | YES | HIGH confidence**\nRipple USD (RLUSD) has officially completed full-scale rollout across the XRP Ledger and Ethereum, with this milestone achieved by mid-April 2026.[1]",
+      "headline": "GTA VI RELEASE & CRYPTO AIRDROPS GAIN TRACTION | NO | MED confidence**",
+      "raw": "GTA VI RELEASE & CRYPTO AIRDROPS GAIN TRACTION | NO | MED confidence**  \nNews stories markets like **GTA VI released before June 2026?** trade at **1% yes** with $14M volume, while **MegaETH airdrop by June 30** sits at **57%**, part of 102 markets with $56.2M volume[4]. Lacking direct X chatter or confirmed resolutions in results, no immediate moves or tips trend; tweet markets lead as the dynami",
       "direction": "YES",
       "confidence": 0.9,
-      "matched_markets": [
-        "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
-        "XRP Up or Down - April 22, 8:20AM-8:25AM ET",
-        "XRP Up or Down - April 22, 8:35AM-8:40AM ET"
-      ],
-      "action": "ENTER",
+      "matched_markets": [],
+      "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776832004512_0",
-      "timestamp": "2026-04-22T04:26:44.512849+00:00",
+      "id": "sig_1776832068484_0",
+      "timestamp": "2026-04-22T04:27:48.484773+00:00",
       "source": "PERPLEXITY",
-      "headline": "OKC Thunder Advance to NBA Finals After Defeating Timberwolves 124-94 in Western Conference Finals; Lakers, Cavaliers El",
-      "raw": "OKC Thunder Advance to NBA Finals After Defeating Timberwolves 124-94 in Western Conference Finals; Lakers, Cavaliers Eliminated Early** | NO | HIGH confidence[2][3]\n\nOklahoma City Thunder swept through the Western Conference playoffs, beating Grizzlies (117-115), Nuggets (125-93, 124-93), and Timberwolves (124-94, 103-91 in Finals prep), positioning them as 2025-26 champions after their 2025 titl",
-      "direction": "YES",
-      "confidence": 0.9,
+      "headline": "**IMF forecast (pre-April 2026):** Projects U",
+      "raw": "**IMF forecast (pre-April 2026):** Projects U.S. core PCE inflation at 2.6% by end-2026 (from 2.9% in 2025), GDP growth at 2.4% in 2026, and fed funds rate easing minimally from 3.6% to 3.4%; attributes persistent inflation and growth drag to tariffs at 7-8.5% effective rate.[1]",
+      "direction": null,
+      "confidence": 0.65,
       "matched_markets": [
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
-        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
+        "Will Powell say \"Tariff inflation\" during April press conference?"
       ],
-      "action": "ENTER",
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776832068487_1",
+      "timestamp": "2026-04-22T04:27:48.487701+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Powell statements (Dec 2025-Mar 2026):** Described economy as \"very unusual\" with tariffs driving most inflation overs",
+      "raw": "**Powell statements (Dec 2025-Mar 2026):** Described economy as \"very unusual\" with tariffs driving most inflation overshoot (goods peak Q1 2026); noted Fed cut rates defensively amid weakening labor market (official jobs overstated by ~60k/month); monitored energy spikes from Iran war but limited Fed response.[2][3][5]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Powell say \"Tariff inflation\" during April press conference?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776832068490_2",
+      "timestamp": "2026-04-22T04:27:48.490560+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Tariff update (April 2, 2026):** Effective U",
+      "raw": "**Tariff update (April 2, 2026):** Effective U.S. tariff rate at 11.0% (highest since 1943 excl. 2025), implying 1.0% short-run consumer price rise if Section 122 extended (0.6% if expires); slightly reduces 2026 GDP level but boosts growth rate post-2025 shock.[4]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Powell say \"Tariff inflation\" during April press conference?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776832068493_3",
+      "timestamp": "2026-04-22T04:27:48.493474+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Older reports:** 2025 GDP at 2",
+      "raw": "**Older reports:** 2025 GDP at 2.0-2.2%; Goldman Sachs tariff inflation projection of 1% (H2 2025 onward).[6][7]\n\nAll items predate today by weeks/months; nothing fresh confirms resolutions like tariff changes, Powell actions, or April data releases to shift markets.[1][2][3][4][5][6][7]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Powell say \"Tariff inflation\" during April press conference?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776832073437_0",
+      "timestamp": "2026-04-22T04:27:53.437410+00:00",
+      "source": "PERPLEXITY",
+      "headline": "I cannot provide the breaking news you're requesting based on the available search results",
+      "raw": "I cannot provide the breaking news you're requesting based on the available search results. The search results contain game coverage from March 31 and April 1, 2026, which are significantly outdated relative to the current date of April 22, 2026. Additionally, the results do not address your specific query about:",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776831996608_0",
-      "timestamp": "2026-04-22T04:26:36.608576+00:00",
+      "id": "sig_1776832073442_1",
+      "timestamp": "2026-04-22T04:27:53.442138+00:00",
       "source": "PERPLEXITY",
-      "headline": "Based on the search results available, here are the key confirmed developments from April 2026:",
-      "raw": "Based on the search results available, here are the key confirmed developments from April 2026:",
-      "direction": null,
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776831996614_2",
-      "timestamp": "2026-04-22T04:26:36.614829+00:00",
-      "source": "PERPLEXITY",
-      "headline": "SEC Legal Battle Officially Resolved | YES | HIGH confidence**",
-      "raw": "SEC Legal Battle Officially Resolved | YES | HIGH confidence**\nThe long-standing SEC legal battle is now officially concluded, removing a major regulatory overhang.[1]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776831996617_3",
-      "timestamp": "2026-04-22T04:26:36.617974+00:00",
-      "source": "PERPLEXITY",
-      "headline": "XRP ETF Approvals in Final Stage | YES | HIGH confidence**",
-      "raw": "XRP ETF Approvals in Final Stage | YES | HIGH confidence**\nXRP ETF approvals have entered the final approval stage, with six live ETFs currently operational as of April 2026.[3]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
-        "XRP Up or Down - April 22, 8:20AM-8:25AM ET",
-        "XRP Up or Down - April 22, 8:35AM-8:40AM ET"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776831996620_4",
-      "timestamp": "2026-04-22T04:26:36.620982+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Rakuten Payment Rail Launch | YES | HIGH confidence**",
-      "raw": "Rakuten Payment Rail Launch | YES | HIGH confidence**\nRakuten Wallet went live on April 15, 2026, adding a major institutional payment rail integration.[3]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776831996626_5",
-      "timestamp": "2026-04-22T04:26:36.626778+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Institutional ETF Inflow Acceleration | YES | HIGH confidence**",
-      "raw": "Institutional ETF Inflow Acceleration | YES | HIGH confidence**\nXRP investment products recorded $224 million in inflows during the first week of April\u2014the largest single-country-led inflow rebound since December.[3] Notably, spot ETF inflows preceded futures demand, indicating institutional rather than leveraged retail buying.\n\nThese developments\u2014particularly the SEC resolution, RLUSD launch, and",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
-        "XRP Up or Down - April 22, 8:20AM-8:25AM ET",
-        "XRP Up or Down - April 22, 8:35AM-8:40AM ET"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776832000670_0",
-      "timestamp": "2026-04-22T04:26:40.670480+00:00",
-      "source": "PERPLEXITY",
-      "headline": "IMF Article IV Consultation Concludes: Little Room for Fed Rate Cuts in 2026 Despite 2",
-      "raw": "IMF Article IV Consultation Concludes: Little Room for Fed Rate Cuts in 2026 Despite 2.4% GDP Growth Projection | NO** | **HIGH** confidence[1]\n\nFederal Reserve expected to hold rates steady through 2026 amid persistent **core PCE inflation** at 2.6% by year-end, tariff-driven goods price hikes (effective rate 7-8.5%), and energy shocks from Iran conflict delaying 2% target to 2027[1][2][5].",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Powell say \"Tariff inflation\" during April press conference?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776832000673_1",
-      "timestamp": "2026-04-22T04:26:40.673304+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Powell Describes Economy as 'Very Unusual' with Tariff-Peaking Goods Inflation Q1 2026, No Further Rate Cuts Planned | N",
-      "raw": "Powell Describes Economy as 'Very Unusual' with Tariff-Peaking Goods Inflation Q1 2026, No Further Rate Cuts Planned | NO** | **MED** confidence[2][4]",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Powell say \"Tariff inflation\" during April press conference?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776832000676_2",
-      "timestamp": "2026-04-22T04:26:40.676209+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Powell** highlights labor market weakening (official payrolls overstated by ~60k/month), services inflation cooling, but",
-      "raw": "Powell** highlights labor market weakening (official payrolls overstated by ~60k/month), services inflation cooling, but tariffs as one-time goods shock\u2014not ongoing inflation\u2014prompting neutral policy at \"high end\" post-third cut[2][4].",
+      "headline": "Series predictions or outcomes",
+      "raw": "Series predictions or outcomes",
       "direction": null,
       "confidence": 0.65,
-      "matched_markets": [
-        "Will Powell say \"Tariff inflation\" during April press conference?"
-      ],
+      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "SPORTS"
     },
     {
-      "id": "sig_1776832008823_0",
-      "timestamp": "2026-04-22T04:26:48.823221+00:00",
+      "id": "sig_1776832073447_2",
+      "timestamp": "2026-04-22T04:27:53.447209+00:00",
       "source": "PERPLEXITY",
-      "headline": "Elon Musk April Tweet Count Markets Heating Up on Polymarket | NO whale bets or confirmed resolutions reported | LOW con",
-      "raw": "Elon Musk April Tweet Count Markets Heating Up on Polymarket | NO whale bets or confirmed resolutions reported | LOW confidence**\n\nPolymarket's most active markets right now focus on **Elon Musk tweet counts**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" (with \"200-219\" at 29%) and the overall \"Elon Musk musk # tweets in April 2026?\" (18% on 1080-1119 outcome).[1][2][3] These reflect r",
-      "direction": "YES",
-      "confidence": 0.6,
+      "headline": "Market-moving announcements or confirmations",
+      "raw": "Market-moving announcements or confirmations\n\nThe most recent information in the search results describes a regular season Lakers victory over the Cavaliers on March 31, 2026, and references to playoff games against Houston from an unspecified later date. None of this constitutes current breaking news from April 22.\n\nTo provide accurate, timely information about today's Lakers news, a current rook",
+      "direction": null,
+      "confidence": 0.65,
       "matched_markets": [],
-      "action": "WATCH",
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776832077182_0",
+      "timestamp": "2026-04-22T04:27:57.182870+00:00",
+      "source": "PERPLEXITY",
+      "headline": "ELON MUSK TWEET COUNT MARKETS DOMINATE POLYMARKET ACTIVITY | NO | HIGH confidence**",
+      "raw": "ELON MUSK TWEET COUNT MARKETS DOMINATE POLYMARKET ACTIVITY | NO | HIGH confidence**  \nPolymarket's most active markets right now focus on **Elon Musk tweet predictions**, such as \"# tweets April 17-24, 2026\" and overall \"musk # tweets in April 2026?\", with the 1080-1119 range priced at **18% probability** amid $17.1M trading volume across 130+ tweet markets[1][2][3]. No specific whale bets, smart ",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
     }
   ],
   "stats": {
-    "enter": 2,
-    "alert": 8,
-    "watch": 1,
-    "high_conf": 3
+    "enter": 0,
+    "alert": 9,
+    "watch": 0,
+    "high_conf": 1
   }
 }
