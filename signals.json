@@ -1,140 +1,82 @@
 {
-  "last_scan": "2026-04-22T18:40:56.781369+00:00",
-  "scan_seconds": 16.3,
+  "last_scan": "2026-04-22T18:42:07.397744+00:00",
+  "scan_seconds": 16.8,
   "markets_scanned": 54,
   "open_positions": 14,
   "signals": [
     {
-      "id": "sig_1776883255767_0",
-      "timestamp": "2026-04-22T18:40:55.767875+00:00",
+      "id": "sig_1776883316424_0",
+      "timestamp": "2026-04-22T18:41:56.424288+00:00",
       "source": "PERPLEXITY",
-      "headline": "Nasdaq Round-the-Clock Trading by June 30",
-      "raw": "Nasdaq Round-the-Clock Trading by June 30? | NO | HIGH confidence**  \nPolymarket's top trending market shows 20% YES odds with $43.9K volume and $1.8K liquidity, indicating strong trader consensus against implementation by the deadline.[1]",
-      "direction": "YES",
-      "confidence": 0.78,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776883255773_3",
-      "timestamp": "2026-04-22T18:40:55.773918+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Iran x Israel/US Conflict Ends by",
-      "raw": "Iran x Israel/US Conflict Ends by...? | YES (resolved) | HIGH confidence**  \nMarket at 100% YES, fully resolved with $12.3K liquidity, confirming end and likely shifting related geopolitics bets.[2]",
-      "direction": "YES",
-      "confidence": 0.78,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776883245984_0",
-      "timestamp": "2026-04-22T18:40:45.984262+00:00",
-      "source": "PERPLEXITY",
-      "headline": "US Regulators Officially Classify Both SOL and ETH as Commodities in March 2026, Eliminating Major Legal Uncertainty for",
-      "raw": "US Regulators Officially Classify Both SOL and ETH as Commodities in March 2026, Eliminating Major Legal Uncertainty for ETF Allocators | YES | HIGH confidence** [1]\n\nEthereum transactions surged 41% over the past seven days, reclaiming activity leadership from Solana amid L2 bridging rebates and tokenized treasury issuance on mainnet. [1] Both assets saw daily gains\u2014ETH up 8.6% to $2,377 and SOL ",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the price of Solana be above $90 on April 28?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776883245986_1",
-      "timestamp": "2026-04-22T18:40:45.986484+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Solana Hits All-Time Record 167M Monthly Token Holders and 148M Daily Non-Vote Transactions as of April 14, 2026, Ahead",
-      "raw": "Solana Hits All-Time Record 167M Monthly Token Holders and 148M Daily Non-Vote Transactions as of April 14, 2026, Ahead of Alpenglow Consensus Upgrade | YES | MED confidence** [4]\n\nAlpenglow aims to cut transaction finality from 12 seconds to 150 milliseconds, enhancing Solana's edge in consumer apps over Ethereum's L1/L2 friction. [1][4] Solana leads tokenized stock trading volume since July 2025",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the price of Solana be above $90 on April 28?",
-        "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776883250188_0",
-      "timestamp": "2026-04-22T18:40:50.188139+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Cavaliers take 2-0 series lead over Raptors in Game 2 with 115-105 win, powered by Mitchell (30 pts), Harden (28 pts), a",
-      "raw": "Cavaliers take 2-0 series lead over Raptors in Game 2 with 115-105 win, powered by Mitchell (30 pts), Harden (28 pts), and Mobley (25 pts)** | YES | HIGH confidence[1][2][3][4][5]\n\nRaptors rookie centre **Collin Murray-Boyles** earns increased trust from coach Darko Rajakovic amid Game 2 loss, stepping up off the bench despite series deficit[3][6]\n\nThis strengthens Cavaliers' prediction market odd",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776883255769_1",
-      "timestamp": "2026-04-22T18:40:55.769958+00:00",
-      "source": "PERPLEXITY",
-      "headline": "\ud835\udd4f Money Launched by April 30",
-      "raw": "\ud835\udd4f Money Launched by April 30? | NO | HIGH confidence**  \nX-specific market at 16% YES odds with $33.6K volume and $4.4K liquidity reflects low expectations for launch within 7 days.[2]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776883255771_2",
-      "timestamp": "2026-04-22T18:40:55.771928+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Monero Hits $1000 in 2026",
-      "raw": "Monero Hits $1000 in 2026? | NO | MED confidence**  \nTrending at 19% YES odds with $94.3K volume and $6.7K liquidity, signaling skepticism on crypto price surge over 8 months.[1]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776883255775_4",
-      "timestamp": "2026-04-22T18:40:55.775895+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Nikita Bier Out as X Head of Product by June 30",
-      "raw": "Nikita Bier Out as X Head of Product by June 30? | NO | HIGH confidence**  \nAt 7% YES odds with $1.4K volume and $2.9K liquidity, traders see low risk of departure in 2 months.[2]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776883255778_5",
-      "timestamp": "2026-04-22T18:40:55.778182+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Elon Musk Tweet Volume Markets | MIXED (under 220 favored) | MED confidence**",
-      "raw": "Elon Musk Tweet Volume Markets | MIXED (under 220 favored) | MED confidence**  \nActive markets like April 17-24 tweets lean toward 200-219 range at 33% odds amid $22M+ total volume; no clear mispricing buzz but real-time shifts noted.[3][4]",
+      "headline": "NO | LOW confidence**\u2014Results outdated (max April 20); no \"just confirmed\" catalysts like ETF approvals, forks, or resol",
+      "raw": "NO | LOW confidence**\u2014Results outdated (max April 20); no \"just confirmed\" catalysts like ETF approvals, forks, or resolutions hit today to shift markets.",
       "direction": "NO",
-      "confidence": 0.6,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776883326390_0",
+      "timestamp": "2026-04-22T18:42:06.390340+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | HIGH confidence**",
+      "raw": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | HIGH confidence**  \nPolymarket's most active markets right now focus on **Elon Musk's tweet volumes**, such as \"Elon Musk # tweets April 20 - April 22, 2026?\" (priced at 40-64% implied probability in some outcomes) and \"Elon Musk # tweets April 17 - April 24, 2026?\" with 1120-1159 tweets at 18% odds[2][3][4].",
+      "direction": "NO",
+      "confidence": 0.65,
       "matched_markets": [
         "Will Trump name \"Elon\" or \"Musk\" in April?"
       ],
-      "action": "WATCH",
+      "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776883326392_1",
+      "timestamp": "2026-04-22T18:42:06.392617+00:00",
+      "source": "PERPLEXITY",
+      "headline": "No whale bets, smart money moves, or prediction tips** are detailed in current posts; one Binance Square mention highlig",
+      "raw": "No whale bets, smart money moves, or prediction tips** are detailed in current posts; one Binance Square mention highlights a Polymarket analytics tool for tracking top traders' strategies, but lacks specifics on recent activity[5].",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776883326394_2",
+      "timestamp": "2026-04-22T18:42:06.394678+00:00",
+      "source": "PERPLEXITY",
+      "headline": "No mispriced markets or about-to-move alerts** reported; traders discuss real-time odds on tweet predictions like Kanye'",
+      "raw": "No mispriced markets or about-to-move alerts** reported; traders discuss real-time odds on tweet predictions like Kanye's next tweet by April 30 at 60% yes (low $390 volume)[3].",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776883320600_0",
+      "timestamp": "2026-04-22T18:42:00.600200+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Cavaliers Defeat Raptors 115-105 in Game 2, Take 2-0 Playoff Series Lead** | YES | HIGH confidence[1][2][3]",
+      "raw": "Cavaliers Defeat Raptors 115-105 in Game 2, Take 2-0 Playoff Series Lead** | YES | HIGH confidence[1][2][3]  \nDonovan Mitchell scored 30 points with 7 rebounds and 5 assists, while James Harden added 28 points on 9-14 shooting to lead Cleveland over Toronto, where Scottie Barnes had 26 points in the loss[1][2][3].  \nThis result strengthens Cavaliers' playoff prospects and could shift prediction ma",
+      "direction": "YES",
+      "confidence": 0.6,
+      "matched_markets": [
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
+      ],
+      "action": "WATCH",
+      "x_link": null,
+      "category": "SPORTS"
     }
   ],
   "stats": {
     "enter": 0,
-    "alert": 8,
+    "alert": 4,
     "watch": 1,
     "high_conf": 0
   }
