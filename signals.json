@@ -1,15 +1,45 @@
 {
-  "last_scan": "2026-04-22T01:59:27.026269+00:00",
-  "scan_seconds": 16.0,
+  "last_scan": "2026-04-22T02:00:30.336045+00:00",
+  "scan_seconds": 18.3,
   "markets_scanned": 78,
   "open_positions": 36,
   "signals": [
     {
-      "id": "sig_1776823157897_0",
-      "timestamp": "2026-04-22T01:59:17.897265+00:00",
+      "id": "sig_1776823215518_0",
+      "timestamp": "2026-04-22T02:00:15.518984+00:00",
       "source": "PERPLEXITY",
-      "headline": "No breaking GDP news confirmed, announced, or resolved right now that would move prediction markets | NO | HIGH confiden",
-      "raw": "No breaking GDP news confirmed, announced, or resolved right now that would move prediction markets | NO | HIGH confidence**\n\nThe most recent US GDP development is the third estimate from April 9, 2026, downgrading Q4 2025 growth to 0.5% (from prior estimates), confirmed by the U.S. Bureau of Economic Analysis\u2014over 12 days old and unlikely to shift markets now.[1] IMF's upward revision of India's ",
+      "headline": "SEC Drops Lawsuit Against Ripple Labs | YES | HIGH confidence** [1]",
+      "raw": "SEC Drops Lawsuit Against Ripple Labs | YES | HIGH confidence** [1]\n\nThe SEC's decision to drop its long-running lawsuit against Ripple has been confirmed as a key catalyst for XRP's 10% surge in April 2026, breaking above $1.50 to $1.42, signaling regulatory clarity and shifting market sentiment toward sustained uptrends with targets up to $2.71-$5.00 by year-end.[1] This resolution removes a maj",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will Ethereum reach $2,400 April 20-26?",
+        "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
+        "XRP Up or Down - April 22, 8:20AM-8:25AM ET"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776823225295_1",
+      "timestamp": "2026-04-22T02:00:25.295395+00:00",
+      "source": "PERPLEXITY",
+      "headline": "No Raptors Playoff Series Updates; Cavs Lead 1-0 After 126-113 Game 1 Win | NO | HIGH confidence**",
+      "raw": "No Raptors Playoff Series Updates; Cavs Lead 1-0 After 126-113 Game 1 Win | NO | HIGH confidence**  \nToronto lost Game 1 to Cleveland (Donovan Mitchell 32 pts, James Harden 22/10 ast); Raptors finished 5th East but no new series predictions resolved or confirmed to shift markets.[3][6]",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776823220356_0",
+      "timestamp": "2026-04-22T02:00:20.356027+00:00",
+      "source": "PERPLEXITY",
+      "headline": "China's Q1 2026 GDP grows 5% YoY, beating expectations of 4",
+      "raw": "China's Q1 2026 GDP grows 5% YoY, beating expectations of 4.8% | YES | HIGH confidence**  \nChina's National Bureau of Statistics reported Q1 GDP growth at 5.0% year-on-year on April 16, 2026, exceeding Bloomberg estimates of 4.8% and prior quarter's 4.5%, amid Middle East conflict risks.[1] This stronger-than-expected rebound\u2014within Beijing's 4.5-5% annual target\u2014signals potential policy support l",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
@@ -18,27 +48,79 @@
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_1776823162017_0",
-      "timestamp": "2026-04-22T01:59:22.017559+00:00",
+      "id": "sig_1776823220363_1",
+      "timestamp": "2026-04-22T02:00:20.363121+00:00",
       "source": "PERPLEXITY",
-      "headline": "Lakers Lead Rockets 1-0 After Game 1 Win in Western Conference Semifinals | YES (Lakers favored to win series) | HIGH co",
-      "raw": "Lakers Lead Rockets 1-0 After Game 1 Win in Western Conference Semifinals | YES (Lakers favored to win series) | HIGH confidence** [1]\n\nThe Los Angeles Lakers, seeded 4th in the West, defeated the 5th-seeded Houston Rockets in Game 1 on April 21 (10:30 PM), taking a 1-0 series lead as playoffs advance to semifinals; Game 2 is upcoming with Lakers hosting and Rockets as -5.5 underdogs.[1] This resu",
+      "headline": "Russia's Jan-Feb 2026 GDP contracts 1",
+      "raw": "Russia's Jan-Feb 2026 GDP contracts 1.8% YoY, Putin acknowledges downturn | YES | MED confidence**  \nPutin confirmed an 1.8% GDP contraction for January-February 2026 (vs. same period 2025) during an economic meeting, citing losses in manufacturing, industry, and construction, after 1% growth in 2025.[2] Forecasts conflict: Central Bank at +1.6% for Q1, Russian Academy of Sciences at -1.5% YoY.[2]",
       "direction": "YES",
       "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776823225292_0",
+      "timestamp": "2026-04-22T02:00:25.292442+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Lakers Injury Confirmations Boost Series Odds vs Rockets | YES | HIGH confidence**",
+      "raw": "Lakers Injury Confirmations Boost Series Odds vs Rockets | YES | HIGH confidence**  \nAustin Reaves (oblique) and Luka Doncic (hamstring) are ruled out for Game 2 vs Houston on Apr 21, while the Lakers hold a 1-0 lead after LeBron James (19 pts, 13 ast) and Luke Kennard (27 pts) powered a 107-98 Game 1 win without them; Rockets' Kevin Durant missed Game 1 (knee) with Game 2 return update pending.[2",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776823225298_2",
+      "timestamp": "2026-04-22T02:00:25.298669+00:00",
+      "source": "PERPLEXITY",
+      "headline": "No Cooper Flagg News in NBA Playoffs Context | NO | HIGH confidence**",
+      "raw": "No Cooper Flagg News in NBA Playoffs Context | NO | HIGH confidence**  \nNo mentions of Cooper Flagg (prospect/college player) tied to Lakers, Raptors, or playoffs in recent results; focus remains on active series injuries and Game 1 outcomes.[1][2][3]",
+      "direction": "NO",
+      "confidence": 0.65,
       "matched_markets": [
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
         "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
-        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs",
-        "Will Detroit Pistons advance to the Conference Semifinals in the 2026 NBA Playof"
+        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
       ],
       "action": "ALERT",
       "x_link": null,
       "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776823229330_0",
+      "timestamp": "2026-04-22T02:00:29.330458+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Nasdaq Round-the-Clock Trading by June 30",
+      "raw": "Nasdaq Round-the-Clock Trading by June 30? | NO | HIGH confidence**  \nPolymarket's top trending market shows \"Nasdaq round-the-clock trading by June 30?\" at 22% YES odds with $43.9K volume, indicating traders price low probability (78% NO) for this event ending in 2 months.[1]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776823229333_1",
+      "timestamp": "2026-04-22T02:00:29.333616+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Elon Musk # Tweets April 17-24, 2026",
+      "raw": "Elon Musk # Tweets April 17-24, 2026? | NO (for high ranges) | MED confidence**  \nActive tweet markets like \"Elon Musk # tweets April 17 - April 24, 2026?\" feature outcomes such as 200-219 at 29% or similar ranges (e.g., 1080-1119 at 18% in April markets), with $17.1M total volume signaling trader focus on specific tweet counts amid real-time updates.[2][3][4] No whale bets or mispricing calls not",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 2,
+    "enter": 1,
+    "alert": 7,
     "watch": 0,
-    "high_conf": 0
+    "high_conf": 2
   }
 }
