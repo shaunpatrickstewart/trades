@@ -1,74 +1,119 @@
 {
-  "last_scan": "2026-04-22T04:08:34.946650+00:00",
-  "scan_seconds": 15.3,
-  "markets_scanned": 80,
+  "last_scan": "2026-04-22T04:09:38.145238+00:00",
+  "scan_seconds": 17.6,
+  "markets_scanned": 76,
   "open_positions": 37,
   "signals": [
     {
-      "id": "sig_1776830913939_0",
-      "timestamp": "2026-04-22T04:08:33.939568+00:00",
+      "id": "sig_1776830977142_0",
+      "timestamp": "2026-04-22T04:09:37.142156+00:00",
       "source": "PERPLEXITY",
-      "headline": "Elon Musk Tweet Count Markets Dominating Polymarket Volume | NO | HIGH confidence**",
-      "raw": "Elon Musk Tweet Count Markets Dominating Polymarket Volume | NO | HIGH confidence**  \nPolymarket's highest-volume markets right now focus on Elon Musk's tweet activity, including \"Elon Musk # tweets April 17 - April 24, 2026?\" (30% odds on 200-219 tweets, $5M volume) and \"Elon Musk # tweets in April 2026?\" (18% on 1080-1119 tweets, $9M volume, $501K today).[1][3][4]  \nThese tweet prediction market",
-      "direction": "NO",
-      "confidence": 0.78,
+      "headline": "ELON MUSK TWEET COUNT MARKETS DOMINATE POLYMARKET ACTIVITY | NO | LOW confidence**",
+      "raw": "ELON MUSK TWEET COUNT MARKETS DOMINATE POLYMARKET ACTIVITY | NO | LOW confidence**\n\nPolymarket's most active markets right now focus on **Elon Musk tweet predictions**, including \"Elon Musk # tweets April 17 - April 24, 2026?\" (with \"200-219\" at 29%) and the top market \"Elon Musk musk # tweets in April 2026?\" (18% on 1080-1119 outcome).[1][2][3] These reflect real-time trader sentiment on tweet vo",
+      "direction": "YES",
+      "confidence": 0.9,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776830913942_1",
-      "timestamp": "2026-04-22T04:08:33.942823+00:00",
+      "id": "sig_1776830963204_0",
+      "timestamp": "2026-04-22T04:09:23.204693+00:00",
       "source": "PERPLEXITY",
-      "headline": "Nasdaq Round-the-Clock Trading by June 30",
-      "raw": "Nasdaq Round-the-Clock Trading by June 30? Gaining Traction as Top Trending Market | NO whale bets or tips reported | MED confidence**  \nTrending markets highlight \"Nasdaq round-the-clock trading by June 30?\" at 22% yes odds with $43.9K volume, alongside niche bets like Kinetiq's 2026 price target (59% at $0.5).[1]  \nNo specific X posts on whale bets, smart money moves, mispriced markets, or recen",
+      "headline": "SEC Drops Long-Running Lawsuit Against Ripple Labs | YES | HIGH confidence** [1][2]",
+      "raw": "SEC Drops Long-Running Lawsuit Against Ripple Labs | YES | HIGH confidence** [1][2]\n\nThe SEC's decision to drop its lawsuit against Ripple provides definitive regulatory clarity, resolving a multi-year overhang that suppressed XRP's price and enabling institutional adoption.[1][2] This confirmation, alongside the full-scale rollout of Ripple's RLUSD stablecoin on XRP Ledger and Ethereum, has drive",
       "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
+        "XRP Up or Down - April 22, 8:20AM-8:25AM ET",
+        "XRP Up or Down - April 22, 8:35AM-8:40AM ET"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776830968457_0",
+      "timestamp": "2026-04-22T04:09:28.457035+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**IMF Article IV Consultation (April 2, 2026)**: Projects U",
+      "raw": "**IMF Article IV Consultation (April 2, 2026)**: Projects U.S. GDP at 2.4% for 2026, core PCE inflation at 2.6% by year-end (missing 2% target until 2027), and minimal Fed rate cuts (fed funds from 3.6% to 3.4%), citing little room for easing absent labor/inflation downturns; Powell endorsed \"soft landing.\"[1]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Powell say \"Tariff inflation\" during April press conference?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776830968459_1",
+      "timestamp": "2026-04-22T04:09:28.459889+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**FOMC March 18 statement**: Held rates at 3",
+      "raw": "**FOMC March 18 statement**: Held rates at 3.5-3.75%, noting solid GDP growth, low job gains, somewhat elevated inflation, and Middle East uncertainties; committed to 2% target.[5]",
+      "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "COMMUNITY"
+      "category": "ECONOMICS"
     },
     {
-      "id": "sig_1776830906285_0",
-      "timestamp": "2026-04-22T04:08:26.285711+00:00",
+      "id": "sig_1776830968468_3",
+      "timestamp": "2026-04-22T04:09:28.468551+00:00",
       "source": "PERPLEXITY",
-      "headline": "US added 177,000 jobs in April 2025 (exceeding expectations) with unemployment steady at 4",
-      "raw": "US added 177,000 jobs in April 2025 (exceeding expectations) with unemployment steady at 4.2% amid Trump's 'Liberation Day' tariffs; Powell recently noted solid labor market despite slowdown risks | YES | HIGH confidence** [1][2][3]\n\nThe April jobs report, released May 2, 2025, showed hiring slowed from 228,000 in March but beat economist forecasts, with unemployment unchanged at a historically lo",
+      "headline": "**S&P Global April outlook**: Cut 2026 global GDP to 2",
+      "raw": "**S&P Global April outlook**: Cut 2026 global GDP to 2.4% on higher inflation/energy prices squeezing incomes; U.S. specifics align with broader downside.[4]\n\nThese are not \"right now\" (all pre-April 22), with next catalysts like April 28-29 FOMC or March CPI (due ~April 11, per [3]). No April GDP data yet (Q1 typically late April).[1][2][3][4][5]",
       "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Powell say \"Tariff inflation\" during April press conference?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776830972122_0",
+      "timestamp": "2026-04-22T04:09:32.122222+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Cavaliers defeat Raptors 115-105 in Game 2, take 2-0 lead in Eastern Conference first-round playoffs** | **YES** | **HIG",
+      "raw": "Cavaliers defeat Raptors 115-105 in Game 2, take 2-0 lead in Eastern Conference first-round playoffs** | **YES** | **HIGH** confidence[1][2]\n\nThe Cleveland Cavaliers secured a 2-0 series lead over the Toronto Raptors with Monday's victory, driven by Donovan Mitchell's 30 points, James Harden's 28 points and 4 assists, and Evan Mobley's 25 points and 8 rebounds; Cleveland never trailed and extended",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
+        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776830968462_2",
+      "timestamp": "2026-04-22T04:09:28.462746+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**March FOMC minutes (released April 8)**: More officials see possible 2026 rate hikes due to oil/gas price spikes from",
+      "raw": "**March FOMC minutes (released April 8)**: More officials see possible 2026 rate hikes due to oil/gas price spikes from Iran conflict; markets now expect no cuts until late 2027; Powell tied cuts to steady inflation cooling.[3]",
+      "direction": "NO",
       "confidence": 0.6,
       "matched_markets": [
-        "Will Trump agree to Iranian enrichment of uranium in April?",
-        "Will the April 2026 unemployment rate be 4.5%?",
         "Will Powell say \"Tariff inflation\" during April press conference?"
       ],
       "action": "WATCH",
       "x_link": null,
       "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776830909794_0",
-      "timestamp": "2026-04-22T04:08:29.794802+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Cavaliers take 2-0 series lead over Raptors in NBA playoffs after Game 2 win on April 20** | YES | HIGH confidence[2][4]",
-      "raw": "Cavaliers take 2-0 series lead over Raptors in NBA playoffs after Game 2 win on April 20** | YES | HIGH confidence[2][4]\n\nDonovan Mitchell scored 30 points, James Harden added 28, and Evan Mobley had 25 points with 8 rebounds as Cleveland defeated Toronto 115-105 on Monday, April 20, 2026, securing a 2-0 lead in their Eastern Conference first-round series[2][4][6]. Game 1 was also a Cavaliers win ",
-      "direction": "YES",
-      "confidence": 0.6,
-      "matched_markets": [
-        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
-      ],
-      "action": "WATCH",
-      "x_link": null,
-      "category": "SPORTS"
     }
   ],
   "stats": {
     "enter": 0,
-    "alert": 2,
-    "watch": 2,
-    "high_conf": 0
+    "alert": 6,
+    "watch": 1,
+    "high_conf": 1
   }
 }
