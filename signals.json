@@ -1,105 +1,100 @@
 {
-  "last_scan": "2026-04-22T19:59:13.181332+00:00",
-  "scan_seconds": 16.6,
-  "markets_scanned": 54,
+  "last_scan": "2026-04-22T20:00:24.572342+00:00",
+  "scan_seconds": 23.8,
+  "markets_scanned": 53,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776887952165_0",
-      "timestamp": "2026-04-22T19:59:12.165943+00:00",
+      "id": "sig_1776888012548_3",
+      "timestamp": "2026-04-22T20:00:12.548793+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot provide the breaking news and real-time trader sentiment you're requesting based on these search results",
-      "raw": "I cannot provide the breaking news and real-time trader sentiment you're requesting based on these search results. While the search results confirm that Polymarket hosts active prediction markets on X-related topics and other trending events, they don't contain current information about what traders are actively discussing, specific whale bets, or which markets are considered mispriced right now.\n",
+      "headline": "April showing **bullish momentum** across major cryptocurrencies, with analysts highlighting Ethereum's Layer 2 expansio",
+      "raw": "April showing **bullish momentum** across major cryptocurrencies, with analysts highlighting Ethereum's Layer 2 expansion and institutional accumulation behavior[3]\n\nHowever, these are **price movements and technical analysis**, not breaking announcements or confirmed events. The search results contain no specific news about regulatory decisions, protocol upgrades, major partnerships, or other mar",
+      "direction": "NO",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776888012537_0",
+      "timestamp": "2026-04-22T20:00:12.537463+00:00",
+      "source": "PERPLEXITY",
+      "headline": "I cannot identify breaking news matching your query from these search results",
+      "raw": "I cannot identify breaking news matching your query from these search results. The available sources provide **price data and market analysis** rather than **announced events or confirmations** that would move prediction markets.\n\nThe most recent concrete information is:",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776888012541_1",
+      "timestamp": "2026-04-22T20:00:12.541168+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Ethereum trading at $2,403",
+      "raw": "**Ethereum trading at $2,403.78** as of 9:15 a.m. Eastern Time on April 22, 2026, up $98.74 from the previous day[1]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776888012544_2",
+      "timestamp": "2026-04-22T20:00:12.544661+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Bitcoin at $78,194",
+      "raw": "**Bitcoin at $78,194.37** on the same date[1]",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "COMMUNITY"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_1776887952168_1",
-      "timestamp": "2026-04-22T19:59:12.168025+00:00",
+      "id": "sig_1776888016799_0",
+      "timestamp": "2026-04-22T20:00:16.799530+00:00",
       "source": "PERPLEXITY",
-      "headline": "General platform information about Polymarket's structure and capabilities[1][3][4]",
-      "raw": "General platform information about Polymarket's structure and capabilities[1][3][4]",
-      "direction": null,
+      "headline": "Cavaliers Defeat Raptors 115-105 in Game 2, Take 2-0 Series Lead and Tie NBA Record with 12th Straight Playoff Win Over",
+      "raw": "Cavaliers Defeat Raptors 115-105 in Game 2, Take 2-0 Series Lead and Tie NBA Record with 12th Straight Playoff Win Over Toronto** | YES | HIGH[1][2]\n\nCavaliers' star trio\u2014Donovan Mitchell (30 points), James Harden (28 points), and Evan Mobley (25 points)\u2014powered a wire-to-wire victory on Monday night, marking their 12th consecutive playoff win against the Raptors and matching an NBA record for lon",
+      "direction": "YES",
       "confidence": 0.65,
-      "matched_markets": [],
+      "matched_markets": [
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
+      ],
       "action": "ALERT",
       "x_link": null,
-      "category": "COMMUNITY"
+      "category": "SPORTS"
     },
     {
-      "id": "sig_1776887952170_2",
-      "timestamp": "2026-04-22T19:59:12.170029+00:00",
+      "id": "sig_1776888023568_0",
+      "timestamp": "2026-04-22T20:00:23.568669+00:00",
       "source": "PERPLEXITY",
-      "headline": "A snapshot of some markets as of April 19-22, 2026 (such as \"Iran x Israel/US conflict ends by",
-      "raw": "A snapshot of some markets as of April 19-22, 2026 (such as \"Iran x Israel/US conflict ends by...?\" trading at 100% probability)[3]",
-      "direction": null,
+      "headline": "Elon Musk April Tweets Dominate Polymarket Chatter | NO whale bets or confirmed resolutions reported | MED confidence**",
+      "raw": "Elon Musk April Tweets Dominate Polymarket Chatter | NO whale bets or confirmed resolutions reported | MED confidence**\n\nPolymarket's trending markets as of April 22, 2026, heavily feature **tweet predictions**, especially around **Elon Musk's tweet volume**, with markets like \"Elon Musk # tweets April 20 - April 22, 2026?\" (e.g., \"40-64\" outcome) and \"Elon Musk # tweets April 17 - April 24, 2026?",
+      "direction": "NO",
       "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776887952172_3",
-      "timestamp": "2026-04-22T19:59:12.172047+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Historical examples of how prediction markets work[2][4]",
-      "raw": "Historical examples of how prediction markets work[2][4]\n\nTo get the real-time trader insights, whale positions, and mispriced market alerts you're seeking, you would need to:",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776887952174_4",
-      "timestamp": "2026-04-22T19:59:12.174187+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Visit Polymarket directly and monitor active markets in real-time",
-      "raw": "Visit Polymarket directly and monitor active markets in real-time",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776887952176_5",
-      "timestamp": "2026-04-22T19:59:12.176144+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Check X (formerly Twitter) for trader discussions and market analysis",
-      "raw": "Check X (formerly Twitter) for trader discussions and market analysis",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776887952178_6",
-      "timestamp": "2026-04-22T19:59:12.178367+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Review prediction market analytics platforms that track large trades and unusual activity",
-      "raw": "Review prediction market analytics platforms that track large trades and unusual activity\n\nI cannot fabricate breaking news or trader sentiment that isn't present in the search results.",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
+      "matched_markets": [
+        "Will Trump name \"Elon\" or \"Musk\" in April?"
+      ],
       "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 7,
+    "enter": 1,
+    "alert": 5,
     "watch": 0,
-    "high_conf": 0
+    "high_conf": 2
   }
 }
