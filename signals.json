@@ -1,55 +1,66 @@
 {
-  "last_scan": "2026-04-22T18:05:56.729155+00:00",
-  "scan_seconds": 15.2,
+  "last_scan": "2026-04-22T18:07:05.546418+00:00",
+  "scan_seconds": 14.8,
   "markets_scanned": 50,
   "open_positions": 14,
   "signals": [
     {
-      "id": "sig_1776881155714_4",
-      "timestamp": "2026-04-22T18:05:55.714875+00:00",
+      "id": "sig_1776881214584_0",
+      "timestamp": "2026-04-22T18:06:54.584832+00:00",
       "source": "PERPLEXITY",
-      "headline": "Breaking news or just-announced events that would move prediction markets",
-      "raw": "Breaking news or just-announced events that would move prediction markets",
-      "direction": null,
+      "headline": "Solana Hits Record 167 Million Token Holders in April 2026 | YES | HIGH confidence**",
+      "raw": "Solana Hits Record 167 Million Token Holders in April 2026 | YES | HIGH confidence**  \nSolana's network reached an all-time high of 167 million monthly token holders as of April 14, 2026, with daily non-vote transactions hitting 148 million\u2014marking confirmed growth amid the Alpenglow upgrade anticipation to cut finality to 150ms[3][4]. This holder surge (up 12% since October 2025) and recent $34.9",
+      "direction": "YES",
       "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776881145436_1",
-      "timestamp": "2026-04-22T18:05:45.436006+00:00",
-      "source": "PERPLEXITY",
-      "headline": "LOW confidence** in market-moving events today, as results reflect ongoing speculation without \"right now\" resolutions",
-      "raw": "LOW confidence** in market-moving events today, as results reflect ongoing speculation without \"right now\" resolutions. [1][2][3][4][5][6][7]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
+      "matched_markets": [
+        "Will the price of Solana be above $90 on April 28?",
+        "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET"
+      ],
+      "action": "ENTER",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776881155705_0",
-      "timestamp": "2026-04-22T18:05:55.705657+00:00",
+      "id": "sig_1776881219531_1",
+      "timestamp": "2026-04-22T18:06:59.531276+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot provide the information you're requesting based on the available search results",
-      "raw": "I cannot provide the information you're requesting based on the available search results. The search results contain only general information about Polymarket's platform structure and some example markets (like \"Robinhood up or down on April 22\" and \"Elon Musk tweets\"), but they do not include:",
+      "headline": "Key details:** Donovan Mitchell scored 30 points, James Harden added 28 points and 4 assists (moving him to 7th on playo",
+      "raw": "Key details:** Donovan Mitchell scored 30 points, James Harden added 28 points and 4 assists (moving him to 7th on playoff assists list), and Evan Mobley contributed 25 points with 8 rebounds, as Cleveland never trailed and extended their playoff win streak over Toronto to 12 straight (tying NBA record)[1]. Scottie Barnes led Raptors with 26 points, RJ Barrett had 22 points and 9 rebounds[1]. Game",
+      "direction": "YES",
+      "confidence": 0.78,
+      "matched_markets": [
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
+        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776881219528_0",
+      "timestamp": "2026-04-22T18:06:59.528668+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Cavaliers defeat Raptors 115-105 in Game 2, securing 2-0 series lead in NBA Eastern Conference first-round playoffs** |",
+      "raw": "Cavaliers defeat Raptors 115-105 in Game 2, securing 2-0 series lead in NBA Eastern Conference first-round playoffs** | YES | HIGH confidence[1][5]",
       "direction": "YES",
       "confidence": 0.65,
-      "matched_markets": [],
+      "matched_markets": [
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
+        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
+      ],
       "action": "ALERT",
       "x_link": null,
-      "category": "COMMUNITY"
+      "category": "SPORTS"
     },
     {
-      "id": "sig_1776881155707_1",
-      "timestamp": "2026-04-22T18:05:55.707748+00:00",
+      "id": "sig_1776881224541_0",
+      "timestamp": "2026-04-22T18:07:04.541523+00:00",
       "source": "PERPLEXITY",
-      "headline": "Real-time social media posts from X (Twitter) about Polymarket trading activity",
-      "raw": "Real-time social media posts from X (Twitter) about Polymarket trading activity",
-      "direction": null,
+      "headline": "Elon Musk April 2026 Tweet Count Markets Lead Polymarket Trends | NO whale bets or confirmed announcements reported | LO",
+      "raw": "Elon Musk April 2026 Tweet Count Markets Lead Polymarket Trends | NO whale bets or confirmed announcements reported | LOW confidence**  \nPolymarket's most active markets as of April 21, 2026, focus on **Elon Musk's # tweets in April 2026**, with the 1120-1159 range priced at 18-19% probability across high-volume markets ($22M+ trading volume).[2][3]  \nOther trending categories include general **Tr",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -57,62 +68,23 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776881155710_2",
-      "timestamp": "2026-04-22T18:05:55.710009+00:00",
+      "id": "sig_1776881224543_1",
+      "timestamp": "2026-04-22T18:07:04.543407+00:00",
       "source": "PERPLEXITY",
-      "headline": "Current whale bets or smart money moves",
-      "raw": "Current whale bets or smart money moves",
+      "headline": "Tweet Mentions** markets (20 live) cover event phrases like CS IEM Rio 2026, but lack volume or odds details",
+      "raw": "Tweet Mentions** markets (20 live) cover event phrases like CS IEM Rio 2026, but lack volume or odds details.[4]",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776881155712_3",
-      "timestamp": "2026-04-22T18:05:55.712336+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Specific trader commentary on mispriced markets",
-      "raw": "Specific trader commentary on mispriced markets",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776881155717_5",
-      "timestamp": "2026-04-22T18:05:55.717248+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Market resolution information",
-      "raw": "Market resolution information\n\nTo get this information, you would need to:",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776881145434_0",
-      "timestamp": "2026-04-22T18:05:45.434115+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Solana** predictions remain mixed (Polymarket bullish above $80; AI range $75-$95; current ~$82 with ETF/institutional s",
-      "raw": "Solana** predictions remain mixed (Polymarket bullish above $80; AI range $75-$95; current ~$82 with ETF/institutional support), lacking fresh confirmations. [1][2][3]",
-      "direction": null,
-      "confidence": 0.6,
-      "matched_markets": [],
-      "action": "WATCH",
-      "x_link": null,
-      "category": "CRYPTO"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 7,
-    "watch": 1,
+    "enter": 1,
+    "alert": 4,
+    "watch": 0,
     "high_conf": 1
   }
 }
