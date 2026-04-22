@@ -1,58 +1,135 @@
 {
-  "last_scan": "2026-04-22T13:14:13.907427+00:00",
-  "scan_seconds": 23.3,
-  "markets_scanned": 77,
+  "last_scan": "2026-04-22T13:15:25.492042+00:00",
+  "scan_seconds": 24.6,
+  "markets_scanned": 76,
   "open_positions": 38,
   "signals": [
     {
-      "id": "sig_1776863640225_0",
-      "timestamp": "2026-04-22T13:14:00.225073+00:00",
+      "id": "sig_1776863710273_1",
+      "timestamp": "2026-04-22T13:15:10.273851+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot identify any breaking news, confirmed announcements, or market-moving developments from the provided search res",
-      "raw": "I cannot identify any breaking news, confirmed announcements, or market-moving developments from the provided search results that would affect prediction markets.\n\nThe search results contain routine price updates from April 15-21, 2026, showing Ethereum trading in the $2,194\u2013$2,358 range[1][2][3][5][6], along with general technical analysis and long-term price predictions. One source mentions the ",
-      "direction": "NO",
+      "headline": "Strategy Discloses $2",
+      "raw": "Strategy Discloses $2.54 Billion Bitcoin Purchase | YES | HIGH confidence**\n\nThe cryptocurrency fund Strategy announced a major $2.54 billion BTC acquisition, lifting holdings past 815,000 coins[1]. This institutional capital inflow marks a significant positive signal for the market and coincides with the price breakthrough.",
+      "direction": "YES",
       "confidence": 0.9,
-      "matched_markets": [
-        "Ethereum above 2,340 on April 22, 10AM ET?",
-        "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET"
-      ],
-      "action": "ENTER",
+      "matched_markets": [],
+      "action": "ALERT",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776863648623_0",
-      "timestamp": "2026-04-22T13:14:08.623341+00:00",
+      "id": "sig_1776863710270_0",
+      "timestamp": "2026-04-22T13:15:10.270810+00:00",
       "source": "PERPLEXITY",
-      "headline": "Victor Wembanyama Shatters Tim Duncan's Rookie Playoff Scoring Record in Spurs' Game 1 Win** | NO | HIGH confidence[1]",
-      "raw": "Victor Wembanyama Shatters Tim Duncan's Rookie Playoff Scoring Record in Spurs' Game 1 Win** | NO | HIGH confidence[1]\n\nVictor Wembanyama electrified his playoff debut, breaking Tim Duncan's rookie scoring record and giving the San Antonio Spurs an early series lead over their opponent[1]. This confirmed performance boosts Spurs series win odds in prediction markets, as it signals their rookie-led",
+      "headline": "Trump Extends Iran Ceasefire Indefinitely, Boosting Risk Sentiment | YES | HIGH confidence**",
+      "raw": "Trump Extends Iran Ceasefire Indefinitely, Boosting Risk Sentiment | YES | HIGH confidence**\n\nBitcoin reached $77,541 (up 2.2% in 24 hours), Ethereum added 0.7% to $2,390, and XRP gained 1.5% to $1.45 following Trump's announcement to extend the Iran ceasefire indefinitely[1]. This geopolitical development reduces safe-haven demand and supports risk assets, with analysts noting that if oil prices ",
       "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?"
-      ],
-      "action": "ENTER",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
       "x_link": null,
-      "category": "SPORTS"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_1776863652904_0",
-      "timestamp": "2026-04-22T13:14:12.904476+00:00",
+      "id": "sig_1776863710276_2",
+      "timestamp": "2026-04-22T13:15:10.276665+00:00",
       "source": "PERPLEXITY",
-      "headline": "Elon Musk April Tweets Market Dominates Polymarket Activity | NO whale bets or tips reported | LOW confidence**",
-      "raw": "Elon Musk April Tweets Market Dominates Polymarket Activity | NO whale bets or tips reported | LOW confidence**  \nPolymarket's most active markets focus on **Elon Musk tweet counts**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" and \"Elon Musk # tweets in April 2026?\", with the 1120-1159 range trading at 28% odds and $9M volume as of April 21[3][1][2]. No search results mention real-tim",
+      "headline": "Bitcoin Breaks Two-Month Consolidation | YES | HIGH confidence**",
+      "raw": "Bitcoin Breaks Two-Month Consolidation | YES | HIGH confidence**\n\nBTC's move to its highest level since early February breaks out of a consolidation range established from the 2024 lows[1], signaling potential momentum continuation.",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776863710279_3",
+      "timestamp": "2026-04-22T13:15:10.279705+00:00",
+      "source": "PERPLEXITY",
+      "headline": "XRP Faces Resistance at $1",
+      "raw": "XRP Faces Resistance at $1.45 | NO (Unresolved) | HIGH confidence**\n\nDespite three consecutive rising sessions, XRP remains at a critical technical barrier where approximately 1.24 billion tokens sit in wallets between $1.45-$1.47, representing break-even sellers that have stalled every rally this year[2].",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776863710284_4",
+      "timestamp": "2026-04-22T13:15:10.284732+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Ethereum Remains Trapped in Consolidation | NO (Unresolved) | HIGH confidence**",
+      "raw": "Ethereum Remains Trapped in Consolidation | NO (Unresolved) | HIGH confidence**\n\nEthereum remains confined within its yearlong $1,800-$2,400 range and requires a decisive break above the 200-day moving average at $2,650 to participate meaningfully in the BTC-led rally[1].",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776863724482_0",
+      "timestamp": "2026-04-22T13:15:24.482881+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Elon Musk April Tweets Market Leads Polymarket Activity | NO | HIGH confidence**",
+      "raw": "Elon Musk April Tweets Market Leads Polymarket Activity | NO | HIGH confidence**  \nPolymarket's most active markets focus on **Elon Musk tweet counts**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" and \"Elon Musk # tweets in April 2026?\", with the 1120-1159 range trading at 18-28% probability and volumes up to $9M[1][2][3].",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776863724485_1",
+      "timestamp": "2026-04-22T13:15:24.485796+00:00",
+      "source": "PERPLEXITY",
+      "headline": "No Whale Bets or X Posts on Mispriced Markets Reported | NO | HIGH confidence**",
+      "raw": "No Whale Bets or X Posts on Mispriced Markets Reported | NO | HIGH confidence**  \nSearch results show no real-time X posts from Polymarket traders, whale bets, smart money moves, or tips on mispriced markets; activity centers on tweet predictions without mentions of imbalances or imminent shifts[1][2][3].",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776863724488_2",
+      "timestamp": "2026-04-22T13:15:24.488924+00:00",
+      "source": "PERPLEXITY",
+      "headline": "No Recent Confirmations, Announcements, or Resolutions Noted | NO | HIGH confidence**",
+      "raw": "No Recent Confirmations, Announcements, or Resolutions Noted | NO | HIGH confidence**  \nNo breaking news, confirmed events, or resolutions (e.g., in news stories or pop culture markets like GTA VI or Kanye tweets) appear in results to drive prediction market movements as of April 21-22, 2026[1][2][3][4].",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776863719886_0",
+      "timestamp": "2026-04-22T13:15:19.886842+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Kevin Durant Injury Status Uncertain for Suns-Thunder Game 2** | NO | HIGH confidence[3]",
+      "raw": "Kevin Durant Injury Status Uncertain for Suns-Thunder Game 2** | NO | HIGH confidence[3]\n\nNBA playoffs are in the first round, not conference semifinals, with OKC leading Suns 1-0 after Game 1 (Thunder 117, Grizzlies 115 in first round; Game 2 today at 6:30 PM ET, OKC -17.5)[1]. Lakers lead Rockets 2-0 (Game 3 Apr 24)[1]. No confirmed rookie standout like **Cooper Flagg** (expected 2026 NBA Draft ",
+      "direction": "YES",
+      "confidence": 0.6,
+      "matched_markets": [
+        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
+      ],
+      "action": "WATCH",
+      "x_link": null,
+      "category": "SPORTS"
     }
   ],
   "stats": {
-    "enter": 2,
-    "alert": 1,
-    "watch": 0,
-    "high_conf": 2
+    "enter": 0,
+    "alert": 8,
+    "watch": 1,
+    "high_conf": 1
   }
 }
