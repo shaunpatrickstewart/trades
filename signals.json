@@ -1,31 +1,80 @@
 {
-  "last_scan": "2026-04-22T06:39:58.407040+00:00",
+  "last_scan": "2026-04-22T06:41:08.541097+00:00",
   "scan_seconds": 17.9,
   "markets_scanned": 80,
   "open_positions": 37,
   "signals": [
     {
-      "id": "sig_1776839992926_0",
-      "timestamp": "2026-04-22T06:39:52.926373+00:00",
+      "id": "sig_1776840058196_0",
+      "timestamp": "2026-04-22T06:40:58.196782+00:00",
       "source": "PERPLEXITY",
-      "headline": "Cooper Flagg Confirmed Available for Mavericks vs",
-      "raw": "Cooper Flagg Confirmed Available for Mavericks vs. Raptors Game** | YES | HIGH confidence[1]\n\nDallas Mavericks rookie **Cooper Flagg**, a game-time decision due to injury concerns, is officially cleared to play against the Toronto Raptors, with head coach Jason Kidd announcing he will log 20-25 minutes in the starting lineup.[1] This matchup aligns with the Eastern Conference semifinals context, a",
-      "direction": "YES",
+      "headline": "Q4 2025 GDP Third Estimate Released: Growth at 0",
+      "raw": "Q4 2025 GDP Third Estimate Released: Growth at 0.5%, Inflation Metrics Stable** | NO | HIGH confidence[4]\n\nThe U.S. Bureau of Economic Analysis confirmed real GDP grew 0.5% annualized in Q4 2025 (third estimate, revised down 0.2 pp), with 2025 annual GDP at 2.1%; PCE price index rose 2.9% in Q4 and 2.6% annually, core PCE at 2.7%[4]. This follows a government shutdown delay, with final sales to pr",
+      "direction": "NO",
       "confidence": 0.9,
       "matched_markets": [
-        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?"
+        "Will Powell say \"Tariff inflation\" during April press conference?"
       ],
       "action": "ENTER",
       "x_link": null,
-      "category": "SPORTS"
+      "category": "ECONOMICS"
     },
     {
-      "id": "sig_1776839984286_0",
-      "timestamp": "2026-04-22T06:39:44.286560+00:00",
+      "id": "sig_1776840053959_0",
+      "timestamp": "2026-04-22T06:40:53.959490+00:00",
       "source": "PERPLEXITY",
-      "headline": "Confidence: HIGH** (search results cover up to April 21 with no later breaking news matching criteria)",
-      "raw": "Confidence: HIGH** (search results cover up to April 21 with no later breaking news matching criteria).",
-      "direction": "YES",
+      "headline": "Bitcoin at $75,324 on April 20 (down slightly daily but stable around $75k range), XRP at $1",
+      "raw": "Bitcoin at $75,324 on April 20 (down slightly daily but stable around $75k range), XRP at $1.42.[1]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the price of Bitcoin be between $78,000 and $80,000 on April 22?",
+        "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
+        "XRP Up or Down - April 22, 8:20AM-8:25AM ET"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776840053962_1",
+      "timestamp": "2026-04-22T06:40:53.962831+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Bitcoin at $75,747 on April 17, XRP at $1",
+      "raw": "Bitcoin at $75,747 on April 17, XRP at $1.44.[2]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the price of Bitcoin be between $78,000 and $80,000 on April 22?",
+        "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
+        "XRP Up or Down - April 22, 8:20AM-8:25AM ET"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776840053965_2",
+      "timestamp": "2026-04-22T06:40:53.965948+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Mid-April analysis of Bitcoin rally to $75k driven by ETF inflows (e",
+      "raw": "Mid-April analysis of Bitcoin rally to $75k driven by ETF inflows (e.g., $471M on April 6, Morgan Stanley's MSBT launch), U.S.-Iran ceasefire impacts, and short liquidations ($427M), with predictions toward $80k or pullbacks.[3][4]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the price of Bitcoin be between $78,000 and $80,000 on April 22?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776840053969_3",
+      "timestamp": "2026-04-22T06:40:53.969060+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Confidence: HIGH** (no results post-April 20 indicate fresh catalysts as of 6 AM UTC today)",
+      "raw": "Confidence: HIGH** (no results post-April 20 indicate fresh catalysts as of 6 AM UTC today).[1][2][3][4]",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -33,23 +82,38 @@
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776839997404_0",
-      "timestamp": "2026-04-22T06:39:57.404113+00:00",
+      "id": "sig_1776840067538_0",
+      "timestamp": "2026-04-22T06:41:07.538115+00:00",
       "source": "PERPLEXITY",
       "headline": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | LOW confidence**",
-      "raw": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | LOW confidence**\n\nPolymarket's most active markets right now focus on **Elon Musk's tweet volumes**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" (29% on 180-199 outcome) and \"Elon Musk # tweets in April 2026?\" (18% on 1080-1119 outcome), with over $17.1M in trading volume across 130+ related markets[2][3][4]. These reflect rea",
+      "raw": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | LOW confidence**\n\nPolymarket's most active markets right now focus on **Elon Musk's tweet volumes**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" (29% on 180-199 outcome) and \"Elon Musk # tweets in April 2026?\" (18% on 1080-1119 outcome), with over $17.1M in trading volume across 130+ related markets.[2][3][4] These reflect rea",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776840062544_0",
+      "timestamp": "2026-04-22T06:41:02.544103+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Cavaliers Defeat Raptors 115-105 in Game 2, Take 2-0 Lead in Eastern Conference First-Round Series** | **YES** | **HIGH*",
+      "raw": "Cavaliers Defeat Raptors 115-105 in Game 2, Take 2-0 Lead in Eastern Conference First-Round Series** | **YES** | **HIGH** confidence[1][2]\n\nThe Cleveland Cavaliers secured a decisive victory on Monday night, with Donovan Mitchell scoring 30 points, James Harden adding 28, and Evan Mobley contributing 25 points and eight rebounds, never trailing en route to a 115-105 win[1]. This clinches a 2-0 ser",
+      "direction": "YES",
+      "confidence": 0.6,
+      "matched_markets": [
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
+      ],
+      "action": "WATCH",
+      "x_link": null,
+      "category": "SPORTS"
     }
   ],
   "stats": {
     "enter": 1,
-    "alert": 2,
-    "watch": 0,
+    "alert": 5,
+    "watch": 1,
     "high_conf": 1
   }
 }
