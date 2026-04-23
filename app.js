@@ -6,6 +6,31 @@
   const ELITE_URL = 'https://shaunpatrickstewart.github.io/trades/elite_wallets.json';
   const REFRESH = 30000;
 
+  // Funder/proxy wallet — holds all Polymarket positions under sig_type=1.
+  // Public address, safe to embed in client JS. Source of truth for live
+  // bankroll is the chain, not the bot-generated bankroll.json.
+  const POLY_FUNDER = '0x86f70cf14893180f815a3cea7d3a521dd10cf5ef';
+
+  // fetchLiveBankroll — read total portfolio value (positions + USDC) directly
+  // from Polymarket's data-api. Returns 0 on failure so callers can fall back
+  // to the cached bankroll.json. Replaces the capital.json intermediary.
+  async function fetchLiveBankroll(funderAddr) {
+    const addr = (funderAddr || POLY_FUNDER).toLowerCase();
+    try {
+      const r = await fetch(DATA + '/value?user=' + addr, {cache: 'no-store'});
+      if (!r.ok) return 0;
+      const j = await r.json();
+      // Endpoint returns [{user, value}] — an array with one row.
+      if (Array.isArray(j) && j.length && typeof j[0].value === 'number') {
+        return j[0].value;
+      }
+      if (j && typeof j.value === 'number') return j.value;
+      return 0;
+    } catch (e) {
+      return 0;
+    }
+  }
+
   function esc(s) {
     if (!s) return '';
     return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;');
@@ -314,11 +339,15 @@
       };
       const WALLET_ORDER = ['shaun_poly','shaun_kalshi','don_poly','don_kalshi'];
 
-      let liveBankroll = 0;
-      try {
-        const brJson = await fetch(BASE+'bankroll.json?v='+Date.now()).then(r=>r.json());
-        liveBankroll = brJson.initial || brJson.current || 0;
-      } catch(e) {}
+      // Try chain-live bankroll first (positions + USDC via data-api /value);
+      // fall back to bankroll.json cache if the live endpoint is unreachable.
+      let liveBankroll = await fetchLiveBankroll();
+      if (!liveBankroll) {
+        try {
+          const brJson = await fetch(BASE+'bankroll.json?v='+Date.now()).then(r=>r.json());
+          liveBankroll = brJson.initial || brJson.current || 0;
+        } catch(e) {}
+      }
 
       WALLET_ORDER.forEach(wid => { if (!byWallet[wid]) byWallet[wid] = []; });
 
@@ -886,14 +915,24 @@
         else if (t.status==='OPEN') { engines[e].o++; engines[e].bet+=(t.bet_size||0); }
       });
 
-      // ── Bankroll (from bankroll.json + realized PnL)
-      let auditInitial = 0;
-      try {
-        const brData = await fetch(BASE+'bankroll.json?v='+Date.now()).then(r=>r.json());
-        auditInitial = brData.initial || brData.current || 0;
-      } catch(e) {}
+      // ── Bankroll — prefer chain-live value (/value?user=funder); fall back to
+      // cached bankroll.json if the live endpoint is unreachable (offline,
+      // CORS, API change). The live value already includes open positions
+      // and wallet USDC, so realized PnL is implicit — don't double-add it
+      // when the live path succeeded.
+      let auditInitial = await fetchLiveBankroll();
+      const usedLive = auditInitial > 0;
+      if (!usedLive) {
+        try {
+          const brData = await fetch(BASE+'bankroll.json?v='+Date.now()).then(r=>r.json());
+          auditInitial = brData.initial || brData.current || 0;
+        } catch(e) {}
+      }
       const realized = settledAll.reduce((s,t)=>s+(t.pnl||0),0);
-      const bankroll = auditInitial + realized;
+      // When live path succeeded, auditInitial is already the CURRENT chain value
+      // (positions + USDC = post-PnL). When we fell back to cached bankroll.json,
+      // auditInitial is the STARTING bankroll and we add realized PnL on top.
+      const bankroll = usedLive ? auditInitial : (auditInitial + realized);
       const deployed = trades.filter(t=>t.status==='OPEN').reduce((s,t)=>s+(t.bet_size||0),0);
 
       // ── Live issues (computed, not cached)
