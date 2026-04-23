@@ -1,33 +1,85 @@
 {
-  "last_scan": "2026-04-23T05:06:07.360641+00:00",
-  "scan_seconds": 16.8,
+  "last_scan": "2026-04-23T05:07:15.547415+00:00",
+  "scan_seconds": 14.7,
   "markets_scanned": 51,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776920761221_0",
-      "timestamp": "2026-04-23T05:06:01.221387+00:00",
+      "id": "sig_1776920828657_0",
+      "timestamp": "2026-04-23T05:07:08.657325+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot provide breaking news matching your query criteria based on the available search results",
-      "raw": "I cannot provide breaking news matching your query criteria based on the available search results.\n\nThe search results show that the **Lakers are currently in the first round of the 2026 playoffs against the Houston Rockets** (leading 2-0 after Game 2)[1], not the conference semifinals. There is **no information about a rookie or conference semifinals matchup** in these results. Additionally, the ",
-      "direction": "NO",
+      "headline": "Cavs Secure 2-0 Series Lead Over Raptors After Game 2 Win** | YES | HIGH confidence[3]",
+      "raw": "Cavs Secure 2-0 Series Lead Over Raptors After Game 2 Win** | YES | HIGH confidence[3]  \nCleveland Cavaliers, led by Donovan Mitchell and James Harden, defeated the Toronto Raptors in Game 2, taking a commanding 2-0 lead in their first-round playoff series.[3]  \nRaptors coach Darko Rajakovic expressed support for players like Jakob Poeltl ahead of Game 3, amid Toronto's 0-2 deficit.[1][3]  \nThis o",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776920834536_0",
+      "timestamp": "2026-04-23T05:07:14.536607+00:00",
+      "source": "PERPLEXITY",
+      "headline": "SCOTUS Sports Event Contract Case Acceptance by Dec 31 | YES 37% | HIGH confidence**",
+      "raw": "SCOTUS Sports Event Contract Case Acceptance by Dec 31 | YES 37% | HIGH confidence**  \nPolymarket's most active trending market assigns a 37% probability to the Supreme Court accepting a sports event contract case by December 31, 2026, with real-time odds reflecting over $3.3M in trading volume across 168 trending markets as of April 22[1]. This leads Polymarket's trending predictions, indicating ",
+      "direction": "YES",
+      "confidence": 0.78,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776920824599_0",
+      "timestamp": "2026-04-23T05:07:04.599488+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Bitcoin and Ethereum Break Out of October Descending Channels | YES | HIGH confidence**",
+      "raw": "Bitcoin and Ethereum Break Out of October Descending Channels | YES | HIGH confidence**  \nBitcoin has surged to $79,000, testing a breakout above its main **October descending channel** on the 4H chart, extending gains beyond the $75,000 long-term pivot amid renewed tech inflows and Nasdaq correlation.[1]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776920824601_1",
+      "timestamp": "2026-04-23T05:07:04.601752+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Ethereum** has consistently rebounded, officially breaking its own **October descending channel** and approaching $2,400",
+      "raw": "Ethereum** has consistently rebounded, officially breaking its own **October descending channel** and approaching $2,400-$2,450 resistance, with bulls in control and momentum not overbought.[1]  \nThis technical confirmation on April 22, 2026, signals potential decoupling from equities and sustained upside, moving **prediction markets** toward bullish **October** trend reversal bets, as cryptos dom",
+      "direction": null,
       "confidence": 0.65,
       "matched_markets": [
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
-        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs",
-        "Will Detroit Pistons advance to the Conference Semifinals in the 2026 NBA Playof"
+        "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET"
       ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776920828659_1",
+      "timestamp": "2026-04-23T05:07:08.659314+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Lakers Take 2-0 Lead on Rockets After Game 2 Victory** | YES | HIGH confidence[3]",
+      "raw": "Lakers Take 2-0 Lead on Rockets After Game 2 Victory** | YES | HIGH confidence[3]  \nLos Angeles Lakers, with LeBron James outdueling Kevin Durant (cleared to play), won Game 2 to lead Houston 2-0 in their series.[2][3]  \nNo rookie-specific confirmation for Lakers, though Austin Reaves may return later in Round 1.[3]  \nRecent result (~1d ago) may impact markets given Houston's struggles down 2-0.[3",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776920766353_0",
-      "timestamp": "2026-04-23T05:06:06.353533+00:00",
+      "id": "sig_1776920834538_1",
+      "timestamp": "2026-04-23T05:07:14.538541+00:00",
       "source": "PERPLEXITY",
-      "headline": "SCOTUS Sports Event Contract Case Acceptance | NO (under 37% odds for Dec 31 bucket) | HIGH confidence**",
-      "raw": "SCOTUS Sports Event Contract Case Acceptance | NO (under 37% odds for Dec 31 bucket) | HIGH confidence**  \nPolymarket's top trending market assigns a 37% probability to the Supreme Court accepting a sports event contract case by December 31, 2026, with real-time odds reflecting $3.3M+ in volume across 168 Trending Markets; traders view this as the most active, potentially mispriced given niche leg",
-      "direction": "NO",
+      "headline": "Nasdaq Round-the-Clock Trading by June 30 | NO dominant (implied) | MED confidence**",
+      "raw": "Nasdaq Round-the-Clock Trading by June 30 | NO dominant (implied) | MED confidence**  \nActive in trending markets, this yes/no question draws trader interest on potential Nasdaq 24/7 shifts, with prices signaling crowd-sourced probabilities updated live[1].",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -35,12 +87,12 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776920766355_1",
-      "timestamp": "2026-04-23T05:06:06.355482+00:00",
+      "id": "sig_1776920834540_2",
+      "timestamp": "2026-04-23T05:07:14.540515+00:00",
       "source": "PERPLEXITY",
-      "headline": "Elon Musk April Tweet Volume (1120-1159 tweets) | NO (22-24% odds) | MED confidence**",
-      "raw": "Elon Musk April Tweet Volume (1120-1159 tweets) | NO (22-24% odds) | MED confidence**  \nCrowd odds sit at 22-24% for Elon Musk posting 1120-1159 tweets in April 2026 (or 1120-1159 on April 17-24 specifically), amid $21.5M-$21.7M volume on 20-130 Tweet/Tweet Markets; high activity suggests smart money tracking his posting patterns, with potential for moves on daily updates.[2][3]",
-      "direction": "NO",
+      "headline": "Iran x Israel/US Conflict Ends by",
+      "raw": "Iran x Israel/US Conflict Ends by...? | Ongoing trading | MED confidence**  \nPopular market on geopolitical resolution timelines shows active bets alongside Fed rates and Bitcoin $150k hits, highlighting trader sentiment on breaking events[4].",
+      "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -48,12 +100,25 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776920766357_2",
-      "timestamp": "2026-04-23T05:06:06.357620+00:00",
+      "id": "sig_1776920834542_3",
+      "timestamp": "2026-04-23T05:07:14.542462+00:00",
       "source": "PERPLEXITY",
-      "headline": "Kanye West Tweets Again by April 30 | NO specific odds listed | LOW confidence**",
-      "raw": "Kanye West Tweets Again by April 30 | NO specific odds listed | LOW confidence**  \nActive market on \"Will Kanye tweet again by April 30?\" drives Tweet predictions, but no exact probabilities given; traders monitor for mispricing based on his silence, part of broader celebrity tweet bets.[2]",
-      "direction": "NO",
+      "headline": "Elon Musk # Tweets in April 2026 (1120-1159 range) | YES 22% | HIGH confidence**",
+      "raw": "Elon Musk # Tweets in April 2026 (1120-1159 range) | YES 22% | HIGH confidence**  \nTop Tweet Markets active assigns 22% odds to Musk tweeting 1120-1159 times this month, with 20 live markets tracking daily/weekly counts like April 17-24[3].",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776920834545_4",
+      "timestamp": "2026-04-23T05:07:14.545221+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Whale Bet: Jannik Sinner Wins 2026 Men's French Open | YES 43\u00a2 (600 shares) | HIGH confidence**",
+      "raw": "Whale Bet: Jannik Sinner Wins 2026 Men's French Open | YES 43\u00a2 (600 shares) | HIGH confidence**  \nTrader @randytraderxd holds 600 YES shares at 43\u00a2, signaling a notable position on the tennis outcome[2].\n\nNo confirmed announcements, resolutions, or whale moves on mispriced markets (e.g., inflation peaks, Zohran Mamdani NYC mayor NO at 9\u00a2) appear in recent X posts or updates; odds shift live with t",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -62,9 +127,9 @@
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 4,
+    "enter": 1,
+    "alert": 8,
     "watch": 0,
-    "high_conf": 0
+    "high_conf": 1
   }
 }
