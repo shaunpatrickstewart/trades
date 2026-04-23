@@ -1,30 +1,69 @@
 {
-  "last_scan": "2026-04-23T00:58:55.542524+00:00",
-  "scan_seconds": 14.9,
+  "last_scan": "2026-04-23T01:00:03.689970+00:00",
+  "scan_seconds": 13.1,
   "markets_scanned": 50,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776905934537_0",
-      "timestamp": "2026-04-23T00:58:54.537534+00:00",
+      "id": "sig_1776906002685_3",
+      "timestamp": "2026-04-23T01:00:02.685876+00:00",
       "source": "PERPLEXITY",
-      "headline": "Elon Musk April 2026 Tweet Count Markets Dominate Polymarket Activity | NO whale bets or tips confirmed | LOW confidence",
-      "raw": "Elon Musk April 2026 Tweet Count Markets Dominate Polymarket Activity | NO whale bets or tips confirmed | LOW confidence** [1][2][3]\n\nPolymarket's trending markets as of April 22, 2026, highlight high-volume bets on **Elon Musk's tweet counts**, such as \"Elon Musk # tweets in April 2026?\" (20-21% odds on 1120-1159 range, over $20M volume) and related markets like \"Elon Musk # tweets April 17 - Apr",
-      "direction": "YES",
-      "confidence": 0.65,
+      "headline": "Elon Musk Tweet Volume Markets Active, No Clear Mispricing Signals | N/A | MED confidence**",
+      "raw": "Elon Musk Tweet Volume Markets Active, No Clear Mispricing Signals | N/A | MED confidence**  \nTweet markets like \"Elon Musk # tweets April 17-24, 2026?\" (e.g., 21% on 1120-1159 range) and full April 2026 volume draw $20.7M total volume, with odds shifting on daily posts\u2014traders tip watching for spikes post-announcements[3][4]. No whale bets or tips explicitly trending in results.  \n\nTrending Polym",
+      "direction": "NO",
+      "confidence": 0.9,
       "matched_markets": [
         "Will Trump name \"Elon\" or \"Musk\" in April?"
       ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776906002674_0",
+      "timestamp": "2026-04-23T01:00:02.674861+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Iran-Israel/US Conflict Resolution Market Hits 100% YES by Dec 31 | YES | HIGH confidence**",
+      "raw": "Iran-Israel/US Conflict Resolution Market Hits 100% YES by Dec 31 | YES | HIGH confidence**  \nPolymarket's X-related predictions show the \"Iran x Israel/US conflict ends by...?\" market at 100% probability for resolution by December 31, 2026, with $11.4K liquidity and strong trader conviction amid real-time updates from breaking developments[2]. This stands out as the most active X market, implying",
+      "direction": "YES",
+      "confidence": 0.78,
+      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776905934539_1",
-      "timestamp": "2026-04-23T00:58:54.539624+00:00",
+      "id": "sig_1776905997092_0",
+      "timestamp": "2026-04-23T00:59:57.092419+00:00",
       "source": "PERPLEXITY",
-      "headline": "Monero Price Surge or Sports Betting Ban Law | NO direct impact confirmed | LOW confidence** [1]",
-      "raw": "Monero Price Surge or Sports Betting Ban Law | NO direct impact confirmed | LOW confidence** [1]\n\nMarkets like \"Will Monero hit $1000 in 2026?\" and \"Law banning sports prediction markets enacted in 2026?\" (11% YES) appear in trending lists with $3M+ volume across 168 markets, but lack trader discussion or resolution news on X.[1] **Tweet markets** (130+ active, e.g., Kanye at 78%) lead volume, sig",
+      "headline": "NO** | **LOW** confidence (search results outdated for semifinals; no announcements, resolutions, or prediction market m",
+      "raw": "NO** | **LOW** confidence (search results outdated for semifinals; no announcements, resolutions, or prediction market movers like injuries/series starts).[1][2]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776906002678_1",
+      "timestamp": "2026-04-23T01:00:02.678553+00:00",
+      "source": "PERPLEXITY",
+      "headline": "\ud835\udd4f Money Launch by April 30 in Doubt at 16% YES | NO | MED confidence**",
+      "raw": "\ud835\udd4f Money Launch by April 30 in Doubt at 16% YES | NO | MED confidence**  \nTraders price only 16% odds for \"\ud835\udd4f Money launched by April 30,\" with $33.6K volume and $3.9K liquidity, signaling smart money skepticism on imminent rollout despite hype\u2014watch for whale shorts if no announcements emerge[2].",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776906002681_2",
+      "timestamp": "2026-04-23T01:00:02.681993+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Nikita Bier Exit as X Head of Product at 7% YES by June 30 | NO | LOW confidence**",
+      "raw": "Nikita Bier Exit as X Head of Product at 7% YES by June 30 | NO | LOW confidence**  \nLow 7% YES odds on \"Nikita Bier out as Head of Product at X by June 30?\" with $1.4K volume suggest stability, but niche traders may see mispricing if internal X drama leaks[2].",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
@@ -34,9 +73,9 @@
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 2,
+    "enter": 1,
+    "alert": 4,
     "watch": 0,
-    "high_conf": 0
+    "high_conf": 1
   }
 }
