@@ -1,15 +1,15 @@
 {
-  "last_scan": "2026-04-23T07:42:55.926147+00:00",
-  "scan_seconds": 25.3,
+  "last_scan": "2026-04-23T07:43:57.782843+00:00",
+  "scan_seconds": 17.2,
   "markets_scanned": 51,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776930166484_0",
-      "timestamp": "2026-04-23T07:42:46.484876+00:00",
+      "id": "sig_1776930228409_0",
+      "timestamp": "2026-04-23T07:43:48.409590+00:00",
       "source": "PERPLEXITY",
-      "headline": "Based on the search results provided, there is no breaking news from today (April 23, 2026)",
-      "raw": "Based on the search results provided, there is no breaking news from today (April 23, 2026). The most recent information available is from **January 30, 2026**, when President Trump announced his nomination of **Kevin Warsh as the next Federal Reserve Chair** to succeed Jerome Powell[1][2].\n\nThe relevant confirmed developments are:",
+      "headline": "Trump Nominates Kevin Warsh to Replace Fed Chair Jerome Powell** | **YES** | **HIGH** confidence[1]",
+      "raw": "Trump Nominates Kevin Warsh to Replace Fed Chair Jerome Powell** | **YES** | **HIGH** confidence[1]\n\nPresident Trump announced his intention to nominate former Fed Governor Kevin Warsh as Jerome Powell's successor, with Powell's term ending in May 2026, amid criticisms of Powell's slow rate cuts[1]. This nomination, highlighted in recent coverage from a January 30, 2026, MSNBC segment (timestamped",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
@@ -21,98 +21,54 @@
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_1776930166486_1",
-      "timestamp": "2026-04-23T07:42:46.486970+00:00",
+      "id": "sig_1776930224335_0",
+      "timestamp": "2026-04-23T07:43:44.335969+00:00",
       "source": "PERPLEXITY",
-      "headline": "WARSH NOMINATED TO REPLACE POWELL | YES | HIGH confidence**",
-      "raw": "WARSH NOMINATED TO REPLACE POWELL | YES | HIGH confidence**\n\nKevin Warsh, a former Federal Reserve governor, has been officially nominated by President Trump to become the 17th Chair of the Federal Reserve[1]. Powell's tenure as Fed Chair is ending in May 2026[1], and Warsh will succeed him. The nomination requires Senate confirmation with a simple majority, though some Republican senators have si",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will Trump agree to Iranian enrichment of uranium in April?",
-        "Will Powell say \"Successor\" during April press conference?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776930170847_0",
-      "timestamp": "2026-04-23T07:42:50.847616+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Raptors rookie Ja'Kobe Walter questionable for Game 3 vs",
-      "raw": "Raptors rookie Ja'Kobe Walter questionable for Game 3 vs. Cavaliers due to illness; no confirmation on Lakers series.**[2][5][6] | **NO** | **HIGH** confidence[1][2][3][5]\n\nRaptors trail Cavaliers 0-2 in first-round playoffs, with Game 3 tonight (April 23, 8 PM ET) at Scotiabank Arena; Cavaliers favored by 2.5 points.[2][6] Walter (second-year rookie guard) added to injury report as questionable, ",
+      "headline": "Bitcoin Price Plunges 50% from October 2025 Peak Toward $60,000 Amid Massive Liquidations | NO | HIGH confidence**",
+      "raw": "Bitcoin Price Plunges 50% from October 2025 Peak Toward $60,000 Amid Massive Liquidations | NO | HIGH confidence**  \nBitcoin has crashed through key support levels to around $64,000 as of Thursday, down nearly 50% from its October 6, 2025, high above $126,000, marking one of its largest historical drawdowns.[1][2]  \nOver $1.1 billion in leveraged long positions were liquidated in the past 24 hours",
       "direction": "NO",
+      "confidence": 0.78,
+      "matched_markets": [
+        "Bitcoin above 76,600 on April 23, 4AM ET?",
+        "Bitcoin above 80,200 on April 23, 4AM ET?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776930232758_0",
+      "timestamp": "2026-04-23T07:43:52.758474+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Cooper Flagg surges to ROY favorite after 45-pt near triple-double vs",
+      "raw": "Cooper Flagg surges to ROY favorite after 45-pt near triple-double vs. Lakers** | **YES** | **HIGH** confidence[1][3][4]\n\nFlagg passed Kon Knueppel in DraftKings ROY odds (-250 initially, now -150) following his 45 points, 9 assists, 8 rebounds in Sunday's Mavericks win over the Lakers, plus a prior 51-pt game, marking a historic teen rookie stretch and shifting prediction markets significantly[1]",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
+        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?"
       ],
       "action": "ALERT",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776930174919_0",
-      "timestamp": "2026-04-23T07:42:54.919269+00:00",
+      "id": "sig_1776930236779_0",
+      "timestamp": "2026-04-23T07:43:56.779563+00:00",
       "source": "PERPLEXITY",
-      "headline": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | HIGH confidence**",
-      "raw": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | HIGH confidence**  \nPolymarket's most active markets focus on **Elon Musk's tweet volume**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" (41% on 220-239) and \"Elon Musk # tweets in April 2026?\" (24% on 1120-1159, 22% on 1120-1159 in related markets), with over $21M+ in trading volume across 130+ live Tweet prediction markets as",
+      "headline": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | LOW confidence**",
+      "raw": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | LOW confidence**\n\nPolymarket's most active markets focus on **Elon Musk's tweet volume**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" (41% on 220-239) and \"Elon Musk # tweets in April 2026?\" (24% on 1120-1159, 22% on 1120-1159 in related category), with over $21.5M-$21.7M in trading volume across 20-130 live tweet prediction m",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776930174921_1",
-      "timestamp": "2026-04-23T07:42:54.921211+00:00",
-      "source": "PERPLEXITY",
-      "headline": "No whale bets, smart money moves, or X posts on mispriced markets reported | NO | HIGH confidence**",
-      "raw": "No whale bets, smart money moves, or X posts on mispriced markets reported | NO | HIGH confidence**  \nSearch results show no mentions of whale activity, prediction tips, or claims of mispriced markets from Polymarket traders on X; focus remains on platform-trending odds for tweets and pop culture without social media sentiment details[1][2][3][4].",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776930174923_2",
-      "timestamp": "2026-04-23T07:42:54.923096+00:00",
-      "source": "PERPLEXITY",
-      "headline": "No recent confirmations, announcements, or resolutions moving markets | NO | HIGH confidence**",
-      "raw": "No recent confirmations, announcements, or resolutions moving markets | NO | HIGH confidence**  \nNo breaking news, confirmed events, or resolutions (e.g., Nasdaq trading or CS IEM mentions) are noted as shifting prediction markets right now; odds update in real-time based on trading but lack tied external triggers[1][3][5].",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776930154509_0",
-      "timestamp": "2026-04-23T07:42:34.509454+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Bitcoin Breaks 7-Year 'Uptober' Streak with ~4-5% Monthly Loss Ending October 2025 | NO | HIGH confidence**",
-      "raw": "Bitcoin Breaks 7-Year 'Uptober' Streak with ~4-5% Monthly Loss Ending October 2025 | NO | HIGH confidence**  \nBitcoin ended October 2025 down approximately 4% to around $110,000, marking its first October decline since 2018 and the worst in seven years, despite hitting an all-time high near $124,000 early in the month.[1][2][3]  \nA flash crash on October 10 liquidated over $19 billion in positions",
-      "direction": "NO",
-      "confidence": 0.6,
-      "matched_markets": [
-        "Bitcoin above 76,600 on April 23, 4AM ET?",
-        "Bitcoin above 80,200 on April 23, 4AM ET?",
-        "Will October be the best month for Bitcoin in 2026?"
-      ],
-      "action": "WATCH",
-      "x_link": null,
-      "category": "CRYPTO"
     }
   ],
   "stats": {
-    "enter": 2,
-    "alert": 4,
-    "watch": 1,
-    "high_conf": 2
+    "enter": 1,
+    "alert": 3,
+    "watch": 0,
+    "high_conf": 1
   }
 }
