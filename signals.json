@@ -1,124 +1,43 @@
 {
-  "last_scan": "2026-04-23T06:52:07.862337+00:00",
-  "scan_seconds": 17.2,
+  "last_scan": "2026-04-23T06:53:17.034817+00:00",
+  "scan_seconds": 16.4,
   "markets_scanned": 53,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776927123153_1",
-      "timestamp": "2026-04-23T06:52:03.153587+00:00",
+      "id": "sig_1776927191808_0",
+      "timestamp": "2026-04-23T06:53:11.808949+00:00",
       "source": "PERPLEXITY",
-      "headline": "**Western Conference First Round Confirmed:** Thunder defeated Timberwolves 124-94 in Game 4 (series: Thunder 125-93 Nug",
-      "raw": "**Western Conference First Round Confirmed:** Thunder defeated Timberwolves 124-94 in Game 4 (series: Thunder 125-93 Nuggets G2, 117-115 Grizzlies G1, 124-94 Timberwolves G4), advancing to semifinals; Lakers lost to Rockets 96-103 in Game 1 (3rd seed), eliminated early[1].",
-      "direction": null,
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776927123155_2",
-      "timestamp": "2026-04-23T06:52:03.155616+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Eastern Conference First Round Confirmed:** Cavaliers beat Pacers 138-105 in one game and Heat 105-114",
-      "raw": "**Eastern Conference First Round Confirmed:** Cavaliers beat Pacers 138-105 in one game and Heat 105-114? (wait, 1st seed advanced, facing 4th seed Pacers who beat Knicks/Bucks/Magic lines); Knicks/Pacers/Bucks/Pistons/Celtics details partial but Cavs confirmed in semis path[1][3].",
-      "direction": null,
-      "confidence": 0.9,
+      "headline": "Raptors down 2-0 to Cavaliers after Game 2 loss; Ja'Kobe Walter questionable for Game 3 due to illness | NO | HIGH confi",
+      "raw": "Raptors down 2-0 to Cavaliers after Game 2 loss; Ja'Kobe Walter questionable for Game 3 due to illness | NO | HIGH confidence** [3][6]\n\nThe Cavaliers beat the Raptors 115-105 in Game 2, with Donovan Mitchell scoring 30 points and James Harden adding 28, extending their series lead to 2-0 ahead of Game 3 in Toronto [3][6]. Raptors coach Darko Rajakovic confirmed Jakob Poeltl will play a \"big part\" ",
+      "direction": "NO",
+      "confidence": 0.65,
       "matched_markets": [
-        "NBA Playoffs: Who Will Win Series? - Pistons vs. Magic "
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
+        "Donovan Mitchell: Points O/U 27.5"
       ],
       "action": "ALERT",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776927114291_1",
-      "timestamp": "2026-04-23T06:51:54.291290+00:00",
+      "id": "sig_1776927196031_0",
+      "timestamp": "2026-04-23T06:53:16.031902+00:00",
       "source": "PERPLEXITY",
-      "headline": "LOW confidence** in market-moving October news; results reflect ongoing predictions, not \"right now\" events (latest ~Mar",
-      "raw": "LOW confidence** in market-moving October news; results reflect ongoing predictions, not \"right now\" events (latest ~March 2026).[1][2][3] No evidence of fresh announcements shifting prediction markets today.",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776927123151_0",
-      "timestamp": "2026-04-23T06:52:03.151495+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Thunder Advance to Western Conference Semifinals After Beating Timberwolves 4-0 | YES (Lakers eliminated in 1st round, C",
-      "raw": "Thunder Advance to Western Conference Semifinals After Beating Timberwolves 4-0 | YES (Lakers eliminated in 1st round, Cavaliers advance to semis) | HIGH confidence** [1][2][3]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
-        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs",
-        "Will Detroit Pistons advance to the Conference Semifinals in the 2026 NBA Playof"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776927123157_3",
-      "timestamp": "2026-04-23T06:52:03.157705+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**No Series Win Predictions Resolved:** Semifinals matchups pending (e",
-      "raw": "**No Series Win Predictions Resolved:** Semifinals matchups pending (e.g., Thunder vs. Nuggets/Clippers/Warriors winner, Cavs vs. Pacers/Celtics); no markets-moving bets confirmed beyond 1st round[1][2].",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776927123159_4",
-      "timestamp": "2026-04-23T06:52:03.159732+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Other News (Low Impact):** Jalen Williams injury for Thunder (2-0 vs Suns, but bracket shows post-series); no Lakers/C",
-      "raw": "**Other News (Low Impact):** Jalen Williams injury for Thunder (2-0 vs Suns, but bracket shows post-series); no Lakers/Cavs specifics announced[2].",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776927126860_0",
-      "timestamp": "2026-04-23T06:52:06.860180+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | LOW confidence**",
-      "raw": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | LOW confidence**\n\nPolymarket's most active markets right now focus on **Elon Musk tweet predictions**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" (priced at 41% for 220-239 range) and \"Elon Musk # tweets in April 2026?\" (24% for 1120-1159, 22% in related markets)[2][3][4]. These dominate Tweet and Pop Culture categories with ",
+      "headline": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | MED confidence**",
+      "raw": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | MED confidence**\n\nPolymarket's most active markets right now focus on **Elon Musk's tweet volume**, including \"Elon Musk # tweets April 17 - April 24, 2026?\" (priced at 41% for 220-239 tweets) and \"Elon Musk # tweets in April 2026?\" (24% for 1120-1159, 22% for similar ranges), with over $21M+ in trading volume across 20-130 live tweet mar",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776927114289_0",
-      "timestamp": "2026-04-23T06:51:54.289129+00:00",
-      "source": "PERPLEXITY",
-      "headline": "NO recent breaking news confirmed, announced, or resolved on Bitcoin involving October",
-      "raw": "NO recent breaking news confirmed, announced, or resolved on Bitcoin involving October.**[1][2][3]\n\nAnalyst predictions (e.g., fractal models by Crypto Rover and Ali Martinez) suggest a potential **Bitcoin price bottom or crash in October 2026**, following the 2025 peak at ~$126k, with possible retracement to $37,500 (80% drop).[1][2][3] These are dated (March 2021 for [1], Dec 2025 for [3]) and s",
-      "direction": "YES",
-      "confidence": 0.6,
-      "matched_markets": [],
-      "action": "WATCH",
-      "x_link": null,
-      "category": "CRYPTO"
     }
   ],
   "stats": {
     "enter": 0,
-    "alert": 7,
-    "watch": 1,
-    "high_conf": 2
+    "alert": 2,
+    "watch": 0,
+    "high_conf": 0
   }
 }
