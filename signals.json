@@ -1,70 +1,57 @@
 {
-  "last_scan": "2026-04-23T06:55:41.055919+00:00",
-  "scan_seconds": 20.4,
+  "last_scan": "2026-04-23T06:56:47.071122+00:00",
+  "scan_seconds": 16.5,
   "markets_scanned": 54,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776927335287_2",
-      "timestamp": "2026-04-23T06:55:35.287043+00:00",
+      "id": "sig_1776927401852_0",
+      "timestamp": "2026-04-23T06:56:41.852678+00:00",
       "source": "PERPLEXITY",
-      "headline": "Will the Lakers win the series",
-      "raw": "Will the Lakers win the series?** | **YES** | **HIGH confidence** \u2014 The Lakers hold a 2-0 lead and historically, teams with 2-0 series leads advance approximately 95% of the time in best-of-seven playoffs. However, this is not yet confirmed until they clinch.\n\nRegarding the **Raptors**: The Toronto Raptors are the **#5 seed in the Eastern Conference** facing the #4 Cleveland Cavaliers[2], but no r",
+      "headline": "Lakers Take 2-0 Series Lead Over Rockets in NBA Playoffs** | **YES** | **HIGH** confidence",
+      "raw": "Lakers Take 2-0 Series Lead Over Rockets in NBA Playoffs** | **YES** | **HIGH** confidence  \nLakers have secured a 2-0 lead against the Houston Rockets in their playoff series, highlighted by LeBron James' dominant performance (24 points, 10 assists, 8 rebounds in Game 2) carrying the team amid injuries to Luka Doncic (hamstring, likely out for series) and Austin Reaves.[2] This never-before-seen ",
       "direction": "YES",
-      "confidence": 0.9,
+      "confidence": 0.78,
       "matched_markets": [
         "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
         "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
         "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
       ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776927335283_1",
-      "timestamp": "2026-04-23T06:55:35.283297+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Lakers Defeat Rockets 2-0, Advance Likely in Game 3 Friday**",
-      "raw": "Lakers Defeat Rockets 2-0, Advance Likely in Game 3 Friday**\n\nThe **Los Angeles Lakers lead the Houston Rockets 2-0** in their first-round playoff series[1][2]. The Lakers won Game 2 on April 21, 2026, with a score of 101-94, with Marcus Smart recording 25 points and 7 assists[1][3]. Game 3 is scheduled for Friday at 8 p.m. ET in Houston[2].",
-      "direction": null,
-      "confidence": 0.78,
-      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776927335279_0",
-      "timestamp": "2026-04-23T06:55:35.279809+00:00",
+      "id": "sig_1776927406065_0",
+      "timestamp": "2026-04-23T06:56:46.065699+00:00",
       "source": "PERPLEXITY",
-      "headline": "# Lakers Series Status Update",
-      "raw": "# Lakers Series Status Update",
-      "direction": null,
+      "headline": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | LOW confidence**",
+      "raw": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | LOW confidence**\n\nPolymarket's most active markets right now focus on **Elon Musk's tweet volume**, including \"Elon Musk # tweets in April 2026?\" (24% chance for 1120-1159 tweets) and \"Elon Musk # tweets April 17 - April 24, 2026?\" amid $21.5M+ total trading volume across 20-130 related markets.[2][3]",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "SPORTS"
+      "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776927340054_0",
-      "timestamp": "2026-04-23T06:55:40.054098+00:00",
+      "id": "sig_1776927406067_1",
+      "timestamp": "2026-04-23T06:56:46.068002+00:00",
       "source": "PERPLEXITY",
-      "headline": "Elon Musk Tweet Count Markets Lead Polymarket Trends | NO | LOW confidence**",
-      "raw": "Elon Musk Tweet Count Markets Lead Polymarket Trends | NO | LOW confidence**  \nPolymarket's most active markets right now focus on **Elon Musk's tweet volume** in April 2026, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" and \"Elon Musk musk # tweets in April 2026?\", with the 1120-1159 tweet range priced at 22-24% odds and over $21.5M in volume across related markets.[2][3]  \n\nNo whale be",
-      "direction": "YES",
-      "confidence": 0.6,
+      "headline": "Trending Markets** category shows 160-168 live predictions like \"Nasdaq round-the-clock trading by June 30",
+      "raw": "Trending Markets** category shows 160-168 live predictions like \"Nasdaq round-the-clock trading by June 30?\" with $3.3M volume, but no specific whale bets, smart money moves, mispriced odds, or tips are detailed in real-time posts.[1]  \nX posts highlight Polymarket analytics tools for tracking top traders' strategies, suggesting \"x-ray vision\" into winning plays, but lack specifics on current whal",
+      "direction": "NO",
+      "confidence": 0.65,
       "matched_markets": [],
-      "action": "WATCH",
+      "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 2,
-    "watch": 1,
-    "high_conf": 1
+    "enter": 0,
+    "alert": 3,
+    "watch": 0,
+    "high_conf": 0
   }
 }
