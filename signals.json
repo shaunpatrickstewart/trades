@@ -1,34 +1,47 @@
 {
-  "last_scan": "2026-04-23T08:10:06.839008+00:00",
-  "scan_seconds": 16.2,
-  "markets_scanned": 48,
+  "last_scan": "2026-04-23T08:11:17.980467+00:00",
+  "scan_seconds": 17.4,
+  "markets_scanned": 52,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776931800462_0",
-      "timestamp": "2026-04-23T08:10:00.462110+00:00",
+      "id": "sig_1776931871811_0",
+      "timestamp": "2026-04-23T08:11:11.811314+00:00",
       "source": "PERPLEXITY",
-      "headline": "Cavaliers defeat Raptors 115-105 in Game 2, take 2-0 series lead | YES | HIGH confidence** [1][5]",
-      "raw": "Cavaliers defeat Raptors 115-105 in Game 2, take 2-0 series lead | YES | HIGH confidence** [1][5]\n\nThe Cleveland Cavaliers won Game 2 of their NBA first-round playoff series against the Toronto Raptors on April 21, 2026, in Cleveland, with Donovan Mitchell scoring 30 points, 7 rebounds, and 5 assists, and James Harden adding 28 points on 9-14 shooting[1]. Scottie Barnes led the Raptors with 26 poi",
+      "headline": "Lakers take 2-0 lead over Rockets in Western Conference First Round playoffs** | **YES** | **HIGH** confidence[2][3]",
+      "raw": "Lakers take 2-0 lead over Rockets in Western Conference First Round playoffs** | **YES** | **HIGH** confidence[2][3]\n\nThe Los Angeles Lakers have won Game 2 (101-94) against the Houston Rockets, securing a 2-0 series lead as of about 1 hour ago, following their Game 1 victory where shooters like Kennard scored 27 points with five 3s[1][2][3][6]. This upset against the favored Rockets (without Kevi",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
         "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
-        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
+        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs",
+        "Will Detroit Pistons advance to the Conference Semifinals in the 2026 NBA Playof"
       ],
       "action": "ENTER",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776931805835_0",
-      "timestamp": "2026-04-23T08:10:05.835884+00:00",
+      "id": "sig_1776931876977_1",
+      "timestamp": "2026-04-23T08:11:16.977385+00:00",
       "source": "PERPLEXITY",
-      "headline": "Elon Musk April Tweet Count Markets Dominating Polymarket Trends | NO whale bets or smart money moves reported | MED con",
-      "raw": "Elon Musk April Tweet Count Markets Dominating Polymarket Trends | NO whale bets or smart money moves reported | MED confidence**\n\nPolymarket's trending markets as of April 22, 2026, highlight active prediction markets on **Elon Musk's tweet volume**, including \"Elon Musk # tweets April 17 - April 24, 2026?\" (priced at 41% for 220-239 range) and \"Elon Musk # tweets in April 2026?\" (24% for 1120-11",
-      "direction": "NO",
-      "confidence": 0.65,
+      "headline": "Nasdaq Round-the-Clock Trading by June 30 Market Gaining Traction | YES (active) | MED confidence**",
+      "raw": "Nasdaq Round-the-Clock Trading by June 30 Market Gaining Traction | YES (active) | MED confidence**  \nTrending Markets feature 164 live predictions including \"Nasdaq round-the-clock trading by June 30?\" with $3.3M volume, reflecting crowd odds on financial shifts[1]. This yes/no market shows real-time sentiment but lacks confirmed resolutions or X posts on mispricing/whales from available sources[",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776931876975_0",
+      "timestamp": "2026-04-23T08:11:16.975390+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Elon Musk April 2026 Tweet Count Markets Trending on Polymarket | YES | HIGH confidence**",
+      "raw": "Elon Musk April 2026 Tweet Count Markets Trending on Polymarket | YES | HIGH confidence**  \nPolymarket's most active markets right now focus on \"Elon Musk # tweets in April 2026,\" with the 1120-1159 range at 22% odds (22% YES price) amid $21.5M+ volume across Tweet Markets[2][3]. Traders are heavily engaged in these real-time prediction markets tracking Musk's posting activity, as highlighted in P",
+      "direction": "YES",
+      "confidence": 0.78,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
@@ -37,8 +50,8 @@
   ],
   "stats": {
     "enter": 1,
-    "alert": 1,
+    "alert": 2,
     "watch": 0,
-    "high_conf": 1
+    "high_conf": 2
   }
 }
