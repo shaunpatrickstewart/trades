@@ -1,43 +1,71 @@
 {
-  "last_scan": "2026-04-23T03:27:34.600319+00:00",
-  "scan_seconds": 14.0,
+  "last_scan": "2026-04-23T03:28:43.360968+00:00",
+  "scan_seconds": 12.7,
   "markets_scanned": 51,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776914853589_0",
-      "timestamp": "2026-04-23T03:27:33.589436+00:00",
+      "id": "sig_1776914918140_0",
+      "timestamp": "2026-04-23T03:28:38.141004+00:00",
       "source": "PERPLEXITY",
-      "headline": "Nasdaq Round-the-Clock Trading by June 30",
-      "raw": "Nasdaq Round-the-Clock Trading by June 30? | NO | HIGH confidence**  \nPolymarket's top trending market shows 20% YES odds with $43.9K volume, indicating strong trader consensus against implementation by the deadline; no X posts in results highlight whale bets or mispricing here.[1]",
+      "headline": "Magic Defeat Mavericks 138-127 Despite Cooper Flagg's Historic 51 Points, Extending Dallas' Home Losing Streak to 14 | N",
+      "raw": "Magic Defeat Mavericks 138-127 Despite Cooper Flagg's Historic 51 Points, Extending Dallas' Home Losing Streak to 14 | NO major resolution for Lakers series win or conference semis | HIGH confidence** [1]\n\nOrlando Magic overcame a 51-point performance from Dallas Mavericks rookie **Cooper Flagg**\u2014including 24 points in the fourth quarter, making him the youngest player in NBA history with a 50-poi",
       "direction": "YES",
-      "confidence": 0.78,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776914848571_0",
-      "timestamp": "2026-04-23T03:27:28.571142+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Raptors rookie Ja'Kobe Walter iffy for Game 3 vs Cavaliers (series 0-2); Quickley questionable** | NO | HIGH confidence[",
-      "raw": "Raptors rookie Ja'Kobe Walter iffy for Game 3 vs Cavaliers (series 0-2); Quickley questionable** | NO | HIGH confidence[3][1]\n\nRaptors trail Cleveland Cavaliers 2-0 in Eastern Conference first-round playoffs after 115-105 Game 2 loss on April 20, with Game 3 set for tonight (April 23, 8 PM ET) in Toronto[3][2][1]. Walter (illness, second-year rookie/2025 first-round pick) is questionable, potentia",
-      "direction": "NO",
-      "confidence": 0.65,
+      "confidence": 0.9,
       "matched_markets": [
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
+        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
       ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776914853591_1",
-      "timestamp": "2026-04-23T03:27:33.591422+00:00",
+      "id": "sig_1776914913844_0",
+      "timestamp": "2026-04-23T03:28:33.844323+00:00",
       "source": "PERPLEXITY",
-      "headline": "\ud835\udd4f Money Launched by April 30",
-      "raw": "\ud835\udd4f Money Launched by April 30? | NO | HIGH confidence**  \nX-specific market at 16% YES with $33.6K volume and ends in 7 days, reflecting low trader expectation amid real-time odds; no confirmed announcements or resolutions noted to shift this.[2]",
+      "headline": "Confidence: HIGH**\u2014search results lack any \"just confirmed\" news fitting the query as of April 23, 2026, 3 AM UTC; only",
+      "raw": "Confidence: HIGH**\u2014search results lack any \"just confirmed\" news fitting the query as of April 23, 2026, 3 AM UTC; only historical prices and analyst outlooks provided.[1][2][3][4]",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776914922348_0",
+      "timestamp": "2026-04-23T03:28:42.348142+00:00",
+      "source": "PERPLEXITY",
+      "headline": "SCOTUS Sports Event Contract Case Acceptance | NO (62% implied, most active market) | HIGH confidence** [1]",
+      "raw": "SCOTUS Sports Event Contract Case Acceptance | NO (62% implied, most active market) | HIGH confidence** [1]  \nPolymarket's top trending market assigns 38% odds to acceptance by Dec 31, 2026, with real-time trading volume driving updates amid high activity.[1]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776914922351_1",
+      "timestamp": "2026-04-23T03:28:42.351565+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Iran x Israel/US Conflict Ends Soon | NO (high volume across timelines) | MED confidence** [2][5]",
+      "raw": "Iran x Israel/US Conflict Ends Soon | NO (high volume across timelines) | MED confidence** [2][5]  \nRepeatedly listed as top-traded world event market alongside \"U.S. invade Iran before 2027?\"; no resolution confirmed, but concentrated 24h volume signals trader focus.[5]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776914922354_2",
+      "timestamp": "2026-04-23T03:28:42.354016+00:00",
+      "source": "PERPLEXITY",
+      "headline": "LIV Golf Shutdown Announcement in 2026 | NO (trending current event) | LOW confidence** [4]",
+      "raw": "LIV Golf Shutdown Announcement in 2026 | NO (trending current event) | LOW confidence** [4]  \nActive in 113 current events markets with $93.2M category volume; traders pricing low yes odds on niche debated shutdown.[4]",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
@@ -46,11 +74,11 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776914853593_2",
-      "timestamp": "2026-04-23T03:27:33.593395+00:00",
+      "id": "sig_1776914922355_3",
+      "timestamp": "2026-04-23T03:28:42.355872+00:00",
       "source": "PERPLEXITY",
-      "headline": "Robinhood (HOOD) Up or Down on April 22",
-      "raw": "Robinhood (HOOD) Up or Down on April 22? | YES (Up) | HIGH confidence**  \nMarket resolved 100% Up with $4.7K volume and $57.2K liquidity, confirming recent stock movement; potential smart money tip as it tracks daily finance volatility.[1]",
+      "headline": "Anthropic Best AI Model End-April | YES (71%) | HIGH confidence** [6]",
+      "raw": "Anthropic Best AI Model End-April | YES (71%) | HIGH confidence** [6]  \nTech category frontrunner at 71\u00a2 in multi-outcome \"best AI model\" race; continuous updates from data releases moving sentiment in 517 markets.[6]",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
@@ -59,25 +87,12 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776914853595_3",
-      "timestamp": "2026-04-23T03:27:33.595259+00:00",
+      "id": "sig_1776914922357_4",
+      "timestamp": "2026-04-23T03:28:42.357846+00:00",
       "source": "PERPLEXITY",
-      "headline": "Iran x Israel/US Conflict Ends by",
-      "raw": "Iran x Israel/US Conflict Ends by...? | YES (Resolved) | MED confidence**  \nMarket at 100% with $11.4K liquidity, suggesting recent confirmation or resolution; geopolitics traders on X may view as mispriced if new events emerge, but no whale activity detailed.[2]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776914853597_4",
-      "timestamp": "2026-04-23T03:27:33.597144+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Nikita Bier Out as Head of Product at X by June 30",
-      "raw": "Nikita Bier Out as Head of Product at X by June 30? | NO | MED confidence**  \nLow 7% YES odds with $1.4K volume, signaling trader skepticism on X leadership shakeup; trending for Elon Musk/Tech watchers as potential smart money contrarian play.[2]",
-      "direction": "YES",
+      "headline": "Elon Musk Tweet Count Apr 17-24 | 220-239 (38%) | MED confidence** [3]",
+      "raw": "Elon Musk Tweet Count Apr 17-24 | 220-239 (38%) | MED confidence** [3]  \nPop culture tweet market pricing bucket at 38%; real-time shifts as count nears end, exemplifying dynamic crowd odds.[3]  \n\nNo whale bets, X posts, smart money moves, mispriced alerts, or fresh confirmations/announcements in results; data reflects Apr 22 platform snapshots without real-time X discourse or resolutions.[1][2]",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -86,9 +101,9 @@
     }
   ],
   "stats": {
-    "enter": 0,
+    "enter": 1,
     "alert": 6,
     "watch": 0,
-    "high_conf": 0
+    "high_conf": 2
   }
 }
