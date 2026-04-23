@@ -1,115 +1,142 @@
 {
-  "last_scan": "2026-04-23T06:12:08.721707+00:00",
-  "scan_seconds": 18.1,
+  "last_scan": "2026-04-23T06:13:22.676167+00:00",
+  "scan_seconds": 21.8,
   "markets_scanned": 52,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776924727715_3",
-      "timestamp": "2026-04-23T06:12:07.715625+00:00",
+      "id": "sig_1776924792716_0",
+      "timestamp": "2026-04-23T06:13:12.716809+00:00",
       "source": "PERPLEXITY",
-      "headline": "**Breaking news** that has just been announced or confirmed",
-      "raw": "**Breaking news** that has just been announced or confirmed",
-      "direction": null,
+      "headline": "Based on the available search results, there is **no breaking news** as of April 23, 2026 that has been newly confirmed,",
+      "raw": "Based on the available search results, there is **no breaking news** as of April 23, 2026 that has been newly confirmed, announced, or resolved regarding Powell or his successor.\n\nThe most recent confirmed event in the search results is **Kevin Warsh's nomination hearing, scheduled for Tuesday, April 21, 2026**[2]. However, the search results do not contain any outcomes, statements, or announcemen",
+      "direction": "NO",
       "confidence": 0.9,
+      "matched_markets": [
+        "Will Powell say \"Successor\" during April press conference?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776924801673_0",
+      "timestamp": "2026-04-23T06:13:21.673138+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | LOW confidence**",
+      "raw": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | LOW confidence**\n\nPolymarket's most active markets right now focus on **Elon Musk's tweet volume**, such as \"Elon Musk # tweets in April 2026?\" (24% chance for 1120-1159 tweets) and \"Elon Musk # tweets April 17 - April 24, 2026?\" with similar odds around 22% for that range[2][3]. These have high trading volume over $21M, indicating strong",
+      "direction": "NO",
+      "confidence": 0.78,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776924713277_0",
-      "timestamp": "2026-04-23T06:11:53.277897+00:00",
+      "id": "sig_1776924784163_1",
+      "timestamp": "2026-04-23T06:13:04.163157+00:00",
       "source": "PERPLEXITY",
-      "headline": "Ethereum Price Up on April 22 | YES | HIGH confidence**",
-      "raw": "Ethereum Price Up on April 22 | YES | HIGH confidence**  \nEthereum traded at $2,403.78 on April 22, 2026 (9:15 a.m. ET), marking a $98.74 daily increase from April 21's $2,305.04, confirming a short-term price rise amid neutral-to-bullish technical signals.[1][5]  \nBitcoin stood at $78,194.37 on April 22, up from $75,901.41 on April 21, supporting broader market strength.[1][5]  \nNo confirmed anno",
+      "headline": "XRP Joins Bitcoin, Ethereum, and Solana on SoFi Bank's Crypto Platform | YES | MED confidence**",
+      "raw": "XRP Joins Bitcoin, Ethereum, and Solana on SoFi Bank's Crypto Platform | YES | MED confidence**  \nSoFi Bank has added XRP to its growing crypto offerings alongside Bitcoin, Ethereum, and Solana, expanding platform utility and potentially boosting liquidity across these assets.[2]  \nWhile impactful for altcoin adoption, its effect on Bitcoin/Ethereum prediction markets is secondary to direct ETH/BT",
       "direction": "YES",
       "confidence": 0.65,
-      "matched_markets": [
-        "Will the price of Bitcoin be between $76,000 and $78,000 on April 24?",
-        "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET"
-      ],
+      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776924721992_1",
-      "timestamp": "2026-04-23T06:12:01.992522+00:00",
+      "id": "sig_1776924792719_1",
+      "timestamp": "2026-04-23T06:13:12.719410+00:00",
       "source": "PERPLEXITY",
-      "headline": "Spurs' Keldon Johnson wins NBA Sixth Man of the Year** and **Wembanyama concussion vs",
-      "raw": "Spurs' Keldon Johnson wins NBA Sixth Man of the Year** and **Wembanyama concussion vs. Blazers** noted, but unrelated to query series wins.[2]  \nNo confirmed announcements resolving series or shifting NBA prediction markets as of now.[1][2]",
+      "headline": "**Warsh's confirmation status** \u2014 As of April 14, 2026, prediction markets indicated a 62% likelihood that Powell would",
+      "raw": "**Warsh's confirmation status** \u2014 As of April 14, 2026, prediction markets indicated a 62% likelihood that Powell would depart the Board of Governors in 2026[2], but his formal confirmation has not yet occurred in the available information.",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Powell say \"Successor\" during April press conference?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776924792721_2",
+      "timestamp": "2026-04-23T06:13:12.721431+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Powell's decision on remaining as a governor** \u2014 Powell stated in March 2026 that he would remain as a Board member un",
+      "raw": "**Powell's decision on remaining as a governor** \u2014 Powell stated in March 2026 that he would remain as a Board member until the DOJ investigation into Federal Reserve renovation projects reaches resolution[2], but no resolution has been announced.",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776924792723_3",
+      "timestamp": "2026-04-23T06:13:12.723372+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**DOJ probe developments** \u2014 The Administration was expected to appeal a judicial denial of subpoenas, but no outcome is",
+      "raw": "**DOJ probe developments** \u2014 The Administration was expected to appeal a judicial denial of subpoenas, but no outcome is reported in these results[2].",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776924792725_4",
+      "timestamp": "2026-04-23T06:13:12.725308+00:00",
+      "source": "PERPLEXITY",
+      "headline": "HEADLINE | NO | HIGH confidence**",
+      "raw": "HEADLINE | NO | HIGH confidence**\n\nNo new confirmation, announcement, or resolution has occurred that would immediately move prediction markets based on these search results.",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776924797529_0",
+      "timestamp": "2026-04-23T06:13:17.529348+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Cavaliers take 2-0 series lead over Raptors after 115-105 Game 2 win on Monday | NO (Raptors will not win series) | HIGH",
+      "raw": "Cavaliers take 2-0 series lead over Raptors after 115-105 Game 2 win on Monday | NO (Raptors will not win series) | HIGH confidence** [1][2][3]\n\nGame 3 is scheduled for tonight in Toronto (8:00 PM ET), with Raptors down 0-2 and facing a historical 12-game playoff losing streak to Cleveland[1][2][3]. Cavaliers stars Donovan Mitchell (30 pts), James Harden (28 pts), and Evan Mobley (25 pts) dominate",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
+      ],
+      "action": "ALERT",
+      "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776924727709_0",
-      "timestamp": "2026-04-23T06:12:07.709637+00:00",
+      "id": "sig_1776924784161_0",
+      "timestamp": "2026-04-23T06:13:04.161152+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot provide the real-time information you're requesting based on these search results",
-      "raw": "I cannot provide the real-time information you're requesting based on these search results. The results describe Polymarket's platform infrastructure and general market mechanics rather than current trading activity, whale positions, or breaking news affecting prediction markets.\n\nTo answer your query, I would need:",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776924727711_1",
-      "timestamp": "2026-04-23T06:12:07.711536+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Real-time trader commentary** from X/Twitter about current positions or market movements",
-      "raw": "**Real-time trader commentary** from X/Twitter about current positions or market movements",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776924727713_2",
-      "timestamp": "2026-04-23T06:12:07.713500+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Current market odds** for specific prediction markets and recent price changes",
-      "raw": "**Current market odds** for specific prediction markets and recent price changes",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776924727717_4",
-      "timestamp": "2026-04-23T06:12:07.717704+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Whale transaction data** showing large position changes",
-      "raw": "**Whale transaction data** showing large position changes\n\nThe search results only indicate that as of April 21-22, 2026, the most active market was \"Elon Musk # tweets April 17 - April 24, 2026?\" with traders assigning 22-24% probability to the 1120-1159 tweet range[4], but this doesn't reflect what traders are discussing *right now* or which markets they believe are mispriced.\n\nFor the breaking ",
+      "headline": "Schwab Launches Bitcoin and Ethereum Spot Trading with 0",
+      "raw": "Schwab Launches Bitcoin and Ethereum Spot Trading with 0.7% Fee Per Trade | YES | HIGH confidence**  \nCharles Schwab has just launched direct trading for Bitcoin and Ethereum, enabling easier access for retail and institutional investors with a low 0.7% fee per trade, which could drive inflows and move prediction markets on crypto adoption.[1]  \nThis is breaking as a major traditional finance play",
       "direction": "YES",
-      "confidence": 0.65,
+      "confidence": 0.6,
       "matched_markets": [],
-      "action": "ALERT",
+      "action": "WATCH",
       "x_link": null,
-      "category": "COMMUNITY"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_1776924721988_0",
-      "timestamp": "2026-04-23T06:12:01.988696+00:00",
+      "id": "sig_1776924797531_1",
+      "timestamp": "2026-04-23T06:13:17.531770+00:00",
       "source": "PERPLEXITY",
-      "headline": "Jalen Williams Injury Looms Large for Thunder's 2-0 Series Lead Over Suns | NO (No major shift favoring Lakers or Flagg-",
-      "raw": "Jalen Williams Injury Looms Large for Thunder's 2-0 Series Lead Over Suns | NO (No major shift favoring Lakers or Flagg-related outcomes) | HIGH confidence**  \nOklahoma City Thunder hold a 2-0 lead in their Western Conference first-round series against the Phoenix Suns after Game 2 (Thunder 51, Suns 46 in progress per latest scores), but Jalen Williams' injury could impact their title defense if h",
+      "headline": "Raptors G Ja'Kobe Walter questionable for Game 3 (illness); Quickley still out (hamstring) | NO (no major lineup boost c",
+      "raw": "Raptors G Ja'Kobe Walter questionable for Game 3 (illness); Quickley still out (hamstring) | NO (no major lineup boost confirmed) | MED confidence** [3][10]\n\nThis injury update could limit Toronto's bench depth heading into a must-win, potentially increasing minutes for Jamal Shead and A.J. Lawson[3]. No confirmation on Walter playing or other resolutions like trades.\n\nNo breaking news on **Cooper",
       "direction": "YES",
       "confidence": 0.6,
       "matched_markets": [
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
-        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs",
-        "Will Detroit Pistons advance to the Conference Semifinals in the 2026 NBA Playof"
+        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?"
       ],
       "action": "WATCH",
       "x_link": null,
@@ -117,9 +144,9 @@
     }
   ],
   "stats": {
-    "enter": 0,
+    "enter": 1,
     "alert": 7,
-    "watch": 1,
+    "watch": 2,
     "high_conf": 1
   }
 }
