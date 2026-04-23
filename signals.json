@@ -1,45 +1,73 @@
 {
-  "last_scan": "2026-04-23T02:49:51.153885+00:00",
-  "scan_seconds": 20.6,
-  "markets_scanned": 51,
+  "last_scan": "2026-04-23T02:51:03.117491+00:00",
+  "scan_seconds": 22.3,
+  "markets_scanned": 52,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776912575360_0",
-      "timestamp": "2026-04-23T02:49:35.360014+00:00",
+      "id": "sig_1776912652595_0",
+      "timestamp": "2026-04-23T02:50:52.595068+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot identify a specific breaking news event that has \"just been confirmed, announced, or resolved\" based on the sea",
-      "raw": "I cannot identify a specific breaking news event that has \"just been confirmed, announced, or resolved\" based on the search results provided. The available information shows Ethereum trading at approximately **$2,395-$2,403** as of April 22, 2026[1][3], with recent price movements attributed to factors like a U.S.-Iran ceasefire announcement and institutional inflows into Ethereum spot ETFs[3], bu",
-      "direction": null,
+      "headline": "I cannot provide breaking news in the format you've requested because the search results don't contain information about",
+      "raw": "I cannot provide breaking news in the format you've requested because the search results don't contain information about events happening \"right now\" on April 23, 2026. The most recent data available is from April 22, 2026, which shows Ethereum up 2.70% and trading at Rs 2,21,701[5], but this represents routine price movement rather than a confirmed announcement or resolved event.\n\nThe search resu",
+      "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
         "Ethereum above 2,320 on April 22, 11PM ET?",
         "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET"
       ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776912652601_3",
+      "timestamp": "2026-04-23T02:50:52.601679+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Bitcoin consolidation near $76,000** | YES - price holding firm | HIGH confidence: Bitcoin is holding near $76,000 wit",
+      "raw": "**Bitcoin consolidation near $76,000** | YES - price holding firm | HIGH confidence: Bitcoin is holding near $76,000 with strong ETF inflows despite geopolitical uncertainty[5].\n\nHowever, none of these represent \"just confirmed\" breaking news that would warrant a prediction market shift. For actual breaking news, you would need real-time news sources or market data feeds updated within the last fe",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776912590142_4",
-      "timestamp": "2026-04-23T02:49:50.142161+00:00",
+      "id": "sig_1776912652599_2",
+      "timestamp": "2026-04-23T02:50:52.599559+00:00",
       "source": "PERPLEXITY",
-      "headline": "Breaking news or recently confirmed announcements that would move markets",
-      "raw": "Breaking news or recently confirmed announcements that would move markets\n\nTo get this information, you would need to:",
+      "headline": "**Iran-US geopolitical tensions** | Ongoing situation | LOW confidence: Multiple search results reference \"Iran conflict",
+      "raw": "**Iran-US geopolitical tensions** | Ongoing situation | LOW confidence: Multiple search results reference \"Iran conflict\" and \"mid-east tensions\" affecting crypto sentiment in April 2026, though the resolution status is unclear[4][5].",
       "direction": null,
-      "confidence": 0.9,
+      "confidence": 0.65,
       "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776912662106_0",
+      "timestamp": "2026-04-23T02:51:02.106531+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Elon Musk Tweet Count Markets Trending on Polymarket | YES | HIGH confidence**",
+      "raw": "Elon Musk Tweet Count Markets Trending on Polymarket | YES | HIGH confidence**  \nPolymarket traders are actively discussing and trading on **Elon Musk tweet volume markets**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" and \"Elon Musk # tweets in April 2026?\", with outcomes like 1120-1159 priced at 20-21% implied probability amid over $20M in volume across 20-130 related markets.[2][3][",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Trump name \"Elon\" or \"Musk\" in April?"
+      ],
       "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776912590134_0",
-      "timestamp": "2026-04-23T02:49:50.134561+00:00",
+      "id": "sig_1776912662109_1",
+      "timestamp": "2026-04-23T02:51:02.109989+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot provide the real-time information you're requesting based on the available search results",
-      "raw": "I cannot provide the real-time information you're requesting based on the available search results. The search results show Polymarket's platform overview and some historical market data from April 9-22, 2026, but they do not contain:",
-      "direction": null,
+      "headline": "Nasdaq Round-the-Clock Trading Market Heating Up | YES | MED confidence**",
+      "raw": "Nasdaq Round-the-Clock Trading Market Heating Up | YES | MED confidence**  \nTrending markets include \"Nasdaq round-the-clock trading by June 30?\", part of 168 active Trending Markets with $3M+ volume, where real-time odds reflect trader sentiment on tech/finance shifts, potentially mispriced given niche debate.[1]",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -47,12 +75,12 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776912590136_1",
-      "timestamp": "2026-04-23T02:49:50.136453+00:00",
+      "id": "sig_1776912662113_2",
+      "timestamp": "2026-04-23T02:51:02.113492+00:00",
       "source": "PERPLEXITY",
-      "headline": "Current X (Twitter) posts from traders discussing prediction markets",
-      "raw": "Current X (Twitter) posts from traders discussing prediction markets",
-      "direction": null,
+      "headline": "Polymarket Analytics Tools Expose Whale Strategies | YES | LOW confidence**",
+      "raw": "Polymarket Analytics Tools Expose Whale Strategies | YES | LOW confidence**  \nTraders on platforms like Binance Square highlight analytics tools revealing \"x-ray vision\" into top performers' moves, implying smart money tips for spotting mispriced markets or big bets, though specifics on current whales remain unconfirmed.[5]  \n\nNo recent confirmations, announcements, or resolutions in results that ",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -60,36 +88,23 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776912590138_2",
-      "timestamp": "2026-04-23T02:49:50.138306+00:00",
+      "id": "sig_1776912652597_1",
+      "timestamp": "2026-04-23T02:50:52.597560+00:00",
       "source": "PERPLEXITY",
-      "headline": "Active whale bets or smart money movements happening right now",
-      "raw": "Active whale bets or smart money movements happening right now",
+      "headline": "**CLARITY Act markup vote scheduled** | Uncertain timing | MED confidence: The committee has until Friday (April 25) to",
+      "raw": "**CLARITY Act markup vote scheduled** | Uncertain timing | MED confidence: The committee has until Friday (April 25) to notice a markup of the Clarity Act stablecoin legislation, with a potential vote the week of April 27, though banks are reportedly pressuring to delay it to May[6].",
       "direction": null,
-      "confidence": 0.65,
+      "confidence": 0.6,
       "matched_markets": [],
-      "action": "ALERT",
+      "action": "WATCH",
       "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776912590140_3",
-      "timestamp": "2026-04-23T02:49:50.140154+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Real-time market commentary about mispricings or imminent price movements",
-      "raw": "Real-time market commentary about mispricings or imminent price movements",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
+      "category": "CRYPTO"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 6,
-    "watch": 0,
+    "enter": 1,
+    "alert": 5,
+    "watch": 1,
     "high_conf": 2
   }
 }
