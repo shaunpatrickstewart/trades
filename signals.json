@@ -1,34 +1,20 @@
 {
-  "last_scan": "2026-04-23T03:41:13.248887+00:00",
-  "scan_seconds": 12.6,
+  "last_scan": "2026-04-23T03:42:23.342645+00:00",
+  "scan_seconds": 12.7,
   "markets_scanned": 50,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776915663875_0",
-      "timestamp": "2026-04-23T03:41:03.875572+00:00",
+      "id": "sig_1776915733843_0",
+      "timestamp": "2026-04-23T03:42:13.843284+00:00",
       "source": "PERPLEXITY",
-      "headline": "BTC ETFs 5-Day Inflow Streak Confirmed | YES | HIGH confidence**",
-      "raw": "BTC ETFs 5-Day Inflow Streak Confirmed | YES | HIGH confidence**  \nU.S. spot Bitcoin ETFs recorded $238.37 million in net inflows on April 20, 2026, extending a 5 consecutive day streak\u2014the firmest institutional buying since February\u2014and signaling strong demand amid BTC price gains to ~$78,500[1][3]. This fresh confirmation of sustained ETF flows could shift prediction markets on Bitcoin price tar",
+      "headline": "Bitmine Makes Largest 2026 ETH Purchase Amid Tom Lee's Bullish Outlook on Ending Crypto Winter | YES | HIGH confidence**",
+      "raw": "Bitmine Makes Largest 2026 ETH Purchase Amid Tom Lee's Bullish Outlook on Ending Crypto Winter | YES | HIGH confidence**  \nBitmine, a major player, has confirmed purchasing 101,627 ETH\u2014its biggest acquisition in 2026\u2014boosting holdings as Chairman Tom Lee states the crypto winter is nearing its end, signaling strong institutional demand for Ethereum[5].  \nThis development, tied to Ethereum's recent",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
         "Bitcoin above 79,000 on April 23, 12AM ET?",
-        "Will the price of Bitcoin be above $78,000 on April 23?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776915663878_1",
-      "timestamp": "2026-04-23T03:41:03.878051+00:00",
-      "source": "PERPLEXITY",
-      "headline": "ETH ETFs 8-Day Inflow Streak Confirmed | YES | HIGH confidence**",
-      "raw": "ETH ETFs 8-Day Inflow Streak Confirmed | YES | HIGH confidence**  \nU.S. spot Ethereum ETFs saw $67.77 million net inflows on April 20, marking the 8th straight day, with weekly totals at $276 million led by Fidelity\u2019s FETH[1][3]. Amid ETH price up ~3% to $2,395, this resolves inflow momentum questions and may impact markets predicting Ethereum rallies[1].",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
+        "Will the price of Bitcoin be above $78,000 on April 23?",
         "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET"
       ],
       "action": "ENTER",
@@ -36,28 +22,78 @@
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776915667452_0",
-      "timestamp": "2026-04-23T03:41:07.452732+00:00",
+      "id": "sig_1776915742331_0",
+      "timestamp": "2026-04-23T03:42:22.331253+00:00",
       "source": "PERPLEXITY",
-      "headline": "Cavaliers lead Raptors 2-0 in Eastern Conference first round | YES | HIGH confidence**",
-      "raw": "Cavaliers lead Raptors 2-0 in Eastern Conference first round | YES | HIGH confidence**  \nThe Cleveland Cavaliers have won Game 1 (126-113) and Game 2 (115-105) against the Toronto Raptors, taking a 2-0 series lead in the first round of the 2026 NBA playoffs, as confirmed in ESPN's Eastern Conference takeaways published April 22, 2026.[5] Donovan Mitchell surpassed Kyrie Irving's Cavaliers playoff ",
+      "headline": "Nasdaq Round-the-Clock Trading by June 30",
+      "raw": "Nasdaq Round-the-Clock Trading by June 30? | NO | HIGH confidence**  \nPolymarket's top trending market shows 20% YES odds with $43.9K volume, indicating strong trader consensus against implementation soon; no X posts in results confirm whale bets or mispricing buzz[1].",
       "direction": "YES",
-      "confidence": 0.9,
+      "confidence": 0.78,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776915742335_2",
+      "timestamp": "2026-04-23T03:42:22.335059+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Robinhood (HOOD) Up or Down on April 22",
+      "raw": "Robinhood (HOOD) Up or Down on April 22? | YES (Up) | HIGH confidence**  \nMarket resolved 100% Up with $4.7K volume and $57.2K liquidity as of April 22; recent daily stock outcome likely drove trader posts on X about accurate predictions[1].",
+      "direction": "YES",
+      "confidence": 0.78,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776915737771_0",
+      "timestamp": "2026-04-23T03:42:17.771961+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Cavaliers take 2-0 series lead over Raptors after Game 2 win on Monday** | **YES** (Cavaliers favored to win series) | *",
+      "raw": "Cavaliers take 2-0 series lead over Raptors after Game 2 win on Monday** | **YES** (Cavaliers favored to win series) | **HIGH** confidence[1][2][3]  \nCleveland defeated Toronto 115-105 in Game 2, powered by 30 points from Donovan Mitchell, 28 from James Harden, and 25 from Evan Mobley, extending their playoff winning streak against the Raptors to 12 games (an NBA record tie)[1][2][3].  \nThis comma",
+      "direction": "YES",
+      "confidence": 0.65,
       "matched_markets": [
-        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
       ],
-      "action": "ENTER",
+      "action": "ALERT",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776915672246_0",
-      "timestamp": "2026-04-23T03:41:12.246392+00:00",
+      "id": "sig_1776915742333_1",
+      "timestamp": "2026-04-23T03:42:22.333207+00:00",
       "source": "PERPLEXITY",
-      "headline": "Elon Musk April 2026 Tweet Count Markets Trending on Polymarket | NO whale bets or smart money moves reported | MED conf",
-      "raw": "Elon Musk April 2026 Tweet Count Markets Trending on Polymarket | NO whale bets or smart money moves reported | MED confidence**\n\nPolymarket's most active markets right now focus on **Elon Musk's tweet volume**, including \"Elon Musk # tweets April 17 - April 24, 2026?\" (trading at 38% for 220-239 range) and \"Elon Musk # tweets in April 2026?\" (22% for 1120-1159 range, with over $20.8M volume).[2][",
+      "headline": "\ud835\udd4f Money Launched by April 30",
+      "raw": "\ud835\udd4f Money Launched by April 30? | NO | MED confidence**  \nX-specific market at 16% YES with $33.6K volume and ends in 7 days; traders on Polymarket lean NO amid low liquidity ($3.9K), but no recent X chatter on whales or tips noted[2].",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776915742336_3",
+      "timestamp": "2026-04-23T03:42:22.336970+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Nikita Bier Out as Head of Product at X by June 30",
+      "raw": "Nikita Bier Out as Head of Product at X by June 30? | NO | LOW confidence**  \n7% YES odds with $1.4K volume; niche X market shows minimal trader conviction, no confirmed announcements or whale moves in results[2].",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776915742339_4",
+      "timestamp": "2026-04-23T03:42:22.339135+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Iran x Israel/US Conflict Ends by",
+      "raw": "Iran x Israel/US Conflict Ends by...? | NO (per bucket) | MED confidence**  \nResolved elements at 100% in some buckets with $11.4K liquidity; geopolitics market active on X predictions, potential for mispricing tips if recent news broke[2].",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
@@ -67,9 +103,9 @@
     }
   ],
   "stats": {
-    "enter": 3,
-    "alert": 1,
+    "enter": 1,
+    "alert": 6,
     "watch": 0,
-    "high_conf": 3
+    "high_conf": 1
   }
 }
