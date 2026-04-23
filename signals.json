@@ -1,77 +1,142 @@
 {
-  "last_scan": "2026-04-23T02:19:55.178080+00:00",
-  "scan_seconds": 14.6,
-  "markets_scanned": 52,
+  "last_scan": "2026-04-23T02:21:05.797755+00:00",
+  "scan_seconds": 15.2,
+  "markets_scanned": 51,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776910784205_0",
-      "timestamp": "2026-04-23T02:19:44.205179+00:00",
+      "id": "sig_1776910854617_0",
+      "timestamp": "2026-04-23T02:20:54.617306+00:00",
       "source": "PERPLEXITY",
-      "headline": "Nine straight days of ETH ETF inflows confirmed on April 22 | YES | HIGH confidence** [5]",
-      "raw": "Nine straight days of ETH ETF inflows confirmed on April 22 | YES | HIGH confidence** [5]\n\nEthereum price rose 3.56% to $2,393.98 in the last 24 hours amid neutral market sentiment and a Fear reading on the Fear & Greed index[1]. This follows a 16.48% monthly gain, with ETH trading 10.05% below a predicted $2,661.42 target by April 27[1]. On April 22, ETH hit $2,403.78 (up $98.74 daily) as cumulat",
+      "headline": "BTC ETFs 5-Day Inflow Streak Confirmed | YES | HIGH confidence**",
+      "raw": "BTC ETFs 5-Day Inflow Streak Confirmed | YES | HIGH confidence**  \nSpot Bitcoin ETFs recorded $238.37 million in net inflows on April 20, extending a 5-day streak\u2014the strongest institutional bid since February\u2014led by BlackRock\u2019s IBIT at $256.05 million[1][3]. U.S. spot Ethereum ETFs saw $67.77 million inflows on the same day, marking their 8th consecutive day[3].",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
         "Ethereum above 2,290 on April 22, 11PM ET?",
         "Ethereum above 2,320 on April 22, 11PM ET?",
-        "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET"
+        "Bitcoin Up or Down - April 22, 10:15PM-10:30PM ET"
       ],
       "action": "ENTER",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776910794166_0",
-      "timestamp": "2026-04-23T02:19:54.166853+00:00",
+      "id": "sig_1776910858670_1",
+      "timestamp": "2026-04-23T02:20:58.670989+00:00",
       "source": "PERPLEXITY",
-      "headline": "Nasdaq Round-the-Clock Trading by June 30",
-      "raw": "Nasdaq Round-the-Clock Trading by June 30? | NO | HIGH confidence**  \nPolymarket's top trending market shows 20% YES odds with $43.9K volume, implying strong trader consensus against Nasdaq implementing 24-hour trading by the deadline; no X posts in results highlight whale bets or mispricing here, but low YES price suggests potential value for contrarians.[1]",
+      "headline": "Kevin Durant injury confirmed severe (swelling, pain, limited motion); questionable for Game 2 vs",
+      "raw": "Kevin Durant injury confirmed severe (swelling, pain, limited motion); questionable for Game 2 vs. Lakers** | YES | HIGH confidence[3]",
       "direction": "YES",
-      "confidence": 0.78,
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776910864792_2",
+      "timestamp": "2026-04-23T02:21:04.792451+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Trending Markets** (168 live) highlight \"Will Monero hit $1000 in 2026",
+      "raw": "Trending Markets** (168 live) highlight \"Will Monero hit $1000 in 2026?\" and \"Law banning sports prediction markets enacted in 2026?\" at 11% YES odds, reflecting crypto volatility bets and regulatory fears amid $3M+ volume.[1]  \nNo direct whale bets, smart money moves, or X posts on mispriced markets confirmed in results, but high-volume Musk markets suggest crowd conviction faster than polls; wat",
+      "direction": "YES",
+      "confidence": 0.9,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776910788516_0",
-      "timestamp": "2026-04-23T02:19:48.516825+00:00",
+      "id": "sig_1776910854619_1",
+      "timestamp": "2026-04-23T02:20:54.619603+00:00",
       "source": "PERPLEXITY",
-      "headline": "Cooper Flagg (DAL) ruled out for remainder of rookie finale vs",
-      "raw": "Cooper Flagg (DAL) ruled out for remainder of rookie finale vs. Bulls with left ankle sprain | NO (no series win impact; regular season over) | HIGH confidence** [2][3]",
+      "headline": "Ether ETFs Weekly Inflows Hit $276M | YES | HIGH confidence**",
+      "raw": "Ether ETFs Weekly Inflows Hit $276M | YES | HIGH confidence**  \nEther ETFs logged $276 million for the week ending April 20, with Fidelity\u2019s FETH leading at $126 million per SoSoValue data[1]. Bitcoin traded up ~3.6% to $78,497 and ETH up 3.33% to $2,395 amid these flows[1].",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
-        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?"
+        "Bitcoin Up or Down - April 22, 10:15PM-10:30PM ET"
       ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776910854621_2",
+      "timestamp": "2026-04-23T02:20:54.621543+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Bitcoin Nears $80K on Tokenization Momentum | NO | MED confidence**",
+      "raw": "Bitcoin Nears $80K on Tokenization Momentum | NO | MED confidence**  \nOdds for Bitcoin hitting $80K in April 2026 have jumped due to tokenization gains, but no specific confirmation or announcement resolved this today[4]. Prices show BTC at ~$75,900 up 2% in 24h, still in \"Bitcoin season\" with altcoins lagging[2].",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Bitcoin Up or Down - April 22, 10:15PM-10:30PM ET"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776910858669_0",
+      "timestamp": "2026-04-23T02:20:58.669158+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Lakers lead Rockets 2-0 in Western Conference First Round after Game 2 win** | YES | HIGH confidence[1][2]",
+      "raw": "Lakers lead Rockets 2-0 in Western Conference First Round after Game 2 win** | YES | HIGH confidence[1][2]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776910788519_1",
-      "timestamp": "2026-04-23T02:19:48.519114+00:00",
+      "id": "sig_1776910858672_2",
+      "timestamp": "2026-04-23T02:20:58.672839+00:00",
       "source": "PERPLEXITY",
-      "headline": "No breaking NBA playoff series confirmations (Lakers-Cavs) or prediction market movers announced right now | NO | HIGH c",
-      "raw": "No breaking NBA playoff series confirmations (Lakers-Cavs) or prediction market movers announced right now | NO | HIGH confidence** [1-7]\n\nFlagg exited early Sunday's game (pre-2026 playoffs) with 10 points in 9 minutes and will not return, capping a standout rookie year where he's a ROY favorite vs. Kon Knueppel.[3][4][6] Dallas beat injury-hit Lakers in April (Flagg: 45 pts), but no fresh playof",
+      "headline": "Victor Wembanyama ruled out with concussion after Game 2 fall vs",
+      "raw": "Victor Wembanyama ruled out with concussion after Game 2 fall vs. Trail Blazers** | YES | HIGH confidence[4]",
       "direction": "YES",
       "confidence": 0.65,
-      "matched_markets": [
-        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
-      ],
+      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776910794168_1",
-      "timestamp": "2026-04-23T02:19:54.168903+00:00",
+      "id": "sig_1776910858674_3",
+      "timestamp": "2026-04-23T02:20:58.674689+00:00",
       "source": "PERPLEXITY",
-      "headline": "\ud835\udd4f Money Launched by April 30",
-      "raw": "\ud835\udd4f Money Launched by April 30? | NO | HIGH confidence**  \nX-specific market at 16% YES odds with $33.6K volume and $3.9K liquidity draws attention as a fast-approaching event (ends in 7 days); traders on Polymarket view launch unlikely, with no confirmed announcements in results to shift odds.[2]",
+      "headline": "Spurs' Keldon Johnson wins NBA Sixth Man of the Year** | YES | MED confidence[4]",
+      "raw": "Spurs' Keldon Johnson wins NBA Sixth Man of the Year** | YES | MED confidence[4]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776910864788_0",
+      "timestamp": "2026-04-23T02:21:04.788598+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Elon Musk April 2026 Tweet Count Markets Heating Up on Polymarket | YES | HIGH confidence**",
+      "raw": "Elon Musk April 2026 Tweet Count Markets Heating Up on Polymarket | YES | HIGH confidence**  \nPolymarket's most active markets focus on **Elon Musk's tweet volume**, with \"Elon Musk # tweets in April 2026?\" leading at 20-21% odds for the 1120-1159 range and over $20.7M-$20.8M in trading volume across related markets like \"Elon Musk # tweets April 17 - April 24, 2026?\" (21% on 1120-1159 bin).[2][3]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Trump name \"Elon\" or \"Musk\" in April?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776910864790_1",
+      "timestamp": "2026-04-23T02:21:04.790492+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Monero Price Surge and Sports Betting Ban Bets Trending | YES | MED confidence**",
+      "raw": "Monero Price Surge and Sports Betting Ban Bets Trending | YES | MED confidence**",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
@@ -80,49 +145,23 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776910794173_3",
-      "timestamp": "2026-04-23T02:19:54.173123+00:00",
+      "id": "sig_1776910864794_3",
+      "timestamp": "2026-04-23T02:21:04.794728+00:00",
       "source": "PERPLEXITY",
-      "headline": "Iran x Israel/US Conflict Ends by",
-      "raw": "Iran x Israel/US Conflict Ends by...? | NO (for April 30) | MED confidence**  \nMarket at 100% for later resolution with $11.4K liquidity and 116 traders; implies no near-term end confirmed, potentially trending on X amid geopolitics, but lacks specific announcements or mispricing calls in results.[2]",
+      "headline": "No Recent Confirmations, Announcements, or Resolutions Noted | NO | HIGH confidence**",
+      "raw": "No Recent Confirmations, Announcements, or Resolutions Noted | NO | HIGH confidence**  \nSearch results show no breaking confirmations (e.g., tweet counts verified or events resolved) impacting markets as of April 22, 2026 data; odds update live with trades but lack specific whale activity or tips.[1][2][3][4]",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776910794170_2",
-      "timestamp": "2026-04-23T02:19:54.170891+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Robinhood (HOOD) Up or Down on April 22",
-      "raw": "Robinhood (HOOD) Up or Down on April 22? | YES (Up) | HIGH confidence**  \nMarket resolved 100% Up with $4.7K volume and $57.2K liquidity, confirming recent stock movement; this just-resolved outcome could influence related finance/crypto sentiment on X, though no direct whale activity noted.[1]",
-      "direction": "YES",
-      "confidence": 0.6,
-      "matched_markets": [],
-      "action": "WATCH",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776910794175_4",
-      "timestamp": "2026-04-23T02:19:54.175071+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Nikita Bier Out as Head of Product at X by June 30",
-      "raw": "Nikita Bier Out as Head of Product at X by June 30? | NO | HIGH confidence**  \nLow 7% YES odds with $1.4K volume signal trader doubt on this X leadership shakeup; no fresh confirmations, positioning it as a niche bet with possible smart money on stability.[2]",
-      "direction": "YES",
-      "confidence": 0.6,
-      "matched_markets": [],
-      "action": "WATCH",
-      "x_link": null,
-      "category": "COMMUNITY"
     }
   ],
   "stats": {
     "enter": 1,
-    "alert": 5,
-    "watch": 2,
-    "high_conf": 1
+    "alert": 10,
+    "watch": 0,
+    "high_conf": 3
   }
 }
