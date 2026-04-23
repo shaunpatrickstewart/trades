@@ -1,72 +1,48 @@
 {
-  "last_scan": "2026-04-23T09:46:05.044760+00:00",
-  "scan_seconds": 24.4,
+  "last_scan": "2026-04-23T09:47:08.863005+00:00",
+  "scan_seconds": 18.3,
   "markets_scanned": 57,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776937543671_1",
-      "timestamp": "2026-04-23T09:45:43.671606+00:00",
+      "id": "sig_1776937622834_0",
+      "timestamp": "2026-04-23T09:47:02.834720+00:00",
       "source": "PERPLEXITY",
-      "headline": "LOW confidence** in any market-moving news, as results highlight predictions/outflows ($3",
-      "raw": "LOW confidence** in any market-moving news, as results highlight predictions/outflows ($3.56M XRP ETF weekly), not \"just confirmed\" events.[2][7]",
-      "direction": null,
+      "headline": "Raptors down 0-2 to Cavaliers in playoffs; rookie Collin Murray-Boyles stepping up amid lineup change talk for Game 3 |",
+      "raw": "Raptors down 0-2 to Cavaliers in playoffs; rookie Collin Murray-Boyles stepping up amid lineup change talk for Game 3 | NO** | **MED confidence**[1][2][3][4][5]\n\nRaptors trail Cleveland Cavaliers 0-2 in NBA playoffs Round 1 after a 115-105 Game 2 loss, with coach Darko Rajakovic confirming Jakob Poeltl as a \"big part\" of crucial Game 3 while speculation grows on starting rookie center **Collin Mur",
+      "direction": "YES",
       "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776937564037_2",
-      "timestamp": "2026-04-23T09:46:04.037594+00:00",
-      "source": "PERPLEXITY",
-      "headline": "NO WHALE BETS, SMART MONEY MOVES, OR MISPRICED CALLS CONFIRMED IN RECENT X POSTS | NO | HIGH**",
-      "raw": "NO WHALE BETS, SMART MONEY MOVES, OR MISPRICED CALLS CONFIRMED IN RECENT X POSTS | NO | HIGH**  \nSearch results show no direct X posts from Polymarket traders highlighting whale bets, tips, or mispriced markets like Nasdaq round-the-clock trading by June 30; focus remains on platform odds without resolved events or announcements moving prices as of April 22, 2026[1][5].",
-      "direction": "NO",
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776937543669_0",
-      "timestamp": "2026-04-23T09:45:43.669303+00:00",
-      "source": "PERPLEXITY",
-      "headline": "XRP October prediction** on Polymarket has \"\u2191 3",
-      "raw": "XRP October prediction** on Polymarket has \"\u2191 3.00\" at 100% probability (frontrunner), but this is ongoing market pricing, not a fresh confirmation or announcement.[5]  \nOlder speculation on **October 2025** XRP events (SEC ETF verdict, Ripple bank charter) exists but is outdated and unconfirmed.[3][4]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776937558360_0",
-      "timestamp": "2026-04-23T09:45:58.360019+00:00",
-      "source": "PERPLEXITY",
-      "headline": "I cannot provide the breaking news format you've requested based on the available search results",
-      "raw": "I cannot provide the breaking news format you've requested based on the available search results. The search results contain information about the 2026 NBA playoffs and draft order, but they don't include any recent announcements, confirmations, or resolutions that would constitute \"breaking news\" today that would move prediction markets.\n\nThe search results show that the Cleveland Cavaliers are c",
-      "direction": "NO",
-      "confidence": 0.65,
       "matched_markets": [
         "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
         "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
         "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
       ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776937564030_0",
-      "timestamp": "2026-04-23T09:46:04.030094+00:00",
+      "id": "sig_1776937617980_0",
+      "timestamp": "2026-04-23T09:46:57.980500+00:00",
       "source": "PERPLEXITY",
-      "headline": "ELON MUSK TWEET COUNT MARKETS DOMINATE POLYMARKET TRENDING | YES | HIGH**",
-      "raw": "ELON MUSK TWEET COUNT MARKETS DOMINATE POLYMARKET TRENDING | YES | HIGH**  \nPolymarket's most active markets focus on **Elon Musk's tweet volume**, including \"Elon Musk # tweets April 17 - April 24, 2026?\" (trading at 41% for 220-239 range) and \"Elon Musk # tweets in April 2026?\" (24-26% odds for high ranges like 1120-1159 or 1160-1199), with over $21.7M-$22.4M in volume across 20-130 live tweet m",
-      "direction": "YES",
+      "headline": "LOW confidence** in market-moving news right now\u2014prediction markets showed 62% chance of Powell leaving the Board in 202",
+      "raw": "LOW confidence** in market-moving news right now\u2014prediction markets showed 62% chance of Powell leaving the Board in 2026 as of April 14, but no updates confirm shifts.[2]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Powell say \"Successor\" during April press conference?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776937627854_0",
+      "timestamp": "2026-04-23T09:47:07.854273+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Elon Musk Tweet Count Markets Dominating Polymarket Trends | NO | LOW confidence**",
+      "raw": "Elon Musk Tweet Count Markets Dominating Polymarket Trends | NO | LOW confidence**\n\nPolymarket's trending markets heavily feature **Elon Musk tweet predictions**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" (with outcomes like 220-239 at 41%) and \"Elon Musk # tweets in April 2026?\" (most active with 24-26% odds on high ranges like 1120-1159 or 1160-1199).[1][2][3][4] These have seen ma",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -74,12 +50,12 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776937564033_1",
-      "timestamp": "2026-04-23T09:46:04.033880+00:00",
+      "id": "sig_1776937627856_1",
+      "timestamp": "2026-04-23T09:47:07.856312+00:00",
       "source": "PERPLEXITY",
-      "headline": "TWEET & POP CULTURE MARKETS LEAD WITH REAL-TIME ODDS SHIFTS | YES | HIGH**",
-      "raw": "TWEET & POP CULTURE MARKETS LEAD WITH REAL-TIME ODDS SHIFTS | YES | HIGH**  \nTraders are heavily engaged in **tweet prediction markets** like \"Will Kanye tweet again by April 30?\" amid 129-164 trending markets, reflecting crowd-sourced probabilities updating continuously on new data or events[1][3]. High volumes ($3.3M+ in trending, $21.7M+ in tweets) signal **smart money conviction** on pop cultu",
-      "direction": "YES",
+      "headline": "Other Trends | NO | LOW confidence**",
+      "raw": "Other Trends | NO | LOW confidence**",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -87,11 +63,24 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776937564041_3",
-      "timestamp": "2026-04-23T09:46:04.041174+00:00",
+      "id": "sig_1776937627858_2",
+      "timestamp": "2026-04-23T09:47:07.858509+00:00",
       "source": "PERPLEXITY",
-      "headline": "NO BREAKING RESOLUTIONS OR ANNOUNCEMENTS DETECTED | NO | HIGH**",
-      "raw": "NO BREAKING RESOLUTIONS OR ANNOUNCEMENTS DETECTED | NO | HIGH**  \nNo confirmed announcements, resolutions, or events (e.g., CS IEM Rio mentions) reported to shift prediction markets right now; odds evolve purely on trader sentiment[5].",
+      "headline": "General trending markets (168 live as of April 22) include niche events like \u201cNasdaq round-the-clock trading by June 30",
+      "raw": "General trending markets (168 live as of April 22) include niche events like \u201cNasdaq round-the-clock trading by June 30?\u201d with $3.3M volume, but no X-specific buzz or movements noted.[1]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776937627860_3",
+      "timestamp": "2026-04-23T09:47:07.860688+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Tweet markets (130 live as of April 9) and mentions (e",
+      "raw": "Tweet markets (130 live as of April 9) and mentions (e.g., CS IEM Rio 2026) show activity, but lack real-time X trader posts or whale signals.[3][4][5]  \n\nData is from April 9-22, 2026, so not fully current to April 23 9AM UTC; no X posts or breaking confirmations captured.[1][2][3][4][5]",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
@@ -101,9 +90,9 @@
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 7,
+    "enter": 1,
+    "alert": 5,
     "watch": 0,
-    "high_conf": 2
+    "high_conf": 1
   }
 }
