@@ -1,83 +1,134 @@
 {
-  "last_scan": "2026-04-23T06:06:04.910728+00:00",
-  "scan_seconds": 18.1,
+  "last_scan": "2026-04-23T06:07:28.561258+00:00",
+  "scan_seconds": 17.9,
   "markets_scanned": 53,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776924353918_0",
-      "timestamp": "2026-04-23T06:05:53.918416+00:00",
+      "id": "sig_1776924438031_0",
+      "timestamp": "2026-04-23T06:07:18.031693+00:00",
       "source": "PERPLEXITY",
-      "headline": "Confidence: HIGH** (based on latest sourced dates; nothing \"right now\" confirmed)",
-      "raw": "Confidence: HIGH** (based on latest sourced dates; nothing \"right now\" confirmed).",
-      "direction": null,
+      "headline": "Trump nominates Kevin Warsh to succeed Jerome Powell as Fed Chair; Powell vows to stay until successor confirmed amid on",
+      "raw": "Trump nominates Kevin Warsh to succeed Jerome Powell as Fed Chair; Powell vows to stay until successor confirmed amid ongoing DOJ probe.** | NO | MED\n\nNo confirmation, Senate approval, or resolution of Powell's term/DOJ investigation has occurred as of latest reports\u2014all sources describe Trump's nomination (dated Jan 30-Mar 18, 2026) as pending Senate review, with senators delaying until probe end",
+      "direction": "YES",
       "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
+      "matched_markets": [
+        "Will Trump agree to Iranian enrichment of uranium in April?",
+        "Will Powell say \"Successor\" during April press conference?"
+      ],
+      "action": "ENTER",
       "x_link": null,
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_1776924358929_0",
-      "timestamp": "2026-04-23T06:05:58.929840+00:00",
+      "id": "sig_1776924447558_2",
+      "timestamp": "2026-04-23T06:07:27.558150+00:00",
       "source": "PERPLEXITY",
-      "headline": "Lakers Rout Cavaliers 127-113 in Regular Season Clash; No Conference Semifinals Series Confirmed** | NO | HIGH confidenc",
-      "raw": "Lakers Rout Cavaliers 127-113 in Regular Season Clash; No Conference Semifinals Series Confirmed** | NO | HIGH confidence\n\nThe Los Angeles Lakers defeated the Cleveland Cavaliers 127-113 on March 31, 2026, at Crypto.com Arena, with Luka Doncic (a Lakers star, not a rookie) scoring 42 points, 12 assists, and 5 rebounds in a dominant performance after a one-game suspension[1][3][5]. Lakers built a h",
-      "direction": "YES",
-      "confidence": 0.65,
+      "headline": "No Breaking Confirmations or Resolutions Found | NO market-moving news | LOW confidence**",
+      "raw": "No Breaking Confirmations or Resolutions Found | NO market-moving news | LOW confidence**  \nSearch results highlight ongoing Tweet and Trending Markets (e.g., Nasdaq 24/7 trading, Kanye tweeting by April 30) with dynamic odds, but lack any just-confirmed events, announcements, or resolutions that would shift prediction markets right now.[1][2][4] Data is from April 9-22, 2026, so real-time X senti",
+      "direction": "NO",
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776924442181_3",
+      "timestamp": "2026-04-23T06:07:22.181826+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Game 3 (today): Bryant questionable (left calf strain after 6-game absence); could impact big-man depth vs",
+      "raw": "Game 3 (today): Bryant questionable (left calf strain after 6-game absence); could impact big-man depth vs. Raptors[4].  \nNo confirmed mentions of Cavaliers rookie or Cooper Flagg in recent results; series prediction markets likely shifting toward Cavs after 2-0 lead and strong performances[1][4][5].",
+      "direction": "NO",
+      "confidence": 0.78,
       "matched_markets": [
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
+        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
       ],
       "action": "ALERT",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776924363901_0",
-      "timestamp": "2026-04-23T06:06:03.901175+00:00",
+      "id": "sig_1776924433885_0",
+      "timestamp": "2026-04-23T06:07:13.885492+00:00",
       "source": "PERPLEXITY",
-      "headline": "ELON MUSK TWEET COUNT MARKETS DOMINATE POLYMARKET TRENDING | YES | HIGH**",
-      "raw": "ELON MUSK TWEET COUNT MARKETS DOMINATE POLYMARKET TRENDING | YES | HIGH**  \nPolymarket's most active markets focus on **Elon Musk tweet volume** in April 2026, including \"Elon Musk # tweets April 17 - April 24, 2026?\" (priced at 41% for 220-239 range) and \"Elon Musk # tweets in April 2026?\" (24% for 1120-1159, 22% in related listings), with over $21M+ in trading volume across 129+ active tweet pre",
+      "headline": "LOW confidence**\u2014search results lack any April 23 events tied to \"april, bitcoin, ethereum up\"; price upticks are routin",
+      "raw": "LOW confidence**\u2014search results lack any April 23 events tied to \"april, bitcoin, ethereum up\"; price upticks are routine trading without prediction-market impact.[1][2][3]",
       "direction": "YES",
       "confidence": 0.65,
-      "matched_markets": [],
+      "matched_markets": [
+        "Bitcoin above 77,000 on April 23, 2AM ET?",
+        "Will the price of Bitcoin be between $76,000 and $78,000 on April 24?",
+        "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET"
+      ],
       "action": "ALERT",
       "x_link": null,
-      "category": "COMMUNITY"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_1776924363903_1",
-      "timestamp": "2026-04-23T06:06:03.903424+00:00",
+      "id": "sig_1776924442175_0",
+      "timestamp": "2026-04-23T06:07:22.175659+00:00",
       "source": "PERPLEXITY",
-      "headline": "TWEET & POP CULTURE MARKETS TRENDING STRONGLY | YES | HIGH**",
-      "raw": "TWEET & POP CULTURE MARKETS TRENDING STRONGLY | YES | HIGH**  \nTraders are heavily engaged in **tweet predictions** like \"Will Kanye tweet again by April 30?\" amid 130+ live markets and $21.7M volume, plus pop culture tweet markets (20+ active as of April 21).[2][3][4] No specific whale bets, smart money moves, or mispriced alerts detailed in real-time X posts from results.",
+      "headline": "Cavaliers lead Raptors 2-0 in first-round playoffs after Game 2 win (115-105); Thomas Bryant questionable for Game 3** |",
+      "raw": "Cavaliers lead Raptors 2-0 in first-round playoffs after Game 2 win (115-105); Thomas Bryant questionable for Game 3** | **YES** (Cavs favored to win series) | **HIGH** confidence[2][3][4]",
       "direction": "YES",
       "confidence": 0.65,
-      "matched_markets": [],
+      "matched_markets": [
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
+      ],
       "action": "ALERT",
       "x_link": null,
-      "category": "COMMUNITY"
+      "category": "SPORTS"
     },
     {
-      "id": "sig_1776924363905_2",
-      "timestamp": "2026-04-23T06:06:03.905432+00:00",
+      "id": "sig_1776924442177_1",
+      "timestamp": "2026-04-23T06:07:22.177889+00:00",
       "source": "PERPLEXITY",
-      "headline": "BROADER TRENDING MARKETS ACTIVE WITH $3",
-      "raw": "BROADER TRENDING MARKETS ACTIVE WITH $3.3M VOLUME | YES | MED**  \n168 **Trending Markets** live as of April 22, covering Nasdaq round-the-clock trading by June 30 and more, reflecting crowd sentiment faster than polls.[1] No confirmed announcements, resolutions, or breaking events noted to shift odds right now.",
-      "direction": "YES",
+      "headline": "Game 1: Cavs won 126-113, led by Donovan Mitchell's 32 points; full team effort with Max Strus (24 pts), James Harden (2",
+      "raw": "Game 1: Cavs won 126-113, led by Donovan Mitchell's 32 points; full team effort with Max Strus (24 pts), James Harden (22 pts, 10 ast), Mobley/Allen combining for 27 pts[2][3][4].",
+      "direction": null,
       "confidence": 0.65,
-      "matched_markets": [],
+      "matched_markets": [
+        "Donovan Mitchell: Points O/U 27.5"
+      ],
       "action": "ALERT",
       "x_link": null,
-      "category": "COMMUNITY"
+      "category": "SPORTS"
     },
     {
-      "id": "sig_1776924363907_3",
-      "timestamp": "2026-04-23T06:06:03.907636+00:00",
+      "id": "sig_1776924442179_2",
+      "timestamp": "2026-04-23T06:07:22.179815+00:00",
       "source": "PERPLEXITY",
-      "headline": "NO WHALE BETS OR RESOLUTIONS REPORTED | NO | HIGH**",
-      "raw": "NO WHALE BETS OR RESOLUTIONS REPORTED | NO | HIGH**  \nSearch results show no mentions of whale activity, tips on mispriced markets, or recent confirmations/announcements impacting prices; focus remains on ongoing tweet volumes and niche events like CS IEM Rio mentions.[5]",
+      "headline": "Game 2: Cavs won 115-105 for 2-0 lead; Mitchell (30 pts), Harden (28 pts), Mobley (25 pts, 8 reb); Raptors down 2-0 and",
+      "raw": "Game 2: Cavs won 115-105 for 2-0 lead; Mitchell (30 pts), Harden (28 pts), Mobley (25 pts, 8 reb); Raptors down 2-0 and identifying areas to improve[4].",
       "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776924447554_0",
+      "timestamp": "2026-04-23T06:07:27.554025+00:00",
+      "source": "PERPLEXITY",
+      "headline": "SCOTUS Sports Event Contract Case Acceptance | NO recent whale bets or X posts confirmed | LOW confidence**",
+      "raw": "SCOTUS Sports Event Contract Case Acceptance | NO recent whale bets or X posts confirmed | LOW confidence**  \nPolymarket's most active trending market is \"SCOTUS accepts sports event contract case by...?\", with crowd odds at 37% for resolution by December 31, backed by high trading volume in Trending Markets category (over $3.3M total).[1] No search results mention current X posts from Polymarket ",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776924447556_1",
+      "timestamp": "2026-04-23T06:07:27.556064+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Elon Musk Tweet Volume Bets Heating Up | NO confirmed X buzz or resolutions | MED confidence**",
+      "raw": "Elon Musk Tweet Volume Bets Heating Up | NO confirmed X buzz or resolutions | MED confidence**  \nActive markets like \"Elon Musk # tweets in April 2026?\" (24% on 1120-1159 range) and \"Elon Musk # tweets April 17 - April 24, 2026?\" show $21.5M+ volume, with odds shifting in real-time.[2][3] Traders on Polymarket are heavily engaged here, but no evidence of recent X discussions, whale activity, or an",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -86,9 +137,9 @@
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 6,
+    "enter": 1,
+    "alert": 8,
     "watch": 0,
-    "high_conf": 1
+    "high_conf": 2
   }
 }
