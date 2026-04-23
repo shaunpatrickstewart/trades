@@ -1,5 +1,5 @@
 {
-  "ts": 1776938195,
+  "ts": 1776938265,
   "stale": false,
   "feed_ages": {
     "prices_age_s": 0,
@@ -7,7 +7,7 @@
     "usdc_age_s": 0
   },
   "prices": {
-    "usdc_usd": 0.999736
+    "usdc_usd": 0.999715
   },
   "polymarket": {
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
@@ -323,14 +323,14 @@
     "position_count": 34,
     "positions_nav_usdc": 315.7408,
     "total_usdc": 402.6774,
-    "total_usd": 402.5711
+    "total_usd": 402.5627
   },
   "kalshi": {
     "funded": false,
     "total_usd": 0.0
   },
   "pnl": {
-    "ts": 1776938196,
+    "ts": 1776938266,
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
     "activity_rows": 54,
     "today": {
@@ -347,10 +347,10 @@
     },
     "24h": {
       "window": "24h",
-      "window_start_ts": 1776851796,
+      "window_start_ts": 1776851866,
       "realized_usdc": 0.0,
-      "trade_count": 2,
-      "buy_volume_usdc": 29.0862,
+      "trade_count": 1,
+      "buy_volume_usdc": 14.5431,
       "sell_volume_usdc": 0.0,
       "closed_positions": 0,
       "winning_positions": 0,
@@ -365,22 +365,12 @@
           "net_size": 14.69,
           "closed": false,
           "realized_usdc": 0.0
-        },
-        {
-          "title": "Will the lowest temperature in Shanghai be 11\u00b0C on April 22?",
-          "slug": "lowest-temperature-in-shanghai-on-april-22-2026-11c",
-          "outcome_index": 1,
-          "buys_usdc": 14.5431,
-          "sells_usdc": 0.0,
-          "net_size": 14.69,
-          "closed": false,
-          "realized_usdc": 0.0
         }
       ]
     },
     "7d": {
       "window": "7d",
-      "window_start_ts": 1776333396,
+      "window_start_ts": 1776333466,
       "realized_usdc": 1.5555,
       "trade_count": 54,
       "buy_volume_usdc": 494.7196,
@@ -593,7 +583,7 @@
     },
     "30d": {
       "window": "30d",
-      "window_start_ts": 1774346196,
+      "window_start_ts": 1774346266,
       "realized_usdc": 1.5555,
       "trade_count": 54,
       "buy_volume_usdc": 494.7196,
@@ -1019,7 +1009,7 @@
     }
   },
   "summary": {
-    "total_usd": 402.5711,
+    "total_usd": 402.5627,
     "total_usdc": 402.6774
   }
 }
