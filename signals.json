@@ -1,34 +1,100 @@
 {
-  "last_scan": "2026-04-23T03:33:18.125216+00:00",
-  "scan_seconds": 12.5,
+  "last_scan": "2026-04-23T03:34:23.827238+00:00",
+  "scan_seconds": 13.2,
   "markets_scanned": 52,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776915197122_1",
-      "timestamp": "2026-04-23T03:33:17.122093+00:00",
+      "id": "sig_1776915257832_0",
+      "timestamp": "2026-04-23T03:34:17.832495+00:00",
       "source": "PERPLEXITY",
-      "headline": "Trending Markets** category lists 168 active predictions with $3M+ volume, covering niche events like \u201cNasdaq round-the-",
-      "raw": "Trending Markets** category lists 168 active predictions with $3M+ volume, covering niche events like \u201cNasdaq round-the-clock trading by June 30?\u201d; no specific mispriced markets, whale moves, or resolution announcements noted in results.[1]\n\nNo search results provide real-time X posts from Polymarket traders, confirmed news impacting markets, or explicit tips on smart money bets\u2014data reflects Poly",
-      "direction": "NO",
-      "confidence": 0.9,
+      "headline": "Cavaliers Lead Raptors 2-0 in Eastern Conference First Round Playoffs | YES | HIGH confidence**",
+      "raw": "Cavaliers Lead Raptors 2-0 in Eastern Conference First Round Playoffs | YES | HIGH confidence**  \nCleveland Cavaliers have won Game 2 of their first-round playoff series against the Toronto Raptors 115-105, with Donovan Mitchell scoring 30 points and James Harden adding 28; Evan Mobley contributed 25 points on efficient 11-13 shooting, 8 rebounds, 2 assists, and 1 block in 33 minutes[1][5]. Game 3",
+      "direction": "YES",
+      "confidence": 0.78,
+      "matched_markets": [
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
+        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776915262815_0",
+      "timestamp": "2026-04-23T03:34:22.815673+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Nasdaq Round-the-Clock Trading by June 30",
+      "raw": "Nasdaq Round-the-Clock Trading by June 30? | NO | HIGH confidence**  \nPolymarket's top trending market shows 20% YES odds with $43.9K volume, indicating strong trader consensus against implementation, potentially signaling **mispriced upside** for NO shares if no near-term catalysts emerge.[1]",
+      "direction": "YES",
+      "confidence": 0.78,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776915197118_0",
-      "timestamp": "2026-04-23T03:33:17.118369+00:00",
+      "id": "sig_1776915262819_2",
+      "timestamp": "2026-04-23T03:34:22.819608+00:00",
       "source": "PERPLEXITY",
-      "headline": "Trending Polymarket Topics on X: Tweet Counts and High-Volume Social Media Bets | NO whale bets or tips confirmed | LOW",
-      "raw": "Trending Polymarket Topics on X: Tweet Counts and High-Volume Social Media Bets | NO whale bets or tips confirmed | LOW confidence (search results lack direct X posts)**[1][2][3][4][5]\n\nPolymarket's top trending markets as of April 22, 2026, focus on **tweet predictions**, especially **Elon Musk's tweet volumes**, with the most active being \"Elon Musk # tweets in April 2026?\" (20-22% odds on 1120-",
+      "headline": "Robinhood (HOOD) Up or Down on April 22",
+      "raw": "Robinhood (HOOD) Up or Down on April 22? | YES (Up) | HIGH confidence**  \nMarket resolved 100% Up with $4.7K volume and $57.2K liquidity, confirming recent stock movement that likely drove trader discussions and position unwinds on X.[1]",
+      "direction": "YES",
+      "confidence": 0.78,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776915253488_0",
+      "timestamp": "2026-04-23T03:34:13.488086+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Ethereum Price Up 2",
+      "raw": "Ethereum Price Up 2.70% on Apr 22, Bitcoin at $78K All-Time High Levels | NO | LOW confidence**\n\nEthereum traded at $2,403.78 on Apr 22 (up $98.74 or ~4.3% from Apr 21's $2,305.04), with a 2.70% 24h gain reported early Apr 23[1][2][4]. Bitcoin reached $78,194 on Apr 22, up from $75,901 the prior day, amid ETF inflows and easing geopolitical tensions[1][2][4]. No confirmed announcements, resolution",
       "direction": "YES",
       "confidence": 0.65,
-      "matched_markets": [
-        "Will Trump agree to Iranian enrichment of uranium in April?",
-        "Strait of Hormuz traffic returns to normal by end of April?"
-      ],
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776915262817_1",
+      "timestamp": "2026-04-23T03:34:22.817674+00:00",
+      "source": "PERPLEXITY",
+      "headline": "\ud835\udd4f Money Launched by April 30",
+      "raw": "\ud835\udd4f Money Launched by April 30? | NO | HIGH confidence**  \nX-specific market at 16% YES odds with $33.6K volume and $3.9K liquidity reflects low expectations for launch in 7 days, a prime candidate for **smart money shorts** amid Elon Musk/Tech focus.[2]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776915262821_3",
+      "timestamp": "2026-04-23T03:34:22.821848+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Iran x Israel/US Conflict Ends by",
+      "raw": "Iran x Israel/US Conflict Ends by...? | NO (for near-term) | MED confidence**  \n100% odds shown for an unspecified end date in geopolitics category with $11.4K liquidity, suggesting resolution bets are trending but details sparse; watch for **whale moves** on extensions.[2]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776915262823_4",
+      "timestamp": "2026-04-23T03:34:22.823773+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Nikita Bier Out as Head of Product at X by June 30",
+      "raw": "Nikita Bier Out as Head of Product at X by June 30? | NO | HIGH confidence**  \nOnly 7% YES odds with $1.4K volume in X/Tech markets, highlighting niche **prediction market tip** for contrarian YES bets if internal X drama escalates.[2]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
@@ -36,8 +102,8 @@
   ],
   "stats": {
     "enter": 0,
-    "alert": 2,
+    "alert": 7,
     "watch": 0,
-    "high_conf": 1
+    "high_conf": 0
   }
 }
