@@ -1,49 +1,70 @@
 {
-  "last_scan": "2026-04-23T01:39:53.710244+00:00",
-  "scan_seconds": 13.1,
-  "markets_scanned": 52,
+  "last_scan": "2026-04-23T01:41:05.987109+00:00",
+  "scan_seconds": 15.4,
+  "markets_scanned": 50,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776908383714_0",
-      "timestamp": "2026-04-23T01:39:43.714571+00:00",
+      "id": "sig_1776908459870_0",
+      "timestamp": "2026-04-23T01:40:59.870751+00:00",
       "source": "PERPLEXITY",
-      "headline": "ETH Outpaces BTC for First Time in 2026 on 41% Transaction Surge | YES | HIGH confidence**",
-      "raw": "ETH Outpaces BTC for First Time in 2026 on 41% Transaction Surge | YES | HIGH confidence**  \nEthereum transaction activity jumped 41% week-over-week to 3.6 million daily transactions, outpacing Bitcoin amid aligned ETF flows, spot prices, and on-chain data\u2014marking the first such occurrence this year and signaling capital rotation into the broader ecosystem[1]. This breakout above $2,400 (first sin",
+      "headline": "Cavaliers lead Raptors series 2-0 after 115-105 Game 2 win | YES (confirms Cavs dominance, shifting odds toward Cavs ser",
+      "raw": "Cavaliers lead Raptors series 2-0 after 115-105 Game 2 win | YES (confirms Cavs dominance, shifting odds toward Cavs series win) | HIGH confidence** [1][4][5]\n\nDonovan Mitchell scored 30 points with 7 rebounds and 5 assists, James Harden added 28 points on efficient 9-14 FG shooting, and Evan Mobley contributed 25 points on 11-13 FG in the victory, marking the 4th Cavaliers playoff trio to score 2",
       "direction": "YES",
-      "confidence": 0.65,
+      "confidence": 0.9,
       "matched_markets": [
-        "Bitcoin above 76,800 on April 22, 10PM ET?",
-        "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET"
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
       ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "SPORTS"
     },
     {
-      "id": "sig_1776908387983_0",
-      "timestamp": "2026-04-23T01:39:47.983898+00:00",
+      "id": "sig_1776908464982_1",
+      "timestamp": "2026-04-23T01:41:04.982212+00:00",
       "source": "PERPLEXITY",
-      "headline": "Cooper Flagg's Mavericks Miss Playoffs, Ending His Rookie of the Year Case | NO (Flagg will not win ROY) | HIGH confiden",
-      "raw": "Cooper Flagg's Mavericks Miss Playoffs, Ending His Rookie of the Year Case | NO (Flagg will not win ROY) | HIGH confidence**  \nCooper Flagg's Dallas Mavericks are lottery-bound and will not participate in the NBA playoffs, eliminating him as a Rookie of the Year contender since frontrunners on non-postseason teams are typically overlooked.[2][1]  \nA recent poor performance by Flagg\u2014missing 5 of hi",
+      "headline": "Monero $1000 Price Target and Sports Betting Ban Odds Trending | NO mispriced calls or resolutions | MED confidence**",
+      "raw": "Monero $1000 Price Target and Sports Betting Ban Odds Trending | NO mispriced calls or resolutions | MED confidence**  \nTrending markets include \"Will Monero hit $1000 in 2026?\" and \"Law banning sports prediction markets enacted in 2026?\" (11% yes odds) among 168 active predictions with $3M+ volume as of April 22, 2026[1]. No X posts on whale moves, smart money, or confirmed events shifting odds r",
       "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776908459873_1",
+      "timestamp": "2026-04-23T01:40:59.873127+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Raptors identify improvement areas while down 2-0 | NO (no resolution or upset confirmation) | HIGH confidence** [5]",
+      "raw": "Raptors identify improvement areas while down 2-0 | NO (no resolution or upset confirmation) | HIGH confidence** [5]",
+      "direction": "NO",
       "confidence": 0.65,
-      "matched_markets": [
-        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
-      ],
+      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776908392704_0",
-      "timestamp": "2026-04-23T01:39:52.704875+00:00",
+      "id": "sig_1776908459875_2",
+      "timestamp": "2026-04-23T01:40:59.875033+00:00",
       "source": "PERPLEXITY",
-      "headline": "Elon Musk April 2026 Tweet Count Markets Surge in Volume | NO whale bets or smart money moves reported | LOW confidence*",
-      "raw": "Elon Musk April 2026 Tweet Count Markets Surge in Volume | NO whale bets or smart money moves reported | LOW confidence**  \nPolymarket's Tweet and Tweet Markets categories show high activity on **Elon Musk # tweets in April 2026**, with over $20.7M-$20.8M trading volume across 129-130 markets; the 1120-1159 tweet outcome trades at 20-21% odds, recently shifting from prior snapshots[2][3].",
+      "headline": "No breaking updates on Lakers, Flagg, or broader NBA series predictions | NO | LOW confidence** [1-5]",
+      "raw": "No breaking updates on Lakers, Flagg, or broader NBA series predictions | NO | LOW confidence** [1-5]",
       "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776908464980_0",
+      "timestamp": "2026-04-23T01:41:04.980123+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Elon Musk April 2026 Tweet Count Markets Heating Up | NO whale bets or tips reported | LOW confidence**",
+      "raw": "Elon Musk April 2026 Tweet Count Markets Heating Up | NO whale bets or tips reported | LOW confidence**  \nPolymarket's most active markets focus on **Elon Musk's tweet volume**, such as \"Elon Musk # tweets in April 2026?\" (20-21% odds on 1120-1159 range) and \"Elon Musk # tweets April 17 - April 24, 2026?\" with high $20.7M+ trading volume across 129-130 live Tweet markets as of April 9-21, 2026[2][",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
         "Will Trump name \"Elon\" or \"Musk\" in April?"
@@ -53,12 +74,12 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776908392707_1",
-      "timestamp": "2026-04-23T01:39:52.707229+00:00",
+      "id": "sig_1776908464984_2",
+      "timestamp": "2026-04-23T01:41:04.984136+00:00",
       "source": "PERPLEXITY",
-      "headline": "Monero $1000 Price Target and Niche Bans Trending | NO mispriced calls or tips confirmed on X | LOW confidence**",
-      "raw": "Monero $1000 Price Target and Niche Bans Trending | NO mispriced calls or tips confirmed on X | LOW confidence**  \nTrending Markets (168 active) highlight **Will Monero hit $1000 in 2026?** and **Law banning sports prediction markets enacted in 2026?** at 11% odds, with $3.0M volume reflecting trader sentiment on crypto and regulation[1]. No X posts in results detail whale activity, prediction tip",
-      "direction": "NO",
+      "headline": "Limited Breaking News; No Confirmed Announcements or X Chatter | NO tips on moves | LOW confidence**",
+      "raw": "Limited Breaking News; No Confirmed Announcements or X Chatter | NO tips on moves | LOW confidence**  \nSearch results show real-time Polymarket odds on tweets, crypto prices, and niche events like Nasdaq trading or Kanye tweeting by April 30 (78% yes, $393 vol), but lack direct X posts from traders or whale activity as of April 22-23, 2026[1][2][3]. No resolutions or announcements noted to impact ",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -67,9 +88,9 @@
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 4,
+    "enter": 1,
+    "alert": 5,
     "watch": 0,
-    "high_conf": 0
+    "high_conf": 2
   }
 }
