@@ -1,19 +1,18 @@
 {
-  "last_scan": "2026-04-23T09:36:44.734214+00:00",
-  "scan_seconds": 18.1,
+  "last_scan": "2026-04-23T09:37:48.652930+00:00",
+  "scan_seconds": 18.0,
   "markets_scanned": 57,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776936994096_0",
-      "timestamp": "2026-04-23T09:36:34.096170+00:00",
+      "id": "sig_1776937057758_0",
+      "timestamp": "2026-04-23T09:37:37.758336+00:00",
       "source": "PERPLEXITY",
-      "headline": "Powell Confirms He Will Stay as Fed Chair Until Successor Confirmed Amid Ongoing DOJ Probe** | **NO** | **HIGH** confide",
-      "raw": "Powell Confirms He Will Stay as Fed Chair Until Successor Confirmed Amid Ongoing DOJ Probe** | **NO** | **HIGH** confidence[1][3]\n\nPowell stated on April 21, 2026, that he intends to hold the chair until a successor is confirmed and the investigation concludes, per legal provisions allowing him to serve as Chair Pro Tem if needed[1][3]. President Trump nominated Kevin Warsh as replacement on or be",
-      "direction": "NO",
+      "headline": "Powell Confirms He Will Remain Fed Chair Until Successor Confirmed Amid Ongoing Investigation and Nomination Delays** |",
+      "raw": "Powell Confirms He Will Remain Fed Chair Until Successor Confirmed Amid Ongoing Investigation and Nomination Delays** | **YES** | **HIGH** confidence[1][2][3][4]\n\nJerome Powell stated he will serve as **Fed Chair pro tem** if his successor\u2014reportedly Kevin Warsh\u2014is not confirmed by his term's end on May 15, per federal law and precedent[1][2][3]. He also affirmed no intention to leave the Fed Boar",
+      "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
-        "Will Trump agree to Iranian enrichment of uranium in April?",
         "Will Powell say \"Successor\" during April press conference?"
       ],
       "action": "ENTER",
@@ -21,44 +20,85 @@
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_1776937003728_0",
-      "timestamp": "2026-04-23T09:36:43.728445+00:00",
+      "id": "sig_1776937062373_2",
+      "timestamp": "2026-04-23T09:37:42.373305+00:00",
       "source": "PERPLEXITY",
-      "headline": "Elon Musk April 2026 Tweet Count Markets Lead Polymarket Trends | NO | LOW confidence**",
-      "raw": "Elon Musk April 2026 Tweet Count Markets Lead Polymarket Trends | NO | LOW confidence**\n\nPolymarket's trending markets as of April 22 heavily feature **Tweet Markets** and **Elon Musk tweet volume predictions**, with the most active being \"Elon Musk # tweets in April 2026?\" where traders assign 26% odds to the 1160-1199 range and similar probabilities to nearby bins like 1120-1159 (24%).[1][2][3] ",
+      "headline": "No direct Cavaliers mention; Lakers confirmed playoff-bound despite injuries, with next game hosting Oklahoma City Tuesd",
+      "raw": "No direct Cavaliers mention; Lakers confirmed playoff-bound despite injuries, with next game hosting Oklahoma City Tuesday.[1]",
       "direction": "NO",
       "confidence": 0.9,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "COMMUNITY"
+      "category": "SPORTS"
     },
     {
-      "id": "sig_1776936998046_0",
-      "timestamp": "2026-04-23T09:36:38.046269+00:00",
+      "id": "sig_1776937054063_0",
+      "timestamp": "2026-04-23T09:37:34.063337+00:00",
       "source": "PERPLEXITY",
-      "headline": "Mavericks Upgrade Cooper Flagg to AVAILABLE for Sunday's Game vs",
-      "raw": "Mavericks Upgrade Cooper Flagg to AVAILABLE for Sunday's Game vs. Raptors | YES | HIGH confidence**[1]\n\nCooper Flagg, the Mavericks' rookie star managing a midfoot sprain, was initially downgraded to **questionable** on the official injury report for the matchup against the Toronto Raptors but has now been **upgraded to available**, signaling no new injury and likely cautionary management rather t",
+      "headline": "Bitcoin's 7-Year 'Uptober' Streak Ends with 3",
+      "raw": "Bitcoin's 7-Year 'Uptober' Streak Ends with 3.6% Drop in October 2025** | YES | HIGH confidence[1]\n\nThis breaking confirmation\u2014Bitcoin closed October 2025 down 3.35-3.69% at around $109,560, trading now near $110,076\u2014marks the first red October since 2018, driven by $19B liquidations, Trump's China tariffs, and Fed rate hesitation[1]. Traders eye November's historical +42% average gains as a poten",
       "direction": "YES",
-      "confidence": 0.78,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776937062368_0",
+      "timestamp": "2026-04-23T09:37:42.368765+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Cooper Flagg scores 45 points in Mavericks' 134-128 win over injury-depleted Lakers, snapping 14-game home losing streak",
+      "raw": "Cooper Flagg scores 45 points in Mavericks' 134-128 win over injury-depleted Lakers, snapping 14-game home losing streak | NO | LOW confidence**",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776937062371_1",
+      "timestamp": "2026-04-23T09:37:42.371201+00:00",
+      "source": "PERPLEXITY",
+      "headline": "This Sunday night game featured the 19-year-old rookie No",
+      "raw": "This Sunday night game featured the 19-year-old rookie No. 1 pick Flagg delivering 45 points, 9 assists, and 8 rebounds\u2014his second straight 40+ point game, first for a rookie since Allen Iverson in 1996-97\u2014while LeBron James had 30 points and 15 assists for the playoff-bound Lakers, now missing Luka Doncic and Austin Reaves for the regular season's remainder.[1]",
+      "direction": "NO",
+      "confidence": 0.65,
       "matched_markets": [
-        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
+        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?"
       ],
       "action": "ALERT",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776937003731_1",
-      "timestamp": "2026-04-23T09:36:43.731051+00:00",
+      "id": "sig_1776937062375_3",
+      "timestamp": "2026-04-23T09:37:42.375464+00:00",
       "source": "PERPLEXITY",
-      "headline": "No recent confirmations, announcements, or resolutions** noted that would shift these markets; data snapshots are from A",
-      "raw": "No recent confirmations, announcements, or resolutions** noted that would shift these markets; data snapshots are from April 21-22 with no breaking updates by April 23.[1][2][3] Other trends include \"Nasdaq round-the-clock trading by June 30?\" ($3.3M volume) and phrase prediction events like CS IEM Rio 2026 mentions.[1][4] Low confidence stems from static search data lacking live X chatter or whal",
+      "headline": "Flagg remains a top **Rookie of the Year** favorite in a tight race with Kon Knueppel, per recent stats and commentary,",
+      "raw": "Flagg remains a top **Rookie of the Year** favorite in a tight race with Kon Knueppel, per recent stats and commentary, but no formal award announcement or resolution.[3][2][4]",
       "direction": "NO",
       "confidence": 0.65,
-      "matched_markets": [],
+      "matched_markets": [
+        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776937067649_0",
+      "timestamp": "2026-04-23T09:37:47.649901+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Polymarket Trending Markets Focus on X/Twitter Activity, Elon Musk Bets, and Niche Events | NO direct whale bets or X po",
+      "raw": "Polymarket Trending Markets Focus on X/Twitter Activity, Elon Musk Bets, and Niche Events | NO direct whale bets or X posts reported | MED confidence (based on real-time platform data as of April 22, 2026)**[1][2][3][4]\n\nPolymarket's top trending markets emphasize **X (Twitter)-related predictions**, including \"\ud835\udd4f Money launched by April 30?\" at 14% YES odds with $33.7K volume, \"Nikita Bier out as ",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Counter-Strike: Eternal Fire vs BIG Academy - Map 1 Winner"
+      ],
       "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
@@ -66,7 +106,7 @@
   ],
   "stats": {
     "enter": 1,
-    "alert": 3,
+    "alert": 6,
     "watch": 0,
     "high_conf": 2
   }
