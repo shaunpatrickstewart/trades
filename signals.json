@@ -1,47 +1,59 @@
 {
-  "last_scan": "2026-04-23T09:03:17.715547+00:00",
-  "scan_seconds": 16.9,
+  "last_scan": "2026-04-23T09:04:29.296603+00:00",
+  "scan_seconds": 18.7,
   "markets_scanned": 51,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776934988173_0",
-      "timestamp": "2026-04-23T09:03:08.173801+00:00",
+      "id": "sig_1776935068291_1",
+      "timestamp": "2026-04-23T09:04:28.291391+00:00",
       "source": "PERPLEXITY",
-      "headline": "Trump Nominates Kevin Warsh as Fed Chair to Succeed Powell in May 2026** | YES | HIGH confidence[1][2][3]",
-      "raw": "Trump Nominates Kevin Warsh as Fed Chair to Succeed Powell in May 2026** | YES | HIGH confidence[1][2][3]\n\nPresident Trump announced on January 30, 2026, his intention to nominate former Fed Governor Kevin Warsh to replace Jerome Powell as Federal Reserve Chair, whose term ends in May 2026[1][2][3]. Powell criticized for slow rate cuts will stay through May and could remain a board governor until ",
+      "headline": "TWEET MARKETS SIGNAL MISPRICING ON MUSK VOLUME | YES | MED**",
+      "raw": "TWEET MARKETS SIGNAL MISPRICING ON MUSK VOLUME | YES | MED**  \nCrowd odds on Musk's April tweet buckets (e.g., 1120-1159 at 22-24%) update live with new data, implying potential smart money bets on over/under as his activity evolves; no specific whale moves or X posts detailed in current data.[2][3][4]  \nVolumes exceed $3.3M across 160+ trending markets, suggesting conviction plays but lacking con",
       "direction": "YES",
       "confidence": 0.9,
-      "matched_markets": [
-        "Will Powell say \"Successor\" during April press conference?"
-      ],
-      "action": "ENTER",
+      "matched_markets": [],
+      "action": "ALERT",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776934984092_0",
-      "timestamp": "2026-04-23T09:03:04.092256+00:00",
+      "id": "sig_1776935068293_2",
+      "timestamp": "2026-04-23T09:04:28.293550+00:00",
       "source": "PERPLEXITY",
-      "headline": "Confidence: LOW** \u2013 All data stems from dated analyst opinions (e",
-      "raw": "Confidence: LOW** \u2013 All data stems from dated analyst opinions (e.g., Mar 2026, Dec 2025), with no real-time events matching \"RIGHT NOW\" or \"just confirmed.\"[1][2]",
+      "headline": "NO BREAKING CONFIRMATIONS OR RESOLUTIONS MOVING MARKETS | NO | HIGH**",
+      "raw": "NO BREAKING CONFIRMATIONS OR RESOLUTIONS MOVING MARKETS | NO | HIGH**  \nSearch data shows no recent announcements, resolutions, or events (e.g., no CS IEM Rio mentions tying to markets) confirmed to shift odds; all activity reflects ongoing real-time trader sentiment without fresh catalysts.[1][3][5]",
       "direction": "NO",
       "confidence": 0.9,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776934992785_0",
-      "timestamp": "2026-04-23T09:03:12.785328+00:00",
+      "id": "sig_1776935068289_0",
+      "timestamp": "2026-04-23T09:04:28.289456+00:00",
       "source": "PERPLEXITY",
-      "headline": "Lakers Take 2-0 Playoff Series Lead Over Rockets Despite Luka Doncic Suspension and Austin Reaves Injury; Vegas Still No",
-      "raw": "Lakers Take 2-0 Playoff Series Lead Over Rockets Despite Luka Doncic Suspension and Austin Reaves Injury; Vegas Still Not Buying Full Series Win | NO | MED confidence** [1][2][4][6]\n\nThe Los Angeles Lakers have secured a 2-0 lead in their Western Conference first-round series against the Houston Rockets, powered by **LeBron James**' dominant performances including a triple-double and targeted defe",
+      "headline": "ELON MUSK TWEET COUNT MARKETS DOMINATE POLYMARKET TRENDING | YES | HIGH**",
+      "raw": "ELON MUSK TWEET COUNT MARKETS DOMINATE POLYMARKET TRENDING | YES | HIGH**  \nPolymarket's most active markets focus on **Elon Musk's tweet volume**, including \"Elon Musk # tweets April 17 - April 24, 2026?\" (priced at 41% for 220-239 tweets) and \"Elon Musk # tweets in April 2026?\" (24% for 1120-1159, 22% for same range in related market).[2][3][4]  \nThese tweet prediction markets lead with over **$",
       "direction": "YES",
       "confidence": 0.78,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776935062387_0",
+      "timestamp": "2026-04-23T09:04:22.387449+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Lakers Highlight Luke Kennard's Historic 5/5 3PT Game 1 Performance vs Rockets \u2013 First Since Horry in 1997 | YES (boosts",
+      "raw": "Lakers Highlight Luke Kennard's Historic 5/5 3PT Game 1 Performance vs Rockets \u2013 First Since Horry in 1997 | YES (boosts Lakers series win odds) | HIGH confidence** [1]\n\nLuke Kennard scored a playoff-career high 27 points on perfect 5/5 three-point shooting in the Lakers' Game 1 win, leading to an official team announcement recognizing it as the first such streak for a Laker since Robert Horry in ",
+      "direction": "YES",
+      "confidence": 0.65,
       "matched_markets": [
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
+        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
       ],
       "action": "ALERT",
       "x_link": null,
@@ -49,8 +61,8 @@
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 2,
+    "enter": 0,
+    "alert": 4,
     "watch": 0,
     "high_conf": 2
   }
