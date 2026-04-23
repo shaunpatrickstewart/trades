@@ -1,32 +1,58 @@
 {
-  "last_scan": "2026-04-23T03:58:18.308317+00:00",
-  "scan_seconds": 32.7,
+  "last_scan": "2026-04-23T03:59:27.091754+00:00",
+  "scan_seconds": 36.5,
   "markets_scanned": 52,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776916672486_0",
-      "timestamp": "2026-04-23T03:57:52.486144+00:00",
+      "id": "sig_1776916766082_4",
+      "timestamp": "2026-04-23T03:59:26.082172+00:00",
       "source": "PERPLEXITY",
-      "headline": "Cooper Flagg Confirmed Available for Mavericks vs",
-      "raw": "Cooper Flagg Confirmed Available for Mavericks vs. Raptors Playoff Game | YES | HIGH confidence**  \nDallas Mavericks rookie **Cooper Flagg** is officially cleared to play against the **Toronto Raptors**, announced by head coach Jason Kidd as a game-time decision that resolved positively; he will be on a **20-25 minute restriction** due to the compressed playoff schedule[1].  \nThis breaking confirm",
-      "direction": "YES",
+      "headline": "Just-announced events or resolutions that would move markets",
+      "raw": "Just-announced events or resolutions that would move markets\n\nTo get this information, you would need to:",
+      "direction": null,
       "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776916738582_2",
+      "timestamp": "2026-04-23T03:58:58.582222+00:00",
+      "source": "PERPLEXITY",
+      "headline": "No breaking confirmations on Cooper Flagg draft/series impact or Lakers/Cavaliers resolutions | NO (nothing confirmed/an",
+      "raw": "No breaking confirmations on Cooper Flagg draft/series impact or Lakers/Cavaliers resolutions | NO (nothing confirmed/announced) | HIGH confidence** [1-8]\n\nSearch results show zero mentions of Cooper Flagg (likely draft prospect), Lakers involvement, or series predictions shifting markets; focus remains solely on Raptors-Cavaliers playoff hole with no trades, injuries resolved, or upsets confirmed",
+      "direction": "NO",
+      "confidence": 0.78,
       "matched_markets": [
-        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
       ],
-      "action": "ENTER",
+      "action": "ALERT",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776916697292_0",
-      "timestamp": "2026-04-23T03:58:17.292050+00:00",
+      "id": "sig_1776916738577_0",
+      "timestamp": "2026-04-23T03:58:58.577568+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot provide the real-time breaking news, current social media posts, or live trader commentary you're requesting ba",
-      "raw": "I cannot provide the real-time breaking news, current social media posts, or live trader commentary you're requesting based on these search results.\n\nThe search results show **historical Polymarket data from April 9-22, 2026** with general information about prediction market mechanics and some specific markets (like Kanye West tweets at 78% and Elon Musk tweet volume predictions). However, they do",
+      "headline": "Cavaliers lead Raptors 2-0 after Game 2 win; Raptors face injury uncertainty for Game 3 | NO (no series win for Raptors)",
+      "raw": "Cavaliers lead Raptors 2-0 after Game 2 win; Raptors face injury uncertainty for Game 3 | NO (no series win for Raptors) | HIGH confidence** [1][4][6]\n\nCavaliers defeated Raptors 115-105 in Game 2 on April 21, 2026, with Donovan Mitchell scoring 30 points and James Harden adding 28, giving Cleveland a commanding series lead heading to Toronto for Game 3 [4][6]. Raptors struggled with Brandon Ingra",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776916766072_0",
+      "timestamp": "2026-04-23T03:59:26.072750+00:00",
+      "source": "PERPLEXITY",
+      "headline": "I cannot provide the real-time breaking news, trader commentary, or whale betting activity you're requesting based on th",
+      "raw": "I cannot provide the real-time breaking news, trader commentary, or whale betting activity you're requesting based on these search results.\n\nThe search results show that Polymarket hosts prediction markets with real-time odds[1][5], but they provide only static snapshots of market data from April 9-22, 2026\u2014not live trader discussion, social media posts from X, or current market movement analysis.",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
@@ -35,11 +61,11 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776916697293_1",
-      "timestamp": "2026-04-23T03:58:17.293966+00:00",
+      "id": "sig_1776916766075_1",
+      "timestamp": "2026-04-23T03:59:26.075094+00:00",
       "source": "PERPLEXITY",
-      "headline": "Current X (Twitter) posts from traders or whale accounts",
-      "raw": "Current X (Twitter) posts from traders or whale accounts",
+      "headline": "What traders are currently posting or discussing on X about markets",
+      "raw": "What traders are currently posting or discussing on X about markets",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
@@ -48,11 +74,11 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776916697295_2",
-      "timestamp": "2026-04-23T03:58:17.295852+00:00",
+      "id": "sig_1776916766077_2",
+      "timestamp": "2026-04-23T03:59:26.077421+00:00",
       "source": "PERPLEXITY",
-      "headline": "Live commentary on mispriced markets",
-      "raw": "Live commentary on mispriced markets",
+      "headline": "Recent whale bets or large position movements",
+      "raw": "Recent whale bets or large position movements",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
@@ -61,11 +87,11 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776916697297_3",
-      "timestamp": "2026-04-23T03:58:17.297810+00:00",
+      "id": "sig_1776916766079_3",
+      "timestamp": "2026-04-23T03:59:26.079771+00:00",
       "source": "PERPLEXITY",
-      "headline": "Recent announcements or resolutions that would move markets",
-      "raw": "Recent announcements or resolutions that would move markets",
+      "headline": "Commentary on mispriced markets",
+      "raw": "Commentary on mispriced markets",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
@@ -74,23 +100,23 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776916697299_4",
-      "timestamp": "2026-04-23T03:58:17.299710+00:00",
+      "id": "sig_1776916738579_1",
+      "timestamp": "2026-04-23T03:58:58.579985+00:00",
       "source": "PERPLEXITY",
-      "headline": "Real-time smart money positioning",
-      "raw": "Real-time smart money positioning\n\nTo get this information, you would need to:",
-      "direction": null,
-      "confidence": 0.65,
+      "headline": "Ja'Kobe Walter questionable (illness), Immanuel Quickley questionable (hamstring) for Raptors Game 3 | NO (no full healt",
+      "raw": "Ja'Kobe Walter questionable (illness), Immanuel Quickley questionable (hamstring) for Raptors Game 3 | NO (no full health return confirmed) | MED confidence** [3][6]\n\nRaptors injuries persist: Quickley missed Game 2 and is now questionable after a hamstring strain, while Walter is iffy due to illness, potentially increasing minutes for Jamal Shead and A.J. Lawson if both sit [6]. This could deepen",
+      "direction": "NO",
+      "confidence": 0.6,
       "matched_markets": [],
-      "action": "ALERT",
+      "action": "WATCH",
       "x_link": null,
-      "category": "COMMUNITY"
+      "category": "SPORTS"
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 5,
-    "watch": 0,
+    "enter": 0,
+    "alert": 7,
+    "watch": 1,
     "high_conf": 1
   }
 }
