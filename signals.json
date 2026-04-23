@@ -1,29 +1,98 @@
 {
-  "last_scan": "2026-04-23T01:28:35.202185+00:00",
-  "scan_seconds": 14.6,
+  "last_scan": "2026-04-23T01:29:58.968664+00:00",
+  "scan_seconds": 31.4,
   "markets_scanned": 51,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776907714189_0",
-      "timestamp": "2026-04-23T01:28:34.189234+00:00",
+      "id": "sig_1776907786507_2",
+      "timestamp": "2026-04-23T01:29:46.507120+00:00",
       "source": "PERPLEXITY",
-      "headline": "Nasdaq Round-the-Clock Trading by June 30",
-      "raw": "Nasdaq Round-the-Clock Trading by June 30? | NO | HIGH confidence**  \nPolymarket's top trending market shows 20% YES odds with $43.9K volume, implying strong trader consensus on NO amid real-time bets[1].",
+      "headline": "Spot Ethereum ETF Inflows Reach All-Time Highs | YES | HIGH confidence**",
+      "raw": "Spot Ethereum ETF Inflows Reach All-Time Highs | YES | HIGH confidence**\n\nInstitutional demand for Ethereum has surged, with Spot Ethereum ETF inflows reaching record levels as of mid-April 2026[1]. This represents a confirmed trend shift toward institutional adoption.",
       "direction": "YES",
-      "confidence": 0.78,
+      "confidence": 0.9,
+      "matched_markets": [
+        "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776907786505_1",
+      "timestamp": "2026-04-23T01:29:46.505235+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Ethereum Hits $6K Following Pectra Upgrade Progress | YES | HIGH confidence**",
+      "raw": "Ethereum Hits $6K Following Pectra Upgrade Progress | YES | HIGH confidence**\n\nThe **Pectra (Prague-Electra) Upgrade** has entered its final testing phase and is expected to revolutionize wallet abstraction and validator efficiency[1]. This represents a confirmed milestone that could significantly impact Ethereum's technical capabilities and adoption.",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776907786509_3",
+      "timestamp": "2026-04-23T01:29:46.509047+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Layer 2 Total Value Locked (TVL) Surpasses Major Milestones | YES | HIGH confidence**",
+      "raw": "Layer 2 Total Value Locked (TVL) Surpasses Major Milestones | YES | HIGH confidence**\n\nTVL in Layer 2 ecosystems like Base and Arbitrum has exceeded significant thresholds[1], indicating confirmed growth in Ethereum's scaling solutions.",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776907797955_4",
+      "timestamp": "2026-04-23T01:29:57.955340+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Breaking news that has just been announced or resolved",
+      "raw": "Breaking news that has just been announced or resolved",
+      "direction": null,
+      "confidence": 0.9,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776907714191_1",
-      "timestamp": "2026-04-23T01:28:34.191187+00:00",
+      "id": "sig_1776907786503_0",
+      "timestamp": "2026-04-23T01:29:46.503164+00:00",
       "source": "PERPLEXITY",
-      "headline": "\ud835\udd4f Money Launched by April 30",
-      "raw": "\ud835\udd4f Money Launched by April 30? | NO | HIGH confidence**  \nX-specific market at 16% YES with $33.6K volume and $3.9K liquidity draws trader focus on Elon Musk tech bets, signaling low expectation of launch[2].",
-      "direction": "YES",
+      "headline": "Based on the search results provided, here are the relevant breaking developments:",
+      "raw": "Based on the search results provided, here are the relevant breaking developments:",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776907786512_5",
+      "timestamp": "2026-04-23T01:29:46.512960+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Note on Price Data:** The most recent pricing data in these results is from April 17-18, 2026, showing Ethereum at appro",
+      "raw": "Note on Price Data:** The most recent pricing data in these results is from April 17-18, 2026, showing Ethereum at approximately $2,131-$2,358[2][4]. Earlier reports show Ethereum trading around $2,068[5], though exact timing varies across sources.",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776907797947_0",
+      "timestamp": "2026-04-23T01:29:57.947538+00:00",
+      "source": "PERPLEXITY",
+      "headline": "I cannot provide the real-time information you're requesting based on the available search results",
+      "raw": "I cannot provide the real-time information you're requesting based on the available search results.\n\nThe search results provide general information about Polymarket's structure and some markets that were active as of mid-April 2026 (such as predictions about Elon Musk's tweet volume and Kanye West's social media activity), but they do not contain:",
+      "direction": null,
       "confidence": 0.65,
       "matched_markets": [
         "Will Trump name \"Elon\" or \"Musk\" in April?"
@@ -33,12 +102,12 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776907714193_2",
-      "timestamp": "2026-04-23T01:28:34.193127+00:00",
+      "id": "sig_1776907797949_1",
+      "timestamp": "2026-04-23T01:29:57.949489+00:00",
       "source": "PERPLEXITY",
-      "headline": "Iran x Israel/US Conflict Ends by",
-      "raw": "Iran x Israel/US Conflict Ends by...? | YES | MED confidence**  \nMarket at 100% YES with $11.4K liquidity indicates recent trader conviction on resolution, potentially from unconfirmed geopolitics updates[2].",
-      "direction": "YES",
+      "headline": "Current X (Twitter) posts from Polymarket traders discussing market sentiment",
+      "raw": "Current X (Twitter) posts from Polymarket traders discussing market sentiment",
+      "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -46,12 +115,12 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776907714195_3",
-      "timestamp": "2026-04-23T01:28:34.195058+00:00",
+      "id": "sig_1776907797951_2",
+      "timestamp": "2026-04-23T01:29:57.951350+00:00",
       "source": "PERPLEXITY",
-      "headline": "Monero Hits $1000 in 2026",
-      "raw": "Monero Hits $1000 in 2026? | NO | MED confidence**  \nTrending crypto market at 19% YES reflects bearish sentiment in ongoing volume, no whale activity noted[1].",
-      "direction": "YES",
+      "headline": "Active whale bets or large trades happening right now",
+      "raw": "Active whale bets or large trades happening right now",
+      "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -59,12 +128,12 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776907714197_4",
-      "timestamp": "2026-04-23T01:28:34.197011+00:00",
+      "id": "sig_1776907797953_3",
+      "timestamp": "2026-04-23T01:29:57.953242+00:00",
       "source": "PERPLEXITY",
-      "headline": "Nikita Bier Out as X Head of Product by June 30",
-      "raw": "Nikita Bier Out as X Head of Product by June 30? | NO | HIGH confidence**  \n7% YES odds with $1.4K volume show minimal trader bets on change, highlighting X internal stability views[2].",
-      "direction": "YES",
+      "headline": "Real-time market movements or mispricing discussions",
+      "raw": "Real-time market movements or mispricing discussions",
+      "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -72,41 +141,36 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776907714199_5",
-      "timestamp": "2026-04-23T01:28:34.199228+00:00",
+      "id": "sig_1776907797957_5",
+      "timestamp": "2026-04-23T01:29:57.957257+00:00",
       "source": "PERPLEXITY",
-      "headline": "Elon Musk Tweet Volume April 2026 (1120-1159 Range) | NO | LOW confidence**",
-      "raw": "Elon Musk Tweet Volume April 2026 (1120-1159 Range) | NO | LOW confidence**  \nTweet market at 21% for this bin amid $20.7M+ category volume tracks real-time X activity, but lacks mispricing signals[3].  \n\nNo direct X posts on whale bets, smart money moves, tips, or mispriced markets in results; trending odds aggregate trader sentiment without resolved events or announcements noted[1][2][3].",
-      "direction": "NO",
+      "headline": "Live commentary from traders about which markets are undervalued",
+      "raw": "Live commentary from traders about which markets are undervalued\n\nTo get this information, you would need to:",
+      "direction": null,
       "confidence": 0.65,
-      "matched_markets": [
-        "Will Trump name \"Elon\" or \"Musk\" in April?"
-      ],
+      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776907709444_0",
-      "timestamp": "2026-04-23T01:28:29.444217+00:00",
+      "id": "sig_1776907786510_4",
+      "timestamp": "2026-04-23T01:29:46.510972+00:00",
       "source": "PERPLEXITY",
-      "headline": "Cooper Flagg Passes Kon Knueppel as ROY Favorite After 45-Point Statement Game vs",
-      "raw": "Cooper Flagg Passes Kon Knueppel as ROY Favorite After 45-Point Statement Game vs. Lakers | NO | HIGH confidence**  \nCooper Flagg has overtaken Kon Knueppel as the betting favorite for NBA Rookie of the Year on DraftKings Sportsbook, moving to -250 odds from +225 after scoring 45 points, nine assists, and eight rebounds in Dallas Mavericks' 134-128 win over the **Los Angeles Lakers** on Sunday[1][",
+      "headline": "Clarity Act Vote Timeline Faces Uncertainty | YES | MEDIUM confidence**",
+      "raw": "Clarity Act Vote Timeline Faces Uncertainty | YES | MEDIUM confidence**\n\nThe Senate committee's markup vote on cryptocurrency regulation (Clarity Act) was scheduled for the week of April 27, 2026, but faces potential delays to the second week of May due to banking sector pressure on stablecoin yield regulations[6]. This regulatory uncertainty could impact market predictions.",
       "direction": "YES",
       "confidence": 0.6,
-      "matched_markets": [
-        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
-      ],
+      "matched_markets": [],
       "action": "WATCH",
       "x_link": null,
-      "category": "SPORTS"
+      "category": "CRYPTO"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 6,
+    "enter": 1,
+    "alert": 10,
     "watch": 1,
-    "high_conf": 0
+    "high_conf": 4
   }
 }
