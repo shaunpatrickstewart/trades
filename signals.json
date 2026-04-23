@@ -1,16 +1,48 @@
 {
-  "last_scan": "2026-04-23T03:09:15.371813+00:00",
-  "scan_seconds": 14.6,
+  "last_scan": "2026-04-23T03:10:26.229022+00:00",
+  "scan_seconds": 15.6,
   "markets_scanned": 51,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776913744549_0",
-      "timestamp": "2026-04-23T03:09:04.549171+00:00",
+      "id": "sig_1776913814647_1",
+      "timestamp": "2026-04-23T03:10:14.647136+00:00",
       "source": "PERPLEXITY",
-      "headline": "HIGH confidence** (search results cover latest April 22 prices and lack any \"just confirmed\" developments)",
-      "raw": "HIGH confidence** (search results cover latest April 22 prices and lack any \"just confirmed\" developments).",
-      "direction": null,
+      "headline": "ETH ETFs 8-Day Inflow Streak Confirmed | YES | HIGH confidence**",
+      "raw": "ETH ETFs 8-Day Inflow Streak Confirmed | YES | HIGH confidence**  \nU.S. spot Ethereum ETFs saw $67.77 million net inflows on April 20 (8th straight day), with weekly totals at $276 million led by Fidelity\u2019s FETH ($126 million), supporting ETH up 3.33% to $2,395[1][3].",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776913819601_0",
+      "timestamp": "2026-04-23T03:10:19.601019+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Cavaliers advance to Eastern Conference Semifinals after 138-83 Game 1 rout of Heat | NO series-defining resolution yet",
+      "raw": "Cavaliers advance to Eastern Conference Semifinals after 138-83 Game 1 rout of Heat | NO series-defining resolution yet (series 1-0) | HIGH confidence** [1][3]\n\nThe Cleveland Cavaliers, Eastern #1 seed (52-30 regular season), demolished the #8 Heat 138-83 in Game 1 of their first-round series, showcasing dominant offense (119.5 PPG season avg.) in a blowout win.[1][3] This lopsided result, part of",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
+        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs",
+        "Will Detroit Pistons advance to the Conference Semifinals in the 2026 NBA Playof"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776913814645_0",
+      "timestamp": "2026-04-23T03:10:14.645165+00:00",
+      "source": "PERPLEXITY",
+      "headline": "BTC ETFs 5-Day Inflow Streak Confirmed | YES | HIGH confidence**",
+      "raw": "BTC ETFs 5-Day Inflow Streak Confirmed | YES | HIGH confidence**  \nU.S. spot Bitcoin ETFs recorded $238.37 million in net inflows on April 20, 2026, extending a 5 consecutive day streak\u2014the firmest institutional buying since February\u2014led by BlackRock\u2019s IBIT at $256.05 million[1][3]. This follows prior strong days like $471 million on April 6, signaling sustained demand amid BTC trading near $78,50",
+      "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [],
       "action": "ALERT",
@@ -18,66 +50,62 @@
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776913754366_1",
-      "timestamp": "2026-04-23T03:09:14.366643+00:00",
+      "id": "sig_1776913814649_2",
+      "timestamp": "2026-04-23T03:10:14.649448+00:00",
       "source": "PERPLEXITY",
-      "headline": "Monero $1000 Price Target and Niche Bans Trending | NO mispriced calls or resolutions confirmed | LOW confidence**",
-      "raw": "Monero $1000 Price Target and Niche Bans Trending | NO mispriced calls or resolutions confirmed | LOW confidence**  \nTrending markets include \"Will Monero hit $1000 in 2026?\" and \"Law banning sports prediction markets enacted in 2026?\" (11% yes odds), part of 168 live markets with $3M+ volume, but no X posts on whale moves, smart money, or tips in results.[1]",
+      "headline": "Bitcoin $80K by April 2026 Odds Jump | NO | MED confidence**",
+      "raw": "Bitcoin $80K by April 2026 Odds Jump | NO | MED confidence**  \nNo new confirmation or announcement; odds rise on tokenization momentum and ETF flows, but BTC hovers at $75K-$78K with predictions varying $75K-$80K short-term[2][4][7].",
       "direction": "YES",
-      "confidence": 0.9,
+      "confidence": 0.65,
       "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776913814651_3",
+      "timestamp": "2026-04-23T03:10:14.651403+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Bitcoin Season Dominates April 2026 | YES | HIGH confidence**",
+      "raw": "Bitcoin Season Dominates April 2026 | YES | HIGH confidence**  \nAltcoin Season Index below 40 confirms Bitcoin season persists, with most altcoins lagging despite market cap at $2.5T and BTC up 2% to ~$75,900[2]. No October-specific resolutions found.",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776913825224_0",
+      "timestamp": "2026-04-23T03:10:25.224217+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Iran x Israel/US Conflict Markets Surge in Volume | NO recent whale bets or X posts confirmed | LOW confidence**",
+      "raw": "Iran x Israel/US Conflict Markets Surge in Volume | NO recent whale bets or X posts confirmed | LOW confidence**  \nHigh-volume Polymarket markets on \"Iran x Israel/US conflict ends by...?\" and \"Will the U.S. invade Iran before 2027?\" dominate World Events trading, reflecting crowd-sourced probabilities without specified odds shifts or resolutions[2]. No search results mention real-time X posts fro",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Trump agree to Iranian enrichment of uranium in April?"
+      ],
       "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776913754368_2",
-      "timestamp": "2026-04-23T03:09:14.368706+00:00",
+      "id": "sig_1776913825226_1",
+      "timestamp": "2026-04-23T03:10:25.226227+00:00",
       "source": "PERPLEXITY",
-      "headline": "Kanye Tweet Return and Event Mentions Active | NO breaking announcements or moves | LOW confidence**",
-      "raw": "Kanye Tweet Return and Event Mentions Active | NO breaking announcements or moves | LOW confidence**  \nOther markets like \"Will Kanye tweet again by April 30?\" (78% yes, $393 vol.) and phrase predictions (e.g., CS IEM Rio 2026) show trader interest, but search yields no real-time X buzz, whale bets, or confirmed events impacting odds as of April 22-23, 2026.[2][4]",
+      "headline": "Trump Announces US Blockade of Hormuz Lifted by May 31",
+      "raw": "Trump Announces US Blockade of Hormuz Lifted by May 31? | NO confirmation or X buzz | MED confidence**  \nSocial Media markets highlight \"Trump announces US blockade of Hormuz lifted by...?\" at 76% (implied Yes probability) with notable activity, alongside geopolitics themes, but no trader posts, whale activity, or recent announcements triggering moves reported[4].",
       "direction": "YES",
-      "confidence": 0.9,
+      "confidence": 0.65,
       "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776913749259_0",
-      "timestamp": "2026-04-23T03:09:09.259899+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Cavaliers Lead Raptors 2-0 in Eastern Conference First Round Playoffs After Game 2 Win** | YES | HIGH confidence[5]",
-      "raw": "Cavaliers Lead Raptors 2-0 in Eastern Conference First Round Playoffs After Game 2 Win** | YES | HIGH confidence[5]\n\nCleveland Cavaliers defeated Toronto Raptors 115-105 in Game 2 on Monday, April 20, 2026, taking a 2-0 series lead in the first round; Evan Mobley scored 25 points efficiently (11-13 FG), Donovan Mitchell added 30 points, and James Harden contributed 28[5][1]. Game 3 is scheduled fo",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
-        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776913754364_0",
-      "timestamp": "2026-04-23T03:09:14.364632+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Elon Musk April 2026 Tweet Count Markets Dominating Polymarket Activity | NO whale bets or tips reported | LOW confidenc",
-      "raw": "Elon Musk April 2026 Tweet Count Markets Dominating Polymarket Activity | NO whale bets or tips reported | LOW confidence**  \nPolymarket's most active markets focus on **Elon Musk's tweet volume**, such as \"Elon Musk # tweets in April 2026?\" (20-21% odds for 1120-1159 range) and \"Elon Musk # tweets April 17 - April 24, 2026?\" across Tweet and Tweet Markets categories, with over $20M+ in total volu",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Trump name \"Elon\" or \"Musk\" in April?"
-      ],
       "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
     }
   ],
   "stats": {
-    "enter": 0,
+    "enter": 2,
     "alert": 5,
     "watch": 0,
     "high_conf": 3
