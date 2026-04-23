@@ -1,16 +1,16 @@
 {
-  "last_scan": "2026-04-23T06:00:34.160561+00:00",
-  "scan_seconds": 33.2,
-  "markets_scanned": 52,
+  "last_scan": "2026-04-23T06:01:38.506247+00:00",
+  "scan_seconds": 32.9,
+  "markets_scanned": 53,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776924022285_0",
-      "timestamp": "2026-04-23T06:00:22.285979+00:00",
+      "id": "sig_1776924073655_0",
+      "timestamp": "2026-04-23T06:01:13.655101+00:00",
       "source": "PERPLEXITY",
-      "headline": "Powell to remain Fed Chair until successor confirmed amid ongoing investigation; Trump-nominated Kevin Warsh awaits Sena",
-      "raw": "Powell to remain Fed Chair until successor confirmed amid ongoing investigation; Trump-nominated Kevin Warsh awaits Senate confirmation.** | **NO** | **HIGH** confidence[1][4]\n\nPowell's term ends in May 2026, but he affirmed on April 21, 2026, that he will stay until a successor is confirmed and a criminal investigation concludes, per legal provisions allowing him to serve as Chair Pro Tem if need",
-      "direction": "YES",
+      "headline": "POWELL CONFIRMS HE WILL SERVE AS CHAIR PRO-TEM UNTIL SUCCESSOR CONFIRMED** | **NO** | **HIGH** confidence[1][2][4]",
+      "raw": "POWELL CONFIRMS HE WILL SERVE AS CHAIR PRO-TEM UNTIL SUCCESSOR CONFIRMED** | **NO** | **HIGH** confidence[1][2][4]\n\nJerome Powell stated during the March 2026 FOMC meeting that he would serve as chair pro-tem if his successor is not confirmed by the end of his term in May 2026, amid a DOJ probe into Fed renovation costs and economic pressures from the U.S.-Iran war[1][2][4]. President Trump nomina",
+      "direction": "NO",
       "confidence": 0.9,
       "matched_markets": [
         "Will Trump agree to Iranian enrichment of uranium in April?",
@@ -21,55 +21,41 @@
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_1776924018450_0",
-      "timestamp": "2026-04-23T06:00:18.450382+00:00",
+      "id": "sig_1776924069183_0",
+      "timestamp": "2026-04-23T06:01:09.183605+00:00",
       "source": "PERPLEXITY",
-      "headline": "Spot Ethereum ETFs Pull Record April Inflows as ETH/BTC Ratio Hits Three-Month High | YES | HIGH confidence**",
-      "raw": "Spot Ethereum ETFs Pull Record April Inflows as ETH/BTC Ratio Hits Three-Month High | YES | HIGH confidence**\n\nSpot Ethereum ETFs have posted their strongest April performance of 2026, with daily inflows between $60 million and $200 million across multiple sessions, led by BlackRock ETHA and Fidelity FETH.[1] The ETH to BTC ratio climbed to 0.0313 on April 15, marking a three-month high, signaling",
-      "direction": "YES",
+      "headline": "LOW confidence** due to absence of real-time breaking news in results; price uptrends noted but not tied to new events",
+      "raw": "LOW confidence** due to absence of real-time breaking news in results; price uptrends noted but not tied to new events.[1][2]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776924078056_0",
+      "timestamp": "2026-04-23T06:01:18.057002+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Raptors rookie Collin Murray-Boyles exits game vs Lakers with injury; Raptors trail Cavaliers 0-2 in playoffs** | NO | H",
+      "raw": "Raptors rookie Collin Murray-Boyles exits game vs Lakers with injury; Raptors trail Cavaliers 0-2 in playoffs** | NO | HIGH confidence[1][3]\n\nToronto Raptors rookie forward **Collin Murray-Boyles** (2025 No. 9 pick) left a recent game against the **Los Angeles Lakers** due to a thumb/wrist injury re-aggravation, compounding pain from the loss; he has a history of such issues, including missing gam",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [
-        "Bitcoin above 79,000 on April 23, 2AM ET?",
-        "Will the price of Bitcoin be between $76,000 and $78,000 on April 24?",
-        "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET"
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "SPORTS"
     },
     {
-      "id": "sig_1776924018452_1",
-      "timestamp": "2026-04-23T06:00:18.452643+00:00",
+      "id": "sig_1776924097495_0",
+      "timestamp": "2026-04-23T06:01:37.495397+00:00",
       "source": "PERPLEXITY",
-      "headline": "Secondary development: Pectra Upgrade Final Testing Phase Underway | YES | HIGH confidence**",
-      "raw": "Secondary development: Pectra Upgrade Final Testing Phase Underway | YES | HIGH confidence**\n\nThe Ethereum network is witnessing explosive growth as the Pectra Upgrade moves through final testing stages ahead of implementation, with total value locked (TVL) in Layer 2 ecosystems like Base and Arbitrum reaching major milestones.[2] This protocol upgrade aims to deliver lower gas fees and improved s",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776924018454_2",
-      "timestamp": "2026-04-23T06:00:18.454794+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Policy uncertainty: CLARITY Act markup delayed to May | YES | MED confidence**",
-      "raw": "Policy uncertainty: CLARITY Act markup delayed to May | YES | MED confidence**\n\nSenate Banking Committee markups on the CLARITY Act have been pushed from April to May due to mounting pressure from banks seeking input on stablecoin yield regulations, potentially extending regulatory uncertainty for the crypto market.[5]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776924033155_0",
-      "timestamp": "2026-04-23T06:00:33.155322+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Elon Musk April 2026 Tweet Count Markets Lead Polymarket Trending Activity | NO | LOW confidence**",
-      "raw": "Elon Musk April 2026 Tweet Count Markets Lead Polymarket Trending Activity | NO | LOW confidence**\n\nPolymarket's trending sections highlight heavy trading volume on **Elon Musk tweet predictions**, including \"Elon Musk # tweets in April 2026?\" (22-24% odds for 1120-1159 range across 20+ active markets with $21.5M+ volume) and related daily/weekly bins like April 17-24.[2][3]",
-      "direction": "NO",
+      "headline": "I cannot provide the breaking news and real-time trading information you're requesting based on these search results",
+      "raw": "I cannot provide the breaking news and real-time trading information you're requesting based on these search results. The search results only show general information about Polymarket's platform structure and some example markets (like Elon Musk tweet predictions), but they don't contain current social media posts, live whale bets, recent market movements, or announcements from X (Twitter) traders",
+      "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -77,23 +63,62 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776924033157_1",
-      "timestamp": "2026-04-23T06:00:33.157427+00:00",
+      "id": "sig_1776924097497_1",
+      "timestamp": "2026-04-23T06:01:37.497343+00:00",
       "source": "PERPLEXITY",
-      "headline": "Tweet Markets** (20 live as of April 21) and broader **Tweet Predictions** (130 live as of April 9) dominate alongside *",
-      "raw": "Tweet Markets** (20 live as of April 21) and broader **Tweet Predictions** (130 live as of April 9) dominate alongside **Trending Markets** (168 live as of April 22, $3.3M volume on topics like Nasdaq 24/7 trading by June 30).[1][2][3]  \nNo specific X posts from Polymarket traders, whale bets, smart money moves, mispriced markets, or recent confirmations/announcements appear in current data; searc",
-      "direction": "NO",
+      "headline": "**Check X/Twitter directly** for posts from prediction market traders and analysts",
+      "raw": "**Check X/Twitter directly** for posts from prediction market traders and analysts",
+      "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776924097499_2",
+      "timestamp": "2026-04-23T06:01:37.499231+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Visit Polymarket's live markets** to see current prices and recent trading activity",
+      "raw": "**Visit Polymarket's live markets** to see current prices and recent trading activity",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776924097503_4",
+      "timestamp": "2026-04-23T06:01:37.503128+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Follow prediction market analysts** on social media who track whale activity and mispriced markets",
+      "raw": "**Follow prediction market analysts** on social media who track whale activity and mispriced markets\n\nThe search results provided don't capture real-time social media sentiment or current market movements, so I cannot format a response in the \"HEADLINE | YES or NO | HIGH/MED/LOW confidence\" structure you requested.",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776924097501_3",
+      "timestamp": "2026-04-23T06:01:37.501144+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Monitor crypto/prediction market news sources** for breaking announcements that might move markets",
+      "raw": "**Monitor crypto/prediction market news sources** for breaking announcements that might move markets",
+      "direction": null,
+      "confidence": 0.6,
+      "matched_markets": [],
+      "action": "WATCH",
       "x_link": null,
       "category": "COMMUNITY"
     }
   ],
   "stats": {
     "enter": 1,
-    "alert": 5,
-    "watch": 0,
+    "alert": 6,
+    "watch": 1,
     "high_conf": 1
   }
 }
