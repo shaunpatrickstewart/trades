@@ -18,15 +18,17 @@
     const addr = (funderAddr || POLY_FUNDER).toLowerCase();
     try {
       const r = await fetch(DATA + '/value?user=' + addr, {cache: 'no-store'});
-      if (!r.ok) return 0;
+      if (!r.ok) { console.error('fetchLiveBankroll: HTTP', r.status); return 0; }
       const j = await r.json();
       // Endpoint returns [{user, value}] — an array with one row.
       if (Array.isArray(j) && j.length && typeof j[0].value === 'number') {
         return j[0].value;
       }
       if (j && typeof j.value === 'number') return j.value;
+      console.error('fetchLiveBankroll: unexpected response shape', j);
       return 0;
     } catch (e) {
+      console.error('fetchLiveBankroll: fetch failed', e);
       return 0;
     }
   }
@@ -62,8 +64,25 @@
     }
   });
 
-  // ── Proxy fetch
+  // ── Proxy fetch — allowlist-restricted (2026-04-25)
+  // corsproxy.io is a third-party pass-through. If an attacker could control
+  // the `url` argument they could point pf() at arbitrary hosts and exfiltrate
+  // through the proxy. All callers pass known Polymarket/Kalshi endpoints, but
+  // this allowlist enforces that structurally — any future caller feeding
+  // user-controlled input gets rejected before hitting the proxy.
+  const ALLOWED_HOSTS = [
+    'gamma-api.polymarket.com',
+    'data-api.polymarket.com',
+    'clob.polymarket.com',
+    'api.elections.kalshi.com',
+    'trading-api.kalshi.com',
+  ];
   async function pf(url) {
+    let host;
+    try { host = new URL(url).hostname; } catch (e) { throw new Error('pf: invalid URL'); }
+    if (!ALLOWED_HOSTS.includes(host)) {
+      throw new Error('pf: host not in allowlist: ' + host);
+    }
     const r = await fetch(P + encodeURIComponent(url));
     if (!r.ok) throw new Error('HTTP ' + r.status);
     return r.json();
@@ -365,7 +384,7 @@
         filterEl.innerHTML = '<option value="all">All Wallets</option>';
         walletIds.forEach(wid => {
           const meta = WALLET_META[wid] || { label: wid, platform: '?' };
-          filterEl.innerHTML += '<option value="'+wid+'">'+esc(meta.label)+' ('+meta.platform+')</option>';
+          filterEl.innerHTML += '<option value="'+esc(wid)+'">'+esc(meta.label)+' ('+esc(meta.platform)+')</option>';
         });
       }
 
@@ -423,11 +442,11 @@
         const pnlColor = totalPnl >= 0 ? '#00cc66' : '#ee3344';
         const platformClass = meta.platform === 'kalshi' ? 'kalshi' : 'polymarket';
 
-        cardsHtml += '<div class="wallet-card" data-wallet="'+wid+'">';
+        cardsHtml += '<div class="wallet-card" data-wallet="'+esc(wid)+'">';
         cardsHtml += '<div class="wallet-card-hdr">';
         cardsHtml += '<span class="wallet-alias">'+esc(meta.label)+'</span>';
-        cardsHtml += '<span class="platform-badge '+platformClass+'">'+meta.platform.toUpperCase()+'</span>';
-        cardsHtml += '<span style="margin-left:auto;font-size:0.7em;color:#888">'+wid+'</span>';
+        cardsHtml += '<span class="platform-badge '+platformClass+'">'+esc(meta.platform.toUpperCase())+'</span>';
+        cardsHtml += '<span style="margin-left:auto;font-size:0.7em;color:#888">'+esc(wid)+'</span>';
         cardsHtml += '</div>';
 
         // Stats grid

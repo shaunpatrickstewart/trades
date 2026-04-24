@@ -433,3 +433,140 @@
   #pm-root header { flex-direction: column }
   #pm-root #hdr-stats { justify-content: flex-start }
 }
+
+/* ═══════════════════════════════════════════════════════════════════
+   GLOSS LAYER — 2026 modern polish (2026-04-25)
+   Terminal/monospace identity preserved. Adds: ambient gradient background,
+   glass-morphism panels, depth shadows, snappier transitions, refined
+   typography for labels (numeric data stays monospace).
+   Delete this whole block to revert to the flat look.
+   ═══════════════════════════════════════════════════════════════════ */
+
+#pm-root {
+  background:
+    radial-gradient(ellipse 80% 60% at 50% 0%, #f4f8ff 0%, transparent 70%),
+    radial-gradient(ellipse 60% 40% at 100% 100%, #f5fff5 0%, transparent 70%),
+    #fafbfd;
+}
+
+#pm-root .panel {
+  background: rgba(255,255,255,0.72);
+  backdrop-filter: blur(14px) saturate(160%);
+  -webkit-backdrop-filter: blur(14px) saturate(160%);
+  border: 1px solid rgba(0,0,0,0.06);
+  border-radius: 10px;
+  box-shadow:
+    0 1px 2px rgba(16,24,40,0.04),
+    0 8px 24px -8px rgba(16,24,40,0.08);
+  transition: transform 220ms cubic-bezier(0.2,0.8,0.2,1), box-shadow 220ms ease;
+}
+#pm-root .panel:hover {
+  box-shadow:
+    0 1px 2px rgba(16,24,40,0.05),
+    0 14px 40px -10px rgba(16,24,40,0.12);
+}
+
+#pm-root .wallet-card {
+  background: linear-gradient(180deg, rgba(255,255,255,0.92), rgba(250,252,255,0.82));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(0,0,0,0.06);
+  border-radius: 10px;
+  box-shadow: 0 2px 6px -2px rgba(16,24,40,0.06), 0 0 0 0.5px rgba(255,255,255,0.6) inset;
+  transition: transform 200ms cubic-bezier(0.2,0.8,0.2,1), box-shadow 200ms ease;
+}
+#pm-root .wallet-card:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 18px -6px rgba(16,24,40,0.12);
+}
+
+#pm-root .stat {
+  background: linear-gradient(180deg, rgba(255,255,255,0.85), rgba(245,248,252,0.75));
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-radius: 8px;
+  border: 1px solid rgba(0,0,0,0.05);
+  padding: 8px 12px;
+  box-shadow: 0 1px 2px rgba(16,24,40,0.04);
+  transition: transform 180ms ease;
+}
+#pm-root .stat:hover { transform: translateY(-1px) }
+
+#pm-root .tab {
+  border-radius: 7px 7px 0 0;
+  transition: background 160ms ease, color 160ms ease, box-shadow 160ms ease;
+}
+#pm-root .tab:hover {
+  box-shadow: inset 0 -2px 0 rgba(0,170,85,0.35);
+}
+#pm-root .tab.active {
+  box-shadow: inset 0 -2px 0 var(--g), 0 -1px 3px rgba(16,24,40,0.06);
+}
+
+#pm-root .pm-title,
+#pm-root .panel-title,
+#pm-root .stat .lbl,
+#pm-root .pnl-label {
+  font-family: 'Inter', 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+  letter-spacing: 0.02em;
+}
+
+#pm-root #pnl-counter {
+  font-variant-numeric: tabular-nums;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.6);
+}
+
+#pm-root .live-badge {
+  box-shadow: 0 0 0 3px rgba(0,170,85,0.12);
+  animation: pm-pulse 2.4s ease-in-out infinite;
+}
+@keyframes pm-pulse {
+  0%,100% { box-shadow: 0 0 0 3px rgba(0,170,85,0.08); }
+  50%     { box-shadow: 0 0 0 6px rgba(0,170,85,0.18); }
+}
+
+#pm-root .platform-badge {
+  border-radius: 6px;
+  box-shadow: 0 1px 2px rgba(16,24,40,0.08);
+  letter-spacing: 0.04em;
+}
+
+#pm-root .panel-body::-webkit-scrollbar { width: 8px; height: 8px }
+#pm-root .panel-body::-webkit-scrollbar-thumb {
+  background: rgba(0,0,0,0.14); border-radius: 6px;
+}
+#pm-root .panel-body::-webkit-scrollbar-thumb:hover { background: rgba(0,0,0,0.22) }
+#pm-root .panel-body::-webkit-scrollbar-track { background: transparent }
+
+@media (prefers-reduced-motion: reduce) {
+  #pm-root .panel,
+  #pm-root .wallet-card,
+  #pm-root .stat,
+  #pm-root .tab,
+  #pm-root .live-badge { transition: none; animation: none }
+}
+
+@media (prefers-color-scheme: dark) {
+  #pm-root {
+    background:
+      radial-gradient(ellipse 80% 60% at 50% 0%, #1a2238 0%, transparent 70%),
+      radial-gradient(ellipse 60% 40% at 100% 100%, #0f2018 0%, transparent 70%),
+      #0b0f19;
+    color: #e6e8ef;
+  }
+  #pm-root .panel {
+    background: rgba(20,24,36,0.62);
+    border-color: rgba(255,255,255,0.06);
+    box-shadow: 0 1px 2px rgba(0,0,0,0.4), 0 10px 30px -10px rgba(0,0,0,0.5);
+  }
+  #pm-root .wallet-card {
+    background: linear-gradient(180deg, rgba(30,34,48,0.82), rgba(22,26,38,0.72));
+    border-color: rgba(255,255,255,0.06);
+    color: #e6e8ef;
+  }
+  #pm-root .stat {
+    background: linear-gradient(180deg, rgba(30,34,48,0.72), rgba(22,26,38,0.6));
+    border-color: rgba(255,255,255,0.05);
+  }
+  #pm-root .wallet-alias { color: #f0f2f8 }
+}

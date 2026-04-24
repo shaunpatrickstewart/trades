@@ -560,7 +560,7 @@
         filterEl.innerHTML = '<option value="all">All Wallets</option>';
         walletIds.forEach(wid => {
           const meta = WALLET_META[wid] || { label: wid, platform: '?' };
-          filterEl.innerHTML += '<option value="'+wid+'">'+esc(meta.label)+' ('+meta.platform+')</option>';
+          filterEl.innerHTML += '<option value="'+esc(wid)+'">'+esc(meta.label)+' ('+esc(meta.platform)+')</option>';
         });
       }
 
@@ -618,11 +618,11 @@
         const pnlColor = totalPnl >= 0 ? '#00cc66' : '#ee3344';
         const platformClass = meta.platform === 'kalshi' ? 'kalshi' : 'polymarket';
 
-        cardsHtml += '<div class="wallet-card" data-wallet="'+wid+'">';
+        cardsHtml += '<div class="wallet-card" data-wallet="'+esc(wid)+'">';
         cardsHtml += '<div class="wallet-card-hdr">';
         cardsHtml += '<span class="wallet-alias">'+esc(meta.label)+'</span>';
-        cardsHtml += '<span class="platform-badge '+platformClass+'">'+meta.platform.toUpperCase()+'</span>';
-        cardsHtml += '<span style="margin-left:auto;font-size:0.7em;color:#888">'+wid+'</span>';
+        cardsHtml += '<span class="platform-badge '+platformClass+'">'+esc(meta.platform.toUpperCase())+'</span>';
+        cardsHtml += '<span style="margin-left:auto;font-size:0.7em;color:#888">'+esc(wid)+'</span>';
         cardsHtml += '</div>';
 
         // Stats grid
