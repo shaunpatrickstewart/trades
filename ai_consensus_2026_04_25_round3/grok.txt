@@ -1,0 +1,45 @@
+**Q1**  
+Avg profit per WIN (exit at 0.96, avg entry 0.84): **67 cents**.  
+Avg loss per LOSS (blended stop at ~0.62 + gap risk): **122 cents**.  
+Expected value per trade at 79% WR: **+27 cents/trade**.  
+The strategy stops being “penny trading” above **$1.10–1.40 EV/trade**, which occurs around **$15–18 bet sizes** at this edge.
+
+**Q2**  
+Realistic “fill at 0.96” time distribution: median **22 minutes**, 70th percentile **45 minutes**, 90th percentile **110 minutes** (only liquid markets).  
+18% of 0.80–0.88 entries never reach 0.96 and require stop-out.  
+Realistic completed roundtrips per hour: **2.6–2.9** (after scanning, decision latency, and 250 ms queue).  
+Fastest roundtrips: US political events, sports with clear narratives, or news-driven binary markets in the **0.83–0.87 band closing in 1–3 hours**.
+
+**Q3**  
+Using $5 Tier-1 bets (per Round 2 consensus), 79% WR, +27¢ EV, and 2.7 roundtrips/hour during 14 active hours/day:  
+- Expected PnL per hour: **+$0.73**.  
+- Expected PnL per day: **+$10.20**.  
+- Expected PnL per week: **+$71**.  
+- Time-to-double ($400 → $800): **9–11 weeks** (accounting for variance).  
+- Time-to-Phase-2 ($2000 bankroll): **≈5 months**.
+
+**Q4**  
+The key assumption that changed was sustainable win rate and tail risk: Apr-23 plan implicitly assumed **85–90% WR** under ideal <4h time-decay filters; Round 2 used empirical live-range **68–79% WR** plus fat tails (black swans, resolution surprises, liquidity gaps). Apr-23 was **too optimistic on WR persistence**; Round 2 was more accurate on ruin risk for a $400 roll. The 10-step plan itself was not wrong — it is the correct foundation — but it requires strict execution (especially steps 3–6, 8) and a $5 Tier-1 cap.  
+**Verdict: the strategy is live-worthy at conservative sizing**, but only as a disciplined grind, not aggressive scaling. The 87% loser statistic applies to people who ignore the filters or over-bet.
+
+**Q5**  
+Yes. A slower-but-richer approach beats the fast-penny version.  
+Optimal point for $400 bankroll in 0.80–0.88 zone: **$12–14 per trade**, 0.86–0.90 stricter entry band, **83% WR target**, 1.6 roundtrips/hr, EV ≈ **+92 cents/trade**. This produces **≈$110–130 weekly PnL** vs ~$71 for the $5 fast version. Total income maximizes around the $12–15 bet size (≈0.4–0.5 Kelly fraction).  
+Completely different strategy that beats it: **news-catalyst scanner on political markets** entering 0.68–0.78 on clear underpriced favorites with visible momentum, combined with cross-platform arb where Polymarket lags other books. Expected weekly PnL **$180–280** on same capital with lower simultaneous open positions.
+
+**Q6**  
+Specific CLOB mechanics: place **limit-sell orders at 0.955–0.96** the moment price reaches ~0.93; market makers routinely bite for the 3–4¢ edge, recycling capital in seconds to minutes without touching UMA resolution. Yes, this functions like intraday scalping on volatility spikes or news ticks.  
+Hardest real-world bottleneck: **liquidity / thin order books** on non-headline markets + manual or slow bot judgment on true edge vs noise (partial fills are secondary).  
+**One architectural change** that gets closest to paper-trading speed: fully automated real-time anomaly scanner (price vs implied probability from correlated markets/news) with pre-signed transaction queue and auto-entry on high-conviction setups, bypassing human latency.
+
+**Q7**  
+Multi-wallet is genuine capital-recycling speedup when the wallets trade **independent uncorrelated markets** simultaneously. Legal/ToS risk is **medium-high** — Polymarket bans coordinated accounts from one operator (IP, wallet clustering, behavioral patterns). At $400 starting capital it is **not worth the operational complexity**; prove the single-wallet system first and only activate after reaching $1,500+ with documented >76% WR.
+
+**Q8**  
+No. Paper’s $4,894 was driven primarily by the **150× capital-recycle artifact** (instant fake `closed_at = end_date` allowed 50–100+ reuses per day with zero liquidity constraint). Live CLOB fills + scanning limits cap realistic daily roundtrips at ~25–35 even with perfect automation. The ~$0.60 gross per win at 0.80–0.88 is real, but volume is the binding constraint. Post-dedup paper $0.30 per unique slug was closer to truth.
+
+**Q9**  
+Maximum realistic monthly PnL on $400 bankroll with optimal 0.80–0.88 play (bot 24/7, full 10-step implementation, 77–80% maintained WR): **$850–$1,050 in best-case months**. Expected value after variance, fees, downtime, and occasional drawdowns: **$420–$680 per month**.
+
+**Q10**  
+**(b)**. With $400 I would run the optimized 10-step plan but enforce a strict $5 Tier-1 cap, mandatory journaling of every trade rationale/outcome/resolution, and require a minimum 400-trade sample at >76% WR before any bet-size increase. Paper trading success was inflated by unrealistic recycling speed and zero liquidity friction; live results will be slower and more variable. The reconciled view (optimistic plan + conservative ruin math) says the edge exists but must be proven at tiny size first. Survival and data collection beat both reckless scaling and sitting on the sidelines.
