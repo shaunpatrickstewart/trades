@@ -1,0 +1,882 @@
+═══════════════════════════════════════════════════════════════════════════════
+SECTION 1 — READ THIS FIRST, KEEP IN MIND WHILE ANALYZING THE REST
+═══════════════════════════════════════════════════════════════════════════════
+
+This is Shaun's directive VERBATIM. Read it in full before any other section.
+Keep the intent here as your guiding filter while analyzing all attached data.
+
+KEY CONTEXT (remember while reading the rest):
+• Starting bankroll: $400.
+• Entries are ONLY in the 0.80-0.88 price band — no exceptions, no <0.80 suggestions.
+• Polymarket/Kalshi markets at these prices are empirically well-calibrated:
+  a market trading at 0.85 resolves YES ~85% of the time (that's the academic
+  consensus on efficient prediction markets). With a 4-AI strict filter layered
+  on top, the realistic live WR should be 80-90%, NOT 65-70%.
+• The 87% loser statistic applies to emotional retail traders — it does NOT apply
+  to a strict-filter bot trading in the calibrated zone with Kelly-safe sizing.
+• Anthropic must use Opus 4.7 max reasoning for this analysis (standing rule).
+• Gemini must use Gemini 3 Pro max reasoning.
+• Grok must use grok-4.20 multi-agent (5-agent ensemble).
+• Perplexity use sonar-pro.
+
+─── Shaun's prompt begins ───
+
+THE FINAL BET STRATEGY ANALYSIS
+
+Claude, and all AI's in this chat, i need you to provide a max reasoning and deep thinking analysis on every item and topic below. do not submit a response without touching on all numbered items and requested information. make sure you consider everything im saying below as a whole before you respond to any particular itemized question.
+
+I need an answer to every single question exactly as is, do not summarize the following or change it. I need to all AIs to operate more like a think tank instead of being a doomer and telling everything is a failure. improvise, pivot, and find a way for us to succeed here. i need all AIs to recalculate their projections and do another analysis based on the following updated facts and plan and questions and provide feedback to each and every listed question.
+
+To all AIs, if im missing something, or i am confused with how this works please let me know. but i dont believe the confusion was created by me and youre giving me an analysis in the past based on incorrect betting strategy i never intended to implement. i thought targeting .8-.88 meant a 80% chance or more to win all bets. so why would i take past doomer feedback and assume id only win 65-70% of the time? please confirm once you see the data below.
+
+(1) ok one thing i want to make clear, especially grok, is that it seems that some of you AIs are calculating this like we are seeking a lucky streak a times and are seeking to take risks, that is not the case. This is semi-brainless bot trading that is not following news feeds at this time and this is not day trading, and ware also not betting on speculative trades just as grok and geimini suggested in the past. these are dats and records driven bets, and we are not seeking to get risky, but also not bet like a pussy. i thought claude had our bets set at .8-.88, not starting at .73 and i dont know where that came from. we use strict filters to create somewhat of a automated profit machine vs AI calculated risky trades. 
+
+(2) Claude: i dont know where the hell you got your bet strategy numbers from when the info below is what you said all AIs except grok agreed to, see the direct text below and have all AIs analyze the gemini and whatever other AI you used reponse and plan and confirm this is a good plan. you were supposed to submit to them in the previous prompt. how did you get .73 when it clearly says .8-.88??? a,so ask all AIs if they agree if this is a good plan and if there is anything they would change. see below in quotes.
+"  ┌─────┬───────────────────────────────────────────────────────────┬─────────────────────────────────────────────────────────────────────────────┐   
+  │  #  │                          Action                           │                               Why it matters                                │   
+  ├─────┼───────────────────────────────────────────────────────────┼─────────────────────────────────────────────────────────────────────────────┤   
+  │ 1   │ Liquidate 32 stuck positions via limit-sell at best_bid - │ Frees ~$270 of locked capital today                                         │   
+  │     │  0.005                                                    │                                                                             │   
+  ├─────┼───────────────────────────────────────────────────────────┼─────────────────────────────────────────────────────────────────────────────┤ 
+  │ 2   │ Kill IPRoyal. Migrate VPS to London/EU ($5/mo             │ Europe isn't geo-blocked → no proxy needed. Ends the data bleed FOREVER     │ 
+  │     │ DigitalOcean)                                             │                                                                             │ 
+  ├─────┼───────────────────────────────────────────────────────────┼─────────────────────────────────────────────────────────────────────────────┤   
+  │ 3   │ Move the strike zone to 0.80–0.88                         │ $5 @ 0.85 WR 90% = +$0.36/trade EV. 0.99+ at 99% WR = $0 EV. Math is        │   
+  │     │                                                           │ unambiguous                                                                 │   
+  ├─────┼───────────────────────────────────────────────────────────┼─────────────────────────────────────────────────────────────────────────────┤   
+  │ 4   │ Exit at 0.96, never 0.99                                  │ Give 4c to market makers for guaranteed fill → recycle capital in minutes   │ 
+  │     │                                                           │ not days                                                                    │   
+  ├─────┼───────────────────────────────────────────────────────────┼─────────────────────────────────────────────────────────────────────────────┤ 
+  │ 5   │ Time-decay harvest — only trade markets closing in <4h    │ Bypasses UMA lockup naturally                                               │   
+  ├─────┼───────────────────────────────────────────────────────────┼─────────────────────────────────────────────────────────────────────────────┤   
+  │ 6   │ Keep DupGuard, allow MAX 2/market                         │ 2-rung ladder ($5 @ 0.88, $5 @ 0.82) without over-concentration             │ 
+  ├─────┼───────────────────────────────────────────────────────────┼─────────────────────────────────────────────────────────────────────────────┤   
+  │ 7   │ Haiku cache → SQLite, 12h TTL, invalidate on ±5% price    │ Drops $10/day → $0.50/day                                                   │   
+  │     │ move                                                      │                                                                             │ 
+  ├─────┼───────────────────────────────────────────────────────────┼─────────────────────────────────────────────────────────────────────────────┤   
+  │ 8   │ 250ms queue between CLOB orders                           │ Avoids nonce collision; sustains real volume                                │ 
+  ├─────┼───────────────────────────────────────────────────────────┼─────────────────────────────────────────────────────────────────────────────┤   
+  │ 9   │ Site reads chain directly, not cached json                │ Real-time truth instead of stale state                                      │ 
+  ├─────┼───────────────────────────────────────────────────────────┼─────────────────────────────────────────────────────────────────────────────┤   
+  │ 10  │ Multi-wallet (3× $100) — secondary, do AFTER strategy     │ 3x parallelism once the strategy actually wins                              │   
+  │     │ proven                                                    │      
+    "
+ 
+ (3) Claude: send all AIs our gates and filter and haiku settings and rules and code and anything else that would effect our betting success rate to analyze and provide feedback, but let them know we would change to bet strategy to the above if they think it would be succesful. 
+
+(4) Claude: is our clob stop setup to always succeed? What would make it fail? send all AI's the code if necessary to analyze and ensure perfection (i dont even know what clob stop is honestly.) We need to make sure we have a fail proof system. Have all AIs look at what you have coded and analyze it for projected success or failure.
+
+(5 You and AIs say we cant match paper speed trading, but youre not considering the following: (A) in a past chat i asked if we can setup multiple wallets (obviously we'll have more money eventually) to compensate for limited speed, and gemini or whatever AI (grok wasnt included) said to add 2 or 3 wallets to increase speed. so with that said, with a little more money to disperse among wallets eventually, doesnt that increase the speed drastically? And what is stopping me from adding 15 wallets to compensate for speed loss vs paper trading? lets think  outside the box here and not focus on just what IS NOT possible. 
+
+(6) if we are trying to sell our bets early, dont we need to make sure we dont bet certain trades so we have dont break even or take a loss when selling early? And why do we have to sell at .96? is that the only way to sell early? only option? Or is that worst case scenario? can we aim for better?
+
+(7) I was never intending to bet trades that have a 70% success rate and I dont know how we got those numbers. so if we truly are betting on .80-.88 trades, wouldnt it make sense to start with a higher bet, such as $15 or $25 bets they originally suggested to start with? youre telling me to start with $5 based on a more risky trade. i dont believe .8-.88 trades require much luck, therefore this will be more about speed and processing the trades as fast as possible. i want a analysis and feedback and a speed trading and best profitable based on that.remember, overall income per hour or day is more important than money made per trade. however we should aim to maximize both and i need you to tell me how to do that.
+
+
+(8) grok and gemini (and anthropic although youve just been negative) and claude, please explain why i couldnt aim for maximum profit grok speaks of but also speed trade at the rate gemini speaks? does speed trade eliminate max profit? can we find a happy medium or way to capitalize on both? if we could make $30-40 an hour doing both just starting off with our small bankroll and smaller bets, possibilities would be endless once bankroll grew. see your past reponses below. you all need to  make sure youre comparing apples to apples regarding a roughly 80% win rate im assuming (isnt that what .8-.88 target bets means?)
+                                                                                 
+  - Gemini: "Fast pennies mathematically dominate." Velocity wins. 30 trades × 34¢ beats 1 trade × $1.20 over the same 72hr window.
+  - Grok: "Slower-richer wins." $12-14 bets at 83% WR in 0.86-0.90 band = $110-130/week vs $71 for fast. Also suggests a DIFFERENT strategy entirely —
+
+(9) Claude: you said grok the following below. but what is the consenus of how to wire  it? api call rate, news feeds that a bot con process this isnot a "human watches the TV ad manually bets" process. how would we code it, what would be the code? So is grok sure under those circumstances this is a good idea? would the bot fully understand that the bet needs to be placed based on  news reports? See Groks statement below. 
+"Grok suggests a DIFFERENT strategy entirely —
+   news-catalyst scanner on political markets underpriced at 0.68-0.78 + cross-platform arb = $180-280/week."
+   
+  
+  (10) Claude: is our current arb scanner setup properly to cross reference platforms and know when to bet and take advantage of mispriced markets, even though kalshi wallet isnt currently active? are you sure this is ready to go?
+   
+
+ (11) with all this said, all AIs in this chat, what would be the new bet strategy all AIs would agree to or can up with based on what i have told you? i am absolutely not going to bet below the .8 range with a bot, i would never do that unless i, as a human with inside info, was making the trade myself and not a bot. so dont even mention it. yes its true we are starting with a small bankroll, but that could quickly change with more invested money.
+
+
+─── Shaun's prompt ends ───
+
+═══════════════════════════════════════════════════════════════════════════════
+SECTION 2 — THE PAPER TRADING PROFITABLE PERIOD (the data Shaun actually cares about)
+═══════════════════════════════════════════════════════════════════════════════
+
+This is the few days of NEAR_CERTAIN paper trading where the bot made a lot of
+money with near-zero losses on post-filter trades. Shaun submitted this with the
+request that you focus on what HE wants to take from it — not use it as a plan.
+
+━━━━━ POST-FILTER PAPER NEAR_CERTAIN STATS (the 'no losses' period) ━━━━━
+Period: 2026-04-03 → 2026-04-17 paper simulator (pre-live)
+
+  Entries (post-filter):         11,754
+  WON:                           11,698
+  LOST:                          56 (<0.5% of trades)
+  Raw WR:                        99.52%
+  Total paper PnL:               +$4,894
+  Avg win per trade:             $0.48
+  Avg loss per trade:            -$7.36
+  Entry price:                   ~0.996 (near-certain zone)
+  Median settlement time:        577 seconds (9.6 minutes)
+  % settled within 1 hour:       96%
+
+  Post-DEDUP truth:              1,316 unique slugs, real PnL +$399.56
+  (The 12x inflation came from duplicate-bid counting in the paper simulator.)
+
+  SETTLEMENT MECHANISM CAVEAT (this is what can't replicate live):
+  Paper treated `closed_at = market.end_date` as settlement. Live UMA takes
+  1-3 days. That's the 150x capital-recycle artifact.
+
+━━━━━ SHAUN'S CREATIVE QUESTION (on top of the paper data) ━━━━━
+
+Shaun knows the paper plan cannot be used exactly — the trade process delay
+wasn't considered, and having to eat a loss when selling early wasn't considered.
+
+But he wants to take this from it:
+
+  IF we can speed-trade by ANY means necessary, as close as possible to the speed
+  the bot paper-traded, EVEN IF I HAVE TO OPEN 10 WALLETS — or 15, or more — then
+  WHY can't we match the overall profit results one way or another?
+
+  I want CREATIVE and BEST IDEAS. Not a form 'it's impossible' answer. If endless
+  wallets is not an option, tell me EXACTLY why (ToS mechanics, Polymarket operator-
+  clustering detection, technical bottleneck, funding friction — give the specific
+  reason, not just 'it's sus').
+
+  Answer specifically:
+  - With N wallets operating in parallel, each entering at 0.80-0.88 and selling
+    at 0.96, what does expected throughput look like? Graph N=3, N=10, N=25 wallets.
+  - What is the actual Polymarket ToS position on 1-operator-many-wallets?
+  - What detection mechanism would flag it (wallet clustering via shared funding,
+    IP, or behavior)? How sophisticated is Polymarket's anti-collusion?
+  - What OPERATIONAL cost scales with N wallets (gas per wallet, signing overhead,
+    rebalancing between wallets, KYC if any)?
+  - BEST-CASE realistic $/hour at N wallets × $5-15 bet × 0.82 avg entry × 0.96 exit
+    × 82% WR (the calibrated-market rate). Give the number.
+
+═══════════════════════════════════════════════════════════════════════════════
+SECTION 3 — CURRENT CODE (analyze for failure modes)
+═══════════════════════════════════════════════════════════════════════════════
+
+NOTE FROM SHAUN: We ARE changing the bet strategy (will align on the new one in
+Section 5). Don't hammer on the current bet-scaling tier numbers. DO hammer on:
+
+  1. `execute_sell()` — the CLOB limit-sell path. Is it fail-proof? What CAN fail?
+  2. `gate_haiku_nc` / `gate_haiku_st` — Haiku filters on entry. Edge cases?
+  3. `aggressive_sizing()` + `_bet_scaling_cap()` — sizing logic correctness.
+  4. `run_aggressive_scan()` — main entry loop. Any off-by-one / race / silent fail?
+  5. `cross_platform_monitor.py` — is the arb scanner actually wired to place bets?
+  6. `news_monitor.py` — classification + entity extraction. Trustable?
+
+━━━━━ bot.py — execute_sell() (Shaun's Q4: 'CLOB stop' analysis) ━━━━━
+```python
+def execute_sell(slug, outcome, amount_usd, price=None):
+    """
+    Place a sell order (exit position early) via CLOB SDK with proper signing.
+    Uses LIMIT order when price is provided (maker = zero fees + 20% rebate).
+    """
+    _poly_rate_limiter.wait_if_needed()
+
+    # FIX (Apr 20): Polymarket rejects orders with size < 5 tokens. Attempting
+    # stop-loss on positions that have already decayed below that floor just
+    # burns API calls and logs errors. Skip cleanly and close as LOST.
+    sell_price_est = price if price else 0.99
+    size_est = amount_usd / sell_price_est if sell_price_est > 0 else 0
+    if size_est < 5.0:
+        log.info(
+            "execute_sell: size {:.2f} below $5 min — skipping sell, position will auto-resolve"
+            .format(size_est)
+        )
+        return None
+
+    client = _get_clob_client()
+    if not client:
+        log.error("execute_sell: ClobClient not available (missing POLY_PRIVATE_KEY?)")
+        return None
+
+    if not _ensure_clob_reachable():
+        log.error("execute_sell HALTED — proxy is down, refusing to submit order without proxy")
+        return None
+
+    token_id, neg_risk = _resolve_token_id(slug, outcome)
+    if not token_id:
+        return None
+
+    order_type_rec = platform_rules.get_optimal_order_type(
+        "polymarket", price or 0.99, amount_usd, _get_bankroll()
+    )
+    use_limit = (order_type_rec == "limit" and price is not None)
+
+    try:
+        from py_clob_client.clob_types import OrderArgs, PartialCreateOrderOptions
+        from py_clob_client.order_builder.constants import SELL
+
+        sell_price = price if price else 0.99
+        size = round(amount_usd / sell_price, 2)
+
+        try:
+            tick_size = client.get_tick_size(token_id)
+        except Exception:
+            tick_size = "0.01"
+
+        def _place():
+            with _trade_busy():
+                if _clob_throttle_mod:
+                    _clob_throttle_mod.throttle(wallet_id=(MY_WALLET or "default"))
+                return client.create_and_post_order(
+                    OrderArgs(
+                        token_id=token_id,
+                        price=sell_price,
+                        size=size,
+                        side=SELL,
+                    ),
+                    options=PartialCreateOrderOptions(tick_size=tick_size, neg_risk=neg_risk or False),
+                )
+
+        try:
+            resp = _place()
+        except Exception as e1:
+            # Structural fix (Apr 22): "not enough balance" almost always means
+            # a prior sell is still pending and has the collateral locked. Cancel
+            # all orders for this specific token and retry once before giving up.
+            if "not enough balance" in str(e1).lower():
+                try:
+                    cancelled = client.cancel_market_orders(asset_id=token_id)
+                    log.warning(f"execute_sell: cancelled stuck orders on {slug} ({outcome}): {cancelled}")
+                    time.sleep(1.5)
+                    resp = _place()
+                except Exception as e2:
+                    log.error(f"execute_sell retry failed after cancel: {e2}")
+                    return None
+            else:
+                raise
+        if resp and resp.get("orderID"):
+            otype = "LIMIT/GTC" if use_limit else "MARKET/FOK"
+            log.info(f"Sell order placed ({otype}): {resp}")
+            return resp
+        else:
+            log.error(f"Sell response unexpected: {resp}")
+            return None
+    except Exception as e:
+        log.error(f"execute_sell exception: {e}")
+        return None
+
+
+# ══════════════════════════════════════════════════════════════════════════════
+# THREAD RUNNER
+# Each engine runs on its own interval in a background thread.
+# ══════════════════════════════════════════════════════════════════════════════
+
+```
+
+━━━━━ bot.py — _update_trade_status() ━━━━━
+```python
+def _update_trade_status(slug, outcome, new_status, pnl=0.0):
+    """Rewrite trades.jsonl updating the first matching OPEN trade to new_status.
+    Also auto-reinvests the P&L into the bankroll.
+    2026-04-25: added fcntl.flock on .trades.jsonl.lock so the read-modify-write
+    cycle is atomic against concurrent _append_jsonl writers and auditors.
+    Without it, an append between _load_jsonl and the rewrite would be silently
+    lost when this function overwrites the file."""
+    import fcntl as _fcntl
+    nc_loss_trade = None
+    anti_nc_trade = None
+    anti_nc_status = None
+    lock_path = str(TRADES_FILE.parent / ".trades.jsonl.lock")
+
+    with _file_lock:
+        with open(lock_path, "w") as _lk:
+            _fcntl.flock(_lk, _fcntl.LOCK_EX)
+            try:
+                trades = _load_jsonl(TRADES_FILE)
+                updated = False
+                for t in trades:
+                    if t.get("slug") == slug and t.get("outcome") == outcome and t.get("status") == "OPEN":
+                        t["status"] = new_status
+                        t["pnl"]    = round(pnl, 2)
+                        t["closed_at"] = _utc_now_iso()
+                        updated = True
+                        break
+                if updated:
+                    with open(TRADES_FILE, "w") as f:
+                        for t in trades:
+                            f.write(json.dumps(t) + "\n")
+            finally:
+                _fcntl.flock(_lk, _fcntl.LOCK_UN)
+        if updated:
+            new_bankroll = _update_bankroll(pnl)
+            global BANKROLL
+            BANKROLL = new_bankroll
+            log.info(f"Bankroll updated: {'+' if pnl>=0 else ''}${pnl:.2f} → ${new_bankroll:.2f} total")
+
+            if new_status == "LOST" and pnl < 0:
+                lost_t = next((t for t in trades if t.get("slug")==slug and t.get("outcome")==outcome), None)
+                if lost_t and lost_t.get("type") == "NEAR_CERTAIN":
+                    nc_loss_trade = lost_t
+
+            settled_t = next((t for t in trades if t.get("slug")==slug and t.get("outcome")==outcome), None)
+            if settled_t and settled_t.get("type") == "ANTI_NC":
+                anti_nc_trade = settled_t
+                anti_nc_status = new_status
+
+    # Post-lock callbacks: these acquire _file_lock internally, must run OUTSIDE the lock
+    if nc_loss_trade is not None:
+        _analyze_nc_loss_gap(nc_loss_trade)
+    if anti_nc_trade is not None:
+        _update_anti_nc_wallet_stats(anti_nc_trade, anti_nc_status)
+
+    return updated
+
+
+# ── Post-loss self-healing ───────────────────────────────────────────────────
+_NC_LOSS_GAP_LOG = BASE / "nc_loss_gaps.jsonl"
+
+```
+
+━━━━━ shared_gates.py — gate_haiku_nc() (4th-AI entry filter) ━━━━━
+```python
+def gate_haiku_nc(title: str, slug: str = "", *,
+                  calling_engine: str = "NEAR_CERTAIN",
+                  price: float = 0.0,
+                  live: bool = False,
+                  api_key: str = "") -> bool:
+    """Gate 4 (NC): Ask Claude Haiku if this market is structurally near-certain.
+
+    Returns True = SAFE to trade, False = SPECULATIVE (skip).
+
+    STRUCTURAL GUARD: calling_engine must be "NEAR_CERTAIN". Any other caller
+    (SHORT_TERM / LONG_TERM / ANTI_NC / any wallet-copy engine) gets True
+    returned immediately. Haiku's "is this near-certain?" question is WRONG
+    for wallet-copy engines where trades are 40-70% probability BY DESIGN.
+    Without this guard, Haiku would correctly classify them all as SPECULATIVE
+    and block 100% of wallet-copy trades. This lives at the shared layer so
+    no future engine can accidentally call NC Haiku and auto-block itself.
+
+    Cache is LRU on slug (or title prefix). Timeout is hard 20s.
+    In `live=True` mode, missing API key or API error → BLOCKS trade (fail-closed).
+    In monitor mode, error → allows trade.
+    """
+    if calling_engine != "NEAR_CERTAIN":
+        log.warning(
+            "Haiku NC called by %s — REFUSED (wrong question for non-NC engines). Allowing trade.",
+            calling_engine,
+        )
+        return True
+
+    cache_key = slug or title[:60]
+    _hit = _haiku_cache_get("nc", cache_key)
+    if _hit is not None:
+        return _hit
+    if cache_key in _NC_HAIKU_CACHE:
+        _NC_HAIKU_CACHE.move_to_end(cache_key)
+        _haiku_cache_put("nc", cache_key, _NC_HAIKU_CACHE[cache_key])
+        return _NC_HAIKU_CACHE[cache_key]
+
+    safe_title = _sanitize_title_for_haiku(title)
+    key = _anthropic_key(api_key)
+    if not key:
+        if live:
+            log.warning("Haiku NC: no ANTHROPIC_API_KEY — BLOCKING (live fail-closed)")
+            return False
+        log.debug("Haiku NC: no ANTHROPIC_API_KEY — allowing (monitor mode)")
+        return True
+
+    # 2026-04-25 cache-storm fix: short-circuit during active API outage.
+    global _HAIKU_LAST_ERROR_TS
+    if _HAIKU_LAST_ERROR_TS and (_cache_time.time() - _HAIKU_LAST_ERROR_TS) < _HAIKU_ERR_COOLDOWN:
+        if live:
+            return False  # fail-closed, no API call
+        return True       # fail-open in monitor, no API call
+
+    try:
+        import anthropic
+        client = anthropic.Anthropic(api_key=key, timeout=20.0)
+        rules = _load_haiku_rules()
+        msg = client.messages.create(
+           
+```
+
+━━━━━ shared_gates.py — gate_haiku_st() (short-term wallet-copy filter) ━━━━━
+```python
+def gate_haiku_st(title: str, slug: str = "", *, api_key: str = "") -> bool:
+    """Gate 4 (ST): Ask Claude Haiku — "verifiable thesis or pure noise?"
+
+    Returns True = PURE_NOISE (should be BLOCKED).
+    Returns False = HAS_VERIFIABLE_THESIS (allowed).
+
+    2026-04-25 Gemini review: FAIL-CLOSED on API errors (return True = block)
+    when LIVE_TRADING is active. Previously fail-open bypassed the filter
+    during Anthropic outages, allowing low-quality copy trades through.
+    """
+    cache_key = slug or title[:60]
+    _hit = _haiku_cache_get("st", cache_key)
+    if _hit is not None:
+        return _hit
+    if cache_key in _ST_HAIKU_CACHE:
+        _ST_HAIKU_CACHE.move_to_end(cache_key)
+        _haiku_cache_put("st", cache_key, _ST_HAIKU_CACHE[cache_key])
+        return _ST_HAIKU_CACHE[cache_key]
+
+    key = _anthropic_key(api_key)
+    if not key:
+        # 2026-04-25: fail-CLOSED when live — no key means no screening, so block.
+        if _live_trading_active():
+            log.warning("Haiku ST: no ANTHROPIC_API_KEY and LIVE_TRADING=True — BLOCKING trade (fail-closed)")
+            return True
+        log.debug("Haiku ST: no ANTHROPIC_API_KEY — allowing in paper mode")
+        return False
+
+    # 2026-04-25 cache-storm fix: short-circuit during active API outage.
+    global _HAIKU_LAST_ERROR_TS
+    if _HAIKU_LAST_ERROR_TS and (_cache_time.time() - _HAIKU_LAST_ERROR_TS) < _HAIKU_ERR_COOLDOWN:
+        if _live_trading_active():
+            return True   # PURE_NOISE = blocked, fail-closed
+        return False
+
+    try:
+        import anthropic
+        client = anthropic.Anthropic(api_key=key, timeout=20.0)
+        prompt = (
+            f"Prediction market: \"{title}\"\n\n"
+            "This position is being copied from an elite wallet (60%+ win rate, high Sharpe).\n"
+            "Classify: does this market have a VERIFIABLE THESIS — meaning researchable data, "
+            "statistical edge, standings/form analysis, news flow, public info asymmetry, or "
+            "analytical framework? Or is it PURE NOISE — an unpredictable coin-flip like a "
+            "random individual cricket/sports match with no form edge, an arbitrary date-specific "
+            "prediction with no new information, or low-info entertainment?\n\n"
+            "Output ONLY one of: HAS_VERIFIABLE_THESIS or PURE_NOISE\n"
+            "Then one sentence explaining why."
+        )
+        resp = client.messages.create(
+            model="claude-haiku-4-5-20251001",
+            max_to
+```
+
+━━━━━ shared_gates.py — aggressive_sizing() + _bet_scaling_cap() ━━━━━
+```python
+
+
+
+```
+
+━━━━━ bot.py — run_aggressive_scan() (main entry loop, 0.80-0.88 zone) ━━━━━
+```python
+def run_aggressive_scan():
+    """One cycle of the aggressive-entry scanner. Respects all strategy.* flags.
+    No-op if strategy.aggressive_entry.enabled is false."""
+    if not _sg or not _sg.aggressive_entry_enabled():
+        return
+    log.info("── AGGRESSIVE SCAN starting ──")
+    hits = _fetch_aggressive_candidates()
+    if not hits:
+        log.info("Aggressive scan: no qualifying markets")
+        return
+    log.info(f"Aggressive scan: {len(hits)} candidates in range")
+
+    # Per-engine cap reuses strategy.dupguard.per_engine["AGGRESSIVE"] (default 2).
+    dg = (_CFG.get("strategy") or {}).get("dupguard") or {}
+    per_engine = dg.get("per_engine") or {}
+    max_per_market = int(per_engine.get("AGGRESSIVE", 2))
+
+    bankroll = _get_bankroll()
+    base_bet = _sg.aggressive_sizing(bankroll) or 5.0
+    time_decay_on = _sg.time_decay_enabled()
+
+    entered = 0
+    _entered_this_cycle = set()
+    _onchain_slugs = {p.get("slug", "") for p in _fetch_onchain_positions(ttl=30) if p.get("slug")}
+
+    for h in hits:
+        slug = h["slug"]
+        if slug in _entered_this_cycle:
+            continue
+        if slug in _onchain_slugs:
+            # only block when we already have 2 positions on this market (dupguard cap)
+            existing = sum(1 for p in _fetch_onchain_positions(ttl=30) if p.get("slug") == slug)
+            if existing >= max_per_market:
+                continue
+        if _already_tracking(slug, h["outcome"], engine="AGGRESSIVE", price=h.get("price")):
+            continue
+
+        hrs_left = _sg.hours_to_close(h["end_date"])
+        edge_pts = (1.0 - h["price"]) * 100.0  # first-pass edge proxy; refine via fair-value model later
+        if not _sg.aggressive_entry_qualifies(h["price"], edge_pts=edge_pts, hours_to_close=hrs_left):
+            continue
+
+        # Optional time-decay preference: when enabled AND this market doesn't
+        # qualify for the harvest window, skip entirely (explicit opt-in bias
+        # toward close-soon markets for faster capital recycle).
+        if time_decay_on and not _sg.time_decay_qualifies(h["end_date"]):
+            continue
+
+        bet = base_bet
+        if time_decay_on and _sg.time_decay_qualifies(h["end_date"]):
+            bet = round(bet * _sg.time_decay_bonus(), 2)
+        # Trust the cap returned by strategy_gates.aggressive_sizing — it already
+        # applied the bet_scaling ladder (Phase 1 $30 cap OR Phase 2 T1-T4 tier cap).
+        # Previous code hard-capped to aggressive_entry.bet_max ($15), which NULLIFIED
+        # the Phase 2 ladder (2026-04-25 Gemini review).
+        bet = max(5.0, bet)
+
+        if LIVE_TRADING:
+            available = _get_available_capital()
+            if bet > available:
+                log.warning(f"AGGRESSIVE capital guard: bet ${bet:.2f} > available ${available:.2f} — stopping")
+                break
+
+        _cat = _detect_category(h["title"])
+        _order_type = platform_rules.get_optimal_order_type("polymarket", h["price"], bet, bankroll)
+        # Trap C (2026-04-25 Gemini review): at T3+ tiers, force maker/post-only
+        # orders so we never cross the spread on thin books (≥$75 bets eat 5-10c
+        # slippage in the 0.80-0.88 zone otherwise, killing EV edge).
+        try:
+            _active_tier = _sg.active_tier_name(bankroll, 0, 0.65) if _sg else "phase1"
+            if _sg and _sg.use_post_only_order(_active_tier):
+                _order_type = "limit"  # force maker, do not cross the spread
+                log.info(f"  Trap C: tier={_active_tier} → forcing post-only/limit order")
+        except Exception:
+            pass
+        _fee = platform_rules.calculate_fee("polymarket", h["price"], bet, _order_type, _cat)
+        _gross = round(bet * ((1.0 - h["price"]) / h["price"]), 2)
+
+        trade = {
+            "timestamp":        _utc_now_iso(),
+            "type":             "AGGRESSIVE",
+            "engine":           "AGGRESSIVE",
+            "source":           "aggressive_scanner",
+            "market":           h["title"],
+            "slug":             slug,
+            "outcome":          h["outcome"],
+            "entry_price":      h["price"],
+            "bet_size":         bet,
+            "potential_profit": round(_gross - _fee, 2),
+            "gross_profit":     _gross,
+            "estimated_fee":    round(_fee, 4),
+            "order_type":       _order_type,
+            "market_category":  _cat,
+            "hours_to_close":   round(hrs_left, 2) if hrs_left is not None else Non
+```
+
+━━━━━ cross_platform_monitor.py — arb scanner (Shaun's Q10) ━━━━━
+```python
+#!/usr/bin/env python3
+"""
+Cross-Platform Price Monitor & Arb Paper Trader — Polymarket vs Kalshi
+──────────────────────────────────────────────────────────────────────
+Fetches markets from both platforms, matches by fuzzy title similarity,
+compares prices, detects arbitrage, and enters PAPER arb trades.
+
+PAPER ONLY — never places real orders on either platform.
+
+Arb logic: when the same market is priced differently on two platforms,
+buy YES on the cheap platform + buy NO on the expensive platform.
+Total cost < $1.00 → guaranteed profit = $1.00 - cost, regardless of outcome.
+
+Output:
+  - ~/polybot/cross_platform_matches.json   (matched market pairs)
+  - ~/polybot/arb_opportunities.jsonl       (append-only arb log)
+  - ~/polybot/arb_trades.jsonl        (paper arb positions)
+  - Formatted terminal report
+
+Usage:
+    python3 ~/polybot/cross_platform_monitor.py             # scan + paper trade
+    python3 ~/polybot/cross_platform_monitor.py --scan      # scan only, no trades
+    python3 ~/polybot/cross_platform_monitor.py --status    # show portfolio status
+"""
+
+import json
+import re
+import sys
+import time
+from datetime import datetime, timezone
+from difflib import SequenceMatcher
+from pathlib import Path
+
+import requests
+import content_filters
+
+# ── Config ────────────────────────────────────────────────────────────────────
+POLY_API = "https://gamma-api.polymarket.com/markets"
+POLY_FETCH_LIMIT = 500          # max per page
+POLY_PAGES = 3                  # fetch up to 1500 markets
+
+KALSHI_EVENTS_PATH = "/trade-api/v2/events"
+KALSHI_MARKETS_PATH = "/trade-api/v2/markets"
+KALSHI_FETCH_LIMIT = 200        # max per page
+KALSHI_MAX_PAGES = 5            # up to 1000 events; keyword pre-filter keeps matching fast
+
+MATCH_THRESHOLD = 0.55          # raised from 0.45 — need confident match before even logging
+ARB_THRESHOLD_CENTS = 2         # flag arb if spread > 2 cents
+
+MATCHES_FILE = Path.home() / "polybot" / "cross_platform_matches.json"
+ARB_LOG_FILE = Path.home() / "polybot" / "arb_opportunities.jsonl"
+ARB_TRADES_FILE = Path.home() / "polybot" / "arb_trades.jsonl"
+
+# Paper arb config
+ARB_BET_SIZE = 10.0             # USD per leg (total $20 per arb = $10 each side)
+ARB_MAX_OPEN = 30               # max simultaneous open arb positions
+ARB_MIN_SPREAD_CENTS = 3        # minimum spread to enter a paper arb (entry filter)
+ARB_MIN_SIMILARITY = 0.70       # raised from 0.55 — governor/senate mismatch at 0.695 proved threshold too low
+
+# Categories with high cross-platform overlap
+FOCUS_CATEGORIES = {
+    "elections", "politics", "political", "president", "presidential",
+    "trump", "biden", "harris", "democrat", "republican", "gop",
+    "fed", "federal reserve", "interest rate", "cpi", "inflation",
+    "gdp", "unemployment", "recession", "economy", "economic",
+    "bitcoin", "btc", "ethereum", "eth", "crypto",
+    "senate", "house", "congress", "governor", "supreme court",
+}
+
+
+# ── Helpers ───────────────────────────────────────────────────────────────────
+
+def _dollars_to_cents(val) -> float:
+    """Convert a Kalshi dollar string (e.g., '0.0800') to cents (8.0)."""
+    try:
+        return round(float(val) * 100, 1)
+    except (ValueError, TypeError):
+        return 0.0
+
+
+def _normalize_title(title: str) -> str:
+    """
+    Normalize a market title for comparison:
+    - lowercase
+    - remove dates in common formats (Jan 2026, 2026-04-15, Q1 2026, etc.)
+    - remove platform-specific prefixes/suffixes
+    - collapse whitespace
+    - strip punctuation except key symbols
+    """
+    if not title:
+        return ""
+    t = title.lower().strip()
+
+    # Remove common date patterns
+    t = re.sub(r'\b(?:jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*\.?\s*\d{1,2},?\s*\d{4}\b', ' ', t)
+    t = re.sub(r'\b\d{4}[-/]\d{2}[-/]\d{2}\b', ' ', t)
+    t = re.sub(r'\b(?:q[1-4])\s*\d{4}\b', ' ', t)
+    t = re.sub(r'\bby\s+(?:jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*\.?\s*\d{1,4}\b', ' ', t)
+    # Remove standalone years only when they look like date context (e.g., "in 2026")
+    t = re.sub(r'\b(?:in|by|before|after|during)\s+20\d{2}\b', ' ', t)
+
+    # Remove platform-specific boilerplate
+    for prefix in ["will ", "will the ", "what will ", "who will "]:
+        if t.startswith(prefix):
+            t = t[len(prefix):]
+
+    # Strip common suffixes
+    t = re.sub(r'\?$', '', t)
+
+    # Remove punctuation (keep alphanumeric, spaces, $, %, >, <)
+    t = re.sub(r'[^\w\s$%><]', ' ', t)
+
+    # Collapse whitespace
+    t = re.sub(r'\s+', ' ', t).strip()
+
+    return t
+
+
+_SYNONYM_MAP = {
+    "republican": "gop", "republicans": "gop",
+    "democrat": "dem", "democrats": "dem", "democratic": "dem",
+    "gubernatorial": "governor",
+    "senatorial": "senate",
+    "presidential": "president",
+    "congressional": "house", "representative": "house",
+    "acquire": "acquisition", "acquired": "acquisition",
+    "merge": "merger", "merged": "merger",
+    "bankrupt": "bankruptcy",
+    "initial public offering": "ipo",
+    "rate cut": "fed_rate", "rate hike": "fed_rate",
+    "interest rate": "fed_rate", "federal reserve": "fed",
+}
+
+
+def _canonicalize(text: str) -> str:
+    """Apply synonym map to normalize political/financial terms."""
+    for syn, canonical in _SYNONYM_MAP.items():
+        text = re.sub(r'\b' + re.escape(syn) + r'\b', canonical, text)
+    return text
+
+
+def _extract_keywords(normalized_title: str) -> set:
+    """Extract meaningful keywords from a normalized title, filtering stopwords.
+    CRITICAL: 'over', 'under', 'above', 'below' are NOT stopwords —
+    they distinguish 'Inflation over 3%' from 'Inflation under 3%' (4-AI consensus Apr 17).
+    """
+    stopwords = {
+        "the", "a", "an", "is", "be", "been", "was", "are", "or", "and",
+        "of", "in", "on", "at", "to", "for", "it", "its", "this", "that",
+        "by", "with", "from", "as", "do", "does", "did", "has", "have",
+        "had", "not", "no", "yes", "than",
+        "will", "would", "could", "should", "can", "may", "might",
+    }
+    words = _canonicalize(normalized_title).split()
+    return {w for w in words if w not in stopwords and len(w) > 1}
+
+
+_DISCRIMINATOR_GROUPS = [
+    # Political offices — governor race ≠ senate race ≠ house race (4-AI consensus Apr 17)
+    {"governor", "gubernatorial", "gov"},
+    {"senate", "senator", "senatorial"},
+    {"house", "representative", "congressional", "congress", "district"},
+    {"president", "presidential", "potus"},
+    {"mayor", "mayoral"},
+    # Election phases
+    {"primary", "run
+```
+
+━━━━━ news_monitor.py — scan + classification (Shaun's Q9) ━━━━━
+```python
+#!/usr/bin/env python3
+"""
+news_monitor.py — X.com + Perplexity signal scanner for Polymarket
+Runs ONCE PER DAY at 08:00 UTC via systemd timer (was 5min — reduced 2026-04-25
+after api_budget_audit showed Perplexity was projected at $135/mo without the
+bot actually using the output for trade decisions).
+Outputs: ~/polybot/signals.json, ~/trades-site/signals.json (UI display only).
+
+Strategy:
+  1. Pull current open + near-term markets from Polymarket
+  2. Extract entities (people, events, topics)
+  3. Search X via Grok for breaking news on those entities
+  4. Search Perplexity for factual context
+  5. Score signals: ENTER / ALERT / WATCH
+  6. Write signals.json, push to site
+"""
+
+import json, sys, time, re, logging
+from pathlib import Path
+from datetime import datetime, timezone, timedelta
+from collections import defaultdict
+
+sys.path.insert(0, str(Path.home() / "bin"))
+sys.path.insert(0, str(Path.home() / "polybot"))
+
+log = logging.getLogger("news_monitor")
+logging.basicConfig(level=logging.INFO, format="%(asctime)s [NEWS] %(message)s")
+
+BASE       = Path.home() / "polybot"
+SITE_DIR   = Path.home() / "trades-site"
+SIGNALS_F  = BASE / "signals.json"
+SITE_SIG_F = SITE_DIR / "signals.json"
+
+GAMMA_URL  = "https://gamma-api.polymarket.com"
+DATA_URL   = "https://data-api.polymarket.com"
+
+# Signal thresholds
+MIN_CONFIDENCE   = 0.65   # below this → WATCH only, don't enter
+ENTER_CONFIDENCE = 0.80   # above this → ENTER signal
+NEWS_BET_PCT     = 0.015  # 1.5% of bankroll per news-arb trade
+MAX_NEWS_OPEN    = 10     # max concurrent news-arb positions
+
+# ── Helpers ──────────────────────────────────────────────────────────────────
+
+def _now_iso():
+    return datetime.now(timezone.utc).isoformat()
+
+def _load_json(path, default=None):
+    try:
+        return json.loads(Path(path).read_text())
+    except Exception:
+        return default if default is not None else {}
+
+def _save_json(path, data):
+    Path(path).write_text(json.dumps(data, indent=2))
+
+_XAI_CAP_FILE = Path("/tmp/xai_daily_calls.json")
+_XAI_DAILY_LIMIT = 50  # hard cap: max xAI calls per calendar day
+
+def _xai_daily_count():
+    """Return (date, count) from the daily cap file."""
+    try:
+        d = json.loads(_XAI_CAP_FILE.read_text())
+        today = datetime.now().date().isoformat()
+        if d.get("date") == today:
+            return today, int(d.get("count", 0))
+    except Exception:
+        pass
+    return datetime.now().date().isoformat(), 0
+
+def _xai_increment():
+    today, count = _xai_daily_count()
+    _XAI_CAP_FILE.write_text(json.dumps({"date": today, "count": count + 1}))
+
+def _xai_search(prompt, system=None):
+    """X search via Grok — returns text response. Hard-capped at 50 calls/day."""
+    today, count = _xai_daily_count()
+    if count >= _XAI_DAILY_LIMIT:
+        log.warning(f"xAI daily cap reached ({count}/{_XAI_DAILY_LIMIT}) — skipping X search, using Perplexity fallback")
+        return ""
+
+def categorize_market(q):
+    q = q.lower()
+    if re.search(CRYPTO_KW, q, re.I):    return 'CRYPTO'
+    if re.search(GEO_KW, q, re.I):       return 'GEOPOLITICS'
+    if re.search(SPORTS_KW, q, re.I):    return 'SPORTS'
+    if re.search(ECON_KW, q, re.I):      return 'ECONOMICS'
+    if re.search(POLITICS_KW, q, re.I):  return 'POLITICS'
+    return 'OTHER'
+
+# ── Signal parsing ────────────────────────────────────────────────────────────
+
+
+def extract_entities(market_q):
+    """Pull key search terms from a market question."""
+    q = market_q.lower()
+    entities = set()
+    for pat in [POLITICS_KW, CRYPTO_KW, GEO_KW, SPORTS_KW, ECON_KW]:
+        for m in re.findall(pat, q, re.I):
+            entities.add(m.strip().lower())
+    # Also extract quoted names / proper nouns (simple heuristic)
+    words = re.findall(r'\b[A-Z][a-z]+(?:\s+[A-Z][a-z]+)*\b', market_q)
+    for w in words:
+        if len(w) > 4 and w not in ('Will','What','When','Does','Have'):
+            entities.add(w.lower())
+    return list(entities)[:6]
+
+```
+
+═══════════════════════════════════════════════════════════════════════════════
+SECTION 4 — PRIOR CONVERSATION (for continuity only; data was off-topic)
+═══════════════════════════════════════════════════════════════════════════════
+
+NOTE FROM SHAUN: This is from earlier in the conversation today. The data /
+topic we were discussing was wrong. Sharing so you know what's already been
+said — DO NOT treat it as authoritative. Section 1 (Shaun's prompt) overrides.
+
+Earlier today (Rounds 1, 2, 3), Gemini / Anthropic / Grok / Perplexity variously:
+• Assumed live WR of 65-75% (WRONG — based on confusing 'wallet loser %' stat
+  with 'market calibration'. Markets at 0.85 DO resolve YES ~85% of time).
+• Gave ruin probabilities from 6% to 88% (Gemini highest at 88% — based on the
+  wrong WR assumption).
+• Gemini said 'fast pennies dominate' — $380/week at $15 bet, 82% WR, 10 roundtrips/hr.
+• Grok said 'slower-richer' — $110-130/week at $12-14 bet, 83% WR, also pitched
+  a news-catalyst strategy at 0.68-0.78 entries which Shaun has REJECTED outright.
+• Anthropic (on Sonnet) was the most doomer — suggested save the $400 and don't run.
+
+Full prior responses for reference (don't re-read unless needed):
+  https://shaunpatrickstewart.github.io/trades/ai_consensus_2026_04_25_round1a/
+  https://shaunpatrickstewart.github.io/trades/ai_consensus_2026_04_25_round3/
+
+═══════════════════════════════════════════════════════════════════════════════
+SECTION 5 — WHAT SHAUN WANTS FROM YOU
+═══════════════════════════════════════════════════════════════════════════════
+
+A. Answer EVERY numbered question from Section 1 (all 11). Specific numbers,
+   dollar amounts, trade counts. No vague hedges.
+
+B. Recalculate your income projections at the CORRECT WR band 80-90% (not 65-70%),
+   for a $400 starting bankroll, entering 0.80-0.88 ONLY, exiting 0.96.
+   - $/hour, $/day, $/week
+   - time-to-double ($400 → $800)
+   - time-to-$2000 (Phase 2 trigger)
+
+C. Design the UNIFIED STRATEGY all 4 AIs would agree on. Acting as a think tank.
+   Must include: entry rule, exit rule, bet size, tier ladder, circuit breakers,
+   multi-wallet plan (or explicit reason why not), speed-trade mechanics.
+
+D. ALSO give YOUR OWN best individual strategy — what YOU specifically recommend
+   if you weren't compromising with the other AIs. Label it clearly as 'my pick'.
+
+E. Address the multi-wallet parallelism question specifically (see Section 2).
+   Shaun wants a real answer, not 'it's sus'. If the answer is no, say exactly why.
+
+F. Explain (for Shaun's Q4) what 'CLOB stop' even IS, how it can fail, and whether
+   the attached execute_sell() code is fail-proof enough to run live.
+
+Be specific. Give dollar amounts, percentages, trade counts. Think tank mode.
