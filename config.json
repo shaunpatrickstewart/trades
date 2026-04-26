@@ -179,14 +179,6 @@
       "ttl_sec": 43200,
       "invalidate_on_price_move_pct": 0.05
     },
-    "wallet_copy_poller": {
-      "_note": "Sub-second elite-wallet activity poller (task #54). Writes /tmp/wallet_copy_signal when top-N wallets make new BUY trades >min_usd. OFF by default \u2014 detection-only infrastructure. Bot-side signal consumption is a follow-up when user wants to flip it live.",
-      "enabled": false,
-      "top_n": 5,
-      "interval_sec": 1.0,
-      "min_usd": 50.0,
-      "signal_dir": "/tmp"
-    },
     "nc_strategy": {
       "_note": "NEAR_CERTAIN aggressive strategy params (Apr 25 2026 pivot). Replaces the dormant 'aggressive_entry' block. All knobs read at runtime by NC scanner + execute_sell + monitor.",
       "exit_ladder": {
