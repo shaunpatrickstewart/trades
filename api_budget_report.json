@@ -1,0 +1,56 @@
+{
+  "timestamp": "2026-04-30T01:46:32.397575+00:00",
+  "timers_discovered": 13,
+  "projected": {
+    "perplexity": {
+      "calls_per_day": 0,
+      "usd_per_day": 0.0,
+      "sources": []
+    },
+    "xai": {
+      "calls_per_day": 0,
+      "usd_per_day": 0.0,
+      "sources": []
+    },
+    "anthropic": {
+      "calls_per_day": 0,
+      "usd_per_day": 0.0,
+      "sources": []
+    },
+    "gemini": {
+      "calls_per_day": 0,
+      "usd_per_day": 0.0,
+      "sources": []
+    }
+  },
+  "caps": {
+    "xai": {
+      "daily": 50,
+      "note": "Hard-coded in news_monitor.py _XAI_DAILY_LIMIT"
+    },
+    "perplexity": {
+      "daily": 20,
+      "note": "Hard-coded in news_monitor.py _PPLX_DAILY_LIMIT (added 2026-04-25 after Apr 23 $100 incident)"
+    },
+    "anthropic": {
+      "daily": 500,
+      "note": "Hard-coded in shared_gates.py _ANTHROPIC_DAILY_LIMIT (added 2026-04-25). Caps Haiku NC scans + ad-hoc reasoning calls. 500/day = ~$1.50/day max. Cache + 60s error cooldown protect within budget."
+    },
+    "gemini": {
+      "daily": 100,
+      "note": "Hard-coded in gemma4_helper.py _GEMINI_DAILY_LIMIT (added 2026-04-25). Currently only deep-verify auto-call uses it; cap is plenty of headroom."
+    }
+  },
+  "findings": [],
+  "totals": {
+    "usd_per_day": 0.0,
+    "usd_per_month": 0.0,
+    "usd_per_year": 0.0
+  },
+  "overall_risk": "LOW",
+  "ai_consensus": {
+    "gemini": "**Reasoning:** 13 active timers but 0 projected calls means your analysis tool is blind to dynamic triggers. \"Hard-coded\" daily limits imply local memory variables, which reset upon process restarts.\n\n**(a) Runaway Loop:** If the bot crashes and auto-restarts on errors, local in-memory caps reset to zero. Anthropic's \"60s error cooldown\" suggests existing retry logic that will infinite-loop across restarts.\n**(b) Missing Caps:** No centralized, persistent state (e.g., Redis) or provider-level billing caps exist. Caps are siloed in individual files.\n**(c) 2x Rate Blow-up:** If Perplexity hits 2x its cap via restart bypasses, history (the \"Apr 23 $100 incident\") guarantees a massive spike.\n**(d) Unseen Burn:** Gemini (\"deep-verify\"). The 0-call projection means operators have zero visibility",
+    "anthropic": "{'answer': 'Based on my analysis of your trading bot API budget data and current industry research, here are the critical risk scenarios:\\n\\n## Primary Blow-Up Scenarios\\n\\n**(a) Runaway-Loop Scenarios:**\\n\\nRunaway loops can cost $15-40 for 2-hour GPT-4 sessions\\n, but your bot shows zero current usage across all services. \\nMost frameworks retry immediately on failures, potentially causing IP bans lasting 2-48 hours\\n. With no active timers detected, you lack loop detection\u2014if a service activates, it could burn through daily caps in minutes.\\n\\n**(b) Missing Daily Caps Analysis:**\\nYour caps appear robust: XAI (50), Perplexity (20), Anthropic (500), Gemini (100). However, \\nyou need alerts for unexpected token usage spikes that might indicate runaway agent loops or prompt injection attac",
+    "grok": "**Risks:**  \n(a) Runaway loops: any of the 13 unmapped timers with broken 60s cooldown or retry logic can hammer Anthropic/Haiku in <1 min.  \n(b) Missing caps: only 4 services are capped; any direct SDK calls or new helpers bypass shared_gates.py entirely.  \n(c) 2\u00d7 rate on zero baseline = still zero projected cost, so model gives false safety.  \n(d) **Anthropic** is most likely to silently burn: ad-hoc reasoning calls sit outside the \u201cdeep-verify\u201d path the Gemini cap was sized for and lack per-call visibility.\n\nMap the 13 timers before go-live. Current \u201cLOW\u201d rating is misleading."
+  }
+}
