@@ -1,20 +1,14 @@
 {
   "_schema_version": 1,
-  "_last_updated": "2026-05-02T22:00:00+00:00",
-  "_updated_by": "interactive_2026_05_02_band_align_ws_engine",
+  "_last_updated": "2026-05-02T22:45:00+00:00",
+  "_updated_by": "interactive_2026_05_02_strip_archived_engine_config",
   "_note": "bot.py reads all tunable params from this file. Operator-only; no autonomous writer touches it (bot_hourly retired 2026-04-25). Apr 25 2026: NEAR_CERTAIN pivoted from 0.99+ Penny Trap to aggressive 0.80-0.88 entries with dynamic exit ladder; AGGRESSIVE engine retired.",
   "trading_host": {
     "_note": "Single field. engine_registry.is_active_trading_host() compares socket.gethostname() to active_hostname. Only that machine places live orders. To migrate: hostnamectl set-hostname <new> on new VPS, then update this value.",
     "active_hostname": "polybot-mad"
   },
   "engine_caps": {
-    "NEAR_CERTAIN": 0,
-    "SHORT_TERM": 0,
-    "LONG_TERM": 0,
-    "ANTI_NC": 0,
-    "NEWS": 0,
-    "KALSHI_NC": 0,
-    "KALSHI_ST": 0
+    "NEAR_CERTAIN": 0
   },
   "price_bands": {
     "PRICE_MIN": 0.3,
@@ -53,11 +47,7 @@
   },
   "capital_allocation": {
     "_note": "Max % of bankroll deployable per engine. NEAR_CERTAIN (now operating in 0.80-0.88 zone) gets the lion's share.",
-    "NEAR_CERTAIN": 0.85,
-    "SHORT_TERM": 0.15,
-    "LONG_TERM": 0.0,
-    "ANTI_NC": 0.05,
-    "NEWS": 0.05
+    "NEAR_CERTAIN": 0.85
   },
   "wallets": {
     "_note": "Multi-wallet support. wallet_id = unique key. label = display name. platform = which exchange. One person can have multiple wallets across platforms.",
@@ -94,27 +84,6 @@
     "_note": "Single sizing knob: nc_pct_of_bankroll. _get_bet returns pct*bankroll, no floor/cap/guard. Polymarket protocol $5 min enforced by caller-skip on undersized bet. Operator directive 2026-05-02.",
     "scheme": "smooth_pct",
     "nc_pct_of_bankroll": 0.1
-  },
-  "platform_allocation": {
-    "_note": "4-AI consensus Apr 17: 70/30 Poly/Kalshi. Rebalance weekly if >10% drift.",
-    "polymarket_pct": 0.7,
-    "kalshi_pct": 0.3
-  },
-  "kalshi": {
-    "_note": "Kalshi strategy 2026-04-25: same band as Polymarket NC (0.80-0.88) and same smooth 5% sizing. Kill-switch active until first deposit (env KALSHI_ENGINE_ENABLED=true).",
-    "kalshi_min_price": 0.8,
-    "kalshi_max_price": 0.88,
-    "kalshi_max_open": 50,
-    "kalshi_bet_pct": 0.05,
-    "kalshi_bet_min": 10.0,
-    "kalshi_bet_max": 50.0,
-    "kalshi_scan_interval": 1800,
-    "kalshi_max_days_out": 90,
-    "kalshi_skip_categories": [
-      "Sports Parlays",
-      "Politics",
-      "Sports"
-    ]
   },
   "strategy": {
     "_note": "2026-04-25: AGGRESSIVE engine collapsed into NEAR_CERTAIN. NC now uses 0.80-0.88 entry, dynamic exit ladder 0.98/0.97/0.96 (10s/rung quick fallback), hard stop at 0.60 absolute price, 1h volatility filter, circuit breakers, 2-rung dupguard. All sub-flags below tune NC behavior.",
