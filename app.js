@@ -11,19 +11,31 @@
   // bankroll is the chain, not the bot-generated bankroll.json.
   const POLY_FUNDER = '0x86f70cf14893180f815a3cea7d3a521dd10cf5ef';
 
-  // fetchLiveBankroll — total portfolio value (USDC free + open-position market value).
-  // 2026-04-26 FIX: data-api /value returns ONLY open-position value (no USDC), so
-  // using it alone underreported bankroll by ~$87. Switched to bankroll.json.current
-  // which the bot's _sync_bankroll_from_chain() recomputes from chain every cycle
-  // (already does usdc_free + open_position_value atomically). bankroll.json IS the
-  // chain-truth cache; /value is no longer needed.
-  async function fetchLiveBankroll() {
+  // fetchLiveBankroll — read chain-truth bankroll from bankroll.json.current,
+  // which polybot recomputes every monitor cycle as
+  // `collateral_free_chain + open_position_NAV`.
+  //
+  // 2026-05-07 audit fix (F5): prior implementation called Polymarket data-api
+  // /value (open positions ONLY — no USDC free) then callers added totalPnl on
+  // top, double-counting realized PnL and producing a deflated, wrong number
+  // (recently displayed $352.66 vs real $395.55). The /value endpoint is the
+  // wrong shape for "bankroll." bankroll.json is the documented source of truth
+  // (see TRADE_DATA_REFERENCE.md). Read it directly.
+  //
+  // Returns 0 on failure so callers can fall back gracefully.
+  async function fetchLiveBankroll(funderAddr) {
     try {
-      const br = await fetch(BASE+'bankroll.json?v='+Date.now(), {cache: 'no-store'}).then(r=>r.json());
-      const cur = parseFloat(br.current);
-      if (Number.isFinite(cur) && cur > 0) return cur;
-    } catch (e) { console.error('fetchLiveBankroll: bankroll.json fetch failed', e); }
-    return 0;
+      const r = await fetch(BASE + 'bankroll.json?v=' + Date.now(), {cache: 'no-store'});
+      if (!r.ok) { console.error('fetchLiveBankroll: bankroll.json HTTP', r.status); return 0; }
+      const j = await r.json();
+      const current = parseFloat(j && j.current);
+      if (Number.isFinite(current) && current > 0) return current;
+      console.error('fetchLiveBankroll: bankroll.json missing/invalid .current', j);
+      return 0;
+    } catch (e) {
+      console.error('fetchLiveBankroll: fetch failed', e);
+      return 0;
+    }
   }
 
   function esc(s) {
@@ -395,10 +407,8 @@
         const totalPnl = trades.reduce((s,t) => s + (t.status==='WON'||t.status==='LOST' ? (t.pnl||0) : 0), 0);
         const deployed = open.reduce((s,t) => s + (t.bet_size||0), 0);
 
-        // 2026-04-26 FIX: liveBankroll IS the chain-truth current bankroll (USDC + open
-        // position market value). It already includes all settled PnL. Don't add totalPnl
-        // again — that double-counts. Display the chain value directly.
-        const walletBankroll = (wid === 'shaun_poly') ? liveBankroll : 0;
+        const walletInitial = (wid === 'shaun_poly') ? liveBankroll : 0;
+        const walletBankroll = walletInitial + totalPnl;
 
         // Time-window PnL (24h / 7d / 30d)
         const now = Date.now();
