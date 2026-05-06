@@ -1,6 +1,6 @@
 {
-  "initial": 186.2,
-  "current": 395.58,
+  "initial": 360.96,
+  "current": 395.49,
   "deployed": 162.29,
   "available": 186.2,
   "target_daily_profit": 300,
@@ -44,10 +44,19 @@
       "ending": 401.97
     }
   ],
-  "last_updated": "2026-05-06T01:23:14.437649+00:00",
-  "open_position_value": 0.64,
+  "last_updated": "2026-05-06T01:43:15.418650+00:00",
+  "open_position_value": 0.55,
   "_source": "onchain",
   "collateral_free": 394.94,
   "usdc_e_free": 0.0,
-  "pusd_free": 394.94
+  "pusd_free": 394.94,
+  "_initial_history": [
+    {
+      "date": "2026-05-06T01:35:56+00:00",
+      "old": 186.2,
+      "new": 360.96,
+      "delta": 174.76,
+      "reason": "audit v3 absorption: 2 operator deposits beyond starting capital, never reflected in initial. Equation chain - realized + open_cost yields true initial."
+    }
+  ]
 }
