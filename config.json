@@ -1,56 +1,30 @@
 {
-  "_schema_version": 1,
-  "_last_updated": "2026-05-02T22:55:00+00:00",
-  "_updated_by": "interactive_2026_05_02_strip_empty_wallets",
-  "_note": "bot.py reads all tunable params from this file. Operator-only; no autonomous writer touches it (bot_hourly retired 2026-04-25). Apr 25 2026: NEAR_CERTAIN pivoted from 0.99+ Penny Trap to aggressive 0.80-0.88 entries with dynamic exit ladder; AGGRESSIVE engine retired.",
+  "_schema_version": 2,
+  "_last_updated": "2026-05-06T22:00:00+00:00",
+  "_updated_by": "audit_v3_dead_code_purge",
+  "_note": "bot.py reads tunable params from this file. Operator-only edits — no autonomous writer touches it. Single engine: NEAR_CERTAIN v3 (entry 0.70-0.85, exit ladder 0.96/0.97/0.98). Snipe engine (snipe_engine.py) is DRY_RUN-only and self-tunes via SNIPE_PCT_OF_BANKROLL constant.",
   "trading_host": {
-    "_note": "Single field. engine_registry.is_active_trading_host() compares socket.gethostname() to active_hostname. Only that machine places live orders. To migrate: hostnamectl set-hostname <new> on new VPS, then update this value.",
+    "_note": "engine_registry.is_active_trading_host() compares socket.gethostname() to active_hostname. Only the named machine places live orders. To migrate: hostnamectl set-hostname <new> on new VPS, then update this value.",
     "active_hostname": "polybot-mad"
   },
   "engine_caps": {
     "NEAR_CERTAIN": 0
   },
   "price_bands": {
-    "PRICE_MIN": 0.3,
-    "PRICE_MAX": 0.7,
-    "SHORT_TERM_PRICE_MAX": 0.7,
-    "NEAR_CERTAIN_MAX": 0.92,
-    "NEAR_CERTAIN_MIN": 0.72,
-    "_note": "Aligned 2026-05-02 with NC v3 outer band (NC_V3_PRICE_MIN_OUTER=0.72 / MAX_OUTER=0.92 in nc_v3_scan.py). Per-cell ALLOW_TABLE inside v3 narrows further. Was 0.80-0.88 v2 strategy \u2014 retired when v3 wired 2026-04-30. ws_engine.py and engine_registry.py read these keys."
-  },
-  "volume_thresholds": {
-    "MIN_VOLUME": 2000,
-    "MIN_VOLUME_FAST": 100
-  },
-  "timing": {
-    "SHORT_TERM_DAYS": 30,
-    "INTERVAL_SHORT_TERM_SEC": 1800,
-    "INTERVAL_WALLETS_SEC": 7200,
-    "INTERVAL_MONITOR_SEC": 600
+    "_note": "NC v3 outer band. Aligned 2026-05-06 with nc_v3_scan.NC_V3_PRICE_MIN_OUTER/MAX_OUTER. Per-cell ALLOW_TABLE inside nc_v3_scan.py narrows further. ws_engine.py and engine_registry.py read these keys — must match across all three.",
+    "NEAR_CERTAIN_MIN": 0.70,
+    "NEAR_CERTAIN_MAX": 0.85
   },
   "stop_loss": {
     "EXIT_GAIN_THRESHOLD": 0.15,
-    "STOP_LOSS_THRESHOLD": -0.12,
-    "LT_STOP_LOSS_THRESHOLD": -0.08,
-    "NC_STOP_LOSS_THRESHOLD": -0.07
-  },
-  "wallet_scoring": {
-    "COPY_TOP_N": 60,
-    "MIN_WALLET_WIN_RATE": 0.0,
-    "MIN_WALLET_TRADES": 50,
-    "MIN_WALLET_ROI": 1.5,
-    "MIN_SHARPE": 1.0
-  },
-  "anti_nc": {
-    "ANTI_NC_MAX_PRICE": 0.025,
-    "ANTI_NC_MIN_SIZE": 20.0
+    "STOP_LOSS_THRESHOLD": -0.12
   },
   "capital_allocation": {
-    "_note": "Max % of bankroll deployable per engine. NEAR_CERTAIN (now operating in 0.80-0.88 zone) gets the lion's share.",
-    "NEAR_CERTAIN": 0.85
+    "_note": "Max % of bankroll deployable per engine. Future engines (snipe, oracle) declared here.",
+    "NEAR_CERTAIN": 1.0
   },
   "wallets": {
-    "_note": "Multi-wallet support. wallet_id = unique key. label = display name. platform = which exchange. One person can have multiple wallets across platforms.",
+    "_note": "Multi-wallet support. wallet_id = unique key. label = display name. platform = which exchange.",
     "shaun_poly": {
       "label": "Shaun",
       "platform": "polymarket",
@@ -60,19 +34,18 @@
     }
   },
   "bet_sizing": {
-    "_note": "Single sizing knob: nc_pct_of_bankroll. _get_bet returns pct*bankroll, no floor/cap/guard. Polymarket protocol $5 min enforced by caller-skip on undersized bet. Operator directive 2026-05-02.",
+    "_note": "Single sizing knob: nc_pct_of_bankroll. _nc_bet returns pct*bankroll, no floor/cap/guard. Polymarket protocol $5 min enforced by caller-skip on undersized bet. Snipe engine has independent sizing in snipe_engine.SNIPE_PCT_OF_BANKROLL.",
     "scheme": "smooth_pct",
     "nc_pct_of_bankroll": 0.1
   },
   "strategy": {
-    "_note": "2026-04-25: AGGRESSIVE engine collapsed into NEAR_CERTAIN. NC now uses 0.80-0.88 entry, dynamic exit ladder 0.98/0.97/0.96 (10s/rung quick fallback), hard stop at 0.60 absolute price, 1h volatility filter, circuit breakers, 2-rung dupguard. All sub-flags below tune NC behavior.",
+    "_note": "NC v3 only. Entry 0.70-0.85 with per-cell ALLOW_TABLE narrowing, dynamic exit ladder targeting 0.96, hard stop at 0.60 absolute, 1h volatility filter, daily-drawdown circuit breaker. Operator directive 2026-05-06.",
     "dupguard": {
-      "_note": "MAX 2 positions per market per engine enables 2-rung ladder. Each rung uses the FULL bet from _get_bet (NOT half \u2014 example: $12 + $12 = $24 deployed per market at $12 NC base). min_price_delta=0.04 prevents both rungs firing at the same price (must be \u22654\u00a2 apart). Opposing-side bets always blocked. Use this as backstop if 0.80-0.88 universe is thin: same market can absorb 2\u00d7 capital.",
+      "_note": "MAX 2 NC positions per market enables 2-rung ladder (each rung uses full nc_pct bet). min_price_delta=0.04 prevents both rungs firing at same price. Opposing-side bets always blocked. enabled=False also disables opposite-side block (per audit fix).",
       "enabled": true,
       "max_bets_per_market_default": 1,
       "per_engine": {
-        "NEAR_CERTAIN": 2,
-        "SHORT_TERM": 1
+        "NEAR_CERTAIN": 2
       },
       "min_price_delta": 0.04
     },
@@ -84,7 +57,7 @@
       "min_hours_to_close": 0.25
     },
     "clob_throttle": {
-      "_note": "Polymarket CLOB enforces one order at a time per wallet. 250ms between submissions avoids nonce collisions. Batch endpoint /orders accepts up to 15 in one HTTP call.",
+      "_note": "Polymarket CLOB enforces sequential nonces per wallet. 250ms between submissions avoids collisions. Batch endpoint /orders accepts up to 15 in one HTTP call. Responses matched by token_id (FIFO per token).",
       "enabled": true,
       "min_interval_ms": 250,
       "batch_size": 15,
@@ -97,9 +70,9 @@
       "invalidate_on_price_move_pct": 0.05
     },
     "nc_strategy": {
-      "_note": "NEAR_CERTAIN aggressive strategy params (Apr 25 2026 pivot). Replaces the dormant 'aggressive_entry' block. All knobs read at runtime by NC scanner + execute_sell + monitor.",
+      "_note": "NEAR_CERTAIN v3 strategy params. Entry band per_cell ALLOW_TABLE. Knobs read at runtime by NC scanner + execute_sell + monitor.",
       "exit_ladder": {
-        "_note": "Dynamic price ladder for sell-early. Try aim_high first, walk down quickly if no fill. Per-rung dwell = quick (10s), not 30s, so a position never sits >30s waiting for sell-side liquidity.",
+        "_note": "Dynamic price ladder for sell-early. Try aim_high (0.98) first, walk down quickly. Per-rung dwell = 10s so a position never sits >30s waiting for sell-side liquidity.",
         "rungs": [
           0.98,
           0.97,
@@ -109,9 +82,9 @@
         "reliable_floor": 0.96
       },
       "hard_stop_price": 0.6,
-      "hard_stop_note": "Absolute price stop. Bot exits if curPrice drops below 0.60 from any entry, regardless of position-level pnl. Caps max loss per $12 bet at -$3.60 (worst case 0.84 entry -> 0.60 exit).",
+      "hard_stop_note": "Absolute price stop. Bot exits if curPrice drops below 0.60 from any entry, regardless of position-level pnl.",
       "volatility_filter": {
-        "_note": "Multi-AI Tier 5 audit 2026-04-25: switched from absolute cents (10c) to PERCENTAGE of entry price (12%) \u2014 10c on 0.90 \u2260 10c on 0.50. Falls back to absolute cents if use_percentage=false. min_observations=4 prevents startup-blindspot trade-on-no-data.",
+        "_note": "Multi-AI Tier 5 audit 2026-04-25: PERCENTAGE of entry price (12%), not absolute cents. Falls back to absolute cents if use_percentage=false. min_observations=4 prevents startup-blindspot trade-on-no-data.",
         "enabled": true,
         "lookback_hours": 1,
         "max_range_cents": 10,
@@ -122,17 +95,11 @@
       "min_edge_pts": 9,
       "max_hold_hours": 4,
       "circuit_breakers": {
-        "_note": "Reset daily at UTC midnight. daily_drawdown_pct measured against bankroll snapshot at 00:00 UTC. consecutive_losses counts settled LOST trades in NC since last WIN.",
+        "_note": "Reset daily at UTC midnight. daily_drawdown_pct measured against bankroll snapshot at 00:00 UTC.",
         "daily_drawdown_pct": 0.08,
         "daily_drawdown_pause_hours": 24,
         "consecutive_losses_review": 3
       }
-    },
-    "arb": {
-      "_note": "2026-04-25 cross-platform arb settings. enabled=False until operator confirms balances/strategy in interactive session. allow_single_leg=True permits directional bets when one platform unfunded (uses cross-platform mispricing as signal; no hedge \u2014 operator accepts directional risk).",
-      "enabled": false,
-      "allow_single_leg": true
     }
-  },
-  "_short_term_disabled_2026_04_27": "operator focus on NC only until strategy is dialed in"
+  }
 }
