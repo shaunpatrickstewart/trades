@@ -1,8 +1,8 @@
 {
-  "_schema_version": 2,
-  "_last_updated": "2026-05-06T22:00:00+00:00",
-  "_updated_by": "audit_v3_dead_code_purge",
-  "_note": "bot.py reads tunable params from this file. Operator-only edits — no autonomous writer touches it. Single engine: NEAR_CERTAIN v3 (entry 0.70-0.85, exit ladder 0.96/0.97/0.98). Snipe engine (snipe_engine.py) is DRY_RUN-only and self-tunes via SNIPE_PCT_OF_BANKROLL constant.",
+  "_schema_version": 3,
+  "_last_updated": "2026-05-07T00:00:00+00:00",
+  "_updated_by": "unify_bet_sizing_pct_of_bankroll",
+  "_note": "bot.py reads tunable params from this file. Operator-only edits — no autonomous writer touches it. Single engine: NEAR_CERTAIN v3 (entry 0.70-0.85, exit ladder 0.96/0.97/0.98). Snipe engine (snipe_engine.py) shares the SAME bet_sizing.pct_of_bankroll knob; live execution is double-gated by snipe_engine.DRY_RUN AND snipe_engine.live_enabled below.",
   "trading_host": {
     "_note": "engine_registry.is_active_trading_host() compares socket.gethostname() to active_hostname. Only the named machine places live orders. To migrate: hostnamectl set-hostname <new> on new VPS, then update this value.",
     "active_hostname": "polybot-mad"
@@ -34,9 +34,13 @@
     }
   },
   "bet_sizing": {
-    "_note": "Single sizing knob: nc_pct_of_bankroll. _nc_bet returns pct*bankroll, no floor/cap/guard. Polymarket protocol $5 min enforced by caller-skip on undersized bet. Snipe engine has independent sizing in snipe_engine.SNIPE_PCT_OF_BANKROLL.",
+    "_note": "UNIFIED 2026-05-07. ONE knob: pct_of_bankroll. _compute_bet() in bot.py and snipe_engine.py both read this same value. bet = pct × current_bankroll, with a Polymarket protocol-min skip when the computed bet falls below 5 × entry_price. Operator directive: lowest legal % is the binding constraint at the band ceiling (NEAR_CERTAIN_MAX × 5 / bankroll). At $400 bankroll, NEAR_CERTAIN_MAX=0.85 → floor pct = 0.011. Set 0.015 for safety margin.",
     "scheme": "smooth_pct",
-    "nc_pct_of_bankroll": 0.1
+    "pct_of_bankroll": 0.015
+  },
+  "snipe_engine": {
+    "_note": "Snipe engine SECOND-LOCK. Live execution requires DRY_RUN=False in snipe_engine.py AND live_enabled=true here. Belt + suspenders. Snipe also reads bet_sizing.pct_of_bankroll above — no separate snipe-only sizing.",
+    "live_enabled": false
   },
   "strategy": {
     "_note": "NC v3 only. Entry 0.70-0.85 with per-cell ALLOW_TABLE narrowing, dynamic exit ladder targeting 0.96, hard stop at 0.60 absolute, 1h volatility filter, daily-drawdown circuit breaker. Operator directive 2026-05-06.",
