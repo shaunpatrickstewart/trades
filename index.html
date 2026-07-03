@@ -1,0 +1,195 @@
+<!-- ═══════════════════════════════════════════════════════════════════
+     POLYMARKET TRADING INTELLIGENCE — Direct Squarespace Inject
+     Paste squarespace_snippet.html into Squarespace Code Block.
+     This file is the standalone GitHub Pages version.
+     ═══════════════════════════════════════════════════════════════════ -->
+<link rel="stylesheet" href="style.css?v=20260425-gloss">
+
+<div id="pm-root">
+
+<!-- ═══ HEADER ════════════════════════════════════════════════════════ -->
+<header>
+  <div class="hdr-left">
+    <div class="pm-title">Polymarket Trading Intelligence</div>
+    <div class="pm-subtitle">
+      ◈ WALLET HUNTER SYSTEM
+      <span class="live-badge">&#9679; LIVE</span>
+    </div>
+  </div>
+
+  <div id="hdr-stats">
+    <div class="loader" style="padding:4px;color:#1e1e1e">Connecting</div>
+  </div>
+
+  <div class="hdr-right">
+    <div id="pnl-counter">+$0.00</div>
+    <div class="pnl-label">TOTAL P&amp;L</div>
+    <div id="hdr-updated">Initializing...</div>
+  </div>
+</header>
+
+<!-- ═══ WALLET PERFORMANCE — TOP OF PAGE ═══════════════════════════════ -->
+<div class="pm-full">
+  <div class="panel" style="border-left:3px solid #7C3AED">
+    <div class="panel-hdr">
+      <div class="panel-hdr-top">
+        <span class="panel-title" style="color:#7C3AED">&#9670; Wallet Performance — Per-Account Breakdown</span>
+        <span class="panel-count" id="wallet-perf-count">—</span>
+      </div>
+      <div class="panel-desc">Each wallet's bankroll, P&amp;L, win rate, 24h/7d/30d performance, and engine breakdown. Computed from trades in real time.</div>
+    </div>
+    <div id="wallet-cards" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:12px;padding:8px">
+      <div class="loader">Loading wallet data</div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══ UNIFIED GRID ══════════════════════════════════════════════════ -->
+<div class="pm-grid">
+
+  <!-- ── PANEL 1: COPY SIGNALS ──────────────────────────────────────── -->
+  <div class="panel accent-green">
+    <div class="panel-hdr">
+      <div class="panel-hdr-top">
+        <span class="panel-title c-green">&#9679; Copy Signals — Top Wallet Positions</span>
+        <span class="panel-count" id="sig-count">—</span>
+      </div>
+      <div class="panel-desc">Markets at 30–70¢ where elite wallets hold real positions. Closest to 50/50 listed first — highest upside, genuine uncertainty. WALLET COPY SHORT engine copies these positions (WALLET COPY LONG suspended).</div>
+    </div>
+    <div class="panel-body tall" id="pm-signals">
+      <div class="loader">Fetching top wallet positions</div>
+    </div>
+  </div>
+
+  <!-- ── PANEL 2: MARKET SCANNER ────────────────────────────────────── -->
+  <div class="panel accent-blue">
+    <div class="panel-hdr">
+      <div class="panel-hdr-top">
+        <span class="panel-title c-blue">&#9650; Market Scanner</span>
+        <span class="panel-count" id="scanner-count">—</span>
+      </div>
+      <div class="panel-desc">Short-term markets (30–70¢) resolving within 30 days. Real uncertainty, real upside. Sourced from elite wallet open positions and live market scanner.</div>
+    </div>
+    <div class="tabs">
+      <button class="tab active" onclick="pmSwitchTab('week',this)">
+        <span class="tab-icon">◈</span>
+        <span class="tab-label">7 DAY</span>
+      </button>
+      <button class="tab" onclick="pmSwitchTab('day48',this)">
+        <span class="tab-icon">⚡</span>
+        <span class="tab-label">48H</span>
+      </button>
+      <button class="tab" onclick="pmSwitchTab('swing',this)">
+        <span class="tab-icon">◆</span>
+        <span class="tab-label">SWING</span>
+      </button>
+      <button class="tab" onclick="pmSwitchTab('forex',this)">
+        <span class="tab-icon">$</span>
+        <span class="tab-label">FOREX</span>
+      </button>
+    </div>
+    <div id="pm-tab-desc" class="tab-subdesc">Uncertain markets resolving this week — 30–70¢ range, volume &gt;$2K. Best short-term plays.</div>
+    <div class="panel-body tall">
+      <div id="tab-week"  class="tab-pane active"><div class="loader">Scanning</div></div>
+      <div id="tab-day48" class="tab-pane"></div>
+      <div id="tab-swing" class="tab-pane"></div>
+      <div id="tab-forex" class="tab-pane"></div>
+    </div>
+  </div>
+
+  <!-- ── PANEL 3: TOP WALLETS LEADERBOARD ───────────────────────────── -->
+  <div class="panel accent-purple" style="grid-column:1/-1">
+    <div class="panel-hdr">
+      <div class="panel-hdr-top">
+        <span class="panel-title c-purple">&#9733; Top Wallets — Leaderboard</span>
+        <span class="panel-count" id="wallet-count">—</span>
+      </div>
+      <div class="panel-desc">Ranked by ROI (PnL ÷ Volume) — consistent performers, not one-time winners. The best wallets are tracked in elite_wallets.json and copied by the WALLET COPY SHORT engine.</div>
+    </div>
+    <div class="panel-body" id="pm-wallets">
+      <div class="loader">Pulling wallets</div>
+    </div>
+  </div>
+
+</div><!-- /.pm-grid -->
+
+<!-- ═══ OPEN POSITIONS — FULL WIDTH ════════════════════════════════════ -->
+<div class="pm-full">
+  <div class="panel accent-live">
+    <div class="panel-hdr">
+      <div class="panel-hdr-top">
+        <span class="panel-title c-live">&#9632; Open Positions — Live Trades</span>
+        <select id="wallet-filter" style="font-size:0.7em;padding:2px 6px;border:1px solid #ccc;border-radius:3px;margin-left:8px;background:#fff"><option value="all">All Wallets</option></select>
+        <span id="live-summary" style="font-size:0.7em;color:#444">Loading...</span>
+      </div>
+      <div class="panel-desc">Active trades from all engines. Probability at fire (the 70% decision), fill price, bet size, expected value (EV), and current status. Synced every 60 seconds via GitHub.</div>
+    </div>
+    <div class="panel-body" style="max-height:280px" id="live-trades">
+      <div class="loader">Loading</div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══ DAILY AUDIT PANEL — FULL WIDTH ════════════════════════════════ -->
+<div class="pm-full">
+  <div class="panel" style="border-left:3px solid #ff8844">
+    <div class="panel-hdr">
+      <div class="panel-hdr-top">
+        <span class="panel-title" style="color:#ff8844">&#9670; Daily Bot Audit — Automated Health Check</span>
+        <span class="panel-count" id="audit-count">—</span>
+      </div>
+      <div class="panel-desc">Computed LIVE from trades on every refresh. Today's P&amp;L by US ET hour, per-engine stats, bankroll, live issue detection. No stale cache — updates every 60s.</div>
+    </div>
+    <div class="panel-body" id="audit-panel" style="max-height:260px">
+      <div class="loader">Loading audit...</div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══ TESTING LAB ════════════════════════════════════════════════════ -->
+<div class="pm-full">
+  <div class="panel" style="border-left:3px solid #cc44ff">
+    <div class="panel-hdr">
+      <div class="panel-hdr-top">
+        <span class="panel-title" style="color:#cc44ff">&#9650; Testing Lab — Algorithm Experiments</span>
+        <span class="panel-count" id="lab-count">—</span>
+      </div>
+      <div class="panel-desc">Active strategy experiments with LIVE results computed from trades + config.json. When bot strategy changes, this reflects it immediately.</div>
+    </div>
+    <div class="panel-body" id="lab-panel" style="max-height:400px">
+      <div class="loader">Loading experiments...</div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══ LIVE NEWS & X SIGNALS — FULL WIDTH ════════════════════════════ -->
+<div class="pm-full">
+  <div class="panel" style="border-left:3px solid #1d9bf0">
+    <div class="panel-hdr">
+      <div class="panel-hdr-top">
+        <span class="panel-title" style="color:#1d9bf0">&#9650; Live News &amp; X Signals — AI Market Scanner</span>
+        <span class="panel-count" id="signals-count">—</span>
+      </div>
+      <div class="panel-desc">Real-time trading signals from X/Grok + Perplexity. Scans every 5 minutes for breaking news that affects open Polymarket positions. ENTER = high-confidence trade trigger. ALERT = monitor closely.</div>
+    </div>
+    <div class="panel-body" id="pm-news-signals" style="max-height:320px">
+      <div class="loader">Scanning news and X for signals</div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══ FOOTER ═════════════════════════════════════════════════════════ -->
+<footer>
+  <span>
+    Live data: <a href="https://polymarket.com" target="_blank">Polymarket</a> public API &mdash;
+    <a href="https://shaunpatrickstewart.com" target="_blank">shaunpatrickstewart.com</a>
+  </span>
+  <span>
+    <span class="kbd">R</span> refresh &nbsp;|&nbsp;
+    Not financial advice.
+  </span>
+</footer>
+
+</div><!-- /#pm-root -->
+
+<script src="https://shaunpatrickstewart.github.io/trades/app.js"></script>

@@ -1,0 +1,69 @@
+Here is the precise, mathematically derived bet scaling ladder for your Polymarket bot. 
+
+Before assigning arbitrary tiers, we must establish the hard math of your exact risk profile.
+
+### 3 & 4. Kelly/Variance Reasoning & The Tier 1 Prior
+**The Math:**
+- **Average Entry:** $0.84 (midpoint of 0.80–0.88)
+- **Target Exit:** $0.96 
+- **Average Gross Profit:** ~14.3% per winning share ($0.12)
+- **Average Loss:** ~30% per losing share (from your "20-40% typical loss" constraint)
+- **Break-Even Win Rate (BEWR):** `0.30 / (0.143 + 0.30)` = **~67.7%**
+
+**Question 4 (The Prior):** Yes, **65% is the perfect Bayesian prior**. Setting your zero-data baseline to 65% assumes the bot is mathematically *losing* EV out of the gate (since BEWR is 68%). This enforces a skeptical posture, requiring the bot to literally earn its way into Kelly sizing through proven data rather than optimism. 
+
+**Question 3 (When does a higher cap become safe?):**
+Using the discrete Kelly formula for partial losses: `f = (W / L_pct) - ((1 - W) / Win_pct)`
+- At **68% WR**: Kelly is 0%. You should not scale.
+- At **70% WR**: Full Kelly = 23.3%. Half-Kelly = **11.6%**. 
+*Conclusion:* Because your max exposure per market is 12% (a 2-rung ladder of 6% bets), **a rolling win rate of strictly ≥ 71% is mathematically required** before your current 12% max exposure becomes safe under Half-Kelly variance rules.
+
+---
+
+### 1. The Graduation Tier Table
+This ladder restricts `bet_max` to allow your `6%` rule to breathe only when statistically justified. 
+
+| Tier | Trade Count (`n_trades`) | Rolling 100-Trade WR | Bankroll Floor | `bet_max` (Per Rung) | Max Market Exposure (2x) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **1 (Probe)** | 0 – 99 | N/A (Assume 65%) | None | **$15** | $30 |
+| **2 (Proven)** | ≥ 100 | **≥ 71.0%** | $400 | **$30** | $60 *(Allows 6% rule up to $500 bankroll)* |
+| **3 (Scale)** | ≥ 250 | **≥ 73.0%** | $800 | **$75** | $150 *(Allows 6% rule up to $1,250 bankroll)* |
+| **4 (Max)** | ≥ 500 | **≥ 75.0%** | $2,000 | **$200** | $400 *(Leaves room for 4 concurrent markets)* |
+
+*Engine allocation note:* At Tier 4 with a $3,000 bankroll, your 55% engine allocation is $1,650. Capping max market exposure at $400 guarantees the bot can deploy into at least 4 concurrent markets before stalling.
+
+---
+
+### 2. Drawdown Circuit-Breaker (Hysteresis Design)
+If you promote at 71% and Trade 101 loses, your WR hits 70%, immediately demoting you. This causes erratic sizing. You must build a hysteresis buffer. 
+
+**Auto-Drop Conditions (Evaluate after every resolution):**
+1. **Performance Failure:** `rolling_WR_100` drops **2% below** the tier's requirement (e.g., drops below 69% for Tier 2, or 71% for Tier 3). 
+2. **Capital Drain:** Current bankroll falls below `Bankroll Floor × 0.90`.
+3. **Catastrophic Loss Metric:** If the average loss percentage over the last 20 losing trades exceeds **38%**, instantly lock to Tier 1. (If average loss creeps to 40%, your BEWR jumps to 73.7%, making Tier 2 a mathematically guaranteed money-loser).
+
+*Execution rule:* If a tier drops, active limit orders for unfilled rungs MUST be cancelled or dynamically resized. 
+
+---
+
+### 5. Traps & Gotchas (Second-Order Effects)
+
+**Trap A: The "Stop-Loss" Fiction on Polymarket**
+Polymarket is a CLOB, not a continuous broker. If bad news breaks, the bid side of the book vaporizes instantly. You will not get filled at a 30% loss; the price will gap to $0.01. 
+* **If wrong:** The bot assumes a 30% loss, sizes for a 73% WR, hits three 100% gap-down losses, and you take a catastrophic hit outside your Kelly model. 
+* **Fix:** The bot must dynamically track `Average Realized Loss %`. If CLOB gapping pushes your average loss above 30%, the `min_WR` required for all tiers must dynamically increase.
+
+**Trap B: The "Top-Rung Only" Skew (DupGuard Threat)**
+You use a 2-rung ladder (min delta 0.04). Suppose you set limits at $0.82 and $0.88. In many cases, only the $0.88 rung will fill before the market resolves to $0.96. Your average entry is now $0.88, not $0.84. Your profit drops to 9%. If your loss remains 30%, **the BEWR on this specific trade jumps to 77%**.
+* **If wrong:** Your metrics show a healthy 73% WR, but because you are heavily weighted in $0.88 single-fills, you are mathematically bleeding EV while thinking you have an edge.
+* **Fix:** Track WR and EV separately for "Full Fill" vs "Partial Fill" trades. 
+
+**Trap C: Liquidity Exhaustion at Tiers 3 & 4**
+A $200 `bet_max` requires buying ~238 shares at $0.84. The 0.80–0.88 price band on Polymarket often has less than $50 of resting liquidity. 
+* **If wrong:** The bot scales up, uses market orders (or crosses the spread), eats through the thin book, gets filled at $0.91 instead of $0.84, and your 14% edge completely vanishes to slippage. 
+* **Fix:** For Tiers 3 and 4, the bot MUST use "Post-Only" (Maker) limit orders. It cannot cross the spread to chase the 4-AI signal.
+
+**Trap D: Tainted Pre-Data**
+You mentioned previous live data is broken/tainted. 
+* **If wrong:** If the bot aggregates the old 7.1% WR data with the new engine, it will never mathematically escape Tier 1. 
+* **Fix:** Literally hardcode a genesis timestamp for the new 0.80-0.88 Aggressive Engine. `n_trades` must equal exactly 0 at deployment.

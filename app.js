@@ -1,0 +1,1423 @@
+(function() {
+  'use strict';
+
+  const DATA    = 'https://data-api.polymarket.com';
+  const P       = 'https://corsproxy.io/?url=';
+  const BASE    = 'https://shaunpatrickstewart.github.io/trades/';  // 2026-05-10 audit fix: hoisted from renderWalletCards function-local scope so fetchLiveBankroll can see it
+  const ELITE_URL = BASE + 'elite_wallets.json';
+  const REFRESH = 30000;
+
+  // Funder/proxy wallet — holds all Polymarket positions under sig_type=1.
+  // Public address, safe to embed in client JS. Source of truth for live
+  // bankroll is the chain, not the bot-generated bankroll.json.
+  const POLY_FUNDER = '0x86f70cf14893180f815a3cea7d3a521dd10cf5ef';
+
+  // fetchLiveBankroll — read chain-truth bankroll from bankroll.json.current,
+  // which polybot recomputes every monitor cycle as
+  // `collateral_free_chain + open_position_NAV`.
+  //
+  // 2026-05-07 audit fix (F5): prior implementation called Polymarket data-api
+  // /value (open positions ONLY — no USDC free) then callers added totalPnl on
+  // top, double-counting realized PnL and producing a deflated, wrong number
+  // (recently displayed $352.66 vs real $395.55). The /value endpoint is the
+  // wrong shape for "bankroll." bankroll.json is the documented source of truth
+  // (see TRADE_DATA_REFERENCE.md). Read it directly.
+  //
+  // Returns 0 on failure so callers can fall back gracefully.
+  async function fetchLiveBankroll(funderAddr) {
+    try {
+      const r = await fetch(BASE + 'bankroll.json?v=' + Date.now(), {cache: 'no-store'});
+      if (!r.ok) { console.error('fetchLiveBankroll: bankroll.json HTTP', r.status); return 0; }
+      const j = await r.json();
+      const current = parseFloat(j && j.current);
+      if (Number.isFinite(current) && current > 0) return current;
+      console.error('fetchLiveBankroll: bankroll.json missing/invalid .current', j);
+      return 0;
+    } catch (e) {
+      console.error('fetchLiveBankroll: fetch failed', e);
+      return 0;
+    }
+  }
+
+  function esc(s) {
+    if (!s) return '';
+    return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;');
+  }
+
+  const TAB_DESCS = {
+    week:  'Uncertain markets resolving this week — all categories, volume &gt;$20K. Best short-term plays.',
+    day48: 'Closing within 48 hours — sports, politics, news, crypto. Fast in-and-out trades.',
+    swing: '7 to 30-day holds — high-volume uncertain markets worth sitting on for larger gains.',
+    forex: 'Currency &amp; financial prediction markets — dollar, gold, crypto prices, exchange rates.',
+  };
+
+  // ── Tab switching
+  window.pmSwitchTab = function(pane, btn) {
+    document.querySelectorAll('#pm-root .tab-pane').forEach(el => el.classList.remove('active'));
+    document.querySelectorAll('#pm-root .tab').forEach(el => el.classList.remove('active'));
+    document.getElementById('tab-' + pane).classList.add('active');
+    btn.classList.add('active');
+    const countEl = document.getElementById('pm-count-' + pane);
+    if (countEl) document.getElementById('scanner-count').textContent = countEl.textContent;
+    document.getElementById('pm-tab-desc').innerHTML = TAB_DESCS[pane] || '';
+  };
+
+  // ── Keyboard shortcut
+  document.addEventListener('keydown', e => {
+    if (e.key === 'r' || e.key === 'R') {
+      if (document.activeElement.tagName === 'INPUT') return;
+      refresh();
+    }
+  });
+
+  // ── Proxy fetch — allowlist-restricted (2026-04-25)
+  // corsproxy.io is a third-party pass-through. If an attacker could control
+  // the `url` argument they could point pf() at arbitrary hosts and exfiltrate
+  // through the proxy. All callers pass known Polymarket/Kalshi endpoints, but
+  // this allowlist enforces that structurally — any future caller feeding
+  // user-controlled input gets rejected before hitting the proxy.
+  const ALLOWED_HOSTS = [
+    'gamma-api.polymarket.com',
+    'data-api.polymarket.com',
+    'clob.polymarket.com',
+    'api.elections.kalshi.com',
+    'trading-api.kalshi.com',
+  ];
+  async function pf(url) {
+    let host;
+    try { host = new URL(url).hostname; } catch (e) { throw new Error('pf: invalid URL'); }
+    if (!ALLOWED_HOSTS.includes(host)) {
+      throw new Error('pf: host not in allowlist: ' + host);
+    }
+    const r = await fetch(P + encodeURIComponent(url));
+    if (!r.ok) throw new Error('HTTP ' + r.status);
+    return r.json();
+  }
+
+  function toArr(r) {
+    if (Array.isArray(r))              return r;
+    if (r && Array.isArray(r.data))    return r.data;
+    if (r && Array.isArray(r.results)) return r.results;
+    return [];
+  }
+
+  // ── Formatting
+  function fmt(n) {
+    n = parseFloat(n) || 0;
+    if (Math.abs(n) >= 1e6) return '$' + (n/1e6).toFixed(2) + 'M';
+    if (Math.abs(n) >= 1e3) return '$' + (n/1e3).toFixed(1) + 'K';
+    if (Math.abs(n) < 1)    return (n<0?'-':'') + '$' + Math.abs(n).toFixed(2);
+    return (n<0?'-':'') + '$' + Math.abs(n).toFixed(0);
+  }
+  function days(s)  { return !s ? 9999 : Math.ceil((new Date(s)-new Date())/86400000) }
+  function hours(s) { return !s ? 9999 : Math.ceil((new Date(s)-new Date())/3600000) }
+  // 2026-05-12 frontend-parity fix: retired engines purged. Current engines
+  // per polybot/CLAUDE.md: NC v3 (NEAR_CERTAIN) + snipe. Historical trades.jsonl
+  // entries with retired tags still render via engLabel() fallback.
+  const ENG_LABEL  = {NEAR_CERTAIN:'NC v3', SNIPE:'SNIPE'};
+  const ENG_COLORS = {NEAR_CERTAIN:'#ccaa00', SNIPE:'#ff88aa', UNKNOWN:'#888'};
+  function engLabel(type)  { return ENG_LABEL[type]  || (type||'').replace(/_/g,' '); }
+  function engColor(type)  { return ENG_COLORS[type] || '#888'; }
+
+  function timeLabel(m) {
+    const h = hours(m.endDate||m.endDateIso), d = days(m.endDate||m.endDateIso);
+    if (h<=0)  return '<span style="color:#ff4455">EXPIRED</span>';
+    if (h<=24) return '<span style="color:#ff4455">' +h+ 'h</span>';
+    if (d<=3)  return '<span style="color:#ffcc44">' +d+ 'd</span>';
+    if (d<=7)  return '<span style="color:#ccaa44">' +d+ 'd</span>';
+    return '<span style="color:#777">' +d+ 'd</span>';
+  }
+
+  function pctColor(p) {
+    if (p>=0.5) return '#00ff88';
+    if (p>=0.35) return '#ffcc44';
+    return '#88aaff';
+  }
+
+  function getBest(m) {
+    let pr=[], oc=[];
+    try { pr = JSON.parse(m.outcomePrices||'[]').map(Number) } catch(e){}
+    try { oc = JSON.parse(m.outcomes||'["Yes","No"]') }        catch(e){}
+    let bi=0, bd=1;
+    pr.forEach((p,i)=>{ const d=Math.abs(p-.5); if(p>=.05&&p<=.95&&d<bd){bd=d;bi=i;} });
+    return { price: pr[bi]||0, outcome: (oc[bi]||'Yes').toUpperCase() };
+  }
+
+
+  // ── DATA FETCHERS
+  async function fetchAllWallets() {
+    const fj = url => fetch(url).then(r=>r.json());
+    const [all, month, week] = await Promise.all([
+      fj(DATA+'/v1/leaderboard?timePeriod=ALL&orderBy=PNL&limit=50'),
+      fj(DATA+'/v1/leaderboard?timePeriod=month&orderBy=PNL&limit=50'),
+      fj(DATA+'/v1/leaderboard?timePeriod=week&orderBy=PNL&limit=50'),
+    ]);
+    const map = new Map();
+    [...toArr(all),...toArr(month),...toArr(week)].forEach(w=>{
+      const key = w.proxyWallet||w.address||w.userName; if(!key) return;
+      const ex = map.get(key);
+      if (!ex || parseFloat(w.pnl||0)>parseFloat(ex.pnl||0)) map.set(key,w);
+    });
+    return [...map.values()].sort((a,b)=>{
+      const ra = parseFloat(a.vol||0)>0 ? parseFloat(a.pnl||0)/parseFloat(a.vol||0) : 0;
+      const rb = parseFloat(b.vol||0)>0 ? parseFloat(b.pnl||0)/parseFloat(b.vol||0) : 0;
+      return rb-ra;
+    });
+  }
+
+  // Elite wallets from local scrape — real win rates, ROI, sample size
+  // Scored by win_rate * roi * (sample_quality) — only wallets still actively trading
+  async function fetchEliteWallets() {
+    try {
+      const raw = await fetch(ELITE_URL+'?v='+Date.now()).then(r=>r.json());
+      return (Array.isArray(raw) ? raw : []).sort((a,b)=>{
+        const qa = Math.min(a.real_sample_size||0,50)/50;
+        const qb = Math.min(b.real_sample_size||0,50)/50;
+        const sa = (a.real_win_rate||0) * Math.max(a.roi||0,0) * qa;
+        const sb = (b.real_win_rate||0) * Math.max(b.roi||0,0) * qb;
+        return sb-sa;
+      });
+    } catch(e) { return []; }
+  }
+
+  async function fetchScannerData() {
+    try {
+      // 2026-05-10 audit: BASE now hoisted to module scope (line ~6); use it.
+      const data = await fetch(BASE+'scanner_data.json?v='+Date.now()).then(r=>r.json());
+      return data;
+    } catch(e) { return {week:[],day48:[],swing:[],forex:[],total_markets:0}; }
+  }
+
+  async function fetchPositions(addr) {
+    try {
+      return toArr(await fetch(DATA+'/positions?user='+addr+'&sizeThreshold=0&sortBy=CASHPNL&sortDirection=DESC&limit=30').then(r=>r.json()));
+    } catch(e) { return []; }
+  }
+
+  // ── RENDER: Header stats
+  function renderHeaderStats(wallets, scannerData) {
+    const totalPnl = wallets.reduce((s,w)=>s+parseFloat(w.pnl||0),0);
+    const topPnl   = parseFloat(wallets[0]?.pnl||0);
+    const totalMarkets = scannerData.total_markets || 0;
+    const uncertain = (scannerData.week||[]).length;
+    document.getElementById('hdr-stats').innerHTML = [
+      ['Wallets',        wallets.length],
+      ['Combined PnL',   '<span class="green">'+fmt(totalPnl)+'</span>'],
+      ['Top Wallet',     '<span class="green">'+fmt(topPnl)+'</span>'],
+      ['Active Markets', totalMarkets],
+      ['Uncertain Plays','<span class="yellow">'+uncertain+'</span>'],
+    ].map(([l,v])=>'<div class="stat"><div class="val">'+v+'</div><div class="lbl">'+l+'</div></div>').join('');
+  }
+
+  // ── RENDER: Copy Signals (walletPositions = [{w, pos}] pre-fetched)
+  function renderSignals(walletPositions) {
+    let signals=[];
+    walletPositions.forEach(({w,pos})=>{
+      const addr = w.address||w.proxyWallet||'';
+      const name = (w.userName||addr.slice(0,10)||'anon').slice(0,20);
+      const walletPnl = parseFloat(w.pnl||0);
+      // Use scraped real_win_rate if available, else estimate from pnl/vol
+      const realWR  = w.real_win_rate != null ? w.real_win_rate : null;
+      const realROI = w.roi != null ? w.roi : (parseFloat(w.vol||0)>0 ? walletPnl/parseFloat(w.vol) : 0);
+      const walletRoi = realROI * 100;
+      const sampleBadge = w.real_sample_size ? '('+w.real_sample_size+' trades)' : '';
+      pos.filter(p=>{
+        const pr=parseFloat(p.curPrice||p.price||0);
+        return pr>=0.15&&pr<=0.85;
+      }).slice(0,3).forEach(p=>{
+        const pr  = parseFloat(p.curPrice||p.price||0);
+        const oc  = (p.outcome||'').toUpperCase();
+        const pEv = realWR != null ? realWR : parseFloat(w.winRate||50)/100;
+        const ev  = pEv*(1-pr)-(1-pEv)*pr;
+        signals.push({ name, walletPnl, walletRoi, realWR, sampleBadge, title:p.title||'', outcome:oc, price:pr, cashPnl:parseFloat(p.cashPnl||0), ev, addr });
+      });
+    });
+
+    signals.sort((a,b)=>Math.abs(a.price-.5)-Math.abs(b.price-.5));
+    document.getElementById('sig-count').textContent = '('+signals.length+')';
+
+    if (!signals.length) {
+      document.getElementById('pm-signals').innerHTML='<div class="empty">No uncertain positions on top wallets right now — market conditions change fast, check back soon.</div>';
+      return;
+    }
+
+    const html = signals.slice(0,18).map(s=>{
+      const cls  = s.outcome==='YES' ? 'by' : 'bn';
+      const unc  = (0.5-Math.abs(s.price-0.5))/0.5*100;
+      const uncW = Math.round(unc*0.7)+10;
+      const evH  = s.ev>=0
+        ? '<span class="ev-pos">EV+'+s.ev.toFixed(3)+'</span>'
+        : '<span class="ev-neg">EV'+s.ev.toFixed(3)+'</span>';
+      const roiS = s.walletRoi>=0
+        ? '<span class="green">+'+s.walletRoi.toFixed(1)+'% ROI</span>'
+        : '<span class="red">'+s.walletRoi.toFixed(1)+'% ROI</span>';
+      const mult = s.price > 0 ? (1/s.price).toFixed(2) : '—';
+      const multColor = s.price <= 0.40 ? '#00cc66' : s.price <= 0.60 ? '#ffcc44' : '#888';
+      return (
+        '<div class="signal-card">'+
+          '<div class="sig-top">'+
+            '<div class="sig-title">'+esc(s.title.slice(0,74))+'</div>'+
+            '<div style="flex-shrink:0"><span class="badge '+cls+'">BET '+s.outcome+'</span></div>'+
+          '</div>'+
+          '<div class="sig-meta">'+
+            '<span class="blue">'+s.price.toFixed(3)+'</span>'+
+            '<span style="color:'+multColor+';font-size:0.75em;font-weight:700">→ '+mult+'x</span>'+
+            '<span class="unc-wrap">'+
+              '<div class="unc-bar-bg"><div class="unc-bar-fill" style="width:'+uncW+'%"></div></div>'+
+              '<span style="color:#444">'+Math.round(unc)+'%</span>'+
+            '</span>'+
+            evH+
+            '<span class="dim">▸</span><span class="blue">'+esc(s.name.slice(0,14))+'</span>'+
+            roiS+
+            (s.realWR!=null ? '<span style="color:#aaffaa;font-size:0.72em">WR '+(s.realWR*100).toFixed(0)+'% '+s.sampleBadge+'</span>' : '')+
+          '</div>'+
+        '</div>'
+      );
+    }).join('');
+    document.getElementById('pm-signals').innerHTML = html;
+  }
+
+  // ── RENDER: Market Scanner tables
+  function marketTable(markets, limit) {
+    if (!markets.length) return '<div class="empty">No markets matching this filter right now.</div>';
+    const slice = markets.slice(0, limit||25);
+    const maxVol = Math.max(...slice.map(m=>parseFloat(m.volumeNum||m.volume||0)), 1);
+    let html = '<table><tr><th>#</th><th>Market</th><th>Side</th><th>Price</th><th class="hm">Volume</th><th>Expires</th></tr>';
+    slice.forEach((m,i)=>{
+      const {price,outcome} = getBest(m);
+      const cls = outcome==='YES' ? 'by' : 'bn';
+      const vol = parseFloat(m.volumeNum||m.volume||0);
+      const barW = Math.round((vol/maxVol)*40);
+      html += '<tr>'+
+        '<td class="dim">'+(i+1)+'</td>'+
+        '<td style="max-width:260px">'+esc((m.question||m.title||'').slice(0,62))+'</td>'+
+        '<td><span class="badge '+cls+'">'+outcome+'</span></td>'+
+        '<td style="color:'+pctColor(price)+'">'+(price*100).toFixed(0)+'%</td>'+
+        '<td class="blue hm">'+
+          '<div style="display:flex;align-items:center;gap:4px">'+
+          '<div style="background:#0066cc;height:3px;width:'+barW+'px;border-radius:1px;flex-shrink:0"></div>'+
+          fmt(vol)+
+          '</div></td>'+
+        '<td>'+timeLabel(m)+'</td>'+
+        '</tr>';
+    });
+    return html+'</table>';
+  }
+
+  function renderScanner(scannerData) {
+    const week = scannerData.week || [];
+    const day48 = scannerData.day48 || [];
+    const swing = scannerData.swing || [];
+    const forex = scannerData.forex || [];
+
+    const toMarketObj = (m) => ({
+      question: m.question, slug: m.slug, volumeNum: m.volume, volume: m.volume,
+      outcomePrices: JSON.stringify([String(m.price), String(1-m.price)]),
+      outcomes: JSON.stringify([m.outcome, m.outcome==='YES'?'No':'Yes']),
+      endDate: m.endDate, endDateIso: m.endDate
+    });
+
+    document.getElementById('tab-week').innerHTML  = marketTable(week.map(toMarketObj),20);
+    document.getElementById('tab-day48').innerHTML = marketTable(day48.map(toMarketObj),20);
+    document.getElementById('tab-swing').innerHTML = marketTable(swing.map(toMarketObj),15);
+    document.getElementById('tab-forex').innerHTML = marketTable(forex.map(toMarketObj),20);
+
+    const counts = {week:week.length, day48:day48.length, swing:swing.length, forex:forex.length};
+    Object.entries(counts).forEach(([k,n])=>{
+      let el = document.getElementById('pm-count-'+k);
+      if (!el) {
+        el = document.createElement('span');
+        el.id = 'pm-count-'+k;
+        el.style.display = 'none';
+        document.getElementById('tab-'+k).appendChild(el);
+      }
+      el.textContent = '('+n+')';
+    });
+    document.getElementById('scanner-count').textContent = '('+week.length+')';
+  }
+
+  async function renderWalletCards() {
+    const el = document.getElementById('wallet-cards');
+    if (!el) return;
+    try {
+      // 2026-05-10 audit: BASE is module-scoped — no need for local redecl.
+      const bust = '?_w='+Date.now();
+      const tradesTxt = await fetch(BASE+'trades.jsonl'+bust).then(r=>r.ok?r.text():'').catch(()=>'');
+      const parseJsonl = txt => txt.trim().split('\n').filter(Boolean).map(l=>{try{return JSON.parse(l);}catch{return null;}}).filter(Boolean);
+      const allTrades = parseJsonl(tradesTxt).map(t => {
+        if (t.platform === 'kalshi' && !t.wallet_owner) t.wallet_owner = 'shaun_kalshi';
+        return t;
+      });
+
+      // Group by wallet_owner — default to "shaun_poly" for legacy trades
+      const byWallet = {};
+      allTrades.forEach(t => {
+        const owner = t.wallet_owner || 'shaun_poly';
+        if (!byWallet[owner]) byWallet[owner] = [];
+        byWallet[owner].push(t);
+      });
+
+      const WALLET_META = {
+        'shaun_poly':   { label: 'Shaun', platform: 'polymarket' },
+        'shaun_kalshi': { label: 'Shaun', platform: 'kalshi' },
+        'don_poly':     { label: 'Don S', platform: 'polymarket' },
+        'don_kalshi':   { label: 'Don S', platform: 'kalshi' },
+      };
+      const WALLET_ORDER = ['shaun_poly','shaun_kalshi','don_poly','don_kalshi'];
+
+      // Try chain-live bankroll first (positions + USDC via data-api /value);
+      // fall back to bankroll.json cache if the live endpoint is unreachable.
+      let liveBankroll = await fetchLiveBankroll();
+      if (!liveBankroll) {
+        try {
+          const brJson = await fetch(BASE+'bankroll.json?v='+Date.now()).then(r=>r.json());
+          // 2026-04-25: prefer CURRENT over initial. Using initial masked the real
+          // bankroll behind a stale seed figure on the wallet-performance card.
+          liveBankroll = parseFloat(brJson.current) || parseFloat(brJson.initial) || 0;
+        } catch(e) {}
+      }
+
+      WALLET_ORDER.forEach(wid => { if (!byWallet[wid]) byWallet[wid] = []; });
+
+      const walletIds = WALLET_ORDER.concat(Object.keys(byWallet).filter(w => !WALLET_ORDER.includes(w)));
+      if (!walletIds.length) {
+        el.innerHTML = '<div class="empty">No wallet data yet</div>';
+        return;
+      }
+
+      document.getElementById('wallet-perf-count').textContent = '('+walletIds.length+' wallet'+(walletIds.length>1?'s':'')+')';
+
+      // Also populate wallet filter dropdown
+      const filterEl = document.getElementById('wallet-filter');
+      if (filterEl) {
+        filterEl.innerHTML = '<option value="all">All Wallets</option>';
+        walletIds.forEach(wid => {
+          const meta = WALLET_META[wid] || { label: wid, platform: '?' };
+          filterEl.innerHTML += '<option value="'+esc(wid)+'">'+esc(meta.label)+' ('+esc(meta.platform)+')</option>';
+        });
+      }
+
+      let cardsHtml = '';
+      walletIds.forEach(wid => {
+        const trades = byWallet[wid];
+        const meta = WALLET_META[wid] || { label: wid, platform: 'unknown' };
+        const won = trades.filter(t => t.status === 'WON');
+        const lost = trades.filter(t => t.status === 'LOST');
+        const open = trades.filter(t => t.status === 'OPEN');
+        const settled = won.length + lost.length;
+        const winRate = settled > 0 ? (won.length / settled * 100).toFixed(1) : '—';
+        const totalPnl = trades.reduce((s,t) => s + (t.status==='WON'||t.status==='LOST' ? (t.pnl||0) : 0), 0);
+        const deployed = open.reduce((s,t) => s + (t.bet_size||0), 0);
+
+        // 2026-05-07 audit fix (G#1, deeper than the F5 fetchLiveBankroll fix):
+        // liveBankroll IS already chain-truth (collateral_free + open NAV — recomputed
+        // every monitor cycle). Adding totalPnl on top double-counts every realized
+        // win/loss because they're already baked into liveBankroll via the chain
+        // delta. The display value IS liveBankroll for the active wallet. For
+        // inactive wallets (no chain query), fall back to per-wallet trade pnl.
+        const walletBankroll = (wid === 'shaun_poly')
+            ? liveBankroll                 // chain truth, no double-add
+            : totalPnl;                    // pnl-only display for non-active wallets
+        const walletInitial = (wid === 'shaun_poly') ? liveBankroll : 0;  // legacy var, kept for downstream refs
+
+        // Time-window PnL (24h / 7d / 30d)
+        const now = Date.now();
+        const pnlWindow = (ms) => {
+          const cutoff = new Date(now - ms).toISOString();
+          return trades.filter(t => (t.status==='WON'||t.status==='LOST') && (t.closed_at||t.timestamp||'') >= cutoff)
+                       .reduce((s,t) => s + (t.pnl||0), 0);
+        };
+        const pnl24h = pnlWindow(24*3600*1000);
+        const pnl7d  = pnlWindow(7*24*3600*1000);
+        const pnl30d = pnlWindow(30*24*3600*1000);
+
+        // Equity curve data
+        const sortedSettled = [...won,...lost].sort((a,b)=>(a.closed_at||a.timestamp||'').localeCompare(b.closed_at||b.timestamp||''));
+        let cum = 0;
+        const cumPts = sortedSettled.map(t => { cum += (t.pnl||0); return cum; });
+
+        // Win streak
+        let streak = 0;
+        for (let i = sortedSettled.length-1; i >= 0; i--) {
+          if (sortedSettled[i].status === 'WON') streak++; else break;
+        }
+
+        // Per-engine breakdown
+        const engines = {};
+        trades.forEach(t => {
+          const eng = t.engine || t.type || 'UNKNOWN';
+          if (!engines[eng]) engines[eng] = {w:0,l:0,o:0,pnl:0};
+          if (t.status==='WON') { engines[eng].w++; engines[eng].pnl += (t.pnl||0); }
+          else if (t.status==='LOST') { engines[eng].l++; engines[eng].pnl += (t.pnl||0); }
+          else if (t.status==='OPEN') engines[eng].o++;
+        });
+
+        // Fee stats
+        const totalFees = trades.reduce((s,t) => s + (t.estimated_fee||0), 0);
+        const totalRebates = trades.reduce((s,t) => s + (t.maker_rebate||0), 0);
+
+        const pnlColor = totalPnl >= 0 ? '#00cc66' : '#ee3344';
+        const platformClass = meta.platform === 'kalshi' ? 'kalshi' : 'polymarket';
+
+        cardsHtml += '<div class="wallet-card" data-wallet="'+esc(wid)+'">';
+        cardsHtml += '<div class="wallet-card-hdr">';
+        cardsHtml += '<span class="wallet-alias">'+esc(meta.label)+'</span>';
+        cardsHtml += '<span class="platform-badge '+platformClass+'">'+esc(meta.platform.toUpperCase())+'</span>';
+        cardsHtml += '<span style="margin-left:auto;font-size:0.7em;color:#888">'+esc(wid)+'</span>';
+        cardsHtml += '</div>';
+
+        // Stats grid
+        const st = (lbl,val,color) =>
+          '<div style="background:#fff;border:1px solid #eee;border-radius:3px;padding:4px 6px;text-align:center">'+
+          '<div style="font-size:1.0em;font-weight:700;color:'+(color||'#222')+'">'+val+'</div>'+
+          '<div style="font-size:0.62em;color:#888;margin-top:1px">'+lbl+'</div></div>';
+
+        const pnlFmt = (v) => (v>=0?'+$':'−$')+Math.abs(v).toFixed(2);
+        const pnlClr = (v) => v>=0?'#00cc66':'#ee3344';
+
+        cardsHtml += '<div style="display:grid;grid-template-columns:repeat(4,1fr);gap:4px;margin-bottom:8px">';
+        cardsHtml += st('BANKROLL', '$'+walletBankroll.toFixed(2), walletBankroll>0?'#00cc66':'#888');
+        cardsHtml += st('TOTAL P&L', pnlFmt(totalPnl), pnlColor);
+        cardsHtml += st('WIN RATE', winRate+(winRate!=='—'?'%':''), parseFloat(winRate)>=60?'#00cc66':'#ee3344');
+        cardsHtml += st('DEPLOYED', '$'+deployed.toFixed(0), '#555');
+        cardsHtml += st('24H P&L', pnlFmt(pnl24h), pnlClr(pnl24h));
+        cardsHtml += st('7D P&L', pnlFmt(pnl7d), pnlClr(pnl7d));
+        cardsHtml += st('30D P&L', pnlFmt(pnl30d), pnlClr(pnl30d));
+        cardsHtml += st('STREAK', streak > 0 ? streak+'&#x1F525;' : ''+streak, streak>=10?'#ffaa00':'#888');
+        cardsHtml += '</div>';
+
+        // Mini equity curve
+        if (cumPts.length > 3) {
+          const minC = Math.min(0,...cumPts), maxC = Math.max(0,...cumPts);
+          const rangeC = (maxC-minC)||1;
+          const W=340, H=40, PAD=4;
+          const curve = cumPts.map((v,i) => {
+            const x = PAD+(i/(cumPts.length-1||1))*(W-PAD*2);
+            const y = H-PAD-((v-minC)/rangeC)*(H-PAD*2);
+            return x.toFixed(1)+','+y.toFixed(1);
+          }).join(' ');
+          const lastColor = cumPts[cumPts.length-1]>=0?'#00ff88':'#ff4444';
+          const zeroY = H-PAD-((0-minC)/rangeC)*(H-PAD*2);
+          cardsHtml += '<div style="background:#f8f8f8;border:1px solid #eee;border-radius:3px;padding:3px 6px;margin-bottom:6px">';
+          cardsHtml += '<svg width="100%" viewBox="0 0 '+W+' '+H+'" style="display:block">';
+          cardsHtml += '<line x1="'+PAD+'" y1="'+zeroY.toFixed(1)+'" x2="'+(W-PAD)+'" y2="'+zeroY.toFixed(1)+'" stroke="#ccc" stroke-width="0.5" stroke-dasharray="2,2"/>';
+          cardsHtml += '<polyline points="'+curve+'" fill="none" stroke="'+lastColor+'" stroke-width="1.5" stroke-linejoin="round"/>';
+          cardsHtml += '</svg></div>';
+        }
+
+        // Engine badges
+        cardsHtml += '<div style="display:flex;gap:4px;flex-wrap:wrap;margin-bottom:4px">';
+        Object.entries(engines).forEach(([eng, d]) => {
+          const color = engColor(eng);
+          cardsHtml += '<span style="background:'+color+'22;color:'+color+';padding:2px 6px;border-radius:3px;font-size:0.65em;font-weight:600">'+engLabel(eng)+' '+d.w+'W/'+d.l+'L</span>';
+        });
+        cardsHtml += '</div>';
+
+        // Fee summary (if any trades have fee data)
+        if (totalFees > 0 || totalRebates > 0) {
+          cardsHtml += '<div style="font-size:0.62em;color:#888;margin-top:2px">Fees: $'+totalFees.toFixed(2)+' | Rebates: $'+totalRebates.toFixed(2)+' | Net fee impact: −$'+(totalFees-totalRebates).toFixed(2)+'</div>';
+        }
+
+        cardsHtml += '</div>'; // close wallet-card
+      });
+
+      el.innerHTML = cardsHtml;
+
+      // Wire up wallet filter for open positions (replace handler to prevent stacking)
+      if (filterEl) {
+        filterEl.onchange = function() {
+          const val = this.value;
+          document.querySelectorAll('#live-trades tr[data-wallet]').forEach(row => {
+            row.style.display = (val === 'all' || row.dataset.wallet === val) ? '' : 'none';
+          });
+        };
+      }
+    } catch(e) {
+      el.innerHTML = '<div class="empty">Could not load wallet data: '+esc(e.message)+'</div>';
+    }
+  }
+
+  // ── RENDER: Wallet Leaderboard (walletPositions = [{w, pos}] pre-fetched)
+  function renderWallets(wallets, walletPositions) {
+    document.getElementById('wallet-count').textContent = '('+wallets.length+')';
+    const el = document.getElementById('pm-wallets');
+
+    const rows = walletPositions.map(({w,pos},i)=>{
+      const name = (w.userName||(w.proxyWallet||'').slice(0,12)||'anon').slice(0,20);
+      const pnl  = parseFloat(w.pnl||0);
+      const vol  = parseFloat(w.vol||0);
+      const roi  = vol>0?(pnl/vol)*100:0;
+      const unc = pos.filter(p=>{ const pr=parseFloat(p.curPrice||p.price||0); return pr>=0.15&&pr<=0.85; }).slice(0,2);
+      const posHtml = unc.length
+        ? unc.map(p=>{
+            const pr=parseFloat(p.curPrice||p.price||0);
+            const oc=(p.outcome||'').toUpperCase();
+            const cls=oc==='YES'?'by':'bn';
+            return '<span class="badge '+cls+'">'+oc+'</span> '+esc((p.title||'').slice(0,36))+' <span class="dim">@'+pr.toFixed(2)+'</span>';
+          }).join('<br>')
+        : '<span class="dim">—</span>';
+      return {i,name,pnl,roi,vol,posHtml};
+    });
+
+    let html = '<table><tr><th>#</th><th>Wallet</th><th>PnL</th><th>ROI</th><th class="hm">Volume</th><th>Current Positions</th></tr>';
+    html += rows
+      .sort((a,b)=>a.i-b.i)
+      .map(({i,name,pnl,roi,vol,posHtml})=>
+        '<tr>'+
+        '<td class="dim">'+(i+1)+'</td>'+
+        '<td>'+name+'</td>'+
+        '<td class="'+(pnl>=0?'green':'red')+'">'+
+          (pnl<0?'-':'')+fmt(Math.abs(pnl))+
+        '</td>'+
+        '<td style="color:'+(roi>=0?'#00ff88':'#ff4455')+'">'+roi.toFixed(1)+'%</td>'+
+        '<td class="dim hm">'+fmt(vol)+'</td>'+
+        '<td style="line-height:1.9;font-size:0.84em">'+posHtml+'</td>'+
+        '</tr>'
+      ).join('');
+    el.innerHTML = html+'</table>';
+  }
+
+  // ── Capital increase modal
+  window.pmSetCapital = async function(slug, outcome, currentBet) {
+    const amt = window.prompt(
+      'Increase capital for:\n['+outcome+'] '+slug+'\n\nCurrent bet: $'+currentBet+'\nEnter new bet amount in USD:',
+      currentBet
+    );
+    if (!amt || isNaN(parseFloat(amt))) return;
+    const amount = parseFloat(amt);
+    // Only attempt localhost API when actually running locally — skip silently on GitHub Pages
+    if (window.location.hostname !== 'localhost' && window.location.hostname !== '127.0.0.1') {
+      alert('Capital override unavailable in the live read-only view.\n\nTo update bet size on your local machine:\npython3 -c "import json; d=json.load(open(\'polybot/capital_overrides.json\')) if __import__(\'os\').path.exists(\'polybot/capital_overrides.json\') else {}; d[\''+slug+'|'+outcome+'\']='+amount+'; json.dump(d,open(\'polybot/capital_overrides.json\',\'w\'),indent=2)"');
+      return;
+    }
+    try {
+      const r = await fetch('http://localhost:8080/capital', {
+        method: 'POST',
+        headers: {'Content-Type':'application/json'},
+        body: JSON.stringify({slug, outcome, amount})
+      });
+      if (r.ok) {
+        const j = await r.json();
+        if (j.ok) {
+          alert('Capital updated: '+slug+' ['+outcome+'] → $'+amount.toFixed(2)+'\nWill apply next time the bot runs this engine.');
+        } else {
+          throw new Error(j.error||'unknown error');
+        }
+      } else {
+        throw new Error('HTTP '+r.status);
+      }
+    } catch(e) {
+      alert('Could not reach local bot dashboard.\n\nRun this command in your terminal instead:\npython3 -c "import json; d=json.load(open(\'polybot/capital_overrides.json\')) if __import__(\'os\').path.exists(\'polybot/capital_overrides.json\') else {}; d[\''+slug+'|'+outcome+'\']='+amount+'; json.dump(d,open(\'polybot/capital_overrides.json\',\'w\'),indent=2)"');
+    }
+  };
+
+  // ── RENDER: Open Positions
+  async function renderOpenTrades() {
+    const el = document.getElementById('live-trades');
+    try {
+      const TRADES_URL = 'https://shaunpatrickstewart.github.io/trades/trades.jsonl?v='+Date.now();
+      const r = await fetch(TRADES_URL);
+      if (!r.ok) throw new Error('HTTP '+r.status);
+      const raw = await r.text();
+      let text = raw;
+      if (raw.trim().startsWith('{')&&!raw.trim().startsWith('{"timestamp"')) {
+        try { const w=JSON.parse(raw); text=w.body||w.content||w.data||raw; } catch(e){}
+      }
+      const trades = text.trim().split('\n')
+        .filter(l=>l.trim().startsWith('{'))
+        .map(l=>{ try{return JSON.parse(l)}catch(e){return null} })
+        .filter(Boolean);
+
+      // TRUE realized PnL — from ALL raw trades before any dedup
+      // (bot re-enters same markets; dedup would hide thousands of WON entries)
+      const realizedPnl = trades.reduce((s,t)=>
+        s + (t.status==='WON'||t.status==='LOST' ? (t.pnl||0) : 0), 0);
+      const totalWonAll  = trades.filter(t=>t.status==='WON').length;
+      const totalLostAll = trades.filter(t=>t.status==='LOST').length;
+
+      // Dedup by slug+outcome for OPEN positions display only
+      // Priority: prefer OPEN over WON/LOST for same key (showing current state)
+      const seen = new Map();
+      trades.forEach(t=>{
+        const key=(t.slug||t.market)+'|'+t.outcome;
+        const ex = seen.get(key);
+        // Keep if: no existing, or current is newer, or current is OPEN and existing is settled
+        if(!ex || t.timestamp>ex.timestamp) seen.set(key,t);
+      });
+      const deduped = Array.from(seen.values()).sort((a,b)=>b.timestamp.localeCompare(a.timestamp));
+
+      if (!trades.length) {
+        el.innerHTML='<div class="empty">No trades logged yet — bot is running, trades will appear here.</div>';
+        document.getElementById('live-summary').textContent='0 trades';
+        return;
+      }
+
+      const open = deduped.filter(t=>t.status==='OPEN');
+      // Deployed = only capital currently in open positions
+      const totalBet      = open.reduce((s,t)=>s+(t.bet_size||0),0);
+      const unrealizedPot = open.reduce((s,t)=>s+(t.potential_profit||0),0);
+
+      // Header P&L counter shows REALIZED only
+      const pnlEl = document.getElementById('pnl-counter');
+      if (totalWonAll+totalLostAll === 0) {
+        pnlEl.textContent = '$0.00 realized';
+        pnlEl.className = '';
+      } else {
+        pnlEl.textContent = (realizedPnl>=0?'+':'')+'$'+Math.abs(realizedPnl).toFixed(2)+' realized';
+        pnlEl.className   = realizedPnl>=0?'':'loss';
+      }
+
+      document.getElementById('live-summary').innerHTML =
+        '<span class="green">'+open.length+' open</span> &nbsp;|&nbsp; '+
+        '<span class="green">'+totalWonAll+' won</span> &nbsp;|&nbsp; '+
+        '<span style="color:#ff6655">'+totalLostAll+' lost</span> &nbsp;|&nbsp; '+
+        '<span class="green">$'+totalBet.toFixed(0)+' deployed</span> &nbsp;|&nbsp; '+
+        (totalWonAll+totalLostAll>0
+          ? '<span class="'+(realizedPnl>=0?'green':'')+'" style="'+(realizedPnl<0?'color:#ff6655':'')+'">Realized: '+(realizedPnl>=0?'+':'')+'$'+realizedPnl.toFixed(2)+'</span>'
+          : '<span class="dim">No resolved trades yet</span>')+
+        ' &nbsp;|&nbsp; '+
+        '<span class="yellow">Unrealized est: +$'+unrealizedPot.toFixed(2)+'</span>';
+
+      // Engine breakdown — use ALL trades for accurate PnL per engine.
+      // 2026-04-25: `t.engine` is the current canonical field; older records
+      // only set `type`. Read engine FIRST so missing-type records (~19 in the
+      // historical jsonl) don't spuriously bucket into UNKNOWN.
+      const byEngine = {};
+      trades.forEach(t=>{
+        const eng = t.engine || t.type || 'UNKNOWN';
+        if (!byEngine[eng]) byEngine[eng]={open:0,won:0,lost:0,realPnl:0,unrealized:0,totalBet:0};
+        const bet = parseFloat(t.bet_size||0);
+        if (t.status==='OPEN')  { byEngine[eng].open++; byEngine[eng].unrealized+=(t.potential_profit||0); byEngine[eng].totalBet+=bet; }
+        if (t.status==='WON')   { byEngine[eng].won++;  byEngine[eng].realPnl+=(t.pnl||0); byEngine[eng].totalBet+=bet; }
+        if (t.status==='LOST')  { byEngine[eng].lost++; byEngine[eng].realPnl+=(t.pnl||0); byEngine[eng].totalBet+=bet; }
+      });
+      let engHtml = '<div style="display:flex;gap:10px;flex-wrap:wrap;margin-bottom:10px;padding:8px 0;border-bottom:1px solid #dddddd">';
+      Object.entries(byEngine).sort((a,b)=>b[1].realPnl-a[1].realPnl).forEach(([eng,d])=>{
+        const c = engColor(eng);
+        const label = engLabel(eng);
+        const resolved = d.won + d.lost;
+        // ROI = realized P&L / total invested (won+lost bets, not open)
+        const resolvedBet = d.totalBet - (d.open > 0 ? d.totalBet * d.open/(d.open+resolved) : 0);
+        const roi = resolved > 0 && resolvedBet > 0 ? (d.realPnl / resolvedBet * 100) : null;
+        const wr  = resolved > 0 ? (d.won / resolved * 100) : null;
+        const pnlStr = resolved > 0
+          ? (d.realPnl>=0?'<span style="color:#00aa44">+$'+d.realPnl.toFixed(2)+'</span>'
+                         :'<span style="color:#cc3322">-$'+Math.abs(d.realPnl).toFixed(2)+'</span>')
+          : '<span style="color:#999">no resolved</span>';
+        const roiStr = roi !== null
+          ? '<span style="color:'+(roi>=0?'#00aa44':'#cc3322')+'">ROI '+(roi>=0?'+':'')+roi.toFixed(1)+'%</span>'
+          : '<span style="color:#888;font-size:0.75em">ROI: '+(10-resolved)+' more needed</span>';
+        const wrStr = wr !== null ? '<span style="color:#555"> &nbsp; '+wr.toFixed(0)+'% WR</span>' : '';
+        // Win rate gauge bar: fill from left, tick at 50%
+        const wrPct = wr !== null ? Math.min(100, Math.max(0, Math.round(wr))) : null;
+        const wrBarColor = wrPct !== null ? (wrPct >= 60 ? '#00cc66' : wrPct >= 50 ? '#88cc44' : '#ff4444') : '#ccc';
+        const wrGauge = wrPct !== null
+          ? '<div style="position:relative;background:#e0e0e0;border-radius:2px;height:4px;margin-top:4px">'+
+            '<div style="position:absolute;left:50%;width:1px;height:6px;background:#aaa;top:-1px;z-index:1"></div>'+
+            '<div style="background:'+wrBarColor+';height:4px;border-radius:2px;width:'+wrPct+'%;max-width:100%"></div>'+
+            '</div>'+
+            '<div style="font-size:0.6em;color:#aaa;text-align:right">50%=even</div>'
+          : '';
+        engHtml +=
+          '<div style="background:#f0f0f0;border:1px solid '+c+'33;border-left:3px solid '+c+';padding:6px 12px;border-radius:4px;min-width:155px">'+
+          '<div style="color:'+c+';font-size:0.7em;font-weight:700">'+label+'</div>'+
+          '<div style="font-size:0.8em;margin-top:2px">'+d.open+' open &nbsp; '+d.won+'W/'+d.lost+'L</div>'+
+          '<div style="font-size:0.8em">Realized: '+pnlStr+'</div>'+
+          '<div style="font-size:0.78em;margin-top:2px">'+roiStr+wrStr+'</div>'+
+          wrGauge+
+          '<div style="font-size:0.75em;color:#555;margin-top:2px">Unrealized: +$'+d.unrealized.toFixed(2)+'</div>'+
+          '</div>';
+      });
+      engHtml += '</div>';
+
+      // ── SIGNAL BOARD — visual open-position cards (CBC-style) ──────────────
+      // Compact cards for OPEN positions only, sorted by potential profit desc.
+      // Lightweight: no extra fetches, renders from already-loaded trades array.
+      const openSorted = [...open].sort((a,b)=>(b.potential_profit||0)-(a.potential_profit||0));
+      const confColor = p => p >= 0.985 ? '#00cc44' : p >= 0.975 ? '#88cc00' : p >= 0.960 ? '#ccaa00' : '#cc6600';
+      const confLabel = p => p >= 0.985 ? 'VERY HIGH' : p >= 0.975 ? 'HIGH' : p >= 0.960 ? 'MED-HIGH' : 'MEDIUM';
+
+      let signalHtml = '<div style="margin-bottom:14px">';
+      signalHtml += '<div style="font-size:0.72em;color:#888;letter-spacing:1px;margin-bottom:6px;font-weight:700">SIGNAL BOARD — '+open.length+' OPEN POSITIONS &nbsp; <span style="color:#aaa;font-weight:400">sorted by estimated profit</span></div>';
+      signalHtml += '<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:6px">';
+
+      openSorted.slice(0, 60).forEach(t => {  // cap at 60 cards to stay lightweight
+        const c = engColor(t.type);
+        const ep = parseFloat(t.entry_price || 0);
+        const cc = confColor(ep);
+        const cl = confLabel(ep);
+        const profit = (t.potential_profit || 0).toFixed(2);
+        const bet = (t.bet_size || 0).toFixed(0);
+        const side = (t.outcome||'').toLowerCase() === 'yes' ? '▲ YES' : '▼ NO';
+        const sideColor = (t.outcome||'').toLowerCase() === 'yes' ? '#00cc66' : '#ff8844';
+        const mkt = esc((t.market || '').slice(0, 42));
+        const daysLabel = t.days_left != null ? t.days_left+'d' : (t.end_date ? t.end_date.slice(5) : '—');
+
+        signalHtml +=
+          '<div style="background:#f7f7f7;border:1px solid #e0e0e0;border-top:3px solid '+c+';border-radius:4px;padding:7px 9px;font-size:0.78em;position:relative">'+
+          '<div style="color:'+c+';font-size:0.65em;font-weight:700;letter-spacing:0.5px">'+engLabel(t.type)+'</div>'+
+          '<div style="margin:2px 0 4px;color:#222;line-height:1.3;font-size:0.9em">'+mkt+'</div>'+
+          '<div style="display:flex;justify-content:space-between;align-items:center">'+
+            '<span style="color:'+sideColor+';font-weight:700">'+side+'</span>'+
+            '<span style="color:#555">@'+ep.toFixed(3)+'</span>'+
+          '</div>'+
+          '<div style="margin-top:4px;display:flex;justify-content:space-between;align-items:center">'+
+            '<div style="background:#e8f8ee;border:1px solid #00cc44;border-radius:3px;padding:2px 7px;color:#007733;font-weight:700;font-size:1.05em">+$'+profit+'</div>'+
+            '<div style="color:#888;font-size:0.85em">$'+bet+' bet &nbsp; '+daysLabel+'</div>'+
+          '</div>'+
+          '<div style="margin-top:4px;background:#eee;border-radius:2px;height:3px">'+
+            '<div style="background:'+cc+';height:3px;border-radius:2px;width:'+(Math.min(ep,1)*100).toFixed(0)+'%"></div>'+
+          '</div>'+
+          '<div style="font-size:0.65em;color:'+cc+';margin-top:2px">'+cl+' ('+Math.round(ep*100)+'%)</div>'+
+          '</div>';
+      });
+
+      if (open.length > 60) {
+        signalHtml += '<div style="display:flex;align-items:center;justify-content:center;background:#f0f0f0;border:1px dashed #ccc;border-radius:4px;color:#888;font-size:0.8em;padding:10px">+' + (open.length - 60) + ' more below</div>';
+      }
+      signalHtml += '</div></div>';
+
+      const engineLabel = t => {
+        const s = t.source||t.type||'';
+        if (s.startsWith('copy:')) return '<span style="color:#88aaff;font-size:0.75em">COPY: '+s.slice(5).slice(0,14)+'</span>';
+        const c = engColor(t.type);
+        return '<span style="color:'+c+';font-size:0.75em">'+engLabel(t.type)+'</span>';
+      };
+
+      // Limit rendered rows for mobile perf: all OPEN + most recent 200 settled
+      const MAX_SETTLED = 200;
+      const openTrades = deduped.filter(t=>t.status==='OPEN');
+      const settledTrades = deduped.filter(t=>t.status!=='OPEN');
+      const showAll = window._showAllTrades;
+      const visibleSettled = showAll ? settledTrades : settledTrades.slice(0, MAX_SETTLED);
+      const displayTrades = [...openTrades, ...visibleSettled];
+      const hiddenCount = settledTrades.length - visibleSettled.length;
+
+      let html = engHtml + signalHtml;
+      html += '<table><tr>'+
+        '<th>#</th><th>Engine</th><th>Market</th><th>Side</th><th>Prob@Fire</th><th>Fill</th>'+
+        '<th>Bet</th><th>P&L / Est</th><th class="hm">EV</th>'+
+        '<th>Entered</th><th>Resolves</th><th>Status</th><th>+Capital</th>'+
+        '</tr>';
+
+      html += displayTrades.map((t,i)=>{
+        const side = (t.outcome||'').toLowerCase()==='yes'
+          ?'<span class="badge by">YES</span>'
+          :'<span class="badge bn">NO</span>';
+        let pnlCell;
+        if (t.status==='WON') {
+          pnlCell = '<span class="green">+$'+(t.pnl||0).toFixed(2)+'</span>';
+        } else if (t.status==='LOST') {
+          pnlCell = '<span style="color:#ff4444">$'+(t.pnl||0).toFixed(2)+'</span>';
+        } else {
+          pnlCell = '<span class="yellow">+$'+(t.potential_profit||0).toFixed(2)+' est</span>';
+        }
+        const evH = t.ev!=null
+          ? (parseFloat(t.ev)>=0
+              ?'<span class="ev-pos">EV+'+parseFloat(t.ev).toFixed(3)+'</span>'
+              :'<span class="ev-neg">EV'+parseFloat(t.ev).toFixed(3)+'</span>')
+          : '<span class="dim">—</span>';
+        const stCl = t.status==='OPEN'?'yellow':(t.status==='WON'?'green':'red');
+        // Entered date (from timestamp)
+        const entered = t.timestamp ? t.timestamp.slice(0,10) : '—';
+        // Resolution date
+        const resolves = t.end_date || (t.days_left!=null ? 'in '+t.days_left+'d' : '—');
+        // Capital button (only for OPEN)
+        const capBtn = t.status==='OPEN' && t.slug
+          ? '<button class="cap-btn" data-slug="'+esc(t.slug)+'" data-outcome="'+esc(t.outcome)+'" data-bet="'+(t.bet_size||5)+'" '+
+            'style="background:#eeeeee;border:1px solid #cccccc;color:#555;padding:2px 6px;cursor:pointer;font-size:0.7em;border-radius:3px">+$</button>'
+          : '<span class="dim">—</span>';
+
+        return '<tr class="trade-row" data-wallet="'+(t.wallet_owner||'shaun_poly')+'">'+
+          '<td class="dim">'+(i+1)+'</td>'+
+          '<td>'+engineLabel(t)+'</td>'+
+          '<td style="max-width:220px">'+esc((t.market||'').slice(0,55))+'</td>'+
+          '<td>'+side+'</td>'+
+          // 2026-05-25 #162: Prob@Fire = the PROBABILITY decision (70% gate);
+          // Fill = entry_price = best_ask the bot pays (downstream of the gate).
+          '<td class="dim">'+(t.probability_at_fire!=null?(t.probability_at_fire*100).toFixed(1)+'%':'—')+'</td>'+
+          '<td class="dim">'+(t.entry_price||0).toFixed(3)+'</td>'+
+          '<td>$'+(t.bet_size||0).toFixed(0)+'</td>'+
+          '<td>'+pnlCell+'</td>'+
+          '<td class="hm">'+evH+'</td>'+
+          '<td class="dim" style="font-size:0.78em">'+entered+'</td>'+
+          '<td style="font-size:0.78em;color:'+(t.status==='OPEN'?'#88aaff':'#555')+'">'+resolves+'</td>'+
+          '<td><span class="'+stCl+'">'+t.status+'</span></td>'+
+          '<td>'+capBtn+'</td>'+
+          '</tr>';
+      }).join('');
+
+      // Totals row
+      html += '<tr style="border-top:1px solid #d0e8d8;background:#eeeeee">'+
+        '<td colspan="5" class="dim" style="font-size:0.72em">TOTAL</td>'+
+        '<td style="color:#aaa">$'+totalBet.toFixed(0)+'</td>'+
+        '<td>'+(realizedPnl>=0?'<span class="green">':'<span style="color:#ff4444">')+
+          (realizedPnl>=0?'+':'')+'$'+realizedPnl.toFixed(2)+' realized</span> '+
+          '<span class="yellow" style="font-size:0.8em">+$'+unrealizedPot.toFixed(2)+' unrealized</span>'+
+        '</td>'+
+        '<td colspan="5"></td></tr>';
+
+      // "Show all" button when trades are truncated
+      if (hiddenCount > 0) {
+        html += '</table><div style="text-align:center;padding:8px"><button id="show-all-trades" '+
+          'style="background:#f0f0f0;border:1px solid #ccc;padding:4px 16px;cursor:pointer;font-size:0.85em;border-radius:3px">'+
+          'Show '+hiddenCount+' more settled trades</button></div>';
+      } else {
+        html += '</table>';
+      }
+      el.innerHTML = html;
+
+      // "Show all" click handler
+      const showBtn = document.getElementById('show-all-trades');
+      if (showBtn) {
+        showBtn.addEventListener('click', function() {
+          window._showAllTrades = true;
+          renderOpenTrades();
+        });
+      }
+
+      // Event delegation for capital buttons (avoids inline onclick XSS)
+      el.querySelectorAll('.cap-btn').forEach(btn => {
+        btn.addEventListener('click', function() {
+          window.pmSetCapital(this.dataset.slug, this.dataset.outcome, parseFloat(this.dataset.bet));
+        });
+      });
+
+    } catch(e) {
+      el.innerHTML='<div class="err">Trades unavailable: '+esc(e.message)+'</div>';
+    }
+  }
+
+  // ── RENDER: Daily Audit Panel — computed LIVE from all 3 JSONLs + config.json
+  async function renderAudit() {
+    const el = document.getElementById('audit-panel');
+    if (!el) return;
+    try {
+      // 2026-05-10 audit: BASE is module-scoped — no need for local redecl.
+      const bust = '?_a='+Date.now();
+      const parseJsonl = txt => txt.trim().split('\n').filter(Boolean)
+        .map(l=>{try{return JSON.parse(l);}catch{return null;}}).filter(Boolean);
+      const [tradesTxt2, cfgJson] = await Promise.all([
+        fetch(BASE+'trades.jsonl'+bust).then(r=>r.ok?r.text():'').catch(()=>''),
+        fetch(BASE+'config.json'+bust).then(r=>r.ok?r.json():{}).catch(()=>({}))
+      ]);
+      const allRawTrades = parseJsonl(tradesTxt2);
+      const trades = allRawTrades.filter(t => t.platform !== 'kalshi' && t.type !== 'ARB');
+      const kalshiTrades = allRawTrades.filter(t => t.platform === 'kalshi');
+      const arbTrades = allRawTrades.filter(t => t.type === 'ARB');
+      const cfg = cfgJson || {};
+
+      // ── US Eastern Time helpers (bot operates on ET wall clock)
+      const parseTs = t => {
+        const s = t.settled_at || t.resolved_at || t.last_updated || t.timestamp;
+        if (!s) return null;
+        const d = new Date(s);
+        return isNaN(d) ? null : d;
+      };
+      const toET = d => {
+        const etStr = d.toLocaleString('en-US', {timeZone: 'America/New_York'});
+        return new Date(etStr);
+      };
+      const nowET = toET(new Date());
+      const todayET = nowET.toISOString().slice(0,10);
+
+      // ── Today's P&L by hour (US ET)
+      const byHour = {};
+      let todayPnl = 0, todaySettles = 0;
+      const settledAll = trades.filter(t=>t.status==='WON'||t.status==='LOST');
+      settledAll.forEach(t=>{
+        const d = parseTs(t); if (!d) return;
+        const et = toET(d);
+        if (et.toISOString().slice(0,10) !== todayET) return;
+        const h = et.getUTCHours();
+        if (!byHour[h]) byHour[h] = {pnl:0, n:0};
+        byHour[h].pnl += (t.pnl||0);
+        byHour[h].n++;
+        todayPnl += (t.pnl||0);
+        todaySettles++;
+      });
+
+      // ── Gap detection: find longest settlement gap in last 24h (reveals downtime)
+      const last24 = settledAll.filter(t=>{
+        const d = parseTs(t); return d && (Date.now()-d.getTime()) < 86400000;
+      }).map(parseTs).filter(Boolean).sort((a,b)=>a-b);
+      let longestGapMin = 0, longestGapStart = null;
+      for (let i=1; i<last24.length; i++) {
+        const gap = (last24[i]-last24[i-1])/60000;
+        if (gap > longestGapMin) { longestGapMin = gap; longestGapStart = last24[i-1]; }
+      }
+
+      // ── Per-engine stats
+      const engines = {};
+      trades.forEach(t=>{
+        const e = t.engine || t.type || 'UNKNOWN';
+        if (!engines[e]) engines[e] = {w:0,l:0,o:0,bet:0,pnl:0};
+        if (t.status==='WON')  { engines[e].w++; engines[e].pnl+=(t.pnl||0); engines[e].bet+=(t.bet_size||0); }
+        else if (t.status==='LOST') { engines[e].l++; engines[e].pnl+=(t.pnl||0); engines[e].bet+=(t.bet_size||0); }
+        else if (t.status==='OPEN') { engines[e].o++; engines[e].bet+=(t.bet_size||0); }
+      });
+
+      // ── Bankroll — two distinct values, one source of truth each:
+      //   CURRENT  = live chain portfolio (positions NAV + USDC). Falls back to
+      //              bankroll.json.current if the chain endpoint is unreachable.
+      //   INITIAL  = bankroll.json.initial (actual seed deposit, manually set).
+      //              NEVER derived from the live chain value — they are semantically
+      //              different numbers and conflating them made "Initial deposit"
+      //              display the same figure as "Current" (bug caught 2026-04-25).
+      let cached = {};
+      try { cached = await fetch(BASE+'bankroll.json?v='+Date.now()).then(r=>r.json()); } catch(e) {}
+      let liveChain = await fetchLiveBankroll();
+      const usedLive = liveChain > 0;
+      const bankroll = usedLive ? liveChain : (parseFloat(cached.current) || 0);
+      const auditInitial = parseFloat(cached.initial) || 0;
+      const realized = settledAll.reduce((s,t)=>s+(t.pnl||0),0);
+      const deployed = trades.filter(t=>t.status==='OPEN').reduce((s,t)=>s+(t.bet_size||0),0);
+
+      // ── Live issues (computed, not cached)
+      const issues = [];
+      const openTrades = trades.filter(t=>t.status==='OPEN');
+      // 1. Stale OPEN trades past end_date
+      openTrades.forEach(t=>{
+        const ed = t.end_date || t.endDate || t.endDateIso;
+        if (!ed) return;
+        const dt = new Date(ed);
+        if (!isNaN(dt) && dt < new Date()) {
+          const days = Math.ceil((new Date()-dt)/86400000);
+          if (days >= 1) issues.push('Stale OPEN '+days+'d past end_date: '+esc((t.question||t.title||t.slug||'').substring(0,70)));
+        }
+      });
+      // 2. Duplicate OPEN positions (same slug, same side)
+      const openKeys = {};
+      openTrades.forEach(t=>{
+        const k = (t.slug||t.market||'')+'|'+(t.outcome||t.side||'');
+        openKeys[k] = (openKeys[k]||0)+1;
+      });
+      Object.entries(openKeys).filter(([k,c])=>c>1).slice(0,3).forEach(([k,c])=>{
+        issues.push('Duplicate OPEN x'+c+': '+k.split('|')[0].substring(0,60));
+      });
+      // 3. Gap > 20min in last 24h (bot was down)
+      if (longestGapMin > 20 && longestGapStart) {
+        const gapTimeET = toET(longestGapStart).toISOString().slice(11,16);
+        issues.push('Trading gap '+Math.round(longestGapMin)+'min starting '+gapTimeET+' ET (bot/laptop was offline)');
+      }
+
+      // ── HTML
+      const fmtPnl = v => (v>=0?'<span style="color:#00cc66">+$':'<span style="color:#ee3344">-$')+Math.abs(v).toFixed(2)+'</span>';
+      let html = '<div style="font-size:0.72em;color:#555;margin-bottom:8px">Computed LIVE from trades · '+trades.length+' total · '+new Date().toLocaleTimeString()+'</div>';
+
+      // Bankroll card
+      html += '<div style="background:#f5f5f5;border-left:3px solid #00cc66;padding:8px 12px;margin-bottom:10px;border-radius:4px">';
+      html += '<div style="font-weight:700;color:#00cc66;margin-bottom:4px;font-size:0.85em">LIVE BANKROLL</div>';
+      html += '<div style="font-size:0.82em;display:flex;gap:18px;flex-wrap:wrap">';
+      html += '<span>Current: <b style="color:#111">$'+bankroll.toFixed(2)+'</b></span>';
+      html += '<span>Initial deposit: $'+auditInitial.toFixed(0)+'</span>';
+      html += '<span>Realized: '+fmtPnl(realized)+'</span>';
+      html += '<span>Deployed (OPEN): <b>$'+deployed.toFixed(0)+'</b></span>';
+      html += '<span>Open positions: <b>'+openTrades.length+'</b></span>';
+      html += '</div></div>';
+
+      // TODAY'S P&L by ET hour
+      html += '<div style="color:#ff8844;font-weight:700;margin-bottom:4px">Today (US ET '+todayET+') — '+fmtPnl(todayPnl)+' over '+todaySettles+' settles</div>';
+      html += '<div style="font-size:0.72em;color:#333;margin-bottom:10px;display:flex;gap:6px;flex-wrap:wrap">';
+      const hours = Object.keys(byHour).map(Number).sort((a,b)=>a-b);
+      if (hours.length === 0) {
+        html += '<span style="color:#888">No settles yet today</span>';
+      } else {
+        // Show every hour from first to now to expose gaps
+        const firstH = hours[0], lastH = nowET.getUTCHours();
+        for (let h=firstH; h<=lastH; h++) {
+          const d = byHour[h];
+          const bg = d ? (d.pnl>=0?'#e8f8ef':'#fdecee') : '#f5f5f5';
+          const col = d ? (d.pnl>=0?'#00994d':'#c12c3b') : '#aaa';
+          const lbl = d ? (d.pnl>=0?'+$':'-$')+Math.abs(d.pnl).toFixed(0) : 'GAP';
+          html += '<span style="background:'+bg+';border:1px solid #ddd;padding:2px 6px;border-radius:3px;color:'+col+';font-family:monospace">'+String(h).padStart(2,'0')+'h '+lbl+(d?' ('+d.n+')':'')+'</span>';
+        }
+      }
+      html += '</div>';
+
+      // Per-engine strategy performance (live)
+      html += '<div style="color:#ffaa44;font-weight:700;margin-bottom:6px">Strategy Performance (live)</div>';
+      html += '<div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:10px">';
+      Object.entries(engines).filter(([e,d])=>d.w+d.l+d.o>0).sort((a,b)=>b[1].pnl-a[1].pnl).forEach(([eng,d])=>{
+        const c = engColor(eng);
+        const settled = d.w+d.l;
+        const wr = settled>0 ? (d.w/settled*100).toFixed(1)+'%' : '—';
+        const roi = d.bet>0 ? (d.pnl/d.bet*100).toFixed(2)+'%' : '—';
+        html += '<div style="background:#f0f0f0;border-left:2px solid '+c+';padding:4px 8px;font-size:0.76em;min-width:140px">';
+        html += '<div style="color:'+c+';font-weight:700">'+engLabel(eng)+'</div>';
+        html += '<div>'+d.w+'W / '+d.l+'L · <span style="color:#555">'+d.o+' open</span></div>';
+        html += '<div>WR '+wr+' · ROI '+roi+'</div>';
+        html += '<div>P&amp;L: '+fmtPnl(d.pnl)+'</div>';
+        html += '</div>';
+      });
+      html += '</div>';
+
+      // ── CAPITAL ALLOCATION (live: config targets vs actual deployed)
+      const alloc = cfg.capital_allocation || {};
+      const caps  = cfg.engine_caps || {};
+      const deployedByEng = {};
+      openTrades.forEach(t => {
+        const e = t.engine || t.type || 'UNKNOWN';
+        deployedByEng[e] = (deployedByEng[e]||0) + (t.bet_size||0);
+      });
+      const allocRows = Object.entries(alloc).filter(([k])=>!k.startsWith('_'));
+      if (allocRows.length) {
+        html += '<div style="color:#88aaff;font-weight:700;margin-bottom:4px;margin-top:12px">Capital Allocation (targets vs live)</div>';
+        html += '<div style="display:flex;flex-direction:column;gap:3px;margin-bottom:10px">';
+        allocRows.forEach(([eng, pct]) => {
+          const target = bankroll * (pct||0);
+          const actual = deployedByEng[eng] || 0;
+          const cap    = caps[eng] || 0;
+          const util   = target>0 ? (actual/target*100) : 0;
+          const barColor = util>100 ? '#ee3344' : util>80 ? '#ffaa00' : util>30 ? '#00cc66' : '#888';
+          const barW = Math.min(100, util).toFixed(0);
+          html += '<div style="display:flex;align-items:center;gap:8px;font-size:0.74em">';
+          html += '<span style="min-width:95px;color:'+engColor(eng)+';font-weight:600">'+engLabel(eng)+'</span>';
+          html += '<span style="min-width:70px;color:#555">target $'+target.toFixed(0)+'</span>';
+          html += '<span style="min-width:70px;color:#111">live $'+actual.toFixed(0)+'</span>';
+          html += '<span style="min-width:55px;color:'+barColor+';font-weight:600">'+util.toFixed(0)+'%</span>';
+          html += '<div style="flex:1;background:#eee;height:6px;border-radius:3px;overflow:hidden"><div style="width:'+barW+'%;height:100%;background:'+barColor+'"></div></div>';
+          html += '<span style="min-width:60px;color:#888;text-align:right">cap '+cap+'</span>';
+          html += '</div>';
+        });
+        // Kalshi + Arb lines (separate pools, not in capital_allocation config)
+        const kalshiOpen = kalshiTrades.filter(t=>t.status==='OPEN');
+        const arbOpen    = arbTrades.filter(t=>t.status==='OPEN');
+        const kalshiDeployed = kalshiOpen.reduce((s,t)=>s+(t.bet_size||0),0);
+        const arbDeployed    = arbOpen.reduce((s,t)=>s+((t.leg_a&&t.leg_a.bet)||0)+((t.leg_b&&t.leg_b.bet)||0),0);
+        html += '<div style="display:flex;align-items:center;gap:8px;font-size:0.74em">';
+        html += '<span style="min-width:95px;color:#1d9bf0;font-weight:600">KALSHI</span>';
+        html += '<span style="min-width:70px;color:#555">live pool</span>';
+        html += '<span style="min-width:70px;color:#111">live $'+kalshiDeployed.toFixed(0)+'</span>';
+        html += '<span style="min-width:55px;color:#888">'+kalshiTrades.length+' trades</span>';
+        html += '<span style="color:#555;font-size:0.92em">'+kalshiOpen.length+' open</span></div>';
+        html += '<div style="display:flex;align-items:center;gap:8px;font-size:0.74em">';
+        html += '<span style="min-width:95px;color:#ffaa00;font-weight:600">ARBITRAGE</span>';
+        html += '<span style="min-width:70px;color:#555">2-leg pool</span>';
+        html += '<span style="min-width:70px;color:#111">live $'+arbDeployed.toFixed(0)+'</span>';
+        html += '<span style="min-width:55px;color:#888">'+arbTrades.length+' trades</span>';
+        html += '<span style="color:#555;font-size:0.92em">'+arbOpen.length+' open</span></div>';
+        html += '</div>';
+      }
+
+      // ── WARNINGS / SUGGESTIONS / OK (computed live from data)
+      const warnings = [...issues];  // carry over live issues
+      const suggestions = [];
+      const oks = [];
+
+      // Engine-level warnings & oks
+      Object.entries(engines).forEach(([eng, d]) => {
+        const settled = d.w + d.l;
+        if (settled >= 5) {
+          const wr = d.w / settled * 100;
+          if (wr < 45) warnings.push(eng+' WR '+wr.toFixed(0)+'% on '+settled+' settled — review strategy');
+          else if (wr >= 80 && d.pnl > 5) oks.push(eng+' healthy: '+wr.toFixed(0)+'% WR · +$'+d.pnl.toFixed(0));
+        }
+        if (d.pnl < -20) warnings.push(eng+' drawdown '+fmtPnl(d.pnl).replace(/<[^>]+>/g,'').replace(/\$/,'$')+' — engine bleeding');
+      });
+
+      // Concentration
+      const exposurePct = bankroll>0 ? (deployed/bankroll*100) : 0;
+      if (exposurePct > 70) warnings.push('High exposure: $'+deployed.toFixed(0)+' deployed ('+exposurePct.toFixed(0)+'% of bankroll)');
+      else if (exposurePct > 20) oks.push('Balanced exposure: '+exposurePct.toFixed(0)+'% of bankroll deployed');
+
+      // Suggestions — NC headroom
+      const ncDeployed = deployedByEng['NEAR_CERTAIN'] || 0;
+      const ncTarget = bankroll * (alloc.NEAR_CERTAIN || 0);
+      if (ncTarget > 0 && ncDeployed < ncTarget * 0.5 && (engines.NEAR_CERTAIN?.w || 0) > (engines.NEAR_CERTAIN?.l || 0)) {
+        suggestions.push('NC underdeployed: $'+ncDeployed.toFixed(0)+' of $'+ncTarget.toFixed(0)+' target — room to scale if markets available');
+      }
+      // Kalshi suggestion
+      const kSettled = kalshiTrades.filter(t=>t.status==='WON'||t.status==='LOST');
+      const kWon = kSettled.filter(t=>t.status==='WON').length;
+      const kPnl = kSettled.reduce((s,t)=>s+(t.pnl||0),0);
+      if (kSettled.length >= 3) {
+        const kwr = kWon/kSettled.length*100;
+        suggestions.push('Kalshi: '+kWon+'W/'+(kSettled.length-kWon)+'L ('+kwr.toFixed(0)+'% WR · '+(kPnl>=0?'+$':'-$')+Math.abs(kPnl).toFixed(2)+')');
+      } else if (kalshiTrades.length > 0) {
+        suggestions.push('Kalshi collecting data: '+kalshiTrades.length+' trades, '+kSettled.length+' settled so far');
+      }
+      // Arb suggestion
+      const arbSettled = arbTrades.filter(t=>t.status==='WON'||t.status==='LOST'||t.status==='CLOSED');
+      const arbProfit  = arbTrades.reduce((s,t)=>s+(t.guaranteed_profit||0),0);
+      if (arbTrades.length > 0) {
+        suggestions.push('Arbitrage captured $'+arbProfit.toFixed(2)+' guaranteed across '+arbTrades.length+' opportunities ('+arbSettled.length+' closed) — consider scaling leg size');
+      }
+
+      // OKs — bankroll, settles today, gap clean
+      if (realized > 0) oks.push('Bankroll up '+fmtPnl(realized).replace(/<[^>]+>/g,'')+' since start');
+      if (todaySettles >= 10) oks.push('Active day: '+todaySettles+' settles so far');
+      if (longestGapMin <= 20 && last24.length > 5) oks.push('No trading gaps in last 24h (longest '+Math.round(longestGapMin)+'min)');
+
+      // Render blocks
+      const blockHeader = (color, title, count) =>
+        '<div style="color:'+color+';font-weight:700;margin-bottom:4px;margin-top:10px">'+title+' ('+count+')</div>';
+      const line = (color, prefix, text) =>
+        '<div style="color:'+color+';font-size:0.78em;margin-bottom:2px">'+prefix+' '+esc(text)+'</div>';
+
+      html += blockHeader('#ee3344', 'Warnings', warnings.length);
+      if (warnings.length) warnings.slice(0,10).forEach(s=>{ html += line('#ee3344', '⚠', s); });
+      else html += '<div style="color:#555;font-size:0.78em">✓ No warnings</div>';
+
+      html += blockHeader('#ffaa00', 'Suggestions', suggestions.length);
+      if (suggestions.length) suggestions.forEach(s=>{ html += line('#ffaa00', '→', s); });
+      else html += '<div style="color:#555;font-size:0.78em">No suggestions — nothing to optimize right now</div>';
+
+      html += blockHeader('#00cc66', 'Healthy / OK', oks.length);
+      if (oks.length) oks.forEach(s=>{ html += line('#00cc66', '✓', s); });
+      else html += '<div style="color:#555;font-size:0.78em">No healthy signals computed (need more data)</div>';
+
+      el.innerHTML = html;
+      const countEl = document.getElementById('audit-count');
+      if (countEl) countEl.textContent = warnings.length+' warn · '+suggestions.length+' sug · '+oks.length+' ok';
+    } catch(e) {
+      if (el) el.innerHTML = '<div class="dim">Audit error: '+esc(e.message)+'</div>';
+    }
+  }
+
+  // ── TESTING LAB — reads live config.json + shows locked structural decisions
+  // No stale lab.json dependency. Source of truth = config.json + bot.py locked params.
+  async function renderLab() {
+    const el = document.getElementById('lab-panel');
+    const countEl = document.getElementById('lab-count');
+    if (!el) return;
+    try {
+      const CFG_URL = 'https://shaunpatrickstewart.github.io/trades/config.json?_l='+Date.now();
+      const TRADES_URL = 'https://shaunpatrickstewart.github.io/trades/trades.jsonl?_l='+Date.now();
+      const [cfgR, tradesR] = await Promise.all([
+        fetch(CFG_URL).then(r=>r.json()),
+        fetch(TRADES_URL).then(r=>r.text())
+      ]);
+      const cfg = cfgR;
+      const trades = tradesR.trim().split('\n').filter(Boolean)
+        .map(l=>{try{return JSON.parse(l);}catch{return null;}}).filter(Boolean);
+
+      // Compute live evidence for each experiment from JSONL
+      const engineStats = (engName, minDate) => {
+        const sub = trades.filter(t => {
+          if ((t.engine||t.type) !== engName) return false;
+          if (minDate && (t.timestamp||'') < minDate) return false;
+          return t.status==='WON' || t.status==='LOST';
+        });
+        const w = sub.filter(t=>t.status==='WON').length;
+        const l = sub.filter(t=>t.status==='LOST').length;
+        const pnl = sub.reduce((s,t)=>s+(t.pnl||0),0);
+        return {w,l,n:w+l,pnl,wr: w+l>0 ? (w/(w+l)*100).toFixed(1) : '—'};
+      };
+      const ncStats = engineStats('NEAR_CERTAIN', '2026-04-25');
+      const snipeStats = engineStats('SNIPE', '2026-05-02');
+
+      // 2026-05-12 frontend-parity purge: panel now reflects current
+      // architecture (NC v3 + snipe — two engines, both via config.json
+      // single-flip per polybot/CLAUDE.md "Trading Strategy" canon). Six
+      // retired-feature cards removed in this commit; see git log for the
+      // engine-retirement dates and the rationale per entry. Audit_check.sh
+      // Dim 35 R5 blocks regression of any retired-engine name back into
+      // trades-site source.
+      const experiments = [
+        {
+          name: 'NC v3 — 70%-85% probability band (ALLOW_TABLE)',
+          status: (cfg.engine_caps?.NEAR_CERTAIN||0) > 0 ? 'LIVE' : 'PAPER',
+          hypothesis: 'Edge from non-data-driven blue-chip markets with confirmed drift; (sub_category, match_type) cells whitelisted per 30-day backtest.',
+          priority: 'LIVE',
+          result: ncStats.n > 0 ? `${ncStats.w}W / ${ncStats.l}L (${ncStats.wr}% WR) · ${ncStats.pnl>=0?'+':''}$${ncStats.pnl.toFixed(2)} since 2026-04-25` : 'Awaiting trades',
+          config: `engine_caps.NEAR_CERTAIN = ${cfg.engine_caps?.NEAR_CERTAIN??0} (0 = paper, >0 = live max-OPEN cap). Bet sizing pct = ${cfg.bet_sizing?.pct_of_bankroll??'—'}%.`,
+        },
+        {
+          name: 'NC v3 hours_left < 1h SKIP',
+          status: 'LIVE',
+          hypothesis: 'Skip markets resolving in <1h — exit ladder can\'t fill against thin near-close liquidity.',
+          priority: 'LIVE',
+          result: 'Active on every NC scan. LOCKED — never remove (see polybot/CLAUDE.md).',
+          config: 'hours_left < 1 → reject (nc_v3_scan gate)',
+        },
+        {
+          name: 'NC v3 exit fill ladder (sell @ 0.96 / 0.97 / 0.98)',
+          status: 'LIVE',
+          hypothesis: 'Tiered partial-exit ladder captures the outer-band gap before settlement.',
+          priority: 'LIVE',
+          result: `Rungs read live from config.json:strategy.nc_strategy.exit_ladder. Hard stop = ${cfg.strategy?.nc_strategy?.hard_stop_price??0.60}. 12% range filter over 1h lookback.`,
+          config: 'sell_early.py + CLOB throttle.',
+        },
+        {
+          name: 'Snipe — Binance WS oracle, micro crypto markets',
+          status: cfg.snipe_engine?.live_mode === 'live' ? 'LIVE' : (cfg.snipe_engine?.live_mode === 'shadow' ? 'SHADOW' : 'PAPER'),
+          hypothesis: 'Crypto micro markets T-30s before resolution can be sniped from the oracle price.',
+          priority: 'LIVE',
+          result: snipeStats.n > 0 ? `${snipeStats.w}W / ${snipeStats.l}L (${snipeStats.wr}% WR) · ${snipeStats.pnl>=0?'+':''}$${snipeStats.pnl.toFixed(2)} since 2026-05-02` : 'Collecting data',
+          config: `snipe_engine.live_mode = ${cfg.snipe_engine?.live_mode||'off'} (off = paper, shadow = $0 fire, live = real money). T-30s evaluate window.`,
+        },
+        {
+          name: 'Chain reconciliation — every 5min',
+          status: 'LIVE',
+          hypothesis: 'On-chain pUSD + collateral is the source of truth; JSONL must reconcile within $1 or trading pauses.',
+          priority: 'LIVE',
+          result: 'chain_pnl_reconciler.timer — pulls Polygon RPC every 5min, writes bankroll.json, notifies + pauses on >$1 drift.',
+          config: 'chain-pnl-reconciler.service (VPS-only).',
+        },
+      ];
+
+      const statusColor = { LIVE:'#00cc66', IN_PROGRESS:'#ffcc00', PLANNED:'#88aaff', ANALYZING:'#ff8844', BLOCKED:'#ff4444', COMPLETE:'#aaaaaa' };
+      const statusIcon = { LIVE:'&#9679; LIVE', IN_PROGRESS:'&#9654; RUNNING', PLANNED:'&#9675; PLANNED', ANALYZING:'&#9670; ANALYZING', BLOCKED:'&#9888; PAUSED', COMPLETE:'&#10003; DONE' };
+      const priBadge = p =>
+        p==='HIGH'   ? '<span style="background:#ff4444;color:#fff;padding:1px 5px;border-radius:2px;font-size:0.68em;font-weight:700">HIGH</span>' :
+        p==='MEDIUM' ? '<span style="background:#ff8844;color:#fff;padding:1px 5px;border-radius:2px;font-size:0.68em;font-weight:700">MED</span>' :
+        p==='LIVE'   ? '<span style="background:#00cc66;color:#000;padding:1px 5px;border-radius:2px;font-size:0.68em;font-weight:700">LIVE</span>' : '';
+
+      if (countEl) countEl.textContent = experiments.length + ' experiments · live from config.json';
+      let html = `<div style="color:#555;font-size:0.7em;margin-bottom:8px">Computed LIVE from config.json (${trades.length} trades analyzed). Results update every page refresh — no stale cache.</div>`;
+      html += '<div style="display:flex;flex-direction:column;gap:10px">';
+      experiments.forEach(e => {
+        const sc = statusColor[e.status] || '#888';
+        const si = statusIcon[e.status] || e.status;
+        html += `<div style="background:#f5f5f5;border-left:3px solid ${sc};padding:8px 10px;border-radius:0 4px 4px 0">`;
+        html += `<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:4px">`;
+        html += `<span style="color:${sc};font-weight:700;font-size:0.82em">${si} &nbsp; ${esc(e.name)}</span>`;
+        html += `<span>${priBadge(e.priority)}</span>`;
+        html += `</div>`;
+        html += `<div style="color:#666;font-size:0.75em;margin-bottom:3px">${esc(e.hypothesis)}</div>`;
+        const rc = e.status==='LIVE' ? '#00cc66' : e.status==='BLOCKED' ? '#ff4444' : '#888';
+        html += `<div style="color:${rc};font-size:0.72em;margin-top:3px"><b>Result:</b> ${esc(e.result)}</div>`;
+        if (e.config) html += `<div style="color:#888;font-size:0.7em;margin-top:2px;font-family:monospace">${esc(e.config)}</div>`;
+        html += `</div>`;
+      });
+      html += '</div>';
+      el.innerHTML = html;
+    } catch(e) {
+      if (el) el.innerHTML = '<div class="dim">Lab render error: '+esc(e.message)+'</div>';
+    }
+  }
+
+  // ── MAIN REFRESH
+  let _refreshing = false;
+  async function refresh() {
+    if (_refreshing) return;  // guard against overlapping fetches
+    _refreshing = true;
+    document.getElementById('hdr-updated').textContent =
+      'Updated '+new Date().toLocaleTimeString()+' — next in 30s  |  press R to force refresh';
+    try {
+      const results = await Promise.allSettled([
+        fetchAllWallets(), fetchScannerData(), fetchEliteWallets()
+      ]);
+      const wallets      = results[0].status==='fulfilled' ? results[0].value : [];
+      const scannerData  = results[1].status==='fulfilled' ? results[1].value : {};
+      const eliteWallets = results[2].status==='fulfilled' ? results[2].value : [];
+
+      renderHeaderStats(wallets, scannerData);
+      renderScanner(scannerData);
+      renderWalletCards();
+      renderOpenTrades();
+      renderAudit();
+      renderSignalsFeed();
+
+      const elitePosResults = await Promise.allSettled(eliteWallets.slice(0,60).map(w=>{
+        const addr = w.address||'';
+        if (!addr) return Promise.resolve({w, pos:[]});
+        return fetchPositions(addr).then(pos=>({w,pos})).catch(()=>({w,pos:[]}));
+      }));
+      const eliteWalletPositions = elitePosResults
+        .filter(r=>r.status==='fulfilled')
+        .map(r=>r.value)
+        .filter(({pos})=>pos.some(p=>parseFloat(p.curPrice||0)<0.99));
+      renderSignals(eliteWalletPositions);
+
+      const lbPosResults = await Promise.allSettled(wallets.slice(0,25).map(w=>{
+        const addr = w.proxyWallet||w.address||'';
+        if (!addr) return Promise.resolve({w, pos:[]});
+        return fetchPositions(addr).then(pos=>({w,pos})).catch(()=>({w,pos:[]}));
+      }));
+      const walletPositions = lbPosResults.filter(r=>r.status==='fulfilled').map(r=>r.value);
+      renderWallets(wallets, walletPositions);
+    } catch(e) {
+      console.error('Refresh error:', e);
+      document.getElementById('hdr-updated').textContent = 'Error: '+e.message+' — press R to retry';
+    } finally {
+      _refreshing = false;
+    }
+  }
+
+  // ── RENDER: Live News & X Signals
+  async function renderSignalsFeed() {
+    const el = document.getElementById('pm-news-signals');
+    if (!el) return;
+    try {
+      const SIG_URL = 'https://shaunpatrickstewart.github.io/trades/signals.json?v='+Date.now();
+      const data = await fetch(SIG_URL).then(r=>r.json());
+      const signals = data.signals || [];
+      const stats   = data.stats   || {};
+      const scanAge = data.last_scan ? Math.round((Date.now()-new Date(data.last_scan))/60000) : null;
+
+      const countEl = document.getElementById('signals-count');
+      if (countEl) countEl.textContent = '('+signals.length+' signals · scan '+(scanAge!=null?scanAge+'m ago':'pending')+')';
+
+      if (!signals.length) {
+        el.innerHTML = '<div class="dim">No signals yet — first scan in progress...</div>';
+        return;
+      }
+
+      // Stats bar
+      let html = '<div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:8px">';
+      const sBar = (label, val, color) =>
+        '<div style="background:#f5f5f5;border:1px solid #dddddd;border-radius:3px;padding:4px 10px;font-size:0.75em">'+
+        '<span style="color:'+color+';font-weight:700">'+val+'</span> <span style="color:#444">'+label+'</span></div>';
+      html += sBar('ENTER', stats.enter||0, '#ff4400');
+      html += sBar('ALERT', stats.alert||0, '#ffaa00');
+      html += sBar('WATCH', stats.watch||0, '#555');
+      html += sBar('HIGH CONF', stats.high_conf||0, '#00ff88');
+      html += sBar('MARKETS SCANNED', data.markets_scanned||0, '#88aaff');
+      html += '</div>';
+
+      // Signal cards
+      html += '<div style="display:flex;flex-direction:column;gap:6px">';
+      signals.forEach(s=>{
+        const actionColor = s.action==='ENTER'?'#ff4400':s.action==='ALERT'?'#ffaa00':'#444';
+        const confColor   = s.confidence>=0.80?'#00ff88':s.confidence>=0.65?'#ffcc44':'#888';
+        const dirBadge    = s.direction
+          ? '<span style="background:'+(s.direction==='YES'?'#003300':'#330000')+';color:'+(s.direction==='YES'?'#00ff88':'#ff4444')+';padding:1px 6px;border-radius:2px;font-size:0.7em;font-weight:700">'+s.direction+'</span> '
+          : '';
+        const srcBadge    = s.source==='PERPLEXITY'
+          ? '<span style="color:#88aaff;font-size:0.68em">PERPLEXITY</span>'
+          : '<span style="color:#1d9bf0;font-size:0.68em">X/GROK</span>';
+
+        html += '<div style="background:#f2f2f2;border:1px solid #dddddd;border-left:3px solid '+actionColor+';border-radius:4px;padding:7px 10px">';
+        html += '<div style="display:flex;align-items:flex-start;justify-content:space-between;gap:6px">';
+        html += '<div style="flex:1">';
+        html += '<div style="font-size:0.82em;color:#333;font-weight:600;margin-bottom:3px">'+dirBadge+esc(s.headline)+'</div>';
+        if (s.matched_markets && s.matched_markets.length) {
+          html += '<div style="font-size:0.7em;color:#555;margin-bottom:2px">→ '+esc(s.matched_markets[0])+'</div>';
+        }
+        if (s.raw && s.raw !== s.headline) {
+          html += '<div style="font-size:0.7em;color:#444;margin-top:2px">'+esc(s.raw.substring(0,180))+'...</div>';
+        }
+        html += '</div>';
+        html += '<div style="text-align:right;flex-shrink:0;min-width:80px">';
+        html += '<div style="font-size:0.8em;font-weight:700;color:'+actionColor+'">'+s.action+'</div>';
+        html += '<div style="font-size:0.78em;color:'+confColor+'">'+Math.round(s.confidence*100)+'%</div>';
+        html += '<div style="margin-top:2px">'+srcBadge+'</div>';
+        html += s.x_link ? '<div style="margin-top:2px"><a href="'+s.x_link+'" target="_blank" style="color:#1d9bf0;font-size:0.65em">View post ↗</a></div>' : '';
+        html += '</div></div>';
+        html += '<div style="font-size:0.65em;color:#333;margin-top:3px">'+
+          (s.category||'')+' · '+(s.timestamp?s.timestamp.slice(11,16)+' UTC':'')+
+          '</div>';
+        html += '</div>';
+      });
+      html += '</div>';
+      el.innerHTML = html;
+    } catch(e) {
+      if (el) el.innerHTML = '<div class="dim">Signals loading... ('+esc(e.message)+')</div>';
+    }
+  }
+
+  refresh();
+  renderOpenTrades();
+  renderAudit();
+  renderLab();
+  renderSignalsFeed();
+  setInterval(refresh, REFRESH);
+  // renderOpenTrades: called every 2nd refresh cycle (~60s) inside refresh() — no separate timer needed
+  // Audit/Lab now compute LIVE from JSONL — refresh every 60s so they're always current
+  setInterval(renderAudit, 60000);
+  setInterval(renderLab, 60000);
+  setInterval(renderSignalsFeed, 300000);  // refresh signals every 5 min
+
+})();

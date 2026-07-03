@@ -1,0 +1,171 @@
+POLYMARKET STRATEGY — ROUND 3: RECONCILE YOUR RUIN VERDICT WITH YOUR PRIOR CONSENSUS
+═══════════════════════════════════════════════════════════════════════════════
+
+You (Gemini 3 Pro, Anthropic claude-sonnet-4, Grok 4.20 reasoning) are the same
+AIs that were consulted on 2026-04-23 for the original strategy design. In
+Round 1+2 TODAY (2026-04-25) you told Shaun he is statistically likely to join
+the 87% who lose money, and gave ruin probabilities of 6%–88% depending on
+assumptions.
+
+BUT — on 2026-04-23 you collectively produced the 10-step action plan BELOW
+which Shaun is now implementing. That plan was optimistic and growth-oriented.
+
+Your job now is to RECONCILE those two positions and answer the questions below.
+
+═══════════════════════════════════════════════════════════════════════════════
+SHAUN'S EXACT DIRECTIVE (VERBATIM, DO NOT REWORD):
+═══════════════════════════════════════════════════════════════════════════════
+
+"im okay with going with what you say, but what would the profit be per trade
+based ono that tiny bet? if were penny trading, thats a no. their response last
+time included ways to fast pace trade, you claimed to have submitted my entire
+prompt i sent previouly, but you provided no feedback on it. i believe i haave
+a copy of theri previous response and it included a formula trade and reclaim
+funds as fast as digitally possible and to recycle winds and profit rapidly, to
+copy the papertrading process as best as we can. in paper trading i was going
+to be filthy rich off of 30-50 cent average profit per win, which is amazing if
+we could keep up with that rate. so im wondering if their response now would be
+the same regarding advice on how to speed trade and keep profit good at the
+same time. but once again, its not about profit per trade so mcu as it is
+overall income per hour and day and week. actually here is what whatever AIs
+said last time, with the goal being trading rapidly, profiting rapidly and
+matching te fake paper trading numbers as muchas possible without betting like
+a pussy, and considering we must account for the delay in the process of
+trading that paper trading didint account for. here is what gemma and whoever
+said befire per you. now continue the same session witht them, and tell them
+this is what they said previously (not grok) and to consider the goals and what
+looks right from their previous response, what looks wrong, and what other
+suggestions they may have. i mean if completing a profitable trade every ten
+minutes is possible, just like paper trading did, i want to know how that may
+be possible. once again, weigh the variables and numbers though: if trading a
+little slower, noot too mcuh slower, results in ten times the profit per trade
+and 5 times the profit as paper trading per hour or day, then we can pivot.
+Claude, copy and paste this exact prompt im giving you and feel free to add
+your own questions and insight and consideration and analysis in the prompt
+the all AIs. im really curious as to what grok will say as well."
+
+═══════════════════════════════════════════════════════════════════════════════
+YOUR 2026-04-23 PRIOR CONSENSUS (the 10-step plan Gemini + Anthropic + Perplexity
+all signed off on — Grok was not queried that session):
+═══════════════════════════════════════════════════════════════════════════════
+
+  1. Liquidate 32 stuck positions via limit-sell at best_bid - 0.005
+     — Frees ~$270 of locked capital today
+  2. Kill IPRoyal. Migrate VPS to London/EU ($5/mo DigitalOcean)
+     — Europe isn't geo-blocked → no proxy needed. Ends data bleed FOREVER
+  3. Move the strike zone to 0.80–0.88
+     — $5 @ 0.85 WR 90% = +$0.36/trade EV. 0.99+ at 99% WR = $0 EV.
+  4. Exit at 0.96, never 0.99
+     — Give 4c to market makers for guaranteed fill → recycle capital in minutes
+  5. Time-decay harvest — only trade markets closing in <4h
+     — Bypasses UMA lockup naturally
+  6. Keep DupGuard, allow MAX 2/market
+     — 2-rung ladder ($5 @ 0.88, $5 @ 0.82) without over-concentration
+  7. Haiku cache → SQLite, 12h TTL, invalidate on ±5% price move
+     — Drops $10/day → $0.50/day
+  8. 250ms queue between CLOB orders
+     — Avoids nonce collision; sustains real volume
+  9. Site reads chain directly, not cached json
+     — Real-time truth instead of stale state
+  10. Multi-wallet (3× $100) — secondary, do AFTER strategy proven
+     — 3x parallelism once the strategy actually wins
+
+═══════════════════════════════════════════════════════════════════════════════
+WHAT YOU SAID TODAY (Rounds 1+2, 2026-04-25):
+═══════════════════════════════════════════════════════════════════════════════
+
+  • Tier ladders with WR thresholds of 62%–82% depending on AI
+  • Break-even WR: 64%–72% depending on tail-risk assumption
+  • Ruin probability (bankroll < $50) at 2000 trades: 6% (Anthropic) / 88% (Gemini)
+  • All three agreed Shaun is statistically likely to join the 87% losers
+  • Recommended tier 1 bet_max: $15 (except Gemini now recommends $5)
+
+═══════════════════════════════════════════════════════════════════════════════
+THE RECONCILIATION QUESTIONS — answer ALL with specific numbers:
+═══════════════════════════════════════════════════════════════════════════════
+
+(Q1) PROFIT PER TRADE at $5 bet in the 0.80–0.88 zone:
+     - Avg profit per WIN if exit at 0.96: ____ cents
+     - Avg loss per LOSS (blended stop + gap): ____ cents
+     - Expected value per trade at assumed WR X%: ____ cents/trade
+     - At what $ per trade does the strategy stop being "penny trading"?
+
+(Q2) CAN WE MATCH PAPER TRADING SPEED (~577s median settlement)?
+     Paper trading settled in ~10 minutes via fake closed_at=end_date.
+     Live trading has UMA lag of 1-3 days IF you hold to settlement.
+     BUT: early-exit at 0.96 via CLOB limit-sell bypasses UMA entirely — fill is
+     instant when a market maker bites.
+     - What is the realistic "fill at 0.96" time distribution in minutes?
+     - What % of 0.80-0.88 entries never reach 0.96 (need stop-out)?
+     - How many completed roundtrips per hour is actually possible?
+     - Which specific market types / price bands have FASTEST roundtrip?
+
+(Q3) OVERALL INCOME PER HOUR / DAY / WEEK — the metric Shaun actually cares about:
+     Using YOUR recommended tier-1 bet size, YOUR assumed WR, and YOUR realistic
+     roundtrip time, compute:
+     - Expected PnL per hour (active trading hours)
+     - Expected PnL per day (16 hours active)
+     - Expected PnL per week
+     - Time-to-double bankroll ($400 → $800)
+     - Time-to-Phase-2 ($2000 bankroll)
+
+(Q4) RECONCILE YOUR TWO POSITIONS:
+     Your Apr-23 consensus was GROWTH-optimistic. Your Apr-25 Round-2 defense
+     was RUIN-pessimistic. Which is right? Be specific:
+     - Which assumption changed between the two analyses?
+     - If Round-2 is right (87% losers likely), were you WRONG on Apr-23?
+     - If Apr-23 is right (the 10-step plan works), were you WRONG in Round 2?
+     - State definitively: is this strategy live-worthy, or not?
+
+(Q5) THE TRADE-OFF SHAUN IS ASKING ABOUT (the key question):
+     "if trading a little slower, not too much slower, results in ten times the
+     profit per trade and 5 times the profit as paper trading per hour or day,
+     then we can pivot."
+     - Is there a bet size / WR band where slower-but-richer trades beat
+       faster-but-pennies on total weekly PnL?
+     - Give specific numbers: at what $/trade and WR does total income maximize
+       for a $400 bankroll with the 0.80-0.88 strategy?
+     - Is there a COMPLETELY DIFFERENT strategy (not 0.80-0.88) that produces
+       more income per week for $400 bankroll? (E.g. arb scanner, sports spread
+       with edge, news-driven entries, etc.)
+
+(Q6) FAST-PACE TRADE MECHANICS — the "formula trade and reclaim funds as fast
+     as digitally possible" that Shaun remembers you proposing:
+     - What specific CLOB mechanics let you recycle capital sub-minute?
+     - Is there a way to treat Polymarket like day-trading (scalp, exit fast,
+       re-deploy)?
+     - What's the hardest real-world bottleneck — CLOB rate limits, gas/signing
+       time, partial fills, or something else?
+     - Name the ONE architectural change that would let Shaun match paper
+       trading speed closest.
+
+(Q7) MULTI-WALLET PARALLELISM (item 10 from your prior consensus):
+     - Is this a real capital-recycling speedup or just a larger single account?
+     - Legal/ToS risk on Polymarket for 3+ wallets from one operator?
+     - At $400 starting capital, is it worth the operational complexity?
+
+═══════════════════════════════════════════════════════════════════════════════
+MY (Claude-Code) ADDITIONS FOR MORE DEPTH:
+═══════════════════════════════════════════════════════════════════════════════
+
+(Q8) In the paper archive, NEAR_CERTAIN avg_W was $0.48. Post-dedup, the REAL
+     per-unique-slug avg was closer to $0.30. At the 0.80-0.88 entry, a $5 bet
+     with exit 0.96 produces ~$0.60 gross per win — 2x the real paper rate IF
+     that win rate holds. Is it mathematically possible to replicate paper's
+     $4,894 sum on a live $400 bankroll, or was paper's sum primarily driven by
+     the 150x capital-recycle artifact that live cannot replicate?
+
+(Q9) If the answer to Q8 is "paper is unreplicable" — what IS the maximum
+     realistic monthly PnL on a $400 bankroll with optimal play in the
+     0.80-0.88 zone, assuming bot runs 24/7?
+
+(Q10) BRUTAL HONESTY CHECK: if you were Shaun with $400, would you:
+      (a) Run this strategy as designed?
+      (b) Run it with a $5 Tier-1 cap and grind to prove WR before scaling?
+      (c) Not run it, save the $400, and wait for more capital?
+      (d) Run a different strategy entirely?
+      State your pick and defend it in one paragraph.
+
+═══════════════════════════════════════════════════════════════════════════════
+FORMAT: Number your answers. Be concrete. Give dollar amounts, percentages,
+trade counts. No vague hedges. Max reasoning depth.

@@ -1,0 +1,112 @@
+{
+  "_schema_version": 3,
+  "_last_updated": "2026-05-25T00:00:00+00:00",
+  "_updated_by": "probability_refactor_162_dupguard_cooldown_and_relabel",
+  "_note": "bot.py reads tunable params from this file. Operator-only edits \u2014 no autonomous writer touches it. Two engines: NEAR_CERTAIN v3 (entry 0.70-0.85, exit ladder 0.96/0.97/0.98) and Snipe. Both share bet_sizing.pct_of_bankroll \u2014 ONE knob. Snipe live state is single-flip via snipe_engine.live_mode below ('off'/'shadow'/'live').",
+  "trading_host": {
+    "_note": "engine_registry.is_active_trading_host() compares socket.gethostname() to active_hostname. Only the named machine places live orders. To migrate: hostnamectl set-hostname <new> on new VPS, then update this value.",
+    "active_hostname": "polybot-mad"
+  },
+  "engine_caps": {
+    "NEAR_CERTAIN": 0
+  },
+  "price_bands": {
+    "_note": "NC v3 outer band = 70%-85% PROBABILITY band (NOT a quoted-price band). 2026-05-25 #162: the fire gate compares the market PROBABILITY (CLOB last_trade_price, gamma consensus fallback) against this band; best_ask is only a downstream fill-check. Aligned 2026-05-06 with nc_v3_scan.NC_V3_PRICE_MIN_OUTER/MAX_OUTER. Per-cell ALLOW_TABLE inside nc_v3_scan.py narrows further. ws_engine.py and nc_v3_resolution_report_v2.py read these keys \u2014 must match across both. engine_registry.py is the Strategy ABC + register/all_strategies plugin layer (restored 2026-05-10 per task #102); it does not consume price_bands.",
+    "NEAR_CERTAIN_MIN": 0.7,
+    "NEAR_CERTAIN_MAX": 0.85
+  },
+  "stop_loss": {
+    "EXIT_GAIN_THRESHOLD": 0.15,
+    "STOP_LOSS_THRESHOLD": -0.12
+  },
+  "capital_allocation": {
+    "_note": "Max % of bankroll deployable per engine. Future engines (snipe, oracle) declared here.",
+    "NEAR_CERTAIN": 1.0
+  },
+  "wallets": {
+    "_note": "Multi-wallet support. wallet_id = unique key. label = display name. platform = which exchange.",
+    "shaun_poly": {
+      "label": "Shaun",
+      "platform": "polymarket",
+      "address": "0x0a6a9a2c0cb5899aa43c739a40b1f66b1db64b0d",
+      "initial_bankroll": 0,
+      "active": true
+    }
+  },
+  "bet_sizing": {
+    "_note": "UNIFIED 2026-05-07. ONE knob: pct_of_bankroll. _compute_bet() in bot.py and snipe_engine.py both read this same value. bet = pct \u00d7 current_bankroll, with a Polymarket protocol-min skip when the computed bet falls below 5 \u00d7 entry_price. Operator directive: lowest legal % is the binding constraint at the band ceiling (NEAR_CERTAIN_MAX \u00d7 5 / bankroll). At $400 bankroll, NEAR_CERTAIN_MAX=0.85 \u2192 floor pct = 0.011. Set 0.015 for safety margin.",
+    "scheme": "smooth_pct",
+    "pct_of_bankroll": 0.015
+  },
+  "snipe_engine": {
+    "_note": "Snipe engine SINGLE-FLIP. live_mode is the only operator knob. Values: 'off' (paper, default) / 'shadow' (full LIVE wires fire, $0 risk \u2014 records to trades.jsonl with status=SHADOW_OPEN) / 'live' (real money, full CLOB POST + chain-delta verify). Unknown values default to 'off' for safety. Snipe also reads bet_sizing.pct_of_bankroll above \u2014 no separate snipe-only sizing.",
+    "live_mode": "shadow"
+  },
+  "strategy": {
+    "_note": "NC v3 only. Entry 0.70-0.85 with per-cell ALLOW_TABLE narrowing, dynamic exit ladder targeting 0.96, hard stop at 0.60 absolute, 1h volatility filter, daily-drawdown circuit breaker. Operator directive 2026-05-06.",
+    "dupguard": {
+      "_note": "MAX 2 NC positions per market enables 2-rung ladder (each rung uses full nc_pct bet). min_price_delta=0.04 prevents both rungs firing at same price. Opposing-side bets always blocked. enabled=False also disables opposite-side block (per audit fix).",
+      "enabled": true,
+      "max_bets_per_market_default": 1,
+      "per_engine": {
+        "NEAR_CERTAIN": 2
+      },
+      "min_price_delta": 0.04,
+      "_cooldown_note": "2026-05-25 #162 oscillation guard. Micro markets day-trade through the 70% band repeatedly within one window (e.g. eth-updown fired 17:22:00 then 17:22:29 \u2014 same window, prob bounced through 70% twice \u2192 43 re-fires). cooldown_sec (micros) / cooldown_sec_nc (non-micros) = min seconds between fires on the SAME market_id (either side). edge_trigger=true: only fire on an UPWARD crossing of the target probability (prior-fire prob < target); cold-start (no prior) treated as below target so the first crossing fires. prob_cross_source_tol = max disagreement (in probability, 0.05 = 5 percentage points) between CLOB last_trade and gamma consensus before one source is treated as stale and the fire is skipped.",
+      "cooldown_sec": 90,
+      "cooldown_sec_nc": 300,
+      "edge_trigger": true,
+      "prob_cross_source_tol": 0.05
+    },
+    "clob_throttle": {
+      "_note": "Polymarket CLOB enforces sequential nonces per wallet. 250ms between submissions avoids collisions. Batch endpoint /orders accepts up to 15 in one HTTP call. Responses matched by token_id (FIFO per token). batch_enabled=false pre-live (Anthropic max-reasoning C7 2026-05-06): live response shape unverified; fail-closed in clob_throttle._align_batch_responses could block ladder exits if Polymarket omits token_id per response. Re-enable after first 100 live trades confirm response shape.",
+      "enabled": true,
+      "min_interval_ms": 250,
+      "batch_size": 15,
+      "batch_enabled": false
+    },
+    "nc_strategy": {
+      "_note": "NEAR_CERTAIN v3 strategy params. Entry band per_cell ALLOW_TABLE. Knobs read at runtime by NC scanner + execute_sell + monitor.",
+      "exit_ladder": {
+        "_note": "Dynamic price ladder for sell-early. Try aim_high (0.98) first, walk down quickly. Per-rung dwell = 10s so a position never sits >30s waiting for sell-side liquidity.",
+        "rungs": [
+          0.98,
+          0.97,
+          0.96
+        ],
+        "rung_dwell_sec": 10,
+        "reliable_floor": 0.96
+      },
+      "hard_stop_price": 0.6,
+      "hard_stop_note": "Absolute price stop. Bot exits if curPrice drops below 0.60 from any entry, regardless of position-level pnl.",
+      "volatility_filter": {
+        "_note": "Multi-AI Tier 5 audit 2026-04-25: PERCENTAGE of entry price (12%), not absolute cents. Falls back to absolute cents if use_percentage=false. min_observations=4 prevents startup-blindspot trade-on-no-data.",
+        "enabled": true,
+        "lookback_hours": 1,
+        "max_range_cents": 10,
+        "use_percentage": true,
+        "max_range_pct": 0.12,
+        "min_observations": 4
+      },
+      "min_edge_pts": 9,
+      "max_hold_hours": 4,
+      "circuit_breakers": {
+        "_note": "Reset daily at UTC midnight. daily_drawdown_pct measured against bankroll snapshot at 00:00 UTC.",
+        "daily_drawdown_pct": 0.08,
+        "daily_drawdown_pause_hours": 24,
+        "consecutive_losses_review": 3
+      },
+      "_snipe_tolerance_note": "Per-engine target-snipe tolerance ABOVE the cell's band_min target. Non-micros (sports etc.) use a tight 2c window because price drifts smoothly; crypto micros use 10c because price moves in jumps via order-book sweeps and a tighter window misses fires. Read by strategy_nc_v3.py:_get_tolerance(is_micro). Bounded [0.005, 0.20] in code.",
+      "snipe_tolerance_above": 0.02,
+      "snipe_tolerance_above_micro": 0.02,
+      "_non_micro_bankroll_cap_note": "Fraction of bankroll allowed to be deployed to non-micro NC v3 fires at any one time. Micros are EXEMPT (uncapped per operator directive). Read by strategy_nc_v3.py:gate_check.",
+      "non_micro_bankroll_cap": 0.5
+    }
+  },
+  "_rpc_urls_note": "Polygon RPC endpoints used for chain balance reads (USDC.e + pUSD on proxy). bot.py:_chain_collateral_split tries these in order, returns (None, None) if all fail (see G4 atomicity contract). Bot falls back to RPC_URLS_DEFAULT in code if this key is missing \u2014 operator override here lets you switch providers without a code edit. polygon-rpc.com is API-key-gated as of 2026-05; publicnode + drpc are free public endpoints.",
+  "rpc_urls": [
+    "https://polygon-bor-rpc.publicnode.com",
+    "https://polygon.drpc.org",
+    "https://1rpc.io/matic"
+  ]
+}

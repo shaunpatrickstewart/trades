@@ -1,0 +1,72 @@
+Here is the comprehensive reasoning and design for your bet scaling ladder. I have traced the mathematics of your constraints, derived the necessary breakpoints, and mapped out the second-order effects of sizing up on an illiquid limit-order book.
+
+### 4. Let’s Start Here: The Tier 1 Prior Assumption (Question 4)
+**You asked:** *Is 65% the right prior? Break-even is 63-68% at 14% gross edge.*
+
+**No, 65% is the wrong prior.** If your prior is 65% and your break-even win rate (BEWR) is 67%, your expected value (EV) is negative. Mathematically, if you genuinely hold a 65% prior, the only rational action is to turn the bot off. 
+
+Furthermore, Polymarket prices are direct probabilities. If you are entering at `0.84`, the naive market prior is literally 84%. The reason your BEWR drops to 67% is your highly asymmetric risk profile (risking a ~30% loss to make a 14% gain via early exit at 0.96). Because you are relying on a highly restrictive 4-AI consensus filter to find edge, **your theoretical prior should be 75%.** 
+
+* **If this assumption is wrong:** You will bleed money. However, because you are trapped in Tier 1 with $15 bets, finding out your AI filter has no edge will cost you exactly ~$35 over 40 trades (an acceptable R&D expense), and the bot will cleanly fail to graduate.
+
+---
+
+### 1. The Graduation Ladder (Tier Table)
+As you increase `bet_max`, you actually change your portfolio concentration. A $3,000 bankroll capped at $15/bet requires 110 concurrent markets to hit your 55% engine limit—which is impossible to find with a strict AI filter. Upgrading `bet_max` allows the bot to concentrate its 55% allocation into the 4–5 highest-conviction markets available.
+
+Because scaling bet size on illiquid order books creates **slippage** (pushing your average loss from 30% to potentially 40%+), your BEWR *increases* as you size up. Therefore, higher tiers must demand increasingly higher WRs.
+
+| Tier | Unlock Criteria (`n` trades) | Unlock Criteria (`rolling_WR`) | Unlock Criteria (`min_bankroll`) | `bet_max` Cap | Max Market Exposure (2 rungs) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **1 (Data Gathering)** | `0` | N/A | `$0` | **$15** | $30 |
+| **2 (Proof of Concept)** | `40` | `≥ 76%` (last 40) | `$500` | **$30** | $60 |
+| **3 (Scaling)** | `100` | `≥ 78%` (last 100) | `$1,000` | **$60** | $120 |
+| **4 (Aggressive)** | `250` | `≥ 80%` (last 100) | `$2,500` | **$120** | $240 |
+| **5 (Uncapped)** | `500` | `≥ 82%` (last 250) | `$5,000` | **6% of Bankroll** | 12% of Bankroll |
+
+---
+
+### 2. Drawdown Circuit-Breakers
+Rolling win rates over long periods (like 250 trades) are too slow to react to regime changes (e.g., Polymarket liquidity dries up, or AI consensus guardrails change). You need separate, fast-acting circuit breakers.
+
+1. **The Variance Breaker:** If WR over the **last 50 trades** drops below `70%` (approaching break-even), auto-drop **one tier** immediately. Re-eval after 20 trades.
+2. **The Bankroll Breaker:** If the absolute bankroll drops below `Tier min_bankroll * 0.85` (a 15% drawdown), auto-drop **one tier**.
+3. **The Catastrophe Breaker (Second-Order Effect):** If a single trade realizes a loss **> 70%** of its position (meaning the 0.94 -> 0.92 -> 0.90 stop-loss failed due to a gap-down), immediately drop to **Tier 1**. This indicates order-book liquidity can no longer support your size.
+
+* **If wrong / too sensitive:** The bot "whipsaws" between tiers. To prevent this, once a tier is dropped, the bot is locked out of upgrading for a mandatory `n=20` trades.
+
+---
+
+### 3. Kelly & Variance Reasoning
+Let’s validate the safety of these caps using Kelly Criterion math based on your parameters:
+* **Average Entry:** 0.84
+* **Target Win:** 0.96 (Profit = +14.3% of wager)
+* **Modeled Loss:** ~30% of wager (Time-decay stop out)
+* **Tail-Risk Loss:** 100% of wager (Sudden news drops probability to 0; assuming this happens 1 in 10 losses).
+* **Blended Expected Loss:** `(0.9 * 30%) + (0.1 * 100%)` = **-37% of wager**.
+
+At an **80% Win Rate** (Tier 4 entry):
+* **Edge per dollar:** `(0.80 * 0.143) - (0.20 * 0.37) = +0.1144 - 0.0740 = +4.04%`
+* **Kelly Fraction:** `Edge / (Win * Loss) = 0.0404 / (0.143 * 0.37) ≈ 76%` of bankroll.
+
+A "Half-Kelly" (conservative) approach dictates max exposure to a single correlated bet should not exceed **~38%** of your bankroll. 
+In your system, even at the Tier 5 Uncapped level, 2 rungs at 6% equals **12% max exposure per market**. This is well within safe Half-Kelly limits, making this ladder mathematically very robust—**provided the markets are uncorrelated**.
+
+---
+
+### 5. Traps & Gotchas in this Design
+
+**Trap 1: The Slippage Paradox (Forecast if wrong)**
+* **The Assumption:** Typical losses are capped at 20-40%.
+* **The Reality:** A $15 limit sell at 0.70 will execute perfectly. A $150 limit sell at 0.70 on a thinly traded market might clear the book down to 0.40. 
+* **If wrong:** By graduating to Tiers 3 & 4, your own size causes your average loss to jump from 30% to 50%. This pushes your BEWR from 67% up to 78%. If you don't use the high `78-82%` WR gates I proposed above, scaling up will turn a profitable bot into a money-bleeding machine strictly due to self-induced slippage.
+
+**Trap 2: Correlation bypassing DupGuard**
+* **The Assumption:** DupGuard limits exposure to 2 rungs per market (12% of bankroll).
+* **The Reality:** DupGuard doesn't understand real-world correlation. If the 4-AI consensus identifies 5 different markets regarding the *exact same geopolitical event*, your bot will max out on all of them. 
+* **If wrong:** Your exposure is no longer 12%—it is 60%. If the event resolves "NO", you take a catastrophic hit that blows past your 55% engine allocation limit and violates Half-Kelly safety. *Fix: You must implement a categorical lock (e.g., max 1 market per broad category/tag).*
+
+**Trap 3: Partial Fills on the 0.96 Exit**
+* **The Assumption:** The bot exits at 0.96 successfully.
+* **The Reality:** Polymarket whales often place massive walls at 0.95 to 0.98. Your limit order at 0.96 may only get a 20% partial fill before the price decays back down. 
+* **If wrong:** The bot calculates a "Win" because it triggered a sell, but it actually ends up holding 80% of the bag down into your stop-loss logic, muddling your Win Rate tracking. *Fix: Your engine must track WR on a dollar-weighted basis, or explicitly handle orphan shares from partial fills.*

@@ -1,0 +1,50 @@
+Polymarket trading bot — bet scaling ladder design question. Need your best reasoning.
+
+=== CONTEXT: The new strategy (untested) ===
+- Engine: AGGRESSIVE
+- Entry zone: 0.80-0.88 (the "yes" side price)
+- Exit target: 0.96 (sell-early via CLOB limit order, NEVER wait for UMA resolution)
+- Stop-loss behavior: sell-early ladder at 0.94 → 0.92 → 0.90 if price drops; typical loss capped at ~20-40% of position via time-decay
+- Entry gate: 9+ "edge points" computed from 4-AI Haiku-style filter (Gemini+Grok+Anthropic+Claude consensus on market mispricing), time-decay bonus for markets closing <4h
+- DupGuard: MAX 2 positions per market (2-rung ladder, e.g. $X at 0.82 + $X at 0.88), min price delta 0.04
+- Engine allocation: 55% of bankroll
+
+=== CURRENT BET SIZING (asking you to improve) ===
+- bet_pct: 0.06  (6% of bankroll)
+- bet_min: $5.00
+- bet_max: $15.00  ← HARD CAP, does NOT scale with bankroll
+
+At $300 bankroll → 6% × 300 = $18 → capped at $15/bet
+At $3000 bankroll → 6% × 3000 = $180 → STILL capped at $15/bet  ❌
+At $10000 → also $15/bet  ❌
+
+=== HISTORICAL DATA (what we have to reason from) ===
+Paper trading archive (pre-live, 2026-04-17):
+  NEAR_CERTAIN  n=11,754  entry~0.996  WR=99.5%  avg_W=$0.48  avg_L=-$7.36  sum=+$4,894
+  SHORT_TERM    n=89      entry~0.465  WR=44.9%  avg_W=unknown avg_L=large sum=-$7
+  LONG_TERM     n=37      entry~0.460  WR=43.2%  sum=-$85
+
+Live trading since Apr 17 (tainted — penny trap at 0.99+, now deprecated):
+  312 records total, NEAR_CERTAIN WR=7.1% (broken due to IP/proxy geoblock issues; bot couldn't actually execute)
+
+THE NEW 0.80-0.88 ENTRY ZONE HAS ZERO HISTORICAL DATA. First live run starts after current migration.
+
+=== CONSTRAINTS ===
+- Polymarket CLOB minimum order: $5 (can't go below)
+- Per-market max exposure: bet_max × 2 (the 2-rung ladder)
+- User is NOT reckless — only bets on high-conviction 4-AI-screened opportunities
+- Want compound growth, not fixed-dollar stagnation as bankroll grows
+- Can't bet bigger JUST because bankroll grew — bigger bets must be earned by proven win rate
+
+=== QUESTION ===
+Design a graduated bet_max ladder with tiers gated by BOTH (a) trade count, (b) rolling win rate, and optionally (c) bankroll floor.
+Mirror the existing SHORT_TERM graduation pattern (st_graduate_n=100 trades, st_graduate_wr=0.95).
+
+Provide:
+1. Tier table: tier → unlock criteria (n_trades, min_WR, optional bankroll_floor) → bet_max dollar amount
+2. Drawdown circuit-breaker: when to auto-drop a tier
+3. Kelly/variance reasoning — at what theoretical WR does the higher cap become safe?
+4. What win rate ASSUMPTION should we use for tier 1 (pre-data) — break-even is 63-68% at 14% gross edge; is 65% the right prior?
+5. Any traps/gotchas in this design
+
+Be specific. Give dollar numbers and trade-count numbers, not vague guidance.

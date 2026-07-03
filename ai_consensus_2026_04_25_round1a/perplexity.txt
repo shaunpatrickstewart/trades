@@ -1,0 +1,7 @@
+ERROR: Perplexity API (sonar-pro + sonar) returned "Remote end closed connection
+without response" on both attempts. Tiny test prompts succeeded; large strategy
+prompts (~7KB) consistently fail. Likely their server-side safety/size limit.
+
+Not retrying. Per NEVER-Perplexity-for-code rule, this wasn't load-bearing.
+
+Round completed with 3 AIs: Gemini 3 Pro + Anthropic claude-sonnet-4 + Grok 4.20.

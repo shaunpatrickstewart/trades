@@ -1,0 +1,43 @@
+**1. Tier Table (Graduated bet_max ladder)**
+
+Bet sizing rule (applied to all tiers): `position_bet = max($5, min(0.06 × current_bankroll, tier_bet_max))`. This keeps the existing 6% target but enforces the hard dollar cap per tier. Per-market exposure remains capped at 2× bet_max (DupGuard + 0.04 min delta). Only high-conviction entries (9+ edge points from 4-AI consensus + time-decay bonus) are allowed.
+
+- **Tier 0 (Testing / Pre-Data)**: n_trades < 50, assumed_WR=0.65 (prior), bankroll_floor=$250 → **bet_max=$15**
+- **Tier 1 (Initial Validation)**: n_trades ≥50, rolling_WR ≥0.71 (last 50 trades), bankroll_floor=$600 → **bet_max=$40**
+- **Tier 2 (Proven)**: n_trades ≥150, rolling_WR ≥0.76 (last 100 trades), bankroll_floor=$1,800 → **bet_max=$95**
+- **Tier 3 (Graduate)**: n_trades ≥350, rolling_WR ≥0.79 (last 150 trades), bankroll_floor=$5,000 → **bet_max=$225**
+- **Tier 4 (Scaled/Elite)**: n_trades ≥750, rolling_WR ≥0.81 (last 200 trades) *and* lifetime_WR ≥0.77, bankroll_floor=$12,000 → **bet_max=$475** (or min($475, ~0.055 × current_bankroll) to allow limited further compounding at large sizes)
+
+This directly mirrors the SHORT_TERM pattern (graduation spirit around ~100–150 trades with a high WR bar) but calibrates the WR thresholds downward because we expect true performance in the 72–80% range for this 14% gross edge strategy (not 95%+ like NEAR_CERTAIN). The n_trades thresholds are deliberately high because this specific 0.80-0.88 + early CLOB exit + stop-ladder mechanic has *zero* historical data. Bankroll floors ensure scaling is “earned” via both performance *and* capital growth. At $10k–15k bankroll you would need Tier 3–4 (proven track record) to escape the tiny $15–$95 range that currently stagnates growth.
+
+**2. Drawdown circuit-breaker**
+
+- Drop **1 tier** immediately if *any* of: peak-to-trough drawdown from ATH >20%, rolling_WR on last 30 trades <0.62, or bankroll falls below the current tier’s floor.
+- Drop **to Tier 0** (or pause new entries for 48h) if DD >35%, rolling_WR on last 20 trades <0.55, *or* cumulative P/L since strategy start (or last tier unlock) < –15% of bankroll at the start of that period after ≥50 trades.
+- Re-qualification: Must complete ≥25 new trades meeting (or exceeding) the target tier’s rolling_WR threshold before climbing back. Re-evaluate tier eligibility after every closed trade.
+
+This is protective but not overly twitchy — normal variance in a ~75% WR strategy can produce short losing runs. It also adds the absolute P/L kill-switch you need for an untested zone.
+
+**3. Kelly/variance reasoning — when higher caps become “safe”**
+
+Assume realized economics close to your description: ~+14% on wins (0.84 avg entry → 0.96 exit), ~–23% to –27% on losses (stop-ladder at 0.94/0.92/0.90 + time decay on the remainder). This implies break-even WR ≈ 62–67% (exact number moves with realized avg loss; track this separately from raw WR).
+
+Simplified Kelly approximation for asymmetric payoff: f* ≈ (p × net_odds_on_win – q) / net_odds_on_win. At a true 76% WR this yields full-Kelly fractions of ~25–35% of bankroll. Even at a more modest true 72–74% WR, full Kelly is still >12–20%. Our 6% bet_pct is therefore a conservative fractional Kelly (roughly 1/4 to 1/6 Kelly), leaving substantial margin for parameter uncertainty, fat tails, execution slippage, and correlation across simultaneous ladders.
+
+**Higher bet_max tiers become statistically safe when the lower bound of the confidence interval on WR is comfortably above break-even (~68–70%) with acceptable ruin risk.** With binomial variance, n=50 at an observed 72% WR still has a wide 90% CI (roughly ±11–13%). By n=150–200 at observed 77–78% WR, the lower 90% CI tightens to ~71–73% — enough for positive expected growth even after slippage and with the stop-ladder. This is why the table requires n≥150 for $95+ bets and n≥350 for $225+. Below these thresholds, a streak of stops or a regime shift can turn a seemingly positive strategy negative in real dollars. Variance dominates early; the tier gates are deliberately data-heavy.
+
+**4. Win rate assumption for Tier 1 (pre-data)**
+
+**Yes, 65% is the right neutral prior.** It sits squarely in the middle of your stated 63–68% break-even range at 14% gross edge. It is slightly optimistic (reflecting the 4-AI Haiku-style filter + 9+ edge points + <4h time-decay bonus) without being reckless. We should not assume 72%+ until live data arrives. A Bayesian update (beta prior roughly equivalent to 20–30 pseudo-observations at 65%) is ideal once the first 30–50 trades are in. If early results come in at 58–62%, the strategy should be paused or re-examined even at Tier 0 sizing.
+
+**5. Traps/gotchas in this design**
+
+- **Liquidity and slippage (biggest risk at scale)**: Polymarket CLOB is often thin above $50–100 notional, especially near 0.96 or on the stop ladder (0.94→0.92→0.90). Realized edge will likely be 8–11% net on wins and –28% to –35% on stops vs. paper. Add a pre-entry liquidity/depth check; auto-reduce size 30–50% if opposing volume is insufficient. Track realized $/trade (not just WR) as a secondary graduation gate.
+- **Small-sample variance / lucky streaks**: n=40–60 is still noisy. A hot streak could unlock Tier 1 prematurely. The rolling_WR windows (last 50/100/150) and volatility breaker (5 losses in ~7–10 trades or recent WR <0.62) mitigate this.
+- **Correlation and concentration**: Even with DupGuard (max 2 per market, 0.04 delta), 8–12 concurrent positions in related events can create effective 15–30% bankroll exposure. Add a global active-exposure cap (e.g. 25–30% of bankroll across all open ladders).
+- **Realized economics vs. theory**: If stops trigger more often or decay is worse than modeled, effective BE WR rises to ~70%+. Pure WR gating is insufficient — require cumulative net P/L > +0.8% of total capital risked as a co-condition for Tier 2+.
+- **Model/AI decay or regime shift**: The 4-AI consensus performed well on NEAR_CERTAIN paper data but live execution broke earlier versions. The new zone has zero history. If net P/L is flat or negative after ~75–100 trades, freeze at Tier 0 and review filters. Edge_points should be logged and back-tested against outcomes.
+- **Bankroll scaling at the high end**: Pure dollar bet_max creates stagnation above ~$20–30k. Tier 4’s soft % cap helps, but you may eventually want a sqrt(bankroll) multiplier post-Tier 3.
+- **Operational**: Min $5 order is respected, but very small bankrolls (<$100) should probably pause. Proxy/geoblock issues from the prior live run must be solved before scaling. Early-exit CLOB limit orders at 0.96 introduce fill risk vs. “never wait for UMA.”
+
+This design prioritizes survival and data collection in an untested zone while still allowing meaningful compounding once the edge is demonstrated. It is deliberately slower to scale than a proven strategy would be. Start live at Tier 0 only, log every edge_point breakdown, realized fill prices, and exact P/L, then tighten thresholds after the first 100 trades if the data justifies it. The combination of high n gates, rolling WR, bankroll floors, and DD breakers should prevent reckless growth while still rewarding sustained outperformance.

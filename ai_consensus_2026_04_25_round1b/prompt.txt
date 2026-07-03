@@ -1,0 +1,155 @@
+POLYMARKET TRADING BOT — FULL STRATEGY + PRODUCT ANALYSIS
+═══════════════════════════════════════════════════════════════════════════════
+Use MAXIMUM reasoning. Multi-step deep analysis expected.
+Cover EVERY sub-question below. Provide SPECIFIC numbers not vague guidance.
+
+USER ORIGINAL DIRECTIVE (VERBATIM):
+"claude do a all AI analysis with maximum reasoning and deep thinking on the
+below, to put together the perfect product and plan. we need to know or find
+out, analyze, and/or carry out a few things before we proceed with strategy
+and filters and pricing."
+
+═══ CURRENT LIVE STATE (2026-04-25) ═══
+• Bot: inactive (Frankfurt migration in progress, IPRoyal exhausted)
+• Bankroll (chain): $402.95
+• Initial deposit: $186.2
+• Realized PnL (since Apr 19 post-cleanup live trades): +$36.80
+• Trades.jsonl (post Apr 20 rebuild): 46 records
+  - 18 WON, 6 LOST, 6 OPEN, 16 CANCELLED
+  - SHORT_TERM engine: 10W / 6L / 3 open, +$34.98 PnL (wallet-copy MLB trades)
+  - NEAR_CERTAIN engine: 8W / 0L / 3 open, +$1.82 PnL (still hunting pennies)
+• Entry zone being PROPOSED: 0.80 - 0.88 (AGGRESSIVE engine, untested on live)
+• Exit target: 0.96 via CLOB limit-sell, never wait for UMA
+• Per-position max exposure: bet_max × 2 (2-rung ladder, min price delta 0.04)
+• Engine allocation: 55% of bankroll for AGGRESSIVE engine
+
+═══ HISTORICAL PAPER DATA (Apr 3-17 paper simulator) ═══
+Paper archive (pre-live, archived 2026-04-17):
+  NEAR_CERTAIN  n=11,754  entry~0.996  WR=99.5%  avg_W=$0.48  avg_L=-$7.36  sum=+$4,894
+                (Post-dedup: 1,316 unique slugs, $399.56 real PnL. 12.2x inflation from duplicate bids.)
+                (Settlement median: 577 seconds via `closed_at = end_date` — FAKE; real UMA is 1-3 days)
+  SHORT_TERM    n=89      entry~0.465  WR=44.9%  sum=-$7
+  LONG_TERM     n=37      entry~0.460  WR=43.2%  sum=-$85
+
+═══ TAINTED LIVE DATA (Apr 17-20, NOW PURGED) ═══
+312 records existed; 263 "NC LOSSES" were all IPRoyal geoblock rejects, not real trade losses.
+After Apr 20 rebuild: 46 clean records remain. Baseline reset.
+
+═══ CONSTRAINTS ═══
+• Polymarket CLOB minimum order: $5
+• Fees: 2 × p × (1-p) — near zero at 0.99; ~4% round-trip at 0.80
+• UMA resolution lag: 1-3 days (cannot be avoided for unsold positions)
+• Sell-early is the PRIMARY exit; redeem on-chain is fallback
+• DupGuard: max 2 positions per market
+• User bankroll is small ($400), wants aggressive growth not capital preservation
+• User hates the "penny-profit pussy bets" at 0.99 — wants real edge per trade
+
+═══ THE 34 QUESTIONS (answer ALL with max reasoning) ═══
+
+(1) What made the money in the successful last few paper-trading days? What
+    range of profit-per-trade produced the bulk of income? Did duplicate/2-rung
+    laddering amplify returns or was it an artifact? Target profit range per
+    trade given $400 bankroll.
+
+(2) Is sub-10-minute settlement replicable on LIVE Polymarket given UMA's 1-3d
+    lag? Sell-early at 0.96-0.99 is the candidate. Provide mechanism + realistic
+    throughput (trades/day).
+
+(3) Banks use high-volume low-margin. Does that translate to prediction markets?
+    Legitimacy of 2-rung ladder (e.g. $10@0.82 + $10@0.88)?
+
+(4) Why are bets at 0.99 producing only pennies? Is it bet size, entry price,
+    or both? At what entry price do we cross into >$1 per trade at $10-30 bets?
+
+(5) Should we ONLY target 99% markets, or lower (0.80-0.95) as well?
+
+(6) How was $1/trade originally calculated? Has something structurally changed?
+
+(7) How would YOU design rapid-trading on Polymarket to produce paper-like
+    throughput (100+ settled/day) given UMA lag? Multi-wallet? Sell-early
+    ladders? Pre-close entries?
+
+(8) Irrelevant to strategy — skip.
+
+(9) IPRoyal residential proxy burn rate: 3GB consumed in days without trading.
+    Root cause analysis + alternative providers or EU-VPS direct-connect.
+
+(10) Multi-bet at different prices vs 1 big bet — collateral math, capital
+     efficiency, expected value difference.
+
+(11) Paper made profit via duplicate bids counted as independent trades. Is
+     that actually replicable live, or pure simulator artifact? If replicable,
+     how?
+
+(12) CLOB enforces one bid per token+price — does that kill multi-rung ladders?
+     Rate-limit design for 10+ concurrent bid submissions.
+
+(13) DupGuard shipped yesterday. Should it be reversed if laddering is proven
+     legitimate?
+
+(14) How did 30% ROI happen on paper? Was it real edge or duplicate inflation?
+
+(15) Haiku API cost control — cache design for market-level decisions.
+
+(16) 0.99 vs 0.80-0.88 betting — at a $400 bankroll, is aggressive better?
+     Provide tier ladder: bet_max by (trade_count, rolling_WR, bankroll_floor).
+
+(17) 32 stuck positions tied up $287 for days at $3 total profit. Is this
+     structural (UMA lag) or fixable?
+
+(18) Fix the "no profit, capital locked" problem. Can stuck positions be
+     cancelled, or must we wait?
+
+(19) Aggressive betting in 0.80-0.90 range — is this mathematically safe for
+     $400 bankroll with 4-AI edge filter (9+ edge points required)?
+
+(20) DupGuard on, bot drained APIs overnight anyway. Root cause?
+
+(21) "Betting like pussies" — quantify: if every trade were at 0.85 instead of
+     0.99, what's expected daily PnL difference?
+
+(22) Sizing tier + sell-trigger + exit strategy design.
+
+(23) Buy into markets 10 minutes before close — good or bad idea?
+
+(24) Sell-early audit — is the existing CLOB limit-sell at 0.96/0.95/0.94
+     actually firing on live positions?
+
+(25) IPRoyal migration vs direct EU-VPS connect. Frankfurt is live — does
+     it bypass geoblock without any proxy?
+
+(26) Full all-AI verdict on 0.80 range betting for small bankroll.
+
+(27) Paper's 577s median settlement — the actual mechanism. Is it genuinely
+     replicable at lower volume on live?
+
+(28) Paper recycled capital 150× faster than live can. Counter-design:
+     structural workarounds.
+
+(29) Skip — script hygiene, irrelevant to AI.
+
+(30) Multiple wallets / accounts to speed capital recycle — legality +
+     efficacy assessment.
+
+(31) The archived speed_profit_consensus.py work: Haiku cache + min-bet raise
+     $5→$12 + self-healing additions. Still worth implementing?
+
+(32) Site shows stale data — cached vs live-feed design (fixed in session).
+
+(33) Site not placing bets — root cause.
+
+(34) Original speed_profit_consensus.py plan — resurrect or bury?
+
+═══ DELIVERABLES ═══
+
+For EACH question above, provide:
+  a) Direct answer with specific numbers (dollars, percentages, trade counts)
+  b) Reasoning chain (multi-step, max depth)
+  c) Edge cases / traps / gotchas
+  d) Recommended action with explicit parameters
+
+For the bet-scaling ladder (Q16, Q19, Q21, Q22, Q26):
+  Provide a specific tier table:
+    tier | trade_count_floor | min_WR | bankroll_floor | bet_max ($)
+
+Be specific. Give numbers, not hedges.
