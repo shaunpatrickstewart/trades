@@ -1,9 +1,10 @@
 name: Deploy static site to Pages
 
-# Fixes the "Deployment failed, try again later." spam: legacy deploy-from-branch could not keep up with the
-# ~15-min bot-data pushes (deploys collided + soft-rate-limited). Actions-based Pages + a cancel-in-progress
-# concurrency group makes a new push CANCEL the in-flight deploy instead of colliding — cancelled runs don't
-# email, so the failures stop. (Stewart 2026-07-04)
+# Fixes the 15-min deploy-failure email spam: the ~15-min bot-data pushes to main each trigger a Pages deploy,
+# and overlapping deploys collide at the Pages API (only one active deploy allowed) -> intermittent
+# "Deploy to GitHub Pages" FAILURE -> email. The cure is to SERIALIZE deploys and let each COMPLETE (queue, never
+# cancel) via the concurrency block below. (Stewart 2026-07-04 — corrected: cancel-in-progress:false, not true;
+# cancelling mid-deploy was itself causing the collision failure.)
 on:
   push:
     branches: [main]
@@ -14,10 +15,12 @@ permissions:
   pages: write
   id-token: write
 
-# THE FIX: only one Pages deploy at a time; a newer push cancels the older in-flight one (no collision, no spam).
+# THE FIX: only one Pages deploy at a time, and let the in-flight one COMPLETE — the next push QUEUES behind it
+# (GitHub keeps only the latest queued run). No mid-deploy cancel => no Pages-API collision => no failure email.
+# This is exactly GitHub's official Pages-workflow concurrency pattern.
 concurrency:
   group: "pages"
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   deploy:
