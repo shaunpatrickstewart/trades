@@ -1,0 +1,39 @@
+name: Deploy static site to Pages
+
+# Fixes the "Deployment failed, try again later." spam: legacy deploy-from-branch could not keep up with the
+# ~15-min bot-data pushes (deploys collided + soft-rate-limited). Actions-based Pages + a cancel-in-progress
+# concurrency group makes a new push CANCEL the in-flight deploy instead of colliding — cancelled runs don't
+# email, so the failures stop. (Stewart 2026-07-04)
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# THE FIX: only one Pages deploy at a time; a newer push cancels the older in-flight one (no collision, no spam).
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+      - name: Upload artifact (whole repo, served as-is — static site)
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
