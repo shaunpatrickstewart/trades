@@ -26,7 +26,6 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -37,6 +36,19 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: '.'
+      # "Deployment failed, try again later." is a TRANSIENT GitHub-Pages soft-limit under the ~15-min deploy
+      # cadence, NOT a real error (neither cancel-mode fixes a backend transient). Tolerate it + retry once after a
+      # pause (the retry almost always succeeds, so the site still updates), and continue-on-error on BOTH attempts
+      # so a transient — or even a rare double — failure NEVER fails the run => NEVER emails. A genuine Pages outage
+      # instead shows up as the site going stale (the correct signal), not as 15-min email spam.
       - name: Deploy to GitHub Pages
-        id: deployment
+        id: deploy1
+        continue-on-error: true
+        uses: actions/deploy-pages@v4
+      - name: Pause, then retry (the transient limit clears fast)
+        if: steps.deploy1.outcome == 'failure'
+        run: sleep 60
+      - name: Deploy to GitHub Pages (retry)
+        if: steps.deploy1.outcome == 'failure'
+        continue-on-error: true
         uses: actions/deploy-pages@v4
